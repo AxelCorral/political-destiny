@@ -18,6 +18,7 @@ import { simulateFirstRound, simulateSecondRound } from "./election";
 import { initializeElectorate, recalculateElectorate } from "./electorate";
 import { selectNextEvent } from "./eventSelector";
 import { clamp, ideologyDistance } from "./math";
+import { evolveMembership } from "./membership";
 import {
   recordNarrativeProgress,
   releaseDueScheduledEvents,
@@ -231,8 +232,11 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
     recentCategories: [],
     flags: {
       [`method:${method.id}`]: true,
+      ...Object.fromEntries(selectedDefinition.uniqueEventTags.map((tag) => [`tag:${tag}`, true])),
       initialMembers: selectedParty.stats.members,
       initialPopularity: selectedParty.stats.popularity,
+      initialLocalStrength: selectedParty.stats.localStrength,
+      initialCredibility: selectedParty.stats.credibility,
     },
     statementLedger: [],
     policyPositions: {},
@@ -388,6 +392,7 @@ export function resolveCurrentChoice(
 
   const due = applyDueEffects(state);
   state = due.state;
+  state = evolveMembership(state, resolved.outcome.effects);
   state = simulateOpponentTurn(state);
   state = recalculateElectorate(
     state,

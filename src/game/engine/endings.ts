@@ -7,12 +7,41 @@ export function determineEndingId(state: GameState): string {
   const firstShare = firstRound?.results[state.playerPartyId] ?? 0;
   const rank = firstRound?.ranking.indexOf(state.playerPartyId) ?? -1;
   const progression = firstShare - (party?.initialPolling ?? 0);
+  const contradictionCount = state.statementLedger.filter((statement) =>
+    ["contradiction", "abrupt_reversal"].includes(statement.evolution ?? ""),
+  ).length;
 
-  if (state.flags.secret_national_union === true) return "secret_national_union";
-  if (state.flags.secret_monarchy === true) return "secret_monarchy";
-  if (state.flags.secret_fragmentation === true) return "secret_fragmentation";
-  if (state.flags.secret_authoritarian === true) return "secret_authoritarian";
-  if (state.flags.secret_civil_unrest === true) return "secret_civil_unrest";
+  if (
+    state.flags.secret_national_union === true ||
+    (state.flags.national_union_limited === true &&
+      state.flags.coalition_five_conditions === true &&
+      (party?.alliedWith.length ?? 0) >= 2)
+  )
+    return "secret_national_union";
+  if (
+    state.flags.secret_monarchy === true ||
+    (state.flags.crown_humor_response === true &&
+      state.flags.parrot_charity_clip === true &&
+      (party?.stats.mediaPresence ?? 0) >= 75)
+  )
+    return "secret_monarchy";
+  if (
+    state.flags.secret_fragmentation === true ||
+    (state.flags.fragmentation_confrontation === true && (party?.stats.cohesion ?? 100) <= 28)
+  )
+    return "secret_fragmentation";
+  if (
+    state.flags.secret_authoritarian === true ||
+    (state.flags.exceptional_powers_discretion === true &&
+      (party?.perceivedIdeology.authority ?? 0) >= 70 &&
+      contradictionCount >= 2)
+  )
+    return "secret_authoritarian";
+  if (
+    state.flags.secret_civil_unrest === true ||
+    (state.flags.voice_lost_on_stage === true && (party?.hidden.fatigue ?? 0) >= 25)
+  )
+    return "secret_civil_unrest";
   if (state.flags.retired === true) return "retirement";
   if (state.flags.withdrew === true) return "withdrawn";
   if ((secondRound?.ranking[0] ?? "") === state.playerPartyId) return "president";

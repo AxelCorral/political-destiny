@@ -926,6 +926,7 @@ export type AchievementMetric =
   | "alliances"
   | "actor_memories"
   | "members"
+  | "member_growth"
   | "party_stat"
   | "hidden_stat"
   | "choice_strategy"

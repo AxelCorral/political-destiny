@@ -9,6 +9,12 @@ import type {
 
 type MetricValue = boolean | number | string | string[];
 
+export interface AchievementProgress {
+  current: number;
+  target: number;
+  ratio: number;
+}
+
 function positiveOutcomeCount(state: GameState, category?: string): number {
   return state.decisionHistory.filter(
     (record) =>
@@ -88,6 +94,8 @@ function metricValue(
         .length;
     case "members":
       return party?.stats.members ?? 0;
+    case "member_growth":
+      return (party?.stats.members ?? 0) - Number(state.flags.initialMembers ?? 0);
     case "party_stat":
       return criterion.key ? (party?.stats[criterion.key as keyof PartyStats] ?? 0) : 0;
     case "hidden_stat":
@@ -137,6 +145,25 @@ export function achievementMatches(
     criterionMatches(metricValue(criterion, state, finalResult), criterion),
   );
   return criteria.mode === "all" ? matches.every(Boolean) : matches.some(Boolean);
+}
+
+export function achievementProgress(
+  definition: AchievementDefinition,
+  state: GameState,
+  finalResult?: FinalResult,
+): AchievementProgress | undefined {
+  const condition =
+    definition.criteria?.conditions.length === 1 ? definition.criteria.conditions[0] : undefined;
+  if (!condition || condition.operator !== "gte" || typeof condition.value !== "number") {
+    return undefined;
+  }
+  const actual = metricValue(condition, state, finalResult);
+  if (typeof actual !== "number") return undefined;
+  return {
+    current: actual,
+    target: condition.value,
+    ratio: Math.max(0, Math.min(1, actual / Math.max(condition.value, 1))),
+  };
 }
 
 export function evaluateAchievements(

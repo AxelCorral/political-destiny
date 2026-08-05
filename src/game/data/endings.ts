@@ -91,9 +91,9 @@ export const endings: EndingDefinition[] = [
   },
   {
     id: "secret_civil_unrest",
-    title: "La campagne suspendue",
+    title: "La campagne mise en retrait",
     narrative:
-      "Uchronie fictive et sobre : une crise civile majeure interrompt le calendrier. Le récit s’arrête sur l’échec collectif des institutions à préserver le débat démocratique.",
+      "Fin exceptionnelle : après plusieurs alertes et un dernier meeting interrompu, votre équipe suspend vos apparitions. La campagne continue sans vous et transforme l’épuisement ignoré en avertissement politique.",
     secret: true,
   },
 ];
