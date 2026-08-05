@@ -4,6 +4,21 @@ const accessedAt = "2026-08-05";
 
 const sources: SourceMetadata[] = [
   {
+    title: "L’élection présidentielle",
+    publisher: "Ministère de l’Intérieur",
+    url: "https://www.elections.interieur.gouv.fr/scrutins/lelection-presidentielle",
+    accessedAt,
+    note: "Dates officielles des deux tours : 18 avril et 2 mai 2027.",
+  },
+  {
+    title: "Conseil des ministres du 1er juillet 2026",
+    publisher: "Gouvernement français",
+    url: "https://www.info.gouv.fr/conseil-des-ministres/compte-rendu-du-conseil-des-ministres-du-01-07-2026",
+    publishedAt: "2026-07-01",
+    accessedAt,
+    note: "Communication relative au calendrier électoral 2027.",
+  },
+  {
     title: "La France insoumise — site officiel",
     publisher: "La France insoumise",
     url: "https://lafranceinsoumise.fr/",
@@ -68,7 +83,7 @@ const sources: SourceMetadata[] = [
 export const realWorldSnapshot: RealWorldSnapshot = {
   snapshotDate: accessedAt,
   lastEditorialReviewAt: accessedAt,
-  electionDateStatus: "configured",
+  electionDateStatus: "official",
   parties: [
     ["lfi", "La France insoumise", ["LFI"], "https://lafranceinsoumise.fr/"],
     ["ps", "Parti socialiste", ["PS"], "https://parti-socialiste.fr/"],
@@ -93,6 +108,6 @@ export const realWorldSnapshot: RealWorldSnapshot = {
     "Le snapshot vérifie uniquement les dénominations et sites publics utiles à la configuration.",
     "Aucune personnalité réelle n’est jouable et aucun dialogue ne lui est attribué.",
     "Les niveaux de soutien, traits, probabilités et résultats sont des paramètres fictifs de gameplay, non issus de sondages.",
-    "La date électorale utilisée par défaut est configurable et n’est pas présentée ici comme une annonce institutionnelle.",
+    "La date électorale par défaut reprend le calendrier annoncé par le Gouvernement et le ministère de l’Intérieur ; elle reste configurable pour les tests.",
   ],
 };

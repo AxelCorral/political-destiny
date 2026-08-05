@@ -24,15 +24,26 @@ const CATEGORY_TARGETS: Partial<Record<EventCategory, number>> = {
 };
 
 export function isEventEligible(state: GameState, event: GameEventDefinition): boolean {
+  const playerParty = state.parties[state.playerPartyId];
   if ((event.phaseWeights[state.phase] ?? 0) <= 0) return false;
   if (event.minDecisionIndex !== undefined && state.decisionIndex < event.minDecisionIndex)
     return false;
   if (event.maxDecisionIndex !== undefined && state.decisionIndex > event.maxDecisionIndex)
     return false;
   if (event.oncePerRun && state.seenEventIds.includes(event.id)) return false;
+  if ((state.eventAppearanceCounts[event.id] ?? 0) >= (event.maxAppearances ?? Infinity))
+    return false;
   if ((state.eventCooldowns[event.id] ?? -1) > state.decisionIndex) return false;
   if (event.eligibleParties && !event.eligibleParties.includes(state.playerPartyId)) return false;
+  if (
+    event.eligibleIdeologyFamilies &&
+    (!playerParty?.ideologyFamily ||
+      !event.eligibleIdeologyFamilies.includes(playerParty.ideologyFamily))
+  )
+    return false;
   if (event.excludedParties?.includes(state.playerPartyId)) return false;
+  if (event.incompatibleEventIds?.some((eventId) => state.seenEventIds.includes(eventId)))
+    return false;
   if (event.forbiddenFlags?.some((flag) => Boolean(state.flags[flag]))) return false;
   if (event.requiredTags?.some((tag) => !Boolean(state.flags[`tag:${tag}`]))) return false;
   return allConditionsMatch(state, event.eligibility);

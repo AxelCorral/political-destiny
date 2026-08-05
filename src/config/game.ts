@@ -1,9 +1,9 @@
 export const GAME_CONFIG = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   targetDecisionsBeforeFirstRound: 24,
   targetDecisionsBetweenRounds: 5,
   targetGovernmentDecisions: 2,
-  electionDate: "2027-04-11",
+  electionDate: "2027-04-18",
   stateMin: 0,
   stateMax: 100,
   ideologyMin: -100,

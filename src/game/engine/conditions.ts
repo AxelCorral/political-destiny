@@ -27,6 +27,45 @@ export function conditionMatches(state: GameState, condition: Condition): boolea
       return condition.partyIds.includes(state.playerPartyId);
     case "qualified":
       return condition.value === Boolean(state.qualifiedPartyIds?.includes(state.playerPartyId));
+    case "game_mode":
+      return condition.values.includes(state.mode);
+    case "ideology":
+      return compare(
+        playerParty.perceivedIdeology[condition.axis],
+        condition.operator,
+        condition.value,
+      );
+    case "ideology_family":
+      return Boolean(
+        playerParty.ideologyFamily && condition.values.includes(playerParty.ideologyFamily),
+      );
+    case "statement_exists":
+      return (
+        state.statementLedger.some((statement) => statement.policyTopic === condition.topic) ===
+        condition.value
+      );
+    case "contradiction_count":
+      return compare(
+        state.statementLedger.filter((statement) =>
+          ["contradiction", "abrupt_reversal"].includes(statement.evolution ?? ""),
+        ).length,
+        condition.operator,
+        condition.value,
+      );
+    case "actor_memory":
+      return state.actorMemories.some(
+        (memory) =>
+          memory.active &&
+          memory.actorId === condition.actorId &&
+          memory.kind === condition.memory &&
+          memory.intensity >= (condition.minimumIntensity ?? 1),
+      );
+    case "party_relation":
+      return compare(
+        state.partyRelations[state.playerPartyId]?.[condition.partyId] ?? 0,
+        condition.operator,
+        condition.value,
+      );
     default: {
       const exhaustive: never = condition;
       return exhaustive;

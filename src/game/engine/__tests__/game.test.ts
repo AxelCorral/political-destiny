@@ -34,6 +34,43 @@ describe("pipeline complet", () => {
     expect(left.finalResult?.score).toBeLessThanOrEqual(100);
   });
 
+  it("sépare les identifiants de partie sans modifier la trajectoire aléatoire", () => {
+    const first = createGame(
+      {
+        seed: "identité-partagée",
+        mode: "existing_party",
+        partyId: "alpha",
+        methodId: "field",
+        runInstanceId: "première-instance",
+      },
+      testContent,
+    );
+    const second = createGame(
+      {
+        seed: "identité-partagée",
+        mode: "existing_party",
+        partyId: "alpha",
+        methodId: "field",
+        runInstanceId: "seconde-instance",
+      },
+      testContent,
+    );
+    const otherParty = createGame(
+      {
+        seed: "identité-partagée",
+        mode: "existing_party",
+        partyId: "gamma",
+        methodId: "field",
+        runInstanceId: "première-instance",
+      },
+      testContent,
+    );
+
+    expect(new Set([first.runId, second.runId, otherParty.runId])).toHaveLength(3);
+    expect(first.rng).toEqual(second.rng);
+    expect(first.currentEventId).toBe(second.currentEventId);
+  });
+
   it("termine des campagnes variées sans état invalide", () => {
     fc.assert(
       fc.property(fc.string({ minLength: 1, maxLength: 24 }), (seed) => {

@@ -40,6 +40,16 @@ function defaultLabel(effect: GameEffect): string {
       return effect.action === "add" ? "Une alliance prend forme" : "Une alliance se brise";
     case "party_split":
       return "Une dissidence quitte le mouvement";
+    case "actor_memory":
+      return "Cette relation politique gardera une trace de votre décision";
+    case "party_relation":
+      return effect.delta >= 0
+        ? "Le dialogue entre les deux camps progresse"
+        : "Les deux camps s’éloignent";
+    case "policy_position":
+      return "Votre ligne politique se précise";
+    case "opponent_strategy":
+      return "Un adversaire adapte sa stratégie";
     default: {
       const exhaustive: never = effect;
       return exhaustive;
@@ -54,6 +64,11 @@ function effectTone(effect: GameEffect): VisibleEffect["tone"] {
   if (effect.kind === "party_split") return "negative";
   if (effect.kind === "candidate_status") {
     return effect.status === "official" ? "positive" : "negative";
+  }
+  if (effect.kind === "actor_memory") {
+    return ["trust", "political_debt", "support", "promise", "rallying"].includes(effect.memory)
+      ? "positive"
+      : "negative";
   }
   return "neutral";
 }
@@ -125,6 +140,63 @@ function applyOneEffect(state: GameState, effect: GameEffect): void {
     case "party_split": {
       const partyId = effect.partyId === "player" ? state.playerPartyId : effect.partyId;
       applyPartySplit(state, partyId, effect.actorId);
+      return;
+    }
+    case "actor_memory": {
+      const actorId = effect.actorId === "player" ? state.player.id : effect.actorId;
+      const actor = state.actors[actorId];
+      if (!actor) return;
+      const memory = {
+        id: `memory-${actorId}-${state.decisionIndex}-${state.actorMemories.length}`,
+        actorId,
+        kind: effect.memory,
+        intensity: clamp(effect.intensity, -100, 100),
+        sourceEventId: state.currentEventId ?? "system",
+        createdDecisionIndex: state.decisionIndex,
+        ...(effect.targetActorId ? { targetActorId: effect.targetActorId } : {}),
+        ...(effect.targetPartyId ? { targetPartyId: effect.targetPartyId } : {}),
+        ...(effect.topic ? { topic: effect.topic } : {}),
+        active: true,
+      } as const;
+      state.actorMemories.push(memory);
+      actor.memory.entries ??= [];
+      actor.memory.entries.push(structuredClone(memory));
+      return;
+    }
+    case "party_relation": {
+      const partyId = effect.partyId === "player" ? state.playerPartyId : effect.partyId;
+      const partnerId = effect.withPartyId === "player" ? state.playerPartyId : effect.withPartyId;
+      if (!state.parties[partyId] || !state.parties[partnerId] || partyId === partnerId) return;
+      state.partyRelations[partyId] ??= {};
+      state.partyRelations[partnerId] ??= {};
+      const next = clamp((state.partyRelations[partyId][partnerId] ?? 0) + effect.delta, -100, 100);
+      state.partyRelations[partyId][partnerId] = next;
+      state.partyRelations[partnerId][partyId] = next;
+      return;
+    }
+    case "policy_position": {
+      const current = state.policyPositions[effect.topic];
+      state.policyPositions[effect.topic] = current
+        ? {
+            ...current,
+            stance: clamp(effect.stance, -100, 100),
+            confidence: clamp(effect.confidence ?? current.confidence),
+            lastDecisionIndex: state.decisionIndex,
+            changes: current.changes + Number(Math.abs(current.stance - effect.stance) >= 8),
+          }
+        : {
+            topic: effect.topic,
+            stance: clamp(effect.stance, -100, 100),
+            confidence: clamp(effect.confidence ?? 60),
+            firstDecisionIndex: state.decisionIndex,
+            lastDecisionIndex: state.decisionIndex,
+            changes: 0,
+          };
+      return;
+    }
+    case "opponent_strategy": {
+      const actor = state.actors[effect.actorId];
+      if (actor && actor.id !== state.player.id) actor.strategy = effect.strategy;
       return;
     }
     default: {

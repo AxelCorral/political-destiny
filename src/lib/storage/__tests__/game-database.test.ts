@@ -4,6 +4,7 @@ import { beforeEach, describe, expect, it } from "vitest";
 
 import { gameContent } from "@/game/data";
 import { createGame, currentEvent, resolveCurrentChoice } from "@/game/engine";
+import type { GameState } from "@/game/types";
 
 import {
   archiveCompletedGame,
@@ -14,6 +15,7 @@ import {
   importLocalData,
   listCompletedRuns,
   loadActiveGame,
+  migrateGameState,
   saveActiveGame,
 } from "../game-database";
 
@@ -90,5 +92,30 @@ describe.sequential("stockage local", () => {
     await expect(importLocalData({ format: "autre-produit", archives: [] })).rejects.toThrow(
       "n’est pas un export",
     );
+  });
+
+  it("migre une sauvegarde V1 vers les structures relationnelles V2", () => {
+    const legacy = structuredClone(newState("migration-v1")) as GameState & Record<string, unknown>;
+    legacy.version = 1;
+    for (const key of [
+      "runInstanceId",
+      "scheduledEvents",
+      "eventAppearanceCounts",
+      "policyPositions",
+      "actorMemories",
+      "partyRelations",
+      "narrativeThreads",
+      "opponentActions",
+    ]) {
+      delete legacy[key];
+    }
+
+    const migrated = migrateGameState(legacy);
+
+    expect(migrated.version).toBe(2);
+    expect(migrated.runInstanceId).toMatch(/^legacy-/u);
+    expect(migrated.scheduledEvents).toEqual([]);
+    expect(migrated.policyPositions).toEqual({});
+    expect(migrated.partyRelations.ps?.ps).toBe(100);
   });
 });

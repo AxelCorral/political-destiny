@@ -29,6 +29,83 @@ export type EventCategory =
 
 export type EventRarity = "common" | "uncommon" | "rare" | "legendary" | "secret";
 
+export type EventImportance = "routine" | "notable" | "major" | "decisive";
+
+export type PoliticalTopic =
+  | "economy"
+  | "fiscality"
+  | "pensions"
+  | "public_services"
+  | "work"
+  | "security"
+  | "immigration"
+  | "europe"
+  | "ecology"
+  | "institutions"
+  | "civil_liberties"
+  | "social_issues";
+
+export type IdeologyFamily =
+  | "radical_left"
+  | "social_democrat"
+  | "green"
+  | "liberal_center"
+  | "center_right"
+  | "conservative_right"
+  | "national_right"
+  | "sovereigntist_right"
+  | "custom";
+
+export type ChoiceStrategy =
+  | "policy_commitment"
+  | "media_response"
+  | "internal_discipline"
+  | "negotiation"
+  | "break"
+  | "compromise"
+  | "legal_action"
+  | "symbolic_action"
+  | "silence"
+  | "grassroots_mobilization"
+  | "program_shift"
+  | "alliance"
+  | "exclusion"
+  | "personal_risk"
+  | "long_term_strategy";
+
+export type EntityCategory =
+  | "party"
+  | "public_figure"
+  | "fictional_character"
+  | "media"
+  | "broadcast_format"
+  | "institution"
+  | "country"
+  | "territory"
+  | "organization"
+  | "historical_event";
+
+export type EntityReality = "real" | "fictional";
+
+export type EditorialSensitivity = "none" | "contextual" | "sensitive" | "prohibited";
+
+export interface EntityDefinition {
+  id: string;
+  displayName: string;
+  category: EntityCategory;
+  reality: EntityReality;
+  allowedUses: string[];
+  sensitivity: EditorialSensitivity;
+  verifiedAt?: string;
+  sourceMetadata?: SourceMetadata[];
+  notes?: string;
+}
+
+export interface EntityReference {
+  entityId: string;
+  role: "subject" | "speaker" | "host" | "location" | "institution" | "context";
+}
+
 export type ChoiceTag =
   | "PRUDENT"
   | "RISQUÉ"
@@ -176,6 +253,32 @@ export interface PartyDefinition {
   strategicArchetypes: OpponentStrategy[];
   uniqueEventTags: string[];
   careerTitle: string;
+  ideologyFamily?: IdeologyFamily;
+  campaignProfile?: {
+    coreElectorates: ElectorateBlocId[];
+    targetElectorates: ElectorateBlocId[];
+    difficultElectorates: ElectorateBlocId[];
+    activistCulture: string;
+    publicImage: string;
+    mediaRelationship: string;
+    internalTensions: string[];
+    favorableTopics: PoliticalTopic[];
+    dangerousTopics: PoliticalTopic[];
+    naturalAllies: string[];
+    directCompetitors: string[];
+    firstRoundStrategy: string;
+    runoffStrategy: string;
+    contradictions: string[];
+    victoryConditions: string[];
+  };
+  organizationProfile?: {
+    leadershipStyle: "personal" | "collective" | "federal" | "movement";
+    internalDemocracy: number;
+    volunteerReliance: number;
+    fundingModel: "members" | "donors" | "elected_officials" | "mixed";
+    priorityTopics: PoliticalTopic[];
+    incoherence: number;
+  };
   sourceMetadata?: SourceMetadata[];
 }
 
@@ -186,6 +289,7 @@ export interface PartyState {
   visual: PartyVisual;
   ideology: IdeologyVector;
   perceivedIdeology: IdeologyVector;
+  ideologyFamily?: IdeologyFamily;
   stats: PartyStats;
   hidden: HiddenPartyStats;
   candidateId: string;
@@ -218,6 +322,32 @@ export interface ActorMemory {
   failedActions: string[];
   rivalries: string[];
   promises: string[];
+  entries?: ActorMemoryEntry[];
+}
+
+export type ActorMemoryKind =
+  | "trust"
+  | "hostility"
+  | "political_debt"
+  | "betrayal"
+  | "support"
+  | "humiliation"
+  | "promise"
+  | "alliance_refusal"
+  | "exclusion"
+  | "rallying";
+
+export interface ActorMemoryEntry {
+  id: string;
+  actorId: string;
+  kind: ActorMemoryKind;
+  intensity: number;
+  sourceEventId: string;
+  createdDecisionIndex: number;
+  targetActorId?: string;
+  targetPartyId?: string;
+  topic?: PoliticalTopic;
+  active: boolean;
 }
 
 export interface ActorState {
@@ -293,9 +423,38 @@ export type Condition =
   | { kind: "flag"; key: string; equals: boolean | number | string }
   | { kind: "not_flag"; key: string }
   | { kind: "player_party"; partyIds: string[] }
-  | { kind: "qualified"; value: boolean };
+  | { kind: "qualified"; value: boolean }
+  | { kind: "game_mode"; values: GameMode[] }
+  | { kind: "ideology"; axis: IdeologyAxis; operator: "gte" | "lte"; value: number }
+  | { kind: "ideology_family"; values: IdeologyFamily[] }
+  | { kind: "statement_exists"; topic: PoliticalTopic; value: boolean }
+  | { kind: "contradiction_count"; operator: "gte" | "lte"; value: number }
+  | {
+      kind: "actor_memory";
+      actorId: string;
+      memory: ActorMemoryKind;
+      minimumIntensity?: number;
+    }
+  | {
+      kind: "party_relation";
+      partyId: string;
+      operator: "gte" | "lte";
+      value: number;
+    };
 
-export type ModifierSource = "party_stat" | "trait" | "world" | "flag" | "phase" | "history";
+export type ModifierSource =
+  | "party_stat"
+  | "trait"
+  | "world"
+  | "flag"
+  | "phase"
+  | "history"
+  | "ideology"
+  | "statement"
+  | "actor_memory"
+  | "party_relation"
+  | "electorate"
+  | "consistency";
 
 export interface ProbabilityModifier {
   source: ModifierSource;
@@ -379,12 +538,53 @@ export type GameEffect =
       actorId?: string;
       visibility?: EffectVisibility;
       label?: string;
+    }
+  | {
+      kind: "actor_memory";
+      actorId: string;
+      memory: ActorMemoryKind;
+      intensity: number;
+      targetActorId?: string;
+      targetPartyId?: string;
+      topic?: PoliticalTopic;
+      visibility?: EffectVisibility;
+      label?: string;
+    }
+  | {
+      kind: "party_relation";
+      partyId: string;
+      withPartyId: string;
+      delta: number;
+      visibility?: EffectVisibility;
+      label?: string;
+    }
+  | {
+      kind: "policy_position";
+      topic: PoliticalTopic;
+      stance: number;
+      confidence?: number;
+      visibility?: EffectVisibility;
+      label?: string;
+    }
+  | {
+      kind: "opponent_strategy";
+      actorId: string;
+      strategy: OpponentStrategy;
+      visibility?: EffectVisibility;
+      label?: string;
     };
 
 export interface DelayedEffectDefinition {
   afterDecisions: number;
   effects: GameEffect[];
   narrative?: string;
+}
+
+export interface EventFollowUpDefinition {
+  eventId: string;
+  afterDecisions: number;
+  probability: number;
+  conditions?: Condition[];
 }
 
 export interface WeightedOutcome {
@@ -397,6 +597,7 @@ export interface WeightedOutcome {
   delayedEffects?: DelayedEffectDefinition[];
   setFlags?: Record<string, boolean | number | string>;
   enqueueEventIds?: string[];
+  followUps?: EventFollowUpDefinition[];
   endingTrigger?: string;
 }
 
@@ -404,11 +605,14 @@ export interface EventChoice {
   id: string;
   label: string;
   visibleTag?: ChoiceTag;
+  strategy?: ChoiceStrategy;
   outcomeGroups: WeightedOutcome[];
   immediatePublicHint?: string;
   statement?: {
     topic: string;
+    policyTopic?: PoliticalTopic;
     text: string;
+    stance?: number;
     ideology?: Partial<IdeologyVector>;
   };
 }
@@ -424,18 +628,34 @@ export interface GameEventDefinition {
   title: string;
   category: EventCategory;
   summary: string;
+  themes?: PoliticalTopic[];
+  importance?: EventImportance;
   phaseWeights: Partial<Record<GamePhase, number>>;
   rarity: EventRarity;
   baseWeight: number;
   minDecisionIndex?: number;
   maxDecisionIndex?: number;
   eligibleParties?: string[];
+  eligibleIdeologyFamilies?: IdeologyFamily[];
   excludedParties?: string[];
+  incompatibleEventIds?: string[];
   requiredTags?: string[];
   forbiddenFlags?: string[];
   eligibility: Condition[];
   cooldown: number;
   oncePerRun: boolean;
+  maxAppearances?: number;
+  entityReferences?: EntityReference[];
+  editorialSensitivity?: EditorialSensitivity;
+  chain?: {
+    id: string;
+    step: number;
+    followsEventIds?: string[];
+    minimumDelay?: number;
+    maximumDelay?: number;
+  };
+  successConditions?: Condition[];
+  failureConditions?: Condition[];
   worldImpact?: boolean;
   sensitiveContent?: SensitiveContentMeta;
   choices: EventChoice[];
@@ -450,12 +670,60 @@ export interface ScheduledEffect {
   narrative?: string;
 }
 
+export interface ScheduledEvent {
+  id: string;
+  eventId: string;
+  sourceEventId: string;
+  dueDecisionIndex: number;
+  probability: number;
+  conditions: Condition[];
+}
+
+export type StatementEvolution =
+  | "initial_position"
+  | "gradual_evolution"
+  | "coherent_compromise"
+  | "strategic_repositioning"
+  | "contradiction"
+  | "abrupt_reversal";
+
 export interface StatementRecord {
   decisionIndex: number;
   eventId: string;
   topic: string;
+  policyTopic?: PoliticalTopic;
   text: string;
+  stance?: number;
+  evolution?: StatementEvolution;
+  contradictionWithDecisionIndex?: number;
   ideology?: Partial<IdeologyVector>;
+}
+
+export interface PolicyPositionState {
+  topic: PoliticalTopic;
+  stance: number;
+  confidence: number;
+  firstDecisionIndex: number;
+  lastDecisionIndex: number;
+  changes: number;
+}
+
+export interface NarrativeThreadState {
+  id: string;
+  currentStep: number;
+  status: "active" | "resolved" | "failed";
+  startedAtDecisionIndex: number;
+  lastEventId: string;
+  history: string[];
+}
+
+export interface OpponentActionRecord {
+  decisionIndex: number;
+  date: string;
+  actorId: string;
+  partyId: string;
+  kind: "strategy" | "crisis" | "alliance" | "withdrawal" | "replacement" | "dissidence";
+  summary: string;
 }
 
 export interface VisibleEffect {
@@ -471,10 +739,13 @@ export interface DecisionRecord {
   eventCategory: EventCategory;
   choiceId: string;
   choiceLabel: string;
+  choiceStrategy?: ChoiceStrategy;
   outcomeId: string;
   outcomeTitle: string;
   narrative: string;
   visibleEffects: VisibleEffect[];
+  decisiveFactors?: string[];
+  statementEvolution?: StatementEvolution;
   internalRoll: number;
   internalProbabilities: Record<string, number>;
 }
@@ -548,6 +819,7 @@ export interface FinalResult {
 export interface GameState {
   version: number;
   runId: string;
+  runInstanceId: string;
   seed: string;
   rng: RngState;
   mode: GameMode;
@@ -566,7 +838,9 @@ export interface GameState {
   decisionHistory: DecisionRecord[];
   publicNews: NewsItem[];
   scheduledEffects: ScheduledEffect[];
+  scheduledEvents: ScheduledEvent[];
   eventCooldowns: Record<string, number>;
+  eventAppearanceCounts: Record<string, number>;
   seenEventIds: string[];
   queuedEventIds: string[];
   categoryCounts: Partial<Record<EventCategory, number>>;
@@ -574,6 +848,11 @@ export interface GameState {
   currentEventId?: string;
   flags: Record<string, boolean | number | string>;
   statementLedger: StatementRecord[];
+  policyPositions: Partial<Record<PoliticalTopic, PolicyPositionState>>;
+  actorMemories: ActorMemoryEntry[];
+  partyRelations: Record<string, Record<string, number>>;
+  narrativeThreads: Record<string, NarrativeThreadState>;
+  opponentActions: OpponentActionRecord[];
   achievementsUnlocked: string[];
   firstRoundResult?: ElectionRoundResult;
   secondRoundResult?: ElectionRoundResult;
@@ -606,6 +885,42 @@ export interface AchievementDefinition {
     | "secret_endings";
   icon: string;
   secret?: boolean;
+  criteria?: {
+    mode: "all" | "any";
+    conditions: AchievementCriterion[];
+  };
+}
+
+export type AchievementMetric =
+  | "campaign_completed"
+  | "won"
+  | "qualified"
+  | "party_id"
+  | "game_mode"
+  | "ending_id"
+  | "score"
+  | "first_round_score"
+  | "second_round_score"
+  | "polling_progression"
+  | "starting_polling"
+  | "final_rank"
+  | "decisions"
+  | "positive_outcomes"
+  | "scandals"
+  | "statement_topics"
+  | "contradictions"
+  | "alliances"
+  | "actor_memories"
+  | "members"
+  | "party_stat"
+  | "hidden_stat"
+  | "choice_strategy";
+
+export interface AchievementCriterion {
+  metric: AchievementMetric;
+  operator: "eq" | "gte" | "lte" | "contains";
+  value: boolean | number | string;
+  key?: string;
 }
 
 export interface EndingDefinition {
@@ -638,6 +953,7 @@ export interface CompletedRunSummary {
 }
 
 export interface GameContent {
+  contentVersion?: 1 | 2;
   parties: PartyDefinition[];
   actors: ActorState[];
   electorateBlocs: ElectorateBlocDefinition[];
@@ -645,6 +961,7 @@ export interface GameContent {
   methods: CampaignMethod[];
   achievements: AchievementDefinition[];
   endings: EndingDefinition[];
+  entities?: EntityDefinition[];
 }
 
 export interface RealPartySnapshot {
@@ -682,6 +999,7 @@ export interface NewGameOptions {
   candidateName?: string;
   customParty?: PartyDefinition;
   electionDate?: string;
+  runInstanceId?: string;
 }
 
 export interface ChoiceResolution {

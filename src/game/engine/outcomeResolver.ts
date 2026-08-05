@@ -36,6 +36,38 @@ function modifierValue(state: GameState, modifier: ProbabilityModifier): number 
       )
         ? 1
         : 0;
+    case "ideology": {
+      const value = party.perceivedIdeology[modifier.key as keyof typeof party.perceivedIdeology];
+      return typeof value === "number" ? value / 100 : 0;
+    }
+    case "statement":
+      return state.statementLedger.some(
+        (statement) => statement.policyTopic === modifier.key || statement.topic === modifier.key,
+      )
+        ? 1
+        : -0.25;
+    case "actor_memory": {
+      const [actorId, memoryKind] = modifier.key.split(":");
+      const intensity = state.actorMemories
+        .filter(
+          (memory) =>
+            memory.active &&
+            (!actorId || memory.actorId === actorId) &&
+            (!memoryKind || memory.kind === memoryKind),
+        )
+        .reduce((sum, memory) => sum + memory.intensity, 0);
+      return Math.max(-1, Math.min(1, intensity / 100));
+    }
+    case "party_relation":
+      return (state.partyRelations[state.playerPartyId]?.[modifier.key] ?? 0) / 100;
+    case "electorate":
+      return (
+        (state.electorate.trustModifiers[
+          modifier.key as keyof typeof state.electorate.trustModifiers
+        ]?.[state.playerPartyId] ?? 0) / 40
+      );
+    case "consistency":
+      return (party.hidden.consistency - 50) / 50;
     default: {
       const exhaustive: never = modifier.source;
       return exhaustive;

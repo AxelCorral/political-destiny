@@ -73,6 +73,15 @@ function freshSeed(): string {
   return `campagne-${Date.now().toString(36)}`;
 }
 
+function freshRunInstanceId(): string {
+  const values = new Uint32Array(3);
+  if (globalThis.crypto) {
+    globalThis.crypto.getRandomValues(values);
+    return `local-${Array.from(values, (value) => value.toString(36)).join("-")}`;
+  }
+  return `local-${Date.now().toString(36)}`;
+}
+
 export const useGameStore = create<GameUiState>((set, get) => ({
   screen: "mode",
   setup: {},
@@ -140,6 +149,7 @@ export const useGameStore = create<GameUiState>((set, get) => ({
           mode: setup.mode,
           partyId,
           methodId,
+          runInstanceId: freshRunInstanceId(),
           ...(setup.candidateName ? { candidateName: setup.candidateName } : {}),
           ...(setup.customParty ? { customParty: setup.customParty } : {}),
         },

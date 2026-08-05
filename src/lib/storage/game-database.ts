@@ -1,6 +1,7 @@
 import { openDB, type DBSchema, type IDBPDatabase } from "idb";
 
 import { GAME_CONFIG } from "@/config/game";
+import { deriveStableId } from "@/game/engine/rng";
 import type { CompletedRunSummary, GameMode, GameState } from "@/game/types";
 
 const DATABASE_NAME = "vers-lelysee";
@@ -146,12 +147,51 @@ export function isRecoverableGameState(value: unknown): value is GameState {
   );
 }
 
-function migrateGameState(value: GameState): GameState {
+function initialPartyRelations(state: GameState): Record<string, Record<string, number>> {
+  return Object.fromEntries(
+    Object.values(state.parties).map((party) => [
+      party.id,
+      Object.fromEntries(
+        Object.values(state.parties).map((other) => [
+          other.id,
+          party.id === other.id ? 100 : party.alliedWith.includes(other.id) ? 35 : 0,
+        ]),
+      ),
+    ]),
+  );
+}
+
+function appearanceCounts(eventIds: string[]): Record<string, number> {
+  return eventIds.reduce<Record<string, number>>((counts, eventId) => {
+    counts[eventId] = (counts[eventId] ?? 0) + 1;
+    return counts;
+  }, {});
+}
+
+export function migrateGameState(value: GameState): GameState {
   if (value.version > GAME_CONFIG.schemaVersion) {
     throw new Error("Cette sauvegarde provient d’une version plus récente du jeu.");
   }
-  // Version 1 is the baseline. Future migrations are applied here in ascending order.
-  return { ...structuredClone(value), version: GAME_CONFIG.schemaVersion };
+  const migrated = structuredClone(value);
+  if (migrated.version < 2) {
+    const legacyRunId = migrated.runId;
+    migrated.runInstanceId = `legacy-${legacyRunId}`;
+    migrated.runId = deriveStableId(
+      `2:${migrated.seed}:${migrated.playerPartyId}:${migrated.runInstanceId}`,
+      "run",
+    );
+    migrated.scheduledEvents = [];
+    migrated.eventAppearanceCounts = appearanceCounts(migrated.seenEventIds);
+    migrated.policyPositions = {};
+    migrated.actorMemories = Object.values(migrated.actors).flatMap((actor) =>
+      structuredClone(actor.memory.entries ?? []),
+    );
+    migrated.partyRelations = initialPartyRelations(migrated);
+    migrated.narrativeThreads = {};
+    migrated.opponentActions = [];
+    migrated.version = 2;
+  }
+  return { ...migrated, version: GAME_CONFIG.schemaVersion };
 }
 
 export async function saveActiveGame(state: GameState): Promise<void> {

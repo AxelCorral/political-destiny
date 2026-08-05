@@ -32,6 +32,7 @@ function partyStateFromDefinition(definition: PartyDefinition): PartyState {
     visual: structuredClone(definition.visual),
     ideology: structuredClone(definition.ideology),
     perceivedIdeology: structuredClone(definition.ideology),
+    ...(definition.ideologyFamily ? { ideologyFamily: definition.ideologyFamily } : {}),
     stats: {
       polling: definition.baseline.baseSupport,
       popularity: definition.baseline.popularity,
@@ -145,9 +146,25 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
 
   const electionDate = options.electionDate ?? GAME_CONFIG.electionDate;
   const seed = options.seed.trim() || `campagne-${selectedDefinition.id}`;
+  const runInstanceId =
+    options.runInstanceId?.trim() ||
+    deriveStableId(
+      `${GAME_CONFIG.schemaVersion}:${options.mode}:${selectedDefinition.id}:${method.id}:${seed}`,
+      "instance",
+    );
+  const partyRelations = Object.fromEntries(
+    Object.keys(parties).map((partyId) => [
+      partyId,
+      Object.fromEntries(Object.keys(parties).map((otherPartyId) => [otherPartyId, 0])),
+    ]),
+  );
   let state: GameState = {
     version: GAME_CONFIG.schemaVersion,
-    runId: deriveStableId(seed, "run"),
+    runId: deriveStableId(
+      `${GAME_CONFIG.schemaVersion}:${seed}:${selectedDefinition.id}:${runInstanceId}`,
+      "run",
+    ),
+    runInstanceId,
     seed,
     rng: createRngState(seed),
     mode: options.mode,
@@ -183,7 +200,9 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
     decisionHistory: [],
     publicNews: [],
     scheduledEffects: [],
+    scheduledEvents: [],
     eventCooldowns: {},
+    eventAppearanceCounts: {},
     seenEventIds: [],
     queuedEventIds: [],
     categoryCounts: {},
@@ -194,6 +213,13 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
       initialPopularity: selectedParty.stats.popularity,
     },
     statementLedger: [],
+    policyPositions: {},
+    actorMemories: Object.values(actors).flatMap((actor) =>
+      structuredClone(actor.memory.entries ?? []),
+    ),
+    partyRelations,
+    narrativeThreads: {},
+    opponentActions: [],
     achievementsUnlocked: [],
   };
 
@@ -329,6 +355,7 @@ export function resolveCurrentChoice(
 
   state.decisionIndex += 1;
   state.seenEventIds.push(event.id);
+  state.eventAppearanceCounts[event.id] = (state.eventAppearanceCounts[event.id] ?? 0) + 1;
   state.eventCooldowns[event.id] = state.decisionIndex + event.cooldown;
   state.categoryCounts[event.category] = (state.categoryCounts[event.category] ?? 0) + 1;
   state.recentCategories = [...state.recentCategories, event.category].slice(-4);

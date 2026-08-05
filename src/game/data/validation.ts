@@ -1,6 +1,8 @@
 import { gameContentSchema } from "@/game/schemas";
 import type { EventCategory, GameContent } from "@/game/types";
 
+import { validateContentQuality, type ContentQualityMetrics } from "./qualityValidation";
+
 export interface ContentValidationReport {
   valid: boolean;
   errors: string[];
@@ -13,6 +15,7 @@ export interface ContentValidationReport {
     endings: number;
     categories: Record<string, number>;
     rareOrSecret: number;
+    quality: ContentQualityMetrics;
   };
 }
 
@@ -44,6 +47,11 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
   if (!parsed.success) {
     for (const issue of parsed.error.issues)
       errors.push(`Schéma ${issue.path.join(".")}: ${issue.message}`);
+  }
+  const quality = validateContentQuality(content);
+  if (content.contentVersion === 2) {
+    errors.push(...quality.errors.map((error) => `Qualité V2 : ${error}`));
+    warnings.push(...quality.warnings);
   }
 
   const idCollections = [
@@ -183,6 +191,7 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
       endings: content.endings.length,
       categories,
       rareOrSecret,
+      quality: quality.metrics,
     },
   };
 }

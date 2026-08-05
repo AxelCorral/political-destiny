@@ -13,6 +13,7 @@ export function validateGameState(state: GameState): StateValidationResult {
   if (!Number.isFinite(state.rng.state) || !Number.isInteger(state.rng.draws)) {
     errors.push("état PRNG invalide");
   }
+  if (!state.runId || !state.runInstanceId) errors.push("identité de partie incomplète");
   if (!state.parties[state.playerPartyId]) errors.push("parti joueur absent");
   if (!state.actors[state.player.id]) errors.push("candidat joueur absent");
 
@@ -32,6 +33,37 @@ export function validateGameState(state: GameState): StateValidationResult {
       if (!Number.isFinite(value) || value < -100 || value > 100) {
         errors.push(`idéologie invalide ${party.id}.${key}`);
       }
+    }
+  }
+
+  for (const [eventId, count] of Object.entries(state.eventAppearanceCounts)) {
+    if (!eventId || !Number.isInteger(count) || count < 0)
+      errors.push(`compteur d’apparition invalide ${eventId}`);
+  }
+  for (const position of Object.values(state.policyPositions)) {
+    if (!position) continue;
+    if (!Number.isFinite(position.stance) || position.stance < -100 || position.stance > 100)
+      errors.push(`position politique invalide ${position.topic}`);
+    if (
+      !Number.isFinite(position.confidence) ||
+      position.confidence < 0 ||
+      position.confidence > 100
+    )
+      errors.push(`confiance de position invalide ${position.topic}`);
+  }
+  for (const memory of state.actorMemories) {
+    if (!state.actors[memory.actorId])
+      errors.push(`mémoire liée à un acteur absent ${memory.actorId}`);
+    if (!Number.isFinite(memory.intensity) || memory.intensity < -100 || memory.intensity > 100)
+      errors.push(`intensité de mémoire invalide ${memory.id}`);
+  }
+  for (const [partyId, relations] of Object.entries(state.partyRelations)) {
+    if (!state.parties[partyId]) errors.push(`relations liées à un parti absent ${partyId}`);
+    for (const [otherPartyId, value] of Object.entries(relations)) {
+      if (!state.parties[otherPartyId])
+        errors.push(`relation vers un parti absent ${otherPartyId}`);
+      if (!Number.isFinite(value) || value < -100 || value > 100)
+        errors.push(`relation invalide ${partyId}/${otherPartyId}`);
     }
   }
 
