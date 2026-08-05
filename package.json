@@ -2,6 +2,7 @@
   "name": "vers-lelysee",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "description": "Jeu local et fictif de campagne présidentielle française.",
   "engines": {
     "node": ">=20.9.0"
@@ -55,7 +56,6 @@
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.7",
     "typescript": "^6.0.3",
-    "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.1.10"
   }
 }

@@ -18,18 +18,18 @@ Ce document suit l’avancement de la V1 décrite dans `PROMPT_MAITRE_CLAUDE_COD
 
 ## Phase 2 — Moteur de simulation pur
 
-- [ ] Définir tous les types sérialisables et schémas Zod.
-- [ ] Implémenter le PRNG déterministe et ses dérivations.
-- [ ] Construire l’état initial, le calendrier et les transitions de phase.
-- [ ] Implémenter conditions, softmax, résolution probabiliste et journal interne.
-- [ ] Appliquer et borner les effets immédiats, cachés et différés.
-- [ ] Implémenter sélection pondérée, quotas souples, cooldowns et chaînes.
-- [ ] Simuler les adversaires, stratégies, crises, retraits et remplacements.
-- [ ] Modéliser électorat latent, sondages bruités et tendances régionales.
-- [ ] Calculer premier tour, reports, second tour et épilogue.
-- [ ] Calculer score final, fins et succès.
-- [ ] Ajouter tests unitaires et tests par propriétés.
-- [ ] Commit de phase.
+- [x] Définir tous les types sérialisables et schémas Zod.
+- [x] Implémenter le PRNG déterministe et ses dérivations.
+- [x] Construire l’état initial, le calendrier et les transitions de phase.
+- [x] Implémenter conditions, softmax, résolution probabiliste et journal interne.
+- [x] Appliquer et borner les effets immédiats, cachés et différés.
+- [x] Implémenter sélection pondérée, quotas souples, cooldowns et chaînes.
+- [x] Simuler les adversaires, stratégies, crises, retraits et remplacements.
+- [x] Modéliser électorat latent, sondages bruités et tendances régionales.
+- [x] Calculer premier tour, reports, second tour et épilogue.
+- [x] Calculer score final, fins et succès.
+- [x] Ajouter tests unitaires et tests par propriétés.
+- [x] Commit de phase.
 
 ## Phase 3 — Données et contenu jouable
 
