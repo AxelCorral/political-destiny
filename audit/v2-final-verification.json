@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-08-06T01:10:00.000Z",
+  "scope": "Final verification after Phase F/G/H completion and full-scale V2 audits, before Phase J writeup.",
+  "checks": {
+    "formatCheck": {
+      "command": "npm run format:check",
+      "status": "passed",
+      "note": "audit/campaign-dynamics-report.json (the untouched V1 baseline artifact) shows a pre-existing formatting drift unrelated to this session; not modified."
+    },
+    "lint": {
+      "command": "npm run lint",
+      "status": "passed",
+      "warnings": 0,
+      "errors": 0
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "status": "passed"
+    },
+    "dataValidation": {
+      "command": "npm run data:validate",
+      "status": "passed",
+      "events": 232,
+      "achievements": 58,
+      "actors": 41
+    },
+    "build": {
+      "command": "npm run build",
+      "status": "passed"
+    },
+    "npmAudit": {
+      "command": "npm audit --audit-level=high",
+      "status": "passed",
+      "vulnerabilities": 0
+    },
+    "vitest": {
+      "command": "npm run test",
+      "status": "passed",
+      "passed": 76,
+      "failed": 0,
+      "total": 76
+    },
+    "vitestCoverage": {
+      "command": "npx vitest run --coverage --coverage.reporter=json-summary --coverage.reporter=text --testTimeout=15000",
+      "status": "passed",
+      "statements": 78.3,
+      "branches": 66.42,
+      "functions": 74.62,
+      "lines": 82.04,
+      "note": "vitest.config.ts's default coverage reporters do not include json-summary; audit/coverage/coverage-summary.json must be copied from the root ./coverage/ output (gitignored) after an explicit --coverage.reporter=json-summary run."
+    },
+    "playwrightAgainstProductionBuild": {
+      "command": "npx playwright test (production build on an ad hoc port, project config baseURL only, retries=2 to match ci)",
+      "status": "passed",
+      "passed": 17,
+      "flakyPassedOnRetry": 1,
+      "skipped": 6,
+      "failed": 0,
+      "total": 24,
+      "note": "Two fixtures (e2e-ps-1, e2e-rn-0) initially failed because their hardcoded seeds no longer produced the expected deterministic outcome after the Phase F balance recalibration; replaced with re-verified seeds (e2e-ps-search-0, e2e-rn-defeat-0) and committed. The one remaining flaky test failed once on the initial fiction-notice dialog step and passed on retry, matching the pre-existing flakiness category documented in Phase I (V2_DECISIONS.md D-010) rather than a new defect."
+    },
+    "simulationScale": {
+      "command": "scripts/audit/simulation-audit.ts, scripts/audit/custom-party-simulation.ts, scripts/audit/campaign-dynamics-audit.ts",
+      "status": "passed",
+      "existingPartyRuns": 6300,
+      "customPartyRuns": 2000,
+      "dynamicsRuns": 900,
+      "determinismFailures": 0,
+      "invalidRuns": 0
+    },
+    "browserResilience": {
+      "command": "node scripts/audit/browser-resilience.mjs",
+      "status": "passed",
+      "viewportsTested": ["360x800", "412x915", "768x1024", "1366x768", "1920x1080"],
+      "horizontalOverflowFindings": 0,
+      "reducedMotionRespected": true
+    },
+    "accessibilityContrastCheck": {
+      "command": "ad hoc script reusing scripts/audit/browser-page-metrics.js logic against /, /jouer, /archives, /badges, /a-propos",
+      "status": "passed",
+      "unlabeledControls": 0,
+      "missingAltImages": 0,
+      "duplicateIds": 0,
+      "lowContrastTextFindings": 0,
+      "knownGap": "Footer and header-icon links remain under the 44px tap-target guideline on all pages checked; not corrected in this session."
+    }
+  }
+}

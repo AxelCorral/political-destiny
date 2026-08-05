@@ -62,9 +62,17 @@ l’interface après la première visite et les sauvegardes restent dans Indexed
 
 Les exigences détaillées et l’état d’avancement figurent dans `TODO.md`.
 
-## État de la V1
+## État de la V2
 
-La V1 comprend 9 partis jouables, un mouvement personnalisable, 182 événements, 58 succès,
-les deux tours de l’élection et l’épilogue gouvernemental. Elle est validée par 38 tests Vitest,
-12 parcours E2E déclinés sur desktop et mobile, ainsi que 1 000 campagnes automatiques sans
-blocage ni état invalide. Le détail reproductible des contrôles se trouve dans `docs/TESTING.md`.
+La V2 comprend 9 partis jouables, un mouvement personnalisable, 232 événements, 58 succès,
+une idéologie et une mémoire d'acteurs réellement actives pendant la partie, des chaînes
+narratives, des remplacements de candidats adverses et un second tour sensible aux décisions
+prises pendant la campagne. Elle est validée par 76 tests Vitest, la suite E2E Playwright
+complète (verte sous la politique de nouvelles tentatives de la CI), et 9 200 campagnes
+automatiques sans blocage ni état invalide, réparties entre les partis existants, les partis
+personnalisés et l'audit de dynamique de contenu.
+
+Le comparatif chiffré avant/après avec la V1 (répétition des choix, différenciation des
+partis, agence du joueur, badges, couverture) se trouve dans `audit/V2_COMPARISON.md`. L'état
+de la V1 originale (182 événements, 38 tests, 1 000 campagnes automatiques) reste documenté
+dans `docs/TESTING.md` à titre historique.

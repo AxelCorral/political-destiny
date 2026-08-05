@@ -1,0 +1,712 @@
+{
+  "generatedAt": "2026-08-05T23:12:41.388Z",
+  "auditedCommit": "9acb5a0",
+  "comparedAgainstV1Commit": "96c0ae2",
+  "content": {
+    "totalEvents": 232,
+    "totalChoices": 633,
+    "averageChoicesPerEvent": 2.728,
+    "eventsByChoiceCount": {
+      "2": 76,
+      "3": 143,
+      "4": 13,
+      "5": 0
+    },
+    "eventsWithOtherChoiceCount": 0,
+    "uniqueChoiceTextsExact": 633,
+    "uniqueChoiceTextsNormalized": 633,
+    "totalOutcomes": 641,
+    "uniqueOutcomeNarrativesExact": 641,
+    "uniqueOutcomeNarrativesNormalized": 641,
+    "uniqueOutcomeTitlesExact": 640,
+    "genericEvents": 122,
+    "partySpecificEvents": 110,
+    "partySpecificEventIds": [
+      "alliance_left_roundtable",
+      "alliance_center_pact",
+      "alliance_right_convention",
+      "alliance_former_rival",
+      "alliance_udr_autonomy",
+      "alliance_strategic_withdrawal",
+      "custom_500_signatures",
+      "custom_first_accounts",
+      "custom_identity_interview",
+      "custom_neighbor_offers",
+      "custom_local_network",
+      "custom_incoherence_convention",
+      "custom_coherent_manifesto",
+      "custom_vertical_council",
+      "custom_federal_charter",
+      "custom_collective_arbitration",
+      "custom_members_growth",
+      "custom_officials_support",
+      "custom_experts_panel",
+      "custom_runoff_mandate",
+      "party_lfi_identity",
+      "party_lfi_fronde",
+      "party_lfi_alliance",
+      "party_lfi_signature",
+      "party_lfi_local_asset",
+      "party_lfi_crisis_followup",
+      "party_lfi_electorate",
+      "party_lfi_program_dilemma",
+      "party_lfi_runoff",
+      "party_lfi_rare",
+      "party_ps_identity",
+      "party_ps_fronde",
+      "party_ps_alliance",
+      "party_ps_signature",
+      "party_ps_local_asset",
+      "party_ps_crisis_followup",
+      "party_ps_electorate",
+      "party_ps_program_dilemma",
+      "party_ps_runoff",
+      "party_ps_rare",
+      "party_ecologistes_identity",
+      "party_ecologistes_fronde",
+      "party_ecologistes_alliance",
+      "party_ecologistes_signature",
+      "party_ecologistes_local_asset",
+      "party_ecologistes_crisis_followup",
+      "party_ecologistes_electorate",
+      "party_ecologistes_program_dilemma",
+      "party_ecologistes_runoff",
+      "party_ecologistes_rare",
+      "party_renaissance_identity",
+      "party_renaissance_fronde",
+      "party_renaissance_alliance",
+      "party_renaissance_signature",
+      "party_renaissance_local_asset",
+      "party_renaissance_crisis_followup",
+      "party_renaissance_electorate",
+      "party_renaissance_program_dilemma",
+      "party_renaissance_runoff",
+      "party_renaissance_rare",
+      "party_horizons_identity",
+      "party_horizons_fronde",
+      "party_horizons_alliance",
+      "party_horizons_signature",
+      "party_horizons_local_asset",
+      "party_horizons_crisis_followup",
+      "party_horizons_electorate",
+      "party_horizons_program_dilemma",
+      "party_horizons_runoff",
+      "party_horizons_rare",
+      "party_lr_identity",
+      "party_lr_fronde",
+      "party_lr_alliance",
+      "party_lr_signature",
+      "party_lr_local_asset",
+      "party_lr_crisis_followup",
+      "party_lr_electorate",
+      "party_lr_program_dilemma",
+      "party_lr_runoff",
+      "party_lr_rare",
+      "party_rn_identity",
+      "party_rn_fronde",
+      "party_rn_alliance",
+      "party_rn_signature",
+      "party_rn_local_asset",
+      "party_rn_crisis_followup",
+      "party_rn_electorate",
+      "party_rn_program_dilemma",
+      "party_rn_runoff",
+      "party_rn_dissidence",
+      "party_reconquete_identity",
+      "party_reconquete_fronde",
+      "party_reconquete_alliance",
+      "party_reconquete_signature",
+      "party_reconquete_local_asset",
+      "party_reconquete_crisis_followup",
+      "party_reconquete_electorate",
+      "party_reconquete_program_dilemma",
+      "party_reconquete_runoff",
+      "party_reconquete_rare",
+      "party_nouvelle_energie_identity",
+      "party_nouvelle_energie_fronde",
+      "party_nouvelle_energie_alliance",
+      "party_nouvelle_energie_signature",
+      "party_nouvelle_energie_local_asset",
+      "party_nouvelle_energie_crisis_followup",
+      "party_nouvelle_energie_electorate",
+      "party_nouvelle_energie_program_dilemma",
+      "party_nouvelle_energie_runoff",
+      "party_nouvelle_energie_rare"
+    ],
+    "ideologySpecificEvents": 41,
+    "ideologySpecificEventIds": [
+      "campaign_door_to_door",
+      "campaign_citizens_convention",
+      "campaign_farmers_roundtable",
+      "campaign_student_forum",
+      "campaign_hospital_night",
+      "campaign_small_business",
+      "campaign_peripheral_town",
+      "campaign_overseas_trip",
+      "campaign_rural_desert",
+      "campaign_union_meeting",
+      "media_economic_morning",
+      "media_short_video",
+      "media_long_podcast",
+      "media_fact_check_followup",
+      "media_foreign_interview",
+      "media_documentary_access",
+      "debate_economy_round",
+      "debate_security_round",
+      "internal_youth_wing",
+      "internal_major_donor",
+      "alliance_left_roundtable",
+      "alliance_center_pact",
+      "alliance_right_convention",
+      "alliance_union_support",
+      "world_national_strike",
+      "world_security_attack",
+      "world_energy_price_spike",
+      "world_heatwave",
+      "world_industrial_closure",
+      "world_housing_protest",
+      "world_european_vote",
+      "world_budget_warning",
+      "custom_incoherence_convention",
+      "custom_coherent_manifesto",
+      "custom_vertical_council",
+      "custom_federal_charter",
+      "custom_collective_arbitration",
+      "custom_members_growth",
+      "custom_officials_support",
+      "custom_experts_panel",
+      "party_lfi_rare"
+    ],
+    "phaseSpecificEvents": 95,
+    "rareEvents": 18,
+    "decisiveEvents": 207,
+    "chainSources": 21,
+    "chainEdges": 39,
+    "eventsParticipatingInChains": 37,
+    "averageChainDepth": 1.095,
+    "maximumChainDepth": 2,
+    "chainDepths": [
+      {
+        "root": "internal_financial_review",
+        "depth": 2
+      },
+      {
+        "root": "party_rn_fronde",
+        "depth": 2
+      },
+      {
+        "root": "campaign_official_launch",
+        "depth": 1
+      },
+      {
+        "root": "campaign_citizens_convention",
+        "depth": 1
+      },
+      {
+        "root": "campaign_farmers_roundtable",
+        "depth": 1
+      },
+      {
+        "root": "campaign_hospital_night",
+        "depth": 1
+      },
+      {
+        "root": "campaign_small_business",
+        "depth": 1
+      },
+      {
+        "root": "media_economic_morning",
+        "depth": 1
+      },
+      {
+        "root": "media_documentary_access",
+        "depth": 1
+      },
+      {
+        "root": "internal_strategy_leak",
+        "depth": 1
+      },
+      {
+        "root": "alliance_udr_autonomy",
+        "depth": 1
+      },
+      {
+        "root": "scandal_treasurer_invoices",
+        "depth": 1
+      },
+      {
+        "root": "party_lfi_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_ps_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_ecologistes_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_renaissance_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_horizons_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_lr_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_rn_crisis_followup",
+        "depth": 1
+      },
+      {
+        "root": "party_reconquete_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_nouvelle_energie_fronde",
+        "depth": 1
+      }
+    ],
+    "uniqueChoiceTextPercentage": 100,
+    "uniqueOutcomeNarrativePercentage": 100,
+    "uniqueOutcomeTitlePercentage": 99.84,
+    "empiricallyReachedEvents": null,
+    "nearDuplicatePairs": 0,
+    "similarityClusters": 232,
+    "reusedConsequenceSets": 1,
+    "choicesUsingReusedConsequenceSets": 2,
+    "averagePartySpecificEventsPerRun": 4.503333333333333,
+    "averagePartySpecificSharePerRunPercent": 15.409126189593286,
+    "averageIdeologySpecificEventsPerRun": 3.071111111111111,
+    "averagePartyOrIdeologySpecificSharePerRunPercent": 25.939839327647874
+  },
+  "choices": {
+    "adjectiveOnlyPercentage": 0,
+    "abstractPercentage": 0,
+    "actionlessPercentage": 0,
+    "prudentRiskCollectiveTriptychEvents": 2,
+    "tagFrequency": [
+      {
+        "value": "PRUDENT",
+        "count": 89
+      },
+      {
+        "value": "RASSEMBLEUR",
+        "count": 79
+      },
+      {
+        "value": "OFFENSIF",
+        "count": 67
+      },
+      {
+        "value": "TECHNIQUE",
+        "count": 63
+      },
+      {
+        "value": "TRANSPARENT",
+        "count": 61
+      },
+      {
+        "value": "INSTITUTIONNEL",
+        "count": 57
+      },
+      {
+        "value": "CLIVANT",
+        "count": 46
+      },
+      {
+        "value": "POPULAIRE",
+        "count": 45
+      },
+      {
+        "value": "PRÉSIDENTIEL",
+        "count": 45
+      },
+      {
+        "value": "RISQUÉ",
+        "count": 37
+      },
+      {
+        "value": "LOYAL",
+        "count": 29
+      },
+      {
+        "value": "OPPORTUNISTE",
+        "count": 15
+      }
+    ]
+  },
+  "mechanics": {
+    "effectKindCounts": {
+      "party_stat": 1436,
+      "hidden_stat": 514,
+      "bloc_trust": 215,
+      "trait": 1,
+      "flag": 1,
+      "actor_memory": 64,
+      "alliance": 26,
+      "party_relation": 67,
+      "candidate_status": 1,
+      "opponent_strategy": 1,
+      "world": 27,
+      "policy_position": 4,
+      "ideology": 1,
+      "party_split": 1
+    },
+    "eventsWithIdeologicalStatements": 58,
+    "runsWithIdeologyMovement": 900,
+    "maximumIdeologyMovement": 36.502575007150014,
+    "runsWithActorMemoryContent": 796,
+    "runsWithPlayerAlliance": 398,
+    "maximumPlayerAlliances": 3,
+    "totalOpponentCandidateReplacementsObserved": 115
+  },
+  "entities": {
+    "registeredEntities": 141,
+    "real": 99,
+    "fictional": 42,
+    "secondaryFictionalCharacters": 42,
+    "worldEntities": 99,
+    "realWorldEntities": 99,
+    "fictionalWorldEntities": 0,
+    "realWorldEntityPercent": 100,
+    "fictionalWorldEntityPercent": 0,
+    "targetAtLeast70PercentRealWorldEntitiesMet": true,
+    "targetBelow25PercentFictionOutsideSecondaryCharactersMet": true
+  },
+  "narrative": {
+    "repeatedOutcomeTitleUses": [
+      {
+        "value": "Les deux candidatures restent en lice",
+        "count": 2
+      }
+    ],
+    "repeatedOutcomeNarrativeUses": [],
+    "narrativeAuditSummary": {
+      "exactSupplement": "Cette décision met à l’épreuve votre méthode, votre cohérence et la capacité de l’équipe fictive à rester unie.",
+      "eventCount": 0,
+      "eventIds": []
+    }
+  },
+  "simulation": {
+    "existingPartyRuns": 6300,
+    "customPartyRuns": 2000,
+    "dynamicsRuns": 900,
+    "totalCompletedAutomatedCampaigns": 9200,
+    "determinismFailures": 0,
+    "influence": {
+      "partyEtaSquaredOnFirstRoundScore": 0.40221408285452903,
+      "strategyEtaSquaredOnFirstRoundScore": 0.14179231946111415,
+      "averageMatchedFirstRoundRangeAcrossStrategies": 4.315222222222223,
+      "medianMatchedFirstRoundRangeAcrossStrategies": 4.1,
+      "averageMatchedFinalScoreRangeAcrossStrategies": 27.793333333333333,
+      "matchedSeedsWhereQualificationOrWinChanged": 696,
+      "matchedSeedGroups": 900
+    },
+    "balanceWarnings": {
+      "impossibleToLose": [
+        {
+          "group": "renaissance:greedy",
+          "winRate": 0.94
+        },
+        {
+          "group": "horizons:greedy",
+          "winRate": 0.94
+        },
+        {
+          "group": "lr:greedy",
+          "winRate": 0.93
+        }
+      ],
+      "practicallyImpossibleToWin": [
+        {
+          "group": "reconquete:random",
+          "winRate": 0.01
+        },
+        {
+          "group": "reconquete:risky",
+          "winRate": 0.01
+        },
+        {
+          "group": "reconquete:collective",
+          "winRate": 0.01
+        },
+        {
+          "group": "reconquete:adverse",
+          "winRate": 0
+        }
+      ]
+    },
+    "byParty": {
+      "lfi": {
+        "runs": 700,
+        "qualificationRate": 0.8385714285714285,
+        "winRate": 0.5285714285714286,
+        "averageFirstRoundScore": 15.584285714285704,
+        "firstRoundVariance": 5.3056387755102135,
+        "averageSecondRoundScore": 51.97444633730834,
+        "averageFinalScore": 74.66142857142857,
+        "finalScoreVariance": 213.06965510204088,
+        "averageProgression": 2.5842857142857123,
+        "averageDecisions": 29.411428571428573,
+        "firstRoundP05": 11.6,
+        "firstRoundMedian": 15.7,
+        "firstRoundP95": 19.2
+      },
+      "ps": {
+        "runs": 700,
+        "qualificationRate": 0.89,
+        "winRate": 0.6685714285714286,
+        "averageFirstRoundScore": 16.17428571428574,
+        "firstRoundVariance": 5.504853061224502,
+        "averageSecondRoundScore": 53.789887640449436,
+        "averageFinalScore": 84.77142857142857,
+        "finalScoreVariance": 101.45061224489793,
+        "averageProgression": 11.674285714285718,
+        "averageDecisions": 29.897142857142857,
+        "firstRoundP05": 12.3,
+        "firstRoundMedian": 16.3,
+        "firstRoundP95": 19.8
+      },
+      "ecologistes": {
+        "runs": 700,
+        "qualificationRate": 0.7485714285714286,
+        "winRate": 0.6,
+        "averageFirstRoundScore": 14.47957142857142,
+        "firstRoundVariance": 5.189368387755107,
+        "averageSecondRoundScore": 53.888740458015285,
+        "averageFinalScore": 80.64142857142858,
+        "finalScoreVariance": 169.83856938775511,
+        "averageProgression": 7.979571428571431,
+        "averageDecisions": 29.194285714285716,
+        "firstRoundP05": 10.5,
+        "firstRoundMedian": 14.5,
+        "firstRoundP95": 18.3
+      },
+      "renaissance": {
+        "runs": 700,
+        "qualificationRate": 0.8385714285714285,
+        "winRate": 0.7285714285714285,
+        "averageFirstRoundScore": 15.366857142857148,
+        "firstRoundVariance": 4.211644408163261,
+        "averageSecondRoundScore": 54.793867120954054,
+        "averageFinalScore": 73.98571428571428,
+        "finalScoreVariance": 178.06836734693758,
+        "averageProgression": 1.3668571428571437,
+        "averageDecisions": 29.81142857142857,
+        "firstRoundP05": 11.9,
+        "firstRoundMedian": 15.4,
+        "firstRoundP95": 18.8
+      },
+      "horizons": {
+        "runs": 700,
+        "qualificationRate": 0.7714285714285715,
+        "winRate": 0.7114285714285714,
+        "averageFirstRoundScore": 14.675857142857161,
+        "firstRoundVariance": 3.9554599795918426,
+        "averageSecondRoundScore": 56.129074074074055,
+        "averageFinalScore": 82.14,
+        "finalScoreVariance": 119.20611428571414,
+        "averageProgression": 10.17585714285715,
+        "averageDecisions": 29.50857142857143,
+        "firstRoundP05": 11.4,
+        "firstRoundMedian": 14.7,
+        "firstRoundP95": 17.9
+      },
+      "lr": {
+        "runs": 700,
+        "qualificationRate": 0.8528571428571429,
+        "winRate": 0.71,
+        "averageFirstRoundScore": 15.618999999999996,
+        "firstRoundVariance": 4.3498247142857185,
+        "averageSecondRoundScore": 54.50887772194299,
+        "averageFinalScore": 83.77857142857142,
+        "finalScoreVariance": 112.76382653061187,
+        "averageProgression": 9.119000000000005,
+        "averageDecisions": 29.83142857142857,
+        "firstRoundP05": 12.1,
+        "firstRoundMedian": 15.7,
+        "firstRoundP95": 18.8
+      },
+      "rn": {
+        "runs": 700,
+        "qualificationRate": 0.9171428571428571,
+        "winRate": 0.4014285714285714,
+        "averageFirstRoundScore": 16.418571428571457,
+        "firstRoundVariance": 5.2124265306122455,
+        "averageSecondRoundScore": 48.98302180685354,
+        "averageFinalScore": 77.78428571428572,
+        "finalScoreVariance": 141.8891816326531,
+        "averageProgression": 3.918571428571424,
+        "averageDecisions": 29.47142857142857,
+        "firstRoundP05": 12.8,
+        "firstRoundMedian": 16.3,
+        "firstRoundP95": 20.1
+      },
+      "reconquete": {
+        "runs": 700,
+        "qualificationRate": 0.12714285714285714,
+        "winRate": 0.055714285714285716,
+        "averageFirstRoundScore": 10.04985714285714,
+        "firstRoundVariance": 5.09778569387756,
+        "averageSecondRoundScore": 49.51235955056179,
+        "averageFinalScore": 59.901428571428575,
+        "finalScoreVariance": 141.77742653061202,
+        "averageProgression": 5.049857142857146,
+        "averageDecisions": 25.62,
+        "firstRoundP05": 6.2,
+        "firstRoundMedian": 10.1,
+        "firstRoundP95": 13.6
+      },
+      "nouvelle_energie": {
+        "runs": 700,
+        "qualificationRate": 0.6342857142857142,
+        "winRate": 0.5957142857142858,
+        "averageFirstRoundScore": 13.788571428571434,
+        "firstRoundVariance": 5.313755102040824,
+        "averageSecondRoundScore": 58.02950450450449,
+        "averageFinalScore": 78.04285714285714,
+        "finalScoreVariance": 176.57244897959131,
+        "averageProgression": 9.288571428571423,
+        "averageDecisions": 28.728571428571428,
+        "firstRoundP05": 9.7,
+        "firstRoundMedian": 13.8,
+        "firstRoundP95": 17.5
+      }
+    }
+  },
+  "badges": {
+    "total": 58,
+    "structuralImpossibilities": []
+  },
+  "browser": {
+    "testedViewports": ["mobile-narrow", "phone", "tablet", "laptop", "wide"],
+    "horizontalOverflowFindings": 0,
+    "reducedMotion": {
+      "mediaMatches": true,
+      "maximumAnimationDurationMs": 0.01,
+      "maximumTransitionDurationMs": 0.01
+    },
+    "keyboard": {
+      "firstEightFocusTargets": [
+        "Aller au contenu",
+        "VVers l’Élysée",
+        "Archives",
+        "Succès",
+        "À propos",
+        "Lancer une campagne",
+        "Comment fonctionne la simulation ?",
+        "Méthodologie"
+      ]
+    }
+  },
+  "quality": {
+    "vitest": {
+      "total": 76,
+      "passed": 76,
+      "failed": 0
+    },
+    "e2e": {
+      "total": 24,
+      "passed": 17,
+      "flakyPassedOnRetry": 1,
+      "skipped": 6,
+      "failed": 0,
+      "retryPolicy": "retries: 2 (matches CI)"
+    },
+    "coverage": {
+      "lines": {
+        "total": 2189,
+        "covered": 1796,
+        "skipped": 0,
+        "pct": 82.04
+      },
+      "statements": {
+        "total": 2489,
+        "covered": 1949,
+        "skipped": 0,
+        "pct": 78.3
+      },
+      "functions": {
+        "total": 599,
+        "covered": 447,
+        "skipped": 0,
+        "pct": 74.62
+      },
+      "branches": {
+        "total": 2210,
+        "covered": 1468,
+        "skipped": 0,
+        "pct": 66.42
+      },
+      "branchesTrue": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "npmAuditHighOrCriticalVulnerabilities": 0
+  },
+  "technical": {
+    "sourceFiles": 128,
+    "sourceLines": 32003,
+    "runIdCollisionAcrossPartiesWithSameSeed": false,
+    "largestSourceFiles": [
+      {
+        "path": "src/game/data/events/v2/campaign.ts",
+        "lines": 1796,
+        "bytes": 76052
+      },
+      {
+        "path": "src/game/data/events/v2/media.ts",
+        "lines": 1200,
+        "bytes": 52849
+      },
+      {
+        "path": "src/game/types/index.ts",
+        "lines": 1028,
+        "bytes": 23870
+      },
+      {
+        "path": "src/game/data/events/v2/program.ts",
+        "lines": 973,
+        "bytes": 42863
+      },
+      {
+        "path": "src/features/onboarding/setup-screens.tsx",
+        "lines": 962,
+        "bytes": 40207
+      },
+      {
+        "path": "src/game/data/events/v2/internal.ts",
+        "lines": 958,
+        "bytes": 45217
+      },
+      {
+        "path": "src/game/data/events/v2/world.ts",
+        "lines": 901,
+        "bytes": 40684
+      },
+      {
+        "path": "src/game/data/events/v2/endgame.ts",
+        "lines": 894,
+        "bytes": 42870
+      },
+      {
+        "path": "src/game/data/events/v2/debates.ts",
+        "lines": 830,
+        "bytes": 37412
+      },
+      {
+        "path": "src/game/data/parties.ts",
+        "lines": 828,
+        "bytes": 32956
+      }
+    ]
+  }
+}

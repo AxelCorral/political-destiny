@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T19:37:07.248Z",
+  "generatedAt": "2026-08-05T23:09:43.726Z",
   "methodology": {
     "nearDuplicateThreshold": 0.62,
     "nearDuplicateMethod": "Jaccard sur les mots normalisés de tous les textes visibles de chaque événement, hors mots-outils français.",
@@ -187,12 +187,97 @@
     "phaseSpecificEvents": 95,
     "rareEvents": 18,
     "decisiveEvents": 207,
-    "chainSources": 0,
-    "chainEdges": 0,
-    "eventsParticipatingInChains": 0,
-    "averageChainDepth": 0,
-    "maximumChainDepth": 0,
-    "chainDepths": []
+    "chainSources": 21,
+    "chainEdges": 39,
+    "eventsParticipatingInChains": 37,
+    "averageChainDepth": 1.095,
+    "maximumChainDepth": 2,
+    "chainDepths": [
+      {
+        "root": "internal_financial_review",
+        "depth": 2
+      },
+      {
+        "root": "party_rn_fronde",
+        "depth": 2
+      },
+      {
+        "root": "campaign_official_launch",
+        "depth": 1
+      },
+      {
+        "root": "campaign_citizens_convention",
+        "depth": 1
+      },
+      {
+        "root": "campaign_farmers_roundtable",
+        "depth": 1
+      },
+      {
+        "root": "campaign_hospital_night",
+        "depth": 1
+      },
+      {
+        "root": "campaign_small_business",
+        "depth": 1
+      },
+      {
+        "root": "media_economic_morning",
+        "depth": 1
+      },
+      {
+        "root": "media_documentary_access",
+        "depth": 1
+      },
+      {
+        "root": "internal_strategy_leak",
+        "depth": 1
+      },
+      {
+        "root": "alliance_udr_autonomy",
+        "depth": 1
+      },
+      {
+        "root": "scandal_treasurer_invoices",
+        "depth": 1
+      },
+      {
+        "root": "party_lfi_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_ps_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_ecologistes_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_renaissance_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_horizons_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_lr_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_rn_crisis_followup",
+        "depth": 1
+      },
+      {
+        "root": "party_reconquete_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_nouvelle_energie_fronde",
+        "depth": 1
+      }
+    ]
   },
   "staticReachability": {
     "eventsWithImpossibleOrUnproducibleConditions": 0,

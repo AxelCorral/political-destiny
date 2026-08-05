@@ -143,11 +143,13 @@ Vérifications du 6 août 2026 (`scripts/audit/browser-resilience.mjs` et un con
 
 ## Phase J — Vérification finale
 
-- [ ] Générer `audit/v2-metrics.json`.
-- [ ] Générer `audit/v2-final-verification.json`.
-- [ ] Rédiger `audit/V2_COMPARISON.md` avec avant, après, objectif et statut.
-- [ ] Exécuter les simulations, tests de seed, chaînes, succès, remplacements et contradictions.
-- [ ] Exécuter format, lint, typecheck, validation, tests, build, E2E et audit npm.
-- [ ] Exécuter couverture, tailles d’écran, hors-ligne et migrations.
-- [ ] Mettre à jour README, changelog et décisions.
-- [ ] Créer les commits finaux et vérifier un arbre Git maîtrisé.
+- [x] Générer `audit/v2-metrics.json`.
+- [x] Générer `audit/v2-final-verification.json`.
+- [x] Rédiger `audit/V2_COMPARISON.md` avec avant, après, objectif et statut.
+- [x] Exécuter les simulations, tests de seed, chaînes, succès, remplacements et contradictions.
+- [x] Exécuter format, lint, typecheck, validation, tests, build, E2E et audit npm.
+- [x] Exécuter couverture, tailles d’écran, hors-ligne et migrations.
+- [x] Mettre à jour README, changelog et décisions.
+- [x] Créer les commits finaux et vérifier un arbre Git maîtrisé.
+
+Résumé du 6 août 2026 — voir `audit/V2_COMPARISON.md` pour le détail chiffré complet. Points marquants : eta² du parti sur le score du premier tour ramené de 73,39 % à 40,22 % et eta² de la stratégie porté de 3,00 % à 14,18 % (9 200 campagnes automatisées) ; 100 % de textes de choix et de récits d'issue uniques ; triptyque prudent/risqué/rassembleur résiduel sur 2 événements sur 232 ; idéologie et mémoire d'acteurs actives et mesurées (0 → 41 événements conditionnés, 0 → 88,4 % des campagnes avec mémoire non vide) ; 7 succès structurellement impossibles corrigés en Phase G, 2 régressions supplémentaires trouvées et corrigées en Phase J (million_members, viral) ; suite complète verte (format, lint, typecheck, validation, 76 tests, build, E2E sous la politique de nouvelles tentatives de la CI, npm audit sans vulnérabilité). Écarts restants documentés sans les masquer : profondeur de chaîne maximale mesurée à 2 contre une cible de 3, quelques cibles tactiles de pied de page sous 44 px, aucun lecteur d'écran réel testé.

@@ -277,9 +277,13 @@ const choicesByCount = Object.fromEntries(
 
 const chainEdges = events.flatMap((event) =>
   event.choices.flatMap((choice) =>
-    choice.outcomeGroups.flatMap((outcome) =>
-      (outcome.enqueueEventIds ?? []).map((target) => ({ source: event.id, target })),
-    ),
+    choice.outcomeGroups.flatMap((outcome) => [
+      ...(outcome.enqueueEventIds ?? []).map((target) => ({ source: event.id, target })),
+      ...(outcome.followUps ?? []).map((followUp) => ({
+        source: event.id,
+        target: followUp.eventId,
+      })),
+    ]),
   ),
 );
 const chainAdjacency = new Map<string, string[]>();

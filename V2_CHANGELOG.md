@@ -116,3 +116,11 @@
 - Extraction de la carte d’événement et de la carte de débat dans `event-decision-card.tsx` ; `campaign-screens.tsx` conserve l’orchestration des écrans.
 - Suppression de six modules V1 non importés et de leur fabrique narrative générique, soit plusieurs milliers de lignes de code et de prose morts hors du bundle.
 - Couverture V2 après nettoyage : 78,11 % des instructions, 66,31 % des branches, 74,45 % des fonctions et 81,78 % des lignes ; moteur à 85,12 % des instructions.
+
+### Phase J — Vérification finale (Claude Code, 6 août 2026)
+
+- Correction d'un bug de mesure trouvé en préparant la comparaison : `scripts/audit/content-audit.ts` détectait les chaînes narratives via `outcome.enqueueEventIds`, un champ hérité de la V1 qu'aucun événement V2 ne renseigne, alors que le mécanisme réel est `outcome.followUps`. Le détecteur additionne désormais les deux ; les chaînes V2 passent de « 0 mesurées » à 21 chaînes, 39 liaisons, profondeur maximale 2 (voir D-022).
+- Génération de `audit/v2-metrics.json` (agrégat des rapports v2-\*), `audit/v2-final-verification.json` (contrôles format/lint/typecheck/validation/build/audit npm/tests/E2E/simulation/navigateur) et `audit/V2_COMPARISON.md` (comparatif chiffré V1 → V2 par thème : contenu, différenciation des partis, idéologie, mémoire, chaînes, entités, agence du joueur, badges, tests, couverture).
+- Couverture rafraîchie via `vitest --coverage --coverage.reporter=json-summary` (le reporter par défaut de `vitest.config.ts` n'écrit pas de résumé JSON) : 78,3 % des instructions, 66,42 % des branches, 74,62 % des fonctions, 82,04 % des lignes.
+- `npm audit --audit-level=high` : 0 vulnérabilité.
+- Écarts restants documentés sans correction dans cette session : profondeur de chaîne maximale à 2 contre une cible de 3, quelques cibles tactiles de pied de page sous 44 px, aucun lecteur d'écran réel testé.

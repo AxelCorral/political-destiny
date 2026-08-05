@@ -79,3 +79,11 @@ Le test de propriété conserve 120 campagnes, mais sa limite est locale et vaut
 ## D-020 — Le corpus V1 mort est supprimé, pas archivé dans le runtime
 
 Les anciens modules `general`, `internal`, `world`, `partySpecific`, `endgame` et leur factory n’étaient plus importés depuis la promotion du corpus V2. Git conserve leur historique ; les garder dans `src` augmentait le bruit des recherches et le risque de réutiliser par erreur les gabarits interdits.
+
+## D-021 — Mesurer à échantillon constant avant de conclure à une régression
+
+En reprenant le travail non commité de Codex sur la Phase F, un premier diagnostic a comparé deux rapports d'audit générés à des tailles d'échantillon différentes et a conclu à tort à une régression de son dernier ajustement sur `runoffAppeal`. La correction ultérieure, refaite à échantillon constant (mêmes graines, même nombre de campagnes), a montré que l'ajustement était neutre à légèrement bénéfique. Toute mesure d'équilibre électoral doit désormais comparer des rapports générés avec le même `AUDIT_SEEDS_PER_PARTY` (ou équivalent) avant d'être interprétée comme une évolution réelle.
+
+## D-022 — Un script d'audit peut mentir si son détecteur suit un champ abandonné
+
+`scripts/audit/content-audit.ts` détectait les chaînes narratives via `outcome.enqueueEventIds`, un champ hérité de la V1 qu'aucun événement V2 ne renseigne ; le mécanisme réel est `outcome.followUps`. Le script rapportait donc silencieusement zéro chaîne alors que 21 chaînes existent. Corrigé pour additionner les deux mécanismes. Leçon retenue pour la Phase J : une mesure à zéro doit être vérifiée par lecture directe des données avant d'être actée, surtout quand elle contredit un changelog antérieur.
