@@ -1,0 +1,5 @@
+export const FEATURE_FLAGS = {
+  ENABLE_REAL_PLAYABLE_PERSONS: false,
+  ENABLE_DAILY_CHALLENGE: false,
+  ENABLE_FUTURE_AD_SLOT: false,
+} as const;

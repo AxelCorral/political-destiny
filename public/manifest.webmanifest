@@ -1,0 +1,19 @@
+{
+  "name": "Vers l’Élysée",
+  "short_name": "Élysée",
+  "description": "Jeu fictif de campagne présidentielle française, jouable hors connexion.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f5ee",
+  "theme_color": "#071426",
+  "lang": "fr",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/emblem.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

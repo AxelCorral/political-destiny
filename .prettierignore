@@ -1,0 +1,9 @@
+.next
+node_modules
+coverage
+playwright-report
+test-results
+reports
+package-lock.json
+PROMPT_MAITRE_CLAUDE_CODE_JEU_POLITIQUE.md
+
