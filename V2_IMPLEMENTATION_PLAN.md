@@ -51,33 +51,33 @@ Résultats initiaux du 5 août 2026 :
 
 ## Phase C — Architecture éditoriale du contenu
 
-- [ ] Retirer la fabrique narrative générique du chemin de production.
-- [ ] Introduire des helpers purement structurels sans génération de prose principale.
-- [ ] Créer `docs/EDITORIAL_POLICY.md`.
-- [ ] Renseigner les entités réelles et fictives avec statut et sensibilité.
-- [ ] Ajouter les règles de validation éditoriale et leurs tests.
-- [ ] Exécuter tous les contrôles de non-régression et committer la phase.
+- [x] Retirer la fabrique narrative générique du chemin de production.
+- [x] Introduire des helpers purement structurels sans génération de prose principale.
+- [x] Créer `docs/EDITORIAL_POLICY.md`.
+- [x] Renseigner les entités réelles et fictives avec statut et sensibilité.
+- [x] Ajouter les règles de validation éditoriale et leurs tests.
+- [x] Exécuter tous les contrôles de non-régression et committer la phase.
 
 ## Phase D — Réécriture narrative
 
-- [ ] Écrire 60 à 90 événements génériques contextualisés.
-- [ ] Écrire 10 à 15 événements propres à chacun des neuf partis.
-- [ ] Écrire au moins 30 événements idéologiques ou liés aux déclarations.
-- [ ] Écrire au moins 20 événements de relations, alliances, retraits ou dissidences.
-- [ ] Écrire au moins 15 débats ou interviews interactifs.
-- [ ] Couvrir économie/social, international et institutions françaises.
-- [ ] Construire au moins dix chaînes, dont une de profondeur trois.
-- [ ] Dépasser 200 événements réellement distincts sans remplissage lexical.
-- [ ] Atteindre 95 % de textes de choix uniques et 70 % de récits uniques.
-- [ ] Exécuter l’audit de contenu, corriger les seuils puis committer la phase.
+- [x] Écrire 60 à 90 événements génériques contextualisés.
+- [x] Écrire 10 à 15 événements propres à chacun des neuf partis.
+- [x] Écrire au moins 30 événements idéologiques ou liés aux déclarations.
+- [x] Écrire au moins 20 événements de relations, alliances, retraits ou dissidences.
+- [x] Écrire au moins 15 débats ou interviews interactifs.
+- [x] Couvrir économie/social, international et institutions françaises.
+- [x] Construire au moins dix chaînes, dont une de profondeur trois.
+- [x] Dépasser 200 événements réellement distincts sans remplissage lexical.
+- [x] Atteindre 95 % de textes de choix uniques et 70 % de récits uniques.
+- [x] Exécuter l’audit de contenu, corriger les seuils puis committer la phase.
 
 ## Phase E — France réelle
 
-- [ ] Remplacer pays, institutions, territoires et médias fictifs inutiles.
-- [ ] Conserver les personnages fictifs pour les situations sensibles.
-- [ ] Vérifier les mécanismes électoraux et la date de la présidentielle.
-- [ ] Atteindre les cibles réel/fictif sans citation ni accusation inventée.
-- [ ] Exécuter la validation éditoriale et committer la phase.
+- [x] Remplacer pays, institutions, territoires et médias fictifs inutiles.
+- [x] Conserver les personnages fictifs pour les situations sensibles.
+- [x] Vérifier les mécanismes électoraux et la date de la présidentielle.
+- [x] Atteindre les cibles réel/fictif sans citation ni accusation inventée.
+- [x] Exécuter la validation éditoriale et committer la phase.
 
 ## Phase F — Équilibre électoral
 

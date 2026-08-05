@@ -115,6 +115,7 @@ export type ChoiceTag =
   | "LOYAL"
   | "OPPORTUNISTE"
   | "TECHNIQUE"
+  | "INSTITUTIONNEL"
   | "POPULAIRE"
   | "PRÉSIDENTIEL"
   | "TRANSPARENT"
@@ -748,6 +749,7 @@ export interface DecisionRecord {
   eventCategory: EventCategory;
   choiceId: string;
   choiceLabel: string;
+  choiceTag?: ChoiceTag;
   choiceStrategy?: ChoiceStrategy;
   outcomeId: string;
   outcomeTitle: string;
@@ -910,11 +912,14 @@ export type AchievementMetric =
   | "score"
   | "first_round_score"
   | "second_round_score"
+  | "second_round_margin"
   | "polling_progression"
   | "starting_polling"
   | "final_rank"
   | "decisions"
+  | "polls"
   | "positive_outcomes"
+  | "positive_event_outcomes"
   | "scandals"
   | "statement_topics"
   | "contradictions"
@@ -923,7 +928,10 @@ export type AchievementMetric =
   | "members"
   | "party_stat"
   | "hidden_stat"
-  | "choice_strategy";
+  | "choice_strategy"
+  | "choice_tag"
+  | "event_category"
+  | "outcome_id";
 
 export interface AchievementCriterion {
   metric: AchievementMetric;

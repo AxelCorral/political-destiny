@@ -47,3 +47,11 @@ Chaque déclaration de fond associe un thème normalisé, une orientation de −
 ## D-012 — Les adversaires publient seulement ce qu’ils ont simulé
 
 Le fil adverse est dérivé des actions enregistrées dans `opponentActions`. Une alliance, une crise, un remplacement ou une consigne ne peut pas être raconté sans avoir modifié l’état correspondant. Les crises sensibles ne concernent que des personnages fictifs et restent formulées comme des crises de campagne, sans accusation personnelle inventée.
+
+## D-013 — Le libellé peut être long sans redevenir abstrait
+
+Un choix peut compter jusqu’à 140 caractères afin de décrire une action complète, ses acteurs et sa condition principale. Cette limite reste contrôlée par le schéma ; l’interface doit faire revenir le texte à la ligne et conserver une cible tactile d’au moins 44 px. Raccourcir un choix n’est jamais une raison pour le réduire à « prudent », « offensif » ou « rassembleur ».
+
+## D-014 — Les critères de succès sont la règle exécutable
+
+Chaque succès possède un groupe de critères typés. Le moteur évalue ces critères génériquement à partir de la partie réelle : décisions, sondages, score, positions, contradictions, alliances, souvenirs, tags et stratégies. L’identifiant du succès ne contient plus de logique cachée ; un succès absent du registre de critères empêche la construction des données V2.

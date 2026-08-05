@@ -1,6 +1,6 @@
-import type { AchievementDefinition } from "@/game/types";
+import type { AchievementCriterion, AchievementDefinition } from "@/game/types";
 
-export const achievements: AchievementDefinition[] = [
+const achievementCatalog: Omit<AchievementDefinition, "criteria">[] = [
   {
     id: "first_choice",
     title: "Premier bulletin",
@@ -234,8 +234,8 @@ export const achievements: AchievementDefinition[] = [
   },
   {
     id: "million_members",
-    title: "Un million de cartes",
-    description: "Atteindre un million d’adhérents simulés.",
+    title: "Deux cent mille cartes",
+    description: "Atteindre deux cent mille adhérents simulés.",
     category: "records",
     icon: "M",
   },
@@ -410,3 +410,132 @@ export const achievements: AchievementDefinition[] = [
     icon: "NE",
   },
 ];
+
+type AchievementCriteria = NonNullable<AchievementDefinition["criteria"]>;
+
+function all(...conditions: AchievementCriterion[]): AchievementCriteria {
+  return { mode: "all", conditions };
+}
+
+function any(...conditions: AchievementCriterion[]): AchievementCriteria {
+  return { mode: "any", conditions };
+}
+
+const criteriaById: Record<string, AchievementCriteria> = {
+  first_choice: all({ metric: "decisions", operator: "gte", value: 1 }),
+  first_poll: all({ metric: "polls", operator: "gte", value: 1 }),
+  campaign_complete: all({ metric: "campaign_completed", operator: "eq", value: true }),
+  runoff: all({ metric: "qualified", operator: "eq", value: true }),
+  elysee: all({ metric: "won", operator: "eq", value: true }),
+  comeback: all({ metric: "polling_progression", operator: "gte", value: 8 }),
+  from_under_eight: all(
+    { metric: "qualified", operator: "eq", value: true },
+    { metric: "starting_polling", operator: "lte", value: 7.99 },
+  ),
+  close_victory: all(
+    { metric: "won", operator: "eq", value: true },
+    { metric: "second_round_margin", operator: "lte", value: 1 },
+  ),
+  kingmaker: all({ metric: "ending_id", operator: "eq", value: "kingmaker" }),
+  new_party: all(
+    { metric: "campaign_completed", operator: "eq", value: true },
+    { metric: "game_mode", operator: "eq", value: "custom_party" },
+  ),
+  random_destiny: all(
+    { metric: "campaign_completed", operator: "eq", value: true },
+    { metric: "game_mode", operator: "eq", value: "random" },
+  ),
+  no_scandal: all(
+    { metric: "campaign_completed", operator: "eq", value: true },
+    { metric: "scandals", operator: "eq", value: 0 },
+  ),
+  three_scandals: all(
+    { metric: "scandals", operator: "gte", value: 3 },
+    { metric: "party_stat", key: "credibility", operator: "gte", value: 45 },
+  ),
+  all_topics: all({ metric: "statement_topics", operator: "gte", value: 8 }),
+  debate_master: all({
+    metric: "positive_event_outcomes",
+    key: "debate",
+    operator: "gte",
+    value: 1,
+  }),
+  viral: all({ metric: "outcome_id", operator: "contains", value: "viral" }),
+  transparent: all({
+    metric: "choice_tag",
+    key: "TRANSPARENT",
+    operator: "gte",
+    value: 2,
+  }),
+  loyal: all({ metric: "actor_memories", key: "support", operator: "gte", value: 3 }),
+  risk_taker: all({
+    metric: "choice_strategy",
+    key: "personal_risk",
+    operator: "gte",
+    value: 4,
+  }),
+  prudent: all({ metric: "choice_tag", key: "PRUDENT", operator: "gte", value: 5 }),
+  momentum: all({ metric: "party_stat", key: "momentum", operator: "gte", value: 75 }),
+  mobilized: all({ metric: "party_stat", key: "mobilization", operator: "gte", value: 80 }),
+  credible: all({ metric: "party_stat", key: "credibility", operator: "gte", value: 82 }),
+  united: all({ metric: "party_stat", key: "cohesion", operator: "gte", value: 85 }),
+  solvent: all({ metric: "party_stat", key: "finances", operator: "gte", value: 80 }),
+  popular: all({ metric: "party_stat", key: "popularity", operator: "gte", value: 80 }),
+  coalition: all({ metric: "alliances", operator: "gte", value: 2 }),
+  without_compromise: all(
+    { metric: "campaign_completed", operator: "eq", value: true },
+    { metric: "hidden_stat", key: "consistency", operator: "gte", value: 75 },
+  ),
+  chameleon: all(
+    { metric: "campaign_completed", operator: "eq", value: true },
+    { metric: "contradictions", operator: "gte", value: 3 },
+  ),
+  ten_good_outcomes: all({ metric: "positive_outcomes", operator: "gte", value: 10 }),
+  historic_score: all({ metric: "score", operator: "gte", value: 85 }),
+  perfect_campaign: all({ metric: "score", operator: "gte", value: 95 }),
+  hundred_members: all({ metric: "members", operator: "gte", value: 100_000 }),
+  million_members: all({ metric: "members", operator: "gte", value: 200_000 }),
+  media_wave: all({ metric: "party_stat", key: "mediaPresence", operator: "gte", value: 85 }),
+  local_roots: all({ metric: "party_stat", key: "localStrength", operator: "gte", value: 80 }),
+  secret_ending: any(
+    { metric: "ending_id", operator: "eq", value: "secret_national_union" },
+    { metric: "ending_id", operator: "eq", value: "secret_monarchy" },
+    { metric: "ending_id", operator: "eq", value: "secret_fragmentation" },
+    { metric: "ending_id", operator: "eq", value: "secret_authoritarian" },
+    { metric: "ending_id", operator: "eq", value: "secret_civil_unrest" },
+  ),
+  thirty_decisions: all({ metric: "decisions", operator: "gte", value: 30 }),
+  underdog: all(
+    { metric: "campaign_completed", operator: "eq", value: true },
+    { metric: "starting_polling", operator: "lte", value: 5 },
+    { metric: "polling_progression", operator: "gte", value: 5 },
+  ),
+  second_place: all({ metric: "final_rank", operator: "eq", value: 2 }),
+};
+
+for (const partyId of [
+  "lfi",
+  "ps",
+  "ecologistes",
+  "renaissance",
+  "horizons",
+  "lr",
+  "rn",
+  "reconquete",
+  "nouvelle_energie",
+]) {
+  criteriaById[`played_${partyId}`] = all(
+    { metric: "campaign_completed", operator: "eq", value: true },
+    { metric: "party_id", operator: "eq", value: partyId },
+  );
+  criteriaById[`won_${partyId}`] = all(
+    { metric: "won", operator: "eq", value: true },
+    { metric: "party_id", operator: "eq", value: partyId },
+  );
+}
+
+export const achievements: AchievementDefinition[] = achievementCatalog.map((achievement) => {
+  const criteria = criteriaById[achievement.id];
+  if (!criteria) throw new Error(`Critères manquants pour le succès ${achievement.id}`);
+  return { ...achievement, criteria };
+});

@@ -46,4 +46,16 @@
 - 14 nouveaux tests moteur ; suite portée à 67 tests sur 15 fichiers.
 - Le test de 120 campagnes conserve son volume et reçoit un timeout local de 15 s ; aucun timeout global n’a été augmenté.
 - Simulation fumée de 300 campagnes : 0 campagne bloquée, 0 état invalide, 27,14 décisions en moyenne. Les déséquilibres V1 restent volontairement à traiter en phase F.
-- Contrôles de phase : format, lint, typecheck, validation, tests et build réussis.
+- Contrôles de phase : format, lint, typecheck, validation, tests et build réussis.
+
+### Phases C à E — Corpus éditorial V2
+
+- Retrait des factories narratives V1 du chemin de production au profit de textes entièrement écrits dans leur contexte ; les helpers V2 ne fournissent que la structure technique.
+- Bibliothèque portée à 218 événements, 597 choix et 605 issues : 25 campagnes, 15 médias, 10 programmes, 8 débats, 15 situations internes, 10 alliances, 10 scandales fictifs, 12 événements mondiaux, 9 rares, 90 événements de parti et 14 séquences de fin.
+- Dix événements propres à chacun des neuf partis, avec identité, conflit interne, alliance, programme, électorat, second tour et situation rare différenciés.
+- 79 événements enregistrent une position de fond, 65 impliquent relations ou mémoire, et 15 chaînes narratives atteignent une profondeur maximale de 3.
+- Métriques du validateur strict : 100 % de choix uniques, 100 % de récits d’issue uniques, 100 % de choix reconnus concrets, 2 triptyques génériques sur 218, aucun ensemble de choix dupliqué et aucune conséquence identique au sein d’un événement.
+- Registre de 141 entités : 99 réelles et 42 fictives, ces dernières étant presque exclusivement les personnages secondaires nécessaires à la fiction sensible.
+- Ajout de `docs/EDITORIAL_POLICY.md` et promotion de la bibliothèque en `contentVersion: 2` ; toute régression sous les seuils V2 bloque désormais `npm run data:validate`.
+- Les 58 succès disposent désormais de critères typés réellement exécutés par le moteur ; le grand commutateur fondé sur leurs identifiants a été supprimé.
+- Contrôles du jalon : typecheck, validation stricte, lint et 67 tests réussis.

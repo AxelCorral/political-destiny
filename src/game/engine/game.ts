@@ -403,6 +403,7 @@ export function resolveCurrentChoice(
     eventCategory: event.category,
     choiceId: resolved.choice.id,
     choiceLabel: resolved.choice.label,
+    ...(resolved.choice.visibleTag ? { choiceTag: resolved.choice.visibleTag } : {}),
     ...(resolved.choice.strategy ? { choiceStrategy: resolved.choice.strategy } : {}),
     outcomeId: resolved.outcome.id,
     outcomeTitle: resolved.outcome.title,

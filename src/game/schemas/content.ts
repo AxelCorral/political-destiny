@@ -608,7 +608,7 @@ export const eventSchema = z.object({
       tags: z.array(
         z.enum(["crime", "corruption", "fraud", "health", "addiction", "family", "violence"]),
       ),
-      actorIds: z.array(z.string()).min(1),
+      actorIds: z.array(z.string()),
       treatment: z.enum(["fictional_only", "verified_context"]),
     })
     .optional(),
@@ -616,7 +616,7 @@ export const eventSchema = z.object({
     .array(
       z.object({
         id: z.string().min(1),
-        label: z.string().min(4).max(100),
+        label: z.string().min(4).max(140),
         visibleTag: z
           .enum([
             "PRUDENT",
@@ -627,6 +627,7 @@ export const eventSchema = z.object({
             "LOYAL",
             "OPPORTUNISTE",
             "TECHNIQUE",
+            "INSTITUTIONNEL",
             "POPULAIRE",
             "PRÉSIDENTIEL",
             "TRANSPARENT",
@@ -720,11 +721,14 @@ export const achievementSchema = z.object({
               "score",
               "first_round_score",
               "second_round_score",
+              "second_round_margin",
               "polling_progression",
               "starting_polling",
               "final_rank",
               "decisions",
+              "polls",
               "positive_outcomes",
+              "positive_event_outcomes",
               "scandals",
               "statement_topics",
               "contradictions",
@@ -734,6 +738,9 @@ export const achievementSchema = z.object({
               "party_stat",
               "hidden_stat",
               "choice_strategy",
+              "choice_tag",
+              "event_category",
+              "outcome_id",
             ]),
             operator: z.enum(["eq", "gte", "lte", "contains"]),
             value: z.union([z.boolean(), z.number(), z.string()]),

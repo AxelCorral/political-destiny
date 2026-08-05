@@ -15,6 +15,8 @@ Le validateur `src/game/data/qualityValidation.ts` ne modifie jamais les donnée
 | Réutilisation exacte d’un ensemble de choix        |          1 événement | Un événement ne peut pas reprendre intégralement les décisions d’un autre.                                            |
 | Cooldown d’un événement répétable sans limite      | au moins 4 décisions | Une répétition rapprochée exige une limite ou une justification narrative explicite.                                  |
 
+Les libellés peuvent compter jusqu’à 140 caractères afin de décrire une action complète. La carte mobile doit les faire revenir à la ligne sans réduire la zone tactile.
+
 ## Erreurs structurelles
 
 La validation échoue aussi dans les cas suivants :
@@ -30,9 +32,9 @@ La validation échoue aussi dans les cas suivants :
 - un succès V2 n’a aucun critère typé, référence un parti ou une fin absente, ou dépasse une borne absolue du moteur ;
 - un événement répétable n’a ni maximum d’apparitions ni cooldown suffisant.
 
-## Avertissements
+## Types d’effet inutilisés
 
-Un type d’effet pris en charge par le moteur mais absent de toute issue est signalé. Le rapport final doit justifier tout avertissement conservé : effet exclusivement systémique, contenu rare volontaire ou dette restante.
+Un type d’effet pris en charge par le moteur mais absent de toute issue bloque la validation V2. Il doit être exercé par un événement crédible et un test, ou supprimé du modèle plutôt que conservé comme capacité théorique.
 
 ## Limites de l’heuristique
 

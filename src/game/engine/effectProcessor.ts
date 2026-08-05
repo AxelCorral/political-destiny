@@ -120,6 +120,8 @@ function applyOneEffect(state: GameState, effect: GameEffect): void {
       if (!actor) return;
       actor.candidateStatus = effect.status;
       actor.active = !["withdrawn", "disqualified", "eliminated"].includes(effect.status);
+      const party = state.parties[actor.partyId];
+      if (party?.candidateId === actor.id) party.active = actor.active;
       return;
     }
     case "alliance": {

@@ -10,6 +10,10 @@ export interface ContentValidationReport {
   stats: {
     parties: number;
     actors: number;
+    entities: number;
+    realEntities: number;
+    fictionalEntities: number;
+    realEntityRatio: number;
     events: number;
     achievements: number;
     endings: number;
@@ -57,6 +61,7 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
   const idCollections = [
     ["parti", content.parties.map((item) => item.id)],
     ["acteur", content.actors.map((item) => item.id)],
+    ["entité", (content.entities ?? []).map((item) => item.id)],
     ["événement", content.events.map((item) => item.id)],
     ["succès", content.achievements.map((item) => item.id)],
     ["fin", content.endings.map((item) => item.id)],
@@ -88,7 +93,7 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
       if (!partyIds.has(partyId)) errors.push(`${event.id}: parti éligible absent ${partyId}`);
     }
     for (const choice of event.choices) {
-      if (choice.label.length < 4 || choice.label.length > 100)
+      if (choice.label.length < 4 || choice.label.length > 140)
         errors.push(`${event.id}/${choice.id}: longueur du choix invalide`);
       for (const outcomeId of duplicates(choice.outcomeGroups.map((outcome) => outcome.id))) {
         errors.push(`${event.id}/${choice.id}: issue dupliquée ${outcomeId}`);
@@ -179,6 +184,12 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
   if (Math.abs(blocWeight - 100) > 0.001)
     errors.push(`Poids des blocs électoraux = ${blocWeight}, attendu 100`);
 
+  const realEntities = (content.entities ?? []).filter(
+    (entity) => entity.reality === "real",
+  ).length;
+  const fictionalEntities = (content.entities ?? []).filter(
+    (entity) => entity.reality === "fictional",
+  ).length;
   return {
     valid: errors.length === 0,
     errors,
@@ -186,6 +197,11 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
     stats: {
       parties: content.parties.length,
       actors: content.actors.length,
+      entities: content.entities?.length ?? 0,
+      realEntities,
+      fictionalEntities,
+      realEntityRatio:
+        (content.entities?.length ?? 0) > 0 ? realEntities / content.entities!.length : 0,
       events: content.events.length,
       achievements: content.achievements.length,
       endings: content.endings.length,

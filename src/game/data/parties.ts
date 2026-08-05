@@ -1,4 +1,4 @@
-import type { ElectorateBlocId, PartyDefinition, RegionId } from "@/game/types";
+import type { ElectorateBlocId, IdeologyFamily, PartyDefinition, RegionId } from "@/game/types";
 
 export const PLAYABLE_PARTY_IDS = [
   "lfi",
@@ -48,7 +48,7 @@ function numberedRecord<T extends string>(keys: T[], values: number[]): Record<T
 const electorate = (...values: number[]) => numberedRecord(BLOC_IDS, values);
 const regions = (...values: number[]) => numberedRecord(REGION_IDS, values);
 
-export const parties: PartyDefinition[] = [
+const baseParties: PartyDefinition[] = [
   {
     id: "lfi",
     displayName: "La France insoumise",
@@ -497,6 +497,330 @@ export const parties: PartyDefinition[] = [
     careerTitle: "L’outsider libéral",
   },
 ];
+
+type PartyCampaignProfile = NonNullable<PartyDefinition["campaignProfile"]>;
+
+const partyCampaignProfiles: Record<
+  (typeof PLAYABLE_PARTY_IDS)[number],
+  { ideologyFamily: IdeologyFamily; profile: PartyCampaignProfile }
+> = {
+  lfi: {
+    ideologyFamily: "radical_left",
+    profile: {
+      coreElectorates: ["young_precarious", "urban_working_class", "mobilisable_abstainers"],
+      targetElectorates: ["public_services", "green_progressives"],
+      difficultElectorates: ["executives", "conservative_retirees", "entrepreneurs"],
+      activistCulture:
+        "Une campagne de mouvement, fondée sur les groupes locaux, les mobilisations de rue et les formats numériques longs.",
+      publicImage:
+        "Une force de rupture très identifiée, capable de mobiliser fortement mais exposée à un rejet élevé hors de son socle.",
+      mediaRelationship:
+        "Le rapport aux grands médias est conflictuel ; les formats directs et les meetings sont privilégiés.",
+      internalTensions: [
+        "Préserver une ligne de rupture ou négocier une candidature commune à gauche",
+        "Donner davantage d’autonomie aux élus sans diluer la stratégie nationale",
+      ],
+      favorableTopics: ["public_services", "pensions", "civil_liberties", "ecology"],
+      dangerousTopics: ["security", "europe"],
+      naturalAllies: ["ecologistes", "ps"],
+      directCompetitors: ["ps", "rn"],
+      firstRoundStrategy:
+        "Mobiliser les abstentionnistes et imposer un vote utile à gauche sans désarmer le programme de rupture.",
+      runoffStrategy:
+        "Élargir vers les sociaux-démocrates et les écologistes tout en limitant la démobilisation du socle.",
+      contradictions: [
+        "Élargissement électoral contre fidélité au programme",
+        "Centralité de la candidature contre culture militante décentralisée",
+      ],
+      victoryConditions: [
+        "Participation élevée des jeunes et des abstentionnistes mobilisables",
+        "Absence d’une candidature de gauche concurrente dominante",
+      ],
+    },
+  },
+  ps: {
+    ideologyFamily: "social_democrat",
+    profile: {
+      coreElectorates: ["public_services", "middle_class_workers", "moderate_retirees"],
+      targetElectorates: ["young_urban_graduates", "green_progressives"],
+      difficultElectorates: ["rural_working_class", "entrepreneurs", "conservative_retirees"],
+      activistCulture:
+        "Un parti de sections, d’élus locaux et de courants, efficace sur le terrain mais exigeant en compromis internes.",
+      publicImage:
+        "Une offre de gouvernement familière qui doit prouver son renouvellement et clarifier son rapport au reste de la gauche.",
+      mediaRelationship:
+        "Les formats institutionnels lui sont accessibles, mais chaque ambiguïté d’alliance devient une question de campagne.",
+      internalTensions: [
+        "Union de la gauche ou autonomie sociale-démocrate",
+        "Réhabilitation du bilan gouvernemental ou rupture avec les quinquennats passés",
+      ],
+      favorableTopics: ["public_services", "work", "europe", "social_issues"],
+      dangerousTopics: ["fiscality", "security"],
+      naturalAllies: ["ecologistes", "lfi"],
+      directCompetitors: ["lfi", "renaissance"],
+      firstRoundStrategy:
+        "Réunir électeurs de gauche modérée, agents publics et métropoles sans disparaître derrière une alliance.",
+      runoffStrategy:
+        "Obtenir les reports de toute la gauche puis rassurer le centre sur la capacité à gouverner.",
+      contradictions: [
+        "Promesse de transformation contre crédibilité budgétaire",
+        "Synthèse des courants contre lisibilité du candidat",
+      ],
+      victoryConditions: [
+        "Candidature de rassemblement crédible à gauche",
+        "Reconquête des classes moyennes et des électeurs des services publics",
+      ],
+    },
+  },
+  ecologistes: {
+    ideologyFamily: "green",
+    profile: {
+      coreElectorates: ["green_progressives", "young_urban_graduates"],
+      targetElectorates: ["young_precarious", "public_services"],
+      difficultElectorates: ["rural_working_class", "conservative_retirees", "entrepreneurs"],
+      activistCulture:
+        "Une culture fédérale et délibérative, riche en expertise locale mais vulnérable aux divisions de ligne nationale.",
+      publicImage:
+        "Une force compétente sur le climat qui doit relier l’écologie au quotidien et sortir d’une image trop métropolitaine.",
+      mediaRelationship:
+        "Les sujets climatiques ouvrent les antennes ; les controverses internes peuvent toutefois occuper tout l’espace.",
+      internalTensions: [
+        "Autonomie écologiste ou primaire commune à gauche",
+        "Écologie de rupture ou coalition de gouvernement",
+      ],
+      favorableTopics: ["ecology", "public_services", "europe", "civil_liberties"],
+      dangerousTopics: ["work", "security"],
+      naturalAllies: ["ps", "lfi"],
+      directCompetitors: ["ps", "renaissance"],
+      firstRoundStrategy:
+        "Transformer l’urgence écologique en projet social concret et démontrer l’utilité d’une candidature autonome.",
+      runoffStrategy:
+        "Négocier des garanties climatiques précises contre un soutien, sans donner l’impression d’un ralliement automatique.",
+      contradictions: [
+        "Radicalité des objectifs contre acceptabilité des transitions",
+        "Démocratie interne contre vitesse de décision en crise",
+      ],
+      victoryConditions: [
+        "Épisode climatique plaçant l’écologie au centre de la campagne",
+        "Percée au-delà des métropoles et des diplômés urbains",
+      ],
+    },
+  },
+  renaissance: {
+    ideologyFamily: "liberal_center",
+    profile: {
+      coreElectorates: ["executives", "moderate_retirees", "entrepreneurs"],
+      targetElectorates: ["middle_class_workers", "young_urban_graduates"],
+      difficultElectorates: ["rural_working_class", "urban_working_class", "young_precarious"],
+      activistCulture:
+        "Une organisation présidentielle récente, structurée par les élus, les comités et l’expérience gouvernementale.",
+      publicImage:
+        "Une offre centrale crédible pour gouverner, mais chargée du bilan du pouvoir et d’une forte fatigue de l’électorat.",
+      mediaRelationship:
+        "L’accès médiatique est large ; le candidat est sans cesse ramené au bilan et à son autonomie vis-à-vis de l’exécutif.",
+      internalTensions: [
+        "Défendre le bilan ou incarner une rupture de méthode",
+        "Maintenir le bloc central ou choisir une alliance vers la droite ou la gauche",
+      ],
+      favorableTopics: ["europe", "economy", "institutions", "work"],
+      dangerousTopics: ["pensions", "public_services"],
+      naturalAllies: ["horizons", "lr"],
+      directCompetitors: ["horizons", "ps", "lr"],
+      firstRoundStrategy:
+        "Réunifier le centre, revendiquer la compétence et prouver que la candidature n’est pas une simple continuation.",
+      runoffStrategy:
+        "Constituer un front large autour de la stabilité européenne et gouvernementale sans aggraver le rejet.",
+      contradictions: [
+        "Renouvellement promis contre continuité du bilan",
+        "Dépassement partisan contre dépendance aux élus sortants",
+      ],
+      victoryConditions: [
+        "Candidat central unique et crédible",
+        "Diminution du rejet sans perte de crédibilité économique",
+      ],
+    },
+  },
+  horizons: {
+    ideologyFamily: "center_right",
+    profile: {
+      coreElectorates: ["executives", "entrepreneurs", "moderate_retirees"],
+      targetElectorates: ["middle_class_workers", "conservative_retirees"],
+      difficultElectorates: ["young_precarious", "urban_working_class", "mobilisable_abstainers"],
+      activistCulture:
+        "Un réseau d’élus et de comités locaux qui valorise la gestion, la stabilité et l’implantation territoriale.",
+      publicImage:
+        "Une candidature de centre droit jugée expérimentée, mais menacée d’être confondue avec les autres offres du bloc central.",
+      mediaRelationship:
+        "Les entretiens longs favorisent l’image de sérieux ; la campagne doit créer de l’intensité sans perdre sa retenue.",
+      internalTensions: [
+        "Autonomie présidentielle ou accord préalable avec Renaissance",
+        "Ligne de centre droit ou rapprochement avec Les Républicains",
+      ],
+      favorableTopics: ["economy", "institutions", "work", "europe"],
+      dangerousTopics: ["social_issues", "ecology"],
+      naturalAllies: ["renaissance", "lr"],
+      directCompetitors: ["renaissance", "lr", "nouvelle_energie"],
+      firstRoundStrategy:
+        "Faire valoir l’expérience locale et présidentielle pour devenir le vote utile du centre droit.",
+      runoffStrategy:
+        "Additionner le centre et la droite modérée sans donner le sentiment d’un accord d’appareil conclu d’avance.",
+      contradictions: [
+        "Patience stratégique contre besoin d’exister tôt",
+        "Autonomie du parti contre proximité avec le pouvoir sortant",
+      ],
+      victoryConditions: [
+        "Éclatement du bloc central au bénéfice du candidat le plus crédible",
+        "Ralliement d’élus locaux issus de la droite et du centre",
+      ],
+    },
+  },
+  lr: {
+    ideologyFamily: "conservative_right",
+    profile: {
+      coreElectorates: ["conservative_retirees", "entrepreneurs", "rural_working_class"],
+      targetElectorates: ["moderate_retirees", "middle_class_workers"],
+      difficultElectorates: ["young_precarious", "green_progressives", "young_urban_graduates"],
+      activistCulture:
+        "Un parti d’élus, de fédérations et de militants expérimentés, traversé par une compétition stratégique sur ses frontières.",
+      publicImage:
+        "Une droite de gouvernement solidement implantée qui doit démontrer son autonomie entre le centre et la droite nationale.",
+      mediaRelationship:
+        "Les thèmes régaliens offrent une forte exposition ; chaque débat d’alliance devient un test d’autorité du candidat.",
+      internalTensions: [
+        "Accord avec le centre ou ligne d’opposition nette",
+        "Frontière avec le RN ou stratégie d’union des droites",
+      ],
+      favorableTopics: ["security", "fiscality", "institutions", "work"],
+      dangerousTopics: ["pensions", "europe"],
+      naturalAllies: ["horizons", "renaissance", "nouvelle_energie"],
+      directCompetitors: ["rn", "horizons", "renaissance"],
+      firstRoundStrategy:
+        "Rassembler la droite de gouvernement, reconquérir les retraités et résister au vote utile vers le RN.",
+      runoffStrategy:
+        "Obtenir les reports du centre et de la droite nationale sans renier les frontières posées pendant la campagne.",
+      contradictions: [
+        "Fermeté programmatique contre capacité de coalition",
+        "Ancrage local puissant contre divisions nationales",
+      ],
+      victoryConditions: [
+        "Candidat incontesté par les fédérations",
+        "Recul simultané du bloc central et de la droite nationale",
+      ],
+    },
+  },
+  rn: {
+    ideologyFamily: "national_right",
+    profile: {
+      coreElectorates: ["rural_working_class", "urban_working_class", "conservative_retirees"],
+      targetElectorates: ["middle_class_workers", "young_precarious"],
+      difficultElectorates: ["young_urban_graduates", "green_progressives", "public_services"],
+      activistCulture:
+        "Une organisation très centralisée, dotée d’un socle électoral fort et attentive à la discipline publique de ses cadres.",
+      publicImage:
+        "Une force installée au premier tour, dont le principal obstacle reste le rejet et la crédibilité d’une majorité de gouvernement.",
+      mediaRelationship:
+        "L’exposition est élevée ; la stratégie oscille entre normalisation présidentielle et mobilisation clivante du socle.",
+      internalTensions: [
+        "Normalisation de l’image ou durcissement identitaire",
+        "Protection économique ou ligne libérale pour rassurer les entreprises",
+      ],
+      favorableTopics: ["immigration", "security", "fiscality", "institutions"],
+      dangerousTopics: ["europe", "economy"],
+      naturalAllies: ["reconquete"],
+      directCompetitors: ["reconquete", "lr", "lfi"],
+      firstRoundStrategy:
+        "Préserver le socle populaire, étouffer la concurrence à droite et réduire le doute sur la capacité à gouverner.",
+      runoffStrategy:
+        "Abaisser le rejet, obtenir des soutiens à droite et convaincre les abstentionnistes sans démobiliser le socle.",
+      contradictions: [
+        "Normalisation présidentielle contre mobilisation identitaire",
+        "Promesses sociales contre crédibilité budgétaire",
+      ],
+      victoryConditions: [
+        "Qualification sans concurrence forte sur la droite nationale",
+        "Baisse durable du rejet avant l’entre-deux-tours",
+      ],
+    },
+  },
+  reconquete: {
+    ideologyFamily: "sovereigntist_right",
+    profile: {
+      coreElectorates: ["conservative_retirees", "entrepreneurs", "rural_working_class"],
+      targetElectorates: ["middle_class_workers", "executives"],
+      difficultElectorates: ["green_progressives", "young_precarious", "public_services"],
+      activistCulture:
+        "Une base militante numérique et événementielle très engagée, mais un appareil local et financier plus fragile.",
+      publicImage:
+        "Une offre idéologique très nette qui attire l’attention mais peine à élargir son électorat au-delà d’un noyau convaincu.",
+      mediaRelationship:
+        "La campagne recherche les confrontations et les formats viraux, avec un risque élevé de saturation et de rejet.",
+      internalTensions: [
+        "Maintenir la pureté de la ligne ou négocier avec le RN",
+        "Campagne de témoignage ou stratégie de qualification",
+      ],
+      favorableTopics: ["immigration", "security", "institutions", "civil_liberties"],
+      dangerousTopics: ["public_services", "ecology"],
+      naturalAllies: ["rn"],
+      directCompetitors: ["rn", "lr"],
+      firstRoundStrategy:
+        "Reprendre l’initiative idéologique au RN et convertir la visibilité en implantation et en vote utile.",
+      runoffStrategy:
+        "Négocier une influence programmatique ou devenir faiseur de roi si la qualification reste hors de portée.",
+      contradictions: [
+        "Radicalité de la ligne contre nécessité d’élargissement",
+        "Personnalisation médiatique contre construction d’un parti durable",
+      ],
+      victoryConditions: [
+        "Crise majeure de la candidature RN",
+        "Transformation rapide de l’audience médiatique en réseau territorial",
+      ],
+    },
+  },
+  nouvelle_energie: {
+    ideologyFamily: "center_right",
+    profile: {
+      coreElectorates: ["entrepreneurs", "executives", "moderate_retirees"],
+      targetElectorates: ["middle_class_workers", "conservative_retirees"],
+      difficultElectorates: ["young_precarious", "urban_working_class", "mobilisable_abstainers"],
+      activistCulture:
+        "Un mouvement récent appuyé sur des entrepreneurs, des élus locaux et des volontaires encore peu nombreux.",
+      publicImage:
+        "Une offre libérale et décentralisatrice identifiable, mais confrontée à un déficit de notoriété et au vote utile.",
+      mediaRelationship:
+        "Chaque passage doit d’abord expliquer l’existence du mouvement avant de pouvoir imposer une proposition de fond.",
+      internalTensions: [
+        "Conserver une candidature autonome ou fusionner avec une droite mieux implantée",
+        "Priorité aux réformes économiques ou élargissement aux services publics",
+      ],
+      favorableTopics: ["economy", "fiscality", "institutions", "work"],
+      dangerousTopics: ["public_services", "social_issues"],
+      naturalAllies: ["lr", "horizons"],
+      directCompetitors: ["horizons", "lr"],
+      firstRoundStrategy:
+        "Construire la notoriété par quelques réformes fortes et obtenir des relais territoriaux crédibles.",
+      runoffStrategy:
+        "Transformer un score modeste en accord programmatique ou en responsabilité gouvernementale identifiable.",
+      contradictions: [
+        "Rupture libérale contre protection des électeurs exposés",
+        "Indépendance du mouvement contre besoin d’une alliance rapide",
+      ],
+      victoryConditions: [
+        "Percée médiatique précoce suivie de ralliements locaux",
+        "Espace laissé vacant entre Horizons et Les Républicains",
+      ],
+    },
+  },
+};
+
+export const parties: PartyDefinition[] = baseParties.map((party) => {
+  const configured = partyCampaignProfiles[party.id as (typeof PLAYABLE_PARTY_IDS)[number]];
+  if (!configured) return party;
+  return {
+    ...party,
+    ideologyFamily: configured.ideologyFamily,
+    campaignProfile: structuredClone(configured.profile),
+  };
+});
 
 export function getPartyDefinition(id: string): PartyDefinition | undefined {
   return parties.find((party) => party.id === id);
