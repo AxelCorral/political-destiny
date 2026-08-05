@@ -17,13 +17,15 @@ function partyAppeal(
   const distance = ideologyDistance(party.perceivedIdeology, bloc.ideology);
   const ideologicalFit = Math.max(0.08, 1 - distance / 175);
   const affinity = Math.max(0.2, (party.electorateAffinity[bloc.id] ?? 50) / 50);
+  // Le socle doit rester structurant : sans ce terme, un positionnement central
+  // devient mécaniquement dominant dans tous les blocs, quelle que soit la partie.
   const competence =
-    party.stats.credibility * 0.18 +
-    party.stats.popularity * 0.15 +
-    party.stats.mobilization * 0.08;
-  const rejectionPenalty = party.stats.rejection * 0.18;
+    party.stats.credibility * 0.12 + party.stats.popularity * 0.1 + party.stats.mobilization * 0.06;
+  const rejectionPenalty = party.stats.rejection * 0.09;
   const momentum = party.stats.momentum * (bloc.volatility / 100) * 0.12;
-  const base = Math.max(0.2, party.hidden.baseSupport * 0.55 + party.stats.awareness * 0.04);
+  const underdogLeverage =
+    Math.max(0, 15 - party.hidden.baseSupport) * Math.max(0, party.stats.momentum - 50) * 0.03;
+  const base = Math.max(0.2, party.hidden.baseSupport * 1.5 + party.stats.awareness * 0.025);
 
   return Math.max(
     0.01,
@@ -31,6 +33,7 @@ function partyAppeal(
       competence -
       rejectionPenalty +
       momentum +
+      underdogLeverage +
       trustModifier +
       usefulVoteBoost,
   );

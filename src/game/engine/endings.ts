@@ -11,6 +11,8 @@ export function determineEndingId(state: GameState): string {
   if (state.flags.secret_national_union === true) return "secret_national_union";
   if (state.flags.secret_monarchy === true) return "secret_monarchy";
   if (state.flags.secret_fragmentation === true) return "secret_fragmentation";
+  if (state.flags.secret_authoritarian === true) return "secret_authoritarian";
+  if (state.flags.secret_civil_unrest === true) return "secret_civil_unrest";
   if (state.flags.retired === true) return "retirement";
   if (state.flags.withdrew === true) return "withdrawn";
   if ((secondRound?.ranking[0] ?? "") === state.playerPartyId) return "president";

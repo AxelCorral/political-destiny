@@ -55,7 +55,9 @@ export function simulateFirstRound(
     if (actor && ["withdrawn", "disqualified", "eliminated"].includes(actor.candidateStatus))
       continue;
     let noise: number;
-    [noise, rng] = randomBetween(rng, -0.55, 0.55);
+    // Le bruit du scrutin reste inférieur au bruit maximal des sondages et
+    // représente surtout mobilisation et indécision de dernière heure.
+    [noise, rng] = randomBetween(rng, -3.2, 3.2);
     const mobilizationFactor = 0.9 + party.stats.mobilization / 500;
     raw[party.id] = Math.max(0.01, (latent[party.id] ?? 0) * mobilizationFactor + noise);
   }
@@ -124,21 +126,29 @@ export function simulateSecondRound(
       (sum, id) => sum + (state.firstRoundResult?.results[id] ?? 0),
       0,
     );
+    const leftFirstRound = state.firstRoundResult?.results[leftId] ?? 0;
+    const rightFirstRound = state.firstRoundResult?.results[rightId] ?? 0;
     const leftAppeal = Math.max(
       0.05,
-      120 -
-        leftDistance -
-        left.stats.rejection * 0.42 +
-        left.stats.credibility * 0.18 +
-        leftAlliance * 0.24,
+      60 +
+        leftFirstRound * 2.2 -
+        leftDistance * 0.3 -
+        left.stats.rejection * 0.14 +
+        left.stats.credibility * 0.25 +
+        left.stats.mobilization * 0.15 +
+        left.hidden.transferability * 0.25 +
+        leftAlliance * 0.25,
     );
     const rightAppeal = Math.max(
       0.05,
-      120 -
-        rightDistance -
-        right.stats.rejection * 0.42 +
-        right.stats.credibility * 0.18 +
-        rightAlliance * 0.24,
+      60 +
+        rightFirstRound * 2.2 -
+        rightDistance * 0.3 -
+        right.stats.rejection * 0.14 +
+        right.stats.credibility * 0.25 +
+        right.stats.mobilization * 0.15 +
+        right.hidden.transferability * 0.25 +
+        rightAlliance * 0.25,
     );
     const total = leftAppeal + rightAppeal;
     const participation = (state.electorate.turnoutByBloc[bloc.id] ?? bloc.turnout) / 100;
@@ -147,7 +157,9 @@ export function simulateSecondRound(
   }
 
   let rng = state.rng;
-  const [leftNoise, nextRng] = randomBetween(rng, -0.32, 0.32);
+  // Au duel final, l'incertitude porte sur les reports et l'abstention : ces
+  // valeurs sont des masses de blocs avant normalisation, pas des points publiés.
+  const [leftNoise, nextRng] = randomBetween(rng, -6.5, 6.5);
   rng = nextRng;
   const results = normalizePercentages(
     {

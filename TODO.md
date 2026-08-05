@@ -33,17 +33,17 @@ Ce document suit l’avancement de la V1 décrite dans `PROMPT_MAITRE_CLAUDE_COD
 
 ## Phase 3 — Données et contenu jouable
 
-- [ ] Ajouter les neuf partis configurables et le parti personnalisé.
-- [ ] Ajouter candidats et cadres fictifs, affinités, forces, faiblesses et programmes.
-- [ ] Ajouter les 12 blocs électoraux et les grandes régions.
-- [ ] Ajouter les cinq méthodes de campagne.
-- [ ] Ajouter au moins 110 événements variés, dont chaînes et événements rares.
-- [ ] Ajouter au moins quatre événements spécifiques par parti.
-- [ ] Ajouter au moins 40 badges et les fins principales/secrètes.
-- [ ] Ajouter le snapshot réel daté et uniquement des métadonnées sûres.
-- [ ] Créer le validateur éditorial et référentiel de contenu.
-- [ ] Créer et exécuter le simulateur d’équilibrage local.
-- [ ] Commit de phase.
+- [x] Ajouter les neuf partis configurables et le parti personnalisé.
+- [x] Ajouter candidats et cadres fictifs, affinités, forces, faiblesses et programmes.
+- [x] Ajouter les 12 blocs électoraux et les grandes régions.
+- [x] Ajouter les cinq méthodes de campagne.
+- [x] Ajouter au moins 110 événements variés, dont chaînes et événements rares.
+- [x] Ajouter au moins quatre événements spécifiques par parti.
+- [x] Ajouter au moins 40 badges et les fins principales/secrètes.
+- [x] Ajouter le snapshot réel daté et uniquement des métadonnées sûres.
+- [x] Créer le validateur éditorial et référentiel de contenu.
+- [x] Créer et exécuter le simulateur d’équilibrage local.
+- [x] Commit de phase.
 
 ## Phase 4 — Parcours de jeu complet
 

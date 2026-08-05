@@ -647,6 +647,33 @@ export interface GameContent {
   endings: EndingDefinition[];
 }
 
+export interface RealPartySnapshot {
+  id: string;
+  displayName: string;
+  aliases: string[];
+  officialWebsite: string;
+  reviewedAt: string;
+  status: "verified" | "NEEDS_EDITORIAL_REVIEW";
+}
+
+export interface RealPublicFigureSnapshot {
+  id: string;
+  displayName: string;
+  role: string;
+  sourceMetadata: SourceMetadata[];
+  status: "verified" | "NEEDS_EDITORIAL_REVIEW";
+}
+
+export interface RealWorldSnapshot {
+  snapshotDate: string;
+  lastEditorialReviewAt: string;
+  electionDateStatus: "configured" | "official" | "unknown";
+  parties: RealPartySnapshot[];
+  publicFigures: RealPublicFigureSnapshot[];
+  sourceMetadata: SourceMetadata[];
+  editorialNotes: string[];
+}
+
 export interface NewGameOptions {
   seed: string;
   mode: GameMode;

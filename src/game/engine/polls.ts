@@ -27,7 +27,7 @@ export function generatePoll(
       continue;
     }
     let noise: number;
-    [noise, rng] = randomBetween(rng, -1.15, 1.15);
+    [noise, rng] = randomBetween(rng, -3.8, 3.8);
     const lagged = previousPoll?.results[party.id] ?? truth[party.id] ?? 0;
     noisy[party.id] = Math.max(0, (truth[party.id] ?? 0) * 0.72 + lagged * 0.28 + noise);
   }

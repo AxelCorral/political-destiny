@@ -108,8 +108,10 @@ function applyOneEffect(state: GameState, effect: GameEffect): void {
       return;
     }
     case "alliance": {
-      const party = state.parties[effect.partyId];
-      const partner = state.parties[effect.withPartyId];
+      const partyId = effect.partyId === "player" ? state.playerPartyId : effect.partyId;
+      const partnerId = effect.withPartyId === "player" ? state.playerPartyId : effect.withPartyId;
+      const party = state.parties[partyId];
+      const partner = state.parties[partnerId];
       if (!party || !partner || party.id === partner.id) return;
       if (effect.action === "add") {
         if (!party.alliedWith.includes(partner.id)) party.alliedWith.push(partner.id);
@@ -120,9 +122,11 @@ function applyOneEffect(state: GameState, effect: GameEffect): void {
       }
       return;
     }
-    case "party_split":
-      applyPartySplit(state, effect.partyId, effect.actorId);
+    case "party_split": {
+      const partyId = effect.partyId === "player" ? state.playerPartyId : effect.partyId;
+      applyPartySplit(state, partyId, effect.actorId);
       return;
+    }
     default: {
       const exhaustive: never = effect;
       return exhaustive;

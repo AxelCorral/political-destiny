@@ -10,6 +10,13 @@ function achievementMatches(id: string, state: GameState, finalResult?: FinalRes
   const tags = records.map((record) => record.choiceLabel.toLocaleLowerCase("fr"));
   const uniqueTopics = new Set(state.statementLedger.map((statement) => statement.topic)).size;
 
+  if (id.startsWith("played_")) {
+    return Boolean(finalResult && state.playerPartyId === id.slice("played_".length));
+  }
+  if (id.startsWith("won_")) {
+    return Boolean(finalResult?.won && state.playerPartyId === id.slice("won_".length));
+  }
+
   switch (id) {
     case "first_choice":
       return records.length >= 1;

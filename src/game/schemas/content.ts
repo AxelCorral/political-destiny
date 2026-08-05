@@ -447,7 +447,20 @@ export const campaignMethodSchema = z.object({
   description: z.string(),
   symbol: z.string(),
   effects: z.array(effectSchema),
-  traitEffects: traitsSchema.partial(),
+  traitEffects: z
+    .object({
+      charisma: z.number().finite().min(-100).max(100),
+      mediaSkill: z.number().finite().min(-100).max(100),
+      competence: z.number().finite().min(-100).max(100),
+      tactics: z.number().finite().min(-100).max(100),
+      integrity: z.number().finite().min(-100).max(100),
+      endurance: z.number().finite().min(-100).max(100),
+      authority: z.number().finite().min(-100).max(100),
+      empathy: z.number().finite().min(-100).max(100),
+      discipline: z.number().finite().min(-100).max(100),
+      coalitionSkill: z.number().finite().min(-100).max(100),
+    })
+    .partial(),
 });
 
 export const achievementSchema = z.object({
