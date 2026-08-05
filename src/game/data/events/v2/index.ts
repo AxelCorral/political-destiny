@@ -6,6 +6,7 @@ import { v2CustomPartyEvents } from "./customParty";
 import { v2DebateEvents } from "./debates";
 import { v2EndgameEvents } from "./endgame";
 import { v2InternalEvents } from "./internal";
+import { applyIdeologicalEligibility } from "./ideologyEligibility";
 import { v2MediaEvents } from "./media";
 import { v2EcologistesPartyEvents } from "./partiesEcologistes";
 import { v2HorizonsPartyEvents } from "./partiesHorizons";
@@ -33,7 +34,7 @@ export const v2PartyEvents: GameEventDefinition[] = [
   ...v2NouvelleEnergiePartyEvents,
 ];
 
-export const v2Events: GameEventDefinition[] = [
+const authoredV2Events: GameEventDefinition[] = [
   ...v2CampaignEvents,
   ...v2MediaEvents,
   ...v2ProgramEvents,
@@ -47,6 +48,8 @@ export const v2Events: GameEventDefinition[] = [
   ...v2PartyEvents,
   ...v2EndgameEvents,
 ];
+
+export const v2Events: GameEventDefinition[] = applyIdeologicalEligibility(authoredV2Events);
 
 export {
   v2AllianceEvents,

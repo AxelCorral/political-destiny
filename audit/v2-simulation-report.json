@@ -1,0 +1,4831 @@
+{
+  "generatedAt": "2026-08-05T22:22:50.899Z",
+  "methodology": {
+    "totalRuns": 6300,
+    "seedsPerParty": 100,
+    "parties": [
+      "lfi",
+      "ps",
+      "ecologistes",
+      "renaissance",
+      "horizons",
+      "lr",
+      "rn",
+      "reconquete",
+      "nouvelle_energie"
+    ],
+    "strategies": ["random", "coherent", "prudent", "risky", "collective", "greedy", "adverse"],
+    "strategyDefinitions": {
+      "coherent": "Privilégie la continuité des positions politiques, puis les engagements de fond, le temps long et les compromis cohérents.",
+      "random": "Choix déterministe pseudo-aléatoire indépendant du PRNG du moteur.",
+      "prudent": "Privilégie les options PRUDENT, les stratégies de temps long, les voies juridiques et le silence explicite.",
+      "risky": "Privilégie les options RISQUÉ, la prise de risque personnelle, la rupture et l’exclusion.",
+      "collective": "Privilégie les options RASSEMBLEUR, les alliances, la mobilisation de terrain et les compromis.",
+      "greedy": "Maximise l’utilité numérique attendue des effets avec les probabilités courantes.",
+      "adverse": "Minimise la même utilité; borne basse volontaire de l’agence du joueur."
+    },
+    "checkpointDecision": 12,
+    "earlyDecisionDefinition": "À la décision 12: rang <=2 et >=18% puis qualification, ou rang >=6 et <=8% puis élimination.",
+    "comebackDefinition": "À la décision 12: rang >=5 ou <8%, puis qualification.",
+    "limits": "Les stratégies greedy/adverse optimisent une fonction d’audit documentée, pas une connaissance parfaite de la formule électorale. Eta² est descriptif et non causal."
+  },
+  "integrity": {
+    "invalidRuns": 0,
+    "blockedRuns": 0,
+    "determinismChecks": [
+      {
+        "partyId": "lfi",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "lfi",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "ps",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "ps",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "ecologistes",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "ecologistes",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "renaissance",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "renaissance",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "horizons",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "horizons",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "lr",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "lr",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "rn",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "rn",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "reconquete",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "reconquete",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "nouvelle_energie",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "nouvelle_energie",
+        "seed": "audit-seed-1",
+        "identical": true
+      }
+    ],
+    "determinismFailures": 0
+  },
+  "overall": {
+    "runs": 6300,
+    "qualificationRate": 0.7353968253968254,
+    "winRate": 0.5555555555555556,
+    "averageFirstRoundScore": 14.684095238095164,
+    "firstRoundVariance": 8.204489895691548,
+    "averageSecondRoundScore": 53.721584286639285,
+    "averageFinalScore": 77.30079365079365,
+    "finalScoreVariance": 200.94047556059775,
+    "averageProgression": 6.795206349206341,
+    "averageDecisions": 29.052698412698412,
+    "firstRoundP05": 9.4,
+    "firstRoundMedian": 14.9,
+    "firstRoundP95": 19
+  },
+  "byParty": {
+    "lfi": {
+      "runs": 700,
+      "qualificationRate": 0.8385714285714285,
+      "winRate": 0.5285714285714286,
+      "averageFirstRoundScore": 15.584285714285704,
+      "firstRoundVariance": 5.3056387755102135,
+      "averageSecondRoundScore": 51.97444633730834,
+      "averageFinalScore": 74.66142857142857,
+      "finalScoreVariance": 213.06965510204088,
+      "averageProgression": 2.5842857142857123,
+      "averageDecisions": 29.411428571428573,
+      "firstRoundP05": 11.6,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 19.2
+    },
+    "ps": {
+      "runs": 700,
+      "qualificationRate": 0.89,
+      "winRate": 0.6685714285714286,
+      "averageFirstRoundScore": 16.17428571428574,
+      "firstRoundVariance": 5.504853061224502,
+      "averageSecondRoundScore": 53.789887640449436,
+      "averageFinalScore": 84.77142857142857,
+      "finalScoreVariance": 101.45061224489793,
+      "averageProgression": 11.674285714285718,
+      "averageDecisions": 29.897142857142857,
+      "firstRoundP05": 12.3,
+      "firstRoundMedian": 16.3,
+      "firstRoundP95": 19.8
+    },
+    "ecologistes": {
+      "runs": 700,
+      "qualificationRate": 0.7485714285714286,
+      "winRate": 0.6,
+      "averageFirstRoundScore": 14.47957142857142,
+      "firstRoundVariance": 5.189368387755107,
+      "averageSecondRoundScore": 53.888740458015285,
+      "averageFinalScore": 80.64142857142858,
+      "finalScoreVariance": 169.83856938775511,
+      "averageProgression": 7.979571428571431,
+      "averageDecisions": 29.194285714285716,
+      "firstRoundP05": 10.5,
+      "firstRoundMedian": 14.5,
+      "firstRoundP95": 18.3
+    },
+    "renaissance": {
+      "runs": 700,
+      "qualificationRate": 0.8385714285714285,
+      "winRate": 0.7285714285714285,
+      "averageFirstRoundScore": 15.366857142857148,
+      "firstRoundVariance": 4.211644408163261,
+      "averageSecondRoundScore": 54.793867120954054,
+      "averageFinalScore": 73.98571428571428,
+      "finalScoreVariance": 178.06836734693758,
+      "averageProgression": 1.3668571428571437,
+      "averageDecisions": 29.81142857142857,
+      "firstRoundP05": 11.9,
+      "firstRoundMedian": 15.4,
+      "firstRoundP95": 18.8
+    },
+    "horizons": {
+      "runs": 700,
+      "qualificationRate": 0.7714285714285715,
+      "winRate": 0.7114285714285714,
+      "averageFirstRoundScore": 14.675857142857161,
+      "firstRoundVariance": 3.9554599795918426,
+      "averageSecondRoundScore": 56.129074074074055,
+      "averageFinalScore": 82.14,
+      "finalScoreVariance": 119.20611428571414,
+      "averageProgression": 10.17585714285715,
+      "averageDecisions": 29.50857142857143,
+      "firstRoundP05": 11.4,
+      "firstRoundMedian": 14.7,
+      "firstRoundP95": 17.9
+    },
+    "lr": {
+      "runs": 700,
+      "qualificationRate": 0.8528571428571429,
+      "winRate": 0.71,
+      "averageFirstRoundScore": 15.618999999999996,
+      "firstRoundVariance": 4.3498247142857185,
+      "averageSecondRoundScore": 54.50887772194299,
+      "averageFinalScore": 83.77857142857142,
+      "finalScoreVariance": 112.76382653061187,
+      "averageProgression": 9.119000000000005,
+      "averageDecisions": 29.83142857142857,
+      "firstRoundP05": 12.1,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 18.8
+    },
+    "rn": {
+      "runs": 700,
+      "qualificationRate": 0.9171428571428571,
+      "winRate": 0.4014285714285714,
+      "averageFirstRoundScore": 16.418571428571457,
+      "firstRoundVariance": 5.2124265306122455,
+      "averageSecondRoundScore": 48.98302180685354,
+      "averageFinalScore": 77.78428571428572,
+      "finalScoreVariance": 141.8891816326531,
+      "averageProgression": 3.918571428571424,
+      "averageDecisions": 29.47142857142857,
+      "firstRoundP05": 12.8,
+      "firstRoundMedian": 16.3,
+      "firstRoundP95": 20.1
+    },
+    "reconquete": {
+      "runs": 700,
+      "qualificationRate": 0.12714285714285714,
+      "winRate": 0.055714285714285716,
+      "averageFirstRoundScore": 10.04985714285714,
+      "firstRoundVariance": 5.09778569387756,
+      "averageSecondRoundScore": 49.51235955056179,
+      "averageFinalScore": 59.901428571428575,
+      "finalScoreVariance": 141.77742653061202,
+      "averageProgression": 5.049857142857146,
+      "averageDecisions": 25.62,
+      "firstRoundP05": 6.2,
+      "firstRoundMedian": 10.1,
+      "firstRoundP95": 13.6
+    },
+    "nouvelle_energie": {
+      "runs": 700,
+      "qualificationRate": 0.6342857142857142,
+      "winRate": 0.5957142857142858,
+      "averageFirstRoundScore": 13.788571428571434,
+      "firstRoundVariance": 5.313755102040824,
+      "averageSecondRoundScore": 58.02950450450449,
+      "averageFinalScore": 78.04285714285714,
+      "finalScoreVariance": 176.57244897959131,
+      "averageProgression": 9.288571428571423,
+      "averageDecisions": 28.728571428571428,
+      "firstRoundP05": 9.7,
+      "firstRoundMedian": 13.8,
+      "firstRoundP95": 17.5
+    }
+  },
+  "byStrategy": {
+    "random": {
+      "runs": 900,
+      "qualificationRate": 0.7633333333333333,
+      "winRate": 0.5833333333333334,
+      "averageFirstRoundScore": 14.822222222222234,
+      "firstRoundVariance": 7.203017283950616,
+      "averageSecondRoundScore": 53.563609898107636,
+      "averageFinalScore": 78.35222222222222,
+      "finalScoreVariance": 145.0103839506174,
+      "averageProgression": 6.9333333333333345,
+      "averageDecisions": 29.22,
+      "firstRoundP05": 9.8,
+      "firstRoundMedian": 15.1,
+      "firstRoundP95": 18.7
+    },
+    "coherent": {
+      "runs": 900,
+      "qualificationRate": 0.8255555555555556,
+      "winRate": 0.6822222222222222,
+      "averageFirstRoundScore": 15.355777777777801,
+      "firstRoundVariance": 6.709088839506167,
+      "averageSecondRoundScore": 54.49690444145358,
+      "averageFinalScore": 83.49888888888889,
+      "finalScoreVariance": 109.60110987654328,
+      "averageProgression": 7.466888888888887,
+      "averageDecisions": 29.666666666666668,
+      "firstRoundP05": 10.8,
+      "firstRoundMedian": 15.5,
+      "firstRoundP95": 19.4
+    },
+    "prudent": {
+      "runs": 900,
+      "qualificationRate": 0.7333333333333333,
+      "winRate": 0.5155555555555555,
+      "averageFirstRoundScore": 14.559222222222225,
+      "firstRoundVariance": 6.612748283950617,
+      "averageSecondRoundScore": 52.99818181818184,
+      "averageFinalScore": 77.06777777777778,
+      "finalScoreVariance": 148.71207283950648,
+      "averageProgression": 6.670333333333327,
+      "averageDecisions": 28.964444444444446,
+      "firstRoundP05": 9.9,
+      "firstRoundMedian": 14.8,
+      "firstRoundP95": 18.3
+    },
+    "risky": {
+      "runs": 900,
+      "qualificationRate": 0.7222222222222222,
+      "winRate": 0.4711111111111111,
+      "averageFirstRoundScore": 14.514222222222209,
+      "firstRoundVariance": 7.575419950617286,
+      "averageSecondRoundScore": 52.39646153846154,
+      "averageFinalScore": 75.12777777777778,
+      "finalScoreVariance": 173.20700617283947,
+      "averageProgression": 6.625333333333331,
+      "averageDecisions": 28.83111111111111,
+      "firstRoundP05": 9.1,
+      "firstRoundMedian": 14.7,
+      "firstRoundP95": 18.6
+    },
+    "collective": {
+      "runs": 900,
+      "qualificationRate": 0.8011111111111111,
+      "winRate": 0.6688888888888889,
+      "averageFirstRoundScore": 15.16666666666668,
+      "firstRoundVariance": 7.120844444444452,
+      "averageSecondRoundScore": 55.05603328710119,
+      "averageFinalScore": 80.68444444444444,
+      "finalScoreVariance": 133.96931358024668,
+      "averageProgression": 7.277777777777771,
+      "averageDecisions": 29.54222222222222,
+      "firstRoundP05": 9.9,
+      "firstRoundMedian": 15.4,
+      "firstRoundP95": 19.1
+    },
+    "greedy": {
+      "runs": 900,
+      "qualificationRate": 0.8866666666666667,
+      "winRate": 0.8,
+      "averageFirstRoundScore": 16.04244444444445,
+      "firstRoundVariance": 6.149487358024701,
+      "averageSecondRoundScore": 55.981077694235566,
+      "averageFinalScore": 86.12555555555555,
+      "finalScoreVariance": 83.4186802469136,
+      "averageProgression": 8.153555555555554,
+      "averageDecisions": 30.14666666666667,
+      "firstRoundP05": 11.7,
+      "firstRoundMedian": 16.2,
+      "firstRoundP95": 19.8
+    },
+    "adverse": {
+      "runs": 900,
+      "qualificationRate": 0.41555555555555557,
+      "winRate": 0.16777777777777778,
+      "averageFirstRoundScore": 12.328111111111106,
+      "firstRoundVariance": 7.917487543209887,
+      "averageSecondRoundScore": 48.65748663101603,
+      "averageFinalScore": 60.24888888888889,
+      "finalScoreVariance": 188.2736098765432,
+      "averageProgression": 4.439222222222223,
+      "averageDecisions": 26.997777777777777,
+      "firstRoundP05": 7,
+      "firstRoundMedian": 12.6,
+      "firstRoundP95": 16.3
+    }
+  },
+  "byPartyAndStrategy": {
+    "lfi:random": {
+      "runs": 100,
+      "qualificationRate": 0.91,
+      "winRate": 0.57,
+      "averageFirstRoundScore": 15.788999999999996,
+      "firstRoundVariance": 3.132179,
+      "averageSecondRoundScore": 51.461538461538474,
+      "averageFinalScore": 76.85,
+      "finalScoreVariance": 103.68749999999996,
+      "averageProgression": 2.7889999999999997,
+      "averageDecisions": 29.78,
+      "firstRoundP05": 12.9,
+      "firstRoundMedian": 15.8,
+      "firstRoundP95": 18.5
+    },
+    "lfi:coherent": {
+      "runs": 100,
+      "qualificationRate": 0.98,
+      "winRate": 0.71,
+      "averageFirstRoundScore": 16.767999999999997,
+      "firstRoundVariance": 3.272776,
+      "averageSecondRoundScore": 52.870408163265296,
+      "averageFinalScore": 84.07,
+      "finalScoreVariance": 47.565099999999966,
+      "averageProgression": 3.7680000000000002,
+      "averageDecisions": 30.34,
+      "firstRoundP05": 13.7,
+      "firstRoundMedian": 16.9,
+      "firstRoundP95": 19.6
+    },
+    "lfi:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.89,
+      "winRate": 0.49,
+      "averageFirstRoundScore": 15.596000000000002,
+      "firstRoundVariance": 3.4583840000000006,
+      "averageSecondRoundScore": 50.51235955056181,
+      "averageFinalScore": 74.92,
+      "finalScoreVariance": 107.67360000000006,
+      "averageProgression": 2.596000000000001,
+      "averageDecisions": 29.54,
+      "firstRoundP05": 12.2,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 18.6
+    },
+    "lfi:risky": {
+      "runs": 100,
+      "qualificationRate": 0.76,
+      "winRate": 0.29,
+      "averageFirstRoundScore": 14.686000000000002,
+      "firstRoundVariance": 3.531204,
+      "averageSecondRoundScore": 49.360526315789464,
+      "averageFinalScore": 68.61,
+      "finalScoreVariance": 155.41789999999997,
+      "averageProgression": 1.6860000000000006,
+      "averageDecisions": 28.62,
+      "firstRoundP05": 11.6,
+      "firstRoundMedian": 14.8,
+      "firstRoundP95": 17.4
+    },
+    "lfi:collective": {
+      "runs": 100,
+      "qualificationRate": 0.94,
+      "winRate": 0.72,
+      "averageFirstRoundScore": 16.115999999999996,
+      "firstRoundVariance": 3.3857440000000008,
+      "averageSecondRoundScore": 54.05319148936168,
+      "averageFinalScore": 79.54,
+      "finalScoreVariance": 78.44839999999999,
+      "averageProgression": 3.1160000000000014,
+      "averageDecisions": 30.2,
+      "firstRoundP05": 13.1,
+      "firstRoundMedian": 16.2,
+      "firstRoundP95": 19.1
+    },
+    "lfi:greedy": {
+      "runs": 100,
+      "qualificationRate": 1,
+      "winRate": 0.86,
+      "averageFirstRoundScore": 17.477999999999998,
+      "firstRoundVariance": 2.951516000000002,
+      "averageSecondRoundScore": 55.476000000000006,
+      "averageFinalScore": 87.02,
+      "finalScoreVariance": 34.6596,
+      "averageProgression": 4.478000000000001,
+      "averageDecisions": 30.72,
+      "firstRoundP05": 14.3,
+      "firstRoundMedian": 17.5,
+      "firstRoundP95": 20
+    },
+    "lfi:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.39,
+      "winRate": 0.06,
+      "averageFirstRoundScore": 12.656999999999998,
+      "firstRoundVariance": 2.719650999999999,
+      "averageSecondRoundScore": 45.36153846153846,
+      "averageFinalScore": 51.62,
+      "finalScoreVariance": 126.59559999999996,
+      "averageProgression": -0.3429999999999999,
+      "averageDecisions": 26.68,
+      "firstRoundP05": 9.9,
+      "firstRoundMedian": 12.7,
+      "firstRoundP95": 14.9
+    },
+    "ps:random": {
+      "runs": 100,
+      "qualificationRate": 0.9,
+      "winRate": 0.7,
+      "averageFirstRoundScore": 16.154999999999998,
+      "firstRoundVariance": 4.403875000000002,
+      "averageSecondRoundScore": 53.741111111111096,
+      "averageFinalScore": 85.01,
+      "finalScoreVariance": 58.189899999999994,
+      "averageProgression": 11.655000000000003,
+      "averageDecisions": 30,
+      "firstRoundP05": 12.5,
+      "firstRoundMedian": 16.3,
+      "firstRoundP95": 19.4
+    },
+    "ps:coherent": {
+      "runs": 100,
+      "qualificationRate": 1,
+      "winRate": 0.87,
+      "averageFirstRoundScore": 17.241999999999997,
+      "firstRoundVariance": 4.012036000000002,
+      "averageSecondRoundScore": 54.95700000000001,
+      "averageFinalScore": 92.07,
+      "finalScoreVariance": 10.105100000000016,
+      "averageProgression": 12.742,
+      "averageDecisions": 30.74,
+      "firstRoundP05": 13.6,
+      "firstRoundMedian": 17.3,
+      "firstRoundP95": 20.4
+    },
+    "ps:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.89,
+      "winRate": 0.59,
+      "averageFirstRoundScore": 15.903000000000011,
+      "firstRoundVariance": 3.8400909999999997,
+      "averageSecondRoundScore": 53.11348314606741,
+      "averageFinalScore": 83.87,
+      "finalScoreVariance": 61.6131,
+      "averageProgression": 11.40300000000001,
+      "averageDecisions": 29.74,
+      "firstRoundP05": 12.9,
+      "firstRoundMedian": 16.1,
+      "firstRoundP95": 19.2
+    },
+    "ps:risky": {
+      "runs": 100,
+      "qualificationRate": 0.92,
+      "winRate": 0.6,
+      "averageFirstRoundScore": 16.093999999999994,
+      "firstRoundVariance": 3.9993639999999964,
+      "averageSecondRoundScore": 52.45760869565217,
+      "averageFinalScore": 83.59,
+      "finalScoreVariance": 54.261900000000004,
+      "averageProgression": 11.593999999999994,
+      "averageDecisions": 29.88,
+      "firstRoundP05": 13,
+      "firstRoundMedian": 16,
+      "firstRoundP95": 19.2
+    },
+    "ps:collective": {
+      "runs": 100,
+      "qualificationRate": 0.96,
+      "winRate": 0.75,
+      "averageFirstRoundScore": 16.530999999999995,
+      "firstRoundVariance": 4.528339,
+      "averageSecondRoundScore": 54.65208333333333,
+      "averageFinalScore": 87.88,
+      "finalScoreVariance": 36.365599999999965,
+      "averageProgression": 12.030999999999999,
+      "averageDecisions": 30.34,
+      "firstRoundP05": 13.3,
+      "firstRoundMedian": 16.8,
+      "firstRoundP95": 19.6
+    },
+    "ps:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.98,
+      "winRate": 0.88,
+      "averageFirstRoundScore": 17.491,
+      "firstRoundVariance": 3.556819,
+      "averageSecondRoundScore": 55.97346938775511,
+      "averageFinalScore": 91.72,
+      "finalScoreVariance": 23.10160000000001,
+      "averageProgression": 12.991000000000001,
+      "averageDecisions": 30.68,
+      "firstRoundP05": 14.5,
+      "firstRoundMedian": 17.6,
+      "firstRoundP95": 20.4
+    },
+    "ps:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.58,
+      "winRate": 0.29,
+      "averageFirstRoundScore": 13.803999999999995,
+      "firstRoundVariance": 5.493783999999998,
+      "averageSecondRoundScore": 49.88793103448276,
+      "averageFinalScore": 69.26,
+      "finalScoreVariance": 112.43240000000002,
+      "averageProgression": 9.304,
+      "averageDecisions": 27.9,
+      "firstRoundP05": 9.6,
+      "firstRoundMedian": 13.9,
+      "firstRoundP95": 17.5
+    },
+    "ecologistes:random": {
+      "runs": 100,
+      "qualificationRate": 0.76,
+      "winRate": 0.62,
+      "averageFirstRoundScore": 14.558000000000003,
+      "firstRoundVariance": 3.8348360000000024,
+      "averageSecondRoundScore": 53.56578947368422,
+      "averageFinalScore": 81.14,
+      "finalScoreVariance": 119.24040000000002,
+      "averageProgression": 8.058,
+      "averageDecisions": 29.28,
+      "firstRoundP05": 11.4,
+      "firstRoundMedian": 14.6,
+      "firstRoundP95": 17.8
+    },
+    "ecologistes:coherent": {
+      "runs": 100,
+      "qualificationRate": 0.91,
+      "winRate": 0.78,
+      "averageFirstRoundScore": 15.381999999999996,
+      "firstRoundVariance": 3.0254760000000003,
+      "averageSecondRoundScore": 54.53516483516482,
+      "averageFinalScore": 88.18,
+      "finalScoreVariance": 52.7076,
+      "averageProgression": 8.882,
+      "averageDecisions": 30.2,
+      "firstRoundP05": 12.8,
+      "firstRoundMedian": 15.4,
+      "firstRoundP95": 18.8
+    },
+    "ecologistes:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.74,
+      "winRate": 0.57,
+      "averageFirstRoundScore": 14.462999999999996,
+      "firstRoundVariance": 3.424131,
+      "averageSecondRoundScore": 53.25675675675676,
+      "averageFinalScore": 81.12,
+      "finalScoreVariance": 113.38559999999988,
+      "averageProgression": 7.963000000000001,
+      "averageDecisions": 29.1,
+      "firstRoundP05": 11.6,
+      "firstRoundMedian": 14.3,
+      "firstRoundP95": 17.4
+    },
+    "ecologistes:risky": {
+      "runs": 100,
+      "qualificationRate": 0.74,
+      "winRate": 0.5,
+      "averageFirstRoundScore": 14.245,
+      "firstRoundVariance": 4.079075,
+      "averageSecondRoundScore": 52.451351351351335,
+      "averageFinalScore": 78.32,
+      "finalScoreVariance": 127.31760000000006,
+      "averageProgression": 7.7449999999999966,
+      "averageDecisions": 28.96,
+      "firstRoundP05": 11,
+      "firstRoundMedian": 14.2,
+      "firstRoundP95": 17.7
+    },
+    "ecologistes:collective": {
+      "runs": 100,
+      "qualificationRate": 0.78,
+      "winRate": 0.72,
+      "averageFirstRoundScore": 14.773000000000003,
+      "firstRoundVariance": 3.6829709999999993,
+      "averageSecondRoundScore": 55.31282051282052,
+      "averageFinalScore": 83.41,
+      "finalScoreVariance": 103.34190000000001,
+      "averageProgression": 8.273000000000003,
+      "averageDecisions": 29.56,
+      "firstRoundP05": 11.9,
+      "firstRoundMedian": 14.6,
+      "firstRoundP95": 17.8
+    },
+    "ecologistes:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.96,
+      "winRate": 0.85,
+      "averageFirstRoundScore": 16.110999999999997,
+      "firstRoundVariance": 3.866378999999999,
+      "averageSecondRoundScore": 55.460416666666674,
+      "averageFinalScore": 89.79,
+      "finalScoreVariance": 30.025900000000007,
+      "averageProgression": 9.611,
+      "averageDecisions": 30.54,
+      "firstRoundP05": 13.3,
+      "firstRoundMedian": 15.8,
+      "firstRoundP95": 19.3
+    },
+    "ecologistes:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.35,
+      "winRate": 0.16,
+      "averageFirstRoundScore": 11.825,
+      "firstRoundVariance": 3.7424750000000024,
+      "averageSecondRoundScore": 49.8,
+      "averageFinalScore": 62.53,
+      "finalScoreVariance": 160.7691,
+      "averageProgression": 5.324999999999999,
+      "averageDecisions": 26.72,
+      "firstRoundP05": 8.9,
+      "firstRoundMedian": 11.9,
+      "firstRoundP95": 14.6
+    },
+    "renaissance:random": {
+      "runs": 100,
+      "qualificationRate": 0.89,
+      "winRate": 0.81,
+      "averageFirstRoundScore": 15.597000000000005,
+      "firstRoundVariance": 3.198490999999998,
+      "averageSecondRoundScore": 55.2943820224719,
+      "averageFinalScore": 76.02,
+      "finalScoreVariance": 101.25959999999998,
+      "averageProgression": 1.5969999999999995,
+      "averageDecisions": 30.18,
+      "firstRoundP05": 12.8,
+      "firstRoundMedian": 15.4,
+      "firstRoundP95": 18.7
+    },
+    "renaissance:coherent": {
+      "runs": 100,
+      "qualificationRate": 0.92,
+      "winRate": 0.87,
+      "averageFirstRoundScore": 15.839000000000006,
+      "firstRoundVariance": 3.3085790000000013,
+      "averageSecondRoundScore": 55.61956521739126,
+      "averageFinalScore": 80.09,
+      "finalScoreVariance": 78.24189999999997,
+      "averageProgression": 1.8389999999999997,
+      "averageDecisions": 30.42,
+      "firstRoundP05": 13,
+      "firstRoundMedian": 16,
+      "firstRoundP95": 18.9
+    },
+    "renaissance:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.85,
+      "winRate": 0.67,
+      "averageFirstRoundScore": 15.289000000000003,
+      "firstRoundVariance": 3.4809790000000005,
+      "averageSecondRoundScore": 54.13294117647058,
+      "averageFinalScore": 73.3,
+      "finalScoreVariance": 127.62999999999998,
+      "averageProgression": 1.2889999999999997,
+      "averageDecisions": 29.74,
+      "firstRoundP05": 12.5,
+      "firstRoundMedian": 15.4,
+      "firstRoundP95": 18.5
+    },
+    "renaissance:risky": {
+      "runs": 100,
+      "qualificationRate": 0.84,
+      "winRate": 0.7,
+      "averageFirstRoundScore": 15.468000000000007,
+      "firstRoundVariance": 3.5295760000000005,
+      "averageSecondRoundScore": 53.71309523809522,
+      "averageFinalScore": 73.05,
+      "finalScoreVariance": 134.7675000000001,
+      "averageProgression": 1.4680000000000002,
+      "averageDecisions": 29.76,
+      "firstRoundP05": 12.7,
+      "firstRoundMedian": 15.6,
+      "firstRoundP95": 18.5
+    },
+    "renaissance:collective": {
+      "runs": 100,
+      "qualificationRate": 0.91,
+      "winRate": 0.89,
+      "averageFirstRoundScore": 15.705000000000002,
+      "firstRoundVariance": 3.3434749999999993,
+      "averageSecondRoundScore": 56.16043956043958,
+      "averageFinalScore": 77.8,
+      "finalScoreVariance": 81.79999999999998,
+      "averageProgression": 1.705,
+      "averageDecisions": 30.42,
+      "firstRoundP05": 12.8,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 18.3
+    },
+    "renaissance:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.95,
+      "winRate": 0.94,
+      "averageFirstRoundScore": 16.316,
+      "firstRoundVariance": 3.745943999999999,
+      "averageSecondRoundScore": 56.60315789473686,
+      "averageFinalScore": 82.3,
+      "finalScoreVariance": 66.12999999999997,
+      "averageProgression": 2.316,
+      "averageDecisions": 30.68,
+      "firstRoundP05": 13.6,
+      "firstRoundMedian": 16.4,
+      "firstRoundP95": 19.2
+    },
+    "renaissance:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.51,
+      "winRate": 0.22,
+      "averageFirstRoundScore": 13.354,
+      "firstRoundVariance": 3.515484000000002,
+      "averageSecondRoundScore": 49.50392156862745,
+      "averageFinalScore": 55.34,
+      "finalScoreVariance": 182.56440000000006,
+      "averageProgression": -0.6460000000000001,
+      "averageDecisions": 27.48,
+      "firstRoundP05": 10.9,
+      "firstRoundMedian": 13.4,
+      "firstRoundP95": 16.5
+    },
+    "horizons:random": {
+      "runs": 100,
+      "qualificationRate": 0.8,
+      "winRate": 0.75,
+      "averageFirstRoundScore": 14.694999999999991,
+      "firstRoundVariance": 3.0718750000000012,
+      "averageSecondRoundScore": 55.69374999999999,
+      "averageFinalScore": 82.76,
+      "finalScoreVariance": 87.76239999999999,
+      "averageProgression": 10.194999999999999,
+      "averageDecisions": 29.7,
+      "firstRoundP05": 11.9,
+      "firstRoundMedian": 15,
+      "firstRoundP95": 17.5
+    },
+    "horizons:coherent": {
+      "runs": 100,
+      "qualificationRate": 0.81,
+      "winRate": 0.79,
+      "averageFirstRoundScore": 14.868000000000004,
+      "firstRoundVariance": 3.2063759999999983,
+      "averageSecondRoundScore": 57.28641975308643,
+      "averageFinalScore": 85.06,
+      "finalScoreVariance": 83.99639999999992,
+      "averageProgression": 10.368000000000002,
+      "averageDecisions": 29.82,
+      "firstRoundP05": 11.8,
+      "firstRoundMedian": 15,
+      "firstRoundP95": 17.7
+    },
+    "horizons:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.73,
+      "winRate": 0.64,
+      "averageFirstRoundScore": 14.365999999999996,
+      "firstRoundVariance": 3.2314440000000015,
+      "averageSecondRoundScore": 55.384931506849306,
+      "averageFinalScore": 80.86,
+      "finalScoreVariance": 107.4804,
+      "averageProgression": 9.866,
+      "averageDecisions": 29.2,
+      "firstRoundP05": 11.4,
+      "firstRoundMedian": 14.6,
+      "firstRoundP95": 17.6
+    },
+    "horizons:risky": {
+      "runs": 100,
+      "qualificationRate": 0.79,
+      "winRate": 0.69,
+      "averageFirstRoundScore": 14.882000000000003,
+      "firstRoundVariance": 3.8488759999999984,
+      "averageSecondRoundScore": 55.09873417721518,
+      "averageFinalScore": 81.71,
+      "finalScoreVariance": 89.38590000000002,
+      "averageProgression": 10.382,
+      "averageDecisions": 29.54,
+      "firstRoundP05": 11.9,
+      "firstRoundMedian": 14.6,
+      "firstRoundP95": 17.9
+    },
+    "horizons:collective": {
+      "runs": 100,
+      "qualificationRate": 0.85,
+      "winRate": 0.81,
+      "averageFirstRoundScore": 15.320999999999994,
+      "firstRoundVariance": 3.7372589999999986,
+      "averageSecondRoundScore": 57.072941176470586,
+      "averageFinalScore": 85.63,
+      "finalScoreVariance": 76.03310000000003,
+      "averageProgression": 10.821,
+      "averageDecisions": 30.02,
+      "firstRoundP05": 12.2,
+      "firstRoundMedian": 15.3,
+      "firstRoundP95": 18.7
+    },
+    "horizons:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.94,
+      "winRate": 0.94,
+      "averageFirstRoundScore": 15.583999999999993,
+      "firstRoundVariance": 2.971144000000001,
+      "averageSecondRoundScore": 57.818085106383,
+      "averageFinalScore": 89.17,
+      "finalScoreVariance": 32.821099999999994,
+      "averageProgression": 11.083999999999998,
+      "averageDecisions": 30.64,
+      "firstRoundP05": 12.8,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 18.1
+    },
+    "horizons:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.48,
+      "winRate": 0.36,
+      "averageFirstRoundScore": 13.014999999999995,
+      "firstRoundVariance": 3.446074999999998,
+      "averageSecondRoundScore": 52.75,
+      "averageFinalScore": 69.79,
+      "finalScoreVariance": 132.10590000000002,
+      "averageProgression": 8.515000000000004,
+      "averageDecisions": 27.64,
+      "firstRoundP05": 10.3,
+      "firstRoundMedian": 13,
+      "firstRoundP95": 15.9
+    },
+    "lr:random": {
+      "runs": 100,
+      "qualificationRate": 0.92,
+      "winRate": 0.79,
+      "averageFirstRoundScore": 15.995999999999999,
+      "firstRoundVariance": 3.7201840000000006,
+      "averageSecondRoundScore": 54.660869565217375,
+      "averageFinalScore": 85.99,
+      "finalScoreVariance": 52.44990000000003,
+      "averageProgression": 9.496000000000002,
+      "averageDecisions": 30.26,
+      "firstRoundP05": 13.2,
+      "firstRoundMedian": 16.2,
+      "firstRoundP95": 18.9
+    },
+    "lr:coherent": {
+      "runs": 100,
+      "qualificationRate": 0.88,
+      "winRate": 0.76,
+      "averageFirstRoundScore": 15.596999999999996,
+      "firstRoundVariance": 3.286091000000001,
+      "averageSecondRoundScore": 54.569318181818176,
+      "averageFinalScore": 86.51,
+      "finalScoreVariance": 63.76989999999998,
+      "averageProgression": 9.097000000000005,
+      "averageDecisions": 30.04,
+      "firstRoundP05": 12.7,
+      "firstRoundMedian": 15.6,
+      "firstRoundP95": 18.3
+    },
+    "lr:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.82,
+      "winRate": 0.64,
+      "averageFirstRoundScore": 15.171000000000006,
+      "firstRoundVariance": 3.163659,
+      "averageSecondRoundScore": 53.718292682926815,
+      "averageFinalScore": 83.11,
+      "finalScoreVariance": 94.0179,
+      "averageProgression": 8.671000000000001,
+      "averageDecisions": 29.56,
+      "firstRoundP05": 12.2,
+      "firstRoundMedian": 15.4,
+      "firstRoundP95": 17.7
+    },
+    "lr:risky": {
+      "runs": 100,
+      "qualificationRate": 0.88,
+      "winRate": 0.69,
+      "averageFirstRoundScore": 15.930000000000001,
+      "firstRoundVariance": 4.6411,
+      "averageSecondRoundScore": 53.73295454545455,
+      "averageFinalScore": 83.46,
+      "finalScoreVariance": 82.82840000000004,
+      "averageProgression": 9.429999999999998,
+      "averageDecisions": 29.9,
+      "firstRoundP05": 12.8,
+      "firstRoundMedian": 16.1,
+      "firstRoundP95": 19.3
+    },
+    "lr:collective": {
+      "runs": 100,
+      "qualificationRate": 0.93,
+      "winRate": 0.86,
+      "averageFirstRoundScore": 16.249999999999996,
+      "firstRoundVariance": 3.430900000000002,
+      "averageSecondRoundScore": 56.03763440860217,
+      "averageFinalScore": 87.75,
+      "finalScoreVariance": 41.5475,
+      "averageProgression": 9.749999999999996,
+      "averageDecisions": 30.44,
+      "firstRoundP05": 13.5,
+      "firstRoundMedian": 16.4,
+      "firstRoundP95": 18.8
+    },
+    "lr:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.94,
+      "winRate": 0.93,
+      "averageFirstRoundScore": 16.546999999999997,
+      "firstRoundVariance": 3.4550909999999977,
+      "averageSecondRoundScore": 57.247872340425516,
+      "averageFinalScore": 90.4,
+      "finalScoreVariance": 33.76,
+      "averageProgression": 10.047,
+      "averageDecisions": 30.62,
+      "firstRoundP05": 13.4,
+      "firstRoundMedian": 16.6,
+      "firstRoundP95": 19.3
+    },
+    "lr:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.6,
+      "winRate": 0.3,
+      "averageFirstRoundScore": 13.841999999999995,
+      "firstRoundVariance": 3.8946359999999998,
+      "averageSecondRoundScore": 49.74500000000001,
+      "averageFinalScore": 69.23,
+      "finalScoreVariance": 136.7971,
+      "averageProgression": 7.341999999999998,
+      "averageDecisions": 28,
+      "firstRoundP05": 10.4,
+      "firstRoundMedian": 14.1,
+      "firstRoundP95": 16.7
+    },
+    "rn:random": {
+      "runs": 100,
+      "qualificationRate": 0.95,
+      "winRate": 0.37,
+      "averageFirstRoundScore": 16.643,
+      "firstRoundVariance": 3.908651,
+      "averageSecondRoundScore": 48.526315789473664,
+      "averageFinalScore": 79.01,
+      "finalScoreVariance": 76.24990000000001,
+      "averageProgression": 4.143,
+      "averageDecisions": 29.54,
+      "firstRoundP05": 13.3,
+      "firstRoundMedian": 16.7,
+      "firstRoundP95": 19.6
+    },
+    "rn:coherent": {
+      "runs": 100,
+      "qualificationRate": 0.99,
+      "winRate": 0.57,
+      "averageFirstRoundScore": 17.282000000000004,
+      "firstRoundVariance": 4.255075999999998,
+      "averageSecondRoundScore": 50.782828282828284,
+      "averageFinalScore": 85.2,
+      "finalScoreVariance": 50.00000000000003,
+      "averageProgression": 4.782,
+      "averageDecisions": 30.1,
+      "firstRoundP05": 14.3,
+      "firstRoundMedian": 17.1,
+      "firstRoundP95": 20.7
+    },
+    "rn:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.96,
+      "winRate": 0.43,
+      "averageFirstRoundScore": 16.416999999999998,
+      "firstRoundVariance": 3.7732109999999977,
+      "averageSecondRoundScore": 49.15625000000001,
+      "averageFinalScore": 78.88,
+      "finalScoreVariance": 66.64559999999993,
+      "averageProgression": 3.9170000000000003,
+      "averageDecisions": 29.7,
+      "firstRoundP05": 13.6,
+      "firstRoundMedian": 16.5,
+      "firstRoundP95": 19.8
+    },
+    "rn:risky": {
+      "runs": 100,
+      "qualificationRate": 0.86,
+      "winRate": 0.19,
+      "averageFirstRoundScore": 15.82300000000001,
+      "firstRoundVariance": 4.524170999999999,
+      "averageSecondRoundScore": 46.98255813953488,
+      "averageFinalScore": 73.34,
+      "finalScoreVariance": 112.42440000000002,
+      "averageProgression": 3.3229999999999986,
+      "averageDecisions": 28.82,
+      "firstRoundP05": 12.6,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 19
+    },
+    "rn:collective": {
+      "runs": 100,
+      "qualificationRate": 0.97,
+      "winRate": 0.49,
+      "averageFirstRoundScore": 16.85200000000001,
+      "firstRoundVariance": 4.448696000000002,
+      "averageSecondRoundScore": 49.722680412371126,
+      "averageFinalScore": 80.65,
+      "finalScoreVariance": 72.58749999999996,
+      "averageProgression": 4.351999999999998,
+      "averageDecisions": 29.86,
+      "firstRoundP05": 13.9,
+      "firstRoundMedian": 16.8,
+      "firstRoundP95": 20.6
+    },
+    "rn:greedy": {
+      "runs": 100,
+      "qualificationRate": 1,
+      "winRate": 0.73,
+      "averageFirstRoundScore": 17.673000000000005,
+      "firstRoundVariance": 4.349971000000002,
+      "averageSecondRoundScore": 52.26900000000003,
+      "averageFinalScore": 86.84,
+      "finalScoreVariance": 45.6744,
+      "averageProgression": 5.172999999999999,
+      "averageDecisions": 30.46,
+      "firstRoundP05": 14.7,
+      "firstRoundMedian": 17.5,
+      "firstRoundP95": 21.4
+    },
+    "rn:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.69,
+      "winRate": 0.03,
+      "averageFirstRoundScore": 14.239999999999998,
+      "firstRoundVariance": 3.5690000000000013,
+      "averageSecondRoundScore": 43.479710144927544,
+      "averageFinalScore": 60.57,
+      "finalScoreVariance": 105.64509999999997,
+      "averageProgression": 1.74,
+      "averageDecisions": 27.82,
+      "firstRoundP05": 11.4,
+      "firstRoundMedian": 14.2,
+      "firstRoundP95": 17.1
+    },
+    "reconquete:random": {
+      "runs": 100,
+      "qualificationRate": 0.08,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 9.995,
+      "firstRoundVariance": 3.460674999999999,
+      "averageSecondRoundScore": 45.987500000000004,
+      "averageFinalScore": 59.25,
+      "finalScoreVariance": 71.3475,
+      "averageProgression": 4.995000000000001,
+      "averageDecisions": 25.34,
+      "firstRoundP05": 7.1,
+      "firstRoundMedian": 10.1,
+      "firstRoundP95": 12.9
+    },
+    "reconquete:coherent": {
+      "runs": 100,
+      "qualificationRate": 0.21,
+      "winRate": 0.08,
+      "averageFirstRoundScore": 11.074000000000002,
+      "firstRoundVariance": 3.2915240000000017,
+      "averageSecondRoundScore": 49.05714285714286,
+      "averageFinalScore": 67.18,
+      "finalScoreVariance": 96.90759999999995,
+      "averageProgression": 6.073999999999997,
+      "averageDecisions": 26,
+      "firstRoundP05": 8.1,
+      "firstRoundMedian": 11,
+      "firstRoundP95": 14.3
+    },
+    "reconquete:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.07,
+      "winRate": 0.02,
+      "averageFirstRoundScore": 10.008000000000001,
+      "firstRoundVariance": 3.105535999999999,
+      "averageSecondRoundScore": 47.6,
+      "averageFinalScore": 58.86,
+      "finalScoreVariance": 68.48040000000002,
+      "averageProgression": 5.007999999999999,
+      "averageDecisions": 25.32,
+      "firstRoundP05": 7.3,
+      "firstRoundMedian": 10.1,
+      "firstRoundP95": 13.2
+    },
+    "reconquete:risky": {
+      "runs": 100,
+      "qualificationRate": 0.05,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 9.62,
+      "firstRoundVariance": 3.4688000000000003,
+      "averageSecondRoundScore": 47,
+      "averageFinalScore": 56.62,
+      "finalScoreVariance": 69.01560000000003,
+      "averageProgression": 4.619999999999998,
+      "averageDecisions": 25.22,
+      "firstRoundP05": 6.6,
+      "firstRoundMedian": 9.6,
+      "firstRoundP95": 12.6
+    },
+    "reconquete:collective": {
+      "runs": 100,
+      "qualificationRate": 0.09,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 10.301000000000004,
+      "firstRoundVariance": 2.6370989999999987,
+      "averageSecondRoundScore": 48.077777777777776,
+      "averageFinalScore": 60.46,
+      "finalScoreVariance": 59.5884,
+      "averageProgression": 5.300999999999998,
+      "averageDecisions": 25.38,
+      "firstRoundP05": 7.8,
+      "firstRoundMedian": 10.3,
+      "firstRoundP95": 12.8
+    },
+    "reconquete:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.39,
+      "winRate": 0.26,
+      "averageFirstRoundScore": 12.109999999999992,
+      "firstRoundVariance": 3.0045000000000006,
+      "averageSecondRoundScore": 51.47692307692307,
+      "averageFinalScore": 72.27,
+      "finalScoreVariance": 124.39710000000005,
+      "averageProgression": 7.1099999999999985,
+      "averageDecisions": 27.08,
+      "firstRoundP05": 9.3,
+      "firstRoundMedian": 12.3,
+      "firstRoundP95": 15
+    },
+    "reconquete:adverse": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 7.240999999999997,
+      "firstRoundVariance": 3.281019000000001,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 44.67,
+      "finalScoreVariance": 52.1611,
+      "averageProgression": 2.241000000000001,
+      "averageDecisions": 25,
+      "firstRoundP05": 4.3,
+      "firstRoundMedian": 7.2,
+      "firstRoundP95": 9.8
+    },
+    "nouvelle_energie:random": {
+      "runs": 100,
+      "qualificationRate": 0.66,
+      "winRate": 0.63,
+      "averageFirstRoundScore": 13.972000000000005,
+      "firstRoundVariance": 3.981216000000001,
+      "averageSecondRoundScore": 57.94090909090905,
+      "averageFinalScore": 79.14,
+      "finalScoreVariance": 131.4004,
+      "averageProgression": 9.471999999999998,
+      "averageDecisions": 28.9,
+      "firstRoundP05": 11.1,
+      "firstRoundMedian": 13.9,
+      "firstRoundP95": 17.3
+    },
+    "nouvelle_energie:coherent": {
+      "runs": 100,
+      "qualificationRate": 0.73,
+      "winRate": 0.71,
+      "averageFirstRoundScore": 14.15000000000001,
+      "firstRoundVariance": 3.1435000000000013,
+      "averageSecondRoundScore": 58.00684931506851,
+      "averageFinalScore": 83.13,
+      "finalScoreVariance": 114.95309999999996,
+      "averageProgression": 9.650000000000004,
+      "averageDecisions": 29.34,
+      "firstRoundP05": 11.2,
+      "firstRoundMedian": 14.2,
+      "firstRoundP95": 17.1
+    },
+    "nouvelle_energie:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.65,
+      "winRate": 0.59,
+      "averageFirstRoundScore": 13.820000000000002,
+      "firstRoundVariance": 3.4918000000000013,
+      "averageSecondRoundScore": 57.132307692307684,
+      "averageFinalScore": 78.69,
+      "finalScoreVariance": 121.65390000000005,
+      "averageProgression": 9.319999999999997,
+      "averageDecisions": 28.78,
+      "firstRoundP05": 10.9,
+      "firstRoundMedian": 13.7,
+      "firstRoundP95": 16.8
+    },
+    "nouvelle_energie:risky": {
+      "runs": 100,
+      "qualificationRate": 0.66,
+      "winRate": 0.57,
+      "averageFirstRoundScore": 13.879999999999997,
+      "firstRoundVariance": 4.841,
+      "averageSecondRoundScore": 56.51666666666667,
+      "averageFinalScore": 77.45,
+      "finalScoreVariance": 140.96749999999997,
+      "averageProgression": 9.38,
+      "averageDecisions": 28.78,
+      "firstRoundP05": 10.5,
+      "firstRoundMedian": 13.8,
+      "firstRoundP95": 16.9
+    },
+    "nouvelle_energie:collective": {
+      "runs": 100,
+      "qualificationRate": 0.78,
+      "winRate": 0.77,
+      "averageFirstRoundScore": 14.650999999999996,
+      "firstRoundVariance": 3.707299,
+      "averageSecondRoundScore": 59.285897435897425,
+      "averageFinalScore": 83.04,
+      "finalScoreVariance": 98.2184,
+      "averageProgression": 10.151000000000003,
+      "averageDecisions": 29.66,
+      "firstRoundP05": 11.7,
+      "firstRoundMedian": 14.7,
+      "firstRoundP95": 18
+    },
+    "nouvelle_energie:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.82,
+      "winRate": 0.81,
+      "averageFirstRoundScore": 15.072000000000001,
+      "firstRoundVariance": 3.6760159999999997,
+      "averageSecondRoundScore": 59.606097560975584,
+      "averageFinalScore": 85.62,
+      "finalScoreVariance": 79.7556,
+      "averageProgression": 10.572000000000001,
+      "averageDecisions": 29.9,
+      "firstRoundP05": 12.1,
+      "firstRoundMedian": 15.1,
+      "firstRoundP95": 18.2
+    },
+    "nouvelle_energie:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.14,
+      "winRate": 0.09,
+      "averageFirstRoundScore": 10.975,
+      "firstRoundVariance": 3.8746750000000003,
+      "averageSecondRoundScore": 53.62857142857144,
+      "averageFinalScore": 59.23,
+      "finalScoreVariance": 84.89709999999995,
+      "averageProgression": 6.474999999999998,
+      "averageDecisions": 25.74,
+      "firstRoundP05": 8.1,
+      "firstRoundMedian": 10.7,
+      "firstRoundP95": 14.4
+    }
+  },
+  "runoffMatchups": {
+    "ecologistes:horizons": {
+      "runs": 93,
+      "wins": 44,
+      "winRate": 0.4731182795698925,
+      "averagePlayerScore": 51.21384615384616
+    },
+    "ecologistes:lfi": {
+      "runs": 31,
+      "wins": 26,
+      "winRate": 0.8387096774193549,
+      "averagePlayerScore": 57.00384615384616
+    },
+    "ecologistes:lr": {
+      "runs": 91,
+      "wins": 38,
+      "winRate": 0.4175824175824176,
+      "averagePlayerScore": 51.773214285714275
+    },
+    "ecologistes:nouvelle_energie": {
+      "runs": 7,
+      "wins": 5,
+      "winRate": 0.7142857142857143,
+      "averagePlayerScore": 53.7
+    },
+    "ecologistes:ps": {
+      "runs": 242,
+      "wins": 136,
+      "winRate": 0.5619834710743802,
+      "averagePlayerScore": 52.49887005649716
+    },
+    "ecologistes:renaissance": {
+      "runs": 77,
+      "wins": 41,
+      "winRate": 0.5324675324675324,
+      "averagePlayerScore": 51.96290322580647
+    },
+    "ecologistes:rn": {
+      "runs": 159,
+      "wins": 130,
+      "winRate": 0.8176100628930818,
+      "averagePlayerScore": 58.30152671755726
+    },
+    "horizons:ecologistes": {
+      "runs": 26,
+      "wins": 23,
+      "winRate": 0.8846153846153846,
+      "averagePlayerScore": 56.72608695652174
+    },
+    "horizons:lfi": {
+      "runs": 61,
+      "wins": 45,
+      "winRate": 0.7377049180327869,
+      "averagePlayerScore": 57.62391304347825
+    },
+    "horizons:lr": {
+      "runs": 105,
+      "wins": 57,
+      "winRate": 0.5428571428571428,
+      "averagePlayerScore": 52.96986301369864
+    },
+    "horizons:nouvelle_energie": {
+      "runs": 21,
+      "wins": 17,
+      "winRate": 0.8095238095238095,
+      "averagePlayerScore": 53.78421052631578
+    },
+    "horizons:ps": {
+      "runs": 264,
+      "wins": 179,
+      "winRate": 0.678030303030303,
+      "averagePlayerScore": 54.71116751269037
+    },
+    "horizons:renaissance": {
+      "runs": 98,
+      "wins": 72,
+      "winRate": 0.7346938775510204,
+      "averagePlayerScore": 54.59610389610389
+    },
+    "horizons:rn": {
+      "runs": 125,
+      "wins": 105,
+      "winRate": 0.84,
+      "averagePlayerScore": 61.74857142857144
+    },
+    "lfi:ecologistes": {
+      "runs": 13,
+      "wins": 11,
+      "winRate": 0.8461538461538461,
+      "averagePlayerScore": 55.900000000000006
+    },
+    "lfi:horizons": {
+      "runs": 86,
+      "wins": 28,
+      "winRate": 0.32558139534883723,
+      "averagePlayerScore": 48.701428571428565
+    },
+    "lfi:lr": {
+      "runs": 99,
+      "wins": 41,
+      "winRate": 0.41414141414141414,
+      "averagePlayerScore": 49.26477272727271
+    },
+    "lfi:nouvelle_energie": {
+      "runs": 20,
+      "wins": 4,
+      "winRate": 0.2,
+      "averagePlayerScore": 47.70555555555555
+    },
+    "lfi:ps": {
+      "runs": 239,
+      "wins": 123,
+      "winRate": 0.5146443514644351,
+      "averagePlayerScore": 51.917741935483896
+    },
+    "lfi:renaissance": {
+      "runs": 75,
+      "wins": 21,
+      "winRate": 0.28,
+      "averagePlayerScore": 48.22741935483872
+    },
+    "lfi:rn": {
+      "runs": 168,
+      "wins": 142,
+      "winRate": 0.8452380952380952,
+      "averagePlayerScore": 56.87615894039733
+    },
+    "lr:ecologistes": {
+      "runs": 17,
+      "wins": 16,
+      "winRate": 0.9411764705882353,
+      "averagePlayerScore": 56.3235294117647
+    },
+    "lr:horizons": {
+      "runs": 94,
+      "wins": 51,
+      "winRate": 0.5425531914893617,
+      "averagePlayerScore": 50.819999999999986
+    },
+    "lr:lfi": {
+      "runs": 70,
+      "wins": 54,
+      "winRate": 0.7714285714285715,
+      "averagePlayerScore": 55.78070175438595
+    },
+    "lr:nouvelle_energie": {
+      "runs": 9,
+      "wins": 7,
+      "winRate": 0.7777777777777778,
+      "averagePlayerScore": 50.68888888888888
+    },
+    "lr:ps": {
+      "runs": 254,
+      "wins": 179,
+      "winRate": 0.7047244094488189,
+      "averagePlayerScore": 53.46301369863013
+    },
+    "lr:renaissance": {
+      "runs": 106,
+      "wins": 70,
+      "winRate": 0.660377358490566,
+      "averagePlayerScore": 52.93888888888889
+    },
+    "lr:rn": {
+      "runs": 150,
+      "wins": 120,
+      "winRate": 0.8,
+      "averagePlayerScore": 59.63333333333334
+    },
+    "nouvelle_energie:ecologistes": {
+      "runs": 7,
+      "wins": 3,
+      "winRate": 0.42857142857142855,
+      "averagePlayerScore": 57.166666666666664
+    },
+    "nouvelle_energie:horizons": {
+      "runs": 85,
+      "wins": 38,
+      "winRate": 0.4470588235294118,
+      "averagePlayerScore": 53.54999999999999
+    },
+    "nouvelle_energie:lfi": {
+      "runs": 45,
+      "wins": 30,
+      "winRate": 0.6666666666666666,
+      "averagePlayerScore": 59.16333333333333
+    },
+    "nouvelle_energie:lr": {
+      "runs": 72,
+      "wins": 27,
+      "winRate": 0.375,
+      "averagePlayerScore": 57.96896551724138
+    },
+    "nouvelle_energie:ps": {
+      "runs": 246,
+      "wins": 160,
+      "winRate": 0.6504065040650406,
+      "averagePlayerScore": 56.666071428571435
+    },
+    "nouvelle_energie:renaissance": {
+      "runs": 81,
+      "wins": 44,
+      "winRate": 0.5432098765432098,
+      "averagePlayerScore": 55.74693877551021
+    },
+    "nouvelle_energie:rn": {
+      "runs": 164,
+      "wins": 115,
+      "winRate": 0.7012195121951219,
+      "averagePlayerScore": 62.68347826086958
+    },
+    "ps:ecologistes": {
+      "runs": 14,
+      "wins": 14,
+      "winRate": 1,
+      "averagePlayerScore": 57.62857142857143
+    },
+    "ps:horizons": {
+      "runs": 130,
+      "wins": 56,
+      "winRate": 0.4307692307692308,
+      "averagePlayerScore": 50.718811881188124
+    },
+    "ps:lfi": {
+      "runs": 71,
+      "wins": 67,
+      "winRate": 0.9436619718309859,
+      "averagePlayerScore": 56.517647058823535
+    },
+    "ps:lr": {
+      "runs": 156,
+      "wins": 90,
+      "winRate": 0.5769230769230769,
+      "averagePlayerScore": 51.10753424657534
+    },
+    "ps:nouvelle_energie": {
+      "runs": 36,
+      "wins": 11,
+      "winRate": 0.3055555555555556,
+      "averagePlayerScore": 48.445714285714295
+    },
+    "ps:renaissance": {
+      "runs": 98,
+      "wins": 58,
+      "winRate": 0.5918367346938775,
+      "averagePlayerScore": 52.371264367816096
+    },
+    "ps:rn": {
+      "runs": 195,
+      "wins": 172,
+      "winRate": 0.882051282051282,
+      "averagePlayerScore": 58.28430232558139
+    },
+    "reconquete:ecologistes": {
+      "runs": 5,
+      "wins": 1,
+      "winRate": 0.2,
+      "averagePlayerScore": 51.25
+    },
+    "reconquete:horizons": {
+      "runs": 86,
+      "wins": 1,
+      "winRate": 0.011627906976744186,
+      "averagePlayerScore": 46.13333333333333
+    },
+    "reconquete:lfi": {
+      "runs": 51,
+      "wins": 7,
+      "winRate": 0.13725490196078433,
+      "averagePlayerScore": 51.04615384615384
+    },
+    "reconquete:lr": {
+      "runs": 75,
+      "wins": 2,
+      "winRate": 0.02666666666666667,
+      "averagePlayerScore": 48.5
+    },
+    "reconquete:nouvelle_energie": {
+      "runs": 3,
+      "wins": 1,
+      "winRate": 0.3333333333333333,
+      "averagePlayerScore": 49.95
+    },
+    "reconquete:ps": {
+      "runs": 278,
+      "wins": 14,
+      "winRate": 0.050359712230215826,
+      "averagePlayerScore": 48.82222222222222
+    },
+    "reconquete:renaissance": {
+      "runs": 84,
+      "wins": 6,
+      "winRate": 0.07142857142857142,
+      "averagePlayerScore": 49.472727272727276
+    },
+    "reconquete:rn": {
+      "runs": 118,
+      "wins": 7,
+      "winRate": 0.059322033898305086,
+      "averagePlayerScore": 52.55
+    },
+    "renaissance:ecologistes": {
+      "runs": 16,
+      "wins": 11,
+      "winRate": 0.6875,
+      "averagePlayerScore": 51.975
+    },
+    "renaissance:horizons": {
+      "runs": 104,
+      "wins": 64,
+      "winRate": 0.6153846153846154,
+      "averagePlayerScore": 51.52359550561797
+    },
+    "renaissance:lfi": {
+      "runs": 53,
+      "wins": 49,
+      "winRate": 0.9245283018867925,
+      "averagePlayerScore": 56.1764705882353
+    },
+    "renaissance:lr": {
+      "runs": 87,
+      "wins": 54,
+      "winRate": 0.6206896551724138,
+      "averagePlayerScore": 52.87777777777777
+    },
+    "renaissance:nouvelle_energie": {
+      "runs": 18,
+      "wins": 12,
+      "winRate": 0.6666666666666666,
+      "averagePlayerScore": 52.15625000000001
+    },
+    "renaissance:ps": {
+      "runs": 264,
+      "wins": 181,
+      "winRate": 0.6856060606060606,
+      "averagePlayerScore": 53.749753694581266
+    },
+    "renaissance:rn": {
+      "runs": 158,
+      "wins": 139,
+      "winRate": 0.879746835443038,
+      "averagePlayerScore": 59.49214285714285
+    },
+    "rn:ecologistes": {
+      "runs": 18,
+      "wins": 9,
+      "winRate": 0.5,
+      "averagePlayerScore": 49.699999999999996
+    },
+    "rn:horizons": {
+      "runs": 85,
+      "wins": 17,
+      "winRate": 0.2,
+      "averagePlayerScore": 46.02374999999999
+    },
+    "rn:lfi": {
+      "runs": 76,
+      "wins": 47,
+      "winRate": 0.618421052631579,
+      "averagePlayerScore": 51.972222222222214
+    },
+    "rn:lr": {
+      "runs": 82,
+      "wins": 25,
+      "winRate": 0.3048780487804878,
+      "averagePlayerScore": 48.47058823529412
+    },
+    "rn:nouvelle_energie": {
+      "runs": 31,
+      "wins": 11,
+      "winRate": 0.3548387096774194,
+      "averagePlayerScore": 47.013333333333335
+    },
+    "rn:ps": {
+      "runs": 301,
+      "wins": 134,
+      "winRate": 0.44518272425249167,
+      "averagePlayerScore": 49.593478260869574
+    },
+    "rn:renaissance": {
+      "runs": 105,
+      "wins": 37,
+      "winRate": 0.3523809523809524,
+      "averagePlayerScore": 48.27291666666668
+    },
+    "rn:rn_dissidence_15": {
+      "runs": 2,
+      "wins": 1,
+      "winRate": 0.5,
+      "averagePlayerScore": 50.099999999999994
+    }
+  },
+  "influence": {
+    "partyEtaSquaredOnFirstRoundScore": 0.40221408285452903,
+    "strategyEtaSquaredOnFirstRoundScore": 0.14179231946111415,
+    "averageMatchedFirstRoundRangeAcrossStrategies": 4.315222222222223,
+    "medianMatchedFirstRoundRangeAcrossStrategies": 4.1,
+    "averageMatchedFinalScoreRangeAcrossStrategies": 27.793333333333333,
+    "matchedSeedsWhereQualificationOrWinChanged": 696,
+    "matchedSeedGroups": 900
+  },
+  "reachability": {
+    "empiricallyReachedEvents": 218,
+    "empiricallyUnreachedEvents": [
+      "custom_500_signatures",
+      "custom_first_accounts",
+      "custom_identity_interview",
+      "custom_neighbor_offers",
+      "custom_local_network",
+      "custom_incoherence_convention",
+      "custom_coherent_manifesto",
+      "custom_vertical_council",
+      "custom_federal_charter",
+      "custom_collective_arbitration",
+      "custom_members_growth",
+      "custom_officials_support",
+      "custom_experts_panel",
+      "custom_runoff_mandate"
+    ],
+    "top30Events": [
+      {
+        "id": "runoff_last_hours",
+        "count": 3318
+      },
+      {
+        "id": "runoff_final_debate",
+        "count": 3268
+      },
+      {
+        "id": "runoff_common_program",
+        "count": 3127
+      },
+      {
+        "id": "runoff_favorite_pressure",
+        "count": 2991
+      },
+      {
+        "id": "runoff_vote_transfers",
+        "count": 2945
+      },
+      {
+        "id": "runoff_endorsement_wave",
+        "count": 2884
+      },
+      {
+        "id": "campaign_factory_visit",
+        "count": 2343
+      },
+      {
+        "id": "media_front_page",
+        "count": 2273
+      },
+      {
+        "id": "internal_local_sections",
+        "count": 2225
+      },
+      {
+        "id": "campaign_volunteer_surge",
+        "count": 2194
+      },
+      {
+        "id": "campaign_slogan_test",
+        "count": 2187
+      },
+      {
+        "id": "media_fictional_editorial_support",
+        "count": 2055
+      },
+      {
+        "id": "media_unflattering_photo",
+        "count": 2012
+      },
+      {
+        "id": "program_health",
+        "count": 2002
+      },
+      {
+        "id": "media_silence_day",
+        "count": 1988
+      },
+      {
+        "id": "media_prime_time_invite",
+        "count": 1983
+      },
+      {
+        "id": "debate_duel_interruption",
+        "count": 1978
+      },
+      {
+        "id": "media_local_press",
+        "count": 1976
+      },
+      {
+        "id": "media_live_stream",
+        "count": 1957
+      },
+      {
+        "id": "campaign_market_walkabout",
+        "count": 1952
+      },
+      {
+        "id": "government_first_address",
+        "count": 1949
+      },
+      {
+        "id": "program_institutions",
+        "count": 1944
+      },
+      {
+        "id": "program_pensions",
+        "count": 1926
+      },
+      {
+        "id": "program_immigration",
+        "count": 1905
+      },
+      {
+        "id": "program_climate_adaptation",
+        "count": 1891
+      },
+      {
+        "id": "program_energy",
+        "count": 1857
+      },
+      {
+        "id": "program_taxation",
+        "count": 1841
+      },
+      {
+        "id": "debate_unknown_question",
+        "count": 1823
+      },
+      {
+        "id": "program_school",
+        "count": 1804
+      },
+      {
+        "id": "program_europe",
+        "count": 1790
+      }
+    ],
+    "bottom30ReachedEvents": [
+      {
+        "id": "party_reconquete_crisis_followup",
+        "count": 218
+      },
+      {
+        "id": "party_renaissance_crisis_followup",
+        "count": 215
+      },
+      {
+        "id": "debate_security_round",
+        "count": 214
+      },
+      {
+        "id": "rare_civil_suspension",
+        "count": 210
+      },
+      {
+        "id": "party_lfi_crisis_followup",
+        "count": 205
+      },
+      {
+        "id": "rare_debate_blackout",
+        "count": 205
+      },
+      {
+        "id": "alliance_strategic_withdrawal",
+        "count": 202
+      },
+      {
+        "id": "party_nouvelle_energie_crisis_followup",
+        "count": 193
+      },
+      {
+        "id": "party_horizons_crisis_followup",
+        "count": 187
+      },
+      {
+        "id": "party_rn_crisis_followup",
+        "count": 187
+      },
+      {
+        "id": "party_lr_crisis_followup",
+        "count": 184
+      },
+      {
+        "id": "party_ps_crisis_followup",
+        "count": 175
+      },
+      {
+        "id": "alliance_former_rival",
+        "count": 168
+      },
+      {
+        "id": "alliance_udr_autonomy",
+        "count": 158
+      },
+      {
+        "id": "campaign_student_forum",
+        "count": 123
+      },
+      {
+        "id": "rare_parrot_quote",
+        "count": 109
+      },
+      {
+        "id": "party_reconquete_runoff",
+        "count": 89
+      },
+      {
+        "id": "rare_national_union",
+        "count": 84
+      },
+      {
+        "id": "rare_crown_petition",
+        "count": 73
+      },
+      {
+        "id": "debate_fact_card",
+        "count": 62
+      },
+      {
+        "id": "party_rn_dissidence",
+        "count": 31
+      },
+      {
+        "id": "party_lr_rare",
+        "count": 30
+      },
+      {
+        "id": "party_ecologistes_rare",
+        "count": 26
+      },
+      {
+        "id": "party_renaissance_rare",
+        "count": 22
+      },
+      {
+        "id": "party_horizons_rare",
+        "count": 21
+      },
+      {
+        "id": "party_reconquete_rare",
+        "count": 18
+      },
+      {
+        "id": "party_nouvelle_energie_rare",
+        "count": 13
+      },
+      {
+        "id": "party_ps_rare",
+        "count": 12
+      },
+      {
+        "id": "world_security_attack",
+        "count": 7
+      },
+      {
+        "id": "party_lfi_rare",
+        "count": 3
+      }
+    ],
+    "rareEventOccurrences": [
+      {
+        "id": "rare_printer_slogan",
+        "count": 296
+      },
+      {
+        "id": "rare_hologram_revolt",
+        "count": 317
+      },
+      {
+        "id": "rare_parrot_quote",
+        "count": 109
+      },
+      {
+        "id": "rare_debate_blackout",
+        "count": 205
+      },
+      {
+        "id": "rare_crown_petition",
+        "count": 73
+      },
+      {
+        "id": "rare_exceptional_powers",
+        "count": 305
+      },
+      {
+        "id": "rare_fragmented_congress",
+        "count": 326
+      },
+      {
+        "id": "rare_national_union",
+        "count": 84
+      },
+      {
+        "id": "rare_civil_suspension",
+        "count": 210
+      },
+      {
+        "id": "party_lfi_rare",
+        "count": 3
+      },
+      {
+        "id": "party_ps_rare",
+        "count": 12
+      },
+      {
+        "id": "party_ecologistes_rare",
+        "count": 26
+      },
+      {
+        "id": "party_renaissance_rare",
+        "count": 22
+      },
+      {
+        "id": "party_horizons_rare",
+        "count": 21
+      },
+      {
+        "id": "party_lr_rare",
+        "count": 30
+      },
+      {
+        "id": "party_rn_dissidence",
+        "count": 31
+      },
+      {
+        "id": "party_reconquete_rare",
+        "count": 18
+      },
+      {
+        "id": "party_nouvelle_energie_rare",
+        "count": 13
+      }
+    ]
+  },
+  "repetition": {
+    "averageRepeatedOutcomeTitlesWithinRun": 0,
+    "averageRepeatedOutcomeNarrativesWithinRun": 0,
+    "runsWithRepeatedOutcomeTitle": 0,
+    "averageEventIdOverlapBetweenSuccessiveRuns": 0.1993465900759152,
+    "averageStructureOverlapBetweenSuccessiveRuns": 0.1993465900759152
+  },
+  "pacing": {
+    "averageDecisions": 29.052698412698412,
+    "minimumDecisions": 25,
+    "maximumDecisions": 31,
+    "earlyDecidedRuns": 485,
+    "earlyDecidedRate": 0.07698412698412699,
+    "comebackRuns": 1115,
+    "comebackRate": 0.176984126984127
+  },
+  "balanceWarnings": {
+    "impossibleToLose": [
+      {
+        "group": "renaissance:greedy",
+        "winRate": 0.94
+      },
+      {
+        "group": "horizons:greedy",
+        "winRate": 0.94
+      },
+      {
+        "group": "lr:greedy",
+        "winRate": 0.93
+      }
+    ],
+    "practicallyImpossibleToWin": [
+      {
+        "group": "reconquete:random",
+        "winRate": 0.01
+      },
+      {
+        "group": "reconquete:risky",
+        "winRate": 0.01
+      },
+      {
+        "group": "reconquete:collective",
+        "winRate": 0.01
+      },
+      {
+        "group": "reconquete:adverse",
+        "winRate": 0
+      }
+    ]
+  },
+  "distributions": {
+    "endings": [
+      {
+        "id": "president",
+        "count": 3489
+      },
+      {
+        "id": "runoff_defeat",
+        "count": 1124
+      },
+      {
+        "id": "kingmaker",
+        "count": 1024
+      },
+      {
+        "id": "honorable_campaign",
+        "count": 344
+      },
+      {
+        "id": "retirement",
+        "count": 106
+      },
+      {
+        "id": "strengthened_party",
+        "count": 98
+      },
+      {
+        "id": "narrow_elimination",
+        "count": 69
+      },
+      {
+        "id": "secret_civil_unrest",
+        "count": 18
+      },
+      {
+        "id": "divided_party",
+        "count": 17
+      },
+      {
+        "id": "secret_fragmentation",
+        "count": 8
+      },
+      {
+        "id": "secret_authoritarian",
+        "count": 3
+      }
+    ],
+    "achievements": [
+      {
+        "id": "campaign_complete",
+        "count": 6300
+      },
+      {
+        "id": "first_choice",
+        "count": 6300
+      },
+      {
+        "id": "first_poll",
+        "count": 6300
+      },
+      {
+        "id": "ten_good_outcomes",
+        "count": 6300
+      },
+      {
+        "id": "debate_master",
+        "count": 5896
+      },
+      {
+        "id": "credible",
+        "count": 5126
+      },
+      {
+        "id": "runoff",
+        "count": 4633
+      },
+      {
+        "id": "without_compromise",
+        "count": 4470
+      },
+      {
+        "id": "transparent",
+        "count": 4317
+      },
+      {
+        "id": "elysee",
+        "count": 3500
+      },
+      {
+        "id": "thirty_decisions",
+        "count": 3500
+      },
+      {
+        "id": "mobilized",
+        "count": 2880
+      },
+      {
+        "id": "from_under_eight",
+        "count": 2817
+      },
+      {
+        "id": "media_wave",
+        "count": 2810
+      },
+      {
+        "id": "comeback",
+        "count": 2708
+      },
+      {
+        "id": "prudent",
+        "count": 2691
+      },
+      {
+        "id": "historic_score",
+        "count": 2689
+      },
+      {
+        "id": "local_roots",
+        "count": 2604
+      },
+      {
+        "id": "all_topics",
+        "count": 2575
+      },
+      {
+        "id": "underdog",
+        "count": 2430
+      },
+      {
+        "id": "coalition",
+        "count": 1488
+      },
+      {
+        "id": "hundred_members",
+        "count": 1210
+      },
+      {
+        "id": "three_scandals",
+        "count": 1148
+      },
+      {
+        "id": "kingmaker",
+        "count": 1024
+      },
+      {
+        "id": "risk_taker",
+        "count": 994
+      },
+      {
+        "id": "second_place",
+        "count": 783
+      },
+      {
+        "id": "no_scandal",
+        "count": 766
+      },
+      {
+        "id": "played_ecologistes",
+        "count": 700
+      },
+      {
+        "id": "played_horizons",
+        "count": 700
+      },
+      {
+        "id": "played_lfi",
+        "count": 700
+      },
+      {
+        "id": "played_lr",
+        "count": 700
+      },
+      {
+        "id": "played_nouvelle_energie",
+        "count": 700
+      },
+      {
+        "id": "played_ps",
+        "count": 700
+      },
+      {
+        "id": "played_reconquete",
+        "count": 700
+      },
+      {
+        "id": "played_renaissance",
+        "count": 700
+      },
+      {
+        "id": "played_rn",
+        "count": 700
+      },
+      {
+        "id": "united",
+        "count": 561
+      },
+      {
+        "id": "won_renaissance",
+        "count": 510
+      },
+      {
+        "id": "won_horizons",
+        "count": 498
+      },
+      {
+        "id": "won_lr",
+        "count": 497
+      },
+      {
+        "id": "won_ps",
+        "count": 468
+      },
+      {
+        "id": "won_ecologistes",
+        "count": 420
+      },
+      {
+        "id": "won_nouvelle_energie",
+        "count": 417
+      },
+      {
+        "id": "won_lfi",
+        "count": 370
+      },
+      {
+        "id": "momentum",
+        "count": 287
+      },
+      {
+        "id": "won_rn",
+        "count": 281
+      },
+      {
+        "id": "close_victory",
+        "count": 141
+      },
+      {
+        "id": "perfect_campaign",
+        "count": 140
+      },
+      {
+        "id": "chameleon",
+        "count": 128
+      },
+      {
+        "id": "solvent",
+        "count": 121
+      },
+      {
+        "id": "loyal",
+        "count": 39
+      },
+      {
+        "id": "won_reconquete",
+        "count": 39
+      },
+      {
+        "id": "popular",
+        "count": 34
+      },
+      {
+        "id": "secret_ending",
+        "count": 29
+      }
+    ],
+    "choices": [
+      {
+        "id": "final_debate_admit_compromises",
+        "count": 2030
+      },
+      {
+        "id": "local_sections_authorize",
+        "count": 1355
+      },
+      {
+        "id": "common_program_eight",
+        "count": 1316
+      },
+      {
+        "id": "last_hours_address",
+        "count": 1284
+      },
+      {
+        "id": "last_hours_surprise",
+        "count": 1236
+      },
+      {
+        "id": "common_program_method",
+        "count": 1225
+      },
+      {
+        "id": "endorsement_wave_no_deals",
+        "count": 1224
+      },
+      {
+        "id": "vote_transfers_local_meetings",
+        "count": 1189
+      },
+      {
+        "id": "silence_publish_schedule",
+        "count": 1145
+      },
+      {
+        "id": "slogan_choose_govern",
+        "count": 1105
+      },
+      {
+        "id": "favorite_pressure_presidential",
+        "count": 1104
+      },
+      {
+        "id": "favorite_pressure_turnout",
+        "count": 1064
+      },
+      {
+        "id": "vote_transfers_guarantee",
+        "count": 1060
+      },
+      {
+        "id": "livestream_answer_three",
+        "count": 1050
+      },
+      {
+        "id": "front_page_balance",
+        "count": 1040
+      },
+      {
+        "id": "health_prevention_budget",
+        "count": 1040
+      },
+      {
+        "id": "climate_insurance",
+        "count": 1018
+      },
+      {
+        "id": "market_rent_mediation",
+        "count": 1018
+      },
+      {
+        "id": "endorsement_wave_bilateral",
+        "count": 990
+      },
+      {
+        "id": "recruitment_training",
+        "count": 972
+      },
+      {
+        "id": "market_energy_receipts",
+        "count": 934
+      },
+      {
+        "id": "prime_minister_independent",
+        "count": 916
+      },
+      {
+        "id": "livestream_continue_all",
+        "count": 907
+      },
+      {
+        "id": "factory_public_orders",
+        "count": 906
+      },
+      {
+        "id": "volunteers_weekend_canvass",
+        "count": 899
+      },
+      {
+        "id": "photo_ignore",
+        "count": 880
+      },
+      {
+        "id": "photo_self_mockery",
+        "count": 874
+      },
+      {
+        "id": "headquarters_move",
+        "count": 856
+      },
+      {
+        "id": "editorial_support_boundaries",
+        "count": 846
+      },
+      {
+        "id": "silence_cancel_pause",
+        "count": 843
+      },
+      {
+        "id": "government_balance_coalition",
+        "count": 836
+      },
+      {
+        "id": "favorite_pressure_attack",
+        "count": 823
+      },
+      {
+        "id": "slogan_drop_both",
+        "count": 816
+      },
+      {
+        "id": "first_address_three",
+        "count": 811
+      },
+      {
+        "id": "front_page_embrace_business",
+        "count": 807
+      },
+      {
+        "id": "europe_investment_rule",
+        "count": 802
+      },
+      {
+        "id": "last_hours_field",
+        "count": 798
+      },
+      {
+        "id": "editorial_support_meeting",
+        "count": 790
+      },
+      {
+        "id": "ministry_conflict_split",
+        "count": 788
+      },
+      {
+        "id": "budget_emergency_fundraising",
+        "count": 780
+      },
+      {
+        "id": "celebrity_support_decline",
+        "count": 776
+      },
+      {
+        "id": "free_conclusion_democratic",
+        "count": 767
+      },
+      {
+        "id": "budget_cut_large_rallies",
+        "count": 761
+      },
+      {
+        "id": "bus_cafe_exchange",
+        "count": 737
+      },
+      {
+        "id": "duel_interruption_moderator",
+        "count": 731
+      },
+      {
+        "id": "plagiarized_report_correct",
+        "count": 731
+      },
+      {
+        "id": "wages_cut_contributions",
+        "count": 723
+      },
+      {
+        "id": "endorsements_cross_party",
+        "count": 721
+      },
+      {
+        "id": "factory_training_contract",
+        "count": 719
+      },
+      {
+        "id": "local_press_mobile_services",
+        "count": 719
+      },
+      {
+        "id": "factory_listen_shift",
+        "count": 718
+      },
+      {
+        "id": "calendar_choose_mayors",
+        "count": 717
+      },
+      {
+        "id": "energy_nuclear_renewables",
+        "count": 717
+      },
+      {
+        "id": "volunteers_local_training",
+        "count": 716
+      },
+      {
+        "id": "open_mic_blame_context",
+        "count": 710
+      },
+      {
+        "id": "duel_interruption_direct_address",
+        "count": 701
+      },
+      {
+        "id": "vote_transfers_rejection",
+        "count": 696
+      },
+      {
+        "id": "energy_nuclear_priority",
+        "count": 693
+      },
+      {
+        "id": "posters_local_printers",
+        "count": 692
+      },
+      {
+        "id": "school_autonomy",
+        "count": 688
+      },
+      {
+        "id": "post_show_balanced",
+        "count": 682
+      },
+      {
+        "id": "school_teacher_pay",
+        "count": 682
+      },
+      {
+        "id": "endorsement_wave_stage",
+        "count": 670
+      },
+      {
+        "id": "open_mic_apology",
+        "count": 667
+      },
+      {
+        "id": "prime_time_decline_prepare",
+        "count": 664
+      },
+      {
+        "id": "prime_time_accept_open",
+        "count": 662
+      },
+      {
+        "id": "prime_time_send_ally",
+        "count": 657
+      },
+      {
+        "id": "financial_review_suspend",
+        "count": 653
+      },
+      {
+        "id": "unknown_question_estimate",
+        "count": 653
+      },
+      {
+        "id": "government_balance_small_team",
+        "count": 650
+      },
+      {
+        "id": "floods_cancel_donate",
+        "count": 647
+      },
+      {
+        "id": "pensions_age_64",
+        "count": 645
+      },
+      {
+        "id": "wages_branch_negotiations",
+        "count": 639
+      },
+      {
+        "id": "local_press_doctor_requirement",
+        "count": 633
+      },
+      {
+        "id": "international_national_independence",
+        "count": 628
+      },
+      {
+        "id": "institutions_presidential_power",
+        "count": 626
+      },
+      {
+        "id": "local_press_health_contracts",
+        "count": 624
+      },
+      {
+        "id": "first_address_convention",
+        "count": 622
+      },
+      {
+        "id": "local_sections_national_only",
+        "count": 622
+      },
+      {
+        "id": "health_primary_care",
+        "count": 610
+      },
+      {
+        "id": "supplier_overbilling_credit",
+        "count": 608
+      },
+      {
+        "id": "mayors_decline_contract",
+        "count": 598
+      },
+      {
+        "id": "outage_resilience_audit",
+        "count": 592
+      },
+      {
+        "id": "common_program_all",
+        "count": 586
+      },
+      {
+        "id": "mayors_pilot",
+        "count": 586
+      },
+      {
+        "id": "podcast_full_access",
+        "count": 580
+      },
+      {
+        "id": "volunteers_data_research",
+        "count": 579
+      },
+      {
+        "id": "immigration_work_regularization",
+        "count": 576
+      },
+      {
+        "id": "outage_agents_support",
+        "count": 575
+      },
+      {
+        "id": "climate_adaptation_fund",
+        "count": 573
+      },
+      {
+        "id": "final_debate_attack_record",
+        "count": 571
+      },
+      {
+        "id": "parliamentary_group_expertise",
+        "count": 568
+      },
+      {
+        "id": "bus_remote_townhall",
+        "count": 565
+      },
+      {
+        "id": "donations_small_match",
+        "count": 565
+      },
+      {
+        "id": "family_hire_rebid",
+        "count": 564
+      },
+      {
+        "id": "weather_silent_safety",
+        "count": 561
+      },
+      {
+        "id": "parliamentary_group_charter",
+        "count": 560
+      },
+      {
+        "id": "pensions_social_conference",
+        "count": 559
+      },
+      {
+        "id": "volunteer_conflict_split_day",
+        "count": 557
+      },
+      {
+        "id": "endorsements_public_appeal",
+        "count": 552
+      },
+      {
+        "id": "floods_go_now",
+        "count": 551
+      },
+      {
+        "id": "rival_interview_remove_role",
+        "count": 551
+      },
+      {
+        "id": "primary_debt_break",
+        "count": 541
+      },
+      {
+        "id": "security_smaller_room",
+        "count": 539
+      },
+      {
+        "id": "primary_debt_share",
+        "count": 536
+      },
+      {
+        "id": "nomination_dual_leadership",
+        "count": 533
+      },
+      {
+        "id": "calendar_split_trip",
+        "count": 532
+      },
+      {
+        "id": "headquarters_keep",
+        "count": 529
+      },
+      {
+        "id": "recruitment_sections",
+        "count": 528
+      },
+      {
+        "id": "slowdown_budget_caution",
+        "count": 521
+      },
+      {
+        "id": "posters_digital_switch",
+        "count": 520
+      },
+      {
+        "id": "local_expenses_separate",
+        "count": 517
+      },
+      {
+        "id": "rival_interview_vote",
+        "count": 517
+      },
+      {
+        "id": "first_address_emergency",
+        "count": 516
+      },
+      {
+        "id": "immigration_european_pact",
+        "count": 513
+      },
+      {
+        "id": "immigration_faster_procedures",
+        "count": 513
+      },
+      {
+        "id": "europe_national_opt_out",
+        "count": 511
+      },
+      {
+        "id": "all_candidates_carbon_contract",
+        "count": 510
+      },
+      {
+        "id": "mayors_contract",
+        "count": 510
+      },
+      {
+        "id": "ministry_conflict_competence",
+        "count": 509
+      },
+      {
+        "id": "financial_review_ignore",
+        "count": 508
+      },
+      {
+        "id": "regional_strasbourg_europe",
+        "count": 500
+      },
+      {
+        "id": "program_committee_pilot",
+        "count": 494
+      },
+      {
+        "id": "nomination_vote",
+        "count": 493
+      },
+      {
+        "id": "short_video_refuse_reduction",
+        "count": 492
+      },
+      {
+        "id": "regional_toulouse_climate",
+        "count": 490
+      },
+      {
+        "id": "staff_fatigue_hold_course",
+        "count": 488
+      },
+      {
+        "id": "taxation_wealth",
+        "count": 487
+      },
+      {
+        "id": "endorsements_private_route",
+        "count": 480
+      },
+      {
+        "id": "celebrity_support_housing_forum",
+        "count": 479
+      },
+      {
+        "id": "volunteer_conflict_digital",
+        "count": 479
+      },
+      {
+        "id": "europe_federal_budget",
+        "count": 477
+      },
+      {
+        "id": "congress_refuse",
+        "count": 476
+      },
+      {
+        "id": "congress_policy_forum",
+        "count": 475
+      },
+      {
+        "id": "local_expenses_remove_official",
+        "count": 474
+      },
+      {
+        "id": "taxation_cut_spending",
+        "count": 474
+      },
+      {
+        "id": "regional_lille_industry",
+        "count": 472
+      },
+      {
+        "id": "program_committee_members_vote",
+        "count": 469
+      },
+      {
+        "id": "institutions_constituent",
+        "count": 468
+      },
+      {
+        "id": "donations_tour_cut",
+        "count": 467
+      },
+      {
+        "id": "post_show_no_spin",
+        "count": 466
+      },
+      {
+        "id": "campaign_data_suspend_tools",
+        "count": 460
+      },
+      {
+        "id": "treasurer_invoices_publish",
+        "count": 458
+      },
+      {
+        "id": "taxation_niches",
+        "count": 456
+      },
+      {
+        "id": "international_european_statement",
+        "count": 454
+      },
+      {
+        "id": "podcast_topics_only",
+        "count": 449
+      },
+      {
+        "id": "energy_renewables_priority",
+        "count": 447
+      },
+      {
+        "id": "false_resume_resign",
+        "count": 446
+      },
+      {
+        "id": "pensions_points_choice",
+        "count": 445
+      },
+      {
+        "id": "all_candidates_drop_subsidy",
+        "count": 443
+      },
+      {
+        "id": "duel_interruption_confront",
+        "count": 441
+      },
+      {
+        "id": "weather_remote_climate",
+        "count": 437
+      },
+      {
+        "id": "donations_bank_advance",
+        "count": 434
+      },
+      {
+        "id": "school_class_size",
+        "count": 434
+      },
+      {
+        "id": "spokesperson_remove",
+        "count": 432
+      },
+      {
+        "id": "ps_runoff_left_contract",
+        "count": 431
+      },
+      {
+        "id": "spokesperson_correct",
+        "count": 431
+      },
+      {
+        "id": "energy_spike_targeted_aid",
+        "count": 429
+      },
+      {
+        "id": "institutions_referendum",
+        "count": 429
+      },
+      {
+        "id": "weather_cancel_help",
+        "count": 427
+      },
+      {
+        "id": "front_page_union_meeting",
+        "count": 426
+      },
+      {
+        "id": "unknown_question_local_audit",
+        "count": 425
+      },
+      {
+        "id": "rn_runoff_government_guarantees",
+        "count": 424
+      },
+      {
+        "id": "taxation_vat",
+        "count": 424
+      },
+      {
+        "id": "wages_raise_minimum",
+        "count": 424
+      },
+      {
+        "id": "free_conclusion_useful_vote",
+        "count": 421
+      },
+      {
+        "id": "institutions_proportional",
+        "count": 421
+      },
+      {
+        "id": "editorial_support_reject",
+        "count": 419
+      },
+      {
+        "id": "ministry_conflict_third",
+        "count": 418
+      },
+      {
+        "id": "security_follow_protocol",
+        "count": 416
+      },
+      {
+        "id": "prime_minister_ally",
+        "count": 414
+      },
+      {
+        "id": "outage_attack_government",
+        "count": 413
+      },
+      {
+        "id": "youth_wing_budget",
+        "count": 412
+      },
+      {
+        "id": "slowdown_business_cash",
+        "count": 411
+      },
+      {
+        "id": "consultant_contract_waive",
+        "count": 409
+      },
+      {
+        "id": "security_remote_address",
+        "count": 405
+      },
+      {
+        "id": "renaissance_runoff_democratic_contract",
+        "count": 402
+      },
+      {
+        "id": "major_donor_public_roundtable",
+        "count": 400
+      },
+      {
+        "id": "launch_territorial_voices",
+        "count": 389
+      },
+      {
+        "id": "energy_spike_european_purchase",
+        "count": 387
+      },
+      {
+        "id": "farmers_norm_pause",
+        "count": 387
+      },
+      {
+        "id": "hospital_night_staff",
+        "count": 387
+      },
+      {
+        "id": "unknown_question_admit",
+        "count": 387
+      },
+      {
+        "id": "all_candidates_refuse_cut",
+        "count": 380
+      },
+      {
+        "id": "staff_fatigue_cancel",
+        "count": 376
+      },
+      {
+        "id": "staff_fatigue_hire",
+        "count": 375
+      },
+      {
+        "id": "ecologistes_runoff_climate_coalition",
+        "count": 371
+      },
+      {
+        "id": "audit_conclusion_summary",
+        "count": 369
+      },
+      {
+        "id": "lr_runoff_program_only",
+        "count": 366
+      },
+      {
+        "id": "post_show_allies",
+        "count": 366
+      },
+      {
+        "id": "major_donor_private",
+        "count": 362
+      },
+      {
+        "id": "unknown_question_national_plan",
+        "count": 358
+      },
+      {
+        "id": "consultant_contract_honor",
+        "count": 356
+      },
+      {
+        "id": "health_hospital_staff",
+        "count": 352
+      },
+      {
+        "id": "family_hire_defend",
+        "count": 350
+      },
+      {
+        "id": "primary_debt_honor",
+        "count": 350
+      },
+      {
+        "id": "treasurer_invoices_keep",
+        "count": 350
+      },
+      {
+        "id": "final_debate_governing_plan",
+        "count": 349
+      },
+      {
+        "id": "parliamentary_group_full_support",
+        "count": 349
+      },
+      {
+        "id": "nomination_candidate_team",
+        "count": 347
+      },
+      {
+        "id": "supplier_overbilling_terminate",
+        "count": 345
+      },
+      {
+        "id": "plagiarized_report_public_domain",
+        "count": 339
+      },
+      {
+        "id": "heatwave_cancel_campaign",
+        "count": 334
+      },
+      {
+        "id": "free_conclusion_contract",
+        "count": 332
+      },
+      {
+        "id": "campaign_data_reset",
+        "count": 331
+      },
+      {
+        "id": "donation_route_return",
+        "count": 330
+      },
+      {
+        "id": "hospital_silent_report",
+        "count": 329
+      },
+      {
+        "id": "farmers_water_contracts",
+        "count": 319
+      },
+      {
+        "id": "final_debate_direct_appeal",
+        "count": 318
+      },
+      {
+        "id": "strategy_leak_blame_consultant",
+        "count": 316
+      },
+      {
+        "id": "sme_independent_test",
+        "count": 313
+      },
+      {
+        "id": "economy_round_walk_numbers",
+        "count": 311
+      },
+      {
+        "id": "immigration_annual_quota",
+        "count": 303
+      },
+      {
+        "id": "economic_morning_defer",
+        "count": 301
+      },
+      {
+        "id": "climate_water_rules",
+        "count": 300
+      },
+      {
+        "id": "government_balance_competence",
+        "count": 295
+      },
+      {
+        "id": "donation_route_keep",
+        "count": 294
+      },
+      {
+        "id": "final_rally_contract",
+        "count": 293
+      },
+      {
+        "id": "nouvelle_energie_runoff_coalition",
+        "count": 291
+      },
+      {
+        "id": "congress_hold_vote",
+        "count": 290
+      },
+      {
+        "id": "horizons_runoff_government_contract",
+        "count": 290
+      },
+      {
+        "id": "union_branch_bargaining",
+        "count": 289
+      },
+      {
+        "id": "doors_single_measure",
+        "count": 287
+      },
+      {
+        "id": "false_resume_keep",
+        "count": 287
+      },
+      {
+        "id": "recruitment_field_now",
+        "count": 286
+      },
+      {
+        "id": "false_resume_suspend",
+        "count": 285
+      },
+      {
+        "id": "lfi_runoff_full_program",
+        "count": 282
+      },
+      {
+        "id": "budget_warning_recost",
+        "count": 280
+      },
+      {
+        "id": "program_committee_candidate",
+        "count": 280
+      },
+      {
+        "id": "energy_spike_price_cap",
+        "count": 277
+      },
+      {
+        "id": "launch_institutional_break",
+        "count": 277
+      },
+      {
+        "id": "pensions_return_62",
+        "count": 277
+      },
+      {
+        "id": "economic_morning_exact",
+        "count": 274
+      },
+      {
+        "id": "final_rally_new_pledge",
+        "count": 274
+      },
+      {
+        "id": "economy_round_values",
+        "count": 273
+      },
+      {
+        "id": "heatwave_indoor_meeting",
+        "count": 271
+      },
+      {
+        "id": "horizons_local_workshops",
+        "count": 268
+      },
+      {
+        "id": "lr_electorate_dependency_insurance",
+        "count": 267
+      },
+      {
+        "id": "slogan_choose_break",
+        "count": 266
+      },
+      {
+        "id": "major_donor_written_input",
+        "count": 263
+      },
+      {
+        "id": "doors_listening_notebooks",
+        "count": 260
+      },
+      {
+        "id": "photo_publish_sequence",
+        "count": 258
+      },
+      {
+        "id": "documentary_rules",
+        "count": 257
+      },
+      {
+        "id": "ps_electorate_wage_conference",
+        "count": 257
+      },
+      {
+        "id": "short_video_building_targets",
+        "count": 257
+      },
+      {
+        "id": "convention_commit_three",
+        "count": 255
+      },
+      {
+        "id": "rn_signature_food_energy",
+        "count": 254
+      },
+      {
+        "id": "lfi_signature_parliament_first",
+        "count": 253
+      },
+      {
+        "id": "strategy_leak_publish",
+        "count": 253
+      },
+      {
+        "id": "european_vote_bridge",
+        "count": 250
+      },
+      {
+        "id": "horizons_runoff_coalition_council",
+        "count": 250
+      },
+      {
+        "id": "slowdown_investment",
+        "count": 250
+      },
+      {
+        "id": "rn_electorate_rural_mobility",
+        "count": 249
+      },
+      {
+        "id": "housing_protest_emergency_fund",
+        "count": 248
+      },
+      {
+        "id": "local_sections_workshop",
+        "count": 248
+      },
+      {
+        "id": "audit_conclusion_vindication",
+        "count": 247
+      },
+      {
+        "id": "audit_conclusion_all",
+        "count": 244
+      },
+      {
+        "id": "floods_visit_later",
+        "count": 244
+      },
+      {
+        "id": "personal_future_stay",
+        "count": 244
+      },
+      {
+        "id": "overseas_local_conference",
+        "count": 243
+      },
+      {
+        "id": "celebrity_support_speech",
+        "count": 242
+      },
+      {
+        "id": "lfi_local_commitments",
+        "count": 241
+      },
+      {
+        "id": "closure_market_buyer",
+        "count": 240
+      },
+      {
+        "id": "strike_mediation",
+        "count": 240
+      },
+      {
+        "id": "headquarters_renegotiate",
+        "count": 238
+      },
+      {
+        "id": "financial_review_rebuild",
+        "count": 237
+      },
+      {
+        "id": "ps_program_future_only",
+        "count": 237
+      },
+      {
+        "id": "strategy_leak_adopt",
+        "count": 237
+      },
+      {
+        "id": "right_convention_attend",
+        "count": 236
+      },
+      {
+        "id": "rural_installation_rule",
+        "count": 233
+      },
+      {
+        "id": "ecologistes_electorate_rent_protection",
+        "count": 232
+      },
+      {
+        "id": "international_strategic_reserve",
+        "count": 232
+      },
+      {
+        "id": "lr_runoff_government_right",
+        "count": 231
+      },
+      {
+        "id": "overseas_water_authority",
+        "count": 231
+      },
+      {
+        "id": "family_hire_audit_value",
+        "count": 228
+      },
+      {
+        "id": "renaissance_electorate_public_services",
+        "count": 227
+      },
+      {
+        "id": "horizons_electorate_health_houses",
+        "count": 226
+      },
+      {
+        "id": "lr_signature_local_contracts",
+        "count": 226
+      },
+      {
+        "id": "all_candidates_local_adaptation",
+        "count": 225
+      },
+      {
+        "id": "documentary_full_access",
+        "count": 225
+      },
+      {
+        "id": "prime_minister_party",
+        "count": 225
+      },
+      {
+        "id": "reconquete_electorate_first_hire",
+        "count": 225
+      },
+      {
+        "id": "rn_fronde_regional_mandate",
+        "count": 225
+      },
+      {
+        "id": "renaissance_signature_european_fund",
+        "count": 224
+      },
+      {
+        "id": "right_convention_refuse",
+        "count": 222
+      },
+      {
+        "id": "foreign_interview_coalition",
+        "count": 221
+      },
+      {
+        "id": "reconquete_alliance_legislative_pact",
+        "count": 221
+      },
+      {
+        "id": "economy_round_drop_measure",
+        "count": 219
+      },
+      {
+        "id": "strike_minimum_service",
+        "count": 219
+      },
+      {
+        "id": "rn_runoff_people_against_system",
+        "count": 218
+      },
+      {
+        "id": "lr_program_agency_review",
+        "count": 216
+      },
+      {
+        "id": "youth_wing_refuse",
+        "count": 216
+      },
+      {
+        "id": "renaissance_fronde_shared_speech",
+        "count": 215
+      },
+      {
+        "id": "open_mic_restructure",
+        "count": 214
+      },
+      {
+        "id": "ps_local_material_only",
+        "count": 214
+      },
+      {
+        "id": "european_vote_national_fund",
+        "count": 213
+      },
+      {
+        "id": "horizons_program_green_investment",
+        "count": 213
+      },
+      {
+        "id": "horizons_fronde_negotiate_deadline",
+        "count": 210
+      },
+      {
+        "id": "horizons_signature_block_grant",
+        "count": 210
+      },
+      {
+        "id": "reconquete_fronde_joint_convention",
+        "count": 210
+      },
+      {
+        "id": "periphery_one_month_audit",
+        "count": 209
+      },
+      {
+        "id": "reconquete_signature_constitutional_bill",
+        "count": 208
+      },
+      {
+        "id": "ps_fronde_negotiate",
+        "count": 207
+      },
+      {
+        "id": "reconquete_signature_consultative_vote",
+        "count": 207
+      },
+      {
+        "id": "rural_mobile_team",
+        "count": 207
+      },
+      {
+        "id": "ecologistes_signature_local_grants",
+        "count": 206
+      },
+      {
+        "id": "ecologistes_program_industry_only",
+        "count": 205
+      },
+      {
+        "id": "local_expenses_internal_warning",
+        "count": 205
+      },
+      {
+        "id": "reconquete_identity_influence",
+        "count": 204
+      },
+      {
+        "id": "treasurer_invoices_reimburse",
+        "count": 204
+      },
+      {
+        "id": "renaissance_program_long_careers",
+        "count": 202
+      },
+      {
+        "id": "sme_publish_both",
+        "count": 202
+      },
+      {
+        "id": "ecologistes_fronde_no_deadline",
+        "count": 201
+      },
+      {
+        "id": "rn_local_services_tour",
+        "count": 201
+      },
+      {
+        "id": "left_roundtable_agreement",
+        "count": 200
+      },
+      {
+        "id": "lr_identity_government_right",
+        "count": 200
+      },
+      {
+        "id": "future_campaign_legislative",
+        "count": 198
+      },
+      {
+        "id": "ps_signature_contribution",
+        "count": 197
+      },
+      {
+        "id": "ecologistes_alliance_autonomy",
+        "count": 196
+      },
+      {
+        "id": "short_video_emergency_housing",
+        "count": 196
+      },
+      {
+        "id": "horizons_signature_experimentation",
+        "count": 195
+      },
+      {
+        "id": "nouvelle_energie_electorate_hundred_meetings",
+        "count": 194
+      },
+      {
+        "id": "lfi_runoff_common_left",
+        "count": 193
+      },
+      {
+        "id": "nouvelle_energie_signature_silence_consent",
+        "count": 193
+      },
+      {
+        "id": "lr_fronde_policy_meeting",
+        "count": 192
+      },
+      {
+        "id": "ps_runoff_presidential_platform",
+        "count": 192
+      },
+      {
+        "id": "renaissance_identity_new_cycle",
+        "count": 192
+      },
+      {
+        "id": "renaissance_electorate_work_credit",
+        "count": 191
+      },
+      {
+        "id": "rival_interview_shared_stage",
+        "count": 190
+      },
+      {
+        "id": "ecologistes_local_rail_announcement",
+        "count": 189
+      },
+      {
+        "id": "volunteer_conflict_field",
+        "count": 189
+      },
+      {
+        "id": "nouvelle_energie_program_health_protection",
+        "count": 188
+      },
+      {
+        "id": "rn_alliance_non_aggression",
+        "count": 188
+      },
+      {
+        "id": "lfi_electorate_registration",
+        "count": 187
+      },
+      {
+        "id": "ps_signature_training",
+        "count": 186
+      },
+      {
+        "id": "rn_identity_government_team",
+        "count": 186
+      },
+      {
+        "id": "sme_defend_macro",
+        "count": 185
+      },
+      {
+        "id": "renaissance_runoff_no_bargain",
+        "count": 184
+      },
+      {
+        "id": "lr_local_national_battlegrounds",
+        "count": 183
+      },
+      {
+        "id": "nouvelle_energie_electorate_tax_simulator",
+        "count": 183
+      },
+      {
+        "id": "renaissance_alliance_full",
+        "count": 182
+      },
+      {
+        "id": "ps_alliance_accept",
+        "count": 181
+      },
+      {
+        "id": "nouvelle_energie_signature_single_portal",
+        "count": 180
+      },
+      {
+        "id": "reconquete_electorate_norms_moratorium",
+        "count": 180
+      },
+      {
+        "id": "horizons_identity_dual_agenda",
+        "count": 178
+      },
+      {
+        "id": "consultant_contract_litigate",
+        "count": 177
+      },
+      {
+        "id": "endorse_candidate_contract",
+        "count": 177
+      },
+      {
+        "id": "nouvelle_energie_local_open_workshops",
+        "count": 176
+      },
+      {
+        "id": "lr_signature_visible_patrols",
+        "count": 175
+      },
+      {
+        "id": "no_instruction_silence",
+        "count": 173
+      },
+      {
+        "id": "ecologistes_fronde_exit_calendar",
+        "count": 171
+      },
+      {
+        "id": "ecologistes_local_rural_week",
+        "count": 171
+      },
+      {
+        "id": "ecologistes_program_dividend",
+        "count": 171
+      },
+      {
+        "id": "ecologistes_signature_public_operator",
+        "count": 171
+      },
+      {
+        "id": "reconquete_program_public_procurement",
+        "count": 171
+      },
+      {
+        "id": "nouvelle_energie_alliance_one_project",
+        "count": 170
+      },
+      {
+        "id": "rn_signature_consumption_rebate",
+        "count": 170
+      },
+      {
+        "id": "strike_support_workers",
+        "count": 170
+      },
+      {
+        "id": "union_support_consultation",
+        "count": 170
+      },
+      {
+        "id": "foreign_interview_veto",
+        "count": 169
+      },
+      {
+        "id": "reconquete_local_mobile_studios",
+        "count": 168
+      },
+      {
+        "id": "reconquete_program_national_preference",
+        "count": 168
+      },
+      {
+        "id": "renaissance_signature_fast_track",
+        "count": 168
+      },
+      {
+        "id": "rn_electorate_energy_bill",
+        "count": 167
+      },
+      {
+        "id": "periphery_fuel_rebate",
+        "count": 165
+      },
+      {
+        "id": "campaign_data_notify",
+        "count": 164
+      },
+      {
+        "id": "future_campaign_audit",
+        "count": 164
+      },
+      {
+        "id": "overseas_price_observatory",
+        "count": 164
+      },
+      {
+        "id": "supplier_overbilling_public",
+        "count": 164
+      },
+      {
+        "id": "renaissance_local_national_kit",
+        "count": 163
+      },
+      {
+        "id": "free_conclusion_story",
+        "count": 161
+      },
+      {
+        "id": "ps_local_public_services_tour",
+        "count": 161
+      },
+      {
+        "id": "convention_local_experiment",
+        "count": 160
+      },
+      {
+        "id": "endorse_candidate_unconditional",
+        "count": 160
+      },
+      {
+        "id": "horizons_electorate_doctor_contracts",
+        "count": 159
+      },
+      {
+        "id": "plagiarized_report_author",
+        "count": 155
+      },
+      {
+        "id": "renaissance_local_constituency_contracts",
+        "count": 154
+      },
+      {
+        "id": "ecologistes_runoff_ecological_majority",
+        "count": 153
+      },
+      {
+        "id": "nouvelle_energie_fronde_negotiate_terms",
+        "count": 153
+      },
+      {
+        "id": "nouvelle_energie_runoff_civic_government",
+        "count": 153
+      },
+      {
+        "id": "union_wage_conference",
+        "count": 153
+      },
+      {
+        "id": "nouvelle_energie_fronde_confirm_candidate",
+        "count": 152
+      },
+      {
+        "id": "renaissance_program_social_conference",
+        "count": 152
+      },
+      {
+        "id": "fact_check_attack_method",
+        "count": 150
+      },
+      {
+        "id": "reconquete_local_training",
+        "count": 150
+      },
+      {
+        "id": "past_words_attack_edit",
+        "count": 147
+      },
+      {
+        "id": "reconquete_crisis_independent_network",
+        "count": 145
+      },
+      {
+        "id": "rn_program_constitutional_referendum",
+        "count": 145
+      },
+      {
+        "id": "spokesperson_adopt",
+        "count": 144
+      },
+      {
+        "id": "hologram_phone",
+        "count": 143
+      },
+      {
+        "id": "lfi_fronde_social_month",
+        "count": 143
+      },
+      {
+        "id": "no_instruction_criteria",
+        "count": 143
+      },
+      {
+        "id": "closure_retraining_contract",
+        "count": 141
+      },
+      {
+        "id": "left_roundtable_refuse",
+        "count": 140
+      },
+      {
+        "id": "lfi_local_march",
+        "count": 140
+      },
+      {
+        "id": "lfi_signature_constituent",
+        "count": 140
+      },
+      {
+        "id": "lr_electorate_savings_exemption",
+        "count": 140
+      },
+      {
+        "id": "lr_local_federation_targets",
+        "count": 140
+      },
+      {
+        "id": "reconquete_identity_dual_target",
+        "count": 140
+      },
+      {
+        "id": "post_show_claim_win",
+        "count": 139
+      },
+      {
+        "id": "rn_program_residency_condition",
+        "count": 139
+      },
+      {
+        "id": "launch_costed_purchasing_power",
+        "count": 138
+      },
+      {
+        "id": "doors_registration_drive",
+        "count": 137
+      },
+      {
+        "id": "ecologistes_alliance_metro",
+        "count": 136
+      },
+      {
+        "id": "farmers_floor_price",
+        "count": 136
+      },
+      {
+        "id": "fragmented_congress_new_election",
+        "count": 136
+      },
+      {
+        "id": "heatwave_school_plan",
+        "count": 136
+      },
+      {
+        "id": "ps_electorate_staffing_priority",
+        "count": 136
+      },
+      {
+        "id": "final_rally_turnout",
+        "count": 135
+      },
+      {
+        "id": "budget_warning_ignore",
+        "count": 134
+      },
+      {
+        "id": "ecologistes_electorate_guaranteed_loan",
+        "count": 134
+      },
+      {
+        "id": "nouvelle_energie_identity_reforms",
+        "count": 134
+      },
+      {
+        "id": "right_convention_debate",
+        "count": 134
+      },
+      {
+        "id": "horizons_alliance_local_pact",
+        "count": 133
+      },
+      {
+        "id": "nouvelle_energie_program_health_vouchers",
+        "count": 133
+      },
+      {
+        "id": "closure_public_stake",
+        "count": 132
+      },
+      {
+        "id": "convention_program_vote",
+        "count": 132
+      },
+      {
+        "id": "ecologistes_crisis_publish_scenarios",
+        "count": 132
+      },
+      {
+        "id": "horizons_alliance_presidential_condition",
+        "count": 132
+      },
+      {
+        "id": "lfi_program_unilateral",
+        "count": 132
+      },
+      {
+        "id": "nouvelle_energie_local_professional_campaign",
+        "count": 132
+      },
+      {
+        "id": "ps_program_public_inventory",
+        "count": 132
+      },
+      {
+        "id": "economy_round_counter_project",
+        "count": 129
+      },
+      {
+        "id": "lfi_alliance_refuse_green",
+        "count": 129
+      },
+      {
+        "id": "lr_alliance_policy_without_border",
+        "count": 128
+      },
+      {
+        "id": "reconquete_fronde_close_channels",
+        "count": 128
+      },
+      {
+        "id": "renaissance_fronde_remove",
+        "count": 128
+      },
+      {
+        "id": "exceptional_powers_guardrails",
+        "count": 127
+      },
+      {
+        "id": "horizons_program_single_rule",
+        "count": 127
+      },
+      {
+        "id": "lfi_program_list",
+        "count": 127
+      },
+      {
+        "id": "lr_fronde_close_negotiations",
+        "count": 127
+      },
+      {
+        "id": "rural_training_contract",
+        "count": 127
+      },
+      {
+        "id": "ecologistes_identity_shared_mandate",
+        "count": 126
+      },
+      {
+        "id": "personal_future_congress",
+        "count": 126
+      },
+      {
+        "id": "exceptional_powers_trust",
+        "count": 125
+      },
+      {
+        "id": "housing_protest_requisition",
+        "count": 125
+      },
+      {
+        "id": "podcast_send_policy_lead",
+        "count": 124
+      },
+      {
+        "id": "renaissance_alliance_refuse",
+        "count": 124
+      },
+      {
+        "id": "ecologistes_crisis_candidate_line",
+        "count": 123
+      },
+      {
+        "id": "center_pact_runoff_only",
+        "count": 122
+      },
+      {
+        "id": "bus_train_with_press",
+        "count": 121
+      },
+      {
+        "id": "fact_check_correct_error",
+        "count": 121
+      },
+      {
+        "id": "hologram_wait",
+        "count": 121
+      },
+      {
+        "id": "horizons_alliance_central_priority",
+        "count": 121
+      },
+      {
+        "id": "lfi_identity_dual",
+        "count": 121
+      },
+      {
+        "id": "nouvelle_energie_crisis_legislative_pact",
+        "count": 121
+      },
+      {
+        "id": "ps_alliance_decline",
+        "count": 120
+      },
+      {
+        "id": "reconquete_alliance_full_autonomy",
+        "count": 120
+      },
+      {
+        "id": "donation_route_verify",
+        "count": 119
+      },
+      {
+        "id": "lr_alliance_refuse_center",
+        "count": 119
+      },
+      {
+        "id": "lr_crisis_local_freedom",
+        "count": 118
+      },
+      {
+        "id": "lfi_electorate_vote_ultimatum",
+        "count": 117
+      },
+      {
+        "id": "renaissance_crisis_record_committee",
+        "count": 117
+      },
+      {
+        "id": "lfi_fronde_refuse",
+        "count": 116
+      },
+      {
+        "id": "nouvelle_energie_identity_coalition",
+        "count": 114
+      },
+      {
+        "id": "lfi_runoff_guarantees",
+        "count": 112
+      },
+      {
+        "id": "printer_slogan_keep",
+        "count": 112
+      },
+      {
+        "id": "union_support_refuse_veto",
+        "count": 112
+      },
+      {
+        "id": "calendar_choose_tv",
+        "count": 111
+      },
+      {
+        "id": "lfi_identity_groups",
+        "count": 111
+      },
+      {
+        "id": "nouvelle_energie_alliance_joint_platform",
+        "count": 111
+      },
+      {
+        "id": "periphery_transport_contract",
+        "count": 111
+      },
+      {
+        "id": "ps_identity_social_democrat",
+        "count": 111
+      },
+      {
+        "id": "nouvelle_energie_identity_territories",
+        "count": 110
+      },
+      {
+        "id": "housing_protest_building_contract",
+        "count": 109
+      },
+      {
+        "id": "horizons_crisis_close_talks",
+        "count": 108
+      },
+      {
+        "id": "past_words_timeline",
+        "count": 107
+      },
+      {
+        "id": "ps_crisis_members_ballot",
+        "count": 107
+      },
+      {
+        "id": "hospital_bed_dashboard",
+        "count": 106
+      },
+      {
+        "id": "personal_future_resign",
+        "count": 106
+      },
+      {
+        "id": "union_minimum_wage_law",
+        "count": 106
+      },
+      {
+        "id": "duel_interruption_wait",
+        "count": 105
+      },
+      {
+        "id": "ps_fronde_internal_vote",
+        "count": 105
+      },
+      {
+        "id": "rn_local_security_rally",
+        "count": 105
+      },
+      {
+        "id": "european_vote_small_group",
+        "count": 104
+      },
+      {
+        "id": "documentary_refuse_publish",
+        "count": 102
+      },
+      {
+        "id": "ecologistes_identity_regions",
+        "count": 102
+      },
+      {
+        "id": "horizons_fronde_remove_negotiators",
+        "count": 102
+      },
+      {
+        "id": "printer_slogan_limited_edition",
+        "count": 102
+      },
+      {
+        "id": "ps_identity_break",
+        "count": 102
+      },
+      {
+        "id": "rn_crisis_program_council",
+        "count": 101
+      },
+      {
+        "id": "horizons_local_national_stage",
+        "count": 99
+      },
+      {
+        "id": "nouvelle_energie_alliance_compete",
+        "count": 99
+      },
+      {
+        "id": "lr_alliance_horizons_platform",
+        "count": 98
+      },
+      {
+        "id": "lr_program_spending_ceiling",
+        "count": 98
+      },
+      {
+        "id": "renaissance_crisis_confidence_vote",
+        "count": 98
+      },
+      {
+        "id": "economic_morning_range",
+        "count": 97
+      },
+      {
+        "id": "fragmented_congress_contract",
+        "count": 97
+      },
+      {
+        "id": "lfi_alliance_three_measures",
+        "count": 97
+      },
+      {
+        "id": "center_pact_reject",
+        "count": 94
+      },
+      {
+        "id": "lfi_electorate_legal_clinics",
+        "count": 94
+      },
+      {
+        "id": "lr_identity_right_competition",
+        "count": 94
+      },
+      {
+        "id": "center_pact_sign",
+        "count": 93
+      },
+      {
+        "id": "fragmented_congress_issue_majorities",
+        "count": 93
+      },
+      {
+        "id": "lfi_crisis_exclude",
+        "count": 93
+      },
+      {
+        "id": "rn_identity_two_tracks",
+        "count": 93
+      },
+      {
+        "id": "budget_cut_consultants",
+        "count": 92
+      },
+      {
+        "id": "ecologistes_identity_candidate",
+        "count": 92
+      },
+      {
+        "id": "lfi_alliance_urban",
+        "count": 92
+      },
+      {
+        "id": "lr_identity_center_coalition",
+        "count": 92
+      },
+      {
+        "id": "rn_fronde_remove_ferran",
+        "count": 92
+      },
+      {
+        "id": "youth_wing_integrate",
+        "count": 92
+      },
+      {
+        "id": "horizons_identity_presidential",
+        "count": 91
+      },
+      {
+        "id": "lfi_identity_candidate",
+        "count": 88
+      },
+      {
+        "id": "lfi_program_coalition",
+        "count": 88
+      },
+      {
+        "id": "past_words_restore_first",
+        "count": 88
+      },
+      {
+        "id": "ally_autonomy_accept",
+        "count": 86
+      },
+      {
+        "id": "rn_crisis_signed_line",
+        "count": 86
+      },
+      {
+        "id": "rn_alliance_absorb_voters",
+        "count": 83
+      },
+      {
+        "id": "civil_suspension_rest",
+        "count": 82
+      },
+      {
+        "id": "printer_slogan_reprint",
+        "count": 82
+      },
+      {
+        "id": "rn_alliance_full_right_pact",
+        "count": 82
+      },
+      {
+        "id": "blackout_rehearse",
+        "count": 81
+      },
+      {
+        "id": "endorse_candidate_members",
+        "count": 80
+      },
+      {
+        "id": "civil_suspension_whisper",
+        "count": 79
+      },
+      {
+        "id": "horizons_crisis_members_vote",
+        "count": 79
+      },
+      {
+        "id": "rn_identity_core_themes",
+        "count": 77
+      },
+      {
+        "id": "strategic_withdrawal_refuse",
+        "count": 77
+      },
+      {
+        "id": "reconquete_runoff_right_contract",
+        "count": 76
+      },
+      {
+        "id": "strategic_withdrawal_accept",
+        "count": 76
+      },
+      {
+        "id": "blackout_agree_rules",
+        "count": 75
+      },
+      {
+        "id": "ps_identity_members_vote",
+        "count": 74
+      },
+      {
+        "id": "lfi_crisis_vote",
+        "count": 73
+      },
+      {
+        "id": "reconquete_crisis_online_ballot",
+        "count": 73
+      },
+      {
+        "id": "renaissance_identity_record",
+        "count": 73
+      },
+      {
+        "id": "nouvelle_energie_crisis_members_vote",
+        "count": 72
+      },
+      {
+        "id": "security_round_local_plan",
+        "count": 71
+      },
+      {
+        "id": "security_round_prevention",
+        "count": 71
+      },
+      {
+        "id": "renaissance_identity_coalition",
+        "count": 69
+      },
+      {
+        "id": "union_support_guarantee",
+        "count": 69
+      },
+      {
+        "id": "ps_alliance_policy_only",
+        "count": 68
+      },
+      {
+        "id": "ps_crisis_candidate_arbitration",
+        "count": 68
+      },
+      {
+        "id": "lr_crisis_members_referendum",
+        "count": 66
+      },
+      {
+        "id": "students_grants_index",
+        "count": 64
+      },
+      {
+        "id": "renaissance_alliance_second_round",
+        "count": 63
+      },
+      {
+        "id": "horizons_identity_mayors",
+        "count": 60
+      },
+      {
+        "id": "budget_warning_growth",
+        "count": 59
+      },
+      {
+        "id": "lfi_fronde_joint_platform",
+        "count": 59
+      },
+      {
+        "id": "ally_autonomy_refuse",
+        "count": 58
+      },
+      {
+        "id": "former_rival_no_role",
+        "count": 58
+      },
+      {
+        "id": "parrot_no_use",
+        "count": 58
+      },
+      {
+        "id": "former_rival_joint_tour",
+        "count": 56
+      },
+      {
+        "id": "future_campaign_fusion",
+        "count": 56
+      },
+      {
+        "id": "former_rival_industry_role",
+        "count": 54
+      },
+      {
+        "id": "exceptional_powers_never",
+        "count": 53
+      },
+      {
+        "id": "hologram_send_local",
+        "count": 53
+      },
+      {
+        "id": "fact_check_release_model",
+        "count": 51
+      },
+      {
+        "id": "blackout_talk_opponent",
+        "count": 49
+      },
+      {
+        "id": "civil_suspension_written",
+        "count": 49
+      },
+      {
+        "id": "strategic_withdrawal_one_measure",
+        "count": 49
+      },
+      {
+        "id": "students_selection_debate",
+        "count": 43
+      },
+      {
+        "id": "security_round_liberties",
+        "count": 42
+      },
+      {
+        "id": "no_instruction_block",
+        "count": 40
+      },
+      {
+        "id": "lfi_crisis_mediation",
+        "count": 39
+      },
+      {
+        "id": "reconquete_identity_qualification",
+        "count": 37
+      },
+      {
+        "id": "foreign_interview_national_plan",
+        "count": 36
+      },
+      {
+        "id": "national_union_refuse",
+        "count": 36
+      },
+      {
+        "id": "crown_petition_constitution_convention",
+        "count": 35
+      },
+      {
+        "id": "parrot_campaign_clip",
+        "count": 34
+      },
+      {
+        "id": "crown_petition_republic",
+        "count": 32
+      },
+      {
+        "id": "ecologistes_alliance_national_guarantees",
+        "count": 32
+      },
+      {
+        "id": "left_roundtable_public_only",
+        "count": 32
+      },
+      {
+        "id": "security_round_police_posts",
+        "count": 30
+      },
+      {
+        "id": "fact_card_withdraw_argument",
+        "count": 29
+      },
+      {
+        "id": "rn_dissidence_compete",
+        "count": 28
+      },
+      {
+        "id": "national_union_support_only",
+        "count": 25
+      },
+      {
+        "id": "national_union_join",
+        "count": 23
+      },
+      {
+        "id": "fact_card_attack",
+        "count": 21
+      },
+      {
+        "id": "lr_rare_local_charter",
+        "count": 18
+      },
+      {
+        "id": "parrot_return_policy",
+        "count": 17
+      },
+      {
+        "id": "students_rent_guarantee",
+        "count": 16
+      },
+      {
+        "id": "renaissance_rare_open_convention",
+        "count": 15
+      },
+      {
+        "id": "ally_autonomy_integrate",
+        "count": 14
+      },
+      {
+        "id": "reconquete_alliance_program_demand",
+        "count": 14
+      },
+      {
+        "id": "ecologistes_rare_advisory_panel",
+        "count": 13
+      },
+      {
+        "id": "ecologistes_rare_citizen_veto",
+        "count": 13
+      },
+      {
+        "id": "reconquete_runoff_ideological_mandate",
+        "count": 13
+      },
+      {
+        "id": "lr_rare_replace_leaders",
+        "count": 12
+      },
+      {
+        "id": "horizons_rare_local_manifesto",
+        "count": 11
+      },
+      {
+        "id": "horizons_rare_join_mayor_primary",
+        "count": 10
+      },
+      {
+        "id": "reconquete_rare_ideas_not_merger",
+        "count": 10
+      },
+      {
+        "id": "ps_rare_counter_convention",
+        "count": 8
+      },
+      {
+        "id": "reconquete_rare_founding_congress",
+        "count": 8
+      },
+      {
+        "id": "fact_card_context",
+        "count": 7
+      },
+      {
+        "id": "nouvelle_energie_rare_national_tour",
+        "count": 7
+      },
+      {
+        "id": "renaissance_rare_policy_absorption",
+        "count": 7
+      },
+      {
+        "id": "crown_petition_joke",
+        "count": 6
+      },
+      {
+        "id": "nouvelle_energie_rare_local_fund",
+        "count": 6
+      },
+      {
+        "id": "attack_security_proposals_later",
+        "count": 5
+      },
+      {
+        "id": "fact_card_correct",
+        "count": 5
+      },
+      {
+        "id": "ps_rare_join_primary",
+        "count": 4
+      },
+      {
+        "id": "lfi_rare_refuse",
+        "count": 3
+      },
+      {
+        "id": "rn_dissidence_reconciliation",
+        "count": 3
+      },
+      {
+        "id": "attack_immediate_law",
+        "count": 1
+      },
+      {
+        "id": "attack_suspend_campaign",
+        "count": 1
+      }
+    ],
+    "finalScoreBuckets": [
+      {
+        "id": "80-89",
+        "count": 2280
+      },
+      {
+        "id": "90-99",
+        "count": 1304
+      },
+      {
+        "id": "60-69",
+        "count": 961
+      },
+      {
+        "id": "70-79",
+        "count": 861
+      },
+      {
+        "id": "50-59",
+        "count": 600
+      },
+      {
+        "id": "40-49",
+        "count": 243
+      },
+      {
+        "id": "30-39",
+        "count": 48
+      },
+      {
+        "id": "20-29",
+        "count": 3
+      }
+    ],
+    "firstRoundScoreBuckets": [
+      {
+        "id": "15-19.9",
+        "count": 3011
+      },
+      {
+        "id": "10-14.9",
+        "count": 2763
+      },
+      {
+        "id": "5-9.9",
+        "count": 403
+      },
+      {
+        "id": "20-24.9",
+        "count": 110
+      },
+      {
+        "id": "0-4.9",
+        "count": 13
+      }
+    ]
+  },
+  "performance": {
+    "durationMs": 789493.4328,
+    "runsPerSecond": 7.979800333691944
+  }
+}

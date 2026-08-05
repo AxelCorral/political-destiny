@@ -5,7 +5,7 @@ import { resolve } from "node:path";
 import { gameContent } from "../../src/game/data";
 import { createGame, currentEvent, resolveCurrentChoice } from "../../src/game/engine";
 import { hashSeed } from "../../src/game/engine/rng";
-import type { ActorMemory, GameState } from "../../src/game/types";
+import type { GameState } from "../../src/game/types";
 
 const SEEDS = Math.max(
   20,
@@ -14,15 +14,6 @@ const SEEDS = Math.max(
 
 function mean(values: number[]): number {
   return values.reduce((sum, value) => sum + value, 0) / Math.max(1, values.length);
-}
-
-function memoryHasContent(memory: ActorMemory): boolean {
-  return (
-    memory.successfulActions.length > 0 ||
-    memory.failedActions.length > 0 ||
-    memory.rivalries.length > 0 ||
-    memory.promises.length > 0
-  );
 }
 
 function averageUndecided(state: GameState): number {
@@ -34,6 +25,8 @@ interface DynamicsRow {
   decisions: number;
   genericEvents: number;
   partySpecificEvents: number;
+  ideologySpecificEvents: number;
+  partyOrIdeologySpecificEvents: number;
   allPartyPrefixedEvents: number;
   duplicateEventIds: number;
   categoriesSeen: number;
@@ -49,6 +42,20 @@ interface DynamicsRow {
 
 const started = performance.now();
 const rows: DynamicsRow[] = [];
+const eventById = new Map(gameContent.events.map((event) => [event.id, event]));
+const isIdeologySpecific = (eventId: string) => {
+  const event = eventById.get(eventId);
+  return Boolean(
+    event &&
+    ((event.requiredTags?.length ?? 0) > 0 ||
+      (event.eligibleIdeologyFamilies?.length ?? 0) > 0 ||
+      event.eligibility.some((condition) =>
+        ["ideology", "ideology_family", "statement_exists", "contradiction_count"].includes(
+          condition.kind,
+        ),
+      )),
+  );
+};
 for (const party of gameContent.parties) {
   for (let seedIndex = 0; seedIndex < SEEDS; seedIndex += 1) {
     const seed = `audit-dynamics-${seedIndex}`;
@@ -98,19 +105,24 @@ for (const party of gameContent.parties) {
     const visiblePollSums = state.pollHistory.map((poll) =>
       Object.values(poll.results).reduce((sum, value) => sum + value, 0),
     );
+    const partySpecificEventIds = eventIds.filter((id) => id.startsWith(`party_${party.id}_`));
+    const ideologySpecificEventIds = eventIds.filter(isIdeologySpecific);
     rows.push({
       partyId: party.id,
       decisions: state.decisionIndex,
       genericEvents: eventIds.filter((id) => !id.startsWith("party_")).length,
-      partySpecificEvents: eventIds.filter((id) => id.startsWith(`party_${party.id}_`)).length,
+      partySpecificEvents: partySpecificEventIds.length,
+      ideologySpecificEvents: ideologySpecificEventIds.length,
+      partyOrIdeologySpecificEvents: new Set([
+        ...partySpecificEventIds,
+        ...ideologySpecificEventIds,
+      ]).size,
       allPartyPrefixedEvents: eventIds.filter((id) => id.startsWith("party_")).length,
       duplicateEventIds: eventIds.length - new Set(eventIds).size,
       categoriesSeen: Object.keys(state.categoryCounts).length,
       playerAllianceCount: finalParty.alliedWith.length,
       playerIdeologyMovement: ideologyMovement,
-      actorMemoriesWithContent: Object.values(state.actors).filter((actor) =>
-        memoryHasContent(actor.memory),
-      ).length,
+      actorMemoriesWithContent: state.actorMemories.length,
       candidateReplacements: replacements,
       initialUndecided,
       finalUndecided: averageUndecided(state),
@@ -133,6 +145,10 @@ const aggregate = (group: typeof rows) => ({
   averagePartySpecificEvents: mean(group.map((row) => row.partySpecificEvents)),
   averagePartySpecificShare:
     mean(group.map((row) => row.partySpecificEvents / Math.max(row.decisions, 1))) * 100,
+  averageIdeologySpecificEvents: mean(group.map((row) => row.ideologySpecificEvents)),
+  averagePartyOrIdeologySpecificEvents: mean(group.map((row) => row.partyOrIdeologySpecificEvents)),
+  averagePartyOrIdeologySpecificShare:
+    mean(group.map((row) => row.partyOrIdeologySpecificEvents / Math.max(row.decisions, 1))) * 100,
   runsWithDuplicateEventIds: group.filter((row) => row.duplicateEventIds > 0).length,
   averageCategoriesSeen: mean(group.map((row) => row.categoriesSeen)),
   runsWithPlayerAlliance: group.filter((row) => row.playerAllianceCount > 0).length,
@@ -169,7 +185,7 @@ const report = {
 const root = resolve(import.meta.dirname, "../..");
 await mkdir(resolve(root, "audit"), { recursive: true });
 await writeFile(
-  resolve(root, "audit/campaign-dynamics-report.json"),
+  resolve(root, process.env.AUDIT_DYNAMICS_OUTPUT ?? "audit/campaign-dynamics-report.json"),
   `${JSON.stringify(report, null, 2)}\n`,
   "utf8",
 );

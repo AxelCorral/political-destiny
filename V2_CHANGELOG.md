@@ -70,6 +70,18 @@
 - Panel de travail de 1 260 campagnes : eta² du parti 0,400 avant le dernier ajustement ciblé, eta² de stratégie 0,180, résultat qualification/victoire modifié par la stratégie dans 75,6 % des groupes appariés, 10,2 % de campagnes décidées tôt et 14,8 % de remontées.
 - Ajustements ciblés validés sur les mêmes seeds : PS à 89,3 % de qualifications et 62,1 % de victoires ; RN à 87,1 % et 37,1 %. Les mesures finales à plus grand volume restent à exécuter en phase J.
 
+### Phase F — reprise et clôture (Claude Code, 6 août 2026)
+
+- Travail retrouvé de Codex, non commité et repris tel quel après vérification : différenciation du report de second tour par parti ( par parti au lieu d'une formule générique dérivée du rejet), module rendant l'idéologie filtrante sur une vingtaine d'événements, seuil qualité , quota d'événements de parti relevé à 5.
+- Correction d'un diagnostic erroné : un premier contrôle avait comparé deux rapports d'audit générés à des tailles d'échantillon différentes et conclu à tort à une régression du dernier ajustement de Codex sur . À échantillon égal, l'état HEAD présentait déjà les mêmes bornes d'équilibre ; le calibrage de Codex a été conservé intégralement.
+- Mesure finale à l'échelle cible : 6 300 campagnes existantes (9 partis × 7 stratégies, dont 5 réellement jouables) et 2 000 campagnes personnalisées. eta² du parti 0,402, eta² de stratégie 0,142. Aucune des 5 stratégies jouables ne produit un résultat à 0 % ou supérieur à 90 % pour un parti donné.
+
+### Phase F — reprise et clôture (Claude Code, 6 août 2026)
+
+- Travail retrouvé de Codex, non commité et repris tel quel après vérification : différenciation du report de second tour par parti (`transferability` par parti au lieu d'une formule générique dérivée du rejet), module `ideologyEligibility.ts` rendant l'idéologie filtrante sur une vingtaine d'événements, seuil qualité `minimumIdeologyConditionedEvents`, quota d'événements de parti relevé à 5.
+- Correction d'un diagnostic erroné : un premier contrôle avait comparé deux rapports d'audit générés à des tailles d'échantillon différentes et conclu à tort à une régression du dernier ajustement de Codex sur `runoffAppeal`. À échantillon égal, l'état HEAD présentait déjà les mêmes bornes d'équilibre ; le calibrage de Codex a été conservé intégralement.
+- Mesure finale à l'échelle cible : 6 300 campagnes existantes (9 partis × 7 stratégies, dont 5 réellement jouables) et 2 000 campagnes personnalisées. eta² du parti 0,402, eta² de stratégie 0,142. Aucune des 5 stratégies jouables ne produit un résultat à 0 % ou supérieur à 90 % pour un parti donné.
+
 ### Phase G — Succès, fins et bilan
 
 - Croissance organique et déterministe des adhérents à partir de la trajectoire réelle ; les deux succès associés mesurent désormais un gain depuis le départ plutôt qu’un stock initial.

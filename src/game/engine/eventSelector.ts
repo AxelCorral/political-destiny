@@ -21,7 +21,7 @@ const CATEGORY_TARGETS: Partial<Record<EventCategory, number>> = {
   alliance: 2,
   world: 2,
   scandal: 1,
-  party: 3,
+  party: 5,
 };
 
 export function isEventEligible(state: GameState, event: GameEventDefinition): boolean {
@@ -69,7 +69,8 @@ function quotaMultiplier(state: GameState, category: EventCategory): number {
 
   if (category === "debate" && state.decisionIndex >= 16 && current === 0) multiplier *= 8;
   if (category === "program" && state.decisionIndex >= 12 && current === 0) multiplier *= 6;
-  if (category === "party" && state.decisionIndex >= 10 && current === 0) multiplier *= 4;
+  if (category === "party" && current < 5) multiplier *= 1.7;
+  if (category === "party" && state.decisionIndex >= 10 && current < 2) multiplier *= 4;
   return multiplier;
 }
 

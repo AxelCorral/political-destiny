@@ -233,6 +233,7 @@ export interface PartyDefinition {
     governingCredibility: number;
     cohesion: number;
     rejection: number;
+    transferability?: number;
     localStrength: number;
     electedSupport: number;
     popularity: number;

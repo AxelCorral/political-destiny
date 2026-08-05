@@ -58,7 +58,8 @@ function partyStateFromDefinition(definition: PartyDefinition): PartyState {
     hidden: {
       baseSupport: definition.baseline.baseSupport,
       potentialSupport: definition.baseline.potentialSupport,
-      transferability: clamp(72 - definition.baseline.rejection * 0.45),
+      transferability:
+        definition.baseline.transferability ?? clamp(72 - definition.baseline.rejection * 0.45),
       scandalRisk: clamp(34 + (100 - definition.baseline.cohesion) * 0.2),
       cadreLoyalty: definition.baseline.cohesion,
       rivalAmbition: clamp(100 - definition.baseline.cohesion + 20),

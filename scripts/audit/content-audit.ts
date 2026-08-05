@@ -458,7 +458,12 @@ const phaseSpecificEvents = events.filter((event) => {
 const ideologySpecificEvents = events.filter(
   (event) =>
     (event.requiredTags?.length ?? 0) > 0 ||
-    event.eligibility.some((condition) => "axis" in condition),
+    (event.eligibleIdeologyFamilies?.length ?? 0) > 0 ||
+    event.eligibility.some((condition) =>
+      ["ideology", "ideology_family", "statement_exists", "contradiction_count"].includes(
+        condition.kind,
+      ),
+    ),
 );
 
 const decisiveEvents = events.filter((event) => {
@@ -676,7 +681,7 @@ const report = {
 
 await mkdir(resolve("audit"), { recursive: true });
 await writeFile(
-  resolve("audit", "content-report.json"),
+  resolve(process.env.AUDIT_CONTENT_OUTPUT ?? "audit/content-report.json"),
   `${JSON.stringify(report, null, 2)}\n`,
   "utf8",
 );

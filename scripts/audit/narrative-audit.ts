@@ -5,7 +5,10 @@ import { gameContent } from "../../src/game/data";
 
 const ROOT = resolve(import.meta.dirname, "../..");
 const contentReport = JSON.parse(
-  await readFile(resolve(ROOT, "audit/content-report.json"), "utf8"),
+  await readFile(
+    resolve(ROOT, process.env.AUDIT_CONTENT_INPUT ?? "audit/content-report.json"),
+    "utf8",
+  ),
 ) as {
   repetition: {
     topBigrams: Array<{ expression: string; count: number; documents: number }>;
@@ -161,7 +164,7 @@ const report = {
 
 await mkdir(resolve(ROOT, "audit"), { recursive: true });
 await writeFile(
-  resolve(ROOT, "audit/narrative-report.json"),
+  resolve(ROOT, process.env.AUDIT_NARRATIVE_OUTPUT ?? "audit/narrative-report.json"),
   `${JSON.stringify(report, null, 2)}\n`,
   "utf8",
 );

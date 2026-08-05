@@ -72,14 +72,14 @@ function runoffAppeal(state: GameState, sourcePartyId: string, finalistId: strin
   return Math.max(
     0.05,
     112 -
-      distance * 0.62 +
+      distance * 0.5 +
       relation * 0.3 +
       endorsementModifier +
       allianceModifier +
-      finalist.hidden.transferability * 0.18 +
+      finalist.hidden.transferability * 0.35 +
       finalist.stats.credibility * 0.12 +
       finalist.stats.mobilization * 0.05 -
-      finalist.stats.rejection * 0.25 +
+      finalist.stats.rejection * 0.34 +
       consistency,
   );
 }

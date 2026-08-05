@@ -1,0 +1,2727 @@
+{
+  "generatedAt": "2026-08-05T19:34:33.040Z",
+  "methodology": {
+    "scope": "Typed V2 entity registry and all production event text/entity references.",
+    "classification": "Reality and category come from the validated registry; lexical mentions supplement explicit entity references.",
+    "secondaryCharacterPolicy": "Fictional characters are reported separately because they carry sensitive fictional narratives and do not replace real institutions, territories, countries, media or organizations."
+  },
+  "totals": {
+    "registeredEntities": 141,
+    "real": 99,
+    "fictional": 42,
+    "secondaryFictionalCharacters": 42,
+    "worldEntities": 99,
+    "realWorldEntities": 99,
+    "fictionalWorldEntities": 0,
+    "realWorldEntityPercent": 100,
+    "fictionalWorldEntityPercent": 0,
+    "targetAtLeast70PercentRealWorldEntitiesMet": true,
+    "targetBelow25PercentFictionOutsideSecondaryCharactersMet": true
+  },
+  "byCategory": {
+    "institution": {
+      "total": 17,
+      "real": 17,
+      "fictional": 0
+    },
+    "media": {
+      "total": 14,
+      "real": 14,
+      "fictional": 0
+    },
+    "broadcast_format": {
+      "total": 5,
+      "real": 5,
+      "fictional": 0
+    },
+    "country": {
+      "total": 16,
+      "real": 16,
+      "fictional": 0
+    },
+    "territory": {
+      "total": 26,
+      "real": 26,
+      "fictional": 0
+    },
+    "organization": {
+      "total": 12,
+      "real": 12,
+      "fictional": 0
+    },
+    "party": {
+      "total": 9,
+      "real": 9,
+      "fictional": 0
+    },
+    "fictional_character": {
+      "total": 42,
+      "real": 0,
+      "fictional": 42
+    }
+  },
+  "entities": [
+    {
+      "id": "assemblee_nationale",
+      "displayName": "Assemblée nationale",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Travail législatif et contexte institutionnel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Assemblée nationale",
+          "publisher": "Assemblée nationale",
+          "url": "https://www.assemblee-nationale.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:program_institutions:summary",
+          "event:rare_fragmented_congress:summary",
+          "event:party_ecologistes_rare:choice:ecologistes_rare_citizen_veto",
+          "event:program_institutions:entityReference",
+          "event:alliance_parliamentary_group:entityReference",
+          "event:rare_crown_petition:entityReference",
+          "event:rare_fragmented_congress:entityReference",
+          "event:rare_national_union:entityReference",
+          "event:party_renaissance_local_asset:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "senat",
+      "displayName": "Sénat",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Travail législatif et contexte institutionnel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Sénat",
+          "publisher": "Sénat",
+          "url": "https://www.senat.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:party_renaissance_local_asset:summary",
+          "event:party_renaissance_local_asset:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "conseil_constitutionnel",
+      "displayName": "Conseil constitutionnel",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Contrôle constitutionnel et élection présidentielle"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Conseil constitutionnel",
+          "publisher": "Conseil constitutionnel",
+          "url": "https://www.conseil-constitutionnel.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:program_institutions:choice:institutions_referendum",
+          "event:rare_exceptional_powers:choice:exceptional_powers_guardrails",
+          "event:custom_500_signatures:summary",
+          "event:campaign_endorsements_missing:entityReference",
+          "event:rare_crown_petition:entityReference",
+          "event:rare_exceptional_powers:entityReference",
+          "event:custom_500_signatures:entityReference",
+          "event:party_rn_program_dilemma:entityReference",
+          "event:party_reconquete_signature:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "conseil_etat",
+      "displayName": "Conseil d’État",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Conseil juridique et contentieux administratif"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Conseil d’État",
+          "publisher": "Conseil d’État",
+          "url": "https://www.conseil-etat.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "cour_des_comptes",
+      "displayName": "Cour des comptes",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Contrôle de l’emploi des fonds publics"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Cour des comptes",
+          "publisher": "Cour des comptes",
+          "url": "https://www.ccomptes.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 7,
+        "locations": [
+          "event:campaign_farmers_roundtable:choice:farmers_norm_pause",
+          "event:world_budget_warning:title",
+          "event:world_budget_warning:summary",
+          "event:party_horizons_program_dilemma:choice:horizons_program_green_investment",
+          "event:party_horizons_program_dilemma:outcome:horizons_program_audited_investment:narrative",
+          "event:scandal_plagiarized_report:entityReference",
+          "event:world_budget_warning:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "elysee",
+      "displayName": "Palais de l’Élysée",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Fonction présidentielle et soirée électorale"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Présidence de la République",
+          "publisher": "Élysée",
+          "url": "https://www.elysee.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:rare_exceptional_powers:entityReference",
+          "event:government_first_address:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "matignon",
+      "displayName": "Hôtel de Matignon",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Fonction du Premier ministre et formation du gouvernement"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:government_prime_minister:entityReference"]
+      }
+    },
+    {
+      "id": "ministere_interieur",
+      "displayName": "Ministère de l’Intérieur",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Organisation et résultats des élections"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Les élections en France",
+          "publisher": "Ministère de l’Intérieur",
+          "url": "https://www.elections.interieur.gouv.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 3,
+        "locations": [
+          "event:campaign_rally_security:entityReference",
+          "event:world_security_attack:entityReference",
+          "event:party_lr_signature:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "ministere_economie",
+      "displayName": "Ministère de l’Économie et des Finances",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Politique économique et budgétaire"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:party_rn_signature:entityReference",
+          "event:government_ministry_conflict:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "ministere_transition_ecologique",
+      "displayName": "Ministère de la Transition écologique",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Politique climatique et énergétique"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "banque_de_france",
+      "displayName": "Banque de France",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Conjoncture, inflation et stabilité financière"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Banque de France",
+          "publisher": "Banque de France",
+          "url": "https://www.banque-france.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 1,
+        "locations": ["event:world_economic_slowdown:entityReference"]
+      }
+    },
+    {
+      "id": "insee",
+      "displayName": "Insee",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Données publiques économiques et sociales"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Insee",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:media_fact_check_followup:summary",
+          "event:world_economic_slowdown:summary",
+          "event:media_fact_check_followup:entityReference",
+          "event:world_economic_slowdown:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "commission_nationale_comptes_campagne",
+      "displayName": "Commission nationale des comptes de campagne et des financements politiques",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Règles de financement électoral"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "CNCCFP",
+          "publisher": "CNCCFP",
+          "url": "https://www.cnccfp.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:internal_financial_review:entityReference",
+          "event:internal_major_donor:entityReference",
+          "event:scandal_treasurer_invoices:entityReference",
+          "event:scandal_local_expenses:entityReference",
+          "event:scandal_donation_route:entityReference",
+          "event:scandal_audit_conclusion:entityReference",
+          "event:custom_first_accounts:entityReference",
+          "event:party_nouvelle_energie_rare:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "arcom",
+      "displayName": "Arcom",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Pluralisme et temps de parole audiovisuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Arcom",
+          "publisher": "Arcom",
+          "url": "https://www.arcom.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "cnil",
+      "displayName": "Commission nationale de l’informatique et des libertés",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Protection des données personnelles et notification d’incident"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "CNIL",
+          "publisher": "CNIL",
+          "url": "https://www.cnil.fr/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 1,
+        "locations": ["event:scandal_campaign_data:entityReference"]
+      }
+    },
+    {
+      "id": "commission_europeenne",
+      "displayName": "Commission européenne",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Décisions et négociations de l’Union européenne"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Commission européenne",
+          "publisher": "Union européenne",
+          "url": "https://commission.europa.eu/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:world_energy_price_spike:summary",
+          "event:program_europe:entityReference",
+          "event:world_energy_price_spike:entityReference",
+          "event:party_renaissance_signature:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "bce",
+      "displayName": "Banque centrale européenne",
+      "category": "institution",
+      "reality": "real",
+      "allowedUses": ["Politique monétaire de la zone euro"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "sourceMetadata": [
+        {
+          "title": "Banque centrale européenne",
+          "publisher": "Banque centrale européenne",
+          "url": "https://www.ecb.europa.eu/",
+          "accessedAt": "2026-08-05"
+        }
+      ],
+      "mentions": {
+        "count": 1,
+        "locations": ["event:program_europe:entityReference"]
+      }
+    },
+    {
+      "id": "france_2",
+      "displayName": "France 2",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Journal télévisé, interview et débat factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 15,
+        "locations": [
+          "event:campaign_calendar_conflict:summary",
+          "event:campaign_calendar_conflict:choice:calendar_choose_mayors",
+          "event:campaign_calendar_conflict:choice:calendar_choose_tv",
+          "event:media_open_microphone:summary",
+          "event:media_documentary_access:summary",
+          "event:media_past_words:outcome:past_words_full_footage:narrative",
+          "event:debate_economy_round:summary",
+          "event:runoff_final_debate:summary",
+          "event:campaign_calendar_conflict:entityReference",
+          "event:media_open_microphone:entityReference",
+          "event:media_documentary_access:entityReference",
+          "event:media_past_words:entityReference",
+          "event:debate_economy_round:entityReference",
+          "event:debate_fact_card:entityReference",
+          "event:runoff_final_debate:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "france_3",
+      "displayName": "France 3",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Actualité régionale et débat territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:media_unflattering_photo:entityReference",
+          "event:media_local_press:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "franceinfo",
+      "displayName": "franceinfo",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Information continue et entretien politique"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:media_short_video:summary",
+          "event:media_foreign_interview:summary",
+          "event:campaign_official_launch:entityReference",
+          "event:media_short_video:entityReference",
+          "event:media_foreign_interview:entityReference",
+          "event:custom_identity_interview:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "france_inter",
+      "displayName": "France Inter",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Matinale et entretien radiophonique"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:media_economic_morning:summary",
+          "event:media_economic_morning:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "france_culture",
+      "displayName": "France Culture",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Entretien de fond et débat d’idées"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:media_long_podcast:summary",
+          "event:media_long_podcast:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "tf1",
+      "displayName": "TF1",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Journal télévisé et grand entretien"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:media_prime_time_invite:summary",
+          "event:runoff_final_debate:summary",
+          "event:media_prime_time_invite:entityReference",
+          "event:runoff_final_debate:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "bfmtv",
+      "displayName": "BFMTV",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Information continue et soirée électorale"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "lcp",
+      "displayName": "LCP — Assemblée nationale",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Débat parlementaire et institutionnel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:alliance_parliamentary_group:entityReference"]
+      }
+    },
+    {
+      "id": "public_senat",
+      "displayName": "Public Sénat",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Débat parlementaire et territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "le_monde",
+      "displayName": "Le Monde",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Entretien écrit et analyse de programme"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:media_fact_check_followup:summary",
+          "event:media_fact_check_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "le_figaro",
+      "displayName": "Le Figaro",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Entretien écrit et débat d’idées"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:internal_rival_interview:summary",
+          "event:internal_rival_interview:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "les_echos",
+      "displayName": "Les Échos",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Entretien économique et analyse budgétaire"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": ["event:media_front_page:summary", "event:media_front_page:entityReference"]
+      }
+    },
+    {
+      "id": "la_croix",
+      "displayName": "La Croix",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Entretien politique et questions sociales"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "mediapart",
+      "displayName": "Mediapart",
+      "category": "media",
+      "reality": "real",
+      "allowedUses": ["Questions de transparence sur des personnages fictifs uniquement"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:internal_strategy_leak:summary",
+          "event:scandal_treasurer_invoices:summary",
+          "event:internal_strategy_leak:entityReference",
+          "event:scandal_treasurer_invoices:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "journal_20_heures",
+      "displayName": "Journal télévisé de 20 heures",
+      "category": "broadcast_format",
+      "reality": "real",
+      "allowedUses": ["Interview politique simulée"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:media_prime_time_invite:entityReference"]
+      }
+    },
+    {
+      "id": "matinale_radio",
+      "displayName": "Matinale radiophonique",
+      "category": "broadcast_format",
+      "reality": "real",
+      "allowedUses": ["Interview politique simulée"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:media_economic_morning:entityReference"]
+      }
+    },
+    {
+      "id": "debat_premier_tour",
+      "displayName": "Débat de premier tour",
+      "category": "broadcast_format",
+      "reality": "real",
+      "allowedUses": ["Confrontation entre candidats fictifs"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:debate_economy_round:summary",
+          "event:debate_security_round:summary",
+          "event:rare_debate_blackout:summary",
+          "event:debate_economy_round:entityReference",
+          "event:debate_security_round:entityReference",
+          "event:debate_duel_interruption:entityReference",
+          "event:debate_all_candidates:entityReference",
+          "event:rare_debate_blackout:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "debat_entre_deux_tours",
+      "displayName": "Débat de l’entre-deux-tours",
+      "category": "broadcast_format",
+      "reality": "real",
+      "allowedUses": ["Confrontation entre finalistes fictifs"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:runoff_final_debate:entityReference"]
+      }
+    },
+    {
+      "id": "conference_presse",
+      "displayName": "Conférence de presse",
+      "category": "broadcast_format",
+      "reality": "real",
+      "allowedUses": ["Présentation publique d’une décision ou d’un programme"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "france",
+      "displayName": "France",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 22,
+        "locations": [
+          "event:campaign_calendar_conflict:summary",
+          "event:campaign_calendar_conflict:choice:calendar_choose_mayors",
+          "event:campaign_calendar_conflict:choice:calendar_choose_tv",
+          "event:media_economic_morning:summary",
+          "event:media_short_video:summary",
+          "event:media_long_podcast:summary",
+          "event:media_open_microphone:summary",
+          "event:media_foreign_interview:title",
+          "event:media_foreign_interview:summary",
+          "event:media_foreign_interview:choice:foreign_interview_veto",
+          "event:media_documentary_access:summary",
+          "event:media_past_words:outcome:past_words_full_footage:narrative",
+          "event:program_europe:summary",
+          "event:program_climate_adaptation:title",
+          "event:debate_economy_round:summary",
+          "event:world_international_crisis:summary",
+          "event:rare_printer_slogan:summary",
+          "event:party_rn_runoff:choice:rn_runoff_government_guarantees",
+          "event:party_reconquete_program_dilemma:choice:reconquete_program_national_preference",
+          "event:runoff_final_debate:summary",
+          "event:world_international_crisis:entityReference",
+          "event:world_european_vote:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "allemagne",
+      "displayName": "Allemagne",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:media_foreign_interview:summary",
+          "event:world_european_vote:summary",
+          "event:media_foreign_interview:entityReference",
+          "event:world_european_vote:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "italie",
+      "displayName": "Italie",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:media_live_stream:summary",
+          "event:media_live_stream:choice:livestream_answer_three",
+          "event:media_foreign_interview:summary",
+          "event:media_foreign_interview:outcome:european_national_margin:narrative",
+          "event:program_health:choice:health_hospital_staff",
+          "event:program_health:outcome:hospital_staff_first:narrative",
+          "event:program_health:outcome:prevention_budget_ringfenced:narrative",
+          "event:party_ps_electorate:outcome:ps_electorate_staffing_first:narrative",
+          "event:media_foreign_interview:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "espagne",
+      "displayName": "Espagne",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "belgique",
+      "displayName": "Belgique",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:media_foreign_interview:entityReference"]
+      }
+    },
+    {
+      "id": "pologne",
+      "displayName": "Pologne",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:world_european_vote:summary",
+          "event:world_european_vote:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "ukraine",
+      "displayName": "Ukraine",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "royaume_uni",
+      "displayName": "Royaume-Uni",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "etats_unis",
+      "displayName": "États-Unis",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:world_international_crisis:entityReference"]
+      }
+    },
+    {
+      "id": "canada",
+      "displayName": "Canada",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "chine",
+      "displayName": "Chine",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:world_international_crisis:entityReference"]
+      }
+    },
+    {
+      "id": "japon",
+      "displayName": "Japon",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "inde",
+      "displayName": "Inde",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 36,
+        "locations": [
+          "event:campaign_student_forum:choice:students_grants_index",
+          "event:campaign_small_business:choice:sme_independent_test",
+          "event:campaign_final_rally:summary",
+          "event:campaign_final_rally:outcome:final_rally_sequence_clear:narrative",
+          "event:media_documentary_access:outcome:documentary_access_framed:narrative",
+          "event:program_energy:summary",
+          "event:program_health:outcome:primary_care_service:narrative",
+          "event:debate_security_round:choice:security_round_liberties",
+          "event:debate_free_conclusion:outcome:free_conclusion_useful_vote:narrative",
+          "event:internal_financial_review:choice:financial_review_suspend",
+          "event:internal_program_committee:choice:program_committee_pilot",
+          "event:alliance_parliamentary_group:outcome:parliamentary_group_disciplined:narrative",
+          "event:scandal_treasurer_invoices:choice:treasurer_invoices_publish",
+          "event:scandal_treasurer_invoices:outcome:treasurer_invoices_full_disclosure:narrative",
+          "event:scandal_audit_conclusion:summary",
+          "event:world_national_strike:choice:strike_mediation",
+          "event:world_industrial_closure:outcome:closure_worker_guarantee:narrative",
+          "event:custom_incoherence_convention:choice:custom_incoherence_phase_program",
+          "event:custom_runoff_mandate:choice:custom_runoff_coalition_team",
+          "event:party_lfi_fronde:outcome:lfi_fronde_sanction:narrative",
+          "event:party_lfi_signature:outcome:lfi_signature_steps:narrative",
+          "event:party_lfi_rare:choice:lfi_rare_confidence",
+          "event:party_ps_rare:summary",
+          "event:party_renaissance_identity:choice:renaissance_identity_coalition",
+          "event:party_renaissance_fronde:choice:renaissance_fronde_remove",
+          "event:party_renaissance_fronde:outcome:renaissance_fronde_removed:narrative",
+          "event:party_lr_alliance:outcome:lr_alliance_partial_platform:narrative",
+          "event:party_rn_runoff:outcome:rn_runoff_anti_system:narrative",
+          "event:eliminated_endorse_candidate:summary",
+          "event:eliminated_future_campaign:choice:future_campaign_audit",
+          "event:government_prime_minister:summary",
+          "event:government_prime_minister:choice:prime_minister_independent",
+          "event:government_prime_minister:outcome:prime_minister_independent_expert:title",
+          "event:government_balance:outcome:government_balance_coalition_share:narrative",
+          "event:government_ministry_conflict:choice:ministry_conflict_split",
+          "event:government_ministry_conflict:choice:ministry_conflict_third"
+        ]
+      }
+    },
+    {
+      "id": "algerie",
+      "displayName": "Algérie",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "maroc",
+      "displayName": "Maroc",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "senegal",
+      "displayName": "Sénégal",
+      "category": "country",
+      "reality": "real",
+      "allowedUses": ["Contexte diplomatique ou économique factuel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "paris",
+      "displayName": "Paris",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 3,
+        "locations": [
+          "event:internal_local_sections:outcome:local_sections_joint_supplement:title",
+          "event:internal_headquarters_move:summary",
+          "event:internal_headquarters_move:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "saint_denis",
+      "displayName": "Saint-Denis",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:campaign_official_launch:title",
+          "event:campaign_official_launch:summary",
+          "event:internal_headquarters_move:summary",
+          "event:internal_headquarters_move:choice:headquarters_move",
+          "event:party_lfi_local_asset:title",
+          "event:party_lfi_local_asset:summary",
+          "event:party_lfi_local_asset:outcome:lfi_local_national_march:title",
+          "event:campaign_official_launch:entityReference",
+          "event:party_lfi_local_asset:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "marseille",
+      "displayName": "Marseille",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:campaign_official_launch:outcome:launch_voices_shared:narrative",
+          "event:world_housing_protest:summary",
+          "event:party_lfi_electorate:summary",
+          "event:world_housing_protest:entityReference",
+          "event:party_lfi_electorate:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "lyon",
+      "displayName": "Lyon",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 7,
+        "locations": [
+          "event:internal_volunteer_conflict:summary",
+          "event:internal_volunteer_conflict:outcome:volunteer_conflict_video_priority:title",
+          "event:scandal_local_expenses:outcome:local_expenses_exclusion:narrative",
+          "event:world_heatwave:title",
+          "event:world_heatwave:summary",
+          "event:internal_volunteer_conflict:entityReference",
+          "event:world_heatwave:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "lille",
+      "displayName": "Lille",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 10,
+        "locations": [
+          "event:campaign_official_launch:outcome:launch_voices_shared:narrative",
+          "event:campaign_regional_rally:summary",
+          "event:campaign_regional_rally:choice:regional_lille_industry",
+          "event:campaign_regional_rally:outcome:regional_lille_workers:title",
+          "event:media_unflattering_photo:summary",
+          "event:media_unflattering_photo:choice:photo_ignore",
+          "event:rare_hologram_revolt:summary",
+          "event:rare_hologram_revolt:choice:hologram_send_local",
+          "event:media_unflattering_photo:entityReference",
+          "event:rare_hologram_revolt:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "strasbourg",
+      "displayName": "Strasbourg",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:campaign_regional_rally:summary",
+          "event:campaign_regional_rally:choice:regional_strasbourg_europe",
+          "event:campaign_regional_rally:outcome:regional_strasbourg_union:title",
+          "event:program_energy:summary",
+          "event:program_energy:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "rennes",
+      "displayName": "Rennes",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:campaign_student_forum:summary",
+          "event:media_short_video:summary",
+          "event:media_short_video:choice:short_video_building_targets",
+          "event:world_housing_protest:summary",
+          "event:world_housing_protest:outcome:housing_protest_requisition_plan:narrative",
+          "event:party_nouvelle_energie_rare:choice:nouvelle_energie_rare_local_fund",
+          "event:campaign_student_forum:entityReference",
+          "event:media_short_video:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "nantes",
+      "displayName": "Nantes",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:campaign_factory_visit:entityReference"]
+      }
+    },
+    {
+      "id": "bordeaux",
+      "displayName": "Bordeaux",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:campaign_small_business:summary",
+          "event:world_floods:summary",
+          "event:campaign_small_business:entityReference",
+          "event:world_floods:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "toulouse",
+      "displayName": "Toulouse",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 7,
+        "locations": [
+          "event:campaign_regional_rally:summary",
+          "event:campaign_regional_rally:choice:regional_toulouse_climate",
+          "event:campaign_regional_rally:outcome:regional_toulouse_heat:title",
+          "event:rare_hologram_revolt:summary",
+          "event:rare_hologram_revolt:choice:hologram_phone",
+          "event:rare_hologram_revolt:outcome:hologram_local_voice:title",
+          "event:rare_hologram_revolt:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "montpellier",
+      "displayName": "Montpellier",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:program_climate_adaptation:summary",
+          "event:program_climate_adaptation:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "nice",
+      "displayName": "Nice",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": ["event:rare_parrot_quote:summary", "event:rare_parrot_quote:entityReference"]
+      }
+    },
+    {
+      "id": "clermont_ferrand",
+      "displayName": "Clermont-Ferrand",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:campaign_farmers_roundtable:summary",
+          "event:media_local_press:summary",
+          "event:party_ecologistes_local_asset:choice:ecologistes_local_rail_announcement",
+          "event:campaign_farmers_roundtable:entityReference",
+          "event:media_local_press:entityReference",
+          "event:party_ecologistes_local_asset:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "rouen",
+      "displayName": "Rouen",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:campaign_market_walkabout:summary",
+          "event:campaign_market_walkabout:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "dijon",
+      "displayName": "Dijon",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:campaign_hospital_night:summary",
+          "event:program_school:summary",
+          "event:campaign_hospital_night:entityReference",
+          "event:program_school:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "hauts_de_france",
+      "displayName": "Hauts-de-France",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:party_rn_local_asset:entityReference"]
+      }
+    },
+    {
+      "id": "grand_est",
+      "displayName": "Grand Est",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:campaign_rural_desert:summary",
+          "event:world_industrial_closure:summary",
+          "event:campaign_rural_desert:entityReference",
+          "event:world_industrial_closure:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "bretagne",
+      "displayName": "Bretagne",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:internal_local_sections:summary",
+          "event:internal_local_sections:outcome:local_sections_breton_pilot:narrative",
+          "event:internal_local_sections:outcome:local_sections_joint_supplement:title",
+          "event:internal_local_sections:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "nouvelle_aquitaine",
+      "displayName": "Nouvelle-Aquitaine",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": ["event:world_floods:summary", "event:world_floods:entityReference"]
+      }
+    },
+    {
+      "id": "occitanie",
+      "displayName": "Occitanie",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:campaign_peripheral_town:summary",
+          "event:campaign_peripheral_town:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "provence_alpes_cote_azur",
+      "displayName": "Provence-Alpes-Côte d’Azur",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "guadeloupe",
+      "displayName": "Guadeloupe",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:campaign_official_launch:outcome:launch_voices_shared:narrative",
+          "event:campaign_overseas_trip:title",
+          "event:campaign_overseas_trip:summary",
+          "event:campaign_overseas_trip:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "martinique",
+      "displayName": "Martinique",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "guyane",
+      "displayName": "Guyane",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "la_reunion",
+      "displayName": "La Réunion",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:campaign_bus_breakdown:choice:bus_remote_townhall",
+          "event:campaign_bus_breakdown:outcome:bus_remote_kept:title",
+          "event:alliance_left_roundtable:choice:left_roundtable_public_only",
+          "event:alliance_left_roundtable:choice:left_roundtable_refuse",
+          "event:party_lr_fronde:outcome:lr_fronde_public_meeting:narrative"
+        ]
+      }
+    },
+    {
+      "id": "mayotte",
+      "displayName": "Mayotte",
+      "category": "territory",
+      "reality": "real",
+      "allowedUses": ["Déplacement de campagne et contexte territorial"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:debate_unknown_question:title",
+          "event:debate_unknown_question:summary",
+          "event:debate_unknown_question:outcome:unknown_question_national_commitment:title",
+          "event:debate_unknown_question:choice:unknown_question_local_audit",
+          "event:debate_unknown_question:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "union_europeenne",
+      "displayName": "Union européenne",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Cadre politique, juridique et économique européen"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 11,
+        "locations": [
+          "event:party_rn_runoff:choice:rn_runoff_government_guarantees",
+          "event:media_foreign_interview:entityReference",
+          "event:program_europe:entityReference",
+          "event:world_international_crisis:entityReference",
+          "event:world_energy_price_spike:entityReference",
+          "event:world_industrial_closure:entityReference",
+          "event:world_european_vote:entityReference",
+          "event:rare_national_union:entityReference",
+          "event:party_renaissance_signature:entityReference",
+          "event:party_rn_program_dilemma:entityReference",
+          "event:party_reconquete_program_dilemma:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "cgt",
+      "displayName": "CGT",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Position syndicale factuelle et dialogue social"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:campaign_union_meeting:summary",
+          "event:media_front_page:outcome:front_page_social_terms_negotiated:narrative",
+          "event:world_national_strike:summary",
+          "event:campaign_union_meeting:entityReference",
+          "event:world_national_strike:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "cfdt",
+      "displayName": "CFDT",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Position syndicale factuelle et dialogue social"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 11,
+        "locations": [
+          "event:campaign_union_meeting:summary",
+          "event:media_front_page:outcome:front_page_social_terms_negotiated:narrative",
+          "event:alliance_union_support:title",
+          "event:alliance_union_support:summary",
+          "event:alliance_union_support:outcome:union_support_method:narrative",
+          "event:alliance_union_support:outcome:union_support_program_priority:narrative",
+          "event:world_national_strike:summary",
+          "event:campaign_union_meeting:entityReference",
+          "event:alliance_union_support:entityReference",
+          "event:world_national_strike:entityReference",
+          "event:party_ps_electorate:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "force_ouvriere",
+      "displayName": "Force ouvrière",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Position syndicale factuelle et dialogue social"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:campaign_union_meeting:summary",
+          "event:campaign_union_meeting:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "medef",
+      "displayName": "Medef",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Position patronale factuelle et dialogue économique"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:media_front_page:choice:front_page_embrace_business"]
+      }
+    },
+    {
+      "id": "cpme",
+      "displayName": "CPME",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Position des petites et moyennes entreprises"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:media_front_page:choice:front_page_embrace_business",
+          "event:media_front_page:entityReference",
+          "event:party_reconquete_electorate:entityReference",
+          "event:party_nouvelle_energie_signature:entityReference",
+          "event:party_nouvelle_energie_local_asset:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "fnsea",
+      "displayName": "FNSEA",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Agriculture et dialogue professionnel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:campaign_farmers_roundtable:summary",
+          "event:campaign_farmers_roundtable:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "confederation_paysanne",
+      "displayName": "Confédération paysanne",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Agriculture et dialogue professionnel"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:campaign_farmers_roundtable:summary",
+          "event:campaign_farmers_roundtable:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "france_nature_environnement",
+      "displayName": "France Nature Environnement",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Environnement et débat public"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:party_ecologistes_rare:entityReference"]
+      }
+    },
+    {
+      "id": "fondation_abbe_pierre",
+      "displayName": "Fondation pour le logement des défavorisés",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Données et plaidoyer publics sur le mal-logement"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:world_housing_protest:entityReference"]
+      }
+    },
+    {
+      "id": "association_maires_france",
+      "displayName": "Association des maires de France",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Collectivités territoriales et services locaux"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 10,
+        "locations": [
+          "event:campaign_endorsements_missing:entityReference",
+          "event:campaign_calendar_conflict:entityReference",
+          "event:alliance_mayors_appeal:entityReference",
+          "event:custom_500_signatures:entityReference",
+          "event:party_ps_alliance:entityReference",
+          "event:party_ps_local_asset:entityReference",
+          "event:party_horizons_signature:entityReference",
+          "event:party_horizons_local_asset:entityReference",
+          "event:party_horizons_rare:entityReference",
+          "event:party_lr_signature:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "croix_rouge_francaise",
+      "displayName": "Croix-Rouge française",
+      "category": "organization",
+      "reality": "real",
+      "allowedUses": ["Aide humanitaire et situations d’urgence"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:world_floods:entityReference"]
+      }
+    },
+    {
+      "id": "lfi",
+      "displayName": "La France insoumise",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 3,
+        "locations": [
+          "event:party_lfi_identity:entityReference",
+          "event:party_lfi_alliance:entityReference",
+          "event:party_ps_rare:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "ps",
+      "displayName": "Parti socialiste",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 7,
+        "locations": [
+          "event:alliance_left_roundtable:summary",
+          "event:party_ecologistes_alliance:summary",
+          "event:alliance_left_roundtable:entityReference",
+          "event:custom_neighbor_offers:entityReference",
+          "event:party_ps_identity:entityReference",
+          "event:party_ps_alliance:entityReference",
+          "event:party_ecologistes_alliance:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "ecologistes",
+      "displayName": "Les Écologistes",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 14,
+        "locations": [
+          "event:world_european_vote:outcome:european_vote_energy_bridge:narrative",
+          "event:party_lfi_alliance:title",
+          "event:party_lfi_alliance:summary",
+          "event:party_lfi_alliance:outcome:lfi_alliance_green_refused:narrative",
+          "event:party_lfi_runoff:choice:lfi_runoff_common_left",
+          "event:party_ps_alliance:title",
+          "event:party_ps_alliance:outcome:ps_alliance_policy_without_seats:narrative",
+          "event:party_ps_runoff:choice:ps_runoff_left_contract",
+          "event:party_ecologistes_identity:title",
+          "event:party_lfi_alliance:entityReference",
+          "event:party_ps_alliance:entityReference",
+          "event:party_ps_rare:entityReference",
+          "event:party_ecologistes_identity:entityReference",
+          "event:party_ecologistes_alliance:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "renaissance",
+      "displayName": "Renaissance",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 22,
+        "locations": [
+          "event:alliance_center_pact:title",
+          "event:alliance_center_pact:summary",
+          "event:alliance_center_pact:choice:center_pact_sign",
+          "event:alliance_center_pact:outcome:center_pact_runoff_clause:narrative",
+          "event:alliance_center_pact:outcome:center_pact_rejected:narrative",
+          "event:custom_neighbor_offers:summary",
+          "event:party_renaissance_identity:title",
+          "event:party_renaissance_identity:choice:renaissance_identity_coalition",
+          "event:party_renaissance_fronde:summary",
+          "event:party_renaissance_alliance:summary",
+          "event:party_renaissance_alliance:outcome:renaissance_alliance_central_unity:narrative",
+          "event:party_horizons_identity:summary",
+          "event:party_horizons_fronde:summary",
+          "event:party_horizons_fronde:outcome:horizons_fronde_loyalty_test:narrative",
+          "event:party_horizons_alliance:choice:horizons_alliance_central_priority",
+          "event:party_horizons_crisis_followup:summary",
+          "event:party_horizons_crisis_followup:outcome:horizons_crisis_autonomy_with_role:narrative",
+          "event:party_horizons_runoff:summary",
+          "event:party_horizons_rare:summary",
+          "event:alliance_center_pact:entityReference",
+          "event:custom_neighbor_offers:entityReference",
+          "event:party_renaissance_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "horizons",
+      "displayName": "Horizons",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 31,
+        "locations": [
+          "event:party_renaissance_identity:choice:renaissance_identity_coalition",
+          "event:party_renaissance_alliance:title",
+          "event:party_renaissance_alliance:summary",
+          "event:party_renaissance_alliance:choice:renaissance_alliance_full",
+          "event:party_renaissance_alliance:choice:renaissance_alliance_refuse",
+          "event:party_renaissance_alliance:outcome:renaissance_alliance_competition:narrative",
+          "event:party_horizons_identity:title",
+          "event:party_horizons_fronde:summary",
+          "event:party_horizons_alliance:outcome:horizons_alliance_departments:narrative",
+          "event:party_horizons_alliance:outcome:horizons_alliance_central_mayors:title",
+          "event:party_horizons_local_asset:summary",
+          "event:party_horizons_rare:summary",
+          "event:party_horizons_rare:outcome:horizons_rare_primary_entered:title",
+          "event:party_lr_alliance:title",
+          "event:party_lr_alliance:summary",
+          "event:party_lr_alliance:outcome:lr_alliance_center_right:narrative",
+          "event:party_lr_alliance:outcome:lr_alliance_partial_platform:narrative",
+          "event:party_lr_alliance:outcome:lr_alliance_own_tax_plan:narrative",
+          "event:party_lr_runoff:choice:lr_runoff_government_right",
+          "event:party_nouvelle_energie_identity:choice:nouvelle_energie_identity_coalition",
+          "event:party_nouvelle_energie_alliance:title",
+          "event:party_nouvelle_energie_alliance:summary",
+          "event:party_nouvelle_energie_alliance:outcome:nouvelle_energie_alliance_coauthored:narrative",
+          "event:party_nouvelle_energie_alliance:outcome:nouvelle_energie_alliance_benchmark:narrative",
+          "event:party_nouvelle_energie_electorate:summary",
+          "event:party_nouvelle_energie_runoff:summary",
+          "event:party_nouvelle_energie_runoff:choice:nouvelle_energie_runoff_coalition",
+          "event:party_renaissance_alliance:entityReference",
+          "event:party_horizons_identity:entityReference",
+          "event:party_lr_alliance:entityReference",
+          "event:party_nouvelle_energie_alliance:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "lr",
+      "displayName": "Les Républicains",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:custom_neighbor_offers:summary",
+          "event:party_horizons_alliance:title",
+          "event:party_horizons_runoff:summary",
+          "event:custom_neighbor_offers:entityReference",
+          "event:party_horizons_alliance:entityReference",
+          "event:party_lr_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "rn",
+      "displayName": "Rassemblement national",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:alliance_right_convention:summary",
+          "event:alliance_right_convention:entityReference",
+          "event:party_lr_alliance:entityReference",
+          "event:party_rn_identity:entityReference",
+          "event:party_reconquete_alliance:entityReference",
+          "event:party_reconquete_rare:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "reconquete",
+      "displayName": "Reconquête",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 14,
+        "locations": [
+          "event:media_fictional_editorial_support:summary",
+          "event:party_rn_identity:outcome:rn_identity_core_convention:narrative",
+          "event:party_rn_alliance:title",
+          "event:party_rn_alliance:summary",
+          "event:party_rn_alliance:outcome:rn_alliance_quiet_right:narrative",
+          "event:party_rn_alliance:choice:rn_alliance_absorb_voters",
+          "event:party_rn_alliance:outcome:rn_alliance_voter_appeal:narrative",
+          "event:party_reconquete_identity:title",
+          "event:party_reconquete_fronde:summary",
+          "event:party_reconquete_alliance:summary",
+          "event:party_reconquete_alliance:outcome:reconquete_alliance_policy_price:narrative",
+          "event:party_reconquete_rare:summary",
+          "event:party_rn_alliance:entityReference",
+          "event:party_reconquete_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "nouvelle_energie",
+      "displayName": "Nouvelle Énergie",
+      "category": "party",
+      "reality": "real",
+      "allowedUses": ["Identité, positionnement et compétition électorale factuels"],
+      "sensitivity": "none",
+      "verifiedAt": "2026-08-05",
+      "mentions": {
+        "count": 12,
+        "locations": [
+          "event:alliance_strategic_withdrawal:title",
+          "event:alliance_strategic_withdrawal:summary",
+          "event:alliance_strategic_withdrawal:outcome:strategic_withdrawal_partial:narrative",
+          "event:alliance_strategic_withdrawal:outcome:strategic_withdrawal_refused:narrative",
+          "event:party_nouvelle_energie_identity:title",
+          "event:party_nouvelle_energie_fronde:summary",
+          "event:party_nouvelle_energie_alliance:summary",
+          "event:party_nouvelle_energie_alliance:choice:nouvelle_energie_alliance_joint_platform",
+          "event:party_nouvelle_energie_alliance:outcome:nouvelle_energie_alliance_benchmark:narrative",
+          "event:party_nouvelle_energie_electorate:summary",
+          "event:alliance_strategic_withdrawal:entityReference",
+          "event:party_nouvelle_energie_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "lfi_candidate",
+      "displayName": "Ariane Valmont",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:party_lfi_identity:summary",
+          "event:party_lfi_identity:choice:lfi_identity_candidate",
+          "event:party_lfi_identity:outcome:lfi_identity_candidate_centered:narrative",
+          "event:party_lfi_identity:outcome:lfi_identity_dual_mandate:narrative",
+          "event:party_lfi_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "lfi_courbet",
+      "displayName": "Nassim Courbet",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 15,
+        "locations": [
+          "event:party_lfi_fronde:title",
+          "event:party_lfi_fronde:summary",
+          "event:party_lfi_fronde:choice:lfi_fronde_social_month",
+          "event:party_lfi_fronde:outcome:lfi_fronde_social_turn:narrative",
+          "event:party_lfi_fronde:choice:lfi_fronde_joint_platform",
+          "event:party_lfi_fronde:outcome:lfi_fronde_joint_text:narrative",
+          "event:party_lfi_fronde:choice:lfi_fronde_refuse",
+          "event:party_lfi_fronde:outcome:lfi_fronde_sanction:narrative",
+          "event:party_lfi_crisis_followup:summary",
+          "event:party_lfi_crisis_followup:choice:lfi_crisis_vote",
+          "event:party_lfi_crisis_followup:outcome:lfi_crisis_two_votes:narrative",
+          "event:party_lfi_crisis_followup:choice:lfi_crisis_exclude",
+          "event:party_lfi_crisis_followup:outcome:lfi_crisis_split:narrative",
+          "event:party_lfi_fronde:entityReference",
+          "event:party_lfi_crisis_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "lfi_orsini",
+      "displayName": "Léna Orsini",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:party_lfi_crisis_followup:choice:lfi_crisis_mediation"]
+      }
+    },
+    {
+      "id": "lfi_perron",
+      "displayName": "Gaël Perron",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "ps_candidate",
+      "displayName": "Clara Villedieu",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:party_ps_identity:entityReference"]
+      }
+    },
+    {
+      "id": "ps_marceau",
+      "displayName": "Ilyes Marceau",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 10,
+        "locations": [
+          "event:alliance_former_rival:summary",
+          "event:alliance_former_rival:choice:former_rival_industry_role",
+          "event:party_ps_fronde:summary",
+          "event:party_ps_fronde:choice:ps_fronde_negotiate",
+          "event:party_ps_fronde:outcome:ps_fronde_tax_compromise:narrative",
+          "event:party_ps_crisis_followup:summary",
+          "event:party_ps_crisis_followup:outcome:ps_crisis_candidate_line:narrative",
+          "event:alliance_former_rival:entityReference",
+          "event:party_ps_fronde:entityReference",
+          "event:party_ps_crisis_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "ps_briand",
+      "displayName": "Solène Briand",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "ps_calvet",
+      "displayName": "Rémi Calvet",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "ecologistes_candidate",
+      "displayName": "Éloi Vernet",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:party_ecologistes_identity:summary",
+          "event:party_ecologistes_identity:choice:ecologistes_identity_shared_mandate",
+          "event:party_ecologistes_local_asset:summary",
+          "event:party_ecologistes_runoff:summary",
+          "event:party_ecologistes_identity:entityReference",
+          "event:party_ecologistes_local_asset:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "ecologistes_lestang",
+      "displayName": "Maya Lestang",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 7,
+        "locations": [
+          "event:party_ecologistes_fronde:summary",
+          "event:party_ecologistes_fronde:choice:ecologistes_fronde_exit_calendar",
+          "event:party_ecologistes_fronde:outcome:ecologistes_fronde_conditional_exit:narrative",
+          "event:party_ecologistes_fronde:outcome:ecologistes_fronde_open_convention:narrative",
+          "event:party_ecologistes_crisis_followup:summary",
+          "event:party_ecologistes_fronde:entityReference",
+          "event:party_ecologistes_crisis_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "ecologistes_bellier",
+      "displayName": "Jonas Bellier",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "ecologistes_sarrazin",
+      "displayName": "Inès Sarrazin",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "renaissance_candidate",
+      "displayName": "Maël Dargent",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:party_renaissance_identity:summary",
+          "event:party_renaissance_identity:outcome:renaissance_identity_central_council:narrative",
+          "event:party_renaissance_fronde:outcome:renaissance_fronde_removed:narrative",
+          "event:party_renaissance_alliance:outcome:renaissance_alliance_competition:narrative",
+          "event:party_renaissance_runoff:summary",
+          "event:party_renaissance_rare:summary",
+          "event:party_renaissance_rare:outcome:renaissance_rare_public_arbitration:narrative",
+          "event:party_renaissance_identity:entityReference",
+          "event:party_renaissance_rare:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "renaissance_varenne",
+      "displayName": "Salomé Varenne",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:party_renaissance_fronde:title",
+          "event:party_renaissance_fronde:summary",
+          "event:party_renaissance_fronde:choice:renaissance_fronde_shared_speech",
+          "event:party_renaissance_fronde:choice:renaissance_fronde_remove",
+          "event:party_renaissance_fronde:outcome:renaissance_fronde_removed:narrative",
+          "event:party_renaissance_crisis_followup:summary",
+          "event:party_renaissance_crisis_followup:choice:renaissance_crisis_record_committee",
+          "event:party_renaissance_fronde:entityReference",
+          "event:party_renaissance_crisis_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "renaissance_corbin",
+      "displayName": "Nils Corbin",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "renaissance_artaud",
+      "displayName": "Jeanne Artaud",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "horizons_candidate",
+      "displayName": "Agathe Belcourt",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:party_horizons_identity:summary",
+          "event:party_horizons_identity:outcome:horizons_identity_presidential_line:title",
+          "event:party_horizons_fronde:outcome:horizons_fronde_loyalty_test:narrative",
+          "event:party_horizons_crisis_followup:outcome:horizons_crisis_autonomy_with_role:narrative",
+          "event:party_horizons_runoff:summary",
+          "event:party_horizons_runoff:outcome:horizons_runoff_government_offer:narrative",
+          "event:party_horizons_rare:outcome:horizons_rare_primary_entered:narrative",
+          "event:party_horizons_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "horizons_lagrive",
+      "displayName": "Théo Lagrive",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:party_horizons_fronde:title",
+          "event:party_horizons_fronde:summary",
+          "event:party_horizons_fronde:choice:horizons_fronde_negotiate_deadline",
+          "event:party_horizons_fronde:choice:horizons_fronde_remove_negotiators",
+          "event:party_horizons_crisis_followup:summary",
+          "event:party_horizons_crisis_followup:choice:horizons_crisis_close_talks",
+          "event:party_horizons_fronde:entityReference",
+          "event:party_horizons_crisis_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "horizons_dorval",
+      "displayName": "Yasmine Dorval",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "horizons_auriac",
+      "displayName": "Paul Auriac",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "lr_candidate",
+      "displayName": "Bastien Rochefort",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:party_lr_identity:summary",
+          "event:party_lr_fronde:outcome:lr_fronde_border_enforced:title",
+          "event:party_lr_crisis_followup:outcome:lr_crisis_internal_referendum:narrative",
+          "event:party_lr_runoff:summary",
+          "event:party_lr_runoff:outcome:lr_runoff_independent_choice:narrative",
+          "event:party_lr_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "lr_merande",
+      "displayName": "Diane Mérande",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 7,
+        "locations": [
+          "event:party_lr_fronde:title",
+          "event:party_lr_fronde:summary",
+          "event:party_lr_fronde:outcome:lr_fronde_public_meeting:narrative",
+          "event:party_lr_fronde:choice:lr_fronde_close_negotiations",
+          "event:party_lr_crisis_followup:summary",
+          "event:party_lr_fronde:entityReference",
+          "event:party_lr_crisis_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "lr_cazals",
+      "displayName": "Thomas Cazals",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "lr_lenoir",
+      "displayName": "Hector Lenoir",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "rn_candidate",
+      "displayName": "Élise Montclar",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:party_rn_identity:summary",
+          "event:party_rn_crisis_followup:outcome:rn_crisis_loyalty_purge:narrative",
+          "event:party_rn_runoff:summary",
+          "event:party_rn_dissidence:outcome:rn_dissidence_dissolved:narrative",
+          "event:party_rn_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "rn_ferran",
+      "displayName": "Louis Ferran",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 18,
+        "locations": [
+          "event:alliance_udr_autonomy:summary",
+          "event:alliance_udr_autonomy:outcome:ally_autonomy_charter:narrative",
+          "event:alliance_udr_autonomy:outcome:ally_autonomy_integrated:narrative",
+          "event:alliance_udr_autonomy:choice:ally_autonomy_refuse",
+          "event:alliance_udr_autonomy:outcome:ally_autonomy_break:narrative",
+          "event:party_rn_fronde:title",
+          "event:party_rn_fronde:summary",
+          "event:party_rn_fronde:choice:rn_fronde_regional_mandate",
+          "event:party_rn_fronde:choice:rn_fronde_remove_ferran",
+          "event:party_rn_fronde:outcome:rn_fronde_normalization_wins:narrative",
+          "event:party_rn_crisis_followup:summary",
+          "event:party_rn_crisis_followup:choice:rn_crisis_program_council",
+          "event:party_rn_dissidence:summary",
+          "event:party_rn_dissidence:choice:rn_dissidence_reconciliation",
+          "event:alliance_udr_autonomy:entityReference",
+          "event:party_rn_fronde:entityReference",
+          "event:party_rn_crisis_followup:entityReference",
+          "event:party_rn_dissidence:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "rn_nerac",
+      "displayName": "Alix Nérac",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "rn_vauvert",
+      "displayName": "Damien Vauvert",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "reconquete_candidate",
+      "displayName": "Victor d’Aubrac",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:party_reconquete_identity:summary",
+          "event:party_reconquete_fronde:outcome:reconquete_fronde_candidate_control:title",
+          "event:party_reconquete_crisis_followup:outcome:reconquete_crisis_priorities_vote:narrative",
+          "event:party_reconquete_runoff:summary",
+          "event:party_reconquete_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "reconquete_saint_cyr",
+      "displayName": "Hélène Saint-Cyr",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:party_reconquete_fronde:title",
+          "event:party_reconquete_fronde:summary",
+          "event:party_reconquete_fronde:choice:reconquete_fronde_joint_convention",
+          "event:party_reconquete_fronde:choice:reconquete_fronde_close_channels",
+          "event:party_reconquete_fronde:outcome:reconquete_fronde_candidate_control:narrative",
+          "event:party_reconquete_crisis_followup:summary",
+          "event:party_reconquete_fronde:entityReference",
+          "event:party_reconquete_crisis_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "reconquete_vales",
+      "displayName": "Gabriel Valès",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:media_fictional_editorial_support:summary",
+          "event:media_fictional_editorial_support:choice:editorial_support_boundaries",
+          "event:media_fictional_editorial_support:choice:editorial_support_reject",
+          "event:media_fictional_editorial_support:outcome:support_publicly_rejected:narrative",
+          "event:media_fictional_editorial_support:choice:editorial_support_meeting",
+          "event:media_fictional_editorial_support:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "reconquete_mornay",
+      "displayName": "Stan Mornay",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "nouvelle_energie_candidate",
+      "displayName": "Nora Vaillant",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 5,
+        "locations": [
+          "event:party_nouvelle_energie_identity:summary",
+          "event:party_nouvelle_energie_fronde:choice:nouvelle_energie_fronde_confirm_candidate",
+          "event:party_nouvelle_energie_program_dilemma:summary",
+          "event:party_nouvelle_energie_runoff:summary",
+          "event:party_nouvelle_energie_identity:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "nouvelle_energie_ternois",
+      "displayName": "Raphaël Ternois",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:party_nouvelle_energie_fronde:title",
+          "event:party_nouvelle_energie_fronde:summary",
+          "event:party_nouvelle_energie_fronde:choice:nouvelle_energie_fronde_negotiate_terms",
+          "event:party_nouvelle_energie_fronde:choice:nouvelle_energie_fronde_confirm_candidate",
+          "event:party_nouvelle_energie_fronde:outcome:nouvelle_energie_fronde_autonomy:narrative",
+          "event:party_nouvelle_energie_crisis_followup:summary",
+          "event:party_nouvelle_energie_fronde:entityReference",
+          "event:party_nouvelle_energie_crisis_followup:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "nouvelle_energie_dorme",
+      "displayName": "Camille d’Orme",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "nouvelle_energie_castan",
+      "displayName": "Julia Castan",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "id": "fictional_treasurer",
+      "displayName": "Maud Keravel",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 12,
+        "locations": [
+          "event:internal_financial_review:summary",
+          "event:internal_financial_review:outcome:financial_review_independent_check:narrative",
+          "event:internal_financial_review:outcome:financial_review_trust_only:narrative",
+          "event:scandal_treasurer_invoices:summary",
+          "event:scandal_treasurer_invoices:choice:treasurer_invoices_publish",
+          "event:scandal_treasurer_invoices:outcome:treasurer_invoices_full_disclosure:narrative",
+          "event:scandal_treasurer_invoices:choice:treasurer_invoices_keep",
+          "event:scandal_audit_conclusion:choice:audit_conclusion_vindication",
+          "event:internal_financial_review:entityReference",
+          "event:scandal_treasurer_invoices:entityReference",
+          "event:scandal_donation_route:entityReference",
+          "event:scandal_audit_conclusion:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "fictional_consultant",
+      "displayName": "Léonard Pujol",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:internal_strategy_leak:choice:strategy_leak_blame_consultant",
+          "event:internal_strategy_leak:outcome:strategy_leak_consultant_fired:narrative",
+          "event:scandal_consultant_contract:summary",
+          "event:scandal_consultant_contract:outcome:consultant_contract_bonus_cancelled:narrative",
+          "event:scandal_consultant_contract:outcome:consultant_contract_mediation:narrative",
+          "event:internal_strategy_leak:entityReference",
+          "event:scandal_consultant_contract:entityReference",
+          "event:scandal_false_resume:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "fictional_local_official",
+      "displayName": "Samira Bellon",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 12,
+        "locations": [
+          "event:internal_volunteer_conflict:summary",
+          "event:internal_volunteer_conflict:outcome:volunteer_conflict_shared_schedule:narrative",
+          "event:internal_volunteer_conflict:outcome:volunteer_conflict_field_priority:narrative",
+          "event:internal_volunteer_conflict:choice:volunteer_conflict_digital",
+          "event:internal_volunteer_conflict:outcome:volunteer_conflict_video_priority:narrative",
+          "event:scandal_local_expenses:summary",
+          "event:scandal_local_expenses:outcome:local_expenses_corrected:narrative",
+          "event:scandal_local_expenses:choice:local_expenses_internal_warning",
+          "event:scandal_local_expenses:choice:local_expenses_remove_official",
+          "event:scandal_local_expenses:outcome:local_expenses_exclusion:narrative",
+          "event:internal_volunteer_conflict:entityReference",
+          "event:scandal_local_expenses:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "fictional_supplier",
+      "displayName": "Étienne Marot",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:scandal_supplier_overbilling:summary",
+          "event:scandal_supplier_overbilling:choice:supplier_overbilling_public",
+          "event:scandal_supplier_overbilling:outcome:supplier_overbilling_public_explanation:narrative",
+          "event:internal_major_donor:entityReference",
+          "event:scandal_supplier_overbilling:entityReference",
+          "event:rare_printer_slogan:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "fictional_campaign_manager",
+      "displayName": "Anaïs Vercel",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+      "sensitivity": "sensitive",
+      "notes": "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+      "mentions": {
+        "count": 15,
+        "locations": [
+          "event:media_silence_day:summary",
+          "event:media_open_microphone:summary",
+          "event:media_open_microphone:choice:open_mic_apology",
+          "event:media_open_microphone:outcome:open_mic_apology_received:narrative",
+          "event:media_open_microphone:choice:open_mic_restructure",
+          "event:media_open_microphone:outcome:open_mic_restructure_imposed:narrative",
+          "event:scandal_family_hire:summary",
+          "event:scandal_family_hire:outcome:family_hire_rebid:narrative",
+          "event:scandal_family_hire:choice:family_hire_audit_value",
+          "event:scandal_family_hire:outcome:family_hire_defended:narrative",
+          "event:media_silence_day:entityReference",
+          "event:media_open_microphone:entityReference",
+          "event:media_documentary_access:entityReference",
+          "event:internal_congress_motion:entityReference",
+          "event:scandal_family_hire:entityReference"
+        ]
+      }
+    },
+    {
+      "id": "fictional_artist_nina_sorel",
+      "displayName": "Nina Sorel",
+      "category": "fictional_character",
+      "reality": "fictional",
+      "allowedUses": ["Soutien artistique fictif et débat public sur le logement"],
+      "sensitivity": "contextual",
+      "notes": "Artiste entièrement fictive créée pour la simulation.",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:alliance_fictional_celebrity:summary",
+          "event:alliance_fictional_celebrity:outcome:celebrity_support_framed:narrative",
+          "event:alliance_fictional_celebrity:outcome:celebrity_support_declined:narrative",
+          "event:alliance_fictional_celebrity:entityReference"
+        ]
+      }
+    }
+  ],
+  "fictionalWorldEntities": []
+}

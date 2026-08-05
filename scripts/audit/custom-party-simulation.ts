@@ -326,7 +326,7 @@ const report = {
 const root = resolve(import.meta.dirname, "../..");
 await mkdir(resolve(root, "audit"), { recursive: true });
 await writeFile(
-  resolve(root, "audit/custom-party-simulation.json"),
+  resolve(root, process.env.AUDIT_CUSTOM_OUTPUT ?? "audit/custom-party-simulation.json"),
   `${JSON.stringify(report, null, 2)}\n`,
   "utf8",
 );

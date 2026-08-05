@@ -1,0 +1,477 @@
+{
+  "generatedAt": "2026-08-05T19:31:46.593Z",
+  "methodology": {
+    "scope": "All production event titles, summaries, choice labels, outcome titles and narratives.",
+    "normalization": "Unicode NFD, lower case, punctuation collapsed; no semantic model used.",
+    "command": "npx tsx scripts/audit/narrative-audit.ts"
+  },
+  "fieldCounts": {
+    "analyzedTextFields": 2379,
+    "eventSummaries": 232,
+    "choiceLabels": 633,
+    "outcomeNarratives": 641
+  },
+  "lengthsInWords": {
+    "summaries": {
+      "minimum": 25,
+      "average": 31.573275862068964,
+      "maximum": 42
+    },
+    "choices": {
+      "minimum": 8,
+      "average": 12.916271721958926,
+      "maximum": 19
+    },
+    "outcomes": {
+      "minimum": 20,
+      "average": 27.469578783151327,
+      "maximum": 37
+    }
+  },
+  "summaryPadding": {
+    "exactSupplement": "Cette décision met à l’épreuve votre méthode, votre cohérence et la capacité de l’équipe fictive à rester unie.",
+    "eventCount": 0,
+    "eventIds": []
+  },
+  "phraseFrequencies": [
+    {
+      "phrase": "jouer la carte de",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "rassembler",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "rassembleur",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "prendre la parole",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "contre-attaquer",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "faire profil bas",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "afficher sa fermeté",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "créer la surprise",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "votre équipe",
+      "count": 22,
+      "locations": [
+        "event:campaign_official_launch:outcome:launch_costed_clear:narrative",
+        "event:campaign_volunteer_surge:outcome:volunteers_listening_report:narrative",
+        "event:campaign_endorsements_missing:summary",
+        "event:campaign_bus_breakdown:choice:bus_remote_townhall",
+        "event:campaign_student_forum:outcome:students_guarantee_concrete:narrative",
+        "event:campaign_hospital_night:outcome:hospital_beds_visible:narrative",
+        "event:campaign_small_business:outcome:sme_macro_line:narrative",
+        "event:campaign_final_rally:outcome:final_rally_tax_shock:narrative",
+        "event:media_economic_morning:outcome:economic_exact_wrong:narrative",
+        "event:media_unflattering_photo:outcome:photo_context_restored:narrative",
+        "event:media_fictional_editorial_support:outcome:support_turns_into_debate:narrative",
+        "event:media_prime_time_invite:outcome:prime_time_declined_for_debate:narrative",
+        "event:program_pensions:outcome:pensions_points_reopens_reform:narrative",
+        "event:program_taxation:summary",
+        "event:program_health:summary",
+        "event:debate_economy_round:outcome:economy_round_numbers_overrun:narrative",
+        "event:debate_free_conclusion:summary",
+        "event:debate_unknown_question:summary",
+        "event:debate_unknown_question:outcome:unknown_question_honest_limit:narrative",
+        "event:scandal_false_resume:outcome:false_resume_minimized:narrative",
+        "event:world_heatwave:outcome:heatwave_campaign_resources:narrative",
+        "event:rare_hologram_revolt:summary"
+      ]
+    },
+    {
+      "phrase": "les réseaux s’enflamment",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "la séquence",
+      "count": 14,
+      "locations": [
+        "event:campaign_bus_breakdown:outcome:bus_cafe_improvised:narrative",
+        "event:campaign_weather_disaster:outcome:weather_adaptation_plan:narrative",
+        "event:media_economic_morning:outcome:economic_exact_right:narrative",
+        "event:media_unflattering_photo:choice:photo_publish_sequence",
+        "event:media_short_video:outcome:housing_target_grounded:narrative",
+        "event:debate_security_round:outcome:security_round_police_commitment:title",
+        "event:debate_duel_interruption:outcome:duel_interruption_authority:narrative",
+        "event:debate_fact_card:outcome:fact_card_denial_replayed:narrative",
+        "event:alliance_union_support:outcome:union_support_method:narrative",
+        "event:rare_parrot_quote:outcome:parrot_policy_recovered:narrative",
+        "event:rare_parrot_quote:outcome:parrot_charity_clip:narrative",
+        "event:rare_debate_blackout:summary",
+        "event:rare_crown_petition:outcome:crown_petition_republican_answer:narrative",
+        "event:party_lr_program_dilemma:outcome:lr_program_agencies_first:narrative"
+      ]
+    },
+    {
+      "phrase": "le récit s’impose",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "angle d’attaque inattendu",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "adversaires fictifs",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "équipe fictive",
+      "count": 2,
+      "locations": [
+        "event:party_rn_runoff:choice:rn_runoff_government_guarantees",
+        "event:party_nouvelle_energie_runoff:choice:nouvelle_energie_runoff_civic_government"
+      ]
+    },
+    {
+      "phrase": "le pari",
+      "count": 1,
+      "locations": ["event:program_energy:outcome:energy_nuclear_scale:title"]
+    },
+    {
+      "phrase": "la prudence",
+      "count": 1,
+      "locations": ["event:alliance_mayors_appeal:outcome:mayors_pilot_contracts:narrative"]
+    }
+  ],
+  "narrativePerson": {
+    "tutoiementTokens": 8,
+    "secondPersonPluralTokens": 647
+  },
+  "fictionQualifierTokens": {
+    "fictif": 29,
+    "fictive": 34,
+    "fictifs": 9,
+    "fictives": 0,
+    "total": 72
+  },
+  "top50RepeatedExpressions": [
+    {
+      "expression": "la campagne",
+      "count": 136,
+      "documents": 102,
+      "size": 2
+    },
+    {
+      "expression": "le programme",
+      "count": 56,
+      "documents": 50,
+      "size": 2
+    },
+    {
+      "expression": "les electeurs",
+      "count": 49,
+      "documents": 41,
+      "size": 2
+    },
+    {
+      "expression": "les deux",
+      "count": 42,
+      "documents": 32,
+      "size": 2
+    },
+    {
+      "expression": "une partie",
+      "count": 41,
+      "documents": 37,
+      "size": 2
+    },
+    {
+      "expression": "le debat",
+      "count": 41,
+      "documents": 30,
+      "size": 2
+    },
+    {
+      "expression": "de campagne",
+      "count": 37,
+      "documents": 33,
+      "size": 2
+    },
+    {
+      "expression": "les elus",
+      "count": 37,
+      "documents": 28,
+      "size": 2
+    },
+    {
+      "expression": "et publier",
+      "count": 36,
+      "documents": 36,
+      "size": 2
+    },
+    {
+      "expression": "les militants",
+      "count": 34,
+      "documents": 31,
+      "size": 2
+    },
+    {
+      "expression": "la mesure",
+      "count": 33,
+      "documents": 31,
+      "size": 2
+    },
+    {
+      "expression": "tandis que",
+      "count": 32,
+      "documents": 32,
+      "size": 2
+    },
+    {
+      "expression": "second tour",
+      "count": 31,
+      "documents": 24,
+      "size": 2
+    },
+    {
+      "expression": "le calendrier",
+      "count": 30,
+      "documents": 26,
+      "size": 2
+    },
+    {
+      "expression": "du programme",
+      "count": 30,
+      "documents": 24,
+      "size": 2
+    },
+    {
+      "expression": "le vote",
+      "count": 30,
+      "documents": 24,
+      "size": 2
+    },
+    {
+      "expression": "une campagne",
+      "count": 29,
+      "documents": 27,
+      "size": 2
+    },
+    {
+      "expression": "et demander",
+      "count": 27,
+      "documents": 26,
+      "size": 2
+    },
+    {
+      "expression": "les equipes",
+      "count": 26,
+      "documents": 26,
+      "size": 2
+    },
+    {
+      "expression": "le premier",
+      "count": 25,
+      "documents": 24,
+      "size": 2
+    },
+    {
+      "expression": "une partie de",
+      "count": 20,
+      "documents": 18,
+      "size": 3
+    },
+    {
+      "expression": "de la campagne",
+      "count": 17,
+      "documents": 17,
+      "size": 3
+    },
+    {
+      "expression": "le premier tour",
+      "count": 13,
+      "documents": 12,
+      "size": 3
+    },
+    {
+      "expression": "tandis que les",
+      "count": 12,
+      "documents": 12,
+      "size": 3
+    },
+    {
+      "expression": "le second tour",
+      "count": 12,
+      "documents": 12,
+      "size": 3
+    },
+    {
+      "expression": "une partie des",
+      "count": 11,
+      "documents": 11,
+      "size": 3
+    },
+    {
+      "expression": "et publier les",
+      "count": 10,
+      "documents": 10,
+      "size": 3
+    },
+    {
+      "expression": "que la campagne",
+      "count": 10,
+      "documents": 10,
+      "size": 3
+    },
+    {
+      "expression": "de second tour",
+      "count": 10,
+      "documents": 8,
+      "size": 3
+    },
+    {
+      "expression": "un contrat de",
+      "count": 9,
+      "documents": 9,
+      "size": 3
+    },
+    {
+      "expression": "une partie du",
+      "count": 9,
+      "documents": 9,
+      "size": 3
+    },
+    {
+      "expression": "rassure les electeurs",
+      "count": 9,
+      "documents": 9,
+      "size": 3
+    },
+    {
+      "expression": "les equipes locales",
+      "count": 8,
+      "documents": 8,
+      "size": 3
+    },
+    {
+      "expression": "avant le premier",
+      "count": 8,
+      "documents": 8,
+      "size": 3
+    },
+    {
+      "expression": "les electeurs moderes",
+      "count": 8,
+      "documents": 8,
+      "size": 3
+    },
+    {
+      "expression": "une partie de la",
+      "count": 7,
+      "documents": 6,
+      "size": 4
+    },
+    {
+      "expression": "les militants les plus",
+      "count": 5,
+      "documents": 5,
+      "size": 4
+    },
+    {
+      "expression": "avant le premier tour",
+      "count": 5,
+      "documents": 5,
+      "size": 4
+    },
+    {
+      "expression": "perd une partie de",
+      "count": 5,
+      "documents": 5,
+      "size": 4
+    },
+    {
+      "expression": "la cour des comptes",
+      "count": 5,
+      "documents": 3,
+      "size": 4
+    },
+    {
+      "expression": "la derniere ligne droite",
+      "count": 4,
+      "documents": 4,
+      "size": 4
+    },
+    {
+      "expression": "une partie des militants",
+      "count": 4,
+      "documents": 4,
+      "size": 4
+    },
+    {
+      "expression": "et rassure les electeurs",
+      "count": 4,
+      "documents": 4,
+      "size": 4
+    },
+    {
+      "expression": "une partie du public",
+      "count": 4,
+      "documents": 4,
+      "size": 4
+    },
+    {
+      "expression": "fictive de la partie",
+      "count": 4,
+      "documents": 4,
+      "size": 4
+    },
+    {
+      "expression": "un vote de confiance",
+      "count": 4,
+      "documents": 4,
+      "size": 4
+    },
+    {
+      "expression": "le socle se mobilise",
+      "count": 3,
+      "documents": 3,
+      "size": 4
+    },
+    {
+      "expression": "un vote des adherents",
+      "count": 3,
+      "documents": 3,
+      "size": 4
+    },
+    {
+      "expression": "de la campagne et",
+      "count": 3,
+      "documents": 3,
+      "size": 4
+    },
+    {
+      "expression": "dans la campagne les",
+      "count": 3,
+      "documents": 3,
+      "size": 4
+    }
+  ]
+}

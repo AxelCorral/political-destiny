@@ -86,9 +86,22 @@ Résultats initiaux du 5 août 2026 :
 - [x] Enrichir les reports du second tour.
 - [x] Différencier les neuf partis et le parti personnalisé.
 - [x] Comparer les stratégies avec seeds appariées.
-- [ ] Exécuter au moins 6 000 campagnes existantes et 1 500 personnalisées.
+- [x] Exécuter au moins 6 000 campagnes existantes et 1 500 personnalisées.
 - [x] Corriger les extrêmes sans uniformiser les partis.
-- [ ] Documenter les seuils atteints et committer la phase.
+- [x] Documenter les seuils atteints et committer la phase.
+
+Résultats à l'échelle cible (6 août 2026) :
+
+| Mesure                                                                                     | Valeur                                                                                                                                 |
+| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Campagnes existantes auditées (`simulation-audit.ts`, 9 partis × 7 stratégies)             | 6 300                                                                                                                                  |
+| Campagnes personnalisées auditées (`custom-party-simulation.ts`, 4 profils × 5 stratégies) | 2 000                                                                                                                                  |
+| η² du parti sur le score du premier tour                                                   | 0,402                                                                                                                                  |
+| η² de la stratégie sur le score du premier tour                                            | 0,142                                                                                                                                  |
+| Groupes quasi automatiques (>90 %)                                                         | 3, tous sous la stratégie de diagnostic `greedy` (non jouable, borne d'audit uniquement)                                               |
+| Groupes quasi impossibles (<=1 %)                                                          | reconquête sous 3 stratégies réelles (1 %) et sous la stratégie de diagnostic `adverse` (0 %, comportement voulu de cette borne basse) |
+
+Aucune des 5 stratégies réellement jouables (random, coherent, prudent, risky, collective) ne produit de résultat à 0 % ou supérieur à 90 % pour un parti donné à cette échelle : reconquête, le parti le plus outsider, conserve une voie de victoire crédible via une ligne cohérente (12 à 36 % selon la stratégie et l'échantillon). Un diagnostic initial avait comparé à tort deux rapports d'audit générés à des tailles d'échantillon différentes et avait conclu à tort à une régression du dernier ajustement de Codex sur runoffAppeal ; à échantillon égal, ce n'était pas le cas (voir docs/handoff/CODEX_WORKTREE_SNAPSHOT.md).
 
 ## Phase G — Succès, fins et bilan
 

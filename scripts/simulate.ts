@@ -133,7 +133,7 @@ const report = {
 
 await mkdir(resolve("reports"), { recursive: true });
 await writeFile(
-  resolve("reports", "simulation-latest.json"),
+  resolve(process.env.SIM_OUTPUT ?? "reports/simulation-latest.json"),
   `${JSON.stringify(report, null, 2)}\n`,
   "utf8",
 );

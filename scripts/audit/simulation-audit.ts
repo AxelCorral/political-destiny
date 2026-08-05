@@ -61,6 +61,9 @@ interface RunResult {
   finalScore: number;
   progression: number;
   endingId: string;
+  finalistIds: string[];
+  winnerPartyId: string | null;
+  runoffOpponentId: string | null;
   checkpointRank: number | null;
   checkpointPolling: number | null;
   eventIds: string[];
@@ -339,6 +342,9 @@ function runCampaign(partyId: string, strategy: StrategyName, seedIndex: number)
     finalScore: result.score,
     progression: result.pollingProgression,
     endingId: result.endingId,
+    finalistIds: [...(state.qualifiedPartyIds ?? [])],
+    winnerPartyId: state.secondRoundResult?.ranking[0] ?? null,
+    runoffOpponentId: state.qualifiedPartyIds?.find((finalistId) => finalistId !== partyId) ?? null,
     checkpointRank,
     checkpointPolling,
     eventIds,
@@ -531,6 +537,36 @@ const practicallyImpossibleToWin = Object.entries(byPartyAndStrategy)
   .filter(([, metrics]) => metrics.winRate <= 0.01)
   .map(([group, metrics]) => ({ group, winRate: metrics.winRate }));
 
+const runoffMatchups = Object.fromEntries(
+  [
+    ...new Set(
+      runs.flatMap((run) =>
+        run.runoffOpponentId ? [`${run.partyId}:${run.runoffOpponentId}`] : [],
+      ),
+    ),
+  ]
+    .sort()
+    .map((matchup) => {
+      const [partyId, opponentId] = matchup.split(":");
+      const matchupRuns = runs.filter(
+        (run) => run.partyId === partyId && run.runoffOpponentId === opponentId,
+      );
+      return [
+        matchup,
+        {
+          runs: matchupRuns.length,
+          wins: matchupRuns.filter((run) => run.won).length,
+          winRate: mean(matchupRuns.map((run) => Number(run.won))),
+          averagePlayerScore: mean(
+            matchupRuns.flatMap((run) =>
+              run.secondRoundScore === null ? [] : [run.secondRoundScore],
+            ),
+          ),
+        },
+      ];
+    }),
+);
+
 const report = {
   generatedAt: new Date().toISOString(),
   methodology: {
@@ -568,6 +604,7 @@ const report = {
   byParty,
   byStrategy,
   byPartyAndStrategy,
+  runoffMatchups,
   influence: {
     partyEtaSquaredOnFirstRoundScore: etaSquared(runs, "partyId"),
     strategyEtaSquaredOnFirstRoundScore: etaSquared(runs, "strategy"),

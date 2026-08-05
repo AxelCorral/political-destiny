@@ -9,6 +9,7 @@ export const CONTENT_QUALITY_THRESHOLDS = {
   maximumIdenticalChoiceSetReuse: 1,
   minimumConcreteChoiceRatio: 0.9,
   minimumRepeatCooldown: 4,
+  minimumIdeologyConditionedEvents: 30,
 } as const;
 
 export interface ContentQualityMetrics {
@@ -24,6 +25,7 @@ export interface ContentQualityMetrics {
   identicalConsequencePairs: number;
   missingChainTargets: number;
   unjustifiedRepeatableEvents: number;
+  ideologyConditionedEvents: number;
 }
 
 export interface ContentQualityReport {
@@ -354,6 +356,16 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
       event.maxAppearances === undefined &&
       event.cooldown < CONTENT_QUALITY_THRESHOLDS.minimumRepeatCooldown,
   );
+  const ideologyConditionedEvents = content.events.filter(
+    (event) =>
+      (event.requiredTags?.length ?? 0) > 0 ||
+      (event.eligibleIdeologyFamilies?.length ?? 0) > 0 ||
+      event.eligibility.some((condition) =>
+        ["ideology", "ideology_family", "statement_exists", "contradiction_count"].includes(
+          condition.kind,
+        ),
+      ),
+  ).length;
 
   const maximumByAchievementMetric: Partial<Record<string, number>> = {
     score: 100,
@@ -426,6 +438,7 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
     identicalConsequencePairs,
     missingChainTargets,
     unjustifiedRepeatableEvents: unjustifiedRepeatable.length,
+    ideologyConditionedEvents,
   };
   if (metrics.uniqueChoiceRatio < CONTENT_QUALITY_THRESHOLDS.minimumUniqueChoiceRatio)
     errors.push(`Textes de choix uniques : ${(metrics.uniqueChoiceRatio * 100).toFixed(1)} %`);
@@ -442,6 +455,10 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
   if (unjustifiedRepeatable.length > 0)
     errors.push(
       `${unjustifiedRepeatable.length} événements peuvent se répéter sans limite ni cooldown suffisant`,
+    );
+  if (ideologyConditionedEvents < CONTENT_QUALITY_THRESHOLDS.minimumIdeologyConditionedEvents)
+    errors.push(
+      `Événements conditionnés par idéologie ou déclarations : ${ideologyConditionedEvents}/${CONTENT_QUALITY_THRESHOLDS.minimumIdeologyConditionedEvents}`,
     );
 
   const effectKinds = new Set(

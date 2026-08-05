@@ -143,6 +143,7 @@ export const partyDefinitionSchema = z.object({
     governingCredibility: boundedStat,
     cohesion: boundedStat,
     rejection: boundedStat,
+    transferability: boundedStat.optional(),
     localStrength: boundedStat,
     electedSupport: boundedStat,
     popularity: boundedStat,

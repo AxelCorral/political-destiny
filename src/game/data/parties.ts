@@ -118,14 +118,14 @@ const baseParties: PartyDefinition[] = [
       immigration: -24,
     },
     baseline: {
-      baseSupport: 6,
+      baseSupport: 4.5,
       potentialSupport: 25,
       mobilization: 59,
       finances: 56,
       mediaPresence: 63,
       governingCredibility: 64,
       cohesion: 52,
-      rejection: 64,
+      rejection: 70,
       localStrength: 72,
       electedSupport: 74,
       popularity: 55,
@@ -220,7 +220,7 @@ const baseParties: PartyDefinition[] = [
       immigration: 12,
     },
     baseline: {
-      baseSupport: 15,
+      baseSupport: 14,
       potentialSupport: 31,
       mobilization: 49,
       finances: 73,
@@ -266,8 +266,8 @@ const baseParties: PartyDefinition[] = [
     visual: { primaryColor: "#36566a", secondaryColor: "#e9e3d2", monogram: "H", symbol: "▱" },
     ideology: { economy: 55, society: 8, europe: 56, ecology: 22, authority: 34, immigration: 23 },
     baseline: {
-      baseSupport: 6,
-      potentialSupport: 23,
+      baseSupport: 4.5,
+      potentialSupport: 21,
       mobilization: 46,
       finances: 58,
       mediaPresence: 58,
@@ -278,8 +278,8 @@ const baseParties: PartyDefinition[] = [
       electedSupport: 61,
       popularity: 57,
       members: 24_000,
-      awareness: 72,
-      momentum: 49,
+      awareness: 66,
+      momentum: 46,
     },
     strengths: ["Image de gestion", "Réseau d’élus territoriaux", "Rejet relativement contenu"],
     weaknesses: [
@@ -315,7 +315,7 @@ const baseParties: PartyDefinition[] = [
       immigration: 62,
     },
     baseline: {
-      baseSupport: 8,
+      baseSupport: 6.5,
       potentialSupport: 27,
       mobilization: 61,
       finances: 64,
@@ -368,14 +368,14 @@ const baseParties: PartyDefinition[] = [
       immigration: 92,
     },
     baseline: {
-      baseSupport: 15.5,
+      baseSupport: 12.5,
       potentialSupport: 38,
       mobilization: 72,
       finances: 66,
       mediaPresence: 89,
       governingCredibility: 57,
       cohesion: 74,
-      rejection: 80,
+      rejection: 85,
       localStrength: 62,
       electedSupport: 73,
       popularity: 60,
@@ -812,11 +812,27 @@ const partyCampaignProfiles: Record<
   },
 };
 
+const runoffTransferability: Record<(typeof PLAYABLE_PARTY_IDS)[number], number> = {
+  lfi: 40,
+  ps: 42,
+  ecologistes: 50,
+  renaissance: 32,
+  horizons: 28,
+  lr: 28,
+  rn: 20,
+  reconquete: 20,
+  nouvelle_energie: 38,
+};
+
 export const parties: PartyDefinition[] = baseParties.map((party) => {
   const configured = partyCampaignProfiles[party.id as (typeof PLAYABLE_PARTY_IDS)[number]];
   if (!configured) return party;
   return {
     ...party,
+    baseline: {
+      ...party.baseline,
+      transferability: runoffTransferability[party.id as (typeof PLAYABLE_PARTY_IDS)[number]],
+    },
     ideologyFamily: configured.ideologyFamily,
     campaignProfile: structuredClone(configured.profile),
   };

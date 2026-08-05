@@ -7,7 +7,7 @@ import { createGame, simulateOpponentTurn } from "../../src/game/engine";
 import type { GameEffect, GameState } from "../../src/game/types";
 
 const ROOT = resolve(import.meta.dirname, "../..");
-const OUTPUT = resolve(ROOT, "audit/system-report.json");
+const OUTPUT = resolve(ROOT, process.env.AUDIT_SYSTEM_OUTPUT ?? "audit/system-report.json");
 const SOURCE_ROOT = resolve(ROOT, "src");
 
 const PRIMARY_STATS = [

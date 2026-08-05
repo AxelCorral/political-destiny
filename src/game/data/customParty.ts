@@ -320,14 +320,14 @@ export function buildCustomParty(input: CustomPartyInput): PartyDefinition {
   for (const measure of selectedMeasures) applyDelta(ideology, measure.delta);
 
   const leadership = {
-    vertical: { cohesion: 70, mobilization: 63, localStrength: 38, credibility: 52 },
-    balanced: { cohesion: 64, mobilization: 58, localStrength: 53, credibility: 56 },
-    decentralized: { cohesion: 54, mobilization: 65, localStrength: 68, credibility: 49 },
+    vertical: { cohesion: 70, mobilization: 52, localStrength: 25, credibility: 47 },
+    balanced: { cohesion: 64, mobilization: 48, localStrength: 35, credibility: 51 },
+    decentralized: { cohesion: 54, mobilization: 55, localStrength: 48, credibility: 44 },
   }[input.leadershipModel];
   const priority = {
-    officials: { electedSupport: 61, members: 16_000, credibility: 4 },
-    members: { electedSupport: 34, members: 48_000, credibility: 0 },
-    experts: { electedSupport: 37, members: 12_000, credibility: 8 },
+    officials: { electedSupport: 45, members: 12_000, credibility: 4 },
+    members: { electedSupport: 20, members: 32_000, credibility: 0 },
+    experts: { electedSupport: 24, members: 9_000, credibility: 8 },
   }[input.organizationPriority];
 
   const electorateAffinity = Object.fromEntries(
@@ -370,20 +370,21 @@ export function buildCustomParty(input: CustomPartyInput): PartyDefinition {
     },
     ideology,
     baseline: {
-      baseSupport: 2.8,
-      potentialSupport: 17,
+      baseSupport: 1.5,
+      potentialSupport: 11,
       mobilization: leadership.mobilization,
       finances: 39,
       mediaPresence: 34,
       governingCredibility: leadership.credibility + priority.credibility,
       cohesion: clamp(leadership.cohesion - incoherence * 0.08),
-      rejection: 28,
+      rejection: 30,
+      transferability: 34,
       localStrength: leadership.localStrength,
       electedSupport: priority.electedSupport,
-      popularity: 46,
+      popularity: 40,
       members: priority.members,
-      awareness: 32,
-      momentum: 52,
+      awareness: 20,
+      momentum: 44,
     },
     strengths: ["Rejet initial faible", "Projet construit par le joueur", "Capacité de surprise"],
     weaknesses: ["Notoriété encore limitée", "Financement fragile", "Pression du vote utile"],
