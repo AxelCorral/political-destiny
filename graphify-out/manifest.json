@@ -1,0 +1,622 @@
+{
+  "D:\\Project_claude_code\\political-destiny\\.prettierrc.json": {
+    "mtime": 1785930140.3345935,
+    "ast_hash": "9b16a7bc014989638854ec353f84fce2",
+    "semantic_hash": "9b16a7bc014989638854ec353f84fce2"
+  },
+  "D:\\Project_claude_code\\political-destiny\\e2e\\game.spec.ts": {
+    "mtime": 1785936162.452062,
+    "ast_hash": "1fa4ac0064c945997ae2fb13a9b68084",
+    "semantic_hash": "1fa4ac0064c945997ae2fb13a9b68084"
+  },
+  "D:\\Project_claude_code\\political-destiny\\eslint.config.mjs": {
+    "mtime": 1785930140.4250708,
+    "ast_hash": "337867431a9c468b7911f942914112d6",
+    "semantic_hash": "337867431a9c468b7911f942914112d6"
+  },
+  "D:\\Project_claude_code\\political-destiny\\next.config.ts": {
+    "mtime": 1785930188.2135756,
+    "ast_hash": "bf842c523a86166075c2164ca0e3e037",
+    "semantic_hash": "bf842c523a86166075c2164ca0e3e037"
+  },
+  "D:\\Project_claude_code\\political-destiny\\package.json": {
+    "mtime": 1785935292.2953453,
+    "ast_hash": "ab3bf218468214e38e35c7cb4e1bcba4",
+    "semantic_hash": "ab3bf218468214e38e35c7cb4e1bcba4"
+  },
+  "D:\\Project_claude_code\\political-destiny\\playwright.config.ts": {
+    "mtime": 1785936071.7426703,
+    "ast_hash": "75a3be8c21584fe34faa08715fce6b23",
+    "semantic_hash": "75a3be8c21584fe34faa08715fce6b23"
+  },
+  "D:\\Project_claude_code\\political-destiny\\postcss.config.mjs": {
+    "mtime": 1785930162.4314837,
+    "ast_hash": "e09d4170464a4ee9d73df0da73f405a6",
+    "semantic_hash": "e09d4170464a4ee9d73df0da73f405a6"
+  },
+  "D:\\Project_claude_code\\political-destiny\\public\\sw.js": {
+    "mtime": 1785935248.5378478,
+    "ast_hash": "25703eea939c3fe5d2c8261801cfeb8b",
+    "semantic_hash": "25703eea939c3fe5d2c8261801cfeb8b"
+  },
+  "D:\\Project_claude_code\\political-destiny\\scripts\\simulate.ts": {
+    "mtime": 1785933385.1411226,
+    "ast_hash": "52f789e7b40a200a901fe43d7796894a",
+    "semantic_hash": "52f789e7b40a200a901fe43d7796894a"
+  },
+  "D:\\Project_claude_code\\political-destiny\\scripts\\validate-data.ts": {
+    "mtime": 1785932566.9004116,
+    "ast_hash": "1192320b7f3ea0546b3893fa67a2baba",
+    "semantic_hash": "1192320b7f3ea0546b3893fa67a2baba"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\a-propos\\page.tsx": {
+    "mtime": 1785935248.6109152,
+    "ast_hash": "48f6caf1c8bf0cccc9ba40bb81ccfdf7",
+    "semantic_hash": "48f6caf1c8bf0cccc9ba40bb81ccfdf7"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\archives\\[id]\\page.tsx": {
+    "mtime": 1785934993.164224,
+    "ast_hash": "663195fe9570f872c78ff7e871a1ba02",
+    "semantic_hash": "663195fe9570f872c78ff7e871a1ba02"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\archives\\page.tsx": {
+    "mtime": 1785935093.3654172,
+    "ast_hash": "00d287acc7d536d3eb206e7b10b75a9f",
+    "semantic_hash": "00d287acc7d536d3eb206e7b10b75a9f"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\badges\\page.tsx": {
+    "mtime": 1785935093.3714223,
+    "ast_hash": "0aaa0db351380f69db0a82dee5e49d92",
+    "semantic_hash": "0aaa0db351380f69db0a82dee5e49d92"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\confidentialite\\page.tsx": {
+    "mtime": 1785935248.6379385,
+    "ast_hash": "f6ff2cdae66b4ed13ebfb0dc4bbe5a76",
+    "semantic_hash": "f6ff2cdae66b4ed13ebfb0dc4bbe5a76"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\error.tsx": {
+    "mtime": 1785936404.7950897,
+    "ast_hash": "d6ff61538f12c78680f527437b27885b",
+    "semantic_hash": "d6ff61538f12c78680f527437b27885b"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\global-error.tsx": {
+    "mtime": 1785936404.803411,
+    "ast_hash": "35cab352bdac9c45919a69006590c73c",
+    "semantic_hash": "35cab352bdac9c45919a69006590c73c"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\hors-ligne\\page.tsx": {
+    "mtime": 1785935248.6749728,
+    "ast_hash": "02be1e70e86e11ab4a414d48afd441cd",
+    "semantic_hash": "02be1e70e86e11ab4a414d48afd441cd"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\jouer\\page.tsx": {
+    "mtime": 1785934783.540316,
+    "ast_hash": "78d7f2c46240ea2f3c018debd7f35208",
+    "semantic_hash": "78d7f2c46240ea2f3c018debd7f35208"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\layout.tsx": {
+    "mtime": 1785935592.0656798,
+    "ast_hash": "0faf8136b767485903df05928de21520",
+    "semantic_hash": "0faf8136b767485903df05928de21520"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\methodologie\\page.tsx": {
+    "mtime": 1785935248.695993,
+    "ast_hash": "523b1d6d87f8edc54d6b3a6de41f3d7a",
+    "semantic_hash": "523b1d6d87f8edc54d6b3a6de41f3d7a"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\not-found.tsx": {
+    "mtime": 1785935248.6999958,
+    "ast_hash": "e099d37359f368fc6490d265fef2d535",
+    "semantic_hash": "e099d37359f368fc6490d265fef2d535"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\page.tsx": {
+    "mtime": 1785934902.996102,
+    "ast_hash": "be9998cc1624fb0541e5e52e5a1c6740",
+    "semantic_hash": "be9998cc1624fb0541e5e52e5a1c6740"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\app\\parametres\\page.tsx": {
+    "mtime": 1785935093.433479,
+    "ast_hash": "e2b0bd128eb27f8b7b5b9263b6b60844",
+    "semantic_hash": "e2b0bd128eb27f8b7b5b9263b6b60844"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\game\\party-mark.tsx": {
+    "mtime": 1785934801.3846874,
+    "ast_hash": "efba949a35dcfb1971982ff99ba9c4fe",
+    "semantic_hash": "efba949a35dcfb1971982ff99ba9c4fe"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\game\\poll-chart.tsx": {
+    "mtime": 1785934789.6918912,
+    "ast_hash": "7d52fd655370c1305ccb377bdb24bc69",
+    "semantic_hash": "7d52fd655370c1305ccb377bdb24bc69"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\game\\regional-map.tsx": {
+    "mtime": 1785934789.6978965,
+    "ast_hash": "b989da119cb7ff214be9fdd2f3c66410",
+    "semantic_hash": "b989da119cb7ff214be9fdd2f3c66410"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\game\\screen-shell.tsx": {
+    "mtime": 1785934789.7029004,
+    "ast_hash": "415e4368e675c73917bfa6a9c030f84a",
+    "semantic_hash": "415e4368e675c73917bfa6a9c030f84a"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\game\\stat-gauge.tsx": {
+    "mtime": 1785934789.7079053,
+    "ast_hash": "9f105869dda5f0bce5cf4d3f075b2dd3",
+    "semantic_hash": "9f105869dda5f0bce5cf4d3f075b2dd3"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\layout\\info-page.tsx": {
+    "mtime": 1785935248.7520432,
+    "ast_hash": "dd303219c960320f066280a4cb42e1dc",
+    "semantic_hash": "dd303219c960320f066280a4cb42e1dc"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\layout\\site-footer.tsx": {
+    "mtime": 1785930140.5756695,
+    "ast_hash": "3c60a142b21e3caf3e717c2d76c76431",
+    "semantic_hash": "3c60a142b21e3caf3e717c2d76c76431"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\layout\\site-header.tsx": {
+    "mtime": 1785935592.0646791,
+    "ast_hash": "70b118474ef630b37592b31353ab9cc4",
+    "semantic_hash": "70b118474ef630b37592b31353ab9cc4"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\local-preferences.tsx": {
+    "mtime": 1785936397.8900924,
+    "ast_hash": "47c10f564cfd0d0c9aca56de5ca55614",
+    "semantic_hash": "47c10f564cfd0d0c9aca56de5ca55614"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\pwa-registrar.tsx": {
+    "mtime": 1785936943.7820554,
+    "ast_hash": "f91a66052bafef51c8099d51bc55eb88",
+    "semantic_hash": "f91a66052bafef51c8099d51bc55eb88"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\ui\\button.tsx": {
+    "mtime": 1785930140.5918822,
+    "ast_hash": "4cdeb9f69612b75216ba913bdebfa4f1",
+    "semantic_hash": "4cdeb9f69612b75216ba913bdebfa4f1"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\ui\\card.tsx": {
+    "mtime": 1785930140.5950663,
+    "ast_hash": "31fdf91dd643128722a6ddd6428cd056",
+    "semantic_hash": "31fdf91dd643128722a6ddd6428cd056"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\components\\ui\\dialog.tsx": {
+    "mtime": 1785934789.7359312,
+    "ast_hash": "88819f3230925e150257576e4eb80a8b",
+    "semantic_hash": "88819f3230925e150257576e4eb80a8b"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\config\\branding.ts": {
+    "mtime": 1785930140.6000338,
+    "ast_hash": "9d72c02751a91f03d43738a0ca808f54",
+    "semantic_hash": "9d72c02751a91f03d43738a0ca808f54"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\config\\featureFlags.ts": {
+    "mtime": 1785930140.6030362,
+    "ast_hash": "0f037afe8ed4c926adbe2b1230c21e61",
+    "semantic_hash": "0f037afe8ed4c926adbe2b1230c21e61"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\config\\game.ts": {
+    "mtime": 1785930140.6056366,
+    "ast_hash": "2e4ce466c16d033924cba97bcea40911",
+    "semantic_hash": "2e4ce466c16d033924cba97bcea40911"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\campaign\\__tests__\\campaign-ui.test.tsx": {
+    "mtime": 1785935360.3208213,
+    "ast_hash": "2ff0719136311c7f51d2e0d07b656456",
+    "semantic_hash": "2ff0719136311c7f51d2e0d07b656456"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\campaign\\active-campaign-card.tsx": {
+    "mtime": 1785936405.0350869,
+    "ast_hash": "27829d289f484d57d05130f7b19fd6f0",
+    "semantic_hash": "27829d289f484d57d05130f7b19fd6f0"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\campaign\\campaign-dashboard.tsx": {
+    "mtime": 1785934789.7739656,
+    "ast_hash": "94d4287465a63e558e0504c0112f884a",
+    "semantic_hash": "94d4287465a63e558e0504c0112f884a"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\campaign\\campaign-screens.tsx": {
+    "mtime": 1785936513.8204148,
+    "ast_hash": "21912d467a629619ebe1821420585883",
+    "semantic_hash": "21912d467a629619ebe1821420585883"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\campaign\\game-app.tsx": {
+    "mtime": 1785936405.161107,
+    "ast_hash": "769874e5404a635fd9a27ede46d8ee06",
+    "semantic_hash": "769874e5404a635fd9a27ede46d8ee06"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\campaign\\gameStore.ts": {
+    "mtime": 1785934789.8760595,
+    "ast_hash": "e751f0880ba48d9bcddfe37b6f3547c8",
+    "semantic_hash": "e751f0880ba48d9bcddfe37b6f3547c8"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\meta\\archive-pages.tsx": {
+    "mtime": 1785935248.9532275,
+    "ast_hash": "ded12f9373583d52f41451862a0351f0",
+    "semantic_hash": "ded12f9373583d52f41451862a0351f0"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\meta\\badges-page.tsx": {
+    "mtime": 1785935093.691715,
+    "ast_hash": "acb058e44dad41c9b61cafd30f2ca413",
+    "semantic_hash": "acb058e44dad41c9b61cafd30f2ca413"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\meta\\settings-page.tsx": {
+    "mtime": 1785935093.7077284,
+    "ast_hash": "337b2a9bba68ddea0b84f87820c4b1a3",
+    "semantic_hash": "337b2a9bba68ddea0b84f87820c4b1a3"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\onboarding\\fiction-notice.tsx": {
+    "mtime": 1785936397.8890924,
+    "ast_hash": "ce3feacd156a5e93b94b12c75c5c3916",
+    "semantic_hash": "ce3feacd156a5e93b94b12c75c5c3916"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\onboarding\\setup-screens.tsx": {
+    "mtime": 1785934789.9541297,
+    "ast_hash": "f031f66db414c91e8e5c404cc0279029",
+    "semantic_hash": "f031f66db414c91e8e5c404cc0279029"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\results\\final-screen.tsx": {
+    "mtime": 1785936379.6659622,
+    "ast_hash": "e41bee8f24ee9543b46ce740a844670f",
+    "semantic_hash": "e41bee8f24ee9543b46ce740a844670f"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\features\\sharing\\share-result.tsx": {
+    "mtime": 1785934826.4506662,
+    "ast_hash": "49f6c322b96dd1281d46a9a4501716ea",
+    "semantic_hash": "49f6c322b96dd1281d46a9a4501716ea"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\__tests__\\customParty.test.ts": {
+    "mtime": 1785933385.2587962,
+    "ast_hash": "5e954ac8ba2e737f3b19803b6b26a109",
+    "semantic_hash": "5e954ac8ba2e737f3b19803b6b26a109"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\__tests__\\productionContent.test.ts": {
+    "mtime": 1785933385.2688086,
+    "ast_hash": "73c6c24084b45435b107e8907e97824c",
+    "semantic_hash": "73c6c24084b45435b107e8907e97824c"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\achievements.ts": {
+    "mtime": 1785932567.1133423,
+    "ast_hash": "d52497524bb6f830bca5cb6bd1a86b29",
+    "semantic_hash": "d52497524bb6f830bca5cb6bd1a86b29"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\actors.ts": {
+    "mtime": 1785932567.1403666,
+    "ast_hash": "4a383e1b922649067e170f8f8e7ad272",
+    "semantic_hash": "4a383e1b922649067e170f8f8e7ad272"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\campaignMethods.ts": {
+    "mtime": 1785932567.1543794,
+    "ast_hash": "03be908ccc75e316be495d60f7562012",
+    "semantic_hash": "03be908ccc75e316be495d60f7562012"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\customParty.ts": {
+    "mtime": 1785933385.3446186,
+    "ast_hash": "f1b7b06aedf9ebae7783085a947fbf36",
+    "semantic_hash": "f1b7b06aedf9ebae7783085a947fbf36"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\electorate.ts": {
+    "mtime": 1785932567.1727364,
+    "ast_hash": "6c9551baf988005e13bdc9cac9794566",
+    "semantic_hash": "6c9551baf988005e13bdc9cac9794566"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\endings.ts": {
+    "mtime": 1785932567.1805046,
+    "ast_hash": "d10d085f636aff87015615f0ae91253e",
+    "semantic_hash": "d10d085f636aff87015615f0ae91253e"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\events\\endgame.ts": {
+    "mtime": 1785932567.1995218,
+    "ast_hash": "9bf938d5ff12874e36712c1005b90471",
+    "semantic_hash": "9bf938d5ff12874e36712c1005b90471"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\events\\factory.ts": {
+    "mtime": 1785936570.6933267,
+    "ast_hash": "45aa8f5228d1f59ae77f4f110beda0bd",
+    "semantic_hash": "45aa8f5228d1f59ae77f4f110beda0bd"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\events\\general.ts": {
+    "mtime": 1785932567.2555747,
+    "ast_hash": "ce2856536d62cf52deb80898b5f7371f",
+    "semantic_hash": "ce2856536d62cf52deb80898b5f7371f"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\events\\index.ts": {
+    "mtime": 1785932567.2615786,
+    "ast_hash": "49997403f25901337ba18074bbf66ec5",
+    "semantic_hash": "49997403f25901337ba18074bbf66ec5"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\events\\internal.ts": {
+    "mtime": 1785932567.2765932,
+    "ast_hash": "0b9216551e69e55c93b54dfd0081094e",
+    "semantic_hash": "0b9216551e69e55c93b54dfd0081094e"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\events\\partySpecific.ts": {
+    "mtime": 1785932567.2980225,
+    "ast_hash": "ebbebfa6e14d66f74b842f070dacefd4",
+    "semantic_hash": "ebbebfa6e14d66f74b842f070dacefd4"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\events\\world.ts": {
+    "mtime": 1785932567.3295221,
+    "ast_hash": "42f3f8d067207949d3aeec2f83ada940",
+    "semantic_hash": "42f3f8d067207949d3aeec2f83ada940"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\index.ts": {
+    "mtime": 1785933378.7076092,
+    "ast_hash": "198eb5267f1dba2f0d49ab0503b9dea6",
+    "semantic_hash": "198eb5267f1dba2f0d49ab0503b9dea6"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\parties.ts": {
+    "mtime": 1785932567.3725135,
+    "ast_hash": "97c43dce0672d3b722a64f1df78d0af6",
+    "semantic_hash": "97c43dce0672d3b722a64f1df78d0af6"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\politicalCurrents.ts": {
+    "mtime": 1785932567.3775182,
+    "ast_hash": "2f0c4905e7d1116750381e9cd6b9d2e9",
+    "semantic_hash": "2f0c4905e7d1116750381e9cd6b9d2e9"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\realWorldSnapshot\\snapshot.ts": {
+    "mtime": 1785932567.3915312,
+    "ast_hash": "d4c2d721b4637cf37f5c8f4e808e3d18",
+    "semantic_hash": "d4c2d721b4637cf37f5c8f4e808e3d18"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\data\\validation.ts": {
+    "mtime": 1785936552.964656,
+    "ast_hash": "b1de9b5228b0cf000dd8e9a232a7187a",
+    "semantic_hash": "b1de9b5228b0cf000dd8e9a232a7187a"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\__tests__\\effects.test.ts": {
+    "mtime": 1785931335.9765432,
+    "ast_hash": "e0d51adca7777df4b7bd8136f2e20710",
+    "semantic_hash": "e0d51adca7777df4b7bd8136f2e20710"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\__tests__\\election.test.ts": {
+    "mtime": 1785931132.0245404,
+    "ast_hash": "e1b5748dae358896166ff4dfb585bd37",
+    "semantic_hash": "e1b5748dae358896166ff4dfb585bd37"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\__tests__\\game.test.ts": {
+    "mtime": 1785931132.0338967,
+    "ast_hash": "1fb7e92b54e4a662bee902b83c8baa47",
+    "semantic_hash": "1fb7e92b54e4a662bee902b83c8baa47"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\__tests__\\math.test.ts": {
+    "mtime": 1785931132.0439053,
+    "ast_hash": "8fa01e02f9197444830523445787ed45",
+    "semantic_hash": "8fa01e02f9197444830523445787ed45"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\__tests__\\opponents.test.ts": {
+    "mtime": 1785931414.9713285,
+    "ast_hash": "8057e779a4c56a8139482d97ed8f67b0",
+    "semantic_hash": "8057e779a4c56a8139482d97ed8f67b0"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\__tests__\\outcomes.test.ts": {
+    "mtime": 1785931132.0587869,
+    "ast_hash": "529e04b2ddaad0097da7102ed7994f65",
+    "semantic_hash": "529e04b2ddaad0097da7102ed7994f65"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\__tests__\\rng.test.ts": {
+    "mtime": 1785931132.0697973,
+    "ast_hash": "af58fcb718186464ed825431ce2380f0",
+    "semantic_hash": "af58fcb718186464ed825431ce2380f0"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\achievements.ts": {
+    "mtime": 1785931802.0498805,
+    "ast_hash": "5ae87936836d7eaec605212ef2a33370",
+    "semantic_hash": "5ae87936836d7eaec605212ef2a33370"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\calendar.ts": {
+    "mtime": 1785931237.83258,
+    "ast_hash": "56939921e2db6f52a3882f505eaa8748",
+    "semantic_hash": "56939921e2db6f52a3882f505eaa8748"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\conditions.ts": {
+    "mtime": 1785930824.3946607,
+    "ast_hash": "b497ccbebf1c0997c22a010c7c484de4",
+    "semantic_hash": "b497ccbebf1c0997c22a010c7c484de4"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\effectProcessor.ts": {
+    "mtime": 1785932342.7479663,
+    "ast_hash": "cf74c311aec4b5d90f1e990c8a5c060b",
+    "semantic_hash": "cf74c311aec4b5d90f1e990c8a5c060b"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\election.ts": {
+    "mtime": 1785933049.938647,
+    "ast_hash": "7c2c71080fac9379b8dce3e75704ec22",
+    "semantic_hash": "7c2c71080fac9379b8dce3e75704ec22"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\electorate.ts": {
+    "mtime": 1785933385.7050278,
+    "ast_hash": "e95d3c7f4be54171679f3d5da5f60f49",
+    "semantic_hash": "e95d3c7f4be54171679f3d5da5f60f49"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\endings.ts": {
+    "mtime": 1785931829.972464,
+    "ast_hash": "93336563bbc7b6f5c1d97dd7c8b0a0df",
+    "semantic_hash": "93336563bbc7b6f5c1d97dd7c8b0a0df"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\eventSelector.ts": {
+    "mtime": 1785930824.4991686,
+    "ast_hash": "7dc223a60c8beea702935e9aad5c55cc",
+    "semantic_hash": "7dc223a60c8beea702935e9aad5c55cc"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\game.ts": {
+    "mtime": 1785930824.5298352,
+    "ast_hash": "e0c01689510263cde19bdeac5752f258",
+    "semantic_hash": "e0c01689510263cde19bdeac5752f258"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\index.ts": {
+    "mtime": 1785931335.9725387,
+    "ast_hash": "f612b8817710341b48dd49d13822c15c",
+    "semantic_hash": "f612b8817710341b48dd49d13822c15c"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\math.ts": {
+    "mtime": 1785930824.5480545,
+    "ast_hash": "1fc7377c64b75854a0f4597f9a644136",
+    "semantic_hash": "1fc7377c64b75854a0f4597f9a644136"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\opponentSimulation.ts": {
+    "mtime": 1785930824.574082,
+    "ast_hash": "255b3b9bbc9241e56d9f5f130f8b069b",
+    "semantic_hash": "255b3b9bbc9241e56d9f5f130f8b069b"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\outcomeResolver.ts": {
+    "mtime": 1785930824.5873032,
+    "ast_hash": "be7031c7c8e166cbe35dc6dd384af7cf",
+    "semantic_hash": "be7031c7c8e166cbe35dc6dd384af7cf"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\partyDynamics.ts": {
+    "mtime": 1785931415.255152,
+    "ast_hash": "21dabdf7327cc02ccfa73ebf3a5aba9d",
+    "semantic_hash": "21dabdf7327cc02ccfa73ebf3a5aba9d"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\polls.ts": {
+    "mtime": 1785933049.937646,
+    "ast_hash": "faf0d45590b8f12c5f1ee778aea78b5a",
+    "semantic_hash": "faf0d45590b8f12c5f1ee778aea78b5a"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\rng.ts": {
+    "mtime": 1785930824.6261063,
+    "ast_hash": "6dbc221ac15938b05f46ff98b7d35333",
+    "semantic_hash": "6dbc221ac15938b05f46ff98b7d35333"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\scoring.ts": {
+    "mtime": 1785930824.637555,
+    "ast_hash": "2466e80af1524e40c1a4089c9dfe5ca4",
+    "semantic_hash": "2466e80af1524e40c1a4089c9dfe5ca4"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\engine\\validation.ts": {
+    "mtime": 1785930824.6475637,
+    "ast_hash": "d9768c1a7f0d6c6a4d842ffc27b1aa21",
+    "semantic_hash": "d9768c1a7f0d6c6a4d842ffc27b1aa21"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\fixtures\\testContent.ts": {
+    "mtime": 1785931132.3372772,
+    "ast_hash": "18c1a13c2d31a89806284bfd73b38547",
+    "semantic_hash": "18c1a13c2d31a89806284bfd73b38547"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\schemas\\__tests__\\content.test.ts": {
+    "mtime": 1785931132.3462563,
+    "ast_hash": "649b7dd138901b48396ba8d5beca38e9",
+    "semantic_hash": "649b7dd138901b48396ba8d5beca38e9"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\schemas\\content.ts": {
+    "mtime": 1785932596.7813208,
+    "ast_hash": "909b7892163da275b1615b4cae73046f",
+    "semantic_hash": "909b7892163da275b1615b4cae73046f"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\schemas\\index.ts": {
+    "mtime": 1785931132.3990574,
+    "ast_hash": "e59a3ebf65418e7295f584e1e21faf22",
+    "semantic_hash": "e59a3ebf65418e7295f584e1e21faf22"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\game\\types\\index.ts": {
+    "mtime": 1785931507.5433247,
+    "ast_hash": "6f8ff53c0b2bdbf8ad5fc4f32181e2cf",
+    "semantic_hash": "6f8ff53c0b2bdbf8ad5fc4f32181e2cf"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\lib\\game-presentation.ts": {
+    "mtime": 1785933728.2267916,
+    "ast_hash": "9a6581eb8fcd8ea99140b181505ec0aa",
+    "semantic_hash": "9a6581eb8fcd8ea99140b181505ec0aa"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\lib\\storage\\__tests__\\game-database.test.ts": {
+    "mtime": 1785936171.3405962,
+    "ast_hash": "46f2c01fe39d9baa5e1c8b283737ec00",
+    "semantic_hash": "46f2c01fe39d9baa5e1c8b283737ec00"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\lib\\storage\\game-database.ts": {
+    "mtime": 1785936538.0637667,
+    "ast_hash": "acae4f1822fd0657161c769d9a40e1e2",
+    "semantic_hash": "acae4f1822fd0657161c769d9a40e1e2"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\lib\\utils.ts": {
+    "mtime": 1785930140.6116414,
+    "ast_hash": "d9837f38cc05303254571985e3164050",
+    "semantic_hash": "d9837f38cc05303254571985e3164050"
+  },
+  "D:\\Project_claude_code\\political-destiny\\src\\tests\\setup.ts": {
+    "mtime": 1785930140.6166465,
+    "ast_hash": "3709e3aa95abf0544678f0f2d9b46702",
+    "semantic_hash": "3709e3aa95abf0544678f0f2d9b46702"
+  },
+  "D:\\Project_claude_code\\political-destiny\\tsconfig.json": {
+    "mtime": 1785930140.6375842,
+    "ast_hash": "cb1d89c170e55c8137e018a01c48fb09",
+    "semantic_hash": "cb1d89c170e55c8137e018a01c48fb09"
+  },
+  "D:\\Project_claude_code\\political-destiny\\vitest.config.ts": {
+    "mtime": 1785936651.3098643,
+    "ast_hash": "1c463bbfbd63912d7b81ec6eb4c1c4c3",
+    "semantic_hash": "1c463bbfbd63912d7b81ec6eb4c1c4c3"
+  },
+  "D:\\Project_claude_code\\political-destiny\\AGENTS.md": {
+    "mtime": 1785935414.9467113,
+    "ast_hash": "01e8142356e15c3404e0d84c48187cd0",
+    "semantic_hash": "01e8142356e15c3404e0d84c48187cd0"
+  },
+  "D:\\Project_claude_code\\political-destiny\\CLAUDE.md": {
+    "mtime": 1785935414.9467113,
+    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
+    "semantic_hash": "5c27369b226fcf2be8a6cfe52224e767"
+  },
+  "D:\\Project_claude_code\\political-destiny\\PROMPT_MAITRE_CLAUDE_CODE_JEU_POLITIQUE.md": {
+    "mtime": 1785929395.0060787,
+    "ast_hash": "f12eceddc422da9b3abdd329ba3f0cde",
+    "semantic_hash": "f12eceddc422da9b3abdd329ba3f0cde"
+  },
+  "D:\\Project_claude_code\\political-destiny\\README.md": {
+    "mtime": 1785937174.8257568,
+    "ast_hash": "636046ad2c7c376b19f601527a20e3df",
+    "semantic_hash": "636046ad2c7c376b19f601527a20e3df"
+  },
+  "D:\\Project_claude_code\\political-destiny\\TODO.md": {
+    "mtime": 1785937174.824756,
+    "ast_hash": "fce72e8cc39987bf7de63d0d71c9b5ea",
+    "semantic_hash": "fce72e8cc39987bf7de63d0d71c9b5ea"
+  },
+  "D:\\Project_claude_code\\political-destiny\\docs\\CONTENT_GUIDE.md": {
+    "mtime": 1785930140.3776524,
+    "ast_hash": "be5c85f694d86aad4f3a503aba1df3f1",
+    "semantic_hash": "be5c85f694d86aad4f3a503aba1df3f1"
+  },
+  "D:\\Project_claude_code\\political-destiny\\docs\\ENGINE.md": {
+    "mtime": 1785930140.3876646,
+    "ast_hash": "b436d864eaa18b439da029404be73b9e",
+    "semantic_hash": "b436d864eaa18b439da029404be73b9e"
+  },
+  "D:\\Project_claude_code\\political-destiny\\docs\\GAME_DESIGN.md": {
+    "mtime": 1785930140.3958585,
+    "ast_hash": "c9584f71db30eacfdcbaee0876ac4819",
+    "semantic_hash": "c9584f71db30eacfdcbaee0876ac4819"
+  },
+  "D:\\Project_claude_code\\political-destiny\\docs\\LEGAL_EDITORIAL_CHECKLIST.md": {
+    "mtime": 1785930140.4019794,
+    "ast_hash": "1e4696278f2acf553b725430b7d5017f",
+    "semantic_hash": "1e4696278f2acf553b725430b7d5017f"
+  },
+  "D:\\Project_claude_code\\political-destiny\\docs\\REAL_WORLD_DATA.md": {
+    "mtime": 1785930140.4069865,
+    "ast_hash": "e66d581fbba48c6b98f83ba649970446",
+    "semantic_hash": "e66d581fbba48c6b98f83ba649970446"
+  },
+  "D:\\Project_claude_code\\political-destiny\\docs\\TESTING.md": {
+    "mtime": 1785937174.826758,
+    "ast_hash": "d57794db3bae22b5b1ee1b9f7ffd17d8",
+    "semantic_hash": "d57794db3bae22b5b1ee1b9f7ffd17d8"
+  },
+  "D:\\Project_claude_code\\political-destiny\\public\\icons\\emblem.svg": {
+    "mtime": 1785930064.940488,
+    "ast_hash": "febd479b77e227ceea2adb1c5909a8bb",
+    "semantic_hash": "febd479b77e227ceea2adb1c5909a8bb"
+  },
+  "D:\\Project_claude_code\\political-destiny\\public\\icons\\icon-192.svg": {
+    "mtime": 1785935241.9318788,
+    "ast_hash": "a9b6498ddc07712e9a48e3d315039370",
+    "semantic_hash": "a9b6498ddc07712e9a48e3d315039370"
+  },
+  "D:\\Project_claude_code\\political-destiny\\public\\icons\\icon-512.svg": {
+    "mtime": 1785935241.9328797,
+    "ast_hash": "62d782771c6106adf3d24b7fc804794c",
+    "semantic_hash": "62d782771c6106adf3d24b7fc804794c"
+  }
+}

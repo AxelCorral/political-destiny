@@ -1,0 +1,2712 @@
+{
+  "generatedAt": "2026-08-05T14:52:21.126Z",
+  "methodology": "Read-only extraction of the exact production definitions used in section 14.",
+  "selectedIds": [
+    "campaign_official_launch",
+    "media_economic_morning",
+    "media_open_microphone",
+    "debate_economy_round",
+    "program_pensions",
+    "program_immigration",
+    "internal_rival_interview",
+    "alliance_left_roundtable",
+    "scandal_false_resume",
+    "world_international_crisis",
+    "world_security_attack",
+    "party_lfi_fronde",
+    "party_ps_identity",
+    "party_rn_alliance",
+    "runoff_vote_transfers",
+    "government_prime_minister"
+  ],
+  "events": [
+    {
+      "id": "campaign_official_launch",
+      "title": "Le lancement doit marquer les esprits",
+      "category": "campaign",
+      "summary": "Votre équipe a réservé une salle symbolique pour l’entrée officielle en campagne. Les militants attendent un cap clair, tandis que les journalistes cherchent surtout l’image qui résumera la soirée.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Dérouler trois priorités déjà chiffrées",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "mobilization",
+                  "delta": 3,
+                  "label": "Mobilisation +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": 2,
+                  "label": "Popularité +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "finances",
+                  "delta": -3,
+                  "label": "Trésorerie −3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -2,
+                  "label": "Dynamique −2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Annoncer un objectif national inattendu",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « le lancement doit marquer les esprits » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "mobilization",
+                  "delta": 3,
+                  "label": "Mobilisation +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": 2,
+                  "label": "Popularité +2"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "finances",
+                  "delta": -3,
+                  "label": "Trésorerie −3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -2,
+                  "label": "Dynamique −2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Faire parler des militants de plusieurs territoires",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "mobilization",
+                  "delta": 3,
+                  "label": "Mobilisation +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "finances",
+                  "delta": -3,
+                  "label": "Trésorerie −3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "media_economic_morning",
+      "title": "La matinale qui peut tout changer",
+      "category": "media",
+      "summary": "Une journaliste fictive vous demande de chiffrer votre mesure phare en direct. Le montant exact n’est pas dans vos notes et votre silence commence déjà à sembler trop long.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Donner un ordre de grandeur prudent",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "mediaPresence",
+                  "delta": 4,
+                  "label": "Présence médiatique +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": 2,
+                  "label": "Popularité +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 3,
+                  "label": "Rejet +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -2,
+                  "label": "Crédibilité −2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Tenter le chiffrage détaillé de mémoire",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « la matinale qui peut tout changer » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "mediaPresence",
+                  "delta": 4,
+                  "label": "Présence médiatique +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": 2,
+                  "label": "Popularité +2"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": ["media_fact_check_followup"]
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 3,
+                  "label": "Rejet +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -2,
+                  "label": "Crédibilité −2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Renvoyer au document publié par votre équipe",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "mediaPresence",
+                  "delta": 4,
+                  "label": "Présence médiatique +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 3,
+                  "label": "Rejet +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "media_open_microphone",
+      "title": "Le micro était encore ouvert",
+      "category": "media",
+      "summary": "Après une émission, un micro capte une remarque sèche sur l’organisation de votre équipe fictive. La phrase est réelle dans l’univers du jeu, privée, et déjà partagée.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Reconnaître l’agacement et présenter vos excuses",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "mediaPresence",
+                  "delta": 4,
+                  "label": "Présence médiatique +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": 2,
+                  "label": "Popularité +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 3,
+                  "label": "Rejet +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -2,
+                  "label": "Crédibilité −2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Assumer la critique comme une exigence de campagne",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « le micro était encore ouvert » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "mediaPresence",
+                  "delta": 4,
+                  "label": "Présence médiatique +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": 2,
+                  "label": "Popularité +2"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [
+                {
+                  "afterDecisions": 2,
+                  "effects": [
+                    {
+                      "kind": "party_stat",
+                      "stat": "credibility",
+                      "delta": 1,
+                      "label": "Le pari reste crédible"
+                    }
+                  ],
+                  "narrative": "Deux séquences plus tard, cette décision continue d’être citée comme un moment de clarté."
+                }
+              ],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 3,
+                  "label": "Rejet +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -2,
+                  "label": "Crédibilité −2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debate_economy_round",
+      "title": "Première manche sur l’économie",
+      "category": "debate",
+      "summary": "Le débat télévisé fictif commence par le pouvoir d’achat et le financement des promesses. Votre principal rival attaque la crédibilité de vos chiffres dès sa première intervention.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Répondre avec deux chiffres et une priorité",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 4,
+                  "label": "Crédibilité +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 4,
+                  "label": "Dynamique +4"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": -3,
+                  "label": "Popularité −3"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 3,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Retourner l’attaque sur son propre programme",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « première manche sur l’économie » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 4,
+                  "label": "Crédibilité +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 4,
+                  "label": "Dynamique +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": -3,
+                  "label": "Popularité −3"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 3,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Citer les partenaires ayant construit la mesure",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 4,
+                  "label": "Crédibilité +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": -3,
+                  "label": "Popularité −3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "technical_path",
+          "label": "Répondre point par point avec une démonstration technique",
+          "tag": "TECHNIQUE",
+          "outcomes": [
+            {
+              "id": "technical_success",
+              "title": "Le fond prend le dessus",
+              "narrative": "Votre démonstration reste compréhensible malgré la densité du sujet. Les commentateurs fictifs retiennent une maîtrise précise et plusieurs adversaires doivent revoir leurs éléments de langage.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 5,
+                  "label": "Crédibilité +5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "mediaPresence",
+                  "delta": 1,
+                  "label": "Présence médiatique +1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "technical_setback",
+              "title": "La précision devient du jargon",
+              "narrative": "La réponse accumule les détails jusqu’à perdre le fil politique. Le sérieux n’est pas contesté, mais la séquence laisse au public fictif une impression de distance et de technicité défensive.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": -2,
+                  "label": "Popularité −2"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -2,
+                  "label": "Dynamique −2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "program_pensions",
+      "title": "Votre ligne sur les retraites",
+      "category": "program",
+      "summary": "À trois mois du scrutin, vos réponses sur les retraites sont jugées trop floues. Vous devez fixer un principe, un calendrier et la place du dialogue social.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Ouvrir une conférence sociale avant toute réforme",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": 3,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -2,
+                  "label": "Cohésion −2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": -4,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Fixer immédiatement un nouvel âge légal",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « votre ligne sur les retraites » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": 3,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -2,
+                  "label": "Cohésion −2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": -4,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Proposer une réforme négociée par métiers",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -2,
+                  "label": "Cohésion −2"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "program_immigration",
+      "title": "Immigration et intégration à trancher",
+      "category": "program",
+      "summary": "Vos adversaires fictifs vous pressent de préciser admission, intégration, éloignement et accueil. Une réponse courte sera forcément incomplète, mais le silence ne tient plus. Cette décision met à l’épreuve votre méthode, votre cohérence et la capacité de l’équipe fictive à rester unie.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Distinguer chaque procédure et ses garanties",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": 3,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -2,
+                  "label": "Cohésion −2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": -4,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Annoncer une réforme globale par référendum",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « immigration et intégration à trancher » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": 3,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -2,
+                  "label": "Cohésion −2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": -4,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Chercher un accord parlementaire sur trois mesures",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -2,
+                  "label": "Cohésion −2"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "internal_rival_interview",
+      "title": "Un rival parle trop librement",
+      "category": "internal",
+      "summary": "Un cadre fictif ambitieux accorde une interview où il soutient votre candidature tout en détaillant ce qu’il ferait différemment. Les militants y lisent déjà un positionnement pour l’après.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Le rappeler à la discipline sans sanction publique",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "members",
+                  "delta": 2000,
+                  "label": "Adhérents +2 000"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "rivalAmbition",
+                  "delta": 5,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "L’écarter immédiatement de l’équipe nationale",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « un rival parle trop librement » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "members",
+                  "delta": 2000,
+                  "label": "Adhérents +2 000"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "rivalAmbition",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "L’inviter à défendre sa proposition en réunion",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alliance_left_roundtable",
+      "title": "La gauche cherche une table commune",
+      "category": "alliance",
+      "summary": "Plusieurs partis fictifs proposent une réunion sur quelques candidatures communes et un socle de second tour. Chacun veut l’unité, mais personne ne souhaite céder la première place.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Négocier uniquement des engagements de second tour",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "hidden_stat",
+                  "stat": "transferability",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 2,
+                  "label": "Crédibilité +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 2,
+                  "label": "Rejet +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Proposer une candidature commune immédiate",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « la gauche cherche une table commune » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "hidden_stat",
+                  "stat": "transferability",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 2,
+                  "label": "Crédibilité +2"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 2,
+                  "label": "Rejet +2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Organiser une convention ouverte des sympathisants",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "hidden_stat",
+                  "stat": "transferability",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scandal_false_resume",
+      "title": "Le CV ne correspond pas",
+      "category": "scandal",
+      "summary": "Une qualification inscrite sur le CV de Léonard Pujol, personnage fictif, ne peut être confirmée. Il évoque une erreur ancienne, mais son rôle reposait sur cette expertise.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Le retirer des dossiers concernés pendant la vérification",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Intégrité perçue +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 1,
+                  "label": "Cohésion +1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -5,
+                  "label": "Crédibilité −5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 4,
+                  "label": "Rejet +4"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Mettre fin à toutes ses missions immédiatement",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « le cv ne correspond pas » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Intégrité perçue +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 1,
+                  "label": "Cohésion +1"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -5,
+                  "label": "Crédibilité −5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 4,
+                  "label": "Rejet +4"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Confier la vérification à un cabinet indépendant",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Intégrité perçue +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -5,
+                  "label": "Crédibilité −5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_international_crisis",
+      "title": "Une crise éclate en Europe",
+      "category": "world",
+      "summary": "Une crise diplomatique fictive entre États imaginaires met à l’épreuve les alliances européennes. Aucun affrontement n’est décrit ; la question porte sur coordination, sanctions et autonomie.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Soutenir une réponse européenne graduée",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": 1,
+                  "label": "Popularité +1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -3,
+                  "label": "Crédibilité −3"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 4,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Proposer une initiative française unilatérale",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « une crise éclate en europe » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": 1,
+                  "label": "Popularité +1"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -3,
+                  "label": "Crédibilité −3"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 4,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Réunir publiquement les candidats sur une position commune",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Crédibilité +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": -3,
+                  "label": "Crédibilité −3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_security_attack",
+      "title": "Une attaque endeuille le pays",
+      "category": "world",
+      "summary": "Un attentat fictif, évoqué sans aucun détail graphique, interrompt la campagne. Les autorités demandent retenue et unité pendant que l’enquête suit son cours. Cette décision met à l’épreuve votre méthode, votre cohérence et la capacité de l’équipe fictive à rester unie.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Suspendre toute polémique et respecter le temps national",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Stature +3"
+                },
+                {
+                  "kind": "world",
+                  "stat": "securityConcern",
+                  "delta": 12,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 5,
+                  "label": "Rejet +5"
+                },
+                {
+                  "kind": "world",
+                  "stat": "securityConcern",
+                  "delta": 12,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Présenter rapidement une réponse sécuritaire complète",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « une attaque endeuille le pays » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Stature +3"
+                },
+                {
+                  "kind": "world",
+                  "stat": "securityConcern",
+                  "delta": 12,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 5,
+                  "label": "Rejet +5"
+                },
+                {
+                  "kind": "world",
+                  "stat": "securityConcern",
+                  "delta": 12,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Participer à une déclaration républicaine commune",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 3,
+                  "label": "Stature +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 5,
+                  "label": "Rejet +5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "party_lfi_fronde",
+      "title": "Une fronde grandit chez LFI",
+      "category": "party",
+      "summary": "Dans La France insoumise, des cadres fictifs reprochent au siège une campagne trop centralisée et demandent davantage d’autonomie thématique. La contestation concerne uniquement des personnages fictifs et peut encore rester une discussion organisée.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Recevoir les contestataires et fixer des garanties",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "members",
+                  "delta": 2000,
+                  "label": "Adhérents +2 000"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "rivalAmbition",
+                  "delta": 5,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Menacer les meneurs fictifs d’exclusion",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « une fronde grandit chez lfi » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "members",
+                  "delta": 2000,
+                  "label": "Adhérents +2 000"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": ["party_lfi_crisis_followup"]
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "rivalAmbition",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Convoquer un conseil national extraordinaire",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "party_ps_identity",
+      "title": "PS cherche sa ligne commune",
+      "category": "party",
+      "summary": "Au sein de le Parti socialiste, la synthèse entre ancrage social-démocrate, union de la gauche et autonomie présidentielle reste contestée. Le candidat fictif doit donner une direction compréhensible sans transformer le débat interne en jugement moral.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Clarifier deux priorités sans exclure les sensibilités",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "members",
+                  "delta": 2000,
+                  "label": "Adhérents +2 000"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "rivalAmbition",
+                  "delta": 5,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Imposer une ligne unique jusqu’au premier tour",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « ps cherche sa ligne commune » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "members",
+                  "delta": 2000,
+                  "label": "Adhérents +2 000"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "rivalAmbition",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Faire voter une feuille de route par les adhérents",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 4,
+                  "label": "Cohésion +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "party_rn_alliance",
+      "title": "Une alliance divise RN",
+      "category": "party",
+      "summary": "Reconquête propose à le Rassemblement national des désistements réciproques et une répartition claire des priorités. L’accord pourrait élargir la campagne, mais chaque concession sera relue à travers vos déclarations précédentes.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Négocier un soutien mutuel sans fusionner les programmes",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "alliance",
+                  "partyId": "player",
+                  "withPartyId": "reconquete",
+                  "action": "add",
+                  "label": "Alliance avec Reconquête"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "transferability",
+                  "delta": 5,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": -4,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Conclure immédiatement un accord avec Reconquête",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « une alliance divise rn » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "alliance",
+                  "partyId": "player",
+                  "withPartyId": "reconquete",
+                  "action": "add",
+                  "label": "Alliance avec Reconquête"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "transferability",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "consistency",
+                  "delta": -4,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Soumettre les termes aux adhérents des deux mouvements",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "alliance",
+                  "partyId": "player",
+                  "withPartyId": "reconquete",
+                  "action": "add",
+                  "label": "Alliance avec Reconquête"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -5,
+                  "label": "Cohésion −5"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "runoff_vote_transfers",
+      "title": "Les reports résistent aux consignes",
+      "category": "between_rounds",
+      "summary": "Les électeurs des partis éliminés ne suivent pas mécaniquement leurs dirigeants fictifs. Il faut leur parler sans donner l’impression d’abandonner ceux qui vous ont qualifié.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Présenter trois garanties destinées aux nouveaux soutiens",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "hidden_stat",
+                  "stat": "transferability",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 2,
+                  "label": "Crédibilité +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 2,
+                  "label": "Rejet +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Recentrer entièrement le discours pour le second tour",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « les reports résistent aux consignes » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "hidden_stat",
+                  "stat": "transferability",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 2,
+                  "label": "Crédibilité +2"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "rejection",
+                  "delta": 2,
+                  "label": "Rejet +2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Organiser des réunions avec chaque électorat allié",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "hidden_stat",
+                  "stat": "transferability",
+                  "delta": 5,
+                  "visibility": "hidden"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "government_prime_minister",
+      "title": "Choisir la tête du gouvernement",
+      "category": "government",
+      "summary": "Votre victoire fictive exige un premier choix symbolique. Une personnalité loyale, une experte indépendante ou une figure de coalition n’enverront pas le même signal. Cette décision met à l’épreuve votre méthode, votre cohérence et la capacité de l’équipe fictive à rester unie.",
+      "choices": [
+        {
+          "id": "prudent_response",
+          "label": "Nommer une personnalité expérimentée et compatible",
+          "tag": "PRUDENT",
+          "outcomes": [
+            {
+              "id": "measured_success",
+              "title": "Une réponse qui rassure",
+              "narrative": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 4,
+                  "label": "Autorité de départ +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "cautious_setback",
+              "title": "La prudence ressemble à une hésitation",
+              "narrative": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": -2,
+                  "label": "Popularité −2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "risk_breakthrough",
+          "label": "Choisir une figure indépendante totalement inattendue",
+          "tag": "RISQUÉ",
+          "outcomes": [
+            {
+              "id": "viral_success",
+              "title": "Le pari crée une ouverture",
+              "narrative": "Votre pari sur « choisir la tête du gouvernement » surprend jusque dans votre équipe. Le récit s’impose dans l’actualité et ouvre un espace que vos adversaires fictifs n’avaient pas anticipé.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 4,
+                  "label": "Autorité de départ +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": 2,
+                  "label": "Dynamique +2"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "risk_setback",
+              "title": "Le pari se retourne",
+              "narrative": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "popularity",
+                  "delta": -2,
+                  "label": "Popularité −2"
+                },
+                {
+                  "kind": "hidden_stat",
+                  "stat": "fatigue",
+                  "delta": 2,
+                  "visibility": "hidden"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        },
+        {
+          "id": "collective_path",
+          "label": "Faire proposer un nom par la coalition",
+          "tag": "RASSEMBLEUR",
+          "outcomes": [
+            {
+              "id": "collective_success",
+              "title": "Le collectif tient",
+              "narrative": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "credibility",
+                  "delta": 4,
+                  "label": "Autorité de départ +4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": 3,
+                  "label": "Cohésion +3"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            },
+            {
+              "id": "collective_blur",
+              "title": "Le compromis devient illisible",
+              "narrative": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+              "effects": [
+                {
+                  "kind": "party_stat",
+                  "stat": "cohesion",
+                  "delta": -4,
+                  "label": "Cohésion −4"
+                },
+                {
+                  "kind": "party_stat",
+                  "stat": "momentum",
+                  "delta": -1,
+                  "label": "Dynamique −1"
+                }
+              ],
+              "delayedEffects": [],
+              "enqueueEventIds": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

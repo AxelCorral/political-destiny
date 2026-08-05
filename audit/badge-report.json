@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-08-05T15:11:23.199Z",
+  "methodology": {
+    "scope": "All 58 achievement definitions, production effects and the 5,400-run simulation.",
+    "command": "npx tsx scripts/audit/badge-audit.ts",
+    "caveat": "Absence in simulation is not by itself proof of impossibility; structural findings below include an independent code or upper-bound proof."
+  },
+  "inventory": {
+    "totalAchievements": 58,
+    "observedInExistingPartySimulation": 48,
+    "unobservedInExistingPartySimulation": [
+      "kingmaker",
+      "new_party",
+      "random_destiny",
+      "solvent",
+      "coalition",
+      "chameleon",
+      "historic_score",
+      "perfect_campaign",
+      "million_members",
+      "secret_ending"
+    ]
+  },
+  "structuralImpossibilities": [
+    {
+      "ids": ["kingmaker", "secret_ending"],
+      "proof": "scoreGame calls evaluateAchievements with provisional.endingId='' before endingForState assigns the actual ending.",
+      "corroboration": {
+        "kingmakerEndingRuns": 1858,
+        "kingmakerBadgeRuns": 0
+      }
+    },
+    {
+      "ids": ["historic_score", "perfect_campaign"],
+      "proof": "scoreGame calls evaluateAchievements with provisional.score=0 before summing the score breakdown.",
+      "corroboration": {
+        "runsInScoreBucket90To99": 18,
+        "historicScoreBadgeRuns": 0,
+        "perfectCampaignBadgeRuns": 0
+      }
+    },
+    {
+      "ids": ["coalition"],
+      "proof": "Each existing party has one eligible party-specific alliance event and custom parties have none; the badge requires two allies.",
+      "corroboration": {
+        "maximumAlliancesObservedIn900DynamicRuns": 1
+      }
+    },
+    {
+      "ids": ["solvent"],
+      "proof": "The maximum initial finances are 73; production event effects contain no positive finance delta, while the badge requires 80.",
+      "corroboration": {
+        "maximumInitialFinances": 73,
+        "positiveFinanceEffectCount": 0
+      }
+    },
+    {
+      "ids": ["million_members"],
+      "proof": "Even the deliberately generous upper bound of applying the largest positive member delta at every target decision remains below one million.",
+      "corroboration": {
+        "maximumInitialMembers": 170000,
+        "largestPositiveMemberDelta": 2000,
+        "maximumTargetDecisions": 31,
+        "generousUpperBound": 232000
+      }
+    }
+  ],
+  "automaticOrNearAutomaticInSimulation": [
+    {
+      "id": "campaign_complete",
+      "count": 5400
+    },
+    {
+      "id": "first_choice",
+      "count": 5400
+    },
+    {
+      "id": "first_poll",
+      "count": 5400
+    },
+    {
+      "id": "ten_good_outcomes",
+      "count": 5400
+    }
+  ],
+  "observedFrequency": [
+    {
+      "id": "campaign_complete",
+      "count": 5400
+    },
+    {
+      "id": "first_choice",
+      "count": 5400
+    },
+    {
+      "id": "first_poll",
+      "count": 5400
+    },
+    {
+      "id": "ten_good_outcomes",
+      "count": 5400
+    },
+    {
+      "id": "debate_master",
+      "count": 4690
+    },
+    {
+      "id": "viral",
+      "count": 3122
+    },
+    {
+      "id": "risk_taker",
+      "count": 2719
+    },
+    {
+      "id": "prudent",
+      "count": 2701
+    },
+    {
+      "id": "credible",
+      "count": 2678
+    },
+    {
+      "id": "united",
+      "count": 2244
+    },
+    {
+      "id": "media_wave",
+      "count": 1919
+    },
+    {
+      "id": "runoff",
+      "count": 1871
+    },
+    {
+      "id": "hundred_members",
+      "count": 1800
+    },
+    {
+      "id": "mobilized",
+      "count": 1434
+    },
+    {
+      "id": "momentum",
+      "count": 1350
+    },
+    {
+      "id": "elysee",
+      "count": 1338
+    },
+    {
+      "id": "thirty_decisions",
+      "count": 1338
+    },
+    {
+      "id": "three_scandals",
+      "count": 1079
+    },
+    {
+      "id": "second_place",
+      "count": 899
+    },
+    {
+      "id": "local_roots",
+      "count": 600
+    },
+    {
+      "id": "played_ecologistes",
+      "count": 600
+    },
+    {
+      "id": "played_horizons",
+      "count": 600
+    },
+    {
+      "id": "played_lfi",
+      "count": 600
+    },
+    {
+      "id": "played_lr",
+      "count": 600
+    },
+    {
+      "id": "played_nouvelle_energie",
+      "count": 600
+    },
+    {
+      "id": "played_ps",
+      "count": 600
+    },
+    {
+      "id": "played_reconquete",
+      "count": 600
+    },
+    {
+      "id": "played_renaissance",
+      "count": 600
+    },
+    {
+      "id": "played_rn",
+      "count": 600
+    },
+    {
+      "id": "won_rn",
+      "count": 411
+    },
+    {
+      "id": "transparent",
+      "count": 383
+    },
+    {
+      "id": "no_scandal",
+      "count": 373
+    },
+    {
+      "id": "underdog",
+      "count": 338
+    },
+    {
+      "id": "won_ps",
+      "count": 312
+    },
+    {
+      "id": "won_renaissance",
+      "count": 300
+    },
+    {
+      "id": "comeback",
+      "count": 292
+    },
+    {
+      "id": "won_lr",
+      "count": 154
+    },
+    {
+      "id": "from_under_eight",
+      "count": 153
+    },
+    {
+      "id": "all_topics",
+      "count": 140
+    },
+    {
+      "id": "loyal",
+      "count": 79
+    },
+    {
+      "id": "won_horizons",
+      "count": 74
+    },
+    {
+      "id": "close_victory",
+      "count": 50
+    },
+    {
+      "id": "won_lfi",
+      "count": 47
+    },
+    {
+      "id": "without_compromise",
+      "count": 30
+    },
+    {
+      "id": "won_nouvelle_energie",
+      "count": 22
+    },
+    {
+      "id": "won_ecologistes",
+      "count": 17
+    },
+    {
+      "id": "popular",
+      "count": 11
+    },
+    {
+      "id": "won_reconquete",
+      "count": 1
+    }
+  ]
+}

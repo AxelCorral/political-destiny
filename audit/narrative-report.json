@@ -1,0 +1,712 @@
+{
+  "generatedAt": "2026-08-05T15:09:22.575Z",
+  "methodology": {
+    "scope": "All production event titles, summaries, choice labels, outcome titles and narratives.",
+    "normalization": "Unicode NFD, lower case, punctuation collapsed; no semantic model used.",
+    "command": "npx tsx scripts/audit/narrative-audit.ts"
+  },
+  "fieldCounts": {
+    "analyzedTextFields": 3029,
+    "eventSummaries": 182,
+    "choiceLabels": 533,
+    "outcomeNarratives": 1066
+  },
+  "lengthsInWords": {
+    "summaries": {
+      "minimum": 25,
+      "average": 30.87912087912088,
+      "maximum": 42
+    },
+    "choices": {
+      "minimum": 4,
+      "average": 6.8836772983114445,
+      "maximum": 10
+    },
+    "outcomes": {
+      "minimum": 23,
+      "average": 27.394934333958723,
+      "maximum": 33
+    }
+  },
+  "summaryPadding": {
+    "exactSupplement": "Cette décision met à l’épreuve votre méthode, votre cohérence et la capacité de l’équipe fictive à rester unie.",
+    "eventCount": 28,
+    "eventIds": [
+      "campaign_slogan_test",
+      "media_live_stream",
+      "media_local_press",
+      "media_past_words",
+      "program_wages",
+      "program_energy",
+      "program_immigration",
+      "program_institutions",
+      "program_climate_adaptation",
+      "internal_congress_motion",
+      "internal_financial_review",
+      "internal_volunteer_conflict",
+      "alliance_center_pact",
+      "alliance_fictional_celebrity",
+      "world_security_attack",
+      "world_energy_price_spike",
+      "world_housing_protest",
+      "rare_printer_slogan",
+      "rare_exceptional_powers",
+      "rare_fragmented_congress",
+      "rare_national_union",
+      "runoff_endorsement_wave",
+      "runoff_favorite_pressure",
+      "runoff_common_program",
+      "runoff_last_hours",
+      "government_prime_minister",
+      "government_balance",
+      "government_ministry_conflict"
+    ]
+  },
+  "phraseFrequencies": [
+    {
+      "phrase": "jouer la carte de",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "rassembler",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "rassembleur",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "prendre la parole",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "contre-attaquer",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "faire profil bas",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "afficher sa fermeté",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "créer la surprise",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "votre équipe",
+      "count": 376,
+      "locations": [
+        "event:campaign_official_launch:summary",
+        "event:campaign_official_launch:outcome:cautious_setback:narrative",
+        "event:campaign_official_launch:outcome:viral_success:narrative",
+        "event:campaign_factory_visit:outcome:cautious_setback:narrative",
+        "event:campaign_factory_visit:outcome:viral_success:narrative",
+        "event:campaign_market_walkabout:outcome:cautious_setback:narrative",
+        "event:campaign_market_walkabout:outcome:viral_success:narrative",
+        "event:campaign_volunteer_surge:outcome:cautious_setback:narrative",
+        "event:campaign_volunteer_surge:outcome:viral_success:narrative",
+        "event:campaign_poster_shortage:outcome:cautious_setback:narrative",
+        "event:campaign_poster_shortage:outcome:viral_success:narrative",
+        "event:campaign_endorsements_missing:outcome:cautious_setback:narrative",
+        "event:campaign_endorsements_missing:outcome:viral_success:narrative",
+        "event:campaign_budget_arbitration:outcome:cautious_setback:narrative",
+        "event:campaign_budget_arbitration:outcome:viral_success:narrative",
+        "event:campaign_regional_rally:outcome:cautious_setback:narrative",
+        "event:campaign_regional_rally:outcome:viral_success:narrative",
+        "event:campaign_door_to_door:outcome:cautious_setback:narrative",
+        "event:campaign_door_to_door:outcome:viral_success:narrative",
+        "event:campaign_bus_breakdown:outcome:cautious_setback:narrative",
+        "event:campaign_bus_breakdown:outcome:viral_success:narrative",
+        "event:campaign_citizens_convention:outcome:cautious_setback:narrative",
+        "event:campaign_citizens_convention:outcome:viral_success:narrative",
+        "event:campaign_farmers_roundtable:outcome:cautious_setback:narrative",
+        "event:campaign_farmers_roundtable:outcome:viral_success:narrative",
+        "event:campaign_student_forum:outcome:cautious_setback:narrative",
+        "event:campaign_student_forum:outcome:viral_success:narrative",
+        "event:campaign_hospital_night:outcome:cautious_setback:narrative",
+        "event:campaign_hospital_night:outcome:viral_success:narrative",
+        "event:campaign_small_business:outcome:cautious_setback:narrative"
+      ]
+    },
+    {
+      "phrase": "les réseaux s’enflamment",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "phrase": "la séquence",
+      "count": 195,
+      "locations": [
+        "event:campaign_official_launch:outcome:cautious_setback:narrative",
+        "event:campaign_factory_visit:outcome:cautious_setback:narrative",
+        "event:campaign_market_walkabout:outcome:cautious_setback:narrative",
+        "event:campaign_volunteer_surge:outcome:cautious_setback:narrative",
+        "event:campaign_poster_shortage:outcome:cautious_setback:narrative",
+        "event:campaign_endorsements_missing:outcome:cautious_setback:narrative",
+        "event:campaign_budget_arbitration:outcome:cautious_setback:narrative",
+        "event:campaign_regional_rally:outcome:cautious_setback:narrative",
+        "event:campaign_door_to_door:outcome:cautious_setback:narrative",
+        "event:campaign_bus_breakdown:outcome:cautious_setback:narrative",
+        "event:campaign_citizens_convention:outcome:cautious_setback:narrative",
+        "event:campaign_farmers_roundtable:outcome:cautious_setback:narrative",
+        "event:campaign_student_forum:outcome:cautious_setback:narrative",
+        "event:campaign_hospital_night:summary",
+        "event:campaign_hospital_night:outcome:cautious_setback:narrative",
+        "event:campaign_small_business:outcome:cautious_setback:narrative",
+        "event:campaign_peripheral_town:outcome:cautious_setback:narrative",
+        "event:campaign_overseas_trip:outcome:cautious_setback:narrative",
+        "event:campaign_overseas_trip:choice:collective_path",
+        "event:campaign_rural_desert:outcome:cautious_setback:narrative",
+        "event:campaign_union_meeting:outcome:cautious_setback:narrative",
+        "event:campaign_donation_drive:outcome:cautious_setback:narrative",
+        "event:campaign_rally_security:outcome:cautious_setback:narrative",
+        "event:campaign_calendar_conflict:outcome:cautious_setback:narrative",
+        "event:campaign_slogan_test:outcome:cautious_setback:narrative",
+        "event:campaign_weather_disaster:outcome:cautious_setback:narrative",
+        "event:campaign_final_rally:outcome:cautious_setback:narrative",
+        "event:media_economic_morning:outcome:cautious_setback:narrative",
+        "event:media_unflattering_photo:summary",
+        "event:media_unflattering_photo:outcome:cautious_setback:narrative"
+      ]
+    },
+    {
+      "phrase": "le récit s’impose",
+      "count": 182,
+      "locations": [
+        "event:campaign_official_launch:outcome:viral_success:narrative",
+        "event:campaign_factory_visit:outcome:viral_success:narrative",
+        "event:campaign_market_walkabout:outcome:viral_success:narrative",
+        "event:campaign_volunteer_surge:outcome:viral_success:narrative",
+        "event:campaign_poster_shortage:outcome:viral_success:narrative",
+        "event:campaign_endorsements_missing:outcome:viral_success:narrative",
+        "event:campaign_budget_arbitration:outcome:viral_success:narrative",
+        "event:campaign_regional_rally:outcome:viral_success:narrative",
+        "event:campaign_door_to_door:outcome:viral_success:narrative",
+        "event:campaign_bus_breakdown:outcome:viral_success:narrative",
+        "event:campaign_citizens_convention:outcome:viral_success:narrative",
+        "event:campaign_farmers_roundtable:outcome:viral_success:narrative",
+        "event:campaign_student_forum:outcome:viral_success:narrative",
+        "event:campaign_hospital_night:outcome:viral_success:narrative",
+        "event:campaign_small_business:outcome:viral_success:narrative",
+        "event:campaign_peripheral_town:outcome:viral_success:narrative",
+        "event:campaign_overseas_trip:outcome:viral_success:narrative",
+        "event:campaign_rural_desert:outcome:viral_success:narrative",
+        "event:campaign_union_meeting:outcome:viral_success:narrative",
+        "event:campaign_donation_drive:outcome:viral_success:narrative",
+        "event:campaign_rally_security:outcome:viral_success:narrative",
+        "event:campaign_calendar_conflict:outcome:viral_success:narrative",
+        "event:campaign_slogan_test:outcome:viral_success:narrative",
+        "event:campaign_weather_disaster:outcome:viral_success:narrative",
+        "event:campaign_final_rally:outcome:viral_success:narrative",
+        "event:media_economic_morning:outcome:viral_success:narrative",
+        "event:media_unflattering_photo:outcome:viral_success:narrative",
+        "event:media_short_video:outcome:viral_success:narrative",
+        "event:media_long_podcast:outcome:viral_success:narrative",
+        "event:media_fictional_editorial_support:outcome:viral_success:narrative"
+      ]
+    },
+    {
+      "phrase": "angle d’attaque inattendu",
+      "count": 182,
+      "locations": [
+        "event:campaign_official_launch:outcome:risk_setback:narrative",
+        "event:campaign_factory_visit:outcome:risk_setback:narrative",
+        "event:campaign_market_walkabout:outcome:risk_setback:narrative",
+        "event:campaign_volunteer_surge:outcome:risk_setback:narrative",
+        "event:campaign_poster_shortage:outcome:risk_setback:narrative",
+        "event:campaign_endorsements_missing:outcome:risk_setback:narrative",
+        "event:campaign_budget_arbitration:outcome:risk_setback:narrative",
+        "event:campaign_regional_rally:outcome:risk_setback:narrative",
+        "event:campaign_door_to_door:outcome:risk_setback:narrative",
+        "event:campaign_bus_breakdown:outcome:risk_setback:narrative",
+        "event:campaign_citizens_convention:outcome:risk_setback:narrative",
+        "event:campaign_farmers_roundtable:outcome:risk_setback:narrative",
+        "event:campaign_student_forum:outcome:risk_setback:narrative",
+        "event:campaign_hospital_night:outcome:risk_setback:narrative",
+        "event:campaign_small_business:outcome:risk_setback:narrative",
+        "event:campaign_peripheral_town:outcome:risk_setback:narrative",
+        "event:campaign_overseas_trip:outcome:risk_setback:narrative",
+        "event:campaign_rural_desert:outcome:risk_setback:narrative",
+        "event:campaign_union_meeting:outcome:risk_setback:narrative",
+        "event:campaign_donation_drive:outcome:risk_setback:narrative",
+        "event:campaign_rally_security:outcome:risk_setback:narrative",
+        "event:campaign_calendar_conflict:outcome:risk_setback:narrative",
+        "event:campaign_slogan_test:outcome:risk_setback:narrative",
+        "event:campaign_weather_disaster:outcome:risk_setback:narrative",
+        "event:campaign_final_rally:outcome:risk_setback:narrative",
+        "event:media_economic_morning:outcome:risk_setback:narrative",
+        "event:media_unflattering_photo:outcome:risk_setback:narrative",
+        "event:media_short_video:outcome:risk_setback:narrative",
+        "event:media_long_podcast:outcome:risk_setback:narrative",
+        "event:media_fictional_editorial_support:outcome:risk_setback:narrative"
+      ]
+    },
+    {
+      "phrase": "adversaires fictifs",
+      "count": 365,
+      "locations": [
+        "event:campaign_official_launch:outcome:viral_success:narrative",
+        "event:campaign_official_launch:outcome:risk_setback:narrative",
+        "event:campaign_factory_visit:outcome:viral_success:narrative",
+        "event:campaign_factory_visit:outcome:risk_setback:narrative",
+        "event:campaign_market_walkabout:outcome:viral_success:narrative",
+        "event:campaign_market_walkabout:outcome:risk_setback:narrative",
+        "event:campaign_volunteer_surge:outcome:viral_success:narrative",
+        "event:campaign_volunteer_surge:outcome:risk_setback:narrative",
+        "event:campaign_poster_shortage:outcome:viral_success:narrative",
+        "event:campaign_poster_shortage:outcome:risk_setback:narrative",
+        "event:campaign_endorsements_missing:outcome:viral_success:narrative",
+        "event:campaign_endorsements_missing:outcome:risk_setback:narrative",
+        "event:campaign_budget_arbitration:outcome:viral_success:narrative",
+        "event:campaign_budget_arbitration:outcome:risk_setback:narrative",
+        "event:campaign_regional_rally:outcome:viral_success:narrative",
+        "event:campaign_regional_rally:outcome:risk_setback:narrative",
+        "event:campaign_door_to_door:outcome:viral_success:narrative",
+        "event:campaign_door_to_door:outcome:risk_setback:narrative",
+        "event:campaign_bus_breakdown:outcome:viral_success:narrative",
+        "event:campaign_bus_breakdown:outcome:risk_setback:narrative",
+        "event:campaign_citizens_convention:outcome:viral_success:narrative",
+        "event:campaign_citizens_convention:outcome:risk_setback:narrative",
+        "event:campaign_farmers_roundtable:outcome:viral_success:narrative",
+        "event:campaign_farmers_roundtable:outcome:risk_setback:narrative",
+        "event:campaign_student_forum:outcome:viral_success:narrative",
+        "event:campaign_student_forum:outcome:risk_setback:narrative",
+        "event:campaign_hospital_night:outcome:viral_success:narrative",
+        "event:campaign_hospital_night:outcome:risk_setback:narrative",
+        "event:campaign_small_business:outcome:viral_success:narrative",
+        "event:campaign_small_business:outcome:risk_setback:narrative"
+      ]
+    },
+    {
+      "phrase": "équipe fictive",
+      "count": 29,
+      "locations": [
+        "event:campaign_slogan_test:summary",
+        "event:media_open_microphone:summary",
+        "event:media_live_stream:summary",
+        "event:media_local_press:summary",
+        "event:media_past_words:summary",
+        "event:program_wages:summary",
+        "event:program_energy:summary",
+        "event:program_immigration:summary",
+        "event:program_institutions:summary",
+        "event:program_climate_adaptation:summary",
+        "event:internal_congress_motion:summary",
+        "event:internal_financial_review:summary",
+        "event:internal_volunteer_conflict:summary",
+        "event:alliance_center_pact:summary",
+        "event:alliance_fictional_celebrity:summary",
+        "event:world_security_attack:summary",
+        "event:world_energy_price_spike:summary",
+        "event:world_housing_protest:summary",
+        "event:rare_printer_slogan:summary",
+        "event:rare_exceptional_powers:summary",
+        "event:rare_fragmented_congress:summary",
+        "event:rare_national_union:summary",
+        "event:runoff_endorsement_wave:summary",
+        "event:runoff_favorite_pressure:summary",
+        "event:runoff_common_program:summary",
+        "event:runoff_last_hours:summary",
+        "event:government_prime_minister:summary",
+        "event:government_balance:summary",
+        "event:government_ministry_conflict:summary"
+      ]
+    },
+    {
+      "phrase": "le pari",
+      "count": 364,
+      "locations": [
+        "event:campaign_official_launch:outcome:viral_success:title",
+        "event:campaign_official_launch:outcome:risk_setback:title",
+        "event:campaign_factory_visit:outcome:viral_success:title",
+        "event:campaign_factory_visit:outcome:risk_setback:title",
+        "event:campaign_market_walkabout:outcome:viral_success:title",
+        "event:campaign_market_walkabout:outcome:risk_setback:title",
+        "event:campaign_volunteer_surge:outcome:viral_success:title",
+        "event:campaign_volunteer_surge:outcome:risk_setback:title",
+        "event:campaign_poster_shortage:outcome:viral_success:title",
+        "event:campaign_poster_shortage:outcome:risk_setback:title",
+        "event:campaign_endorsements_missing:outcome:viral_success:title",
+        "event:campaign_endorsements_missing:outcome:risk_setback:title",
+        "event:campaign_budget_arbitration:outcome:viral_success:title",
+        "event:campaign_budget_arbitration:outcome:risk_setback:title",
+        "event:campaign_regional_rally:outcome:viral_success:title",
+        "event:campaign_regional_rally:outcome:risk_setback:title",
+        "event:campaign_door_to_door:outcome:viral_success:title",
+        "event:campaign_door_to_door:outcome:risk_setback:title",
+        "event:campaign_bus_breakdown:outcome:viral_success:title",
+        "event:campaign_bus_breakdown:outcome:risk_setback:title",
+        "event:campaign_citizens_convention:outcome:viral_success:title",
+        "event:campaign_citizens_convention:outcome:risk_setback:title",
+        "event:campaign_farmers_roundtable:outcome:viral_success:title",
+        "event:campaign_farmers_roundtable:outcome:risk_setback:title",
+        "event:campaign_student_forum:outcome:viral_success:title",
+        "event:campaign_student_forum:outcome:risk_setback:title",
+        "event:campaign_hospital_night:outcome:viral_success:title",
+        "event:campaign_hospital_night:outcome:risk_setback:title",
+        "event:campaign_small_business:outcome:viral_success:title",
+        "event:campaign_small_business:outcome:risk_setback:title"
+      ]
+    },
+    {
+      "phrase": "la prudence",
+      "count": 364,
+      "locations": [
+        "event:campaign_official_launch:outcome:cautious_setback:title",
+        "event:campaign_official_launch:outcome:cautious_setback:narrative",
+        "event:campaign_factory_visit:outcome:cautious_setback:title",
+        "event:campaign_factory_visit:outcome:cautious_setback:narrative",
+        "event:campaign_market_walkabout:outcome:cautious_setback:title",
+        "event:campaign_market_walkabout:outcome:cautious_setback:narrative",
+        "event:campaign_volunteer_surge:outcome:cautious_setback:title",
+        "event:campaign_volunteer_surge:outcome:cautious_setback:narrative",
+        "event:campaign_poster_shortage:outcome:cautious_setback:title",
+        "event:campaign_poster_shortage:outcome:cautious_setback:narrative",
+        "event:campaign_endorsements_missing:outcome:cautious_setback:title",
+        "event:campaign_endorsements_missing:outcome:cautious_setback:narrative",
+        "event:campaign_budget_arbitration:outcome:cautious_setback:title",
+        "event:campaign_budget_arbitration:outcome:cautious_setback:narrative",
+        "event:campaign_regional_rally:outcome:cautious_setback:title",
+        "event:campaign_regional_rally:outcome:cautious_setback:narrative",
+        "event:campaign_door_to_door:outcome:cautious_setback:title",
+        "event:campaign_door_to_door:outcome:cautious_setback:narrative",
+        "event:campaign_bus_breakdown:outcome:cautious_setback:title",
+        "event:campaign_bus_breakdown:outcome:cautious_setback:narrative",
+        "event:campaign_citizens_convention:outcome:cautious_setback:title",
+        "event:campaign_citizens_convention:outcome:cautious_setback:narrative",
+        "event:campaign_farmers_roundtable:outcome:cautious_setback:title",
+        "event:campaign_farmers_roundtable:outcome:cautious_setback:narrative",
+        "event:campaign_student_forum:outcome:cautious_setback:title",
+        "event:campaign_student_forum:outcome:cautious_setback:narrative",
+        "event:campaign_hospital_night:outcome:cautious_setback:title",
+        "event:campaign_hospital_night:outcome:cautious_setback:narrative",
+        "event:campaign_small_business:outcome:cautious_setback:title",
+        "event:campaign_small_business:outcome:cautious_setback:narrative"
+      ]
+    }
+  ],
+  "narrativePerson": {
+    "tutoiementTokens": 0,
+    "secondPersonPluralTokens": 1665
+  },
+  "fictionQualifierTokens": {
+    "fictif": 72,
+    "fictive": 81,
+    "fictifs": 425,
+    "fictives": 174,
+    "total": 752
+  },
+  "top50RepeatedExpressions": [
+    {
+      "expression": "la campagne",
+      "count": 377,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "votre equipe",
+      "count": 376,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "adversaires fictifs",
+      "count": 365,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "la prudence",
+      "count": 364,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "le pari",
+      "count": 364,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "la sequence",
+      "count": 195,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "plusieurs adversaires",
+      "count": 192,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "la campagne mais",
+      "count": 191,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "campagne mais",
+      "count": 191,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "une reponse",
+      "count": 189,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "equipe le",
+      "count": 187,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "une partie",
+      "count": 185,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "votre position",
+      "count": 184,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "du temps",
+      "count": 184,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "une partie de",
+      "count": 183,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "votre equipe doit",
+      "count": 183,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "votre equipe le",
+      "count": 183,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "vos adversaires fictifs",
+      "count": 183,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "votre reponse",
+      "count": 183,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "aupres des",
+      "count": 183,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "partie de",
+      "count": 183,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "equipe doit",
+      "count": 183,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "un message",
+      "count": 183,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "le recit",
+      "count": 183,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "vos adversaires",
+      "count": 183,
+      "documents": 182,
+      "size": 2
+    },
+    {
+      "expression": "une reponse qui rassure",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "reponse qui rassure votre",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "qui rassure votre reponse",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "rassure votre reponse cette",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "votre reponse cette sequence",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "reponse cette sequence est",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "cette sequence est jugee",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "sequence est jugee solide",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "est jugee solide et",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "jugee solide et proportionnee",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "solide et proportionnee elle",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "et proportionnee elle ne",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "proportionnee elle ne renverse",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "elle ne renverse pas",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "ne renverse pas seule",
+      "count": 182,
+      "documents": 182,
+      "size": 4
+    },
+    {
+      "expression": "une reponse qui",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "reponse qui rassure",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "qui rassure votre",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "rassure votre reponse",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "votre reponse cette",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "reponse cette sequence",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "cette sequence est",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "sequence est jugee",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "est jugee solide",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    },
+    {
+      "expression": "jugee solide et",
+      "count": 182,
+      "documents": 182,
+      "size": 3
+    }
+  ]
+}

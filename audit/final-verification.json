@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-05T17:43:53.8805752+02:00",
+  "scope": "Final verification after audit scripts and report were complete.",
+  "checks": {
+    "formatCheck": {
+      "command": "npm run format:check",
+      "status": "passed"
+    },
+    "lint": {
+      "command": "npm run lint",
+      "status": "passed",
+      "warnings": 0,
+      "errors": 0
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "status": "passed"
+    },
+    "dataValidation": {
+      "command": "npm run data:validate",
+      "status": "passed",
+      "events": 182,
+      "achievements": 58
+    },
+    "build": {
+      "command": "npm run build",
+      "status": "passed",
+      "compiledInSeconds": 6.6
+    },
+    "npmAudit": {
+      "command": "npm audit --audit-level=high",
+      "status": "passed",
+      "vulnerabilities": 0
+    },
+    "vitestDefault": {
+      "command": "npm run test",
+      "status": "flaky_timeout",
+      "latestResult": {
+        "passed": 37,
+        "failed": 1,
+        "total": 38
+      },
+      "failure": "The property-based complete-campaign test exceeded Vitest's default 5,000 ms timeout and completed in about 5.3 to 6.2 seconds when given more time.",
+      "functionalAssertionFailure": false
+    },
+    "vitestExtended": {
+      "command": "npx vitest run --coverage --testTimeout=15000 --reporter=json --outputFile=audit/vitest-report.json",
+      "status": "passed",
+      "passed": 38,
+      "failed": 0,
+      "total": 38
+    },
+    "playwrightParallel": {
+      "command": "npm run test:e2e",
+      "status": "flaky_timeout",
+      "passed": 17,
+      "failed": 1,
+      "skipped": 6,
+      "total": 24,
+      "failure": "The initial fiction dialog was not found within 5 seconds during one parallel run on a filesystem reported as slow."
+    },
+    "playwrightTargetedRetry": {
+      "command": "npx playwright test e2e/game.spec.ts:206 --project=chromium",
+      "status": "passed",
+      "passed": 1,
+      "failed": 0
+    },
+    "playwrightSerial": {
+      "command": "npx playwright test --workers=1",
+      "status": "passed",
+      "passed": 18,
+      "failed": 0,
+      "skipped": 6,
+      "total": 24
+    }
+  }
+}

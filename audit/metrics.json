@@ -1,0 +1,984 @@
+{
+  "generatedAt": "2026-08-05T15:46:20.136Z",
+  "auditedCommit": "96c0ae2",
+  "content": {
+    "totalEvents": 182,
+    "totalChoices": 533,
+    "averageChoicesPerEvent": 2.929,
+    "eventsByChoiceCount": {
+      "2": 22,
+      "3": 151,
+      "4": 9,
+      "5": 0
+    },
+    "eventsWithOtherChoiceCount": 0,
+    "uniqueChoiceTextsExact": 385,
+    "uniqueChoiceTextsNormalized": 385,
+    "totalOutcomes": 1066,
+    "uniqueOutcomeNarrativesExact": 189,
+    "uniqueOutcomeNarrativesNormalized": 189,
+    "uniqueOutcomeTitlesExact": 8,
+    "genericEvents": 128,
+    "partySpecificEvents": 54,
+    "partySpecificEventIds": [
+      "party_lfi_identity",
+      "party_lfi_fronde",
+      "party_lfi_alliance",
+      "party_lfi_signature",
+      "party_lfi_local_asset",
+      "party_lfi_crisis_followup",
+      "party_ps_identity",
+      "party_ps_fronde",
+      "party_ps_alliance",
+      "party_ps_signature",
+      "party_ps_local_asset",
+      "party_ps_crisis_followup",
+      "party_ecologistes_identity",
+      "party_ecologistes_fronde",
+      "party_ecologistes_alliance",
+      "party_ecologistes_signature",
+      "party_ecologistes_local_asset",
+      "party_ecologistes_crisis_followup",
+      "party_renaissance_identity",
+      "party_renaissance_fronde",
+      "party_renaissance_alliance",
+      "party_renaissance_signature",
+      "party_renaissance_local_asset",
+      "party_renaissance_crisis_followup",
+      "party_horizons_identity",
+      "party_horizons_fronde",
+      "party_horizons_alliance",
+      "party_horizons_signature",
+      "party_horizons_local_asset",
+      "party_horizons_crisis_followup",
+      "party_lr_identity",
+      "party_lr_fronde",
+      "party_lr_alliance",
+      "party_lr_signature",
+      "party_lr_local_asset",
+      "party_lr_crisis_followup",
+      "party_rn_identity",
+      "party_rn_fronde",
+      "party_rn_alliance",
+      "party_rn_signature",
+      "party_rn_local_asset",
+      "party_rn_crisis_followup",
+      "party_reconquete_identity",
+      "party_reconquete_fronde",
+      "party_reconquete_alliance",
+      "party_reconquete_signature",
+      "party_reconquete_local_asset",
+      "party_reconquete_crisis_followup",
+      "party_nouvelle_energie_identity",
+      "party_nouvelle_energie_fronde",
+      "party_nouvelle_energie_alliance",
+      "party_nouvelle_energie_signature",
+      "party_nouvelle_energie_local_asset",
+      "party_nouvelle_energie_crisis_followup"
+    ],
+    "ideologySpecificEvents": 0,
+    "ideologySpecificEventIds": [],
+    "phaseSpecificEvents": 58,
+    "rareEvents": 9,
+    "decisiveEvents": 125,
+    "chainSources": 11,
+    "chainEdges": 11,
+    "eventsParticipatingInChains": 22,
+    "averageChainDepth": 1,
+    "maximumChainDepth": 1,
+    "chainDepths": [
+      {
+        "root": "media_economic_morning",
+        "depth": 1
+      },
+      {
+        "root": "scandal_treasurer_invoices",
+        "depth": 1
+      },
+      {
+        "root": "party_lfi_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_ps_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_ecologistes_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_renaissance_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_horizons_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_lr_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_rn_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_reconquete_fronde",
+        "depth": 1
+      },
+      {
+        "root": "party_nouvelle_energie_fronde",
+        "depth": 1
+      }
+    ],
+    "uniqueChoiceTextPercentage": 72.23,
+    "uniqueOutcomeNarrativePercentage": 17.73,
+    "uniqueOutcomeTitlePercentage": 0.75,
+    "empiricallyReachedEvents": 175,
+    "empiricallyUnreachedEvents": 7,
+    "nearDuplicatePairs": 5348,
+    "similarityClusters": 21,
+    "structuralTextualDistinctnessHeuristicPercent": 11.54,
+    "reusedConsequenceSets": 35,
+    "choicesUsingReusedConsequenceSets": 471,
+    "averagePartySpecificEventsPerRun": 1.5888888888888888,
+    "averagePartySpecificSharePerRunPercent": 5.9688740575948005
+  },
+  "choices": {
+    "adjectiveOnlyPercentage": 0,
+    "abstractPercentage": 0,
+    "actionlessPercentage": 0,
+    "prudentRiskCollectiveTriptychEvents": 160,
+    "factoryChoiceIdPatternEvents": 182,
+    "tagFrequency": [
+      {
+        "value": "PRUDENT",
+        "count": 182
+      },
+      {
+        "value": "RISQUÉ",
+        "count": 182
+      },
+      {
+        "value": "RASSEMBLEUR",
+        "count": 160
+      },
+      {
+        "value": "TECHNIQUE",
+        "count": 9
+      }
+    ]
+  },
+  "mechanics": {
+    "effectKindCounts": {
+      "party_stat": 1987,
+      "hidden_stat": 468,
+      "world": 20,
+      "alliance": 27,
+      "party_split": 9
+    },
+    "unusedEventEffectKinds": ["trait", "ideology", "bloc_trust", "flag", "candidate_status"],
+    "eventsWithIdeologicalStatements": 0,
+    "runsWithIdeologyMovement": 0,
+    "runsWithActorMemoryContent": 0,
+    "runsWithPlayerAlliance": 170,
+    "maximumPlayerAlliances": 1,
+    "totalOpponentCandidateReplacementsObserved": 0
+  },
+  "entities": {
+    "classifiedEntities": 76,
+    "totalMentionsInNarrativeCorpus": 423,
+    "categoryCounts": {
+      "parti réel": 10,
+      "parti fictif": 0,
+      "personnalité politique réelle": 0,
+      "personnalité fictive": 41,
+      "média réel": 0,
+      "média fictif": 0,
+      "émission réelle": 0,
+      "émission fictive": 0,
+      "institution réelle": 8,
+      "institution fictive": 0,
+      "pays réel": 1,
+      "pays fictif": 1,
+      "ville ou région réelle": 3,
+      "lieu fictif": 0,
+      "organisation réelle": 1,
+      "organisation fictive": 4,
+      "événement historique réel": 0,
+      "événement inventé": 1,
+      "entité ambiguë ou non identifiable": 6
+    },
+    "editorialCounts": {
+      "réel à actualiser ou sourcer": 13,
+      "fiction acceptable": 37,
+      "fiction nécessaire": 5,
+      "fiction paresseuse": 4,
+      "réel utilisable": 8,
+      "fiction qui réduit fortement l’immersion": 9
+    },
+    "realVsFictional": {
+      "real": 23,
+      "fictional": 47,
+      "ambiguous": 6,
+      "realPercent": 30.3,
+      "fictionalPercent": 61.8,
+      "ambiguousPercent": 7.9
+    },
+    "unclassifiedLexicalCandidates": 3
+  },
+  "narrative": {
+    "summaryPaddingEvents": 28,
+    "fictionQualifierTokens": 752,
+    "tutoiementTokens": 0,
+    "repeatedOutcomeTitleUses": [
+      {
+        "value": "La prudence ressemble à une hésitation",
+        "count": 182
+      },
+      {
+        "value": "Le pari crée une ouverture",
+        "count": 182
+      },
+      {
+        "value": "Le pari se retourne",
+        "count": 182
+      },
+      {
+        "value": "Une réponse qui rassure",
+        "count": 182
+      },
+      {
+        "value": "Le collectif tient",
+        "count": 160
+      },
+      {
+        "value": "Le compromis devient illisible",
+        "count": 160
+      },
+      {
+        "value": "La précision devient du jargon",
+        "count": 9
+      },
+      {
+        "value": "Le fond prend le dessus",
+        "count": 9
+      }
+    ],
+    "repeatedOutcomeNarrativeUses": [
+      {
+        "value": "La prudence limite les dégâts sans clore la séquence. Une partie de l’opinion y voit de l’hésitation et votre équipe doit consacrer du temps à rétablir un message clair.",
+        "count": 182
+      },
+      {
+        "value": "Le geste devait reprendre l’initiative, mais il brouille votre intention. Les explications suivantes occupent l’espace et offrent à plusieurs adversaires fictifs un angle d’attaque inattendu.",
+        "count": 182
+      },
+      {
+        "value": "Votre réponse à cette séquence est jugée solide et proportionnée. Elle ne renverse pas seule la campagne, mais améliore concrètement votre position auprès des publics les plus attentifs.",
+        "count": 182
+      },
+      {
+        "value": "La méthode collective ralentit l’annonce, mais elle élargit son soutien. Plusieurs voix fictives du mouvement défendent désormais la même ligne sans donner l’impression de réciter un compromis vide.",
+        "count": 160
+      },
+      {
+        "value": "Les consultations multiplient les nuances jusqu’à masquer votre décision. La campagne évite la rupture, mais perd une occasion de fixer clairement le débat.",
+        "count": 160
+      },
+      {
+        "value": "La réponse accumule les détails jusqu’à perdre le fil politique. Le sérieux n’est pas contesté, mais la séquence laisse au public fictif une impression de distance et de technicité défensive.",
+        "count": 9
+      },
+      {
+        "value": "Votre démonstration reste compréhensible malgré la densité du sujet. Les commentateurs fictifs retiennent une maîtrise précise et plusieurs adversaires doivent revoir leurs éléments de langage.",
+        "count": 9
+      }
+    ]
+  },
+  "simulation": {
+    "existingPartyRuns": 5400,
+    "customPartyRuns": 1600,
+    "dynamicsRuns": 900,
+    "totalCompletedAutomatedCampaigns": 7900,
+    "deterministicChecks": 18,
+    "determinismFailures": 0,
+    "overall": {
+      "runs": 5400,
+      "qualificationRate": 0.3464814814814815,
+      "winRate": 0.2477777777777778,
+      "averageFirstRoundScore": 12.831777777777747,
+      "firstRoundVariance": 17.74414202469132,
+      "averageSecondRoundScore": 53.461411010155025,
+      "averageFinalScore": 59.721666666666664,
+      "finalScoreVariance": 246.76530833333416,
+      "averageProgression": 2.276222222222232,
+      "averageDecisions": 26.881481481481483,
+      "firstRoundP05": 5.9,
+      "firstRoundMedian": 12.7,
+      "firstRoundP95": 20
+    },
+    "influence": {
+      "partyEtaSquaredOnFirstRoundScore": 0.7338708633553698,
+      "strategyEtaSquaredOnFirstRoundScore": 0.030022074784255212,
+      "averageMatchedFirstRoundRangeAcrossStrategies": 2.8946666666666663,
+      "medianMatchedFirstRoundRangeAcrossStrategies": 2.5999999999999996,
+      "averageMatchedFinalScoreRangeAcrossStrategies": 14.246666666666666,
+      "matchedSeedsWhereQualificationOrWinChanged": 311,
+      "matchedSeedGroups": 900
+    },
+    "repetition": {
+      "averageRepeatedOutcomeTitlesWithinRun": 23.067777777777778,
+      "averageRepeatedOutcomeNarrativesWithinRun": 17.432222222222222,
+      "runsWithRepeatedOutcomeTitle": 5400,
+      "averageEventIdOverlapBetweenSuccessiveRuns": 0.1443959863428375,
+      "averageStructureOverlapBetweenSuccessiveRuns": 0.9970071081182194
+    },
+    "pacing": {
+      "averageDecisions": 26.881481481481483,
+      "minimumDecisions": 25,
+      "maximumDecisions": 31,
+      "earlyDecidedRuns": 1144,
+      "earlyDecidedRate": 0.21185185185185185,
+      "comebackRuns": 237,
+      "comebackRate": 0.04388888888888889
+    },
+    "byParty": {
+      "lfi": {
+        "runs": 600,
+        "qualificationRate": 0.12833333333333333,
+        "winRate": 0.07833333333333334,
+        "averageFirstRoundScore": 12.259666666666659,
+        "firstRoundVariance": 3.8312065555555552,
+        "averageSecondRoundScore": 52.12207792207791,
+        "averageFinalScore": 49.748333333333335,
+        "finalScoreVariance": 163.03499722222227,
+        "averageProgression": -0.7403333333333334,
+        "averageDecisions": 25.67,
+        "firstRoundP05": 9.4,
+        "firstRoundMedian": 12.1,
+        "firstRoundP95": 15.5
+      },
+      "ps": {
+        "runs": 600,
+        "qualificationRate": 0.6816666666666666,
+        "winRate": 0.52,
+        "averageFirstRoundScore": 15.947000000000005,
+        "firstRoundVariance": 4.358490999999997,
+        "averageSecondRoundScore": 54.6266503667482,
+        "averageFinalScore": 75.19166666666666,
+        "finalScoreVariance": 167.63159722222267,
+        "averageProgression": 4.947,
+        "averageDecisions": 28.766666666666666,
+        "firstRoundP05": 12.7,
+        "firstRoundMedian": 15.8,
+        "firstRoundP95": 19.6
+      },
+      "ecologistes": {
+        "runs": 600,
+        "qualificationRate": 0.043333333333333335,
+        "winRate": 0.028333333333333332,
+        "averageFirstRoundScore": 10.150666666666671,
+        "firstRoundVariance": 4.980799555555549,
+        "averageSecondRoundScore": 51.665384615384625,
+        "averageFinalScore": 51.196666666666665,
+        "finalScoreVariance": 85.73465555555481,
+        "averageProgression": 3.6506666666666674,
+        "averageDecisions": 25.23,
+        "firstRoundP05": 6.7,
+        "firstRoundMedian": 10.1,
+        "firstRoundP95": 13.9
+      },
+      "renaissance": {
+        "runs": 600,
+        "qualificationRate": 0.715,
+        "winRate": 0.5,
+        "averageFirstRoundScore": 15.817500000000006,
+        "firstRoundVariance": 3.637543749999996,
+        "averageSecondRoundScore": 53.52191142191138,
+        "averageFinalScore": 70.76833333333333,
+        "finalScoreVariance": 220.65133055555557,
+        "averageProgression": 0.8175000000000008,
+        "averageDecisions": 28.86,
+        "firstRoundP05": 12.9,
+        "firstRoundMedian": 15.7,
+        "firstRoundP95": 18.9
+      },
+      "horizons": {
+        "runs": 600,
+        "qualificationRate": 0.16666666666666666,
+        "winRate": 0.12333333333333334,
+        "averageFirstRoundScore": 11.817666666666668,
+        "firstRoundVariance": 6.623387888888882,
+        "averageSecondRoundScore": 54.295999999999985,
+        "averageFinalScore": 60.475,
+        "finalScoreVariance": 125.27604166666713,
+        "averageProgression": 5.81766666666667,
+        "averageDecisions": 25.913333333333334,
+        "firstRoundP05": 8.1,
+        "firstRoundMedian": 11.6,
+        "firstRoundP95": 16.2
+      },
+      "lr": {
+        "runs": 600,
+        "qualificationRate": 0.3416666666666667,
+        "winRate": 0.25666666666666665,
+        "averageFirstRoundScore": 13.547666666666663,
+        "firstRoundVariance": 5.729527888888885,
+        "averageSecondRoundScore": 53.53999999999998,
+        "averageFinalScore": 64.36666666666666,
+        "finalScoreVariance": 216.34555555555548,
+        "averageProgression": 3.547666666666668,
+        "averageDecisions": 26.88,
+        "firstRoundP05": 9.5,
+        "firstRoundMedian": 13.6,
+        "firstRoundP95": 17.5
+      },
+      "rn": {
+        "runs": 600,
+        "qualificationRate": 0.9966666666666667,
+        "winRate": 0.685,
+        "averageFirstRoundScore": 19.382500000000007,
+        "firstRoundVariance": 2.9385770833333336,
+        "averageSecondRoundScore": 52.64949832775916,
+        "averageFinalScore": 71.205,
+        "finalScoreVariance": 35.089641666666566,
+        "averageProgression": -4.617500000000001,
+        "averageDecisions": 30.356666666666666,
+        "firstRoundP05": 16.6,
+        "firstRoundMedian": 19.4,
+        "firstRoundP95": 22.2
+      },
+      "reconquete": {
+        "runs": 600,
+        "qualificationRate": 0.0016666666666666668,
+        "winRate": 0.0016666666666666668,
+        "averageFirstRoundScore": 6.668833333333327,
+        "firstRoundVariance": 4.304378638888895,
+        "averageSecondRoundScore": 52.6,
+        "averageFinalScore": 40.79,
+        "finalScoreVariance": 51.16256666666675,
+        "averageProgression": 1.6688333333333345,
+        "averageDecisions": 25.01,
+        "firstRoundP05": 3.6,
+        "firstRoundMedian": 6.7,
+        "firstRoundP95": 10.2
+      },
+      "nouvelle_energie": {
+        "runs": 600,
+        "qualificationRate": 0.043333333333333335,
+        "winRate": 0.03666666666666667,
+        "averageFirstRoundScore": 9.894499999999999,
+        "firstRoundVariance": 6.096186416666674,
+        "averageSecondRoundScore": 54.773076923076935,
+        "averageFinalScore": 53.75333333333333,
+        "finalScoreVariance": 74.42915555555561,
+        "averageProgression": 5.394499999999999,
+        "averageDecisions": 25.246666666666666,
+        "firstRoundP05": 6,
+        "firstRoundMedian": 9.9,
+        "firstRoundP95": 14.2
+      }
+    },
+    "byStrategy": {
+      "random": {
+        "runs": 900,
+        "qualificationRate": 0.3288888888888889,
+        "winRate": 0.23333333333333334,
+        "averageFirstRoundScore": 12.688333333333336,
+        "firstRoundVariance": 17.476563888888883,
+        "averageSecondRoundScore": 53.2152027027027,
+        "averageFinalScore": 59.47,
+        "finalScoreVariance": 234.68465555555565,
+        "averageProgression": 2.1327777777777794,
+        "averageDecisions": 26.782222222222224,
+        "firstRoundP05": 5.9,
+        "firstRoundMedian": 12.3,
+        "firstRoundP95": 20
+      },
+      "prudent": {
+        "runs": 900,
+        "qualificationRate": 0.31555555555555553,
+        "winRate": 0.23777777777777778,
+        "averageFirstRoundScore": 12.60411111111113,
+        "firstRoundVariance": 17.97919420987654,
+        "averageSecondRoundScore": 54.038732394366214,
+        "averageFinalScore": 59.29888888888889,
+        "finalScoreVariance": 242.65844320987645,
+        "averageProgression": 2.048555555555554,
+        "averageDecisions": 26.73777777777778,
+        "firstRoundP05": 5.9,
+        "firstRoundMedian": 12.3,
+        "firstRoundP95": 19.9
+      },
+      "risky": {
+        "runs": 900,
+        "qualificationRate": 0.4922222222222222,
+        "winRate": 0.3333333333333333,
+        "averageFirstRoundScore": 14.215777777777767,
+        "firstRoundVariance": 14.413706617283951,
+        "averageSecondRoundScore": 53.204514672686244,
+        "averageFinalScore": 65.65555555555555,
+        "finalScoreVariance": 233.71913580246957,
+        "averageProgression": 3.6602222222222225,
+        "averageDecisions": 27.635555555555555,
+        "firstRoundP05": 7.7,
+        "firstRoundMedian": 14.4,
+        "firstRoundP95": 20.2
+      },
+      "collective": {
+        "runs": 900,
+        "qualificationRate": 0.26222222222222225,
+        "winRate": 0.18777777777777777,
+        "averageFirstRoundScore": 11.893888888888895,
+        "firstRoundVariance": 17.574129320987645,
+        "averageSecondRoundScore": 53.26525423728814,
+        "averageFinalScore": 54.992222222222225,
+        "finalScoreVariance": 213.17882839506163,
+        "averageProgression": 1.338333333333334,
+        "averageDecisions": 26.424444444444443,
+        "firstRoundP05": 5.6,
+        "firstRoundMedian": 11.5,
+        "firstRoundP95": 19.4
+      },
+      "greedy": {
+        "runs": 900,
+        "qualificationRate": 0.3,
+        "winRate": 0.22666666666666666,
+        "averageFirstRoundScore": 12.390555555555563,
+        "firstRoundVariance": 17.872633024691364,
+        "averageSecondRoundScore": 53.79444444444443,
+        "averageFinalScore": 57.724444444444444,
+        "finalScoreVariance": 233.30629135802457,
+        "averageProgression": 1.835,
+        "averageDecisions": 26.653333333333332,
+        "firstRoundP05": 5.7,
+        "firstRoundMedian": 12,
+        "firstRoundP95": 19.6
+      },
+      "adverse": {
+        "runs": 900,
+        "qualificationRate": 0.38,
+        "winRate": 0.2677777777777778,
+        "averageFirstRoundScore": 13.198000000000015,
+        "firstRoundVariance": 17.95232933333334,
+        "averageSecondRoundScore": 53.400292397660834,
+        "averageFinalScore": 61.18888888888889,
+        "finalScoreVariance": 259.0820987654318,
+        "averageProgression": 2.642444444444446,
+        "averageDecisions": 27.055555555555557,
+        "firstRoundP05": 6,
+        "firstRoundMedian": 13.2,
+        "firstRoundP95": 20.1
+      }
+    },
+    "customByProfile": {
+      "coherent_left_green": {
+        "description": "Economically left, socially liberal, pro-European and strongly ecological.",
+        "ideology": {
+          "economy": -100,
+          "society": -40,
+          "europe": 42,
+          "ecology": 100,
+          "authority": -86,
+          "immigration": -34
+        },
+        "baseline": {
+          "baseSupport": 3.8,
+          "potentialSupport": 18,
+          "mobilization": 65,
+          "finances": 39,
+          "mediaPresence": 34,
+          "governingCredibility": 49,
+          "cohesion": 54,
+          "rejection": 24,
+          "localStrength": 68,
+          "electedSupport": 34,
+          "popularity": 46,
+          "members": 48000,
+          "awareness": 38,
+          "momentum": 53
+        },
+        "strongestElectorateAffinities": [
+          ["green_progressives", 68.04179667487121],
+          ["public_services", 65.84818287763277],
+          ["young_urban_graduates", 65.19458403844486]
+        ],
+        "runs": 400,
+        "qualificationRate": 0.065,
+        "winRate": 0.035,
+        "averageFirstRoundScore": 9.250500000000011,
+        "averageFinalScore": 54.9175,
+        "averageProgression": 5.450499999999996,
+        "averageDecisions": 25.33
+      },
+      "coherent_conservative": {
+        "description": "Economically liberal, sovereignist, restrictive and authority-oriented.",
+        "ideology": {
+          "economy": 100,
+          "society": 0,
+          "europe": -38,
+          "ecology": -28,
+          "authority": 75,
+          "immigration": 42
+        },
+        "baseline": {
+          "baseSupport": 3.8,
+          "potentialSupport": 18,
+          "mobilization": 63,
+          "finances": 39,
+          "mediaPresence": 34,
+          "governingCredibility": 56,
+          "cohesion": 70,
+          "rejection": 24,
+          "localStrength": 38,
+          "electedSupport": 61,
+          "popularity": 46,
+          "members": 16000,
+          "awareness": 38,
+          "momentum": 53
+        },
+        "strongestElectorateAffinities": [
+          ["entrepreneurs", 71.40136079401006],
+          ["conservative_retirees", 65.82694866907835],
+          ["moderate_retirees", 59.379080907426705]
+        ],
+        "runs": 400,
+        "qualificationRate": 0.0825,
+        "winRate": 0.0475,
+        "averageFirstRoundScore": 9.67100000000001,
+        "averageFinalScore": 55.0425,
+        "averageProgression": 5.870999999999999,
+        "averageDecisions": 25.425
+      },
+      "contradictory_hybrid": {
+        "description": "Redistributive and open, but security-oriented, sovereignist, ecological and pro-private services.",
+        "ideology": {
+          "economy": -25,
+          "society": -40,
+          "europe": -38,
+          "ecology": 69,
+          "authority": -6,
+          "immigration": -34
+        },
+        "baseline": {
+          "baseSupport": 3.8,
+          "potentialSupport": 18,
+          "mobilization": 65,
+          "finances": 39,
+          "mediaPresence": 34,
+          "governingCredibility": 57,
+          "cohesion": 54,
+          "rejection": 24,
+          "localStrength": 68,
+          "electedSupport": 37,
+          "popularity": 46,
+          "members": 12000,
+          "awareness": 38,
+          "momentum": 53
+        },
+        "strongestElectorateAffinities": [
+          ["young_precarious", 71.59090102284902],
+          ["urban_working_class", 70.28056828847387],
+          ["public_services", 69.81443441416602]
+        ],
+        "runs": 400,
+        "qualificationRate": 0.1225,
+        "winRate": 0.0875,
+        "averageFirstRoundScore": 10.143999999999995,
+        "averageFinalScore": 58.4475,
+        "averageProgression": 6.344000000000001,
+        "averageDecisions": 25.665
+      },
+      "centrist_default": {
+        "description": "All eight middle answers with balanced leadership and expert priority.",
+        "ideology": {
+          "economy": 3,
+          "society": 0,
+          "europe": 38,
+          "ecology": 22,
+          "authority": 0,
+          "immigration": 9
+        },
+        "baseline": {
+          "baseSupport": 3.8,
+          "potentialSupport": 18,
+          "mobilization": 58,
+          "finances": 39,
+          "mediaPresence": 34,
+          "governingCredibility": 64,
+          "cohesion": 64,
+          "rejection": 24,
+          "localStrength": 53,
+          "electedSupport": 37,
+          "popularity": 46,
+          "members": 12000,
+          "awareness": 38,
+          "momentum": 53
+        },
+        "strongestElectorateAffinities": [
+          ["middle_class_workers", 79.37127463232937],
+          ["moderate_retirees", 75.3982894461947],
+          ["mobilisable_abstainers", 70.07831667190933]
+        ],
+        "runs": 400,
+        "qualificationRate": 0.165,
+        "winRate": 0.1275,
+        "averageFirstRoundScore": 10.609499999999993,
+        "averageFinalScore": 59.525,
+        "averageProgression": 6.809500000000003,
+        "averageDecisions": 25.915
+      }
+    }
+  },
+  "elections": {
+    "configuredDate": "2027-04-11",
+    "averageInitialUndecidedByBloc": 17.059999999999857,
+    "averageFinalUndecidedByBloc": 2,
+    "maximumVisiblePollSumDeviation": 2.842170943040401e-14,
+    "maximumRegionalSumDeviation": 2.842170943040401e-14
+  },
+  "badges": {
+    "total": 58,
+    "observedInExistingPartySimulation": 48,
+    "structurallyImpossible": [
+      "kingmaker",
+      "secret_ending",
+      "historic_score",
+      "perfect_campaign",
+      "coalition",
+      "solvent",
+      "million_members"
+    ],
+    "automaticInAllExistingPartyRuns": [
+      "campaign_complete",
+      "first_choice",
+      "first_poll",
+      "ten_good_outcomes"
+    ],
+    "kingmakerEndingRuns": 1858,
+    "kingmakerBadgeRuns": 0
+  },
+  "browser": {
+    "testedViewports": ["360x800", "412x915", "768x1024", "1366x768", "1920x1080"],
+    "horizontalOverflowFindings": 0,
+    "finalMobileViewportHeights": 8.56,
+    "badgesMobileViewportHeights": 12.88,
+    "reducedMotion": {
+      "mediaMatches": true,
+      "maximumAnimationDurationMs": 0.01,
+      "maximumTransitionDurationMs": 0.01
+    },
+    "serviceWorker": {
+      "ready": true,
+      "controlsPageAfterReload": true,
+      "cachedCorePageWorksOffline": true,
+      "unknownNavigationFallsBackOffline": true,
+      "cachedPageTitle": "Méthodologie — Vers l’Élysée",
+      "fallbackHeading": "Vous êtes hors connexion"
+    },
+    "corruptStorage": {
+      "warningDisplayed": true,
+      "warningText": "La sauvegarde active était incomplète. Une copie de récupération locale a été conservée.Fermer",
+      "activeDeleted": true,
+      "recoveryKeys": ["corrupt-1785941715793"]
+    },
+    "unexpectedConsoleMessagesBeforeOffline": 0,
+    "pageErrors": 0
+  },
+  "quality": {
+    "vitest": {
+      "total": 38,
+      "passed": 38,
+      "failed": 0
+    },
+    "e2e": {
+      "passed": 18,
+      "failed": 0,
+      "skipped": 6,
+      "total": 24
+    },
+    "coverage": {
+      "lines": {
+        "total": 1567,
+        "covered": 1244,
+        "skipped": 0,
+        "pct": 79.38
+      },
+      "statements": {
+        "total": 1803,
+        "covered": 1348,
+        "skipped": 0,
+        "pct": 74.76
+      },
+      "functions": {
+        "total": 434,
+        "covered": 292,
+        "skipped": 0,
+        "pct": 67.28
+      },
+      "branches": {
+        "total": 1523,
+        "covered": 977,
+        "skipped": 0,
+        "pct": 64.14
+      },
+      "branchesTrue": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "lighthouse": {
+      "mobile": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "desktop": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "mobileLcp": 2268.8665,
+      "desktopLcp": 486.6232,
+      "mobileTransferredBytes": 301997,
+      "desktopTransferredBytes": 312980
+    },
+    "npmAuditHighOrCriticalVulnerabilities": 0,
+    "finalVerification": {
+      "formatCheck": {
+        "command": "npm run format:check",
+        "status": "passed"
+      },
+      "lint": {
+        "command": "npm run lint",
+        "status": "passed",
+        "warnings": 0,
+        "errors": 0
+      },
+      "typecheck": {
+        "command": "npm run typecheck",
+        "status": "passed"
+      },
+      "dataValidation": {
+        "command": "npm run data:validate",
+        "status": "passed",
+        "events": 182,
+        "achievements": 58
+      },
+      "build": {
+        "command": "npm run build",
+        "status": "passed",
+        "compiledInSeconds": 6.6
+      },
+      "npmAudit": {
+        "command": "npm audit --audit-level=high",
+        "status": "passed",
+        "vulnerabilities": 0
+      },
+      "vitestDefault": {
+        "command": "npm run test",
+        "status": "flaky_timeout",
+        "latestResult": {
+          "passed": 37,
+          "failed": 1,
+          "total": 38
+        },
+        "failure": "The property-based complete-campaign test exceeded Vitest's default 5,000 ms timeout and completed in about 5.3 to 6.2 seconds when given more time.",
+        "functionalAssertionFailure": false
+      },
+      "vitestExtended": {
+        "command": "npx vitest run --coverage --testTimeout=15000 --reporter=json --outputFile=audit/vitest-report.json",
+        "status": "passed",
+        "passed": 38,
+        "failed": 0,
+        "total": 38
+      },
+      "playwrightParallel": {
+        "command": "npm run test:e2e",
+        "status": "flaky_timeout",
+        "passed": 17,
+        "failed": 1,
+        "skipped": 6,
+        "total": 24,
+        "failure": "The initial fiction dialog was not found within 5 seconds during one parallel run on a filesystem reported as slow."
+      },
+      "playwrightTargetedRetry": {
+        "command": "npx playwright test e2e/game.spec.ts:206 --project=chromium",
+        "status": "passed",
+        "passed": 1,
+        "failed": 0
+      },
+      "playwrightSerial": {
+        "command": "npx playwright test --workers=1",
+        "status": "passed",
+        "passed": 18,
+        "failed": 0,
+        "skipped": 6,
+        "total": 24
+      }
+    }
+  },
+  "technical": {
+    "sourceFiles": 99,
+    "sourceLines": 14499,
+    "runIdCollisionAcrossPartiesWithSameSeed": true,
+    "largestSourceFiles": [
+      {
+        "path": "src/features/onboarding/setup-screens.tsx",
+        "lines": 962,
+        "bytes": 40207
+      },
+      {
+        "path": "src/features/campaign/campaign-screens.tsx",
+        "lines": 806,
+        "bytes": 32433
+      },
+      {
+        "path": "src/game/types/index.ts",
+        "lines": 692,
+        "bytes": 15979
+      },
+      {
+        "path": "src/game/data/events/general.ts",
+        "lines": 616,
+        "bytes": 30126
+      },
+      {
+        "path": "src/game/data/parties.ts",
+        "lines": 504,
+        "bytes": 15842
+      },
+      {
+        "path": "src/game/schemas/content.ts",
+        "lines": 500,
+        "bytes": 13798
+      },
+      {
+        "path": "src/features/results/final-screen.tsx",
+        "lines": 468,
+        "bytes": 19658
+      },
+      {
+        "path": "src/features/meta/archive-pages.tsx",
+        "lines": 466,
+        "bytes": 18081
+      },
+      {
+        "path": "src/game/data/achievements.ts",
+        "lines": 413,
+        "bytes": 9914
+      },
+      {
+        "path": "src/game/data/events/factory.ts",
+        "lines": 408,
+        "bytes": 15715
+      }
+    ]
+  }
+}

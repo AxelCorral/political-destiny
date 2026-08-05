@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-08-05T15:12:00.000Z",
+  "methodology": {
+    "baseUrl": "http://127.0.0.1:3100",
+    "server": "Next.js production build served with npm run start -- -p 3100",
+    "browser": "Microsoft Edge (Chromium), headless, driven with playwright-cli",
+    "viewports": ["360x800", "412x915", "768x1024", "1366x768", "1920x1080"],
+    "manualExistingPartyRun": {
+      "party": "Parti socialiste",
+      "candidate": "Camille Auditeur",
+      "seed": "audit-browser-ps",
+      "method": "Le terrain d’abord",
+      "choicePolicy": "manual first choice, then cyclic choices through a complete campaign",
+      "firstRound": 15.4,
+      "qualified": true,
+      "secondRound": 48.7,
+      "won": false,
+      "finalScore": 78,
+      "badgesUnlocked": 13
+    },
+    "manualCustomPartyProbe": {
+      "name": "Mouvement des possibles",
+      "shortName": "MDP",
+      "viewport": "412x915",
+      "profile": "redistributive/open, security-oriented, sovereignist, ecological, private-services, parliamentary; decentralized expert-led organization",
+      "observedInitialPoll": 10.0,
+      "configuredBaseSupport": 3.8,
+      "firstEventId": "world_security_attack",
+      "note": "The full custom-party path is also covered by the desktop E2E suite."
+    }
+  },
+  "pageMeasurements": [
+    {
+      "screen": "home",
+      "viewport": "360x800",
+      "documentHeight": 1535,
+      "viewportHeights": 1.92,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "mode selection",
+      "viewport": "360x800",
+      "documentHeight": 1828,
+      "viewportHeights": 2.29,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "party selection",
+      "viewport": "360x800",
+      "documentHeight": 3124,
+      "viewportHeights": 3.91,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "first decision",
+      "viewport": "360x800",
+      "documentHeight": 1541,
+      "viewportHeights": 1.93,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "outcome",
+      "viewport": "360x800",
+      "documentHeight": 1245,
+      "viewportHeights": 1.56,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "first round",
+      "viewport": "360x800",
+      "documentHeight": 2014,
+      "viewportHeights": 2.52,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "second round",
+      "viewport": "360x800",
+      "documentHeight": 1364,
+      "viewportHeights": 1.71,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "final result",
+      "viewport": "360x800",
+      "documentHeight": 6850,
+      "viewportHeights": 8.56,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "badges",
+      "viewport": "360x800",
+      "documentHeight": 10300,
+      "viewportHeights": 12.88,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "archives",
+      "viewport": "360x800",
+      "documentHeight": 1096,
+      "viewportHeights": 1.37,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "custom identity",
+      "viewport": "412x915",
+      "documentHeight": 1426,
+      "viewportHeights": 1.56,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "custom summary",
+      "viewport": "412x915",
+      "documentHeight": 1867,
+      "viewportHeights": 2.04,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "custom campaign event",
+      "viewport": "412x915",
+      "documentHeight": 1509,
+      "viewportHeights": 1.65,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "home",
+      "viewport": "768x1024",
+      "documentHeight": 1289,
+      "viewportHeights": 1.26,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "party selection",
+      "viewport": "768x1024",
+      "documentHeight": 1911,
+      "viewportHeights": 1.87,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "final result",
+      "viewport": "1366x768",
+      "documentHeight": 3576,
+      "viewportHeights": 4.66,
+      "horizontalOverflow": false
+    },
+    {
+      "screen": "final result",
+      "viewport": "1920x1080",
+      "documentHeight": 3576,
+      "viewportHeights": 3.31,
+      "horizontalOverflow": false
+    }
+  ],
+  "findings": {
+    "positive": [
+      "No horizontal overflow was observed at any tested viewport.",
+      "The fiction notice takes focus on its acknowledgement button and traps focus correctly.",
+      "All form controls inspected in the custom-party flow had accessible labels.",
+      "The complete existing-party run, autosave reload and final-result reload worked without production console errors.",
+      "The visual hierarchy and choice buttons remain readable at 360 pixels."
+    ],
+    "problems": [
+      "Campaign and final screens expose two nested main landmarks (src/app/layout.tsx and src/features/campaign/campaign-screens.tsx).",
+      "The final screen is 8.56 viewports long on 360x800 and 4.66 on 1366x768.",
+      "The badges page is 12.88 viewports long on 360x800 and offers no filter or collapsed category navigation.",
+      "Party strength labels render at 10.88 CSS pixels; campaign telemetry labels render at 10.4 CSS pixels.",
+      "Mobile header icon links are 32x44 CSS pixels and footer links are 20 pixels high, below the preferred 44x44 ergonomic target.",
+      "The full campaign repeatedly displayed the same outcome titles and prose despite context-specific choice labels.",
+      "The final Moments marquants were simply decisions 25 to 29, not the most consequential events."
+    ],
+    "contrastCaveat": "The custom DOM contrast probe misread gradient and pseudo-element backgrounds. Those automated contrast hits are excluded; Lighthouse accessibility scored 100 on the home route."
+  },
+  "screenshots": [
+    "audit/screenshots/accueil-360x800.png",
+    "audit/screenshots/accueil-360x800-long.png",
+    "audit/screenshots/choix-mode-360x800.png",
+    "audit/screenshots/partis-360x800-long.png",
+    "audit/screenshots/premiere-decision-360x800.png",
+    "audit/screenshots/consequence-360x800.png",
+    "audit/screenshots/premier-tour-360x800-long.png",
+    "audit/screenshots/second-tour-360x800-long.png",
+    "audit/screenshots/bilan-360x800-long.png",
+    "audit/screenshots/badges-360x800-long.png",
+    "audit/screenshots/archives-360x800-long.png",
+    "audit/screenshots/custom-identite-412x915-long.png",
+    "audit/screenshots/custom-recap-412x915-long.png",
+    "audit/screenshots/dashboard-custom-412x915-long.png",
+    "audit/screenshots/accueil-768x1024.png",
+    "audit/screenshots/partis-768x1024-long.png",
+    "audit/screenshots/bilan-1366x768-long.png",
+    "audit/screenshots/bilan-1920x1080.png"
+  ]
+}

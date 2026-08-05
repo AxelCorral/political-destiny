@@ -1,0 +1,1884 @@
+{
+  "generatedAt": "2026-08-05T14:29:34.609Z",
+  "methodology": {
+    "totalRuns": 5400,
+    "seedsPerParty": 100,
+    "parties": [
+      "lfi",
+      "ps",
+      "ecologistes",
+      "renaissance",
+      "horizons",
+      "lr",
+      "rn",
+      "reconquete",
+      "nouvelle_energie"
+    ],
+    "strategies": ["random", "prudent", "risky", "collective", "greedy", "adverse"],
+    "strategyDefinitions": {
+      "random": "Choix déterministe pseudo-aléatoire indépendant du PRNG du moteur.",
+      "prudent": "Toujours prudent_response lorsqu’il existe.",
+      "risky": "Toujours risk_breakthrough lorsqu’il existe.",
+      "collective": "Toujours collective_path lorsqu’il existe, sinon premier choix.",
+      "greedy": "Maximise l’utilité numérique attendue des effets avec les probabilités courantes.",
+      "adverse": "Minimise la même utilité; borne basse volontaire de l’agence du joueur."
+    },
+    "checkpointDecision": 12,
+    "earlyDecisionDefinition": "À la décision 12: rang <=2 et >=18% puis qualification, ou rang >=6 et <=8% puis élimination.",
+    "comebackDefinition": "À la décision 12: rang >=5 ou <8%, puis qualification.",
+    "limits": "Les stratégies greedy/adverse optimisent une fonction d’audit documentée, pas une connaissance parfaite de la formule électorale. Eta² est descriptif et non causal."
+  },
+  "integrity": {
+    "invalidRuns": 0,
+    "blockedRuns": 0,
+    "determinismChecks": [
+      {
+        "partyId": "lfi",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "lfi",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "ps",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "ps",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "ecologistes",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "ecologistes",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "renaissance",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "renaissance",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "horizons",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "horizons",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "lr",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "lr",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "rn",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "rn",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "reconquete",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "reconquete",
+        "seed": "audit-seed-1",
+        "identical": true
+      },
+      {
+        "partyId": "nouvelle_energie",
+        "seed": "audit-seed-0",
+        "identical": true
+      },
+      {
+        "partyId": "nouvelle_energie",
+        "seed": "audit-seed-1",
+        "identical": true
+      }
+    ],
+    "determinismFailures": 0
+  },
+  "overall": {
+    "runs": 5400,
+    "qualificationRate": 0.3464814814814815,
+    "winRate": 0.2477777777777778,
+    "averageFirstRoundScore": 12.831777777777747,
+    "firstRoundVariance": 17.74414202469132,
+    "averageSecondRoundScore": 53.461411010155025,
+    "averageFinalScore": 59.721666666666664,
+    "finalScoreVariance": 246.76530833333416,
+    "averageProgression": 2.276222222222232,
+    "averageDecisions": 26.881481481481483,
+    "firstRoundP05": 5.9,
+    "firstRoundMedian": 12.7,
+    "firstRoundP95": 20
+  },
+  "byParty": {
+    "lfi": {
+      "runs": 600,
+      "qualificationRate": 0.12833333333333333,
+      "winRate": 0.07833333333333334,
+      "averageFirstRoundScore": 12.259666666666659,
+      "firstRoundVariance": 3.8312065555555552,
+      "averageSecondRoundScore": 52.12207792207791,
+      "averageFinalScore": 49.748333333333335,
+      "finalScoreVariance": 163.03499722222227,
+      "averageProgression": -0.7403333333333334,
+      "averageDecisions": 25.67,
+      "firstRoundP05": 9.4,
+      "firstRoundMedian": 12.1,
+      "firstRoundP95": 15.5
+    },
+    "ps": {
+      "runs": 600,
+      "qualificationRate": 0.6816666666666666,
+      "winRate": 0.52,
+      "averageFirstRoundScore": 15.947000000000005,
+      "firstRoundVariance": 4.358490999999997,
+      "averageSecondRoundScore": 54.6266503667482,
+      "averageFinalScore": 75.19166666666666,
+      "finalScoreVariance": 167.63159722222267,
+      "averageProgression": 4.947,
+      "averageDecisions": 28.766666666666666,
+      "firstRoundP05": 12.7,
+      "firstRoundMedian": 15.8,
+      "firstRoundP95": 19.6
+    },
+    "ecologistes": {
+      "runs": 600,
+      "qualificationRate": 0.043333333333333335,
+      "winRate": 0.028333333333333332,
+      "averageFirstRoundScore": 10.150666666666671,
+      "firstRoundVariance": 4.980799555555549,
+      "averageSecondRoundScore": 51.665384615384625,
+      "averageFinalScore": 51.196666666666665,
+      "finalScoreVariance": 85.73465555555481,
+      "averageProgression": 3.6506666666666674,
+      "averageDecisions": 25.23,
+      "firstRoundP05": 6.7,
+      "firstRoundMedian": 10.1,
+      "firstRoundP95": 13.9
+    },
+    "renaissance": {
+      "runs": 600,
+      "qualificationRate": 0.715,
+      "winRate": 0.5,
+      "averageFirstRoundScore": 15.817500000000006,
+      "firstRoundVariance": 3.637543749999996,
+      "averageSecondRoundScore": 53.52191142191138,
+      "averageFinalScore": 70.76833333333333,
+      "finalScoreVariance": 220.65133055555557,
+      "averageProgression": 0.8175000000000008,
+      "averageDecisions": 28.86,
+      "firstRoundP05": 12.9,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 18.9
+    },
+    "horizons": {
+      "runs": 600,
+      "qualificationRate": 0.16666666666666666,
+      "winRate": 0.12333333333333334,
+      "averageFirstRoundScore": 11.817666666666668,
+      "firstRoundVariance": 6.623387888888882,
+      "averageSecondRoundScore": 54.295999999999985,
+      "averageFinalScore": 60.475,
+      "finalScoreVariance": 125.27604166666713,
+      "averageProgression": 5.81766666666667,
+      "averageDecisions": 25.913333333333334,
+      "firstRoundP05": 8.1,
+      "firstRoundMedian": 11.6,
+      "firstRoundP95": 16.2
+    },
+    "lr": {
+      "runs": 600,
+      "qualificationRate": 0.3416666666666667,
+      "winRate": 0.25666666666666665,
+      "averageFirstRoundScore": 13.547666666666663,
+      "firstRoundVariance": 5.729527888888885,
+      "averageSecondRoundScore": 53.53999999999998,
+      "averageFinalScore": 64.36666666666666,
+      "finalScoreVariance": 216.34555555555548,
+      "averageProgression": 3.547666666666668,
+      "averageDecisions": 26.88,
+      "firstRoundP05": 9.5,
+      "firstRoundMedian": 13.6,
+      "firstRoundP95": 17.5
+    },
+    "rn": {
+      "runs": 600,
+      "qualificationRate": 0.9966666666666667,
+      "winRate": 0.685,
+      "averageFirstRoundScore": 19.382500000000007,
+      "firstRoundVariance": 2.9385770833333336,
+      "averageSecondRoundScore": 52.64949832775916,
+      "averageFinalScore": 71.205,
+      "finalScoreVariance": 35.089641666666566,
+      "averageProgression": -4.617500000000001,
+      "averageDecisions": 30.356666666666666,
+      "firstRoundP05": 16.6,
+      "firstRoundMedian": 19.4,
+      "firstRoundP95": 22.2
+    },
+    "reconquete": {
+      "runs": 600,
+      "qualificationRate": 0.0016666666666666668,
+      "winRate": 0.0016666666666666668,
+      "averageFirstRoundScore": 6.668833333333327,
+      "firstRoundVariance": 4.304378638888895,
+      "averageSecondRoundScore": 52.6,
+      "averageFinalScore": 40.79,
+      "finalScoreVariance": 51.16256666666675,
+      "averageProgression": 1.6688333333333345,
+      "averageDecisions": 25.01,
+      "firstRoundP05": 3.6,
+      "firstRoundMedian": 6.7,
+      "firstRoundP95": 10.2
+    },
+    "nouvelle_energie": {
+      "runs": 600,
+      "qualificationRate": 0.043333333333333335,
+      "winRate": 0.03666666666666667,
+      "averageFirstRoundScore": 9.894499999999999,
+      "firstRoundVariance": 6.096186416666674,
+      "averageSecondRoundScore": 54.773076923076935,
+      "averageFinalScore": 53.75333333333333,
+      "finalScoreVariance": 74.42915555555561,
+      "averageProgression": 5.394499999999999,
+      "averageDecisions": 25.246666666666666,
+      "firstRoundP05": 6,
+      "firstRoundMedian": 9.9,
+      "firstRoundP95": 14.2
+    }
+  },
+  "byStrategy": {
+    "random": {
+      "runs": 900,
+      "qualificationRate": 0.3288888888888889,
+      "winRate": 0.23333333333333334,
+      "averageFirstRoundScore": 12.688333333333336,
+      "firstRoundVariance": 17.476563888888883,
+      "averageSecondRoundScore": 53.2152027027027,
+      "averageFinalScore": 59.47,
+      "finalScoreVariance": 234.68465555555565,
+      "averageProgression": 2.1327777777777794,
+      "averageDecisions": 26.782222222222224,
+      "firstRoundP05": 5.9,
+      "firstRoundMedian": 12.3,
+      "firstRoundP95": 20
+    },
+    "prudent": {
+      "runs": 900,
+      "qualificationRate": 0.31555555555555553,
+      "winRate": 0.23777777777777778,
+      "averageFirstRoundScore": 12.60411111111113,
+      "firstRoundVariance": 17.97919420987654,
+      "averageSecondRoundScore": 54.038732394366214,
+      "averageFinalScore": 59.29888888888889,
+      "finalScoreVariance": 242.65844320987645,
+      "averageProgression": 2.048555555555554,
+      "averageDecisions": 26.73777777777778,
+      "firstRoundP05": 5.9,
+      "firstRoundMedian": 12.3,
+      "firstRoundP95": 19.9
+    },
+    "risky": {
+      "runs": 900,
+      "qualificationRate": 0.4922222222222222,
+      "winRate": 0.3333333333333333,
+      "averageFirstRoundScore": 14.215777777777767,
+      "firstRoundVariance": 14.413706617283951,
+      "averageSecondRoundScore": 53.204514672686244,
+      "averageFinalScore": 65.65555555555555,
+      "finalScoreVariance": 233.71913580246957,
+      "averageProgression": 3.6602222222222225,
+      "averageDecisions": 27.635555555555555,
+      "firstRoundP05": 7.7,
+      "firstRoundMedian": 14.4,
+      "firstRoundP95": 20.2
+    },
+    "collective": {
+      "runs": 900,
+      "qualificationRate": 0.26222222222222225,
+      "winRate": 0.18777777777777777,
+      "averageFirstRoundScore": 11.893888888888895,
+      "firstRoundVariance": 17.574129320987645,
+      "averageSecondRoundScore": 53.26525423728814,
+      "averageFinalScore": 54.992222222222225,
+      "finalScoreVariance": 213.17882839506163,
+      "averageProgression": 1.338333333333334,
+      "averageDecisions": 26.424444444444443,
+      "firstRoundP05": 5.6,
+      "firstRoundMedian": 11.5,
+      "firstRoundP95": 19.4
+    },
+    "greedy": {
+      "runs": 900,
+      "qualificationRate": 0.3,
+      "winRate": 0.22666666666666666,
+      "averageFirstRoundScore": 12.390555555555563,
+      "firstRoundVariance": 17.872633024691364,
+      "averageSecondRoundScore": 53.79444444444443,
+      "averageFinalScore": 57.724444444444444,
+      "finalScoreVariance": 233.30629135802457,
+      "averageProgression": 1.835,
+      "averageDecisions": 26.653333333333332,
+      "firstRoundP05": 5.7,
+      "firstRoundMedian": 12,
+      "firstRoundP95": 19.6
+    },
+    "adverse": {
+      "runs": 900,
+      "qualificationRate": 0.38,
+      "winRate": 0.2677777777777778,
+      "averageFirstRoundScore": 13.198000000000015,
+      "firstRoundVariance": 17.95232933333334,
+      "averageSecondRoundScore": 53.400292397660834,
+      "averageFinalScore": 61.18888888888889,
+      "finalScoreVariance": 259.0820987654318,
+      "averageProgression": 2.642444444444446,
+      "averageDecisions": 27.055555555555557,
+      "firstRoundP05": 6,
+      "firstRoundMedian": 13.2,
+      "firstRoundP95": 20.1
+    }
+  },
+  "byPartyAndStrategy": {
+    "lfi:random": {
+      "runs": 100,
+      "qualificationRate": 0.12,
+      "winRate": 0.08,
+      "averageFirstRoundScore": 12.083,
+      "firstRoundVariance": 3.2912110000000006,
+      "averageSecondRoundScore": 52.99166666666667,
+      "averageFinalScore": 49.21,
+      "finalScoreVariance": 154.06589999999997,
+      "averageProgression": -0.917,
+      "averageDecisions": 25.64,
+      "firstRoundP05": 9.4,
+      "firstRoundMedian": 11.9,
+      "firstRoundP95": 15.2
+    },
+    "lfi:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.09,
+      "winRate": 0.06,
+      "averageFirstRoundScore": 12.138,
+      "firstRoundVariance": 3.173756000000003,
+      "averageSecondRoundScore": 52.488888888888894,
+      "averageFinalScore": 48.88,
+      "finalScoreVariance": 128.80559999999997,
+      "averageProgression": -0.8619999999999999,
+      "averageDecisions": 25.48,
+      "firstRoundP05": 9.6,
+      "firstRoundMedian": 12.2,
+      "firstRoundP95": 15
+    },
+    "lfi:risky": {
+      "runs": 100,
+      "qualificationRate": 0.35,
+      "winRate": 0.18,
+      "averageFirstRoundScore": 13.613000000000005,
+      "firstRoundVariance": 4.706531000000003,
+      "averageSecondRoundScore": 51.59714285714286,
+      "averageFinalScore": 58.81,
+      "finalScoreVariance": 256.5139000000001,
+      "averageProgression": 0.6130000000000002,
+      "averageDecisions": 26.76,
+      "firstRoundP05": 10.4,
+      "firstRoundMedian": 13.4,
+      "firstRoundP95": 17
+    },
+    "lfi:collective": {
+      "runs": 100,
+      "qualificationRate": 0.02,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 11.566000000000004,
+      "firstRoundVariance": 2.6882439999999996,
+      "averageSecondRoundScore": 50.25,
+      "averageFinalScore": 44.57,
+      "finalScoreVariance": 54.44509999999998,
+      "averageProgression": -1.4340000000000006,
+      "averageDecisions": 25.1,
+      "firstRoundP05": 9.3,
+      "firstRoundMedian": 11.5,
+      "firstRoundP95": 14.4
+    },
+    "lfi:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.09,
+      "winRate": 0.07,
+      "averageFirstRoundScore": 12.171000000000003,
+      "firstRoundVariance": 3.4164589999999997,
+      "averageSecondRoundScore": 52.48888888888889,
+      "averageFinalScore": 48.3,
+      "finalScoreVariance": 130.20999999999995,
+      "averageProgression": -0.8289999999999995,
+      "averageDecisions": 25.5,
+      "firstRoundP05": 9.5,
+      "firstRoundMedian": 12,
+      "firstRoundP95": 15.1
+    },
+    "lfi:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.1,
+      "winRate": 0.07,
+      "averageFirstRoundScore": 11.987000000000002,
+      "firstRoundVariance": 3.2701310000000006,
+      "averageSecondRoundScore": 52.629999999999995,
+      "averageFinalScore": 48.72,
+      "finalScoreVariance": 141.0416,
+      "averageProgression": -1.0130000000000001,
+      "averageDecisions": 25.54,
+      "firstRoundP05": 9.3,
+      "firstRoundMedian": 11.9,
+      "firstRoundP95": 14.9
+    },
+    "ps:random": {
+      "runs": 100,
+      "qualificationRate": 0.71,
+      "winRate": 0.54,
+      "averageFirstRoundScore": 15.887999999999993,
+      "firstRoundVariance": 3.994856,
+      "averageSecondRoundScore": 54.315492957746464,
+      "averageFinalScore": 76.09,
+      "finalScoreVariance": 151.26189999999997,
+      "averageProgression": 4.888000000000003,
+      "averageDecisions": 28.92,
+      "firstRoundP05": 13,
+      "firstRoundMedian": 15.8,
+      "firstRoundP95": 19.1
+    },
+    "ps:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.66,
+      "winRate": 0.52,
+      "averageFirstRoundScore": 15.767999999999999,
+      "firstRoundVariance": 4.155976000000001,
+      "averageSecondRoundScore": 55.38484848484848,
+      "averageFinalScore": 75.16,
+      "finalScoreVariance": 175.67440000000005,
+      "averageProgression": 4.768,
+      "averageDecisions": 28.68,
+      "firstRoundP05": 12.7,
+      "firstRoundMedian": 15.5,
+      "firstRoundP95": 19.3
+    },
+    "ps:risky": {
+      "runs": 100,
+      "qualificationRate": 0.79,
+      "winRate": 0.58,
+      "averageFirstRoundScore": 16.981000000000005,
+      "firstRoundVariance": 3.910738999999997,
+      "averageSecondRoundScore": 54.47468354430381,
+      "averageFinalScore": 78.89,
+      "finalScoreVariance": 118.79789999999994,
+      "averageProgression": 5.9810000000000025,
+      "averageDecisions": 29.32,
+      "firstRoundP05": 13.8,
+      "firstRoundMedian": 17.1,
+      "firstRoundP95": 20.1
+    },
+    "ps:collective": {
+      "runs": 100,
+      "qualificationRate": 0.57,
+      "winRate": 0.46,
+      "averageFirstRoundScore": 15.076,
+      "firstRoundVariance": 3.6294240000000006,
+      "averageSecondRoundScore": 54.86491228070176,
+      "averageFinalScore": 70.99,
+      "finalScoreVariance": 196.84989999999988,
+      "averageProgression": 4.076,
+      "averageDecisions": 28.2,
+      "firstRoundP05": 12.4,
+      "firstRoundMedian": 14.9,
+      "firstRoundP95": 18.4
+    },
+    "ps:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.61,
+      "winRate": 0.49,
+      "averageFirstRoundScore": 15.450000000000003,
+      "firstRoundVariance": 3.871899999999999,
+      "averageSecondRoundScore": 55.07540983606559,
+      "averageFinalScore": 72.55,
+      "finalScoreVariance": 185.60750000000007,
+      "averageProgression": 4.449999999999999,
+      "averageDecisions": 28.42,
+      "firstRoundP05": 12.6,
+      "firstRoundMedian": 15.4,
+      "firstRoundP95": 18.5
+    },
+    "ps:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.75,
+      "winRate": 0.53,
+      "averageFirstRoundScore": 16.51900000000001,
+      "firstRoundVariance": 4.150539,
+      "averageSecondRoundScore": 53.868,
+      "averageFinalScore": 77.47,
+      "finalScoreVariance": 133.28909999999993,
+      "averageProgression": 5.518999999999998,
+      "averageDecisions": 29.06,
+      "firstRoundP05": 13.7,
+      "firstRoundMedian": 16.4,
+      "firstRoundP95": 20
+    },
+    "ecologistes:random": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 10.066999999999997,
+      "firstRoundVariance": 3.7480109999999964,
+      "averageSecondRoundScore": 53.3,
+      "averageFinalScore": 51.24,
+      "finalScoreVariance": 56.14239999999999,
+      "averageProgression": 3.5670000000000015,
+      "averageDecisions": 25.06,
+      "firstRoundP05": 6.9,
+      "firstRoundMedian": 10.3,
+      "firstRoundP95": 12.6
+    },
+    "ecologistes:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 9.765000000000002,
+      "firstRoundVariance": 3.7378750000000003,
+      "averageSecondRoundScore": 56.2,
+      "averageFinalScore": 49.69,
+      "finalScoreVariance": 54.85390000000004,
+      "averageProgression": 3.264999999999999,
+      "averageDecisions": 25.06,
+      "firstRoundP05": 6.7,
+      "firstRoundMedian": 9.9,
+      "firstRoundP95": 12.9
+    },
+    "ecologistes:risky": {
+      "runs": 100,
+      "qualificationRate": 0.2,
+      "winRate": 0.11,
+      "averageFirstRoundScore": 11.963999999999999,
+      "firstRoundVariance": 6.030504,
+      "averageSecondRoundScore": 50.495000000000005,
+      "averageFinalScore": 59.21,
+      "finalScoreVariance": 136.92589999999993,
+      "averageProgression": 5.464000000000001,
+      "averageDecisions": 26.02,
+      "firstRoundP05": 8.2,
+      "firstRoundMedian": 12,
+      "firstRoundP95": 15.7
+    },
+    "ecologistes:collective": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 9.159999999999998,
+      "firstRoundVariance": 3.431,
+      "averageSecondRoundScore": 54.7,
+      "averageFinalScore": 46.74,
+      "finalScoreVariance": 50.392400000000016,
+      "averageProgression": 2.6600000000000006,
+      "averageDecisions": 25.06,
+      "firstRoundP05": 6.4,
+      "firstRoundMedian": 9.3,
+      "firstRoundP95": 12
+    },
+    "ecologistes:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 9.536000000000003,
+      "firstRoundVariance": 3.610904000000001,
+      "averageSecondRoundScore": 55.3,
+      "averageFinalScore": 48.22,
+      "finalScoreVariance": 51.81160000000003,
+      "averageProgression": 3.0359999999999996,
+      "averageDecisions": 25.06,
+      "firstRoundP05": 6.6,
+      "firstRoundMedian": 9.7,
+      "firstRoundP95": 12.6
+    },
+    "ecologistes:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.02,
+      "winRate": 0.02,
+      "averageFirstRoundScore": 10.411999999999999,
+      "firstRoundVariance": 4.455055999999997,
+      "averageSecondRoundScore": 56.95,
+      "averageFinalScore": 52.08,
+      "finalScoreVariance": 68.29360000000003,
+      "averageProgression": 3.912,
+      "averageDecisions": 25.12,
+      "firstRoundP05": 7.2,
+      "firstRoundMedian": 10.3,
+      "firstRoundP95": 13.8
+    },
+    "renaissance:random": {
+      "runs": 100,
+      "qualificationRate": 0.74,
+      "winRate": 0.49,
+      "averageFirstRoundScore": 15.837,
+      "firstRoundVariance": 3.489531000000001,
+      "averageSecondRoundScore": 53.00675675675677,
+      "averageFinalScore": 71.37,
+      "finalScoreVariance": 207.39310000000006,
+      "averageProgression": 0.8370000000000001,
+      "averageDecisions": 28.94,
+      "firstRoundP05": 12.9,
+      "firstRoundMedian": 15.8,
+      "firstRoundP95": 18.7
+    },
+    "renaissance:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.78,
+      "winRate": 0.6,
+      "averageFirstRoundScore": 16.08,
+      "firstRoundVariance": 3.2386000000000035,
+      "averageSecondRoundScore": 54.2705128205128,
+      "averageFinalScore": 74.14,
+      "finalScoreVariance": 188.90039999999996,
+      "averageProgression": 1.08,
+      "averageDecisions": 29.32,
+      "firstRoundP05": 13.4,
+      "firstRoundMedian": 16,
+      "firstRoundP95": 19.1
+    },
+    "renaissance:risky": {
+      "runs": 100,
+      "qualificationRate": 0.69,
+      "winRate": 0.45,
+      "averageFirstRoundScore": 15.842000000000002,
+      "firstRoundVariance": 4.244835999999999,
+      "averageSecondRoundScore": 52.93913043478259,
+      "averageFinalScore": 69.46,
+      "finalScoreVariance": 230.04840000000002,
+      "averageProgression": 0.8420000000000003,
+      "averageDecisions": 28.66,
+      "firstRoundP05": 12.9,
+      "firstRoundMedian": 15.8,
+      "firstRoundP95": 18.9
+    },
+    "renaissance:collective": {
+      "runs": 100,
+      "qualificationRate": 0.67,
+      "winRate": 0.46,
+      "averageFirstRoundScore": 15.452999999999996,
+      "firstRoundVariance": 3.263291000000001,
+      "averageSecondRoundScore": 53.57313432835821,
+      "averageFinalScore": 68.25,
+      "finalScoreVariance": 227.5875,
+      "averageProgression": 0.45300000000000007,
+      "averageDecisions": 28.6,
+      "firstRoundP05": 12.9,
+      "firstRoundMedian": 15.3,
+      "firstRoundP95": 18.4
+    },
+    "renaissance:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.74,
+      "winRate": 0.56,
+      "averageFirstRoundScore": 15.953,
+      "firstRoundVariance": 3.226891000000001,
+      "averageSecondRoundScore": 54.29459459459459,
+      "averageFinalScore": 72.47,
+      "finalScoreVariance": 203.08909999999992,
+      "averageProgression": 0.953,
+      "averageDecisions": 29.08,
+      "firstRoundP05": 13.3,
+      "firstRoundMedian": 15.8,
+      "firstRoundP95": 19
+    },
+    "renaissance:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.67,
+      "winRate": 0.44,
+      "averageFirstRoundScore": 15.739999999999998,
+      "firstRoundVariance": 4.134999999999999,
+      "averageSecondRoundScore": 52.91492537313431,
+      "averageFinalScore": 68.92,
+      "finalScoreVariance": 240.7936,
+      "averageProgression": 0.74,
+      "averageDecisions": 28.56,
+      "firstRoundP05": 12.7,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 18.7
+    },
+    "horizons:random": {
+      "runs": 100,
+      "qualificationRate": 0.08,
+      "winRate": 0.05,
+      "averageFirstRoundScore": 11.497,
+      "firstRoundVariance": 4.942290999999998,
+      "averageSecondRoundScore": 52.85,
+      "averageFinalScore": 58.91,
+      "finalScoreVariance": 77.78189999999998,
+      "averageProgression": 5.497000000000002,
+      "averageDecisions": 25.42,
+      "firstRoundP05": 7.9,
+      "firstRoundMedian": 11.4,
+      "firstRoundP95": 15.2
+    },
+    "horizons:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.04,
+      "winRate": 0.02,
+      "averageFirstRoundScore": 11.220999999999995,
+      "firstRoundVariance": 3.302658999999999,
+      "averageSecondRoundScore": 51.699999999999996,
+      "averageFinalScore": 57.99,
+      "finalScoreVariance": 50.389900000000004,
+      "averageProgression": 5.221000000000001,
+      "averageDecisions": 25.2,
+      "firstRoundP05": 8.5,
+      "firstRoundMedian": 11.3,
+      "firstRoundP95": 14.5
+    },
+    "horizons:risky": {
+      "runs": 100,
+      "qualificationRate": 0.51,
+      "winRate": 0.38,
+      "averageFirstRoundScore": 14.044000000000004,
+      "firstRoundVariance": 7.633664000000002,
+      "averageSecondRoundScore": 54.63921568627451,
+      "averageFinalScore": 70.41,
+      "finalScoreVariance": 165.3019000000001,
+      "averageProgression": 8.044000000000002,
+      "averageDecisions": 27.8,
+      "firstRoundP05": 9.6,
+      "firstRoundMedian": 14.1,
+      "firstRoundP95": 18.5
+    },
+    "horizons:collective": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 10.209,
+      "firstRoundVariance": 3.206619,
+      "averageSecondRoundScore": 57.2,
+      "averageFinalScore": 52.97,
+      "finalScoreVariance": 43.0291,
+      "averageProgression": 4.209,
+      "averageDecisions": 25.06,
+      "firstRoundP05": 7.5,
+      "firstRoundMedian": 10.2,
+      "firstRoundP95": 13.4
+    },
+    "horizons:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.04,
+      "winRate": 0.02,
+      "averageFirstRoundScore": 10.944999999999995,
+      "firstRoundVariance": 3.2162749999999978,
+      "averageSecondRoundScore": 51.725,
+      "averageFinalScore": 56.88,
+      "finalScoreVariance": 52.565600000000025,
+      "averageProgression": 4.945,
+      "averageDecisions": 25.2,
+      "firstRoundP05": 8.1,
+      "firstRoundMedian": 11.1,
+      "firstRoundP95": 14.1
+    },
+    "horizons:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.32,
+      "winRate": 0.26,
+      "averageFirstRoundScore": 12.990000000000004,
+      "firstRoundVariance": 7.299699999999998,
+      "averageSecondRoundScore": 54.665625000000006,
+      "averageFinalScore": 65.69,
+      "finalScoreVariance": 158.8139,
+      "averageProgression": 6.989999999999998,
+      "averageDecisions": 26.8,
+      "firstRoundP05": 9,
+      "firstRoundMedian": 12.9,
+      "firstRoundP95": 18.3
+    },
+    "lr:random": {
+      "runs": 100,
+      "qualificationRate": 0.3,
+      "winRate": 0.23,
+      "averageFirstRoundScore": 13.162999999999997,
+      "firstRoundVariance": 5.536931000000001,
+      "averageSecondRoundScore": 53.23666666666667,
+      "averageFinalScore": 62.65,
+      "finalScoreVariance": 212.68749999999997,
+      "averageProgression": 3.1630000000000003,
+      "averageDecisions": 26.66,
+      "firstRoundP05": 9.4,
+      "firstRoundMedian": 13.2,
+      "firstRoundP95": 16.8
+    },
+    "lr:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.26,
+      "winRate": 0.21,
+      "averageFirstRoundScore": 13.309000000000001,
+      "firstRoundVariance": 4.198218999999999,
+      "averageSecondRoundScore": 53.792307692307695,
+      "averageFinalScore": 63.25,
+      "finalScoreVariance": 177.9275,
+      "averageProgression": 3.3089999999999997,
+      "averageDecisions": 26.46,
+      "firstRoundP05": 9.8,
+      "firstRoundMedian": 13.5,
+      "firstRoundP95": 17
+    },
+    "lr:risky": {
+      "runs": 100,
+      "qualificationRate": 0.69,
+      "winRate": 0.49,
+      "averageFirstRoundScore": 15.448000000000004,
+      "firstRoundVariance": 4.637296000000002,
+      "averageSecondRoundScore": 53.300000000000004,
+      "averageFinalScore": 75.25,
+      "finalScoreVariance": 166.1475,
+      "averageProgression": 5.447999999999999,
+      "averageDecisions": 28.74,
+      "firstRoundP05": 11.7,
+      "firstRoundMedian": 15.7,
+      "firstRoundP95": 18.6
+    },
+    "lr:collective": {
+      "runs": 100,
+      "qualificationRate": 0.08,
+      "winRate": 0.04,
+      "averageFirstRoundScore": 11.941,
+      "firstRoundVariance": 3.0568189999999986,
+      "averageSecondRoundScore": 50.725,
+      "averageFinalScore": 54.38,
+      "finalScoreVariance": 86.25559999999997,
+      "averageProgression": 1.9409999999999998,
+      "averageDecisions": 25.4,
+      "firstRoundP05": 9,
+      "firstRoundMedian": 11.8,
+      "firstRoundP95": 14.7
+    },
+    "lr:greedy": {
+      "runs": 100,
+      "qualificationRate": 0.21,
+      "winRate": 0.18,
+      "averageFirstRoundScore": 12.997000000000003,
+      "firstRoundVariance": 4.662691000000002,
+      "averageSecondRoundScore": 54.07142857142857,
+      "averageFinalScore": 60.79,
+      "finalScoreVariance": 177.9859000000001,
+      "averageProgression": 2.9969999999999994,
+      "averageDecisions": 26.2,
+      "firstRoundP05": 9.3,
+      "firstRoundMedian": 13.3,
+      "firstRoundP95": 16.3
+    },
+    "lr:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.51,
+      "winRate": 0.39,
+      "averageFirstRoundScore": 14.428000000000004,
+      "firstRoundVariance": 4.809415999999998,
+      "averageSecondRoundScore": 54.13725490196079,
+      "averageFinalScore": 69.88,
+      "finalScoreVariance": 211.5056,
+      "averageProgression": 4.428,
+      "averageDecisions": 27.82,
+      "firstRoundP05": 10.5,
+      "firstRoundMedian": 14.7,
+      "firstRoundP95": 17.7
+    },
+    "rn:random": {
+      "runs": 100,
+      "qualificationRate": 0.99,
+      "winRate": 0.69,
+      "averageFirstRoundScore": 19.442000000000004,
+      "firstRoundVariance": 3.0870360000000003,
+      "averageSecondRoundScore": 52.591919191919196,
+      "averageFinalScore": 71.44,
+      "finalScoreVariance": 40.986399999999996,
+      "averageProgression": -4.558,
+      "averageDecisions": 30.34,
+      "firstRoundP05": 16.6,
+      "firstRoundMedian": 19.6,
+      "firstRoundP95": 22.3
+    },
+    "rn:prudent": {
+      "runs": 100,
+      "qualificationRate": 1,
+      "winRate": 0.72,
+      "averageFirstRoundScore": 19.482999999999993,
+      "firstRoundVariance": 2.6904109999999997,
+      "averageSecondRoundScore": 53.245,
+      "averageFinalScore": 72.45,
+      "finalScoreVariance": 30.447499999999994,
+      "averageProgression": -4.5169999999999995,
+      "averageDecisions": 30.44,
+      "firstRoundP05": 17,
+      "firstRoundMedian": 19.5,
+      "firstRoundP95": 22.1
+    },
+    "rn:risky": {
+      "runs": 100,
+      "qualificationRate": 0.99,
+      "winRate": 0.63,
+      "averageFirstRoundScore": 19.529,
+      "firstRoundVariance": 3.244259,
+      "averageSecondRoundScore": 52.47575757575757,
+      "averageFinalScore": 71.06,
+      "finalScoreVariance": 40.95639999999996,
+      "averageProgression": -4.471,
+      "averageDecisions": 30.22,
+      "firstRoundP05": 16.8,
+      "firstRoundMedian": 19.6,
+      "firstRoundP95": 22.4
+    },
+    "rn:collective": {
+      "runs": 100,
+      "qualificationRate": 1,
+      "winRate": 0.7,
+      "averageFirstRoundScore": 19.052,
+      "firstRoundVariance": 2.601496,
+      "averageSecondRoundScore": 52.357000000000006,
+      "averageFinalScore": 69.99,
+      "finalScoreVariance": 31.989899999999988,
+      "averageProgression": -4.948,
+      "averageDecisions": 30.4,
+      "firstRoundP05": 16.5,
+      "firstRoundMedian": 19.1,
+      "firstRoundP95": 21.7
+    },
+    "rn:greedy": {
+      "runs": 100,
+      "qualificationRate": 1,
+      "winRate": 0.71,
+      "averageFirstRoundScore": 19.233,
+      "firstRoundVariance": 2.657811000000001,
+      "averageSecondRoundScore": 52.77000000000001,
+      "averageFinalScore": 70.62,
+      "finalScoreVariance": 30.6556,
+      "averageProgression": -4.7669999999999995,
+      "averageDecisions": 30.42,
+      "firstRoundP05": 16.7,
+      "firstRoundMedian": 19.3,
+      "firstRoundP95": 21.9
+    },
+    "rn:adverse": {
+      "runs": 100,
+      "qualificationRate": 1,
+      "winRate": 0.66,
+      "averageFirstRoundScore": 19.555999999999997,
+      "firstRoundVariance": 3.1536640000000022,
+      "averageSecondRoundScore": 52.455,
+      "averageFinalScore": 71.67,
+      "finalScoreVariance": 31.8411,
+      "averageProgression": -4.444,
+      "averageDecisions": 30.32,
+      "firstRoundP05": 16.8,
+      "firstRoundMedian": 19.6,
+      "firstRoundP95": 22.6
+    },
+    "reconquete:random": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 6.5520000000000005,
+      "firstRoundVariance": 3.774295999999999,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 40.9,
+      "finalScoreVariance": 44.17,
+      "averageProgression": 1.5520000000000003,
+      "averageDecisions": 25,
+      "firstRoundP05": 3.5,
+      "firstRoundMedian": 6.6,
+      "firstRoundP95": 9.2
+    },
+    "reconquete:prudent": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 6.305,
+      "firstRoundVariance": 3.088074999999999,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 39.47,
+      "finalScoreVariance": 36.42909999999999,
+      "averageProgression": 1.305,
+      "averageDecisions": 25,
+      "firstRoundP05": 3.7,
+      "firstRoundMedian": 6.3,
+      "firstRoundP95": 9
+    },
+    "reconquete:risky": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 8.531,
+      "firstRoundVariance": 5.137739,
+      "averageSecondRoundScore": 52.6,
+      "averageFinalScore": 46.85,
+      "finalScoreVariance": 67.48750000000005,
+      "averageProgression": 3.5310000000000006,
+      "averageDecisions": 25.06,
+      "firstRoundP05": 5,
+      "firstRoundMedian": 8.5,
+      "firstRoundP95": 12.2
+    },
+    "reconquete:collective": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 6.055999999999998,
+      "firstRoundVariance": 2.973263999999999,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 38.24,
+      "finalScoreVariance": 34.14240000000002,
+      "averageProgression": 1.056,
+      "averageDecisions": 25,
+      "firstRoundP05": 3.6,
+      "firstRoundMedian": 6.1,
+      "firstRoundP95": 8.6
+    },
+    "reconquete:greedy": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 6.269000000000002,
+      "firstRoundVariance": 3.313138999999999,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 39.28,
+      "finalScoreVariance": 39.08160000000001,
+      "averageProgression": 1.269,
+      "averageDecisions": 25,
+      "firstRoundP05": 3.7,
+      "firstRoundMedian": 6.3,
+      "firstRoundP95": 9.1
+    },
+    "reconquete:adverse": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 6.299999999999999,
+      "firstRoundVariance": 3.2546000000000004,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 40,
+      "finalScoreVariance": 37.78,
+      "averageProgression": 1.3000000000000003,
+      "averageDecisions": 25,
+      "firstRoundP05": 3.3,
+      "firstRoundMedian": 6.5,
+      "firstRoundP95": 8.9
+    },
+    "nouvelle_energie:random": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0.01,
+      "averageFirstRoundScore": 9.665999999999999,
+      "firstRoundVariance": 3.9894440000000015,
+      "averageSecondRoundScore": 57.1,
+      "averageFinalScore": 53.42,
+      "finalScoreVariance": 41.6836,
+      "averageProgression": 5.1659999999999995,
+      "averageDecisions": 25.06,
+      "firstRoundP05": 6.1,
+      "firstRoundMedian": 9.7,
+      "firstRoundP95": 13
+    },
+    "nouvelle_energie:prudent": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 9.368000000000006,
+      "firstRoundVariance": 3.977176000000002,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 52.66,
+      "finalScoreVariance": 40.2444,
+      "averageProgression": 4.867999999999999,
+      "averageDecisions": 25,
+      "firstRoundP05": 6.2,
+      "firstRoundMedian": 9.5,
+      "firstRoundP95": 12.4
+    },
+    "nouvelle_energie:risky": {
+      "runs": 100,
+      "qualificationRate": 0.2,
+      "winRate": 0.17,
+      "averageFirstRoundScore": 11.989999999999995,
+      "firstRoundVariance": 7.403900000000001,
+      "averageSecondRoundScore": 54.275,
+      "averageFinalScore": 60.96,
+      "finalScoreVariance": 123.69839999999996,
+      "averageProgression": 7.490000000000001,
+      "averageDecisions": 26.14,
+      "firstRoundP05": 8.6,
+      "firstRoundMedian": 11.6,
+      "firstRoundP95": 16
+    },
+    "nouvelle_energie:collective": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 8.531999999999998,
+      "firstRoundVariance": 3.479376,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 48.8,
+      "finalScoreVariance": 37.12000000000001,
+      "averageProgression": 4.031999999999999,
+      "averageDecisions": 25,
+      "firstRoundP05": 5.6,
+      "firstRoundMedian": 8.7,
+      "firstRoundP95": 11
+    },
+    "nouvelle_energie:greedy": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 8.961000000000002,
+      "firstRoundVariance": 4.117978999999999,
+      "averageSecondRoundScore": 0,
+      "averageFinalScore": 50.41,
+      "finalScoreVariance": 42.2619,
+      "averageProgression": 4.461,
+      "averageDecisions": 25,
+      "firstRoundP05": 5.8,
+      "firstRoundMedian": 9,
+      "firstRoundP95": 12.1
+    },
+    "nouvelle_energie:adverse": {
+      "runs": 100,
+      "qualificationRate": 0.05,
+      "winRate": 0.04,
+      "averageFirstRoundScore": 10.85,
+      "firstRoundVariance": 5.247900000000002,
+      "averageSecondRoundScore": 56.3,
+      "averageFinalScore": 56.27,
+      "finalScoreVariance": 66.27710000000002,
+      "averageProgression": 6.349999999999999,
+      "averageDecisions": 25.28,
+      "firstRoundP05": 7.2,
+      "firstRoundMedian": 10.9,
+      "firstRoundP95": 14.4
+    }
+  },
+  "influence": {
+    "partyEtaSquaredOnFirstRoundScore": 0.7338708633553698,
+    "strategyEtaSquaredOnFirstRoundScore": 0.030022074784255212,
+    "averageMatchedFirstRoundRangeAcrossStrategies": 2.8946666666666663,
+    "medianMatchedFirstRoundRangeAcrossStrategies": 2.5999999999999996,
+    "averageMatchedFinalScoreRangeAcrossStrategies": 14.246666666666666,
+    "matchedSeedsWhereQualificationOrWinChanged": 311,
+    "matchedSeedGroups": 900
+  },
+  "reachability": {
+    "empiricallyReachedEvents": 175,
+    "empiricallyUnreachedEvents": [
+      "rare_printer_slogan",
+      "rare_hologram_revolt",
+      "rare_crown_petition",
+      "rare_exceptional_powers",
+      "rare_fragmented_congress",
+      "rare_national_union",
+      "rare_civil_suspension"
+    ],
+    "top30Events": [
+      {
+        "id": "internal_rival_interview",
+        "count": 1920
+      },
+      {
+        "id": "debate_all_candidates",
+        "count": 1816
+      },
+      {
+        "id": "program_immigration",
+        "count": 1666
+      },
+      {
+        "id": "debate_post_show_spin",
+        "count": 1647
+      },
+      {
+        "id": "runoff_favorite_pressure",
+        "count": 1625
+      },
+      {
+        "id": "campaign_poster_shortage",
+        "count": 1608
+      },
+      {
+        "id": "runoff_common_program",
+        "count": 1603
+      },
+      {
+        "id": "runoff_final_debate",
+        "count": 1591
+      },
+      {
+        "id": "runoff_vote_transfers",
+        "count": 1576
+      },
+      {
+        "id": "debate_fact_card",
+        "count": 1568
+      },
+      {
+        "id": "program_wages",
+        "count": 1559
+      },
+      {
+        "id": "campaign_citizens_convention",
+        "count": 1554
+      },
+      {
+        "id": "runoff_endorsement_wave",
+        "count": 1553
+      },
+      {
+        "id": "campaign_rural_desert",
+        "count": 1543
+      },
+      {
+        "id": "program_energy",
+        "count": 1543
+      },
+      {
+        "id": "debate_unknown_question",
+        "count": 1528
+      },
+      {
+        "id": "alliance_fictional_celebrity",
+        "count": 1515
+      },
+      {
+        "id": "program_taxation",
+        "count": 1477
+      },
+      {
+        "id": "internal_major_donor",
+        "count": 1453
+      },
+      {
+        "id": "campaign_regional_rally",
+        "count": 1452
+      },
+      {
+        "id": "media_open_microphone",
+        "count": 1451
+      },
+      {
+        "id": "media_front_page",
+        "count": 1436
+      },
+      {
+        "id": "program_institutions",
+        "count": 1417
+      },
+      {
+        "id": "media_local_press",
+        "count": 1414
+      },
+      {
+        "id": "runoff_last_hours",
+        "count": 1407
+      },
+      {
+        "id": "internal_congress_motion",
+        "count": 1400
+      },
+      {
+        "id": "campaign_bus_breakdown",
+        "count": 1395
+      },
+      {
+        "id": "world_energy_price_spike",
+        "count": 1392
+      },
+      {
+        "id": "program_climate_adaptation",
+        "count": 1390
+      },
+      {
+        "id": "debate_economy_round",
+        "count": 1389
+      }
+    ],
+    "bottom30ReachedEvents": [
+      {
+        "id": "party_lfi_local_asset",
+        "count": 194
+      },
+      {
+        "id": "party_reconquete_identity",
+        "count": 193
+      },
+      {
+        "id": "party_rn_local_asset",
+        "count": 193
+      },
+      {
+        "id": "party_ecologistes_local_asset",
+        "count": 192
+      },
+      {
+        "id": "party_horizons_local_asset",
+        "count": 192
+      },
+      {
+        "id": "party_nouvelle_energie_local_asset",
+        "count": 192
+      },
+      {
+        "id": "party_ps_local_asset",
+        "count": 192
+      },
+      {
+        "id": "party_renaissance_local_asset",
+        "count": 192
+      },
+      {
+        "id": "party_lr_local_asset",
+        "count": 191
+      },
+      {
+        "id": "party_reconquete_local_asset",
+        "count": 191
+      },
+      {
+        "id": "party_reconquete_fronde",
+        "count": 154
+      },
+      {
+        "id": "party_ecologistes_fronde",
+        "count": 153
+      },
+      {
+        "id": "party_rn_fronde",
+        "count": 153
+      },
+      {
+        "id": "party_horizons_fronde",
+        "count": 152
+      },
+      {
+        "id": "party_lfi_fronde",
+        "count": 152
+      },
+      {
+        "id": "party_lr_fronde",
+        "count": 152
+      },
+      {
+        "id": "party_nouvelle_energie_fronde",
+        "count": 152
+      },
+      {
+        "id": "party_ps_fronde",
+        "count": 152
+      },
+      {
+        "id": "party_renaissance_fronde",
+        "count": 152
+      },
+      {
+        "id": "rare_parrot_quote",
+        "count": 127
+      },
+      {
+        "id": "party_nouvelle_energie_crisis_followup",
+        "count": 45
+      },
+      {
+        "id": "party_ecologistes_crisis_followup",
+        "count": 42
+      },
+      {
+        "id": "party_renaissance_crisis_followup",
+        "count": 42
+      },
+      {
+        "id": "party_lr_crisis_followup",
+        "count": 41
+      },
+      {
+        "id": "party_horizons_crisis_followup",
+        "count": 40
+      },
+      {
+        "id": "party_ps_crisis_followup",
+        "count": 40
+      },
+      {
+        "id": "party_rn_crisis_followup",
+        "count": 38
+      },
+      {
+        "id": "party_lfi_crisis_followup",
+        "count": 29
+      },
+      {
+        "id": "party_reconquete_crisis_followup",
+        "count": 23
+      },
+      {
+        "id": "rare_debate_blackout",
+        "count": 16
+      }
+    ],
+    "rareEventOccurrences": [
+      {
+        "id": "rare_printer_slogan",
+        "count": 0
+      },
+      {
+        "id": "rare_hologram_revolt",
+        "count": 0
+      },
+      {
+        "id": "rare_parrot_quote",
+        "count": 127
+      },
+      {
+        "id": "rare_debate_blackout",
+        "count": 16
+      },
+      {
+        "id": "rare_crown_petition",
+        "count": 0
+      },
+      {
+        "id": "rare_exceptional_powers",
+        "count": 0
+      },
+      {
+        "id": "rare_fragmented_congress",
+        "count": 0
+      },
+      {
+        "id": "rare_national_union",
+        "count": 0
+      },
+      {
+        "id": "rare_civil_suspension",
+        "count": 0
+      }
+    ]
+  },
+  "repetition": {
+    "averageRepeatedOutcomeTitlesWithinRun": 23.067777777777778,
+    "averageRepeatedOutcomeNarrativesWithinRun": 17.432222222222222,
+    "runsWithRepeatedOutcomeTitle": 5400,
+    "averageEventIdOverlapBetweenSuccessiveRuns": 0.1443959863428375,
+    "averageStructureOverlapBetweenSuccessiveRuns": 0.9970071081182194
+  },
+  "pacing": {
+    "averageDecisions": 26.881481481481483,
+    "minimumDecisions": 25,
+    "maximumDecisions": 31,
+    "earlyDecidedRuns": 1144,
+    "earlyDecidedRate": 0.21185185185185185,
+    "comebackRuns": 237,
+    "comebackRate": 0.04388888888888889
+  },
+  "balanceWarnings": {
+    "impossibleToLose": [],
+    "practicallyImpossibleToWin": [
+      {
+        "group": "lfi:collective",
+        "winRate": 0.01
+      },
+      {
+        "group": "ecologistes:random",
+        "winRate": 0.01
+      },
+      {
+        "group": "ecologistes:prudent",
+        "winRate": 0.01
+      },
+      {
+        "group": "ecologistes:collective",
+        "winRate": 0.01
+      },
+      {
+        "group": "ecologistes:greedy",
+        "winRate": 0.01
+      },
+      {
+        "group": "horizons:collective",
+        "winRate": 0.01
+      },
+      {
+        "group": "reconquete:random",
+        "winRate": 0
+      },
+      {
+        "group": "reconquete:prudent",
+        "winRate": 0
+      },
+      {
+        "group": "reconquete:risky",
+        "winRate": 0.01
+      },
+      {
+        "group": "reconquete:collective",
+        "winRate": 0
+      },
+      {
+        "group": "reconquete:greedy",
+        "winRate": 0
+      },
+      {
+        "group": "reconquete:adverse",
+        "winRate": 0
+      },
+      {
+        "group": "nouvelle_energie:random",
+        "winRate": 0.01
+      },
+      {
+        "group": "nouvelle_energie:prudent",
+        "winRate": 0
+      },
+      {
+        "group": "nouvelle_energie:collective",
+        "winRate": 0
+      },
+      {
+        "group": "nouvelle_energie:greedy",
+        "winRate": 0
+      }
+    ]
+  },
+  "distributions": {
+    "endings": [
+      {
+        "id": "kingmaker",
+        "count": 1858
+      },
+      {
+        "id": "honorable_campaign",
+        "count": 1338
+      },
+      {
+        "id": "president",
+        "count": 1338
+      },
+      {
+        "id": "runoff_defeat",
+        "count": 533
+      },
+      {
+        "id": "retirement",
+        "count": 213
+      },
+      {
+        "id": "strengthened_party",
+        "count": 96
+      },
+      {
+        "id": "narrow_elimination",
+        "count": 19
+      },
+      {
+        "id": "divided_party",
+        "count": 5
+      }
+    ],
+    "achievements": [
+      {
+        "id": "campaign_complete",
+        "count": 5400
+      },
+      {
+        "id": "first_choice",
+        "count": 5400
+      },
+      {
+        "id": "first_poll",
+        "count": 5400
+      },
+      {
+        "id": "ten_good_outcomes",
+        "count": 5400
+      },
+      {
+        "id": "debate_master",
+        "count": 4690
+      },
+      {
+        "id": "viral",
+        "count": 3122
+      },
+      {
+        "id": "risk_taker",
+        "count": 2719
+      },
+      {
+        "id": "prudent",
+        "count": 2701
+      },
+      {
+        "id": "credible",
+        "count": 2678
+      },
+      {
+        "id": "united",
+        "count": 2244
+      },
+      {
+        "id": "media_wave",
+        "count": 1919
+      },
+      {
+        "id": "runoff",
+        "count": 1871
+      },
+      {
+        "id": "hundred_members",
+        "count": 1800
+      },
+      {
+        "id": "mobilized",
+        "count": 1434
+      },
+      {
+        "id": "momentum",
+        "count": 1350
+      },
+      {
+        "id": "elysee",
+        "count": 1338
+      },
+      {
+        "id": "thirty_decisions",
+        "count": 1338
+      },
+      {
+        "id": "three_scandals",
+        "count": 1079
+      },
+      {
+        "id": "second_place",
+        "count": 899
+      },
+      {
+        "id": "local_roots",
+        "count": 600
+      },
+      {
+        "id": "played_ecologistes",
+        "count": 600
+      },
+      {
+        "id": "played_horizons",
+        "count": 600
+      },
+      {
+        "id": "played_lfi",
+        "count": 600
+      },
+      {
+        "id": "played_lr",
+        "count": 600
+      },
+      {
+        "id": "played_nouvelle_energie",
+        "count": 600
+      },
+      {
+        "id": "played_ps",
+        "count": 600
+      },
+      {
+        "id": "played_reconquete",
+        "count": 600
+      },
+      {
+        "id": "played_renaissance",
+        "count": 600
+      },
+      {
+        "id": "played_rn",
+        "count": 600
+      },
+      {
+        "id": "won_rn",
+        "count": 411
+      },
+      {
+        "id": "transparent",
+        "count": 383
+      },
+      {
+        "id": "no_scandal",
+        "count": 373
+      },
+      {
+        "id": "underdog",
+        "count": 338
+      },
+      {
+        "id": "won_ps",
+        "count": 312
+      },
+      {
+        "id": "won_renaissance",
+        "count": 300
+      },
+      {
+        "id": "comeback",
+        "count": 292
+      },
+      {
+        "id": "won_lr",
+        "count": 154
+      },
+      {
+        "id": "from_under_eight",
+        "count": 153
+      },
+      {
+        "id": "all_topics",
+        "count": 140
+      },
+      {
+        "id": "loyal",
+        "count": 79
+      },
+      {
+        "id": "won_horizons",
+        "count": 74
+      },
+      {
+        "id": "close_victory",
+        "count": 50
+      },
+      {
+        "id": "won_lfi",
+        "count": 47
+      },
+      {
+        "id": "without_compromise",
+        "count": 30
+      },
+      {
+        "id": "won_nouvelle_energie",
+        "count": 22
+      },
+      {
+        "id": "won_ecologistes",
+        "count": 17
+      },
+      {
+        "id": "popular",
+        "count": 11
+      },
+      {
+        "id": "won_reconquete",
+        "count": 1
+      }
+    ],
+    "choices": [
+      {
+        "id": "risk_breakthrough",
+        "count": 51237
+      },
+      {
+        "id": "prudent_response",
+        "count": 47389
+      },
+      {
+        "id": "collective_path",
+        "count": 44593
+      },
+      {
+        "id": "technical_path",
+        "count": 1941
+      }
+    ],
+    "finalScoreBuckets": [
+      {
+        "id": "50-59",
+        "count": 1353
+      },
+      {
+        "id": "40-49",
+        "count": 1237
+      },
+      {
+        "id": "80-89",
+        "count": 941
+      },
+      {
+        "id": "60-69",
+        "count": 773
+      },
+      {
+        "id": "70-79",
+        "count": 657
+      },
+      {
+        "id": "30-39",
+        "count": 394
+      },
+      {
+        "id": "20-29",
+        "count": 27
+      },
+      {
+        "id": "90-99",
+        "count": 18
+      }
+    ],
+    "firstRoundScoreBuckets": [
+      {
+        "id": "10-14.9",
+        "count": 2285
+      },
+      {
+        "id": "15-19.9",
+        "count": 1434
+      },
+      {
+        "id": "5-9.9",
+        "count": 1253
+      },
+      {
+        "id": "20-24.9",
+        "count": 270
+      },
+      {
+        "id": "0-4.9",
+        "count": 156
+      },
+      {
+        "id": "25-29.9",
+        "count": 2
+      }
+    ]
+  },
+  "performance": {
+    "durationMs": 381231.8067,
+    "runsPerSecond": 14.164610103209759
+  }
+}

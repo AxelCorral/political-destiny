@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-08-05T14:55:16.384Z",
+  "methodology": {
+    "baseUrl": "http://127.0.0.1:3100",
+    "browser": "Microsoft Edge (Chromium), headless",
+    "command": "node scripts/audit/browser-resilience.mjs",
+    "note": "The application must already be running in production mode at the base URL."
+  },
+  "viewports": [
+    {
+      "label": "mobile-narrow",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "document": {
+        "width": 360,
+        "height": 1535,
+        "viewportHeights": 1.92,
+        "horizontalOverflow": false
+      },
+      "landmarks": {
+        "main": 1,
+        "header": 1,
+        "nav": 2,
+        "footer": 1
+      }
+    },
+    {
+      "label": "phone",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "document": {
+        "width": 412,
+        "height": 1431,
+        "viewportHeights": 1.56,
+        "horizontalOverflow": false
+      },
+      "landmarks": {
+        "main": 1,
+        "header": 1,
+        "nav": 2,
+        "footer": 1
+      }
+    },
+    {
+      "label": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "document": {
+        "width": 768,
+        "height": 1289,
+        "viewportHeights": 1.26,
+        "horizontalOverflow": false
+      },
+      "landmarks": {
+        "main": 1,
+        "header": 1,
+        "nav": 2,
+        "footer": 1
+      }
+    },
+    {
+      "label": "laptop",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "document": {
+        "width": 1366,
+        "height": 982,
+        "viewportHeights": 1.28,
+        "horizontalOverflow": false
+      },
+      "landmarks": {
+        "main": 1,
+        "header": 1,
+        "nav": 2,
+        "footer": 1
+      }
+    },
+    {
+      "label": "wide",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "document": {
+        "width": 1920,
+        "height": 1080,
+        "viewportHeights": 1,
+        "horizontalOverflow": false
+      },
+      "landmarks": {
+        "main": 1,
+        "header": 1,
+        "nav": 2,
+        "footer": 1
+      }
+    }
+  ],
+  "keyboard": {
+    "firstEightFocusTargets": [
+      "Aller au contenu",
+      "VVers l’Élysée",
+      "Archives",
+      "Succès",
+      "À propos",
+      "Lancer une campagne",
+      "Comment fonctionne la simulation ?",
+      "Méthodologie"
+    ]
+  },
+  "reducedMotion": {
+    "mediaMatches": true,
+    "maximumAnimationDurationMs": 0.01,
+    "maximumTransitionDurationMs": 0.01
+  },
+  "serviceWorker": {
+    "ready": true,
+    "controlsPageAfterReload": true,
+    "cachedCorePageWorksOffline": true,
+    "unknownNavigationFallsBackOffline": true,
+    "cachedPageTitle": "Méthodologie — Vers l’Élysée",
+    "fallbackHeading": "Vous êtes hors connexion"
+  },
+  "corruptStorage": {
+    "warningDisplayed": true,
+    "warningText": "La sauvegarde active était incomplète. Une copie de récupération locale a été conservée.Fermer",
+    "activeDeleted": true,
+    "recoveryKeys": ["corrupt-1785941715793"]
+  },
+  "browserDiagnostics": {
+    "unexpectedConsoleMessagesBeforeOffline": [],
+    "expectedNetworkErrorsDuringOfflineProbe": [
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "label": "main",
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      }
+    ],
+    "pageErrors": []
+  }
+}

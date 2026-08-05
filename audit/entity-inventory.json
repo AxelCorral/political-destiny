@@ -1,0 +1,1286 @@
+{
+  "generatedAt": "2026-08-05T14:52:44.104Z",
+  "methodology": {
+    "scope": "Tous les textes structurés d’événements, fins et succès, plus les données de partis et acteurs.",
+    "classification": "Liste contrôlée manuellement, enrichie par un détecteur lexical de noms propres pour rendre visibles les candidats non classés.",
+    "limitation": "La détection lexicale française produit des faux positifs en début de phrase ; les candidats non classés ne sont pas comptés dans les proportions éditoriales."
+  },
+  "totals": {
+    "classifiedEntities": 76,
+    "totalMentionsInNarrativeCorpus": 423,
+    "categoryCounts": {
+      "parti réel": 10,
+      "parti fictif": 0,
+      "personnalité politique réelle": 0,
+      "personnalité fictive": 41,
+      "média réel": 0,
+      "média fictif": 0,
+      "émission réelle": 0,
+      "émission fictive": 0,
+      "institution réelle": 8,
+      "institution fictive": 0,
+      "pays réel": 1,
+      "pays fictif": 1,
+      "ville ou région réelle": 3,
+      "lieu fictif": 0,
+      "organisation réelle": 1,
+      "organisation fictive": 4,
+      "événement historique réel": 0,
+      "événement inventé": 1,
+      "entité ambiguë ou non identifiable": 6
+    },
+    "editorialCounts": {
+      "réel à actualiser ou sourcer": 13,
+      "fiction acceptable": 37,
+      "fiction nécessaire": 5,
+      "fiction paresseuse": 4,
+      "réel utilisable": 8,
+      "fiction qui réduit fortement l’immersion": 9
+    },
+    "realVsFictional": {
+      "real": 23,
+      "fictional": 47,
+      "ambiguous": 6,
+      "realPercent": 30.3,
+      "fictionalPercent": 61.8,
+      "ambiguousPercent": 7.9
+    },
+    "unclassifiedLexicalCandidates": 3
+  },
+  "entities": [
+    {
+      "name": "La France insoumise",
+      "aliases": ["LFI", "France insoumise"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 19,
+        "locations": [
+          "event:party_lfi_identity:title",
+          "event:party_lfi_identity:summary",
+          "event:party_lfi_identity:outcome:viral_success:narrative",
+          "event:party_lfi_fronde:title",
+          "event:party_lfi_fronde:summary",
+          "event:party_lfi_fronde:outcome:viral_success:narrative",
+          "event:party_lfi_alliance:title",
+          "event:party_lfi_alliance:summary",
+          "event:party_lfi_alliance:outcome:viral_success:narrative",
+          "event:party_lfi_signature:title",
+          "event:party_lfi_signature:summary",
+          "event:party_lfi_signature:outcome:viral_success:narrative",
+          "event:party_lfi_local_asset:title",
+          "event:party_lfi_local_asset:outcome:viral_success:narrative",
+          "event:party_lfi_crisis_followup:title",
+          "event:party_lfi_crisis_followup:summary",
+          "event:party_lfi_crisis_followup:outcome:viral_success:narrative",
+          "achievement:played_lfi:description",
+          "achievement:won_lfi:description"
+        ]
+      }
+    },
+    {
+      "name": "Parti socialiste",
+      "aliases": ["PS", "Parti Socialiste"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:party_ps_identity:summary",
+          "event:party_ps_fronde:summary",
+          "event:party_ps_alliance:summary",
+          "event:party_ps_signature:summary",
+          "event:party_ps_crisis_followup:summary",
+          "event:party_ecologistes_alliance:summary",
+          "event:party_ecologistes_alliance:choice:risk_breakthrough",
+          "achievement:played_ps:description",
+          "achievement:won_ps:description"
+        ]
+      }
+    },
+    {
+      "name": "Les Écologistes",
+      "aliases": ["ÉCO", "EELV", "Europe Écologie Les Verts"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 23,
+        "locations": [
+          "event:party_lfi_alliance:summary",
+          "event:party_lfi_alliance:choice:risk_breakthrough",
+          "event:party_ps_alliance:summary",
+          "event:party_ps_alliance:choice:risk_breakthrough",
+          "event:party_ecologistes_identity:title",
+          "event:party_ecologistes_identity:summary",
+          "event:party_ecologistes_identity:outcome:viral_success:narrative",
+          "event:party_ecologistes_fronde:title",
+          "event:party_ecologistes_fronde:summary",
+          "event:party_ecologistes_fronde:outcome:viral_success:narrative",
+          "event:party_ecologistes_alliance:title",
+          "event:party_ecologistes_alliance:summary",
+          "event:party_ecologistes_alliance:outcome:viral_success:narrative",
+          "event:party_ecologistes_signature:title",
+          "event:party_ecologistes_signature:summary",
+          "event:party_ecologistes_signature:outcome:viral_success:narrative",
+          "event:party_ecologistes_local_asset:title",
+          "event:party_ecologistes_local_asset:outcome:viral_success:narrative",
+          "event:party_ecologistes_crisis_followup:title",
+          "event:party_ecologistes_crisis_followup:summary",
+          "event:party_ecologistes_crisis_followup:outcome:viral_success:narrative",
+          "achievement:played_ecologistes:description",
+          "achievement:won_ecologistes:description"
+        ]
+      }
+    },
+    {
+      "name": "Renaissance",
+      "aliases": ["REN", "En Marche", "La République en marche", "LREM"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 21,
+        "locations": [
+          "event:party_renaissance_identity:title",
+          "event:party_renaissance_identity:summary",
+          "event:party_renaissance_identity:outcome:viral_success:narrative",
+          "event:party_renaissance_fronde:title",
+          "event:party_renaissance_fronde:summary",
+          "event:party_renaissance_fronde:outcome:viral_success:narrative",
+          "event:party_renaissance_alliance:title",
+          "event:party_renaissance_alliance:summary",
+          "event:party_renaissance_alliance:outcome:viral_success:narrative",
+          "event:party_renaissance_signature:title",
+          "event:party_renaissance_signature:summary",
+          "event:party_renaissance_signature:outcome:viral_success:narrative",
+          "event:party_renaissance_local_asset:title",
+          "event:party_renaissance_local_asset:outcome:viral_success:narrative",
+          "event:party_renaissance_crisis_followup:title",
+          "event:party_renaissance_crisis_followup:summary",
+          "event:party_renaissance_crisis_followup:outcome:viral_success:narrative",
+          "event:party_horizons_alliance:summary",
+          "event:party_horizons_alliance:choice:risk_breakthrough",
+          "achievement:played_renaissance:description",
+          "achievement:won_renaissance:description"
+        ]
+      }
+    },
+    {
+      "name": "Horizons",
+      "aliases": ["HOR", "Horizons Le parti"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 21,
+        "locations": [
+          "event:party_renaissance_alliance:summary",
+          "event:party_renaissance_alliance:choice:risk_breakthrough",
+          "event:party_horizons_identity:title",
+          "event:party_horizons_identity:summary",
+          "event:party_horizons_identity:outcome:viral_success:narrative",
+          "event:party_horizons_fronde:title",
+          "event:party_horizons_fronde:summary",
+          "event:party_horizons_fronde:outcome:viral_success:narrative",
+          "event:party_horizons_alliance:title",
+          "event:party_horizons_alliance:summary",
+          "event:party_horizons_alliance:outcome:viral_success:narrative",
+          "event:party_horizons_signature:title",
+          "event:party_horizons_signature:summary",
+          "event:party_horizons_signature:outcome:viral_success:narrative",
+          "event:party_horizons_local_asset:title",
+          "event:party_horizons_local_asset:outcome:viral_success:narrative",
+          "event:party_horizons_crisis_followup:title",
+          "event:party_horizons_crisis_followup:summary",
+          "event:party_horizons_crisis_followup:outcome:viral_success:narrative",
+          "achievement:played_horizons:description",
+          "achievement:won_horizons:description"
+        ]
+      }
+    },
+    {
+      "name": "Les Républicains",
+      "aliases": ["LR", "Républicains"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:party_lr_identity:summary",
+          "event:party_lr_fronde:summary",
+          "event:party_lr_alliance:summary",
+          "event:party_lr_signature:summary",
+          "event:party_lr_crisis_followup:summary",
+          "event:party_nouvelle_energie_alliance:summary",
+          "event:party_nouvelle_energie_alliance:choice:risk_breakthrough",
+          "achievement:played_lr:description",
+          "achievement:won_lr:description"
+        ]
+      }
+    },
+    {
+      "name": "Rassemblement national",
+      "aliases": ["RN", "Rassemblement National", "Front national", "FN"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 10,
+        "locations": [
+          "event:party_rn_identity:summary",
+          "event:party_rn_fronde:summary",
+          "event:party_rn_alliance:summary",
+          "event:party_rn_signature:summary",
+          "event:party_rn_crisis_followup:summary",
+          "event:party_reconquete_fronde:summary",
+          "event:party_reconquete_alliance:summary",
+          "event:party_reconquete_alliance:choice:risk_breakthrough",
+          "achievement:played_rn:description",
+          "achievement:won_rn:description"
+        ]
+      }
+    },
+    {
+      "name": "Reconquête",
+      "aliases": ["REC", "Reconquête !"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 21,
+        "locations": [
+          "event:party_rn_alliance:summary",
+          "event:party_rn_alliance:choice:risk_breakthrough",
+          "event:party_reconquete_identity:title",
+          "event:party_reconquete_identity:summary",
+          "event:party_reconquete_identity:outcome:viral_success:narrative",
+          "event:party_reconquete_fronde:title",
+          "event:party_reconquete_fronde:summary",
+          "event:party_reconquete_fronde:outcome:viral_success:narrative",
+          "event:party_reconquete_alliance:title",
+          "event:party_reconquete_alliance:summary",
+          "event:party_reconquete_alliance:outcome:viral_success:narrative",
+          "event:party_reconquete_signature:title",
+          "event:party_reconquete_signature:summary",
+          "event:party_reconquete_signature:outcome:viral_success:narrative",
+          "event:party_reconquete_local_asset:title",
+          "event:party_reconquete_local_asset:outcome:viral_success:narrative",
+          "event:party_reconquete_crisis_followup:title",
+          "event:party_reconquete_crisis_followup:summary",
+          "event:party_reconquete_crisis_followup:outcome:viral_success:narrative",
+          "achievement:played_reconquete:description",
+          "achievement:won_reconquete:description"
+        ]
+      }
+    },
+    {
+      "name": "Nouvelle Énergie",
+      "aliases": ["NE", "Une Nouvelle Énergie"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation explicitement marquée réelle dans les données de parti.",
+      "mentions": {
+        "count": 9,
+        "locations": [
+          "event:party_lr_alliance:summary",
+          "event:party_lr_alliance:choice:risk_breakthrough",
+          "event:party_nouvelle_energie_identity:summary",
+          "event:party_nouvelle_energie_fronde:summary",
+          "event:party_nouvelle_energie_alliance:summary",
+          "event:party_nouvelle_energie_signature:summary",
+          "event:party_nouvelle_energie_crisis_followup:summary",
+          "achievement:played_nouvelle_energie:description",
+          "achievement:won_nouvelle_energie:description"
+        ]
+      }
+    },
+    {
+      "name": "Union des droites pour la République",
+      "aliases": ["UDR"],
+      "category": "parti réel",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Organisation politique réelle citée dans l’instantané documentaire, non jouable.",
+      "mentions": {
+        "count": 4,
+        "locations": [
+          "event:alliance_udr_autonomy:title",
+          "event:alliance_udr_autonomy:summary",
+          "event:alliance_udr_autonomy:outcome:viral_success:narrative",
+          "event:party_rn_fronde:summary"
+        ]
+      }
+    },
+    {
+      "name": "Ariane Valmont",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Nassim Courbet",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Léna Orsini",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Gaël Perron",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Clara Villedieu",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Ilyes Marceau",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Solène Briand",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Rémi Calvet",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Éloi Vernet",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Maya Lestang",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Jonas Bellier",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Inès Sarrazin",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Maël Dargent",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Salomé Varenne",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Nils Corbin",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Jeanne Artaud",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Agathe Belcourt",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Théo Lagrive",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Yasmine Dorval",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Paul Auriac",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Bastien Rochefort",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Diane Mérande",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Thomas Cazals",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Hector Lenoir",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Élise Montclar",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Louis Ferran",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Alix Nérac",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Damien Vauvert",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Victor d’Aubrac",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Hélène Saint-Cyr",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Gabriel Valès",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Stan Mornay",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Nora Vaillant",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Raphaël Ternois",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Camille d’Orme",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Julia Castan",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Candidat ou cadre fictif rattaché à un parti réel.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Maud Keravel",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction nécessaire",
+      "rationale": "Personnage secondaire fictif prévu pour porter les scénarios sensibles sans viser une personne réelle.",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:scandal_treasurer_invoices:summary",
+          "event:scandal_audit_conclusion:summary"
+        ]
+      }
+    },
+    {
+      "name": "Léonard Pujol",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction nécessaire",
+      "rationale": "Personnage secondaire fictif prévu pour porter les scénarios sensibles sans viser une personne réelle.",
+      "mentions": {
+        "count": 3,
+        "locations": [
+          "event:scandal_consultant_contract:summary",
+          "event:scandal_plagiarized_report:summary",
+          "event:scandal_false_resume:summary"
+        ]
+      }
+    },
+    {
+      "name": "Samira Bellon",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction nécessaire",
+      "rationale": "Personnage secondaire fictif prévu pour porter les scénarios sensibles sans viser une personne réelle.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:scandal_local_expenses:summary"]
+      }
+    },
+    {
+      "name": "Étienne Marot",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction nécessaire",
+      "rationale": "Personnage secondaire fictif prévu pour porter les scénarios sensibles sans viser une personne réelle.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:scandal_supplier_overbilling:summary"]
+      }
+    },
+    {
+      "name": "Anaïs Vercel",
+      "category": "personnalité fictive",
+      "editorialClass": "fiction nécessaire",
+      "rationale": "Personnage secondaire fictif prévu pour porter les scénarios sensibles sans viser une personne réelle.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:scandal_campaign_data:summary"]
+      }
+    },
+    {
+      "name": "Observatoire Hexagone",
+      "category": "organisation fictive",
+      "editorialClass": "fiction paresseuse",
+      "rationale": "Institut de sondage inventé alors qu’un libellé générique ou un cadre réel sourcé suffirait.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Baromètre Civique",
+      "category": "organisation fictive",
+      "editorialClass": "fiction paresseuse",
+      "rationale": "Institut de sondage inventé alors qu’un libellé générique ou un cadre réel sourcé suffirait.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Institut Agora",
+      "category": "organisation fictive",
+      "editorialClass": "fiction paresseuse",
+      "rationale": "Institut de sondage inventé alors qu’un libellé générique ou un cadre réel sourcé suffirait.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Panel République",
+      "category": "organisation fictive",
+      "editorialClass": "fiction paresseuse",
+      "rationale": "Institut de sondage inventé alors qu’un libellé générique ou un cadre réel sourcé suffirait.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "France",
+      "category": "pays réel",
+      "editorialClass": "réel utilisable",
+      "rationale": "Cadre national réel du scrutin.",
+      "mentions": {
+        "count": 8,
+        "locations": [
+          "event:media_foreign_interview:summary",
+          "event:party_lfi_identity:summary",
+          "event:party_lfi_fronde:summary",
+          "event:party_lfi_alliance:summary",
+          "event:party_lfi_signature:summary",
+          "event:party_lfi_crisis_followup:summary",
+          "achievement:played_lfi:description",
+          "achievement:won_lfi:description"
+        ]
+      }
+    },
+    {
+      "name": "Union européenne",
+      "aliases": ["Europe", "européenne", "européen"],
+      "category": "organisation réelle",
+      "editorialClass": "réel utilisable",
+      "rationale": "Organisation et espace politique réels, employés sans accusation personnelle.",
+      "mentions": {
+        "count": 15,
+        "locations": [
+          "event:media_foreign_interview:summary",
+          "event:media_foreign_interview:choice:risk_breakthrough",
+          "event:program_europe:title",
+          "event:program_europe:summary",
+          "event:program_europe:outcome:viral_success:narrative",
+          "event:program_europe:choice:collective_path",
+          "event:world_international_crisis:title",
+          "event:world_international_crisis:choice:prudent_response",
+          "event:world_international_crisis:outcome:viral_success:narrative",
+          "event:world_european_vote:title",
+          "event:world_european_vote:summary",
+          "event:world_european_vote:choice:risk_breakthrough",
+          "event:world_european_vote:outcome:viral_success:narrative",
+          "event:party_renaissance_alliance:summary",
+          "event:party_renaissance_signature:summary"
+        ]
+      }
+    },
+    {
+      "name": "République française",
+      "aliases": ["République", "Cinquième République", "Ve République"],
+      "category": "institution réelle",
+      "editorialClass": "réel utilisable",
+      "rationale": "Cadre institutionnel réel.",
+      "mentions": {
+        "count": 6,
+        "locations": [
+          "event:program_institutions:title",
+          "event:program_institutions:outcome:viral_success:narrative",
+          "event:rare_crown_petition:summary",
+          "ending:president:title",
+          "achievement:secret_ending:title",
+          "achievement:won_lfi:title"
+        ]
+      }
+    },
+    {
+      "name": "Conseil constitutionnel",
+      "category": "institution réelle",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Institution réelle citée par la documentation des données.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "CNCCFP",
+      "aliases": ["Commission nationale des comptes de campagne et des financements politiques"],
+      "category": "institution réelle",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Autorité réelle citée par la documentation des données.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "ministère de l’Intérieur",
+      "category": "institution réelle",
+      "editorialClass": "réel à actualiser ou sourcer",
+      "rationale": "Institution réelle citée comme source électorale.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Parlement européen",
+      "category": "institution réelle",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Le texte d’événement qualifie à tort de fictif une institution réelle.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:world_european_vote:summary"]
+      }
+    },
+    {
+      "name": "Assemblée nationale",
+      "category": "institution réelle",
+      "editorialClass": "réel utilisable",
+      "rationale": "Institution réelle employée comme cadre politique général.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Élysée",
+      "category": "institution réelle",
+      "editorialClass": "réel utilisable",
+      "rationale": "Lieu et métonymie institutionnelle réels.",
+      "mentions": {
+        "count": 3,
+        "locations": [
+          "ending:strengthened_party:narrative",
+          "achievement:elysee:title",
+          "achievement:won_nouvelle_energie:title"
+        ]
+      }
+    },
+    {
+      "name": "Constitution",
+      "category": "institution réelle",
+      "editorialClass": "réel utilisable",
+      "rationale": "Texte institutionnel réel, sans attribution risquée.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:program_institutions:choice:risk_breakthrough"]
+      }
+    },
+    {
+      "name": "Paris",
+      "category": "ville ou région réelle",
+      "editorialClass": "réel utilisable",
+      "rationale": "Ville réelle employée comme lieu générique de campagne.",
+      "mentions": {
+        "count": 2,
+        "locations": [
+          "event:campaign_regional_rally:title",
+          "event:campaign_regional_rally:outcome:viral_success:narrative"
+        ]
+      }
+    },
+    {
+      "name": "Île-de-France",
+      "category": "ville ou région réelle",
+      "editorialClass": "réel utilisable",
+      "rationale": "Région administrative réelle.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Outre-mer",
+      "category": "ville ou région réelle",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Agrégat territorial réel mais excessivement homogénéisé dans la carte.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Nord",
+      "category": "entité ambiguë ou non identifiable",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Zone de carte abstraite qui ne correspond pas aux régions administratives françaises.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:party_rn_local_asset:summary"]
+      }
+    },
+    {
+      "name": "Est",
+      "category": "entité ambiguë ou non identifiable",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Zone de carte abstraite qui ne correspond pas aux régions administratives françaises.",
+      "mentions": {
+        "count": 215,
+        "locations": [
+          "event:campaign_official_launch:outcome:measured_success:narrative",
+          "event:campaign_factory_visit:outcome:measured_success:narrative",
+          "event:campaign_market_walkabout:outcome:measured_success:narrative",
+          "event:campaign_volunteer_surge:outcome:measured_success:narrative",
+          "event:campaign_poster_shortage:outcome:measured_success:narrative",
+          "event:campaign_endorsements_missing:outcome:measured_success:narrative",
+          "event:campaign_budget_arbitration:outcome:measured_success:narrative",
+          "event:campaign_regional_rally:summary",
+          "event:campaign_regional_rally:outcome:measured_success:narrative",
+          "event:campaign_door_to_door:outcome:measured_success:narrative",
+          "event:campaign_bus_breakdown:outcome:measured_success:narrative",
+          "event:campaign_citizens_convention:outcome:measured_success:narrative",
+          "event:campaign_farmers_roundtable:outcome:measured_success:narrative",
+          "event:campaign_student_forum:outcome:measured_success:narrative",
+          "event:campaign_hospital_night:outcome:measured_success:narrative",
+          "event:campaign_small_business:outcome:measured_success:narrative",
+          "event:campaign_peripheral_town:outcome:measured_success:narrative",
+          "event:campaign_overseas_trip:outcome:measured_success:narrative",
+          "event:campaign_rural_desert:outcome:measured_success:narrative",
+          "event:campaign_union_meeting:outcome:measured_success:narrative",
+          "event:campaign_donation_drive:outcome:measured_success:narrative",
+          "event:campaign_rally_security:outcome:measured_success:narrative",
+          "event:campaign_calendar_conflict:outcome:measured_success:narrative",
+          "event:campaign_slogan_test:outcome:measured_success:narrative",
+          "event:campaign_weather_disaster:outcome:measured_success:narrative"
+        ]
+      }
+    },
+    {
+      "name": "Ouest",
+      "category": "entité ambiguë ou non identifiable",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Zone de carte abstraite qui ne correspond pas aux régions administratives françaises.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:party_horizons_local_asset:summary"]
+      }
+    },
+    {
+      "name": "Sud-Ouest",
+      "category": "entité ambiguë ou non identifiable",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Zone de carte abstraite qui ne correspond pas aux régions administratives françaises.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Sud-Est",
+      "category": "entité ambiguë ou non identifiable",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Zone de carte abstraite qui ne correspond pas aux régions administratives françaises.",
+      "mentions": {
+        "count": 0,
+        "locations": []
+      }
+    },
+    {
+      "name": "Centre",
+      "category": "entité ambiguë ou non identifiable",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Zone de carte abstraite qui ne correspond pas aux régions administratives françaises.",
+      "mentions": {
+        "count": 14,
+        "locations": [
+          "event:program_wages:summary",
+          "event:alliance_center_pact:title",
+          "event:alliance_center_pact:summary",
+          "event:alliance_center_pact:outcome:viral_success:narrative",
+          "event:party_lfi_signature:summary",
+          "event:party_ps_signature:summary",
+          "event:party_ecologistes_signature:summary",
+          "event:party_renaissance_signature:summary",
+          "event:party_horizons_signature:summary",
+          "event:party_lr_signature:summary",
+          "event:party_rn_signature:summary",
+          "event:party_reconquete_signature:summary",
+          "event:party_nouvelle_energie_signature:summary",
+          "achievement:won_renaissance:title"
+        ]
+      }
+    },
+    {
+      "name": "États imaginaires",
+      "category": "pays fictif",
+      "editorialClass": "fiction qui réduit fortement l’immersion",
+      "rationale": "Formulation géopolitique explicitement fictive, sans ancrage géographique crédible.",
+      "mentions": {
+        "count": 1,
+        "locations": ["event:world_international_crisis:summary"]
+      }
+    },
+    {
+      "name": "présidentielle fictive",
+      "category": "événement inventé",
+      "editorialClass": "fiction acceptable",
+      "rationale": "Scrutin futur simulé, nécessaire au jeu.",
+      "mentions": {
+        "count": 1,
+        "locations": ["achievement:elysee:description"]
+      }
+    }
+  ],
+  "genericWorldSignals": [
+    {
+      "signal": "fictif",
+      "count": 73,
+      "locations": [
+        "event:campaign_volunteer_surge:summary",
+        "event:campaign_poster_shortage:summary",
+        "event:campaign_citizens_convention:summary",
+        "event:campaign_student_forum:summary",
+        "event:campaign_calendar_conflict:choice:collective_path",
+        "event:media_long_podcast:summary",
+        "event:media_fictional_editorial_support:title",
+        "event:media_fictional_editorial_support:outcome:viral_success:narrative",
+        "event:media_fact_check_followup:summary",
+        "event:media_front_page:summary",
+        "event:debate_economy_round:summary",
+        "event:debate_economy_round:outcome:technical_setback:narrative",
+        "event:debate_security_round:outcome:technical_setback:narrative",
+        "event:debate_free_conclusion:outcome:technical_setback:narrative",
+        "event:debate_duel_interruption:summary",
+        "event:debate_duel_interruption:outcome:technical_setback:narrative",
+        "event:debate_unknown_question:outcome:technical_setback:narrative",
+        "event:debate_all_candidates:outcome:technical_setback:narrative",
+        "event:debate_fact_card:summary",
+        "event:debate_fact_card:outcome:technical_setback:narrative",
+        "event:debate_post_show_spin:outcome:technical_setback:narrative",
+        "event:program_energy:summary",
+        "event:internal_congress_motion:summary",
+        "event:internal_rival_interview:summary",
+        "event:internal_financial_review:choice:collective_path",
+        "event:internal_volunteer_conflict:summary",
+        "event:internal_spokesperson_mistake:summary",
+        "event:internal_program_committee:summary",
+        "event:internal_youth_wing:summary",
+        "event:internal_major_donor:summary"
+      ]
+    },
+    {
+      "signal": "fictive",
+      "count": 77,
+      "locations": [
+        "event:campaign_factory_visit:summary",
+        "event:campaign_budget_arbitration:summary",
+        "event:campaign_hospital_night:summary",
+        "event:campaign_small_business:summary",
+        "event:campaign_peripheral_town:summary",
+        "event:campaign_union_meeting:summary",
+        "event:campaign_slogan_test:summary",
+        "event:media_economic_morning:summary",
+        "event:media_fictional_editorial_support:summary",
+        "event:media_open_microphone:summary",
+        "event:media_live_stream:summary",
+        "event:media_prime_time_invite:summary",
+        "event:media_local_press:summary",
+        "event:media_foreign_interview:summary",
+        "event:media_documentary_access:summary",
+        "event:media_past_words:summary",
+        "event:debate_unknown_question:summary",
+        "event:program_wages:summary",
+        "event:program_energy:summary",
+        "event:program_immigration:summary",
+        "event:program_europe:summary",
+        "event:program_institutions:summary",
+        "event:program_climate_adaptation:summary",
+        "event:internal_congress_motion:summary",
+        "event:internal_financial_review:summary",
+        "event:internal_volunteer_conflict:summary",
+        "event:internal_strategy_leak:summary",
+        "event:internal_recruitment:summary",
+        "event:alliance_center_pact:summary",
+        "event:alliance_right_convention:summary"
+      ]
+    },
+    {
+      "signal": "fictifs",
+      "count": 421,
+      "locations": [
+        "event:campaign_official_launch:outcome:viral_success:narrative",
+        "event:campaign_official_launch:outcome:risk_setback:narrative",
+        "event:campaign_factory_visit:outcome:viral_success:narrative",
+        "event:campaign_factory_visit:outcome:risk_setback:narrative",
+        "event:campaign_market_walkabout:outcome:viral_success:narrative",
+        "event:campaign_market_walkabout:outcome:risk_setback:narrative",
+        "event:campaign_volunteer_surge:outcome:viral_success:narrative",
+        "event:campaign_volunteer_surge:outcome:risk_setback:narrative",
+        "event:campaign_poster_shortage:outcome:viral_success:narrative",
+        "event:campaign_poster_shortage:outcome:risk_setback:narrative",
+        "event:campaign_endorsements_missing:summary",
+        "event:campaign_endorsements_missing:outcome:viral_success:narrative",
+        "event:campaign_endorsements_missing:outcome:risk_setback:narrative",
+        "event:campaign_budget_arbitration:outcome:viral_success:narrative",
+        "event:campaign_budget_arbitration:outcome:risk_setback:narrative",
+        "event:campaign_regional_rally:outcome:viral_success:narrative",
+        "event:campaign_regional_rally:outcome:risk_setback:narrative",
+        "event:campaign_door_to_door:outcome:viral_success:narrative",
+        "event:campaign_door_to_door:outcome:risk_setback:narrative",
+        "event:campaign_bus_breakdown:outcome:viral_success:narrative",
+        "event:campaign_bus_breakdown:outcome:risk_setback:narrative",
+        "event:campaign_citizens_convention:outcome:viral_success:narrative",
+        "event:campaign_citizens_convention:outcome:risk_setback:narrative",
+        "event:campaign_farmers_roundtable:summary",
+        "event:campaign_farmers_roundtable:outcome:viral_success:narrative",
+        "event:campaign_farmers_roundtable:outcome:risk_setback:narrative",
+        "event:campaign_student_forum:outcome:viral_success:narrative",
+        "event:campaign_student_forum:outcome:risk_setback:narrative",
+        "event:campaign_hospital_night:outcome:viral_success:narrative",
+        "event:campaign_hospital_night:outcome:risk_setback:narrative"
+      ]
+    },
+    {
+      "signal": "personnalité fictive",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "signal": "cadre fictif",
+      "count": 4,
+      "locations": [
+        "event:campaign_calendar_conflict:choice:collective_path",
+        "event:internal_rival_interview:summary",
+        "event:scandal_family_hire:summary",
+        "event:scandal_family_hire:choice:risk_breakthrough"
+      ]
+    },
+    {
+      "signal": "média fictif",
+      "count": 2,
+      "locations": [
+        "event:scandal_treasurer_invoices:summary",
+        "event:scandal_local_expenses:summary"
+      ]
+    },
+    {
+      "signal": "chaîne fictive",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "signal": "émission fictive",
+      "count": 1,
+      "locations": ["event:media_prime_time_invite:summary"]
+    },
+    {
+      "signal": "institut fictif",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "signal": "pays imaginaire",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "signal": "états imaginaires",
+      "count": 1,
+      "locations": ["event:world_international_crisis:summary"]
+    },
+    {
+      "signal": "parlement européen fictif",
+      "count": 1,
+      "locations": ["event:world_european_vote:summary"]
+    },
+    {
+      "signal": "chaîne",
+      "count": 1,
+      "locations": ["event:media_foreign_interview:summary"]
+    },
+    {
+      "signal": "émission",
+      "count": 2,
+      "locations": ["event:media_open_microphone:summary", "event:media_prime_time_invite:summary"]
+    },
+    {
+      "signal": "radio",
+      "count": 1,
+      "locations": ["event:internal_spokesperson_mistake:summary"]
+    },
+    {
+      "signal": "journal",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "signal": "rédaction",
+      "count": 0,
+      "locations": []
+    },
+    {
+      "signal": "plateau",
+      "count": 1,
+      "locations": ["event:debate_all_candidates:summary"]
+    },
+    {
+      "signal": "média",
+      "count": 2,
+      "locations": [
+        "event:scandal_treasurer_invoices:summary",
+        "event:scandal_local_expenses:summary"
+      ]
+    }
+  ],
+  "unclassifiedCandidates": [
+    {
+      "name": "CV de Léonard",
+      "count": 1,
+      "locations": ["event:scandal_false_resume:summary"]
+    },
+    {
+      "name": "Dans le Parti",
+      "count": 1,
+      "locations": ["event:party_ps_fronde:summary"]
+    },
+    {
+      "name": "Dans le Rassemblement",
+      "count": 1,
+      "locations": ["event:party_rn_fronde:summary"]
+    }
+  ]
+}

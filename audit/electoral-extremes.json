@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-08-05T15:07:47.481Z",
+  "methodology": {
+    "pairedSeeds": 500,
+    "firstRoundFixture": {
+      "rn": 28,
+      "ps": 24,
+      "renaissance": 14,
+      "lfi": 12,
+      "lr": 8,
+      "ecologistes": 5,
+      "horizons": 4,
+      "reconquete": 3,
+      "nouvelle_energie": 2
+    },
+    "finalists": ["ps", "rn"],
+    "command": "npx tsx scripts/audit/electoral-extremes.ts",
+    "limitation": "Counterfactual state mutations are audit fixtures; they do not alter production rules or content."
+  },
+  "secondRoundScenarios": {
+    "baseline": {
+      "runs": 500,
+      "averagePsScore": 50.598,
+      "averageDeltaFromBaseline": 0,
+      "minimumPsScore": 41.7,
+      "maximumPsScore": 60.1,
+      "psWinRate": 0.518,
+      "exactFiftyFiftyCount": 2,
+      "exactTieWinners": {
+        "ps": 2
+      },
+      "uniqueTurnoutValues": [72.4]
+    },
+    "ps_allied_with_lfi": {
+      "runs": 500,
+      "averagePsScore": 51.164000000000016,
+      "averageDeltaFromBaseline": 0.5660000000000167,
+      "minimumPsScore": 42.3,
+      "maximumPsScore": 60.6,
+      "psWinRate": 0.552,
+      "exactFiftyFiftyCount": 3,
+      "exactTieWinners": {
+        "ps": 3
+      },
+      "uniqueTurnoutValues": [72.4]
+    },
+    "ps_rejection_100": {
+      "runs": 500,
+      "averagePsScore": 48.993999999999986,
+      "averageDeltaFromBaseline": -1.6040000000000134,
+      "minimumPsScore": 40.1,
+      "maximumPsScore": 58.4,
+      "psWinRate": 0.424,
+      "exactFiftyFiftyCount": 3,
+      "exactTieWinners": {
+        "ps": 3
+      },
+      "uniqueTurnoutValues": [72.4]
+    },
+    "ps_transferability_100": {
+      "runs": 500,
+      "averagePsScore": 52.739800000000066,
+      "averageDeltaFromBaseline": 2.1418000000000674,
+      "minimumPsScore": 43.9,
+      "maximumPsScore": 62.2,
+      "psWinRate": 0.648,
+      "exactFiftyFiftyCount": 4,
+      "exactTieWinners": {
+        "ps": 4
+      },
+      "uniqueTurnoutValues": [72.4]
+    },
+    "ps_extreme_ideology": {
+      "runs": 500,
+      "averagePsScore": 46.99859999999998,
+      "averageDeltaFromBaseline": -3.599400000000017,
+      "minimumPsScore": 38.1,
+      "maximumPsScore": 56.5,
+      "psWinRate": 0.342,
+      "exactFiftyFiftyCount": 5,
+      "exactTieWinners": {
+        "ps": 5
+      },
+      "uniqueTurnoutValues": [72.4]
+    },
+    "identical_finalists": {
+      "runs": 500,
+      "averagePsScore": 49.72720000000007,
+      "averageDeltaFromBaseline": -0.8707999999999316,
+      "minimumPsScore": 40.8,
+      "maximumPsScore": 59.2,
+      "psWinRate": 0.464,
+      "exactFiftyFiftyCount": 2,
+      "exactTieWinners": {
+        "ps": 2
+      },
+      "uniqueTurnoutValues": [72.4]
+    }
+  },
+  "firstRoundIntegrity": {
+    "runsWithDisqualifiedRnReceivingVotes": 0,
+    "runsWithNationalTotalDifferentFrom100": 0
+  }
+}

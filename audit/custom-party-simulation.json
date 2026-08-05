@@ -1,0 +1,319 @@
+{
+  "generatedAt": "2026-08-05T15:03:36.066Z",
+  "methodology": {
+    "seedsPerProfile": 100,
+    "pairedSeedsAcrossProfilesAndStrategies": true,
+    "strategies": ["random", "prudent", "risky", "collective"],
+    "totalRuns": 1600,
+    "command": "npx tsx scripts/audit/custom-party-simulation.ts",
+    "limitation": "Profiles are editorial stress tests, not a representative sample of all possible custom parties."
+  },
+  "byProfile": {
+    "coherent_left_green": {
+      "description": "Economically left, socially liberal, pro-European and strongly ecological.",
+      "ideology": {
+        "economy": -100,
+        "society": -40,
+        "europe": 42,
+        "ecology": 100,
+        "authority": -86,
+        "immigration": -34
+      },
+      "baseline": {
+        "baseSupport": 3.8,
+        "potentialSupport": 18,
+        "mobilization": 65,
+        "finances": 39,
+        "mediaPresence": 34,
+        "governingCredibility": 49,
+        "cohesion": 54,
+        "rejection": 24,
+        "localStrength": 68,
+        "electedSupport": 34,
+        "popularity": 46,
+        "members": 48000,
+        "awareness": 38,
+        "momentum": 53
+      },
+      "strongestElectorateAffinities": [
+        ["green_progressives", 68.04179667487121],
+        ["public_services", 65.84818287763277],
+        ["young_urban_graduates", 65.19458403844486]
+      ],
+      "runs": 400,
+      "qualificationRate": 0.065,
+      "winRate": 0.035,
+      "averageFirstRoundScore": 9.250500000000011,
+      "averageFinalScore": 54.9175,
+      "averageProgression": 5.450499999999996,
+      "averageDecisions": 25.33
+    },
+    "coherent_conservative": {
+      "description": "Economically liberal, sovereignist, restrictive and authority-oriented.",
+      "ideology": {
+        "economy": 100,
+        "society": 0,
+        "europe": -38,
+        "ecology": -28,
+        "authority": 75,
+        "immigration": 42
+      },
+      "baseline": {
+        "baseSupport": 3.8,
+        "potentialSupport": 18,
+        "mobilization": 63,
+        "finances": 39,
+        "mediaPresence": 34,
+        "governingCredibility": 56,
+        "cohesion": 70,
+        "rejection": 24,
+        "localStrength": 38,
+        "electedSupport": 61,
+        "popularity": 46,
+        "members": 16000,
+        "awareness": 38,
+        "momentum": 53
+      },
+      "strongestElectorateAffinities": [
+        ["entrepreneurs", 71.40136079401006],
+        ["conservative_retirees", 65.82694866907835],
+        ["moderate_retirees", 59.379080907426705]
+      ],
+      "runs": 400,
+      "qualificationRate": 0.0825,
+      "winRate": 0.0475,
+      "averageFirstRoundScore": 9.67100000000001,
+      "averageFinalScore": 55.0425,
+      "averageProgression": 5.870999999999999,
+      "averageDecisions": 25.425
+    },
+    "contradictory_hybrid": {
+      "description": "Redistributive and open, but security-oriented, sovereignist, ecological and pro-private services.",
+      "ideology": {
+        "economy": -25,
+        "society": -40,
+        "europe": -38,
+        "ecology": 69,
+        "authority": -6,
+        "immigration": -34
+      },
+      "baseline": {
+        "baseSupport": 3.8,
+        "potentialSupport": 18,
+        "mobilization": 65,
+        "finances": 39,
+        "mediaPresence": 34,
+        "governingCredibility": 57,
+        "cohesion": 54,
+        "rejection": 24,
+        "localStrength": 68,
+        "electedSupport": 37,
+        "popularity": 46,
+        "members": 12000,
+        "awareness": 38,
+        "momentum": 53
+      },
+      "strongestElectorateAffinities": [
+        ["young_precarious", 71.59090102284902],
+        ["urban_working_class", 70.28056828847387],
+        ["public_services", 69.81443441416602]
+      ],
+      "runs": 400,
+      "qualificationRate": 0.1225,
+      "winRate": 0.0875,
+      "averageFirstRoundScore": 10.143999999999995,
+      "averageFinalScore": 58.4475,
+      "averageProgression": 6.344000000000001,
+      "averageDecisions": 25.665
+    },
+    "centrist_default": {
+      "description": "All eight middle answers with balanced leadership and expert priority.",
+      "ideology": {
+        "economy": 3,
+        "society": 0,
+        "europe": 38,
+        "ecology": 22,
+        "authority": 0,
+        "immigration": 9
+      },
+      "baseline": {
+        "baseSupport": 3.8,
+        "potentialSupport": 18,
+        "mobilization": 58,
+        "finances": 39,
+        "mediaPresence": 34,
+        "governingCredibility": 64,
+        "cohesion": 64,
+        "rejection": 24,
+        "localStrength": 53,
+        "electedSupport": 37,
+        "popularity": 46,
+        "members": 12000,
+        "awareness": 38,
+        "momentum": 53
+      },
+      "strongestElectorateAffinities": [
+        ["middle_class_workers", 79.37127463232937],
+        ["moderate_retirees", 75.3982894461947],
+        ["mobilisable_abstainers", 70.07831667190933]
+      ],
+      "runs": 400,
+      "qualificationRate": 0.165,
+      "winRate": 0.1275,
+      "averageFirstRoundScore": 10.609499999999993,
+      "averageFinalScore": 59.525,
+      "averageProgression": 6.809500000000003,
+      "averageDecisions": 25.915
+    }
+  },
+  "byProfileAndStrategy": {
+    "coherent_left_green:random": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0,
+      "averageFirstRoundScore": 9.038999999999996,
+      "averageFinalScore": 54.3,
+      "averageProgression": 5.239000000000001,
+      "averageDecisions": 25.04
+    },
+    "coherent_left_green:prudent": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 8.775999999999998,
+      "averageFinalScore": 53.44,
+      "averageProgression": 4.976000000000002,
+      "averageDecisions": 25
+    },
+    "coherent_left_green:risky": {
+      "runs": 100,
+      "qualificationRate": 0.25,
+      "winRate": 0.14,
+      "averageFirstRoundScore": 11.419,
+      "averageFinalScore": 62.45,
+      "averageProgression": 7.619000000000002,
+      "averageDecisions": 26.28
+    },
+    "coherent_left_green:collective": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 7.767999999999996,
+      "averageFinalScore": 49.48,
+      "averageProgression": 3.968,
+      "averageDecisions": 25
+    },
+    "coherent_conservative:random": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0,
+      "averageFirstRoundScore": 9.445999999999996,
+      "averageFinalScore": 54.25,
+      "averageProgression": 5.646000000000002,
+      "averageDecisions": 25.04
+    },
+    "coherent_conservative:prudent": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 9.175999999999997,
+      "averageFinalScore": 53.48,
+      "averageProgression": 5.376,
+      "averageDecisions": 25
+    },
+    "coherent_conservative:risky": {
+      "runs": 100,
+      "qualificationRate": 0.32,
+      "winRate": 0.19,
+      "averageFirstRoundScore": 11.878000000000007,
+      "averageFinalScore": 63.06,
+      "averageProgression": 8.077999999999998,
+      "averageDecisions": 26.66
+    },
+    "coherent_conservative:collective": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 8.183999999999996,
+      "averageFinalScore": 49.38,
+      "averageProgression": 4.384000000000001,
+      "averageDecisions": 25
+    },
+    "contradictory_hybrid:random": {
+      "runs": 100,
+      "qualificationRate": 0.06,
+      "winRate": 0.05,
+      "averageFirstRoundScore": 9.870000000000003,
+      "averageFinalScore": 57.64,
+      "averageProgression": 6.07,
+      "averageDecisions": 25.34
+    },
+    "contradictory_hybrid:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.01,
+      "winRate": 0,
+      "averageFirstRoundScore": 9.622,
+      "averageFinalScore": 56.35,
+      "averageProgression": 5.822,
+      "averageDecisions": 25.04
+    },
+    "contradictory_hybrid:risky": {
+      "runs": 100,
+      "qualificationRate": 0.42,
+      "winRate": 0.3,
+      "averageFirstRoundScore": 12.519,
+      "averageFinalScore": 67.5,
+      "averageProgression": 8.718999999999998,
+      "averageDecisions": 27.28
+    },
+    "contradictory_hybrid:collective": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 8.565,
+      "averageFinalScore": 52.3,
+      "averageProgression": 4.765,
+      "averageDecisions": 25
+    },
+    "centrist_default:random": {
+      "runs": 100,
+      "qualificationRate": 0.1,
+      "winRate": 0.07,
+      "averageFirstRoundScore": 10.306000000000001,
+      "averageFinalScore": 58.41,
+      "averageProgression": 6.506,
+      "averageDecisions": 25.54
+    },
+    "centrist_default:prudent": {
+      "runs": 100,
+      "qualificationRate": 0.06,
+      "winRate": 0.04,
+      "averageFirstRoundScore": 10.056000000000001,
+      "averageFinalScore": 57.64,
+      "averageProgression": 6.256000000000001,
+      "averageDecisions": 25.32
+    },
+    "centrist_default:risky": {
+      "runs": 100,
+      "qualificationRate": 0.5,
+      "winRate": 0.4,
+      "averageFirstRoundScore": 13.048000000000004,
+      "averageFinalScore": 69.05,
+      "averageProgression": 9.248000000000001,
+      "averageDecisions": 27.8
+    },
+    "centrist_default:collective": {
+      "runs": 100,
+      "qualificationRate": 0,
+      "winRate": 0,
+      "averageFirstRoundScore": 9.027999999999999,
+      "averageFinalScore": 53,
+      "averageProgression": 5.228000000000001,
+      "averageDecisions": 25
+    }
+  },
+  "performance": {
+    "durationMs": 109560.1712,
+    "runsPerSecond": 14.603846392278522
+  }
+}
