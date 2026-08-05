@@ -38,7 +38,7 @@ npm run check            # chaîne qualité complète
 - `src/game/data` : partis, acteurs fictifs, événements, électorat, badges et fins ;
 - `src/game/schemas` et `src/game/types` : contrat sérialisable et validation Zod ;
 - `src/features` : parcours et composants métier ;
-- `src/lib/persistence` : IndexedDB, migrations, export/import ;
+- `src/lib/storage` : IndexedDB, migrations, export/import ;
 - `src/app` : routes Next.js App Router ;
 - `scripts` : validation et simulations massives ;
 - `docs` : conception, maintenance éditoriale, tests et données réelles.
@@ -61,3 +61,10 @@ Le projet se déploie sans backend sur Vercel avec `npm run build`. Le service w
 l’interface après la première visite et les sauvegardes restent dans IndexedDB sur l’appareil.
 
 Les exigences détaillées et l’état d’avancement figurent dans `TODO.md`.
+
+## État de la V1
+
+La V1 comprend 9 partis jouables, un mouvement personnalisable, 182 événements, 58 succès,
+les deux tours de l’élection et l’épilogue gouvernemental. Elle est validée par 38 tests Vitest,
+12 parcours E2E déclinés sur desktop et mobile, ainsi que 1 000 campagnes automatiques sans
+blocage ni état invalide. Le détail reproductible des contrôles se trouve dans `docs/TESTING.md`.

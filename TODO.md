@@ -47,45 +47,53 @@ Ce document suit l’avancement de la V1 décrite dans `PROMPT_MAITRE_CLAUDE_COD
 
 ## Phase 4 — Parcours de jeu complet
 
-- [ ] Créer l’accueil, le disclaimer et la navigation responsive.
-- [ ] Créer choix du mode, sélection/détail du parti et mode aléatoire.
-- [ ] Créer le parcours rapide de parti personnalisé.
-- [ ] Créer choix de méthode et introduction de campagne.
-- [ ] Créer carte événement, choix, conséquence et progression.
-- [ ] Créer dashboard, sondages, actualités et état de la course.
-- [ ] Intégrer débat en trois manches et programme émergent.
-- [ ] Créer soirées électorales, entre-deux-tours et épilogue.
-- [ ] Créer bilan final complet et rejouabilité.
-- [ ] Tester les composants critiques.
-- [ ] Commit de phase.
+- [x] Créer l’accueil, le disclaimer et la navigation responsive.
+- [x] Créer choix du mode, sélection/détail du parti et mode aléatoire.
+- [x] Créer le parcours rapide de parti personnalisé.
+- [x] Créer choix de méthode et introduction de campagne.
+- [x] Créer carte événement, choix, conséquence et progression.
+- [x] Créer dashboard, sondages, actualités et état de la course.
+- [x] Intégrer débat en trois manches et programme émergent.
+- [x] Créer soirées électorales, entre-deux-tours et épilogue.
+- [x] Créer bilan final complet et rejouabilité.
+- [x] Tester les composants critiques.
+- [x] Commit de phase.
 
 ## Phase 5 — Sauvegardes et métajeu
 
-- [ ] Persister partie active, archives et succès dans IndexedDB.
-- [ ] Implémenter autosave, reprise, migration et récupération d’erreur.
-- [ ] Créer archives, détail de campagne, badges et panthéon.
-- [ ] Implémenter suppression ciblée/globale et import/export JSON.
-- [ ] Générer une carte PNG portrait/paysage et intégrer Web Share.
-- [ ] Commit de phase.
+- [x] Persister partie active, archives et succès dans IndexedDB.
+- [x] Implémenter autosave, reprise, migration et récupération d’erreur.
+- [x] Créer archives, détail de campagne, badges et panthéon.
+- [x] Implémenter suppression ciblée/globale et import/export JSON.
+- [x] Générer une carte PNG portrait/paysage et intégrer Web Share.
+- [x] Commit de phase.
 
 ## Phase 6 — PWA, responsive et accessibilité
 
-- [ ] Créer manifest, icônes originales, service worker et page hors connexion.
-- [ ] Assurer le fonctionnement sans réseau après la première visite.
-- [ ] Optimiser les interfaces mobile 360–430 px, tablette et desktop.
-- [ ] Vérifier clavier, focus, contrastes, ARIA, annonces et tailles tactiles.
-- [ ] Respecter `prefers-reduced-motion` et proposer un réglage local.
-- [ ] Créer méthodologie, confidentialité, à propos, paramètres et page 404.
-- [ ] Commit de phase.
+- [x] Créer manifest, icônes originales, service worker et page hors connexion.
+- [x] Assurer le fonctionnement sans réseau après la première visite.
+- [x] Optimiser les interfaces mobile 360–430 px, tablette et desktop.
+- [x] Vérifier clavier, focus, contrastes, ARIA, annonces et tailles tactiles.
+- [x] Respecter `prefers-reduced-motion` et proposer un réglage local.
+- [x] Créer méthodologie, confidentialité, à propos, paramètres et page 404.
+- [x] Commit de phase.
 
 ## Phase 7 — QA et livraison
 
-- [ ] Couvrir les 12 parcours E2E requis avec Playwright.
-- [ ] Exécuter plusieurs centaines/milliers de simulations sans blocage.
-- [ ] Vérifier absence de NaN, bornes, sommes à 100 et variété des résultats.
-- [ ] Exécuter format, lint, typecheck, validation des données et tests.
-- [ ] Exécuter le build de production et contrôler les erreurs console.
-- [ ] Auditer les dépendances et corriger les vulnérabilités critiques.
-- [ ] Tester réellement mobile, desktop, reprise, partage et hors connexion.
-- [ ] Finaliser README et documentation d’extension/déploiement.
-- [ ] Mettre à jour cette feuille de route et créer le commit final.
+- [x] Couvrir les 12 parcours E2E requis avec Playwright.
+- [x] Exécuter plusieurs centaines/milliers de simulations sans blocage.
+- [x] Vérifier absence de NaN, bornes, sommes à 100 et variété des résultats.
+- [x] Exécuter format, lint, typecheck, validation des données et tests.
+- [x] Exécuter le build de production et contrôler les erreurs console.
+- [x] Auditer les dépendances et corriger les vulnérabilités critiques.
+- [x] Tester réellement mobile, desktop, reprise, partage et hors connexion.
+- [x] Finaliser README et documentation d’extension/déploiement.
+- [x] Mettre à jour cette feuille de route et créer le commit final.
+
+## Validation de livraison — 5 août 2026
+
+- `npm run check` : format, lint, TypeScript strict, données, 38 tests Vitest et build validés.
+- `npm run test:e2e` : 18 scénarios exécutés et réussis sur Chromium desktop/Pixel 7 ; 6 doublons longs volontairement omis sur mobile.
+- `npm run test:simulation` : 1 000 campagnes, 0 blocage, 0 état invalide, aucun seuil d’alerte franchi.
+- `npm audit --audit-level=high` : aucune vulnérabilité connue.
+- Build de production contrôlé en navigateur : service worker actif, reprise hors ligne de `/jouer` et fallback hors ligne validés.
