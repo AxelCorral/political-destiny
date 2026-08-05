@@ -2,6 +2,7 @@ import type { GameEventDefinition } from "@/game/types";
 
 import { v2AllianceEvents } from "./alliances";
 import { v2CampaignEvents } from "./campaign";
+import { v2CustomPartyEvents } from "./customParty";
 import { v2DebateEvents } from "./debates";
 import { v2EndgameEvents } from "./endgame";
 import { v2InternalEvents } from "./internal";
@@ -42,6 +43,7 @@ export const v2Events: GameEventDefinition[] = [
   ...v2ScandalEvents,
   ...v2WorldEvents,
   ...v2RareEvents,
+  ...v2CustomPartyEvents,
   ...v2PartyEvents,
   ...v2EndgameEvents,
 ];
@@ -49,6 +51,7 @@ export const v2Events: GameEventDefinition[] = [
 export {
   v2AllianceEvents,
   v2CampaignEvents,
+  v2CustomPartyEvents,
   v2DebateEvents,
   v2EndgameEvents,
   v2InternalEvents,

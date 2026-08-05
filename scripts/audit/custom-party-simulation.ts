@@ -5,14 +5,15 @@ import { resolve } from "node:path";
 import { buildCustomParty, gameContent, type CustomPartyInput } from "../../src/game/data";
 import { createGame, currentEvent, resolveCurrentChoice } from "../../src/game/engine";
 import { hashSeed } from "../../src/game/engine/rng";
+import type { EventChoice, GameState } from "../../src/game/types";
 
-type Strategy = "random" | "prudent" | "risky" | "collective";
+type Strategy = "random" | "coherent" | "prudent" | "risky" | "collective";
 
 const SEEDS = Math.max(
   20,
   Math.min(200, Number.parseInt(process.env.AUDIT_CUSTOM_SEEDS ?? "100", 10) || 100),
 );
-const STRATEGIES: Strategy[] = ["random", "prudent", "risky", "collective"];
+const STRATEGIES: Strategy[] = ["random", "coherent", "prudent", "risky", "collective"];
 
 const profiles: Array<{ id: string; description: string; input: CustomPartyInput }> = [
   {
@@ -119,6 +120,9 @@ interface Result {
   finalScore: number;
   progression: number;
   decisions: number;
+  customEvents: number;
+  statements: number;
+  contradictions: number;
 }
 
 function mean(values: number[]): number {
@@ -134,7 +138,91 @@ function aggregate(rows: Result[]) {
     averageFinalScore: mean(rows.map((row) => row.finalScore)),
     averageProgression: mean(rows.map((row) => row.progression)),
     averageDecisions: mean(rows.map((row) => row.decisions)),
+    averageCustomEvents: mean(rows.map((row) => row.customEvents)),
+    averageStatements: mean(rows.map((row) => row.statements)),
+    runsWithContradiction: rows.filter((row) => row.contradictions > 0).length,
   };
+}
+
+function policyReference(state: GameState, choice: EventChoice): number | undefined {
+  const statement = choice.statement;
+  if (!statement?.policyTopic || statement.stance === undefined) return undefined;
+  const existing = state.policyPositions[statement.policyTopic];
+  if (existing) return existing.stance;
+  const axisByTopic = {
+    economy: "economy",
+    fiscality: "economy",
+    pensions: "economy",
+    public_services: "economy",
+    work: "economy",
+    security: "authority",
+    immigration: "immigration",
+    europe: "europe",
+    ecology: "ecology",
+    institutions: "authority",
+    civil_liberties: "authority",
+    social_issues: "society",
+  } as const;
+  return state.parties[state.playerPartyId]?.perceivedIdeology[axisByTopic[statement.policyTopic]];
+}
+
+function chooseForStrategy(
+  state: GameState,
+  event: ReturnType<typeof currentEvent>,
+  strategy: Strategy,
+  seed: string,
+): EventChoice {
+  if (strategy === "coherent") {
+    return (
+      event.choices
+        .map((choice) => {
+          const reference = policyReference(state, choice);
+          const stance = choice.statement?.stance;
+          const continuity =
+            reference !== undefined && stance !== undefined ? 50 - Math.abs(reference - stance) : 0;
+          const strategicBonus = ["policy_commitment", "long_term_strategy", "compromise"].includes(
+            choice.strategy ?? "",
+          )
+            ? 7
+            : 0;
+          return { choice, score: continuity + strategicBonus };
+        })
+        .sort(
+          (left, right) =>
+            right.score - left.score || left.choice.id.localeCompare(right.choice.id),
+        )[0]?.choice ?? event.choices[0]!
+    );
+  }
+
+  const preferred = event.choices.filter((choice) => {
+    if (strategy === "prudent")
+      return (
+        choice.visibleTag === "PRUDENT" ||
+        choice.strategy === "long_term_strategy" ||
+        choice.strategy === "legal_action" ||
+        choice.strategy === "silence"
+      );
+    if (strategy === "risky")
+      return (
+        choice.visibleTag === "RISQUÉ" ||
+        choice.strategy === "personal_risk" ||
+        choice.strategy === "break" ||
+        choice.strategy === "exclusion"
+      );
+    if (strategy === "collective")
+      return (
+        choice.visibleTag === "RASSEMBLEUR" ||
+        choice.strategy === "alliance" ||
+        choice.strategy === "grassroots_mobilization" ||
+        choice.strategy === "compromise"
+      );
+    return false;
+  });
+  const candidates = preferred.length ? preferred : event.choices;
+  const index =
+    hashSeed(`${seed}:${state.decisionIndex}:${event.id}:${strategy}:custom-choice`) %
+    candidates.length;
+  return candidates[index] ?? candidates[0]!;
 }
 
 const started = performance.now();
@@ -159,20 +247,7 @@ for (const profile of profiles) {
       let guard = 0;
       while (state.phase !== "finished" && guard < 50) {
         const event = currentEvent(state, gameContent.events);
-        const preferred =
-          strategy === "prudent"
-            ? "prudent_response"
-            : strategy === "risky"
-              ? "risk_breakthrough"
-              : strategy === "collective"
-                ? "collective_path"
-                : undefined;
-        const choice = preferred
-          ? (event.choices.find((candidate) => candidate.id === preferred) ?? event.choices[0])
-          : event.choices[
-              hashSeed(`${seed}:${state.decisionIndex}:${event.id}:custom-choice`) %
-                event.choices.length
-            ];
+        const choice = chooseForStrategy(state, event, strategy, seed);
         if (!choice) throw new Error(`No choice for ${event.id}.`);
         state = resolveCurrentChoice(state, choice.id, gameContent).state;
         guard += 1;
@@ -189,6 +264,14 @@ for (const profile of profiles) {
         finalScore: state.finalResult.score,
         progression: state.finalResult.pollingProgression,
         decisions: state.decisionIndex,
+        customEvents: state.decisionHistory.filter((decision) =>
+          decision.eventId.startsWith("custom_"),
+        ).length,
+        statements: state.statementLedger.length,
+        contradictions: state.statementLedger.filter(
+          (statement) =>
+            statement.evolution === "contradiction" || statement.evolution === "abrupt_reversal",
+        ).length,
       });
     }
   }

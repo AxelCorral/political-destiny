@@ -90,7 +90,8 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
       errors.push(`${event.id}: un débat décisif doit proposer au moins quatre lignes`);
     }
     for (const partyId of event.eligibleParties ?? []) {
-      if (!partyIds.has(partyId)) errors.push(`${event.id}: parti éligible absent ${partyId}`);
+      if (!partyIds.has(partyId) && partyId !== "custom_party")
+        errors.push(`${event.id}: parti éligible absent ${partyId}`);
     }
     for (const choice of event.choices) {
       if (choice.label.length < 4 || choice.label.length > 140)
