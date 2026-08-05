@@ -75,6 +75,40 @@ function modifierValue(state: GameState, modifier: ProbabilityModifier): number 
   }
 }
 
+function modifierLabel(modifier: ProbabilityModifier): string {
+  const sourceLabels: Record<ProbabilityModifier["source"], string> = {
+    party_stat: "État de campagne",
+    trait: "Aptitude personnelle",
+    world: "Contexte national",
+    flag: "Décision antérieure",
+    phase: "Moment de la campagne",
+    history: "Historique de campagne",
+    ideology: "Positionnement idéologique",
+    statement: "Déclaration antérieure",
+    actor_memory: "Mémoire d’un acteur",
+    party_relation: "Relation entre partis",
+    electorate: "Confiance de l’électorat",
+    consistency: "Cohérence de la ligne",
+  };
+  const readableKey = modifier.key.replaceAll("_", " ");
+  return `${sourceLabels[modifier.source]} · ${readableKey}`;
+}
+
+function decisiveFactors(state: GameState, outcome: WeightedOutcome): string[] {
+  return outcome.modifiers
+    .map((modifier) => ({
+      label: modifierLabel(modifier),
+      contribution: modifier.coefficient * modifierValue(state, modifier),
+    }))
+    .filter(({ contribution }) => Math.abs(contribution) >= 0.08)
+    .sort((left, right) => Math.abs(right.contribution) - Math.abs(left.contribution))
+    .slice(0, 3)
+    .map(
+      ({ label, contribution }) =>
+        `${label} : ${contribution > 0 ? "a favorisé cette issue" : "a pesé contre cette issue"}`,
+    );
+}
+
 export function outcomeProbabilities(state: GameState, choice: EventChoice): number[] {
   const logits = choice.outcomeGroups.map((outcome) => {
     const base = Math.log(Math.max(0.0001, outcome.baseWeight));
@@ -98,6 +132,7 @@ export function resolveWeightedOutcome(
   choice: EventChoice;
   probabilities: number[];
   roll: number;
+  decisiveFactors: string[];
   state: GameState;
 } {
   const choice = event.choices.find((candidate) => candidate.id === choiceId);
@@ -118,5 +153,12 @@ export function resolveWeightedOutcome(
   }
   const outcome = choice.outcomeGroups[selectedIndex];
   if (!outcome) throw new Error(`Impossible de résoudre le choix « ${choice.id} ».`);
-  return { outcome, choice, probabilities, roll, state: { ...state, rng } };
+  return {
+    outcome,
+    choice,
+    probabilities,
+    roll,
+    decisiveFactors: decisiveFactors(state, outcome),
+    state: { ...state, rng },
+  };
 }

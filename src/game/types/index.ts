@@ -722,7 +722,16 @@ export interface OpponentActionRecord {
   date: string;
   actorId: string;
   partyId: string;
-  kind: "strategy" | "crisis" | "alliance" | "withdrawal" | "replacement" | "dissidence";
+  kind:
+    | "strategy"
+    | "crisis"
+    | "alliance"
+    | "endorsement"
+    | "withdrawal"
+    | "replacement"
+    | "primary"
+    | "dissidence"
+    | "rallying";
   summary: string;
 }
 

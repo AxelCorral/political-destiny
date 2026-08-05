@@ -32,3 +32,18 @@
 - Ajout du validateur de qualité V2 et de seuils bloquants documentés dans `docs/CONTENT_QUALITY_RULES.md`.
 - Ajout de 15 tests de schéma, qualité, migration et identité de partie : la suite passe désormais 53 tests.
 - Contrôles de phase : format, lint, typecheck, validation, tests et build réussis.
+
+### Phase B — Moteur narratif
+
+- Normalisation de douze thèmes politiques et création d’un programme émergent par déclarations.
+- Classification des changements de ligne : position initiale, évolution progressive, compromis cohérent, repositionnement, contradiction et revirement brutal.
+- Répercussions simultanées des revirements sur cohérence, cohésion, rejet, présence médiatique, adhérents, idéologie perçue et confiance des blocs électoraux.
+- Mémoire typée des acteurs et relations symétriques entre partis, utilisables dans les conditions et probabilités.
+- Suites probabilistes différées, progression des chaînes, délais, incompatibilités et limites d’apparition.
+- Explication des facteurs ayant favorisé ou contrarié une issue sans exposer le jet aléatoire.
+- Simulation adverse enrichie : changements de stratégie, crises internes fictives, alliances, consignes de second tour, remplacements et dissidences.
+- Bulletins adverses périodiques produits à partir d’actions réellement simulées.
+- 14 nouveaux tests moteur ; suite portée à 67 tests sur 15 fichiers.
+- Le test de 120 campagnes conserve son volume et reçoit un timeout local de 15 s ; aucun timeout global n’a été augmenté.
+- Simulation fumée de 300 campagnes : 0 campagne bloquée, 0 état invalide, 27,14 décisions en moyenne. Les déséquilibres V1 restent volontairement à traiter en phase F.
+- Contrôles de phase : format, lint, typecheck, validation, tests et build réussis.

@@ -64,6 +64,15 @@ export function applyPartySplit(
   leader.candidateStatus = "official";
   leader.loyalty = clamp(leader.loyalty - 20);
   state.parties[splitId] = dissidence;
+  state.partyRelations[splitId] = {};
+  for (const otherPartyId of Object.keys(state.parties)) {
+    const inherited = state.partyRelations[partyId]?.[otherPartyId] ?? 0;
+    const relation =
+      otherPartyId === splitId ? 100 : otherPartyId === partyId ? -35 : inherited * 0.7;
+    state.partyRelations[splitId][otherPartyId] = relation;
+    state.partyRelations[otherPartyId] ??= {};
+    state.partyRelations[otherPartyId][splitId] = relation;
+  }
 
   for (const blocId of Object.keys(state.electorate.latentSupport) as Array<
     keyof typeof state.electorate.latentSupport

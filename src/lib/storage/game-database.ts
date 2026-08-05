@@ -1,6 +1,7 @@
 import { openDB, type DBSchema, type IDBPDatabase } from "idb";
 
 import { GAME_CONFIG } from "@/config/game";
+import { clamp, ideologyDistance } from "@/game/engine/math";
 import { deriveStableId } from "@/game/engine/rng";
 import type { CompletedRunSummary, GameMode, GameState } from "@/game/types";
 
@@ -154,7 +155,15 @@ function initialPartyRelations(state: GameState): Record<string, Record<string, 
       Object.fromEntries(
         Object.values(state.parties).map((other) => [
           other.id,
-          party.id === other.id ? 100 : party.alliedWith.includes(other.id) ? 35 : 0,
+          party.id === other.id
+            ? 100
+            : party.alliedWith.includes(other.id)
+              ? 45
+              : clamp(
+                  34 - ideologyDistance(party.perceivedIdeology, other.perceivedIdeology) * 0.55,
+                  -40,
+                  35,
+                ),
         ]),
       ),
     ]),

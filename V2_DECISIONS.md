@@ -39,3 +39,11 @@ Le skill UI/UX demandé par le contexte a été consulté. Son script de recherc
 ## D-010 — Correction des tests par état fonctionnel
 
 Le test Playwright du dialogue ne supposera plus que chaque contexte vierge affiche nécessairement le même état persistant. Chaque test isole son stockage et la fonction de fermeture acceptera les deux états valides : dialogue visible à fermer ou préférence déjà enregistrée. Le test Vitest de campagne complète sera optimisé et, uniquement si nécessaire, recevra un timeout local documenté.
+
+## D-011 — Une position est une donnée, pas seulement un drapeau
+
+Chaque déclaration de fond associe un thème normalisé, une orientation de −100 à +100, un niveau de confiance et une histoire de changements. L’idéologie profonde se déplace moins vite que l’image perçue. Une rupture de plus de 70 points est un revirement brutal ; elle peut conquérir un électorat tout en coûtant cohésion, adhérents et rejet. Les seuils restent internes au moteur et sont testés.
+
+## D-012 — Les adversaires publient seulement ce qu’ils ont simulé
+
+Le fil adverse est dérivé des actions enregistrées dans `opponentActions`. Une alliance, une crise, un remplacement ou une consigne ne peut pas être raconté sans avoir modifié l’état correspondant. Les crises sensibles ne concernent que des personnages fictifs et restent formulées comme des crises de campagne, sans accusation personnelle inventée.

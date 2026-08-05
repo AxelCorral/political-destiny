@@ -52,4 +52,31 @@ describe("effets de jeu", () => {
     expect(allied.parties.alpha?.alliedWith).toContain("gamma");
     expect(allied.parties.gamma?.alliedWith).toContain("alpha");
   });
+
+  it("mémorise une dette politique et fait évoluer une relation", () => {
+    const state = createGame(
+      { seed: "mémoire", mode: "existing_party", partyId: "alpha", methodId: "field" },
+      testContent,
+    );
+    const before = state.partyRelations.alpha?.beta ?? 0;
+    const applied = applyEffects(state, [
+      {
+        kind: "actor_memory",
+        actorId: "beta_candidate",
+        memory: "political_debt",
+        intensity: 35,
+        targetPartyId: "alpha",
+      },
+      { kind: "party_relation", partyId: "player", withPartyId: "beta", delta: 12 },
+    ]).state;
+
+    expect(applied.actorMemories).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ actorId: "beta_candidate", kind: "political_debt" }),
+      ]),
+    );
+    expect(applied.actors.beta_candidate?.memory.entries).toHaveLength(1);
+    expect(applied.partyRelations.alpha?.beta).toBeCloseTo(before + 12, 8);
+    expect(applied.partyRelations.beta?.alpha).toBeCloseTo(before + 12, 8);
+  });
 });

@@ -1,6 +1,7 @@
 import type { EventCategory, GameEventDefinition, GameState } from "@/game/types";
 
 import { allConditionsMatch } from "./conditions";
+import { narrativeChainMatches } from "./narrativeThreads";
 import { weightedIndex } from "./rng";
 
 const RARITY_WEIGHT = {
@@ -44,6 +45,7 @@ export function isEventEligible(state: GameState, event: GameEventDefinition): b
   if (event.excludedParties?.includes(state.playerPartyId)) return false;
   if (event.incompatibleEventIds?.some((eventId) => state.seenEventIds.includes(eventId)))
     return false;
+  if (!narrativeChainMatches(state, event)) return false;
   if (event.forbiddenFlags?.some((flag) => Boolean(state.flags[flag]))) return false;
   if (event.requiredTags?.some((tag) => !Boolean(state.flags[`tag:${tag}`]))) return false;
   return allConditionsMatch(state, event.eligibility);

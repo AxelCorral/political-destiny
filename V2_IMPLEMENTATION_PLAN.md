@@ -38,16 +38,16 @@ Résultats initiaux du 5 août 2026 :
 
 ## Phase B — Moteur
 
-- [ ] Enregistrer et appliquer les déclarations par thème.
-- [ ] Distinguer évolution, compromis, repositionnement, contradiction et revirement.
-- [ ] Faire influencer les positions sur idéologie, électorats, cohésion et rejet.
-- [ ] Implémenter la mémoire relationnelle des acteurs et des partis.
-- [ ] Implémenter suites différées, variantes, incompatibilités, max d’apparitions et cooldowns.
-- [ ] Enrichir les modificateurs probabilistes et exposer les raisons après résolution.
-- [ ] Simuler alliances, crises, retraits, remplacements et dissidences adverses.
-- [ ] Produire un bulletin adverse périodique lisible.
-- [ ] Ajouter les tests moteur et de déterminisme.
-- [ ] Exécuter tous les contrôles de non-régression et committer la phase.
+- [x] Enregistrer et appliquer les déclarations par thème.
+- [x] Distinguer évolution, compromis, repositionnement, contradiction et revirement.
+- [x] Faire influencer les positions sur idéologie, électorats, cohésion et rejet.
+- [x] Implémenter la mémoire relationnelle des acteurs et des partis.
+- [x] Implémenter suites différées, variantes, incompatibilités, max d’apparitions et cooldowns.
+- [x] Enrichir les modificateurs probabilistes et exposer les raisons après résolution.
+- [x] Simuler alliances, crises, retraits, remplacements et dissidences adverses.
+- [x] Produire un bulletin adverse périodique lisible.
+- [x] Ajouter les tests moteur et de déterminisme.
+- [x] Exécuter tous les contrôles de non-régression et committer la phase.
 
 ## Phase C — Architecture éditoriale du contenu
 

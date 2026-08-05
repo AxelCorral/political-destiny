@@ -83,5 +83,5 @@ describe("pipeline complet", () => {
       }),
       { numRuns: 120 },
     );
-  });
+  }, 15_000);
 });

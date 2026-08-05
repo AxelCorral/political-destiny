@@ -17,12 +17,18 @@ import { applyDueEffects, applyEffects, scheduleEffects } from "./effectProcesso
 import { simulateFirstRound, simulateSecondRound } from "./election";
 import { initializeElectorate, recalculateElectorate } from "./electorate";
 import { selectNextEvent } from "./eventSelector";
-import { clamp } from "./math";
+import { clamp, ideologyDistance } from "./math";
+import {
+  recordNarrativeProgress,
+  releaseDueScheduledEvents,
+  scheduleEventFollowUps,
+} from "./narrativeThreads";
 import { simulateOpponentTurn } from "./opponentSimulation";
 import { resolveWeightedOutcome } from "./outcomeResolver";
 import { generatePoll } from "./polls";
 import { createRngState, deriveStableId } from "./rng";
 import { scoreGame } from "./scoring";
+import { recordStatement } from "./statements";
 
 function partyStateFromDefinition(definition: PartyDefinition): PartyState {
   return {
@@ -155,7 +161,23 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
   const partyRelations = Object.fromEntries(
     Object.keys(parties).map((partyId) => [
       partyId,
-      Object.fromEntries(Object.keys(parties).map((otherPartyId) => [otherPartyId, 0])),
+      Object.fromEntries(
+        Object.keys(parties).map((otherPartyId) => [
+          otherPartyId,
+          partyId === otherPartyId
+            ? 100
+            : clamp(
+                34 -
+                  ideologyDistance(
+                    parties[partyId]!.perceivedIdeology,
+                    parties[otherPartyId]!.perceivedIdeology,
+                  ) *
+                    0.55,
+                -40,
+                35,
+              ),
+        ]),
+      ),
     ]),
   );
   let state: GameState = {
@@ -242,7 +264,8 @@ export function prepareNextEvent(state: GameState, events: GameEventDefinition[]
   ) {
     return { ...state, currentEventId: undefined };
   }
-  const selected = selectNextEvent(state, events);
+  const released = releaseDueScheduledEvents(state);
+  const selected = selectNextEvent(released, events);
   return { ...selected.state, currentEventId: selected.event.id };
 }
 
@@ -337,21 +360,23 @@ export function resolveCurrentChoice(
   if (resolved.outcome.delayedEffects?.length) {
     state = scheduleEffects(state, event.id, resolved.outcome.delayedEffects);
   }
+  if (resolved.outcome.followUps?.length) {
+    state = scheduleEventFollowUps(state, event.id, resolved.outcome.followUps);
+  }
   if (resolved.outcome.endingTrigger) {
     state.endingId = resolved.outcome.endingTrigger;
     state.flags[`ending:${resolved.outcome.endingTrigger}`] = true;
   }
-  if (resolved.choice.statement) {
-    state.statementLedger.push({
-      decisionIndex: state.decisionIndex + 1,
-      eventId: event.id,
-      topic: resolved.choice.statement.topic,
-      text: resolved.choice.statement.text,
-      ...(resolved.choice.statement.ideology
-        ? { ideology: structuredClone(resolved.choice.statement.ideology) }
-        : {}),
-    });
-  }
+  const statementResolution = resolved.choice.statement
+    ? recordStatement(
+        state,
+        event.id,
+        resolved.choice.statement,
+        state.decisionIndex + 1,
+        content.electorateBlocs,
+      )
+    : undefined;
+  if (statementResolution) state = statementResolution.state;
 
   state.decisionIndex += 1;
   state.seenEventIds.push(event.id);
@@ -378,10 +403,18 @@ export function resolveCurrentChoice(
     eventCategory: event.category,
     choiceId: resolved.choice.id,
     choiceLabel: resolved.choice.label,
+    ...(resolved.choice.strategy ? { choiceStrategy: resolved.choice.strategy } : {}),
     outcomeId: resolved.outcome.id,
     outcomeTitle: resolved.outcome.title,
     narrative: [resolved.outcome.publicNarrative, ...due.narratives].join(" "),
-    visibleEffects: effectRecord(applied.visibleEffects, due.visibleEffects),
+    visibleEffects: effectRecord(
+      [...applied.visibleEffects, ...(statementResolution?.visibleEffects ?? [])],
+      due.visibleEffects,
+    ),
+    ...(resolved.decisiveFactors.length ? { decisiveFactors: resolved.decisiveFactors } : {}),
+    ...(statementResolution?.record.evolution
+      ? { statementEvolution: statementResolution.record.evolution }
+      : {}),
     internalRoll: resolved.roll,
     internalProbabilities: Object.fromEntries(
       resolved.choice.outcomeGroups.map((outcome, index) => [
@@ -391,6 +424,7 @@ export function resolveCurrentChoice(
     ),
   } as const;
   state.decisionHistory.push(record);
+  state = recordNarrativeProgress(state, event, content.events);
 
   if (state.decisionIndex % 4 === 0) state = generatePoll(state, content.electorateBlocs).state;
 
