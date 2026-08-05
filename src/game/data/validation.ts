@@ -70,6 +70,12 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
       errors.push(`${event.id}: résumé de ${summaryWords} mots (attendu 25..80)`);
     if (event.choices.length < 2 || event.choices.length > 5)
       errors.push(`${event.id}: nombre de choix invalide`);
+    if (
+      (event.category === "debate" || event.id === "runoff_final_debate") &&
+      event.choices.length < 4
+    ) {
+      errors.push(`${event.id}: un débat décisif doit proposer au moins quatre lignes`);
+    }
     for (const partyId of event.eligibleParties ?? []) {
       if (!partyIds.has(partyId)) errors.push(`${event.id}: parti éligible absent ${partyId}`);
     }

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { BRANDING } from "@/config/branding";
+import { ActiveCampaignCard } from "@/features/campaign/active-campaign-card";
 
 const promises = [
   { icon: CalendarDays, value: "1 année", label: "de campagne" },
@@ -75,6 +76,8 @@ export default function HomePage() {
           </Card>
         </div>
       </section>
+
+      <ActiveCampaignCard />
 
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="rounded-2xl border border-[var(--line)] bg-white/65 p-5 text-sm leading-relaxed text-[var(--ink-muted)] sm:p-6">

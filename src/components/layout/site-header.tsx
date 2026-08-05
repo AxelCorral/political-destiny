@@ -32,6 +32,7 @@ export function SiteHeader() {
             <Link
               key={href}
               href={href}
+              aria-label={label}
               className="flex min-h-11 items-center gap-2 rounded-lg px-2 text-sm font-bold text-slate-200 hover:bg-white/10 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--gold-400)] sm:px-3"
             >
               <Icon aria-hidden="true" className="size-4" />

@@ -280,10 +280,14 @@ function choicesFor(seed: ScenarioSeed): EventChoice[] {
     },
   ];
 
-  if (seed.collective) {
+  const structuredDebate = seed.category === "debate" || seed.id === "runoff_final_debate";
+  const collectiveLabel =
+    seed.collective ?? "Chercher un point d’accord avant de marquer votre différence";
+
+  if (seed.collective || structuredDebate) {
     choices.push({
       id: "collective_path",
-      label: seed.collective,
+      label: collectiveLabel,
       visibleTag: "RASSEMBLEUR",
       outcomeGroups: [
         {
@@ -313,7 +317,53 @@ function choicesFor(seed: ScenarioSeed): EventChoice[] {
           ],
         },
       ],
-      ...(statement(seed.collective) ? { statement: statement(seed.collective) } : {}),
+      ...(statement(collectiveLabel) ? { statement: statement(collectiveLabel) } : {}),
+    });
+  }
+  if (structuredDebate) {
+    const technicalLabel = "Répondre point par point avec une démonstration technique";
+    choices.push({
+      id: "technical_path",
+      label: technicalLabel,
+      visibleTag: "TECHNIQUE",
+      outcomeGroups: [
+        {
+          id: "technical_success",
+          baseWeight: 2.8,
+          modifiers: [
+            { source: "trait", key: "competence", coefficient: 0.75 },
+            { source: "trait", key: "mediaSkill", coefficient: 0.25 },
+          ],
+          title: "Le fond prend le dessus",
+          publicNarrative:
+            "Votre démonstration reste compréhensible malgré la densité du sujet. Les commentateurs fictifs retiennent une maîtrise précise et plusieurs adversaires doivent revoir leurs éléments de langage.",
+          effects: [
+            { kind: "party_stat", stat: "credibility", delta: 5, label: "Crédibilité +5" },
+            {
+              kind: "party_stat",
+              stat: "mediaPresence",
+              delta: 1,
+              label: "Présence médiatique +1",
+            },
+          ],
+        },
+        {
+          id: "technical_setback",
+          baseWeight: 1.8,
+          modifiers: [
+            { source: "trait", key: "mediaSkill", coefficient: -0.4 },
+            { source: "party_stat", key: "awareness", coefficient: -0.25 },
+          ],
+          title: "La précision devient du jargon",
+          publicNarrative:
+            "La réponse accumule les détails jusqu’à perdre le fil politique. Le sérieux n’est pas contesté, mais la séquence laisse au public fictif une impression de distance et de technicité défensive.",
+          effects: [
+            { kind: "party_stat", stat: "popularity", delta: -2, label: "Popularité −2" },
+            { kind: "party_stat", stat: "momentum", delta: -2, label: "Dynamique −2" },
+          ],
+        },
+      ],
+      ...(statement(technicalLabel) ? { statement: statement(technicalLabel) } : {}),
     });
   }
   return choices;

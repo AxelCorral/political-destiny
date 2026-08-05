@@ -8,10 +8,31 @@
   "theme_color": "#071426",
   "lang": "fr",
   "orientation": "portrait-primary",
+  "categories": ["games", "entertainment"],
+  "shortcuts": [
+    {
+      "name": "Jouer",
+      "short_name": "Jouer",
+      "url": "/jouer",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Archives",
+      "short_name": "Archives",
+      "url": "/archives",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    }
+  ],
   "icons": [
     {
-      "src": "/icons/emblem.svg",
-      "sizes": "any",
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     }
