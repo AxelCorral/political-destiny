@@ -90,6 +90,11 @@
 - Score final recalculé à partir de la performance au premier tour, de la progression, de la croissance militante, des positions, alliances, contradictions et décisions réellement enregistrées.
 - Résumé final enrichi avec tournant, meilleur choix, décision coûteuse et héritage issus de l’historique ; progression des badges numériques visible pendant une partie active.
 
+### Phase G — corrections (Claude Code, 6 août 2026)
+
+- `million_members` exigeait un gain de 150 000 adhérents alors que seuls des événements de parti personnalisé portent un effet positif sur les adhérents (six événements, plafond théorique cumulé d'environ 67 000) : aucun des neuf partis existants ne peut jamais gagner d'adhérents. Seuil ramené à 60 000 et titre/description corrigés (« Soixante mille nouvelles cartes »).
+- `viral` exigeait un identifiant d'issue contenant « viral », qu'aucun événement ne produisait réellement (le mot n'apparaissait que dans des textes de récit ou des libellés d'effet). L'issue `parrot_charity_clip` — dont le récit décrit explicitement « la séquence la plus partagée de votre campagne » — a été renommée `parrot_charity_clip_viral` ; le drapeau `parrot_charity_clip` lu par `endings.ts` n'a pas été modifié.
+
 ### Phase H — Interface de décision
 
 - Suppression du mini-jeu de débat fondé sur les postures « précision/offensive/rassemblement/démonstration » : un débat présente directement deux à quatre prises de position contextualisées.

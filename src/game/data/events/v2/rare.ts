@@ -157,7 +157,7 @@ export const v2RareEvents: GameEventDefinition[] = [
         "Demander l’autorisation de publier la scène et reverser les recettes du clip à un refuge animalier",
         "symbolic_action",
         "POPULAIRE",
-        "parrot_charity_clip",
+        "parrot_charity_clip_viral",
         "Le clip finance un refuge",
         "Le propriétaire donne son accord et la vidéo devient la séquence la plus partagée de votre campagne. Le geste solidaire évite l’exploitation gratuite, mais votre annonce économique passe au second plan.",
         [

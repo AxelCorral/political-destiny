@@ -234,8 +234,8 @@ const achievementCatalog: Omit<AchievementDefinition, "criteria">[] = [
   },
   {
     id: "million_members",
-    title: "Cent cinquante mille nouvelles cartes",
-    description: "Gagner cent cinquante mille adhérents simulés pendant la campagne.",
+    title: "Soixante mille nouvelles cartes",
+    description: "Gagner soixante mille adhérents simulés pendant la campagne.",
     category: "records",
     icon: "M",
   },
@@ -494,7 +494,7 @@ const criteriaById: Record<string, AchievementCriteria> = {
   historic_score: all({ metric: "score", operator: "gte", value: 85 }),
   perfect_campaign: all({ metric: "score", operator: "gte", value: 95 }),
   hundred_members: all({ metric: "member_growth", operator: "gte", value: 50_000 }),
-  million_members: all({ metric: "member_growth", operator: "gte", value: 150_000 }),
+  million_members: all({ metric: "member_growth", operator: "gte", value: 60_000 }),
   media_wave: all({ metric: "party_stat", key: "mediaPresence", operator: "gte", value: 85 }),
   local_roots: all({ metric: "party_stat", key: "localStrength", operator: "gte", value: 80 }),
   secret_ending: any(

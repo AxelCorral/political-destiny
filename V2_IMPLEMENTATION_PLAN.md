@@ -110,7 +110,7 @@ Aucune des 5 stratégies réellement jouables (random, coherent, prudent, risky,
 - [x] Ajouter les fins alternatives préparées par la trajectoire.
 - [x] Produire un bilan à partir des décisions, positions, alliances et tournants réels.
 - [x] Améliorer le contenu partagé sans données inventées.
-- [ ] Exécuter les tests et committer la phase.
+- [x] Exécuter les tests et committer la phase.
 
 ## Phase H — UX
 

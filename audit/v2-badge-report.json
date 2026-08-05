@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-08-05T22:25:08.458Z",
+  "methodology": {
+    "scope": "All production achievement criteria plus the paired V2 simulation.",
+    "simulationRuns": 6300,
+    "command": "npx tsx scripts/audit/badge-audit.ts",
+    "caveat": "An unobserved badge is not considered impossible unless the structural validator proves that its criterion or reference cannot be reached."
+  },
+  "inventory": {
+    "totalAchievements": 58,
+    "withTypedCriteria": 58,
+    "observedInExistingPartySimulation": 54,
+    "unobservedInExistingPartySimulation": [
+      "new_party",
+      "random_destiny",
+      "viral",
+      "million_members"
+    ]
+  },
+  "structuralImpossibilities": [],
+  "automaticOrNearAutomaticInSimulation": [
+    {
+      "id": "campaign_complete",
+      "count": 6300
+    },
+    {
+      "id": "first_choice",
+      "count": 6300
+    },
+    {
+      "id": "first_poll",
+      "count": 6300
+    },
+    {
+      "id": "ten_good_outcomes",
+      "count": 6300
+    }
+  ],
+  "endingBadgeChecks": [
+    {
+      "achievementId": "kingmaker",
+      "endingIds": ["kingmaker"],
+      "matchingEndingRuns": 1024,
+      "unlockedRuns": 1024
+    },
+    {
+      "achievementId": "secret_ending",
+      "endingIds": [
+        "secret_national_union",
+        "secret_monarchy",
+        "secret_fragmentation",
+        "secret_authoritarian",
+        "secret_civil_unrest"
+      ],
+      "matchingEndingRuns": 29,
+      "unlockedRuns": 29
+    }
+  ],
+  "observedFrequency": [
+    {
+      "id": "campaign_complete",
+      "count": 6300
+    },
+    {
+      "id": "first_choice",
+      "count": 6300
+    },
+    {
+      "id": "first_poll",
+      "count": 6300
+    },
+    {
+      "id": "ten_good_outcomes",
+      "count": 6300
+    },
+    {
+      "id": "debate_master",
+      "count": 5896
+    },
+    {
+      "id": "credible",
+      "count": 5126
+    },
+    {
+      "id": "runoff",
+      "count": 4633
+    },
+    {
+      "id": "without_compromise",
+      "count": 4470
+    },
+    {
+      "id": "transparent",
+      "count": 4317
+    },
+    {
+      "id": "elysee",
+      "count": 3500
+    },
+    {
+      "id": "thirty_decisions",
+      "count": 3500
+    },
+    {
+      "id": "mobilized",
+      "count": 2880
+    },
+    {
+      "id": "from_under_eight",
+      "count": 2817
+    },
+    {
+      "id": "media_wave",
+      "count": 2810
+    },
+    {
+      "id": "comeback",
+      "count": 2708
+    },
+    {
+      "id": "prudent",
+      "count": 2691
+    },
+    {
+      "id": "historic_score",
+      "count": 2689
+    },
+    {
+      "id": "local_roots",
+      "count": 2604
+    },
+    {
+      "id": "all_topics",
+      "count": 2575
+    },
+    {
+      "id": "underdog",
+      "count": 2430
+    },
+    {
+      "id": "coalition",
+      "count": 1488
+    },
+    {
+      "id": "hundred_members",
+      "count": 1210
+    },
+    {
+      "id": "three_scandals",
+      "count": 1148
+    },
+    {
+      "id": "kingmaker",
+      "count": 1024
+    },
+    {
+      "id": "risk_taker",
+      "count": 994
+    },
+    {
+      "id": "second_place",
+      "count": 783
+    },
+    {
+      "id": "no_scandal",
+      "count": 766
+    },
+    {
+      "id": "played_ecologistes",
+      "count": 700
+    },
+    {
+      "id": "played_horizons",
+      "count": 700
+    },
+    {
+      "id": "played_lfi",
+      "count": 700
+    },
+    {
+      "id": "played_lr",
+      "count": 700
+    },
+    {
+      "id": "played_nouvelle_energie",
+      "count": 700
+    },
+    {
+      "id": "played_ps",
+      "count": 700
+    },
+    {
+      "id": "played_reconquete",
+      "count": 700
+    },
+    {
+      "id": "played_renaissance",
+      "count": 700
+    },
+    {
+      "id": "played_rn",
+      "count": 700
+    },
+    {
+      "id": "united",
+      "count": 561
+    },
+    {
+      "id": "won_renaissance",
+      "count": 510
+    },
+    {
+      "id": "won_horizons",
+      "count": 498
+    },
+    {
+      "id": "won_lr",
+      "count": 497
+    },
+    {
+      "id": "won_ps",
+      "count": 468
+    },
+    {
+      "id": "won_ecologistes",
+      "count": 420
+    },
+    {
+      "id": "won_nouvelle_energie",
+      "count": 417
+    },
+    {
+      "id": "won_lfi",
+      "count": 370
+    },
+    {
+      "id": "momentum",
+      "count": 287
+    },
+    {
+      "id": "won_rn",
+      "count": 281
+    },
+    {
+      "id": "close_victory",
+      "count": 141
+    },
+    {
+      "id": "perfect_campaign",
+      "count": 140
+    },
+    {
+      "id": "chameleon",
+      "count": 128
+    },
+    {
+      "id": "solvent",
+      "count": 121
+    },
+    {
+      "id": "loyal",
+      "count": 39
+    },
+    {
+      "id": "won_reconquete",
+      "count": 39
+    },
+    {
+      "id": "popular",
+      "count": 34
+    },
+    {
+      "id": "secret_ending",
+      "count": 29
+    }
+  ]
+}
