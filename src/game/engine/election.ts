@@ -40,6 +40,50 @@ function regionalResults(state: GameState, national: Record<string, number>): Re
   });
 }
 
+function campaignConsistencyModifier(state: GameState, partyId: string): number {
+  if (partyId !== state.playerPartyId) return 0;
+  return state.statementLedger.reduce((total, statement) => {
+    switch (statement.evolution) {
+      case "coherent_compromise":
+      case "gradual_evolution":
+        return total + 0.8;
+      case "contradiction":
+        return total - 1.4;
+      case "abrupt_reversal":
+        return total - 2.2;
+      default:
+        return total;
+    }
+  }, 0);
+}
+
+function runoffAppeal(state: GameState, sourcePartyId: string, finalistId: string): number {
+  const source = state.parties[sourcePartyId];
+  const finalist = state.parties[finalistId];
+  if (!source || !finalist) return 0.01;
+
+  const distance = ideologyDistance(source.perceivedIdeology, finalist.perceivedIdeology);
+  const relation = state.partyRelations[sourcePartyId]?.[finalistId] ?? 0;
+  const endorsement = state.flags[`endorsement:${sourcePartyId}`];
+  const endorsementModifier = endorsement === finalistId ? 24 : endorsement === "neutral" ? 0 : -10;
+  const allianceModifier = source.alliedWith.includes(finalistId) ? 18 : 0;
+  const consistency = campaignConsistencyModifier(state, finalistId);
+
+  return Math.max(
+    0.05,
+    112 -
+      distance * 0.62 +
+      relation * 0.3 +
+      endorsementModifier +
+      allianceModifier +
+      finalist.hidden.transferability * 0.18 +
+      finalist.stats.credibility * 0.12 +
+      finalist.stats.mobilization * 0.05 -
+      finalist.stats.rejection * 0.25 +
+      consistency,
+  );
+}
+
 export function simulateFirstRound(
   sourceState: GameState,
   blocs: ElectorateBlocDefinition[],
@@ -113,53 +157,52 @@ export function simulateSecondRound(
   const right = state.parties[rightId];
   if (!left || !right) throw new Error("Un finaliste est absent de l’état de partie.");
 
-  let leftTotal = 0;
-  let rightTotal = 0;
-  for (const bloc of blocs) {
-    const leftDistance = ideologyDistance(left.perceivedIdeology, bloc.ideology);
-    const rightDistance = ideologyDistance(right.perceivedIdeology, bloc.ideology);
-    const leftAlliance = left.alliedWith.reduce(
-      (sum, id) => sum + (state.firstRoundResult?.results[id] ?? 0),
-      0,
+  const firstRoundResults = state.firstRoundResult?.results ?? {};
+  const leftRetention = clamp(
+    0.86 + left.stats.mobilization / 1000 - left.stats.rejection / 2200,
+    0.78,
+    0.95,
+  );
+  const rightRetention = clamp(
+    0.86 + right.stats.mobilization / 1000 - right.stats.rejection / 2200,
+    0.78,
+    0.95,
+  );
+  let leftTotal = (firstRoundResults[leftId] ?? 0) * leftRetention;
+  let rightTotal = (firstRoundResults[rightId] ?? 0) * rightRetention;
+  let abstainedTransfers =
+    (firstRoundResults[leftId] ?? 0) * (1 - leftRetention) +
+    (firstRoundResults[rightId] ?? 0) * (1 - rightRetention);
+
+  for (const [sourcePartyId, share] of Object.entries(firstRoundResults)) {
+    if (sourcePartyId === leftId || sourcePartyId === rightId || share <= 0) continue;
+    const source = state.parties[sourcePartyId];
+    if (!source) continue;
+    const leftDistance = ideologyDistance(source.perceivedIdeology, left.perceivedIdeology);
+    const rightDistance = ideologyDistance(source.perceivedIdeology, right.perceivedIdeology);
+    const closestDistance = Math.min(leftDistance, rightDistance);
+    const explicitEndorsement = state.flags[`endorsement:${sourcePartyId}`];
+    const abstentionRate = clamp(
+      0.08 +
+        closestDistance / 280 +
+        (left.stats.rejection + right.stats.rejection) / 1000 -
+        (explicitEndorsement && explicitEndorsement !== "neutral" ? 0.05 : 0),
+      0.06,
+      0.46,
     );
-    const rightAlliance = right.alliedWith.reduce(
-      (sum, id) => sum + (state.firstRoundResult?.results[id] ?? 0),
-      0,
-    );
-    const leftFirstRound = state.firstRoundResult?.results[leftId] ?? 0;
-    const rightFirstRound = state.firstRoundResult?.results[rightId] ?? 0;
-    const leftAppeal = Math.max(
-      0.05,
-      60 +
-        leftFirstRound * 2.2 -
-        leftDistance * 0.3 -
-        left.stats.rejection * 0.14 +
-        left.stats.credibility * 0.25 +
-        left.stats.mobilization * 0.15 +
-        left.hidden.transferability * 0.25 +
-        leftAlliance * 0.25,
-    );
-    const rightAppeal = Math.max(
-      0.05,
-      60 +
-        rightFirstRound * 2.2 -
-        rightDistance * 0.3 -
-        right.stats.rejection * 0.14 +
-        right.stats.credibility * 0.25 +
-        right.stats.mobilization * 0.15 +
-        right.hidden.transferability * 0.25 +
-        rightAlliance * 0.25,
-    );
-    const total = leftAppeal + rightAppeal;
-    const participation = (state.electorate.turnoutByBloc[bloc.id] ?? bloc.turnout) / 100;
-    leftTotal += (leftAppeal / total) * bloc.weight * participation;
-    rightTotal += (rightAppeal / total) * bloc.weight * participation;
+    const expressedShare = share * (1 - abstentionRate);
+    const leftAppeal = runoffAppeal(state, sourcePartyId, leftId);
+    const rightAppeal = runoffAppeal(state, sourcePartyId, rightId);
+    const totalAppeal = leftAppeal + rightAppeal;
+    leftTotal += expressedShare * (leftAppeal / totalAppeal);
+    rightTotal += expressedShare * (rightAppeal / totalAppeal);
+    abstainedTransfers += share * abstentionRate;
   }
 
   let rng = state.rng;
   // Au duel final, l'incertitude porte sur les reports et l'abstention : ces
   // valeurs sont des masses de blocs avant normalisation, pas des points publiés.
-  const [leftNoise, nextRng] = randomBetween(rng, -6.5, 6.5);
+  const [leftNoise, nextRng] = randomBetween(rng, -4, 4);
   rng = nextRng;
   const results = normalizePercentages(
     {
@@ -171,6 +214,11 @@ export function simulateSecondRound(
   const ordered = ranking(results);
   const winnerPartyId = ordered[0];
   if (!winnerPartyId) throw new Error("Le second tour n’a produit aucun vainqueur.");
+  const baselineRunoffTurnout = blocs.reduce(
+    (sum, bloc) =>
+      sum + (state.electorate.turnoutByBloc[bloc.id] ?? bloc.turnout) * (bloc.weight / 100),
+    0,
+  );
 
   const result: ElectionRoundResult = {
     round: 2,
@@ -178,7 +226,17 @@ export function simulateSecondRound(
     results,
     ranking: ordered,
     regionalResults: regionalResults(state, results),
-    turnout: round(clamp((state.firstRoundResult?.turnout ?? 70) + 2.4, 55, 90), 1),
+    turnout: round(
+      clamp(
+        ((state.firstRoundResult?.turnout ?? 70) + baselineRunoffTurnout) / 2 +
+          3.2 -
+          abstainedTransfers * 0.16 +
+          (left.stats.mobilization + right.stats.mobilization - 100) * 0.018,
+        52,
+        90,
+      ),
+      1,
+    ),
   };
   state.rng = rng;
   state.secondRoundResult = result;

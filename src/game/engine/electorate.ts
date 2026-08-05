@@ -6,7 +6,7 @@ import type {
   PartyState,
 } from "@/game/types";
 
-import { ideologyDistance, normalizePercentages } from "./math";
+import { clamp, ideologyDistance, normalizePercentages } from "./math";
 
 function partyAppeal(
   party: PartyState,
@@ -17,19 +17,30 @@ function partyAppeal(
   const distance = ideologyDistance(party.perceivedIdeology, bloc.ideology);
   const ideologicalFit = Math.max(0.08, 1 - distance / 175);
   const affinity = Math.max(0.2, (party.electorateAffinity[bloc.id] ?? 50) / 50);
-  // Le socle doit rester structurant : sans ce terme, un positionnement central
-  // devient mécaniquement dominant dans tous les blocs, quelle que soit la partie.
+  // Le socle fixe la difficulté, mais il est volontairement compressé : les
+  // statistiques et la confiance gagnées pendant la campagne doivent pouvoir
+  // déplacer le rapport de forces sans uniformiser les affinités idéologiques.
   const competence =
-    party.stats.credibility * 0.12 + party.stats.popularity * 0.1 + party.stats.mobilization * 0.06;
-  const rejectionPenalty = party.stats.rejection * 0.09;
-  const momentum = party.stats.momentum * (bloc.volatility / 100) * 0.12;
+    party.stats.credibility * 0.18 +
+    party.stats.popularity * 0.15 +
+    party.stats.mobilization * 0.09;
+  const rejectionPenalty = party.stats.rejection * 0.15;
+  const momentum = party.stats.momentum * (bloc.volatility / 100) * 0.16;
   const underdogLeverage =
-    Math.max(0, 15 - party.hidden.baseSupport) * Math.max(0, party.stats.momentum - 50) * 0.03;
-  const base = Math.max(0.2, party.hidden.baseSupport * 1.5 + party.stats.awareness * 0.025);
+    Math.max(0, 15 - party.hidden.baseSupport) * Math.max(0, party.stats.momentum - 50) * 0.06;
+  const base = Math.max(0.2, 8.2 + party.hidden.baseSupport * 0.58 + party.stats.awareness * 0.02);
+  const electoralReadiness = clamp(
+    0.5 +
+      party.stats.awareness * 0.0025 +
+      party.stats.localStrength * 0.0015 +
+      party.stats.electedSupport * 0.001,
+    0.68,
+    1,
+  );
 
   return Math.max(
     0.01,
-    base * ideologicalFit * affinity +
+    base * ideologicalFit * affinity * electoralReadiness +
       competence -
       rejectionPenalty +
       momentum +
@@ -109,7 +120,7 @@ export function recalculateElectorate(
       }
       const usefulVoteBoost =
         usefulVote && leaders.includes(party.id)
-          ? (bloc.usefulVoteSensitivity / 100) * (currentNational[party.id] ?? 0) * 0.55
+          ? (bloc.usefulVoteSensitivity / 100) * (currentNational[party.id] ?? 0) * 0.15
           : 0;
       const trust = state.electorate.trustModifiers[bloc.id]?.[party.id] ?? 0;
       const freshAppeal = partyAppeal(party, bloc, trust, usefulVoteBoost);

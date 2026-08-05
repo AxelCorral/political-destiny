@@ -34,4 +34,29 @@ describe("élections", () => {
     );
     expect(left.result.ranking).toHaveLength(2);
   });
+
+  it("fait peser une consigne de vote sur les reports du second tour", () => {
+    const initial = createGame(
+      { seed: "reports-consigne", mode: "existing_party", partyId: "alpha", methodId: "field" },
+      testContent,
+    );
+    const first = simulateFirstRound(initial, testContent.electorateBlocs).state;
+    first.qualifiedPartyIds = ["alpha", "beta"];
+    if (!first.firstRoundResult) throw new Error("Premier tour absent de la fixture.");
+    first.firstRoundResult.results = { alpha: 35, beta: 34, gamma: 31 };
+    first.firstRoundResult.ranking = ["alpha", "beta", "gamma"];
+
+    const supportingAlpha = structuredClone(first);
+    supportingAlpha.flags["endorsement:gamma"] = "alpha";
+    const supportingBeta = structuredClone(first);
+    supportingBeta.flags["endorsement:gamma"] = "beta";
+
+    const alphaShare = simulateSecondRound(supportingAlpha, testContent.electorateBlocs).result
+      .results.alpha;
+    const betaEndorsementAlphaShare = simulateSecondRound(
+      supportingBeta,
+      testContent.electorateBlocs,
+    ).result.results.alpha;
+    expect(alphaShare).toBeGreaterThan(betaEndorsementAlphaShare ?? 0);
+  });
 });

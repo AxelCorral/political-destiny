@@ -19,10 +19,12 @@ import type {
   WeightedOutcome,
 } from "../../src/game/types/index";
 
-type StrategyName = "random" | "prudent" | "risky" | "collective" | "greedy" | "adverse";
+type StrategyName =
+  "random" | "coherent" | "prudent" | "risky" | "collective" | "greedy" | "adverse";
 
 const STRATEGIES: StrategyName[] = [
   "random",
+  "coherent",
   "prudent",
   "risky",
   "collective",
@@ -33,6 +35,16 @@ const SEEDS_PER_PARTY = Math.max(
   20,
   Math.min(250, Number.parseInt(process.env.AUDIT_SEEDS_PER_PARTY ?? "100", 10) || 100),
 );
+const requestedPartyIds = new Set(
+  (process.env.AUDIT_PARTIES ?? "")
+    .split(",")
+    .map((partyId) => partyId.trim())
+    .filter(Boolean),
+);
+const AUDITED_PARTIES = requestedPartyIds.size
+  ? gameContent.parties.filter((party) => requestedPartyIds.has(party.id))
+  : gameContent.parties;
+if (AUDITED_PARTIES.length === 0) throw new Error("AUDIT_PARTIES ne désigne aucun parti jouable.");
 const CHECKPOINT_DECISION = 12;
 
 interface RunResult {
@@ -136,26 +148,100 @@ function expectedChoiceUtility(state: GameState, choice: EventChoice): number {
   );
 }
 
+function coherentChoiceScore(state: GameState, choice: EventChoice): number {
+  let score = expectedChoiceUtility(state, choice) * 0.2;
+  const statement = choice.statement;
+  if (statement?.policyTopic && statement.stance !== undefined) {
+    const axisByTopic = {
+      economy: "economy",
+      fiscality: "economy",
+      pensions: "economy",
+      public_services: "economy",
+      work: "economy",
+      security: "authority",
+      immigration: "immigration",
+      europe: "europe",
+      ecology: "ecology",
+      institutions: "authority",
+      civil_liberties: "authority",
+      social_issues: "society",
+    } as const;
+    const existing = state.policyPositions[statement.policyTopic];
+    const party = state.parties[state.playerPartyId];
+    const axis = axisByTopic[statement.policyTopic];
+    const reference = existing?.stance ?? party?.perceivedIdeology[axis] ?? 50;
+    const distance = Math.abs(statement.stance - reference);
+    score += 42 - distance * 0.85;
+    if (existing && distance > 30) score -= 18;
+  }
+  if (
+    choice.strategy === "policy_commitment" ||
+    choice.strategy === "long_term_strategy" ||
+    choice.strategy === "compromise"
+  )
+    score += 5;
+  if (choice.visibleTag === "OPPORTUNISTE") score -= 8;
+  return score;
+}
+
 function pickChoice(
   state: GameState,
   event: GameEventDefinition,
   strategy: StrategyName,
   seed: string,
 ): EventChoice {
-  const preferredId =
-    strategy === "prudent"
-      ? "prudent_response"
-      : strategy === "risky"
-        ? "risk_breakthrough"
-        : strategy === "collective"
-          ? "collective_path"
-          : undefined;
-  if (preferredId)
-    return event.choices.find((choice) => choice.id === preferredId) ?? event.choices[0]!;
+  const preferred = event.choices.filter((choice) => {
+    if (strategy === "prudent")
+      return (
+        choice.visibleTag === "PRUDENT" ||
+        choice.strategy === "long_term_strategy" ||
+        choice.strategy === "legal_action" ||
+        choice.strategy === "silence"
+      );
+    if (strategy === "risky")
+      return (
+        choice.visibleTag === "RISQUÉ" ||
+        choice.strategy === "personal_risk" ||
+        choice.strategy === "break" ||
+        choice.strategy === "exclusion"
+      );
+    if (strategy === "collective")
+      return (
+        choice.visibleTag === "RASSEMBLEUR" ||
+        choice.strategy === "alliance" ||
+        choice.strategy === "grassroots_mobilization" ||
+        choice.strategy === "compromise"
+      );
+    return false;
+  });
+  if (preferred.length) {
+    const index =
+      hashSeed(`${seed}:${state.decisionIndex}:${event.id}:${strategy}:preferred`) %
+      preferred.length;
+    return preferred[index] ?? preferred[0]!;
+  }
 
   if (strategy === "random") {
     const index =
       hashSeed(`${seed}:${state.decisionIndex}:${event.id}:audit-choice`) % event.choices.length;
+    return event.choices[index] ?? event.choices[0]!;
+  }
+
+  if (strategy === "coherent") {
+    return (
+      event.choices
+        .map((choice) => ({ choice, score: coherentChoiceScore(state, choice) }))
+        .sort(
+          (left, right) =>
+            right.score - left.score || left.choice.id.localeCompare(right.choice.id),
+        )[0]?.choice ?? event.choices[0]!
+    );
+  }
+
+  if (["prudent", "risky", "collective"].includes(strategy)) {
+    const index =
+      hashSeed(`${seed}:${state.decisionIndex}:${event.id}:${strategy}:fallback`) %
+      event.choices.length;
     return event.choices[index] ?? event.choices[0]!;
   }
 
@@ -346,7 +432,7 @@ function etaSquared(runs: RunResult[], key: "partyId" | "strategy"): number {
 
 const startedAt = performance.now();
 const runs: RunResult[] = [];
-for (const party of gameContent.parties) {
+for (const party of AUDITED_PARTIES) {
   for (let seedIndex = 0; seedIndex < SEEDS_PER_PARTY; seedIndex += 1) {
     for (const strategy of STRATEGIES) runs.push(runCampaign(party.id, strategy, seedIndex));
   }
@@ -365,7 +451,7 @@ const determinismChecks = runs
   });
 
 const byParty = Object.fromEntries(
-  gameContent.parties.map((party) => [
+  AUDITED_PARTIES.map((party) => [
     party.id,
     aggregate(runs.filter((run) => run.partyId === party.id)),
   ]),
@@ -377,7 +463,7 @@ const byStrategy = Object.fromEntries(
   ]),
 );
 const byPartyAndStrategy = Object.fromEntries(
-  gameContent.parties.flatMap((party) =>
+  AUDITED_PARTIES.flatMap((party) =>
     STRATEGIES.map((strategy) => [
       `${party.id}:${strategy}`,
       aggregate(runs.filter((run) => run.partyId === party.id && run.strategy === strategy)),
@@ -404,7 +490,7 @@ const matchedChoiceInfluence = [...matchedGroups.entries()].map(([key, group]) =
 });
 
 const successiveOverlaps: Array<{ event: number; structure: number }> = [];
-for (const party of gameContent.parties) {
+for (const party of AUDITED_PARTIES) {
   for (const strategy of STRATEGIES) {
     const ordered = runs
       .filter((run) => run.partyId === party.id && run.strategy === strategy)
@@ -450,13 +536,18 @@ const report = {
   methodology: {
     totalRuns: runs.length,
     seedsPerParty: SEEDS_PER_PARTY,
-    parties: gameContent.parties.map((party) => party.id),
+    parties: AUDITED_PARTIES.map((party) => party.id),
     strategies: STRATEGIES,
     strategyDefinitions: {
+      coherent:
+        "Privilégie la continuité des positions politiques, puis les engagements de fond, le temps long et les compromis cohérents.",
       random: "Choix déterministe pseudo-aléatoire indépendant du PRNG du moteur.",
-      prudent: "Toujours prudent_response lorsqu’il existe.",
-      risky: "Toujours risk_breakthrough lorsqu’il existe.",
-      collective: "Toujours collective_path lorsqu’il existe, sinon premier choix.",
+      prudent:
+        "Privilégie les options PRUDENT, les stratégies de temps long, les voies juridiques et le silence explicite.",
+      risky:
+        "Privilégie les options RISQUÉ, la prise de risque personnelle, la rupture et l’exclusion.",
+      collective:
+        "Privilégie les options RASSEMBLEUR, les alliances, la mobilisation de terrain et les compromis.",
       greedy: "Maximise l’utilité numérique attendue des effets avec les probabilités courantes.",
       adverse: "Minimise la même utilité; borne basse volontaire de l’agence du joueur.",
     },
@@ -560,7 +651,7 @@ const report = {
 
 await mkdir(resolve("audit"), { recursive: true });
 await writeFile(
-  resolve("audit", "simulation-report.json"),
+  resolve(process.env.AUDIT_SIM_OUTPUT ?? "audit/v2-simulation-report.json"),
   `${JSON.stringify(report, null, 2)}\n`,
   "utf8",
 );
