@@ -118,9 +118,19 @@ Aucune des 5 stratégies réellement jouables (random, coherent, prudent, risky,
 - [x] Afficher une explication concise des facteurs de résultat.
 - [x] Ajouter un journal compact des positions, alliances, ruptures et crises.
 - [x] Clarifier la progression et les moments décisifs sans tableau de bord lourd.
-- [ ] Vérifier clavier, focus, lecteurs d’écran, contraste et mouvement réduit.
-- [ ] Tester 360×800, 412×915, 768×1024, 1366×768 et 1920×1080.
-- [ ] Exécuter les tests UI/E2E et committer la phase.
+- [x] Vérifier clavier, focus, lecteurs d’écran, contraste et mouvement réduit.
+- [x] Tester 360×800, 412×915, 768×1024, 1366×768 et 1920×1080.
+- [x] Exécuter les tests UI/E2E et committer la phase.
+
+Vérifications du 6 août 2026 (`scripts/audit/browser-resilience.mjs` et un contrôle de contraste ad hoc réutilisant `scripts/audit/browser-page-metrics.js` sur /, /jouer, /archives, /badges, /a-propos) :
+
+- Les 5 tailles cibles ne produisent aucun débordement horizontal ; structure main/header/nav/footer stable à chaque taille.
+- `prefers-reduced-motion: reduce` est respecté (durées d’animation et de transition ramenées à ~0 ms).
+- Ordre de tabulation cohérent avec un lien d’évitement (« Aller au contenu ») en première position.
+- 0 contrôle de formulaire sans étiquette, 0 image sans `alt`, 0 identifiant dupliqué, 0 texte sous le seuil de contraste AA sur les 5 pages contrôlées.
+- Limite connue : les liens de pied de page et la navigation d’en-tête restent sous la cible tactile de 44 px (icônes ~32 px de large, liens de pied de page ~20 px de haut) — écart mineur non corrigé dans cette session, à traiter lors d’un futur passage UI.
+- Limite connue : aucun lecteur d’écran réel (NVDA/VoiceOver) n’a été exécuté dans cet environnement ; la vérification s’appuie sur les signaux structurels dont ils dépendent (repères ARIA, étiquettes, hiérarchie de titres), tous propres.
+- Suite E2E Playwright : deux fixtures de déterminisme électoral (`e2e-ps-1`, `e2e-rn-0`) ne correspondaient plus aux issues attendues après le recalibrage de la Phase F et ont été remplacées par des graines vérifiées (`e2e-ps-search-0`, `e2e-rn-defeat-0`). Suite complète verte avec la politique de nouvelles tentatives de la CI (`retries: 2`) : 17 réussis, 1 flaky passé au second essai (catégorie d’instabilité déjà documentée en Phase I), 6 ignorés (fixtures longues limitées à Chromium desktop).
 
 ## Phase I — Dette technique
 

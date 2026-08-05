@@ -102,6 +102,11 @@
 - Journal enrichi avec évolution des déclarations, contradictions, alliances actives et actions adverses réellement simulées.
 - Bilan visuel relié aux positions, alliances et contradictions de la campagne.
 
+### Phase H — vérification (Claude Code, 6 août 2026)
+
+- Contrôle des 5 tailles d'écran cibles et des signaux d'accessibilité structurels (contraste, étiquettes, focus, mouvement réduit) via `browser-resilience.mjs` et la logique de `browser-page-metrics.js` : aucun débordement horizontal, aucun contrôle sans étiquette, aucun texte sous le seuil de contraste AA sur les pages contrôlées. Écart mineur relevé et documenté (liens de pied de page sous la cible tactile de 44 px) sans correction dans cette session.
+- Deux fixtures E2E de déterminisme électoral (`e2e-ps-1` pour une élimination au premier tour, `e2e-rn-0` pour une défaite au second tour) ne produisaient plus l'issue attendue après le recalibrage de la Phase F ; remplacées par des graines revérifiées avec le moteur (`e2e-ps-search-0`, `e2e-rn-defeat-0`).
+
 ### Phase I — Stabilité et dette technique
 
 - Le dialogue de fiction Playwright attend désormais l’un des deux états fonctionnels valides — avertissement affiché ou choix de mode déjà accessible — avant d’agir ; la suite parallèle passe sans délai artificiel.
