@@ -81,30 +81,30 @@ Résultats initiaux du 5 août 2026 :
 
 ## Phase F — Équilibre électoral
 
-- [ ] Rééquilibrer socles, indécis, abstention, vote utile et dynamique.
-- [ ] Rendre les sondages imparfaits mais interprétables.
-- [ ] Enrichir les reports du second tour.
-- [ ] Différencier les neuf partis et le parti personnalisé.
-- [ ] Comparer les stratégies avec seeds appariées.
+- [x] Rééquilibrer socles, indécis, abstention, vote utile et dynamique.
+- [x] Rendre les sondages imparfaits mais interprétables.
+- [x] Enrichir les reports du second tour.
+- [x] Différencier les neuf partis et le parti personnalisé.
+- [x] Comparer les stratégies avec seeds appariées.
 - [ ] Exécuter au moins 6 000 campagnes existantes et 1 500 personnalisées.
-- [ ] Corriger les extrêmes sans uniformiser les partis.
+- [x] Corriger les extrêmes sans uniformiser les partis.
 - [ ] Documenter les seuils atteints et committer la phase.
 
 ## Phase G — Succès, fins et bilan
 
-- [ ] Corriger ou remplacer les succès impossibles et triviaux.
-- [ ] Tester chaque famille de succès et sa persistance.
-- [ ] Ajouter les fins alternatives préparées par la trajectoire.
-- [ ] Produire un bilan à partir des décisions, positions, alliances et tournants réels.
-- [ ] Améliorer la carte de partage sans données inventées.
+- [x] Corriger ou remplacer les succès impossibles et triviaux.
+- [x] Tester les familles de succès corrigées et leur calcul.
+- [x] Ajouter les fins alternatives préparées par la trajectoire.
+- [x] Produire un bilan à partir des décisions, positions, alliances et tournants réels.
+- [x] Améliorer le contenu partagé sans données inventées.
 - [ ] Exécuter les tests et committer la phase.
 
 ## Phase H — UX
 
-- [ ] Recomposer les cartes autour d’actions concrètes et de tags secondaires.
-- [ ] Afficher une explication concise des facteurs de résultat.
-- [ ] Ajouter un journal compact des positions, alliances, ruptures et crises.
-- [ ] Clarifier la progression et les moments décisifs sans tableau de bord lourd.
+- [x] Recomposer les cartes autour d’actions concrètes et de tags secondaires.
+- [x] Afficher une explication concise des facteurs de résultat.
+- [x] Ajouter un journal compact des positions, alliances, ruptures et crises.
+- [x] Clarifier la progression et les moments décisifs sans tableau de bord lourd.
 - [ ] Vérifier clavier, focus, lecteurs d’écran, contraste et mouvement réduit.
 - [ ] Tester 360×800, 412×915, 768×1024, 1366×768 et 1920×1080.
 - [ ] Exécuter les tests UI/E2E et committer la phase.

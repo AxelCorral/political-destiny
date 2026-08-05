@@ -55,3 +55,19 @@ Un choix peut compter jusqu’à 140 caractères afin de décrire une action com
 ## D-014 — Les critères de succès sont la règle exécutable
 
 Chaque succès possède un groupe de critères typés. Le moteur évalue ces critères génériquement à partir de la partie réelle : décisions, sondages, score, positions, contradictions, alliances, souvenirs, tags et stratégies. L’identifiant du succès ne contient plus de logique cachée ; un succès absent du registre de critères empêche la construction des données V2.
+
+## D-015 — Le premier tour mesure une campagne, pas seulement un socle
+
+Le socle et les affinités conservent des difficultés distinctes, mais leur contribution est comprimée. Crédibilité, popularité, mobilisation, rejet, dynamique, implantation, élus et confiance gagnée pendant la campagne pèsent davantage. Les réglages ne cherchent pas des taux égaux : ils imposent seulement qu’un favori puisse échouer et qu’un outsider sérieux puisse se qualifier.
+
+## D-016 — Les reports sont des comportements, pas une matrice fixe
+
+Au second tour, chaque électorat éliminé arbitre entre proximité, rejet, relations, alliance ou consigne, cohérence du finaliste et abstention. Une consigne modifie réellement le transfert sans le rendre automatique. Le bruit final reste borné et déterministe par la seed.
+
+## D-017 — Un parti personnalisé reçoit des tensions dérivées
+
+Le questionnaire produit un profil d’organisation, de leadership, de financement, d’électorats et de contradictions. Ces propriétés deviennent des tags d’éligibilité pour des événements dédiés. Une incohérence n’est donc plus un malus abstrait : elle déclenche des arbitrages narratifs sur le manifeste, les comités ou les alliances.
+
+## D-018 — Les badges de progression lisent la partie active
+
+Les succès numériques à seuil unique peuvent afficher une progression calculée par le même évaluateur que le déblocage. Le profil archivé et la partie active sont réunis à l’affichage ; aucun compteur parallèle n’est introduit dans l’interface.

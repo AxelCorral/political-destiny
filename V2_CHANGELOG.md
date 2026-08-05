@@ -59,3 +59,28 @@
 - Ajout de `docs/EDITORIAL_POLICY.md` et promotion de la bibliothèque en `contentVersion: 2` ; toute régression sous les seuils V2 bloque désormais `npm run data:validate`.
 - Les 58 succès disposent désormais de critères typés réellement exécutés par le moteur ; le grand commutateur fondé sur leurs identifiants a été supprimé.
 - Contrôles du jalon : typecheck, validation stricte, lint et 67 tests réussis.
+
+### Phase F — Agence et équilibre électoral
+
+- Formule de premier tour moins dépendante du socle initial et davantage sensible à la crédibilité, la popularité, la mobilisation, la dynamique, le rejet, l’implantation et la confiance des électorats.
+- Vote utile ramené à un effet de fin de campagne plutôt qu’à un multiplicateur décisif ; participation, indécision et préparation électorale restent distinctes.
+- Reports de second tour calculés à partir de la distance idéologique, du rejet, des alliances, des consignes, des relations, de la cohérence des déclarations, de la crédibilité et de la mobilisation.
+- Parti personnalisé enrichi par son organisation, son leadership, ses électorats, ses alliés, ses concurrents, ses sujets favorables, ses contradictions et quatorze événements dédiés ; corpus porté à 232 événements.
+- Harnais apparié étendu à sept stratégies, avec sélection cohérente selon le programme émergent et vérification déterministe.
+- Panel de travail de 1 260 campagnes : eta² du parti 0,400 avant le dernier ajustement ciblé, eta² de stratégie 0,180, résultat qualification/victoire modifié par la stratégie dans 75,6 % des groupes appariés, 10,2 % de campagnes décidées tôt et 14,8 % de remontées.
+- Ajustements ciblés validés sur les mêmes seeds : PS à 89,3 % de qualifications et 62,1 % de victoires ; RN à 87,1 % et 37,1 %. Les mesures finales à plus grand volume restent à exécuter en phase J.
+
+### Phase G — Succès, fins et bilan
+
+- Croissance organique et déterministe des adhérents à partir de la trajectoire réelle ; les deux succès associés mesurent désormais un gain depuis le départ plutôt qu’un stock initial.
+- Correction du calcul des succès de score et de fin, auparavant évalués avant que ces données existent.
+- Fins rares conditionnées par plusieurs décisions préparatoires ; la fin d’abandon sensible décrit désormais un retrait de campagne pour épuisement, sans événement diffamatoire.
+- Score final recalculé à partir de la performance au premier tour, de la progression, de la croissance militante, des positions, alliances, contradictions et décisions réellement enregistrées.
+- Résumé final enrichi avec tournant, meilleur choix, décision coûteuse et héritage issus de l’historique ; progression des badges numériques visible pendant une partie active.
+
+### Phase H — Interface de décision
+
+- Suppression du mini-jeu de débat fondé sur les postures « précision/offensive/rassemblement/démonstration » : un débat présente directement deux à quatre prises de position contextualisées.
+- Tags de risque maintenus comme repères secondaires, jamais comme libellés principaux ; indices publics immédiats affichés sans révéler les variables cachées.
+- Journal enrichi avec évolution des déclarations, contradictions, alliances actives et actions adverses réellement simulées.
+- Bilan visuel relié aux positions, alliances et contradictions de la campagne.
