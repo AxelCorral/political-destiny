@@ -84,3 +84,13 @@
 - Tags de risque maintenus comme repères secondaires, jamais comme libellés principaux ; indices publics immédiats affichés sans révéler les variables cachées.
 - Journal enrichi avec évolution des déclarations, contradictions, alliances actives et actions adverses réellement simulées.
 - Bilan visuel relié aux positions, alliances et contradictions de la campagne.
+
+### Phase I — Stabilité et dette technique
+
+- Le dialogue de fiction Playwright attend désormais l’un des deux états fonctionnels valides — avertissement affiché ou choix de mode déjà accessible — avant d’agir ; la suite parallèle passe sans délai artificiel.
+- Fixture d’élimination électorale recalée sur une seed déterministe après l’équilibrage V2.
+- Ajout de tests explicites pour un stockage local vide et un import dont la partie active est corrompue ; migration V1, collision des identifiants et reprise après rafraîchissement restent couvertes.
+- Test probabiliste de 120 campagnes mesuré à environ 4,7 s et protégé par un timeout local de 10 s, sans modifier le timeout global de Vitest.
+- Extraction de la carte d’événement et de la carte de débat dans `event-decision-card.tsx` ; `campaign-screens.tsx` conserve l’orchestration des écrans.
+- Suppression de six modules V1 non importés et de leur fabrique narrative générique, soit plusieurs milliers de lignes de code et de prose morts hors du bundle.
+- Couverture V2 après nettoyage : 78,11 % des instructions, 66,31 % des branches, 74,45 % des fonctions et 81,78 % des lignes ; moteur à 85,12 % des instructions.

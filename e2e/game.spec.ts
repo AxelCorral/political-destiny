@@ -6,9 +6,12 @@ import type { CompletedRunSummary, GameState } from "../src/game/types";
 
 async function dismissFictionNotice(page: Page) {
   const notice = page.getByRole("dialog", { name: /Avant d’entrer en campagne/i });
-  await expect(notice).toBeVisible();
-  await notice.getByRole("button", { name: /J’ai compris/i }).click();
-  await expect(notice).toBeHidden();
+  const setupChoice = page.getByRole("button", { name: /Un parti existant/i });
+  await expect(notice.or(setupChoice)).toBeVisible();
+  if (await notice.isVisible().catch(() => false)) {
+    await notice.getByRole("button", { name: /J’ai compris/i }).click();
+    await expect(notice).toBeHidden();
+  }
 }
 
 async function startExistingCampaign(page: Page, partyName: string, seed: string) {
@@ -277,9 +280,9 @@ test("8 · élimination contrôlée au premier tour et bilan final", async ({ pa
     testInfo.project.name === "mobile",
     "Fixture électorale longue exécutée sur Chromium desktop.",
   );
-  await startExistingCampaign(page, "Parti socialiste", "e2e-ps-5");
+  await startExistingCampaign(page, "Parti socialiste", "e2e-ps-1");
   const milestones = await playCampaign(page);
-  expect(milestones.firstRound).toMatch(/5e au premier tour/i);
+  expect(milestones.firstRound).toMatch(/3e au premier tour/i);
   await expect(page.getByRole("button", { name: /^Rejouer$/i })).toBeVisible();
 });
 

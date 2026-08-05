@@ -111,12 +111,12 @@ Résultats initiaux du 5 août 2026 :
 
 ## Phase I — Dette technique
 
-- [ ] Découper les composants trop volumineux par responsabilité.
-- [ ] Corriger l’instabilité Vitest sans timeout global excessif.
-- [ ] Corriger le dialogue Playwright avec isolation et locateur robuste.
-- [ ] Retirer types, code et données morts.
-- [ ] Vérifier sauvegarde vide, corrompue, V1 et reprise après actualisation.
-- [ ] Exécuter la couverture et committer la phase.
+- [x] Extraire les cartes de décision du composant de campagne volumineux.
+- [x] Borner localement le test Vitest de 120 campagnes à partir de sa durée mesurée.
+- [x] Corriger le dialogue Playwright avec un état fonctionnel et un locateur robuste.
+- [x] Retirer la fabrique et les six modules de contenu V1 morts.
+- [x] Vérifier sauvegarde vide, corrompue, V1 et reprise après actualisation.
+- [x] Exécuter la couverture et committer la phase.
 
 ## Phase J — Vérification finale
 

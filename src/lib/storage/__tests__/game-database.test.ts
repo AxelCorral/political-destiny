@@ -57,6 +57,10 @@ describe.sequential("stockage local", () => {
     expect(loaded.state).not.toBe(state);
   });
 
+  it("traite un stockage vide comme une absence normale de partie", async () => {
+    await expect(loadActiveGame()).resolves.toEqual({});
+  });
+
   it("archive une partie terminée et consolide le profil local", async () => {
     const state = finishState("storage-finished");
     const summary = await archiveCompletedGame(state);
@@ -92,6 +96,17 @@ describe.sequential("stockage local", () => {
     await expect(importLocalData({ format: "autre-produit", archives: [] })).rejects.toThrow(
       "n’est pas un export",
     );
+  });
+
+  it("refuse une partie active corrompue sans modifier les données locales", async () => {
+    const before = await exportLocalData();
+    await expect(
+      importLocalData({
+        ...before,
+        activeGame: { broken: true, decisionIndex: "NaN" },
+      }),
+    ).rejects.toThrow("partie active du fichier est invalide");
+    await expect(loadActiveGame()).resolves.toEqual({});
   });
 
   it("migre une sauvegarde V1 vers les structures relationnelles V2", () => {

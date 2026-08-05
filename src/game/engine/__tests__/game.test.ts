@@ -71,6 +71,8 @@ describe("pipeline complet", () => {
     expect(first.currentEventId).toBe(second.currentEventId);
   });
 
+  // Ce test exécute 120 campagnes complètes. Le timeout est local et borné à
+  // deux fois sa durée mesurée (~4,7 s sur le poste d’audit), sans ralentir les autres tests.
   it("termine des campagnes variées sans état invalide", () => {
     fc.assert(
       fc.property(fc.string({ minLength: 1, maxLength: 24 }), (seed) => {
@@ -83,5 +85,5 @@ describe("pipeline complet", () => {
       }),
       { numRuns: 120 },
     );
-  }, 15_000);
+  }, 10_000);
 });

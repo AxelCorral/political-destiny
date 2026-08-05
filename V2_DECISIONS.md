@@ -71,3 +71,11 @@ Le questionnaire produit un profil d’organisation, de leadership, de financeme
 ## D-018 — Les badges de progression lisent la partie active
 
 Les succès numériques à seuil unique peuvent afficher une progression calculée par le même évaluateur que le déblocage. Le profil archivé et la partie active sont réunis à l’affichage ; aucun compteur parallèle n’est introduit dans l’interface.
+
+## D-019 — Les tests longs justifient leur propre borne
+
+Le test de propriété conserve 120 campagnes, mais sa limite est locale et vaut environ deux fois sa durée mesurée. Playwright ne dépend plus de la présence obligatoire du dialogue initial : il attend un état fonctionnel stable. Aucun timeout global n’est augmenté pour masquer une attente fragile.
+
+## D-020 — Le corpus V1 mort est supprimé, pas archivé dans le runtime
+
+Les anciens modules `general`, `internal`, `world`, `partySpecific`, `endgame` et leur factory n’étaient plus importés depuis la promotion du corpus V2. Git conserve leur historique ; les garder dans `src` augmentait le bruit des recherches et le risque de réutiliser par erreur les gabarits interdits.
