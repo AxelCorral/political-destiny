@@ -6,7 +6,7 @@ import { useState } from "react";
 import { PollChart } from "@/components/game/poll-chart";
 import { StatGauge } from "@/components/game/stat-gauge";
 import { Dialog } from "@/components/ui/dialog";
-import type { GameState } from "@/game/types";
+import type { GameState, StatementEvolution } from "@/game/types";
 import { CATEGORY_LABELS, formatCampaignDate, formatInteger } from "@/lib/game-presentation";
 import { cn } from "@/lib/utils";
 
@@ -18,6 +18,14 @@ const tabs: Array<{ id: DashboardTab; label: string; icon: typeof BarChart3 }> =
   { id: "history", label: "Décisions", icon: History },
   { id: "news", label: "Actualités", icon: Newspaper },
 ];
+
+const EVOLUTION_LABELS: Partial<Record<StatementEvolution, string>> = {
+  gradual_evolution: "Évolution progressive",
+  coherent_compromise: "Compromis cohérent",
+  strategic_repositioning: "Repositionnement",
+  contradiction: "Contradiction",
+  abrupt_reversal: "Revirement",
+};
 
 export function CampaignDashboard({
   state,
@@ -155,6 +163,14 @@ export function CampaignDashboard({
             </div>
             <div>
               <h4 className="font-black">Positions prises en campagne</h4>
+              {party.alliedWith.length ? (
+                <p className="mt-2 rounded-xl bg-blue-50 p-3 text-xs text-[var(--blue-700)]">
+                  Alliances actives :{" "}
+                  {party.alliedWith
+                    .map((partyId) => state.parties[partyId]?.shortName ?? partyId)
+                    .join(", ")}
+                </p>
+              ) : null}
               {state.statementLedger.length ? (
                 <ol className="mt-3 space-y-2">
                   {state.statementLedger
@@ -169,6 +185,18 @@ export function CampaignDashboard({
                           {statement.topic}
                         </span>
                         <p className="mt-1">« {statement.text} »</p>
+                        {statement.evolution && EVOLUTION_LABELS[statement.evolution] ? (
+                          <span
+                            className={cn(
+                              "mt-2 inline-flex rounded-full px-2 py-1 text-[0.65rem] font-black",
+                              ["contradiction", "abrupt_reversal"].includes(statement.evolution)
+                                ? "bg-red-50 text-[var(--red-700)]"
+                                : "bg-emerald-50 text-[var(--success)]",
+                            )}
+                          >
+                            {EVOLUTION_LABELS[statement.evolution]}
+                          </span>
+                        ) : null}
                       </li>
                     ))}
                 </ol>
@@ -245,6 +273,24 @@ export function CampaignDashboard({
               nouvelles arriveront bientôt.
             </div>
           )}
+          {state.opponentActions.length ? (
+            <div className="mt-6 border-t border-[var(--line)] pt-5">
+              <h4 className="text-sm font-black">Mouvements adverses récents</h4>
+              <ol className="mt-3 space-y-2">
+                {state.opponentActions
+                  .slice(-5)
+                  .reverse()
+                  .map((action) => (
+                    <li
+                      key={`${action.decisionIndex}-${action.partyId}-${action.kind}`}
+                      className="rounded-xl bg-[var(--surface)] p-3 text-sm text-[var(--ink-muted)]"
+                    >
+                      {action.summary}
+                    </li>
+                  ))}
+              </ol>
+            </div>
+          ) : null}
         </section>
       ) : null}
     </Dialog>

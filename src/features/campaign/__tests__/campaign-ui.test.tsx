@@ -69,7 +69,7 @@ describe("parcours d’interface de campagne", () => {
     expect(useGameStore.getState().lastRecord?.eventId).toBe(event.id);
   });
 
-  it("fait contribuer les trois manches d’un débat à la réponse finale", async () => {
+  it("résout un débat à partir d’une prise de position concrète", async () => {
     const state = createGame(
       { seed: "ui-debate", mode: "existing_party", partyId: "ps", methodId: "digital" },
       gameContent,
@@ -78,13 +78,12 @@ describe("parcours d’interface de campagne", () => {
     useGameStore.getState().restoreGame(state);
     render(<CampaignEventScreen onSaveAndQuit={() => undefined} />);
 
-    fireEvent.click(screen.getByRole("button", { name: /précision/i }));
-    fireEvent.click(screen.getByRole("button", { name: /précision/i }));
     const debateEvent = gameContent.events.find((event) => event.id === "debate_economy_round")!;
+    expect(screen.queryByRole("button", { name: /^Précision$/i })).not.toBeInTheDocument();
     fireEvent.click(
       screen.getByRole("button", { name: new RegExp(debateEvent.choices[0]!.label, "i") }),
     );
-    fireEvent.click(screen.getByRole("button", { name: /prononcer la conclusion/i }));
+    fireEvent.click(screen.getByRole("button", { name: /défendre cette position/i }));
 
     expect(useGameStore.getState().screen).toBe("outcome");
     expect(useGameStore.getState().lastRecord?.eventId).toBe("debate_economy_round");

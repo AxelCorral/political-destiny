@@ -43,6 +43,12 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
   if (!party) return null;
   const initialMembers = Number(state.flags.initialMembers ?? party.stats.members);
   const initialPopularity = Number(state.flags.initialPopularity ?? party.stats.popularity);
+  const positionCount = new Set(
+    state.statementLedger.map((statement) => statement.policyTopic).filter(Boolean),
+  ).size;
+  const contradictionCount = state.statementLedger.filter((statement) =>
+    ["contradiction", "abrupt_reversal"].includes(statement.evolution ?? ""),
+  ).length;
   const highlights = result.highlightDecisionIds
     .map((index) => state.decisionHistory.find((decision) => decision.decisionIndex === index))
     .filter((record) => record !== undefined)
@@ -210,6 +216,20 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
                 </span>
               </div>
             </div>
+            <dl className="mt-3 grid grid-cols-3 gap-2 text-center text-xs">
+              <div className="rounded-xl border border-[var(--line)] p-3">
+                <dt className="text-[var(--ink-muted)]">Positions</dt>
+                <dd className="mt-1 text-lg font-black">{positionCount}</dd>
+              </div>
+              <div className="rounded-xl border border-[var(--line)] p-3">
+                <dt className="text-[var(--ink-muted)]">Alliances</dt>
+                <dd className="mt-1 text-lg font-black">{party.alliedWith.length}</dd>
+              </div>
+              <div className="rounded-xl border border-[var(--line)] p-3">
+                <dt className="text-[var(--ink-muted)]">Contradictions</dt>
+                <dd className="mt-1 text-lg font-black">{contradictionCount}</dd>
+              </div>
+            </dl>
           </Card>
           <Card className="p-5 sm:p-7">
             <h2 className="text-2xl font-black">Positionnement final</h2>

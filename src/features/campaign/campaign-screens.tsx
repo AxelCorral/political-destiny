@@ -29,7 +29,6 @@ import { Card } from "@/components/ui/card";
 import { gameContent } from "@/game/data";
 import type {
   ElectionRoundResult,
-  EventChoice,
   GameEventDefinition,
   GameState,
   PartyState,
@@ -280,12 +279,19 @@ function EventCard({
                 >
                   {String.fromCharCode(65 + index)}
                 </span>
-                <span className="min-w-0 flex-1 font-bold leading-snug">{choice.label}</span>
-                {choice.visibleTag ? (
-                  <span className="hidden shrink-0 rounded-full border border-current/20 px-2.5 py-1 text-[0.62rem] font-black tracking-wider text-[var(--ink-muted)] sm:block">
-                    {choice.visibleTag}
-                  </span>
-                ) : null}
+                <span className="min-w-0 flex-1">
+                  <span className="block font-bold leading-snug">{choice.label}</span>
+                  {choice.immediatePublicHint ? (
+                    <span className="mt-1.5 block text-xs font-normal leading-relaxed text-[var(--ink-muted)]">
+                      {choice.immediatePublicHint}
+                    </span>
+                  ) : null}
+                  {choice.visibleTag ? (
+                    <span className="mt-2 inline-flex rounded-full border border-current/20 px-2.5 py-1 text-[0.62rem] font-black tracking-wider text-[var(--ink-muted)]">
+                      {choice.visibleTag}
+                    </span>
+                  ) : null}
+                </span>
               </button>
             ))}
           </div>
@@ -300,39 +306,6 @@ function EventCard({
   );
 }
 
-type DebateStyle = "prudent" | "bold" | "collective" | "technical";
-
-function styleForChoice(choice: EventChoice): DebateStyle {
-  if (
-    choice.visibleTag === "RISQUÉ" ||
-    choice.visibleTag === "OFFENSIF" ||
-    choice.visibleTag === "CLIVANT"
-  )
-    return "bold";
-  if (choice.visibleTag === "RASSEMBLEUR" || choice.visibleTag === "LOYAL") return "collective";
-  if (choice.visibleTag === "TECHNIQUE") return "technical";
-  return "prudent";
-}
-
-const DEBATE_TACTICS: Array<{ style: DebateStyle; title: string; body: string }> = [
-  {
-    style: "prudent",
-    title: "Précision",
-    body: "Répondre avec méthode, preuves et limites explicites.",
-  },
-  { style: "bold", title: "Offensive", body: "Imposer le rythme et retourner les attaques." },
-  {
-    style: "collective",
-    title: "Rassemblement",
-    body: "Chercher un accord et parler au-delà de son camp.",
-  },
-  {
-    style: "technical",
-    title: "Démonstration",
-    body: "Entrer dans le fond et défendre chaque articulation.",
-  },
-];
-
 function DebateCard({
   event,
   onChoose,
@@ -340,112 +313,59 @@ function DebateCard({
   event: GameEventDefinition;
   onChoose: (choiceId: string) => void;
 }) {
-  const [round, setRound] = useState(0);
-  const [styles, setStyles] = useState<DebateStyle[]>([]);
   const [selectedChoice, setSelectedChoice] = useState<string>();
-
-  const selectTactic = (style: DebateStyle) => {
-    setStyles((current) => [...current, style]);
-    setRound((current) => current + 1);
-  };
 
   const resolveFinal = () => {
     const choice = event.choices.find((candidate) => candidate.id === selectedChoice);
     if (!choice) return;
-    const finalStyle = styleForChoice(choice);
-    const allStyles = [...styles, finalStyle];
-    const counts = allStyles.reduce<Record<DebateStyle, number>>(
-      (accumulator, style) => ({ ...accumulator, [style]: accumulator[style] + 1 }),
-      { prudent: 0, bold: 0, collective: 0, technical: 0 },
-    );
-    const dominant =
-      (Object.entries(counts) as Array<[DebateStyle, number]>).sort(
-        (left, right) => right[1] - left[1] || (left[0] === finalStyle ? -1 : 1),
-      )[0]?.[0] ?? finalStyle;
-    const resolvedChoice =
-      event.choices.find((candidate) => styleForChoice(candidate) === dominant) ?? choice;
-    onChoose(resolvedChoice.id);
+    onChoose(choice.id);
   };
 
-  const headings = ["Économie et social", "Sécurité et institutions", "Conclusion libre"];
   return (
     <Card className="overflow-hidden border-[var(--blue-400)]">
       <div className="bg-[var(--navy-950)] p-5 text-white sm:p-7">
         <div className="flex items-center justify-between gap-4">
           <span className="text-xs font-black uppercase tracking-[0.18em] text-[var(--gold-300)]">
-            Débat en direct · Manche {round + 1}/3
+            Débat en direct · prise de position
           </span>
-          <div className="flex gap-1" aria-hidden="true">
-            {[0, 1, 2].map((index) => (
-              <span
-                key={index}
-                className={cn(
-                  "h-1.5 w-8 rounded-full",
-                  index <= round ? "bg-[var(--gold-300)]" : "bg-white/20",
-                )}
-              />
-            ))}
-          </div>
         </div>
         <h1 className="mt-4 font-display text-3xl font-black uppercase sm:text-4xl">
-          {headings[round]}
+          {event.title}
         </h1>
-        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-300">
-          {round === 2
-            ? event.summary
-            : "Choisissez votre posture. La ligne dominante des trois manches déterminera la réponse finale de votre candidate ou candidat."}
-        </p>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-300">{event.summary}</p>
       </div>
       <div className="p-5 sm:p-8">
-        {round < 2 ? (
-          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-            {DEBATE_TACTICS.map((tactic) => (
-              <button
-                key={tactic.style}
-                type="button"
-                onClick={() => selectTactic(tactic.style)}
-                className="min-h-40 rounded-2xl border border-[var(--line)] bg-white p-5 text-left transition hover:-translate-y-0.5 hover:border-[var(--blue-400)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2"
-              >
-                <span className="text-xs font-black uppercase tracking-[0.15em] text-[var(--blue-600)]">
-                  {tactic.style}
+        <div className="grid gap-3">
+          {event.choices.map((choice) => (
+            <button
+              key={choice.id}
+              type="button"
+              aria-pressed={selectedChoice === choice.id}
+              onClick={() => setSelectedChoice(choice.id)}
+              className={cn(
+                "min-h-20 rounded-2xl border p-4 text-left transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2",
+                selectedChoice === choice.id
+                  ? "border-[var(--blue-600)] bg-blue-50"
+                  : "border-[var(--line)] hover:border-[var(--blue-400)]",
+              )}
+            >
+              <span className="mr-3 inline-block rounded-full bg-[var(--surface-raised)] px-2.5 py-1 text-[0.62rem] font-black uppercase text-[var(--blue-700)]">
+                {choice.visibleTag ?? "Position"}
+              </span>
+              <strong>{choice.label}</strong>
+              {choice.immediatePublicHint ? (
+                <span className="mt-2 block text-sm font-normal leading-relaxed text-[var(--ink-muted)]">
+                  {choice.immediatePublicHint}
                 </span>
-                <strong className="mt-3 block text-lg">{tactic.title}</strong>
-                <span className="mt-2 block text-sm leading-relaxed text-[var(--ink-muted)]">
-                  {tactic.body}
-                </span>
-              </button>
-            ))}
-          </div>
-        ) : (
-          <div>
-            <div className="grid gap-3">
-              {event.choices.map((choice) => (
-                <button
-                  key={choice.id}
-                  type="button"
-                  aria-pressed={selectedChoice === choice.id}
-                  onClick={() => setSelectedChoice(choice.id)}
-                  className={cn(
-                    "min-h-16 rounded-2xl border p-4 text-left font-bold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2",
-                    selectedChoice === choice.id
-                      ? "border-[var(--blue-600)] bg-blue-50"
-                      : "border-[var(--line)] hover:border-[var(--blue-400)]",
-                  )}
-                >
-                  <span className="mr-3 inline-block rounded-full bg-[var(--surface-raised)] px-2.5 py-1 text-[0.62rem] font-black uppercase text-[var(--blue-700)]">
-                    {choice.visibleTag ?? "Réponse"}
-                  </span>
-                  {choice.label}
-                </button>
-              ))}
-            </div>
-            <div className="mt-6 flex justify-end">
-              <Button size="large" disabled={!selectedChoice} onClick={resolveFinal}>
-                Prononcer la conclusion <ArrowRight aria-hidden="true" className="size-5" />
-              </Button>
-            </div>
-          </div>
-        )}
+              ) : null}
+            </button>
+          ))}
+        </div>
+        <div className="mt-6 flex justify-end">
+          <Button size="large" disabled={!selectedChoice} onClick={resolveFinal}>
+            Défendre cette position <ArrowRight aria-hidden="true" className="size-5" />
+          </Button>
+        </div>
       </div>
     </Card>
   );

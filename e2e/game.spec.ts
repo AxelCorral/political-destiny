@@ -91,16 +91,10 @@ async function playCampaign(
       continue;
     }
 
-    const pronounce = page.getByRole("button", { name: /Prononcer la conclusion/i });
+    const pronounce = page.getByRole("button", { name: /Défendre cette position/i });
     if (await pronounce.isVisible().catch(() => false)) {
       await page.locator('button[aria-pressed="false"]').first().click();
       await pronounce.click();
-      continue;
-    }
-
-    const precision = page.getByRole("button", { name: /Précision/i }).first();
-    if (await precision.isVisible().catch(() => false)) {
-      await precision.click();
       continue;
     }
 

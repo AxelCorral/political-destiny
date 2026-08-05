@@ -5,8 +5,9 @@ import { useEffect, useState } from "react";
 
 import { Card } from "@/components/ui/card";
 import { gameContent } from "@/game/data";
-import type { AchievementDefinition } from "@/game/types";
-import { getLocalProfile, type LocalProfile } from "@/lib/storage/game-database";
+import { achievementProgress } from "@/game/engine/achievements";
+import type { AchievementDefinition, GameState } from "@/game/types";
+import { getLocalProfile, loadActiveGame, type LocalProfile } from "@/lib/storage/game-database";
 import { cn } from "@/lib/utils";
 
 const CATEGORY_LABELS: Record<AchievementDefinition["category"], string> = {
@@ -22,12 +23,21 @@ const CATEGORY_LABELS: Record<AchievementDefinition["category"], string> = {
 
 export function BadgesPageClient() {
   const [profile, setProfile] = useState<LocalProfile>();
+  const [activeGame, setActiveGame] = useState<GameState>();
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    void getLocalProfile().then(setProfile);
+    void Promise.all([getLocalProfile(), loadActiveGame()]).then(([nextProfile, active]) => {
+      setProfile(nextProfile);
+      setActiveGame(active.state);
+      setLoaded(true);
+    });
   }, []);
 
-  const unlocked = new Set(profile?.unlockedAchievementIds ?? []);
+  const unlocked = new Set([
+    ...(profile?.unlockedAchievementIds ?? []),
+    ...(activeGame?.achievementsUnlocked ?? []),
+  ]);
   const visibleUnlocked = gameContent.achievements.filter((badge) => unlocked.has(badge.id)).length;
   const categories = Object.keys(CATEGORY_LABELS) as AchievementDefinition["category"][];
 
@@ -68,7 +78,7 @@ export function BadgesPageClient() {
         </Card>
       </div>
 
-      {profile === undefined ? (
+      {!loaded ? (
         <p className="mt-10 text-sm text-[var(--ink-muted)]">Lecture de votre collection…</p>
       ) : (
         <div className="mt-10 space-y-10">
@@ -87,6 +97,9 @@ export function BadgesPageClient() {
                   {badges.map((badge) => {
                     const isUnlocked = unlocked.has(badge.id);
                     const concealed = badge.secret && !isUnlocked;
+                    const progress = activeGame
+                      ? achievementProgress(badge, activeGame, activeGame.finalResult)
+                      : undefined;
                     return (
                       <Card
                         key={badge.id}
@@ -116,6 +129,25 @@ export function BadgesPageClient() {
                               ? "Une trajectoire inhabituelle révélera ce badge."
                               : badge.description}
                           </p>
+                          {!isUnlocked && !concealed && progress ? (
+                            <div
+                              className="mt-3"
+                              aria-label={`Progression : ${Math.floor(progress.current)} sur ${progress.target}`}
+                            >
+                              <div className="mb-1 flex justify-between text-[0.65rem] font-bold text-[var(--ink-muted)]">
+                                <span>Partie en cours</span>
+                                <span>
+                                  {Math.floor(progress.current)} / {progress.target}
+                                </span>
+                              </div>
+                              <div className="h-1.5 overflow-hidden rounded-full bg-white">
+                                <div
+                                  className="h-full rounded-full bg-[var(--blue-500)]"
+                                  style={{ width: `${progress.ratio * 100}%` }}
+                                />
+                              </div>
+                            </div>
+                          ) : null}
                         </div>
                       </Card>
                     );
