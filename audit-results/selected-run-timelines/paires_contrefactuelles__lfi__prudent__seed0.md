@@ -1,115 +1,114 @@
 # lfi · prudent · seed 0
 
 Parti : **lfi** (existing) — Agent : **prudent** — Graine : `post-audit-0` — Méthode : field_first
-Résultat : qualifié — score final 72/100 — fin `runoff_defeat`
-Score 1er tour : 16 — Score 2nd tour : 45.1 — Progression : 3
+Résultat : qualifié — score final 70/100 — fin `runoff_defeat`
+Score 1er tour : 16 — Score 2nd tour : 44.5 — Progression : 3
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 0 souvenirs d'acteurs, 71 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 18.48 points, axe le plus mobile 11.32 points
+Mémoire/monde : 4 souvenirs d'acteurs, 71 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 10.18 points, axe le plus mobile 7.83 points
 
 ## Chronologie
 
-**1. La photographie du quai vide** _(media)_
-- Choix : Ignorer la photographie et publier uniquement les engagements annoncés à Lille [PRUDENT]
-- Conséquence : *Le fond reprend lentement sa place* — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
+**1. Un soutien éditorial encombrant** _(media)_
+- Choix : Remercier pour l’accord ponctuel tout en publiant vos désaccords précis avec Gabriel Valès [TRANSPARENT]
+- Conséquence : *Un accord limité, des frontières nettes* — La mise au point évite la rupture théâtrale et empêche le soutien de devenir une alliance implicite. Elle consomme du temps médiatique, mais clarifie votre doctrine sur les libertés publiques.
 
-**2. Le lancement depuis Saint-Denis** _(campaign)_
-- Choix : Confier la moitié du direct à trois militants de territoires différents [RASSEMBLEUR]
-- Conséquence : *Les militants deviennent les visages* — Les témoignages de Lille, Marseille et la Guadeloupe circulent davantage que votre discours. La base se reconnaît dans la soirée, malgré un message national moins net.
+**2. L’atelier industriel de Saint-Nazaire** _(campaign)_
+- Choix : Proposer un contrat de formation financé avec la région et l’entreprise [TECHNIQUE]
+- Conséquence : *Le contrat trouve ses partenaires* — Le représentant régional confirme que le montage existe déjà ailleurs. Les salariés obtiennent une réponse applicable et votre proposition gagne en crédibilité locale.
+- Déclaration : initial_position
 
-**3. Une aciérie annonce sa fermeture** _(world)_
-- Choix : Conditionner toute aide à un repreneur privé présentant un carnet de commandes vérifiable [TECHNIQUE]
-- Conséquence : *Laide attend un projet industriel viable* — Le critère évite de financer une activité sans débouché et attire deux candidats prudents. Les salariés vous reprochent de laisser le temps du marché décider pendant que le site perd ses compétences.
+**3. La Garonne sort de son lit** _(world)_
+- Choix : Annuler le déplacement, mettre le local réservé à disposition des secours et suspendre la communication [PRUDENT]
+- Conséquence : *La campagne libère l’espace et se retire* — Le local devient un point logistique utile et vos équipes suivent les consignes des autorités sans mise en scène. Vous disparaissez de la couverture pendant la crise, ce qui est précisément cohérent avec la décision.
 
-**4. Le rapport reprend huit paragraphes** _(scandal)_
-- Choix : Retirer la note, citer chaque source et republier une version distinguant données et propositions [TRANSPARENT]
-- Conséquence : *Les citations reviennent dans le document* — La nouvelle version montre que les données venaient d’un rapport public et que vos propositions restent propres à la campagne. L’erreur éditoriale est reconnue sans prétendre que le fond était inventé.
+**4. Des notes de frais se mélangent** _(scandal)_
+- Choix : Faire rembourser la part municipale, corriger les comptes et publier le montant exact [TRANSPARENT]
+- Conséquence : *La frontière comptable est rétablie* — Samira Bellon rembourse immédiatement la part concernée et reconnaît une erreur de ventilation. Le faible montant et la correction rapide empêchent l’affaire de devenir un récit sur le système.
 
 **5. Les abstentionnistes demandent une preuve** _(party)_
 - Choix : Mobiliser les groupes daction pour informer sur linscription et les procurations sans consigne de vote [INSTITUTIONNEL]
 - Conséquence : *La participation devient une opération civique* — Les bénévoles vérifient les procédures et touchent des personnes éloignées des campagnes. Labsence de consigne directe renforce la confiance, même si tous les nouveaux inscrits ne choisiront pas LFI.
 
-**6. Saint-Denis ouvre ses réseaux associatifs** _(party)_
-- Choix : Tenir six ateliers et signer un tableau dengagements avec les associations participantes [POPULAIRE]
-- Conséquence : *Six soirées produisent un contrat local* — Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.
+**6. La Sixième République doit prendre forme** _(party)_
+- Choix : Commencer par la proportionnelle et le référendum partagé avant de convoquer une constituante [PRUDENT]
+- Conséquence : *La nouvelle République devient un chemin en trois étapes* — La trajectoire paraît plus réalisable et élargit les alliances parlementaires possibles. Les militants les plus attachés à la rupture craignent que la constituante soit repoussée indéfiniment.
+- Déclaration : initial_position
 
-**7. Le direct des questions citoyennes** _(media)_
-- Choix : Répondre à trois questions hospitalières puis conclure avec le calendrier de votre réforme [PRUDENT]
-- Conséquence : *Le direct se termine sur un calendrier* — Les réponses ne règlent pas tous les cas, mais la conclusion donne une date et un financement à l’engagement. Vous quittez le direct à l’heure, avec une séquence exploitable par les équipes de santé.
+**7. La ligne de départ des retraites** _(program)_
+- Choix : Maintenir l’âge légal à soixante-quatre ans avec des départs anticipés par durée de cotisation [TECHNIQUE]
+- Conséquence : *Une continuité assortie d’exceptions* — Le financement paraît plus robuste que les scénarios concurrents et les départs anticipés limitent la dureté du signal. Les syndicats contestent néanmoins le maintien de l’âge et annoncent qu’ils en feront un sujet de campagne.
 - Déclaration : initial_position
 
 **8. Les jeunes veulent leur propre campagne** _(internal)_
 - Choix : Accorder le budget demandé avec trois engagements communs et un droit de réponse du candidat [RASSEMBLEUR]
 - Conséquence : *La campagne jeune trouve sa voix* — Les vidéos et réunions touchent des publics absents de vos meetings, tout en respectant les trois engagements communs. Quelques différences de vocabulaire deviennent visibles sans créer de contradiction programmatique.
 
-**9. Douze députés offrent leur expérience** _(alliance)_
-- Choix : Refuser les ralliements individuels et demander seulement une expertise juridique publique [PRUDENT]
-- Conséquence : *L’expertise remplace les ralliements* — Les députés relisent vos textes institutionnels sans afficher un soutien électoral. Votre programme gagne en solidité et votre compteur de soutiens reste inchangé.
+**9. La CFDT veut des garanties écrites** _(alliance)_
+- Choix : Promettre une consultation sans conditionner la réforme à l’issue de la négociation [PRUDENT]
+- Conséquence : *La consultation ne vaut pas codécision* — Le syndicat reconnaît une ouverture mais refuse de valoriser publiquement une garantie qu’il juge incomplète. Vous conservez la liberté d’arbitrage et obtenez seulement une relation de travail correcte.
 
-**10. Le siège coûte trop cher** _(internal)_
-- Choix : Déménager à Saint-Denis et affecter léconomie réalisée aux déplacements régionaux [POPULAIRE]
-- Conséquence : *Le siège traverse le périphérique* — Le changement provoque trois jours de désordre puis réduit durablement les dépenses fixes. La nouvelle adresse soutient votre récit de proximité et finance des étapes que la campagne aurait annulées.
+**10. Le comité bloque le chapitre sécurité** _(internal)_
+- Choix : Soumettre les deux versions au vote des adhérents avec une note juridique commune [RASSEMBLEUR]
+- Conséquence : *Les adhérents choisissent le chapitre* — La participation est forte et le résultat donne une légitimité nette au texte retenu. Vous perdez la maîtrise de ce marqueur programmatique mais gagnez des militants capables den défendre la procédure.
 
 **11. LFI choisit entre mouvement et candidat** _(party)_
 - Choix : Donner aux groupes daction un budget local et un droit damendement sur les tracts [RASSEMBLEUR]
 - Conséquence : *Les groupes daction gagnent une marge réelle* — Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.
 
-**12. Le siège arrive à saturation** _(internal)_
-- Choix : Annuler deux déplacements, instaurer une journée de repos et redistribuer les astreintes [PRUDENT]
-- Conséquence : *Le calendrier perd deux étapes et gagne de la fiabilité* — Les équipes locales déçues obtiennent des visioconférences et le siège retrouve un rythme soutenable. Votre présence médiatique recule brièvement, tandis que les erreurs logistiques diminuent.
+**12. La question venue de Mayotte** _(debate)_
+- Choix : Proposer un audit de quatre semaines mené avec les élus et les services publics de Mayotte [INSTITUTIONNEL]
+- Conséquence : *Un audit territorial remplace le chiffre improvisé* — Vous ne prétendez pas résoudre le dossier en direct et décrivez une méthode associant les acteurs locaux. Le délai paraît sérieux, mais la questionneuse attendait aussi une réponse sur l’urgence immédiate.
 
-**13. Qui financera les priorités** _(program)_
-- Choix : Retirer deux dépenses du programme plutôt que créer un prélèvement supplémentaire [PRUDENT]
-- Conséquence : *Le budget perd deux promesses* — L’absence d’impôt nouveau rassure une partie des classes moyennes et renforce votre discipline budgétaire. Les publics visés par les mesures retirées découvrent immédiatement le prix politique de l’arbitrage.
+**13. Vingt-quatre heures sans caméra** _(media)_
+- Choix : Maintenir la journée de travail et publier l’agenda précis des réunions programmatiques [PRUDENT]
+- Conséquence : *Une pause lisible dans la campagne* — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
+
+**14. La porte-parole annonce trop tôt** _(internal)_
+- Choix : Corriger publiquement l’annonce et maintenir la porte-parole après un rappel des procédures [LOYAL]
+- Conséquence : *Une correction sans sacrifice humain* — La campagne distingue l’erreur individuelle de la décision collective et publie l’état exact de l’arbitrage. La porte-parole reste en fonction, reconnaissante, tandis que la proposition perd son effet de surprise.
+
+**15. Les affiches manquent dans six villes** _(campaign)_
+- Choix : Répartir la commande entre trois imprimeurs locaux et publier les coûts [TRANSPARENT]
+- Conséquence : *Les imprimeurs rattrapent le retard* — Les premières affiches arrivent sous quarante-huit heures. La solution coûte davantage, mais les sections disposent enfin d’un calendrier et de factures consultables.
+
+**16. La présidence que vous proposez** _(program)_
+- Choix : Conserver les institutions actuelles et limiter seulement les nominations présidentielles [PRUDENT]
+- Conséquence : *La continuité reçoit un contre-pouvoir ciblé* — Les électeurs soucieux de stabilité comprennent la réforme et les juristes la jugent réaliste. Votre camp le plus réformateur y voit une occasion manquée de corriger la concentration du pouvoir.
+- Déclaration : abrupt_reversal
+
+**17. Le contrôle interne signale trois factures** _(internal)_
+- Choix : Suspendre les paiements concernés et confier les justificatifs à un expert-comptable indépendant [TRANSPARENT]
+- Conséquence : *Les paiements attendent le contrôle* — Le gel ralentit deux fournisseurs mais sécurise la trace documentaire. Maud Keravel soutient la décision et l’expert dispose d’un mandat écrit qui permettra de conclure sans pression politique.
+
+**18. La collecte se bloque** _(campaign)_
+- Choix : Demander une avance bancaire et publier le taux ainsi que l’échéancier [TECHNIQUE]
+- Conséquence : *Le crédit maintient la tournée* — La banque accepte un montant inférieur à votre demande. L’échéancier transparent évite la polémique, mais le remboursement pèsera sur la fin de campagne.
+
+**19. Deux équipes se disputent le terrain** _(internal)_
+- Choix : Partager la journée entre porte-à-porte le matin et production vidéo l’après-midi [RASSEMBLEUR]
+- Conséquence : *Les bénévoles testent les deux méthodes* — Le compromis produit moins de portes et moins de vidéos qu’espéré, mais les équipes voient enfin le travail de l’autre. Samira Bellon reste engagée et propose une évaluation commune des résultats.
+
+**20. Les factures sans pièce ressortent** _(scandal)_
+- Choix : Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusquà conclusion [TRANSPARENT]
+- Conséquence : *La trésorerie passe sous contrôle extérieur* — Les documents confirment les prestations tout en montrant des procédures trop légères. Maud Keravel accepte la suspension sans reconnaître de faute et le contrôle indépendant fixe un calendrier de conclusion.
+
+**21. Les sections refusent le kit national** _(internal)_
+- Choix : Autoriser le tract breton après chiffrage et intégrer sa proposition comme expérimentation régionale [RASSEMBLEUR]
+- Conséquence : *La proposition locale devient expérimentation* — Les sections obtiennent une adaptation réelle sans transformer le document en programme parallèle. Le chiffrage retarde l’impression mais renforce la mobilisation et votre implantation en Bretagne.
+
+**22. Six rédactions face au désert médical** _(media)_
+- Choix : Proposer des contrats territoriaux avec objectifs publics et financement garanti sur cinq ans [INSTITUTIONNEL]
+- Conséquence : *Les territoires obtiennent une méthode* — Les rédactions discutent les critères plutôt que vos intentions. Les élus locaux saluent la visibilité pluriannuelle, même si le dispositif ne promet pas un médecin dans chaque commune.
 - Déclaration : initial_position
 
-**14. La promesse faite après la primaire** _(internal)_
-- Choix : Honorer la promesse et organiser une passation publique avec léquipe actuelle [LOYAL]
-- Conséquence : *La dette de primaire est payée* — Le courant rejoint pleinement la campagne et la passation conserve le travail déjà produit. Les responsables remplacés acceptent difficilement un arbitrage fondé sur une promesse politique plutôt que sur leur performance.
+**23. Cinq cents bénévoles sans mission** _(internal)_
+- Choix : Former les nouveaux bénévoles pendant deux soirées avant toute prise de contact électorale [PRUDENT]
+- Conséquence : *Les nouveaux arrivent préparés sur le terrain* — La campagne renonce à deux jours d’élan mais évite les réponses contradictoires et les problèmes de données personnelles. Les bénévoles formés restent davantage engagés au fil des semaines.
 
-**15. Le siège déborde de bénévoles** _(campaign)_
-- Choix : Confier aux bénévoles une enquête téléphonique sans accès aux données sensibles [TECHNIQUE]
-- Conséquence : *L’enquête révèle trois préoccupations* — Les appels font remonter la santé, les prix alimentaires et l’accès aux transports. Votre équipe gagne des informations utiles sans exposer le fichier électoral.
-
-**16. La loi migratoire du programme** _(program)_
-- Choix : Doubler les moyens des procédures d’asile et fixer un délai maximal pour chaque décision [INSTITUTIONNEL]
-- Conséquence : *La procédure devient votre réponse centrale* — Le dispositif promet des décisions plus rapides, qu’elles soient favorables ou non, et paraît administrativement applicable. Il satisfait peu les camps qui attendent une rupture quantitative ou une régularisation large.
-- Déclaration : initial_position
-
-**17. Neuf candidats face au climat** _(debate)_
-- Choix : Conditionner chaque dépense climatique à une baisse d’émissions mesurée deux ans après son lancement [TECHNIQUE]
-- Conséquence : *Une clause de résultat remplace la liste* — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
-- Déclaration : initial_position
-
-**18. La périphérie demande un calendrier** _(campaign)_
-- Choix : Demander un audit communal d’un mois avant de choisir la mesure [PRUDENT]
-- Conséquence : *Le diagnostic paraît déjà connu* — Les élus acceptent de transmettre les données, mais la salle estime avoir décrit le problème depuis des années. Votre prudence protège le budget et coûte politiquement.
-
-**19. Deux cents maires demandent un contrat** _(alliance)_
-- Choix : Refuser un contrat séparé et renvoyer les mesures territoriales au programme national [PRUDENT]
-- Conséquence : *Le programme national ne reçoit pas de cosignataire* — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
-
-**20. Le meeting quitte la capitale** _(campaign)_
-- Choix : Tenir le meeting à Toulouse et proposer un plan chaleur-logement [TECHNIQUE]
-- Conséquence : *Toulouse concrétise l’adaptation climatique* — Le plan relie climat, logement et santé avec un calendrier municipal. Les associations saluent la précision, tandis que son coût national reste discuté.
-- Déclaration : strategic_repositioning
-
-**21. Une ligne du CV est fausse** _(scandal)_
-- Choix : Suspendre le responsable pendant une semaine et faire vérifier toutes les biographies de l’équipe [PRUDENT]
-- Conséquence : *Quarante biographies passent au contrôle* — La vérification ne trouve aucune autre fausse fonction et le responsable présente des excuses avant de revenir. Votre réponse paraît proportionnée, au prix d’une semaine de ralentissement programmatique.
-
-**22. Le fauteuil libéré au vingt heures** _(media)_
-- Choix : Décliner l’invitation et consacrer la soirée au débat économique du lendemain [PRUDENT]
-- Conséquence : *Une audience cédée pour mieux préparer* — Le fauteuil revient à un autre candidat et votre absence est brièvement commentée. Votre équipe récupère en revanche les heures nécessaires pour harmoniser les chiffres et préparer les contradictions adverses.
-
-**23. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Décliner le soutien pour conserver une campagne sans vedette et proposer une rencontre privée [PRUDENT]
-- Conséquence : *La notoriété reste hors de l’affiche* — Nina Sorel respecte le refus et publie seulement qu’elle a été reçue sur le logement. Vous perdez une audience importante mais préservez une campagne où les soutiens ne remplacent pas les propositions.
-
-**24. La ligne de départ des retraites** _(program)_
-- Choix : Maintenir l’âge légal à soixante-quatre ans avec des départs anticipés par durée de cotisation [TECHNIQUE]
-- Conséquence : *Une continuité assortie d’exceptions* — Le financement paraît plus robuste que les scénarios concurrents et les départs anticipés limitent la dureté du signal. Les syndicats contestent néanmoins le maintien de l’âge et annoncent qu’ils en feront un sujet de campagne.
-- Déclaration : initial_position
+**24. L’audit clôt le dossier des factures** _(scandal)_
+- Choix : Publier la conclusion intégrale et appliquer les six recommandations avant tout nouveau paiement [TRANSPARENT]
+- Conséquence : *Six procédures remplacent le soupçon* — Le rapport écarte le récit d’une fraude personnelle et documente les négligences réelles. La campagne adopte chaque correction, ralentit ses paiements et referme le dossier sur des changements vérifiables.
 
 **25. Les soutiens arrivent avec leurs conditions** _(between_rounds)_
 - Choix : Négocier séparément trois garanties publiques sans modifier le socle du programme [PRUDENT]

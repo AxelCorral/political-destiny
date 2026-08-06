@@ -15,9 +15,9 @@ _Complété à la fin de la mission (Phase 11)._
 - [x] P6 — graphique contrefactuel immédiat (commit `2fbd3c9`)
 - [x] P7 — instabilité Playwright (commit `76adb9f`)
 - [x] P1 — agence sur la progression électorale (commit `c386894`)
-- [x] P5 — équilibrage du second tour (en cours, ce document)
+- [x] P5 — équilibrage du second tour (commit `0e1420c`)
+- [x] P3 — déplacements idéologiques déséquilibrés (en cours, ce document)
 - [ ] P2 — interaction directe avec les adversaires
-- [ ] P3 — déplacements idéologiques déséquilibrés
 - [ ] P4 — deux définitions d'agents de simulation
 
 ---
@@ -219,3 +219,88 @@ Chiffres définitifs (60 graines/combo, 4320 parties existantes, 0 erreur — `a
 - L'effet mesuré de la correction sur les taux agrégés reste modeste (quelques points) : le second tour combine la taille du socle du 1er tour (préservée intentionnellement, §3.3), la rétention et les reports — le rejet n'en est qu'une composante parmi d'autres, et le comprimer davantage sans toucher aux autres leviers aurait nécessité une intervention plus large, hors du principe « ne pas forcer une plage arbitraire ».
 - `horizons` et `nouvelle_energie` restent au-dessus du seuil de vigilance de 85-90 % après correction. Ceci est documenté explicitement comme demandé par le prompt plutôt que masqué : la matrice de duels et la ventilation par agent montrent que ce résultat reste (a) explicable par le moteur (rejet, crédibilité, distance idéologique, tous mesurables et cohérents), (b) différencié par adversaire (`horizons` bat `ps` "seulement" 76,6 % du temps contre 100 % face à `rn`/`lfi`/`lr`), et (c) sensible à la stratégie de jeu à l'intérieur de chaque parti. Aucun parti ne gagne par un coefficient fixe cousu à son identifiant — le mécanisme est uniforme et s'applique identiquement à tous.
 - `reconquete` a un échantillon de qualifiés trop petit (n=22 sur 240 parties) pour une lecture fiable de son taux conditionnel ; exclu du seuil de vigilance (`qualifiedRuns >= 30`) pour cette raison, documenté plutôt que silencieusement ignoré.
+
+---
+
+## 5. P3 — Déplacements idéologiques déséquilibrés
+
+### 5.1 Diagnostic
+
+Mesures de référence (baseline, mouvement moyen absolu par axe) :
+
+| Axe         |    Avant |
+| ----------- | -------: |
+| économie    |     6,71 |
+| autorité    |     1,95 |
+| écologie    |     1,97 |
+| Europe      |     1,80 |
+| immigration |     0,91 |
+| **société** | **0,30** |
+
+**Le système idéologique fonctionne — c'est le contenu qui manque, pas l'amplitude.** Le déplacement d'idéologie dans ce moteur est presque entièrement piloté par `choice.statement` (voir `src/game/engine/statements.ts::recordStatement`), pas par des effets `ideology` directs sur les choix : chaque `statement` porte un `policyTopic`, mappé à un axe via `TOPIC_AXIS`, et l'écart entre la position déclarée (`stance`) et la position perçue actuelle du parti détermine le déplacement.
+
+Comptage du contenu existant (choix portant un `statement` avec `policyTopic` explicite, sur l'ensemble du catalogue) :
+
+| Axe (regroupement de `policyTopic`)                                      | Choix avec `statement` |
+| ------------------------------------------------------------------------ | ---------------------: |
+| économie (`economy`, `fiscality`, `pensions`, `public_services`, `work`) |                 **73** |
+| autorité (`institutions`, `security`, `civil_liberties`)                 |                     22 |
+| écologie (`ecology`)                                                     |                     17 |
+| Europe (`europe`)                                                        |                     16 |
+| immigration (`immigration`)                                              |                      5 |
+| société (`social_issues`)                                                |                      5 |
+
+L'axe économie dispose de près de 15 fois plus de choix statuant sur sa position que société ou immigration — pas parce que ses amplitudes sont plus fortes par choix, mais parce que 5 `policyTopic` distincts s'y rattachent contre 1 seul chacun pour société et immigration. Autorité, écologie et Europe, déjà dans ou proches de la fourchette cible du prompt (1,5–3, §18), n'avaient pas ce déficit de contenu et n'ont pas été touchés.
+
+### 5.2 Décision de conception
+
+Nouveau fichier `src/game/data/events/v2/societyImmigration.ts` : 8 événements `program` entièrement nouveaux (aucune modification d'événement existant), suivant exactement le patron d'autorat de `program.ts` (`event()` / `decision()` / `statement` avec `policyTopic`, `stance`, `ideology`) :
+
+- **Société** (4 événements, 14 choix) : fin de vie (aide active à mourir), laïcité dans les services publics, ce que l'école doit transmettre, vie privée et réseaux sociaux — les thèmes concrets suggérés par le prompt (§16), aucun n'étant déjà couvert par le contenu existant (les 5 instances `social_issues` préexistantes portaient toutes sur le logement, pas sur ces arbitrages de société).
+- **Immigration** (4 événements, 12 choix) : regroupement familial, immigration de travail, contrat d'intégration, contrôle aux frontières — délibérément distincts de l'asile/régularisation/quotas/pacte européen déjà couverts par `program_immigration`, pour ne pas dupliquer un arbitrage existant sous un autre nom.
+
+Chaque choix porte un `statement` avec un `stance` réellement écarté (de −60 à +55 selon les événements) pour produire un déplacement mesurable, et des effets (`stat`, `bloc`, `hidden`) distincts par choix — aucune paire de choix ne partage la même signature de conséquences (vérifié par `npm run data:validate`, qui recalcule cette contrainte sur l'ensemble du catalogue). Aucun événement n'utilise le triptyque classique PRUDENT/RISQUÉ/RASSEMBLEUR (`eventsWithClassicTriptych` reste à 2, inchangé). Aucune référence à une personne réelle : ce sont des positions programmatiques du joueur, dans le même registre que `program_immigration` déjà existant.
+
+Alternative écartée : **augmenter l'amplitude des `ideology` deltas existants sur société/immigration** plutôt que d'ajouter du contenu. Écarté parce que le diagnostic montre un déficit de volume, pas d'amplitude par choix (les 5 instances existantes avaient déjà des `stance` variés) — gonfler artificiellement quelques deltas aurait été un ajustement de coefficient déguisé, pas une correction du problème réel identifié.
+
+### 5.3 Résultats statistiques avant/après
+
+Configuration réduite (30 graines/combo, 2160 parties existantes, 0 erreur), même seed prefix avant/après :
+
+| Axe             |    Avant |    Après | Part des parties avec mouvement > 5 pts (avant → après) |
+| --------------- | -------: | -------: | ------------------------------------------------------: |
+| économie        |     6,71 |     5,70 |                                                       — |
+| **société**     | **0,30** | **2,06** |                                          0,1 % → 12,4 % |
+| **immigration** | **0,91** | **2,48** |                                          5,0 % → 14,7 % |
+| autorité        |     1,95 |     1,90 |                                                       — |
+| écologie        |     1,97 |     1,65 |                                                       — |
+| Europe          |     1,80 |     1,76 |                                                       — |
+
+Chiffres définitifs (60 graines/combo, 4320 parties existantes, 0 erreur — `audit-results/summary.json`, section `ideology.byAxis`) :
+
+| Axe             | Avant |    Après |
+| --------------- | ----: | -------: |
+| économie        |  6,71 |     6,26 |
+| **société**     |  0,30 | **2,07** |
+| **immigration** |  0,91 | **2,52** |
+| autorité        |  1,95 |     1,79 |
+| écologie        |  1,97 |     1,66 |
+| Europe          |  1,80 |     1,70 |
+
+Les deux axes ciblés dépassent nettement la borne basse de la cible du prompt (1,5) et se situent dans sa fourchette haute (jusqu'à 3). Économie recule de 6,71 à 6,26 (dilution du pool, non un réglage délibéré — cf. §5.3), reste de très loin l'axe le plus mobile.
+
+Société et immigration atteignent la cible indicative du prompt (§18 : mouvement moyen absolu d'au moins 1,5–3), avec une progression nette de la part de campagnes dépassant 5 points de mouvement. Économie recule légèrement (6,71 → 5,70) : effet secondaire non intentionnel de la dilution naturelle du pool d'événements (plus de contenu en concurrence pour le même nombre de décisions par campagne), pas d'une réduction volontaire d'un effet ou d'un poids — conforme à la consigne « sans réduire artificiellement l'économie » (§18), puisqu'aucun coefficient économique n'a été touché. Économie reste de loin l'axe le plus mobile, aucune égalisation forcée entre axes.
+
+### 5.4 Fichiers modifiés
+
+- `src/game/data/events/v2/societyImmigration.ts` (nouveau) — 8 événements, 26 choix.
+- `src/game/data/events/v2/index.ts` — enregistrement de `v2SocietyImmigrationEvents` dans le catalogue.
+
+### 5.5 Tests
+
+Aucun nouveau test unitaire dédié (contenu de données, pas de logique moteur) ; couvert par les gardes-fous existants : `npm run data:validate` (qualité éditoriale, unicité des conséquences, absence de triptyque générique), `npm run audit:smoke` (accessibilité, déterminisme, absence de régression), et la simulation complète `npm run audit:game` pour la mesure quantitative.
+
+### 5.6 Compromis et limites restantes
+
+- Autorité et écologie reculent très légèrement (1,95 → 1,90 ; 1,97 → 1,65) par dilution du pool d'événements plutôt que par un choix délibéré. Les deux restent dans la fourchette cible du prompt ; aucune action corrective jugée nécessaire à ce stade, mais à surveiller si du contenu est encore ajouté ailleurs dans le catalogue.
+- Le contenu ajouté cible les deux axes réellement sous-dotés en volume (société, immigration) plutôt que de suivre mécaniquement l'ordre de priorité indicatif du prompt (§16 : société, immigration, autorité, écologie, Europe) — les trois derniers étaient déjà dans une fourchette saine et n'appelaient pas de nouveau contenu prioritaire ; ce choix est documenté plutôt que silencieux.

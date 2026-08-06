@@ -1,25 +1,26 @@
 # reconquete · aleatoire · seed 0
 
 Parti : **reconquete** (existing) — Agent : **aleatoire** — Graine : `post-audit-0` — Méthode : field_first
-Résultat : éliminé au 1er tour — score final 53/100 — fin `kingmaker`
-Score 1er tour : 10.5 — Score 2nd tour : n/a — Progression : 5.5
+Résultat : éliminé au 1er tour — score final 58/100 — fin `kingmaker`
+Score 1er tour : 11.2 — Score 2nd tour : n/a — Progression : 6.2
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 61 actions adverses (alliance|crisis|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 7.07 points, axe le plus mobile 4.63 points
+Mémoire/monde : 1 souvenirs d'acteurs, 61 actions adverses (alliance|crisis|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 18.31 points, axe le plus mobile 6.34 points
 
 ## Chronologie
 
-**1. La photographie du quai vide** _(media)_
-- Choix : Ignorer la photographie et publier uniquement les engagements annoncés à Lille [PRUDENT]
-- Conséquence : *Le fond reprend lentement sa place* — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
+**1. Un soutien éditorial encombrant** _(media)_
+- Choix : Inviter Gabriel Valès à débattre publiquement de vos divergences au prochain meeting [RISQUÉ]
+- Conséquence : *Le soutien devient confrontation* — Le débat attire une audience inhabituelle et vous permet de marquer vos désaccords sans nier le point commun initial. Une partie de votre équipe juge néanmoins que le polémiste a reçu une scène disproportionnée.
 
-**2. Le lancement depuis Saint-Denis** _(campaign)_
-- Choix : Confier la moitié du direct à trois militants de territoires différents [RASSEMBLEUR]
-- Conséquence : *Les militants deviennent les visages* — Les témoignages de Lille, Marseille et la Guadeloupe circulent davantage que votre discours. La base se reconnaît dans la soirée, malgré un message national moins net.
+**2. L’atelier industriel de Saint-Nazaire** _(campaign)_
+- Choix : Annoncer une préférence européenne dans les futures commandes publiques [CLIVANT]
+- Conséquence : *La commande publique ouvre un débat* — Les syndicats applaudissent l’objectif industriel, tandis que les juristes européens demandent des précisions. Votre ligne devient lisible et immédiatement contestée sur sa faisabilité.
+- Déclaration : initial_position
 
-**3. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Accepter le concert et publier à l’avance le cadre politique de son intervention [TRANSPARENT]
-- Conséquence : *Le concert porte une mesure précise* — Nina Sorel raconte son engagement sans parler au nom de la campagne et attire un public nouveau. Le cadre publié évite la confusion entre soutien artistique et expertise programmatique.
+**3. Le siège coûte trop cher** _(internal)_
+- Choix : Conserver le siège et supprimer une semaine de publicité pour payer le prochain trimestre [PRUDENT]
+- Conséquence : *L’adresse reste, la publicité disparaît* — Léquipe conserve ses habitudes et évite la perturbation matérielle. La baisse de visibilité numérique se fait sentir rapidement et le problème du bail reviendra si la campagne se prolonge.
 
 **4. La Garonne sort de son lit** _(world)_
 - Choix : Reporter la visite de quarante-huit heures et annoncer un fonds d’adaptation pour les communes exposées [INSTITUTIONNEL]
@@ -31,86 +32,87 @@ Idéologie : mouvement total 7.07 points, axe le plus mobile 4.63 points
 - Conséquence : *La première embauche devient moins risquée* — La mesure parle aux très petites entreprises et peut produire des emplois visibles. Son effet d’aubaine et son financement exposent le programme à une critique budgétaire précise.
 - Déclaration : initial_position
 
-**6. Les comités numériques cherchent du terrain** _(party)_
-- Choix : Financer cent formations locales et exiger un compte rendu public de chaque réunion [TECHNIQUE]
-- Conséquence : *Les comités apprennent à tenir le terrain* — Les bénévoles acquièrent des méthodes de recrutement et plusieurs groupes durables apparaissent. La formation coûte cher et mobilise des responsables qui produisaient auparavant les contenus viraux.
+**6. Le référendum migratoire doit être cadré** _(party)_
+- Choix : Déposer d’abord un projet constitutionnel détaillé puis soumettre son texte complet au référendum [INSTITUTIONNEL]
+- Conséquence : *Le référendum porte sur un texte complet* — La procédure expose clairement les articles proposés et permet une critique juridique précise. Sa complexité réduit la force d’un slogan et révèle plusieurs arbitrages difficiles.
+- Déclaration : initial_position
 
-**7. Les règles de la liste commune** _(internal)_
-- Choix : Confier le programme aux courants et la logistique à une direction choisie par le candidat [INSTITUTIONNEL]
-- Conséquence : *Deux légitimités apprennent à cohabiter* — Le compromis sécurise le contenu et accélère l’organisation matérielle. Il crée aussi une frontière floue lorsqu’une décision de calendrier modifie le message politique.
+**7. Le regroupement familial en question** _(program)_
+- Choix : Maintenir les délais actuels et accélérer l’instruction des dossiers [TECHNIQUE]
+- Conséquence : *Le même cadre, appliqué plus vite* — La mesure administrative est difficile à contester sur le fond et rassure les familles en attente. Elle ne répond pas à la demande de fermeté exprimée par une partie de votre électorat.
+- Déclaration : initial_position
 
-**8. Deux équipes se disputent le terrain** _(internal)_
-- Choix : Partager la journée entre porte-à-porte le matin et production vidéo l’après-midi [RASSEMBLEUR]
-- Conséquence : *Les bénévoles testent les deux méthodes* — Le compromis produit moins de portes et moins de vidéos qu’espéré, mais les équipes voient enfin le travail de l’autre. Samira Bellon reste engagée et propose une évaluation commune des résultats.
+**8. La porte-parole annonce trop tôt** _(internal)_
+- Choix : Corriger publiquement l’annonce et maintenir la porte-parole après un rappel des procédures [LOYAL]
+- Conséquence : *Une correction sans sacrifice humain* — La campagne distingue l’erreur individuelle de la décision collective et publie l’état exact de l’arbitrage. La porte-parole reste en fonction, reconnaissante, tandis que la proposition perd son effet de surprise.
 
-**9. Hélène Saint-Cyr refuse l’élargissement** _(party)_
-- Choix : Retirer à Hélène Saint-Cyr les canaux nationaux et publier seul le calendrier économique [OFFENSIF]
-- Conséquence : *Victor d’Aubrac reprend les canaux du parti* — Le calendrier économique occupe enfin plusieurs jours sans concurrence interne. Les comités proches d’Hélène Saint-Cyr créent leurs propres listes de diffusion et ralentissent la campagne numérique.
+**9. Reconquête choisit influence ou qualification** _(party)_
+- Choix : Élargir le programme à l’économie et recruter des porte-parole issus des territoires [PRÉSIDENTIEL]
+- Conséquence : *La qualification devient l’objectif affiché* — Les nouveaux porte-parole rendent la candidature moins dépendante des confrontations identitaires et ouvrent quelques relais locaux. Une partie du socle accuse l’équipe de diluer sa raison d’être.
 
 **10. La promesse faite après la primaire** _(internal)_
 - Choix : Créer une codirection jusquà la publication du programme et faire arbitrer les désaccords par vote [INSTITUTIONNEL]
 - Conséquence : *Deux équipes écrivent un même chapitre* — La codirection honore l’esprit de la promesse sans effacer les auteurs initiaux. Elle améliore le texte sur plusieurs points, mais multiplie les réunions et les risques de formulation hybride.
 
-**11. Reconquête choisit influence ou qualification** _(party)_
-- Choix : Concentrer les moyens sur quatre propositions destinées à imposer les thèmes de campagne [CLIVANT]
-- Conséquence : *Quatre propositions deviennent des marqueurs* — Le parti gagne une influence nette dans le débat et ses militants diffusent un message simple. La stratégie reconnaît implicitement que la qualification n’est pas l’unique mesure du succès.
+**11. La plateforme publique tombe en panne** _(world)_
+- Choix : Visiter un guichet d’urgence sans caméra et demander aux agents une liste de corrections prioritaires [PRUDENT]
+- Conséquence : *Les agents écrivent le retour de crise* — La liste distingue les problèmes techniques, les effectifs et les besoins des usagers. Votre discrétion limite la portée immédiate mais produit un document crédible pour la suite du programme.
 
-**12. Les comités de Saint-Cyr se coordonnent** _(party)_
-- Choix : Organiser un vote sécurisé des adhérents sur les cinq priorités de campagne [TRANSPARENT]
-- Conséquence : *Les adhérents classent les priorités* — Le résultat donne une légitimité réelle au calendrier et oblige les deux camps à reconnaître des thèmes communs. Victor d’Aubrac perd la liberté de déplacer rapidement l’agenda.
+**12. La question venue de Mayotte** _(debate)_
+- Choix : Reconnaître que vous ignorez le chiffre local et annoncer une réponse documentée sous vingt-quatre heures [TRANSPARENT]
+- Conséquence : *Une limite reconnue, une réponse attendue* — L’aveu surprend dans un débat où chacun prétend tout maîtriser. Votre équipe publie le lendemain des données vérifiées et un calendrier, ce qui transforme la lacune en preuve de méthode.
 
-**13. Qui financera les priorités** _(program)_
-- Choix : Retirer deux dépenses du programme plutôt que créer un prélèvement supplémentaire [PRUDENT]
-- Conséquence : *Le budget perd deux promesses* — L’absence d’impôt nouveau rassure une partie des classes moyennes et renforce votre discipline budgétaire. Les publics visés par les mesures retirées découvrent immédiatement le prix politique de l’arbitrage.
-- Déclaration : initial_position
+**13. Le micro resté ouvert** _(media)_
+- Choix : Accuser la chaîne d’avoir diffusé une conversation privée et refuser de commenter le fond [CLIVANT]
+- Conséquence : *Le droit ne répond pas au malaise* — La protestation sur les conditions d’enregistrement soulève une vraie question professionnelle, sans effacer vos mots. L’équipe comprend votre silence comme un refus de traiter le conflit interne.
 
-**14. Les sections refusent le kit national** _(internal)_
-- Choix : Interdire tout tract non validé et envoyer une équipe pour expliquer le programme national [LOYAL]
-- Conséquence : *Le kit national reste la seule parole* — La cohérence des documents est protégée et la proposition non chiffrée disparaît. Plusieurs militants bretons renoncent au porte-à-porte, estimant que le siège les traite comme de simples exécutants.
+**14. La note sur le vote utile fuite** _(internal)_
+- Choix : Publier la note entière, identifier son auteur fictif et confirmer les options finalement écartées [TRANSPARENT]
+- Conséquence : *La note complète montre un scénario abandonné* — Les pages manquantes prouvent que plusieurs stratégies étaient étudiées et que l’attaque n’a pas été retenue. La publication expose vos calculs électoraux, mais réduit nettement l’accusation d’hypocrisie.
 
-**15. Le siège déborde de bénévoles** _(campaign)_
-- Choix : Confier aux bénévoles une enquête téléphonique sans accès aux données sensibles [TECHNIQUE]
-- Conséquence : *L’enquête révèle trois préoccupations* — Les appels font remonter la santé, les prix alimentaires et l’accès aux transports. Votre équipe gagne des informations utiles sans exposer le fichier électoral.
+**15. Les affiches manquent dans six villes** _(campaign)_
+- Choix : Renoncer aux affiches et financer une campagne numérique dans les six villes [OPPORTUNISTE]
+- Conséquence : *Le budget bascule vers les écrans* — Les vidéos locales touchent rapidement les moins de trente ans. Les militants chargés de l’affichage dénoncent cependant une décision prise sans leur avis.
 
-**16. Le salaire net au centre** _(program)_
-- Choix : Augmenter le salaire minimum de huit pour cent et compenser temporairement les petites entreprises [POPULAIRE]
-- Conséquence : *La hausse est immédiate, la transition coûteuse* — Les salariés au minimum voient un gain direct et la compensation évite une rupture avec les petites entreprises. Le coût budgétaire des deux premières années fragilise cependant votre cadrage fiscal.
+**16. La présidence que vous proposez** _(program)_
+- Choix : Élargir le référendum dinitiative partagée avec contrôle préalable du Conseil constitutionnel [RASSEMBLEUR]
+- Conséquence : *La participation reçoit des garde-fous* — Le seuil abaissé rend l’outil réellement utilisable et le contrôle préalable rassure sur les libertés fondamentales. La mesure manque du souffle d’une nouvelle République mais élargit votre coalition potentielle.
 - Déclaration : abrupt_reversal
 
-**17. Neuf candidats face au climat** _(debate)_
-- Choix : Conditionner chaque dépense climatique à une baisse d’émissions mesurée deux ans après son lancement [TECHNIQUE]
-- Conséquence : *Une clause de résultat remplace la liste* — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
-- Déclaration : strategic_repositioning
-
-**18. Le face-à-face avec les syndicats** _(campaign)_
-- Choix : Renforcer les minima de branche et sanctionner les grilles sous le salaire minimum [TECHNIQUE]
-- Conséquence : *Les branches deviennent le levier* — La proposition convainc les négociateurs habitués aux grilles salariales. Elle produit moins d’enthousiasme public, mais renforce votre crédibilité sur le dialogue social.
-
-**19. Le siège arrive à saturation** _(internal)_
-- Choix : Maintenir l’agenda et verser une prime exceptionnelle à tous les salariés mobilisés [RISQUÉ]
-- Conséquence : *La prime ne crée pas d’heures de sommeil* — Le geste financier est apprécié et le programme des déplacements reste intact. La fatigue continue pourtant d’augmenter et une nouvelle erreur coûtera plus cher à réparer en fin de campagne.
-
-**20. Une apostrophe change le slogan** _(rare)_
-- Choix : Assumer la formule erronée comme un jeu de mots et distribuer tout le stock [RISQUÉ]
-- Conséquence : *La faute devient volontaire après coup* — Certains militants adoptent la formule et les réseaux la détournent largement. Votre tentative de réécriture amuse autant qu’elle nourrit le doute sur le sérieux logistique.
-
-**21. La une vous prête un tournant** _(media)_
-- Choix : Publier ensemble vos mesures pour l’investissement, les salaires et les droits des salariés [RASSEMBLEUR]
-- Conséquence : *Le tournant devient un contrat* — La publication simultanée empêche chaque camp de ne retenir qu’une moitié du projet. Elle ne satisfait pleinement ni les syndicats ni les dirigeants, mais rend la cohérence économique plus difficile à caricaturer.
+**17. Le comité bloque le chapitre sécurité** _(internal)_
+- Choix : Proposer une expérimentation dans vingt villes avec évaluation indépendante avant généralisation [TECHNIQUE]
+- Conséquence : *Vingt villes remplacent la décision nationale* — Les deux camps acceptent le test parce quil peut confirmer leur propre hypothèse. Le programme paraît prudent et applicable, sans donner de réponse nationale avant plusieurs années.
 - Déclaration : initial_position
 
-**22. L’adversaire refuse de vous laisser répondre** _(debate)_
-- Choix : Demander à la modératrice de restituer précisément votre temps avant de poursuivre [INSTITUTIONNEL]
-- Conséquence : *Le chronomètre rend la parole* — La production vous accorde quarante secondes supplémentaires et applique la même règle à tous. Votre réponse est entendue, mais certains commentateurs jugent l’appel au règlement excessivement procédurier.
+**18. Le meeting change de dispositif** _(campaign)_
+- Choix : Annuler le public et prononcer le discours depuis le siège en direct [PRUDENT]
+- Conséquence : *Le direct remplace la salle* — L’intervention atteint davantage de spectateurs que prévu, sans énergie militante. Vos adversaires jugent l’annulation excessive et le débat se déplace sur votre sang-froid.
 
-**23. Votre voix ne tient plus** _(rare)_
-- Choix : Suivre lavis médical, annuler les discours et laisser vos responsables répondre aux questions [PRUDENT]
-- Conséquence : *Trois jours sans votre voix* — L’équipe prend le relais et découvre une autonomie utile, tandis que vous récupérez avant le prochain débat. La campagne perd une partie de son rythme sans transformer un incident bénin en risque durable.
+**19. Deux équipes se disputent le terrain** _(internal)_
+- Choix : Donner la priorité au porte-à-porte et confier seulement dix bénévoles à la vidéo [POPULAIRE]
+- Conséquence : *Les sections reprennent la rue* — Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. Léquipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.
+
+**20. Le RN offre des désistements limités** _(party)_
+- Choix : Refuser le pacte et investir des candidats face au RN dans tous les territoires disputés [OFFENSIF]
+- Conséquence : *La concurrence devient totale* — Les militants disposent d’un objectif clair et la candidature ne dépend d’aucune négociation. Les moyens financiers se dispersent et la droite nationale multiplie les campagnes concurrentes.
+
+**21. La règle européenne à changer** _(program)_
+- Choix : Négocier lexclusion des investissements climatiques du calcul des déficits nationaux [RASSEMBLEUR]
+- Conséquence : *Le climat donne un objet à la négociation* — La demande rassemble plusieurs sensibilités favorables à l’Union et peut intéresser d’autres gouvernements. Son adoption n’est pas garantie, mais vous avez défini une priorité et une coalition possible.
+- Déclaration : gradual_evolution
+
+**22. Les soutiens envahissent le plateau** _(debate)_
+- Choix : Répartir les plateaux entre vos alliés selon les thèmes qu’ils maîtrisent le mieux [RASSEMBLEUR]
+- Conséquence : *La coalition prolonge le débat* — Chaque soutien développe une partie différente du projet et l’équipe paraît prête à gouverner. Les interventions divergent légèrement sur les mesures nouvelles, révélant le coût d’un récit moins centralisé.
+
+**23. Les comités numériques cherchent du terrain** _(party)_
+- Choix : Financer cent formations locales et exiger un compte rendu public de chaque réunion [TECHNIQUE]
+- Conséquence : *Les comités apprennent à tenir le terrain* — Les bénévoles acquièrent des méthodes de recrutement et plusieurs groupes durables apparaissent. La formation coûte cher et mobilise des responsables qui produisaient auparavant les contenus viraux.
 
 **24. La table ronde agricole se tend** _(campaign)_
 - Choix : Proposer un prix plancher contrôlé dans les contrats avec la grande distribution [POPULAIRE]
 - Conséquence : *Le revenu devient votre priorité agricole* — Les deux syndicats reconnaissent l’effort sur les contrats, puis divergent sur le contrôle. La mesure gagne en visibilité et doit maintenant être juridiquement précisée.
-- Déclaration : strategic_repositioning
+- Déclaration : initial_position
 
 **25. Votre mandat à la tête du parti** _(between_rounds)_
 - Choix : Demander un vote de confiance des adhérents pour conduire le parti pendant deux ans [LOYAL]

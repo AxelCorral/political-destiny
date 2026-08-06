@@ -1,62 +1,63 @@
 # lfi · aleatoire · seed 1
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-1` — Méthode : presidential
-Résultat : qualifié, **vainqueur** — score final 77/100 — fin `president`
-Score 1er tour : 14.2 — Score 2nd tour : 54.9 — Progression : 1.2
+Résultat : éliminé au 1er tour — score final 56/100 — fin `kingmaker`
+Score 1er tour : 13.5 — Score 2nd tour : n/a — Progression : 0.5
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 0 souvenirs d'acteurs, 76 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 17.51 points, axe le plus mobile 7.62 points
+Mémoire/monde : 1 souvenirs d'acteurs, 61 actions adverses (alliance|crisis|endorsement|strategy), 2 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 12.24 points, axe le plus mobile 7.3 points
 
 ## Chronologie
 
-**1. La ligne de départ des retraites** _(program)_
-- Choix : Proposer un système par points avec âge de référence et compte pénibilité renforcé [INSTITUTIONNEL]
-- Conséquence : *La réforme systémique rouvre tous les fronts* — Le projet répond aux différences de carrière et évite un âge unique, mais sa transition est difficile à expliquer. Votre équipe gagne une architecture complète et hérite d’un conflit technique jusque dans la dernière ligne droite.
+**1. Le mix électrique de 2040** _(program)_
+- Choix : Renoncer aux nouveaux réacteurs et concentrer les crédits sur sobriété, stockage et renouvelables [CLIVANT]
+- Conséquence : *La sortie du nouveau nucléaire vous définit* — Les électeurs écologistes retrouvent une ligne nette et les acteurs du nucléaire annoncent une mobilisation contraire. Les questions de stockage et de stabilité du réseau deviennent désormais incontournables.
 - Déclaration : initial_position
 
 **2. Le lancement depuis Saint-Denis** _(campaign)_
 - Choix : Confier la moitié du direct à trois militants de territoires différents [RASSEMBLEUR]
 - Conséquence : *Les militants deviennent les visages* — Les témoignages de Lille, Marseille et la Guadeloupe circulent davantage que votre discours. La base se reconnaît dans la soirée, malgré un message national moins net.
 
-**3. La une vous prête un tournant** _(media)_
-- Choix : Convoquer dès le lendemain les syndicats pour négocier les contreparties de l’investissement [INSTITUTIONNEL]
-- Conséquence : *La une ouvre une négociation sociale* — La CGT et la CFDT acceptent des rencontres séparées. Le processus ralentit votre annonce économique, mais il ancre les contreparties dans une négociation réelle plutôt que dans une formule de riposte.
+**3. Qui financera les priorités** _(program)_
+- Choix : Retirer deux dépenses du programme plutôt que créer un prélèvement supplémentaire [PRUDENT]
+- Conséquence : *Le budget perd deux promesses* — L’absence d’impôt nouveau rassure une partie des classes moyennes et renforce votre discipline budgétaire. Les publics visés par les mesures retirées découvrent immédiatement le prix politique de l’arbitrage.
 - Déclaration : initial_position
 
-**4. La présidence que vous proposez** _(program)_
-- Choix : Conserver les institutions actuelles et limiter seulement les nominations présidentielles [PRUDENT]
-- Conséquence : *La continuité reçoit un contre-pouvoir ciblé* — Les électeurs soucieux de stabilité comprennent la réforme et les juristes la jugent réaliste. Votre camp le plus réformateur y voit une occasion manquée de corriger la concentration du pouvoir.
+**4. La question de la fin de vie** _(program)_
+- Choix : Soumettre la question à référendum après un an de débat parlementaire [INSTITUTIONNEL]
+- Conséquence : *La décision revient aux citoyens* — La méthode évite de trancher seul un sujet de conscience et paraît difficile à attaquer sur le fond. Les deux camps du débat reprochent au calendrier de retarder une décision qu’ils jugent urgente.
 - Déclaration : initial_position
 
 **5. Les sections refusent le kit national** _(internal)_
 - Choix : Convoquer un atelier avec les sections puis publier un supplément territorial signé ensemble [INSTITUTIONNEL]
 - Conséquence : *Un supplément relie Paris et la Bretagne* — Le document commun conserve les priorités nationales et ajoute trois engagements territoriaux. Le processus demande deux jours, mais il crée une méthode réutilisable dans d’autres régions.
 
-**6. Deux cents maires demandent un contrat** _(alliance)_
-- Choix : Proposer cinquante contrats pilotes avant une généralisation votée au Parlement [TECHNIQUE]
-- Conséquence : *Cinquante communes entrent dans l’expérimentation* — Les maires retenus s’engagent fortement et les autres attendent les critères de sélection. La prudence budgétaire renforce votre sérieux sans produire le mouvement national espéré par l’appel.
+**6. Le PS propose trois engagements communs** _(alliance)_
+- Choix : Signer les trois engagements et suspendre toute campagne de vote utile contre le PS [RASSEMBLEUR]
+- Conséquence : *Trois mesures ouvrent une non-agression* — L’accord rend les débats de gauche plus lisibles et améliore les reports potentiels. Vos militants les plus offensifs regrettent d’abandonner un levier contre un concurrent direct du premier tour.
 
-**7. Le prochain budget de la santé** _(program)_
-- Choix : Créer un service territorial de soins primaires avec équipes salariées dans les zones sous-dotées [INSTITUTIONNEL]
-- Conséquence : *La médecine de proximité reçoit un opérateur* — Les collectivités voient comment ouvrir concrètement des équipes là où l’installation libérale ne suffit plus. Les représentants de médecins indépendants contestent le modèle salarié, mais le calendrier est jugé réalisable.
+**7. La présidence que vous proposez** _(program)_
+- Choix : Introduire une dose majoritaire de proportionnelle et renforcer les droits du Parlement [INSTITUTIONNEL]
+- Conséquence : *Le Parlement gagne du poids* — La réforme paraît compatible avec la Ve République tout en modifiant la représentation. Elle intéresse les partis susceptibles de devenir alliés et suscite les critiques de ceux qui redoutent des majorités instables.
 - Déclaration : initial_position
 
-**8. Le siège coûte trop cher** _(internal)_
-- Choix : Déménager à Saint-Denis et affecter léconomie réalisée aux déplacements régionaux [POPULAIRE]
-- Conséquence : *Le siège traverse le périphérique* — Le changement provoque trois jours de désordre puis réduit durablement les dépenses fixes. La nouvelle adresse soutient votre récit de proximité et finance des étapes que la campagne aurait annulées.
+**8. Le comité bloque le chapitre sécurité** _(internal)_
+- Choix : Proposer une expérimentation dans vingt villes avec évaluation indépendante avant généralisation [TECHNIQUE]
+- Conséquence : *Vingt villes remplacent la décision nationale* — Les deux camps acceptent le test parce quil peut confirmer leur propre hypothèse. Le programme paraît prudent et applicable, sans donner de réponse nationale avant plusieurs années.
+- Déclaration : initial_position
 
-**9. La loi migratoire du programme** _(program)_
-- Choix : Négocier un mécanisme européen d’asile et refuser tout objectif national avant cet accord [RASSEMBLEUR]
-- Conséquence : *L’échelle européenne prime sur la réponse immédiate* — La cohérence avec votre ligne européenne est nette et les électeurs modérés y voient une méthode réaliste. L’absence de mesure nationale immédiate alimente l’accusation d’attendre un accord incertain.
+**9. La promesse faite à l’école** _(program)_
+- Choix : Augmenter les salaires enseignants contre deux heures hebdomadaires dédiées au suivi des élèves [INSTITUTIONNEL]
+- Conséquence : *La revalorisation vient avec une nouvelle mission* — La hausse salariale répond à une attente ancienne, mais le temps supplémentaire est contesté selon les établissements. Le compromis ouvre une négociation sérieuse plutôt qu’une adhésion automatique.
 - Déclaration : initial_position
 
 **10. Une ligne du CV est fausse** _(scandal)_
 - Choix : Demander sa démission, corriger sa biographie et publier les contributions qu’il a réellement produites [TRANSPARENT]
 - Conséquence : *Le titre disparaît avec la fonction* — La sanction fixe une règle nette sur les biographies et les travaux publiés montrent que l’expertise ne reposait pas sur le faux titre. L’équipe énergie perd néanmoins son coordinateur en pleine campagne.
 
-**11. La collecte se bloque** _(campaign)_
-- Choix : Lancer une semaine de petits dons avec un objectif public quotidien [TRANSPARENT]
-- Conséquence : *Les petits dons relancent la caisse* — Les objectifs quotidiens sont atteints quatre jours sur sept. La somme ne couvre pas tout, mais transforme plusieurs donateurs en bénévoles actifs.
+**11. Le meeting change de dispositif** _(campaign)_
+- Choix : Maintenir le meeting en appliquant intégralement le protocole préfectoral [PRUDENT]
+- Conséquence : *Le meeting se tient sans incident* — Les contrôles retardent l’ouverture et la salle reste calme. Vous montrez que la campagne peut continuer, sans transformer l’alerte en argument politique.
 
 **12. Les Écologistes proposent un pacte urbain** _(party)_
 - Choix : Signer le pacte métropolitain et créer des équipes communes dans les six villes [RASSEMBLEUR]
@@ -66,27 +67,25 @@ Idéologie : mouvement total 17.51 points, axe le plus mobile 7.62 points
 - Choix : Mobiliser les groupes daction pour informer sur linscription et les procurations sans consigne de vote [INSTITUTIONNEL]
 - Conséquence : *La participation devient une opération civique* — Les bénévoles vérifient les procédures et touchent des personnes éloignées des campagnes. Labsence de consigne directe renforce la confiance, même si tous les nouveaux inscrits ne choisiront pas LFI.
 
-**14. La plateforme publique tombe en panne** _(world)_
-- Choix : Accuser le gouvernement d’impréparation et demander la démission du responsable numérique avant l’audit [OFFENSIF]
-- Conséquence : *La démission est demandée avant le diagnostic* — Votre attaque domine les plateaux et mobilise les opposants au pouvoir sortant. La plateforme revient sans que la cause confirme une faute personnelle, ce qui laisse votre exigence sans fondement établi.
+**14. Quarante-quatre degrés à Lyon** _(world)_
+- Choix : Maintenir un meeting intérieur consacré au climat avec jauge réduite et soignants invités [RISQUÉ]
+- Conséquence : *Le meeting devient audition sur la canicule* — La jauge réduite et le contenu médical évitent la fête déplacée tout en conservant une parole de campagne. Le rassemblement mobilise malgré tout des services de sécurité pendant l’épisode.
 
 **15. La périphérie demande un calendrier** _(campaign)_
 - Choix : Demander un audit communal d’un mois avant de choisir la mesure [PRUDENT]
 - Conséquence : *Le diagnostic paraît déjà connu* — Les élus acceptent de transmettre les données, mais la salle estime avoir décrit le problème depuis des années. Votre prudence protège le budget et coûte politiquement.
 
-**16. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Transformer le concert en forum sur le logement avec associations, étudiants et élus locaux [POPULAIRE]
-- Conséquence : *La scène devient forum du logement* — L’artiste ouvre la soirée puis laisse les acteurs du terrain confronter vos propositions. La couverture est moins centrée sur sa notoriété et produit plusieurs engagements locaux crédibles.
+**16. Les jeunes veulent leur propre campagne** _(internal)_
+- Choix : Intégrer leurs responsables à léquipe nationale et produire chaque contenu sous la même identité [LOYAL]
+- Conséquence : *Les jeunes entrent au siège* — Leur expertise modifie réellement plusieurs contenus nationaux et préserve l’unité visuelle. Le processus de validation ralentit leur production et donne l’impression que leur autonomie a été absorbée.
 
-**17. Le comité bloque le chapitre sécurité** _(internal)_
-- Choix : Arbitrer en faveur de pouvoirs élargis et publier les garanties de contrôle retenues [PRÉSIDENTIEL]
-- Conséquence : *Le candidat tranche avec des garde-fous* — Le chapitre est bouclé et votre position devient identifiable. La moitié opposée accepte les garanties sans approuver le fond, ce qui réduit sa mobilisation sur les sujets de sécurité.
-- Déclaration : initial_position
+**17. Le contrôle interne signale trois factures** _(internal)_
+- Choix : Demander aux équipes locales de reconstituer les dossiers avant tout signalement extérieur [PRUDENT]
+- Conséquence : *Les pièces reviennent, une dépense reste floue* — Deux factures sont documentées en quarante-huit heures. La troisième correspond à une prestation orale mal encadrée, qui demeure défendable mais expose la campagne à une question ultérieure.
 
-**18. Le déplacement en Guadeloupe engage** _(campaign)_
-- Choix : Proposer une autorité locale de l’eau avec budget pluriannuel contrôlé [INSTITUTIONNEL]
-- Conséquence : *L’eau obtient une architecture claire* — Les associations saluent la durée du financement et demandent une majorité locale au conseil. La proposition devient vérifiable et vous engage au-delà de la campagne.
-- Déclaration : gradual_evolution
+**18. Une nuit avec les urgences** _(campaign)_
+- Choix : Publier chaque semaine les lits fermés et convoquer les agences régionales [TRANSPARENT]
+- Conséquence : *Les fermetures deviennent vérifiables* — Le tableau de bord donne aux soignants un outil de pression et oblige votre équipe à assumer les écarts régionaux. Les gestionnaires redoutent une lecture trop brute.
 
 **19. Le micro resté ouvert** _(media)_
 - Choix : Assumer le diagnostic et annoncer une réorganisation qui retire le calendrier à Anaïs Vercel [OFFENSIF]
@@ -96,46 +95,23 @@ Idéologie : mouvement total 17.51 points, axe le plus mobile 7.62 points
 - Choix : Estimer le chiffre à partir de vos notes et proposer immédiatement un montant d’investissement [RISQUÉ]
 - Conséquence : *L’ordre de grandeur est juste* — Votre estimation correspond aux données disponibles et le montant proposé paraît compatible avec les besoins. La prise de risque donne une réponse nette sans prétendre connaître chaque détail territorial.
 
-**21. Le rapport reprend huit paragraphes** _(scandal)_
-- Choix : Maintenir la note et défendre le droit de réutiliser les données d’un rapport public [CLIVANT]
-- Conséquence : *Le droit d’utilisation ne répond pas à l’attribution* — Votre argument juridique sur les données est exact mais ne traite pas la reprise des formulations. La campagne transforme une correction simple en débat durable sur son honnêteté intellectuelle.
+**21. Les factures sans pièce ressortent** _(scandal)_
+- Choix : Rembourser volontairement les trois dépenses à la campagne et retirer toute demande de remboursement public [PRUDENT]
+- Conséquence : *La campagne paie le coût de son dossier incomplet* — Le remboursement ne tranche pas la responsabilité, mais supprime le risque que des fonds publics couvrent les dépenses contestées. L’opposition y voit un aveu tandis que les juristes saluent une précaution claire.
 
-**22. Une nuit avec les urgences** _(campaign)_
-- Choix : Publier chaque semaine les lits fermés et convoquer les agences régionales [TRANSPARENT]
-- Conséquence : *Les fermetures deviennent vérifiables* — Le tableau de bord donne aux soignants un outil de pression et oblige votre équipe à assumer les écarts régionaux. Les gestionnaires redoutent une lecture trop brute.
+**22. Le déplacement en Guadeloupe engage** _(campaign)_
+- Choix : Convoquer une conférence territoriale et laisser les élus fixer la première priorité [RASSEMBLEUR]
+- Conséquence : *Les élus choisissent la continuité territoriale* — La conférence place les transports avant votre préférence pour l’eau. Vous respectez le mandat local et devez réécrire une partie du déplacement prévu.
 
-**23. Saint-Denis ouvre ses réseaux associatifs** _(party)_
-- Choix : Tenir six ateliers et signer un tableau dengagements avec les associations participantes [POPULAIRE]
-- Conséquence : *Six soirées produisent un contrat local* — Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.
+**23. La Sixième République doit prendre forme** _(party)_
+- Choix : Détailler lélection de la constituante, son mandat de dix-huit mois et le référendum final [INSTITUTIONNEL]
+- Conséquence : *La rupture reçoit un calendrier* — La procédure rend le projet vérifiable et répond aux craintes sur la transition. Elle expose aussi chaque règle à la critique et oblige LFI à expliquer comment gouverner pendant dix-huit mois.
+- Déclaration : contradiction
 
-**24. Les soutiens envahissent le plateau** _(debate)_
-- Choix : Répartir les plateaux entre vos alliés selon les thèmes qu’ils maîtrisent le mieux [RASSEMBLEUR]
-- Conséquence : *La coalition prolonge le débat* — Chaque soutien développe une partie différente du projet et l’équipe paraît prête à gouverner. Les interventions divergent légèrement sur les mesures nouvelles, révélant le coût d’un récit moins centralisé.
+**24. L’audit clôt le dossier des factures** _(scandal)_
+- Choix : Proclamer Maud Keravel blanchie et rejeter les recommandations comme des précautions bureaucratiques [OFFENSIF]
+- Conséquence : *L’absence d’enrichissement devient victoire totale* — Votre lecture soulage les militants et dépasse ce que dit le rapport sur les procédures. L’expert rappelle publiquement ses six recommandations, transformant la conclusion favorable en nouveau conflit d’interprétation.
 
-**25. Les dernières heures autorisées** _(between_rounds)_
-- Choix : Déployer les militants dans cent gares et marchés avec un appel personnalisé à participer [POPULAIRE]
-- Conséquence : *Cent points de contact avant le silence* — Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.
-
-**26. Les reports refusent la mécanique** _(between_rounds)_
-- Choix : Concentrer toute la communication sur le risque représenté par votre adversaire [OFFENSIF]
-- Conséquence : *Le rejet devient le seul ciment* — La stratégie mobilise rapidement ceux qui craignent le finaliste et augmente aussi la lassitude des électeurs sans enthousiasme. Vous améliorez les reports fragiles au prix dun mandat positif plus faible.
-
-**27. LFI doit élargir sans se renier** _(party)_
-- Choix : Refuser toute modification et demander un ralliement sur lintégralité du programme [LOYAL]
-- Conséquence : *Le second tour reste celui du programme initial* — La cohérence mobilise très fortement votre base et laisse les électeurs alliés sans garantie nouvelle. Le résultat dépend davantage du rejet de ladversaire que de votre capacité à construire une majorité.
-
-**28. Les soutiens arrivent avec leurs conditions** _(between_rounds)_
-- Choix : Négocier séparément trois garanties publiques sans modifier le socle du programme [PRUDENT]
-- Conséquence : *Trois soutiens gardent trois identités* — Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.
-
-**29. Le débat de lentre-deux-tours** _(between_rounds)_
-- Choix : Appeler directement les abstentionnistes à choisir entre vos deux projets plutôt qu’entre deux personnes [POPULAIRE]
-- Conséquence : *Le débat se termine sur la participation* — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
-
-**30. Quinze ministres pour une coalition** _(government)_
-- Choix : Répartir les ministères proportionnellement aux soutiens du second tour avec exigence de parité [INSTITUTIONNEL]
-- Conséquence : *Les soutiens deviennent responsabilité ministérielle* — La règle rend le partage compréhensible et stabilise les partenaires avant le premier Conseil des ministres. Elle laisse moins de place aux personnalités indépendantes et à certains territoires.
-
-**31. Deux alliés réclament Bercy** _(government)_
-- Choix : Choisir le responsable le plus compétent et offrir à lautre la présidence dun comité parlementaire [INSTITUTIONNEL]
-- Conséquence : *Bercy revient à la compétence, le Parlement compense* — Les critères du choix sont défendables et le comité donne une responsabilité réelle au partenaire écarté. Il accepte sans enthousiasme et maintient son soutien au premier budget.
+**25. Votre mandat à la tête du parti** _(between_rounds)_
+- Choix : Rester jusquau congrès, présenter votre bilan et ne pas intervenir dans la succession [INSTITUTIONNEL]
+- Conséquence : *La succession reçoit une date et une règle* — Vous assurez la continuité matérielle sans désigner dhéritier et chaque courant peut préparer sa candidature. La transition est lente mais réduit le risque dune guerre de palais.

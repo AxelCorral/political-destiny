@@ -20,6 +20,7 @@ import { v2RnPartyEvents } from "./partiesRn";
 import { v2ProgramEvents } from "./program";
 import { v2RareEvents } from "./rare";
 import { v2ScandalEvents } from "./scandals";
+import { v2SocietyImmigrationEvents } from "./societyImmigration";
 import { v2WorldEvents } from "./world";
 
 export const v2PartyEvents: GameEventDefinition[] = [
@@ -38,6 +39,7 @@ const authoredV2Events: GameEventDefinition[] = [
   ...v2CampaignEvents,
   ...v2MediaEvents,
   ...v2ProgramEvents,
+  ...v2SocietyImmigrationEvents,
   ...v2DebateEvents,
   ...v2InternalEvents,
   ...v2AllianceEvents,
@@ -62,5 +64,6 @@ export {
   v2ProgramEvents,
   v2RareEvents,
   v2ScandalEvents,
+  v2SocietyImmigrationEvents,
   v2WorldEvents,
 };

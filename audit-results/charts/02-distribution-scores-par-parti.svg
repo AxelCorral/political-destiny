@@ -5,29 +5,29 @@
   
     <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn</text>
     <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
-    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">16.0 %</text>
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">16.1 %</text>
     <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps</text>
-    <rect x="200" y="100" width="463.3" height="28" fill="#3b6ea5" rx="3" />
-    <text x="671.2521847690386" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.8 %</text>
+    <rect x="200" y="100" width="460.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="668.6583850931677" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.8 %</text>
     <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi</text>
-    <rect x="200" y="138" width="453.9" height="28" fill="#3b6ea5" rx="3" />
-    <text x="661.8639200998751" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.5 %</text>
+    <rect x="200" y="138" width="451.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="659.608695652174" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.5 %</text>
     <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr</text>
-    <rect x="200" y="176" width="447.7" height="28" fill="#3b6ea5" rx="3" />
-    <text x="655.7028714107366" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.3 %</text>
+    <rect x="200" y="176" width="446.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="654.6459627329192" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.3 %</text>
     <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance</text>
-    <rect x="200" y="214" width="440.7" height="28" fill="#3b6ea5" rx="3" />
-    <text x="648.6616729088639" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.0 %</text>
+    <rect x="200" y="214" width="439.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="647.9316770186335" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.1 %</text>
     <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons</text>
-    <rect x="200" y="252" width="423.9" height="28" fill="#3b6ea5" rx="3" />
-    <text x="631.9388264669163" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.4 %</text>
+    <rect x="200" y="252" width="425.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="633.0434782608695" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.6 %</text>
     <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes</text>
-    <rect x="200" y="290" width="422.5" height="28" fill="#3b6ea5" rx="3" />
-    <text x="630.4719101123596" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.4 %</text>
+    <rect x="200" y="290" width="411.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="619.3229813664595" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.1 %</text>
     <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie</text>
     <rect x="200" y="328" width="404.3" height="28" fill="#3b6ea5" rx="3" />
-    <text x="612.2821473158551" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">13.8 %</text>
+    <text x="612.3167701863354" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">13.8 %</text>
     <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete</text>
-    <rect x="200" y="366" width="289.3" height="28" fill="#3b6ea5" rx="3" />
-    <text x="497.2759051186017" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">9.9 %</text>
+    <rect x="200" y="366" width="290.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="498.1739130434782" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">9.9 %</text>
 </svg>
