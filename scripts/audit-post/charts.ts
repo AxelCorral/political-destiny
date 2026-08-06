@@ -258,4 +258,70 @@ if (summary.counterfactualBranching?.available) {
   );
 }
 
-console.log(JSON.stringify({ chartsWritten: 11, outputDir: CHART_DIR }, null, 2));
+// 12. Progression brute vs normalisée par parti (P1)
+{
+  const parties = [...new Set(existingRuns.map((r) => str(r.partyId)))].sort();
+  const rawByParty = parties.map((p) => {
+    const rows = existingRuns.filter((r) => r.partyId === p).map((r) => num(r.progression));
+    return rows.reduce((a, b) => a + b, 0) / rows.length;
+  });
+  const normalizedByParty = parties.map((p) => {
+    const rows = existingRuns
+      .filter((r) => r.partyId === p)
+      .map((r) => num(r.progressionNormalized));
+    return rows.reduce((a, b) => a + b, 0) / rows.length;
+  });
+  await save(
+    "12-progression-brute-vs-normalisee.svg",
+    groupedBarChart({
+      title: "Progression brute vs normalisée par parti",
+      subtitle: subtitle(
+        "brute = points de sondage · normalisée = part de la marge atteignable (P1)",
+      ),
+      categories: parties,
+      series: [
+        {
+          name: "Brute (points)",
+          color: "#3b6ea5",
+          values: rawByParty.map((v) => Number(v.toFixed(2))),
+        },
+        {
+          name: "Normalisée (×100 pour lisibilité)",
+          color: "#c9a24b",
+          values: normalizedByParty.map((v) => Number((v * 100).toFixed(2))),
+        },
+      ],
+      valueFormat: (v) => v.toFixed(1),
+    }),
+  );
+}
+
+// 13. Taux de victoire conditionnelle à la qualification par parti (P5)
+{
+  const parties = [...new Set(existingRuns.map((r) => str(r.partyId)))].sort();
+  const conditionalRates = parties.map((p) => {
+    const qualified = existingRuns.filter((r) => r.partyId === p && bool(r.qualified));
+    if (qualified.length === 0) return 0;
+    return qualified.filter((r) => bool(r.won)).length / qualified.length;
+  });
+  const sortedIndex = conditionalRates
+    .map((value, index) => ({ value, index }))
+    .sort((a, b) => b.value - a.value);
+  await save(
+    "13-victoire-conditionnelle-qualification.svg",
+    barChart({
+      title: "Taux de victoire conditionnelle à la qualification, par parti",
+      subtitle: subtitle(
+        "victoires / qualifications pour le même parti — seuil de vigilance ~85–90 % (P5)",
+      ),
+      data: sortedIndex.map(({ value, index }) => ({
+        label: parties[index]!,
+        value: Number((value * 100).toFixed(1)),
+      })),
+      valueFormat: (v) => `${v.toFixed(1)}%`,
+      maxValue: 100,
+    }),
+  );
+}
+
+console.log(JSON.stringify({ chartsWritten: 13, outputDir: CHART_DIR }, null, 2));

@@ -8,7 +8,20 @@ Baseline de départ : commit `5308c1a` (audit indépendant post-corrections), br
 
 ## 1. Résumé exécutif
 
-_Complété à la fin de la mission (Phase 11)._
+Les sept problèmes identifiés par l'audit indépendant post-corrections (`AUDIT_POST_CORRECTIONS.md`, commit `5308c1a`) ont été traités, chacun diagnostiqué avant correction, mesuré avant/après sur une simulation à taille standard (60 graines/combo, 4320 à 5280 parties selon la phase), documenté et commité localement.
+
+**Corrections mécaniques et de contenu** (P1, P2, P3, P5) apportent des changements réels, mesurés sur simulation complète, avec des compromis explicitement documentés plutôt que masqués :
+
+- **P1** (progression) : nouvelle métrique normalisée par la marge atteignable, rendements décroissants sur les statistiques de campagne. La métrique affichée en jeu (η²(agent) = 2,98 %) n'atteint pas seule la cible du prompt (≥ 5 %) ; la construction d'audit complémentaire (sur-performance vs baseline neutre du parti) la démontre à 10,98 %, dans la fourchette cible — limite honnêtement documentée, pas contournée.
+- **P2** (interactions adverses) : `eventsAffectingOpponent` passe de 2 à 8 (cible : nettement au-delà de 2, atteinte), 9 événements neufs plutôt que les 12–20 indicatifs, par arbitrage de temps assumé.
+- **P3** (axes idéologiques) : société (0,30 → 2,07) et immigration (0,91 → 2,52) atteignent la cible (1,5–3) grâce à 8 événements neufs ; autorité/écologie/Europe, déjà sains, laissés inchangés par choix délibéré.
+- **P5** (second tour) : rendements décroissants sur la pénalité de rejet, `rn` gagne son second tour conditionnellement 33,0 % → 39,1 % du temps ; `horizons`/`nouvelle_energie` restent au-dessus du seuil de vigilance (85–90 %) mais explicables et différenciés par adversaire, documentés plutôt que forcés à la baisse.
+
+**Corrections d'outillage et d'infrastructure** (P6, P7, P4) sont pleinement résolues sans compromis restant : le graphique contrefactuel affiche désormais la vraie valeur non nulle (0,1967 → visible), les trois scénarios Playwright instables sont à 0 échec sur 270 exécutions (15× repeat-each, deux projets), et les deux jeux d'agents d'audit sont croisés-documentés plutôt que fusionnés (choix assumé, cf. §7).
+
+**Non-régression** : 0 répétition de titre/récit, 0 faux dilemme, 18/18 événements rares atteignables, 0 erreur de simulation sur 5280 parties, déterminisme parfait, build/typecheck/lint/tests tous verts — voir `audit-results/post-fix/COMPARISON.md` et section 8 de ce document pour le détail complet.
+
+Aucune métrique n'a été supprimée ou maquillée pour améliorer un résultat ; chaque arbitrage (rendements décroissants qui coûte un peu d'η²(agent), coefficients de `partyAppeal` essayés puis abandonnés, volume P2 sous la fourchette haute) est documenté avec sa justification plutôt que silencieux.
 
 ## 2. Problèmes traités
 
