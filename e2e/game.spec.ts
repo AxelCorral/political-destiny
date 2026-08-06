@@ -282,7 +282,7 @@ test("9 · défaite contrôlée au second tour", async ({ page }, testInfo) => {
     testInfo.project.name === "mobile",
     "Fixture électorale longue exécutée sur Chromium desktop.",
   );
-  await startExistingCampaign(page, "Rassemblement national", "e2e-rn-defeat-0");
+  await startExistingCampaign(page, "Rassemblement national", "e2e-rn-defeat-1");
   const milestones = await playCampaign(page);
   expect(milestones.firstRound).toMatch(/second tour/i);
   expect(milestones.secondRound).toMatch(/verdict des urnes/i);

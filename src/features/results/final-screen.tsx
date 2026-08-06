@@ -24,6 +24,23 @@ import { formatInteger, formatPercent, REGION_LABELS } from "@/lib/game-presenta
 import { ShareResult } from "@/features/sharing/share-result";
 import { useGameStore } from "@/features/campaign/gameStore";
 
+/**
+ * Narrative framing for progressionNormalized (P1 — see POST_AUDIT_FIXES.md
+ * section 3): a ratio of the party's achievable margin, not a vote share.
+ * Deliberately worded around "marge" so it can never read as an electoral
+ * percentage (prompt Phase 9, §34: "ne présente pas une métrique normalisée
+ * comme un pourcentage électoral réel").
+ */
+function progressionNormalizedLabel(progressionNormalized: number): string {
+  if (progressionNormalized >= 0.05) {
+    return `${Math.round(progressionNormalized * 100)} % de la marge de progression captée`;
+  }
+  if (progressionNormalized <= -0.05) {
+    return `Recul de ${Math.round(Math.abs(progressionNormalized) * 100)} % par rapport au socle de départ`;
+  }
+  return "Proche du socle de départ";
+}
+
 const IDEOLOGY_LABELS: Record<IdeologyAxis, [string, string, string]> = {
   economy: ["Économie", "État", "Marché"],
   society: ["Société", "Progressisme", "Conservatisme"],
@@ -49,6 +66,16 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
   const contradictionCount = state.statementLedger.filter((statement) =>
     ["contradiction", "abrupt_reversal"].includes(statement.evolution ?? ""),
   ).length;
+  const notableRelations = Object.entries(state.partyRelations[state.playerPartyId] ?? {})
+    .map(([partyId, value]) => ({ partyId, value, party: state.parties[partyId] }))
+    .filter(
+      (
+        entry,
+      ): entry is { partyId: string; value: number; party: NonNullable<typeof entry.party> } =>
+        entry.party !== undefined && Math.abs(entry.value) >= 15,
+    )
+    .sort((a, b) => Math.abs(b.value) - Math.abs(a.value))
+    .slice(0, 4);
   const highlights = result.highlightDecisionIds
     .map((index) => state.decisionHistory.find((decision) => decision.decisionIndex === index))
     .filter((record) => record !== undefined)
@@ -137,7 +164,7 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
           <ResultMetric
             label="Progression"
             value={`${result.pollingProgression >= 0 ? "+" : ""}${result.pollingProgression.toFixed(1)} pt`}
-            detail={`Départ : ${result.startingPolling.toFixed(1)} %`}
+            detail={`Départ : ${result.startingPolling.toFixed(1)} % · ${progressionNormalizedLabel(result.progressionNormalized)}`}
             positive={result.pollingProgression >= 0}
           />
           <ResultMetric
@@ -230,6 +257,29 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
                 <dd className="mt-1 text-lg font-black">{contradictionCount}</dd>
               </div>
             </dl>
+            {notableRelations.length > 0 ? (
+              <div className="mt-4">
+                <span className="text-xs font-black uppercase tracking-[0.12em] text-[var(--ink-muted)]">
+                  Relations marquantes
+                </span>
+                <ul className="mt-2 space-y-1.5 text-sm">
+                  {notableRelations.map(({ partyId, value, party: otherParty }) => (
+                    <li key={partyId} className="flex items-center justify-between gap-3">
+                      <span>{otherParty.displayName}</span>
+                      <span
+                        className={
+                          value > 0
+                            ? "font-bold text-[var(--success)]"
+                            : "font-bold text-[var(--red-700)]"
+                        }
+                      >
+                        {value > 0 ? "Soutien" : "Hostilité"}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
           </Card>
           <Card className="p-5 sm:p-7">
             <h2 className="text-2xl font-black">Positionnement final</h2>
