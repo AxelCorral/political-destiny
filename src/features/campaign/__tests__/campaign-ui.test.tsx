@@ -63,7 +63,6 @@ describe("parcours d’interface de campagne", () => {
     render(<CampaignEventScreen onSaveAndQuit={() => undefined} />);
 
     fireEvent.click(screen.getByRole("button", { name: new RegExp(event.choices[0]!.label, "i") }));
-    fireEvent.click(screen.getByRole("button", { name: /confirmer ma décision/i }));
 
     expect(useGameStore.getState().screen).toBe("outcome");
     expect(useGameStore.getState().lastRecord?.eventId).toBe(event.id);
@@ -83,7 +82,6 @@ describe("parcours d’interface de campagne", () => {
     fireEvent.click(
       screen.getByRole("button", { name: new RegExp(debateEvent.choices[0]!.label, "i") }),
     );
-    fireEvent.click(screen.getByRole("button", { name: /défendre cette position/i }));
 
     expect(useGameStore.getState().screen).toBe("outcome");
     expect(useGameStore.getState().lastRecord?.eventId).toBe("debate_economy_round");

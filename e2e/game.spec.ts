@@ -94,22 +94,14 @@ async function playCampaign(
       continue;
     }
 
-    const pronounce = page.getByRole("button", { name: /Défendre cette position/i });
-    if (await pronounce.isVisible().catch(() => false)) {
-      await page.locator('button[aria-pressed="false"]').first().click();
-      await pronounce.click();
-      continue;
-    }
-
-    const confirm = page.getByRole("button", { name: /Confirmer ma décision/i });
-    if (await confirm.isVisible().catch(() => false)) {
+    const firstChoice = page.getByTestId("event-choice").first();
+    if (await firstChoice.isVisible().catch(() => false)) {
       const eventCategory = await page
         .locator("article")
-        .getAttribute("data-category")
+        .getAttribute("data-category", { timeout: 1000 })
         .catch(() => null);
       if (eventCategory === "government") milestones.governmentDecisions += 1;
-      await page.locator('button[aria-pressed="false"]').first().click();
-      await confirm.click();
+      await firstChoice.click();
       continue;
     }
 
@@ -243,8 +235,7 @@ test("4 · mode tout aléatoire reproductible par sa graine", async ({ page }) =
 
 test("5 · autosauvegarde et reprise après rechargement", async ({ page }) => {
   await startExistingCampaign(page, "Parti socialiste", "e2e-autosave");
-  await page.locator('button[aria-pressed="false"]').first().click();
-  await page.getByRole("button", { name: /Confirmer ma décision/i }).click();
+  await page.getByTestId("event-choice").first().click();
   await expect(page.getByText("Conséquence", { exact: true })).toBeVisible();
   await page.waitForTimeout(250);
   await page.reload();

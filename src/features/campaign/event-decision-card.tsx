@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  ArrowRight,
   BookOpenCheck,
   CalendarDays,
   Flag,
@@ -15,7 +14,6 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import type { GameEventDefinition } from "@/game/types";
 import { CATEGORY_LABELS, formatCampaignDate } from "@/lib/game-presentation";
@@ -45,8 +43,13 @@ function StandardDecisionCard({
   date: string;
   onChoose: (choiceId: string) => void;
 }) {
-  const [selected, setSelected] = useState<string>();
   const Icon = EVENT_ICONS[event.category];
+  const [chosenId, setChosenId] = useState<string>();
+  const handleChoose = (choiceId: string) => {
+    if (chosenId) return;
+    setChosenId(choiceId);
+    onChoose(choiceId);
+  };
 
   return (
     <Card className="overflow-hidden">
@@ -76,23 +79,19 @@ function StandardDecisionCard({
               <button
                 key={choice.id}
                 type="button"
-                aria-pressed={selected === choice.id}
-                onClick={() => setSelected(choice.id)}
+                data-testid="event-choice"
+                aria-disabled={Boolean(chosenId)}
+                onClick={() => handleChoose(choice.id)}
                 className={cn(
-                  "group flex min-h-16 w-full items-center gap-4 rounded-2xl border p-4 text-left transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2 sm:p-5",
-                  selected === choice.id
-                    ? "border-[var(--blue-600)] bg-blue-50 shadow-md"
-                    : "border-[var(--line)] bg-white hover:border-[var(--blue-400)] hover:bg-[var(--surface)]",
+                  "group flex min-h-16 w-full items-center gap-4 rounded-2xl border border-[var(--line)] bg-white p-4 text-left transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2 sm:p-5",
+                  chosenId
+                    ? chosenId === choice.id
+                      ? "border-[var(--blue-600)] bg-blue-50"
+                      : "opacity-50"
+                    : "hover:border-[var(--blue-400)] hover:bg-[var(--surface)]",
                 )}
               >
-                <span
-                  className={cn(
-                    "grid size-9 shrink-0 place-items-center rounded-xl font-display text-lg font-black",
-                    selected === choice.id
-                      ? "bg-[var(--blue-600)] text-white"
-                      : "bg-[var(--surface-raised)] text-[var(--blue-700)]",
-                  )}
-                >
+                <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-[var(--surface-raised)] font-display text-lg font-black text-[var(--blue-700)]">
                   {String.fromCharCode(65 + index)}
                 </span>
                 <span className="min-w-0 flex-1">
@@ -112,11 +111,6 @@ function StandardDecisionCard({
             ))}
           </div>
         </fieldset>
-        <div className="mt-7 flex justify-end">
-          <Button size="large" disabled={!selected} onClick={() => selected && onChoose(selected)}>
-            Confirmer ma décision <ArrowRight aria-hidden="true" className="size-5" />
-          </Button>
-        </div>
       </article>
     </Card>
   );
@@ -129,7 +123,12 @@ function DebateDecisionCard({
   event: GameEventDefinition;
   onChoose: (choiceId: string) => void;
 }) {
-  const [selectedChoice, setSelectedChoice] = useState<string>();
+  const [chosenId, setChosenId] = useState<string>();
+  const handleChoose = (choiceId: string) => {
+    if (chosenId) return;
+    setChosenId(choiceId);
+    onChoose(choiceId);
+  };
 
   return (
     <Card className="overflow-hidden border-[var(--blue-400)]">
@@ -148,13 +147,16 @@ function DebateDecisionCard({
             <button
               key={choice.id}
               type="button"
-              aria-pressed={selectedChoice === choice.id}
-              onClick={() => setSelectedChoice(choice.id)}
+              data-testid="event-choice"
+              aria-disabled={Boolean(chosenId)}
+              onClick={() => handleChoose(choice.id)}
               className={cn(
-                "min-h-20 rounded-2xl border p-4 text-left transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2",
-                selectedChoice === choice.id
-                  ? "border-[var(--blue-600)] bg-blue-50"
-                  : "border-[var(--line)] hover:border-[var(--blue-400)]",
+                "min-h-20 rounded-2xl border border-[var(--line)] p-4 text-left transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2",
+                chosenId
+                  ? chosenId === choice.id
+                    ? "border-[var(--blue-600)] bg-blue-50"
+                    : "opacity-50"
+                  : "hover:border-[var(--blue-400)]",
               )}
             >
               <span className="mr-3 inline-block rounded-full bg-[var(--surface-raised)] px-2.5 py-1 text-[0.62rem] font-black uppercase text-[var(--blue-700)]">
@@ -168,15 +170,6 @@ function DebateDecisionCard({
               ) : null}
             </button>
           ))}
-        </div>
-        <div className="mt-6 flex justify-end">
-          <Button
-            size="large"
-            disabled={!selectedChoice}
-            onClick={() => selectedChoice && onChoose(selectedChoice)}
-          >
-            Défendre cette position <ArrowRight aria-hidden="true" className="size-5" />
-          </Button>
         </div>
       </div>
     </Card>
