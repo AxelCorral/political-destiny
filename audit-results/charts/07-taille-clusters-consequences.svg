@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="120" viewBox="0 0 760 120">
   <rect width="760" height="120" fill="#ffffff" />
   <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Taille des 10 plus gros clusters lexicaux de récits de conséquence</text>
-  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit cd920b4 · seuil cosinus 0.55 · 0 clusters au total</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit 5d659f3 · seuil cosinus 0.55 · 0 clusters au total</text>
   
     <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Aucun cluster ≥ 2 détecté</text>
     <rect x="200" y="62" width="1.0" height="28" fill="#3b6ea5" rx="3" />

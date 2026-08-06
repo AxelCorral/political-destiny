@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="380" viewBox="0 0 820 380">
   <rect width="820" height="380" fill="#ffffff" />
   <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Taux de qualification et de victoire par parti</text>
-  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit cd920b4 · toutes stratégies confondues</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit 5d659f3 · toutes stratégies confondues</text>
   <line x1="60" y1="290" x2="790" y2="290" stroke="#c7d0d8" />
   <rect x="68.1" y="104.9" width="30.4" height="185.1" fill="#3b6ea5" />
       <text x="84.3" y="100.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">76%</text><rect x="100.6" y="149.3" width="30.4" height="140.7" fill="#5a9367" />

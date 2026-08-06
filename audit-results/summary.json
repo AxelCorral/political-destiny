@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T13:59:41.623Z",
+  "generatedAt": "2026-08-06T14:35:29.208Z",
   "sampleSizes": {
     "existingPartyRuns": 4320,
     "customPartyRuns": 960,
@@ -18,7 +18,8 @@
         "etaSquaredInteraction": 0.0175,
         "etaSquaredResidual": 0.4683,
         "partialEtaSquaredParty": 0.4959,
-        "partialEtaSquaredAgent": 0.1026
+        "partialEtaSquaredAgent": 0.1026,
+        "balancedDesign": true
       },
       {
         "metric": "finalScore",
@@ -28,7 +29,8 @@
         "etaSquaredInteraction": 0.0137,
         "etaSquaredResidual": 0.5088,
         "partialEtaSquaredParty": 0.3964,
-        "partialEtaSquaredAgent": 0.2198
+        "partialEtaSquaredAgent": 0.2198,
+        "balancedDesign": true
       },
       {
         "metric": "progression",
@@ -38,7 +40,8 @@
         "etaSquaredInteraction": 0.0078,
         "etaSquaredResidual": 0.2095,
         "partialEtaSquaredParty": 0.7836,
-        "partialEtaSquaredAgent": 0.1026
+        "partialEtaSquaredAgent": 0.1026,
+        "balancedDesign": true
       }
     ],
     "bootstrapPartyEtaSquaredFirstRound": {
@@ -86,6 +89,9 @@
     "averageFinalScoreRange": 5.01,
     "medianFinalScoreRange": 2,
     "averageFirstRoundRange": 0.83,
+    "averagePlus0Range": 0.1967,
+    "medianPlus0Range": 0.16,
+    "shareOfGroupsWithZeroPlus0Range": 0,
     "averagePlus3Range": 0.39,
     "averagePlus8Range": 0.5,
     "shareWhereOutcomeChanged": 0.222

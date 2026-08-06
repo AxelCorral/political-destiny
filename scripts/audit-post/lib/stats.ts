@@ -58,13 +58,26 @@ export interface TwoWayAnova {
   etaSquaredResidual: number;
   partialEtaSquaredA: number;
   partialEtaSquaredB: number;
+  /**
+   * True when every observed (A,B) cell has the same number of rows. The
+   * marginal-means decomposition below only guarantees
+   * ssFactorA+ssFactorB+ssInteraction+ssResidual == ssTotal for balanced
+   * designs: with unequal cell sizes, the marginal SS(A) and SS(B) are not
+   * orthogonal and can jointly exceed ssCells, which would make the
+   * "interaction" negative. That negative term is clamped to 0 below so the
+   * function never reports a nonsensical negative sum of squares, but the
+   * identity no longer holds exactly — callers should treat the four SS
+   * components as approximate for any run where `balanced` is false.
+   */
+  balanced: boolean;
 }
 
 /**
- * Balanced-design-tolerant two-way ANOVA sum-of-squares decomposition
- * (factor A, factor B, A*B interaction, residual). Works with unequal cell
- * sizes (Type-I / sequential decomposition: A, then B, then A*B); this is a
- * descriptive decomposition, not a test of significance.
+ * Two-way ANOVA sum-of-squares decomposition (factor A, factor B, A*B
+ * interaction, residual) via marginal-means (Type-I-like) sums of squares.
+ * Exact (ssFactorA+ssFactorB+ssInteraction+ssResidual == ssTotal) only for
+ * balanced designs (equal cell sizes) — see `balanced` on the result. This
+ * is a descriptive decomposition, not a test of significance.
  */
 export function twoWayAnova<T>(
   rows: T[],
@@ -101,6 +114,8 @@ export function twoWayAnova<T>(
   );
   const ssInteraction = Math.max(0, ssCells - ssFactorA - ssFactorB);
   const ssResidual = Math.max(0, ssTotal - ssCells);
+  const cellSizes = [...groupsAB.values()].map((g) => g.length);
+  const balanced = cellSizes.every((n) => n === cellSizes[0]);
 
   return {
     ssTotal,
@@ -114,6 +129,7 @@ export function twoWayAnova<T>(
     etaSquaredResidual: ssTotal ? ssResidual / ssTotal : 0,
     partialEtaSquaredA: ssFactorA + ssResidual ? ssFactorA / (ssFactorA + ssResidual) : 0,
     partialEtaSquaredB: ssFactorB + ssResidual ? ssFactorB / (ssFactorB + ssResidual) : 0,
+    balanced,
   };
 }
 

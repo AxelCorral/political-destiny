@@ -109,13 +109,13 @@ if (summary.counterfactualBranching?.available) {
         `${b.totalBranches} branches, ${b.branchGroups} groupes, même état initial`,
       ),
       data: [
-        { label: "Immédiat (sondage)", value: 0, color: "#9aa5ad" },
+        { label: "Immédiat (sondage, pts)", value: b.averagePlus0Range ?? 0, color: "#9aa5ad" },
         { label: "+3 décisions", value: b.averagePlus3Range ?? 0, color: "#5a9367" },
         { label: "+8 décisions", value: b.averagePlus8Range ?? 0, color: "#c9a24b" },
         { label: "1er tour (fin)", value: b.averageFirstRoundRange ?? 0, color: "#3b6ea5" },
         { label: "Score final /100", value: b.averageFinalScoreRange ?? 0, color: "#a5507a" },
       ],
-      valueFormat: (v) => v.toFixed(2),
+      valueFormat: (v) => v.toFixed(3),
     }),
   );
 }

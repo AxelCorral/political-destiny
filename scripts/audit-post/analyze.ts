@@ -7,6 +7,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 import { gameContent } from "../../src/game/data/index";
+import { computeBranchSummary, type CounterfactualRow } from "./lib/branch-summary";
 import { bool, num, parseCsv, str, toCsv } from "./lib/csv";
 import {
   bootstrapCI,
@@ -66,6 +67,7 @@ const anovaRows = metrics.map(({ key, label }) => {
     etaSquaredResidual: Number(anova.etaSquaredResidual.toFixed(4)),
     partialEtaSquaredParty: Number(anova.partialEtaSquaredA.toFixed(4)),
     partialEtaSquaredAgent: Number(anova.partialEtaSquaredB.toFixed(4)),
+    balancedDesign: anova.balanced,
   };
 });
 
@@ -298,50 +300,13 @@ function distributionStats(values: number[]) {
 }
 
 // --- Counterfactual branch summary ------------------------------------------
+// Delegated to lib/branch-summary.ts (a pure, unit-tested function) so the P6
+// immediate-horizon bug — the chart used to plot a hardcoded 0 instead of
+// this computed value — cannot silently regress.
 
-let branchSummary: unknown = { available: false };
-if (counterfactuals.length > 0) {
-  const groups = new Map<string, Record<string, string>[]>();
-  for (const row of counterfactuals) {
-    const key = `${row.partyId}:${row.seedIndex}:${row.followUpAgent}`;
-    groups.set(key, [...(groups.get(key) ?? []), row]);
-  }
-  const divergences = [...groups.values()]
-    .filter((group) => group.length >= 2)
-    .map((group) => {
-      const finals = group.map((r) => num(r.finalScore));
-      const firstRounds = group.map((r) => num(r.finalFirstRoundScore));
-      const outcomes = new Set(group.map((r) => `${r.finalQualified}:${r.finalWon}`));
-      const plus3 = group.map((r) => num(r.scoreAtCheckpointPlus3)).filter((v) => !Number.isNaN(v));
-      const plus8 = group.map((r) => num(r.scoreAtCheckpointPlus8)).filter((v) => !Number.isNaN(v));
-      return {
-        finalScoreRange: Math.max(...finals) - Math.min(...finals),
-        firstRoundRange: Math.max(...firstRounds) - Math.min(...firstRounds),
-        plus3Range: plus3.length ? Math.max(...plus3) - Math.min(...plus3) : null,
-        plus8Range: plus8.length ? Math.max(...plus8) - Math.min(...plus8) : null,
-        outcomeChanged: outcomes.size > 1,
-      };
-    });
-  branchSummary = {
-    available: true,
-    branchGroups: divergences.length,
-    totalBranches: counterfactuals.length,
-    averageFinalScoreRange: Number(mean(divergences.map((d) => d.finalScoreRange)).toFixed(2)),
-    medianFinalScoreRange: Number(median(divergences.map((d) => d.finalScoreRange)).toFixed(2)),
-    averageFirstRoundRange: Number(mean(divergences.map((d) => d.firstRoundRange)).toFixed(2)),
-    averagePlus3Range: Number(
-      mean(divergences.flatMap((d) => (d.plus3Range === null ? [] : [d.plus3Range]))).toFixed(2),
-    ),
-    averagePlus8Range: Number(
-      mean(divergences.flatMap((d) => (d.plus8Range === null ? [] : [d.plus8Range]))).toFixed(2),
-    ),
-    shareWhereOutcomeChanged: Number(
-      (
-        divergences.filter((d) => d.outcomeChanged).length / Math.max(divergences.length, 1)
-      ).toFixed(3),
-    ),
-  };
-}
+const branchSummary = computeBranchSummary(
+  counterfactuals as unknown as CounterfactualRow[],
+);
 
 // --- summary.json ------------------------------------------------------------
 
