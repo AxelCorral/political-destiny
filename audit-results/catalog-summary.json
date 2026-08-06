@@ -341,10 +341,7 @@
     ],
     "top3ClassicTagShareOfAllChoices": 0.3755,
     "eventsWithClassicTriptych": 2,
-    "eventsWithClassicTriptychIds": [
-      "media_prime_time_invite",
-      "rare_hologram_revolt"
-    ],
+    "eventsWithClassicTriptychIds": ["media_prime_time_invite", "rare_hologram_revolt"],
     "eventsWithPartialClassicTriptych": 42,
     "eventsWithPartialClassicTriptychIds": [
       "campaign_volunteer_surge",
