@@ -2,10 +2,10 @@
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-16` — Méthode : presidential
 Résultat : qualifié, **vainqueur** — score final 73/100 — fin `president`
-Score 1er tour : 12.9 — Score 2nd tour : 53 — Progression : -0.1
+Score 1er tour : 12.7 — Score 2nd tour : 50.6 — Progression : -0.3
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 2 souvenirs d'acteurs, 73 actions adverses (alliance|crisis|endorsement|strategy), 2 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 12.18 points, axe le plus mobile 4.06 points
+Idéologie : mouvement total 16.8 points, axe le plus mobile 5.7 points
 
 ## Chronologie
 
@@ -42,56 +42,53 @@ Idéologie : mouvement total 12.18 points, axe le plus mobile 4.06 points
 - Choix : Organiser une marche nationale contre la vie chère avec les associations en tête [OFFENSIF]
 - Conséquence : *Saint-Denis lance une marche nationale* — La mobilisation dépasse la ville et replace le pouvoir dachat dans la campagne. Les associations regrettent que leurs engagements locaux aient été absorbés par une démonstration nationale.
 
-**9. Le regroupement familial en question** _(program)_
-- Choix : Fixer à trois ans le délai de résidence requis avant regroupement familial [CLIVANT]
-- Conséquence : *Un délai plus long, un signal de fermeté* — La mesure répond à une demande de contrôle exprimée dans vos réunions publiques. Des associations familiales et certains partenaires sociaux dénoncent une séparation prolongée des familles déjà installées.
+**9. Contrôles aux frontières : quels moyens** _(program)_
+- Choix : Imposer des contrôles systématiques aux frontières intérieures de l’espace Schengen [CLIVANT]
+- Conséquence : *Le contrôle national réaffirmé* — La mesure répond directement à l’incident qui a relancé le débat et rassure une partie de l’opinion. Des partenaires européens et des acteurs économiques transfrontaliers dénoncent un coût logistique et diplomatique important.
 - Déclaration : abrupt_reversal
 
-**10. Le fauteuil libéré au vingt heures** _(media)_
-- Choix : Proposer qu’un allié présente votre programme pendant que vous préparez le débat [RASSEMBLEUR]
-- Conséquence : *L’allié gagne son propre espace* — L’émission accepte le remplacement. Votre représentant défend bien le projet, mais gagne aussi une autonomie et une notoriété qui pèseront lors des prochains arbitrages de coalition.
-
-**11. Le salaire net au centre** _(program)_
-- Choix : Augmenter le salaire minimum de huit pour cent et compenser temporairement les petites entreprises [POPULAIRE]
-- Conséquence : *La hausse est immédiate, la transition coûteuse* — Les salariés au minimum voient un gain direct et la compensation évite une rupture avec les petites entreprises. Le coût budgétaire des deux premières années fragilise cependant votre cadrage fiscal.
+**10. Six rédactions face au désert médical** _(media)_
+- Choix : Proposer des contrats territoriaux avec objectifs publics et financement garanti sur cinq ans [INSTITUTIONNEL]
+- Conséquence : *Les territoires obtiennent une méthode* — Les rédactions discutent les critères plutôt que vos intentions. Les élus locaux saluent la visibilité pluriannuelle, même si le dispositif ne promet pas un médecin dans chaque commune.
 - Déclaration : initial_position
 
-**12. Le meeting quitte la capitale** _(campaign)_
-- Choix : Tenir le meeting à Lille et détailler le plan de réindustrialisation [POPULAIRE]
-- Conséquence : *Lille replace l’industrie au centre* — Les images d’anciens sites industriels donnent une matière concrète au discours. Le message progresse chez les salariés, moins auprès des électeurs centrés sur les services.
+**11. Le mix électrique de 2040** _(program)_
+- Choix : Renoncer aux nouveaux réacteurs et concentrer les crédits sur sobriété, stockage et renouvelables [CLIVANT]
+- Conséquence : *La sortie du nouveau nucléaire vous définit* — Les électeurs écologistes retrouvent une ligne nette et les acteurs du nucléaire annoncent une mobilisation contraire. Les questions de stockage et de stabilité du réseau deviennent désormais incontournables.
 - Déclaration : initial_position
 
-**13. Votre voix ne tient plus** _(rare)_
-- Choix : Maintenir le grand meeting et parler malgré lavis médical avec une intervention raccourcie [RISQUÉ]
-- Conséquence : *La voix disparaît au milieu du discours* — Le public vous soutient lorsque vous devez interrompre la prise de parole, créant une image forte de détermination. La récupération s’allonge et votre préparation au débat suivant est gravement réduite.
+**12. Cent quartiers en porte-à-porte** _(campaign)_
+- Choix : Mobiliser les volontaires pour vérifier inscriptions et procurations sans démarchage partisan [INSTITUTIONNEL]
+- Conséquence : *L’aide civique élargit la participation* — Les permanences orientent des centaines d’électeurs vers les démarches officielles. Votre logo reste discret, mais les associations locales retiennent le sérieux de l’opération.
+
+**13. Le double numérique refuse de démarrer** _(rare)_
+- Choix : Appeler la salle de Toulouse en visioconférence ordinaire et répondre à ses questions [PRUDENT]
+- Conséquence : *Un téléphone remplace la technologie* — La qualité d’image est médiocre mais l’échange devient vivant et le public participe davantage que prévu. L’échec technique se transforme en démonstration de simplicité.
 
 **14. La désobéissance européenne doit être définie** _(party)_
 - Choix : Chercher dabord une coalition européenne et conditionner la désobéissance à léchec de cette démarche [RASSEMBLEUR]
 - Conséquence : *La coalition précède le rapport de force* — La méthode élargit vos reports et donne aux partenaires une chance de modifier les règles. Une partie de LFI y voit une condition susceptible de neutraliser la promesse de rupture.
 - Déclaration : initial_position
 
-**15. Le PS propose trois engagements communs** _(alliance)_
-- Choix : Refuser la réunion et maintenir que le rassemblement doit se faire derrière votre programme [OFFENSIF]
-- Conséquence : *La compétition à gauche se durcit* — Votre socle apprécie une ligne sans compromis et le PS transforme le refus en argument sur votre isolement. Une alliance ultérieure demandera désormais une concession plus importante.
+**15. Une contradiction chez le camp centriste** _(debate)_
+- Choix : Ne pas soulever le sujet et concentrer le débat sur votre propre programme [PRUDENT]
+- Conséquence : *Le choix de ne pas attaquer* — Le débat reste concentré sur votre propre offre programmatique, plus valorisante pour vous. Une partie de la presse spécialisée note après coup que l’occasion n’a pas été saisie.
 
 **16. Une crise ferme un détroit** _(world)_
 - Choix : Proposer une réserve stratégique européenne pour les composants exposés à la route fermée [TECHNIQUE]
 - Conséquence : *La crise devient politique d’approvisionnement* — Les industriels apprécient une réponse concrète et les partenaires européens peuvent en discuter sans attendre la fin de la crise. La réserve coûte cher et ne traite pas la confrontation navale elle-même.
 
-**17. Neuf candidats face au climat** _(debate)_
-- Choix : Supprimer le grand sommet annuel et financer cent plans communaux d’adaptation [POPULAIRE]
-- Conséquence : *Cent communes remplacent une grand-messe* — Le contraste est facile à retenir et les maires y voient un financement utilisable. Les experts rappellent que le sommet supprimé coûtait beaucoup moins que les plans annoncés, ce qui oblige à trouver le solde ailleurs.
-- Déclaration : initial_position
+**17. Les jeunes veulent leur propre campagne** _(internal)_
+- Choix : Refuser toute marque séparée et réserver leur budget au porte-à-porte étudiant [OFFENSIF]
+- Conséquence : *Le budget devient matériel de terrain* — Le porte-à-porte démarre dans plusieurs campus, mais les animateurs les plus créatifs quittent lopération. Vous gagnez une action contrôlable et perdez une partie de la capacité à parler dans les formats des jeunes.
 
-**18. Le face-à-face avec les syndicats** _(campaign)_
-- Choix : Annoncer une hausse légale du salaire minimum dès le premier budget [POPULAIRE]
-- Conséquence : *La hausse fixe un clivage net* — Les syndicats soutiennent l’engagement et le patronat conteste son coût. Votre socle comprend immédiatement la ligne, qui devient centrale dans le débat économique.
-- Déclaration : coherent_compromise
+**18. La collecte se bloque** _(campaign)_
+- Choix : Lancer une semaine de petits dons avec un objectif public quotidien [TRANSPARENT]
+- Conséquence : *Les petits dons relancent la caisse* — Les objectifs quotidiens sont atteints quatre jours sur sept. La somme ne couvre pas tout, mais transforme plusieurs donateurs en bénévoles actifs.
 
-**19. Vie privée et réseaux : la ligne numérique** _(program)_
-- Choix : Doubler les moyens de modération sans nouvelle obligation d’identification en ligne [PRUDENT]
-- Conséquence : *Le contenu ciblé, l’anonymat préservé* — La mesure évite le débat sur l’identification et cible directement les contenus problématiques. Des associations familiales la jugent insuffisante face à l’ampleur de l’exposition des mineurs.
-- Déclaration : initial_position
+**19. L’adversaire refuse de vous laisser répondre** _(debate)_
+- Choix : Attendre le silence, rappeler calmement la règle puis répondre au chiffre contesté [PRÉSIDENTIEL]
+- Conséquence : *Le calme impose enfin le silence* — Votre pause devient visible et la salle se tait avant votre rappel de la règle. La réponse économique passe ensuite sans interruption et vous gagnez la séquence par maîtrise plutôt que par volume.
 
 **20. La Sixième République doit prendre forme** _(party)_
 - Choix : Commencer par la proportionnelle et le référendum partagé avant de convoquer une constituante [PRUDENT]
@@ -102,19 +99,19 @@ Idéologie : mouvement total 12.18 points, axe le plus mobile 4.06 points
 - Choix : Publier avec Nassim Courbet un texte reliant salaires, partage du pouvoir et services publics [RASSEMBLEUR]
 - Conséquence : *Le conflit produit une articulation politique* — Le texte évite de choisir entre social et institutions et donne aux militants des arguments concrets. Nassim Courbet reconnaît larbitrage tout en conservant son réseau et sa capacité de critique.
 
-**22. La promesse faite à l’école** _(program)_
-- Choix : Garantir vingt élèves maximum dans les écoles des quartiers et territoires les plus fragiles [POPULAIRE]
-- Conséquence : *La taille des classes devient mesurable* — Le ciblage territorial rend la promesse plus finançable et parle directement aux familles concernées. Les communes juste au-dessus des critères dénoncent un seuil arbitraire que vous devrez défendre.
+**22. La laïcité à l’épreuve du quotidien** _(program)_
+- Choix : Élargir l’interdiction des signes religieux ostensibles aux universités [CLIVANT]
+- Conséquence : *Un cadre étendu à l’enseignement supérieur* — La mesure est saluée comme une clarification par une partie de l’électorat attachée à une laïcité stricte. Des organisations étudiantes et des juristes contestent sa conformité avec la liberté universitaire.
 - Déclaration : initial_position
 
-**23. La France à cinquante degrés** _(program)_
-- Choix : Créer un fonds pluriannuel pour l’eau, les écoles, les hôpitaux et les logements exposés [INSTITUTIONNEL]
-- Conséquence : *L’adaptation reçoit un budget durable* — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
-- Déclaration : coherent_compromise
+**23. La minute qui vous appartient** _(debate)_
+- Choix : Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
+- Conséquence : *Un visage reste après le débat* — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
 
-**24. Cent quartiers en porte-à-porte** _(campaign)_
-- Choix : Confier aux équipes un carnet d’écoute et publier la synthèse nationale [RASSEMBLEUR]
-- Conséquence : *Les préoccupations dessinent une carte* — Les carnets font apparaître des écarts nets entre transports, sécurité et santé. La campagne adapte ses déplacements sans prétendre que l’échantillon vaut sondage.
+**24. Le meeting quitte la capitale** _(campaign)_
+- Choix : Tenir le meeting à Lille et détailler le plan de réindustrialisation [POPULAIRE]
+- Conséquence : *Lille replace l’industrie au centre* — Les images d’anciens sites industriels donnent une matière concrète au discours. Le message progresse chez les salariés, moins auprès des électeurs centrés sur les services.
+- Déclaration : initial_position
 
 **25. LFI doit élargir sans se renier** _(party)_
 - Choix : Négocier un contrat de dix mesures avec le PS et Les Écologistes pour les cent premiers jours [OPPORTUNISTE]

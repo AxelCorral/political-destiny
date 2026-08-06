@@ -1,11 +1,11 @@
 # reconquete · aleatoire · seed 12
 
 Parti : **reconquete** (existing) — Agent : **aleatoire** — Graine : `post-audit-12` — Méthode : rupture
-Résultat : éliminé au 1er tour — score final 56/100 — fin `narrow_elimination`
-Score 1er tour : 10.9 — Score 2nd tour : n/a — Progression : 5.9
+Résultat : éliminé au 1er tour — score final 49/100 — fin `narrow_elimination`
+Score 1er tour : 9.7 — Score 2nd tour : n/a — Progression : 4.7
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 2 souvenirs d'acteurs, 62 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 22.15 points, axe le plus mobile 7 points
+Mémoire/monde : 4 souvenirs d'acteurs, 62 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 20.29 points, axe le plus mobile 7.69 points
 
 ## Chronologie
 
@@ -51,68 +51,68 @@ Idéologie : mouvement total 22.15 points, axe le plus mobile 7 points
 - Conséquence : *La visite attend, le financement entre dans le débat* — Le délai évite de gêner les secours et le fonds donne une réponse à long terme. Son annonce avant un bilan complet paraît néanmoins rapide et oblige à préciser son financement.
 - Déclaration : initial_position
 
-**10. Un fichier militant sort du siège** _(scandal)_
-- Choix : Suspendre tous les outils militants pendant quarante-huit heures et reconstruire les droits d’accès [OFFENSIF]
-- Conséquence : *La campagne numérique se met à l’arrêt* — La reconstruction supprime plusieurs accès anciens et rassure les bénévoles sur la sécurité future. Deux jours sans fichiers ni relances réduisent nettement la mobilisation au pire moment.
+**10. L’imprimeur a doublé une ligne** _(scandal)_
+- Choix : Rompre le contrat, demander le remboursement et répartir les commandes entre deux imprimeurs [OFFENSIF]
+- Conséquence : *Le contrat s’arrête avec les presses* — Le remboursement est obtenu et le signal de rigueur est net. Les nouveaux imprimeurs ne peuvent respecter le même calendrier, ce qui retarde l’affichage dans quatre régions.
 
 **11. Les comités numériques cherchent du terrain** _(party)_
 - Choix : Financer cent formations locales et exiger un compte rendu public de chaque réunion [TECHNIQUE]
 - Conséquence : *Les comités apprennent à tenir le terrain* — Les bénévoles acquièrent des méthodes de recrutement et plusieurs groupes durables apparaissent. La formation coûte cher et mobilise des responsables qui produisaient auparavant les contenus viraux.
 
-**12. Le rapport reprend huit paragraphes** _(scandal)_
-- Choix : Retirer la note, citer chaque source et republier une version distinguant données et propositions [TRANSPARENT]
-- Conséquence : *Les citations reviennent dans le document* — La nouvelle version montre que les données venaient d’un rapport public et que vos propositions restent propres à la campagne. L’erreur éditoriale est reconnue sans prétendre que le fond était inventé.
+**12. Un fichier militant sort du siège** _(scandal)_
+- Choix : Fermer le lien, notifier les personnes et la CNIL, puis publier le périmètre exact de l’exposition [TRANSPARENT]
+- Conséquence : *Les personnes apprennent l’incident par la campagne* — La notification arrive avant toute exploitation connue et explique les mesures prises. La campagne subit une forte critique sur sa sécurité, mais respecte une procédure vérifiable et limite le risque futur.
 
-**13. La croissance simulée se retourne** _(world)_
-- Choix : Différer des prélèvements pour les PME qui maintiennent leurs emplois pendant douze mois [TECHNIQUE]
-- Conséquence : *La trésorerie est liée au maintien de l’emploi* — La mesure soulage rapidement les entreprises sans subventionner les suppressions de postes. Les contrôles nécessaires ralentissent son déploiement et le manque à gagner doit être compensé au budget.
-- Déclaration : strategic_repositioning
+**13. Une proposition de pacte de non-agression** _(campaign)_
+- Choix : Refuser et maintenir une ligne critique y compris pendant le meeting commun [OFFENSIF]
+- Conséquence : *Le contraste maintenu jusqu’au bout* — Le refus marque une différence claire de méthode et mobilise les électeurs qui attendaient un contraste net. Il est aussi commenté comme un signe de tension entre les deux équipes lors d’un événement censé rassembler.
 
-**14. Quarante-quatre degrés à Lyon** _(world)_
-- Choix : Maintenir un meeting intérieur consacré au climat avec jauge réduite et soignants invités [RISQUÉ]
-- Conséquence : *Le meeting devient audition sur la canicule* — La jauge réduite et le contenu médical évitent la fête déplacée tout en conservant une parole de campagne. Le rassemblement mobilise malgré tout des services de sécurité pendant l’épisode.
-
-**15. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Accepter le concert et publier à l’avance le cadre politique de son intervention [TRANSPARENT]
-- Conséquence : *Le concert porte une mesure précise* — Nina Sorel raconte son engagement sans parler au nom de la campagne et attire un public nouveau. Le cadre publié évite la confusion entre soutien artistique et expertise programmatique.
-
-**16. Le forum étudiant refuse les slogans** _(campaign)_
-- Choix : Proposer une garantie publique de loyer ciblée sur les étudiants sans caution [TECHNIQUE]
-- Conséquence : *La garantie répond au premier obstacle* — Les associations reconnaissent une mesure directement utilisable et demandent son financement. Votre équipe obtient un soutien prudent, sans régler la pénurie de logements.
-
-**17. Hélène Saint-Cyr refuse l’élargissement** _(party)_
-- Choix : Retirer à Hélène Saint-Cyr les canaux nationaux et publier seul le calendrier économique [OFFENSIF]
-- Conséquence : *Victor d’Aubrac reprend les canaux du parti* — Le calendrier économique occupe enfin plusieurs jours sans concurrence interne. Les comités proches d’Hélène Saint-Cyr créent leurs propres listes de diffusion et ralentissent la campagne numérique.
-
-**18. Les soutiens envahissent le plateau** _(debate)_
-- Choix : Revendiquer la victoire et diffuser immédiatement vos trois meilleurs extraits [OFFENSIF]
-- Conséquence : *Trois extraits imposent votre meilleur débat* — La diffusion coordonnée domine les premières heures et nourrit une dynamique favorable. Les analyses du lendemain rappellent la faiblesse territoriale, sans annuler l’avantage de la première impression.
-
-**19. Le RN invite à une convention commune** _(alliance)_
-- Choix : Accepter un débat bilatéral sans photographie commune ni discussion de désistement [TRANSPARENT]
-- Conséquence : *Les convergences rencontrent leurs limites* — Le débat fait apparaître des accords sur la sécurité et des divergences économiques. Vous gagnez une audience utile sans valider une alliance, ce que le RN présente comme un manque de courage.
-
-**20. Les comités de Saint-Cyr se coordonnent** _(party)_
-- Choix : Autoriser le courant à conserver une lettre interne mais interdire toute prise de parole publique séparée [PRUDENT]
-- Conséquence : *Le courant conserve un espace interne* — La lettre canalise les désaccords et les comités reviennent dans la campagne. Les messages internes peuvent fuiter et donner l’image d’une ligne nationale seulement disciplinée en façade.
-
-**21. Le duel sur les huit milliards** _(debate)_
-- Choix : Retirer en direct la dépense non financée et annoncer la mise à jour du programme [TRANSPARENT]
-- Conséquence : *Une promesse tombe sur le plateau* — La décision surprend votre adversaire et prouve que la contrainte budgétaire a un effet réel. Les bénéficiaires de la mesure retirée apprennent cependant votre arbitrage en même temps que le pays.
+**14. La plateforme publique tombe en panne** _(world)_
+- Choix : Proposer un audit public de résilience et un guichet physique garanti pour chaque démarche essentielle [TECHNIQUE]
+- Conséquence : *Le numérique reçoit une solution de secours* — La garantie physique parle aux usagers exclus du service et l’audit évite d’inventer la cause de la panne. La mesure suppose de maintenir des capacités coûteuses même lorsque les plateformes fonctionnent.
 - Déclaration : initial_position
 
-**22. Le RN offre des désistements limités** _(party)_
+**15. Une contradiction chez le camp centriste** _(debate)_
+- Choix : Présenter la contradiction en direct avec les deux citations à l’appui [CLIVANT]
+- Conséquence : *La contradiction mise en lumière* — L’extrait est aussitôt repris et fragilise la crédibilité adverse sur ce sujet précis. Le procédé, jugé efficace par certains, est perçu comme agressif par d’autres observateurs du débat.
+
+**16. Une nuit avec les urgences** _(campaign)_
+- Choix : Publier chaque semaine les lits fermés et convoquer les agences régionales [TRANSPARENT]
+- Conséquence : *Les fermetures deviennent vérifiables* — Le tableau de bord donne aux soignants un outil de pression et oblige votre équipe à assumer les écarts régionaux. Les gestionnaires redoutent une lecture trop brute.
+
+**17. Le RN offre des désistements limités** _(party)_
 - Choix : Refuser le pacte et investir des candidats face au RN dans tous les territoires disputés [OFFENSIF]
 - Conséquence : *La concurrence devient totale* — Les militants disposent d’un objectif clair et la candidature ne dépend d’aucune négociation. Les moyens financiers se dispersent et la droite nationale multiplie les campagnes concurrentes.
 
-**23. Le micro resté ouvert** _(media)_
-- Choix : Assumer le diagnostic et annoncer une réorganisation qui retire le calendrier à Anaïs Vercel [OFFENSIF]
-- Conséquence : *La critique devient organigramme* — La nouvelle répartition corrige plusieurs retards, mais Anaïs Vercel vit l’annonce comme une humiliation publique. L’efficacité remonte au prix d’une loyauté plus fragile dans le dernier mois.
+**18. Un cadre écologiste tenté par un ralliement** _(alliance)_
+- Choix : L’inviter publiquement à rejoindre votre équipe de campagne [OFFENSIF]
+- Conséquence : *Une invitation publique et risquée* — Le geste médiatise la démarche et met la pression sur le mouvement écologiste. Il expose aussi la cadre concernée à une réaction immédiate de son propre camp, avant même sa décision.
 
-**24. La présidence que vous proposez** _(program)_
-- Choix : Introduire une dose majoritaire de proportionnelle et renforcer les droits du Parlement [INSTITUTIONNEL]
-- Conséquence : *Le Parlement gagne du poids* — La réforme paraît compatible avec la Ve République tout en modifiant la représentation. Elle intéresse les partis susceptibles de devenir alliés et suscite les critiques de ceux qui redoutent des majorités instables.
-- Déclaration : initial_position
+**19. Douze députés offrent leur expérience** _(alliance)_
+- Choix : Signer une charte de soutien libre avec réunion hebdomadaire et désaccords publiables [INSTITUTIONNEL]
+- Conséquence : *Douze soutiens sans discipline forcée* — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
+
+**20. Le regroupement familial en question** _(program)_
+- Choix : Fixer à trois ans le délai de résidence requis avant regroupement familial [CLIVANT]
+- Conséquence : *Un délai plus long, un signal de fermeté* — La mesure répond à une demande de contrôle exprimée dans vos réunions publiques. Des associations familiales et certains partenaires sociaux dénoncent une séparation prolongée des familles déjà installées.
+- Déclaration : abrupt_reversal
+
+**21. Deux équipes se disputent le terrain** _(internal)_
+- Choix : Maintenir l’opération vidéo et demander à Samira Bellon d’en mesurer elle-même l’audience locale [RISQUÉ]
+- Conséquence : *La vidéo atteint Lyon sans apaiser les sections* — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
+
+**22. Le référendum migratoire doit être cadré** _(party)_
+- Choix : Transformer le projet en consultation politique avant une négociation parlementaire [PRUDENT]
+- Conséquence : *La consultation précède la loi* — Le calendrier réduit le risque de blocage juridique et laisse une place au Parlement. Le socle y voit un recul majeur et doute que la consultation produise un changement réel.
+
+**23. Le direct des questions citoyennes** _(media)_
+- Choix : Répondre à trois questions hospitalières puis conclure avec le calendrier de votre réforme [PRUDENT]
+- Conséquence : *Le direct se termine sur un calendrier* — Les réponses ne règlent pas tous les cas, mais la conclusion donne une date et un financement à l’engagement. Vous quittez le direct à l’heure, avec une séquence exploitable par les équipes de santé.
+- Déclaration : gradual_evolution
+
+**24. Le duel sur les huit milliards** _(debate)_
+- Choix : Refuser la bataille comptable et défendre les bénéficiaires concrets de chaque dépense [POPULAIRE]
+- Conséquence : *Les bénéficiaires remplacent les colonnes* — Votre réponse redonne un sens social aux montants et mobilise votre socle. Les téléspectateurs qui attendaient un financement restent sans réponse, ce qui fragilise votre crédibilité économique après le débat.
 
 **25. Votre mandat à la tête du parti** _(between_rounds)_
 - Choix : Demander un vote de confiance des adhérents pour conduire le parti pendant deux ans [LOYAL]

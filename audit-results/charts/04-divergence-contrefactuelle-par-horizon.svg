@@ -4,18 +4,18 @@
   <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit n/a · 326 branches, 108 groupes, même état initial</text>
   
     <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Immédiat (sondage, pts)</text>
-    <rect x="200" y="62" width="19.8" height="28" fill="#9aa5ad" rx="3" />
-    <text x="227.773046875" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.215</text>
+    <rect x="200" y="62" width="19.9" height="28" fill="#9aa5ad" rx="3" />
+    <text x="227.8505882352941" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.215</text>
     <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">+3 décisions</text>
-    <rect x="200" y="100" width="34.0" height="28" fill="#5a9367" rx="3" />
-    <text x="241.96484375" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.370</text>
+    <rect x="200" y="100" width="34.1" height="28" fill="#5a9367" rx="3" />
+    <text x="242.09803921568627" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.370</text>
     <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">+8 décisions</text>
-    <rect x="200" y="138" width="38.6" height="28" fill="#c9a24b" rx="3" />
-    <text x="246.5546875" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.420</text>
+    <rect x="200" y="138" width="43.3" height="28" fill="#c9a24b" rx="3" />
+    <text x="251.31372549019608" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.470</text>
     <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1er tour (fin)</text>
-    <rect x="200" y="176" width="64.3" height="28" fill="#3b6ea5" rx="3" />
-    <text x="272.2578125" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.700</text>
+    <rect x="200" y="176" width="81.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="289.0980392156863" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.880</text>
     <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Score final /100</text>
     <rect x="200" y="214" width="470.0" height="28" fill="#a5507a" rx="3" />
-    <text x="678" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.120</text>
+    <text x="678" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.100</text>
 </svg>

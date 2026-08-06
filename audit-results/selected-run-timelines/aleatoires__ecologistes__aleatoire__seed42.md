@@ -1,11 +1,11 @@
 # ecologistes · aleatoire · seed 42
 
 Parti : **ecologistes** (existing) — Agent : **aleatoire** — Graine : `post-audit-42` — Méthode : rupture
-Résultat : qualifié — score final 69/100 — fin `runoff_defeat`
-Score 1er tour : 12.5 — Score 2nd tour : 48.7 — Progression : 6
+Résultat : qualifié, **vainqueur** — score final 84/100 — fin `president`
+Score 1er tour : 13.9 — Score 2nd tour : 62.7 — Progression : 7.4
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 66 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 28.39 points, axe le plus mobile 9.47 points
+Mémoire/monde : 3 souvenirs d'acteurs, 74 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 27.44 points, axe le plus mobile 9.47 points
 
 ## Chronologie
 
@@ -50,70 +50,69 @@ Idéologie : mouvement total 28.39 points, axe le plus mobile 9.47 points
 - Conséquence : *Une condition matérielle plutôt qu’un délai* — Le critère matériel paraît objectif et évite une polémique sur la durée de séparation familiale. Des associations dénoncent un obstacle supplémentaire pour les familles aux revenus modestes.
 - Déclaration : strategic_repositioning
 
-**10. Les tentes encerclent la préfecture** _(world)_
-- Choix : Proposer la réquisition temporaire des bureaux publics vacants avec accompagnement social [CLIVANT]
-- Conséquence : *Des bureaux vacants deviennent hébergement* — La mesure offre une réponse immédiate et juridiquement encadrée à une partie des familles. Elle ne remplace pas les logements pérennes et ouvre un conflit avec les gestionnaires des bâtiments concernés.
-- Déclaration : coherent_compromise
+**10. La plateforme publique tombe en panne** _(world)_
+- Choix : Visiter un guichet d’urgence sans caméra et demander aux agents une liste de corrections prioritaires [PRUDENT]
+- Conséquence : *Les agents écrivent le retour de crise* — La liste distingue les problèmes techniques, les effectifs et les besoins des usagers. Votre discrétion limite la portée immédiate mais produit un document crédible pour la suite du programme.
 
-**11. La pluie emporte la tournée** _(campaign)_
-- Choix : Annuler la tournée et mettre les véhicules du parti à disposition des associations [RASSEMBLEUR]
-- Conséquence : *Les véhicules servent aux distributions* — Les associations coordonnent l’aide sans transformer l’opération en meeting. Votre retrait des images partisanes est remarqué et les équipes perdent une journée de campagne.
+**11. La photographie du quai vide** _(media)_
+- Choix : Ignorer la photographie et publier uniquement les engagements annoncés à Lille [PRUDENT]
+- Conséquence : *Le fond reprend lentement sa place* — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
 
-**12. Le contrat du conseiller est publié** _(scandal)_
-- Choix : Maintenir le contrat signé et défendre une rémunération liée à la performance électorale [LOYAL]
-- Conséquence : *La signature est respectée, la clause reste incomprise* — Votre fidélité contractuelle évite un contentieux et mobilise les prestataires autour du résultat. L’électorat découvre cependant une campagne qui traite les voix comme un indicateur de prime privée.
+**12. Une accusation jugée infondée vise un adversaire** _(campaign)_
+- Choix : Ne pas commenter et laisser chacun se faire son opinion [PRUDENT]
+- Conséquence : *Aucune prise de position* — La neutralité évite de s’exposer sur une affaire qui ne concerne pas directement votre camp. Elle prive aussi votre image d’un geste qui aurait pu être remarqué favorablement.
 
 **13. La ligne énergétique revient au congrès** _(party)_
 - Choix : Fixer vous-même la trajectoire énergétique et demander au conseil fédéral un vote de confiance [PRÉSIDENTIEL]
 - Conséquence : *La trajectoire devient un vote sur la candidate* — Une majorité valide le calendrier et permet de reprendre la campagne nationale. La minorité battue transforme son désaccord technique en contestation durable de la méthode.
 
-**14. La une vous prête un tournant** _(media)_
-- Choix : Convoquer dès le lendemain les syndicats pour négocier les contreparties de l’investissement [INSTITUTIONNEL]
-- Conséquence : *La une ouvre une négociation sociale* — La CGT et la CFDT acceptent des rencontres séparées. Le processus ralentit votre annonce économique, mais il ancre les contreparties dans une négociation réelle plutôt que dans une formule de riposte.
+**14. Le salaire net au centre** _(program)_
+- Choix : Conditionner les allègements de cotisations à des négociations salariales conclues dans chaque branche [INSTITUTIONNEL]
+- Conséquence : *Les aides deviennent un levier de négociation* — Les syndicats obtiennent un rapport de force concret et les entreprises gardent une marge sectorielle. Le résultat dépendra de dizaines de négociations, ce qui rend le gain salarial moins immédiat mais plus soutenable.
 - Déclaration : gradual_evolution
 
-**15. Vie privée et réseaux : la ligne numérique** _(program)_
-- Choix : Créer une majorité numérique à seize ans avec vérification d’âge obligatoire [CLIVANT]
-- Conséquence : *Un seuil clair, une vérification à organiser* — Les associations de protection de l’enfance saluent un signal fort. Des défenseurs des libertés numériques s’inquiètent des données collectées pour vérifier l’âge et du risque de contournement.
-- Déclaration : abrupt_reversal
+**15. Un rival corrige votre ligne** _(internal)_
+- Choix : Retirer au responsable son portefeuille économique et maintenir votre proposition sans nouveau vote [CLIVANT]
+- Conséquence : *Le portefeuille change de mains* — La sanction met fin aux prises de parole contradictoires et accélère la campagne. Plusieurs cadres la vivent comme une humiliation infligée à tout un courant et réduisent leur implication locale.
 
-**16. Le slogan divise le siège** _(campaign)_
-- Choix : Choisir le slogan de rupture et l’accompagner de trois engagements précis [CLIVANT]
-- Conséquence : *La rupture reçoit un contenu* — Les trois engagements empêchent le slogan de rester abstrait. Le socle se mobilise, mais les électeurs recherchant la stabilité deviennent plus méfiants.
+**16. La pluie emporte la tournée** _(campaign)_
+- Choix : Annuler la tournée et mettre les véhicules du parti à disposition des associations [RASSEMBLEUR]
+- Conséquence : *Les véhicules servent aux distributions* — Les associations coordonnent l’aide sans transformer l’opération en meeting. Votre retrait des images partisanes est remarqué et les équipes perdent une journée de campagne.
 
-**17. Un fichier militant sort du siège** _(scandal)_
-- Choix : Fermer le lien et réinitialiser les accès avant d’attendre les résultats d’un audit technique [PRUDENT]
-- Conséquence : *Les accès changent, l’information attend* — La fuite potentielle est stoppée et l’audit ne trouve aucun téléchargement massif. Le délai de notification devient pourtant le problème principal lorsque le bénévole raconte publiquement son signalement.
+**17. Une proposition de pacte de non-agression** _(campaign)_
+- Choix : Refuser et maintenir une ligne critique y compris pendant le meeting commun [OFFENSIF]
+- Conséquence : *Le contraste maintenu jusqu’au bout* — Le refus marque une différence claire de méthode et mobilise les électeurs qui attendaient un contraste net. Il est aussi commenté comme un signe de tension entre les deux équipes lors d’un événement censé rassembler.
 
-**18. L’adversaire refuse de vous laisser répondre** _(debate)_
-- Choix : Attendre le silence, rappeler calmement la règle puis répondre au chiffre contesté [PRÉSIDENTIEL]
-- Conséquence : *Le calme impose enfin le silence* — Votre pause devient visible et la salle se tait avant votre rappel de la règle. La réponse économique passe ensuite sans interruption et vous gagnez la séquence par maîtrise plutôt que par volume.
+**18. Neuf candidats face au climat** _(debate)_
+- Choix : Retirer une subvention automobile et transférer les crédits vers les transports régionaux [TRANSPARENT]
+- Conséquence : *Le rail gagne ce que l’automobile perd* — Vous êtes le premier à nommer une dépense supprimée et son bénéficiaire de remplacement. Les territoires dépendants de la voiture contestent l’arbitrage, mais le choix donne une cohérence tangible à votre plan climatique.
+- Déclaration : coherent_compromise
 
-**19. Le mix électrique de 2040** _(program)_
-- Choix : Renoncer aux nouveaux réacteurs et concentrer les crédits sur sobriété, stockage et renouvelables [CLIVANT]
-- Conséquence : *La sortie du nouveau nucléaire vous définit* — Les électeurs écologistes retrouvent une ligne nette et les acteurs du nucléaire annoncent une mobilisation contraire. Les questions de stockage et de stabilité du réseau deviennent désormais incontournables.
-- Déclaration : gradual_evolution
-
-**20. Une crise ferme un détroit** _(world)_
-- Choix : Annoncer un plan français de relocalisation sans prendre position sur la confrontation [LOYAL]
-- Conséquence : *La souveraineté industrielle remplace la diplomatie* — Le plan parle aux électeurs préoccupés par les dépendances et donne une orientation économique de long terme. Les questions sur votre politique étrangère restent entières, ce qui limite la stature attendue.
+**19. La présidence que vous proposez** _(program)_
+- Choix : Élargir le référendum dinitiative partagée avec contrôle préalable du Conseil constitutionnel [RASSEMBLEUR]
+- Conséquence : *La participation reçoit des garde-fous* — Le seuil abaissé rend l’outil réellement utilisable et le contrôle préalable rassure sur les libertés fondamentales. La mesure manque du souffle d’une nouvelle République mais élargit votre coalition potentielle.
 - Déclaration : initial_position
 
-**21. Le fauteuil libéré au vingt heures** _(media)_
-- Choix : Accepter sans condition et préparer quatre réponses prioritaires pendant le trajet [RISQUÉ]
-- Conséquence : *Une lacune sous les projecteurs* — Une question sur les retraites révèle une contradiction entre deux fiches du programme. L’exposition reste précieuse, mais vos adversaires disposent désormais d’un angle simple pour le débat du lendemain.
+**20. La croissance simulée se retourne** _(world)_
+- Choix : Maintenir le programme budgétaire et proposer seulement une clause de réexamen trimestriel [PRUDENT]
+- Conséquence : *La trajectoire ne change pas au premier indicateur* — La stabilité rassure les électeurs préoccupés par les comptes et évite les annonces précipitées. Les salariés menacés de chômage voient surtout une campagne qui attend des données supplémentaires.
 
-**22. Cinq cents bénévoles sans mission** _(internal)_
-- Choix : Confier chaque nouvel inscrit à une section locale avec un objectif choisi sur place [RASSEMBLEUR]
-- Conséquence : *Les sections choisissent leurs renforts* — Les territoires les mieux organisés intègrent vite les volontaires et inventent des opérations utiles. Les zones les plus faibles reçoivent moins de soutien, ce qui augmente les écarts d’implantation interne.
+**21. Qui financera les priorités** _(program)_
+- Choix : Augmenter la TVA hors produits essentiels et compenser les ménages modestes par un crédit [RISQUÉ]
+- Conséquence : *Une recette sûre, une compensation contestée* — Le rendement paraît robuste et la protection des produits essentiels limite l’effet immédiat. Le crédit compensatoire semble complexe et votre campagne doit désormais prouver qu’aucun ménage modeste ne perdra.
+- Déclaration : initial_position
+
+**22. Douze députés offrent leur expérience** _(alliance)_
+- Choix : Refuser les ralliements individuels et demander seulement une expertise juridique publique [PRUDENT]
+- Conséquence : *L’expertise remplace les ralliements* — Les députés relisent vos textes institutionnels sans afficher un soutien électoral. Votre programme gagne en solidité et votre compteur de soutiens reste inchangé.
 
 **23. La rénovation thermique doit changer d’échelle** _(party)_
 - Choix : Déléguer les aides aux régions avec des objectifs nationaux et un guichet par bassin de vie [INSTITUTIONNEL]
 - Conséquence : *Les régions pilotent la rénovation* — Le dispositif s’adapte aux bâtiments et aux entreprises locales, tout en renforçant l’implantation territoriale. Les différences de capacité administrative risquent de creuser les écarts entre régions.
 
-**24. Une ligne du CV est fausse** _(scandal)_
-- Choix : Maintenir le responsable et qualifier la différence de formulation sans importance pour le programme [LOYAL]
-- Conséquence : *Une petite ligne devient une grande question* — Le responsable continue à travailler et votre équipe technique reste stable. Votre minimisation offre cependant plusieurs jours de débat sur la vérité des biographies plutôt que sur la transition énergétique.
+**24. La directrice a recruté son frère** _(scandal)_
+- Choix : Maintenir la mission après un audit du prix et retirer à Anaïs Vercel toute décision d’achats [PRUDENT]
+- Conséquence : *Le travail continue derrière un pare-feu* — L’audit confirme que le prix et la livraison sont corrects. La sanction organisationnelle répond au conflit d’intérêts sans casser le projet, même si l’absence de concurrence initiale reste critiquable.
 
 **25. Les dernières heures autorisées** _(between_rounds)_
 - Choix : Déployer les militants dans cent gares et marchés avec un appel personnalisé à participer [POPULAIRE]
@@ -134,3 +133,12 @@ Idéologie : mouvement total 28.39 points, axe le plus mobile 9.47 points
 **29. Le débat de lentre-deux-tours** _(between_rounds)_
 - Choix : Comparer point par point les votes et alliances de votre adversaire à ses promesses actuelles [OFFENSIF]
 - Conséquence : *Le bilan adverse occupe le duel* — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
+
+**30. La première adresse de lÉlysée** _(government)_
+- Choix : Concentrer les cent jours sur le pouvoir dachat et reporter les autres réformes à lautomne [POPULAIRE]
+- Conséquence : *Le pouvoir dachat devient lurgence unique* — La priorité répond à lattente la plus immédiate et rend laction gouvernementale facile à suivre. Les alliés écologistes et institutionnels acceptent mal de voir leurs accords repoussés sans nouvelle date.
+- Déclaration : initial_position
+
+**31. Quinze ministres pour une coalition** _(government)_
+- Choix : Limiter le gouvernement à douze membres et fusionner les portefeuilles les plus proches [OFFENSIF]
+- Conséquence : *Douze membres donnent une image resserrée* — La composition est lisible et réduit les négociations de postes. Les ministres héritent de champs immenses et plusieurs alliés exclus promettent de juger le gouvernement texte par texte.

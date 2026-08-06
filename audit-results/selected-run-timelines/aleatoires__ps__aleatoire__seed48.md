@@ -1,11 +1,11 @@
 # ps · aleatoire · seed 48
 
 Parti : **ps** (existing) — Agent : **aleatoire** — Graine : `post-audit-48` — Méthode : digital
-Résultat : qualifié, **vainqueur** — score final 81/100 — fin `president`
-Score 1er tour : 13.1 — Score 2nd tour : 58.5 — Progression : 8.6
+Résultat : qualifié, **vainqueur** — score final 82/100 — fin `president`
+Score 1er tour : 12.8 — Score 2nd tour : 58.9 — Progression : 8.3
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 1 souvenirs d'acteurs, 79 actions adverses (crisis|endorsement|strategy), 2 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 17.22 points, axe le plus mobile 5.7 points
+Mémoire/monde : 0 souvenirs d'acteurs, 79 actions adverses (crisis|endorsement|strategy), 2 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 21.92 points, axe le plus mobile 10.26 points
 
 ## Chronologie
 
@@ -53,68 +53,68 @@ Idéologie : mouvement total 17.22 points, axe le plus mobile 5.7 points
 - Choix : Contester la méthode du journal et maintenir le montant donné sans publier de nouveau calcul [OFFENSIF]
 - Conséquence : *La bataille de méthode remplace le chiffre* — Votre riposte mobilise les convaincus, mais aucun document nouveau ne clôt la discussion. La question budgétaire vous suit dans les interviews suivantes et réduit la confiance des électeurs les plus attentifs aux comptes.
 
-**11. La loi migratoire du programme** _(program)_
-- Choix : Régulariser les travailleurs présents depuis cinq ans dans les métiers durablement en tension [POPULAIRE]
-- Conséquence : *Le travail devient le critère de régularisation* — Les employeurs concernés et les associations comprennent immédiatement la règle. Vos adversaires dénoncent un appel d’air et font de cette mesure le test principal de votre crédibilité aux frontières.
-- Déclaration : initial_position
-
-**12. La plateforme publique tombe en panne** _(world)_
-- Choix : Visiter un guichet d’urgence sans caméra et demander aux agents une liste de corrections prioritaires [PRUDENT]
-- Conséquence : *Les agents écrivent le retour de crise* — La liste distingue les problèmes techniques, les effectifs et les besoins des usagers. Votre discrétion limite la portée immédiate mais produit un document crédible pour la suite du programme.
-
-**13. Le comité bloque le chapitre sécurité** _(internal)_
-- Choix : Soumettre les deux versions au vote des adhérents avec une note juridique commune [RASSEMBLEUR]
-- Conséquence : *Les adhérents choisissent le chapitre* — La participation est forte et le résultat donne une légitimité nette au texte retenu. Vous perdez la maîtrise de ce marqueur programmatique mais gagnez des militants capables den défendre la procédure.
-
-**14. Le mix électrique de 2040** _(program)_
-- Choix : Lancer dix réacteurs et ralentir les appels d’offres éoliens terrestres contestés localement [OFFENSIF]
-- Conséquence : *L’atome devient le pari industriel* — La proposition offre un horizon clair à la filière et réduit le conflit autour de l’éolien terrestre. Les délais de construction et l’adaptation climatique des centrales concentrent les critiques écologistes.
-- Déclaration : initial_position
-
-**15. Un ancien rival socialiste revient** _(alliance)_
-- Choix : Confier à Ilyes Marceau les déplacements industriels avec une feuille de route signée [RASSEMBLEUR]
-- Conséquence : *Le rival obtient un domaine de campagne* — Son réseau ouvre plusieurs usines et remobilise des sections qui se tenaient à distance. La feuille de route contient les divergences sans les effacer et Ilyes mémorise la confiance reçue.
-
-**16. La règle européenne à changer** _(program)_
-- Choix : Demander une clause dexception nationale et suspendre les règles contestées en cas de refus [OFFENSIF]
-- Conséquence : *La clause dexception devient un ultimatum* — La position séduit les électeurs attachés à l’autonomie nationale et inquiète les acteurs économiques exposés à l’Union. Vos partenaires potentiels exigent désormais de connaître précisément les règles visées.
-- Déclaration : initial_position
-
-**17. La pluie emporte la tournée** _(campaign)_
-- Choix : Annuler la tournée et mettre les véhicules du parti à disposition des associations [RASSEMBLEUR]
-- Conséquence : *Les véhicules servent aux distributions* — Les associations coordonnent l’aide sans transformer l’opération en meeting. Votre retrait des images partisanes est remarqué et les équipes perdent une journée de campagne.
-
-**18. Cinq cents bénévoles sans mission** _(internal)_
-- Choix : Confier chaque nouvel inscrit à une section locale avec un objectif choisi sur place [RASSEMBLEUR]
-- Conséquence : *Les sections choisissent leurs renforts* — Les territoires les mieux organisés intègrent vite les volontaires et inventent des opérations utiles. Les zones les plus faibles reçoivent moins de soutien, ce qui augmente les écarts d’implantation interne.
-
-**19. Le PS doit nommer son projet** _(party)_
-- Choix : Faire voter une rupture avec les politiques de l’offre et inscrire la redistribution en tête du programme [CLIVANT]
-- Conséquence : *La convention déplace le parti vers la gauche* — Les militants accueillent la clarification avec enthousiasme et les échanges avec LFI reprennent. Plusieurs élus locaux craignent de perdre leur électorat central dès le premier tour.
-- Déclaration : contradiction
-
-**20. La minute qui vous appartient** _(debate)_
-- Choix : Demander aux téléspectateurs de comparer les programmes et promettre de respecter leur choix [RASSEMBLEUR]
-- Conséquence : *La campagne se termine sans ultimatum* — Le ton apaise un débat tendu et améliore votre image auprès des électeurs susceptibles de vous rejoindre plus tard. Vos militants regrettent une conclusion peu combative à quelques jours du scrutin.
-
-**21. La question de la fin de vie** _(program)_
-- Choix : Autoriser l’aide active à mourir sous conditions médicales strictes [CLIVANT]
-- Conséquence : *Une liberté nouvelle, encadrée* — Les associations de patients saluent une avancée réclamée depuis des années. Une partie du corps soignant s’inquiète des conditions d’application et des cultes organisent une mobilisation contre le texte.
-- Déclaration : abrupt_reversal
-
-**22. Vingt-quatre heures sans caméra** _(media)_
-- Choix : Maintenir la journée de travail et publier l’agenda précis des réunions programmatiques [PRUDENT]
-- Conséquence : *Une pause lisible dans la campagne* — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
-
-**23. La promesse faite à l’école** _(program)_
+**11. La promesse faite à l’école** _(program)_
 - Choix : Donner aux établissements un budget et une autonomie de recrutement sous contrôle académique [CLIVANT]
 - Conséquence : *L’autonomie redessine le service public* — Les chefs d’établissement gagnent une marge d’action attendue et les syndicats craignent des inégalités durables entre territoires. La proposition élargit votre offre au prix d’un conflit idéologique clair.
 - Déclaration : initial_position
 
-**24. La croissance simulée se retourne** _(world)_
-- Choix : Proposer un plan d’investissement ciblé sur le logement, le rail et la rénovation énergétique [POPULAIRE]
-- Conséquence : *Trois secteurs reçoivent le plan de relance* — Le ciblage relie l’activité immédiate à des besoins déjà documentés et donne une réponse identifiable au ralentissement. Son financement par emprunt fragilise votre trajectoire budgétaire à moyen terme.
-- Déclaration : coherent_compromise
+**12. Une crise ferme un détroit** _(world)_
+- Choix : Annoncer un plan français de relocalisation sans prendre position sur la confrontation [LOYAL]
+- Conséquence : *La souveraineté industrielle remplace la diplomatie* — Le plan parle aux électeurs préoccupés par les dépendances et donne une orientation économique de long terme. Les questions sur votre politique étrangère restent entières, ce qui limite la stature attendue.
+- Déclaration : strategic_repositioning
+
+**13. Deux cents maires demandent un contrat** _(alliance)_
+- Choix : Refuser un contrat séparé et renvoyer les mesures territoriales au programme national [PRUDENT]
+- Conséquence : *Le programme national ne reçoit pas de cosignataire* — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
+
+**14. Ce que l’école doit transmettre** _(program)_
+- Choix : Introduire un enseignement moral et civique renforcé avec évaluation nationale [INSTITUTIONNEL]
+- Conséquence : *Un socle commun évalué* — La proposition rassure les parents inquiets d’un manque de repères communs et donne un cadre national lisible. Les syndicats enseignants contestent l’ajout d’une évaluation qu’ils jugent bureaucratique.
+- Déclaration : gradual_evolution
+
+**15. Un cadre écologiste tenté par un ralliement** _(alliance)_
+- Choix : Décliner et proposer une plateforme commune sur l’écologie sans débauchage [RASSEMBLEUR]
+- Conséquence : *La coopération plutôt que le débauchage* — La proposition de plateforme commune est bien reçue et évite toute tension personnelle. Elle produit moins d’effet immédiat qu’un ralliement individuel, mais préserve la relation avec le mouvement.
+
+**16. La question de la fin de vie** _(program)_
+- Choix : Financer davantage les soins palliatifs sans légiférer sur l’aide active à mourir [PRUDENT]
+- Conséquence : *Le soin plutôt que la loi* — L’engagement budgétaire sur les soins palliatifs est concret et difficile à contester. Les partisans d’une nouvelle loi jugent la position temporisatrice et continuent de faire pression.
+- Déclaration : strategic_repositioning
+
+**17. Deux heures sans élément de langage** _(media)_
+- Choix : Accepter les deux heures et répondre sans faire valider les questions à l’avance [RISQUÉ]
+- Conséquence : *Une parenthèse supplante l’entretien* — Une réponse improvisée sur votre propre camp contredit une déclaration antérieure. L’entretien complet reste riche, mais la phrase isolée nourrit trois jours de commentaires sur votre ligne réelle.
+
+**18. Une contradiction chez le camp centriste** _(debate)_
+- Choix : Ne pas soulever le sujet et concentrer le débat sur votre propre programme [PRUDENT]
+- Conséquence : *Le choix de ne pas attaquer* — Le débat reste concentré sur votre propre offre programmatique, plus valorisante pour vous. Une partie de la presse spécialisée note après coup que l’occasion n’a pas été saisie.
+
+**19. La garantie jeunesse doit être financée** _(party)_
+- Choix : Financer une allocation sous conditions par une contribution accrue sur les revenus du capital [CLIVANT]
+- Conséquence : *La garantie jeunesse reçoit une ressource dédiée* — Le financement rend la promesse crédible auprès des jeunes et des associations. Les entreprises financières contestent l’assiette retenue et annoncent une campagne de chiffrage contradictoire.
+- Déclaration : initial_position
+
+**20. Le regroupement familial en question** _(program)_
+- Choix : Fixer à trois ans le délai de résidence requis avant regroupement familial [CLIVANT]
+- Conséquence : *Un délai plus long, un signal de fermeté* — La mesure répond à une demande de contrôle exprimée dans vos réunions publiques. Des associations familiales et certains partenaires sociaux dénoncent une séparation prolongée des familles déjà installées.
+- Déclaration : initial_position
+
+**21. L’adversaire refuse de vous laisser répondre** _(debate)_
+- Choix : Attendre le silence, rappeler calmement la règle puis répondre au chiffre contesté [PRÉSIDENTIEL]
+- Conséquence : *La pause ressemble à une hésitation* — L’adversaire profite du silence pour conclure sa critique et la modératrice change de thème. Votre retenue évite le chaos, mais votre réponse économique ne sera jamais entendue.
+
+**22. Un soutien éditorial encombrant** _(media)_
+- Choix : Refuser explicitement ce soutien et retirer Gabriel Valès de toute invitation de campagne [CLIVANT]
+- Conséquence : *La porte se ferme publiquement* — Le refus rassure les électeurs qui craignaient un rapprochement, tandis que les partisans du polémiste dénoncent une mise en scène. Gabriel Valès conserve une hostilité durable à votre candidature.
+
+**23. La loi migratoire du programme** _(program)_
+- Choix : Doubler les moyens des procédures d’asile et fixer un délai maximal pour chaque décision [INSTITUTIONNEL]
+- Conséquence : *La procédure devient votre réponse centrale* — Le dispositif promet des décisions plus rapides, qu’elles soient favorables ou non, et paraît administrativement applicable. Il satisfait peu les camps qui attendent une rupture quantitative ou une régularisation large.
+- Déclaration : contradiction
+
+**24. Le rapport reprend huit paragraphes** _(scandal)_
+- Choix : Maintenir la note et défendre le droit de réutiliser les données d’un rapport public [CLIVANT]
+- Conséquence : *Le droit d’utilisation ne répond pas à l’attribution* — Votre argument juridique sur les données est exact mais ne traite pas la reprise des formulations. La campagne transforme une correction simple en débat durable sur son honnêteté intellectuelle.
 
 **25. Le débat de lentre-deux-tours** _(between_rounds)_
 - Choix : Présenter vos cinq premières décisions et relier chacune à un financement déjà publié [PRÉSIDENTIEL]
@@ -139,7 +139,7 @@ Idéologie : mouvement total 17.22 points, axe le plus mobile 5.7 points
 **30. La première adresse de lÉlysée** _(government)_
 - Choix : Concentrer les cent jours sur le pouvoir dachat et reporter les autres réformes à lautomne [POPULAIRE]
 - Conséquence : *Le pouvoir dachat devient lurgence unique* — La priorité répond à lattente la plus immédiate et rend laction gouvernementale facile à suivre. Les alliés écologistes et institutionnels acceptent mal de voir leurs accords repoussés sans nouvelle date.
-- Déclaration : strategic_repositioning
+- Déclaration : coherent_compromise
 
 **31. Quinze ministres pour une coalition** _(government)_
 - Choix : Répartir les ministères proportionnellement aux soutiens du second tour avec exigence de parité [INSTITUTIONNEL]

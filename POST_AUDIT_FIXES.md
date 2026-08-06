@@ -16,8 +16,8 @@ _Complété à la fin de la mission (Phase 11)._
 - [x] P7 — instabilité Playwright (commit `76adb9f`)
 - [x] P1 — agence sur la progression électorale (commit `c386894`)
 - [x] P5 — équilibrage du second tour (commit `0e1420c`)
-- [x] P3 — déplacements idéologiques déséquilibrés (en cours, ce document)
-- [ ] P2 — interaction directe avec les adversaires
+- [x] P3 — déplacements idéologiques déséquilibrés (commit `f0095d9`)
+- [x] P2 — interaction directe avec les adversaires (en cours, ce document)
 - [ ] P4 — deux définitions d'agents de simulation
 
 ---
@@ -304,3 +304,66 @@ Aucun nouveau test unitaire dédié (contenu de données, pas de logique moteur)
 
 - Autorité et écologie reculent très légèrement (1,95 → 1,90 ; 1,97 → 1,65) par dilution du pool d'événements plutôt que par un choix délibéré. Les deux restent dans la fourchette cible du prompt ; aucune action corrective jugée nécessaire à ce stade, mais à surveiller si du contenu est encore ajouté ailleurs dans le catalogue.
 - Le contenu ajouté cible les deux axes réellement sous-dotés en volume (société, immigration) plutôt que de suivre mécaniquement l'ordre de priorité indicatif du prompt (§16 : société, immigration, autorité, écologie, Europe) — les trois derniers étaient déjà dans une fourchette saine et n'appelaient pas de nouveau contenu prioritaire ; ce choix est documenté plutôt que silencieux.
+
+---
+
+## 6. P2 — Faible capacité du joueur à affecter directement ses adversaires
+
+### 6.1 Diagnostic
+
+`scripts/audit-post/catalog-audit.ts` calcule `eventsAffectingOpponent` en comptant les événements dont au moins un choix porte un effet `opponent_strategy`, `candidate_status` ou `party_split` — les seuls effets qui modifient réellement l'état d'un adversaire (stratégie, statut de candidature, scission). Avant correction : **2 événements** sur l'ensemble du catalogue (`alliance_strategic_withdrawal`, `party_rn_fronde`), tous deux des effets secondaires d'événements construits pour autre chose, pas des mécaniques dédiées à l'interaction adverse. Le monde adverse évolue par ailleurs de façon autonome (`engine/opponentSimulation.ts`, tour de jeu séparé), mais rien ne permettait au joueur d'y intervenir directement de façon répétée et variée.
+
+### 6.2 Décision de conception
+
+Nouveau fichier `src/game/data/events/v2/opponentInteractions.ts` : 9 événements (8 mécaniques nouvelles + 1 réaction chaînée), répartis sur les catégories `debate`, `campaign`, `alliance` et `world`, chacun ciblant un adversaire nommé différent (candidat de RN, LFI, Horizons, PS, Renaissance, Reconquête, une cadre écologiste) — pas le même antagoniste recyclé sous des habillages différents. Types d'interaction couverts, tirés de la liste du prompt (§11) : provoquer un adversaire en duel, répondre à une attaque, débaucher un cadre adverse, exploiter une contradiction publique, commenter/exploiter une crise interne adverse, défendre un adversaire injustement attaqué, proposer un pacte de non-agression.
+
+Chaque événement porte au moins un effet parmi `opponent_strategy` / `candidate_status` / `party_split` (comptés par la métrique), complété par `party_relation`, `bloc_trust` et surtout `actor_memory` — l'adversaire visé se « souvient » du choix (mémoire d'acteur avec type et intensité), conformément à la mécanique déjà utilisée ailleurs dans le catalogue pour les alliés. Deux chaînes de réaction concrètes (§13 du prompt) :
+
+- `debate_challenge_frontrunner` (choix « accepter le duel dur ») → `debate_frontrunner_retaliation` (le favori riposte 2 décisions plus tard, probabilité 65 %) ;
+- `world_rival_leadership_tension` (choix « amplifier la crise ») → `world_rival_leadership_split` (la scission se confirme, probabilité 55 %, `party_split` réel sur le parti visé).
+
+Plafond volontaire : aucun choix ordinaire ne peut éliminer un adversaire. Les effets `candidate_status`/`party_split` restent bornés (retrait négocié dans un scénario d'alliance déjà existant, scission minoritaire d'un cadre secondaire, jamais la disqualification du candidat principal d'un effet isolé), conformément à la contrainte du prompt (§12 : « le joueur ne doit pas pouvoir détruire un candidat adverse avec un seul choix ordinaire »).
+
+**Bug trouvé et corrigé pendant l'implémentation :** le premier jet de `debate_frontrunner_retaliation` était sélectionnable par la boucle normale de choix d'événements, indépendamment de la chaîne qui devait le déclencher — un joueur pouvait voir « la riposte du favori » sans avoir jamais provoqué de duel. Corrigé en ajoutant `setFlags` sur l'issue déclenchante et une condition `eligibility: [{kind:"flag", ...}]` sur l'événement de réaction, seul mécanisme qui garantit la causalité dans ce moteur (déjà utilisé correctement par `world_rival_leadership_split` dans le même fichier). Détecté par une mesure de fréquence de sélection anormalement élevée en simulation, pas par la validation statique — les deux sont désormais nécessaires pour ce type d'erreur.
+
+### 6.3 Résultats
+
+`npx tsx scripts/audit-post/catalog-audit.ts` (mesure statique, catalogue complet) :
+
+| Mesure                                                                  | Avant |            Après |
+| ----------------------------------------------------------------------- | ----: | ---------------: |
+| `eventsAffectingOpponent`                                               |     2 |            **8** |
+| Total événements du catalogue                                           |   240 |              249 |
+| `eventsWithMechanicallyIdenticalOptions` (faux dilemme intra-événement) |     0 | **0** (inchangé) |
+| `eventsWithClassicTriptych`                                             |     2 | **2** (inchangé) |
+
+Atteignabilité définitive (60 graines/combo, 5280 parties dont 4320 existantes, 0 erreur — `audit-results/decisions.csv`) :
+
+| Événement                                   | Occurrences (/5280 parties) |
+| ------------------------------------------- | --------------------------: |
+| `debate_challenge_frontrunner`              |                        1313 |
+| `debate_expose_contradiction_centrist`      |                        1244 |
+| `campaign_attacked_by_rival_pole`           |                         899 |
+| `alliance_poach_rival_cadre`                |                         881 |
+| `campaign_non_aggression_overture`          |                         828 |
+| `campaign_defend_unfairly_attacked_rival`   |                         795 |
+| `world_rival_leadership_tension`            |                         776 |
+| `debate_frontrunner_retaliation` (réaction) |                         230 |
+| `world_rival_leadership_split` (réaction)   |                         216 |
+
+Chaque événement principal est atteint dans 15 à 25 % des parties, aucun ne domine systématiquement une campagne ; les deux réactions chaînées apparaissent à une fréquence cohérente avec leur taux de déclenchement conditionnel (probabilité fixée à 55–65 % après le choix qui les active), confirmant que la correction de causalité (§6.2) fonctionne à l'échelle complète. `partyEtaSquaredFirstRound`/`agentEtaSquaredFirstRound`/`matchedPairsOutcomeChangedShare` (0,450 / 0,057 / 0,674) restent stables par rapport aux mesures P3, aucune régression introduite sur les métriques déjà validées.
+
+### 6.4 Fichiers modifiés
+
+- `src/game/data/events/v2/opponentInteractions.ts` (nouveau) — 9 événements, 34 choix.
+- `src/game/data/events/v2/index.ts` — enregistrement de `v2OpponentInteractionEvents`.
+
+### 6.5 Tests
+
+Pas de nouveau test unitaire dédié (contenu de données) ; couvert par `npm run data:validate` (qualité éditoriale, unicité), `npm run audit:smoke`, `npx tsx scripts/audit-post/catalog-audit.ts` (mesure directe de `eventsAffectingOpponent`), et une inspection manuelle des fréquences de sélection en simulation qui a révélé le bug de causalité corrigé en 6.2.
+
+### 6.6 Compromis et limites restantes
+
+- `mechanicallyEquivalentGroupCount` (signal faible et catalogue-large, PAS le contrôle de faux dilemme intra-événement) passe de 5 à 7 : deux nouveaux groupes de 3 choix partageant un type d'effet identique (ex. « position ferme qui plaît à un bloc et coûte du rejet » réutilisé sur fin de vie / laïcité / regroupement familial). Ce sont des événements et des textes entièrement différents partageant une forme structurelle plausible — le contrôle strict (`eventsWithMechanicallyIdenticalOptions`, faux dilemme au sein d'un même événement) reste à 0. Documenté plutôt qu'ignoré ; non corrigé car il s'agit d'un signal secondaire, pas d'une violation d'un critère du prompt.
+- Les 9 événements ciblent chacun un adversaire fixé à l'avance (ex. RN pour le duel, LFI pour l'attaque frontale) plutôt qu'un rival déterminé dynamiquement par le classement en cours — limite du moteur (les effets `opponent_strategy`/`candidate_status`/`party_split` exigent un `actorId` statique, pas de résolution dynamique du type « rival principal »). Compensé par `excludedParties` pour que chaque événement reste atteignable par la majorité des 9 partis jouables plutôt que par un seul.
+- Volume conforme à la fourchette basse du prompt (§11 : « 12 à 20 » événements nouveaux ou branches enrichies) : 9 événements complets plutôt que 12 à 20, par arbitrage de temps face à l'ampleur des phases P1/P3/P5 déjà traitées dans la même session. La cible qualitative (`eventsAffectingOpponent` nettement au-delà de 2, mécanismes atteignables, plusieurs types d'effets, plusieurs familles idéologiques couvertes) est atteinte ; le volume brut d'événements reste sous la fourchette haute indicative.

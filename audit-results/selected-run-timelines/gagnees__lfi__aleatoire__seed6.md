@@ -1,11 +1,11 @@
 # lfi · aleatoire · seed 6
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-6` — Méthode : presidential
-Résultat : qualifié, **vainqueur** — score final 83/100 — fin `president`
-Score 1er tour : 17.4 — Score 2nd tour : 57.8 — Progression : 4.4
+Résultat : qualifié, **vainqueur** — score final 76/100 — fin `president`
+Score 1er tour : 16.6 — Score 2nd tour : 56.5 — Progression : 3.6
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 1 souvenirs d'acteurs, 75 actions adverses (alliance|crisis|endorsement|replacement|strategy), 2 alliance(s), 1 remplacement(s)
-Idéologie : mouvement total 28.81 points, axe le plus mobile 11.29 points
+Idéologie : mouvement total 22.99 points, axe le plus mobile 11.01 points
 
 ## Chronologie
 
@@ -48,10 +48,10 @@ Idéologie : mouvement total 28.81 points, axe le plus mobile 11.29 points
 - Choix : Négocier des parrainages pluralistes sans demander de soutien politique [INSTITUTIONNEL]
 - Conséquence : *Le pluralisme protège la candidature* — Des élus de sensibilités différentes acceptent de distinguer parrainage et soutien. La démarche renforce votre image institutionnelle et crée plusieurs dettes politiques limitées.
 
-**10. La France à cinquante degrés** _(program)_
-- Choix : Créer un fonds pluriannuel pour l’eau, les écoles, les hôpitaux et les logements exposés [INSTITUTIONNEL]
-- Conséquence : *L’adaptation reçoit un budget durable* — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
-- Déclaration : initial_position
+**10. La question de la fin de vie** _(program)_
+- Choix : Autoriser l’aide active à mourir sous conditions médicales strictes [CLIVANT]
+- Conséquence : *Une liberté nouvelle, encadrée* — Les associations de patients saluent une avancée réclamée depuis des années. Une partie du corps soignant s’inquiète des conditions d’application et des cultes organisent une mobilisation contre le texte.
+- Déclaration : coherent_compromise
 
 **11. Les Écologistes proposent un pacte urbain** _(party)_
 - Choix : Soutenir trois mesures communes sans suspendre le débat sur lEurope [TRANSPARENT]
@@ -61,45 +61,43 @@ Idéologie : mouvement total 28.81 points, axe le plus mobile 11.29 points
 - Choix : Réserver le programme au mouvement et la stratégie électorale à la candidate [INSTITUTIONNEL]
 - Conséquence : *Deux mandats définissent la campagne* — La frontière protège la délibération programmatique et permet à Ariane Valmont de réagir vite aux sondages. Chaque repositionnement électoral devra toutefois prouver quil ne modifie pas le fond.
 
-**13. La promesse faite après la primaire** _(internal)_
-- Choix : Refuser le poste promis et offrir seulement un droit d’amendement avant publication [OFFENSIF]
-- Conséquence : *La promesse de primaire ne survit pas à la campagne* — Léquipe actuelle conserve son calendrier et son autorité. Le courant lésé cesse de fournir ses relais, documente la promesse initiale et attend le moment où son retrait sera le plus visible.
+**13. Le PS propose trois engagements communs** _(alliance)_
+- Choix : Signer les trois engagements et suspendre toute campagne de vote utile contre le PS [RASSEMBLEUR]
+- Conséquence : *Trois mesures ouvrent une non-agression* — L’accord rend les débats de gauche plus lisibles et améliore les reports potentiels. Vos militants les plus offensifs regrettent d’abandonner un levier contre un concurrent direct du premier tour.
 
-**14. Deux invitations au même horaire** _(campaign)_
-- Choix : Maintenir la rencontre des maires et envoyer votre porte-parole sur France 2 [LOYAL]
-- Conséquence : *Les maires obtiennent votre présence* — La rencontre locale débouche sur trois soutiens et votre porte-parole tient l’entretien. L’absence du candidat limite néanmoins la portée économique nationale.
+**14. La pluie emporte la tournée** _(campaign)_
+- Choix : Suspendre toute communication jusqu’à la réouverture officielle des routes [PRUDENT]
+- Conséquence : *Le silence laisse travailler les secours* — Aucun message de campagne ne concurrence les consignes locales. La retenue protège votre image institutionnelle, mais la journée disparaît entièrement du récit national.
 
-**15. Le prochain budget de la santé** _(program)_
-- Choix : Créer un service territorial de soins primaires avec équipes salariées dans les zones sous-dotées [INSTITUTIONNEL]
-- Conséquence : *La médecine de proximité reçoit un opérateur* — Les collectivités voient comment ouvrir concrètement des équipes là où l’installation libérale ne suffit plus. Les représentants de médecins indépendants contestent le modèle salarié, mais le calendrier est jugé réalisable.
+**15. La présidence que vous proposez** _(program)_
+- Choix : Conserver les institutions actuelles et limiter seulement les nominations présidentielles [PRUDENT]
+- Conséquence : *La continuité reçoit un contre-pouvoir ciblé* — Les électeurs soucieux de stabilité comprennent la réforme et les juristes la jugent réaliste. Votre camp le plus réformateur y voit une occasion manquée de corriger la concentration du pouvoir.
 - Déclaration : initial_position
 
-**16. Les sections refusent le kit national** _(internal)_
-- Choix : Convoquer un atelier avec les sections puis publier un supplément territorial signé ensemble [INSTITUTIONNEL]
-- Conséquence : *Un supplément relie Paris et la Bretagne* — Le document commun conserve les priorités nationales et ajoute trois engagements territoriaux. Le processus demande deux jours, mais il crée une méthode réutilisable dans d’autres régions.
+**16. La porte-parole annonce trop tôt** _(internal)_
+- Choix : Corriger publiquement l’annonce et maintenir la porte-parole après un rappel des procédures [LOYAL]
+- Conséquence : *Une correction sans sacrifice humain* — La campagne distingue l’erreur individuelle de la décision collective et publie l’état exact de l’arbitrage. La porte-parole reste en fonction, reconnaissante, tandis que la proposition perd son effet de surprise.
 
-**17. La question venue de Mayotte** _(debate)_
-- Choix : Proposer un audit de quatre semaines mené avec les élus et les services publics de Mayotte [INSTITUTIONNEL]
-- Conséquence : *Un audit territorial remplace le chiffre improvisé* — Vous ne prétendez pas résoudre le dossier en direct et décrivez une méthode associant les acteurs locaux. Le délai paraît sérieux, mais la questionneuse attendait aussi une réponse sur l’urgence immédiate.
+**17. Les soutiens envahissent le plateau** _(debate)_
+- Choix : Refuser les plateaux d’après-débat et laisser les propositions circuler sans commentaire partisan [PRUDENT]
+- Conséquence : *Le silence cède les premières heures* — Le refus de proclamer une victoire artificielle plaît aux électeurs lassés du commentaire permanent. Vos concurrents occupent cependant seuls les plateaux et fixent une partie de l’interprétation avant le matin.
 
-**18. L’immigration de travail, un choix économique assumé ou non** _(program)_
-- Choix : Réserver les embauches en tension aux résidents européens avant toute ouverture [CLIVANT]
-- Conséquence : *La priorité européenne avant l’ouverture* — La mesure rassure une partie de l’électorat sur la maîtrise des flux tout en restant dans le cadre européen. Les fédérations patronales des secteurs concernés jugent le délai de mise en œuvre incompatible avec leurs besoins immédiats.
-- Déclaration : coherent_compromise
+**18. La question venue de Mayotte** _(debate)_
+- Choix : Estimer le chiffre à partir de vos notes et proposer immédiatement un montant d’investissement [RISQUÉ]
+- Conséquence : *Le chiffre confond deux réseaux* — Vous utilisez une donnée qui concerne l’assainissement plutôt que l’accès à l’eau. La confusion est corrigée en direct et devient un exemple de la faible préparation ultramarine de votre campagne.
 
 **19. La Sixième République doit prendre forme** _(party)_
 - Choix : Commencer par la proportionnelle et le référendum partagé avant de convoquer une constituante [PRUDENT]
 - Conséquence : *La nouvelle République devient un chemin en trois étapes* — La trajectoire paraît plus réalisable et élargit les alliances parlementaires possibles. Les militants les plus attachés à la rupture craignent que la constituante soit repoussée indéfiniment.
-- Déclaration : initial_position
+- Déclaration : abrupt_reversal
 
-**20. La croissance simulée se retourne** _(world)_
-- Choix : Maintenir le programme budgétaire et proposer seulement une clause de réexamen trimestriel [PRUDENT]
-- Conséquence : *La trajectoire ne change pas au premier indicateur* — La stabilité rassure les électeurs préoccupés par les comptes et évite les annonces précipitées. Les salariés menacés de chômage voient surtout une campagne qui attend des données supplémentaires.
+**20. Le rapport reprend huit paragraphes** _(scandal)_
+- Choix : Retirer la note, citer chaque source et republier une version distinguant données et propositions [TRANSPARENT]
+- Conséquence : *Les citations reviennent dans le document* — La nouvelle version montre que les données venaient d’un rapport public et que vos propositions restent propres à la campagne. L’erreur éditoriale est reconnue sans prétendre que le fond était inventé.
 
-**21. Le contrat d’intégration, jusqu’où aller** _(program)_
-- Choix : Conditionner l’accès à la nationalité à la réussite du contrat d’intégration [CLIVANT]
-- Conséquence : *L’intégration comme condition de la nationalité* — La proposition marque une ligne nette et mobilise une partie de votre socle. Des juristes et des associations de défense des droits contestent la conformité du dispositif avec les engagements internationaux existants.
-- Déclaration : gradual_evolution
+**21. L’adversaire refuse de vous laisser répondre** _(debate)_
+- Choix : Couper à votre tour et exiger que chacun lise son propre financement à voix haute [OFFENSIF]
+- Conséquence : *Le brouhaha devient épreuve de vérité* — La confrontation est désordonnée mais le défi sur les financements marque les esprits. Votre adversaire refuse l’exercice, ce qui vous offre un extrait favorable sans restaurer la qualité du débat.
 
 **22. La minute qui vous appartient** _(debate)_
 - Choix : Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
@@ -110,10 +108,10 @@ Idéologie : mouvement total 28.81 points, axe le plus mobile 11.29 points
 - Conséquence : *Le mandat national passe avant la négociation* — La ligne mobilise les souverainistes de gauche et clarifie le calendrier de rupture. Elle inquiète les électeurs attachés à lUnion et réduit les soutiens possibles au second tour.
 - Déclaration : initial_position
 
-**24. La présidence que vous proposez** _(program)_
-- Choix : Élargir le référendum dinitiative partagée avec contrôle préalable du Conseil constitutionnel [RASSEMBLEUR]
-- Conséquence : *La participation reçoit des garde-fous* — Le seuil abaissé rend l’outil réellement utilisable et le contrôle préalable rassure sur les libertés fondamentales. La mesure manque du souffle d’une nouvelle République mais élargit votre coalition potentielle.
-- Déclaration : coherent_compromise
+**24. Contrôles aux frontières : quels moyens** _(program)_
+- Choix : Lancer des contrôles mobiles ciblés sur les axes routiers frontaliers [TECHNIQUE]
+- Conséquence : *Une réponse ciblée et réversible* — La mesure évite la lourdeur d’un contrôle systématique tout en donnant une réponse concrète à l’incident. Certains commentateurs la jugent trop modeste pour peser réellement sur les passages constatés.
+- Déclaration : gradual_evolution
 
 **25. Les soutiens arrivent avec leurs conditions** _(between_rounds)_
 - Choix : Réunir tous les soutiens sur scène et annoncer un conseil de coalition après lélection [RASSEMBLEUR]

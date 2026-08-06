@@ -1,11 +1,11 @@
 # horizons · aleatoire · seed 30
 
 Parti : **horizons** (existing) — Agent : **aleatoire** — Graine : `post-audit-30` — Méthode : field_first
-Résultat : éliminé au 1er tour — score final 66/100 — fin `kingmaker`
-Score 1er tour : 13.2 — Score 2nd tour : n/a — Progression : 8.7
+Résultat : qualifié, **vainqueur** — score final 86/100 — fin `president`
+Score 1er tour : 13.9 — Score 2nd tour : 53.8 — Progression : 9.4
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 4 souvenirs d'acteurs, 60 actions adverses (crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 9.1 points, axe le plus mobile 4.3 points
+Mémoire/monde : 3 souvenirs d'acteurs, 73 actions adverses (crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 9.1 points, axe le plus mobile 7.38 points
 
 ## Chronologie
 
@@ -47,67 +47,92 @@ Idéologie : mouvement total 9.1 points, axe le plus mobile 4.3 points
 - Choix : Refuser un contrat séparé et renvoyer les mesures territoriales au programme national [PRUDENT]
 - Conséquence : *Le programme national ne reçoit pas de cosignataire* — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
 
-**10. Le contrôle interne signale trois factures** _(internal)_
-- Choix : Suspendre les paiements concernés et confier les justificatifs à un expert-comptable indépendant [TRANSPARENT]
-- Conséquence : *Les paiements attendent le contrôle* — Le gel ralentit deux fournisseurs mais sécurise la trace documentaire. Maud Keravel soutient la décision et l’expert dispose d’un mandat écrit qui permettra de conclure sans pression politique.
+**10. Cinq cents bénévoles sans mission** _(internal)_
+- Choix : Former les nouveaux bénévoles pendant deux soirées avant toute prise de contact électorale [PRUDENT]
+- Conséquence : *Les nouveaux arrivent préparés sur le terrain* — La campagne renonce à deux jours d’élan mais évite les réponses contradictoires et les problèmes de données personnelles. Les bénévoles formés restent davantage engagés au fil des semaines.
 
-**11. L’immigration de travail, un choix économique assumé ou non** _(program)_
-- Choix : Ouvrir une liste de métiers en tension avec délivrance accélérée de titres de séjour [OPPORTUNISTE]
-- Conséquence : *Les métiers en tension trouvent une réponse* — Les fédérations patronales concernées saluent une réponse concrète à leurs alertes répétées. Une partie de votre socle électoral dénonce une politique migratoire dictée par des besoins économiques de court terme.
-- Déclaration : initial_position
+**11. L’adversaire refuse de vous laisser répondre** _(debate)_
+- Choix : Cesser de répondre à l’adversaire et expliquer votre mesure directement à la caméra [POPULAIRE]
+- Conséquence : *La caméra remplace le duel* — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
 
 **12. Le car tombe en panne** _(campaign)_
 - Choix : Annuler la scène prévue et ouvrir un échange dans le café voisin [RISQUÉ]
 - Conséquence : *Le café offre une conversation inattendue* — Quarante personnes discutent sans pupitre ni musique. La séquence touche par sa simplicité, mais l’équipe qui attendait à destination se sent abandonnée.
 
-**13. Les factures sans pièce ressortent** _(scandal)_
-- Choix : Rembourser volontairement les trois dépenses à la campagne et retirer toute demande de remboursement public [PRUDENT]
-- Conséquence : *La campagne paie le coût de son dossier incomplet* — Le remboursement ne tranche pas la responsabilité, mais supprime le risque que des fonds publics couvrent les dépenses contestées. L’opposition y voit un aveu tandis que les juristes saluent une précaution claire.
+**13. Le fauteuil libéré au vingt heures** _(media)_
+- Choix : Proposer qu’un allié présente votre programme pendant que vous préparez le débat [RASSEMBLEUR]
+- Conséquence : *L’allié gagne son propre espace* — L’émission accepte le remplacement. Votre représentant défend bien le projet, mais gagne aussi une autonomie et une notoriété qui pèseront lors des prochains arbitrages de coalition.
 
-**14. La porte-parole annonce trop tôt** _(internal)_
-- Choix : Retirer la porte-parole des médias et charger le responsable du programme de rectifier le montant [OFFENSIF]
-- Conséquence : *La discipline reprend le micro* — Le responsable du programme corrige précisément le chiffre et verrouille les prises de parole. La sanction paraît disproportionnée à une partie de léquipe et encourage les intervenants restants à ne plus improviser aucune réponse.
+**14. Douze députés offrent leur expérience** _(alliance)_
+- Choix : Signer une charte de soutien libre avec réunion hebdomadaire et désaccords publiables [INSTITUTIONNEL]
+- Conséquence : *Douze soutiens sans discipline forcée* — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
 
-**15. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Décliner le soutien pour conserver une campagne sans vedette et proposer une rencontre privée [PRUDENT]
-- Conséquence : *La notoriété reste hors de l’affiche* — Nina Sorel respecte le refus et publie seulement qu’elle a été reçue sur le logement. Vous perdez une audience importante mais préservez une campagne où les soutiens ne remplacent pas les propositions.
+**15. Renaissance offre un pacte de stabilité** _(alliance)_
+- Choix : Signer le pacte avec Renaissance et publier les trois domaines qui restent hors accord [PRÉSIDENTIEL]
+- Conséquence : *Un accord de second tour est écrit avant le premier* — La stabilité des reports rassure les électeurs modérés et les acteurs économiques. Votre campagne doit maintenant prouver qu’elle conserve une utilité propre face au parti partenaire le plus puissant.
 
-**16. L’audit clôt le dossier des factures** _(scandal)_
-- Choix : Proclamer Maud Keravel blanchie et rejeter les recommandations comme des précautions bureaucratiques [OFFENSIF]
-- Conséquence : *L’absence d’enrichissement devient victoire totale* — Votre lecture soulage les militants et dépasse ce que dit le rapport sur les procédures. L’expert rappelle publiquement ses six recommandations, transformant la conclusion favorable en nouveau conflit d’interprétation.
+**16. Théo Lagrive réclame un accord central** _(party)_
+- Choix : Retirer Théo Lagrive des négociations et exiger un engagement écrit pour la candidature [OFFENSIF]
+- Conséquence : *L’autonomie devient un test de loyauté* — La ligne publique ne souffre plus d’ambiguïté et Agathe Belcourt reprend le calendrier. Plusieurs élus refusent de signer et maintiennent leurs contacts avec Renaissance.
 
 **17. Les soutiens envahissent le plateau** _(debate)_
 - Choix : Reconnaître la réponse territoriale insuffisante et publier dès le matin une proposition corrigée [TRANSPARENT]
 - Conséquence : *Le point faible reçoit une suite* — Vos soutiens ne prétendent pas que tout fut réussi et annoncent un travail précis sur le sujet manqué. La dynamique immédiate reste modeste, mais la campagne gagne un mécanisme de correction crédible.
 
-**18. Les maires offrent une semaine de terrain** _(party)_
-- Choix : Regrouper les vingt maires lors d’un meeting national consacré aux réussites locales [OFFENSIF]
-- Conséquence : *Les maires donnent une image de force* — La scène démontre l’implantation du parti et fournit des exemples faciles à raconter. Plusieurs territoires se sentent utilisés comme preuve sans avoir influencé les décisions nationales.
+**18. La croissance simulée se retourne** _(world)_
+- Choix : Proposer un plan d’investissement ciblé sur le logement, le rail et la rénovation énergétique [POPULAIRE]
+- Conséquence : *Trois secteurs reçoivent le plan de relance* — Le ciblage relie l’activité immédiate à des besoins déjà documentés et donne une réponse identifiable au ralentissement. Son financement par emprunt fragilise votre trajectoire budgétaire à moyen terme.
+- Déclaration : initial_position
 
-**19. Le forum étudiant refuse les slogans** _(campaign)_
-- Choix : Refuser une réponse unique et ouvrir un débat filière par filière [PRUDENT]
-- Conséquence : *La sélection reste sans ligne nationale* — Les responsables de filières acceptent le travail proposé, mais les associations dénoncent un report. Vous évitez une promesse impossible et perdez le moment politique.
+**19. Le mandat de négociation arrive à échéance** _(party)_
+- Choix : Clore les négociations vous-même et proposer à Théo Lagrive de diriger la campagne locale [PRÉSIDENTIEL]
+- Conséquence : *L’autonomie survit avec une porte de sortie* — Agathe Belcourt garde la candidature et offre au courant adverse une responsabilité utile. Les négociateurs acceptent sans enthousiasme et maintiennent leurs relations avec Renaissance.
 
-**20. Le budget impose trois renoncements** _(campaign)_
-- Choix : Lancer une collecte publique en publiant le besoin et chaque dépense prévue [RISQUÉ]
-- Conséquence : *La collecte finance la dernière ligne droite* — Les petits dons dépassent l’objectif et les comptes publiés rassurent. La campagne sauve son calendrier, au prix de trois jours entièrement consacrés à l’argent.
+**20. Les affiches manquent dans six villes** _(campaign)_
+- Choix : Répartir la commande entre trois imprimeurs locaux et publier les coûts [TRANSPARENT]
+- Conséquence : *Les imprimeurs rattrapent le retard* — Les premières affiches arrivent sous quarante-huit heures. La solution coûte davantage, mais les sections disposent enfin d’un calendrier et de factures consultables.
 
-**21. Douze députés offrent leur expérience** _(alliance)_
-- Choix : Signer une charte de soutien libre avec réunion hebdomadaire et désaccords publiables [INSTITUTIONNEL]
-- Conséquence : *Douze soutiens sans discipline forcée* — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
+**21. La porte-parole annonce trop tôt** _(internal)_
+- Choix : Retirer la porte-parole des médias et charger le responsable du programme de rectifier le montant [OFFENSIF]
+- Conséquence : *La discipline reprend le micro* — Le responsable du programme corrige précisément le chiffre et verrouille les prises de parole. La sanction paraît disproportionnée à une partie de léquipe et encourage les intervenants restants à ne plus improviser aucune réponse.
 
-**22. La question venue de Mayotte** _(debate)_
-- Choix : Reconnaître que vous ignorez le chiffre local et annoncer une réponse documentée sous vingt-quatre heures [TRANSPARENT]
-- Conséquence : *Une limite reconnue, une réponse attendue* — L’aveu surprend dans un débat où chacun prétend tout maîtriser. Votre équipe publie le lendemain des données vérifiées et un calendrier, ce qui transforme la lacune en preuve de méthode.
-
-**23. La minute qui vous appartient** _(debate)_
+**22. La minute qui vous appartient** _(debate)_
 - Choix : Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
 - Conséquence : *Un visage reste après le débat* — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
 
-**24. Des notes de frais se mélangent** _(scandal)_
-- Choix : Exclure Samira Bellon de la campagne et confier toutes les dépenses locales au siège [OFFENSIF]
-- Conséquence : *Une erreur faible provoque une sanction forte* — La centralisation réduit le risque comptable et désorganise le réseau lyonnais construit par Samira Bellon. La sanction paraît exemplaire à certains, disproportionnée à ceux qui connaissent le dossier.
+**23. Contrôles aux frontières : quels moyens** _(program)_
+- Choix : Lancer des contrôles mobiles ciblés sur les axes routiers frontaliers [TECHNIQUE]
+- Conséquence : *Une réponse ciblée et réversible* — La mesure évite la lourdeur d’un contrôle systématique tout en donnant une réponse concrète à l’incident. Certains commentateurs la jugent trop modeste pour peser réellement sur les passages constatés.
+- Déclaration : initial_position
 
-**25. Le score ouvre une autre campagne** _(between_rounds)_
-- Choix : Transformer immédiatement léquipe présidentielle en cellule pour les élections législatives [OFFENSIF]
-- Conséquence : *La campagne ne démonte pas ses bureaux* — Les bénévoles reçoivent un nouvel objectif avant que la déception ne les disperse. La rapidité préserve le réseau et reporte lanalyse de vos erreurs à une date incertaine.
+**24. Une accusation jugée infondée vise un adversaire** _(campaign)_
+- Choix : Ne pas commenter et laisser chacun se faire son opinion [PRUDENT]
+- Conséquence : *Aucune prise de position* — La neutralité évite de s’exposer sur une affaire qui ne concerne pas directement votre camp. Elle prive aussi votre image d’un geste qui aurait pu être remarqué favorablement.
+
+**25. Les reports refusent la mécanique** _(between_rounds)_
+- Choix : Concentrer toute la communication sur le risque représenté par votre adversaire [OFFENSIF]
+- Conséquence : *Le rejet devient le seul ciment* — La stratégie mobilise rapidement ceux qui craignent le finaliste et augmente aussi la lassitude des électeurs sans enthousiasme. Vous améliorez les reports fragiles au prix dun mandat positif plus faible.
+
+**26. Le centre droit négocie son élargissement** _(party)_
+- Choix : Créer un conseil de coalition public avec un représentant de chaque soutien [RASSEMBLEUR]
+- Conséquence : *La coalition expose ses règles* — Les partenaires expliquent leur contribution et mobilisent leurs réseaux sans prétendre avoir fusionné. Le conseil produit plusieurs messages concurrents pendant une semaine déjà très courte.
+
+**27. Le débat de lentre-deux-tours** _(between_rounds)_
+- Choix : Appeler directement les abstentionnistes à choisir entre vos deux projets plutôt qu’entre deux personnes [POPULAIRE]
+- Conséquence : *Le débat se termine sur la participation* — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
+
+**28. La coalition réclame une annexe** _(between_rounds)_
+- Choix : Adopter les douze mesures et présenter le texte comme un nouveau contrat de second tour [OPPORTUNISTE]
+- Conséquence : *Le programme change de forme entre les deux tours* — La coalition se mobilise sans réserve et certains électorats éliminés obtiennent des motifs clairs de report. Vos deux contradictions réapparaissent aussitôt et votre socle doute de la valeur des promesses du premier tour.
+
+**29. Les soutiens arrivent avec leurs conditions** _(between_rounds)_
+- Choix : Réunir tous les soutiens sur scène et annoncer un conseil de coalition après lélection [RASSEMBLEUR]
+- Conséquence : *La photographie élargit la majorité* — Limage de rassemblement domine la soirée et mobilise les électeurs qui veulent battre votre adversaire. Labsence daccord précis permet à chacun de projeter ses attentes et prépare des conflits si vous gagnez.
+
+**30. La première adresse de lÉlysée** _(government)_
+- Choix : Annoncer trois textes, leur calendrier parlementaire et les consultations qui les précéderont [PRÉSIDENTIEL]
+- Conséquence : *Trois textes ouvrent le mandat* — Le calendrier rend les priorités prévisibles et distingue les décisions immédiates des négociations. Certains soutiens ne retrouvent pas leur mesure phare, mais personne ne peut prétendre que tout sera fait en même temps.
+
+**31. Le choix de Matignon** _(government)_
+- Choix : Nommer la responsable fictive du programme et lui confier la négociation de la majorité [LOYAL]
+- Conséquence : *Le programme entre directement à Matignon* — La nomination assure une continuité nette avec la campagne et rassure les militants sur les premières réformes. Les alliés réclament davantage de garanties avant de soutenir le gouvernement.

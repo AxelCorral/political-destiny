@@ -1,11 +1,11 @@
 # lfi · aleatoire · seed 54
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-54` — Méthode : union
-Résultat : qualifié — score final 71/100 — fin `runoff_defeat`
-Score 1er tour : 16.3 — Score 2nd tour : 45.2 — Progression : 3.3
+Résultat : qualifié — score final 73/100 — fin `runoff_defeat`
+Score 1er tour : 15.7 — Score 2nd tour : 47.5 — Progression : 2.7
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 1 souvenirs d'acteurs, 67 actions adverses (alliance|crisis|endorsement|replacement|strategy), 0 alliance(s), 1 remplacement(s)
-Idéologie : mouvement total 23.71 points, axe le plus mobile 16.16 points
+Mémoire/monde : 0 souvenirs d'acteurs, 65 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 15.27 points, axe le plus mobile 4.58 points
 
 ## Chronologie
 
@@ -49,73 +49,70 @@ Idéologie : mouvement total 23.71 points, axe le plus mobile 16.16 points
 - Choix : Demander une avance bancaire et publier le taux ainsi que l’échéancier [TECHNIQUE]
 - Conséquence : *Le crédit maintient la tournée* — La banque accepte un montant inférieur à votre demande. L’échéancier transparent évite la polémique, mais le remboursement pèsera sur la fin de campagne.
 
-**10. La CFDT veut des garanties écrites** _(alliance)_
-- Choix : Refuser toute garantie préalable et défendre la légitimité du programme présidentiel [PRÉSIDENTIEL]
-- Conséquence : *Le mandat électoral prime sur la négociation* — Votre position rassure ceux qui craignent les blocages et ferme la possibilité d’un signal syndical favorable. Les équipes CFDT préparent une campagne autonome de vigilance sur vos réformes.
+**10. Douze députés offrent leur expérience** _(alliance)_
+- Choix : Signer une charte de soutien libre avec réunion hebdomadaire et désaccords publiables [INSTITUTIONNEL]
+- Conséquence : *Douze soutiens sans discipline forcée* — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
 
-**11. Contrôles aux frontières : quels moyens** _(program)_
-- Choix : Lancer des contrôles mobiles ciblés sur les axes routiers frontaliers [TECHNIQUE]
-- Conséquence : *Une réponse ciblée et réversible* — La mesure évite la lourdeur d’un contrôle systématique tout en donnant une réponse concrète à l’incident. Certains commentateurs la jugent trop modeste pour peser réellement sur les passages constatés.
-- Déclaration : contradiction
+**11. Une motion réclame un congrès** _(internal)_
+- Choix : Refuser le congrès jusquau scrutin et demander aux signataires de retirer publiquement leur motion [OFFENSIF]
+- Conséquence : *La motion devient une épreuve d’autorité* — Une partie des signataires se range pour ne pas aggraver la crise. Les autres maintiennent le texte, donnent des interviews séparées et installent une fronde qui pourra ressurgir plus tard.
 
-**12. Les tentes encerclent la préfecture** _(world)_
-- Choix : Proposer la réquisition temporaire des bureaux publics vacants avec accompagnement social [CLIVANT]
-- Conséquence : *Des bureaux vacants deviennent hébergement* — La mesure offre une réponse immédiate et juridiquement encadrée à une partie des familles. Elle ne remplace pas les logements pérennes et ouvre un conflit avec les gestionnaires des bâtiments concernés.
+**12. Une aciérie annonce sa fermeture** _(world)_
+- Choix : Proposer une prise de participation publique temporaire pendant la recherche d’un repreneur [CLIVANT]
+- Conséquence : *L’État devient actionnaire de transition* — Le pont financier maintient le site et donne du temps à un projet industriel. Le risque de pertes publiques est réel si aucun repreneur ne s’engage, ce qui transforme le dossier en test de votre doctrine économique.
 - Déclaration : initial_position
 
-**13. Le comité bloque le chapitre sécurité** _(internal)_
-- Choix : Arbitrer en faveur de pouvoirs élargis et publier les garanties de contrôle retenues [PRÉSIDENTIEL]
-- Conséquence : *Le candidat tranche avec des garde-fous* — Le chapitre est bouclé et votre position devient identifiable. La moitié opposée accepte les garanties sans approuver le fond, ce qui réduit sa mobilisation sur les sujets de sécurité.
+**13. Le PS propose trois engagements communs** _(alliance)_
+- Choix : Signer les trois engagements et suspendre toute campagne de vote utile contre le PS [RASSEMBLEUR]
+- Conséquence : *Trois mesures ouvrent une non-agression* — L’accord rend les débats de gauche plus lisibles et améliore les reports potentiels. Vos militants les plus offensifs regrettent d’abandonner un levier contre un concurrent direct du premier tour.
+
+**14. Le meeting change de dispositif** _(campaign)_
+- Choix : Annuler le public et prononcer le discours depuis le siège en direct [PRUDENT]
+- Conséquence : *Le direct remplace la salle* — L’intervention atteint davantage de spectateurs que prévu, sans énergie militante. Vos adversaires jugent l’annulation excessive et le débat se déplace sur votre sang-froid.
+
+**15. Le mix électrique de 2040** _(program)_
+- Choix : Renoncer aux nouveaux réacteurs et concentrer les crédits sur sobriété, stockage et renouvelables [CLIVANT]
+- Conséquence : *La sortie du nouveau nucléaire vous définit* — Les électeurs écologistes retrouvent une ligne nette et les acteurs du nucléaire annoncent une mobilisation contraire. Les questions de stockage et de stabilité du réseau deviennent désormais incontournables.
 - Déclaration : initial_position
 
-**14. Une nuit avec les urgences** _(campaign)_
-- Choix : Publier chaque semaine les lits fermés et convoquer les agences régionales [TRANSPARENT]
-- Conséquence : *Les fermetures deviennent vérifiables* — Le tableau de bord donne aux soignants un outil de pression et oblige votre équipe à assumer les écarts régionaux. Les gestionnaires redoutent une lecture trop brute.
+**16. Le siège arrive à saturation** _(internal)_
+- Choix : Maintenir l’agenda et verser une prime exceptionnelle à tous les salariés mobilisés [RISQUÉ]
+- Conséquence : *La prime ne crée pas d’heures de sommeil* — Le geste financier est apprécié et le programme des déplacements reste intact. La fatigue continue pourtant d’augmenter et une nouvelle erreur coûtera plus cher à réparer en fin de campagne.
 
-**15. Qui financera les priorités** _(program)_
-- Choix : Retirer deux dépenses du programme plutôt que créer un prélèvement supplémentaire [PRUDENT]
-- Conséquence : *Le budget perd deux promesses* — L’absence d’impôt nouveau rassure une partie des classes moyennes et renforce votre discipline budgétaire. Les publics visés par les mesures retirées découvrent immédiatement le prix politique de l’arbitrage.
+**17. La minute qui vous appartient** _(debate)_
+- Choix : Résumer trois engagements, leur financement et la première décision des cent jours [PRÉSIDENTIEL]
+- Conséquence : *Une minute de contrat gouvernemental* — La conclusion relie la campagne à l’exercice du pouvoir et confirme votre sérieux. Elle ne produit pas la phrase virale espérée, mais donne aux électeurs hésitants une raison ordonnée de vous choisir.
+
+**18. Le duel sur les huit milliards** _(debate)_
+- Choix : Comparer immédiatement le coût de votre projet à celui annoncé par votre adversaire [OFFENSIF]
+- Conséquence : *Les deux projets passent au même test* — Vous évitez de nier la dépense et obligez votre adversaire à défendre ses propres hypothèses. Le duel devient équilibré, sans fermer complètement la question sur vos huit milliards.
+
+**19. La laïcité à l’épreuve du quotidien** _(program)_
+- Choix : Créer un statut souple d’accommodements raisonnables étudiés au cas par cas [OPPORTUNISTE]
+- Conséquence : *La souplesse contre la règle uniforme* — Des associations locales saluent une réponse pragmatique aux situations concrètes du terrain. Des élus de tous bords dénoncent un risque d’arbitraire et de contentieux répétés faute de règle claire.
 - Déclaration : initial_position
 
-**16. Les soutiens envahissent le plateau** _(debate)_
-- Choix : Refuser les plateaux d’après-débat et laisser les propositions circuler sans commentaire partisan [PRUDENT]
-- Conséquence : *Le silence cède les premières heures* — Le refus de proclamer une victoire artificielle plaît aux électeurs lassés du commentaire permanent. Vos concurrents occupent cependant seuls les plateaux et fixent une partie de l’interprétation avant le matin.
+**20. Le comité bloque le chapitre sécurité** _(internal)_
+- Choix : Soumettre les deux versions au vote des adhérents avec une note juridique commune [RASSEMBLEUR]
+- Conséquence : *Les adhérents choisissent le chapitre* — La participation est forte et le résultat donne une légitimité nette au texte retenu. Vous perdez la maîtrise de ce marqueur programmatique mais gagnez des militants capables den défendre la procédure.
 
-**17. La une vous prête un tournant** _(media)_
-- Choix : Publier ensemble vos mesures pour l’investissement, les salaires et les droits des salariés [RASSEMBLEUR]
-- Conséquence : *Le tournant devient un contrat* — La publication simultanée empêche chaque camp de ne retenir qu’une moitié du projet. Elle ne satisfait pleinement ni les syndicats ni les dirigeants, mais rend la cohérence économique plus difficile à caricaturer.
+**21. Qui financera les priorités** _(program)_
+- Choix : Supprimer dix niches fiscales identifiées et publier le rendement attendu de chacune [TECHNIQUE]
+- Conséquence : *Dix avantages ont désormais dix défenseurs* — La liste crédibilise le financement et permet une vérification précise. Chaque secteur concerné organise cependant sa riposte, transformant un arbitrage technique en dix conflits concrets.
 - Déclaration : initial_position
 
-**18. L’adversaire refuse de vous laisser répondre** _(debate)_
-- Choix : Couper à votre tour et exiger que chacun lise son propre financement à voix haute [OFFENSIF]
-- Conséquence : *Le brouhaha devient épreuve de vérité* — La confrontation est désordonnée mais le défi sur les financements marque les esprits. Votre adversaire refuse l’exercice, ce qui vous offre un extrait favorable sans restaurer la qualité du débat.
+**22. Neuf candidats face au climat** _(debate)_
+- Choix : Conditionner chaque dépense climatique à une baisse d’émissions mesurée deux ans après son lancement [TECHNIQUE]
+- Conséquence : *Une clause de résultat remplace la liste* — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
+- Déclaration : strategic_repositioning
 
-**19. Ce que l’école doit transmettre** _(program)_
-- Choix : Introduire un enseignement moral et civique renforcé avec évaluation nationale [INSTITUTIONNEL]
-- Conséquence : *Un socle commun évalué* — La proposition rassure les parents inquiets d’un manque de repères communs et donne un cadre national lisible. Les syndicats enseignants contestent l’ajout d’une évaluation qu’ils jugent bureaucratique.
-- Déclaration : abrupt_reversal
+**23. Une ligne du CV est fausse** _(scandal)_
+- Choix : Demander sa démission, corriger sa biographie et publier les contributions qu’il a réellement produites [TRANSPARENT]
+- Conséquence : *Le titre disparaît avec la fonction* — La sanction fixe une règle nette sur les biographies et les travaux publiés montrent que l’expertise ne reposait pas sur le faux titre. L’équipe énergie perd néanmoins son coordinateur en pleine campagne.
 
-**20. Le contrôle interne signale trois factures** _(internal)_
-- Choix : Demander aux équipes locales de reconstituer les dossiers avant tout signalement extérieur [PRUDENT]
-- Conséquence : *Les pièces reviennent, une dépense reste floue* — Deux factures sont documentées en quarante-huit heures. La troisième correspond à une prestation orale mal encadrée, qui demeure défendable mais expose la campagne à une question ultérieure.
-
-**21. Six rédactions face au désert médical** _(media)_
-- Choix : Financer des maisons de santé mobiles gérées avec les départements volontaires [TECHNIQUE]
-- Conséquence : *Une solution concrète mais partielle* — Deux départements proposent aussitôt d’expérimenter le dispositif. La réponse ne règle pas la pénurie de médecins, mais elle donne à votre déplacement un résultat mesurable et territorial.
-- Déclaration : coherent_compromise
-
-**22. La minute qui vous appartient** _(debate)_
-- Choix : Appeler les électeurs proches à concentrer leurs voix sur votre candidature dès le premier tour [OFFENSIF]
-- Conséquence : *Le vote utile entre dans la dernière ligne droite* — L’appel inquiète les candidats voisins et convainc certains indécis que la qualification se joue maintenant. Il réduit votre capacité à négocier sereinement avec ces mêmes partis après le débat.
-
-**23. La grève bloque les transports** _(world)_
-- Choix : Proposer un service minimal renforcé et conditionner toute aide publique à sa mise en œuvre [OFFENSIF]
-- Conséquence : *Le service minimal devient votre réponse* — Les usagers réguliers comprennent immédiatement la mesure et les syndicats dénoncent une restriction de leur rapport de force. La grève reste active et la campagne se polarise sur le droit de grève.
-- Déclaration : initial_position
-
-**24. Les factures sans pièce ressortent** _(scandal)_
-- Choix : Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusquà conclusion [TRANSPARENT]
-- Conséquence : *La trésorerie passe sous contrôle extérieur* — Les documents confirment les prestations tout en montrant des procédures trop légères. Maud Keravel accepte la suspension sans reconnaître de faute et le contrôle indépendant fixe un calendrier de conclusion.
+**24. Le dernier grand meeting** _(campaign)_
+- Choix : Mobiliser les abstentionnistes avec un plan de procurations et de transports [POPULAIRE]
+- Conséquence : *La salle devient une organisation électorale* — Les participants repartent avec des responsabilités concrètes pour dimanche. L’intervention parle moins de programme et augmente nettement votre capacité de mobilisation.
 
 **25. Deux points davance à cinq jours** _(between_rounds)_
 - Choix : Prononcer une adresse de rassemblement sans nouvelle mesure ni attaque personnelle [PRÉSIDENTIEL]
@@ -129,9 +126,9 @@ Idéologie : mouvement total 23.71 points, axe le plus mobile 16.16 points
 - Choix : Refuser toute modification et demander un ralliement sur lintégralité du programme [LOYAL]
 - Conséquence : *Le second tour reste celui du programme initial* — La cohérence mobilise très fortement votre base et laisse les électeurs alliés sans garantie nouvelle. Le résultat dépend davantage du rejet de ladversaire que de votre capacité à construire une majorité.
 
-**28. Les reports refusent la mécanique** _(between_rounds)_
-- Choix : Ajouter une garantie sociale ciblée au contrat de coalition et en chiffrer le coût [RASSEMBLEUR]
-- Conséquence : *Une garantie donne un motif positif de report* — Les électeurs concernés voient leur priorité dans le contrat et leur participation estimée remonte. La mesure tardive augmente le coût du programme et inquiète ceux qui craignent une coalition sans limite.
+**28. Les soutiens arrivent avec leurs conditions** _(between_rounds)_
+- Choix : Remercier chaque soutien et refuser toute négociation programmatique avant le scrutin [LOYAL]
+- Conséquence : *Les soutiens viennent sans contrat* — Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.
 
 **29. Les dernières heures autorisées** _(between_rounds)_
 - Choix : Déployer les militants dans cent gares et marchés avec un appel personnalisé à participer [POPULAIRE]

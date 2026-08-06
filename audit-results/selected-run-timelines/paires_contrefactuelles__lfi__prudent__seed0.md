@@ -1,11 +1,11 @@
 # lfi · prudent · seed 0
 
 Parti : **lfi** (existing) — Agent : **prudent** — Graine : `post-audit-0` — Méthode : field_first
-Résultat : qualifié — score final 70/100 — fin `runoff_defeat`
-Score 1er tour : 16 — Score 2nd tour : 44.5 — Progression : 3
+Résultat : qualifié — score final 76/100 — fin `runoff_defeat`
+Score 1er tour : 16.5 — Score 2nd tour : 46.9 — Progression : 3.5
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 4 souvenirs d'acteurs, 71 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 10.18 points, axe le plus mobile 7.83 points
+Mémoire/monde : 2 souvenirs d'acteurs, 71 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 19.17 points, axe le plus mobile 14.07 points
 
 ## Chronologie
 
@@ -44,71 +44,74 @@ Idéologie : mouvement total 10.18 points, axe le plus mobile 7.83 points
 - Choix : Accorder le budget demandé avec trois engagements communs et un droit de réponse du candidat [RASSEMBLEUR]
 - Conséquence : *La campagne jeune trouve sa voix* — Les vidéos et réunions touchent des publics absents de vos meetings, tout en respectant les trois engagements communs. Quelques différences de vocabulaire deviennent visibles sans créer de contradiction programmatique.
 
-**9. La CFDT veut des garanties écrites** _(alliance)_
+**9. Douze députés offrent leur expérience** _(alliance)_
+- Choix : Refuser les ralliements individuels et demander seulement une expertise juridique publique [PRUDENT]
+- Conséquence : *L’expertise remplace les ralliements* — Les députés relisent vos textes institutionnels sans afficher un soutien électoral. Votre programme gagne en solidité et votre compteur de soutiens reste inchangé.
+
+**10. La CFDT veut des garanties écrites** _(alliance)_
 - Choix : Promettre une consultation sans conditionner la réforme à l’issue de la négociation [PRUDENT]
 - Conséquence : *La consultation ne vaut pas codécision* — Le syndicat reconnaît une ouverture mais refuse de valoriser publiquement une garantie qu’il juge incomplète. Vous conservez la liberté d’arbitrage et obtenez seulement une relation de travail correcte.
 
-**10. Le comité bloque le chapitre sécurité** _(internal)_
-- Choix : Soumettre les deux versions au vote des adhérents avec une note juridique commune [RASSEMBLEUR]
-- Conséquence : *Les adhérents choisissent le chapitre* — La participation est forte et le résultat donne une légitimité nette au texte retenu. Vous perdez la maîtrise de ce marqueur programmatique mais gagnez des militants capables den défendre la procédure.
+**11. Le débat sur les pouvoirs exceptionnels** _(rare)_
+- Choix : Promettre une consultation publique du Conseil constitutionnel et un contrôle parlementaire renforcé [INSTITUTIONNEL]
+- Conséquence : *Les pouvoirs d’exception reçoivent des limites annoncées* — Votre réponse ne prétend pas modifier la Constitution par une promesse, mais fixe la transparence et le contrôle que vous rechercheriez. Elle rassure sur votre rapport au pouvoir sans nier les cas extrêmes.
+- Déclaration : initial_position
 
-**11. LFI choisit entre mouvement et candidat** _(party)_
-- Choix : Donner aux groupes daction un budget local et un droit damendement sur les tracts [RASSEMBLEUR]
-- Conséquence : *Les groupes daction gagnent une marge réelle* — Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.
+**12. La note sur le vote utile fuite** _(internal)_
+- Choix : Publier la note entière, identifier son auteur fictif et confirmer les options finalement écartées [TRANSPARENT]
+- Conséquence : *La note complète montre un scénario abandonné* — Les pages manquantes prouvent que plusieurs stratégies étaient étudiées et que l’attaque n’a pas été retenue. La publication expose vos calculs électoraux, mais réduit nettement l’accusation d’hypocrisie.
 
-**12. La question venue de Mayotte** _(debate)_
-- Choix : Proposer un audit de quatre semaines mené avec les élus et les services publics de Mayotte [INSTITUTIONNEL]
-- Conséquence : *Un audit territorial remplace le chiffre improvisé* — Vous ne prétendez pas résoudre le dossier en direct et décrivez une méthode associant les acteurs locaux. Le délai paraît sérieux, mais la questionneuse attendait aussi une réponse sur l’urgence immédiate.
+**13. Le micro resté ouvert** _(media)_
+- Choix : Accuser la chaîne d’avoir diffusé une conversation privée et refuser de commenter le fond [CLIVANT]
+- Conséquence : *Le droit ne répond pas au malaise* — La protestation sur les conditions d’enregistrement soulève une vraie question professionnelle, sans effacer vos mots. L’équipe comprend votre silence comme un refus de traiter le conflit interne.
 
-**13. Vingt-quatre heures sans caméra** _(media)_
-- Choix : Maintenir la journée de travail et publier l’agenda précis des réunions programmatiques [PRUDENT]
-- Conséquence : *Une pause lisible dans la campagne* — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
-
-**14. La porte-parole annonce trop tôt** _(internal)_
-- Choix : Corriger publiquement l’annonce et maintenir la porte-parole après un rappel des procédures [LOYAL]
-- Conséquence : *Une correction sans sacrifice humain* — La campagne distingue l’erreur individuelle de la décision collective et publie l’état exact de l’arbitrage. La porte-parole reste en fonction, reconnaissante, tandis que la proposition perd son effet de surprise.
+**14. Le PS propose trois engagements communs** _(alliance)_
+- Choix : Signer les trois engagements et suspendre toute campagne de vote utile contre le PS [RASSEMBLEUR]
+- Conséquence : *Trois mesures ouvrent une non-agression* — L’accord rend les débats de gauche plus lisibles et améliore les reports potentiels. Vos militants les plus offensifs regrettent d’abandonner un levier contre un concurrent direct du premier tour.
 
 **15. Les affiches manquent dans six villes** _(campaign)_
 - Choix : Répartir la commande entre trois imprimeurs locaux et publier les coûts [TRANSPARENT]
 - Conséquence : *Les imprimeurs rattrapent le retard* — Les premières affiches arrivent sous quarante-huit heures. La solution coûte davantage, mais les sections disposent enfin d’un calendrier et de factures consultables.
 
-**16. La présidence que vous proposez** _(program)_
-- Choix : Conserver les institutions actuelles et limiter seulement les nominations présidentielles [PRUDENT]
-- Conséquence : *La continuité reçoit un contre-pouvoir ciblé* — Les électeurs soucieux de stabilité comprennent la réforme et les juristes la jugent réaliste. Votre camp le plus réformateur y voit une occasion manquée de corriger la concentration du pouvoir.
-- Déclaration : abrupt_reversal
+**16. La laïcité à l’épreuve du quotidien** _(program)_
+- Choix : En rester au cadre actuel et former les agents publics à son application [TECHNIQUE]
+- Conséquence : *La formation plutôt qu’une nouvelle loi* — La proposition est concrète et administrativement réaliste, ce qui rassure les agents concernés. Elle ne répond pas aux attentes des camps qui espéraient un signal politique plus net, dans un sens ou dans l’autre.
+- Déclaration : initial_position
 
-**17. Le contrôle interne signale trois factures** _(internal)_
-- Choix : Suspendre les paiements concernés et confier les justificatifs à un expert-comptable indépendant [TRANSPARENT]
-- Conséquence : *Les paiements attendent le contrôle* — Le gel ralentit deux fournisseurs mais sécurise la trace documentaire. Maud Keravel soutient la décision et l’expert dispose d’un mandat écrit qui permettra de conclure sans pression politique.
-
-**18. La collecte se bloque** _(campaign)_
-- Choix : Demander une avance bancaire et publier le taux ainsi que l’échéancier [TECHNIQUE]
-- Conséquence : *Le crédit maintient la tournée* — La banque accepte un montant inférieur à votre demande. L’échéancier transparent évite la polémique, mais le remboursement pèsera sur la fin de campagne.
-
-**19. Deux équipes se disputent le terrain** _(internal)_
-- Choix : Partager la journée entre porte-à-porte le matin et production vidéo l’après-midi [RASSEMBLEUR]
-- Conséquence : *Les bénévoles testent les deux méthodes* — Le compromis produit moins de portes et moins de vidéos qu’espéré, mais les équipes voient enfin le travail de l’autre. Samira Bellon reste engagée et propose une évaluation commune des résultats.
-
-**20. Les factures sans pièce ressortent** _(scandal)_
-- Choix : Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusquà conclusion [TRANSPARENT]
-- Conséquence : *La trésorerie passe sous contrôle extérieur* — Les documents confirment les prestations tout en montrant des procédures trop légères. Maud Keravel accepte la suspension sans reconnaître de faute et le contrôle indépendant fixe un calendrier de conclusion.
-
-**21. Les sections refusent le kit national** _(internal)_
+**17. Les sections refusent le kit national** _(internal)_
 - Choix : Autoriser le tract breton après chiffrage et intégrer sa proposition comme expérimentation régionale [RASSEMBLEUR]
 - Conséquence : *La proposition locale devient expérimentation* — Les sections obtiennent une adaptation réelle sans transformer le document en programme parallèle. Le chiffrage retarde l’impression mais renforce la mobilisation et votre implantation en Bretagne.
 
-**22. Six rédactions face au désert médical** _(media)_
+**18. Six rédactions face au désert médical** _(media)_
 - Choix : Proposer des contrats territoriaux avec objectifs publics et financement garanti sur cinq ans [INSTITUTIONNEL]
 - Conséquence : *Les territoires obtiennent une méthode* — Les rédactions discutent les critères plutôt que vos intentions. Les élus locaux saluent la visibilité pluriannuelle, même si le dispositif ne promet pas un médecin dans chaque commune.
 - Déclaration : initial_position
 
-**23. Cinq cents bénévoles sans mission** _(internal)_
-- Choix : Former les nouveaux bénévoles pendant deux soirées avant toute prise de contact électorale [PRUDENT]
-- Conséquence : *Les nouveaux arrivent préparés sur le terrain* — La campagne renonce à deux jours d’élan mais évite les réponses contradictoires et les problèmes de données personnelles. Les bénévoles formés restent davantage engagés au fil des semaines.
+**19. Les soutiens envahissent le plateau** _(debate)_
+- Choix : Reconnaître la réponse territoriale insuffisante et publier dès le matin une proposition corrigée [TRANSPARENT]
+- Conséquence : *Le point faible reçoit une suite* — Vos soutiens ne prétendent pas que tout fut réussi et annoncent un travail précis sur le sujet manqué. La dynamique immédiate reste modeste, mais la campagne gagne un mécanisme de correction crédible.
 
-**24. L’audit clôt le dossier des factures** _(scandal)_
-- Choix : Publier la conclusion intégrale et appliquer les six recommandations avant tout nouveau paiement [TRANSPARENT]
-- Conséquence : *Six procédures remplacent le soupçon* — Le rapport écarte le récit d’une fraude personnelle et documente les négligences réelles. La campagne adopte chaque correction, ralentit ses paiements et referme le dossier sur des changements vérifiables.
+**20. Cent quartiers en porte-à-porte** _(campaign)_
+- Choix : Confier aux équipes un carnet d’écoute et publier la synthèse nationale [RASSEMBLEUR]
+- Conséquence : *Les préoccupations dessinent une carte* — Les carnets font apparaître des écarts nets entre transports, sécurité et santé. La campagne adapte ses déplacements sans prétendre que l’échantillon vaut sondage.
+
+**21. Le contrat du conseiller est publié** _(scandal)_
+- Choix : Annuler la prime d’un commun accord et publier la liste complète des livrables reçus [TRANSPARENT]
+- Conséquence : *La rémunération revient aux prestations* — Léonard Pujol renonce à la clause contre le paiement du travail déjà documenté. La publication des livrables montre ce que la campagne a acheté et réduit la polémique sans effacer le mauvais choix initial.
+
+**22. Le salaire net au centre** _(program)_
+- Choix : Conditionner les allègements de cotisations à des négociations salariales conclues dans chaque branche [INSTITUTIONNEL]
+- Conséquence : *Les aides deviennent un levier de négociation* — Les syndicats obtiennent un rapport de force concret et les entreprises gardent une marge sectorielle. Le résultat dépendra de dizaines de négociations, ce qui rend le gain salarial moins immédiat mais plus soutenable.
+- Déclaration : gradual_evolution
+
+**23. Tensions internes chez Reconquête** _(world)_
+- Choix : Ne faire aucun commentaire et laisser le sujet suivre son cours [PRUDENT]
+- Conséquence : *Aucun commentaire de votre part* — Le silence évite d’apparaître opportuniste sur une difficulté qui ne vous concerne pas directement. Le sujet continue néanmoins d’occuper l’actualité sans votre intervention.
+
+**24. Qui financera les priorités** _(program)_
+- Choix : Retirer deux dépenses du programme plutôt que créer un prélèvement supplémentaire [PRUDENT]
+- Conséquence : *Le budget perd deux promesses* — L’absence d’impôt nouveau rassure une partie des classes moyennes et renforce votre discipline budgétaire. Les publics visés par les mesures retirées découvrent immédiatement le prix politique de l’arbitrage.
+- Déclaration : initial_position
 
 **25. Les soutiens arrivent avec leurs conditions** _(between_rounds)_
 - Choix : Négocier séparément trois garanties publiques sans modifier le socle du programme [PRUDENT]

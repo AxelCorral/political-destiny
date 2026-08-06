@@ -1,11 +1,11 @@
 # lfi · prudent · seed 1
 
 Parti : **lfi** (existing) — Agent : **prudent** — Graine : `post-audit-1` — Méthode : presidential
-Résultat : qualifié, **vainqueur** — score final 77/100 — fin `president`
-Score 1er tour : 14.4 — Score 2nd tour : 55 — Progression : 1.4
+Résultat : qualifié, **vainqueur** — score final 73/100 — fin `president`
+Score 1er tour : 13.7 — Score 2nd tour : 54.4 — Progression : 0.7
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 0 souvenirs d'acteurs, 75 actions adverses (alliance|crisis|strategy), 1 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 17.94 points, axe le plus mobile 7.3 points
+Mémoire/monde : 1 souvenirs d'acteurs, 76 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 13.66 points, axe le plus mobile 7.3 points
 
 ## Chronologie
 
@@ -50,9 +50,9 @@ Idéologie : mouvement total 17.94 points, axe le plus mobile 7.3 points
 - Conséquence : *La revalorisation vient avec une nouvelle mission* — La hausse salariale répond à une attente ancienne, mais le temps supplémentaire est contesté selon les établissements. Le compromis ouvre une négociation sérieuse plutôt qu’une adhésion automatique.
 - Déclaration : initial_position
 
-**10. Une ligne du CV est fausse** _(scandal)_
-- Choix : Suspendre le responsable pendant une semaine et faire vérifier toutes les biographies de l’équipe [PRUDENT]
-- Conséquence : *Quarante biographies passent au contrôle* — La vérification ne trouve aucune autre fausse fonction et le responsable présente des excuses avant de revenir. Votre réponse paraît proportionnée, au prix d’une semaine de ralentissement programmatique.
+**10. Le rapport reprend huit paragraphes** _(scandal)_
+- Choix : Retirer la note, citer chaque source et republier une version distinguant données et propositions [TRANSPARENT]
+- Conséquence : *Les citations reviennent dans le document* — La nouvelle version montre que les données venaient d’un rapport public et que vos propositions restent propres à la campagne. L’erreur éditoriale est reconnue sans prétendre que le fond était inventé.
 
 **11. Le meeting change de dispositif** _(campaign)_
 - Choix : Maintenir le meeting en appliquant intégralement le protocole préfectoral [PRUDENT]
@@ -74,42 +74,42 @@ Idéologie : mouvement total 17.94 points, axe le plus mobile 7.3 points
 - Choix : Demander un audit communal d’un mois avant de choisir la mesure [PRUDENT]
 - Conséquence : *Le diagnostic paraît déjà connu* — Les élus acceptent de transmettre les données, mais la salle estime avoir décrit le problème depuis des années. Votre prudence protège le budget et coûte politiquement.
 
-**16. Les jeunes veulent leur propre campagne** _(internal)_
-- Choix : Accorder le budget demandé avec trois engagements communs et un droit de réponse du candidat [RASSEMBLEUR]
-- Conséquence : *La campagne jeune trouve sa voix* — Les vidéos et réunions touchent des publics absents de vos meetings, tout en respectant les trois engagements communs. Quelques différences de vocabulaire deviennent visibles sans créer de contradiction programmatique.
+**16. Douze députés offrent leur expérience** _(alliance)_
+- Choix : Refuser les ralliements individuels et demander seulement une expertise juridique publique [PRUDENT]
+- Conséquence : *L’expertise remplace les ralliements* — Les députés relisent vos textes institutionnels sans afficher un soutien électoral. Votre programme gagne en solidité et votre compteur de soutiens reste inchangé.
 
-**17. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Décliner le soutien pour conserver une campagne sans vedette et proposer une rencontre privée [PRUDENT]
-- Conséquence : *La notoriété reste hors de l’affiche* — Nina Sorel respecte le refus et publie seulement qu’elle a été reçue sur le logement. Vous perdez une audience importante mais préservez une campagne où les soutiens ne remplacent pas les propositions.
+**17. Une contradiction chez le camp centriste** _(debate)_
+- Choix : Ne pas soulever le sujet et concentrer le débat sur votre propre programme [PRUDENT]
+- Conséquence : *Le choix de ne pas attaquer* — Le débat reste concentré sur votre propre offre programmatique, plus valorisante pour vous. Une partie de la presse spécialisée note après coup que l’occasion n’a pas été saisie.
 
-**18. Le forum étudiant refuse les slogans** _(campaign)_
-- Choix : Refuser une réponse unique et ouvrir un débat filière par filière [PRUDENT]
-- Conséquence : *La sélection reste sans ligne nationale* — Les responsables de filières acceptent le travail proposé, mais les associations dénoncent un report. Vous évitez une promesse impossible et perdez le moment politique.
+**18. Cent quartiers en porte-à-porte** _(campaign)_
+- Choix : Confier aux équipes un carnet d’écoute et publier la synthèse nationale [RASSEMBLEUR]
+- Conséquence : *Les préoccupations dessinent une carte* — Les carnets font apparaître des écarts nets entre transports, sécurité et santé. La campagne adapte ses déplacements sans prétendre que l’échantillon vaut sondage.
 
-**19. Vingt-quatre heures sans caméra** _(media)_
-- Choix : Maintenir la journée de travail et publier l’agenda précis des réunions programmatiques [PRUDENT]
-- Conséquence : *Une pause lisible dans la campagne* — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
+**19. La photographie du quai vide** _(media)_
+- Choix : Ignorer la photographie et publier uniquement les engagements annoncés à Lille [PRUDENT]
+- Conséquence : *Le fond reprend lentement sa place* — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
 
-**20. Neuf candidats face au climat** _(debate)_
-- Choix : Conditionner chaque dépense climatique à une baisse d’émissions mesurée deux ans après son lancement [TECHNIQUE]
-- Conséquence : *Une clause de résultat remplace la liste* — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
-- Déclaration : coherent_compromise
+**20. Deux cents maires demandent un contrat** _(alliance)_
+- Choix : Refuser un contrat séparé et renvoyer les mesures territoriales au programme national [PRUDENT]
+- Conséquence : *Le programme national ne reçoit pas de cosignataire* — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
 
-**21. Un fichier militant sort du siège** _(scandal)_
-- Choix : Suspendre tous les outils militants pendant quarante-huit heures et reconstruire les droits d’accès [OFFENSIF]
-- Conséquence : *La campagne numérique se met à l’arrêt* — La reconstruction supprime plusieurs accès anciens et rassure les bénévoles sur la sécurité future. Deux jours sans fichiers ni relances réduisent nettement la mobilisation au pire moment.
+**21. Une accusation jugée infondée vise un adversaire** _(campaign)_
+- Choix : Demander publiquement que la rumeur cesse tant qu’aucune preuve n’existe [LOYAL]
+- Conséquence : *Une prise de position publique et rare* — Le geste est salué pour son intégrité, y compris par des électeurs peu proches de votre ligne. Le camp socialiste prend acte du soutien inattendu, qui laisse une trace durable dans la relation entre les deux équipes.
 
-**22. Le déplacement en Guadeloupe engage** _(campaign)_
-- Choix : Renforcer l’observatoire des prix et publier les marges par filière [TRANSPARENT]
-- Conséquence : *Les marges deviennent un objet politique* — La publication promise reçoit un soutien large et inquiète plusieurs distributeurs. Vous gagnez sur la transparence, sans pouvoir garantir une baisse immédiate des prix.
+**22. Le micro resté ouvert** _(media)_
+- Choix : Accuser la chaîne d’avoir diffusé une conversation privée et refuser de commenter le fond [CLIVANT]
+- Conséquence : *Le droit ne répond pas au malaise* — La protestation sur les conditions d’enregistrement soulève une vraie question professionnelle, sans effacer vos mots. L’équipe comprend votre silence comme un refus de traiter le conflit interne.
 
-**23. Saint-Denis ouvre ses réseaux associatifs** _(party)_
-- Choix : Tenir six ateliers et signer un tableau dengagements avec les associations participantes [POPULAIRE]
-- Conséquence : *Six soirées produisent un contrat local* — Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.
+**23. La Sixième République doit prendre forme** _(party)_
+- Choix : Commencer par la proportionnelle et le référendum partagé avant de convoquer une constituante [PRUDENT]
+- Conséquence : *La nouvelle République devient un chemin en trois étapes* — La trajectoire paraît plus réalisable et élargit les alliances parlementaires possibles. Les militants les plus attachés à la rupture craignent que la constituante soit repoussée indéfiniment.
+- Déclaration : abrupt_reversal
 
-**24. L’adversaire refuse de vous laisser répondre** _(debate)_
-- Choix : Demander à la modératrice de restituer précisément votre temps avant de poursuivre [INSTITUTIONNEL]
-- Conséquence : *Le chronomètre rend la parole* — La production vous accorde quarante secondes supplémentaires et applique la même règle à tous. Votre réponse est entendue, mais certains commentateurs jugent l’appel au règlement excessivement procédurier.
+**24. Un rival corrige votre ligne** _(internal)_
+- Choix : Accepter le vote du bureau et défendre votre proposition devant chaque courant [INSTITUTIONNEL]
+- Conséquence : *Le bureau confirme la ligne* — Votre proposition l’emporte après deux concessions de financement. Le rival accepte le résultat et votre autorité gagne une base collective, au prix d’un dispositif légèrement moins lisible.
 
 **25. Les dernières heures autorisées** _(between_rounds)_
 - Choix : Enregistrer une adresse courte résumant les trois engagements inchangés depuis le premier tour [PRÉSIDENTIEL]

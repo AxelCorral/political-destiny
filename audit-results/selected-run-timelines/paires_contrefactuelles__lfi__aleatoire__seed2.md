@@ -1,11 +1,11 @@
 # lfi · aleatoire · seed 2
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-2` — Méthode : rupture
-Résultat : éliminé au 1er tour — score final 53/100 — fin `kingmaker`
-Score 1er tour : 13.7 — Score 2nd tour : n/a — Progression : 0.7
+Résultat : éliminé au 1er tour — score final 48/100 — fin `kingmaker`
+Score 1er tour : 12.6 — Score 2nd tour : n/a — Progression : -0.4
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 2 souvenirs d'acteurs, 66 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 16.75 points, axe le plus mobile 6.79 points
+Mémoire/monde : 4 souvenirs d'acteurs, 66 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 13.71 points, axe le plus mobile 8.4 points
 
 ## Chronologie
 
@@ -47,18 +47,17 @@ Idéologie : mouvement total 16.75 points, axe le plus mobile 6.79 points
 - Choix : Convoquer le congrès, limiter son ordre du jour à léconomie et appliquer son vote [INSTITUTIONNEL]
 - Conséquence : *Le congrès tranche réellement* — Le débat révèle les fractures mais le vote donne une ligne commune et opposable à tous. Vous cédez une part de contrôle sur le programme en échange d’une cohésion renforcée.
 
-**10. Un virement suit un trajet complexe** _(scandal)_
-- Choix : Conserver le don sur la foi d’une attestation simple et répondre seulement si la commission interroge [RISQUÉ]
-- Conséquence : *L’argent reste disponible, la question aussi* — L’attestation satisfait provisoirement la banque et permet de payer une tournée. Elle ne documente pas les virements intermédiaires, qui restent une faiblesse lors du contrôle final.
+**10. L’imprimeur a doublé une ligne** _(scandal)_
+- Choix : Rompre le contrat, demander le remboursement et répartir les commandes entre deux imprimeurs [OFFENSIF]
+- Conséquence : *Le contrat s’arrête avec les presses* — Le remboursement est obtenu et le signal de rigueur est net. Les nouveaux imprimeurs ne peuvent respecter le même calendrier, ce qui retarde l’affichage dans quatre régions.
 
-**11. Le duel sur les huit milliards** _(debate)_
-- Choix : Comparer immédiatement le coût de votre projet à celui annoncé par votre adversaire [OFFENSIF]
-- Conséquence : *Les deux projets passent au même test* — Vous évitez de nier la dépense et obligez votre adversaire à défendre ses propres hypothèses. Le duel devient équilibré, sans fermer complètement la question sur vos huit milliards.
+**11. La question venue de Mayotte** _(debate)_
+- Choix : Estimer le chiffre à partir de vos notes et proposer immédiatement un montant d’investissement [RISQUÉ]
+- Conséquence : *Le chiffre confond deux réseaux* — Vous utilisez une donnée qui concerne l’assainissement plutôt que l’accès à l’eau. La confusion est corrigée en direct et devient un exemple de la faible préparation ultramarine de votre campagne.
 
-**12. La Sixième République doit prendre forme** _(party)_
-- Choix : Détailler lélection de la constituante, son mandat de dix-huit mois et le référendum final [INSTITUTIONNEL]
-- Conséquence : *La rupture reçoit un calendrier* — La procédure rend le projet vérifiable et répond aux craintes sur la transition. Elle expose aussi chaque règle à la critique et oblige LFI à expliquer comment gouverner pendant dix-huit mois.
-- Déclaration : initial_position
+**12. Les Écologistes proposent un pacte urbain** _(party)_
+- Choix : Soutenir trois mesures communes sans suspendre le débat sur lEurope [TRANSPARENT]
+- Conséquence : *Trois mesures survivent au désaccord européen* — La coopération reste programmatique et les deux partis assument leur divergence. Les équipes locales disposent de moins de moyens communs, mais la relation saméliore sans ambiguïté.
 
 **13. La périphérie demande un calendrier** _(campaign)_
 - Choix : Annoncer une remise carburant limitée aux travailleurs sans transport collectif [POPULAIRE]
@@ -73,44 +72,44 @@ Idéologie : mouvement total 16.75 points, axe le plus mobile 6.79 points
 - Choix : Détourner vous-même la photographie en invitant les internautes au prochain meeting [POPULAIRE]
 - Conséquence : *Le quai vide devient une affiche* — Votre montage humoristique est massivement partagé et les inscriptions au prochain meeting progressent. Une partie de la presse juge la réponse légère, mais la campagne récupère l’image au lieu de la subir.
 
-**16. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Accepter le concert et publier à l’avance le cadre politique de son intervention [TRANSPARENT]
-- Conséquence : *Le concert porte une mesure précise* — Nina Sorel raconte son engagement sans parler au nom de la campagne et attire un public nouveau. Le cadre publié évite la confusion entre soutien artistique et expertise programmatique.
+**16. Un cadre écologiste tenté par un ralliement** _(alliance)_
+- Choix : L’inviter publiquement à rejoindre votre équipe de campagne [OFFENSIF]
+- Conséquence : *Une invitation publique et risquée* — Le geste médiatise la démarche et met la pression sur le mouvement écologiste. Il expose aussi la cadre concernée à une réaction immédiate de son propre camp, avant même sa décision.
 
-**17. Contrôles aux frontières : quels moyens** _(program)_
-- Choix : Imposer des contrôles systématiques aux frontières intérieures de l’espace Schengen [CLIVANT]
-- Conséquence : *Le contrôle national réaffirmé* — La mesure répond directement à l’incident qui a relancé le débat et rassure une partie de l’opinion. Des partenaires européens et des acteurs économiques transfrontaliers dénoncent un coût logistique et diplomatique important.
+**17. La minute qui vous appartient** _(debate)_
+- Choix : Appeler les électeurs proches à concentrer leurs voix sur votre candidature dès le premier tour [OFFENSIF]
+- Conséquence : *Le vote utile entre dans la dernière ligne droite* — L’appel inquiète les candidats voisins et convainc certains indécis que la qualification se joue maintenant. Il réduit votre capacité à négocier sereinement avec ces mêmes partis après le débat.
+
+**18. Une proposition de pacte de non-agression** _(campaign)_
+- Choix : Accepter le pacte pour la durée du meeting commun [RASSEMBLEUR]
+- Conséquence : *Une trêve limitée et respectée* — L’événement se déroule sans accroc et les deux équipes en sortent sur une image apaisée. Certains soutiens plus offensifs regrettent l’absence de contraste marqué ce jour-là.
+
+**19. Le regroupement familial en question** _(program)_
+- Choix : Fixer à trois ans le délai de résidence requis avant regroupement familial [CLIVANT]
+- Conséquence : *Un délai plus long, un signal de fermeté* — La mesure répond à une demande de contrôle exprimée dans vos réunions publiques. Des associations familiales et certains partenaires sociaux dénoncent une séparation prolongée des familles déjà installées.
 - Déclaration : initial_position
-
-**18. Un fichier militant sort du siège** _(scandal)_
-- Choix : Suspendre tous les outils militants pendant quarante-huit heures et reconstruire les droits d’accès [OFFENSIF]
-- Conséquence : *La campagne numérique se met à l’arrêt* — La reconstruction supprime plusieurs accès anciens et rassure les bénévoles sur la sécurité future. Deux jours sans fichiers ni relances réduisent nettement la mobilisation au pire moment.
-
-**19. La question de la fin de vie** _(program)_
-- Choix : Autoriser l’aide active à mourir sous conditions médicales strictes [CLIVANT]
-- Conséquence : *Une liberté nouvelle, encadrée* — Les associations de patients saluent une avancée réclamée depuis des années. Une partie du corps soignant s’inquiète des conditions d’application et des cultes organisent une mobilisation contre le texte.
-- Déclaration : abrupt_reversal
 
 **20. Une minute sur les loyers** _(media)_
 - Choix : Refuser la réponse en soixante secondes et inviter l’étudiante à un échange filmé plus long [PRÉSIDENTIEL]
 - Conséquence : *Le refus du slogan devient un entretien* — Le premier extrait paraît défensif, puis l’échange complet montre une écoute réelle et plusieurs arbitrages. Vous renoncez à la viralité immédiate pour une séquence plus cohérente avec votre méthode.
 
-**21. La minute qui vous appartient** _(debate)_
-- Choix : Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
-- Conséquence : *Un visage reste après le débat* — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
+**21. L’immigration de travail, un choix économique assumé ou non** _(program)_
+- Choix : Ouvrir une liste de métiers en tension avec délivrance accélérée de titres de séjour [OPPORTUNISTE]
+- Conséquence : *Les métiers en tension trouvent une réponse* — Les fédérations patronales concernées saluent une réponse concrète à leurs alertes répétées. Une partie de votre socle électoral dénonce une politique migratoire dictée par des besoins économiques de court terme.
+- Déclaration : abrupt_reversal
 
 **22. Nassim Courbet réclame une ligne plus sociale** _(party)_
 - Choix : Refuser la priorité unique et retirer à Nassim Courbet ses interventions nationales [OFFENSIF]
 - Conséquence : *La fronde perd le micro et gagne un motif* — La campagne conserve son agenda et les porte-parole cessent de se contredire. Les groupes proches de Nassim Courbet parlent dune sanction politique et préparent une assemblée indépendante.
 
-**23. Le salaire net au centre** _(program)_
-- Choix : Augmenter le salaire minimum de huit pour cent et compenser temporairement les petites entreprises [POPULAIRE]
-- Conséquence : *La hausse est immédiate, la transition coûteuse* — Les salariés au minimum voient un gain direct et la compensation évite une rupture avec les petites entreprises. Le coût budgétaire des deux premières années fragilise cependant votre cadrage fiscal.
-- Déclaration : coherent_compromise
+**23. La promesse faite à l’école** _(program)_
+- Choix : Augmenter les salaires enseignants contre deux heures hebdomadaires dédiées au suivi des élèves [INSTITUTIONNEL]
+- Conséquence : *La revalorisation vient avec une nouvelle mission* — La hausse salariale répond à une attente ancienne, mais le temps supplémentaire est contesté selon les établissements. Le compromis ouvre une négociation sérieuse plutôt qu’une adhésion automatique.
+- Déclaration : initial_position
 
-**24. Douze députés offrent leur expérience** _(alliance)_
-- Choix : Exiger un soutien sans réserve jusqu’au premier tour en échange d’un rôle programmatique [LOYAL]
-- Conséquence : *Sept députés acceptent la discipline* — Le groupe se réduit mais parle d’une seule voix et travaille efficacement sur vos réformes. Les cinq refusants expliquent leur départ, donnant une visibilité indésirable aux conditions posées.
+**24. Tensions internes chez Reconquête** _(world)_
+- Choix : Ne faire aucun commentaire et laisser le sujet suivre son cours [PRUDENT]
+- Conséquence : *Aucun commentaire de votre part* — Le silence évite d’apparaître opportuniste sur une difficulté qui ne vous concerne pas directement. Le sujet continue néanmoins d’occuper l’actualité sans votre intervention.
 
 **25. Aucun finaliste ne porte votre ligne** _(between_rounds)_
 - Choix : Refuser toute consigne et ne participer à aucun débat de lentre-deux-tours [PRUDENT]

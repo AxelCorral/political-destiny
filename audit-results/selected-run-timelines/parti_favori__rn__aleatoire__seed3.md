@@ -2,10 +2,10 @@
 
 Parti : **rn** (existing) — Agent : **aleatoire** — Graine : `post-audit-3` — Méthode : digital
 Résultat : qualifié — score final 71/100 — fin `runoff_defeat`
-Score 1er tour : 14.4 — Score 2nd tour : 39.7 — Progression : 1.9
+Score 1er tour : 14.7 — Score 2nd tour : 40 — Progression : 2.2
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 76 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 10.27 points, axe le plus mobile 3.43 points
+Mémoire/monde : 5 souvenirs d'acteurs, 76 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 10.2 points, axe le plus mobile 4.6 points
 
 ## Chronologie
 
@@ -43,68 +43,69 @@ Idéologie : mouvement total 10.27 points, axe le plus mobile 3.43 points
 - Choix : Retirer au responsable son portefeuille économique et maintenir votre proposition sans nouveau vote [CLIVANT]
 - Conséquence : *Le portefeuille change de mains* — La sanction met fin aux prises de parole contradictoires et accélère la campagne. Plusieurs cadres la vivent comme une humiliation infligée à tout un courant et réduisent leur implication locale.
 
-**9. Les affiches manquent dans six villes** _(campaign)_
-- Choix : Répartir la commande entre trois imprimeurs locaux et publier les coûts [TRANSPARENT]
-- Conséquence : *Les imprimeurs rattrapent le retard* — Les premières affiches arrivent sous quarante-huit heures. La solution coûte davantage, mais les sections disposent enfin d’un calendrier et de factures consultables.
+**9. Les parrainages restent sous le seuil** _(campaign)_
+- Choix : Publier la liste des territoires manquants et appeler les élus à parrainer [OFFENSIF]
+- Conséquence : *L’appel accélère et braque* — Plusieurs élus répondent publiquement, d’autres annulent leur rendez-vous en dénonçant la pression. Le seuil se rapproche, mais votre méthode laissera des traces locales.
 
-**10. Le contrat du conseiller est publié** _(scandal)_
-- Choix : Contester la clause devant un médiateur et suspendre tout paiement variable [OFFENSIF]
-- Conséquence : *La clause attend une médiation* — Le litige gèle la prime et déplace le débat vers le droit des contrats. La campagne évite de payer immédiatement mais prolonge une affaire dont Léonard Pujol commente chaque étape.
+**10. Une accusation jugée infondée vise un adversaire** _(campaign)_
+- Choix : Demander publiquement que la rumeur cesse tant qu’aucune preuve n’existe [LOYAL]
+- Conséquence : *Une prise de position publique et rare* — Le geste est salué pour son intégrité, y compris par des électeurs peu proches de votre ligne. Le camp socialiste prend acte du soutien inattendu, qui laisse une trace durable dans la relation entre les deux équipes.
 
-**11. La collecte se bloque** _(campaign)_
-- Choix : Demander une avance bancaire et publier le taux ainsi que l’échéancier [TECHNIQUE]
-- Conséquence : *Le crédit maintient la tournée* — La banque accepte un montant inférieur à votre demande. L’échéancier transparent évite la polémique, mais le remboursement pèsera sur la fin de campagne.
-
-**12. Un allié du RN revendique sa marque** _(alliance)_
-- Choix : Accorder une affiche distincte et conditionner les investitures à une charte commune [RASSEMBLEUR]
-- Conséquence : *Le courant garde son nom sous une charte* — Louis Ferran mobilise ses réseaux tout en signant des limites claires sur le programme et les candidats. La double identité brouille légèrement la campagne mais évite une rupture avant le vote.
-
-**13. Cinq cents bénévoles sans mission** _(internal)_
-- Choix : Envoyer les volontaires dès samedi avec un script unique et des responsables de secteur [POPULAIRE]
-- Conséquence : *Cinq cents gilets apparaissent en un week-end* — La visibilité surprend vos concurrents et des milliers de portes sont frappées. Quelques maladresses circulent en vidéo, sans annuler le signal d’une campagne capable de déployer rapidement ses soutiens.
-
-**14. Le salaire net au centre** _(program)_
-- Choix : Augmenter le salaire minimum de huit pour cent et compenser temporairement les petites entreprises [POPULAIRE]
-- Conséquence : *La hausse est immédiate, la transition coûteuse* — Les salariés au minimum voient un gain direct et la compensation évite une rupture avec les petites entreprises. Le coût budgétaire des deux premières années fragilise cependant votre cadrage fiscal.
+**11. Qui financera les priorités** _(program)_
+- Choix : Créer un impôt progressif sur les patrimoines les plus élevés avec assiette publique [CLIVANT]
+- Conséquence : *Le patrimoine devient la ligne de partage* — La recette est lisible et consolide votre électorat social. Les simulations de rendement restent débattues et les adversaires centrent aussitôt leurs critiques sur le risque de départ des capitaux.
 - Déclaration : initial_position
 
-**15. Deux équipes se disputent le terrain** _(internal)_
-- Choix : Maintenir l’opération vidéo et demander à Samira Bellon d’en mesurer elle-même l’audience locale [RISQUÉ]
-- Conséquence : *La vidéo atteint Lyon sans apaiser les sections* — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
+**12. Des notes de frais se mélangent** _(scandal)_
+- Choix : Exclure Samira Bellon de la campagne et confier toutes les dépenses locales au siège [OFFENSIF]
+- Conséquence : *Une erreur faible provoque une sanction forte* — La centralisation réduit le risque comptable et désorganise le réseau lyonnais construit par Samira Bellon. La sanction paraît exemplaire à certains, disproportionnée à ceux qui connaissent le dossier.
 
-**16. Le mix électrique de 2040** _(program)_
-- Choix : Programmer six réacteurs et accélérer simultanément le solaire, l’éolien et les réseaux [TECHNIQUE]
-- Conséquence : *Deux filières, une facture massive* — La stratégie réduit le risque de dépendre d’une technologie et rassure l’industrie. Son coût d’investissement cumulé devient aussitôt l’un des principaux postes à financer de votre programme.
+**13. Louis Ferran refuse la modération** _(party)_
+- Choix : Retirer Louis Ferran de la campagne nationale et nommer un coordinateur économique [PRÉSIDENTIEL]
+- Conséquence : *L’économie remplace le conflit identitaire* — L’équipe présente une image disciplinée et peut consacrer plusieurs jours au pouvoir d’achat. Les responsables proches de Louis Ferran ralentissent la mobilisation dans leurs départements.
+
+**14. Le slogan divise le siège** _(campaign)_
+- Choix : Choisir le slogan de rupture et l’accompagner de trois engagements précis [CLIVANT]
+- Conséquence : *La rupture reçoit un contenu* — Les trois engagements empêchent le slogan de rester abstrait. Le socle se mobilise, mais les électeurs recherchant la stabilité deviennent plus méfiants.
+
+**15. La laïcité à l’épreuve du quotidien** _(program)_
+- Choix : En rester au cadre actuel et former les agents publics à son application [TECHNIQUE]
+- Conséquence : *La formation plutôt qu’une nouvelle loi* — La proposition est concrète et administrativement réaliste, ce qui rassure les agents concernés. Elle ne répond pas aux attentes des camps qui espéraient un signal politique plus net, dans un sens ou dans l’autre.
 - Déclaration : initial_position
 
-**17. L’adversaire refuse de vous laisser répondre** _(debate)_
-- Choix : Attendre le silence, rappeler calmement la règle puis répondre au chiffre contesté [PRÉSIDENTIEL]
-- Conséquence : *La pause ressemble à une hésitation* — L’adversaire profite du silence pour conclure sa critique et la modératrice change de thème. Votre retenue évite le chaos, mais votre réponse économique ne sera jamais entendue.
+**16. Le courant Ferran teste la discipline** _(party)_
+- Choix : Créer un conseil programmatique où Louis Ferran défend ses amendements avant chaque convention [INSTITUTIONNEL]
+- Conséquence : *Le courant obtient un lieu de débat* — Les désaccords passent par une procédure interne et les réseaux départementaux reprennent leur travail. Les arbitrages prennent plus de temps et certaines propositions fuitent avant leur validation.
 
-**18. Le regroupement familial en question** _(program)_
-- Choix : Conditionner le regroupement à un niveau de ressources et de logement vérifié [TECHNIQUE]
-- Conséquence : *Une condition matérielle plutôt qu’un délai* — Le critère matériel paraît objectif et évite une polémique sur la durée de séparation familiale. Des associations dénoncent un obstacle supplémentaire pour les familles aux revenus modestes.
+**17. La minute qui vous appartient** _(debate)_
+- Choix : Appeler les électeurs proches à concentrer leurs voix sur votre candidature dès le premier tour [OFFENSIF]
+- Conséquence : *Le vote utile entre dans la dernière ligne droite* — L’appel inquiète les candidats voisins et convainc certains indécis que la qualification se joue maintenant. Il réduit votre capacité à négocier sereinement avec ces mêmes partis après le débat.
+
+**18. La loi migratoire du programme** _(program)_
+- Choix : Négocier un mécanisme européen d’asile et refuser tout objectif national avant cet accord [RASSEMBLEUR]
+- Conséquence : *L’échelle européenne prime sur la réponse immédiate* — La cohérence avec votre ligne européenne est nette et les électeurs modérés y voient une méthode réaliste. L’absence de mesure nationale immédiate alimente l’accusation d’attendre un accord incertain.
 - Déclaration : initial_position
 
-**19. Une nuit avec les urgences** _(campaign)_
-- Choix : Publier chaque semaine les lits fermés et convoquer les agences régionales [TRANSPARENT]
-- Conséquence : *Les fermetures deviennent vérifiables* — Le tableau de bord donne aux soignants un outil de pression et oblige votre équipe à assumer les écarts régionaux. Les gestionnaires redoutent une lecture trop brute.
+**19. La table ronde agricole se tend** _(campaign)_
+- Choix : Négocier des contrats de bassin liant aides publiques et économies d’eau [TECHNIQUE]
+- Conséquence : *Les bassins versants deviennent le compromis* — Les représentants acceptent de travailler sur des objectifs locaux plutôt qu’un plafond national. Le compromis réduit le conflit, mais reporte les chiffres essentiels.
+- Déclaration : initial_position
 
-**20. Les petites villes ouvrent la campagne** _(party)_
-- Choix : Regrouper les étapes en un meeting sur la sécurité et diffuser les interventions nationales [OFFENSIF]
-- Conséquence : *La tournée devient un meeting national* — Le rassemblement reçoit une forte couverture et mobilise le socle régional. Les sujets de santé et de transport disparaissent, décevant les élus qui avaient préparé les visites.
+**20. Le studio plonge dans le noir** _(rare)_
+- Choix : Utiliser les huit minutes pour répéter votre conclusion avec la directrice de campagne [RISQUÉ]
+- Conséquence : *La répétition améliore la reprise et fuite ensuite* — Votre conclusion devient la plus nette du débat, mais une image de secours montre que vous l’aviez répétée pendant la panne. Le résultat est bon et la spontanéité paraît fabriquée.
 
-**21. Deux cents maires demandent un contrat** _(alliance)_
-- Choix : Signer un contrat de cinq ans avec conférence annuelle et indicateurs publiés par territoire [INSTITUTIONNEL]
-- Conséquence : *Les maires obtiennent un calendrier opposable* — Une majorité des signataires rejoint votre comité de soutien et fournit un réseau territorial immédiat. Le contrat limite votre marge budgétaire future et crée des rendez-vous où chaque retard sera visible.
+**21. Un cadre écologiste tenté par un ralliement** _(alliance)_
+- Choix : L’inviter publiquement à rejoindre votre équipe de campagne [OFFENSIF]
+- Conséquence : *Une invitation publique et risquée* — Le geste médiatise la démarche et met la pression sur le mouvement écologiste. Il expose aussi la cadre concernée à une réaction immédiate de son propre camp, avant même sa décision.
 
 **22. Reconquête propose un pacte de non-agression** _(party)_
 - Choix : Reprendre un engagement sur l’immigration et signer des désistements législatifs réciproques [CLIVANT]
 - Conséquence : *Un pacte organise la droite nationale* — Les deux appareils cessent de disperser leurs militants et le socle salue l’unité. La concession augmente le rejet et donne aux adversaires un argument simple pour le second tour.
 
-**23. La porte-parole annonce trop tôt** _(internal)_
-- Choix : Corriger publiquement l’annonce et maintenir la porte-parole après un rappel des procédures [LOYAL]
-- Conséquence : *Une correction sans sacrifice humain* — La campagne distingue l’erreur individuelle de la décision collective et publie l’état exact de l’arbitrage. La porte-parole reste en fonction, reconnaissante, tandis que la proposition perd son effet de surprise.
+**23. Une chanteuse veut soutenir la campagne** _(alliance)_
+- Choix : Décliner le soutien pour conserver une campagne sans vedette et proposer une rencontre privée [PRUDENT]
+- Conséquence : *La notoriété reste hors de l’affiche* — Nina Sorel respecte le refus et publie seulement qu’elle a été reçue sur le logement. Vous perdez une audience importante mais préservez une campagne où les soutiens ne remplacent pas les propositions.
 
 **24. Le micro resté ouvert** _(media)_
 - Choix : Assumer le diagnostic et annoncer une réorganisation qui retire le calendrier à Anaïs Vercel [OFFENSIF]
@@ -114,9 +115,9 @@ Idéologie : mouvement total 10.27 points, axe le plus mobile 3.43 points
 - Choix : Nommer deux compromis consentis à vos alliés et les limites que vous refusez de franchir [TRANSPARENT]
 - Conséquence : *La coalition montre ses coutures* — Les concessions deviennent compréhensibles et les frontières rassurent votre socle. Ladversaire perd largument dune majorité cachée, tandis que certains alliés contestent une limite annoncée sans eux.
 
-**26. Les reports refusent la mécanique** _(between_rounds)_
-- Choix : Ajouter une garantie sociale ciblée au contrat de coalition et en chiffrer le coût [RASSEMBLEUR]
-- Conséquence : *Une garantie donne un motif positif de report* — Les électeurs concernés voient leur priorité dans le contrat et leur participation estimée remonte. La mesure tardive augmente le coût du programme et inquiète ceux qui craignent une coalition sans limite.
+**26. Deux points davance à cinq jours** _(between_rounds)_
+- Choix : Diffuser un dossier comparatif offensif sur les contradictions du finaliste [RISQUÉ]
+- Conséquence : *Le dernier dossier durcit la fin* — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
 
 **27. Le RN doit élargir sans démobiliser** _(party)_
 - Choix : Refuser les accords d’élus et appeler les abstentionnistes à renverser le système des partis [OFFENSIF]
@@ -126,6 +127,6 @@ Idéologie : mouvement total 10.27 points, axe le plus mobile 3.43 points
 - Choix : Enregistrer une adresse courte résumant les trois engagements inchangés depuis le premier tour [PRÉSIDENTIEL]
 - Conséquence : *Trois engagements ferment la campagne* — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
 
-**29. Deux points davance à cinq jours** _(between_rounds)_
-- Choix : Diffuser un dossier comparatif offensif sur les contradictions du finaliste [RISQUÉ]
-- Conséquence : *Le dernier dossier durcit la fin* — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
+**29. Les reports refusent la mécanique** _(between_rounds)_
+- Choix : Organiser six réunions dirigées par les anciens candidats et répondre sans modifier le programme [INSTITUTIONNEL]
+- Conséquence : *Les anciens candidats deviennent passeurs* — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.

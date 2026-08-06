@@ -8,6 +8,7 @@ import { v2EndgameEvents } from "./endgame";
 import { v2InternalEvents } from "./internal";
 import { applyIdeologicalEligibility } from "./ideologyEligibility";
 import { v2MediaEvents } from "./media";
+import { v2OpponentInteractionEvents } from "./opponentInteractions";
 import { v2EcologistesPartyEvents } from "./partiesEcologistes";
 import { v2HorizonsPartyEvents } from "./partiesHorizons";
 import { v2LeftPartyEvents } from "./partiesLeft";
@@ -43,6 +44,7 @@ const authoredV2Events: GameEventDefinition[] = [
   ...v2DebateEvents,
   ...v2InternalEvents,
   ...v2AllianceEvents,
+  ...v2OpponentInteractionEvents,
   ...v2ScandalEvents,
   ...v2WorldEvents,
   ...v2RareEvents,
@@ -61,6 +63,7 @@ export {
   v2EndgameEvents,
   v2InternalEvents,
   v2MediaEvents,
+  v2OpponentInteractionEvents,
   v2ProgramEvents,
   v2RareEvents,
   v2ScandalEvents,

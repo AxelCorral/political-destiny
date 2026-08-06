@@ -1,11 +1,11 @@
 # rn · aleatoire · seed 18
 
 Parti : **rn** (existing) — Agent : **aleatoire** — Graine : `post-audit-18` — Méthode : digital
-Résultat : qualifié, **vainqueur** — score final 84/100 — fin `president`
-Score 1er tour : 17.7 — Score 2nd tour : 53.6 — Progression : 5.2
+Résultat : qualifié, **vainqueur** — score final 80/100 — fin `president`
+Score 1er tour : 16.6 — Score 2nd tour : 52 — Progression : 4.1
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 1 souvenirs d'acteurs, 69 actions adverses (alliance|crisis|strategy), 1 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 12.58 points, axe le plus mobile 4.4 points
+Mémoire/monde : 2 souvenirs d'acteurs, 70 actions adverses (alliance|crisis|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 10.21 points, axe le plus mobile 3.27 points
 
 ## Chronologie
 
@@ -49,9 +49,9 @@ Idéologie : mouvement total 12.58 points, axe le plus mobile 4.4 points
 - Choix : Maintenir l’agenda et verser une prime exceptionnelle à tous les salariés mobilisés [RISQUÉ]
 - Conséquence : *La prime ne crée pas d’heures de sommeil* — Le geste financier est apprécié et le programme des déplacements reste intact. La fatigue continue pourtant d’augmenter et une nouvelle erreur coûtera plus cher à réparer en fin de campagne.
 
-**10. La laïcité à l’épreuve du quotidien** _(program)_
-- Choix : En rester au cadre actuel et former les agents publics à son application [TECHNIQUE]
-- Conséquence : *La formation plutôt qu’une nouvelle loi* — La proposition est concrète et administrativement réaliste, ce qui rassure les agents concernés. Elle ne répond pas aux attentes des camps qui espéraient un signal politique plus net, dans un sens ou dans l’autre.
+**10. Vie privée et réseaux : la ligne numérique** _(program)_
+- Choix : Créer une majorité numérique à seize ans avec vérification d’âge obligatoire [CLIVANT]
+- Conséquence : *Un seuil clair, une vérification à organiser* — Les associations de protection de l’enfance saluent un signal fort. Des défenseurs des libertés numériques s’inquiètent des données collectées pour vérifier l’âge et du risque de contournement.
 - Déclaration : initial_position
 
 **11. Le marché sous pression** _(campaign)_
@@ -62,9 +62,9 @@ Idéologie : mouvement total 12.58 points, axe le plus mobile 4.4 points
 - Choix : Ouvrir par une convention sur l’immigration, la sécurité et la souveraineté [CLIVANT]
 - Conséquence : *Les marqueurs historiques dominent l’ouverture* — Le socle répond présent et la concurrence de Reconquête recule dans les enquêtes internes. Le rejet augmente parmi les électeurs nécessaires à une majorité de second tour.
 
-**13. La France à cinquante degrés** _(program)_
-- Choix : Obliger les assureurs à couvrir les risques climatiques avec garantie publique en dernier ressort [CLIVANT]
-- Conséquence : *L’assurabilité devient une responsabilité partagée* — Les propriétaires exposés accueillent la garantie et les assureurs demandent une tarification plus libre. Le mécanisme traite les pertes après sinistre, sans répondre à lui seul au besoin de prévention.
+**13. La laïcité à l’épreuve du quotidien** _(program)_
+- Choix : Élargir l’interdiction des signes religieux ostensibles aux universités [CLIVANT]
+- Conséquence : *Un cadre étendu à l’enseignement supérieur* — La mesure est saluée comme une clarification par une partie de l’électorat attachée à une laïcité stricte. Des organisations étudiantes et des juristes contestent sa conformité avec la liberté universitaire.
 - Déclaration : coherent_compromise
 
 **14. La préférence nationale rencontre le droit** _(party)_
@@ -76,53 +76,53 @@ Idéologie : mouvement total 12.58 points, axe le plus mobile 4.4 points
 - Choix : Verser une ristourne énergétique automatique aux ménages des communes peu denses [TECHNIQUE]
 - Conséquence : *La facture reflète désormais l’éloignement* — Le versement produit un gain rapide et reconnaît le coût des distances. Son ciblage territorial exclut des ménages urbains modestes et complexifie le discours social du parti.
 
-**16. Une minute sur les loyers** _(media)_
-- Choix : Détailler un objectif de construction à Rennes et les terrains publics mobilisés [TECHNIQUE]
-- Conséquence : *Une réponse locale et vérifiable* — Le chiffre de constructions prévues dépasse le format, mais les médias rennais vérifient les terrains cités. La séquence reste peu virale et renforce votre sérieux territorial.
-- Déclaration : coherent_compromise
+**16. Un soutien éditorial encombrant** _(media)_
+- Choix : Refuser explicitement ce soutien et retirer Gabriel Valès de toute invitation de campagne [CLIVANT]
+- Conséquence : *La porte se ferme publiquement* — Le refus rassure les électeurs qui craignaient un rapprochement, tandis que les partisans du polémiste dénoncent une mise en scène. Gabriel Valès conserve une hostilité durable à votre candidature.
 
-**17. La question venue de Mayotte** _(debate)_
-- Choix : Répondre par votre plan national pour l’eau et garantir une priorité ultramarine au premier budget [PRÉSIDENTIEL]
-- Conséquence : *Mayotte obtient une priorité budgétaire* — Vous ne fournissez pas le chiffre demandé, mais l’engagement de premier budget donne une conséquence au débat. Les autres territoires ultramarins demandent aussitôt s’ils bénéficieront de la même priorité.
-- Déclaration : initial_position
+**17. Neuf candidats face au climat** _(debate)_
+- Choix : Conditionner chaque dépense climatique à une baisse d’émissions mesurée deux ans après son lancement [TECHNIQUE]
+- Conséquence : *Une clause de résultat remplace la liste* — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
+- Déclaration : strategic_repositioning
 
 **18. Le car tombe en panne** _(campaign)_
 - Choix : Maintenir la réunion en visioconférence et envoyer votre équipe sur place [PRUDENT]
 - Conséquence : *La réunion tient malgré la distance* — L’équipe locale conduit les échanges pendant que vous répondez à l’écran. Le format fonctionne, sans remplacer la présence attendue par les habitants.
 
-**19. Le contrat du conseiller est publié** _(scandal)_
-- Choix : Annuler la prime d’un commun accord et publier la liste complète des livrables reçus [TRANSPARENT]
-- Conséquence : *La rémunération revient aux prestations* — Léonard Pujol renonce à la clause contre le paiement du travail déjà documenté. La publication des livrables montre ce que la campagne a acheté et réduit la polémique sans effacer le mauvais choix initial.
+**19. Une accusation jugée infondée vise un adversaire** _(campaign)_
+- Choix : Diffuser la rumeur sous forme de question, sans l’affirmer directement [OPPORTUNISTE]
+- Conséquence : *Le doute entretenu sans affirmation directe* — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
 
-**20. Reconquête propose un pacte de non-agression** _(party)_
-- Choix : Reprendre un engagement sur l’immigration et signer des désistements législatifs réciproques [CLIVANT]
-- Conséquence : *Un pacte organise la droite nationale* — Les deux appareils cessent de disperser leurs militants et le socle salue l’unité. La concession augmente le rejet et donne aux adversaires un argument simple pour le second tour.
+**20. Louis Ferran refuse la modération** _(party)_
+- Choix : Retirer Louis Ferran de la campagne nationale et nommer un coordinateur économique [PRÉSIDENTIEL]
+- Conséquence : *L’économie remplace le conflit identitaire* — L’équipe présente une image disciplinée et peut consacrer plusieurs jours au pouvoir d’achat. Les responsables proches de Louis Ferran ralentissent la mobilisation dans leurs départements.
 
-**21. Six rédactions face au désert médical** _(media)_
-- Choix : Proposer des contrats territoriaux avec objectifs publics et financement garanti sur cinq ans [INSTITUTIONNEL]
-- Conséquence : *Les territoires obtiennent une méthode* — Les rédactions discutent les critères plutôt que vos intentions. Les élus locaux saluent la visibilité pluriannuelle, même si le dispositif ne promet pas un médecin dans chaque commune.
-- Déclaration : coherent_compromise
-
-**22. Quarante-quatre degrés à Lyon** _(world)_
-- Choix : Maintenir un meeting intérieur consacré au climat avec jauge réduite et soignants invités [RISQUÉ]
-- Conséquence : *Le meeting devient audition sur la canicule* — La jauge réduite et le contenu médical évitent la fête déplacée tout en conservant une parole de campagne. Le rassemblement mobilise malgré tout des services de sécurité pendant l’épisode.
-
-**23. La promesse faite à l’école** _(program)_
+**21. La promesse faite à l’école** _(program)_
 - Choix : Augmenter les salaires enseignants contre deux heures hebdomadaires dédiées au suivi des élèves [INSTITUTIONNEL]
 - Conséquence : *La revalorisation vient avec une nouvelle mission* — La hausse salariale répond à une attente ancienne, mais le temps supplémentaire est contesté selon les établissements. Le compromis ouvre une négociation sérieuse plutôt qu’une adhésion automatique.
-- Déclaration : gradual_evolution
+- Déclaration : initial_position
 
-**24. Deux cents maires demandent un contrat** _(alliance)_
-- Choix : Refuser un contrat séparé et renvoyer les mesures territoriales au programme national [PRUDENT]
-- Conséquence : *Le programme national ne reçoit pas de cosignataire* — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
+**22. Une crise ferme un détroit** _(world)_
+- Choix : Annoncer un plan français de relocalisation sans prendre position sur la confrontation [LOYAL]
+- Conséquence : *La souveraineté industrielle remplace la diplomatie* — Le plan parle aux électeurs préoccupés par les dépendances et donne une orientation économique de long terme. Les questions sur votre politique étrangère restent entières, ce qui limite la stature attendue.
+- Déclaration : initial_position
 
-**25. Les soutiens arrivent avec leurs conditions** _(between_rounds)_
-- Choix : Remercier chaque soutien et refuser toute négociation programmatique avant le scrutin [LOYAL]
-- Conséquence : *Les soutiens viennent sans contrat* — Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.
+**23. Le courant Ferran teste la discipline** _(party)_
+- Choix : Exiger une signature individuelle de la ligne présidentielle et exclure les refus de la campagne [OFFENSIF]
+- Conséquence : *La discipline l’emporte sur le courant* — Les interventions publiques deviennent cohérentes et Élise Montclar contrôle son agenda. Plusieurs responsables quittent le dispositif et peuvent transformer leur départ en dissidence autonome.
 
-**26. La coalition réclame une annexe** _(between_rounds)_
-- Choix : Signer les huit mesures compatibles et publier pourquoi les quatre autres sont écartées [TRANSPARENT]
-- Conséquence : *Huit accords et quatre refus composent lannexe* — Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.
+**24. La CFDT veut des garanties écrites** _(alliance)_
+- Choix : Promettre une consultation sans conditionner la réforme à l’issue de la négociation [PRUDENT]
+- Conséquence : *La consultation ne vaut pas codécision* — Le syndicat reconnaît une ouverture mais refuse de valoriser publiquement une garantie qu’il juge incomplète. Vous conservez la liberté d’arbitrage et obtenez seulement une relation de travail correcte.
+
+**25. Le débat de lentre-deux-tours** _(between_rounds)_
+- Choix : Appeler directement les abstentionnistes à choisir entre vos deux projets plutôt qu’entre deux personnes [POPULAIRE]
+- Conséquence : *Le débat se termine sur la participation* — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
+
+**26. Les dernières heures autorisées** _(between_rounds)_
+- Choix : Annoncer une baisse dimpôt nouvelle pour tenter de créer un dernier mouvement [RISQUÉ]
+- Conséquence : *Une promesse fiscale sans lendemain médiatique* — Lannonce attire les électeurs sensibles aux impôts et ne peut être chiffrée publiquement avant la fin de campagne. Le dernier doute porte désormais sur la discipline qui structurait votre programme.
+- Déclaration : initial_position
 
 **27. Le RN doit élargir sans démobiliser** _(party)_
 - Choix : Refuser les accords d’élus et appeler les abstentionnistes à renverser le système des partis [OFFENSIF]
@@ -132,14 +132,14 @@ Idéologie : mouvement total 12.58 points, axe le plus mobile 4.4 points
 - Choix : Diffuser un dossier comparatif offensif sur les contradictions du finaliste [RISQUÉ]
 - Conséquence : *Le dernier dossier durcit la fin* — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
 
-**29. Les dernières heures autorisées** _(between_rounds)_
-- Choix : Enregistrer une adresse courte résumant les trois engagements inchangés depuis le premier tour [PRÉSIDENTIEL]
-- Conséquence : *Trois engagements ferment la campagne* — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
+**29. La coalition réclame une annexe** _(between_rounds)_
+- Choix : Signer les huit mesures compatibles et publier pourquoi les quatre autres sont écartées [TRANSPARENT]
+- Conséquence : *Huit accords et quatre refus composent lannexe* — Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.
 
 **30. La première adresse de lÉlysée** _(government)_
 - Choix : Concentrer les cent jours sur le pouvoir dachat et reporter les autres réformes à lautomne [POPULAIRE]
 - Conséquence : *Le pouvoir dachat devient lurgence unique* — La priorité répond à lattente la plus immédiate et rend laction gouvernementale facile à suivre. Les alliés écologistes et institutionnels acceptent mal de voir leurs accords repoussés sans nouvelle date.
-- Déclaration : initial_position
+- Déclaration : coherent_compromise
 
 **31. Quinze ministres pour une coalition** _(government)_
 - Choix : Limiter le gouvernement à douze membres et fusionner les portefeuilles les plus proches [OFFENSIF]

@@ -1,11 +1,11 @@
 # lfi · prudent · seed 3
 
 Parti : **lfi** (existing) — Agent : **prudent** — Graine : `post-audit-3` — Méthode : digital
-Résultat : qualifié — score final 69/100 — fin `runoff_defeat`
-Score 1er tour : 15.2 — Score 2nd tour : 43.5 — Progression : 2.2
+Résultat : qualifié — score final 70/100 — fin `runoff_defeat`
+Score 1er tour : 15.2 — Score 2nd tour : 44.3 — Progression : 2.2
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 5 souvenirs d'acteurs, 69 actions adverses (alliance|crisis|endorsement|replacement|strategy), 0 alliance(s), 1 remplacement(s)
-Idéologie : mouvement total 12.89 points, axe le plus mobile 5.15 points
+Mémoire/monde : 3 souvenirs d'acteurs, 69 actions adverses (alliance|crisis|endorsement|replacement|strategy), 1 alliance(s), 1 remplacement(s)
+Idéologie : mouvement total 10.51 points, axe le plus mobile 5.15 points
 
 ## Chronologie
 
@@ -48,25 +48,25 @@ Idéologie : mouvement total 12.89 points, axe le plus mobile 5.15 points
 - Choix : Confier aux bénévoles une enquête téléphonique sans accès aux données sensibles [TECHNIQUE]
 - Conséquence : *L’enquête révèle trois préoccupations* — Les appels font remonter la santé, les prix alimentaires et l’accès aux transports. Votre équipe gagne des informations utiles sans exposer le fichier électoral.
 
-**10. Un fichier militant sort du siège** _(scandal)_
-- Choix : Suspendre tous les outils militants pendant quarante-huit heures et reconstruire les droits d’accès [OFFENSIF]
-- Conséquence : *La campagne numérique se met à l’arrêt* — La reconstruction supprime plusieurs accès anciens et rassure les bénévoles sur la sécurité future. Deux jours sans fichiers ni relances réduisent nettement la mobilisation au pire moment.
+**10. L’imprimeur a doublé une ligne** _(scandal)_
+- Choix : Accepter l’avoir, auditer les trois derniers devis et maintenir le fournisseur sous contrôle renforcé [PRUDENT]
+- Conséquence : *L’avoir s’accompagne d’un audit* — Les autres devis sont corrects et le doublon apparaît isolé. Le contrôle renforcé protège la suite du contrat sans interrompre l’impression des affiches déjà attendues.
 
 **11. Les factures sans pièce ressortent** _(scandal)_
 - Choix : Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusquà conclusion [TRANSPARENT]
 - Conséquence : *La trésorerie passe sous contrôle extérieur* — Les documents confirment les prestations tout en montrant des procédures trop légères. Maud Keravel accepte la suspension sans reconnaître de faute et le contrôle indépendant fixe un calendrier de conclusion.
 
-**12. La croissance simulée se retourne** _(world)_
-- Choix : Maintenir le programme budgétaire et proposer seulement une clause de réexamen trimestriel [PRUDENT]
-- Conséquence : *La trajectoire ne change pas au premier indicateur* — La stabilité rassure les électeurs préoccupés par les comptes et évite les annonces précipitées. Les salariés menacés de chômage voient surtout une campagne qui attend des données supplémentaires.
+**12. Une contradiction chez le camp centriste** _(debate)_
+- Choix : Ne pas soulever le sujet et concentrer le débat sur votre propre programme [PRUDENT]
+- Conséquence : *Le choix de ne pas attaquer* — Le débat reste concentré sur votre propre offre programmatique, plus valorisante pour vous. Une partie de la presse spécialisée note après coup que l’occasion n’a pas été saisie.
 
 **13. Les Écologistes proposent un pacte urbain** _(party)_
 - Choix : Refuser le pacte et lancer votre propre tournée populaire sur lécologie du quotidien [LOYAL]
 - Conséquence : *Lécologie populaire reste sous vos couleurs* — La tournée consolide votre ligne sur les factures, les transports et le logement. Les Écologistes dénoncent une concurrence qui fragmente le même électorat urbain.
 
-**14. Un soutien éditorial encombrant** _(media)_
-- Choix : Remercier pour l’accord ponctuel tout en publiant vos désaccords précis avec Gabriel Valès [TRANSPARENT]
-- Conséquence : *Un accord limité, des frontières nettes* — La mise au point évite la rupture théâtrale et empêche le soutien de devenir une alliance implicite. Elle consomme du temps médiatique, mais clarifie votre doctrine sur les libertés publiques.
+**14. Vingt-quatre heures sans caméra** _(media)_
+- Choix : Maintenir la journée de travail et publier l’agenda précis des réunions programmatiques [PRUDENT]
+- Conséquence : *Une pause lisible dans la campagne* — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
 
 **15. L’audit clôt le dossier des factures** _(scandal)_
 - Choix : Publier la conclusion intégrale et appliquer les six recommandations avant tout nouveau paiement [TRANSPARENT]
@@ -76,39 +76,37 @@ Idéologie : mouvement total 12.89 points, axe le plus mobile 5.15 points
 - Choix : Maintenir le meeting en appliquant intégralement le protocole préfectoral [PRUDENT]
 - Conséquence : *Le meeting se tient sans incident* — Les contrôles retardent l’ouverture et la salle reste calme. Vous montrez que la campagne peut continuer, sans transformer l’alerte en argument politique.
 
-**17. Nassim Courbet réclame une ligne plus sociale** _(party)_
-- Choix : Accorder un mois de campagne centré sur les salaires avec Nassim Courbet comme coordinateur [POPULAIRE]
-- Conséquence : *Les salaires prennent tout lagenda* — Le thème remobilise les quartiers populaires et donne à Nassim Courbet une responsabilité mesurable. Les propositions institutionnelles disparaissent temporairement et le député gagne une autonomie qui pèsera plus tard.
+**17. Saint-Denis ouvre ses réseaux associatifs** _(party)_
+- Choix : Tenir six ateliers et signer un tableau dengagements avec les associations participantes [POPULAIRE]
+- Conséquence : *Six soirées produisent un contrat local* — Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.
 
-**18. La grève bloque les transports** _(world)_
-- Choix : Demander une médiation indépendante avec suspension des nouvelles mesures pendant quarante-huit heures [INSTITUTIONNEL]
-- Conséquence : *Quarante-huit heures pour remettre les parties à table* — Les syndicats acceptent la médiation et le calendrier offre une issue sans prétendre régler le fond. Les voyageurs restent confrontés aux perturbations pendant que vous gagnez une image de méthode.
+**18. Les tentes encerclent la préfecture** _(world)_
+- Choix : Financer trois mois d’hôtel et demander aux associations de lever le camp pendant la négociation [PRUDENT]
+- Conséquence : *Trois mois gagnés sans logement créé* — Les familles les plus vulnérables quittent les tentes et les associations maintiennent une présence symbolique. La solution d’urgence coûte cher et reporte le problème structurel au prochain trimestre.
 
-**19. La périphérie demande un calendrier** _(campaign)_
-- Choix : Demander un audit communal d’un mois avant de choisir la mesure [PRUDENT]
-- Conséquence : *Le diagnostic paraît déjà connu* — Les élus acceptent de transmettre les données, mais la salle estime avoir décrit le problème depuis des années. Votre prudence protège le budget et coûte politiquement.
+**19. Cent quartiers en porte-à-porte** _(campaign)_
+- Choix : Confier aux équipes un carnet d’écoute et publier la synthèse nationale [RASSEMBLEUR]
+- Conséquence : *Les préoccupations dessinent une carte* — Les carnets font apparaître des écarts nets entre transports, sécurité et santé. La campagne adapte ses déplacements sans prétendre que l’échantillon vaut sondage.
 
-**20. Le contrat du conseiller est publié** _(scandal)_
-- Choix : Annuler la prime d’un commun accord et publier la liste complète des livrables reçus [TRANSPARENT]
-- Conséquence : *La rémunération revient aux prestations* — Léonard Pujol renonce à la clause contre le paiement du travail déjà documenté. La publication des livrables montre ce que la campagne a acheté et réduit la polémique sans effacer le mauvais choix initial.
+**20. Le studio plonge dans le noir** _(rare)_
+- Choix : Proposer aux candidats une règle commune de reprise et demander l’arrêt des caméras privées [INSTITUTIONNEL]
+- Conséquence : *Huit minutes produisent un accord de plateau* — Les candidats acceptent de reprendre avec les temps restants et la production confirme que les images ne seront pas diffusées. Votre réflexe de procédure apaise le studio et renforce votre stature.
 
-**21. La fronde sociale exige un vote** _(party)_
-- Choix : Organiser le vote en séparant la priorité programmatique du rôle personnel de Nassim Courbet [TRANSPARENT]
-- Conséquence : *Deux questions empêchent un plébiscite personnel* — Les adhérents renforcent la priorité sociale et refusent de créer une codirection. Nassim Courbet accepte le résultat, retrouve un rôle thématique et cesse de menacer la campagne.
+**21. Le PS propose trois engagements communs** _(alliance)_
+- Choix : Signer les trois engagements et suspendre toute campagne de vote utile contre le PS [RASSEMBLEUR]
+- Conséquence : *Trois mesures ouvrent une non-agression* — L’accord rend les débats de gauche plus lisibles et améliore les reports potentiels. Vos militants les plus offensifs regrettent d’abandonner un levier contre un concurrent direct du premier tour.
 
-**22. Neuf candidats face au climat** _(debate)_
-- Choix : Conditionner chaque dépense climatique à une baisse d’émissions mesurée deux ans après son lancement [TECHNIQUE]
-- Conséquence : *Une clause de résultat remplace la liste* — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
-- Déclaration : initial_position
+**22. Une proposition de pacte de non-agression** _(campaign)_
+- Choix : Refuser et maintenir une ligne critique y compris pendant le meeting commun [OFFENSIF]
+- Conséquence : *Le contraste maintenu jusqu’au bout* — Le refus marque une différence claire de méthode et mobilise les électeurs qui attendaient un contraste net. Il est aussi commenté comme un signe de tension entre les deux équipes lors d’un événement censé rassembler.
 
-**23. Ce que l’école doit transmettre** _(program)_
-- Choix : Maintenir la liberté pédagogique des établissements sur les enseignements civiques [PRUDENT]
-- Conséquence : *La confiance faite au terrain* — Les équipes pédagogiques saluent une position qui respecte leur expertise. Des parents et des élus locaux regrettent l’absence de cadre national identifiable dans un débat qu’ils jugent structurant.
-- Déclaration : initial_position
+**23. L’adversaire refuse de vous laisser répondre** _(debate)_
+- Choix : Demander à la modératrice de restituer précisément votre temps avant de poursuivre [INSTITUTIONNEL]
+- Conséquence : *Le chronomètre rend la parole* — La production vous accorde quarante secondes supplémentaires et applique la même règle à tous. Votre réponse est entendue, mais certains commentateurs jugent l’appel au règlement excessivement procédurier.
 
-**24. Le direct des questions citoyennes** _(media)_
-- Choix : Répondre à trois questions hospitalières puis conclure avec le calendrier de votre réforme [PRUDENT]
-- Conséquence : *Le direct se termine sur un calendrier* — Les réponses ne règlent pas tous les cas, mais la conclusion donne une date et un financement à l’engagement. Vous quittez le direct à l’heure, avec une séquence exploitable par les équipes de santé.
+**24. Six rédactions face au désert médical** _(media)_
+- Choix : Proposer des contrats territoriaux avec objectifs publics et financement garanti sur cinq ans [INSTITUTIONNEL]
+- Conséquence : *Les territoires obtiennent une méthode* — Les rédactions discutent les critères plutôt que vos intentions. Les élus locaux saluent la visibilité pluriannuelle, même si le dispositif ne promet pas un médecin dans chaque commune.
 - Déclaration : initial_position
 
 **25. Le débat de lentre-deux-tours** _(between_rounds)_

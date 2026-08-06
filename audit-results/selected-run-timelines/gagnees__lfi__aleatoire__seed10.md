@@ -1,11 +1,11 @@
 # lfi · aleatoire · seed 10
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-10` — Méthode : field_first
-Résultat : qualifié, **vainqueur** — score final 74/100 — fin `president`
-Score 1er tour : 16.1 — Score 2nd tour : 55.2 — Progression : 3.1
+Résultat : qualifié, **vainqueur** — score final 78/100 — fin `president`
+Score 1er tour : 16 — Score 2nd tour : 56 — Progression : 3
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 2 souvenirs d'acteurs, 73 actions adverses (alliance|crisis|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 20.78 points, axe le plus mobile 9.08 points
+Mémoire/monde : 3 souvenirs d'acteurs, 73 actions adverses (alliance|crisis|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 22 points, axe le plus mobile 13.47 points
 
 ## Chronologie
 
@@ -43,20 +43,20 @@ Idéologie : mouvement total 20.78 points, axe le plus mobile 9.08 points
 - Choix : Convoquer le congrès, limiter son ordre du jour à léconomie et appliquer son vote [INSTITUTIONNEL]
 - Conséquence : *Le congrès tranche réellement* — Le débat révèle les fractures mais le vote donne une ligne commune et opposable à tous. Vous cédez une part de contrôle sur le programme en échange d’une cohésion renforcée.
 
-**9. Le contrat d’intégration, jusqu’où aller** _(program)_
-- Choix : Conditionner l’accès à la nationalité à la réussite du contrat d’intégration [CLIVANT]
-- Conséquence : *L’intégration comme condition de la nationalité* — La proposition marque une ligne nette et mobilise une partie de votre socle. Des juristes et des associations de défense des droits contestent la conformité du dispositif avec les engagements internationaux existants.
-- Déclaration : initial_position
+**9. La question venue de Mayotte** _(debate)_
+- Choix : Répondre par votre plan national pour l’eau et garantir une priorité ultramarine au premier budget [PRÉSIDENTIEL]
+- Conséquence : *Mayotte obtient une priorité budgétaire* — Vous ne fournissez pas le chiffre demandé, mais l’engagement de premier budget donne une conséquence au débat. Les autres territoires ultramarins demandent aussitôt s’ils bénéficieront de la même priorité.
+- Déclaration : gradual_evolution
 
-**10. Une crise ferme un détroit** _(world)_
-- Choix : Demander une déclaration européenne commune sur la liberté de navigation et la désescalade [PRÉSIDENTIEL]
-- Conséquence : *La réponse française passe par l’Europe* — Votre position évite de choisir un camp militaire et propose un cadre diplomatique crédible. Elle renforce votre stature européenne sans offrir de solution immédiate aux entreprises exposées.
+**10. La grève bloque les transports** _(world)_
+- Choix : Proposer un service minimal renforcé et conditionner toute aide publique à sa mise en œuvre [OFFENSIF]
+- Conséquence : *Le service minimal devient votre réponse* — Les usagers réguliers comprennent immédiatement la mesure et les syndicats dénoncent une restriction de leur rapport de force. La grève reste active et la campagne se polarise sur le droit de grève.
 - Déclaration : initial_position
 
 **11. Le regroupement familial en question** _(program)_
 - Choix : Maintenir les délais actuels et accélérer l’instruction des dossiers [TECHNIQUE]
 - Conséquence : *Le même cadre, appliqué plus vite* — La mesure administrative est difficile à contester sur le fond et rassure les familles en attente. Elle ne répond pas à la demande de fermeté exprimée par une partie de votre électorat.
-- Déclaration : contradiction
+- Déclaration : initial_position
 
 **12. Nassim Courbet réclame une ligne plus sociale** _(party)_
 - Choix : Publier avec Nassim Courbet un texte reliant salaires, partage du pouvoir et services publics [RASSEMBLEUR]
@@ -70,49 +70,49 @@ Idéologie : mouvement total 20.78 points, axe le plus mobile 9.08 points
 - Choix : Signer un contrat de cinq ans avec conférence annuelle et indicateurs publiés par territoire [INSTITUTIONNEL]
 - Conséquence : *Les maires obtiennent un calendrier opposable* — Une majorité des signataires rejoint votre comité de soutien et fournit un réseau territorial immédiat. Le contrat limite votre marge budgétaire future et crée des rendez-vous où chaque retard sera visible.
 
-**15. Le direct des questions citoyennes** _(media)_
-- Choix : Reporter le déplacement suivant et répondre jusqu’à épuiser la file de questions [POPULAIRE]
-- Conséquence : *Le direct change votre journée* — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
-- Déclaration : gradual_evolution
+**15. Six rédactions face au désert médical** _(media)_
+- Choix : Financer des maisons de santé mobiles gérées avec les départements volontaires [TECHNIQUE]
+- Conséquence : *Une solution concrète mais partielle* — Deux départements proposent aussitôt d’expérimenter le dispositif. La réponse ne règle pas la pénurie de médecins, mais elle donne à votre déplacement un résultat mesurable et territorial.
+- Déclaration : coherent_compromise
 
 **16. La fronde sociale exige un vote** _(party)_
 - Choix : Confier une médiation à Léna Orsini et proposer une direction sociale collégiale [RASSEMBLEUR]
 - Conséquence : *Une équipe sociale remplace le duel* — La médiation distribue les responsabilités entre trois courants et évite que le conflit se résume à deux personnes. La nouvelle structure est lourde mais remet les équipes sur le terrain.
 
-**17. L’immigration de travail, un choix économique assumé ou non** _(program)_
-- Choix : Réserver les embauches en tension aux résidents européens avant toute ouverture [CLIVANT]
-- Conséquence : *La priorité européenne avant l’ouverture* — La mesure rassure une partie de l’électorat sur la maîtrise des flux tout en restant dans le cadre européen. Les fédérations patronales des secteurs concernés jugent le délai de mise en œuvre incompatible avec leurs besoins immédiats.
-- Déclaration : contradiction
+**17. Vingt-quatre heures sans caméra** _(media)_
+- Choix : Annuler la pause et accepter la première invitation au journal de vingt heures [RISQUÉ]
+- Conséquence : *La fatigue passe à l’écran* — Votre présence dément les rumeurs, mais deux réponses hésitantes montrent pourquoi la pause avait été proposée. La couverture se concentre sur la forme et l’équipe perd une journée de préparation.
 
-**18. Les Écologistes proposent un pacte urbain** _(party)_
-- Choix : Refuser le pacte et lancer votre propre tournée populaire sur lécologie du quotidien [LOYAL]
-- Conséquence : *Lécologie populaire reste sous vos couleurs* — La tournée consolide votre ligne sur les factures, les transports et le logement. Les Écologistes dénoncent une concurrence qui fragmente le même électorat urbain.
+**18. La Sixième République doit prendre forme** _(party)_
+- Choix : Commencer par la proportionnelle et le référendum partagé avant de convoquer une constituante [PRUDENT]
+- Conséquence : *La nouvelle République devient un chemin en trois étapes* — La trajectoire paraît plus réalisable et élargit les alliances parlementaires possibles. Les militants les plus attachés à la rupture craignent que la constituante soit repoussée indéfiniment.
+- Déclaration : initial_position
 
-**19. La minute qui vous appartient** _(debate)_
-- Choix : Demander aux téléspectateurs de comparer les programmes et promettre de respecter leur choix [RASSEMBLEUR]
-- Conséquence : *La campagne se termine sans ultimatum* — Le ton apaise un débat tendu et améliore votre image auprès des électeurs susceptibles de vous rejoindre plus tard. Vos militants regrettent une conclusion peu combative à quelques jours du scrutin.
+**19. Le mix électrique de 2040** _(program)_
+- Choix : Programmer six réacteurs et accélérer simultanément le solaire, l’éolien et les réseaux [TECHNIQUE]
+- Conséquence : *Deux filières, une facture massive* — La stratégie réduit le risque de dépendre d’une technologie et rassure l’industrie. Son coût d’investissement cumulé devient aussitôt l’un des principaux postes à financer de votre programme.
+- Déclaration : initial_position
 
-**20. Le rapport reprend huit paragraphes** _(scandal)_
-- Choix : Retirer la note, citer chaque source et republier une version distinguant données et propositions [TRANSPARENT]
-- Conséquence : *Les citations reviennent dans le document* — La nouvelle version montre que les données venaient d’un rapport public et que vos propositions restent propres à la campagne. L’erreur éditoriale est reconnue sans prétendre que le fond était inventé.
+**20. L’imprimeur a doublé une ligne** _(scandal)_
+- Choix : Accepter l’avoir, auditer les trois derniers devis et maintenir le fournisseur sous contrôle renforcé [PRUDENT]
+- Conséquence : *L’avoir s’accompagne d’un audit* — Les autres devis sont corrects et le doublon apparaît isolé. Le contrôle renforcé protège la suite du contrat sans interrompre l’impression des affiches déjà attendues.
 
-**21. Le siège déborde de bénévoles** _(campaign)_
-- Choix : Former cent référents locaux avant de répartir les nouveaux bénévoles [PRUDENT]
-- Conséquence : *Le réseau absorbe l’afflux* — Les référents prennent le temps d’expliquer les règles et les outils. La mobilisation progresse moins vite cette semaine, mais l’organisation gagne une capacité durable.
+**21. Les affiches manquent dans six villes** _(campaign)_
+- Choix : Renoncer aux affiches et financer une campagne numérique dans les six villes [OPPORTUNISTE]
+- Conséquence : *Le budget bascule vers les écrans* — Les vidéos locales touchent rapidement les moins de trente ans. Les militants chargés de l’affichage dénoncent cependant une décision prise sans leur avis.
 
 **22. La collecte se bloque** _(campaign)_
 - Choix : Annuler la tournée la plus coûteuse et expliquer chaque économie [PRUDENT]
 - Conséquence : *Les comptes retrouvent une marge* — La suppression de quatre étapes stabilise la trésorerie et rassure le siège. Les territoires concernés dénoncent une campagne qui les abandonne en premier.
 
-**23. Le Conseil européen se divise** _(world)_
-- Choix : Abandonner le projet européen et créer un fonds industriel exclusivement français [LOYAL]
-- Conséquence : *Le fonds revient au budget français* — La décision offre une maîtrise nationale et un calendrier simple. Elle réduit l’échelle financière, expose les aides au contrôle européen et affaiblit votre discours sur la capacité de coalition.
-- Déclaration : contradiction
+**23. Une aciérie annonce sa fermeture** _(world)_
+- Choix : Conditionner toute aide à un repreneur privé présentant un carnet de commandes vérifiable [TECHNIQUE]
+- Conséquence : *Laide attend un projet industriel viable* — Le critère évite de financer une activité sans débouché et attire deux candidats prudents. Les salariés vous reprochent de laisser le temps du marché décider pendant que le site perd ses compétences.
 
-**24. Le prochain budget de la santé** _(program)_
-- Choix : Financer cinquante mille postes hospitaliers en relevant les recettes affectées à la santé [POPULAIRE]
-- Conséquence : *Les effectifs passent avant la transformation* — Les équipes hospitalières disposent d’un engagement quantifié et mobilisateur. Le recrutement réel et la recette choisie restent à sécuriser, ce qui ouvre deux fronts techniques sans affaiblir la priorité politique.
-- Déclaration : gradual_evolution
+**24. Le contrat d’intégration, jusqu’où aller** _(program)_
+- Choix : Conditionner l’accès à la nationalité à la réussite du contrat d’intégration [CLIVANT]
+- Conséquence : *L’intégration comme condition de la nationalité* — La proposition marque une ligne nette et mobilise une partie de votre socle. Des juristes et des associations de défense des droits contestent la conformité du dispositif avec les engagements internationaux existants.
+- Déclaration : contradiction
 
 **25. Les dernières heures autorisées** _(between_rounds)_
 - Choix : Annoncer une baisse dimpôt nouvelle pour tenter de créer un dernier mouvement [RISQUÉ]

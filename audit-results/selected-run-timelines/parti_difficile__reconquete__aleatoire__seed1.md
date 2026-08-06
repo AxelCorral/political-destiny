@@ -1,11 +1,11 @@
 # reconquete · aleatoire · seed 1
 
 Parti : **reconquete** (existing) — Agent : **aleatoire** — Graine : `post-audit-1` — Méthode : presidential
-Résultat : éliminé au 1er tour — score final 53/100 — fin `strengthened_party`
-Score 1er tour : 10.4 — Score 2nd tour : n/a — Progression : 5.4
+Résultat : éliminé au 1er tour — score final 55/100 — fin `kingmaker`
+Score 1er tour : 10.7 — Score 2nd tour : n/a — Progression : 5.7
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 0 souvenirs d'acteurs, 61 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 15.43 points, axe le plus mobile 8.47 points
+Mémoire/monde : 1 souvenirs d'acteurs, 61 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 17.11 points, axe le plus mobile 7.07 points
 
 ## Chronologie
 
@@ -44,19 +44,20 @@ Idéologie : mouvement total 15.43 points, axe le plus mobile 8.47 points
 - Choix : Inviter le responsable à un débat public interne puis publier les points d’accord et de désaccord [TRANSPARENT]
 - Conséquence : *Le désaccord devient délibération* — Le débat intéresse davantage les militants que le grand public et révèle un conflit politique réel sans attaque personnelle. Votre rival gagne en visibilité mais mémorise le respect accordé à sa position.
 
-**9. La loi migratoire du programme** _(program)_
-- Choix : Négocier un mécanisme européen d’asile et refuser tout objectif national avant cet accord [RASSEMBLEUR]
-- Conséquence : *L’échelle européenne prime sur la réponse immédiate* — La cohérence avec votre ligne européenne est nette et les électeurs modérés y voient une méthode réaliste. L’absence de mesure nationale immédiate alimente l’accusation d’attendre un accord incertain.
+**9. La présidence que vous proposez** _(program)_
+- Choix : Introduire une dose majoritaire de proportionnelle et renforcer les droits du Parlement [INSTITUTIONNEL]
+- Conséquence : *Le Parlement gagne du poids* — La réforme paraît compatible avec la Ve République tout en modifiant la représentation. Elle intéresse les partis susceptibles de devenir alliés et suscite les critiques de ceux qui redoutent des majorités instables.
 - Déclaration : initial_position
 
-**10. Le prochain budget de la santé** _(program)_
-- Choix : Réserver dix pour cent des crédits nouveaux à la prévention et publier des objectifs sanitaires [TECHNIQUE]
-- Conséquence : *La prévention obtient une part protégée* — Les objectifs sur le diabète, le dépistage et la santé au travail donnent une mesure à long terme. Les urgences hospitalières rappellent que ce fléchage ne réduit pas leur manque d’effectifs demain matin.
+**10. Vie privée et réseaux : la ligne numérique** _(program)_
+- Choix : Confier la régulation à une autorité indépendante dotée de pouvoirs de sanction [INSTITUTIONNEL]
+- Conséquence : *Une autorité dédiée, hors du politique* — Le choix institutionnel rassure sur l’indépendance de la régulation vis-à-vis du pouvoir en place. Certains commentateurs regrettent l’absence de mesure immédiate visible avant la mise en place effective de l’autorité.
 - Déclaration : initial_position
 
-**11. Le slogan divise le siège** _(campaign)_
-- Choix : Choisir le slogan de rupture et l’accompagner de trois engagements précis [CLIVANT]
-- Conséquence : *La rupture reçoit un contenu* — Les trois engagements empêchent le slogan de rester abstrait. Le socle se mobilise, mais les électeurs recherchant la stabilité deviennent plus méfiants.
+**11. La pluie emporte la tournée** _(campaign)_
+- Choix : Tenir un point presse à distance sur l’adaptation aux pluies extrêmes [TECHNIQUE]
+- Conséquence : *L’adaptation remplace le meeting* — Le point presse relie l’événement à des investissements précis sans commenter les opérations en cours. La séquence gagne en fond, malgré des accusations de récupération.
+- Déclaration : coherent_compromise
 
 **12. Le RN offre des désistements limités** _(party)_
 - Choix : Refuser le pacte et investir des candidats face au RN dans tous les territoires disputés [OFFENSIF]
@@ -71,47 +72,46 @@ Idéologie : mouvement total 15.43 points, axe le plus mobile 8.47 points
 - Choix : Proposer une réserve stratégique européenne pour les composants exposés à la route fermée [TECHNIQUE]
 - Conséquence : *La crise devient politique d’approvisionnement* — Les industriels apprécient une réponse concrète et les partenaires européens peuvent en discuter sans attendre la fin de la crise. La réserve coûte cher et ne traite pas la confrontation navale elle-même.
 
-**15. Le face-à-face avec les syndicats** _(campaign)_
-- Choix : Convoquer une conférence salariale avec accord majoritaire avant toute loi [RASSEMBLEUR]
-- Conséquence : *La méthode obtient un accord prudent* — Les syndicats acceptent le principe à condition de publier la représentativité et le calendrier. Les employeurs réclament aussitôt une place égale à la table.
+**15. La collecte se bloque** _(campaign)_
+- Choix : Annuler la tournée la plus coûteuse et expliquer chaque économie [PRUDENT]
+- Conséquence : *Les comptes retrouvent une marge* — La suppression de quatre étapes stabilise la trésorerie et rassure le siège. Les territoires concernés dénoncent une campagne qui les abandonne en premier.
+
+**16. Un cadre écologiste tenté par un ralliement** _(alliance)_
+- Choix : Négocier en privé, sans aucune annonce avant un accord ferme [SECRET]
+- Conséquence : *Une négociation discrète* — La discrétion protège la cadre concernée et évite une confrontation prématurée avec son mouvement. Rien n’est acquis, et une fuite dans la presse reste possible à tout moment.
+
+**17. Provoquer le favori en duel** _(debate)_
+- Choix : Accepter le duel en imposant un format contradictoire strict, sans notes [OFFENSIF]
+- Conséquence : *Un duel exigeant, accepté sous conditions* — La chaîne valide le format et l’équipe adverse le juge agressif mais ne peut refuser sans paraître fuir le débat. Élise Montclar prépare une riposte médiatique pour les jours suivants.
+
+**18. La une vous prête un tournant** _(media)_
+- Choix : Convoquer dès le lendemain les syndicats pour négocier les contreparties de l’investissement [INSTITUTIONNEL]
+- Conséquence : *La une ouvre une négociation sociale* — La CGT et la CFDT acceptent des rencontres séparées. Le processus ralentit votre annonce économique, mais il ancre les contreparties dans une négociation réelle plutôt que dans une formule de riposte.
 - Déclaration : abrupt_reversal
 
-**16. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Transformer le concert en forum sur le logement avec associations, étudiants et élus locaux [POPULAIRE]
-- Conséquence : *La scène devient forum du logement* — L’artiste ouvre la soirée puis laisse les acteurs du terrain confronter vos propositions. La couverture est moins centrée sur sa notoriété et produit plusieurs engagements locaux crédibles.
+**19. La riposte du favori** _(debate)_
+- Choix : Demander un droit de réponse écrit publié par la même chaîne [INSTITUTIONNEL]
+- Conséquence : *Une réponse formelle, publiée à égalité* — Le droit de réponse garantit une visibilité comparable à celle de l’attaque initiale. La procédure prend plusieurs jours, pendant lesquels la ligne d’attaque adverse circule sans contestation directe.
 
-**17. Neuf candidats face au climat** _(debate)_
-- Choix : Supprimer le grand sommet annuel et financer cent plans communaux d’adaptation [POPULAIRE]
-- Conséquence : *Cent communes remplacent une grand-messe* — Le contraste est facile à retenir et les maires y voient un financement utilisable. Les experts rappellent que le sommet supprimé coûtait beaucoup moins que les plans annoncés, ce qui oblige à trouver le solde ailleurs.
-- Déclaration : strategic_repositioning
+**20. Le meeting change de dispositif** _(campaign)_
+- Choix : Réduire la jauge et réserver les places aux équipes déjà inscrites [INSTITUTIONNEL]
+- Conséquence : *La jauge protège et déçoit* — Le dispositif devient plus simple et plusieurs centaines de sympathisants restent dehors. Les équipes comprennent la décision, mais la mobilisation visible recule.
 
-**18. Le fauteuil libéré au vingt heures** _(media)_
-- Choix : Accepter sans condition et préparer quatre réponses prioritaires pendant le trajet [RISQUÉ]
-- Conséquence : *Une lacune sous les projecteurs* — Une question sur les retraites révèle une contradiction entre deux fiches du programme. L’exposition reste précieuse, mais vos adversaires disposent désormais d’un angle simple pour le débat du lendemain.
+**21. Un fichier militant sort du siège** _(scandal)_
+- Choix : Fermer le lien et réinitialiser les accès avant d’attendre les résultats d’un audit technique [PRUDENT]
+- Conséquence : *Les accès changent, l’information attend* — La fuite potentielle est stoppée et l’audit ne trouve aucun téléchargement massif. Le délai de notification devient pourtant le problème principal lorsque le bénévole raconte publiquement son signalement.
 
-**19. Une nuit avec les urgences** _(campaign)_
-- Choix : Publier chaque semaine les lits fermés et convoquer les agences régionales [TRANSPARENT]
-- Conséquence : *Les fermetures deviennent vérifiables* — Le tableau de bord donne aux soignants un outil de pression et oblige votre équipe à assumer les écarts régionaux. Les gestionnaires redoutent une lecture trop brute.
-
-**20. Une minute sur les loyers** _(media)_
-- Choix : Refuser la réponse en soixante secondes et inviter l’étudiante à un échange filmé plus long [PRÉSIDENTIEL]
-- Conséquence : *Le refus du slogan devient un entretien* — Le premier extrait paraît défensif, puis l’échange complet montre une écoute réelle et plusieurs arbitrages. Vous renoncez à la viralité immédiate pour une séquence plus cohérente avec votre méthode.
-
-**21. Le rapport reprend huit paragraphes** _(scandal)_
-- Choix : Maintenir la note et défendre le droit de réutiliser les données d’un rapport public [CLIVANT]
-- Conséquence : *Le droit d’utilisation ne répond pas à l’attribution* — Votre argument juridique sur les données est exact mais ne traite pas la reprise des formulations. La campagne transforme une correction simple en débat durable sur son honnêteté intellectuelle.
-
-**22. La Garonne sort de son lit** _(world)_
-- Choix : Rejoindre immédiatement un centre de coordination sans caméra et suivre les tâches attribuées [RISQUÉ]
-- Conséquence : *Une présence acceptée mais inutile au commandement* — Les autorités vous laissent rencontrer les équipes hors des zones opérationnelles. Votre discrétion évite la gêne, mais le déplacement mobilise tout de même une escorte et suscite un débat sur son utilité.
+**22. Une proposition de pacte de non-agression** _(campaign)_
+- Choix : Refuser et maintenir une ligne critique y compris pendant le meeting commun [OFFENSIF]
+- Conséquence : *Le contraste maintenu jusqu’au bout* — Le refus marque une différence claire de méthode et mobilise les électeurs qui attendaient un contraste net. Il est aussi commenté comme un signe de tension entre les deux équipes lors d’un événement censé rassembler.
 
 **23. Les comités numériques cherchent du terrain** _(party)_
 - Choix : Financer cent formations locales et exiger un compte rendu public de chaque réunion [TECHNIQUE]
 - Conséquence : *Les comités apprennent à tenir le terrain* — Les bénévoles acquièrent des méthodes de recrutement et plusieurs groupes durables apparaissent. La formation coûte cher et mobilise des responsables qui produisaient auparavant les contenus viraux.
 
-**24. La minute qui vous appartient** _(debate)_
-- Choix : Demander aux téléspectateurs de comparer les programmes et promettre de respecter leur choix [RASSEMBLEUR]
-- Conséquence : *La campagne se termine sans ultimatum* — Le ton apaise un débat tendu et améliore votre image auprès des électeurs susceptibles de vous rejoindre plus tard. Vos militants regrettent une conclusion peu combative à quelques jours du scrutin.
+**24. Le siège arrive à saturation** _(internal)_
+- Choix : Annuler deux déplacements, instaurer une journée de repos et redistribuer les astreintes [PRUDENT]
+- Conséquence : *Le calendrier perd deux étapes et gagne de la fiabilité* — Les équipes locales déçues obtiennent des visioconférences et le siège retrouve un rythme soutenable. Votre présence médiatique recule brièvement, tandis que les erreurs logistiques diminuent.
 
 **25. Votre mandat à la tête du parti** _(between_rounds)_
 - Choix : Rester jusquau congrès, présenter votre bilan et ne pas intervenir dans la succession [INSTITUTIONNEL]

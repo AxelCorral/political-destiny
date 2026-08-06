@@ -2,10 +2,10 @@
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-9` — Méthode : union
 Résultat : qualifié, **vainqueur** — score final 84/100 — fin `president`
-Score 1er tour : 17.9 — Score 2nd tour : 52.8 — Progression : 4.9
+Score 1er tour : 17.6 — Score 2nd tour : 53.1 — Progression : 4.6
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 78 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 20.54 points, axe le plus mobile 10.22 points
+Mémoire/monde : 1 souvenirs d'acteurs, 78 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 25.73 points, axe le plus mobile 7.98 points
 
 ## Chronologie
 
@@ -45,9 +45,9 @@ Idéologie : mouvement total 20.54 points, axe le plus mobile 10.22 points
 - Choix : Honorer la promesse et organiser une passation publique avec léquipe actuelle [LOYAL]
 - Conséquence : *La dette de primaire est payée* — Le courant rejoint pleinement la campagne et la passation conserve le travail déjà produit. Les responsables remplacés acceptent difficilement un arbitrage fondé sur une promesse politique plutôt que sur leur performance.
 
-**9. Deux cents maires demandent un contrat** _(alliance)_
-- Choix : Signer un contrat de cinq ans avec conférence annuelle et indicateurs publiés par territoire [INSTITUTIONNEL]
-- Conséquence : *Les maires obtiennent un calendrier opposable* — Une majorité des signataires rejoint votre comité de soutien et fournit un réseau territorial immédiat. Le contrat limite votre marge budgétaire future et crée des rendez-vous où chaque retard sera visible.
+**9. Douze députés offrent leur expérience** _(alliance)_
+- Choix : Signer une charte de soutien libre avec réunion hebdomadaire et désaccords publiables [INSTITUTIONNEL]
+- Conséquence : *Douze soutiens sans discipline forcée* — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
 
 **10. Le siège déborde de bénévoles** _(campaign)_
 - Choix : Mobiliser immédiatement les volontaires pour un week-end de porte-à-porte [RISQUÉ]
@@ -65,56 +65,54 @@ Idéologie : mouvement total 20.54 points, axe le plus mobile 10.22 points
 - Choix : Inviter Gabriel Valès à débattre publiquement de vos divergences au prochain meeting [RISQUÉ]
 - Conséquence : *Le soutien devient confrontation* — Le débat attire une audience inhabituelle et vous permet de marquer vos désaccords sans nier le point commun initial. Une partie de votre équipe juge néanmoins que le polémiste a reçu une scène disproportionnée.
 
-**14. Le Conseil européen se divise** _(world)_
-- Choix : Abandonner le projet européen et créer un fonds industriel exclusivement français [LOYAL]
-- Conséquence : *Le fonds revient au budget français* — La décision offre une maîtrise nationale et un calendrier simple. Elle réduit l’échelle financière, expose les aides au contrôle européen et affaiblit votre discours sur la capacité de coalition.
-- Déclaration : coherent_compromise
+**14. Une crise ferme un détroit** _(world)_
+- Choix : Proposer une réserve stratégique européenne pour les composants exposés à la route fermée [TECHNIQUE]
+- Conséquence : *La crise devient politique d’approvisionnement* — Les industriels apprécient une réponse concrète et les partenaires européens peuvent en discuter sans attendre la fin de la crise. La réserve coûte cher et ne traite pas la confrontation navale elle-même.
 
-**15. Contrôles aux frontières : quels moyens** _(program)_
-- Choix : Lancer des contrôles mobiles ciblés sur les axes routiers frontaliers [TECHNIQUE]
-- Conséquence : *Une réponse ciblée et réversible* — La mesure évite la lourdeur d’un contrôle systématique tout en donnant une réponse concrète à l’incident. Certains commentateurs la jugent trop modeste pour peser réellement sur les passages constatés.
-- Déclaration : initial_position
+**15. La question venue de Mayotte** _(debate)_
+- Choix : Répondre par votre plan national pour l’eau et garantir une priorité ultramarine au premier budget [PRÉSIDENTIEL]
+- Conséquence : *Mayotte obtient une priorité budgétaire* — Vous ne fournissez pas le chiffre demandé, mais l’engagement de premier budget donne une conséquence au débat. Les autres territoires ultramarins demandent aussitôt s’ils bénéficieront de la même priorité.
+- Déclaration : gradual_evolution
 
 **16. Saint-Denis ouvre ses réseaux associatifs** _(party)_
 - Choix : Tenir six ateliers et signer un tableau dengagements avec les associations participantes [POPULAIRE]
 - Conséquence : *Six soirées produisent un contrat local* — Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.
 
-**17. La question venue de Mayotte** _(debate)_
-- Choix : Répondre par votre plan national pour l’eau et garantir une priorité ultramarine au premier budget [PRÉSIDENTIEL]
-- Conséquence : *Mayotte obtient une priorité budgétaire* — Vous ne fournissez pas le chiffre demandé, mais l’engagement de premier budget donne une conséquence au débat. Les autres territoires ultramarins demandent aussitôt s’ils bénéficieront de la même priorité.
-- Déclaration : gradual_evolution
+**17. Un rival corrige votre ligne** _(internal)_
+- Choix : Accepter le vote du bureau et défendre votre proposition devant chaque courant [INSTITUTIONNEL]
+- Conséquence : *Le bureau confirme la ligne* — Votre proposition l’emporte après deux concessions de financement. Le rival accepte le résultat et votre autorité gagne une base collective, au prix d’un dispositif légèrement moins lisible.
 
-**18. Le contrat d’intégration, jusqu’où aller** _(program)_
-- Choix : Financer davantage l’accompagnement à l’intégration sans nouvelle obligation contractuelle [PRUDENT]
-- Conséquence : *Investir avant de contraindre* — Les associations de terrain saluent un choix qui répond à leurs difficultés de moyens constatées depuis des années. Une partie de l’opinion attendait un signal plus ferme sur les obligations des personnes concernées.
-- Déclaration : strategic_repositioning
+**18. L’adversaire refuse de vous laisser répondre** _(debate)_
+- Choix : Cesser de répondre à l’adversaire et expliquer votre mesure directement à la caméra [POPULAIRE]
+- Conséquence : *La caméra remplace le duel* — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
 
-**19. Qui financera les priorités** _(program)_
-- Choix : Retirer deux dépenses du programme plutôt que créer un prélèvement supplémentaire [PRUDENT]
-- Conséquence : *Le budget perd deux promesses* — L’absence d’impôt nouveau rassure une partie des classes moyennes et renforce votre discipline budgétaire. Les publics visés par les mesures retirées découvrent immédiatement le prix politique de l’arbitrage.
+**19. La loi migratoire du programme** _(program)_
+- Choix : Faire voter chaque année des objectifs migratoires par motif et renforcer les contrôles aux frontières [CLIVANT]
+- Conséquence : *Le Parlement reçoit un objectif annuel* — La mesure répond à la demande de contrôle et donne un rendez-vous démocratique régulier. Les juristes rappellent que le droit d’asile ne peut être traité comme un quota, ce qui oblige à préciser rapidement le périmètre.
 - Déclaration : initial_position
 
 **20. La désobéissance européenne doit être définie** _(party)_
 - Choix : Publier une liste limitée de règles, les mesures françaises concernées et le calendrier de négociation [TRANSPARENT]
 - Conséquence : *La désobéissance reçoit des objets précis* — La liste rassure sur létendue du conflit et rend vos priorités négociables avec des partenaires. Elle expose chaque mesure à un débat juridique et déçoit ceux qui imaginaient une rupture plus générale.
-- Déclaration : coherent_compromise
+- Déclaration : gradual_evolution
 
-**21. La directrice a recruté son frère** _(scandal)_
-- Choix : Interrompre la mission, payer le travail livré et relancer un appel d’offres documenté [TRANSPARENT]
-- Conséquence : *Le contrat familial repasse en concurrence* — Le code livré reste utilisable et la nouvelle procédure attribue la suite à une autre entreprise. Anaïs Vercel reconnaît avoir privilégié la vitesse et accepte un retrait temporaire des achats.
+**21. Le rapport reprend huit paragraphes** _(scandal)_
+- Choix : Maintenir la note et défendre le droit de réutiliser les données d’un rapport public [CLIVANT]
+- Conséquence : *Le droit d’utilisation ne répond pas à l’attribution* — Votre argument juridique sur les données est exact mais ne traite pas la reprise des formulations. La campagne transforme une correction simple en débat durable sur son honnêteté intellectuelle.
 
-**22. La une vous prête un tournant** _(media)_
-- Choix : Convoquer dès le lendemain les syndicats pour négocier les contreparties de l’investissement [INSTITUTIONNEL]
-- Conséquence : *La une ouvre une négociation sociale* — La CGT et la CFDT acceptent des rencontres séparées. Le processus ralentit votre annonce économique, mais il ancre les contreparties dans une négociation réelle plutôt que dans une formule de riposte.
+**22. La ligne de départ des retraites** _(program)_
+- Choix : Maintenir l’âge légal à soixante-quatre ans avec des départs anticipés par durée de cotisation [TECHNIQUE]
+- Conséquence : *Une continuité assortie d’exceptions* — Le financement paraît plus robuste que les scénarios concurrents et les départs anticipés limitent la dureté du signal. Les syndicats contestent néanmoins le maintien de l’âge et annoncent qu’ils en feront un sujet de campagne.
 - Déclaration : initial_position
 
-**23. Les affiches manquent dans six villes** _(campaign)_
-- Choix : Répartir la commande entre trois imprimeurs locaux et publier les coûts [TRANSPARENT]
-- Conséquence : *Les imprimeurs rattrapent le retard* — Les premières affiches arrivent sous quarante-huit heures. La solution coûte davantage, mais les sections disposent enfin d’un calendrier et de factures consultables.
+**23. Le meeting quitte la capitale** _(campaign)_
+- Choix : Tenir le meeting à Toulouse et proposer un plan chaleur-logement [TECHNIQUE]
+- Conséquence : *Toulouse concrétise l’adaptation climatique* — Le plan relie climat, logement et santé avec un calendrier municipal. Les associations saluent la précision, tandis que son coût national reste discuté.
+- Déclaration : initial_position
 
-**24. Deux équipes se disputent le terrain** _(internal)_
-- Choix : Donner la priorité au porte-à-porte et confier seulement dix bénévoles à la vidéo [POPULAIRE]
-- Conséquence : *Les sections reprennent la rue* — Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. Léquipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.
+**24. Le PS propose trois engagements communs** _(alliance)_
+- Choix : Participer à la réunion sans pacte électoral et publier vos désaccords après chaque engagement [TRANSPARENT]
+- Conséquence : *Le dialogue n’exige pas le silence* — La rencontre montre des convergences concrètes sans masquer la compétition présidentielle. Le PS juge la contrepartie insuffisante, mais la relation s’améliore et la porte reste ouverte pour le second tour.
 
 **25. La coalition réclame une annexe** _(between_rounds)_
 - Choix : Adopter les douze mesures et présenter le texte comme un nouveau contrat de second tour [OPPORTUNISTE]

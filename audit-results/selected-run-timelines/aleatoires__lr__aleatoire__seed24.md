@@ -1,11 +1,11 @@
 # lr · aleatoire · seed 24
 
 Parti : **lr** (existing) — Agent : **aleatoire** — Graine : `post-audit-24` — Méthode : union
-Résultat : qualifié, **vainqueur** — score final 81/100 — fin `president`
-Score 1er tour : 14.9 — Score 2nd tour : 60.8 — Progression : 8.4
+Résultat : qualifié, **vainqueur** — score final 77/100 — fin `president`
+Score 1er tour : 14.3 — Score 2nd tour : 54.9 — Progression : 7.8
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 73 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 14.98 points, axe le plus mobile 8.07 points
+Mémoire/monde : 5 souvenirs d'acteurs, 75 actions adverses (alliance|crisis|endorsement|strategy), 2 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 6.03 points, axe le plus mobile 2.5 points
 
 ## Chronologie
 
@@ -44,74 +44,73 @@ Idéologie : mouvement total 14.98 points, axe le plus mobile 8.07 points
 - Choix : Maintenir le meeting en appliquant intégralement le protocole préfectoral [PRUDENT]
 - Conséquence : *Le meeting se tient sans incident* — Les contrôles retardent l’ouverture et la salle reste calme. Vous montrez que la campagne peut continuer, sans transformer l’alerte en argument politique.
 
-**9. Vingt-quatre heures sans caméra** _(media)_
-- Choix : Maintenir la journée de travail et publier l’agenda précis des réunions programmatiques [PRUDENT]
-- Conséquence : *Une pause lisible dans la campagne* — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
+**9. Le micro resté ouvert** _(media)_
+- Choix : Accuser la chaîne d’avoir diffusé une conversation privée et refuser de commenter le fond [CLIVANT]
+- Conséquence : *Le droit ne répond pas au malaise* — La protestation sur les conditions d’enregistrement soulève une vraie question professionnelle, sans effacer vos mots. L’équipe comprend votre silence comme un refus de traiter le conflit interne.
 
-**10. Le siège arrive à saturation** _(internal)_
-- Choix : Annuler deux déplacements, instaurer une journée de repos et redistribuer les astreintes [PRUDENT]
-- Conséquence : *Le calendrier perd deux étapes et gagne de la fiabilité* — Les équipes locales déçues obtiennent des visioconférences et le siège retrouve un rythme soutenable. Votre présence médiatique recule brièvement, tandis que les erreurs logistiques diminuent.
+**10. Deux équipes se disputent le terrain** _(internal)_
+- Choix : Maintenir l’opération vidéo et demander à Samira Bellon d’en mesurer elle-même l’audience locale [RISQUÉ]
+- Conséquence : *La vidéo atteint Lyon sans apaiser les sections* — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
 
-**11. Six rédactions face au désert médical** _(media)_
-- Choix : Financer des maisons de santé mobiles gérées avec les départements volontaires [TECHNIQUE]
-- Conséquence : *Une solution concrète mais partielle* — Deux départements proposent aussitôt d’expérimenter le dispositif. La réponse ne règle pas la pénurie de médecins, mais elle donne à votre déplacement un résultat mesurable et territorial.
-- Déclaration : initial_position
+**11. La France vue depuis Bruxelles** _(media)_
+- Choix : Proposer une coalition de pays volontaires avant de renégocier la règle commune [RASSEMBLEUR]
+- Conséquence : *Une méthode plutôt qu’un ultimatum* — La réponse paraît compatible avec le fonctionnement européen et rassure les électeurs favorables à la coopération. Elle déçoit ceux qui attendaient un rapport de force immédiat avec Bruxelles.
+- Déclaration : abrupt_reversal
 
 **12. Diane Mérande veut négocier à droite** _(party)_
 - Choix : Interdire les contacts nationaux et remplacer Diane Mérande à la tête des investitures [OFFENSIF]
 - Conséquence : *Bastien Rochefort ferme la négociation* — La frontière devient compréhensible et les centristes saluent la décision. Plusieurs présidents de fédération continuent leurs échanges localement et mémorisent l’éviction de leur représentante.
 
-**13. Le contrôle interne signale trois factures** _(internal)_
-- Choix : Valider les factures sur la confiance de la trésorière et poursuivre les paiements [LOYAL]
-- Conséquence : *La campagne paie sans compléter le dossier* — Les fournisseurs restent mobilisés et Maud Keravel apprécie la confiance personnelle. L’absence de pièces devient toutefois une vulnérabilité documentée que le dépôt des comptes ne pourra pas résoudre par la loyauté.
+**13. Le RN invite à une convention commune** _(alliance)_
+- Choix : Participer à la convention et négocier une consigne réciproque sans programme commun [OPPORTUNISTE]
+- Conséquence : *Un accord électoral sans plateforme unique* — La photographie élargit votre audience dans le bloc national et sécurise certains reports. Elle éloigne les électeurs modérés qui ne distinguent plus clairement votre candidature de celle du RN.
 
-**14. La pluie emporte la tournée** _(campaign)_
-- Choix : Tenir un point presse à distance sur l’adaptation aux pluies extrêmes [TECHNIQUE]
-- Conséquence : *L’adaptation remplace le meeting* — Le point presse relie l’événement à des investissements précis sans commenter les opérations en cours. La séquence gagne en fond, malgré des accusations de récupération.
-- Déclaration : strategic_repositioning
+**14. Vingt-quatre heures sans caméra** _(media)_
+- Choix : Annuler la pause et accepter la première invitation au journal de vingt heures [RISQUÉ]
+- Conséquence : *La fatigue passe à l’écran* — Votre présence dément les rumeurs, mais deux réponses hésitantes montrent pourquoi la pause avait été proposée. La couverture se concentre sur la forme et l’équipe perd une journée de préparation.
 
 **15. Les fédérations exigent un vote de ligne** _(party)_
 - Choix : Autoriser les accords locaux mais interdire tout logo national partagé [PRUDENT]
 - Conséquence : *Les accords locaux restent sans bannière commune* — La règle évite une scission et laisse les fédérations gérer leurs réalités. Les adversaires recensent chaque arrangement pour contester la cohérence de la ligne nationale.
 
-**16. Les factures sans pièce ressortent** _(scandal)_
-- Choix : Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusquà conclusion [TRANSPARENT]
-- Conséquence : *La trésorerie passe sous contrôle extérieur* — Les documents confirment les prestations tout en montrant des procédures trop légères. Maud Keravel accepte la suspension sans reconnaître de faute et le contrôle indépendant fixe un calendrier de conclusion.
+**16. Le contrôle interne signale trois factures** _(internal)_
+- Choix : Valider les factures sur la confiance de la trésorière et poursuivre les paiements [LOYAL]
+- Conséquence : *La campagne paie sans compléter le dossier* — Les fournisseurs restent mobilisés et Maud Keravel apprécie la confiance personnelle. L’absence de pièces devient toutefois une vulnérabilité documentée que le dépôt des comptes ne pourra pas résoudre par la loyauté.
 
-**17. L’adversaire refuse de vous laisser répondre** _(debate)_
-- Choix : Couper à votre tour et exiger que chacun lise son propre financement à voix haute [OFFENSIF]
-- Conséquence : *Le brouhaha devient épreuve de vérité* — La confrontation est désordonnée mais le défi sur les financements marque les esprits. Votre adversaire refuse l’exercice, ce qui vous offre un extrait favorable sans restaurer la qualité du débat.
+**17. Les soutiens envahissent le plateau** _(debate)_
+- Choix : Revendiquer la victoire et diffuser immédiatement vos trois meilleurs extraits [OFFENSIF]
+- Conséquence : *Trois extraits imposent votre meilleur débat* — La diffusion coordonnée domine les premières heures et nourrit une dynamique favorable. Les analyses du lendemain rappellent la faiblesse territoriale, sans annuler l’avantage de la première impression.
 
-**18. La PME teste votre réforme** _(campaign)_
-- Choix : Maintenir la réforme et défendre ses effets à l’échelle nationale [OFFENSIF]
-- Conséquence : *La ligne nationale résiste au cas local* — Votre équipe explique que l’entreprise ne représente pas tout le tissu productif. La cohérence rassure vos soutiens, mais les salariés présents jugent leur situation écartée.
-
-**19. Le marché sous pression** _(campaign)_
-- Choix : Publier trois factures anonymisées et demander un plafonnement ciblé [TRANSPARENT]
-- Conséquence : *Les factures donnent du poids au déplacement* — Les documents vérifiés remplacent les échanges confus par un cas concret. Le plafonnement séduit les petits commerces, tout en soulevant une question de financement.
-
-**20. L’audit clôt le dossier des factures** _(scandal)_
-- Choix : Publier une synthèse, appliquer quatre recommandations et reporter les deux plus coûteuses [PRUDENT]
-- Conséquence : *Quatre corrections et deux réserves* — La synthèse confirme l’absence d’enrichissement et les procédures principales changent. Les pages non publiées et les recommandations reportées laissent une marge aux soupçons, sans rouvrir complètement la crise.
-
-**21. La table ronde agricole se tend** _(campaign)_
-- Choix : Négocier des contrats de bassin liant aides publiques et économies d’eau [TECHNIQUE]
-- Conséquence : *Les bassins versants deviennent le compromis* — Les représentants acceptent de travailler sur des objectifs locaux plutôt qu’un plafond national. Le compromis réduit le conflit, mais reporte les chiffres essentiels.
-- Déclaration : coherent_compromise
-
-**22. Cinq cents bénévoles sans mission** _(internal)_
-- Choix : Former les nouveaux bénévoles pendant deux soirées avant toute prise de contact électorale [PRUDENT]
-- Conséquence : *Les nouveaux arrivent préparés sur le terrain* — La campagne renonce à deux jours d’élan mais évite les réponses contradictoires et les problèmes de données personnelles. Les bénévoles formés restent davantage engagés au fil des semaines.
-
-**23. Le direct des questions citoyennes** _(media)_
-- Choix : Reporter le déplacement suivant et répondre jusqu’à épuiser la file de questions [POPULAIRE]
-- Conséquence : *Le direct change votre journée* — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
-- Déclaration : strategic_repositioning
-
-**24. Neuf candidats face au climat** _(debate)_
+**18. Neuf candidats face au climat** _(debate)_
 - Choix : Conditionner chaque dépense climatique à une baisse d’émissions mesurée deux ans après son lancement [TECHNIQUE]
 - Conséquence : *Une clause de résultat remplace la liste* — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
 - Déclaration : coherent_compromise
+
+**19. Les factures sans pièce ressortent** _(scandal)_
+- Choix : Maintenir Maud Keravel, publier sa chronologie et compléter les dossiers avec chaque fournisseur [LOYAL]
+- Conséquence : *La trésorière reste et documente chaque dépense* — Deux fournisseurs apportent les pièces attendues ; le troisième ne retrouve qu’un échange de courriels. Votre loyauté stabilise l’équipe mais vous rend solidaire de la conclusion future.
+
+**20. Qui financera les priorités** _(program)_
+- Choix : Augmenter la TVA hors produits essentiels et compenser les ménages modestes par un crédit [RISQUÉ]
+- Conséquence : *Une recette sûre, une compensation contestée* — Le rendement paraît robuste et la protection des produits essentiels limite l’effet immédiat. Le crédit compensatoire semble complexe et votre campagne doit désormais prouver qu’aucun ménage modeste ne perdra.
+- Déclaration : initial_position
+
+**21. Le budget impose trois renoncements** _(campaign)_
+- Choix : Annuler deux grands meetings et préserver les équipes départementales [PRUDENT]
+- Conséquence : *Le terrain garde ses moyens* — Les sections conservent leurs véhicules et leurs permanences. Deux salles restent vides et les chaînes d’information réduisent leur couverture de votre campagne.
+
+**22. Nouvelle Énergie propose un retrait** _(alliance)_
+- Choix : Refuser de modifier le programme en échange d’un retrait et proposer un débat public [LOYAL]
+- Conséquence : *Les deux candidatures restent en lice* — Votre cohérence est préservée et Nouvelle Énergie maintient sa campagne en dénonçant votre fermeture. Les voix proches restent divisées, tandis que le débat public clarifie les différences de décentralisation.
+
+**23. L’audit clôt le dossier des factures** _(scandal)_
+- Choix : Proclamer Maud Keravel blanchie et rejeter les recommandations comme des précautions bureaucratiques [OFFENSIF]
+- Conséquence : *L’absence d’enrichissement devient victoire totale* — Votre lecture soulage les militants et dépasse ce que dit le rapport sur les procédures. L’expert rappelle publiquement ses six recommandations, transformant la conclusion favorable en nouveau conflit d’interprétation.
+
+**24. La France à cinquante degrés** _(program)_
+- Choix : Obliger les assureurs à couvrir les risques climatiques avec garantie publique en dernier ressort [CLIVANT]
+- Conséquence : *L’assurabilité devient une responsabilité partagée* — Les propriétaires exposés accueillent la garantie et les assureurs demandent une tarification plus libre. Le mécanisme traite les pertes après sinistre, sans répondre à lui seul au besoin de prévention.
+- Déclaration : gradual_evolution
 
 **25. Deux points davance à cinq jours** _(between_rounds)_
 - Choix : Consacrer les cinq jours au porte-à-porte dans les zones de faible participation [PRUDENT]
@@ -121,23 +120,22 @@ Idéologie : mouvement total 14.98 points, axe le plus mobile 8.07 points
 - Choix : Publier un contrat de majorité avec Horizons et inviter le RN à soutenir sans entrer au gouvernement [PRÉSIDENTIEL]
 - Conséquence : *La majorité distingue coalition et soutien* — Le centre obtient une place formelle et les électeurs du RN ne sont pas rejetés. La frontière subtile demande des explications constantes et mécontente les appareils des deux côtés.
 
-**27. Les dernières heures autorisées** _(between_rounds)_
+**27. Les reports refusent la mécanique** _(between_rounds)_
+- Choix : Ajouter une garantie sociale ciblée au contrat de coalition et en chiffrer le coût [RASSEMBLEUR]
+- Conséquence : *Une garantie donne un motif positif de report* — Les électeurs concernés voient leur priorité dans le contrat et leur participation estimée remonte. La mesure tardive augmente le coût du programme et inquiète ceux qui craignent une coalition sans limite.
+
+**28. Les dernières heures autorisées** _(between_rounds)_
 - Choix : Enregistrer une adresse courte résumant les trois engagements inchangés depuis le premier tour [PRÉSIDENTIEL]
 - Conséquence : *Trois engagements ferment la campagne* — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
-
-**28. Le débat de lentre-deux-tours** _(between_rounds)_
-- Choix : Appeler directement les abstentionnistes à choisir entre vos deux projets plutôt qu’entre deux personnes [POPULAIRE]
-- Conséquence : *Le débat se termine sur la participation* — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
 
 **29. La coalition réclame une annexe** _(between_rounds)_
 - Choix : Refuser les mesures nouvelles et signer uniquement une méthode de gouvernement commune [INSTITUTIONNEL]
 - Conséquence : *La coalition partage une méthode, pas un catalogue* — Le texte sur larbitrage, le Parlement et lévaluation rassure sur la stabilité sans acheter des soutiens par des promesses. Les électeurs les plus programmatiques restent peu mobilisés par cet accord procédural.
 
-**30. La première adresse de lÉlysée** _(government)_
-- Choix : Concentrer les cent jours sur le pouvoir dachat et reporter les autres réformes à lautomne [POPULAIRE]
-- Conséquence : *Le pouvoir dachat devient lurgence unique* — La priorité répond à lattente la plus immédiate et rend laction gouvernementale facile à suivre. Les alliés écologistes et institutionnels acceptent mal de voir leurs accords repoussés sans nouvelle date.
-- Déclaration : initial_position
+**30. Quinze ministres pour une coalition** _(government)_
+- Choix : Limiter le gouvernement à douze membres et fusionner les portefeuilles les plus proches [OFFENSIF]
+- Conséquence : *Douze membres donnent une image resserrée* — La composition est lisible et réduit les négociations de postes. Les ministres héritent de champs immenses et plusieurs alliés exclus promettent de juger le gouvernement texte par texte.
 
-**31. Quinze ministres pour une coalition** _(government)_
-- Choix : Répartir les ministères proportionnellement aux soutiens du second tour avec exigence de parité [INSTITUTIONNEL]
-- Conséquence : *Les soutiens deviennent responsabilité ministérielle* — La règle rend le partage compréhensible et stabilise les partenaires avant le premier Conseil des ministres. Elle laisse moins de place aux personnalités indépendantes et à certains territoires.
+**31. La première adresse de lÉlysée** _(government)_
+- Choix : Ouvrir une convention citoyenne sur deux réformes controversées avant tout projet de loi [RASSEMBLEUR]
+- Conséquence : *Le mandat commence par une délibération* — La convention réduit la précipitation et associe des citoyens aux arbitrages réels. Elle retarde les textes attendus par votre socle et donne le sentiment que la campagne na pas suffi à décider.

@@ -1,11 +1,11 @@
 # lfi · aleatoire · seed 5
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-5` — Méthode : field_first
-Résultat : qualifié — score final 75/100 — fin `runoff_defeat`
-Score 1er tour : 17.5 — Score 2nd tour : 49.3 — Progression : 4.5
+Résultat : qualifié — score final 72/100 — fin `runoff_defeat`
+Score 1er tour : 17.4 — Score 2nd tour : 47.7 — Progression : 4.4
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 75 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 18.06 points, axe le plus mobile 8.76 points
+Mémoire/monde : 3 souvenirs d'acteurs, 74 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 10.87 points, axe le plus mobile 8.09 points
 
 ## Chronologie
 
@@ -53,65 +53,68 @@ Idéologie : mouvement total 18.06 points, axe le plus mobile 8.76 points
 - Choix : Publier trois factures anonymisées et demander un plafonnement ciblé [TRANSPARENT]
 - Conséquence : *Les factures donnent du poids au déplacement* — Les documents vérifiés remplacent les échanges confus par un cas concret. Le plafonnement séduit les petits commerces, tout en soulevant une question de financement.
 
-**11. Nassim Courbet réclame une ligne plus sociale** _(party)_
-- Choix : Refuser la priorité unique et retirer à Nassim Courbet ses interventions nationales [OFFENSIF]
-- Conséquence : *La fronde perd le micro et gagne un motif* — La campagne conserve son agenda et les porte-parole cessent de se contredire. Les groupes proches de Nassim Courbet parlent dune sanction politique et préparent une assemblée indépendante.
+**11. Les tentes encerclent la préfecture** _(world)_
+- Choix : Financer trois mois d’hôtel et demander aux associations de lever le camp pendant la négociation [PRUDENT]
+- Conséquence : *Trois mois gagnés sans logement créé* — Les familles les plus vulnérables quittent les tentes et les associations maintiennent une présence symbolique. La solution d’urgence coûte cher et reporte le problème structurel au prochain trimestre.
 
-**12. Le salaire net au centre** _(program)_
-- Choix : Augmenter le salaire minimum de huit pour cent et compenser temporairement les petites entreprises [POPULAIRE]
-- Conséquence : *La hausse est immédiate, la transition coûteuse* — Les salariés au minimum voient un gain direct et la compensation évite une rupture avec les petites entreprises. Le coût budgétaire des deux premières années fragilise cependant votre cadrage fiscal.
+**12. Le contrôle interne signale trois factures** _(internal)_
+- Choix : Demander aux équipes locales de reconstituer les dossiers avant tout signalement extérieur [PRUDENT]
+- Conséquence : *Les pièces reviennent, une dépense reste floue* — Deux factures sont documentées en quarante-huit heures. La troisième correspond à une prestation orale mal encadrée, qui demeure défendable mais expose la campagne à une question ultérieure.
+
+**13. La désobéissance européenne doit être définie** _(party)_
+- Choix : Chercher dabord une coalition européenne et conditionner la désobéissance à léchec de cette démarche [RASSEMBLEUR]
+- Conséquence : *La coalition précède le rapport de force* — La méthode élargit vos reports et donne aux partenaires une chance de modifier les règles. Une partie de LFI y voit une condition susceptible de neutraliser la promesse de rupture.
 - Déclaration : initial_position
 
-**13. La loi migratoire du programme** _(program)_
-- Choix : Faire voter chaque année des objectifs migratoires par motif et renforcer les contrôles aux frontières [CLIVANT]
-- Conséquence : *Le Parlement reçoit un objectif annuel* — La mesure répond à la demande de contrôle et donne un rendez-vous démocratique régulier. Les juristes rappellent que le droit d’asile ne peut être traité comme un quota, ce qui oblige à préciser rapidement le périmètre.
-- Déclaration : coherent_compromise
-
-**14. La fronde sociale exige un vote** _(party)_
-- Choix : Refuser le vote et exclure Nassim Courbet de toutes les instances de campagne [OFFENSIF]
-- Conséquence : *La fronde devient dissidence* — Nassim Courbet quitte les instances avec plusieurs animateurs et lance un comité autonome. La parole nationale se clarifie au prix dune perte militante durable et dune campagne concurrente dans plusieurs circonscriptions.
-
-**15. Le contrat du conseiller est publié** _(scandal)_
-- Choix : Contester la clause devant un médiateur et suspendre tout paiement variable [OFFENSIF]
-- Conséquence : *La clause attend une médiation* — Le litige gèle la prime et déplace le débat vers le droit des contrats. La campagne évite de payer immédiatement mais prolonge une affaire dont Léonard Pujol commente chaque étape.
-
-**16. L’atelier industriel de Saint-Nazaire** _(campaign)_
-- Choix : Proposer un contrat de formation financé avec la région et l’entreprise [TECHNIQUE]
-- Conséquence : *Le contrat trouve ses partenaires* — Le représentant régional confirme que le montage existe déjà ailleurs. Les salariés obtiennent une réponse applicable et votre proposition gagne en crédibilité locale.
+**14. La croissance simulée se retourne** _(world)_
+- Choix : Différer des prélèvements pour les PME qui maintiennent leurs emplois pendant douze mois [TECHNIQUE]
+- Conséquence : *La trésorerie est liée au maintien de l’emploi* — La mesure soulage rapidement les entreprises sans subventionner les suppressions de postes. Les contrôles nécessaires ralentissent son déploiement et le manque à gagner doit être compensé au budget.
 - Déclaration : strategic_repositioning
+
+**15. Une accusation jugée infondée vise un adversaire** _(campaign)_
+- Choix : Ne pas commenter et laisser chacun se faire son opinion [PRUDENT]
+- Conséquence : *Aucune prise de position* — La neutralité évite de s’exposer sur une affaire qui ne concerne pas directement votre camp. Elle prive aussi votre image d’un geste qui aurait pu être remarqué favorablement.
+
+**16. Les factures sans pièce ressortent** _(scandal)_
+- Choix : Maintenir Maud Keravel, publier sa chronologie et compléter les dossiers avec chaque fournisseur [LOYAL]
+- Conséquence : *La trésorière reste et documente chaque dépense* — Deux fournisseurs apportent les pièces attendues ; le troisième ne retrouve qu’un échange de courriels. Votre loyauté stabilise l’équipe mais vous rend solidaire de la conclusion future.
 
 **17. L’adversaire refuse de vous laisser répondre** _(debate)_
 - Choix : Couper à votre tour et exiger que chacun lise son propre financement à voix haute [OFFENSIF]
 - Conséquence : *Le brouhaha devient épreuve de vérité* — La confrontation est désordonnée mais le défi sur les financements marque les esprits. Votre adversaire refuse l’exercice, ce qui vous offre un extrait favorable sans restaurer la qualité du débat.
 
-**18. Les Écologistes proposent un pacte urbain** _(party)_
-- Choix : Soutenir trois mesures communes sans suspendre le débat sur lEurope [TRANSPARENT]
-- Conséquence : *Trois mesures survivent au désaccord européen* — La coopération reste programmatique et les deux partis assument leur divergence. Les équipes locales disposent de moins de moyens communs, mais la relation saméliore sans ambiguïté.
+**18. Nassim Courbet réclame une ligne plus sociale** _(party)_
+- Choix : Accorder un mois de campagne centré sur les salaires avec Nassim Courbet comme coordinateur [POPULAIRE]
+- Conséquence : *Les salaires prennent tout lagenda* — Le thème remobilise les quartiers populaires et donne à Nassim Courbet une responsabilité mesurable. Les propositions institutionnelles disparaissent temporairement et le député gagne une autonomie qui pèsera plus tard.
 
-**19. Le micro resté ouvert** _(media)_
-- Choix : Accuser la chaîne d’avoir diffusé une conversation privée et refuser de commenter le fond [CLIVANT]
-- Conséquence : *Le droit ne répond pas au malaise* — La protestation sur les conditions d’enregistrement soulève une vraie question professionnelle, sans effacer vos mots. L’équipe comprend votre silence comme un refus de traiter le conflit interne.
+**19. Six rédactions face au désert médical** _(media)_
+- Choix : Financer des maisons de santé mobiles gérées avec les départements volontaires [TECHNIQUE]
+- Conséquence : *Une solution concrète mais partielle* — Deux départements proposent aussitôt d’expérimenter le dispositif. La réponse ne règle pas la pénurie de médecins, mais elle donne à votre déplacement un résultat mesurable et territorial.
+- Déclaration : strategic_repositioning
 
-**20. La note sur le vote utile fuite** _(internal)_
-- Choix : Publier la note entière, identifier son auteur fictif et confirmer les options finalement écartées [TRANSPARENT]
-- Conséquence : *La note complète montre un scénario abandonné* — Les pages manquantes prouvent que plusieurs stratégies étaient étudiées et que l’attaque n’a pas été retenue. La publication expose vos calculs électoraux, mais réduit nettement l’accusation d’hypocrisie.
+**20. L’audit clôt le dossier des factures** _(scandal)_
+- Choix : Proclamer Maud Keravel blanchie et rejeter les recommandations comme des précautions bureaucratiques [OFFENSIF]
+- Conséquence : *L’absence d’enrichissement devient victoire totale* — Votre lecture soulage les militants et dépasse ce que dit le rapport sur les procédures. L’expert rappelle publiquement ses six recommandations, transformant la conclusion favorable en nouveau conflit d’interprétation.
 
-**21. La une vous prête un tournant** _(media)_
-- Choix : Publier ensemble vos mesures pour l’investissement, les salaires et les droits des salariés [RASSEMBLEUR]
-- Conséquence : *Le tournant devient un contrat* — La publication simultanée empêche chaque camp de ne retenir qu’une moitié du projet. Elle ne satisfait pleinement ni les syndicats ni les dirigeants, mais rend la cohérence économique plus difficile à caricaturer.
-- Déclaration : coherent_compromise
+**21. La loi migratoire du programme** _(program)_
+- Choix : Régulariser les travailleurs présents depuis cinq ans dans les métiers durablement en tension [POPULAIRE]
+- Conséquence : *Le travail devient le critère de régularisation* — Les employeurs concernés et les associations comprennent immédiatement la règle. Vos adversaires dénoncent un appel d’air et font de cette mesure le test principal de votre crédibilité aux frontières.
+- Déclaration : abrupt_reversal
 
-**22. Le studio plonge dans le noir** _(rare)_
-- Choix : Utiliser les huit minutes pour répéter votre conclusion avec la directrice de campagne [RISQUÉ]
-- Conséquence : *La répétition améliore la reprise et fuite ensuite* — Votre conclusion devient la plus nette du débat, mais une image de secours montre que vous l’aviez répétée pendant la panne. Le résultat est bon et la spontanéité paraît fabriquée.
+**22. La présidence que vous proposez** _(program)_
+- Choix : Conserver les institutions actuelles et limiter seulement les nominations présidentielles [PRUDENT]
+- Conséquence : *La continuité reçoit un contre-pouvoir ciblé* — Les électeurs soucieux de stabilité comprennent la réforme et les juristes la jugent réaliste. Votre camp le plus réformateur y voit une occasion manquée de corriger la concentration du pouvoir.
+- Déclaration : initial_position
 
-**23. Deux invitations au même horaire** _(campaign)_
-- Choix : Choisir France 2 et proposer une visioconférence privée aux maires le lendemain [PRÉSIDENTIEL]
-- Conséquence : *L’entretien national prend le dessus* — Votre argument économique atteint un large public et deux maires refusent la visioconférence. Le choix gagne en exposition ce qu’il perd en confiance territoriale.
+**23. La Sixième République doit prendre forme** _(party)_
+- Choix : Détailler lélection de la constituante, son mandat de dix-huit mois et le référendum final [INSTITUTIONNEL]
+- Conséquence : *La rupture reçoit un calendrier* — La procédure rend le projet vérifiable et répond aux craintes sur la transition. Elle expose aussi chaque règle à la critique et oblige LFI à expliquer comment gouverner pendant dix-huit mois.
+- Déclaration : abrupt_reversal
 
-**24. Les tentes encerclent la préfecture** _(world)_
-- Choix : Signer avec la ville un objectif annuel de logements sociaux et un tableau public des permis [INSTITUTIONNEL]
-- Conséquence : *Les permis deviennent un engagement public* — Le tableau ne reloge personne cette nuit mais permet de mesurer la construction et les blocages fonciers. Les associations acceptent de discuter sans démonter les tentes avant des solutions d’urgence.
+**24. La grève bloque les transports** _(world)_
+- Choix : Soutenir les revendications salariales et rejoindre le piquet sans demander la reprise du trafic [CLIVANT]
+- Conséquence : *Votre présence renforce le piquet* — Les grévistes accueillent votre soutien et votre socle social se mobilise. Les usagers bloqués et une partie des classes moyennes considèrent que vous privilégiez la démonstration à la résolution.
+- Déclaration : initial_position
 
 **25. LFI doit élargir sans se renier** _(party)_
 - Choix : Garantir un vote parlementaire avant toute désobéissance européenne et maintenir le reste du programme [RASSEMBLEUR]

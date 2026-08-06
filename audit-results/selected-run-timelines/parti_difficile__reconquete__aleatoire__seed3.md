@@ -1,11 +1,11 @@
 # reconquete · aleatoire · seed 3
 
 Parti : **reconquete** (existing) — Agent : **aleatoire** — Graine : `post-audit-3` — Méthode : digital
-Résultat : éliminé au 1er tour — score final 48/100 — fin `honorable_campaign`
-Score 1er tour : 9.4 — Score 2nd tour : n/a — Progression : 4.4
+Résultat : éliminé au 1er tour — score final 53/100 — fin `honorable_campaign`
+Score 1er tour : 9.8 — Score 2nd tour : n/a — Progression : 4.8
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 2 souvenirs d'acteurs, 68 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 10.1 points, axe le plus mobile 7.49 points
+Mémoire/monde : 1 souvenirs d'acteurs, 68 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 15.95 points, axe le plus mobile 7.28 points
 
 ## Chronologie
 
@@ -47,63 +47,64 @@ Idéologie : mouvement total 10.1 points, axe le plus mobile 7.49 points
 - Choix : Répartir la commande entre trois imprimeurs locaux et publier les coûts [TRANSPARENT]
 - Conséquence : *Les imprimeurs rattrapent le retard* — Les premières affiches arrivent sous quarante-huit heures. La solution coûte davantage, mais les sections disposent enfin d’un calendrier et de factures consultables.
 
-**10. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Accepter le concert et publier à l’avance le cadre politique de son intervention [TRANSPARENT]
-- Conséquence : *Le concert porte une mesure précise* — Nina Sorel raconte son engagement sans parler au nom de la campagne et attire un public nouveau. Le cadre publié évite la confusion entre soutien artistique et expertise programmatique.
+**10. Provoquer le favori en duel** _(debate)_
+- Choix : Décliner le duel et publier un communiqué comparant les programmes chiffrés [PRUDENT]
+- Conséquence : *Le terrain du programme plutôt que du plateau* — Le communiqué évite le risque d’un dérapage en direct et documente vos chiffres. Le camp adverse et une partie de la presse dénoncent une esquive, ce qui alimente le sujet plus longtemps que prévu.
 
-**11. La pluie emporte la tournée** _(campaign)_
-- Choix : Suspendre toute communication jusqu’à la réouverture officielle des routes [PRUDENT]
-- Conséquence : *Le silence laisse travailler les secours* — Aucun message de campagne ne concurrence les consignes locales. La retenue protège votre image institutionnelle, mais la journée disparaît entièrement du récit national.
-
-**12. Des notes de frais se mélangent** _(scandal)_
-- Choix : Exclure Samira Bellon de la campagne et confier toutes les dépenses locales au siège [OFFENSIF]
-- Conséquence : *Une erreur faible provoque une sanction forte* — La centralisation réduit le risque comptable et désorganise le réseau lyonnais construit par Samira Bellon. La sanction paraît exemplaire à certains, disproportionnée à ceux qui connaissent le dossier.
-
-**13. Le RN offre des désistements limités** _(party)_
-- Choix : Refuser le pacte et investir des candidats face au RN dans tous les territoires disputés [OFFENSIF]
-- Conséquence : *La concurrence devient totale* — Les militants disposent d’un objectif clair et la candidature ne dépend d’aucune négociation. Les moyens financiers se dispersent et la droite nationale multiplie les campagnes concurrentes.
-
-**14. La photographie du quai vide** _(media)_
-- Choix : Publier la séquence complète avec l’heure de prise de vue et reprendre le déplacement [TRANSPARENT]
-- Conséquence : *Le cadre complet casse le récit* — La vidéo montre le quai se remplir deux minutes plus tard. Le démenti circule sans effacer totalement la première image, mais votre équipe évite de consacrer la journée à une polémique mineure.
-
-**15. La présidence que vous proposez** _(program)_
-- Choix : Convoquer une assemblée constituante élue et soumettre son texte à référendum [CLIVANT]
-- Conséquence : *La rupture constitutionnelle a sa procédure* — Le calendrier électif et le référendum rendent la proposition moins abstraite et mobilisent les partisans d’une nouvelle République. Les électeurs attachés à la stabilité demandent ce qui gouvernera pendant la transition.
+**11. Le chiffrage de la matinale** _(media)_
+- Choix : Annoncer de mémoire un coût précis et défendre immédiatement son financement [RISQUÉ]
+- Conséquence : *Le chiffre résiste à la vérification* — Votre mémoire tient bon : le montant correspond au dossier technique et l’explication du financement est jugée solide. La séquence renforce une compétence économique jusque-là peu visible.
 - Déclaration : initial_position
 
-**16. Vingt-quatre heures sans caméra** _(media)_
-- Choix : Annuler la pause et accepter la première invitation au journal de vingt heures [RISQUÉ]
-- Conséquence : *La fatigue passe à l’écran* — Votre présence dément les rumeurs, mais deux réponses hésitantes montrent pourquoi la pause avait été proposée. La couverture se concentre sur la forme et l’équipe perd une journée de préparation.
+**12. Une attaque frontale de La France insoumise** _(campaign)_
+- Choix : Ne pas répondre publiquement et poursuivre le calendrier de campagne prévu [PRUDENT]
+- Conséquence : *Poursuivre sans réagir* — L’absence de réponse limite la durée de vie de la polémique dans l’agenda médiatique. Une partie de vos soutiens juge le silence gênant face à une accusation aussi directe.
 
-**17. Le duel sur les huit milliards** _(debate)_
-- Choix : Reprendre les huit milliards poste par poste et nommer la mesure récemment corrigée [TECHNIQUE]
-- Conséquence : *Le chronomètre coupe la démonstration* — La première moitié du calcul est solide, puis votre temps expire avant la recette principale. Votre adversaire conserve sa formule simple et votre équipe doit publier la réponse complète après l’émission.
+**13. Le coût passe au crible** _(media)_
+- Choix : Contester la méthode du journal et maintenir le montant donné sans publier de nouveau calcul [OFFENSIF]
+- Conséquence : *La bataille de méthode remplace le chiffre* — Votre riposte mobilise les convaincus, mais aucun document nouveau ne clôt la discussion. La question budgétaire vous suit dans les interviews suivantes et réduit la confiance des électeurs les plus attentifs aux comptes.
 
-**18. Le prochain budget de la santé** _(program)_
-- Choix : Financer cinquante mille postes hospitaliers en relevant les recettes affectées à la santé [POPULAIRE]
-- Conséquence : *Les effectifs passent avant la transformation* — Les équipes hospitalières disposent d’un engagement quantifié et mobilisateur. Le recrutement réel et la recette choisie restent à sécuriser, ce qui ouvre deux fronts techniques sans affaiblir la priorité politique.
+**14. La règle européenne à changer** _(program)_
+- Choix : Négocier lexclusion des investissements climatiques du calcul des déficits nationaux [RASSEMBLEUR]
+- Conséquence : *Le climat donne un objet à la négociation* — La demande rassemble plusieurs sensibilités favorables à l’Union et peut intéresser d’autres gouvernements. Son adoption n’est pas garantie, mais vous avez défini une priorité et une coalition possible.
 - Déclaration : initial_position
 
-**19. Le car tombe en panne** _(campaign)_
-- Choix : Annuler la scène prévue et ouvrir un échange dans le café voisin [RISQUÉ]
-- Conséquence : *Le café offre une conversation inattendue* — Quarante personnes discutent sans pupitre ni musique. La séquence touche par sa simplicité, mais l’équipe qui attendait à destination se sent abandonnée.
+**15. Une chanteuse veut soutenir la campagne** _(alliance)_
+- Choix : Transformer le concert en forum sur le logement avec associations, étudiants et élus locaux [POPULAIRE]
+- Conséquence : *La scène devient forum du logement* — L’artiste ouvre la soirée puis laisse les acteurs du terrain confronter vos propositions. La couverture est moins centrée sur sa notoriété et produit plusieurs engagements locaux crédibles.
 
-**20. Reconquête choisit influence ou qualification** _(party)_
-- Choix : Réserver les formats numériques à la ligne idéologique et les déplacements aux enjeux locaux [TECHNIQUE]
-- Conséquence : *Deux canaux poursuivent deux objectifs* — Les militants conservent leurs marqueurs et les visites produisent des réponses territoriales. Les écarts de ton exposent la campagne à des montages comparant des messages difficilement compatibles.
+**16. La question de la fin de vie** _(program)_
+- Choix : Autoriser l’aide active à mourir sous conditions médicales strictes [CLIVANT]
+- Conséquence : *Une liberté nouvelle, encadrée* — Les associations de patients saluent une avancée réclamée depuis des années. Une partie du corps soignant s’inquiète des conditions d’application et des cultes organisent une mobilisation contre le texte.
+- Déclaration : initial_position
 
-**21. Deux équipes se disputent le terrain** _(internal)_
-- Choix : Donner la priorité au porte-à-porte et confier seulement dix bénévoles à la vidéo [POPULAIRE]
-- Conséquence : *Les sections reprennent la rue* — Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. Léquipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.
-
-**22. Le référendum migratoire doit être cadré** _(party)_
-- Choix : Transformer le projet en consultation politique avant une négociation parlementaire [PRUDENT]
-- Conséquence : *La consultation précède la loi* — Le calendrier réduit le risque de blocage juridique et laisse une place au Parlement. Le socle y voit un recul majeur et doute que la consultation produise un changement réel.
-
-**23. Les sections refusent le kit national** _(internal)_
+**17. Les sections refusent le kit national** _(internal)_
 - Choix : Interdire tout tract non validé et envoyer une équipe pour expliquer le programme national [LOYAL]
 - Conséquence : *Le kit national reste la seule parole* — La cohérence des documents est protégée et la proposition non chiffrée disparaît. Plusieurs militants bretons renoncent au porte-à-porte, estimant que le siège les traite comme de simples exécutants.
+
+**18. Le siège arrive à saturation** _(internal)_
+- Choix : Recruter une équipe logistique temporaire en prélevant le coût sur la publicité numérique [TECHNIQUE]
+- Conséquence : *Des renforts remplacent des impressions publicitaires* — Les nouvelles recrues prennent les tâches répétitives et sécurisent le calendrier. La campagne perd une partie de sa couverture payante mais conserve ses déplacements et ses salariés expérimentés.
+
+**19. La collecte se bloque** _(campaign)_
+- Choix : Lancer une semaine de petits dons avec un objectif public quotidien [TRANSPARENT]
+- Conséquence : *Les petits dons relancent la caisse* — Les objectifs quotidiens sont atteints quatre jours sur sept. La somme ne couvre pas tout, mais transforme plusieurs donateurs en bénévoles actifs.
+
+**20. Les comités numériques cherchent du terrain** _(party)_
+- Choix : Financer cent formations locales et exiger un compte rendu public de chaque réunion [TECHNIQUE]
+- Conséquence : *Les comités apprennent à tenir le terrain* — Les bénévoles acquièrent des méthodes de recrutement et plusieurs groupes durables apparaissent. La formation coûte cher et mobilise des responsables qui produisaient auparavant les contenus viraux.
+
+**21. Un cadre écologiste tenté par un ralliement** _(alliance)_
+- Choix : L’inviter publiquement à rejoindre votre équipe de campagne [OFFENSIF]
+- Conséquence : *Une invitation publique et risquée* — Le geste médiatise la démarche et met la pression sur le mouvement écologiste. Il expose aussi la cadre concernée à une réaction immédiate de son propre camp, avant même sa décision.
+
+**22. Le RN offre des désistements limités** _(party)_
+- Choix : Exiger deux engagements programmatiques nationaux avant de discuter des circonscriptions [CLIVANT]
+- Conséquence : *Le soutien reçoit un prix programmatique* — La demande confirme l’utilité idéologique de la candidature et force le RN à répondre. Un refus public pourrait laisser Reconquête sans accord et sans perspective de qualification.
+
+**23. Une contradiction chez le camp centriste** _(debate)_
+- Choix : Poser la question sans citer les archives, en laissant l’adversaire répondre [TECHNIQUE]
+- Conséquence : *Une question ouverte, sans pièce à conviction* — La question met l’adversaire en difficulté sans donner l’impression d’une embuscade préparée. Elle laisse aussi la porte ouverte à une réponse convaincante qui limiterait l’effet recherché.
 
 **24. La une vous prête un tournant** _(media)_
 - Choix : Assumer la une et annoncer un pacte d’investissement avec la CPME et le Medef [OPPORTUNISTE]

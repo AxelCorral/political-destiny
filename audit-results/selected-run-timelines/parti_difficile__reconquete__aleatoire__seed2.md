@@ -1,11 +1,11 @@
 # reconquete · aleatoire · seed 2
 
 Parti : **reconquete** (existing) — Agent : **aleatoire** — Graine : `post-audit-2` — Méthode : rupture
-Résultat : éliminé au 1er tour — score final 60/100 — fin `kingmaker`
-Score 1er tour : 11.2 — Score 2nd tour : n/a — Progression : 6.2
+Résultat : éliminé au 1er tour — score final 56/100 — fin `honorable_campaign`
+Score 1er tour : 9.9 — Score 2nd tour : n/a — Progression : 4.9
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 1 souvenirs d'acteurs, 62 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 20.35 points, axe le plus mobile 13.6 points
+Mémoire/monde : 3 souvenirs d'acteurs, 63 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 10.6 points, axe le plus mobile 4.94 points
 
 ## Chronologie
 
@@ -47,13 +47,13 @@ Idéologie : mouvement total 20.35 points, axe le plus mobile 13.6 points
 - Choix : Confier le programme aux courants et la logistique à une direction choisie par le candidat [INSTITUTIONNEL]
 - Conséquence : *Deux légitimités apprennent à cohabiter* — Le compromis sécurise le contenu et accélère l’organisation matérielle. Il crée aussi une frontière floue lorsqu’une décision de calendrier modifie le message politique.
 
-**10. Douze députés offrent leur expérience** _(alliance)_
-- Choix : Refuser les ralliements individuels et demander seulement une expertise juridique publique [PRUDENT]
-- Conséquence : *L’expertise remplace les ralliements* — Les députés relisent vos textes institutionnels sans afficher un soutien électoral. Votre programme gagne en solidité et votre compteur de soutiens reste inchangé.
+**10. Une accusation jugée infondée vise un adversaire** _(campaign)_
+- Choix : Diffuser la rumeur sous forme de question, sans l’affirmer directement [OPPORTUNISTE]
+- Conséquence : *Le doute entretenu sans affirmation directe* — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
 
-**11. Le salaire net au centre** _(program)_
-- Choix : Conditionner les allègements de cotisations à des négociations salariales conclues dans chaque branche [INSTITUTIONNEL]
-- Conséquence : *Les aides deviennent un levier de négociation* — Les syndicats obtiennent un rapport de force concret et les entreprises gardent une marge sectorielle. Le résultat dépendra de dizaines de négociations, ce qui rend le gain salarial moins immédiat mais plus soutenable.
+**11. La France à cinquante degrés** _(program)_
+- Choix : Obliger les assureurs à couvrir les risques climatiques avec garantie publique en dernier ressort [CLIVANT]
+- Conséquence : *L’assurabilité devient une responsabilité partagée* — Les propriétaires exposés accueillent la garantie et les assureurs demandent une tarification plus libre. Le mécanisme traite les pertes après sinistre, sans répondre à lui seul au besoin de prévention.
 - Déclaration : initial_position
 
 **12. La croissance simulée se retourne** _(world)_
@@ -61,53 +61,51 @@ Idéologie : mouvement total 20.35 points, axe le plus mobile 13.6 points
 - Conséquence : *Trois secteurs reçoivent le plan de relance* — Le ciblage relie l’activité immédiate à des besoins déjà documentés et donne une réponse identifiable au ralentissement. Son financement par emprunt fragilise votre trajectoire budgétaire à moyen terme.
 - Déclaration : initial_position
 
-**13. Une nuit avec les urgences** _(campaign)_
-- Choix : Annoncer un renfort d’équipes de nuit financé par redéploiement administratif [TECHNIQUE]
-- Conséquence : *Les gardes obtiennent une réponse ciblée* — Le calendrier de recrutement est accueilli avec soulagement, mais les services administratifs contestent le redéploiement. La mesure devient un engagement précis de campagne.
-- Déclaration : strategic_repositioning
+**13. La collecte se bloque** _(campaign)_
+- Choix : Lancer une semaine de petits dons avec un objectif public quotidien [TRANSPARENT]
+- Conséquence : *Les petits dons relancent la caisse* — Les objectifs quotidiens sont atteints quatre jours sur sept. La somme ne couvre pas tout, mais transforme plusieurs donateurs en bénévoles actifs.
 
-**14. Le marché sous pression** _(campaign)_
-- Choix : Convoquer bailleurs et commerçants pour négocier les renouvellements de loyers [RASSEMBLEUR]
-- Conséquence : *Une table locale est obtenue* — La mairie accepte d’accueillir la médiation la semaine suivante. Vous ne promettez pas de baisse immédiate, mais la méthode apaise les deux groupes présents.
+**14. Le budget impose trois renoncements** _(campaign)_
+- Choix : Annuler deux grands meetings et préserver les équipes départementales [PRUDENT]
+- Conséquence : *Le terrain garde ses moyens* — Les sections conservent leurs véhicules et leurs permanences. Deux salles restent vides et les chaînes d’information réduisent leur couverture de votre campagne.
 
 **15. La photographie du quai vide** _(media)_
 - Choix : Détourner vous-même la photographie en invitant les internautes au prochain meeting [POPULAIRE]
 - Conséquence : *Le quai vide devient une affiche* — Votre montage humoristique est massivement partagé et les inscriptions au prochain meeting progressent. Une partie de la presse juge la réponse légère, mais la campagne récupère l’image au lieu de la subir.
 
-**16. Le RN invite à une convention commune** _(alliance)_
-- Choix : Accepter un débat bilatéral sans photographie commune ni discussion de désistement [TRANSPARENT]
-- Conséquence : *Les convergences rencontrent leurs limites* — Le débat fait apparaître des accords sur la sécurité et des divergences économiques. Vous gagnez une audience utile sans valider une alliance, ce que le RN présente comme un manque de courage.
+**16. Une attaque frontale de La France insoumise** _(campaign)_
+- Choix : Répondre en accusant le programme adverse d’être financièrement irréaliste [OFFENSIF]
+- Conséquence : *L’escalade plutôt que la désescalade* — La contre-attaque marque les esprits et mobilise votre camp. Elle ferme aussi la porte à toute discussion ultérieure avec cet électorat, qui se sent visé à son tour.
 
-**17. La minute qui vous appartient** _(debate)_
-- Choix : Appeler les électeurs proches à concentrer leurs voix sur votre candidature dès le premier tour [OFFENSIF]
-- Conséquence : *Le vote utile entre dans la dernière ligne droite* — L’appel inquiète les candidats voisins et convainc certains indécis que la qualification se joue maintenant. Il réduit votre capacité à négocier sereinement avec ces mêmes partis après le débat.
+**17. L’adversaire refuse de vous laisser répondre** _(debate)_
+- Choix : Demander à la modératrice de restituer précisément votre temps avant de poursuivre [INSTITUTIONNEL]
+- Conséquence : *Le chronomètre rend la parole* — La production vous accorde quarante secondes supplémentaires et applique la même règle à tous. Votre réponse est entendue, mais certains commentateurs jugent l’appel au règlement excessivement procédurier.
 
-**18. L’adversaire refuse de vous laisser répondre** _(debate)_
-- Choix : Cesser de répondre à l’adversaire et expliquer votre mesure directement à la caméra [POPULAIRE]
-- Conséquence : *La caméra remplace le duel* — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
+**18. Le siège arrive à saturation** _(internal)_
+- Choix : Recruter une équipe logistique temporaire en prélevant le coût sur la publicité numérique [TECHNIQUE]
+- Conséquence : *Des renforts remplacent des impressions publicitaires* — Les nouvelles recrues prennent les tâches répétitives et sécurisent le calendrier. La campagne perd une partie de sa couverture payante mais conserve ses déplacements et ses salariés expérimentés.
 
-**19. L’immigration de travail, un choix économique assumé ou non** _(program)_
-- Choix : Confier aux branches professionnelles la négociation annuelle des quotas par métier [RASSEMBLEUR]
-- Conséquence : *Le dialogue social fixe le curseur* — La méthode déplace la décision vers les partenaires sociaux et paraît difficile à instrumentaliser politiquement. Des élus de tous bords regrettent qu’aucun chiffre national ne soit fixé par le pouvoir politique lui-même.
+**19. La question venue de Mayotte** _(debate)_
+- Choix : Reconnaître que vous ignorez le chiffre local et annoncer une réponse documentée sous vingt-quatre heures [TRANSPARENT]
+- Conséquence : *Une limite reconnue, une réponse attendue* — L’aveu surprend dans un débat où chacun prétend tout maîtriser. Votre équipe publie le lendemain des données vérifiées et un calendrier, ce qui transforme la lacune en preuve de méthode.
+
+**20. Le contrôle interne signale trois factures** _(internal)_
+- Choix : Suspendre les paiements concernés et confier les justificatifs à un expert-comptable indépendant [TRANSPARENT]
+- Conséquence : *Les paiements attendent le contrôle* — Le gel ralentit deux fournisseurs mais sécurise la trace documentaire. Maud Keravel soutient la décision et l’expert dispose d’un mandat écrit qui permettra de conclure sans pression politique.
+
+**21. La ligne de départ des retraites** _(program)_
+- Choix : Maintenir l’âge légal à soixante-quatre ans avec des départs anticipés par durée de cotisation [TECHNIQUE]
+- Conséquence : *Une continuité assortie d’exceptions* — Le financement paraît plus robuste que les scénarios concurrents et les départs anticipés limitent la dureté du signal. Les syndicats contestent néanmoins le maintien de l’âge et annoncent qu’ils en feront un sujet de campagne.
 - Déclaration : initial_position
 
-**20. Les sections refusent le kit national** _(internal)_
-- Choix : Convoquer un atelier avec les sections puis publier un supplément territorial signé ensemble [INSTITUTIONNEL]
-- Conséquence : *Un supplément relie Paris et la Bretagne* — Le document commun conserve les priorités nationales et ajoute trois engagements territoriaux. Le processus demande deux jours, mais il crée une méthode réutilisable dans d’autres régions.
+**22. Un rival corrige votre ligne** _(internal)_
+- Choix : Inviter le responsable à un débat public interne puis publier les points d’accord et de désaccord [TRANSPARENT]
+- Conséquence : *Le désaccord devient délibération* — Le débat intéresse davantage les militants que le grand public et révèle un conflit politique réel sans attaque personnelle. Votre rival gagne en visibilité mais mémorise le respect accordé à sa position.
 
-**21. Le direct des questions citoyennes** _(media)_
-- Choix : Répondre à trois questions hospitalières puis conclure avec le calendrier de votre réforme [PRUDENT]
-- Conséquence : *Le direct se termine sur un calendrier* — Les réponses ne règlent pas tous les cas, mais la conclusion donne une date et un financement à l’engagement. Vous quittez le direct à l’heure, avec une séquence exploitable par les équipes de santé.
-- Déclaration : gradual_evolution
-
-**22. La question venue de Mayotte** _(debate)_
-- Choix : Répondre par votre plan national pour l’eau et garantir une priorité ultramarine au premier budget [PRÉSIDENTIEL]
-- Conséquence : *Mayotte obtient une priorité budgétaire* — Vous ne fournissez pas le chiffre demandé, mais l’engagement de premier budget donne une conséquence au débat. Les autres territoires ultramarins demandent aussitôt s’ils bénéficieront de la même priorité.
-- Déclaration : gradual_evolution
-
-**23. La plateforme publique tombe en panne** _(world)_
-- Choix : Visiter un guichet d’urgence sans caméra et demander aux agents une liste de corrections prioritaires [PRUDENT]
-- Conséquence : *Les agents écrivent le retour de crise* — La liste distingue les problèmes techniques, les effectifs et les besoins des usagers. Votre discrétion limite la portée immédiate mais produit un document crédible pour la suite du programme.
+**23. La Garonne sort de son lit** _(world)_
+- Choix : Reporter la visite de quarante-huit heures et annoncer un fonds d’adaptation pour les communes exposées [INSTITUTIONNEL]
+- Conséquence : *La visite attend, le financement entre dans le débat* — Le délai évite de gêner les secours et le fonds donne une réponse à long terme. Son annonce avant un bilan complet paraît néanmoins rapide et oblige à préciser son financement.
+- Déclaration : coherent_compromise
 
 **24. La souveraineté économique cherche ses instruments** _(party)_
 - Choix : Réserver les marchés stratégiques aux entreprises produisant principalement en France [CLIVANT]

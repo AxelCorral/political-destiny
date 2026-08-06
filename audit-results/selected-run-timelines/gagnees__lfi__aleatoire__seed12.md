@@ -1,11 +1,11 @@
 # lfi · aleatoire · seed 12
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-12` — Méthode : rupture
-Résultat : qualifié, **vainqueur** — score final 82/100 — fin `president`
-Score 1er tour : 18.7 — Score 2nd tour : 56.5 — Progression : 5.7
+Résultat : qualifié, **vainqueur** — score final 80/100 — fin `president`
+Score 1er tour : 17.6 — Score 2nd tour : 55.6 — Progression : 4.6
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 79 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 18.33 points, axe le plus mobile 9.37 points
+Mémoire/monde : 2 souvenirs d'acteurs, 79 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 16.29 points, axe le plus mobile 7.93 points
 
 ## Chronologie
 
@@ -48,73 +48,71 @@ Idéologie : mouvement total 18.33 points, axe le plus mobile 9.37 points
 - Conséquence : *La visite attend, le financement entre dans le débat* — Le délai évite de gêner les secours et le fonds donne une réponse à long terme. Son annonce avant un bilan complet paraît néanmoins rapide et oblige à préciser son financement.
 - Déclaration : initial_position
 
-**10. L’imprimeur a doublé une ligne** _(scandal)_
-- Choix : Rompre le contrat, demander le remboursement et répartir les commandes entre deux imprimeurs [OFFENSIF]
-- Conséquence : *Le contrat s’arrête avec les presses* — Le remboursement est obtenu et le signal de rigueur est net. Les nouveaux imprimeurs ne peuvent respecter le même calendrier, ce qui retarde l’affichage dans quatre régions.
+**10. Le contrat du conseiller est publié** _(scandal)_
+- Choix : Maintenir le contrat signé et défendre une rémunération liée à la performance électorale [LOYAL]
+- Conséquence : *La signature est respectée, la clause reste incomprise* — Votre fidélité contractuelle évite un contentieux et mobilise les prestataires autour du résultat. L’électorat découvre cependant une campagne qui traite les voix comme un indicateur de prime privée.
 
 **11. Saint-Denis ouvre ses réseaux associatifs** _(party)_
 - Choix : Organiser une marche nationale contre la vie chère avec les associations en tête [OFFENSIF]
 - Conséquence : *Saint-Denis lance une marche nationale* — La mobilisation dépasse la ville et replace le pouvoir dachat dans la campagne. Les associations regrettent que leurs engagements locaux aient été absorbés par une démonstration nationale.
 
-**12. Une minute sur les loyers** _(media)_
-- Choix : Détailler un objectif de construction à Rennes et les terrains publics mobilisés [TECHNIQUE]
-- Conséquence : *Une réponse locale et vérifiable* — Le chiffre de constructions prévues dépasse le format, mais les médias rennais vérifient les terrains cités. La séquence reste peu virale et renforce votre sérieux territorial.
+**12. Vingt-quatre heures sans caméra** _(media)_
+- Choix : Maintenir la journée de travail et publier l’agenda précis des réunions programmatiques [PRUDENT]
+- Conséquence : *Une pause lisible dans la campagne* — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
+
+**13. La ligne de départ des retraites** _(program)_
+- Choix : Maintenir l’âge légal à soixante-quatre ans avec des départs anticipés par durée de cotisation [TECHNIQUE]
+- Conséquence : *Une continuité assortie d’exceptions* — Le financement paraît plus robuste que les scénarios concurrents et les départs anticipés limitent la dureté du signal. Les syndicats contestent néanmoins le maintien de l’âge et annoncent qu’ils en feront un sujet de campagne.
 - Déclaration : initial_position
 
-**13. Le direct des questions citoyennes** _(media)_
-- Choix : Reporter le déplacement suivant et répondre jusqu’à épuiser la file de questions [POPULAIRE]
-- Conséquence : *Le direct change votre journée* — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
-- Déclaration : initial_position
-
-**14. Qui financera les priorités** _(program)_
-- Choix : Retirer deux dépenses du programme plutôt que créer un prélèvement supplémentaire [PRUDENT]
-- Conséquence : *Le budget perd deux promesses* — L’absence d’impôt nouveau rassure une partie des classes moyennes et renforce votre discipline budgétaire. Les publics visés par les mesures retirées découvrent immédiatement le prix politique de l’arbitrage.
+**14. Le direct des questions citoyennes** _(media)_
+- Choix : Répondre à trois questions hospitalières puis conclure avec le calendrier de votre réforme [PRUDENT]
+- Conséquence : *Le direct se termine sur un calendrier* — Les réponses ne règlent pas tous les cas, mais la conclusion donne une date et un financement à l’engagement. Vous quittez le direct à l’heure, avec une séquence exploitable par les équipes de santé.
 - Déclaration : initial_position
 
 **15. Le siège déborde de bénévoles** _(campaign)_
 - Choix : Confier aux bénévoles une enquête téléphonique sans accès aux données sensibles [TECHNIQUE]
 - Conséquence : *L’enquête révèle trois préoccupations* — Les appels font remonter la santé, les prix alimentaires et l’accès aux transports. Votre équipe gagne des informations utiles sans exposer le fichier électoral.
 
-**16. LFI choisit entre mouvement et candidat** _(party)_
-- Choix : Donner aux groupes daction un budget local et un droit damendement sur les tracts [RASSEMBLEUR]
-- Conséquence : *Les groupes daction gagnent une marge réelle* — Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.
+**16. Le double numérique refuse de démarrer** _(rare)_
+- Choix : Suspendre le meeting jusqu’à réparation et reprendre le discours complet une heure plus tard [RISQUÉ]
+- Conséquence : *La projection revient devant une salle réduite* — Le système finit par fonctionner et offre les images annoncées. Une partie du public est déjà partie et les commentaires sur l’attente dominent davantage que le contenu.
 
-**17. Des notes de frais se mélangent** _(scandal)_
-- Choix : Faire rembourser la part municipale, corriger les comptes et publier le montant exact [TRANSPARENT]
-- Conséquence : *La frontière comptable est rétablie* — Samira Bellon rembourse immédiatement la part concernée et reconnaît une erreur de ventilation. Le faible montant et la correction rapide empêchent l’affaire de devenir un récit sur le système.
+**17. Un fichier militant sort du siège** _(scandal)_
+- Choix : Fermer le lien, notifier les personnes et la CNIL, puis publier le périmètre exact de l’exposition [TRANSPARENT]
+- Conséquence : *Les personnes apprennent l’incident par la campagne* — La notification arrive avant toute exploitation connue et explique les mesures prises. La campagne subit une forte critique sur sa sécurité, mais respecte une procédure vérifiable et limite le risque futur.
 
-**18. L’immigration de travail, un choix économique assumé ou non** _(program)_
-- Choix : Confier aux branches professionnelles la négociation annuelle des quotas par métier [RASSEMBLEUR]
-- Conséquence : *Le dialogue social fixe le curseur* — La méthode déplace la décision vers les partenaires sociaux et paraît difficile à instrumentaliser politiquement. Des élus de tous bords regrettent qu’aucun chiffre national ne soit fixé par le pouvoir politique lui-même.
-- Déclaration : coherent_compromise
+**18. Le duel sur les huit milliards** _(debate)_
+- Choix : Reprendre les huit milliards poste par poste et nommer la mesure récemment corrigée [TECHNIQUE]
+- Conséquence : *Le chronomètre coupe la démonstration* — La première moitié du calcul est solide, puis votre temps expire avant la recette principale. Votre adversaire conserve sa formule simple et votre équipe doit publier la réponse complète après l’émission.
 
-**19. Le fauteuil libéré au vingt heures** _(media)_
-- Choix : Accepter sans condition et préparer quatre réponses prioritaires pendant le trajet [RISQUÉ]
-- Conséquence : *Le remplacement devient démonstration* — Vous imposez deux propositions et répondez nettement aux relances imprévues. L’audience découvre une candidature plus prête qu’attendu et la dynamique progresse avant le débat économique.
+**19. La pluie emporte la tournée** _(campaign)_
+- Choix : Suspendre toute communication jusqu’à la réouverture officielle des routes [PRUDENT]
+- Conséquence : *Le silence laisse travailler les secours* — Aucun message de campagne ne concurrence les consignes locales. La retenue protège votre image institutionnelle, mais la journée disparaît entièrement du récit national.
 
 **20. Le meeting quitte la capitale** _(campaign)_
 - Choix : Tenir le meeting à Strasbourg et défendre une coalition industrielle européenne [PRÉSIDENTIEL]
 - Conséquence : *Strasbourg donne une portée européenne* — Le décor et les partenaires invités renforcent votre crédibilité internationale. Les militants eurosceptiques jugent toutefois que le message national s’efface derrière la coalition.
 - Déclaration : initial_position
 
-**21. Le siège arrive à saturation** _(internal)_
-- Choix : Recruter une équipe logistique temporaire en prélevant le coût sur la publicité numérique [TECHNIQUE]
-- Conséquence : *Des renforts remplacent des impressions publicitaires* — Les nouvelles recrues prennent les tâches répétitives et sécurisent le calendrier. La campagne perd une partie de sa couverture payante mais conserve ses déplacements et ses salariés expérimentés.
-
-**22. Neuf candidats face au climat** _(debate)_
-- Choix : Conditionner chaque dépense climatique à une baisse d’émissions mesurée deux ans après son lancement [TECHNIQUE]
-- Conséquence : *Une clause de résultat remplace la liste* — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
+**21. Une crise ferme un détroit** _(world)_
+- Choix : Annoncer un plan français de relocalisation sans prendre position sur la confrontation [LOYAL]
+- Conséquence : *La souveraineté industrielle remplace la diplomatie* — Le plan parle aux électeurs préoccupés par les dépendances et donne une orientation économique de long terme. Les questions sur votre politique étrangère restent entières, ce qui limite la stature attendue.
 - Déclaration : strategic_repositioning
 
-**23. Le déplacement en Guadeloupe engage** _(campaign)_
-- Choix : Proposer une autorité locale de l’eau avec budget pluriannuel contrôlé [INSTITUTIONNEL]
-- Conséquence : *L’eau obtient une architecture claire* — Les associations saluent la durée du financement et demandent une majorité locale au conseil. La proposition devient vérifiable et vous engage au-delà de la campagne.
-- Déclaration : gradual_evolution
+**22. Provoquer le favori en duel** _(debate)_
+- Choix : Proposer un format neutre coanimé par deux rédactions concurrentes [RASSEMBLEUR]
+- Conséquence : *Un cadre équilibré, plus consensuel* — Le format coanimé rassure les deux équipes et limite le risque d’un dérapage. Il attire moins d’audience qu’un duel frontal, mais renforce votre image d’acteur institutionnel.
 
-**24. Le Conseil européen se divise** _(world)_
-- Choix : Abandonner le projet européen et créer un fonds industriel exclusivement français [LOYAL]
-- Conséquence : *Le fonds revient au budget français* — La décision offre une maîtrise nationale et un calendrier simple. Elle réduit l’échelle financière, expose les aides au contrôle européen et affaiblit votre discours sur la capacité de coalition.
-- Déclaration : abrupt_reversal
+**23. Une minute sur les loyers** _(media)_
+- Choix : Détailler un objectif de construction à Rennes et les terrains publics mobilisés [TECHNIQUE]
+- Conséquence : *Une réponse locale et vérifiable* — Le chiffre de constructions prévues dépasse le format, mais les médias rennais vérifient les terrains cités. La séquence reste peu virale et renforce votre sérieux territorial.
+- Déclaration : initial_position
+
+**24. Une aciérie annonce sa fermeture** _(world)_
+- Choix : Proposer une prise de participation publique temporaire pendant la recherche d’un repreneur [CLIVANT]
+- Conséquence : *L’État devient actionnaire de transition* — Le pont financier maintient le site et donne du temps à un projet industriel. Le risque de pertes publiques est réel si aucun repreneur ne s’engage, ce qui transforme le dossier en test de votre doctrine économique.
+- Déclaration : contradiction
 
 **25. LFI doit élargir sans se renier** _(party)_
 - Choix : Refuser toute modification et demander un ralliement sur lintégralité du programme [LOYAL]

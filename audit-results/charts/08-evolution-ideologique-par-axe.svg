@@ -5,20 +5,20 @@
   
     <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">economy</text>
     <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
-    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">6.26 pts</text>
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.95 pts</text>
     <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">immigration</text>
-    <rect x="200" y="100" width="189.2" height="28" fill="#3b6ea5" rx="3" />
-    <text x="397.20127795527156" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.52 pts</text>
+    <rect x="200" y="100" width="190.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="398.3697478991597" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.41 pts</text>
     <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">society</text>
-    <rect x="200" y="138" width="155.4" height="28" fill="#3b6ea5" rx="3" />
-    <text x="363.41533546325877" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.07 pts</text>
+    <rect x="200" y="138" width="158.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="366.7731092436975" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.01 pts</text>
     <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">authority</text>
-    <rect x="200" y="176" width="134.4" height="28" fill="#3b6ea5" rx="3" />
-    <text x="342.39297124600637" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.79 pts</text>
-    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">europe</text>
-    <rect x="200" y="214" width="127.6" height="28" fill="#3b6ea5" rx="3" />
-    <text x="335.6357827476038" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.70 pts</text>
-    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecology</text>
-    <rect x="200" y="252" width="124.6" height="28" fill="#3b6ea5" rx="3" />
-    <text x="332.6325878594249" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.66 pts</text>
+    <rect x="200" y="176" width="134.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="342.2857142857143" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.70 pts</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecology</text>
+    <rect x="200" y="214" width="123.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="331.2268907563025" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.56 pts</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">europe</text>
+    <rect x="200" y="252" width="121.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="329.6470588235294" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.54 pts</text>
 </svg>

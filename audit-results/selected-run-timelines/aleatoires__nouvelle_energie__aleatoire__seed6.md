@@ -2,10 +2,10 @@
 
 Parti : **nouvelle_energie** (existing) — Agent : **aleatoire** — Graine : `post-audit-6` — Méthode : presidential
 Résultat : éliminé au 1er tour — score final 56/100 — fin `strengthened_party`
-Score 1er tour : 10.3 — Score 2nd tour : n/a — Progression : 5.8
+Score 1er tour : 10.7 — Score 2nd tour : n/a — Progression : 6.2
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 1 souvenirs d'acteurs, 58 actions adverses (alliance|crisis|endorsement|replacement|strategy), 0 alliance(s), 1 remplacement(s)
-Idéologie : mouvement total 10.62 points, axe le plus mobile 5.08 points
+Idéologie : mouvement total 8.69 points, axe le plus mobile 5.47 points
 
 ## Chronologie
 
@@ -47,17 +47,18 @@ Idéologie : mouvement total 10.62 points, axe le plus mobile 5.08 points
 - Choix : Négocier des parrainages pluralistes sans demander de soutien politique [INSTITUTIONNEL]
 - Conséquence : *Le pluralisme protège la candidature* — Des élus de sensibilités différentes acceptent de distinguer parrainage et soutien. La démarche renforce votre image institutionnelle et crée plusieurs dettes politiques limitées.
 
-**10. La note sur le vote utile fuite** _(internal)_
-- Choix : Publier la note entière, identifier son auteur fictif et confirmer les options finalement écartées [TRANSPARENT]
-- Conséquence : *La note complète montre un scénario abandonné* — Les pages manquantes prouvent que plusieurs stratégies étaient étudiées et que l’attaque n’a pas été retenue. La publication expose vos calculs électoraux, mais réduit nettement l’accusation d’hypocrisie.
+**10. Le comité bloque le chapitre sécurité** _(internal)_
+- Choix : Proposer une expérimentation dans vingt villes avec évaluation indépendante avant généralisation [TECHNIQUE]
+- Conséquence : *Vingt villes remplacent la décision nationale* — Les deux camps acceptent le test parce quil peut confirmer leur propre hypothèse. Le programme paraît prudent et applicable, sans donner de réponse nationale avant plusieurs années.
+- Déclaration : initial_position
 
-**11. La photographie du quai vide** _(media)_
-- Choix : Publier la séquence complète avec l’heure de prise de vue et reprendre le déplacement [TRANSPARENT]
-- Conséquence : *Le cadre complet casse le récit* — La vidéo montre le quai se remplir deux minutes plus tard. Le démenti circule sans effacer totalement la première image, mais votre équipe évite de consacrer la journée à une polémique mineure.
+**11. Deux heures sans élément de langage** _(media)_
+- Choix : Accepter les deux heures et répondre sans faire valider les questions à l’avance [RISQUÉ]
+- Conséquence : *Le temps long vous révèle* — Les réponses personnelles restent liées au projet et l’entretien produit plusieurs extraits de fond. Même des adversaires reconnaissent une maîtrise rare des dossiers et une parole moins fabriquée.
 
-**12. La plateforme publique tombe en panne** _(world)_
-- Choix : Accuser le gouvernement d’impréparation et demander la démission du responsable numérique avant l’audit [OFFENSIF]
-- Conséquence : *La démission est demandée avant le diagnostic* — Votre attaque domine les plateaux et mobilise les opposants au pouvoir sortant. La plateforme revient sans que la cause confirme une faute personnelle, ce qui laisse votre exigence sans fondement établi.
+**12. La Garonne sort de son lit** _(world)_
+- Choix : Annuler le déplacement, mettre le local réservé à disposition des secours et suspendre la communication [PRUDENT]
+- Conséquence : *La campagne libère l’espace et se retire* — Le local devient un point logistique utile et vos équipes suivent les consignes des autorités sans mise en scène. Vous disparaissez de la couverture pendant la crise, ce qui est précisément cohérent avec la décision.
 
 **13. Les électeurs ignorent encore le mouvement** _(party)_
 - Choix : Publier un simulateur local montrant les effets de la réforme fiscale sur cinq ménages types [TECHNIQUE]
@@ -76,39 +77,39 @@ Idéologie : mouvement total 10.62 points, axe le plus mobile 5.08 points
 - Choix : Refuser la plateforme et comparer publiquement les bilans locaux des deux mouvements [OFFENSIF]
 - Conséquence : *La concurrence passe par les résultats locaux* — Le comparatif offre à Nouvelle Énergie des preuves concrètes et attire une audience inattendue. Horizons conteste la méthode et mobilise un réseau d’élus bien plus vaste.
 
-**17. La ligne de départ des retraites** _(program)_
-- Choix : Ramener l’âge légal à soixante-deux ans et financer l’écart par une hausse ciblée des cotisations [POPULAIRE]
-- Conséquence : *Le retour à soixante-deux ans est financé* — La mesure mobilise les salariés opposés au relèvement de l’âge et assume son coût par une recette identifiable. Les entreprises dénoncent la hausse de cotisations, qui devient le principal angle d’attaque économique.
+**17. La présidence que vous proposez** _(program)_
+- Choix : Introduire une dose majoritaire de proportionnelle et renforcer les droits du Parlement [INSTITUTIONNEL]
+- Conséquence : *Le Parlement gagne du poids* — La réforme paraît compatible avec la Ve République tout en modifiant la représentation. Elle intéresse les partis susceptibles de devenir alliés et suscite les critiques de ceux qui redoutent des majorités instables.
 - Déclaration : initial_position
 
-**18. La question venue de Mayotte** _(debate)_
-- Choix : Estimer le chiffre à partir de vos notes et proposer immédiatement un montant d’investissement [RISQUÉ]
-- Conséquence : *Le chiffre confond deux réseaux* — Vous utilisez une donnée qui concerne l’assainissement plutôt que l’accès à l’eau. La confusion est corrigée en direct et devient un exemple de la faible préparation ultramarine de votre campagne.
+**18. Neuf candidats face au climat** _(debate)_
+- Choix : Refuser toute suppression et annoncer une contribution exceptionnelle des secteurs les plus émetteurs [CLIVANT]
+- Conséquence : *Une nouvelle recette évite l’arbitrage* — La contribution mobilise votre base et rend votre réponse différente des autres candidatures. Elle contrevient à la contrainte posée par le débat et ouvre immédiatement une bataille sur les secteurs concernés.
+- Déclaration : abrupt_reversal
 
-**19. Nouvelle Énergie doit prouver son utilité** _(party)_
-- Choix : Proposer une plateforme commune à Horizons et LR avant de confirmer la candidature [RASSEMBLEUR]
-- Conséquence : *La candidature devient un levier de coalition* — Les médias traitent sérieusement les propositions et les partenaires répondent sur le fond. Les militants craignent que le mouvement renonce à exister dès sa première présidentielle.
+**19. Votre voix ne tient plus** _(rare)_
+- Choix : Suivre lavis médical, annuler les discours et laisser vos responsables répondre aux questions [PRUDENT]
+- Conséquence : *Trois jours sans votre voix* — L’équipe prend le relais et découvre une autonomie utile, tandis que vous récupérez avant le prochain débat. La campagne perd une partie de son rythme sans transformer un incident bénin en risque durable.
 
-**20. L’imprimeur a doublé une ligne** _(scandal)_
-- Choix : Rompre le contrat, demander le remboursement et répartir les commandes entre deux imprimeurs [OFFENSIF]
-- Conséquence : *Le contrat s’arrête avec les presses* — Le remboursement est obtenu et le signal de rigueur est net. Les nouveaux imprimeurs ne peuvent respecter le même calendrier, ce qui retarde l’affichage dans quatre régions.
+**20. Un fichier militant sort du siège** _(scandal)_
+- Choix : Suspendre tous les outils militants pendant quarante-huit heures et reconstruire les droits d’accès [OFFENSIF]
+- Conséquence : *La campagne numérique se met à l’arrêt* — La reconstruction supprime plusieurs accès anciens et rassure les bénévoles sur la sécurité future. Deux jours sans fichiers ni relances réduisent nettement la mobilisation au pire moment.
 
-**21. La minute qui vous appartient** _(debate)_
-- Choix : Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
-- Conséquence : *Un visage reste après le débat* — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
+**21. Le siège arrive à saturation** _(internal)_
+- Choix : Annuler deux déplacements, instaurer une journée de repos et redistribuer les astreintes [PRUDENT]
+- Conséquence : *Le calendrier perd deux étapes et gagne de la fiabilité* — Les équipes locales déçues obtiennent des visioconférences et le siège retrouve un rythme soutenable. Votre présence médiatique recule brièvement, tandis que les erreurs logistiques diminuent.
 
-**22. Le contrat d’intégration, jusqu’où aller** _(program)_
-- Choix : Conditionner l’accès à la nationalité à la réussite du contrat d’intégration [CLIVANT]
-- Conséquence : *L’intégration comme condition de la nationalité* — La proposition marque une ligne nette et mobilise une partie de votre socle. Des juristes et des associations de défense des droits contestent la conformité du dispositif avec les engagements internationaux existants.
-- Déclaration : gradual_evolution
+**22. Un rival corrige votre ligne** _(internal)_
+- Choix : Inviter le responsable à un débat public interne puis publier les points d’accord et de désaccord [TRANSPARENT]
+- Conséquence : *Le désaccord devient délibération* — Le débat intéresse davantage les militants que le grand public et révèle un conflit politique réel sans attaque personnelle. Votre rival gagne en visibilité mais mémorise le respect accordé à sa position.
 
 **23. Le permis d’entreprendre doit être défini** _(party)_
 - Choix : Considérer toute absence de réponse sous trente jours comme une autorisation provisoire [RISQUÉ]
 - Conséquence : *Le silence administratif autorise provisoirement* — La règle crée une rupture immédiatement identifiable et séduit les entrepreneurs. Elle expose les communes à des activités ouvertes avant certains contrôles et augmente le risque de contentieux.
 
-**24. L’adversaire refuse de vous laisser répondre** _(debate)_
-- Choix : Couper à votre tour et exiger que chacun lise son propre financement à voix haute [OFFENSIF]
-- Conséquence : *Le brouhaha devient épreuve de vérité* — La confrontation est désordonnée mais le défi sur les financements marque les esprits. Votre adversaire refuse l’exercice, ce qui vous offre un extrait favorable sans restaurer la qualité du débat.
+**24. Deux équipes se disputent le terrain** _(internal)_
+- Choix : Donner la priorité au porte-à-porte et confier seulement dix bénévoles à la vidéo [POPULAIRE]
+- Conséquence : *Les sections reprennent la rue* — Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. Léquipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.
 
 **25. Aucun finaliste ne porte votre ligne** _(between_rounds)_
 - Choix : Refuser toute consigne et ne participer à aucun débat de lentre-deux-tours [PRUDENT]

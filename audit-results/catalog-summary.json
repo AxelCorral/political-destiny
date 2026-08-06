@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-06T16:28:23.682Z",
+  "generatedAt": "2026-08-06T16:56:00.193Z",
   "structural": {
-    "totalEvents": 240,
-    "totalChoices": 658,
-    "totalOutcomes": 666,
-    "meanChoicesPerEvent": 2.742,
+    "totalEvents": 249,
+    "totalChoices": 687,
+    "totalOutcomes": 695,
+    "meanChoicesPerEvent": 2.759,
     "medianChoicesPerEvent": 3,
     "eventsByChoiceCount": {
-      "2": 76,
-      "3": 150,
-      "4": 14
+      "2": 77,
+      "3": 155,
+      "4": 17
     }
   },
   "emptiness": {
@@ -100,6 +100,15 @@
       "alliance_parliamentary_group",
       "alliance_udr_autonomy",
       "alliance_strategic_withdrawal",
+      "debate_challenge_frontrunner",
+      "debate_frontrunner_retaliation",
+      "campaign_attacked_by_rival_pole",
+      "alliance_poach_rival_cadre",
+      "debate_expose_contradiction_centrist",
+      "world_rival_leadership_tension",
+      "world_rival_leadership_split",
+      "campaign_defend_unfairly_attacked_rival",
+      "campaign_non_aggression_overture",
       "scandal_treasurer_invoices",
       "scandal_consultant_contract",
       "scandal_local_expenses",
@@ -254,16 +263,16 @@
   },
   "mechanisms": {
     "eventsWithDelayedConsequence": 4,
-    "eventsWithHiddenConsequence": 217,
-    "eventsLaunchingChain": 21,
+    "eventsWithHiddenConsequence": 226,
+    "eventsLaunchingChain": 23,
     "eventsWithChainMetadata": 30,
-    "eventsUsingActorMemory": 31,
-    "eventsUsingPriorDecision": 13,
+    "eventsUsingActorMemory": 36,
+    "eventsUsingPriorDecision": 15,
     "eventsModifyingIdeology": 67,
-    "eventsModifyingRelation": 33,
-    "eventsAffectingOpponent": 2,
+    "eventsModifyingRelation": 42,
+    "eventsAffectingOpponent": 8,
     "eventsThatCanRemoveCandidate": 1,
-    "eventsWithCooldown": 240,
+    "eventsWithCooldown": 249,
     "eventsRepeatable": 0,
     "eventsRepeatableWithoutLimit": 0
   },
@@ -279,31 +288,31 @@
     "tagFrequency": [
       {
         "tag": "PRUDENT",
-        "count": 93
+        "count": 100
       },
       {
         "tag": "RASSEMBLEUR",
-        "count": 81
+        "count": 86
       },
       {
         "tag": "TECHNIQUE",
-        "count": 67
+        "count": 72
       },
       {
         "tag": "OFFENSIF",
-        "count": 67
+        "count": 72
+      },
+      {
+        "tag": "INSTITUTIONNEL",
+        "count": 62
       },
       {
         "tag": "TRANSPARENT",
         "count": 61
       },
       {
-        "tag": "INSTITUTIONNEL",
-        "count": 61
-      },
-      {
         "tag": "CLIVANT",
-        "count": 53
+        "count": 54
       },
       {
         "tag": "POPULAIRE",
@@ -315,24 +324,28 @@
       },
       {
         "tag": "RISQUÉ",
-        "count": 37
+        "count": 38
       },
       {
         "tag": "LOYAL",
-        "count": 30
+        "count": 31
       },
       {
         "tag": "OPPORTUNISTE",
-        "count": 17
+        "count": 19
+      },
+      {
+        "tag": "SECRET",
+        "count": 1
       }
     ],
-    "top3ClassicTagShareOfAllChoices": 0.3663,
+    "top3ClassicTagShareOfAllChoices": 0.3755,
     "eventsWithClassicTriptych": 2,
     "eventsWithClassicTriptychIds": [
       "media_prime_time_invite",
       "rare_hologram_revolt"
     ],
-    "eventsWithPartialClassicTriptych": 38,
+    "eventsWithPartialClassicTriptych": 42,
     "eventsWithPartialClassicTriptychIds": [
       "campaign_volunteer_surge",
       "campaign_budget_arbitration",
@@ -351,6 +364,10 @@
       "internal_recruitment",
       "internal_major_donor",
       "alliance_former_rival",
+      "debate_challenge_frontrunner",
+      "debate_frontrunner_retaliation",
+      "debate_expose_contradiction_centrist",
+      "world_rival_leadership_tension",
       "scandal_supplier_overbilling",
       "scandal_donation_route",
       "world_floods",
@@ -374,9 +391,9 @@
       "runoff_favorite_pressure"
     ],
     "labelUniqueness": {
-      "exactUnique": 658,
-      "normalizedUnique": 658,
-      "total": 658
+      "exactUnique": 687,
+      "normalizedUnique": 687,
+      "total": 687
     },
     "lexicalClusterCount": 0,
     "lexicalClusterCountByThreshold": {
@@ -388,7 +405,7 @@
     "top10LexicalClusters": [],
     "mechanicallyEquivalentGroupCount": 7,
     "choicesInMechanicallyEquivalentGroups": 24,
-    "choicesInMechanicallyEquivalentGroupsShare": 0.0365,
+    "choicesInMechanicallyEquivalentGroupsShare": 0.0349,
     "top10MechanicalGroups": [
       {
         "signature": "1:imm[actor_memory:support,hidden_stat:consistency:+M,party_stat:cohesion:+M,party_stat:mobilization:+M]dly[]",
@@ -462,14 +479,14 @@
   },
   "consequenceDiversity": {
     "titleUniqueness": {
-      "exactUnique": 665,
-      "normalizedUnique": 665,
-      "total": 666
+      "exactUnique": 694,
+      "normalizedUnique": 694,
+      "total": 695
     },
     "narrativeUniqueness": {
-      "exactUnique": 666,
-      "normalizedUnique": 666,
-      "total": 666
+      "exactUnique": 695,
+      "normalizedUnique": 695,
+      "total": 695
     },
     "narrativeLexicalClusterCount": 0,
     "narrativeLexicalClusterCountByThreshold": {
@@ -479,8 +496,8 @@
     },
     "narrativeLexicalClusterSizes": [],
     "top10NarrativeClusters": [],
-    "uniqueMechanicalSignatures": 611,
-    "top10SignatureShareOfAllOutcomes": 0.045,
+    "uniqueMechanicalSignatures": 638,
+    "top10SignatureShareOfAllOutcomes": 0.0432,
     "mechanicallyIdenticalOutcomeGroupCount": 1,
     "top10MechanicallyIdenticalOutcomeGroups": [
       {

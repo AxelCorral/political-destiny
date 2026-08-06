@@ -1,11 +1,11 @@
 # renaissance · aleatoire · seed 36
 
 Parti : **renaissance** (existing) — Agent : **aleatoire** — Graine : `post-audit-36` — Méthode : presidential
-Résultat : qualifié, **vainqueur** — score final 77/100 — fin `president`
-Score 1er tour : 14.2 — Score 2nd tour : 53.7 — Progression : 0.2
+Résultat : qualifié, **vainqueur** — score final 79/100 — fin `president`
+Score 1er tour : 14.6 — Score 2nd tour : 54.1 — Progression : 0.6
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 1 souvenirs d'acteurs, 65 actions adverses (crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 13.89 points, axe le plus mobile 6.76 points
+Mémoire/monde : 2 souvenirs d'acteurs, 65 actions adverses (crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 7.27 points, axe le plus mobile 5.17 points
 
 ## Chronologie
 
@@ -52,65 +52,66 @@ Idéologie : mouvement total 13.89 points, axe le plus mobile 6.76 points
 - Choix : Fournir le même matériel national aux permanences et refuser toute adaptation programmatique [PRUDENT]
 - Conséquence : *Le réseau diffuse une campagne uniforme* — Les supports arrivent vite et le message reste cohérent sur tout le territoire. Plusieurs parlementaires utilisent leurs permanences sans s’engager personnellement dans les réunions publiques.
 
-**11. Une chanteuse veut soutenir la campagne** _(alliance)_
-- Choix : Décliner le soutien pour conserver une campagne sans vedette et proposer une rencontre privée [PRUDENT]
-- Conséquence : *La notoriété reste hors de l’affiche* — Nina Sorel respecte le refus et publie seulement qu’elle a été reçue sur le logement. Vous perdez une audience importante mais préservez une campagne où les soutiens ne remplacent pas les propositions.
+**11. Une contradiction chez le camp centriste** _(debate)_
+- Choix : Présenter la contradiction en direct avec les deux citations à l’appui [CLIVANT]
+- Conséquence : *La contradiction mise en lumière* — L’extrait est aussitôt repris et fragilise la crédibilité adverse sur ce sujet précis. Le procédé, jugé efficace par certains, est perçu comme agressif par d’autres observateurs du débat.
 
 **12. Les affiches manquent dans six villes** _(campaign)_
 - Choix : Renoncer aux affiches et financer une campagne numérique dans les six villes [OPPORTUNISTE]
 - Conséquence : *Le budget bascule vers les écrans* — Les vidéos locales touchent rapidement les moins de trente ans. Les militants chargés de l’affichage dénoncent cependant une décision prise sans leur avis.
 
-**13. Le déplacement en Guadeloupe engage** _(campaign)_
-- Choix : Proposer une autorité locale de l’eau avec budget pluriannuel contrôlé [INSTITUTIONNEL]
-- Conséquence : *L’eau obtient une architecture claire* — Les associations saluent la durée du financement et demandent une majorité locale au conseil. La proposition devient vérifiable et vous engage au-delà de la campagne.
-- Déclaration : gradual_evolution
+**13. La collecte se bloque** _(campaign)_
+- Choix : Annuler la tournée la plus coûteuse et expliquer chaque économie [PRUDENT]
+- Conséquence : *Les comptes retrouvent une marge* — La suppression de quatre étapes stabilise la trésorerie et rassure le siège. Les territoires concernés dénoncent une campagne qui les abandonne en premier.
 
-**14. Neuf candidats face au climat** _(debate)_
-- Choix : Retirer une subvention automobile et transférer les crédits vers les transports régionaux [TRANSPARENT]
-- Conséquence : *Le rail gagne ce que l’automobile perd* — Vous êtes le premier à nommer une dépense supprimée et son bénéficiaire de remplacement. Les territoires dépendants de la voiture contestent l’arbitrage, mais le choix donne une cohérence tangible à votre plan climatique.
-- Déclaration : initial_position
+**14. Le siège arrive à saturation** _(internal)_
+- Choix : Maintenir l’agenda et verser une prime exceptionnelle à tous les salariés mobilisés [RISQUÉ]
+- Conséquence : *La prime ne crée pas d’heures de sommeil* — Le geste financier est apprécié et le programme des déplacements reste intact. La fatigue continue pourtant d’augmenter et une nouvelle erreur coûtera plus cher à réparer en fin de campagne.
 
 **15. Neuf groupes rendent la majorité incertaine** _(rare)_
 - Choix : Refuser toute coalition et annoncer que vous redonnerez la parole aux électeurs en cas de blocage durable [OFFENSIF]
 - Conséquence : *La menace d’une nouvelle élection précède la première* — Votre socle apprécie le refus des compromis de couloir et les électeurs modérés craignent une crise fabriquée. Les partis voisins cessent de vous considérer comme un partenaire disponible.
 
-**16. Le mix électrique de 2040** _(program)_
-- Choix : Renoncer aux nouveaux réacteurs et concentrer les crédits sur sobriété, stockage et renouvelables [CLIVANT]
-- Conséquence : *La sortie du nouveau nucléaire vous définit* — Les électeurs écologistes retrouvent une ligne nette et les acteurs du nucléaire annoncent une mobilisation contraire. Les questions de stockage et de stabilité du réseau deviennent désormais incontournables.
-- Déclaration : coherent_compromise
+**16. La loi migratoire du programme** _(program)_
+- Choix : Négocier un mécanisme européen d’asile et refuser tout objectif national avant cet accord [RASSEMBLEUR]
+- Conséquence : *L’échelle européenne prime sur la réponse immédiate* — La cohérence avec votre ligne européenne est nette et les électeurs modérés y voient une méthode réaliste. L’absence de mesure nationale immédiate alimente l’accusation d’attendre un accord incertain.
+- Déclaration : initial_position
 
-**17. La pluie emporte la tournée** _(campaign)_
-- Choix : Suspendre toute communication jusqu’à la réouverture officielle des routes [PRUDENT]
-- Conséquence : *Le silence laisse travailler les secours* — Aucun message de campagne ne concurrence les consignes locales. La retenue protège votre image institutionnelle, mais la journée disparaît entièrement du récit national.
+**17. Le chiffrage de la matinale** _(media)_
+- Choix : Donner la fourchette disponible et publier les hypothèses de calcul avant midi [TRANSPARENT]
+- Conséquence : *Une imprécision assumée* — La réponse paraît moins spectaculaire qu’un chiffre rond, mais les documents publiés ensuite concordent avec vos propos. Les journalistes économiques retiennent surtout la méthode et l’absence d’esquive.
+- Déclaration : gradual_evolution
 
-**18. Les sections refusent le kit national** _(internal)_
-- Choix : Convoquer un atelier avec les sections puis publier un supplément territorial signé ensemble [INSTITUTIONNEL]
-- Conséquence : *Un supplément relie Paris et la Bretagne* — Le document commun conserve les priorités nationales et ajoute trois engagements territoriaux. Le processus demande deux jours, mais il crée une méthode réutilisable dans d’autres régions.
+**18. Les jeunes veulent leur propre campagne** _(internal)_
+- Choix : Accorder le budget demandé avec trois engagements communs et un droit de réponse du candidat [RASSEMBLEUR]
+- Conséquence : *La campagne jeune trouve sa voix* — Les vidéos et réunions touchent des publics absents de vos meetings, tout en respectant les trois engagements communs. Quelques différences de vocabulaire deviennent visibles sans créer de contradiction programmatique.
 
-**19. Douze députés offrent leur expérience** _(alliance)_
-- Choix : Signer une charte de soutien libre avec réunion hebdomadaire et désaccords publiables [INSTITUTIONNEL]
-- Conséquence : *Douze soutiens sans discipline forcée* — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
+**19. Le coût passe au crible** _(media)_
+- Choix : Reconnaître l’écart, corriger le montant et retirer une mesure pour équilibrer le financement [PRUDENT]
+- Conséquence : *Une promesse sacrifiée au sérieux* — La correction confirme votre erreur initiale, mais le retrait d’une dépense prouve que l’équilibre annoncé a une conséquence réelle. Les soutiens de la mesure abandonnée protestent sans pouvoir parler de déni.
+- Déclaration : gradual_evolution
 
 **20. Horizons propose une candidature commune** _(party)_
 - Choix : Refuser toute négociation et publier les divergences économiques avec Horizons [CLIVANT]
 - Conséquence : *La compétition du centre devient publique* — La clarification distingue le programme de Maël Dargent et remobilise les adhérents. Horizons utilise aussitôt le document pour cibler les électeurs de centre droit.
 
-**21. La question venue de Mayotte** _(debate)_
-- Choix : Reconnaître que vous ignorez le chiffre local et annoncer une réponse documentée sous vingt-quatre heures [TRANSPARENT]
-- Conséquence : *Une limite reconnue, une réponse attendue* — L’aveu surprend dans un débat où chacun prétend tout maîtriser. Votre équipe publie le lendemain des données vérifiées et un calendrier, ce qui transforme la lacune en preuve de méthode.
+**21. Deux cents maires demandent un contrat** _(alliance)_
+- Choix : Proposer cinquante contrats pilotes avant une généralisation votée au Parlement [TECHNIQUE]
+- Conséquence : *Cinquante communes entrent dans l’expérimentation* — Les maires retenus s’engagent fortement et les autres attendent les critères de sélection. La prudence budgétaire renforce votre sérieux sans produire le mouvement national espéré par l’appel.
 
-**22. Le micro resté ouvert** _(media)_
-- Choix : Assumer le diagnostic et annoncer une réorganisation qui retire le calendrier à Anaïs Vercel [OFFENSIF]
-- Conséquence : *La critique devient organigramme* — La nouvelle répartition corrige plusieurs retards, mais Anaïs Vercel vit l’annonce comme une humiliation publique. L’efficacité remonte au prix d’une loyauté plus fragile dans le dernier mois.
-
-**23. La laïcité à l’épreuve du quotidien** _(program)_
-- Choix : Élargir l’interdiction des signes religieux ostensibles aux universités [CLIVANT]
-- Conséquence : *Un cadre étendu à l’enseignement supérieur* — La mesure est saluée comme une clarification par une partie de l’électorat attachée à une laïcité stricte. Des organisations étudiantes et des juristes contestent sa conformité avec la liberté universitaire.
+**22. La ligne de départ des retraites** _(program)_
+- Choix : Maintenir l’âge légal à soixante-quatre ans avec des départs anticipés par durée de cotisation [TECHNIQUE]
+- Conséquence : *Une continuité assortie d’exceptions* — Le financement paraît plus robuste que les scénarios concurrents et les départs anticipés limitent la dureté du signal. Les syndicats contestent néanmoins le maintien de l’âge et annoncent qu’ils en feront un sujet de campagne.
 - Déclaration : initial_position
 
-**24. La Cour des comptes alerte** _(world)_
-- Choix : Maintenir les dépenses et publier les hypothèses de croissance nécessaires à leur financement [TECHNIQUE]
-- Conséquence : *Le financement dépend désormais de la croissance* — Les hypothèses sont enfin explicites et permettent une vraie discussion. Leur optimisme laisse votre programme très sensible à un scénario économique moins favorable.
+**23. L’adversaire refuse de vous laisser répondre** _(debate)_
+- Choix : Cesser de répondre à l’adversaire et expliquer votre mesure directement à la caméra [POPULAIRE]
+- Conséquence : *La caméra remplace le duel* — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
+
+**24. Le gaz double en une semaine** _(world)_
+- Choix : Proposer des achats communs européens et réserver l’aide nationale aux rénovations d’urgence [RASSEMBLEUR]
+- Conséquence : *Les achats groupés complètent la rénovation* — La réponse traite l’approvisionnement et la consommation sans promettre une baisse immédiate uniforme. Elle renforce votre cohérence européenne et paraît lente aux ménages qui reçoivent déjà une facture.
+- Déclaration : initial_position
 
 **25. Les dernières heures autorisées** _(between_rounds)_
 - Choix : Déployer les militants dans cent gares et marchés avec un appel personnalisé à participer [POPULAIRE]

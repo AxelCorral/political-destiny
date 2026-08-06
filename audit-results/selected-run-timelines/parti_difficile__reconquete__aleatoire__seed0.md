@@ -1,11 +1,11 @@
 # reconquete · aleatoire · seed 0
 
 Parti : **reconquete** (existing) — Agent : **aleatoire** — Graine : `post-audit-0` — Méthode : field_first
-Résultat : éliminé au 1er tour — score final 58/100 — fin `kingmaker`
-Score 1er tour : 11.2 — Score 2nd tour : n/a — Progression : 6.2
+Résultat : éliminé au 1er tour — score final 56/100 — fin `kingmaker`
+Score 1er tour : 10.9 — Score 2nd tour : n/a — Progression : 5.9
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 1 souvenirs d'acteurs, 61 actions adverses (alliance|crisis|strategy), 0 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 18.31 points, axe le plus mobile 6.34 points
+Idéologie : mouvement total 13.37 points, axe le plus mobile 4.02 points
 
 ## Chronologie
 
@@ -50,25 +50,26 @@ Idéologie : mouvement total 18.31 points, axe le plus mobile 6.34 points
 - Choix : Élargir le programme à l’économie et recruter des porte-parole issus des territoires [PRÉSIDENTIEL]
 - Conséquence : *La qualification devient l’objectif affiché* — Les nouveaux porte-parole rendent la candidature moins dépendante des confrontations identitaires et ouvrent quelques relais locaux. Une partie du socle accuse l’équipe de diluer sa raison d’être.
 
-**10. La promesse faite après la primaire** _(internal)_
-- Choix : Créer une codirection jusquà la publication du programme et faire arbitrer les désaccords par vote [INSTITUTIONNEL]
-- Conséquence : *Deux équipes écrivent un même chapitre* — La codirection honore l’esprit de la promesse sans effacer les auteurs initiaux. Elle améliore le texte sur plusieurs points, mais multiplie les réunions et les risques de formulation hybride.
+**10. Une chanteuse veut soutenir la campagne** _(alliance)_
+- Choix : Accepter le concert et publier à l’avance le cadre politique de son intervention [TRANSPARENT]
+- Conséquence : *Le concert porte une mesure précise* — Nina Sorel raconte son engagement sans parler au nom de la campagne et attire un public nouveau. Le cadre publié évite la confusion entre soutien artistique et expertise programmatique.
 
-**11. La plateforme publique tombe en panne** _(world)_
-- Choix : Visiter un guichet d’urgence sans caméra et demander aux agents une liste de corrections prioritaires [PRUDENT]
-- Conséquence : *Les agents écrivent le retour de crise* — La liste distingue les problèmes techniques, les effectifs et les besoins des usagers. Votre discrétion limite la portée immédiate mais produit un document crédible pour la suite du programme.
+**11. Quarante-quatre degrés à Lyon** _(world)_
+- Choix : Maintenir un meeting intérieur consacré au climat avec jauge réduite et soignants invités [RISQUÉ]
+- Conséquence : *Le meeting devient audition sur la canicule* — La jauge réduite et le contenu médical évitent la fête déplacée tout en conservant une parole de campagne. Le rassemblement mobilise malgré tout des services de sécurité pendant l’épisode.
 
-**12. La question venue de Mayotte** _(debate)_
-- Choix : Reconnaître que vous ignorez le chiffre local et annoncer une réponse documentée sous vingt-quatre heures [TRANSPARENT]
-- Conséquence : *Une limite reconnue, une réponse attendue* — L’aveu surprend dans un débat où chacun prétend tout maîtriser. Votre équipe publie le lendemain des données vérifiées et un calendrier, ce qui transforme la lacune en preuve de méthode.
-
-**13. Le micro resté ouvert** _(media)_
-- Choix : Accuser la chaîne d’avoir diffusé une conversation privée et refuser de commenter le fond [CLIVANT]
-- Conséquence : *Le droit ne répond pas au malaise* — La protestation sur les conditions d’enregistrement soulève une vraie question professionnelle, sans effacer vos mots. L’équipe comprend votre silence comme un refus de traiter le conflit interne.
-
-**14. La note sur le vote utile fuite** _(internal)_
+**12. La note sur le vote utile fuite** _(internal)_
 - Choix : Publier la note entière, identifier son auteur fictif et confirmer les options finalement écartées [TRANSPARENT]
 - Conséquence : *La note complète montre un scénario abandonné* — Les pages manquantes prouvent que plusieurs stratégies étaient étudiées et que l’attaque n’a pas été retenue. La publication expose vos calculs électoraux, mais réduit nettement l’accusation d’hypocrisie.
+
+**13. Le direct des questions citoyennes** _(media)_
+- Choix : Reporter le déplacement suivant et répondre jusqu’à épuiser la file de questions [POPULAIRE]
+- Conséquence : *Le direct change votre journée* — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
+- Déclaration : initial_position
+
+**14. Deux cents maires demandent un contrat** _(alliance)_
+- Choix : Signer un contrat de cinq ans avec conférence annuelle et indicateurs publiés par territoire [INSTITUTIONNEL]
+- Conséquence : *Les maires obtiennent un calendrier opposable* — Une majorité des signataires rejoint votre comité de soutien et fournit un réseau territorial immédiat. Le contrat limite votre marge budgétaire future et crée des rendez-vous où chaque retard sera visible.
 
 **15. Les affiches manquent dans six villes** _(campaign)_
 - Choix : Renoncer aux affiches et financer une campagne numérique dans les six villes [OPPORTUNISTE]
@@ -79,40 +80,38 @@ Idéologie : mouvement total 18.31 points, axe le plus mobile 6.34 points
 - Conséquence : *La participation reçoit des garde-fous* — Le seuil abaissé rend l’outil réellement utilisable et le contrôle préalable rassure sur les libertés fondamentales. La mesure manque du souffle d’une nouvelle République mais élargit votre coalition potentielle.
 - Déclaration : abrupt_reversal
 
-**17. Le comité bloque le chapitre sécurité** _(internal)_
-- Choix : Proposer une expérimentation dans vingt villes avec évaluation indépendante avant généralisation [TECHNIQUE]
-- Conséquence : *Vingt villes remplacent la décision nationale* — Les deux camps acceptent le test parce quil peut confirmer leur propre hypothèse. Le programme paraît prudent et applicable, sans donner de réponse nationale avant plusieurs années.
-- Déclaration : initial_position
+**17. Les soutiens envahissent le plateau** _(debate)_
+- Choix : Répartir les plateaux entre vos alliés selon les thèmes qu’ils maîtrisent le mieux [RASSEMBLEUR]
+- Conséquence : *La coalition prolonge le débat* — Chaque soutien développe une partie différente du projet et l’équipe paraît prête à gouverner. Les interventions divergent légèrement sur les mesures nouvelles, révélant le coût d’un récit moins centralisé.
 
 **18. Le meeting change de dispositif** _(campaign)_
 - Choix : Annuler le public et prononcer le discours depuis le siège en direct [PRUDENT]
 - Conséquence : *Le direct remplace la salle* — L’intervention atteint davantage de spectateurs que prévu, sans énergie militante. Vos adversaires jugent l’annulation excessive et le débat se déplace sur votre sang-froid.
 
-**19. Deux équipes se disputent le terrain** _(internal)_
-- Choix : Donner la priorité au porte-à-porte et confier seulement dix bénévoles à la vidéo [POPULAIRE]
-- Conséquence : *Les sections reprennent la rue* — Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. Léquipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.
+**19. Douze députés offrent leur expérience** _(alliance)_
+- Choix : Exiger un soutien sans réserve jusqu’au premier tour en échange d’un rôle programmatique [LOYAL]
+- Conséquence : *Sept députés acceptent la discipline* — Le groupe se réduit mais parle d’une seule voix et travaille efficacement sur vos réformes. Les cinq refusants expliquent leur départ, donnant une visibilité indésirable aux conditions posées.
 
 **20. Le RN offre des désistements limités** _(party)_
 - Choix : Refuser le pacte et investir des candidats face au RN dans tous les territoires disputés [OFFENSIF]
 - Conséquence : *La concurrence devient totale* — Les militants disposent d’un objectif clair et la candidature ne dépend d’aucune négociation. Les moyens financiers se dispersent et la droite nationale multiplie les campagnes concurrentes.
 
-**21. La règle européenne à changer** _(program)_
-- Choix : Négocier lexclusion des investissements climatiques du calcul des déficits nationaux [RASSEMBLEUR]
-- Conséquence : *Le climat donne un objet à la négociation* — La demande rassemble plusieurs sensibilités favorables à l’Union et peut intéresser d’autres gouvernements. Son adoption n’est pas garantie, mais vous avez défini une priorité et une coalition possible.
+**21. La France à cinquante degrés** _(program)_
+- Choix : Créer un fonds pluriannuel pour l’eau, les écoles, les hôpitaux et les logements exposés [INSTITUTIONNEL]
+- Conséquence : *L’adaptation reçoit un budget durable* — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
 - Déclaration : gradual_evolution
 
-**22. Les soutiens envahissent le plateau** _(debate)_
-- Choix : Répartir les plateaux entre vos alliés selon les thèmes qu’ils maîtrisent le mieux [RASSEMBLEUR]
-- Conséquence : *La coalition prolonge le débat* — Chaque soutien développe une partie différente du projet et l’équipe paraît prête à gouverner. Les interventions divergent légèrement sur les mesures nouvelles, révélant le coût d’un récit moins centralisé.
+**22. Deux équipes se disputent le terrain** _(internal)_
+- Choix : Donner la priorité au porte-à-porte et confier seulement dix bénévoles à la vidéo [POPULAIRE]
+- Conséquence : *Les sections reprennent la rue* — Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. Léquipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.
 
 **23. Les comités numériques cherchent du terrain** _(party)_
 - Choix : Financer cent formations locales et exiger un compte rendu public de chaque réunion [TECHNIQUE]
 - Conséquence : *Les comités apprennent à tenir le terrain* — Les bénévoles acquièrent des méthodes de recrutement et plusieurs groupes durables apparaissent. La formation coûte cher et mobilise des responsables qui produisaient auparavant les contenus viraux.
 
-**24. La table ronde agricole se tend** _(campaign)_
-- Choix : Proposer un prix plancher contrôlé dans les contrats avec la grande distribution [POPULAIRE]
-- Conséquence : *Le revenu devient votre priorité agricole* — Les deux syndicats reconnaissent l’effort sur les contrats, puis divergent sur le contrôle. La mesure gagne en visibilité et doit maintenant être juridiquement précisée.
-- Déclaration : initial_position
+**24. Une nuit avec les urgences** _(campaign)_
+- Choix : Renoncer à une annonce immédiate et publier un rapport après trois visites [PRUDENT]
+- Conséquence : *Le silence crée une obligation de résultat* — Les soignants acceptent la méthode parce que vous fixez une date. La presse souligne l’absence d’annonce et attend désormais un document beaucoup plus solide.
 
 **25. Votre mandat à la tête du parti** _(between_rounds)_
 - Choix : Demander un vote de confiance des adhérents pour conduire le parti pendant deux ans [LOYAL]
