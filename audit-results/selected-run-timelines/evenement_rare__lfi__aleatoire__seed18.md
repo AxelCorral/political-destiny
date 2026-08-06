@@ -1,10 +1,10 @@
 # lfi · aleatoire · seed 18
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-18` — Méthode : digital
-Résultat : qualifié — score final 76/100 — fin `runoff_defeat`
-Score 1er tour : 17.8 — Score 2nd tour : 49.9 — Progression : 4.8
+Résultat : qualifié, **vainqueur** — score final 82/100 — fin `president`
+Score 1er tour : 17.8 — Score 2nd tour : 50.8 — Progression : 4.8
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 0 souvenirs d'acteurs, 69 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Mémoire/monde : 0 souvenirs d'acteurs, 76 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
 Idéologie : mouvement total 19.11 points, axe le plus mobile 8.52 points
 
 ## Chronologie
@@ -134,3 +134,11 @@ Idéologie : mouvement total 19.11 points, axe le plus mobile 8.52 points
 **29. Les dernières heures autorisées** _(between_rounds)_
 - Choix : Enregistrer une adresse courte résumant les trois engagements inchangés depuis le premier tour [PRÉSIDENTIEL]
 - Conséquence : *Trois engagements ferment la campagne* — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
+
+**30. Deux alliés réclament Bercy** _(government)_
+- Choix : Choisir le responsable le plus compétent et offrir à lautre la présidence dun comité parlementaire [INSTITUTIONNEL]
+- Conséquence : *Bercy revient à la compétence, le Parlement compense* — Les critères du choix sont défendables et le comité donne une responsabilité réelle au partenaire écarté. Il accepte sans enthousiasme et maintient son soutien au premier budget.
+
+**31. Quinze ministres pour une coalition** _(government)_
+- Choix : Limiter le gouvernement à douze membres et fusionner les portefeuilles les plus proches [OFFENSIF]
+- Conséquence : *Douze membres donnent une image resserrée* — La composition est lisible et réduit les négociations de postes. Les ministres héritent de champs immenses et plusieurs alliés exclus promettent de juger le gouvernement texte par texte.

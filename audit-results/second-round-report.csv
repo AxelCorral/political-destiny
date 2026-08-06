@@ -1,0 +1,10 @@
+partyId,totalRuns,qualifiedRuns,qualificationRate,wonRuns,victoryRate,conditionalVictoryRate,avgSecondRoundScore,avgOwnRejectionAtRunoff,avgOpponentRejectionAtRunoff,avgOwnCredibilityAtRunoff,avgIdeologyDistanceToOpponent
+horizons,480,370,0.771,345,0.719,0.932,55.9,49.45,68.64,91.89,48.65
+nouvelle_energie,480,289,0.602,263,0.548,0.91,55.13,39.66,64.56,90.06,53.69
+renaissance,480,383,0.798,322,0.671,0.841,54.7,67.32,64.29,91.52,54.7
+lr,480,408,0.85,337,0.702,0.826,54.13,69.36,66.15,91,62.37
+ps,480,444,0.925,355,0.74,0.8,54,79.45,64.02,89.63,70.67
+ecologistes,480,359,0.748,263,0.548,0.733,53.35,45.21,67.1,86.01,70.56
+lfi,480,436,0.908,242,0.504,0.555,50.91,68.93,67.28,82.94,77.72
+reconquete,480,34,0.071,14,0.029,0.412,49.25,78.52,65.37,87.92,85.64
+rn,480,445,0.927,174,0.362,0.391,48.73,87.3,61.95,85.25,81.7

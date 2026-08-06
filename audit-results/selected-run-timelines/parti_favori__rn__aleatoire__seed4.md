@@ -2,7 +2,7 @@
 
 Parti : **rn** (existing) — Agent : **aleatoire** — Graine : `post-audit-4` — Méthode : union
 Résultat : qualifié — score final 74/100 — fin `runoff_defeat`
-Score 1er tour : 17.4 — Score 2nd tour : 45 — Progression : 4.9
+Score 1er tour : 17.4 — Score 2nd tour : 45.7 — Progression : 4.9
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 1 souvenirs d'acteurs, 67 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
 Idéologie : mouvement total 21.73 points, axe le plus mobile 6.93 points

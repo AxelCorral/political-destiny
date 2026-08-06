@@ -57,6 +57,32 @@ function campaignConsistencyModifier(state: GameState, partyId: string): number 
   }, 0);
 }
 
+/**
+ * Diminishing-returns transform for the rejection penalty in the runoff
+ * appeal formula: matches the previous linear term (rejection * 0.34) at the
+ * midpoint of the scale, but compresses the penalty gap between very
+ * low-rejection and very high-rejection parties, instead of scaling it
+ * linearly all the way to 100.
+ *
+ * Diagnosed for P5 (see POST_AUDIT_FIXES.md): with a purely linear penalty,
+ * a party structurally near the top of the rejection scale (e.g. ~87) paid
+ * roughly +16 points more runoff-appeal penalty than one near ~40, on top of
+ * the (much smaller) retention effect — a gap large enough that even a
+ * clearly mismanaged campaign for the low-rejection party rarely lost a
+ * runoff, and a strong campaign for the high-rejection party rarely won one.
+ * A concave power curve keeps rejection meaningful (still monotonic, still
+ * the same order of parties, still calibrated identically at rejection=50)
+ * while narrowing that gap at the extremes, leaving more room for campaign
+ * quality (credibility, mobilization, consistency, alliances) to matter.
+ */
+export function diminishingRejectionPenalty(rejection: number): number {
+  const ANCHOR = 50;
+  const LINEAR_COEFFICIENT = 0.34;
+  const EXPONENT = 0.65;
+  const scale = (LINEAR_COEFFICIENT * ANCHOR) / ANCHOR ** EXPONENT;
+  return scale * Math.max(0, rejection) ** EXPONENT;
+}
+
 function runoffAppeal(state: GameState, sourcePartyId: string, finalistId: string): number {
   const source = state.parties[sourcePartyId];
   const finalist = state.parties[finalistId];
@@ -79,7 +105,7 @@ function runoffAppeal(state: GameState, sourcePartyId: string, finalistId: strin
       finalist.hidden.transferability * 0.35 +
       finalist.stats.credibility * 0.12 +
       finalist.stats.mobilization * 0.05 -
-      finalist.stats.rejection * 0.34 +
+      diminishingRejectionPenalty(finalist.stats.rejection) +
       consistency,
   );
 }

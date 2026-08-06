@@ -30,7 +30,7 @@
 - [`parti_favori__rn__aleatoire__seed0.md`](./parti_favori__rn__aleatoire__seed0.md) — rn/aleatoire, qualifié, score 70
 - [`parti_favori__rn__aleatoire__seed1.md`](./parti_favori__rn__aleatoire__seed1.md) — rn/aleatoire, qualifié, vainqueur, score 83
 - [`parti_favori__rn__aleatoire__seed2.md`](./parti_favori__rn__aleatoire__seed2.md) — rn/aleatoire, qualifié, score 74
-- [`parti_favori__rn__aleatoire__seed3.md`](./parti_favori__rn__aleatoire__seed3.md) — rn/aleatoire, qualifié, score 71
+- [`parti_favori__rn__aleatoire__seed3.md`](./parti_favori__rn__aleatoire__seed3.md) — rn/aleatoire, qualifié, vainqueur, score 77
 - [`parti_favori__rn__aleatoire__seed4.md`](./parti_favori__rn__aleatoire__seed4.md) — rn/aleatoire, qualifié, score 74
 
 ## parti_difficile (5)
@@ -45,7 +45,7 @@
 - [`evenement_rare__lfi__aleatoire__seed10.md`](./evenement_rare__lfi__aleatoire__seed10.md) — lfi/aleatoire, qualifié, vainqueur, score 76
 - [`evenement_rare__lfi__aleatoire__seed12.md`](./evenement_rare__lfi__aleatoire__seed12.md) — lfi/aleatoire, qualifié, vainqueur, score 74
 - [`evenement_rare__lfi__aleatoire__seed16.md`](./evenement_rare__lfi__aleatoire__seed16.md) — lfi/aleatoire, qualifié, vainqueur, score 75
-- [`evenement_rare__lfi__aleatoire__seed18.md`](./evenement_rare__lfi__aleatoire__seed18.md) — lfi/aleatoire, qualifié, score 76
+- [`evenement_rare__lfi__aleatoire__seed18.md`](./evenement_rare__lfi__aleatoire__seed18.md) — lfi/aleatoire, qualifié, vainqueur, score 82
 
 ## paires_contrefactuelles (10)
 - [`paires_contrefactuelles__lfi__aleatoire__seed0.md`](./paires_contrefactuelles__lfi__aleatoire__seed0.md) — lfi/aleatoire, qualifié, score 74

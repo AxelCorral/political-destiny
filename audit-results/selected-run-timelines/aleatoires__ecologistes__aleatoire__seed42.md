@@ -2,7 +2,7 @@
 
 Parti : **ecologistes** (existing) — Agent : **aleatoire** — Graine : `post-audit-42` — Méthode : rupture
 Résultat : qualifié, **vainqueur** — score final 84/100 — fin `president`
-Score 1er tour : 15.2 — Score 2nd tour : 62.7 — Progression : 8.7
+Score 1er tour : 15.2 — Score 2nd tour : 62.4 — Progression : 8.7
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 3 souvenirs d'acteurs, 74 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
 Idéologie : mouvement total 17.25 points, axe le plus mobile 9.3 points

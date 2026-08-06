@@ -1,10 +1,10 @@
 # rn · aleatoire · seed 3
 
 Parti : **rn** (existing) — Agent : **aleatoire** — Graine : `post-audit-3` — Méthode : digital
-Résultat : qualifié — score final 71/100 — fin `runoff_defeat`
-Score 1er tour : 14.5 — Score 2nd tour : 49.3 — Progression : 2
+Résultat : qualifié, **vainqueur** — score final 77/100 — fin `president`
+Score 1er tour : 14.5 — Score 2nd tour : 50.2 — Progression : 2
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 73 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
+Mémoire/monde : 3 souvenirs d'acteurs, 80 actions adverses (alliance|crisis|endorsement|strategy), 0 alliance(s), 0 remplacement(s)
 Idéologie : mouvement total 10.89 points, axe le plus mobile 3.61 points
 
 ## Chronologie
@@ -128,3 +128,11 @@ Idéologie : mouvement total 10.89 points, axe le plus mobile 3.61 points
 **29. Les dernières heures autorisées** _(between_rounds)_
 - Choix : Enregistrer une adresse courte résumant les trois engagements inchangés depuis le premier tour [PRÉSIDENTIEL]
 - Conséquence : *Trois engagements ferment la campagne* — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
+
+**30. Deux alliés réclament Bercy** _(government)_
+- Choix : Écarter les deux candidatures et nommer une économiste fictive indépendante [OFFENSIF]
+- Conséquence : *Une tierce personne prend Bercy* — La nomination évite de récompenser une rivalité et apporte une expertise reconnue dans lunivers du jeu. Les deux alliés se sentent humiliés ensemble et coordonnent leurs exigences au Parlement.
+
+**31. Le choix de Matignon** _(government)_
+- Choix : Nommer une alliée fictive et signer avec elle un contrat de coalition public [RASSEMBLEUR]
+- Conséquence : *Matignon scelle la coalition* — Le choix sécurise plusieurs groupes parlementaires et transforme les accords du second tour en responsabilité gouvernementale. Votre parti accepte difficilement de ne pas diriger seul après la victoire.

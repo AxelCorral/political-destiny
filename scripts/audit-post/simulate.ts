@@ -29,6 +29,7 @@ import {
   resolveCurrentChoice,
   validateGameState,
 } from "../../src/game/engine/index";
+import { ideologyDistance } from "../../src/game/engine/math";
 import type { GameState, IdeologyAxis } from "../../src/game/types/index";
 import { AGENT_NAMES, type AgentName, pickChoice } from "./lib/agents";
 import { toCsv } from "./lib/csv";
@@ -139,6 +140,15 @@ interface RawRunRow {
   secondRoundScore: number | null;
   progression: number;
   progressionNormalized: number;
+  secondRoundOpponentId: string;
+  secondRoundOpponentScore: number | null;
+  playerRejectionAtRunoff: number | null;
+  opponentRejectionAtRunoff: number | null;
+  playerCredibilityAtRunoff: number | null;
+  opponentCredibilityAtRunoff: number | null;
+  playerMobilizationAtRunoff: number | null;
+  opponentMobilizationAtRunoff: number | null;
+  ideologyDistanceToOpponent: number | null;
   endingId: string;
   finalRank: number;
   achievementsUnlocked: number;
@@ -321,6 +331,37 @@ function runCampaign(
     )
     .digest("hex");
 
+  const opponentId = state.qualifiedPartyIds?.find((id) => id !== partyId);
+  const opponentParty = opponentId ? state.parties[opponentId] : undefined;
+  const playerPartyState = state.parties[partyId];
+  const runoffDuel =
+    result.qualified && opponentParty && playerPartyState
+      ? {
+          secondRoundOpponentId: opponentId!,
+          secondRoundOpponentScore: state.secondRoundResult?.results[opponentId!] ?? null,
+          playerRejectionAtRunoff: playerPartyState.stats.rejection,
+          opponentRejectionAtRunoff: opponentParty.stats.rejection,
+          playerCredibilityAtRunoff: playerPartyState.stats.credibility,
+          opponentCredibilityAtRunoff: opponentParty.stats.credibility,
+          playerMobilizationAtRunoff: playerPartyState.stats.mobilization,
+          opponentMobilizationAtRunoff: opponentParty.stats.mobilization,
+          ideologyDistanceToOpponent: ideologyDistance(
+            playerPartyState.perceivedIdeology,
+            opponentParty.perceivedIdeology,
+          ),
+        }
+      : {
+          secondRoundOpponentId: "",
+          secondRoundOpponentScore: null,
+          playerRejectionAtRunoff: null,
+          opponentRejectionAtRunoff: null,
+          playerCredibilityAtRunoff: null,
+          opponentCredibilityAtRunoff: null,
+          playerMobilizationAtRunoff: null,
+          opponentMobilizationAtRunoff: null,
+          ideologyDistanceToOpponent: null,
+        };
+
   const raw: RawRunRow = {
     partyId,
     partyKind: customParty ? "custom" : "existing",
@@ -336,6 +377,7 @@ function runCampaign(
     secondRoundScore: state.secondRoundResult?.results[partyId] ?? null,
     progression: result.pollingProgression,
     progressionNormalized: result.progressionNormalized,
+    ...runoffDuel,
     endingId: result.endingId,
     finalRank,
     achievementsUnlocked: result.unlockedAchievementIds.length,

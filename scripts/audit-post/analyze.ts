@@ -339,6 +339,109 @@ function distributionStats(values: number[]) {
 
 const branchSummary = computeBranchSummary(counterfactuals as unknown as CounterfactualRow[]);
 
+// --- P5: second-round report + duel matrix (§19 of the post-audit prompt) ---
+
+interface PartySecondRoundReport {
+  partyId: string;
+  totalRuns: number;
+  qualifiedRuns: number;
+  qualificationRate: number;
+  wonRuns: number;
+  victoryRate: number;
+  conditionalVictoryRate: number;
+  avgSecondRoundScore: number;
+  avgOwnRejectionAtRunoff: number;
+  avgOpponentRejectionAtRunoff: number;
+  avgOwnCredibilityAtRunoff: number;
+  avgIdeologyDistanceToOpponent: number;
+}
+
+const secondRoundReport: PartySecondRoundReport[] = [
+  ...new Set(existingRuns.map((r) => str(r.partyId))),
+]
+  .map((partyId) => {
+    const runs = existingRuns.filter((r) => str(r.partyId) === partyId);
+    const qualifiedRuns = runs.filter((r) => bool(r.qualified));
+    const wonRuns = runs.filter((r) => bool(r.won));
+    return {
+      partyId,
+      totalRuns: runs.length,
+      qualifiedRuns: qualifiedRuns.length,
+      qualificationRate: Number((qualifiedRuns.length / runs.length).toFixed(3)),
+      wonRuns: wonRuns.length,
+      victoryRate: Number((wonRuns.length / runs.length).toFixed(3)),
+      conditionalVictoryRate: qualifiedRuns.length
+        ? Number((wonRuns.length / qualifiedRuns.length).toFixed(3))
+        : 0,
+      avgSecondRoundScore: Number(
+        mean(qualifiedRuns.map((r) => num(r.secondRoundScore))).toFixed(2),
+      ),
+      avgOwnRejectionAtRunoff: Number(
+        mean(qualifiedRuns.map((r) => num(r.playerRejectionAtRunoff))).toFixed(2),
+      ),
+      avgOpponentRejectionAtRunoff: Number(
+        mean(qualifiedRuns.map((r) => num(r.opponentRejectionAtRunoff))).toFixed(2),
+      ),
+      avgOwnCredibilityAtRunoff: Number(
+        mean(qualifiedRuns.map((r) => num(r.playerCredibilityAtRunoff))).toFixed(2),
+      ),
+      avgIdeologyDistanceToOpponent: Number(
+        mean(qualifiedRuns.map((r) => num(r.ideologyDistanceToOpponent))).toFixed(2),
+      ),
+    };
+  })
+  .sort((a, b) => b.conditionalVictoryRate - a.conditionalVictoryRate);
+
+const flaggedHighConditionalVictory = secondRoundReport
+  .filter((row) => row.qualifiedRuns >= 30 && row.conditionalVictoryRate > 0.85)
+  .map((row) => row.partyId);
+
+interface DuelCell {
+  partyA: string;
+  partyB: string;
+  duels: number;
+  aWinRate: number;
+  aAvgSecondRoundScore: number;
+  aAvgRejection: number;
+  bAvgRejection: number;
+  avgIdeologyDistance: number;
+}
+
+const duelGroups = new Map<string, Record<string, string>[]>();
+for (const run of existingRuns) {
+  if (!bool(run.qualified) || !str(run.secondRoundOpponentId)) continue;
+  const key = `${str(run.partyId)}:${str(run.secondRoundOpponentId)}`;
+  duelGroups.set(key, [...(duelGroups.get(key) ?? []), run]);
+}
+const duelMatrix: DuelCell[] = [...duelGroups.entries()]
+  .map(([key, rows]) => {
+    const [partyA, partyB] = key.split(":") as [string, string];
+    return {
+      partyA,
+      partyB,
+      duels: rows.length,
+      aWinRate: Number(mean(rows.map((r) => Number(bool(r.won)))).toFixed(3)),
+      aAvgSecondRoundScore: Number(mean(rows.map((r) => num(r.secondRoundScore))).toFixed(2)),
+      aAvgRejection: Number(mean(rows.map((r) => num(r.playerRejectionAtRunoff))).toFixed(2)),
+      bAvgRejection: Number(mean(rows.map((r) => num(r.opponentRejectionAtRunoff))).toFixed(2)),
+      avgIdeologyDistance: Number(
+        mean(rows.map((r) => num(r.ideologyDistanceToOpponent))).toFixed(2),
+      ),
+    };
+  })
+  .sort((a, b) => a.partyA.localeCompare(b.partyA) || a.partyB.localeCompare(b.partyB));
+
+await writeFile(
+  resolve(OUT_DIR, "second-round-report.csv"),
+  toCsv(secondRoundReport as unknown as Record<string, unknown>[]),
+  "utf8",
+);
+await writeFile(
+  resolve(OUT_DIR, "duel-matrix.csv"),
+  toCsv(duelMatrix as unknown as Record<string, unknown>[]),
+  "utf8",
+);
+
 // --- summary.json ------------------------------------------------------------
 
 const summary = {
@@ -391,6 +494,13 @@ const summary = {
     },
   },
   counterfactualBranching: branchSummary,
+  secondRound: {
+    byParty: secondRoundReport,
+    duels: duelMatrix.length,
+    flaggedHighConditionalVictory,
+    interpretation:
+      "conditionalVictoryRate = victoires / qualifications pour le même parti. Le prompt post-audit (§22, critère P5) demande d'examiner et de justifier explicitement toute valeur > ~85–90 % ; flaggedHighConditionalVictory liste les partis concernés (qualifiedRuns >= 30 pour éviter le bruit d'échantillon). Voir POST_AUDIT_FIXES.md section P5 pour l'analyse.",
+  },
   choiceStrength: {
     evaluatedChoiceCells: choiceStrength.length,
     minimumSampleSize: 15,

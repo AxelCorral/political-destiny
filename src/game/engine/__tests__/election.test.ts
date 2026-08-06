@@ -2,8 +2,38 @@ import { describe, expect, it } from "vitest";
 
 import { testContent } from "@/game/fixtures/testContent";
 
-import { simulateFirstRound, simulateSecondRound } from "../election";
+import { diminishingRejectionPenalty, simulateFirstRound, simulateSecondRound } from "../election";
 import { createGame } from "../game";
+
+describe("diminishingRejectionPenalty (P5)", () => {
+  it("matches the previous linear penalty (rejection * 0.34) exactly at the calibration midpoint", () => {
+    expect(diminishingRejectionPenalty(50)).toBeCloseTo(50 * 0.34, 6);
+  });
+
+  it("is monotonically increasing (higher rejection is still always worse)", () => {
+    const samples = [0, 10, 25, 40, 50, 65, 80, 87, 100];
+    for (let i = 1; i < samples.length; i += 1) {
+      expect(diminishingRejectionPenalty(samples[i]!)).toBeGreaterThan(
+        diminishingRejectionPenalty(samples[i - 1]!),
+      );
+    }
+  });
+
+  it("compresses the gap between a low- and a high-rejection party relative to the old linear term", () => {
+    // Regression test for P5: with a flat rejection*0.34 term, a party near
+    // ~87 rejection paid roughly +16 appeal points more than one near ~40 —
+    // large enough that even a strong campaign for the high-rejection party
+    // rarely closed the gap. The new curve must narrow it.
+    const oldLinearGap = 87 * 0.34 - 40 * 0.34;
+    const newGap = diminishingRejectionPenalty(87) - diminishingRejectionPenalty(40);
+    expect(newGap).toBeLessThan(oldLinearGap);
+    expect(newGap).toBeGreaterThan(0);
+  });
+
+  it("returns 0 at rejection 0", () => {
+    expect(diminishingRejectionPenalty(0)).toBe(0);
+  });
+});
 
 describe("élections", () => {
   it("produit un premier tour à 100 et deux finalistes distincts", () => {

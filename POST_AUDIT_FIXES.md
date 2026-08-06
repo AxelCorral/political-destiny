@@ -14,11 +14,11 @@ _Complété à la fin de la mission (Phase 11)._
 
 - [x] P6 — graphique contrefactuel immédiat (commit `2fbd3c9`)
 - [x] P7 — instabilité Playwright (commit `76adb9f`)
-- [x] P1 — agence sur la progression électorale (en cours, ce document)
+- [x] P1 — agence sur la progression électorale (commit `c386894`)
+- [x] P5 — équilibrage du second tour (en cours, ce document)
 - [ ] P2 — interaction directe avec les adversaires
 - [ ] P3 — déplacements idéologiques déséquilibrés
 - [ ] P4 — deux définitions d'agents de simulation
-- [ ] P5 — équilibrage du second tour
 
 ---
 
@@ -119,3 +119,103 @@ Simulations réduites (20 graines/combo) utilisées pendant l'itération pour co
 ### 3.7 Limites restantes
 
 - η²(agent) sur la progression normalisée seule (métrique affichée en jeu) reste sous la cible indicative de 5 %, même si la construction "sur-performance vs neutre" démontre que l'agence existe bien et dans la fourchette cible. Une refonte plus profonde de `partyAppeal()` (au-delà d'un simple ajustement de coefficients) pourrait rapprocher davantage la métrique affichée de la métrique d'audit, mais n'a pas été tentée dans cette phase pour ne pas multiplier les changements non validés simultanément.
+
+---
+
+## 4. P5 — Équilibrage du second tour
+
+### 4.1 Diagnostic
+
+Nouvel outillage ajouté pour ce diagnostic (§19 du prompt) : `scripts/audit-post/simulate.ts` capture désormais, pour chaque partie qualifiée, l'identité de l'adversaire du second tour et les statistiques (rejet, crédibilité, mobilisation, distance idéologique) des deux finalistes au moment du second tour ; `scripts/audit-post/analyze.ts` en dérive un rapport par parti (`audit-results/second-round-report.csv`) et une matrice de duels parti×parti (`audit-results/duel-matrix.csv`), tous deux issus du **même moteur réel**, sans réimplémentation parallèle.
+
+Constat initial (30 graines/combo, seed post-audit, avant correction) :
+
+| Parti                | Qualification | Victoire | **Victoire \| qualifié**                                   | Rejet moyen (soi) | Rejet moyen (adversaire) |
+| -------------------- | ------------: | -------: | ---------------------------------------------------------- | ----------------: | -----------------------: |
+| horizons             |        72,9 % |   65,0 % | **89,1 %**                                                 |              49,5 |                     66,7 |
+| nouvelle_energie     |        56,7 % |   49,2 % | **86,8 %**                                                 |              40,3 |                     64,2 |
+| lr                   |        83,8 % |   65,8 % | 78,6 %                                                     |              69,3 |                     63,1 |
+| renaissance          |        77,5 % |   60,8 % | 78,5 %                                                     |              67,7 |                     58,3 |
+| ps                   |        90,0 % |   62,1 % | 69,0 %                                                     |              79,0 |                     61,9 |
+| ecologistes          |        68,3 % |   45,0 % | 65,9 %                                                     |              44,6 |                     65,2 |
+| lfi                  |        90,0 % |   43,8 % | 48,6 %                                                     |              68,7 |                     64,1 |
+| **rn**               |    **93,3 %** |   31,7 % | **33,9 %**                                                 |          **87,0** |                     61,0 |
+| reconquete (n petit) |         9,2 % |    2,5 % | 27,3 % (n=22 qualifiés, sous le seuil de fiabilité retenu) |              78,6 |                     64,8 |
+
+Deux valeurs dépassent le seuil de vigilance du prompt (§22, > ~85–90 %) : `horizons` (89,1 %) et `nouvelle_energie` (86,8 %). À l'inverse, `rn`, très souvent qualifié (93,3 %), gagne rarement son second tour (33,9 %).
+
+**Cause identifiée — pas un coefficient caché, mais une pente linéaire trop forte sur tout l'intervalle du rejet.** `runoffAppeal()` (`src/game/engine/election.ts`) déterminait la part des reports de voix d'un tiers parti avec un terme `- finalist.stats.rejection * 0.34`, strictement linéaire de 0 à 100. Le rejet moyen constaté à l'entrée du second tour va de ~40 (nouvelle_energie) à ~87 (rn) — un écart de pénalité de reports de ~16 points d'appel sur une base de 112, alors que le reste de la formule (crédibilité, mobilisation, cohérence de campagne, alliances) doit rivaliser avec cet écart pour inverser un duel.
+
+**Ce n'est pas un surdéterminisme au sens propre : la stratégie de jeu déplace déjà fortement les chances.** Ventilation par agent, second tour de `rn` (avant correction) :
+
+| Agent                                     | Victoire \| qualifié |
+| ----------------------------------------- | -------------------: |
+| contrarien (mauvaise stratégie sciemment) |               11,5 % |
+| mediatique                                |               17,9 % |
+| parti_dabord                              |               20,8 % |
+| opportuniste_electoral                    |               31,0 % |
+| aleatoire                                 |               37,9 % |
+| risque                                    |               43,3 % |
+| ideologiquement_coherent                  |               44,8 % |
+| **prudent**                               |           **58,6 %** |
+
+Un écart de 47 points entre la pire et la meilleure stratégie pour le **même** parti confirme que « une bonne ou mauvaise campagne déplace significativement les chances » (§22) est déjà vrai — le problème visé par P5 est spécifiquement l'écart agrégé entre partis à rejet structurellement très différent, pas l'absence d'agence à l'intérieur d'un même parti.
+
+La matrice de duels confirme un résultat différencié selon l'adversaire, pas une victoire automatique : `rn` bat `lr` (39,6 % sur 48 duels), `ps` (45,1 % sur 51 duels) ou `lfi` (75 % sur 16 duels), mais perd presque systématiquement contre `horizons` (15 % sur 20 duels) — le rejet reste déterminant, mais de façon différenciée par adversaire, pas comme un couperet uniforme.
+
+### 4.2 Décision de conception
+
+`src/game/engine/election.ts::diminishingRejectionPenalty` (nouvelle fonction pure, exportée et testée) remplace le terme linéaire `rejection * 0.34` par une courbe concave (`rejection^0.65`), calibrée pour **coïncider exactement avec l'ancien terme linéaire à rejet = 50** (le milieu de l'échelle, aucun changement de calibration pour un parti "moyen"), mais qui comprime l'écart de pénalité entre rejet très bas et très haut. Le rejet reste strictement croissant (aucune inversion d'ordre entre partis) — c'est un lissage des extrêmes, pas une remise à plat.
+
+Technique explicitement recommandée par le prompt (§21 : « rendements décroissants du rejet »). Alternatives écartées :
+
+- **Un quota de victoire ou un nerf direct par parti** — explicitement interdit par le prompt (§21) et par le principe de non-homogénéisation (§3.3).
+- **Réduire le poids du rejet dans la formule de rétention** (`leftRetention`/`rightRetention`) — écarté : son coefficient (`rejection / 2200`) est déjà marginal (moins de 2 points de rétention sur toute l'échelle), ce n'est pas le levier dominant.
+- **Ajouter du bruit électoral supplémentaire** — écarté : le prompt met en garde contre une « randomisation excessive » (§21), et le bruit existant (±4 points sur le duel) n'est pas la source du problème diagnostiqué (un biais systématique, pas un manque de variance aléatoire).
+
+### 4.3 Résultats statistiques avant/après
+
+Résultats en configuration réduite (30 graines/combo, mêmes graines avant/après) :
+
+| Parti (victoire \| qualifié) |  Avant |      Après |
+| ---------------------------- | -----: | ---------: |
+| horizons                     | 89,1 % |     89,7 % |
+| nouvelle_energie             | 86,8 % |     86,8 % |
+| lr                           | 78,6 % |     80,6 % |
+| renaissance                  | 78,5 % |     81,2 % |
+| ps                           | 69,0 % |     72,7 % |
+| ecologistes                  | 65,9 % |     63,4 % |
+| lfi                          | 48,6 % |     50,5 % |
+| **rn**                       | 33,9 % | **39,7 %** |
+
+Chiffres définitifs (60 graines/combo, 4320 parties existantes, 0 erreur — `audit-results/second-round-report.csv`) :
+
+| Parti                | Qualification | Victoire |    Victoire \| qualifié |
+| -------------------- | ------------: | -------: | ----------------------: |
+| **horizons**         |        77,1 % |   71,9 % |              **93,2 %** |
+| **nouvelle_energie** |        60,2 % |   54,8 % |              **91,0 %** |
+| renaissance          |        79,8 % |   67,1 % |                  84,1 % |
+| lr                   |        85,0 % |   70,2 % |                  82,6 % |
+| ps                   |        92,5 % |   74,0 % |                  80,0 % |
+| ecologistes          |        74,8 % |   54,8 % |                  73,3 % |
+| lfi                  |        90,8 % |   50,4 % |                  55,5 % |
+| reconquete           |         7,1 % |    2,9 % | 41,2 % (n=34 qualifiés) |
+| **rn**               |    **92,7 %** |   36,2 % |              **39,1 %** |
+
+`rn` passe de 33,0 % (baseline `AUDIT_POST_CORRECTIONS.md`) à 39,1 % après correction — une amélioration réelle de +6,1 points, cohérente avec la mesure en configuration réduite. `matchedPairsOutcomeChangedShare` (taux de changement d'issue entre agents à parti+graine identiques, mesure globale non spécifique au second tour) reste stable à 63,1 % (baseline 63,0 %, P1 l'avait mesuré à 63,5 % — variation normale d'échantillonnage, aucune régression).
+
+### 4.4 Fichiers modifiés
+
+- `src/game/engine/election.ts` — `diminishingRejectionPenalty()`, branchée dans `runoffAppeal()`.
+- `scripts/audit-post/simulate.ts` — capture de l'adversaire du second tour et des statistiques de duel dans `raw-runs.csv`.
+- `scripts/audit-post/analyze.ts` — rapport par parti (`second-round-report.csv`), matrice de duels (`duel-matrix.csv`), section `secondRound` dans `summary.json` avec la liste des partis au-dessus du seuil de vigilance.
+
+### 4.5 Tests ajoutés
+
+- `src/game/engine/__tests__/election.test.ts` — 4 tests sur `diminishingRejectionPenalty` : coïncidence exacte avec l'ancien terme linéaire au point d'ancrage (rejet = 50), monotonie stricte, compression réelle de l'écart entre rejet faible et rejet élevé par rapport à l'ancien terme linéaire, valeur nulle à rejet = 0.
+
+### 4.6 Compromis et limites restantes
+
+- L'effet mesuré de la correction sur les taux agrégés reste modeste (quelques points) : le second tour combine la taille du socle du 1er tour (préservée intentionnellement, §3.3), la rétention et les reports — le rejet n'en est qu'une composante parmi d'autres, et le comprimer davantage sans toucher aux autres leviers aurait nécessité une intervention plus large, hors du principe « ne pas forcer une plage arbitraire ».
+- `horizons` et `nouvelle_energie` restent au-dessus du seuil de vigilance de 85-90 % après correction. Ceci est documenté explicitement comme demandé par le prompt plutôt que masqué : la matrice de duels et la ventilation par agent montrent que ce résultat reste (a) explicable par le moteur (rejet, crédibilité, distance idéologique, tous mesurables et cohérents), (b) différencié par adversaire (`horizons` bat `ps` "seulement" 76,6 % du temps contre 100 % face à `rn`/`lfi`/`lr`), et (c) sensible à la stratégie de jeu à l'intérieur de chaque parti. Aucun parti ne gagne par un coefficient fixe cousu à son identifiant — le mécanisme est uniforme et s'applique identiquement à tous.
+- `reconquete` a un échantillon de qualifiés trop petit (n=22 sur 240 parties) pour une lecture fiable de son taux conditionnel ; exclu du seuil de vigilance (`qualifiedRuns >= 30`) pour cette raison, documenté plutôt que silencieusement ignoré.

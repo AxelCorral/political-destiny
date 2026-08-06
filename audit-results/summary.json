@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-06T15:43:27.451Z",
+  "generatedAt": "2026-08-06T16:11:47.650Z",
   "sampleSizes": {
     "existingPartyRuns": 4320,
     "customPartyRuns": 960,
     "totalRuns": 5280,
-    "totalDecisions": 150826,
-    "totalWorldEvents": 364073,
+    "totalDecisions": 150914,
+    "totalWorldEvents": 364428,
     "counterfactualBranches": 330
   },
   "varianceDecomposition": {
@@ -24,12 +24,12 @@
       {
         "metric": "finalScore",
         "label": "Score final (/100)",
-        "etaSquaredParty": 0.3449,
-        "etaSquaredAgent": 0.1208,
+        "etaSquaredParty": 0.3444,
+        "etaSquaredAgent": 0.1198,
         "etaSquaredInteraction": 0.0115,
-        "etaSquaredResidual": 0.5228,
-        "partialEtaSquaredParty": 0.3975,
-        "partialEtaSquaredAgent": 0.1877,
+        "etaSquaredResidual": 0.5243,
+        "partialEtaSquaredParty": 0.3964,
+        "partialEtaSquaredAgent": 0.1859,
         "balancedDesign": true
       },
       {
@@ -81,15 +81,15 @@
     "cramersV": {
       "qualifiedByParty": 0.5743,
       "qualifiedByAgent": 0.1696,
-      "wonByParty": 0.4316,
-      "wonByAgent": 0.1987
+      "wonByParty": 0.4274,
+      "wonByAgent": 0.1942
     },
     "matchedPairs": {
       "groups": 540,
       "averageFirstRoundRange": 3.06,
       "medianFirstRoundRange": 2.8,
-      "averageFinalScoreRange": 20.45,
-      "shareWhereOutcomeChanged": 0.635
+      "averageFinalScoreRange": 20.42,
+      "shareWhereOutcomeChanged": 0.631
     },
     "underdogBeatsFavorite": {
       "favoriteParty": "rn",
@@ -108,7 +108,7 @@
     "available": true,
     "branchGroups": 108,
     "totalBranches": 330,
-    "averageFinalScoreRange": 5.44,
+    "averageFinalScoreRange": 5.38,
     "medianFinalScoreRange": 2,
     "averageFirstRoundRange": 0.83,
     "averagePlus0Range": 0.1919,
@@ -116,7 +116,143 @@
     "shareOfGroupsWithZeroPlus0Range": 0,
     "averagePlus3Range": 0.38,
     "averagePlus8Range": 0.46,
-    "shareWhereOutcomeChanged": 0.231
+    "shareWhereOutcomeChanged": 0.222
+  },
+  "secondRound": {
+    "byParty": [
+      {
+        "partyId": "horizons",
+        "totalRuns": 480,
+        "qualifiedRuns": 370,
+        "qualificationRate": 0.771,
+        "wonRuns": 345,
+        "victoryRate": 0.719,
+        "conditionalVictoryRate": 0.932,
+        "avgSecondRoundScore": 55.9,
+        "avgOwnRejectionAtRunoff": 49.45,
+        "avgOpponentRejectionAtRunoff": 68.64,
+        "avgOwnCredibilityAtRunoff": 91.89,
+        "avgIdeologyDistanceToOpponent": 48.65
+      },
+      {
+        "partyId": "nouvelle_energie",
+        "totalRuns": 480,
+        "qualifiedRuns": 289,
+        "qualificationRate": 0.602,
+        "wonRuns": 263,
+        "victoryRate": 0.548,
+        "conditionalVictoryRate": 0.91,
+        "avgSecondRoundScore": 55.13,
+        "avgOwnRejectionAtRunoff": 39.66,
+        "avgOpponentRejectionAtRunoff": 64.56,
+        "avgOwnCredibilityAtRunoff": 90.06,
+        "avgIdeologyDistanceToOpponent": 53.69
+      },
+      {
+        "partyId": "renaissance",
+        "totalRuns": 480,
+        "qualifiedRuns": 383,
+        "qualificationRate": 0.798,
+        "wonRuns": 322,
+        "victoryRate": 0.671,
+        "conditionalVictoryRate": 0.841,
+        "avgSecondRoundScore": 54.7,
+        "avgOwnRejectionAtRunoff": 67.32,
+        "avgOpponentRejectionAtRunoff": 64.29,
+        "avgOwnCredibilityAtRunoff": 91.52,
+        "avgIdeologyDistanceToOpponent": 54.7
+      },
+      {
+        "partyId": "lr",
+        "totalRuns": 480,
+        "qualifiedRuns": 408,
+        "qualificationRate": 0.85,
+        "wonRuns": 337,
+        "victoryRate": 0.702,
+        "conditionalVictoryRate": 0.826,
+        "avgSecondRoundScore": 54.13,
+        "avgOwnRejectionAtRunoff": 69.36,
+        "avgOpponentRejectionAtRunoff": 66.15,
+        "avgOwnCredibilityAtRunoff": 91,
+        "avgIdeologyDistanceToOpponent": 62.37
+      },
+      {
+        "partyId": "ps",
+        "totalRuns": 480,
+        "qualifiedRuns": 444,
+        "qualificationRate": 0.925,
+        "wonRuns": 355,
+        "victoryRate": 0.74,
+        "conditionalVictoryRate": 0.8,
+        "avgSecondRoundScore": 54,
+        "avgOwnRejectionAtRunoff": 79.45,
+        "avgOpponentRejectionAtRunoff": 64.02,
+        "avgOwnCredibilityAtRunoff": 89.63,
+        "avgIdeologyDistanceToOpponent": 70.67
+      },
+      {
+        "partyId": "ecologistes",
+        "totalRuns": 480,
+        "qualifiedRuns": 359,
+        "qualificationRate": 0.748,
+        "wonRuns": 263,
+        "victoryRate": 0.548,
+        "conditionalVictoryRate": 0.733,
+        "avgSecondRoundScore": 53.35,
+        "avgOwnRejectionAtRunoff": 45.21,
+        "avgOpponentRejectionAtRunoff": 67.1,
+        "avgOwnCredibilityAtRunoff": 86.01,
+        "avgIdeologyDistanceToOpponent": 70.56
+      },
+      {
+        "partyId": "lfi",
+        "totalRuns": 480,
+        "qualifiedRuns": 436,
+        "qualificationRate": 0.908,
+        "wonRuns": 242,
+        "victoryRate": 0.504,
+        "conditionalVictoryRate": 0.555,
+        "avgSecondRoundScore": 50.91,
+        "avgOwnRejectionAtRunoff": 68.93,
+        "avgOpponentRejectionAtRunoff": 67.28,
+        "avgOwnCredibilityAtRunoff": 82.94,
+        "avgIdeologyDistanceToOpponent": 77.72
+      },
+      {
+        "partyId": "reconquete",
+        "totalRuns": 480,
+        "qualifiedRuns": 34,
+        "qualificationRate": 0.071,
+        "wonRuns": 14,
+        "victoryRate": 0.029,
+        "conditionalVictoryRate": 0.412,
+        "avgSecondRoundScore": 49.25,
+        "avgOwnRejectionAtRunoff": 78.52,
+        "avgOpponentRejectionAtRunoff": 65.37,
+        "avgOwnCredibilityAtRunoff": 87.92,
+        "avgIdeologyDistanceToOpponent": 85.64
+      },
+      {
+        "partyId": "rn",
+        "totalRuns": 480,
+        "qualifiedRuns": 445,
+        "qualificationRate": 0.927,
+        "wonRuns": 174,
+        "victoryRate": 0.362,
+        "conditionalVictoryRate": 0.391,
+        "avgSecondRoundScore": 48.73,
+        "avgOwnRejectionAtRunoff": 87.3,
+        "avgOpponentRejectionAtRunoff": 61.95,
+        "avgOwnCredibilityAtRunoff": 85.25,
+        "avgIdeologyDistanceToOpponent": 81.7
+      }
+    ],
+    "duels": 64,
+    "flaggedHighConditionalVictory": [
+      "horizons",
+      "nouvelle_energie"
+    ],
+    "interpretation": "conditionalVictoryRate = victoires / qualifications pour le même parti. Le prompt post-audit (§22, critère P5) demande d'examiner et de justifier explicitement toute valeur > ~85–90 % ; flaggedHighConditionalVictory liste les partis concernés (qualifiedRuns >= 30 pour éviter le bruit d'échantillon). Voir POST_AUDIT_FIXES.md section P5 pour l'analyse."
   },
   "choiceStrength": {
     "evaluatedChoiceCells": 599,
@@ -124,7 +260,7 @@
     "top10SpreadEvents": [
       {
         "eventId": "debate_security_round",
-        "spread": 16.020000000000003,
+        "spread": 15.700000000000003,
         "best": {
           "eventId": "debate_security_round",
           "choiceId": "security_round_local_plan",
@@ -139,21 +275,21 @@
           "choiceId": "security_round_prevention",
           "choiceTag": "PRUDENT",
           "n": 19,
-          "avgFinalScore": 61.21,
+          "avgFinalScore": 61.53,
           "avgQualified": 0.421,
-          "avgWon": 0.158
+          "avgWon": 0.211
         },
         "optionCount": 4
       },
       {
         "eventId": "scandal_treasurer_invoices",
-        "spread": 14.829999999999991,
+        "spread": 14.649999999999999,
         "best": {
           "eventId": "scandal_treasurer_invoices",
           "choiceId": "treasurer_invoices_publish",
           "choiceTag": "TRANSPARENT",
           "n": 320,
-          "avgFinalScore": 75.96,
+          "avgFinalScore": 75.97,
           "avgQualified": 0.7,
           "avgWon": 0.584
         },
@@ -162,23 +298,23 @@
           "choiceId": "treasurer_invoices_reimburse",
           "choiceTag": "PRUDENT",
           "n": 98,
-          "avgFinalScore": 61.13,
+          "avgFinalScore": 61.32,
           "avgQualified": 0.398,
-          "avgWon": 0.214
+          "avgWon": 0.245
         },
         "optionCount": 3
       },
       {
         "eventId": "custom_runoff_mandate",
-        "spread": 14.600000000000001,
+        "spread": 14.479999999999997,
         "best": {
           "eventId": "custom_runoff_mandate",
           "choiceId": "custom_runoff_coalition_team",
           "choiceTag": "RISQUÉ",
           "n": 249,
-          "avgFinalScore": 74.36,
+          "avgFinalScore": 74.24,
           "avgQualified": 0.566,
-          "avgWon": 0.538
+          "avgWon": 0.522
         },
         "worst": {
           "eventId": "custom_runoff_mandate",
@@ -193,15 +329,15 @@
       },
       {
         "eventId": "custom_identity_interview",
-        "spread": 14,
+        "spread": 13.879999999999995,
         "best": {
           "eventId": "custom_identity_interview",
           "choiceId": "custom_identity_three_proofs",
           "choiceTag": "PRÉSIDENTIEL",
           "n": 197,
-          "avgFinalScore": 74.03,
+          "avgFinalScore": 73.91,
           "avgQualified": 0.528,
-          "avgWon": 0.497
+          "avgWon": 0.482
         },
         "worst": {
           "eventId": "custom_identity_interview",
@@ -216,38 +352,38 @@
       },
       {
         "eventId": "custom_coherent_manifesto",
-        "spread": 13.849999999999994,
+        "spread": 13.809999999999995,
         "best": {
           "eventId": "custom_coherent_manifesto",
           "choiceId": "custom_manifesto_priority_note",
           "choiceTag": "PRUDENT",
           "n": 127,
-          "avgFinalScore": 76.69,
+          "avgFinalScore": 76.57,
           "avgQualified": 0.63,
-          "avgWon": 0.598
+          "avgWon": 0.583
         },
         "worst": {
           "eventId": "custom_coherent_manifesto",
           "choiceId": "custom_manifesto_public_debate",
           "choiceTag": "OFFENSIF",
           "n": 96,
-          "avgFinalScore": 62.84,
+          "avgFinalScore": 62.76,
           "avgQualified": 0.24,
-          "avgWon": 0.177
+          "avgWon": 0.167
         },
         "optionCount": 3
       },
       {
         "eventId": "party_ecologistes_alliance",
-        "spread": 13.569999999999993,
+        "spread": 13.379999999999995,
         "best": {
           "eventId": "party_ecologistes_alliance",
           "choiceId": "ecologistes_alliance_metro",
           "choiceTag": "RASSEMBLEUR",
           "n": 38,
-          "avgFinalScore": 80.74,
+          "avgFinalScore": 80.55,
           "avgQualified": 0.816,
-          "avgWon": 0.658
+          "avgWon": 0.632
         },
         "worst": {
           "eventId": "party_ecologistes_alliance",
@@ -262,53 +398,30 @@
       },
       {
         "eventId": "debate_post_show_spin",
-        "spread": 13.11,
+        "spread": 13.08999999999999,
         "best": {
           "eventId": "debate_post_show_spin",
           "choiceId": "post_show_balanced",
           "choiceTag": "TRANSPARENT",
           "n": 604,
-          "avgFinalScore": 77.94,
+          "avgFinalScore": 77.99,
           "avgQualified": 0.768,
-          "avgWon": 0.624
+          "avgWon": 0.631
         },
         "worst": {
           "eventId": "debate_post_show_spin",
           "choiceId": "post_show_no_spin",
           "choiceTag": "PRUDENT",
           "n": 232,
-          "avgFinalScore": 64.83,
+          "avgFinalScore": 64.9,
           "avgQualified": 0.504,
-          "avgWon": 0.349
+          "avgWon": 0.362
         },
         "optionCount": 4
       },
       {
-        "eventId": "scandal_consultant_contract",
-        "spread": 12.590000000000003,
-        "best": {
-          "eventId": "scandal_consultant_contract",
-          "choiceId": "consultant_contract_waive",
-          "choiceTag": "TRANSPARENT",
-          "n": 376,
-          "avgFinalScore": 77.09,
-          "avgQualified": 0.742,
-          "avgWon": 0.566
-        },
-        "worst": {
-          "eventId": "scandal_consultant_contract",
-          "choiceId": "consultant_contract_litigate",
-          "choiceTag": "OFFENSIF",
-          "n": 264,
-          "avgFinalScore": 64.5,
-          "avgQualified": 0.473,
-          "avgWon": 0.261
-        },
-        "optionCount": 3
-      },
-      {
         "eventId": "custom_collective_arbitration",
-        "spread": 12.379999999999995,
+        "spread": 12.670000000000002,
         "best": {
           "eventId": "custom_collective_arbitration",
           "choiceId": "custom_collective_members_decide",
@@ -323,41 +436,64 @@
           "choiceId": "custom_collective_split_budget",
           "choiceTag": "TECHNIQUE",
           "n": 28,
-          "avgFinalScore": 65.43,
+          "avgFinalScore": 65.14,
           "avgQualified": 0.321,
-          "avgWon": 0.25
+          "avgWon": 0.214
         },
         "optionCount": 2
       },
       {
-        "eventId": "campaign_slogan_test",
-        "spread": 12.049999999999997,
+        "eventId": "scandal_consultant_contract",
+        "spread": 12.590000000000003,
         "best": {
-          "eventId": "campaign_slogan_test",
-          "choiceId": "slogan_choose_govern",
-          "choiceTag": "PRÉSIDENTIEL",
-          "n": 787,
-          "avgFinalScore": 76.92,
-          "avgQualified": 0.719,
-          "avgWon": 0.576
+          "eventId": "scandal_consultant_contract",
+          "choiceId": "consultant_contract_waive",
+          "choiceTag": "TRANSPARENT",
+          "n": 376,
+          "avgFinalScore": 77.14,
+          "avgQualified": 0.742,
+          "avgWon": 0.574
         },
         "worst": {
-          "eventId": "campaign_slogan_test",
-          "choiceId": "slogan_drop_both",
-          "choiceTag": "PRUDENT",
-          "n": 329,
-          "avgFinalScore": 64.87,
-          "avgQualified": 0.517,
-          "avgWon": 0.322
+          "eventId": "scandal_consultant_contract",
+          "choiceId": "consultant_contract_litigate",
+          "choiceTag": "OFFENSIF",
+          "n": 264,
+          "avgFinalScore": 64.55,
+          "avgQualified": 0.473,
+          "avgWon": 0.269
         },
         "optionCount": 3
+      },
+      {
+        "eventId": "custom_experts_panel",
+        "spread": 12.050000000000004,
+        "best": {
+          "eventId": "custom_experts_panel",
+          "choiceId": "custom_experts_pairing",
+          "choiceTag": "RASSEMBLEUR",
+          "n": 124,
+          "avgFinalScore": 74.65,
+          "avgQualified": 0.556,
+          "avgWon": 0.524
+        },
+        "worst": {
+          "eventId": "custom_experts_panel",
+          "choiceId": "custom_experts_single_voice",
+          "choiceTag": "PRÉSIDENTIEL",
+          "n": 55,
+          "avgFinalScore": 62.6,
+          "avgQualified": 0.236,
+          "avgWon": 0.182
+        },
+        "optionCount": 2
       }
     ],
     "caveat": "Ces écarts sont corrélationnels : ils comparent les campagnes qui ONT CHOISI chaque option, sans contrôler l'agent ni le parti qui l'ont choisie. Voir counterfactuals.csv pour la mesure causale isolée (même état initial, un seul choix qui diffère)."
   },
   "memoryAndWorld": {
     "runsWithActorMemoryContentShare": 0.859,
-    "runsWithContradictionShare": 0.138,
+    "runsWithContradictionShare": 0.139,
     "runsWithAbruptReversalShare": 0.288,
     "runsWithCandidateReplacementShare": 0.102,
     "runsWithAllianceShare": 0.527,
@@ -365,11 +501,11 @@
     "opponentActionKindFrequency": [
       {
         "id": "strategy",
-        "count": 331827
+        "count": 332149
       },
       {
         "id": "crisis",
-        "count": 16361
+        "count": 16380
       },
       {
         "id": "endorsement",
@@ -377,11 +513,11 @@
       },
       {
         "id": "alliance",
-        "count": 6362
+        "count": 6375
       },
       {
         "id": "replacement",
-        "count": 531
+        "count": 532
       },
       {
         "id": "primary",
@@ -402,9 +538,9 @@
       "p95": 5
     },
     "opponentActionCountDistribution": {
-      "mean": 68.699,
+      "mean": 68.789,
       "median": 70,
-      "stddev": 7.328,
+      "stddev": 7.346,
       "min": 48,
       "max": 80,
       "p90": 78,

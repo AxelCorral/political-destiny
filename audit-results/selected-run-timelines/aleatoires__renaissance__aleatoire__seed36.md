@@ -2,7 +2,7 @@
 
 Parti : **renaissance** (existing) — Agent : **aleatoire** — Graine : `post-audit-36` — Méthode : presidential
 Résultat : qualifié, **vainqueur** — score final 77/100 — fin `president`
-Score 1er tour : 14.2 — Score 2nd tour : 53 — Progression : 0.2
+Score 1er tour : 14.2 — Score 2nd tour : 52.7 — Progression : 0.2
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 6 souvenirs d'acteurs, 64 actions adverses (crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
 Idéologie : mouvement total 10.33 points, axe le plus mobile 8.79 points
