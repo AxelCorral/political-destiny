@@ -17,8 +17,8 @@ _Complété à la fin de la mission (Phase 11)._
 - [x] P1 — agence sur la progression électorale (commit `c386894`)
 - [x] P5 — équilibrage du second tour (commit `0e1420c`)
 - [x] P3 — déplacements idéologiques déséquilibrés (commit `f0095d9`)
-- [x] P2 — interaction directe avec les adversaires (en cours, ce document)
-- [ ] P4 — deux définitions d'agents de simulation
+- [x] P2 — interaction directe avec les adversaires (commit `0680ca1`)
+- [x] P4 — deux définitions d'agents de simulation (ce document)
 
 ---
 
@@ -367,3 +367,40 @@ Pas de nouveau test unitaire dédié (contenu de données) ; couvert par `npm ru
 - `mechanicallyEquivalentGroupCount` (signal faible et catalogue-large, PAS le contrôle de faux dilemme intra-événement) passe de 5 à 7 : deux nouveaux groupes de 3 choix partageant un type d'effet identique (ex. « position ferme qui plaît à un bloc et coûte du rejet » réutilisé sur fin de vie / laïcité / regroupement familial). Ce sont des événements et des textes entièrement différents partageant une forme structurelle plausible — le contrôle strict (`eventsWithMechanicallyIdenticalOptions`, faux dilemme au sein d'un même événement) reste à 0. Documenté plutôt qu'ignoré ; non corrigé car il s'agit d'un signal secondaire, pas d'une violation d'un critère du prompt.
 - Les 9 événements ciblent chacun un adversaire fixé à l'avance (ex. RN pour le duel, LFI pour l'attaque frontale) plutôt qu'un rival déterminé dynamiquement par le classement en cours — limite du moteur (les effets `opponent_strategy`/`candidate_status`/`party_split` exigent un `actorId` statique, pas de résolution dynamique du type « rival principal »). Compensé par `excludedParties` pour que chaque événement reste atteignable par la majorité des 9 partis jouables plutôt que par un seul.
 - Volume conforme à la fourchette basse du prompt (§11 : « 12 à 20 » événements nouveaux ou branches enrichies) : 9 événements complets plutôt que 12 à 20, par arbitrage de temps face à l'ampleur des phases P1/P3/P5 déjà traitées dans la même session. La cible qualitative (`eventsAffectingOpponent` nettement au-delà de 2, mécanismes atteignables, plusieurs types d'effets, plusieurs familles idéologiques couvertes) est atteinte ; le volume brut d'événements reste sous la fourchette haute indicative.
+
+---
+
+## 7. P4 — Deux définitions différentes des agents de simulation
+
+### 7.1 Constat
+
+Deux jeux d'agents coexistent dans le dépôt :
+
+- `scripts/audit/simulation-audit.ts` (outillage V1/V2 original) — 7 stratégies : `random`, `coherent`, `prudent`, `risky`, `collective`, `greedy`, `adverse`. Les deux dernières sont des optimiseurs synthétiques (maximisation/minimisation intégrale de l'utilité espérée des effets à chaque décision, recalculée à partir de `outcomeProbabilities()`), sans équivalent de style de jeu humain plausible.
+- `scripts/audit-post/lib/agents.ts` (outillage de cette mission et de l'audit indépendant qui l'a précédée) — 8 agents, tous documentés comme des politiques de décision plausibles pour un joueur humain, aucun n'ayant de connaissance parfaite du tirage à venir.
+
+Sur un échantillon comparable, le premier jeu rapporte η²(stratégie) ≈ 14,2 %, le second η²(agent) ≈ 5,4 % (référence croisée déjà établie dans `AUDIT_POST_CORRECTIONS.md` section 10.6, lors de l'audit indépendant qui précède cette mission). Sans documentation directement dans les deux scripts, un lecteur qui tombe sur l'un ou l'autre chiffre isolément ne peut pas savoir lequel citer ni pourquoi ils diffèrent.
+
+### 7.2 Décision de conception
+
+**Approche minimale retenue** (l'une des deux options explicitement proposées par le prompt, §24) plutôt que l'approche recommandée (bibliothèque commune) : les deux jeux d'agents mesurent des choses différentes par construction — une plage de sensibilité bornée par un optimiseur synthétique (`simulation-audit.ts`) contre une estimation réaliste de l'agence effective du joueur (`agents.ts`) — et les fusionner dans une bibliothèque unique aurait effacé cette distinction plutôt que de la clarifier. Aucune mesure n'est supprimée, conformément à la consigne du prompt (« ne supprime pas une série de mesures simplement parce qu'elle donne un résultat différent »).
+
+Ajout d'un commentaire d'en-tête complet et croisé dans les deux fichiers (`scripts/audit/simulation-audit.ts` et `scripts/audit-post/lib/agents.ts`), couvrant les quatre points demandés par le prompt :
+
+- **agents réalistes** : les 8 agents de `agents.ts`, aucune connaissance parfaite du tirage ;
+- **agents extrêmes** : `greedy`/`adverse` dans `simulation-audit.ts`, optimisation synthétique intégrale ;
+- **raison de l'écart 5,4 % / 14,2 %** : inclusion ou non des deux stratégies synthétiques ;
+- **cas d'usage de chaque mesure** : `simulation-audit.ts` comme borne de sensibilité (« jusqu'où l'effet de stratégie pourrait-il aller sous optimisation parfaite »), `agents.ts` comme estimation réaliste à citer pour toute discussion sur l'agence effective du joueur (y compris les figures P1 de ce document, section 3).
+
+### 7.3 Fichiers modifiés
+
+- `scripts/audit/simulation-audit.ts` — commentaire d'en-tête ajouté.
+- `scripts/audit-post/lib/agents.ts` — commentaire d'en-tête étendu.
+
+### 7.4 Tests
+
+Aucun changement de comportement (documentation uniquement) ; `npm run typecheck` confirmé propre après l'ajout.
+
+### 7.5 Limites restantes
+
+- L'approche minimale documente la coexistence sans réduire la charge de maintenance à long terme (deux scripts, deux jeux d'agents à faire évoluer séparément si le moteur change). L'approche recommandée (bibliothèque commune) resterait préférable dans une refonte plus large de l'outillage d'audit, hors du périmètre de cette mission.

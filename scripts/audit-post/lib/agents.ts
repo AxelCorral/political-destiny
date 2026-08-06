@@ -12,6 +12,19 @@
  *
  * All tie-breaks are seeded and deterministic (hashSeed), so re-running the
  * same seed/party/agent combination always reproduces the same campaign.
+ *
+ * P4 (post-audit corrections) cross-reference — `scripts/audit/
+ * simulation-audit.ts` (the original V1/V2 audit script) defines a
+ * different, 7-strategy set that includes two synthetic optimizers with no
+ * human equivalent (`greedy`/`adverse`, full expected-utility min/max every
+ * decision). That set reports η²(stratégie) ≈ 14,2 %; this file's 8
+ * plausible-human-policy agents give η²(agent) ≈ 5,4 % on the same kind of
+ * grid. Both are honest — the older script's number is an upper-bound
+ * sensitivity check ("how much could strategy matter under a synthetic
+ * optimizer"), this file's is the realistic point estimate of player
+ * agency. Cite THIS file's agents when discussing actual player agency; see
+ * that script's own header comment and AUDIT_POST_CORRECTIONS.md section
+ * 10.6 / POST_AUDIT_FIXES.md section 7 for the full discussion.
  */
 import { hashSeed, outcomeProbabilities } from "../../../src/game/engine/index";
 import type {

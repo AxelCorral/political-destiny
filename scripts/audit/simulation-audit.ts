@@ -1,3 +1,42 @@
+/**
+ * P4 (post-audit corrections) cross-reference — read before trusting this
+ * file's η²(stratégie) figure in isolation.
+ *
+ * This is the original V1/V2 audit script. Its 7 strategies (random,
+ * coherent, prudent, risky, collective, greedy, adverse) include two
+ * synthetic optimizers with no human equivalent: `greedy` maximizes a
+ * hand-written expected-utility function over the engine's own
+ * `outcomeProbabilities()` every single decision, `adverse` minimizes the
+ * same function — a "voluntary lower bound on player agency" (see the
+ * `limits` field in this script's own JSON summary), not a plausible
+ * playstyle. Including them widens the measured strategy effect: this
+ * script reports η²(stratégie) ≈ 14,2 % on a comparable existing-parties
+ * grid.
+ *
+ * `scripts/audit-post/lib/agents.ts` was written specifically to avoid that
+ * inflation: its 8 agents are all documented as plausible human decision
+ * policies (no perfect foresight, no synthetic min/max optimizer), and
+ * under that set the same kind of measurement gives η²(agent) ≈ 5,4 %.
+ *
+ * Both numbers are honest measurements of different things, not a
+ * contradiction to resolve by deleting one:
+ * - Use THIS script's 5-realistic/2-extreme mix (14,2 %) as an upper-bound
+ *   sensitivity check — "how much could strategy matter if a player
+ *   optimized every single choice against the engine's own probabilities,
+ *   in either direction."
+ * - Use `scripts/audit-post/lib/agents.ts`'s 8-agent set (5,4 % baseline,
+ *   ~9-15 % on the P1-era overperformance-vs-neutral-baseline construction
+ *   — see POST_AUDIT_FIXES.md section 3) as the realistic estimate of
+ *   actual player agency, and the one to cite when discussing whether the
+ *   game gives the player enough control over the outcome.
+ *
+ * See AUDIT_POST_CORRECTIONS.md section 10.6 for the original discovery of
+ * this discrepancy and POST_AUDIT_FIXES.md section 7 (P4) for the decision
+ * to document rather than unify the two agent sets into one shared module —
+ * they serve genuinely different measurement purposes (bounded sensitivity
+ * range vs realistic point estimate), and forcing them into one library
+ * would blur that distinction rather than clarify it.
+ */
 import { mkdir, writeFile } from "node:fs/promises";
 import { performance } from "node:perf_hooks";
 import { resolve } from "node:path";
