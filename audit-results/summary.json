@@ -248,10 +248,7 @@
       }
     ],
     "duels": 63,
-    "flaggedHighConditionalVictory": [
-      "horizons",
-      "nouvelle_energie"
-    ],
+    "flaggedHighConditionalVictory": ["horizons", "nouvelle_energie"],
     "interpretation": "conditionalVictoryRate = victoires / qualifications pour le même parti. Le prompt post-audit (§22, critère P5) demande d'examiner et de justifier explicitement toute valeur > ~85–90 % ; flaggedHighConditionalVictory liste les partis concernés (qualifiedRuns >= 30 pour éviter le bruit d'échantillon). Voir POST_AUDIT_FIXES.md section P5 pour l'analyse."
   },
   "choiceStrength": {

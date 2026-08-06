@@ -98,9 +98,15 @@ describe("twoWayAnova", () => {
       (r) => r.value,
     );
     expect(result.balanced).toBe(true);
-    const reconstructed = result.ssFactorA + result.ssFactorB + result.ssInteraction + result.ssResidual;
+    const reconstructed =
+      result.ssFactorA + result.ssFactorB + result.ssInteraction + result.ssResidual;
     expect(reconstructed).toBeCloseTo(result.ssTotal, 6);
-    expect(result.etaSquaredA + result.etaSquaredB + result.etaSquaredInteraction + result.etaSquaredResidual).toBeCloseTo(1, 6);
+    expect(
+      result.etaSquaredA +
+        result.etaSquaredB +
+        result.etaSquaredInteraction +
+        result.etaSquaredResidual,
+    ).toBeCloseTo(1, 6);
   });
 
   it("flags an unbalanced design instead of silently reporting a broken decomposition", () => {

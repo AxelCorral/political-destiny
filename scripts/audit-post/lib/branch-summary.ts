@@ -69,7 +69,9 @@ export function computeBranchSummary(rows: CounterfactualRow[]): BranchSummary {
       const plus0 = group.map((r) => toNumber(r.scoreAtCheckpointPlus0));
       const plus3 = group.map((r) => toNumber(r.scoreAtCheckpointPlus3));
       const plus8 = group.map((r) => toNumber(r.scoreAtCheckpointPlus8));
-      const outcomes = new Set(group.map((r) => `${String(r.finalQualified)}:${String(r.finalWon)}`));
+      const outcomes = new Set(
+        group.map((r) => `${String(r.finalQualified)}:${String(r.finalWon)}`),
+      );
       return {
         finalScoreRange: Math.max(...finals) - Math.min(...finals),
         firstRoundRange: Math.max(...firstRounds) - Math.min(...firstRounds),
