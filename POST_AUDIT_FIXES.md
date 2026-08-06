@@ -404,3 +404,38 @@ Aucun changement de comportement (documentation uniquement) ; `npm run typecheck
 ### 7.5 Limites restantes
 
 - L'approche minimale documente la coexistence sans réduire la charge de maintenance à long terme (deux scripts, deux jeux d'agents à faire évoluer séparément si le moteur change). L'approche recommandée (bibliothèque commune) resterait préférable dans une refonte plus large de l'outillage d'audit, hors du périmètre de cette mission.
+
+---
+
+## 8. Phase 7-8 — Validation statistique complète et contrôles de non-régression
+
+### 8.1 Audit post-fix (§29-31 du prompt)
+
+`audit-results/post-fix/` contient l'instantané final : `README.md` (paramètres, graines, agents, reproduction, limites), `COMPARISON.md` (tableau V1 / V2-avant / après obligatoire, §35), et les résultats agrégés (`summary.json`, `variance-decomposition.csv`, `second-round-report.csv`, `duel-matrix.csv`, `catalog-summary.json`). Mêmes graines, même nombre de campagnes (5280 dont 4320 existantes), même définition d'agents que la baseline archivée dans `audit-results/pre-fix-baseline/` — seule différence : le code corrigé. 0 erreur de simulation sur les 5280 parties.
+
+### 8.2 Contrôles de non-régression (§32 du prompt)
+
+Vérifiés directement sur `audit-results/summary.json` et `audit-results/catalog-summary.json` finaux, plus la suite de validation complète :
+
+| Contrainte                                                  | Constat final                                                                                                           |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 0 répétition exacte de titre                                | `repetition.repeatedTitlesExact` : moyenne 0, max 0 sur 4320 parties                                                    |
+| 0 répétition exacte de récit                                | `repetition.repeatedNarrativesExact` : moyenne 0, max 0                                                                 |
+| Aucun retour massif du triptyque prudent/risqué/rassembleur | `eventsWithClassicTriptych` : 2 (inchangé depuis la baseline)                                                           |
+| Unicité narrative élevée                                    | `labelUniqueness`/`narrativeUniqueness` : 687/687 et 695/695 exacts                                                     |
+| Diversité mécanique élevée                                  | `mechanicallyEquivalentGroupCount` : 7 (signal secondaire faible, voir §6.6) — aucun faux dilemme (voir ligne suivante) |
+| 0 faux dilemme important                                    | `eventsWithMechanicallyIdenticalOptions` : 0                                                                            |
+| Tous les événements rares atteignables                      | `rareEvents.neverReachedInThisSample` : liste vide, 18/18 rares atteints                                                |
+| 0 erreur de simulation                                      | `simulate.ts` : `errors: 0` sur 5280 parties                                                                            |
+| 0 état invalide                                             | `determinismAndValidity.invalidRuns` : 0 / 5280                                                                         |
+| Déterminisme parfait à seed et décisions identiques         | `npm run audit:smoke` : rejoue chaque campagne deux fois, compare `party.slice(0,3)` — 0 échec                          |
+| Build réussi                                                | `npm run build` : compilation Next.js réussie, 11 routes générées                                                       |
+| Typecheck réussi                                            | `npm run typecheck` : propre                                                                                            |
+| Lint réussi                                                 | `npm run lint` : propre                                                                                                 |
+| Tests réussis                                               | `npm run test` : 117/117, `npx playwright test --repeat-each=15` : 270/270 (voir P7)                                    |
+
+Aucune régression détectée ; aucune correction n'a dû être annulée ou ajustée pour ce contrôle.
+
+### 8.3 Comparaison à trois états (§31 du prompt)
+
+Voir `audit-results/post-fix/COMPARISON.md` pour le tableau complet. Résumé : les mécanismes mesurés dans cette mission (contrefactuels appariés, matrice de duels, `eventsAffectingOpponent`, mouvement idéologique par axe) n'existaient pas dans le moteur V1 — comparaison marquée explicitement « n/a (mécanisme absent en V1) » plutôt que forcée, conformément à la consigne « n'utilise pas des métriques différentes sans l'indiquer ». Là où une comparaison V1 directe existe (répétitions, η²(stratégie) agrégé), les figures proviennent de `AUDIT_POST_CORRECTIONS.md` (audit indépendant précédent cette mission), pas d'une nouvelle mesure approximative.
