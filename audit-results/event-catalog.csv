@@ -1,0 +1,233 @@
+eventId,title,category,rarity,choices,oncePerRun,cooldown,maxAppearances,hasChainMetadata,launchesChain,hasDelayedConsequence,hasHiddenConsequence,usesActorMemory,usesPriorDecision,modifiesIdeology,modifiesRelation,affectsOpponent,canRemoveCandidate,classicTriptych,mechanicallyConvergentOptions,hasMechanicallyIdenticalOptions,eligibleIdeologyFamilies,eligibleParties
+campaign_official_launch,Le lancement depuis Saint-Denis,campaign,common,3,true,8,,false,true,false,true,false,false,true,false,false,false,false,false,false,,
+campaign_factory_visit,L’atelier industriel de Saint-Nazaire,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_market_walkabout,Le marché sous pression,campaign,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_volunteer_surge,Le siège déborde de bénévoles,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_poster_shortage,Les affiches manquent dans six villes,campaign,common,2,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,
+campaign_endorsements_missing,Les parrainages restent sous le seuil,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_budget_arbitration,Le budget impose trois renoncements,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_regional_rally,Le meeting quitte la capitale,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_door_to_door,Cent quartiers en porte-à-porte,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,radical_left|social_democrat|green|national_right,
+campaign_bus_breakdown,Le car tombe en panne,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_citizens_convention,La convention citoyenne réclame une réponse,campaign,common,3,true,8,,false,true,false,true,false,false,false,false,false,false,false,false,false,radical_left|social_democrat|green,
+campaign_farmers_roundtable,La table ronde agricole se tend,campaign,common,3,true,8,,false,true,false,true,false,false,false,false,false,false,false,false,false,center_right|conservative_right|national_right|sovereigntist_right,
+campaign_student_forum,Le forum étudiant refuse les slogans,campaign,common,3,true,8,,false,false,false,true,false,true,false,false,false,false,false,false,false,,
+campaign_hospital_night,Une nuit avec les urgences,campaign,common,3,true,8,,false,true,false,false,false,true,false,false,false,false,false,false,false,,
+campaign_small_business,La PME teste votre réforme,campaign,common,3,true,8,,false,true,false,true,false,false,false,false,false,false,false,false,false,liberal_center|center_right|conservative_right,
+campaign_peripheral_town,La périphérie demande un calendrier,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,radical_left|national_right|sovereigntist_right,
+campaign_overseas_trip,Le déplacement en Guadeloupe engage,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,radical_left|social_democrat|liberal_center|national_right,
+campaign_rural_desert,Trois villages sans médecin,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,green|center_right|conservative_right,
+campaign_union_meeting,Le face-à-face avec les syndicats,campaign,common,3,true,8,,false,false,false,true,false,true,false,false,false,false,false,false,false,,
+campaign_donation_drive,La collecte se bloque,campaign,common,3,true,8,,false,false,true,true,false,false,false,false,false,false,false,false,false,,
+campaign_rally_security,Le meeting change de dispositif,campaign,common,3,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,
+campaign_calendar_conflict,Deux invitations au même horaire,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_slogan_test,Le slogan divise le siège,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_weather_disaster,La pluie emporte la tournée,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+campaign_final_rally,Le dernier grand meeting,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+media_economic_morning,Le chiffrage de la matinale,media,common,3,true,8,,true,true,true,true,false,true,false,false,false,false,false,false,false,,
+media_unflattering_photo,La photographie du quai vide,media,common,3,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,
+media_short_video,Une minute sur les loyers,media,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,radical_left|green|national_right|sovereigntist_right,
+media_long_podcast,Deux heures sans élément de langage,media,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,social_democrat|green|liberal_center|center_right,
+media_fictional_editorial_support,Un soutien éditorial encombrant,media,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+media_fact_check_followup,Le coût passe au crible,media,common,3,true,8,,true,false,false,true,false,true,false,false,false,false,false,false,false,,
+media_silence_day,Vingt-quatre heures sans caméra,media,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+media_open_microphone,Le micro resté ouvert,media,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+media_live_stream,Le direct des questions citoyennes,media,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+media_prime_time_invite,Le fauteuil libéré au vingt heures,media,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,true,false,false,,
+media_local_press,Six rédactions face au désert médical,media,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+media_foreign_interview,La France vue depuis Bruxelles,media,common,3,true,8,,false,false,false,true,false,true,true,false,false,false,false,false,false,social_democrat|green|liberal_center|center_right|conservative_right|custom,
+media_documentary_access,La caméra derrière la porte,media,common,3,true,8,,true,true,false,true,false,false,false,false,false,false,false,false,false,social_democrat|green|liberal_center,
+media_past_words,Une promesse revient au montage,media,uncommon,3,true,8,,true,false,false,true,false,false,false,false,false,false,false,false,false,,
+media_front_page,La une vous prête un tournant,media,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_pensions,La ligne de départ des retraites,program,common,4,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_taxation,Qui financera les priorités,program,common,4,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_wages,Le salaire net au centre,program,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_energy,Le mix électrique de 2040,program,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_immigration,La loi migratoire du programme,program,common,4,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_health,Le prochain budget de la santé,program,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_school,La promesse faite à l’école,program,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_europe,La règle européenne à changer,program,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_institutions,La présidence que vous proposez,program,common,4,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+program_climate_adaptation,La France à cinquante degrés,program,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+debate_economy_round,Le duel sur les huit milliards,debate,common,4,true,8,,true,false,false,true,false,true,false,false,false,false,false,false,false,,
+debate_security_round,Trois minutes sur la sécurité,debate,common,4,true,8,,false,false,false,true,false,true,true,false,false,false,false,false,false,,
+debate_free_conclusion,La minute qui vous appartient,debate,common,4,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+debate_duel_interruption,L’adversaire refuse de vous laisser répondre,debate,common,4,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+debate_unknown_question,La question venue de Mayotte,debate,common,4,true,8,,false,false,true,false,false,false,false,false,false,false,false,false,false,,
+debate_all_candidates,Neuf candidats face au climat,debate,common,4,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+debate_fact_card,La fiche rouge de la rédaction,debate,common,4,true,8,,true,false,false,true,false,false,false,false,false,false,false,false,false,,
+debate_post_show_spin,Les soutiens envahissent le plateau,debate,common,4,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_nomination_rules,Les règles de la liste commune,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_congress_motion,Une motion réclame un congrès,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_rival_interview,Un rival corrige votre ligne,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_staff_fatigue,Le siège arrive à saturation,internal,common,3,true,8,,false,false,true,true,false,false,false,false,false,false,false,false,false,,
+internal_local_sections,Les sections refusent le kit national,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_financial_review,Le contrôle interne signale trois factures,internal,common,3,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,
+internal_volunteer_conflict,Deux équipes se disputent le terrain,internal,common,3,true,8,,false,false,false,false,true,false,false,false,false,false,false,false,false,,
+internal_spokesperson_mistake,La porte-parole annonce trop tôt,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_strategy_leak,La note sur le vote utile fuite,internal,common,3,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,
+internal_recruitment,Cinq cents bénévoles sans mission,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_primary_debt,La promesse faite après la primaire,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_program_committee,Le comité bloque le chapitre sécurité,internal,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+internal_headquarters_move,Le siège coûte trop cher,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+internal_youth_wing,Les jeunes veulent leur propre campagne,internal,common,3,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,radical_left|social_democrat|green|liberal_center,
+internal_major_donor,Un donateur demande un rendez-vous,internal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,liberal_center|center_right|conservative_right|national_right,
+alliance_left_roundtable,Le PS propose trois engagements communs,alliance,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,radical_left|social_democrat|green,lfi|ecologistes
+alliance_center_pact,Renaissance offre un pacte de stabilité,alliance,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,social_democrat|liberal_center|center_right,horizons|lr|nouvelle_energie
+alliance_right_convention,Le RN invite à une convention commune,alliance,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,center_right|conservative_right|national_right|sovereigntist_right,lr|reconquete|nouvelle_energie
+alliance_mayors_appeal,Deux cents maires demandent un contrat,alliance,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+alliance_union_support,La CFDT veut des garanties écrites,alliance,common,3,true,8,,false,false,false,true,false,true,false,false,false,false,false,false,false,,
+alliance_fictional_celebrity,Une chanteuse veut soutenir la campagne,alliance,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+alliance_former_rival,Un ancien rival socialiste revient,alliance,common,3,true,8,,false,false,false,true,true,false,false,false,false,false,false,false,false,,ps
+alliance_parliamentary_group,Douze députés offrent leur expérience,alliance,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+alliance_udr_autonomy,Un allié du RN revendique sa marque,alliance,common,3,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,rn
+alliance_strategic_withdrawal,Nouvelle Énergie propose un retrait,alliance,common,3,true,8,,false,false,false,true,false,false,false,true,true,true,false,false,false,,lr|horizons
+scandal_treasurer_invoices,Les factures sans pièce ressortent,scandal,common,3,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,
+scandal_consultant_contract,Le contrat du conseiller est publié,scandal,common,3,true,8,,false,false,false,true,true,false,false,false,false,false,false,false,false,,
+scandal_local_expenses,Des notes de frais se mélangent,scandal,common,3,true,8,,false,false,false,true,true,false,false,false,false,false,false,false,false,,
+scandal_supplier_overbilling,L’imprimeur a doublé une ligne,scandal,common,3,true,8,,false,false,false,true,true,false,false,false,false,false,false,false,false,,
+scandal_campaign_data,Un fichier militant sort du siège,scandal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+scandal_donation_route,Un virement suit un trajet complexe,scandal,uncommon,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+scandal_plagiarized_report,Le rapport reprend huit paragraphes,scandal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+scandal_family_hire,La directrice a recruté son frère,scandal,common,3,true,8,,false,false,false,true,true,false,false,false,false,false,false,false,false,,
+scandal_false_resume,Une ligne du CV est fausse,scandal,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+scandal_audit_conclusion,L’audit clôt le dossier des factures,scandal,common,3,true,8,,true,false,false,true,true,false,false,false,false,false,false,false,false,,
+world_economic_slowdown,La croissance simulée se retourne,world,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+world_national_strike,La grève bloque les transports,world,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,radical_left|social_democrat|conservative_right|national_right,
+world_floods,La Garonne sort de son lit,world,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+world_security_attack,Une attaque frappe un lieu public,world,uncommon,3,true,8,,false,false,false,true,false,true,true,false,false,false,false,false,false,,
+world_international_crisis,Une crise ferme un détroit,world,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+world_energy_price_spike,Le gaz double en une semaine,world,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,green|liberal_center|center_right|conservative_right|national_right,
+world_heatwave,Quarante-quatre degrés à Lyon,world,common,3,true,8,,false,false,false,true,false,true,true,false,false,false,false,false,false,,
+world_public_service_outage,La plateforme publique tombe en panne,world,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+world_industrial_closure,Une aciérie annonce sa fermeture,world,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,radical_left|social_democrat|national_right,
+world_housing_protest,Les tentes encerclent la préfecture,world,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,radical_left|social_democrat|green,
+world_european_vote,Le Conseil européen se divise,world,common,3,true,8,,false,false,false,true,false,true,true,false,false,false,false,false,false,,
+world_budget_warning,La Cour des comptes alerte,world,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,liberal_center|center_right|conservative_right,
+rare_printer_slogan,Une apostrophe change le slogan,rare,rare,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+rare_hologram_revolt,Le double numérique refuse de démarrer,rare,rare,3,true,8,,false,false,false,true,false,false,false,false,false,false,true,false,false,,
+rare_parrot_quote,Un perroquet répète votre slogan,rare,legendary,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+rare_debate_blackout,Le studio plonge dans le noir,rare,rare,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+rare_crown_petition,Une pétition monarchiste atteint le million,rare,legendary,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+rare_exceptional_powers,Le débat sur les pouvoirs exceptionnels,rare,rare,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+rare_fragmented_congress,Neuf groupes rendent la majorité incertaine,rare,rare,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+rare_national_union,Une coalition de crise est proposée,rare,legendary,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+rare_civil_suspension,Votre voix ne tient plus,rare,rare,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+custom_500_signatures,La course aux cinq cents présentations,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,custom_party
+custom_first_accounts,Le premier budget de campagne ne ferme pas,internal,common,3,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,custom_party
+custom_identity_interview,La matinale exige une phrase pour définir votre parti,media,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,custom_party
+custom_neighbor_offers,Trois partis testent votre autonomie,alliance,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,custom_party
+custom_local_network,Quarante comités locaux demandent une règle commune,campaign,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,custom_party
+custom_incoherence_convention,La convention révèle deux promesses incompatibles,program,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,custom_party
+custom_coherent_manifesto,Des économistes testent la cohérence du manifeste,program,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,custom_party
+custom_vertical_council,Le conseil fondateur refuse une investiture imposée,internal,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,custom_party
+custom_federal_charter,Deux fédérations publient des programmes opposés,internal,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,custom_party
+custom_collective_arbitration,La codirection se partage sur la stratégie médiatique,internal,common,2,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,custom_party
+custom_members_growth,Les nouveaux adhérents réclament un pouvoir réel,internal,common,2,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,custom_party
+custom_officials_support,Les élus parrains veulent des investitures garanties,alliance,common,2,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,custom_party
+custom_experts_panel,Le comité d’experts parle à la place des militants,media,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,custom_party
+custom_runoff_mandate,Votre jeune parti doit définir son mandat de second tour,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,custom_party
+party_lfi_identity,LFI choisit entre mouvement et candidat,party,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,lfi
+party_lfi_fronde,Nassim Courbet réclame une ligne plus sociale,party,common,3,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,lfi
+party_lfi_alliance,Les Écologistes proposent un pacte urbain,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,lfi
+party_lfi_signature,La Sixième République doit prendre forme,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,lfi
+party_lfi_local_asset,Saint-Denis ouvre ses réseaux associatifs,party,common,2,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,lfi
+party_lfi_crisis_followup,La fronde sociale exige un vote,party,common,3,true,8,,true,false,false,true,true,false,false,false,false,false,false,false,false,,lfi
+party_lfi_electorate,Les abstentionnistes demandent une preuve,party,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,lfi
+party_lfi_program_dilemma,La désobéissance européenne doit être définie,party,common,3,true,8,,false,false,false,true,false,false,true,true,false,false,false,false,false,,lfi
+party_lfi_runoff,LFI doit élargir sans se renier,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,lfi
+party_lfi_rare,Les groupes daction imposent une primaire éclair,party,rare,3,true,8,,false,false,false,true,false,true,false,false,false,false,false,false,false,,lfi
+party_ps_identity,Le PS doit nommer son projet,party,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,ps
+party_ps_fronde,Élise Marceau conteste la synthèse,party,common,2,true,8,,true,true,false,true,true,false,true,false,false,false,false,false,false,,ps
+party_ps_alliance,Les Écologistes proposent un contrat municipal,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,ps
+party_ps_signature,La garantie jeunesse doit être financée,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,ps
+party_ps_local_asset,Les maires socialistes ouvrent leurs réseaux,party,common,2,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,ps
+party_ps_crisis_followup,La contribution fiscale revient devant le parti,party,uncommon,2,true,8,,true,false,false,true,true,false,false,false,false,false,false,false,false,,ps
+party_ps_electorate,Les agents publics attendent des garanties,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,ps
+party_ps_program_dilemma,Le bilan gouvernemental divise la convention,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,ps
+party_ps_runoff,La gauche attend un contrat de second tour,party,common,2,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,ps
+party_ps_rare,Une primaire citoyenne relance la gauche,party,rare,2,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,ps
+party_ecologistes_identity,Les Écologistes arbitrent leur méthode,party,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,ecologistes
+party_ecologistes_fronde,Maud Lestang rouvre le débat nucléaire,party,common,2,true,8,,true,true,false,false,true,false,true,false,false,false,false,false,false,,ecologistes
+party_ecologistes_alliance,Le PS offre des circonscriptions urbaines,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,ecologistes
+party_ecologistes_signature,La rénovation thermique doit changer d’échelle,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,ecologistes
+party_ecologistes_local_asset,Des élus ruraux proposent une tournée,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,ecologistes
+party_ecologistes_crisis_followup,La ligne énergétique revient au congrès,party,uncommon,2,true,8,,true,false,false,true,true,false,false,false,false,false,false,false,false,,ecologistes
+party_ecologistes_electorate,Les locataires redoutent les interdictions,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,ecologistes
+party_ecologistes_program_dilemma,La taxe carbone divise les alliés,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,ecologistes
+party_ecologistes_runoff,Le second tour exige une coalition climatique,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,ecologistes
+party_ecologistes_rare,Une convention citoyenne réclame un veto,party,rare,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,ecologistes
+party_renaissance_identity,Renaissance choisit continuité ou rupture,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,renaissance
+party_renaissance_fronde,Salomé Varenne défend le bilan,party,common,2,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,renaissance
+party_renaissance_alliance,Horizons propose une candidature commune,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,renaissance
+party_renaissance_signature,Le fonds industriel européen se précise,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,renaissance
+party_renaissance_local_asset,Les parlementaires proposent cent permanences,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,renaissance
+party_renaissance_crisis_followup,Les élus du bilan demandent réparation,party,uncommon,2,true,8,,true,false,false,true,true,false,false,false,false,false,false,false,false,,renaissance
+party_renaissance_electorate,Les classes moyennes demandent un gain net,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,renaissance
+party_renaissance_program_dilemma,La réforme des retraites revient,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,renaissance
+party_renaissance_runoff,Le bloc républicain demande des preuves,party,common,2,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,renaissance
+party_renaissance_rare,Des anciens ministres publient leur manifeste,party,rare,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,renaissance
+party_horizons_identity,Horizons doit sortir de l’attente,party,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,horizons
+party_horizons_fronde,Théo Lagrive réclame un accord central,party,common,2,true,8,,true,true,false,true,true,false,false,true,false,false,false,false,false,,horizons
+party_horizons_alliance,Les Républicains proposent un pacte local,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,horizons
+party_horizons_signature,La décentralisation doit devenir concrète,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,horizons
+party_horizons_local_asset,Les maires offrent une semaine de terrain,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,horizons
+party_horizons_crisis_followup,Le mandat de négociation arrive à échéance,party,uncommon,2,true,8,,true,false,false,true,true,false,false,false,false,false,false,false,false,,horizons
+party_horizons_electorate,Les retraités modérés parlent des soins,party,common,2,true,8,,false,false,false,false,false,false,true,false,false,false,false,false,false,,horizons
+party_horizons_program_dilemma,La règle de dépense rencontre les communes,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,horizons
+party_horizons_runoff,Le centre droit négocie son élargissement,party,common,2,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,horizons
+party_horizons_rare,Des maires lancent leur propre primaire,party,rare,2,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,horizons
+party_lr_identity,LR fixe ses deux frontières,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,lr
+party_lr_fronde,Diane Mérande veut négocier à droite,party,common,2,true,8,,true,true,false,true,true,false,false,true,false,false,false,false,false,,lr
+party_lr_alliance,Horizons propose un accord économique,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,lr
+party_lr_signature,La sécurité du quotidien exige des moyens,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,lr
+party_lr_local_asset,Les fédérations ouvrent leurs permanences,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,lr
+party_lr_crisis_followup,Les fédérations exigent un vote de ligne,party,uncommon,2,true,8,,true,false,false,true,true,false,false,false,false,false,false,false,false,,lr
+party_lr_electorate,Les retraités interrogent le financement,party,common,2,true,8,,false,false,false,false,false,false,true,false,false,false,false,false,false,,lr
+party_lr_program_dilemma,Les économies menacent les services locaux,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,lr
+party_lr_runoff,La droite qualifiée cherche ses reports,party,common,2,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,lr
+party_lr_rare,Trois fédérations menacent une liste autonome,party,rare,2,true,8,,false,false,false,true,true,false,false,false,false,false,false,false,false,,lr
+party_rn_identity,Le RN arbitre normalisation et mobilisation,party,common,3,true,8,,false,false,false,true,false,false,true,true,false,false,false,false,false,,rn
+party_rn_fronde,Louis Ferran refuse la modération,party,common,2,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,rn
+party_rn_alliance,Reconquête propose un pacte de non-agression,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,rn
+party_rn_signature,La baisse de TVA doit être ciblée,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,rn
+party_rn_local_asset,Les petites villes ouvrent la campagne,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,rn
+party_rn_crisis_followup,Le courant Ferran teste la discipline,party,uncommon,2,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,rn
+party_rn_electorate,Les abstentionnistes demandent une preuve locale,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,rn
+party_rn_program_dilemma,La préférence nationale rencontre le droit,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,rn
+party_rn_runoff,Le RN doit élargir sans démobiliser,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,rn
+party_rn_dissidence,Un courant identitaire prépare sa candidature,party,rare,2,true,8,,true,false,false,true,true,false,false,false,true,false,false,false,false,,rn
+party_reconquete_identity,Reconquête choisit influence ou qualification,party,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,reconquete
+party_reconquete_fronde,Hélène Saint-Cyr refuse l’élargissement,party,common,2,true,8,,true,true,false,true,true,false,false,false,false,false,false,false,false,,reconquete
+party_reconquete_alliance,Le RN offre des désistements limités,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,reconquete
+party_reconquete_signature,Le référendum migratoire doit être cadré,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,reconquete
+party_reconquete_local_asset,Les comités numériques cherchent du terrain,party,common,2,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,reconquete
+party_reconquete_crisis_followup,Les comités de Saint-Cyr se coordonnent,party,uncommon,2,true,8,,true,false,false,true,true,false,false,false,false,false,false,false,false,,reconquete
+party_reconquete_electorate,Les entrepreneurs attendent une ligne économique,party,common,2,true,8,,false,false,false,false,false,false,true,false,false,false,false,false,false,,reconquete
+party_reconquete_program_dilemma,La souveraineté économique cherche ses instruments,party,common,2,true,8,,false,false,false,true,false,false,true,true,false,false,false,false,false,,reconquete
+party_reconquete_runoff,La qualification bouleverse la stratégie,party,common,2,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,reconquete
+party_reconquete_rare,Un réseau de cadres propose une fusion,party,rare,2,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,reconquete
+party_nouvelle_energie_identity,Nouvelle Énergie doit prouver son utilité,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_fronde,Raphaël Ternois pousse à la fusion,party,common,2,true,8,,true,true,false,false,true,false,false,true,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_alliance,Horizons propose une plateforme de gestion,party,common,3,true,8,,false,false,false,true,false,false,false,true,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_signature,Le permis d’entreprendre doit être défini,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_local_asset,Des entrepreneurs prêtent leurs réseaux,party,common,2,true,8,,false,false,false,false,false,false,false,false,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_crisis_followup,La négociation de fusion arrive au vote,party,uncommon,2,true,8,,true,false,false,true,true,false,false,true,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_electorate,Les électeurs ignorent encore le mouvement,party,common,2,true,8,,false,false,false,false,false,false,true,false,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_program_dilemma,La baisse de dépense rencontre l’hôpital,party,common,2,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_runoff,L’outsider doit former une majorité,party,common,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,nouvelle_energie
+party_nouvelle_energie_rare,Un financement participatif dépasse les attentes,party,rare,2,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,nouvelle_energie
+runoff_endorsement_wave,Les soutiens arrivent avec leurs conditions,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+runoff_final_debate,Le débat de lentre-deux-tours,between_rounds,common,4,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+runoff_vote_transfers,Les reports refusent la mécanique,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+runoff_favorite_pressure,Deux points davance à cinq jours,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+runoff_common_program,La coalition réclame une annexe,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+runoff_last_hours,Les dernières heures autorisées,between_rounds,common,3,true,8,,false,false,false,true,false,false,true,false,false,false,false,false,false,,
+eliminated_endorse_candidate,Votre voix reste décisive,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+eliminated_no_instruction,Aucun finaliste ne porte votre ligne,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+eliminated_future_campaign,Le score ouvre une autre campagne,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+eliminated_personal_future,Votre mandat à la tête du parti,between_rounds,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+government_prime_minister,Le choix de Matignon,government,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+government_balance,Quinze ministres pour une coalition,government,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+government_first_address,La première adresse de lÉlysée,government,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,
+government_ministry_conflict,Deux alliés réclament Bercy,government,common,3,true,8,,false,false,false,true,false,false,false,false,false,false,false,false,false,,

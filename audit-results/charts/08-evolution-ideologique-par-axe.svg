@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310">
+  <rect width="760" height="310" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Mouvement idéologique moyen (valeur absolue) par axe</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit cd920b4</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">economy</text>
+    <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">6.71 pts</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecology</text>
+    <rect x="200" y="100" width="138.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="345.98807749627423" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.97 pts</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">authority</text>
+    <rect x="200" y="138" width="136.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="344.5871833084948" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.95 pts</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">europe</text>
+    <rect x="200" y="176" width="126.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="334.08047690014905" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.80 pts</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">immigration</text>
+    <rect x="200" y="214" width="63.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="271.7406855439642" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.91 pts</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">society</text>
+    <rect x="200" y="252" width="21.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="229.0134128166915" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.30 pts</text>
+</svg>

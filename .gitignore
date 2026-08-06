@@ -18,6 +18,12 @@
 /reports/*.json
 !/reports/.gitkeep
 
+# post-corrections audit: keep the compressed archives, ignore the raw
+# uncompressed CSVs they're generated from (regenerate with `npm run
+# audit:game`, see audit-results/README.md)
+/audit-results/decisions.csv
+/audit-results/world-events.csv
+
 # local files
 .DS_Store
 *.pem

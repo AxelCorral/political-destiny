@@ -1,0 +1,4 @@
+metric,label,etaSquaredParty,etaSquaredAgent,etaSquaredInteraction,etaSquaredResidual,partialEtaSquaredParty,partialEtaSquaredAgent
+firstRoundScore,Score au premier tour,0.4606,0.0536,0.0175,0.4683,0.4959,0.1026
+finalScore,Score final (/100),0.3342,0.1433,0.0137,0.5088,0.3964,0.2198
+progression,Progression vs sondage initial,0.7587,0.024,0.0078,0.2095,0.7836,0.1026

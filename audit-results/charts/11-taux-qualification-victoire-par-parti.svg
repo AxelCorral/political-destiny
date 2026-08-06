@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="380" viewBox="0 0 820 380">
+  <rect width="820" height="380" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Taux de qualification et de victoire par parti</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit cd920b4 · toutes stratégies confondues</text>
+  <line x1="60" y1="290" x2="790" y2="290" stroke="#c7d0d8" />
+  <rect x="68.1" y="104.9" width="30.4" height="185.1" fill="#3b6ea5" />
+      <text x="84.3" y="100.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">76%</text><rect x="100.6" y="149.3" width="30.4" height="140.7" fill="#5a9367" />
+      <text x="116.8" y="145.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">58%</text>
+    <text x="100.6" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 100.6 306.0)">ecologistes</text><rect x="149.2" y="92.3" width="30.4" height="197.7" fill="#3b6ea5" />
+      <text x="165.4" y="88.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">82%</text><rect x="181.7" y="104.9" width="30.4" height="185.1" fill="#5a9367" />
+      <text x="197.9" y="100.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">76%</text>
+    <text x="181.7" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 181.7 306.0)">horizons</text><rect x="230.3" y="62.5" width="30.4" height="227.5" fill="#3b6ea5" />
+      <text x="246.6" y="58.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">94%</text><rect x="262.8" y="163.9" width="30.4" height="126.1" fill="#5a9367" />
+      <text x="279.0" y="159.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">52%</text>
+    <text x="262.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 262.8 306.0)">lfi</text><rect x="311.4" y="77.7" width="30.4" height="212.3" fill="#3b6ea5" />
+      <text x="327.7" y="73.7" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">88%</text><rect x="343.9" y="114.0" width="30.4" height="176.0" fill="#5a9367" />
+      <text x="360.1" y="110.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">73%</text>
+    <text x="343.9" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 343.9 306.0)">lr</text><rect x="392.6" y="133.1" width="30.4" height="156.9" fill="#3b6ea5" />
+      <text x="408.8" y="129.1" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">65%</text><rect x="425.0" y="147.3" width="30.4" height="142.7" fill="#5a9367" />
+      <text x="441.2" y="143.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">59%</text>
+    <text x="425.0" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 425.0 306.0)">nouvelle_energie</text><rect x="473.7" y="60.0" width="30.4" height="230.0" fill="#3b6ea5" />
+      <text x="489.9" y="56.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">95%</text><rect x="506.1" y="110.4" width="30.4" height="179.6" fill="#5a9367" />
+      <text x="522.3" y="106.4" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">74%</text>
+    <text x="506.1" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 506.1 306.0)">ps</text><rect x="554.8" y="263.8" width="30.4" height="26.2" fill="#3b6ea5" />
+      <text x="571.0" y="259.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">11%</text><rect x="587.2" y="279.9" width="30.4" height="10.1" fill="#5a9367" />
+      <text x="603.4" y="275.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4%</text>
+    <text x="587.2" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 587.2 306.0)">reconquete</text><rect x="635.9" y="87.2" width="30.4" height="202.8" fill="#3b6ea5" />
+      <text x="652.1" y="83.2" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">84%</text><rect x="668.3" y="122.5" width="30.4" height="167.5" fill="#5a9367" />
+      <text x="684.6" y="118.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">69%</text>
+    <text x="668.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 668.3 306.0)">renaissance</text><rect x="717.0" y="60.5" width="30.4" height="229.5" fill="#3b6ea5" />
+      <text x="733.2" y="56.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">95%</text><rect x="749.4" y="213.8" width="30.4" height="76.2" fill="#5a9367" />
+      <text x="765.7" y="209.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">31%</text>
+    <text x="749.4" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 749.4 306.0)">rn</text>
+  <rect x="60" y="356" width="12" height="12" fill="#3b6ea5" /><text x="78" y="366" font-size="11" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Qualification</text><rect x="200" y="356" width="12" height="12" fill="#5a9367" /><text x="218" y="366" font-size="11" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Victoire</text>
+</svg>

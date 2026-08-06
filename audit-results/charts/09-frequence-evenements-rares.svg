@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="652" viewBox="0 0 760 652">
+  <rect width="760" height="652" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Fréquence d'apparition des événements rares/légendaires/secrets</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit cd920b4 · 18 événements rares au catalogue, 0 jamais atteints dans cet échantillon</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_printer_slogan</text>
+    <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">257 occurrences</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_exceptional_powers</text>
+    <rect x="200" y="100" width="444.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="652.396887159533" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">243 occurrences</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_hologram_revolt</text>
+    <rect x="200" y="138" width="429.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="637.7665369649806" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">235 occurrences</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_fragmented_congress</text>
+    <rect x="200" y="176" width="384.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="592.0466926070039" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">210 occurrences</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_civil_suspension</text>
+    <rect x="200" y="214" width="374.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="582.9027237354086" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">205 occurrences</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_debate_blackout</text>
+    <rect x="200" y="252" width="318.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="526.2101167315175" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">174 occurrences</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_crown_petition</text>
+    <rect x="200" y="290" width="170.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="378.0778210116731" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">93 occurrences</text>
+    <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_national_union</text>
+    <rect x="200" y="328" width="100.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="308.5836575875486" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">55 occurrences</text>
+    <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare_parrot_quote</text>
+    <rect x="200" y="366" width="91.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="299.4396887159533" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">50 occurrences</text>
+    <text x="190" y="422" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">party_horizons_rare</text>
+    <rect x="200" y="404" width="49.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="257.3774319066148" y="422" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">27 occurrences</text>
+    <text x="190" y="460" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">party_nouvelle_energie_rare</text>
+    <rect x="200" y="442" width="49.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="257.3774319066148" y="460" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">27 occurrences</text>
+    <text x="190" y="498" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">party_ecologistes_rare</text>
+    <rect x="200" y="480" width="43.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="251.8910505836576" y="498" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">24 occurrences</text>
+    <text x="190" y="536" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">party_renaissance_rare</text>
+    <rect x="200" y="518" width="43.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="251.8910505836576" y="536" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">24 occurrences</text>
+    <text x="190" y="574" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">party_rn_dissidence</text>
+    <rect x="200" y="556" width="43.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="251.8910505836576" y="574" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">24 occurrences</text>
+    <text x="190" y="612" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">party_lr_rare</text>
+    <rect x="200" y="594" width="40.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="248.23346303501944" y="612" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">22 occurrences</text>
+</svg>
