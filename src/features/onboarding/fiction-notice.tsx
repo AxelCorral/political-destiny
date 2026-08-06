@@ -2,37 +2,24 @@
 
 import { ExternalLink, ShieldCheck } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Dialog } from "@/components/ui/dialog";
 import { getLocalSettings, saveLocalSettings } from "@/lib/storage/game-database";
 
-export function FictionNotice() {
-  const [open, setOpen] = useState(false);
-  const [checked, setChecked] = useState(false);
+export interface FictionNoticeProps {
+  /**
+   * Whether the player already acknowledged the notice, resolved by the
+   * caller (GameApp) before any interactive setup screen renders. Keeping
+   * this a prop rather than an internal async check makes the dialog's
+   * open/closed state deterministic from the very first render.
+   */
+  initiallySeen: boolean;
+}
 
-  useEffect(() => {
-    let active = true;
-    void getLocalSettings()
-      .then((settings) => {
-        if (!active) return;
-        if (!settings.fictionNoticeSeen) setOpen(true);
-        setChecked(true);
-      })
-      .catch(() => {
-        if (!active) return;
-        setOpen(true);
-        setChecked(true);
-      });
-    return () => {
-      active = false;
-    };
-  }, []);
-
-  if (!checked) {
-    return <div aria-hidden="true" className="fixed inset-0 z-40" />;
-  }
+export function FictionNotice({ initiallySeen }: FictionNoticeProps) {
+  const [open, setOpen] = useState(!initiallySeen);
 
   const acknowledge = async () => {
     try {

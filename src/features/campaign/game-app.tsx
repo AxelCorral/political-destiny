@@ -24,6 +24,7 @@ import {
 import {
   archiveCompletedGame,
   clearActiveGame,
+  getLocalSettings,
   loadActiveGame,
   saveActiveGame,
 } from "@/lib/storage/game-database";
@@ -38,6 +39,7 @@ export function GameApp() {
   const resetGame = useGameStore((state) => state.resetGame);
   const [ready, setReady] = useState(false);
   const [warning, setWarning] = useState<string>();
+  const [fictionNoticeSeen, setFictionNoticeSeen] = useState(false);
   const archivedRunIds = useRef(new Set<string>());
 
   useEffect(() => {
@@ -48,7 +50,15 @@ export function GameApp() {
 
   useEffect(() => {
     let active = true;
-    void loadActiveGame()
+    // Both reads are awaited together before flipping `ready`, so the fiction
+    // notice's open/closed state is known synchronously the moment any
+    // interactive setup screen renders. Resolving fictionNoticeSeen on its
+    // own async timer (as a second effect inside FictionNotice) let the
+    // dialog pop open after the player had already started clicking through
+    // setup — the overlay would then intercept the next click, the root
+    // cause of the P7 Playwright flakiness on the existing-party/autosave/
+    // first-round scenarios.
+    const gameLoad = loadActiveGame()
       .then((loaded) => {
         if (!active) return;
         if (loaded.state) restoreGame(loaded.state);
@@ -60,10 +70,17 @@ export function GameApp() {
             "Le stockage local n’est pas accessible. Vous pouvez jouer, mais la reprise ne sera pas garantie.",
           );
         }
-      })
-      .finally(() => {
-        if (active) setReady(true);
       });
+    const settingsLoad = getLocalSettings()
+      .then((settings) => {
+        if (active) setFictionNoticeSeen(settings.fictionNoticeSeen);
+      })
+      .catch(() => {
+        if (active) setFictionNoticeSeen(false);
+      });
+    void Promise.all([gameLoad, settingsLoad]).finally(() => {
+      if (active) setReady(true);
+    });
     return () => {
       active = false;
     };
@@ -123,7 +140,7 @@ export function GameApp() {
 
   return (
     <>
-      <FictionNotice />
+      <FictionNotice initiallySeen={fictionNoticeSeen} />
       {warning ? (
         <div
           className="border-b border-amber-300 bg-amber-50 px-4 py-3 text-sm text-[var(--warning)]"
