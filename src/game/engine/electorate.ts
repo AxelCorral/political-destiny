@@ -8,7 +8,7 @@ import type {
 
 import { clamp, ideologyDistance, normalizePercentages } from "./math";
 
-function partyAppeal(
+export function partyAppeal(
   party: PartyState,
   bloc: ElectorateBlocDefinition,
   trustModifier: number,
@@ -24,6 +24,15 @@ function partyAppeal(
     party.stats.credibility * 0.18 +
     party.stats.popularity * 0.15 +
     party.stats.mobilization * 0.09;
+  // P1 (chantier ciblé, voir P1_P5_FINAL_FIXES.md section 3) : cohesion (221
+  // effets dans le catalogue) et hidden.consistency (mis à jour à chaque
+  // déclaration/contradiction) étaient authentiquement différenciés par la
+  // stratégie de décision mais n'avaient jamais d'effet électoral — deux
+  // campagnes identiques sauf sur ces deux stats produisaient le même appel.
+  // Centrés sur 50 (leur valeur de calibration usuelle) pour ne rien changer
+  // à la difficulté d'un parti resté neutre sur ces axes.
+  const cohesionBonus = (party.stats.cohesion - 50) * 0.16;
+  const consistencyBonus = (party.hidden.consistency - 50) * 0.14;
   const rejectionPenalty = party.stats.rejection * 0.15;
   const momentum = party.stats.momentum * (bloc.volatility / 100) * 0.16;
   const underdogLeverage =
@@ -41,7 +50,9 @@ function partyAppeal(
   return Math.max(
     0.01,
     base * ideologicalFit * affinity * electoralReadiness +
-      competence -
+      competence +
+      cohesionBonus +
+      consistencyBonus -
       rejectionPenalty +
       momentum +
       underdogLeverage +

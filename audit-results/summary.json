@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-06T17:41:12.133Z",
+  "generatedAt": "2026-08-06T21:03:59.428Z",
   "sampleSizes": {
     "existingPartyRuns": 4320,
     "customPartyRuns": 960,
     "totalRuns": 5280,
-    "totalDecisions": 150332,
-    "totalWorldEvents": 363723,
+    "totalDecisions": 149942,
+    "totalWorldEvents": 362147,
     "counterfactualBranches": 326
   },
   "varianceDecomposition": {
@@ -13,94 +13,94 @@
       {
         "metric": "firstRoundScore",
         "label": "Score au premier tour",
-        "etaSquaredParty": 0.4502,
-        "etaSquaredAgent": 0.0572,
+        "etaSquaredParty": 0.3518,
+        "etaSquaredAgent": 0.1855,
         "etaSquaredInteraction": 0.0143,
-        "etaSquaredResidual": 0.4783,
-        "partialEtaSquaredParty": 0.4849,
-        "partialEtaSquaredAgent": 0.1068,
+        "etaSquaredResidual": 0.4484,
+        "partialEtaSquaredParty": 0.4396,
+        "partialEtaSquaredAgent": 0.2927,
         "balancedDesign": true
       },
       {
         "metric": "finalScore",
         "label": "Score final (/100)",
-        "etaSquaredParty": 0.3089,
-        "etaSquaredAgent": 0.1401,
-        "etaSquaredInteraction": 0.0127,
-        "etaSquaredResidual": 0.5383,
-        "partialEtaSquaredParty": 0.3646,
-        "partialEtaSquaredAgent": 0.2065,
+        "etaSquaredParty": 0.2511,
+        "etaSquaredAgent": 0.2618,
+        "etaSquaredInteraction": 0.0148,
+        "etaSquaredResidual": 0.4723,
+        "partialEtaSquaredParty": 0.3471,
+        "partialEtaSquaredAgent": 0.3566,
         "balancedDesign": true
       },
       {
         "metric": "progression",
         "label": "Progression vs sondage initial (brute, points)",
-        "etaSquaredParty": 0.761,
-        "etaSquaredAgent": 0.0249,
-        "etaSquaredInteraction": 0.0062,
-        "etaSquaredResidual": 0.208,
-        "partialEtaSquaredParty": 0.7854,
-        "partialEtaSquaredAgent": 0.1068,
+        "etaSquaredParty": 0.6998,
+        "etaSquaredAgent": 0.0859,
+        "etaSquaredInteraction": 0.0066,
+        "etaSquaredResidual": 0.2077,
+        "partialEtaSquaredParty": 0.7712,
+        "partialEtaSquaredAgent": 0.2927,
         "balancedDesign": true
       },
       {
         "metric": "progressionNormalized",
         "label": "Progression normalisée (part de la marge atteignable, P1)",
-        "etaSquaredParty": 0.731,
-        "etaSquaredAgent": 0.0298,
-        "etaSquaredInteraction": 0.0115,
-        "etaSquaredResidual": 0.2276,
-        "partialEtaSquaredParty": 0.7626,
-        "partialEtaSquaredAgent": 0.1158,
+        "etaSquaredParty": 0.6718,
+        "etaSquaredAgent": 0.0898,
+        "etaSquaredInteraction": 0.0148,
+        "etaSquaredResidual": 0.2237,
+        "partialEtaSquaredParty": 0.7502,
+        "partialEtaSquaredAgent": 0.2865,
         "balancedDesign": true
       },
       {
         "metric": "overperformanceVsNeutral",
         "label": "Sur/sous-performance vs baseline neutre du parti (P1, audit uniquement)",
-        "etaSquaredParty": 0.0097,
-        "etaSquaredAgent": 0.1098,
-        "etaSquaredInteraction": 0.0425,
-        "etaSquaredResidual": 0.838,
-        "partialEtaSquaredParty": 0.0114,
-        "partialEtaSquaredAgent": 0.1158,
+        "etaSquaredParty": 0.0127,
+        "etaSquaredAgent": 0.2702,
+        "etaSquaredInteraction": 0.0444,
+        "etaSquaredResidual": 0.6728,
+        "partialEtaSquaredParty": 0.0185,
+        "partialEtaSquaredAgent": 0.2865,
         "balancedDesign": true
       }
     ],
     "bootstrapPartyEtaSquaredFirstRound": {
-      "estimate": 0.4502457365911951,
-      "lower": 0.42504859775686377,
-      "upper": 0.4742149139979331,
+      "estimate": 0.35177077387348554,
+      "lower": 0.3293675172325563,
+      "upper": 0.3770131640326177,
       "iterations": 500
     },
     "bootstrapAgentEtaSquaredFirstRound": {
-      "estimate": 0.05717676984046696,
-      "lower": 0.04664408763440721,
-      "upper": 0.07470422573800581,
+      "estimate": 0.18551625160064436,
+      "lower": 0.1655003881772748,
+      "upper": 0.2105296742573407,
       "iterations": 500
     },
     "cramersV": {
-      "qualifiedByParty": 0.5282,
-      "qualifiedByAgent": 0.1937,
-      "wonByParty": 0.4048,
-      "wonByAgent": 0.2089
+      "qualifiedByParty": 0.4639,
+      "qualifiedByAgent": 0.3731,
+      "wonByParty": 0.3946,
+      "wonByAgent": 0.3171
     },
     "matchedPairs": {
       "groups": 540,
-      "averageFirstRoundRange": 3.42,
-      "medianFirstRoundRange": 3.1,
-      "averageFinalScoreRange": 22.91,
-      "shareWhereOutcomeChanged": 0.674
+      "averageFirstRoundRange": 5.22,
+      "medianFirstRoundRange": 5,
+      "averageFinalScoreRange": 31.02,
+      "shareWhereOutcomeChanged": 0.783
     },
     "underdogBeatsFavorite": {
       "favoriteParty": "rn",
       "underdogParty": "reconquete",
-      "favoriteAverageFirstRound": 16.02,
-      "underdogAverageFirstRound": 9.74,
-      "favoriteWorstDecileFinalScore": 59,
-      "underdogBestDecileFinalScore": 67,
-      "underdogRunsExceedingFavoriteWorstDecile": 117,
+      "favoriteAverageFirstRound": 16.24,
+      "underdogAverageFirstRound": 9.65,
+      "favoriteWorstDecileFinalScore": 53,
+      "underdogBestDecileFinalScore": 76,
+      "underdogRunsExceedingFavoriteWorstDecile": 258,
       "underdogRunsTotal": 480,
-      "rate": 0.244,
+      "rate": 0.537,
       "interpretation": "Part des campagnes du parti le plus faible (score moyen 1er tour) dont le score final dépasse le 10e centile du parti le plus fort — mesure si un mauvais parcours favori peut être dépassé par un bon parcours outsider, sans que ce soit la norme."
     }
   },
@@ -108,413 +108,416 @@
     "available": true,
     "branchGroups": 108,
     "totalBranches": 326,
-    "averageFinalScoreRange": 5.1,
+    "averageFinalScoreRange": 7.26,
     "medianFinalScoreRange": 3,
-    "averageFirstRoundRange": 0.88,
-    "averagePlus0Range": 0.2154,
-    "medianPlus0Range": 0.21,
+    "averageFirstRoundRange": 1.15,
+    "averagePlus0Range": 0.2428,
+    "medianPlus0Range": 0.22,
     "shareOfGroupsWithZeroPlus0Range": 0,
-    "averagePlus3Range": 0.37,
-    "averagePlus8Range": 0.47,
-    "shareWhereOutcomeChanged": 0.176
+    "averagePlus3Range": 0.41,
+    "averagePlus8Range": 0.6,
+    "shareWhereOutcomeChanged": 0.241
   },
   "secondRound": {
     "byParty": [
       {
-        "partyId": "horizons",
-        "totalRuns": 480,
-        "qualifiedRuns": 363,
-        "qualificationRate": 0.756,
-        "wonRuns": 335,
-        "victoryRate": 0.698,
-        "conditionalVictoryRate": 0.923,
-        "avgSecondRoundScore": 55.94,
-        "avgOwnRejectionAtRunoff": 49.87,
-        "avgOpponentRejectionAtRunoff": 68.64,
-        "avgOwnCredibilityAtRunoff": 91.5,
-        "avgIdeologyDistanceToOpponent": 49.81
-      },
-      {
         "partyId": "nouvelle_energie",
         "totalRuns": 480,
-        "qualifiedRuns": 296,
-        "qualificationRate": 0.617,
-        "wonRuns": 273,
-        "victoryRate": 0.569,
-        "conditionalVictoryRate": 0.922,
-        "avgSecondRoundScore": 55.35,
-        "avgOwnRejectionAtRunoff": 38.97,
-        "avgOpponentRejectionAtRunoff": 64.1,
-        "avgOwnCredibilityAtRunoff": 90.51,
-        "avgIdeologyDistanceToOpponent": 53.24
+        "qualifiedRuns": 348,
+        "qualificationRate": 0.725,
+        "wonRuns": 327,
+        "victoryRate": 0.681,
+        "conditionalVictoryRate": 0.94,
+        "avgSecondRoundScore": 56.53,
+        "avgOwnRejectionAtRunoff": 38.03,
+        "avgOpponentRejectionAtRunoff": 68.1,
+        "avgOwnCredibilityAtRunoff": 90.64,
+        "avgIdeologyDistanceToOpponent": 53.09
+      },
+      {
+        "partyId": "horizons",
+        "totalRuns": 480,
+        "qualifiedRuns": 383,
+        "qualificationRate": 0.798,
+        "wonRuns": 344,
+        "victoryRate": 0.717,
+        "conditionalVictoryRate": 0.898,
+        "avgSecondRoundScore": 57.07,
+        "avgOwnRejectionAtRunoff": 48.64,
+        "avgOpponentRejectionAtRunoff": 71.55,
+        "avgOwnCredibilityAtRunoff": 91.93,
+        "avgIdeologyDistanceToOpponent": 57.45
       },
       {
         "partyId": "renaissance",
         "totalRuns": 480,
-        "qualifiedRuns": 379,
-        "qualificationRate": 0.79,
-        "wonRuns": 314,
-        "victoryRate": 0.654,
-        "conditionalVictoryRate": 0.828,
-        "avgSecondRoundScore": 54.94,
-        "avgOwnRejectionAtRunoff": 67.07,
-        "avgOpponentRejectionAtRunoff": 63.36,
-        "avgOwnCredibilityAtRunoff": 91.71,
-        "avgIdeologyDistanceToOpponent": 54.77
-      },
-      {
-        "partyId": "lr",
-        "totalRuns": 480,
-        "qualifiedRuns": 383,
-        "qualificationRate": 0.798,
-        "wonRuns": 307,
-        "victoryRate": 0.64,
-        "conditionalVictoryRate": 0.802,
-        "avgSecondRoundScore": 54.04,
-        "avgOwnRejectionAtRunoff": 70.05,
-        "avgOpponentRejectionAtRunoff": 64.66,
-        "avgOwnCredibilityAtRunoff": 90.74,
-        "avgIdeologyDistanceToOpponent": 63.33
+        "qualifiedRuns": 324,
+        "qualificationRate": 0.675,
+        "wonRuns": 275,
+        "victoryRate": 0.573,
+        "conditionalVictoryRate": 0.849,
+        "avgSecondRoundScore": 55.16,
+        "avgOwnRejectionAtRunoff": 65.61,
+        "avgOpponentRejectionAtRunoff": 64.4,
+        "avgOwnCredibilityAtRunoff": 92.23,
+        "avgIdeologyDistanceToOpponent": 58.93
       },
       {
         "partyId": "ps",
         "totalRuns": 480,
-        "qualifiedRuns": 437,
-        "qualificationRate": 0.91,
-        "wonRuns": 347,
-        "victoryRate": 0.723,
+        "qualifiedRuns": 394,
+        "qualificationRate": 0.821,
+        "wonRuns": 329,
+        "victoryRate": 0.685,
+        "conditionalVictoryRate": 0.835,
+        "avgSecondRoundScore": 54.52,
+        "avgOwnRejectionAtRunoff": 78.74,
+        "avgOpponentRejectionAtRunoff": 62.95,
+        "avgOwnCredibilityAtRunoff": 90.11,
+        "avgIdeologyDistanceToOpponent": 73.97
+      },
+      {
+        "partyId": "lr",
+        "totalRuns": 480,
+        "qualifiedRuns": 315,
+        "qualificationRate": 0.656,
+        "wonRuns": 250,
+        "victoryRate": 0.521,
         "conditionalVictoryRate": 0.794,
-        "avgSecondRoundScore": 53.89,
-        "avgOwnRejectionAtRunoff": 79.78,
-        "avgOpponentRejectionAtRunoff": 63.62,
-        "avgOwnCredibilityAtRunoff": 89.32,
-        "avgIdeologyDistanceToOpponent": 69.12
+        "avgSecondRoundScore": 54.19,
+        "avgOwnRejectionAtRunoff": 68.32,
+        "avgOpponentRejectionAtRunoff": 66.96,
+        "avgOwnCredibilityAtRunoff": 91.69,
+        "avgIdeologyDistanceToOpponent": 54.79
       },
       {
         "partyId": "ecologistes",
         "totalRuns": 480,
-        "qualifiedRuns": 329,
-        "qualificationRate": 0.685,
-        "wonRuns": 225,
-        "victoryRate": 0.469,
-        "conditionalVictoryRate": 0.684,
-        "avgSecondRoundScore": 52.99,
-        "avgOwnRejectionAtRunoff": 45.34,
-        "avgOpponentRejectionAtRunoff": 66.98,
-        "avgOwnCredibilityAtRunoff": 84.8,
-        "avgIdeologyDistanceToOpponent": 70.32
+        "qualifiedRuns": 285,
+        "qualificationRate": 0.594,
+        "wonRuns": 214,
+        "victoryRate": 0.446,
+        "conditionalVictoryRate": 0.751,
+        "avgSecondRoundScore": 53.56,
+        "avgOwnRejectionAtRunoff": 43.87,
+        "avgOpponentRejectionAtRunoff": 66.93,
+        "avgOwnCredibilityAtRunoff": 86.15,
+        "avgIdeologyDistanceToOpponent": 83.27
       },
       {
         "partyId": "lfi",
         "totalRuns": 480,
-        "qualifiedRuns": 414,
-        "qualificationRate": 0.863,
-        "wonRuns": 221,
-        "victoryRate": 0.46,
-        "conditionalVictoryRate": 0.534,
-        "avgSecondRoundScore": 50.64,
-        "avgOwnRejectionAtRunoff": 69.31,
-        "avgOpponentRejectionAtRunoff": 66.94,
-        "avgOwnCredibilityAtRunoff": 81.59,
-        "avgIdeologyDistanceToOpponent": 75.73
+        "qualifiedRuns": 384,
+        "qualificationRate": 0.8,
+        "wonRuns": 209,
+        "victoryRate": 0.435,
+        "conditionalVictoryRate": 0.544,
+        "avgSecondRoundScore": 50.81,
+        "avgOwnRejectionAtRunoff": 68.41,
+        "avgOpponentRejectionAtRunoff": 65.78,
+        "avgOwnCredibilityAtRunoff": 82.06,
+        "avgIdeologyDistanceToOpponent": 80.37
       },
       {
         "partyId": "rn",
         "totalRuns": 480,
-        "qualifiedRuns": 441,
-        "qualificationRate": 0.919,
+        "qualifiedRuns": 424,
+        "qualificationRate": 0.883,
         "wonRuns": 189,
         "victoryRate": 0.394,
-        "conditionalVictoryRate": 0.429,
-        "avgSecondRoundScore": 49.05,
-        "avgOwnRejectionAtRunoff": 88,
-        "avgOpponentRejectionAtRunoff": 62.28,
-        "avgOwnCredibilityAtRunoff": 85.74,
-        "avgIdeologyDistanceToOpponent": 84.18
+        "conditionalVictoryRate": 0.446,
+        "avgSecondRoundScore": 48.91,
+        "avgOwnRejectionAtRunoff": 87.43,
+        "avgOpponentRejectionAtRunoff": 56.48,
+        "avgOwnCredibilityAtRunoff": 86.29,
+        "avgIdeologyDistanceToOpponent": 81.96
       },
       {
         "partyId": "reconquete",
         "totalRuns": 480,
-        "qualifiedRuns": 45,
-        "qualificationRate": 0.094,
-        "wonRuns": 15,
-        "victoryRate": 0.031,
-        "conditionalVictoryRate": 0.333,
-        "avgSecondRoundScore": 48.54,
-        "avgOwnRejectionAtRunoff": 79.2,
-        "avgOpponentRejectionAtRunoff": 68.21,
-        "avgOwnCredibilityAtRunoff": 85.84,
-        "avgIdeologyDistanceToOpponent": 73.06
+        "qualifiedRuns": 52,
+        "qualificationRate": 0.108,
+        "wonRuns": 19,
+        "victoryRate": 0.04,
+        "conditionalVictoryRate": 0.365,
+        "avgSecondRoundScore": 48.53,
+        "avgOwnRejectionAtRunoff": 78.63,
+        "avgOpponentRejectionAtRunoff": 67.78,
+        "avgOwnCredibilityAtRunoff": 83.6,
+        "avgIdeologyDistanceToOpponent": 63.15
       }
     ],
-    "duels": 63,
-    "flaggedHighConditionalVictory": ["horizons", "nouvelle_energie"],
+    "duels": 65,
+    "flaggedHighConditionalVictory": [
+      "nouvelle_energie",
+      "horizons"
+    ],
     "interpretation": "conditionalVictoryRate = victoires / qualifications pour le même parti. Le prompt post-audit (§22, critère P5) demande d'examiner et de justifier explicitement toute valeur > ~85–90 % ; flaggedHighConditionalVictory liste les partis concernés (qualifiedRuns >= 30 pour éviter le bruit d'échantillon). Voir POST_AUDIT_FIXES.md section P5 pour l'analyse."
   },
   "choiceStrength": {
-    "evaluatedChoiceCells": 646,
+    "evaluatedChoiceCells": 649,
     "minimumSampleSize": 15,
     "top10SpreadEvents": [
       {
         "eventId": "debate_post_show_spin",
-        "spread": 15.389999999999993,
+        "spread": 22.08,
         "best": {
           "eventId": "debate_post_show_spin",
           "choiceId": "post_show_balanced",
           "choiceTag": "TRANSPARENT",
-          "n": 456,
-          "avgFinalScore": 77.88,
-          "avgQualified": 0.735,
-          "avgWon": 0.601
+          "n": 461,
+          "avgFinalScore": 78.99,
+          "avgQualified": 0.764,
+          "avgWon": 0.625
         },
         "worst": {
           "eventId": "debate_post_show_spin",
           "choiceId": "post_show_no_spin",
           "choiceTag": "PRUDENT",
-          "n": 184,
-          "avgFinalScore": 62.49,
-          "avgQualified": 0.467,
-          "avgWon": 0.293
+          "n": 182,
+          "avgFinalScore": 56.91,
+          "avgQualified": 0.297,
+          "avgWon": 0.198
         },
         "optionCount": 4
       },
       {
+        "eventId": "party_rn_fronde",
+        "spread": 20.739999999999995,
+        "best": {
+          "eventId": "party_rn_fronde",
+          "choiceId": "rn_fronde_regional_mandate",
+          "choiceTag": "PRUDENT",
+          "n": 154,
+          "avgFinalScore": 75.07,
+          "avgQualified": 0.968,
+          "avgWon": 0.442
+        },
+        "worst": {
+          "eventId": "party_rn_fronde",
+          "choiceId": "rn_fronde_remove_ferran",
+          "choiceTag": "PRÉSIDENTIEL",
+          "n": 33,
+          "avgFinalScore": 54.33,
+          "avgQualified": 0.455,
+          "avgWon": 0.152
+        },
+        "optionCount": 2
+      },
+      {
         "eventId": "campaign_slogan_test",
-        "spread": 14.150000000000006,
+        "spread": 19.989999999999995,
         "best": {
           "eventId": "campaign_slogan_test",
           "choiceId": "slogan_choose_govern",
           "choiceTag": "PRÉSIDENTIEL",
-          "n": 663,
-          "avgFinalScore": 76.48,
-          "avgQualified": 0.716,
-          "avgWon": 0.554
+          "n": 666,
+          "avgFinalScore": 77.08,
+          "avgQualified": 0.721,
+          "avgWon": 0.551
         },
         "worst": {
           "eventId": "campaign_slogan_test",
           "choiceId": "slogan_drop_both",
           "choiceTag": "PRUDENT",
-          "n": 279,
-          "avgFinalScore": 62.33,
-          "avgQualified": 0.455,
-          "avgWon": 0.269
+          "n": 280,
+          "avgFinalScore": 57.09,
+          "avgQualified": 0.3,
+          "avgWon": 0.179
         },
         "optionCount": 3
       },
       {
         "eventId": "scandal_consultant_contract",
-        "spread": 13.830000000000005,
+        "spread": 18.659999999999997,
         "best": {
           "eventId": "scandal_consultant_contract",
           "choiceId": "consultant_contract_waive",
           "choiceTag": "TRANSPARENT",
-          "n": 295,
-          "avgFinalScore": 76.29,
-          "avgQualified": 0.678,
-          "avgWon": 0.536
+          "n": 296,
+          "avgFinalScore": 76.82,
+          "avgQualified": 0.682,
+          "avgWon": 0.547
         },
         "worst": {
           "eventId": "scandal_consultant_contract",
           "choiceId": "consultant_contract_litigate",
           "choiceTag": "OFFENSIF",
-          "n": 215,
-          "avgFinalScore": 62.46,
-          "avgQualified": 0.442,
-          "avgWon": 0.279
+          "n": 212,
+          "avgFinalScore": 58.16,
+          "avgQualified": 0.325,
+          "avgWon": 0.226
         },
         "optionCount": 3
       },
       {
-        "eventId": "rare_crown_petition",
-        "spread": 13.549999999999997,
+        "eventId": "campaign_door_to_door",
+        "spread": 18.330000000000005,
         "best": {
-          "eventId": "rare_crown_petition",
-          "choiceId": "crown_petition_republic",
-          "choiceTag": "INSTITUTIONNEL",
-          "n": 30,
-          "avgFinalScore": 82.07,
-          "avgQualified": 0.9,
-          "avgWon": 0.7
-        },
-        "worst": {
-          "eventId": "rare_crown_petition",
-          "choiceId": "crown_petition_constitution_convention",
+          "eventId": "campaign_door_to_door",
+          "choiceId": "doors_listening_notebooks",
           "choiceTag": "RASSEMBLEUR",
-          "n": 23,
-          "avgFinalScore": 68.52,
-          "avgQualified": 0.609,
-          "avgWon": 0.217
+          "n": 138,
+          "avgFinalScore": 79.4,
+          "avgQualified": 0.913,
+          "avgWon": 0.638
+        },
+        "worst": {
+          "eventId": "campaign_door_to_door",
+          "choiceId": "doors_registration_drive",
+          "choiceTag": "INSTITUTIONNEL",
+          "n": 58,
+          "avgFinalScore": 61.07,
+          "avgQualified": 0.448,
+          "avgWon": 0.241
         },
         "optionCount": 3
       },
       {
-        "eventId": "party_lfi_local_asset",
-        "spread": 12.89,
+        "eventId": "internal_youth_wing",
+        "spread": 18.03,
         "best": {
-          "eventId": "party_lfi_local_asset",
-          "choiceId": "lfi_local_commitments",
-          "choiceTag": "POPULAIRE",
-          "n": 113,
-          "avgFinalScore": 77.06,
-          "avgQualified": 0.991,
-          "avgWon": 0.619
+          "eventId": "internal_youth_wing",
+          "choiceId": "youth_wing_budget",
+          "choiceTag": "RASSEMBLEUR",
+          "n": 380,
+          "avgFinalScore": 77.56,
+          "avgQualified": 0.861,
+          "avgWon": 0.645
         },
         "worst": {
-          "eventId": "party_lfi_local_asset",
-          "choiceId": "lfi_local_march",
+          "eventId": "internal_youth_wing",
+          "choiceId": "youth_wing_refuse",
           "choiceTag": "OFFENSIF",
-          "n": 90,
-          "avgFinalScore": 64.17,
-          "avgQualified": 0.678,
-          "avgWon": 0.344
+          "n": 150,
+          "avgFinalScore": 59.53,
+          "avgQualified": 0.427,
+          "avgWon": 0.26
+        },
+        "optionCount": 3
+      },
+      {
+        "eventId": "party_lr_fronde",
+        "spread": 18.009999999999998,
+        "best": {
+          "eventId": "party_lr_fronde",
+          "choiceId": "lr_fronde_policy_meeting",
+          "choiceTag": "TRANSPARENT",
+          "n": 102,
+          "avgFinalScore": 76.27,
+          "avgQualified": 0.804,
+          "avgWon": 0.637
+        },
+        "worst": {
+          "eventId": "party_lr_fronde",
+          "choiceId": "lr_fronde_close_negotiations",
+          "choiceTag": "OFFENSIF",
+          "n": 43,
+          "avgFinalScore": 58.26,
+          "avgQualified": 0.326,
+          "avgWon": 0.256
         },
         "optionCount": 2
       },
       {
-        "eventId": "custom_coherent_manifesto",
-        "spread": 12.71,
+        "eventId": "debate_expose_contradiction_centrist",
+        "spread": 17.949999999999996,
         "best": {
-          "eventId": "custom_coherent_manifesto",
-          "choiceId": "custom_manifesto_priority_note",
+          "eventId": "debate_expose_contradiction_centrist",
+          "choiceId": "expose_contradiction_skip",
           "choiceTag": "PRUDENT",
-          "n": 106,
-          "avgFinalScore": 73.47,
-          "avgQualified": 0.5,
-          "avgWon": 0.462
+          "n": 196,
+          "avgFinalScore": 74.44,
+          "avgQualified": 0.689,
+          "avgWon": 0.541
         },
         "worst": {
-          "eventId": "custom_coherent_manifesto",
-          "choiceId": "custom_manifesto_public_debate",
-          "choiceTag": "OFFENSIF",
-          "n": 70,
-          "avgFinalScore": 60.76,
-          "avgQualified": 0.2,
-          "avgWon": 0.157
+          "eventId": "debate_expose_contradiction_centrist",
+          "choiceId": "expose_contradiction_question_only",
+          "choiceTag": "TECHNIQUE",
+          "n": 186,
+          "avgFinalScore": 56.49,
+          "avgQualified": 0.323,
+          "avgWon": 0.183
         },
-        "optionCount": 3
-      },
-      {
-        "eventId": "custom_runoff_mandate",
-        "spread": 12.650000000000006,
-        "best": {
-          "eventId": "custom_runoff_mandate",
-          "choiceId": "custom_runoff_coalition_team",
-          "choiceTag": "RISQUÉ",
-          "n": 260,
-          "avgFinalScore": 71.48,
-          "avgQualified": 0.45,
-          "avgWon": 0.415
-        },
-        "worst": {
-          "eventId": "custom_runoff_mandate",
-          "choiceId": "custom_runoff_public_contract",
-          "choiceTag": "RASSEMBLEUR",
-          "n": 64,
-          "avgFinalScore": 58.83,
-          "avgQualified": 0.203,
-          "avgWon": 0.156
-        },
-        "optionCount": 3
-      },
-      {
-        "eventId": "party_lfi_electorate",
-        "spread": 12.540000000000006,
-        "best": {
-          "eventId": "party_lfi_electorate",
-          "choiceId": "lfi_electorate_registration",
-          "choiceTag": "INSTITUTIONNEL",
-          "n": 96,
-          "avgFinalScore": 77.81,
-          "avgQualified": 0.979,
-          "avgWon": 0.708
-        },
-        "worst": {
-          "eventId": "party_lfi_electorate",
-          "choiceId": "lfi_electorate_vote_ultimatum",
-          "choiceTag": "OFFENSIF",
-          "n": 63,
-          "avgFinalScore": 65.27,
-          "avgQualified": 0.714,
-          "avgWon": 0.397
-        },
-        "optionCount": 3
-      },
-      {
-        "eventId": "internal_headquarters_move",
-        "spread": 12.429999999999993,
-        "best": {
-          "eventId": "internal_headquarters_move",
-          "choiceId": "headquarters_move",
-          "choiceTag": "POPULAIRE",
-          "n": 836,
-          "avgFinalScore": 75.21,
-          "avgQualified": 0.695,
-          "avgWon": 0.532
-        },
-        "worst": {
-          "eventId": "internal_headquarters_move",
-          "choiceId": "headquarters_keep",
-          "choiceTag": "PRUDENT",
-          "n": 198,
-          "avgFinalScore": 62.78,
-          "avgQualified": 0.444,
-          "avgWon": 0.278
-        },
-        "optionCount": 3
+        "optionCount": 4
       },
       {
         "eventId": "campaign_donation_drive",
-        "spread": 12.409999999999997,
+        "spread": 17.470000000000006,
         "best": {
           "eventId": "campaign_donation_drive",
           "choiceId": "donations_small_match",
           "choiceTag": "TRANSPARENT",
-          "n": 312,
-          "avgFinalScore": 73.99,
-          "avgQualified": 0.657,
-          "avgWon": 0.516
+          "n": 308,
+          "avgFinalScore": 74.18,
+          "avgQualified": 0.656,
+          "avgWon": 0.5
         },
         "worst": {
           "eventId": "campaign_donation_drive",
           "choiceId": "donations_tour_cut",
           "choiceTag": "PRUDENT",
-          "n": 187,
-          "avgFinalScore": 61.58,
-          "avgQualified": 0.433,
-          "avgWon": 0.289
+          "n": 178,
+          "avgFinalScore": 56.71,
+          "avgQualified": 0.326,
+          "avgWon": 0.219
         },
         "optionCount": 3
+      },
+      {
+        "eventId": "program_immigration",
+        "spread": 17.4,
+        "best": {
+          "eventId": "program_immigration",
+          "choiceId": "immigration_european_pact",
+          "choiceTag": "RASSEMBLEUR",
+          "n": 57,
+          "avgFinalScore": 77.89,
+          "avgQualified": 0.754,
+          "avgWon": 0.702
+        },
+        "worst": {
+          "eventId": "program_immigration",
+          "choiceId": "immigration_work_regularization",
+          "choiceTag": "POPULAIRE",
+          "n": 152,
+          "avgFinalScore": 60.49,
+          "avgQualified": 0.382,
+          "avgWon": 0.257
+        },
+        "optionCount": 4
       }
     ],
     "caveat": "Ces écarts sont corrélationnels : ils comparent les campagnes qui ONT CHOISI chaque option, sans contrôler l'agent ni le parti qui l'ont choisie. Voir counterfactuals.csv pour la mesure causale isolée (même état initial, un seul choix qui diffère)."
   },
   "memoryAndWorld": {
-    "runsWithActorMemoryContentShare": 0.884,
-    "runsWithContradictionShare": 0.196,
-    "runsWithAbruptReversalShare": 0.319,
-    "runsWithCandidateReplacementShare": 0.099,
-    "runsWithAllianceShare": 0.516,
-    "runsWithNarrativeThreadShare": 0.683,
+    "runsWithActorMemoryContentShare": 0.875,
+    "runsWithContradictionShare": 0.198,
+    "runsWithAbruptReversalShare": 0.316,
+    "runsWithCandidateReplacementShare": 0.1,
+    "runsWithAllianceShare": 0.495,
+    "runsWithNarrativeThreadShare": 0.677,
     "opponentActionKindFrequency": [
       {
         "id": "strategy",
-        "count": 331581
+        "count": 330467
       },
       {
         "id": "crisis",
-        "count": 16313
+        "count": 16211
       },
       {
         "id": "endorsement",
-        "count": 8875
+        "count": 8649
       },
       {
         "id": "alliance",
-        "count": 6325
+        "count": 6186
       },
       {
         "id": "replacement",
-        "count": 530
+        "count": 539
       },
       {
         "id": "primary",
@@ -522,26 +525,22 @@
       },
       {
         "id": "dissidence",
-        "count": 18
-      },
-      {
-        "id": "withdrawal",
-        "count": 1
+        "count": 15
       }
     ],
     "actorMemoryEntriesDistribution": {
-      "mean": 2.117,
+      "mean": 2.098,
       "median": 2,
-      "stddev": 1.386,
+      "stddev": 1.399,
       "min": 0,
       "max": 9,
       "p90": 4,
       "p95": 5
     },
     "opponentActionCountDistribution": {
-      "mean": 68.626,
-      "median": 70,
-      "stddev": 7.447,
+      "mean": 68.034,
+      "median": 69,
+      "stddev": 7.681,
       "min": 49,
       "max": 80,
       "p90": 78,
@@ -552,10 +551,10 @@
     "byAxis": [
       {
         "axis": "economy",
-        "meanAbsMovement": 5.95,
+        "meanAbsMovement": 5.91,
         "maxAbsMovement": 26.02,
-        "stddevMovement": 7.12,
-        "shareWithMovementOver5": 0.495
+        "stddevMovement": 7.08,
+        "shareWithMovementOver5": 0.494
       },
       {
         "axis": "society",
@@ -568,29 +567,29 @@
         "axis": "europe",
         "meanAbsMovement": 1.54,
         "maxAbsMovement": 14.14,
-        "stddevMovement": 2.61,
-        "shareWithMovementOver5": 0.08
+        "stddevMovement": 2.6,
+        "shareWithMovementOver5": 0.081
       },
       {
         "axis": "ecology",
-        "meanAbsMovement": 1.56,
-        "maxAbsMovement": 19.81,
+        "meanAbsMovement": 1.55,
+        "maxAbsMovement": 19.35,
         "stddevMovement": 2.6,
-        "shareWithMovementOver5": 0.067
+        "shareWithMovementOver5": 0.066
       },
       {
         "axis": "authority",
         "meanAbsMovement": 1.7,
         "maxAbsMovement": 17.39,
-        "stddevMovement": 2.66,
-        "shareWithMovementOver5": 0.096
+        "stddevMovement": 2.67,
+        "shareWithMovementOver5": 0.095
       },
       {
         "axis": "immigration",
-        "meanAbsMovement": 2.41,
+        "meanAbsMovement": 2.42,
         "maxAbsMovement": 14.44,
         "stddevMovement": 3.27,
-        "shareWithMovementOver5": 0.135
+        "shareWithMovementOver5": 0.136
       }
     ]
   },
@@ -599,15 +598,15 @@
     "occurrences": [
       {
         "id": "rare_exceptional_powers",
-        "count": 246
+        "count": 257
       },
       {
         "id": "rare_fragmented_congress",
-        "count": 211
+        "count": 217
       },
       {
         "id": "rare_printer_slogan",
-        "count": 199
+        "count": 198
       },
       {
         "id": "rare_hologram_revolt",
@@ -615,27 +614,31 @@
       },
       {
         "id": "rare_debate_blackout",
-        "count": 158
+        "count": 155
       },
       {
         "id": "rare_civil_suspension",
-        "count": 130
+        "count": 128
       },
       {
         "id": "rare_parrot_quote",
-        "count": 79
+        "count": 81
       },
       {
         "id": "rare_crown_petition",
-        "count": 71
+        "count": 73
       },
       {
         "id": "rare_national_union",
-        "count": 59
+        "count": 60
       },
       {
         "id": "party_rn_dissidence",
         "count": 25
+      },
+      {
+        "id": "party_ps_rare",
+        "count": 24
       },
       {
         "id": "party_renaissance_rare",
@@ -647,11 +650,7 @@
       },
       {
         "id": "party_ecologistes_rare",
-        "count": 19
-      },
-      {
-        "id": "party_ps_rare",
-        "count": 16
+        "count": 20
       },
       {
         "id": "party_lr_rare",
@@ -667,7 +666,7 @@
       },
       {
         "id": "party_lfi_rare",
-        "count": 4
+        "count": 6
       }
     ],
     "neverReachedInThisSample": []

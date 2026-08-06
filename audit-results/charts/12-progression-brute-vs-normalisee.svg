@@ -3,33 +3,33 @@
   <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Progression brute vs normalisée par parti</text>
   <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit n/a · brute = points de sondage · normalisée = part de la marge atteignable (P1)</text>
   <line x1="60" y1="290" x2="790" y2="290" stroke="#c7d0d8" />
-  <rect x="68.1" y="262.3" width="30.4" height="27.7" fill="#3b6ea5" />
-      <text x="84.3" y="258.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">7.5</text><rect x="100.6" y="92.1" width="30.4" height="197.9" fill="#c9a24b" />
-      <text x="116.8" y="88.1" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">53.5</text>
-    <text x="100.6" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 100.6 306.0)">ecologistes</text><rect x="149.2" y="253.3" width="30.4" height="36.7" fill="#3b6ea5" />
-      <text x="165.4" y="249.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">9.9</text><rect x="181.7" y="73.9" width="30.4" height="216.1" fill="#c9a24b" />
-      <text x="197.9" y="69.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">58.4</text>
-    <text x="181.7" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 181.7 306.0)">horizons</text><rect x="230.3" y="281.8" width="30.4" height="8.2" fill="#3b6ea5" />
-      <text x="246.6" y="277.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.2</text><rect x="262.8" y="237.6" width="30.4" height="52.4" fill="#c9a24b" />
-      <text x="279.0" y="233.6" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.2</text>
-    <text x="262.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 262.8 306.0)">lfi</text><rect x="311.4" y="258.5" width="30.4" height="31.5" fill="#3b6ea5" />
-      <text x="327.7" y="254.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">8.5</text><rect x="343.9" y="139.5" width="30.4" height="150.5" fill="#c9a24b" />
-      <text x="360.1" y="135.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">40.7</text>
+  <rect x="68.1" y="265.6" width="30.4" height="24.4" fill="#3b6ea5" />
+      <text x="84.3" y="261.6" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">7.0</text><rect x="100.6" y="115.1" width="30.4" height="174.9" fill="#c9a24b" />
+      <text x="116.8" y="111.1" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">50.4</text>
+    <text x="100.6" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 100.6 306.0)">ecologistes</text><rect x="149.2" y="254.0" width="30.4" height="36.0" fill="#3b6ea5" />
+      <text x="165.4" y="250.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">10.4</text><rect x="181.7" y="78.1" width="30.4" height="211.9" fill="#c9a24b" />
+      <text x="197.9" y="74.1" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">61.0</text>
+    <text x="181.7" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 181.7 306.0)">horizons</text><rect x="230.3" y="283.5" width="30.4" height="6.5" fill="#3b6ea5" />
+      <text x="246.6" y="279.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.9</text><rect x="262.8" y="249.4" width="30.4" height="40.6" fill="#c9a24b" />
+      <text x="279.0" y="245.4" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">11.7</text>
+    <text x="262.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 262.8 306.0)">lfi</text><rect x="311.4" y="264.0" width="30.4" height="26.0" fill="#3b6ea5" />
+      <text x="327.7" y="260.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">7.5</text><rect x="343.9" y="166.0" width="30.4" height="124.0" fill="#c9a24b" />
+      <text x="360.1" y="162.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">35.7</text>
     <text x="343.9" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 343.9 306.0)">lr</text><rect x="392.6" y="255.8" width="30.4" height="34.2" fill="#3b6ea5" />
-      <text x="408.8" y="251.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">9.2</text><rect x="425.0" y="60.0" width="30.4" height="230.0" fill="#c9a24b" />
-      <text x="441.2" y="56.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">62.2</text>
-    <text x="425.0" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 425.0 306.0)">nouvelle_energie</text><rect x="473.7" y="249.2" width="30.4" height="40.8" fill="#3b6ea5" />
-      <text x="489.9" y="245.2" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">11.0</text><rect x="506.1" y="96.0" width="30.4" height="194.0" fill="#c9a24b" />
-      <text x="522.3" y="92.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">52.4</text>
-    <text x="506.1" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 506.1 306.0)">ps</text><rect x="554.8" y="272.5" width="30.4" height="17.5" fill="#3b6ea5" />
-      <text x="571.0" y="268.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.7</text><rect x="587.2" y="147.3" width="30.4" height="142.7" fill="#c9a24b" />
-      <text x="603.4" y="143.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">38.6</text>
-    <text x="587.2" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 587.2 306.0)">reconquete</text><rect x="635.9" y="286.7" width="30.4" height="3.3" fill="#3b6ea5" />
-      <text x="652.1" y="282.7" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.9</text><rect x="668.3" y="273.2" width="30.4" height="16.8" fill="#c9a24b" />
-      <text x="684.6" y="269.2" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.5</text>
+      <text x="408.8" y="251.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">9.8</text><rect x="425.0" y="60.0" width="30.4" height="230.0" fill="#c9a24b" />
+      <text x="441.2" y="56.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">66.2</text>
+    <text x="425.0" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 425.0 306.0)">nouvelle_energie</text><rect x="473.7" y="253.2" width="30.4" height="36.8" fill="#3b6ea5" />
+      <text x="489.9" y="249.2" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">10.6</text><rect x="506.1" y="114.9" width="30.4" height="175.1" fill="#c9a24b" />
+      <text x="522.3" y="110.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">50.4</text>
+    <text x="506.1" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 506.1 306.0)">ps</text><rect x="554.8" y="273.9" width="30.4" height="16.1" fill="#3b6ea5" />
+      <text x="571.0" y="269.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.7</text><rect x="587.2" y="160.2" width="30.4" height="129.8" fill="#c9a24b" />
+      <text x="603.4" y="156.2" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">37.4</text>
+    <text x="587.2" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 587.2 306.0)">reconquete</text><rect x="635.9" y="289.4" width="30.4" height="0.6" fill="#3b6ea5" />
+      <text x="652.1" y="285.4" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.2</text><rect x="668.3" y="290.8" width="30.4" height="-0.8" fill="#c9a24b" />
+      <text x="684.6" y="286.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">-0.2</text>
     <text x="668.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 668.3 306.0)">renaissance</text><rect x="717.0" y="277.0" width="30.4" height="13.0" fill="#3b6ea5" />
-      <text x="733.2" y="273.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.5</text><rect x="749.4" y="239.9" width="30.4" height="50.1" fill="#c9a24b" />
-      <text x="765.7" y="235.9" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">13.5</text>
+      <text x="733.2" y="273.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.7</text><rect x="749.4" y="241.0" width="30.4" height="49.0" fill="#c9a24b" />
+      <text x="765.7" y="237.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.1</text>
     <text x="749.4" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 749.4 306.0)">rn</text>
   <rect x="60" y="356" width="12" height="12" fill="#3b6ea5" /><text x="78" y="366" font-size="11" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Brute (points)</text><rect x="200" y="356" width="12" height="12" fill="#c9a24b" /><text x="218" y="366" font-size="11" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Normalisée (×100 pour lisibilité)</text>
 </svg>
