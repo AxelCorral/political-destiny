@@ -820,6 +820,14 @@ export interface FinalResult {
   qualified: boolean;
   startingPolling: number;
   pollingProgression: number;
+  /**
+   * Signed share of the party's achievable movement (potentialSupport minus
+   * startingPolling on the upside, startingPolling itself on the downside)
+   * that the campaign actually captured. See computeProgressionMetrics in
+   * engine/progression.ts. Comparable across parties with very different
+   * starting points, unlike the raw pollingProgression delta above.
+   */
+  progressionNormalized: number;
   strongestRegions: RegionId[];
   highlightDecisionIds: number[];
   bestDecisionIndex?: number;

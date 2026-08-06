@@ -138,6 +138,7 @@ interface RawRunRow {
   firstRoundScore: number;
   secondRoundScore: number | null;
   progression: number;
+  progressionNormalized: number;
   endingId: string;
   finalRank: number;
   achievementsUnlocked: number;
@@ -334,6 +335,7 @@ function runCampaign(
     firstRoundScore: state.firstRoundResult.results[partyId] ?? 0,
     secondRoundScore: state.secondRoundResult?.results[partyId] ?? null,
     progression: result.pollingProgression,
+    progressionNormalized: result.progressionNormalized,
     endingId: result.endingId,
     finalRank,
     achievementsUnlocked: result.unlockedAchievementIds.length,

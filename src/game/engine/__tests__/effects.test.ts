@@ -53,6 +53,73 @@ describe("effets de jeu", () => {
     expect(allied.parties.gamma?.alliedWith).toContain("alpha");
   });
 
+  it("applique un gain positif à pleine puissance sous 70% du plafond d’une statistique", () => {
+    const state = createGame(
+      { seed: "rendements-bas", mode: "existing_party", partyId: "alpha", methodId: "field" },
+      testContent,
+    );
+    state.parties.alpha!.stats.credibility = 50;
+    const applied = applyEffects(state, [
+      { kind: "party_stat", stat: "credibility", delta: 8 },
+    ]).state;
+    expect(applied.parties.alpha?.stats.credibility).toBe(58);
+  });
+
+  it("atténue un gain positif au-delà de 70% du plafond (rendements décroissants) — régression P1", () => {
+    // Diagnosed for P1: with a flat clamp, near-every agent drove credibility
+    // to ~99-100 regardless of strategy, erasing agent-driven variance on
+    // the stat that feeds partyAppeal()'s competence term. A gain applied
+    // from 90/100 must land strictly between "unscaled" (98) and "no
+    // movement at all" (90), and never overshoot past the ceiling.
+    const state = createGame(
+      { seed: "rendements-hauts", mode: "existing_party", partyId: "alpha", methodId: "field" },
+      testContent,
+    );
+    state.parties.alpha!.stats.credibility = 90;
+    const applied = applyEffects(state, [
+      { kind: "party_stat", stat: "credibility", delta: 8 },
+    ]).state;
+    const result = applied.parties.alpha!.stats.credibility;
+    expect(result).toBeGreaterThan(90);
+    expect(result).toBeLessThan(98);
+  });
+
+  it("n’atténue jamais un effet négatif, même tout en haut du plafond", () => {
+    const state = createGame(
+      { seed: "revers-en-haut", mode: "existing_party", partyId: "alpha", methodId: "field" },
+      testContent,
+    );
+    state.parties.alpha!.stats.credibility = 95;
+    const applied = applyEffects(state, [
+      { kind: "party_stat", stat: "credibility", delta: -8 },
+    ]).state;
+    expect(applied.parties.alpha?.stats.credibility).toBe(87);
+  });
+
+  it("n’applique aucun gain positif quand la statistique est déjà au plafond", () => {
+    const state = createGame(
+      { seed: "plafond", mode: "existing_party", partyId: "alpha", methodId: "field" },
+      testContent,
+    );
+    state.parties.alpha!.stats.credibility = 100;
+    const applied = applyEffects(state, [
+      { kind: "party_stat", stat: "credibility", delta: 5 },
+    ]).state;
+    expect(applied.parties.alpha?.stats.credibility).toBe(100);
+  });
+
+  it("n’atténue jamais la croissance des adhérents (plafond bien plus élevé, mécanique distincte)", () => {
+    const state = createGame(
+      { seed: "adherents", mode: "existing_party", partyId: "alpha", methodId: "field" },
+      testContent,
+    );
+    const before = state.parties.alpha!.stats.members;
+    const applied = applyEffects(state, [
+      { kind: "party_stat", stat: "members", delta: 4_000_000 },
+    ]).state;
+    expect(applied.parties.alpha?.stats.members).toBe(before + 4_000_000);
+  });
+
   it("mémorise une dette politique et fait évoluer une relation", () => {
     const state = createGame(
       { seed: "mémoire", mode: "existing_party", partyId: "alpha", methodId: "field" },

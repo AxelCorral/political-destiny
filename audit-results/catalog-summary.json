@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T13:31:03.984Z",
+  "generatedAt": "2026-08-06T15:33:27.087Z",
   "structural": {
     "totalEvents": 232,
     "totalChoices": 633,
@@ -320,7 +320,10 @@
     ],
     "top3ClassicTagShareOfAllChoices": 0.3712,
     "eventsWithClassicTriptych": 2,
-    "eventsWithClassicTriptychIds": ["media_prime_time_invite", "rare_hologram_revolt"],
+    "eventsWithClassicTriptychIds": [
+      "media_prime_time_invite",
+      "rare_hologram_revolt"
+    ],
     "eventsWithPartialClassicTriptych": 38,
     "eventsWithPartialClassicTriptychIds": [
       "campaign_volunteer_surge",

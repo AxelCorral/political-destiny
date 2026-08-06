@@ -725,9 +725,9 @@ lfi:risque:0,lfi,risque,0,europe,-48,-43.870000000000005,-48,-36.2,4.12999999999
 lfi:risque:0,lfi,risque,0,ecology,66,62.22,66,55.2,-3.780000000000001,-10.799999999999997
 lfi:risque:0,lfi,risque,0,authority,-54,-57.01,-54,-62.6,-3.009999999999998,-8.600000000000001
 lfi:risque:0,lfi,risque,0,immigration,-38,-38,-38,-38,0,0
-lfi:risque:1,lfi,risque,1,economy,-78,-68.40034105000001,-78,-50.572403,9.599658949999991,27.427597
-lfi:risque:1,lfi,risque,1,society,-58,-58,-58,-58,0,0
-lfi:risque:1,lfi,risque,1,europe,-48,-51.8255,-48,-58.93,-3.825499999999998,-10.93
+lfi:risque:1,lfi,risque,1,economy,-78,-63.480306945,-78,-36.5151627,14.519693054999998,41.4848373
+lfi:risque:1,lfi,risque,1,society,-58,-56.32,-58,-53.2,1.6799999999999997,4.799999999999997
+lfi:risque:1,lfi,risque,1,europe,-48,-48,-48,-48,0,0
 lfi:risque:1,lfi,risque,1,ecology,66,62.2935,66,55.41,-3.7064999999999984,-10.590000000000003
 lfi:risque:1,lfi,risque,1,authority,-54,-57.01,-54,-62.6,-3.009999999999998,-8.600000000000001
 lfi:risque:1,lfi,risque,1,immigration,-38,-38,-38,-38,0,0
@@ -1139,7 +1139,7 @@ lfi:ideologiquement_coherent:9,lfi,ideologiquement_coherent,9,europe,-48,-51.887
 lfi:ideologiquement_coherent:9,lfi,ideologiquement_coherent,9,ecology,66,64.74000000000001,66,62.400000000000006,-1.259999999999991,-3.5999999999999943
 lfi:ideologiquement_coherent:9,lfi,ideologiquement_coherent,9,authority,-54,-52.852,-54,-50.72,1.1480000000000032,3.280000000000001
 lfi:ideologiquement_coherent:9,lfi,ideologiquement_coherent,9,immigration,-38,-40.345,-38,-44.7,-2.344999999999999,-6.700000000000003
-lfi:ideologiquement_coherent:10,lfi,ideologiquement_coherent,10,economy,-78,-73.52051649499998,-78,-65.2014757,4.479483505000019,12.798524299999997
+lfi:ideologiquement_coherent:10,lfi,ideologiquement_coherent,10,economy,-78,-75.66724054999999,-78,-71.334973,2.3327594500000117,6.665026999999995
 lfi:ideologiquement_coherent:10,lfi,ideologiquement_coherent,10,society,-58,-57.195,-58,-55.7,0.8049999999999997,2.299999999999997
 lfi:ideologiquement_coherent:10,lfi,ideologiquement_coherent,10,europe,-48,-48,-48,-48,0,0
 lfi:ideologiquement_coherent:10,lfi,ideologiquement_coherent,10,ecology,66,64.04,66,60.4,-1.9599999999999937,-5.600000000000001
@@ -1793,7 +1793,7 @@ lfi:opportuniste_electoral:58,lfi,opportuniste_electoral,58,europe,-48,-37.77299
 lfi:opportuniste_electoral:58,lfi,opportuniste_electoral,58,ecology,66,63.865,66,59.9,-2.134999999999998,-6.100000000000001
 lfi:opportuniste_electoral:58,lfi,opportuniste_electoral,58,authority,-54,-59.544,-54,-69.84,-5.543999999999997,-15.840000000000003
 lfi:opportuniste_electoral:58,lfi,opportuniste_electoral,58,immigration,-38,-38,-38,-38,0,0
-lfi:opportuniste_electoral:59,lfi,opportuniste_electoral,59,economy,-78,-73.751105,-78,-65.8603,4.2488950000000045,12.139700000000005
+lfi:opportuniste_electoral:59,lfi,opportuniste_electoral,59,economy,-78,-75.92344999999999,-78,-72.067,2.0765500000000117,5.933000000000007
 lfi:opportuniste_electoral:59,lfi,opportuniste_electoral,59,society,-58,-58,-58,-58,0,0
 lfi:opportuniste_electoral:59,lfi,opportuniste_electoral,59,europe,-48,-43.12800000000001,-48,-34.08,4.871999999999993,13.920000000000002
 lfi:opportuniste_electoral:59,lfi,opportuniste_electoral,59,ecology,66,62.73100000000001,66,56.660000000000004,-3.2689999999999912,-9.339999999999996
@@ -2453,7 +2453,7 @@ lfi:mediatique:48,lfi,mediatique,48,europe,-48,-45.473,-48,-40.78,2.527000000000
 lfi:mediatique:48,lfi,mediatique,48,ecology,66,62.73100000000001,66,56.660000000000004,-3.2689999999999912,-9.339999999999996
 lfi:mediatique:48,lfi,mediatique,48,authority,-54,-54,-54,-54,0,0
 lfi:mediatique:48,lfi,mediatique,48,immigration,-38,-38,-38,-38,0,0
-lfi:mediatique:49,lfi,mediatique,49,economy,-78,-70.129802,-78,-55.513720000000006,7.870198000000002,22.486279999999994
+lfi:mediatique:49,lfi,mediatique,49,economy,-78,-68.5368218,-78,-50.962348000000006,9.463178200000002,27.037651999999994
 lfi:mediatique:49,lfi,mediatique,49,society,-58,-58.595000000000006,-58,-59.7,-0.595000000000006,-1.7000000000000028
 lfi:mediatique:49,lfi,mediatique,49,europe,-48,-48,-48,-48,0,0
 lfi:mediatique:49,lfi,mediatique,49,ecology,66,64.04,66,60.4,-1.9599999999999937,-5.600000000000001
@@ -2561,7 +2561,7 @@ lfi:contrarien:6,lfi,contrarien,6,europe,-48,-47.04240000000001,-48,-45.264,0.95
 lfi:contrarien:6,lfi,contrarien,6,ecology,66,60.70099999999999,66,50.86,-5.299000000000007,-15.14
 lfi:contrarien:6,lfi,contrarien,6,authority,-54,-52.2318,-54,-48.948,1.7682000000000002,5.052
 lfi:contrarien:6,lfi,contrarien,6,immigration,-38,-38,-38,-38,0,0
-lfi:contrarien:7,lfi,contrarien,7,economy,-78,-58.83546404999998,-78,-23.244183,19.164535950000023,54.755817
+lfi:contrarien:7,lfi,contrarien,7,economy,-78,-58.371917644999975,-78,-21.919764699999998,19.628082355000025,56.0802353
 lfi:contrarien:7,lfi,contrarien,7,society,-58,-58,-58,-58,0,0
 lfi:contrarien:7,lfi,contrarien,7,europe,-48,-48,-48,-48,0,0
 lfi:contrarien:7,lfi,contrarien,7,ecology,66,63.515,66,58.9,-2.4849999999999994,-7.100000000000001
@@ -2585,7 +2585,7 @@ lfi:contrarien:10,lfi,contrarien,10,europe,-48,-48,-48,-48,0,0
 lfi:contrarien:10,lfi,contrarien,10,ecology,66,63.865,66,59.9,-2.134999999999998,-6.100000000000001
 lfi:contrarien:10,lfi,contrarien,10,authority,-54,-52.95,-54,-51,1.0499999999999972,3
 lfi:contrarien:10,lfi,contrarien,10,immigration,-38,-38,-38,-38,0,0
-lfi:contrarien:11,lfi,contrarien,11,economy,-78,-65.82945000000001,-78,-43.227000000000004,12.170549999999992,34.772999999999996
+lfi:contrarien:11,lfi,contrarien,11,economy,-78,-71.01050000000001,-78,-58.03,6.9894999999999925,19.97
 lfi:contrarien:11,lfi,contrarien,11,society,-58,-58,-58,-58,0,0
 lfi:contrarien:11,lfi,contrarien,11,europe,-48,-42.037400000000005,-48,-30.964,5.962599999999995,17.036
 lfi:contrarien:11,lfi,contrarien,11,ecology,66,63.865,66,59.9,-2.134999999999998,-6.100000000000001
@@ -2765,7 +2765,7 @@ lfi:contrarien:40,lfi,contrarien,40,europe,-48,-43.870000000000005,-48,-36.2,4.1
 lfi:contrarien:40,lfi,contrarien,40,ecology,66,61.96099999999999,66,54.459999999999994,-4.039000000000009,-11.540000000000006
 lfi:contrarien:40,lfi,contrarien,40,authority,-54,-49.66,-54,-41.6,4.340000000000003,12.399999999999999
 lfi:contrarien:40,lfi,contrarien,40,immigration,-38,-32.995,-38,-23.7,5.005000000000003,14.3
-lfi:contrarien:41,lfi,contrarien,41,economy,-78,-60.16562485049999,-78,-27.044642429999996,17.834375149500012,50.955357570000004
+lfi:contrarien:41,lfi,contrarien,41,economy,-78,-59.56906236544999,-78,-25.340178186999996,18.430937634550013,52.65982181300001
 lfi:contrarien:41,lfi,contrarien,41,society,-58,-58,-58,-58,0,0
 lfi:contrarien:41,lfi,contrarien,41,europe,-48,-48,-48,-48,0,0
 lfi:contrarien:41,lfi,contrarien,41,ecology,66,63.865,66,59.9,-2.134999999999998,-6.100000000000001
@@ -2801,7 +2801,7 @@ lfi:contrarien:46,lfi,contrarien,46,europe,-48,-40.853,-48,-27.58,7.146999999999
 lfi:contrarien:46,lfi,contrarien,46,ecology,66,63.865,66,59.9,-2.134999999999998,-6.100000000000001
 lfi:contrarien:46,lfi,contrarien,46,authority,-54,-56.66,-54,-61.6,-2.6599999999999966,-7.600000000000001
 lfi:contrarien:46,lfi,contrarien,46,immigration,-38,-38,-38,-38,0,0
-lfi:contrarien:47,lfi,contrarien,47,economy,-78,-67.217655,-78,-47.193299999999994,10.782345000000007,30.806700000000006
+lfi:contrarien:47,lfi,contrarien,47,economy,-78,-72.55295,-78,-62.437,5.447050000000004,15.563000000000002
 lfi:contrarien:47,lfi,contrarien,47,society,-58,-58,-58,-58,0,0
 lfi:contrarien:47,lfi,contrarien,47,europe,-48,-41.419999999999995,-48,-29.200000000000003,6.580000000000005,18.799999999999997
 lfi:contrarien:47,lfi,contrarien,47,ecology,66,62.5035,66,56.01,-3.4964999999999975,-9.990000000000002
@@ -2957,7 +2957,7 @@ ps:aleatoire:12,ps,aleatoire,12,europe,48,48,48,48,0,0
 ps:aleatoire:12,ps,aleatoire,12,ecology,48,48,48,48,0,0
 ps:aleatoire:12,ps,aleatoire,12,authority,-30,-30,-30,-30,0,0
 ps:aleatoire:12,ps,aleatoire,12,immigration,-24,-24,-24,-24,0,0
-ps:aleatoire:13,ps,aleatoire,13,economy,-48,-43.835397844999996,-48,-36.1011367,4.164602155000004,11.898863300000002
+ps:aleatoire:13,ps,aleatoire,13,economy,-48,-44.85044205,-48,-39.001263,3.149557950000002,8.998736999999998
 ps:aleatoire:13,ps,aleatoire,13,society,-52,-52.7,-52,-54,-0.7000000000000028,-2
 ps:aleatoire:13,ps,aleatoire,13,europe,48,48.7,48,50,0.7000000000000028,2
 ps:aleatoire:13,ps,aleatoire,13,ecology,48,44.983,48,39.38,-3.017000000000003,-8.619999999999997
@@ -3713,7 +3713,7 @@ ps:risque:18,ps,risque,18,europe,48,48,48,48,0,0
 ps:risque:18,ps,risque,18,ecology,48,46.845,48,44.7,-1.1550000000000011,-3.299999999999997
 ps:risque:18,ps,risque,18,authority,-30,-29.65,-30,-29,0.3500000000000014,1
 ps:risque:18,ps,risque,18,immigration,-24,-23.860000000000003,-24,-23.6,0.13999999999999702,0.3999999999999986
-ps:risque:19,ps,risque,19,economy,-48,-44.5182,-48,-38.052,3.4818,9.948
+ps:risque:19,ps,risque,19,economy,-48,-49.498,-48,-52.28,-1.4979999999999976,-4.280000000000001
 ps:risque:19,ps,risque,19,society,-52,-52,-52,-52,0,0
 ps:risque:19,ps,risque,19,europe,48,42.295,48,31.700000000000003,-5.704999999999998,-16.299999999999997
 ps:risque:19,ps,risque,19,ecology,48,40.333600000000004,48,26.095999999999997,-7.666399999999996,-21.904000000000003
@@ -3983,7 +3983,7 @@ ps:ideologiquement_coherent:3,ps,ideologiquement_coherent,3,europe,48,48.595,48,
 ps:ideologiquement_coherent:3,ps,ideologiquement_coherent,3,ecology,48,44.422999999999995,48,37.78,-3.5770000000000053,-10.219999999999999
 ps:ideologiquement_coherent:3,ps,ideologiquement_coherent,3,authority,-30,-30,-30,-30,0,0
 ps:ideologiquement_coherent:3,ps,ideologiquement_coherent,3,immigration,-24,-24,-24,-24,0,0
-ps:ideologiquement_coherent:4,ps,ideologiquement_coherent,4,economy,-48,-48.93088729999999,-48,-50.65967800000001,-0.9308872999999878,-2.6596780000000066
+ps:ideologiquement_coherent:4,ps,ideologiquement_coherent,4,economy,-48,-50.51209699999999,-48,-55.177420000000005,-2.51209699999999,-7.177420000000005
 ps:ideologiquement_coherent:4,ps,ideologiquement_coherent,4,society,-52,-52,-52,-52,0,0
 ps:ideologiquement_coherent:4,ps,ideologiquement_coherent,4,europe,48,50.0055,48,53.730000000000004,2.005499999999998,5.730000000000004
 ps:ideologiquement_coherent:4,ps,ideologiquement_coherent,4,ecology,48,42.89769999999999,48,33.422,-5.102300000000007,-14.578000000000003
@@ -4157,7 +4157,7 @@ ps:ideologiquement_coherent:32,ps,ideologiquement_coherent,32,europe,48,48.245,4
 ps:ideologiquement_coherent:32,ps,ideologiquement_coherent,32,ecology,48,46.103,48,42.58,-1.8969999999999985,-5.420000000000002
 ps:ideologiquement_coherent:32,ps,ideologiquement_coherent,32,authority,-30,-30,-30,-30,0,0
 ps:ideologiquement_coherent:32,ps,ideologiquement_coherent,32,immigration,-24,-24,-24,-24,0,0
-ps:ideologiquement_coherent:33,ps,ideologiquement_coherent,33,economy,-48,-40.964744219999986,-48,-27.899269200000003,7.035255780000014,20.100730799999997
+ps:ideologiquement_coherent:33,ps,ideologiquement_coherent,33,economy,-48,-45.54971579999999,-48,-40.999188000000004,2.450284200000013,7.000811999999996
 ps:ideologiquement_coherent:33,ps,ideologiquement_coherent,33,society,-52,-52,-52,-52,0,0
 ps:ideologiquement_coherent:33,ps,ideologiquement_coherent,33,europe,48,48.91,48,50.6,0.9099999999999966,2.6000000000000014
 ps:ideologiquement_coherent:33,ps,ideologiquement_coherent,33,ecology,48,48.07000000000001,48,48.2,0.07000000000000739,0.20000000000000284
@@ -4169,7 +4169,7 @@ ps:ideologiquement_coherent:34,ps,ideologiquement_coherent,34,europe,48,48.7,48,
 ps:ideologiquement_coherent:34,ps,ideologiquement_coherent,34,ecology,48,45.97,48,42.2,-2.030000000000001,-5.799999999999997
 ps:ideologiquement_coherent:34,ps,ideologiquement_coherent,34,authority,-30,-33.587500000000006,-30,-40.25,-3.5875000000000057,-10.25
 ps:ideologiquement_coherent:34,ps,ideologiquement_coherent,34,immigration,-24,-24,-24,-24,0,0
-ps:ideologiquement_coherent:35,ps,ideologiquement_coherent,35,economy,-48,-51.58336999999999,-48,-58.2382,-3.583369999999988,-10.238199999999999
+ps:ideologiquement_coherent:35,ps,ideologiquement_coherent,35,economy,-48,-49.89503299999999,-48,-53.41438,-1.8950329999999909,-5.414380000000001
 ps:ideologiquement_coherent:35,ps,ideologiquement_coherent,35,society,-52,-52,-52,-52,0,0
 ps:ideologiquement_coherent:35,ps,ideologiquement_coherent,35,europe,48,48.98,48,50.8,0.9799999999999969,2.799999999999997
 ps:ideologiquement_coherent:35,ps,ideologiquement_coherent,35,ecology,48,48.7,48,50,0.7000000000000028,2
@@ -4529,7 +4529,7 @@ ps:opportuniste_electoral:34,ps,opportuniste_electoral,34,europe,48,48,48,48,0,0
 ps:opportuniste_electoral:34,ps,opportuniste_electoral,34,ecology,48,46.495,48,43.7,-1.5050000000000026,-4.299999999999997
 ps:opportuniste_electoral:34,ps,opportuniste_electoral,34,authority,-30,-29.523999999999997,-30,-28.64,0.47600000000000264,1.3599999999999994
 ps:opportuniste_electoral:34,ps,opportuniste_electoral,34,immigration,-24,-24,-24,-24,0,0
-ps:opportuniste_electoral:35,ps,opportuniste_electoral,35,economy,-48,-52.781000000000006,-48,-61.66,-4.781000000000006,-13.659999999999997
+ps:opportuniste_electoral:35,ps,opportuniste_electoral,35,economy,-48,-50.9729,-48,-56.494,-2.9729000000000028,-8.494
 ps:opportuniste_electoral:35,ps,opportuniste_electoral,35,society,-52,-52.7,-52,-54,-0.7000000000000028,-2
 ps:opportuniste_electoral:35,ps,opportuniste_electoral,35,europe,48,51.668000000000006,48,58.480000000000004,3.6680000000000064,10.480000000000004
 ps:opportuniste_electoral:35,ps,opportuniste_electoral,35,ecology,48,48,48,48,0,0
@@ -4541,7 +4541,7 @@ ps:opportuniste_electoral:36,ps,opportuniste_electoral,36,europe,48,51.668000000
 ps:opportuniste_electoral:36,ps,opportuniste_electoral,36,ecology,48,47.370000000000005,48,46.2,-0.6299999999999955,-1.7999999999999972
 ps:opportuniste_electoral:36,ps,opportuniste_electoral,36,authority,-30,-29.65,-30,-29,0.3500000000000014,1
 ps:opportuniste_electoral:36,ps,opportuniste_electoral,36,immigration,-24,-24,-24,-24,0,0
-ps:opportuniste_electoral:37,ps,opportuniste_electoral,37,economy,-48,-43.761255000000006,-48,-35.889300000000006,4.238744999999994,12.110699999999994
+ps:opportuniste_electoral:37,ps,opportuniste_electoral,37,economy,-48,-42.855129500000004,-48,-33.30037000000001,5.144870499999996,14.699629999999992
 ps:opportuniste_electoral:37,ps,opportuniste_electoral,37,society,-52,-52,-52,-52,0,0
 ps:opportuniste_electoral:37,ps,opportuniste_electoral,37,europe,48,48,48,48,0,0
 ps:opportuniste_electoral:37,ps,opportuniste_electoral,37,ecology,48,46.495,48,43.7,-1.5050000000000026,-4.299999999999997
@@ -5669,13 +5669,13 @@ ps:contrarien:44,ps,contrarien,44,europe,48,48,48,48,0,0
 ps:contrarien:44,ps,contrarien,44,ecology,48,46.32,48,43.2,-1.6799999999999997,-4.799999999999997
 ps:contrarien:44,ps,contrarien,44,authority,-30,-26.849999999999998,-30,-21,3.150000000000002,9
 ps:contrarien:44,ps,contrarien,44,immigration,-24,-24,-24,-24,0,0
-ps:contrarien:45,ps,contrarien,45,economy,-48,-39.82058925000001,-48,-24.630254999999995,8.179410749999988,23.369745000000005
+ps:contrarien:45,ps,contrarien,45,economy,-48,-44.27843250000001,-48,-37.366949999999996,3.721567499999992,10.633050000000004
 ps:contrarien:45,ps,contrarien,45,society,-52,-52.7,-52,-54,-0.7000000000000028,-2
 ps:contrarien:45,ps,contrarien,45,europe,48,43.8105,48,36.03,-4.1895000000000024,-11.969999999999999
 ps:contrarien:45,ps,contrarien,45,ecology,48,46.495,48,43.7,-1.5050000000000026,-4.299999999999997
 ps:contrarien:45,ps,contrarien,45,authority,-30,-25.87,-30,-18.2,4.129999999999999,11.8
 ps:contrarien:45,ps,contrarien,45,immigration,-24,-24,-24,-24,0,0
-ps:contrarien:46,ps,contrarien,46,economy,-48,-37.88130155,-48,-19.089432999999996,10.118698449999997,28.910567000000004
+ps:contrarien:46,ps,contrarien,46,economy,-48,-38.2347795,-48,-20.099369999999997,9.765220499999998,27.900630000000003
 ps:contrarien:46,ps,contrarien,46,society,-52,-52.7,-52,-54,-0.7000000000000028,-2
 ps:contrarien:46,ps,contrarien,46,europe,48,48,48,48,0,0
 ps:contrarien:46,ps,contrarien,46,ecology,48,44.6155,48,38.33,-3.3845000000000027,-9.670000000000002
@@ -6593,7 +6593,7 @@ ecologistes:risque:18,ecologistes,risque,18,europe,62,62,62,62,0,0
 ecologistes:risque:18,ecologistes,risque,18,ecology,92,88.85,92,83,-3.1500000000000057,-9
 ecologistes:risque:18,ecologistes,risque,18,authority,-58,-57.65,-58,-57,0.3500000000000014,1
 ecologistes:risque:18,ecologistes,risque,18,immigration,-55,-53.775,-55,-51.5,1.2250000000000014,3.5
-ecologistes:risque:19,ecologistes,risque,19,economy,-54,-44.15606100000001,-54,-25.87446,9.843938999999992,28.12554
+ecologistes:risque:19,ecologistes,risque,19,economy,-54,-48.662290000000006,-54,-38.7494,5.337709999999994,15.250599999999999
 ecologistes:risque:19,ecologistes,risque,19,society,-72,-69.83,-72,-65.8,2.1700000000000017,6.200000000000003
 ecologistes:risque:19,ecologistes,risque,19,europe,62,62,62,62,0,0
 ecologistes:risque:19,ecologistes,risque,19,ecology,92,79.2215,92,55.489999999999995,-12.778499999999994,-36.510000000000005
@@ -6623,7 +6623,7 @@ ecologistes:risque:23,ecologistes,risque,23,europe,62,55.805,62,44.3,-6.195,-17.
 ecologistes:risque:23,ecologistes,risque,23,ecology,92,77.2433,92,49.837999999999994,-14.756699999999995,-42.162000000000006
 ecologistes:risque:23,ecologistes,risque,23,authority,-58,-57.26499999999999,-58,-55.9,0.7350000000000065,2.1000000000000014
 ecologistes:risque:23,ecologistes,risque,23,immigration,-55,-55,-55,-55,0,0
-ecologistes:risque:24,ecologistes,risque,24,economy,-54,-48.01185,-54,-36.891,5.988149999999997,17.109
+ecologistes:risque:24,ecologistes,risque,24,economy,-54,-52.9465,-54,-50.99,1.0534999999999997,3.009999999999998
 ecologistes:risque:24,ecologistes,risque,24,society,-72,-72,-72,-72,0,0
 ecologistes:risque:24,ecologistes,risque,24,europe,62,55.805,62,44.3,-6.195,-17.700000000000003
 ecologistes:risque:24,ecologistes,risque,24,ecology,92,76.822145,92,48.6347,-15.177854999999994,-43.3653
@@ -6911,7 +6911,7 @@ ecologistes:ideologiquement_coherent:11,ecologistes,ideologiquement_coherent,11,
 ecologistes:ideologiquement_coherent:11,ecologistes,ideologiquement_coherent,11,ecology,92,82.872,92,65.92,-9.128,-26.08
 ecologistes:ideologiquement_coherent:11,ecologistes,ideologiquement_coherent,11,authority,-58,-63.404,-58,-73.44,-5.4040000000000035,-15.439999999999998
 ecologistes:ideologiquement_coherent:11,ecologistes,ideologiquement_coherent,11,immigration,-55,-55,-55,-55,0,0
-ecologistes:ideologiquement_coherent:12,ecologistes,ideologiquement_coherent,12,economy,-54,-45.2375095815,-54,-28.964313089999997,8.7624904185,25.035686910000003
+ecologistes:ideologiquement_coherent:12,ecologistes,ideologiquement_coherent,12,economy,-54,-49.863899534999995,-54,-42.1825701,4.1361004650000055,11.8174299
 ecologistes:ideologiquement_coherent:12,ecologistes,ideologiquement_coherent,12,society,-72,-73.19000000000001,-72,-75.4,-1.190000000000012,-3.4000000000000057
 ecologistes:ideologiquement_coherent:12,ecologistes,ideologiquement_coherent,12,europe,62,62,62,62,0,0
 ecologistes:ideologiquement_coherent:12,ecologistes,ideologiquement_coherent,12,ecology,92,90.6,92,88,-1.4000000000000057,-4
@@ -8777,7 +8777,7 @@ renaissance:aleatoire:22,renaissance,aleatoire,22,europe,78,78.85399999999998,78
 renaissance:aleatoire:22,renaissance,aleatoire,22,ecology,38,34.4755,38,27.930000000000003,-3.5245000000000033,-10.069999999999997
 renaissance:aleatoire:22,renaissance,aleatoire,22,authority,20,17.812500000000004,20,13.75,-2.1874999999999964,-6.25
 renaissance:aleatoire:22,renaissance,aleatoire,22,immigration,12,12,12,12,0,0
-renaissance:aleatoire:23,renaissance,aleatoire,23,economy,48,45.592000000000006,48,41.12,-2.407999999999994,-6.880000000000003
+renaissance:aleatoire:23,renaissance,aleatoire,23,economy,48,47.580000000000005,48,46.8,-0.4199999999999946,-1.2000000000000028
 renaissance:aleatoire:23,renaissance,aleatoire,23,society,-16,-16.7,-16,-18,-0.6999999999999993,-2
 renaissance:aleatoire:23,renaissance,aleatoire,23,europe,78,78,78,78,0,0
 renaissance:aleatoire:23,renaissance,aleatoire,23,ecology,38,37.019999999999996,38,35.2,-0.980000000000004,-2.799999999999997
@@ -9857,7 +9857,7 @@ renaissance:ideologiquement_coherent:22,renaissance,ideologiquement_coherent,22,
 renaissance:ideologiquement_coherent:22,renaissance,ideologiquement_coherent,22,ecology,38,37.720000000000006,38,37.2,-0.27999999999999403,-0.7999999999999972
 renaissance:ideologiquement_coherent:22,renaissance,ideologiquement_coherent,22,authority,20,19.65,20,19,-0.3500000000000014,-1
 renaissance:ideologiquement_coherent:22,renaissance,ideologiquement_coherent,22,immigration,12,12,12,12,0,0
-renaissance:ideologiquement_coherent:23,renaissance,ideologiquement_coherent,23,economy,48,49.72200000000001,48,52.919999999999995,1.7220000000000084,4.919999999999995
+renaissance:ideologiquement_coherent:23,renaissance,ideologiquement_coherent,23,economy,48,48.28000000000001,48,48.8,0.28000000000000824,0.7999999999999972
 renaissance:ideologiquement_coherent:23,renaissance,ideologiquement_coherent,23,society,-16,-16,-16,-16,0,0
 renaissance:ideologiquement_coherent:23,renaissance,ideologiquement_coherent,23,europe,78,77.895,78,77.7,-0.10500000000000398,-0.29999999999999716
 renaissance:ideologiquement_coherent:23,renaissance,ideologiquement_coherent,23,ecology,38,34.67150000000001,38,28.490000000000002,-3.328499999999991,-9.509999999999998
@@ -10109,7 +10109,7 @@ renaissance:opportuniste_electoral:4,renaissance,opportuniste_electoral,4,europe
 renaissance:opportuniste_electoral:4,renaissance,opportuniste_electoral,4,ecology,38,35.805499999999995,38,31.730000000000004,-2.194500000000005,-6.269999999999996
 renaissance:opportuniste_electoral:4,renaissance,opportuniste_electoral,4,authority,20,15.205,20,6.299999999999999,-4.795,-13.700000000000001
 renaissance:opportuniste_electoral:4,renaissance,opportuniste_electoral,4,immigration,12,15.254999999999999,12,21.3,3.254999999999999,9.3
-renaissance:opportuniste_electoral:5,renaissance,opportuniste_electoral,5,economy,48,41.26319044500001,48,28.751972700000003,-6.7368095549999865,-19.248027299999997
+renaissance:opportuniste_electoral:5,renaissance,opportuniste_electoral,5,economy,48,39.906871400500016,48,24.876775430000002,-8.093128599499984,-23.123224569999998
 renaissance:opportuniste_electoral:5,renaissance,opportuniste_electoral,5,society,-16,-16,-16,-16,0,0
 renaissance:opportuniste_electoral:5,renaissance,opportuniste_electoral,5,europe,78,78,78,78,0,0
 renaissance:opportuniste_electoral:5,renaissance,opportuniste_electoral,5,ecology,38,37.720000000000006,38,37.2,-0.27999999999999403,-0.7999999999999972
@@ -10361,7 +10361,7 @@ renaissance:opportuniste_electoral:46,renaissance,opportuniste_electoral,46,euro
 renaissance:opportuniste_electoral:46,renaissance,opportuniste_electoral,46,ecology,38,35.805499999999995,38,31.730000000000004,-2.194500000000005,-6.269999999999996
 renaissance:opportuniste_electoral:46,renaissance,opportuniste_electoral,46,authority,20,14.575000000000001,20,4.5,-5.424999999999999,-15.5
 renaissance:opportuniste_electoral:46,renaissance,opportuniste_electoral,46,immigration,12,12,12,12,0,0
-renaissance:opportuniste_electoral:47,renaissance,opportuniste_electoral,47,economy,48,47.018950000000004,48,45.197,-0.9810499999999962,-2.8029999999999973
+renaissance:opportuniste_electoral:47,renaissance,opportuniste_electoral,47,economy,48,49.1655,48,51.330000000000005,1.1655000000000015,3.3300000000000054
 renaissance:opportuniste_electoral:47,renaissance,opportuniste_electoral,47,society,-16,-16,-16,-16,0,0
 renaissance:opportuniste_electoral:47,renaissance,opportuniste_electoral,47,europe,78,80.17,78,84.2,2.1700000000000017,6.200000000000003
 renaissance:opportuniste_electoral:47,renaissance,opportuniste_electoral,47,ecology,38,38,38,38,0,0
@@ -10733,10 +10733,10 @@ renaissance:parti_dabord:48,renaissance,parti_dabord,48,europe,78,71.245,78,58.7
 renaissance:parti_dabord:48,renaissance,parti_dabord,48,ecology,38,35.8055,38,31.730000000000004,-2.194499999999998,-6.269999999999996
 renaissance:parti_dabord:48,renaissance,parti_dabord,48,authority,20,21.4,20,24,1.3999999999999986,4
 renaissance:parti_dabord:48,renaissance,parti_dabord,48,immigration,12,15.254999999999999,12,21.3,3.254999999999999,9.3
-renaissance:parti_dabord:49,renaissance,parti_dabord,49,economy,48,44.084199999999996,48,36.812,-3.9158000000000044,-11.188000000000002
+renaissance:parti_dabord:49,renaissance,parti_dabord,49,economy,48,42.6842,48,32.812,-5.315800000000003,-15.188000000000002
 renaissance:parti_dabord:49,renaissance,parti_dabord,49,society,-16,-16,-16,-16,0,0
 renaissance:parti_dabord:49,renaissance,parti_dabord,49,europe,78,78,78,78,0,0
-renaissance:parti_dabord:49,renaissance,parti_dabord,49,ecology,38,36.845,38,34.7,-1.1550000000000011,-3.299999999999997
+renaissance:parti_dabord:49,renaissance,parti_dabord,49,ecology,38,35.4555,38,30.730000000000004,-2.5444999999999993,-7.269999999999996
 renaissance:parti_dabord:49,renaissance,parti_dabord,49,authority,20,14.575000000000001,20,4.5,-5.424999999999999,-15.5
 renaissance:parti_dabord:49,renaissance,parti_dabord,49,immigration,12,15.254999999999999,12,21.3,3.254999999999999,9.3
 renaissance:parti_dabord:50,renaissance,parti_dabord,50,economy,48,47.3,48,46,-0.7000000000000028,-2
@@ -11117,13 +11117,13 @@ renaissance:mediatique:52,renaissance,mediatique,52,europe,78,78,78,78,0,0
 renaissance:mediatique:52,renaissance,mediatique,52,ecology,38,35.962999999999994,38,32.18000000000001,-2.037000000000006,-5.819999999999993
 renaissance:mediatique:52,renaissance,mediatique,52,authority,20,22.8,20,28,2.8000000000000007,8
 renaissance:mediatique:52,renaissance,mediatique,52,immigration,12,15.254999999999999,12,21.3,3.254999999999999,9.3
-renaissance:mediatique:53,renaissance,mediatique,53,economy,48,36.7553995,48,15.872570000000003,-11.244600499999997,-32.12743
+renaissance:mediatique:53,renaissance,mediatique,53,economy,48,37.761555,48,18.747300000000003,-10.238444999999999,-29.252699999999997
 renaissance:mediatique:53,renaissance,mediatique,53,society,-16,-16,-16,-16,0,0
 renaissance:mediatique:53,renaissance,mediatique,53,europe,78,78,78,78,0,0
 renaissance:mediatique:53,renaissance,mediatique,53,ecology,38,38,38,38,0,0
 renaissance:mediatique:53,renaissance,mediatique,53,authority,20,14.575000000000001,20,4.5,-5.424999999999999,-15.5
 renaissance:mediatique:53,renaissance,mediatique,53,immigration,12,12,12,12,0,0
-renaissance:mediatique:54,renaissance,mediatique,54,economy,48,33.41198950000001,48,6.319969999999999,-14.588010499999989,-41.68003
+renaissance:mediatique:54,renaissance,mediatique,54,economy,48,34.04665500000001,48,8.133299999999998,-13.953344999999992,-39.8667
 renaissance:mediatique:54,renaissance,mediatique,54,society,-16,-16,-16,-16,0,0
 renaissance:mediatique:54,renaissance,mediatique,54,europe,78,78,78,78,0,0
 renaissance:mediatique:54,renaissance,mediatique,54,ecology,38,36.845,38,34.7,-1.1550000000000011,-3.299999999999997
@@ -11561,10 +11561,10 @@ horizons:aleatoire:6,horizons,aleatoire,6,europe,56,54.24965,56,50.999,-1.750349
 horizons:aleatoire:6,horizons,aleatoire,6,ecology,22,21.4365,22,20.39,-0.5635000000000012,-1.6099999999999994
 horizons:aleatoire:6,horizons,aleatoire,6,authority,34,34.7,34,36,0.7000000000000028,2
 horizons:aleatoire:6,horizons,aleatoire,6,immigration,23,21.494999999999997,23,18.7,-1.5050000000000026,-4.300000000000001
-horizons:aleatoire:7,horizons,aleatoire,7,economy,55,45.84575,55,28.845,-9.154249999999998,-26.155
+horizons:aleatoire:7,horizons,aleatoire,7,economy,55,43.961175000000004,55,23.4605,-11.038824999999996,-31.5395
 horizons:aleatoire:7,horizons,aleatoire,7,society,8,8,8,8,0,0
 horizons:aleatoire:7,horizons,aleatoire,7,europe,56,56,56,56,0,0
-horizons:aleatoire:7,horizons,aleatoire,7,ecology,22,22,22,22,0,0
+horizons:aleatoire:7,horizons,aleatoire,7,ecology,22,20.88,22,18.8,-1.120000000000001,-3.1999999999999993
 horizons:aleatoire:7,horizons,aleatoire,7,authority,34,34,34,34,0,0
 horizons:aleatoire:7,horizons,aleatoire,7,immigration,23,23,23,23,0,0
 horizons:aleatoire:8,horizons,aleatoire,8,economy,55,53.5405,55,50.830000000000005,-1.4594999999999985,-4.169999999999995
@@ -11603,7 +11603,7 @@ horizons:aleatoire:13,horizons,aleatoire,13,europe,56,56,56,56,0,0
 horizons:aleatoire:13,horizons,aleatoire,13,ecology,22,22,22,22,0,0
 horizons:aleatoire:13,horizons,aleatoire,13,authority,34,33.3,34,32,-0.7000000000000028,-2
 horizons:aleatoire:13,horizons,aleatoire,13,immigration,23,23,23,23,0,0
-horizons:aleatoire:14,horizons,aleatoire,14,economy,55,48.032445,55,35.092699999999994,-6.967554999999997,-19.907300000000006
+horizons:aleatoire:14,horizons,aleatoire,14,economy,55,49.78605,55,40.102999999999994,-5.213949999999997,-14.897000000000006
 horizons:aleatoire:14,horizons,aleatoire,14,society,8,8,8,8,0,0
 horizons:aleatoire:14,horizons,aleatoire,14,europe,56,52.1885,56,45.11,-3.8115000000000023,-10.89
 horizons:aleatoire:14,horizons,aleatoire,14,ecology,22,22.21,22,22.6,0.21000000000000085,0.6000000000000014
@@ -12641,10 +12641,10 @@ horizons:ideologiquement_coherent:6,horizons,ideologiquement_coherent,6,europe,5
 horizons:ideologiquement_coherent:6,horizons,ideologiquement_coherent,6,ecology,22,21.9265,22,21.79,-0.07349999999999923,-0.21000000000000085
 horizons:ideologiquement_coherent:6,horizons,ideologiquement_coherent,6,authority,34,32.285,34,29.1,-1.7150000000000034,-4.899999999999999
 horizons:ideologiquement_coherent:6,horizons,ideologiquement_coherent,6,immigration,23,22.37,23,21.2,-0.629999999999999,-1.8000000000000007
-horizons:ideologiquement_coherent:7,horizons,ideologiquement_coherent,7,economy,55,55.097118,55,55.277480000000004,0.09711800000000181,0.27748000000000417
+horizons:ideologiquement_coherent:7,horizons,ideologiquement_coherent,7,economy,55,58.91902,55,66.19720000000001,3.9190200000000033,11.19720000000001
 horizons:ideologiquement_coherent:7,horizons,ideologiquement_coherent,7,society,8,8,8,8,0,0
 horizons:ideologiquement_coherent:7,horizons,ideologiquement_coherent,7,europe,56,56,56,56,0,0
-horizons:ideologiquement_coherent:7,horizons,ideologiquement_coherent,7,ecology,22,22,22,22,0,0
+horizons:ideologiquement_coherent:7,horizons,ideologiquement_coherent,7,ecology,22,19.241999999999997,22,14.120000000000001,-2.7580000000000027,-7.879999999999999
 horizons:ideologiquement_coherent:7,horizons,ideologiquement_coherent,7,authority,34,32.67,34,30.200000000000003,-1.3299999999999983,-3.799999999999997
 horizons:ideologiquement_coherent:7,horizons,ideologiquement_coherent,7,immigration,23,23,23,23,0,0
 horizons:ideologiquement_coherent:8,horizons,ideologiquement_coherent,8,economy,55,54.2755,55,52.93,-0.724499999999999,-2.0700000000000003
@@ -12731,7 +12731,7 @@ horizons:ideologiquement_coherent:21,horizons,ideologiquement_coherent,21,europe
 horizons:ideologiquement_coherent:21,horizons,ideologiquement_coherent,21,ecology,22,19.3148,22,14.328000000000001,-2.6851999999999983,-7.671999999999999
 horizons:ideologiquement_coherent:21,horizons,ideologiquement_coherent,21,authority,34,32.04,34,28.4,-1.9600000000000009,-5.600000000000001
 horizons:ideologiquement_coherent:21,horizons,ideologiquement_coherent,21,immigration,23,23,23,23,0,0
-horizons:ideologiquement_coherent:22,horizons,ideologiquement_coherent,22,economy,55,56.508500000000005,55,59.31,1.508500000000005,4.310000000000002
+horizons:ideologiquement_coherent:22,horizons,ideologiquement_coherent,22,economy,55,55.315000000000005,55,55.9,0.31500000000000483,0.8999999999999986
 horizons:ideologiquement_coherent:22,horizons,ideologiquement_coherent,22,society,8,8,8,8,0,0
 horizons:ideologiquement_coherent:22,horizons,ideologiquement_coherent,22,europe,56,56.75599999999999,56,58.16,0.7559999999999931,2.1599999999999966
 horizons:ideologiquement_coherent:22,horizons,ideologiquement_coherent,22,ecology,22,21.755000000000003,22,21.3,-0.24499999999999744,-0.6999999999999993
@@ -12755,7 +12755,7 @@ horizons:ideologiquement_coherent:25,horizons,ideologiquement_coherent,25,europe
 horizons:ideologiquement_coherent:25,horizons,ideologiquement_coherent,25,ecology,22,22,22,22,0,0
 horizons:ideologiquement_coherent:25,horizons,ideologiquement_coherent,25,authority,34,31.34,34,26.4,-2.66,-7.600000000000001
 horizons:ideologiquement_coherent:25,horizons,ideologiquement_coherent,25,immigration,23,23,23,23,0,0
-horizons:ideologiquement_coherent:26,horizons,ideologiquement_coherent,26,economy,55,50.199550499999994,55,41.28442999999999,-4.800449500000006,-13.715570000000007
+horizons:ideologiquement_coherent:26,horizons,ideologiquement_coherent,26,economy,55,50.521049999999995,55,42.202999999999996,-4.478950000000005,-12.797000000000004
 horizons:ideologiquement_coherent:26,horizons,ideologiquement_coherent,26,society,8,8,8,8,0,0
 horizons:ideologiquement_coherent:26,horizons,ideologiquement_coherent,26,europe,56,55.9685,56,55.91,-0.031500000000001194,-0.09000000000000341
 horizons:ideologiquement_coherent:26,horizons,ideologiquement_coherent,26,ecology,22,22.077,22,22.22,0.07700000000000173,0.21999999999999886
@@ -12857,10 +12857,10 @@ horizons:ideologiquement_coherent:42,horizons,ideologiquement_coherent,42,europe
 horizons:ideologiquement_coherent:42,horizons,ideologiquement_coherent,42,ecology,22,19.452,22,14.72,-2.5479999999999983,-7.279999999999999
 horizons:ideologiquement_coherent:42,horizons,ideologiquement_coherent,42,authority,34,34.0875,34,34.25,0.08749999999999858,0.25
 horizons:ideologiquement_coherent:42,horizons,ideologiquement_coherent,42,immigration,23,23,23,23,0,0
-horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,economy,55,56.48015000000001,55,59.229,1.480150000000009,4.228999999999999
+horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,economy,55,56.95265,55,60.579,1.9526499999999984,5.579000000000001
 horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,society,8,8,8,8,0,0
-horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,europe,56,57.105999999999995,56,59.16,1.1059999999999945,3.1599999999999966
-horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,ecology,22,21.027,22,19.22,-0.972999999999999,-2.780000000000001
+horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,europe,56,56,56,56,0,0
+horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,ecology,22,18.069982999999997,22,10.771379999999997,-3.930017000000003,-11.228620000000003
 horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,authority,34,32.04,34,28.4,-1.9600000000000009,-5.600000000000001
 horizons:ideologiquement_coherent:43,horizons,ideologiquement_coherent,43,immigration,23,23,23,23,0,0
 horizons:ideologiquement_coherent:44,horizons,ideologiquement_coherent,44,economy,55,53.253983000000005,55,50.01138,-1.7460169999999948,-4.988619999999997
@@ -12911,7 +12911,7 @@ horizons:ideologiquement_coherent:51,horizons,ideologiquement_coherent,51,europe
 horizons:ideologiquement_coherent:51,horizons,ideologiquement_coherent,51,ecology,22,22,22,22,0,0
 horizons:ideologiquement_coherent:51,horizons,ideologiquement_coherent,51,authority,34,31.270000000000003,34,26.200000000000003,-2.729999999999997,-7.799999999999997
 horizons:ideologiquement_coherent:51,horizons,ideologiquement_coherent,51,immigration,23,23,23,23,0,0
-horizons:ideologiquement_coherent:52,horizons,ideologiquement_coherent,52,economy,55,50.495496499999994,55,42.12999,-4.5045035000000055,-12.87001
+horizons:ideologiquement_coherent:52,horizons,ideologiquement_coherent,52,economy,55,48.63388499999999,55,36.811099999999996,-6.366115000000008,-18.188900000000004
 horizons:ideologiquement_coherent:52,horizons,ideologiquement_coherent,52,society,8,8,8,8,0,0
 horizons:ideologiquement_coherent:52,horizons,ideologiquement_coherent,52,europe,56,58.940000000000005,56,64.4,2.940000000000005,8.400000000000006
 horizons:ideologiquement_coherent:52,horizons,ideologiquement_coherent,52,ecology,22,20.711999999999996,22,18.32,-1.2880000000000038,-3.6799999999999997
@@ -12983,7 +12983,7 @@ horizons:opportuniste_electoral:3,horizons,opportuniste_electoral,3,europe,56,56
 horizons:opportuniste_electoral:3,horizons,opportuniste_electoral,3,ecology,22,21.405,22,20.3,-0.5949999999999989,-1.6999999999999993
 horizons:opportuniste_electoral:3,horizons,opportuniste_electoral,3,authority,34,28.764000000000003,34,19.040000000000003,-5.235999999999997,-14.959999999999997
 horizons:opportuniste_electoral:3,horizons,opportuniste_electoral,3,immigration,23,23,23,23,0,0
-horizons:opportuniste_electoral:4,horizons,opportuniste_electoral,4,economy,55,47.071415,55,32.346900000000005,-7.928584999999998,-22.653099999999995
+horizons:opportuniste_electoral:4,horizons,opportuniste_electoral,4,economy,55,45.589273500000004,55,28.112210000000005,-9.410726499999996,-26.887789999999995
 horizons:opportuniste_electoral:4,horizons,opportuniste_electoral,4,society,8,8,8,8,0,0
 horizons:opportuniste_electoral:4,horizons,opportuniste_electoral,4,europe,56,56,56,56,0,0
 horizons:opportuniste_electoral:4,horizons,opportuniste_electoral,4,ecology,22,21.744500000000002,22,21.270000000000003,-0.25549999999999784,-0.7299999999999969
@@ -13211,7 +13211,7 @@ horizons:opportuniste_electoral:41,horizons,opportuniste_electoral,41,europe,56,
 horizons:opportuniste_electoral:41,horizons,opportuniste_electoral,41,ecology,22,21.404999999999998,22,20.3,-0.5950000000000024,-1.6999999999999993
 horizons:opportuniste_electoral:41,horizons,opportuniste_electoral,41,authority,34,33.370000000000005,34,32.2,-0.6299999999999955,-1.7999999999999972
 horizons:opportuniste_electoral:41,horizons,opportuniste_electoral,41,immigration,23,25.87,23,31.2,2.870000000000001,8.2
-horizons:opportuniste_electoral:42,horizons,opportuniste_electoral,42,economy,55,52.059405,55,46.5983,-2.940595000000002,-8.401699999999998
+horizons:opportuniste_electoral:42,horizons,opportuniste_electoral,42,economy,55,54.26045,55,52.887,-0.7395500000000013,-2.1129999999999995
 horizons:opportuniste_electoral:42,horizons,opportuniste_electoral,42,society,8,8,8,8,0,0
 horizons:opportuniste_electoral:42,horizons,opportuniste_electoral,42,europe,56,56,56,56,0,0
 horizons:opportuniste_electoral:42,horizons,opportuniste_electoral,42,ecology,22,21.405,22,20.3,-0.5949999999999989,-1.6999999999999993
@@ -13703,7 +13703,7 @@ horizons:mediatique:3,horizons,mediatique,3,europe,56,56,56,56,0,0
 horizons:mediatique:3,horizons,mediatique,3,ecology,22,21.027,22,19.22,-0.972999999999999,-2.780000000000001
 horizons:mediatique:3,horizons,mediatique,3,authority,34,34,34,34,0,0
 horizons:mediatique:3,horizons,mediatique,3,immigration,23,23,23,23,0,0
-horizons:mediatique:4,horizons,mediatique,4,economy,55,53.705000000000005,55,51.3,-1.2949999999999946,-3.700000000000003
+horizons:mediatique:4,horizons,mediatique,4,economy,55,51.55950000000001,55,45.169999999999995,-3.440499999999993,-9.830000000000005
 horizons:mediatique:4,horizons,mediatique,4,society,8,8,8,8,0,0
 horizons:mediatique:4,horizons,mediatique,4,europe,56,56,56,56,0,0
 horizons:mediatique:4,horizons,mediatique,4,ecology,22,21.902,22,21.720000000000002,-0.09799999999999898,-0.2799999999999976
@@ -13727,7 +13727,7 @@ horizons:mediatique:7,horizons,mediatique,7,europe,56,56,56,56,0,0
 horizons:mediatique:7,horizons,mediatique,7,ecology,22,21.405,22,20.3,-0.5949999999999989,-1.6999999999999993
 horizons:mediatique:7,horizons,mediatique,7,authority,34,34,34,34,0,0
 horizons:mediatique:7,horizons,mediatique,7,immigration,23,23,23,23,0,0
-horizons:mediatique:8,horizons,mediatique,8,economy,55,43.862475,55,23.1785,-11.137524999999997,-31.8215
+horizons:mediatique:8,horizons,mediatique,8,economy,55,45.152750000000005,55,26.865000000000002,-9.847249999999995,-28.134999999999998
 horizons:mediatique:8,horizons,mediatique,8,society,8,8,8,8,0,0
 horizons:mediatique:8,horizons,mediatique,8,europe,56,56,56,56,0,0
 horizons:mediatique:8,horizons,mediatique,8,ecology,22,21.027,22,19.22,-0.972999999999999,-2.780000000000001
@@ -13949,7 +13949,7 @@ horizons:mediatique:44,horizons,mediatique,44,europe,56,52.836000000000006,56,46
 horizons:mediatique:44,horizons,mediatique,44,ecology,22,22.279999999999998,22,22.8,0.2799999999999976,0.8000000000000007
 horizons:mediatique:44,horizons,mediatique,44,authority,34,29.219,34,20.340000000000003,-4.780999999999999,-13.659999999999997
 horizons:mediatique:44,horizons,mediatique,44,immigration,23,23,23,23,0,0
-horizons:mediatique:45,horizons,mediatique,45,economy,55,44.0345,55,23.669999999999995,-10.965499999999999,-31.330000000000005
+horizons:mediatique:45,horizons,mediatique,45,economy,55,42.85605,55,20.302999999999994,-12.143949999999997,-34.697
 horizons:mediatique:45,horizons,mediatique,45,society,8,8,8,8,0,0
 horizons:mediatique:45,horizons,mediatique,45,europe,56,52.836000000000006,56,46.96000000000001,-3.1639999999999944,-9.039999999999992
 horizons:mediatique:45,horizons,mediatique,45,ecology,22,22,22,22,0,0
@@ -14435,7 +14435,7 @@ lr:aleatoire:5,lr,aleatoire,5,europe,20,20,20,20,0,0
 lr:aleatoire:5,lr,aleatoire,5,ecology,-12,-11.475000000000001,-12,-10.5,0.5249999999999986,1.5
 lr:aleatoire:5,lr,aleatoire,5,authority,68,67.65,68,67,-0.3499999999999943,-1
 lr:aleatoire:5,lr,aleatoire,5,immigration,62,56.155,62,45.3,-5.844999999999999,-16.700000000000003
-lr:aleatoire:6,lr,aleatoire,6,economy,62,57.60266615,62,49.43618899999999,-4.3973338500000025,-12.563811000000008
+lr:aleatoire:6,lr,aleatoire,6,economy,62,58.593415,62,52.26689999999999,-3.4065849999999998,-9.733100000000007
 lr:aleatoire:6,lr,aleatoire,6,society,43,43,43,43,0,0
 lr:aleatoire:6,lr,aleatoire,6,europe,20,25.9325,20,36.95,5.932500000000001,16.950000000000003
 lr:aleatoire:6,lr,aleatoire,6,ecology,-12,-9.452000000000002,-12,-4.72,2.5479999999999983,7.28
@@ -15137,7 +15137,7 @@ lr:risque:2,lr,risque,2,europe,20,17.497500000000002,20,12.85,-2.502499999999997
 lr:risque:2,lr,risque,2,ecology,-12,-12,-12,-12,0,0
 lr:risque:2,lr,risque,2,authority,68,68.7,68,70,0.7000000000000028,2
 lr:risque:2,lr,risque,2,immigration,62,62,62,62,0,0
-lr:risque:3,lr,risque,3,economy,62,58.16198049999999,62,51.034229999999994,-3.8380195000000086,-10.965770000000006
+lr:risque:3,lr,risque,3,economy,62,56.64664499999999,62,46.704699999999995,-5.353355000000008,-15.295300000000005
 lr:risque:3,lr,risque,3,society,43,43,43,43,0,0
 lr:risque:3,lr,risque,3,europe,20,20,20,20,0,0
 lr:risque:3,lr,risque,3,ecology,-12,-11.405,-12,-10.3,0.5950000000000006,1.6999999999999993
@@ -15857,7 +15857,7 @@ lr:opportuniste_electoral:2,lr,opportuniste_electoral,2,europe,20,24.2,20,32,4.1
 lr:opportuniste_electoral:2,lr,opportuniste_electoral,2,ecology,-12,-11.405,-12,-10.3,0.5950000000000006,1.6999999999999993
 lr:opportuniste_electoral:2,lr,opportuniste_electoral,2,authority,68,68,68,68,0,0
 lr:opportuniste_electoral:2,lr,opportuniste_electoral,2,immigration,62,62,62,62,0,0
-lr:opportuniste_electoral:3,lr,opportuniste_electoral,3,economy,62,50.472984499999995,62,29.06567,-11.527015500000005,-32.93433
+lr:opportuniste_electoral:3,lr,opportuniste_electoral,3,economy,62,51.992205,62,33.4063,-10.007795000000002,-28.5937
 lr:opportuniste_electoral:3,lr,opportuniste_electoral,3,society,43,43,43,43,0,0
 lr:opportuniste_electoral:3,lr,opportuniste_electoral,3,europe,20,20,20,20,0,0
 lr:opportuniste_electoral:3,lr,opportuniste_electoral,3,ecology,-12,-12,-12,-12,0,0
@@ -15887,7 +15887,7 @@ lr:opportuniste_electoral:7,lr,opportuniste_electoral,7,europe,20,20,20,20,0,0
 lr:opportuniste_electoral:7,lr,opportuniste_electoral,7,ecology,-12,-12,-12,-12,0,0
 lr:opportuniste_electoral:7,lr,opportuniste_electoral,7,authority,68,68.35,68,69,0.3499999999999943,1
 lr:opportuniste_electoral:7,lr,opportuniste_electoral,7,immigration,62,62,62,62,0,0
-lr:opportuniste_electoral:8,lr,opportuniste_electoral,8,economy,62,59.16185,62,53.891000000000005,-2.838149999999999,-8.108999999999995
+lr:opportuniste_electoral:8,lr,opportuniste_electoral,8,economy,62,56.925665,62,47.501900000000006,-5.074334999999998,-14.498099999999994
 lr:opportuniste_electoral:8,lr,opportuniste_electoral,8,society,43,42.335,43,41.1,-0.6649999999999991,-1.8999999999999986
 lr:opportuniste_electoral:8,lr,opportuniste_electoral,8,europe,20,20,20,20,0,0
 lr:opportuniste_electoral:8,lr,opportuniste_electoral,8,ecology,-12,-10.530000000000001,-12,-7.8,1.4699999999999989,4.2
@@ -15969,7 +15969,7 @@ lr:opportuniste_electoral:21,lr,opportuniste_electoral,21,economy,62,51.7808393,
 lr:opportuniste_electoral:21,lr,opportuniste_electoral,21,society,43,42.335,43,41.1,-0.6649999999999991,-1.8999999999999986
 lr:opportuniste_electoral:21,lr,opportuniste_electoral,21,europe,20,20,20,20,0,0
 lr:opportuniste_electoral:21,lr,opportuniste_electoral,21,ecology,-12,-12,-12,-12,0,0
-lr:opportuniste_electoral:21,lr,opportuniste_electoral,21,authority,68,68.35000000000001,68,69,0.3500000000000085,1
+lr:opportuniste_electoral:21,lr,opportuniste_electoral,21,authority,68,62.785000000000004,68,53.1,-5.214999999999996,-14.899999999999999
 lr:opportuniste_electoral:21,lr,opportuniste_electoral,21,immigration,62,63.505,62,66.3,1.5050000000000026,4.299999999999997
 lr:opportuniste_electoral:22,lr,opportuniste_electoral,22,economy,62,49.94677,62,27.562199999999997,-12.05323,-34.4378
 lr:opportuniste_electoral:22,lr,opportuniste_electoral,22,society,43,42.335,43,41.1,-0.6649999999999991,-1.8999999999999986
@@ -16075,10 +16075,10 @@ lr:opportuniste_electoral:38,lr,opportuniste_electoral,38,authority,68,68.350000
 lr:opportuniste_electoral:38,lr,opportuniste_electoral,38,immigration,62,63.505,62,66.3,1.5050000000000026,4.299999999999997
 lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,economy,62,52.1420155,62,33.834329999999994,-9.8579845,-28.165670000000006
 lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,society,43,43,43,43,0,0
-lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,europe,20,20,20,20,0,0
+lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,europe,20,24.2,20,32,4.199999999999999,12
 lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,ecology,-12,-10.530000000000001,-12,-7.8,1.4699999999999989,4.2
-lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,authority,68,63.48499999999999,68,55.1,-4.515000000000008,-12.899999999999999
-lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,immigration,62,63.505,62,66.3,1.5050000000000026,4.299999999999997
+lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,authority,68,62.78499999999999,68,53.1,-5.2150000000000105,-14.899999999999999
+lr:opportuniste_electoral:39,lr,opportuniste_electoral,39,immigration,62,62,62,62,0,0
 lr:opportuniste_electoral:40,lr,opportuniste_electoral,40,economy,62,58.44749999999999,62,51.85,-3.552500000000009,-10.149999999999999
 lr:opportuniste_electoral:40,lr,opportuniste_electoral,40,society,43,42.335,43,41.1,-0.6649999999999991,-1.8999999999999986
 lr:opportuniste_electoral:40,lr,opportuniste_electoral,40,europe,20,20,20,20,0,0
@@ -16169,7 +16169,7 @@ lr:opportuniste_electoral:54,lr,opportuniste_electoral,54,europe,20,20,20,20,0,0
 lr:opportuniste_electoral:54,lr,opportuniste_electoral,54,ecology,-12,-12,-12,-12,0,0
 lr:opportuniste_electoral:54,lr,opportuniste_electoral,54,authority,68,56.0755,68,33.93,-11.924500000000002,-34.07
 lr:opportuniste_electoral:54,lr,opportuniste_electoral,54,immigration,62,62,62,62,0,0
-lr:opportuniste_electoral:55,lr,opportuniste_electoral,55,economy,62,50.320744999999995,62,28.6307,-11.679255000000005,-33.369299999999996
+lr:opportuniste_electoral:55,lr,opportuniste_electoral,55,economy,62,51.823049999999995,62,32.923,-10.176950000000005,-29.076999999999998
 lr:opportuniste_electoral:55,lr,opportuniste_electoral,55,society,43,43,43,43,0,0
 lr:opportuniste_electoral:55,lr,opportuniste_electoral,55,europe,20,24.2,20,32,4.199999999999999,12
 lr:opportuniste_electoral:55,lr,opportuniste_electoral,55,ecology,-12,-11.405,-12,-10.3,0.5950000000000006,1.6999999999999993
@@ -16493,11 +16493,11 @@ lr:parti_dabord:48,lr,parti_dabord,48,europe,20,15.275,20,6.5,-4.725,-13.5
 lr:parti_dabord:48,lr,parti_dabord,48,ecology,-12,-11.405,-12,-10.3,0.5950000000000006,1.6999999999999993
 lr:parti_dabord:48,lr,parti_dabord,48,authority,68,69.4,68,72,1.4000000000000057,4
 lr:parti_dabord:48,lr,parti_dabord,48,immigration,62,63.505,62,66.3,1.5050000000000026,4.299999999999997
-lr:parti_dabord:49,lr,parti_dabord,49,economy,62,50.330299999999994,62,28.657999999999998,-11.669700000000006,-33.342
+lr:parti_dabord:49,lr,parti_dabord,49,economy,62,46.783043,62,18.522979999999997,-15.216957,-43.47702
 lr:parti_dabord:49,lr,parti_dabord,49,society,43,43,43,43,0,0
 lr:parti_dabord:49,lr,parti_dabord,49,europe,20,20,20,20,0,0
-lr:parti_dabord:49,lr,parti_dabord,49,ecology,-12,-11.405,-12,-10.3,0.5950000000000006,1.6999999999999993
-lr:parti_dabord:49,lr,parti_dabord,49,authority,68,68,68,68,0,0
+lr:parti_dabord:49,lr,parti_dabord,49,ecology,-12,-11.2195,-12,-9.770000000000001,0.7805,2.2299999999999986
+lr:parti_dabord:49,lr,parti_dabord,49,authority,68,67.65,68,67,-0.3499999999999943,-1
 lr:parti_dabord:49,lr,parti_dabord,49,immigration,62,62,62,62,0,0
 lr:parti_dabord:50,lr,parti_dabord,50,economy,62,47.759027450000005,62,21.311507000000002,-14.240972549999995,-40.688492999999994
 lr:parti_dabord:50,lr,parti_dabord,50,society,43,43,43,43,0,0
@@ -16583,7 +16583,7 @@ lr:mediatique:3,lr,mediatique,3,europe,20,20,20,20,0,0
 lr:mediatique:3,lr,mediatique,3,ecology,-12,-11.405000000000001,-12,-10.3,0.5949999999999989,1.6999999999999993
 lr:mediatique:3,lr,mediatique,3,authority,68,60.894999999999996,68,47.7,-7.105000000000004,-20.299999999999997
 lr:mediatique:3,lr,mediatique,3,immigration,62,62,62,62,0,0
-lr:mediatique:4,lr,mediatique,4,economy,62,54.594,62,40.84,-7.405999999999999,-21.159999999999997
+lr:mediatique:4,lr,mediatique,4,economy,62,52.8146,62,35.756,-9.185400000000001,-26.244
 lr:mediatique:4,lr,mediatique,4,society,43,42.335,43,41.1,-0.6649999999999991,-1.8999999999999986
 lr:mediatique:4,lr,mediatique,4,europe,20,21.75,20,25,1.75,5
 lr:mediatique:4,lr,mediatique,4,ecology,-12,-10.082,-12,-6.52,1.9179999999999993,5.48
@@ -16721,7 +16721,7 @@ lr:mediatique:26,lr,mediatique,26,europe,20,24.41,20,32.6,4.41,12.60000000000000
 lr:mediatique:26,lr,mediatique,26,ecology,-12,-11.23,-12,-9.8,0.7699999999999996,2.1999999999999993
 lr:mediatique:26,lr,mediatique,26,authority,68,61.595,68,49.7,-6.405000000000001,-18.299999999999997
 lr:mediatique:26,lr,mediatique,26,immigration,62,63.505,62,66.3,1.5050000000000026,4.299999999999997
-lr:mediatique:27,lr,mediatique,27,economy,62,50.859395,62,30.169699999999995,-11.140605,-31.830300000000005
+lr:mediatique:27,lr,mediatique,27,economy,62,52.421549999999996,62,34.632999999999996,-9.578450000000004,-27.367000000000004
 lr:mediatique:27,lr,mediatique,27,society,43,42.335,43,41.1,-0.6649999999999991,-1.8999999999999986
 lr:mediatique:27,lr,mediatique,27,europe,20,20,20,20,0,0
 lr:mediatique:27,lr,mediatique,27,ecology,-12,-11.23,-12,-9.8,0.7699999999999996,2.1999999999999993
@@ -16805,7 +16805,7 @@ lr:mediatique:40,lr,mediatique,40,europe,20,20,20,20,0,0
 lr:mediatique:40,lr,mediatique,40,ecology,-12,-11.23,-12,-9.8,0.7699999999999996,2.1999999999999993
 lr:mediatique:40,lr,mediatique,40,authority,68,69.015,68,70.9,1.0150000000000006,2.9000000000000057
 lr:mediatique:40,lr,mediatique,40,immigration,62,63.505,62,66.3,1.5050000000000026,4.299999999999997
-lr:mediatique:41,lr,mediatique,41,economy,62,45.389168000000005,62,14.540479999999995,-16.610831999999995,-47.459520000000005
+lr:mediatique:41,lr,mediatique,41,economy,62,46.343520000000005,62,17.267199999999995,-15.656479999999995,-44.732800000000005
 lr:mediatique:41,lr,mediatique,41,society,43,43,43,43,0,0
 lr:mediatique:41,lr,mediatique,41,europe,20,24.2,20,32,4.199999999999999,12
 lr:mediatique:41,lr,mediatique,41,ecology,-12,-11.23,-12,-9.8,0.7699999999999996,2.1999999999999993
@@ -17075,11 +17075,11 @@ lr:contrarien:25,lr,contrarien,25,europe,20,20,20,20,0,0
 lr:contrarien:25,lr,contrarien,25,ecology,-12,-12,-12,-12,0,0
 lr:contrarien:25,lr,contrarien,25,authority,68,68.35,68,69,0.3499999999999943,1
 lr:contrarien:25,lr,contrarien,25,immigration,62,62,62,62,0,0
-lr:contrarien:26,lr,contrarien,26,economy,62,53.612249999999996,62,38.035,-8.387750000000004,-23.965000000000003
+lr:contrarien:26,lr,contrarien,26,economy,62,57.975,62,50.5,-4.024999999999999,-11.5
 lr:contrarien:26,lr,contrarien,26,society,43,43,43,43,0,0
 lr:contrarien:26,lr,contrarien,26,europe,20,20,20,20,0,0
-lr:contrarien:26,lr,contrarien,26,ecology,-12,-11.405,-12,-10.3,0.5950000000000006,1.6999999999999993
-lr:contrarien:26,lr,contrarien,26,authority,68,61.245,68,48.7,-6.755000000000003,-19.299999999999997
+lr:contrarien:26,lr,contrarien,26,ecology,-12,-9.994499999999999,-12,-6.2700000000000005,2.0055000000000014,5.7299999999999995
+lr:contrarien:26,lr,contrarien,26,authority,68,60.894999999999996,68,47.7,-7.105000000000004,-20.299999999999997
 lr:contrarien:26,lr,contrarien,26,immigration,62,62,62,62,0,0
 lr:contrarien:27,lr,contrarien,27,economy,62,47.495125,62,20.5575,-14.504874999999998,-41.442499999999995
 lr:contrarien:27,lr,contrarien,27,society,43,43,43,43,0,0
@@ -17387,7 +17387,7 @@ rn:aleatoire:17,rn,aleatoire,17,europe,-58,-53.345000000000006,-58,-44.7,4.65499
 rn:aleatoire:17,rn,aleatoire,17,ecology,-24,-21.214000000000002,-24,-16.040000000000003,2.785999999999998,7.959999999999997
 rn:aleatoire:17,rn,aleatoire,17,authority,82,74.405,82,60.3,-7.594999999999999,-21.700000000000003
 rn:aleatoire:17,rn,aleatoire,17,immigration,92,92,92,92,0,0
-rn:aleatoire:18,rn,aleatoire,18,economy,-8,-4.4185795,-8,2.2326300000000003,3.5814205,10.23263
+rn:aleatoire:18,rn,aleatoire,18,economy,-8,-4.84672155,-8,1.0093670000000001,3.15327845,9.009367000000001
 rn:aleatoire:18,rn,aleatoire,18,society,68,68,68,68,0,0
 rn:aleatoire:18,rn,aleatoire,18,europe,-58,-53.695,-58,-45.7,4.305,12.299999999999997
 rn:aleatoire:18,rn,aleatoire,18,ecology,-24,-23.3,-24,-22,0.6999999999999993,2
@@ -17549,7 +17549,7 @@ rn:aleatoire:44,rn,aleatoire,44,europe,-58,-55.305,-58,-50.3,2.6950000000000003,
 rn:aleatoire:44,rn,aleatoire,44,ecology,-24,-24,-24,-24,0,0
 rn:aleatoire:44,rn,aleatoire,44,authority,82,85.42999999999999,82,91.8,3.4299999999999926,9.799999999999997
 rn:aleatoire:44,rn,aleatoire,44,immigration,92,90.60000000000001,92,88,-1.3999999999999915,-4
-rn:aleatoire:45,rn,aleatoire,45,economy,-8,-8.966137795000002,-8,-10.760393699999998,-0.9661377950000016,-2.760393699999998
+rn:aleatoire:45,rn,aleatoire,45,economy,-8,-12.884597550000002,-8,-21.955993,-4.884597550000002,-13.955993
 rn:aleatoire:45,rn,aleatoire,45,society,68,68,68,68,0,0
 rn:aleatoire:45,rn,aleatoire,45,europe,-58,-58,-58,-58,0,0
 rn:aleatoire:45,rn,aleatoire,45,ecology,-24,-24,-24,-24,0,0
@@ -17573,7 +17573,7 @@ rn:aleatoire:48,rn,aleatoire,48,europe,-58,-52.33,-58,-41.8,5.670000000000002,16
 rn:aleatoire:48,rn,aleatoire,48,ecology,-24,-22.810000000000002,-24,-20.6,1.1899999999999977,3.3999999999999986
 rn:aleatoire:48,rn,aleatoire,48,authority,82,80.327,82,77.22,-1.6730000000000018,-4.780000000000001
 rn:aleatoire:48,rn,aleatoire,48,immigration,92,90.60000000000001,92,88,-1.3999999999999915,-4
-rn:aleatoire:49,rn,aleatoire,49,economy,-8,-10.48045,-8,-15.087,-2.4804499999999994,-7.087
+rn:aleatoire:49,rn,aleatoire,49,economy,-8,-6.992164499999999,-8,-5.120469999999999,1.0078355000000014,2.879530000000001
 rn:aleatoire:49,rn,aleatoire,49,society,68,68,68,68,0,0
 rn:aleatoire:49,rn,aleatoire,49,europe,-58,-47.108000000000004,-58,-26.880000000000003,10.891999999999996,31.119999999999997
 rn:aleatoire:49,rn,aleatoire,49,ecology,-24,-24,-24,-24,0,0
@@ -18041,7 +18041,7 @@ rn:risque:6,rn,risque,6,europe,-58,-61.395,-58,-67.7,-3.395000000000003,-9.70000
 rn:risque:6,rn,risque,6,ecology,-24,-24,-24,-24,0,0
 rn:risque:6,rn,risque,6,authority,82,85.71,82,92.6,3.7099999999999937,10.599999999999994
 rn:risque:6,rn,risque,6,immigration,92,94.8,92,100,2.799999999999997,8
-rn:risque:7,rn,risque,7,economy,-8,-6.30495,-8,-3.157,1.6950500000000002,4.843
+rn:risque:7,rn,risque,7,economy,-8,-7.244455,-8,-5.8413,0.7555449999999997,2.1586999999999996
 rn:risque:7,rn,risque,7,society,68,65.27,68,60.2,-2.730000000000004,-7.799999999999997
 rn:risque:7,rn,risque,7,europe,-58,-58,-58,-58,0,0
 rn:risque:7,rn,risque,7,ecology,-24,-23.201999999999998,-24,-21.72,0.7980000000000018,2.280000000000001
@@ -18227,7 +18227,7 @@ rn:risque:37,rn,risque,37,europe,-58,-59.995000000000005,-58,-63.7,-1.9950000000
 rn:risque:37,rn,risque,37,ecology,-24,-23.6465,-24,-22.990000000000002,0.35350000000000037,1.009999999999998
 rn:risque:37,rn,risque,37,authority,82,82.7,82,84,0.7000000000000028,2
 rn:risque:37,rn,risque,37,immigration,92,92,92,92,0,0
-rn:risque:38,rn,risque,38,economy,-8,-3.0084986950000014,-8,6.261432300000001,4.991501304999998,14.261432300000001
+rn:risque:38,rn,risque,38,economy,-8,-6.264998550000001,-8,-3.042852999999999,1.7350014499999986,4.957147000000001
 rn:risque:38,rn,risque,38,society,68,68,68,68,0,0
 rn:risque:38,rn,risque,38,europe,-58,-59.4,-58,-62,-1.3999999999999986,-4
 rn:risque:38,rn,risque,38,ecology,-24,-21.7565,-24,-17.59,2.243500000000001,6.41
@@ -18467,7 +18467,7 @@ rn:ideologiquement_coherent:17,rn,ideologiquement_coherent,17,europe,-58,-58,-58
 rn:ideologiquement_coherent:17,rn,ideologiquement_coherent,17,ecology,-24,-21.563999999999997,-24,-17.04,2.4360000000000035,6.960000000000001
 rn:ideologiquement_coherent:17,rn,ideologiquement_coherent,17,authority,82,80.88000000000001,82,78.8,-1.1199999999999903,-3.200000000000003
 rn:ideologiquement_coherent:17,rn,ideologiquement_coherent,17,immigration,92,92,92,92,0,0
-rn:ideologiquement_coherent:18,rn,ideologiquement_coherent,18,economy,-8,-10.329364799999999,-8,-14.655327999999999,-2.3293647999999987,-6.655327999999999
+rn:ideologiquement_coherent:18,rn,ideologiquement_coherent,18,economy,-8,-10.166428319999998,-8,-14.189795199999999,-2.166428319999998,-6.189795199999999
 rn:ideologiquement_coherent:18,rn,ideologiquement_coherent,18,society,68,68,68,68,0,0
 rn:ideologiquement_coherent:18,rn,ideologiquement_coherent,18,europe,-58,-61.395,-58,-67.7,-3.395000000000003,-9.700000000000003
 rn:ideologiquement_coherent:18,rn,ideologiquement_coherent,18,ecology,-24,-24.14,-24,-24.4,-0.14000000000000057,-0.3999999999999986
@@ -18587,7 +18587,7 @@ rn:ideologiquement_coherent:37,rn,ideologiquement_coherent,37,europe,-58,-59.995
 rn:ideologiquement_coherent:37,rn,ideologiquement_coherent,37,ecology,-24,-22.812589999999997,-24,-20.607400000000002,1.1874100000000034,3.392599999999998
 rn:ideologiquement_coherent:37,rn,ideologiquement_coherent,37,authority,82,82.7,82,84,0.7000000000000028,2
 rn:ideologiquement_coherent:37,rn,ideologiquement_coherent,37,immigration,92,92,92,92,0,0
-rn:ideologiquement_coherent:38,rn,ideologiquement_coherent,38,economy,-8,-9.829031049999998,-8,-13.225802999999999,-1.8290310499999975,-5.225802999999999
+rn:ideologiquement_coherent:38,rn,ideologiquement_coherent,38,economy,-8,-9.716127944999998,-8,-12.903222699999999,-1.7161279449999984,-4.903222699999999
 rn:ideologiquement_coherent:38,rn,ideologiquement_coherent,38,society,68,68,68,68,0,0
 rn:ideologiquement_coherent:38,rn,ideologiquement_coherent,38,europe,-58,-59.4,-58,-62,-1.3999999999999986,-4
 rn:ideologiquement_coherent:38,rn,ideologiquement_coherent,38,ecology,-24,-21.61335,-24,-17.181,2.3866499999999995,6.818999999999999
@@ -19073,7 +19073,7 @@ rn:opportuniste_electoral:58,rn,opportuniste_electoral,58,europe,-58,-58,-58,-58
 rn:opportuniste_electoral:58,rn,opportuniste_electoral,58,ecology,-24,-24,-24,-24,0,0
 rn:opportuniste_electoral:58,rn,opportuniste_electoral,58,authority,82,82,82,82,0,0
 rn:opportuniste_electoral:58,rn,opportuniste_electoral,58,immigration,92,92,92,92,0,0
-rn:opportuniste_electoral:59,rn,opportuniste_electoral,59,economy,-8,-12.627609,-8,-21.221739999999997,-4.627609,-13.221739999999997
+rn:opportuniste_electoral:59,rn,opportuniste_electoral,59,economy,-8,-13.06401,-8,-22.4686,-5.06401,-14.468599999999999
 rn:opportuniste_electoral:59,rn,opportuniste_electoral,59,society,68,68,68,68,0,0
 rn:opportuniste_electoral:59,rn,opportuniste_electoral,59,europe,-58,-59.4,-58,-62,-1.3999999999999986,-4
 rn:opportuniste_electoral:59,rn,opportuniste_electoral,59,ecology,-24,-22.985,-24,-21.1,1.0150000000000006,2.8999999999999986
@@ -20903,7 +20903,7 @@ reconquete:risque:3,reconquete,risque,3,europe,-62,-63.4,-62,-66,-1.399999999999
 reconquete:risque:3,reconquete,risque,3,ecology,-42,-42,-42,-42,0,0
 reconquete:risque:3,reconquete,risque,3,authority,88,85.8755,88,81.93,-2.1244999999999976,-6.069999999999993
 reconquete:risque:3,reconquete,risque,3,immigration,100,100,100,100,0,0
-reconquete:risque:4,reconquete,risque,4,economy,43,42.93133699999999,43,42.80382,-0.06866300000000791,-0.19617999999999824
+reconquete:risque:4,reconquete,risque,4,economy,43,41.095929999999996,43,37.5598,-1.9040700000000044,-5.440199999999997
 reconquete:risque:4,reconquete,risque,4,society,88,88,88,88,0,0
 reconquete:risque:4,reconquete,risque,4,europe,-62,-59.697,-62,-55.419999999999995,2.3029999999999973,6.580000000000005
 reconquete:risque:4,reconquete,risque,4,ecology,-42,-40.355000000000004,-42,-37.3,1.644999999999996,4.700000000000003
@@ -21035,7 +21035,7 @@ reconquete:risque:25,reconquete,risque,25,europe,-62,-58.78,-62,-52.8,3.21999999
 reconquete:risque:25,reconquete,risque,25,ecology,-42,-41.93,-42,-41.8,0.07000000000000028,0.20000000000000284
 reconquete:risque:25,reconquete,risque,25,authority,88,84.773,88,78.78,-3.227000000000004,-9.219999999999999
 reconquete:risque:25,reconquete,risque,25,immigration,100,100,100,100,0,0
-reconquete:risque:26,reconquete,risque,26,economy,43,37.82124949999999,43,28.20357,-5.178750500000007,-14.79643
+reconquete:risque:26,reconquete,risque,26,economy,43,35.418054999999995,43,21.3373,-7.581945000000005,-21.6627
 reconquete:risque:26,reconquete,risque,26,society,88,88,88,88,0,0
 reconquete:risque:26,reconquete,risque,26,europe,-62,-63.4,-62,-66,-1.3999999999999986,-4
 reconquete:risque:26,reconquete,risque,26,ecology,-42,-40.004999999999995,-42,-36.3,1.9950000000000045,5.700000000000003
@@ -21197,7 +21197,7 @@ reconquete:risque:52,reconquete,risque,52,europe,-62,-65.25500000000001,-62,-71.
 reconquete:risque:52,reconquete,risque,52,ecology,-42,-40.355000000000004,-42,-37.3,1.644999999999996,4.700000000000003
 reconquete:risque:52,reconquete,risque,52,authority,88,91.01,88,96.6,3.010000000000005,8.599999999999994
 reconquete:risque:52,reconquete,risque,52,immigration,100,100,100,100,0,0
-reconquete:risque:53,reconquete,risque,53,economy,43,38.044111999999984,43,28.840320000000002,-4.955888000000016,-14.159679999999998
+reconquete:risque:53,reconquete,risque,53,economy,43,35.66567999999999,43,22.044800000000002,-7.334320000000012,-20.955199999999998
 reconquete:risque:53,reconquete,risque,53,society,88,84.57,88,78.2,-3.430000000000007,-9.799999999999997
 reconquete:risque:53,reconquete,risque,53,europe,-62,-63.855000000000004,-62,-67.3,-1.855000000000004,-5.299999999999997
 reconquete:risque:53,reconquete,risque,53,ecology,-42,-40.355,-42,-37.3,1.6450000000000031,4.700000000000003
@@ -21395,7 +21395,7 @@ reconquete:ideologiquement_coherent:25,reconquete,ideologiquement_coherent,25,eu
 reconquete:ideologiquement_coherent:25,reconquete,ideologiquement_coherent,25,ecology,-42,-41.93,-42,-41.8,0.07000000000000028,0.20000000000000284
 reconquete:ideologiquement_coherent:25,reconquete,ideologiquement_coherent,25,authority,88,90.38000000000001,88,94.8,2.3800000000000097,6.799999999999997
 reconquete:ideologiquement_coherent:25,reconquete,ideologiquement_coherent,25,immigration,100,100,100,100,0,0
-reconquete:ideologiquement_coherent:26,reconquete,ideologiquement_coherent,26,economy,43,36.47621241499999,43,24.3606069,-6.523787585000008,-18.6393931
+reconquete:ideologiquement_coherent:26,reconquete,ideologiquement_coherent,26,economy,43,33.923569349999994,43,17.067341,-9.076430650000006,-25.932659
 reconquete:ideologiquement_coherent:26,reconquete,ideologiquement_coherent,26,society,88,88,88,88,0,0
 reconquete:ideologiquement_coherent:26,reconquete,ideologiquement_coherent,26,europe,-62,-62.35,-62,-63,-0.3500000000000014,-1
 reconquete:ideologiquement_coherent:26,reconquete,ideologiquement_coherent,26,ecology,-42,-42,-42,-42,0,0
@@ -21473,7 +21473,7 @@ reconquete:ideologiquement_coherent:38,reconquete,ideologiquement_coherent,38,eu
 reconquete:ideologiquement_coherent:38,reconquete,ideologiquement_coherent,38,ecology,-42,-40.355,-42,-37.3,1.6450000000000031,4.700000000000003
 reconquete:ideologiquement_coherent:38,reconquete,ideologiquement_coherent,38,authority,88,88,88,88,0,0
 reconquete:ideologiquement_coherent:38,reconquete,ideologiquement_coherent,38,immigration,100,100,100,100,0,0
-reconquete:ideologiquement_coherent:39,reconquete,ideologiquement_coherent,39,economy,43,47.453792,43,55.725120000000004,4.453792,12.725120000000004
+reconquete:ideologiquement_coherent:39,reconquete,ideologiquement_coherent,39,economy,43,46.12088,43,51.9168,3.1208799999999997,8.916800000000002
 reconquete:ideologiquement_coherent:39,reconquete,ideologiquement_coherent,39,society,88,88,88,88,0,0
 reconquete:ideologiquement_coherent:39,reconquete,ideologiquement_coherent,39,europe,-62,-63.4,-62,-66,-1.3999999999999986,-4
 reconquete:ideologiquement_coherent:39,reconquete,ideologiquement_coherent,39,ecology,-42,-40.226549999999996,-42,-36.933,1.773450000000004,5.067
@@ -21581,7 +21581,7 @@ reconquete:ideologiquement_coherent:56,reconquete,ideologiquement_coherent,56,eu
 reconquete:ideologiquement_coherent:56,reconquete,ideologiquement_coherent,56,ecology,-42,-40.292,-42,-37.12,1.7079999999999984,4.880000000000003
 reconquete:ideologiquement_coherent:56,reconquete,ideologiquement_coherent,56,authority,88,90.38000000000001,88,94.8,2.3800000000000097,6.799999999999997
 reconquete:ideologiquement_coherent:56,reconquete,ideologiquement_coherent,56,immigration,100,100,100,100,0,0
-reconquete:ideologiquement_coherent:57,reconquete,ideologiquement_coherent,57,economy,43,43.672187094529995,43,44.9205345558,0.6721870945299955,1.9205345558000033
+reconquete:ideologiquement_coherent:57,reconquete,ideologiquement_coherent,57,economy,43,41.9190967717,43,39.911705062,-1.0809032283000022,-3.088294937999997
 reconquete:ideologiquement_coherent:57,reconquete,ideologiquement_coherent,57,society,88,88,88,88,0,0
 reconquete:ideologiquement_coherent:57,reconquete,ideologiquement_coherent,57,europe,-62,-62.35,-62,-63,-0.3500000000000014,-1
 reconquete:ideologiquement_coherent:57,reconquete,ideologiquement_coherent,57,ecology,-42,-38.8745,-42,-33.07,3.1255000000000024,8.93
@@ -23837,7 +23837,7 @@ nouvelle_energie:risque:12,nouvelle_energie,risque,12,europe,24,25.61,24,28.6,1.
 nouvelle_energie:risque:12,nouvelle_energie,risque,12,ecology,-8,-8,-8,-8,0,0
 nouvelle_energie:risque:12,nouvelle_energie,risque,12,authority,58,52.82,58,43.2,-5.18,-14.799999999999997
 nouvelle_energie:risque:12,nouvelle_energie,risque,12,immigration,48,48,48,48,0,0
-nouvelle_energie:risque:13,nouvelle_energie,risque,13,economy,84,69.28153858499999,84,41.9472531,-14.718461415000007,-42.0527469
+nouvelle_energie:risque:13,nouvelle_energie,risque,13,economy,84,67.41282064999999,84,36.608059,-16.587179350000014,-47.391941
 nouvelle_energie:risque:13,nouvelle_energie,risque,13,society,36,36,36,36,0,0
 nouvelle_energie:risque:13,nouvelle_energie,risque,13,europe,24,24,24,24,0,0
 nouvelle_energie:risque:13,nouvelle_energie,risque,13,ecology,-8,-8,-8,-8,0,0
@@ -23873,7 +23873,7 @@ nouvelle_energie:risque:18,nouvelle_energie,risque,18,europe,24,24,24,24,0,0
 nouvelle_energie:risque:18,nouvelle_energie,risque,18,ecology,-8,-7.545,-8,-6.699999999999999,0.45500000000000007,1.3000000000000007
 nouvelle_energie:risque:18,nouvelle_energie,risque,18,authority,58,58,58,58,0,0
 nouvelle_energie:risque:18,nouvelle_energie,risque,18,immigration,48,48,48,48,0,0
-nouvelle_energie:risque:19,nouvelle_energie,risque,19,economy,84,74.46607350000002,84,56.760209999999994,-9.533926499999978,-27.239790000000006
+nouvelle_energie:risque:19,nouvelle_energie,risque,19,economy,84,73.17341500000002,84,53.06689999999999,-10.82658499999998,-30.93310000000001
 nouvelle_energie:risque:19,nouvelle_energie,risque,19,society,36,36,36,36,0,0
 nouvelle_energie:risque:19,nouvelle_energie,risque,19,europe,24,25.61,24,28.6,1.6099999999999994,4.600000000000001
 nouvelle_energie:risque:19,nouvelle_energie,risque,19,ecology,-8,-8,-8,-8,0,0
@@ -24095,13 +24095,13 @@ nouvelle_energie:risque:55,nouvelle_energie,risque,55,europe,24,19.1349999999999
 nouvelle_energie:risque:55,nouvelle_energie,risque,55,ecology,-8,-7.135499999999999,-8,-5.529999999999999,0.8645000000000014,2.4700000000000006
 nouvelle_energie:risque:55,nouvelle_energie,risque,55,authority,58,58.7,58,60,0.7000000000000028,2
 nouvelle_energie:risque:55,nouvelle_energie,risque,55,immigration,48,48,48,48,0,0
-nouvelle_energie:risque:56,nouvelle_energie,risque,56,economy,84,73.8559185,84,55.016909999999996,-10.144081499999999,-28.983090000000004
+nouvelle_energie:risque:56,nouvelle_energie,risque,56,economy,84,72.495465,84,51.12989999999999,-11.504535000000004,-32.87010000000001
 nouvelle_energie:risque:56,nouvelle_energie,risque,56,society,36,36,36,36,0,0
 nouvelle_energie:risque:56,nouvelle_energie,risque,56,europe,24,19.134999999999998,24,10.100000000000001,-4.865000000000002,-13.899999999999999
 nouvelle_energie:risque:56,nouvelle_energie,risque,56,ecology,-8,-6.785500000000001,-8,-4.529999999999999,1.2144999999999992,3.4700000000000006
 nouvelle_energie:risque:56,nouvelle_energie,risque,56,authority,58,58.7,58,60,0.7000000000000028,2
 nouvelle_energie:risque:56,nouvelle_energie,risque,56,immigration,48,48,48,48,0,0
-nouvelle_energie:risque:57,nouvelle_energie,risque,57,economy,84,73.38698115000001,84,53.677088999999995,-10.613018849999989,-30.322911000000005
+nouvelle_energie:risque:57,nouvelle_energie,risque,57,economy,84,71.9744235,84,49.641209999999994,-12.0255765,-34.358790000000006
 nouvelle_energie:risque:57,nouvelle_energie,risque,57,society,36,36,36,36,0,0
 nouvelle_energie:risque:57,nouvelle_energie,risque,57,europe,24,24,24,24,0,0
 nouvelle_energie:risque:57,nouvelle_energie,risque,57,ecology,-8,-7.135499999999999,-8,-5.529999999999999,0.8645000000000014,2.4700000000000006
@@ -24113,7 +24113,7 @@ nouvelle_energie:risque:58,nouvelle_energie,risque,58,europe,24,24,24,24,0,0
 nouvelle_energie:risque:58,nouvelle_energie,risque,58,ecology,-8,-9.12,-8,-11.2,-1.1199999999999992,-3.1999999999999993
 nouvelle_energie:risque:58,nouvelle_energie,risque,58,authority,58,54.045,58,46.7,-3.9549999999999983,-11.299999999999997
 nouvelle_energie:risque:58,nouvelle_energie,risque,58,immigration,48,48,48,48,0,0
-nouvelle_energie:risque:59,nouvelle_energie,risque,59,economy,84,74.4859185,84,56.81690999999999,-9.514081500000003,-27.183090000000007
+nouvelle_energie:risque:59,nouvelle_energie,risque,59,economy,84,73.19546499999998,84,53.12989999999999,-10.804535000000016,-30.870100000000008
 nouvelle_energie:risque:59,nouvelle_energie,risque,59,society,36,36,36,36,0,0
 nouvelle_energie:risque:59,nouvelle_energie,risque,59,europe,24,14.9315,24,-1.9099999999999984,-9.0685,-25.909999999999997
 nouvelle_energie:risque:59,nouvelle_energie,risque,59,ecology,-8,-8,-8,-8,0,0
@@ -24173,7 +24173,7 @@ nouvelle_energie:ideologiquement_coherent:8,nouvelle_energie,ideologiquement_coh
 nouvelle_energie:ideologiquement_coherent:8,nouvelle_energie,ideologiquement_coherent,8,ecology,-8,-8.4277,-8,-9.221999999999998,-0.42769999999999975,-1.2219999999999978
 nouvelle_energie:ideologiquement_coherent:8,nouvelle_energie,ideologiquement_coherent,8,authority,58,57.3,58,56,-0.7000000000000028,-2
 nouvelle_energie:ideologiquement_coherent:8,nouvelle_energie,ideologiquement_coherent,8,immigration,48,48,48,48,0,0
-nouvelle_energie:ideologiquement_coherent:9,nouvelle_energie,ideologiquement_coherent,9,economy,84,85.281,84,87.66000000000001,1.281000000000006,3.660000000000011
+nouvelle_energie:ideologiquement_coherent:9,nouvelle_energie,ideologiquement_coherent,9,economy,84,85.19,84,87.4,1.1899999999999977,3.4000000000000057
 nouvelle_energie:ideologiquement_coherent:9,nouvelle_energie,ideologiquement_coherent,9,society,36,36,36,36,0,0
 nouvelle_energie:ideologiquement_coherent:9,nouvelle_energie,ideologiquement_coherent,9,europe,24,29.158965000000006,24,38.7399,5.158965000000006,14.739899999999999
 nouvelle_energie:ideologiquement_coherent:9,nouvelle_energie,ideologiquement_coherent,9,ecology,-8,-5.3155,-8,-0.33000000000000007,2.6845,7.67
@@ -24197,7 +24197,7 @@ nouvelle_energie:ideologiquement_coherent:12,nouvelle_energie,ideologiquement_co
 nouvelle_energie:ideologiquement_coherent:12,nouvelle_energie,ideologiquement_coherent,12,ecology,-8,-8.217699999999999,-8,-8.621999999999998,-0.2176999999999989,-0.6219999999999981
 nouvelle_energie:ideologiquement_coherent:12,nouvelle_energie,ideologiquement_coherent,12,authority,58,58,58,58,0,0
 nouvelle_energie:ideologiquement_coherent:12,nouvelle_energie,ideologiquement_coherent,12,immigration,48,48,48,48,0,0
-nouvelle_energie:ideologiquement_coherent:13,nouvelle_energie,ideologiquement_coherent,13,economy,84,78.40360464999998,84,68.01029899999999,-5.596395350000023,-15.98970100000001
+nouvelle_energie:ideologiquement_coherent:13,nouvelle_energie,ideologiquement_coherent,13,economy,84,80.91926499999998,84,75.19789999999999,-3.0807350000000184,-8.80210000000001
 nouvelle_energie:ideologiquement_coherent:13,nouvelle_energie,ideologiquement_coherent,13,society,36,36,36,36,0,0
 nouvelle_energie:ideologiquement_coherent:13,nouvelle_energie,ideologiquement_coherent,13,europe,24,26.051,24,29.86,2.0509999999999984,5.859999999999999
 nouvelle_energie:ideologiquement_coherent:13,nouvelle_energie,ideologiquement_coherent,13,ecology,-8,-6.9087,-8,-4.8820000000000014,1.0913000000000004,3.1179999999999986
@@ -24269,7 +24269,7 @@ nouvelle_energie:ideologiquement_coherent:24,nouvelle_energie,ideologiquement_co
 nouvelle_energie:ideologiquement_coherent:24,nouvelle_energie,ideologiquement_coherent,24,ecology,-8,-7.604430000000001,-8,-6.869799999999999,0.3955699999999993,1.1302000000000012
 nouvelle_energie:ideologiquement_coherent:24,nouvelle_energie,ideologiquement_coherent,24,authority,58,58.42000000000001,58,59.2,0.4200000000000088,1.2000000000000028
 nouvelle_energie:ideologiquement_coherent:24,nouvelle_energie,ideologiquement_coherent,24,immigration,48,49.995,48,53.7,1.9949999999999974,5.700000000000003
-nouvelle_energie:ideologiquement_coherent:25,nouvelle_energie,ideologiquement_coherent,25,economy,84,73.65025374000001,84,54.4292964,-10.34974625999999,-29.5707036
+nouvelle_energie:ideologiquement_coherent:25,nouvelle_energie,ideologiquement_coherent,25,economy,84,72.2669486,84,50.476996,-11.733051399999994,-33.523004
 nouvelle_energie:ideologiquement_coherent:25,nouvelle_energie,ideologiquement_coherent,25,society,36,36,36,36,0,0
 nouvelle_energie:ideologiquement_coherent:25,nouvelle_energie,ideologiquement_coherent,25,europe,24,24.49,24,25.4,0.48999999999999844,1.3999999999999986
 nouvelle_energie:ideologiquement_coherent:25,nouvelle_energie,ideologiquement_coherent,25,ecology,-8,-8,-8,-8,0,0
@@ -26393,7 +26393,7 @@ custom_party:risque:18,custom_party,risque,18,europe,42,42,42,42,0,0
 custom_party:risque:18,custom_party,risque,18,ecology,100,96.675,100,90.5,-3.325000000000003,-9.5
 custom_party:risque:18,custom_party,risque,18,authority,-86,-84.91499999999999,-86,-82.9,1.085000000000008,3.0999999999999943
 custom_party:risque:18,custom_party,risque,18,immigration,-34,-34,-34,-34,0,0
-custom_party:risque:19,custom_party,risque,19,economy,-100,-80.67759725,-100,-44.793135,19.322402749999995,55.206865
+custom_party:risque:19,custom_party,risque,19,economy,-100,-85.91955250000001,-100,-59.77015,14.080447499999991,40.22985
 custom_party:risque:19,custom_party,risque,19,society,-40,-40,-40,-40,0,0
 custom_party:risque:19,custom_party,risque,19,europe,42,42,42,42,0,0
 custom_party:risque:19,custom_party,risque,19,ecology,100,96.67500000000001,100,90.5,-3.3249999999999886,-9.5
@@ -26435,7 +26435,7 @@ custom_party:risque:25,custom_party,risque,25,europe,42,42,42,42,0,0
 custom_party:risque:25,custom_party,risque,25,ecology,100,96.67500000000001,100,90.5,-3.3249999999999886,-9.5
 custom_party:risque:25,custom_party,risque,25,authority,-86,-85.65,-86,-85,0.3499999999999943,1
 custom_party:risque:25,custom_party,risque,25,immigration,-34,-33.51,-34,-32.6,0.490000000000002,1.3999999999999986
-custom_party:risque:26,custom_party,risque,26,economy,-100,-87.30199999999999,-100,-63.72,12.698000000000008,36.28
+custom_party:risque:26,custom_party,risque,26,economy,-100,-93.28,-100,-80.8,6.719999999999999,19.200000000000003
 custom_party:risque:26,custom_party,risque,26,society,-40,-40,-40,-40,0,0
 custom_party:risque:26,custom_party,risque,26,europe,42,42,42,42,0,0
 custom_party:risque:26,custom_party,risque,26,ecology,100,100,100,100,0,0
@@ -27761,7 +27761,7 @@ custom_party:risque:6,custom_party,risque,6,europe,-38,-35.718,-38,-31.48,2.2819
 custom_party:risque:6,custom_party,risque,6,ecology,-28,-28.49,-28,-29.4,-0.48999999999999844,-1.3999999999999986
 custom_party:risque:6,custom_party,risque,6,authority,75,70.45,75,62,-4.549999999999997,-13
 custom_party:risque:6,custom_party,risque,6,immigration,42,42,42,42,0,0
-custom_party:risque:7,custom_party,risque,7,economy,100,90.73392500000001,100,73.5255,-9.266074999999987,-26.474500000000006
+custom_party:risque:7,custom_party,risque,7,economy,100,90.09325000000001,100,71.695,-9.906749999999988,-28.305000000000007
 custom_party:risque:7,custom_party,risque,7,society,0,0,0,0,0,0
 custom_party:risque:7,custom_party,risque,7,europe,-38,-38,-38,-38,0,0
 custom_party:risque:7,custom_party,risque,7,ecology,-28,-26.845,-28,-24.7,1.1550000000000011,3.3000000000000007
@@ -27995,7 +27995,7 @@ custom_party:ideologiquement_coherent:15,custom_party,ideologiquement_coherent,1
 custom_party:ideologiquement_coherent:15,custom_party,ideologiquement_coherent,15,ecology,-28,-25.980500000000003,-28,-22.23,2.019499999999997,5.77
 custom_party:ideologiquement_coherent:15,custom_party,ideologiquement_coherent,15,authority,75,74.825,75,74.5,-0.17499999999999716,-0.5
 custom_party:ideologiquement_coherent:15,custom_party,ideologiquement_coherent,15,immigration,42,42,42,42,0,0
-custom_party:ideologiquement_coherent:16,custom_party,ideologiquement_coherent,16,economy,100,96.0275,100,88.65,-3.9724999999999966,-11.349999999999994
+custom_party:ideologiquement_coherent:16,custom_party,ideologiquement_coherent,16,economy,100,95.975,100,88.5,-4.025000000000006,-11.5
 custom_party:ideologiquement_coherent:16,custom_party,ideologiquement_coherent,16,society,0,0,0,0,0,0
 custom_party:ideologiquement_coherent:16,custom_party,ideologiquement_coherent,16,europe,-38,-42.9455,-38,-52.13,-4.945500000000003,-14.130000000000003
 custom_party:ideologiquement_coherent:16,custom_party,ideologiquement_coherent,16,ecology,-28,-26.67,-28,-24.2,1.3299999999999983,3.8000000000000007
@@ -28007,7 +28007,7 @@ custom_party:ideologiquement_coherent:17,custom_party,ideologiquement_coherent,1
 custom_party:ideologiquement_coherent:17,custom_party,ideologiquement_coherent,17,ecology,-28,-27.450499999999998,-28,-26.43,0.5495000000000019,1.5700000000000003
 custom_party:ideologiquement_coherent:17,custom_party,ideologiquement_coherent,17,authority,75,76.4,75,79,1.4000000000000057,4
 custom_party:ideologiquement_coherent:17,custom_party,ideologiquement_coherent,17,immigration,42,44.205,42,48.3,2.2049999999999983,6.299999999999997
-custom_party:ideologiquement_coherent:18,custom_party,ideologiquement_coherent,18,economy,100,94.58952500000002,100,84.5415,-5.410474999999977,-15.4585
+custom_party:ideologiquement_coherent:18,custom_party,ideologiquement_coherent,18,economy,100,94.37725000000002,100,83.935,-5.622749999999982,-16.064999999999998
 custom_party:ideologiquement_coherent:18,custom_party,ideologiquement_coherent,18,society,0,0,0,0,0,0
 custom_party:ideologiquement_coherent:18,custom_party,ideologiquement_coherent,18,europe,-38,-38,-38,-38,0,0
 custom_party:ideologiquement_coherent:18,custom_party,ideologiquement_coherent,18,ecology,-28,-26.138000000000005,-28,-22.68,1.8619999999999948,5.32
@@ -28019,7 +28019,7 @@ custom_party:ideologiquement_coherent:19,custom_party,ideologiquement_coherent,1
 custom_party:ideologiquement_coherent:19,custom_party,ideologiquement_coherent,19,ecology,-28,-25.963000000000005,-28,-22.18,2.0369999999999955,5.82
 custom_party:ideologiquement_coherent:19,custom_party,ideologiquement_coherent,19,authority,75,75,75,75,0,0
 custom_party:ideologiquement_coherent:19,custom_party,ideologiquement_coherent,19,immigration,42,42,42,42,0,0
-custom_party:ideologiquement_coherent:20,custom_party,ideologiquement_coherent,20,economy,100,82.4982088575,100,49.99488244999999,-17.501791142499997,-50.00511755000001
+custom_party:ideologiquement_coherent:20,custom_party,ideologiquement_coherent,20,economy,100,83.53482575,100,52.956644999999995,-16.465174250000004,-47.043355000000005
 custom_party:ideologiquement_coherent:20,custom_party,ideologiquement_coherent,20,society,0,0,0,0,0,0
 custom_party:ideologiquement_coherent:20,custom_party,ideologiquement_coherent,20,europe,-38,-42.9455,-38,-52.13,-4.945500000000003,-14.130000000000003
 custom_party:ideologiquement_coherent:20,custom_party,ideologiquement_coherent,20,ecology,-28,-28.42,-28,-29.2,-0.4200000000000017,-1.1999999999999993
@@ -28823,7 +28823,7 @@ custom_party:aleatoire:3,custom_party,aleatoire,3,europe,-38,-38.46795,-38,-39.3
 custom_party:aleatoire:3,custom_party,aleatoire,3,ecology,79,79.7,79,81,0.7000000000000028,2
 custom_party:aleatoire:3,custom_party,aleatoire,3,authority,64,62.74,64,60.4,-1.259999999999998,-3.6000000000000014
 custom_party:aleatoire:3,custom_party,aleatoire,3,immigration,-34,-29.135,-34,-20.1,4.864999999999998,13.899999999999999
-custom_party:aleatoire:4,custom_party,aleatoire,4,economy,-84,-71.6541,-84,-48.725999999999985,12.3459,35.274000000000015
+custom_party:aleatoire:4,custom_party,aleatoire,4,economy,-84,-77.049,-84,-64.13999999999999,6.950999999999993,19.860000000000014
 custom_party:aleatoire:4,custom_party,aleatoire,4,society,-18,-18.7,-18,-20,-0.6999999999999993,-2
 custom_party:aleatoire:4,custom_party,aleatoire,4,europe,-38,-37.2755,-38,-35.93,0.724499999999999,2.0700000000000003
 custom_party:aleatoire:4,custom_party,aleatoire,4,ecology,79,72.8155,79,61.330000000000005,-6.1845,-17.669999999999995
@@ -30617,7 +30617,7 @@ custom_party:risque:2,custom_party,risque,2,europe,8,8,8,8,0,0
 custom_party:risque:2,custom_party,risque,2,ecology,44,39.926,44,32.36,-4.073999999999998,-11.64
 custom_party:risque:2,custom_party,risque,2,authority,-19,-20.26,-19,-22.6,-1.2600000000000016,-3.6000000000000014
 custom_party:risque:2,custom_party,risque,2,immigration,6,6,6,6,0,0
-custom_party:risque:3,custom_party,risque,3,economy,13,18.076021999999995,13,27.50292,5.076021999999995,14.50292
+custom_party:risque:3,custom_party,risque,3,economy,13,15.645579999999997,13,20.558799999999998,2.645579999999997,7.558799999999998
 custom_party:risque:3,custom_party,risque,3,society,0,0,0,0,0,0
 custom_party:risque:3,custom_party,risque,3,europe,8,6.2955,8,3.129999999999999,-1.7045000000000003,-4.870000000000001
 custom_party:risque:3,custom_party,risque,3,ecology,44,39.318400000000004,44,30.624,-4.681599999999996,-13.376000000000001
@@ -30815,7 +30815,7 @@ custom_party:ideologiquement_coherent:5,custom_party,ideologiquement_coherent,5,
 custom_party:ideologiquement_coherent:5,custom_party,ideologiquement_coherent,5,ecology,44,44,44,44,0,0
 custom_party:ideologiquement_coherent:5,custom_party,ideologiquement_coherent,5,authority,-19,-19,-19,-19,0,0
 custom_party:ideologiquement_coherent:5,custom_party,ideologiquement_coherent,5,immigration,6,6,6,6,0,0
-custom_party:ideologiquement_coherent:6,custom_party,ideologiquement_coherent,6,economy,13,15.11072162,13,19.030633199999997,2.1107216199999996,6.030633199999997
+custom_party:ideologiquement_coherent:6,custom_party,ideologiquement_coherent,6,economy,13,14.094649458,13,16.127569879999996,1.0946494579999992,3.127569879999996
 custom_party:ideologiquement_coherent:6,custom_party,ideologiquement_coherent,6,society,0,0,0,0,0,0
 custom_party:ideologiquement_coherent:6,custom_party,ideologiquement_coherent,6,europe,8,9.4,8,12,1.4000000000000004,4
 custom_party:ideologiquement_coherent:6,custom_party,ideologiquement_coherent,6,ecology,44,44,44,44,0,0
@@ -31343,7 +31343,7 @@ custom_party:mediatique:3,custom_party,mediatique,3,europe,8,12.62,8,21.2,4.6199
 custom_party:mediatique:3,custom_party,mediatique,3,ecology,44,42.635,44,40.1,-1.365000000000002,-3.8999999999999986
 custom_party:mediatique:3,custom_party,mediatique,3,authority,-19,-19,-19,-19,0,0
 custom_party:mediatique:3,custom_party,mediatique,3,immigration,6,6,6,6,0,0
-custom_party:mediatique:4,custom_party,mediatique,4,economy,13,7.936199999999997,13,-1.4680000000000013,-5.063800000000003,-14.468000000000002
+custom_party:mediatique:4,custom_party,mediatique,4,economy,13,8.267999999999997,13,-0.5200000000000014,-4.732000000000003,-13.520000000000001
 custom_party:mediatique:4,custom_party,mediatique,4,society,0,0,0,0,0,0
 custom_party:mediatique:4,custom_party,mediatique,4,europe,8,8,8,8,0,0
 custom_party:mediatique:4,custom_party,mediatique,4,ecology,44,42.439,44,39.54,-1.561,-4.460000000000001

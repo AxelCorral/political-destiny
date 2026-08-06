@@ -1,4 +1,6 @@
 metric,label,etaSquaredParty,etaSquaredAgent,etaSquaredInteraction,etaSquaredResidual,partialEtaSquaredParty,partialEtaSquaredAgent,balancedDesign
-firstRoundScore,Score au premier tour,0.4606,0.0536,0.0175,0.4683,0.4959,0.1026,true
-finalScore,Score final (/100),0.3342,0.1433,0.0137,0.5088,0.3964,0.2198,true
-progression,Progression vs sondage initial,0.7587,0.024,0.0078,0.2095,0.7836,0.1026,true
+firstRoundScore,Score au premier tour,0.4593,0.0474,0.0131,0.4802,0.4889,0.0898,true
+finalScore,Score final (/100),0.3449,0.1208,0.0115,0.5228,0.3975,0.1877,true
+progression,"Progression vs sondage initial (brute, points)",0.767,0.0204,0.0057,0.2069,0.7876,0.0898,true
+progressionNormalized,"Progression normalisée (part de la marge atteignable, P1)",0.743,0.0238,0.0103,0.2229,0.7692,0.0963,true
+overperformanceVsNeutral,"Sur/sous-performance vs baseline neutre du parti (P1, audit uniquement)",0.0017,0.0923,0.04,0.866,0.002,0.0963,true

@@ -43,12 +43,45 @@ try {
 const existingRuns = rawRuns.filter((r) => r.partyKind === "existing");
 const customRuns = rawRuns.filter((r) => r.partyKind === "custom");
 
+// --- P1: surperformance vs baseline neutre du parti -------------------------
+// Option B (§8 du prompt post-audit) : le delta brut/normalisé reste dominé
+// par la trajectoire "typique" propre à chaque parti (son socle, son
+// potentiel, les événements qu'il croise), même une fois normalisé par la
+// marge atteignable — cette trajectoire moyenne diffère déjà d'un parti à
+// l'autre indépendamment de l'agent. Pour isoler ce que l'agent apporte
+// spécifiquement, on retranche à chaque partie la progression normalisée
+// MOYENNE obtenue par l'agent "aleatoire" pour CE MÊME parti : ce qui reste
+// est la sur/sous-performance imputable à la stratégie de décision, pas à
+// l'identité du parti.
+const neutralBaselineByParty = new Map<string, number>();
+for (const partyId of new Set(existingRuns.map((r) => str(r.partyId)))) {
+  const neutralRuns = existingRuns.filter(
+    (r) => str(r.partyId) === partyId && str(r.agent) === "aleatoire",
+  );
+  neutralBaselineByParty.set(
+    partyId,
+    neutralRuns.length ? mean(neutralRuns.map((r) => num(r.progressionNormalized))) : 0,
+  );
+}
+for (const run of existingRuns) {
+  const baseline = neutralBaselineByParty.get(str(run.partyId)) ?? 0;
+  run.overperformanceVsNeutral = String(num(run.progressionNormalized) - baseline);
+}
+
 // --- 11. Variance decomposition (party x agent) -----------------------------
 
 const metrics: Array<{ key: string; label: string }> = [
   { key: "firstRoundScore", label: "Score au premier tour" },
   { key: "finalScore", label: "Score final (/100)" },
-  { key: "progression", label: "Progression vs sondage initial" },
+  { key: "progression", label: "Progression vs sondage initial (brute, points)" },
+  {
+    key: "progressionNormalized",
+    label: "Progression normalisée (part de la marge atteignable, P1)",
+  },
+  {
+    key: "overperformanceVsNeutral",
+    label: "Sur/sous-performance vs baseline neutre du parti (P1, audit uniquement)",
+  },
 ];
 
 const anovaRows = metrics.map(({ key, label }) => {
@@ -304,9 +337,7 @@ function distributionStats(values: number[]) {
 // immediate-horizon bug — the chart used to plot a hardcoded 0 instead of
 // this computed value — cannot silently regress.
 
-const branchSummary = computeBranchSummary(
-  counterfactuals as unknown as CounterfactualRow[],
-);
+const branchSummary = computeBranchSummary(counterfactuals as unknown as CounterfactualRow[]);
 
 // --- summary.json ------------------------------------------------------------
 
@@ -432,6 +463,12 @@ console.log(
         ?.etaSquaredParty,
       agentEtaSquaredFirstRound: anovaRows.find((r) => r.metric === "firstRoundScore")
         ?.etaSquaredAgent,
+      partyEtaSquaredProgressionNormalized: anovaRows.find(
+        (r) => r.metric === "progressionNormalized",
+      )?.etaSquaredParty,
+      agentEtaSquaredProgressionNormalized: anovaRows.find(
+        (r) => r.metric === "progressionNormalized",
+      )?.etaSquaredAgent,
       matchedPairsOutcomeChangedShare:
         summary.varianceDecomposition.matchedPairs.shareWhereOutcomeChanged,
       counterfactualBranchesAvailable: counterfactuals.length,

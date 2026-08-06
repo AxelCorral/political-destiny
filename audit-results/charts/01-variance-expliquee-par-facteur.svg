@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="234" viewBox="0 0 760 234">
   <rect width="760" height="234" fill="#ffffff" />
   <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Variance expliquée par facteur — score au premier tour</text>
-  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit 5d659f3 · η², décomposition ANOVA à deux facteurs parti×agent</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit n/a · η², décomposition ANOVA à deux facteurs parti×agent</text>
   
     <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Parti</text>
-    <rect x="200" y="62" width="216.5" height="28" fill="#3b6ea5" rx="3" />
-    <text x="424.48199999999997" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">46.1 %</text>
+    <rect x="200" y="62" width="215.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="423.871" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">45.9 %</text>
     <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Agent (stratégie)</text>
-    <rect x="200" y="100" width="25.2" height="28" fill="#5a9367" rx="3" />
-    <text x="233.192" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.4 %</text>
+    <rect x="200" y="100" width="22.3" height="28" fill="#5a9367" rx="3" />
+    <text x="230.278" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.7 %</text>
     <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Interaction parti×agent</text>
-    <rect x="200" y="138" width="8.2" height="28" fill="#c9a24b" rx="3" />
-    <text x="216.225" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.8 %</text>
+    <rect x="200" y="138" width="6.2" height="28" fill="#c9a24b" rx="3" />
+    <text x="214.157" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.3 %</text>
     <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Résiduel (événements/seed)</text>
-    <rect x="200" y="176" width="220.1" height="28" fill="#9aa5ad" rx="3" />
-    <text x="428.101" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">46.8 %</text>
+    <rect x="200" y="176" width="225.7" height="28" fill="#9aa5ad" rx="3" />
+    <text x="433.694" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">48.0 %</text>
 </svg>

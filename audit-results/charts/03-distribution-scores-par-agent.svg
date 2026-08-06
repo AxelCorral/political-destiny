@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="386" viewBox="0 0 760 386">
   <rect width="760" height="386" fill="#ffffff" />
   <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Score moyen au premier tour par agent de décision</text>
-  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit 5d659f3</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit n/a</text>
   
     <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">risque</text>
     <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
-    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.6 %</text>
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.3 %</text>
     <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ideologiquement_coherent</text>
-    <rect x="200" y="100" width="459.5" height="28" fill="#3b6ea5" rx="3" />
-    <text x="667.4551282051282" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.3 %</text>
-    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">prudent</text>
-    <rect x="200" y="138" width="451.9" height="28" fill="#3b6ea5" rx="3" />
-    <text x="659.9230769230769" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.0 %</text>
-    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">opportuniste_electoral</text>
-    <rect x="200" y="176" width="450.7" height="28" fill="#3b6ea5" rx="3" />
-    <text x="658.7179487179487" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.0 %</text>
+    <rect x="200" y="100" width="461.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="669.0622950819672" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.0 %</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">opportuniste_electoral</text>
+    <rect x="200" y="138" width="452.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="660.7409836065574" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.7 %</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">prudent</text>
+    <rect x="200" y="176" width="452.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="660.4327868852458" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.7 %</text>
     <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">aleatoire</text>
-    <rect x="200" y="214" width="445.6" height="28" fill="#3b6ea5" rx="3" />
-    <text x="653.5961538461538" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.8 %</text>
+    <rect x="200" y="214" width="446.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="654.2688524590164" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.5 %</text>
     <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">parti_dabord</text>
-    <rect x="200" y="252" width="435.4" height="28" fill="#3b6ea5" rx="3" />
-    <text x="643.3525641025641" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.4 %</text>
+    <rect x="200" y="252" width="435.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="643.1737704918032" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.1 %</text>
     <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">mediatique</text>
-    <rect x="200" y="290" width="430.2" height="28" fill="#3b6ea5" rx="3" />
-    <text x="638.2307692307693" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.3 %</text>
+    <rect x="200" y="290" width="434.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="642.2491803278688" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.1 %</text>
     <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">contrarien</text>
-    <rect x="200" y="328" width="406.4" height="28" fill="#3b6ea5" rx="3" />
-    <text x="614.4294871794872" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">13.5 %</text>
+    <rect x="200" y="328" width="410.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="618.2098360655738" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">13.3 %</text>
 </svg>

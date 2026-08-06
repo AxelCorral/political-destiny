@@ -10,6 +10,7 @@ import type {
 import { evaluateAchievements } from "./achievements";
 import { endingForState } from "./endings";
 import { clamp, round } from "./math";
+import { computeProgressionMetrics } from "./progression";
 
 function strongestRegions(state: GameState): FinalResult["strongestRegions"] {
   const result = state.secondRoundResult ?? state.firstRoundResult;
@@ -100,11 +101,14 @@ export function scoreGame(
     firstRound.results[state.playerPartyId] ??
     0;
   const startingPolling = party.initialPolling;
-  const pollingProgression = round(
-    (firstRound.results[state.playerPartyId] ?? 0) - startingPolling,
-    1,
-  );
   const firstRoundShare = firstRound.results[state.playerPartyId] ?? 0;
+  const progressionMetrics = computeProgressionMetrics({
+    startingPolling,
+    firstRoundShare,
+    potentialSupport: party.hidden.potentialSupport,
+  });
+  const pollingProgression = progressionMetrics.raw;
+  const progressionNormalized = progressionMetrics.normalized;
   const relativePerformance = firstRoundShare / Math.max(3, startingPolling);
   const initialMembers = Number(state.flags.initialMembers ?? party.stats.members);
   const initialLocalStrength = Number(
@@ -124,8 +128,12 @@ export function scoreGame(
 
   const breakdown: ScoreBreakdown = {
     electoralPerformance: round(clamp(firstRoundShare * 1.05 + (qualified ? 5 : 0), 0, 30), 1),
+    // Uses the normalized (achievable-margin-relative) progression rather
+    // than the raw point delta, so a decisive campaign by a structurally
+    // small party scores comparably to one by a big party — see P1 in
+    // POST_AUDIT_FIXES.md.
     progression: round(
-      clamp(8 + pollingProgression * 1.45 + (relativePerformance - 1) * 3.5, 0, 20),
+      clamp(8 + progressionNormalized * 7 + (relativePerformance - 1) * 3.5, 0, 20),
       1,
     ),
     qualificationAndVictory: won ? 15 : qualified ? 9 : playerRank <= 4 ? 3 : 0,
@@ -192,6 +200,7 @@ export function scoreGame(
     qualified,
     startingPolling,
     pollingProgression,
+    progressionNormalized,
     strongestRegions: strongestRegions(state),
     highlightDecisionIds: campaignHighlights(state),
     ...(best && best.net > 0 ? { bestDecisionIndex: best.record.decisionIndex } : {}),

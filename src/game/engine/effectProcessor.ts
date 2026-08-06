@@ -9,6 +9,30 @@ import type {
 import { clamp } from "./math";
 import { applyPartySplit } from "./partyDynamics";
 
+/**
+ * Below this fraction of a stat's ceiling, positive party_stat effects apply
+ * at full strength. Above it, gains taper linearly to zero at the ceiling.
+ * Setbacks (delta <= 0) are never tapered — losing ground stays as easy as
+ * the content defines it, only climbing gets harder near the top.
+ *
+ * Diagnosed for P1 (see POST_AUDIT_FIXES.md): with a flat clamp, most agents
+ * drove credibility to ~99-100 within a normal campaign regardless of
+ * strategy (the catalog's credibility effects are overwhelmingly positive),
+ * which erased the stat's ability to differentiate agent behavior — it fed
+ * into partyAppeal()'s competence term as a near-constant across every run,
+ * leaving the party's fixed baseSupport as the dominant source of variance.
+ */
+const DIMINISHING_RETURNS_THRESHOLD_RATIO = 0.75;
+
+function scaledPositiveDelta(current: number, delta: number, maximum: number): number {
+  if (delta <= 0 || current >= maximum) return delta <= 0 ? delta : 0;
+  const threshold = maximum * DIMINISHING_RETURNS_THRESHOLD_RATIO;
+  if (current <= threshold) return delta;
+  const remaining = maximum - current;
+  const taperRange = maximum - threshold;
+  return delta * clamp(remaining / taperRange, 0, 1) ** 1.3;
+}
+
 function cloneState(state: GameState): GameState {
   return structuredClone(state);
 }
@@ -80,7 +104,11 @@ function applyOneEffect(state: GameState, effect: GameEffect): void {
       if (!party) return;
       const current = party.stats[effect.stat];
       const maximum = effect.stat === "members" ? 5_000_000 : 100;
-      party.stats[effect.stat] = clamp(current + effect.delta, 0, maximum);
+      const appliedDelta =
+        effect.stat === "members"
+          ? effect.delta
+          : scaledPositiveDelta(current, effect.delta, maximum);
+      party.stats[effect.stat] = clamp(current + appliedDelta, 0, maximum);
       return;
     }
     case "hidden_stat": {
