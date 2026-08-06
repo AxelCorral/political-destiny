@@ -1,0 +1,555 @@
+{
+  "generatedAt": "2026-08-06T13:59:41.623Z",
+  "sampleSizes": {
+    "existingPartyRuns": 4320,
+    "customPartyRuns": 960,
+    "totalRuns": 5280,
+    "totalDecisions": 151822,
+    "totalWorldEvents": 366466,
+    "counterfactualBranches": 330
+  },
+  "varianceDecomposition": {
+    "anovaByMetric": [
+      {
+        "metric": "firstRoundScore",
+        "label": "Score au premier tour",
+        "etaSquaredParty": 0.4606,
+        "etaSquaredAgent": 0.0536,
+        "etaSquaredInteraction": 0.0175,
+        "etaSquaredResidual": 0.4683,
+        "partialEtaSquaredParty": 0.4959,
+        "partialEtaSquaredAgent": 0.1026
+      },
+      {
+        "metric": "finalScore",
+        "label": "Score final (/100)",
+        "etaSquaredParty": 0.3342,
+        "etaSquaredAgent": 0.1433,
+        "etaSquaredInteraction": 0.0137,
+        "etaSquaredResidual": 0.5088,
+        "partialEtaSquaredParty": 0.3964,
+        "partialEtaSquaredAgent": 0.2198
+      },
+      {
+        "metric": "progression",
+        "label": "Progression vs sondage initial",
+        "etaSquaredParty": 0.7587,
+        "etaSquaredAgent": 0.024,
+        "etaSquaredInteraction": 0.0078,
+        "etaSquaredResidual": 0.2095,
+        "partialEtaSquaredParty": 0.7836,
+        "partialEtaSquaredAgent": 0.1026
+      }
+    ],
+    "bootstrapPartyEtaSquaredFirstRound": {
+      "estimate": 0.46064197506274074,
+      "lower": 0.4332411652304857,
+      "upper": 0.485122273021938,
+      "iterations": 500
+    },
+    "bootstrapAgentEtaSquaredFirstRound": {
+      "estimate": 0.05355121094586365,
+      "lower": 0.043072377349887364,
+      "upper": 0.06954315143721398,
+      "iterations": 500
+    },
+    "cramersV": {
+      "qualifiedByParty": 0.5906,
+      "qualifiedByAgent": 0.1849,
+      "wonByParty": 0.4504,
+      "wonByAgent": 0.2146
+    },
+    "matchedPairs": {
+      "groups": 540,
+      "averageFirstRoundRange": 3.25,
+      "medianFirstRoundRange": 3.1,
+      "averageFinalScoreRange": 20.31,
+      "shareWhereOutcomeChanged": 0.63
+    },
+    "underdogBeatsFavorite": {
+      "favoriteParty": "rn",
+      "underdogParty": "reconquete",
+      "favoriteAverageFirstRound": 16.21,
+      "underdogAverageFirstRound": 10.06,
+      "favoriteWorstDecileFinalScore": 66,
+      "underdogBestDecileFinalScore": 77,
+      "underdogRunsExceedingFavoriteWorstDecile": 88,
+      "underdogRunsTotal": 480,
+      "rate": 0.183,
+      "interpretation": "Part des campagnes du parti le plus faible (score moyen 1er tour) dont le score final dépasse le 10e centile du parti le plus fort — mesure si un mauvais parcours favori peut être dépassé par un bon parcours outsider, sans que ce soit la norme."
+    }
+  },
+  "counterfactualBranching": {
+    "available": true,
+    "branchGroups": 108,
+    "totalBranches": 330,
+    "averageFinalScoreRange": 5.01,
+    "medianFinalScoreRange": 2,
+    "averageFirstRoundRange": 0.83,
+    "averagePlus3Range": 0.39,
+    "averagePlus8Range": 0.5,
+    "shareWhereOutcomeChanged": 0.222
+  },
+  "choiceStrength": {
+    "evaluatedChoiceCells": 599,
+    "minimumSampleSize": 15,
+    "top10SpreadEvents": [
+      {
+        "eventId": "debate_security_round",
+        "spread": 15.64,
+        "best": {
+          "eventId": "debate_security_round",
+          "choiceId": "security_round_local_plan",
+          "choiceTag": "INSTITUTIONNEL",
+          "n": 60,
+          "avgFinalScore": 80.43,
+          "avgQualified": 0.767,
+          "avgWon": 0.5
+        },
+        "worst": {
+          "eventId": "debate_security_round",
+          "choiceId": "security_round_prevention",
+          "choiceTag": "PRUDENT",
+          "n": 19,
+          "avgFinalScore": 64.79,
+          "avgQualified": 0.526,
+          "avgWon": 0.158
+        },
+        "optionCount": 4
+      },
+      {
+        "eventId": "scandal_treasurer_invoices",
+        "spread": 15.280000000000001,
+        "best": {
+          "eventId": "scandal_treasurer_invoices",
+          "choiceId": "treasurer_invoices_publish",
+          "choiceTag": "TRANSPARENT",
+          "n": 320,
+          "avgFinalScore": 79.51,
+          "avgQualified": 0.741,
+          "avgWon": 0.631
+        },
+        "worst": {
+          "eventId": "scandal_treasurer_invoices",
+          "choiceId": "treasurer_invoices_reimburse",
+          "choiceTag": "PRUDENT",
+          "n": 98,
+          "avgFinalScore": 64.23,
+          "avgQualified": 0.418,
+          "avgWon": 0.224
+        },
+        "optionCount": 3
+      },
+      {
+        "eventId": "custom_identity_interview",
+        "spread": 14.409999999999997,
+        "best": {
+          "eventId": "custom_identity_interview",
+          "choiceId": "custom_identity_three_proofs",
+          "choiceTag": "PRÉSIDENTIEL",
+          "n": 197,
+          "avgFinalScore": 75.16,
+          "avgQualified": 0.563,
+          "avgWon": 0.518
+        },
+        "worst": {
+          "eventId": "custom_identity_interview",
+          "choiceId": "custom_identity_vote_useful",
+          "choiceTag": "OPPORTUNISTE",
+          "n": 61,
+          "avgFinalScore": 60.75,
+          "avgQualified": 0.131,
+          "avgWon": 0.131
+        },
+        "optionCount": 3
+      },
+      {
+        "eventId": "custom_runoff_mandate",
+        "spread": 13.859999999999992,
+        "best": {
+          "eventId": "custom_runoff_mandate",
+          "choiceId": "custom_runoff_coalition_team",
+          "choiceTag": "RISQUÉ",
+          "n": 264,
+          "avgFinalScore": 75.24,
+          "avgQualified": 0.58,
+          "avgWon": 0.545
+        },
+        "worst": {
+          "eventId": "custom_runoff_mandate",
+          "choiceId": "custom_runoff_public_contract",
+          "choiceTag": "RASSEMBLEUR",
+          "n": 60,
+          "avgFinalScore": 61.38,
+          "avgQualified": 0.2,
+          "avgWon": 0.183
+        },
+        "optionCount": 3
+      },
+      {
+        "eventId": "debate_post_show_spin",
+        "spread": 13.510000000000005,
+        "best": {
+          "eventId": "debate_post_show_spin",
+          "choiceId": "post_show_balanced",
+          "choiceTag": "TRANSPARENT",
+          "n": 604,
+          "avgFinalScore": 81.39,
+          "avgQualified": 0.796,
+          "avgWon": 0.651
+        },
+        "worst": {
+          "eventId": "debate_post_show_spin",
+          "choiceId": "post_show_no_spin",
+          "choiceTag": "PRUDENT",
+          "n": 232,
+          "avgFinalScore": 67.88,
+          "avgQualified": 0.526,
+          "avgWon": 0.379
+        },
+        "optionCount": 4
+      },
+      {
+        "eventId": "scandal_audit_conclusion",
+        "spread": 13.409999999999997,
+        "best": {
+          "eventId": "scandal_audit_conclusion",
+          "choiceId": "audit_conclusion_summary",
+          "choiceTag": "PRUDENT",
+          "n": 20,
+          "avgFinalScore": 81.25,
+          "avgQualified": 0.9,
+          "avgWon": 0.7
+        },
+        "worst": {
+          "eventId": "scandal_audit_conclusion",
+          "choiceId": "audit_conclusion_vindication",
+          "choiceTag": "OFFENSIF",
+          "n": 277,
+          "avgFinalScore": 67.84,
+          "avgQualified": 0.48,
+          "avgWon": 0.3
+        },
+        "optionCount": 3
+      },
+      {
+        "eventId": "custom_coherent_manifesto",
+        "spread": 13.36999999999999,
+        "best": {
+          "eventId": "custom_coherent_manifesto",
+          "choiceId": "custom_manifesto_priority_note",
+          "choiceTag": "PRUDENT",
+          "n": 127,
+          "avgFinalScore": 77.66,
+          "avgQualified": 0.638,
+          "avgWon": 0.614
+        },
+        "worst": {
+          "eventId": "custom_coherent_manifesto",
+          "choiceId": "custom_manifesto_public_debate",
+          "choiceTag": "OFFENSIF",
+          "n": 96,
+          "avgFinalScore": 64.29,
+          "avgQualified": 0.281,
+          "avgWon": 0.219
+        },
+        "optionCount": 3
+      },
+      {
+        "eventId": "party_ecologistes_alliance",
+        "spread": 13.280000000000001,
+        "best": {
+          "eventId": "party_ecologistes_alliance",
+          "choiceId": "ecologistes_alliance_metro",
+          "choiceTag": "RASSEMBLEUR",
+          "n": 38,
+          "avgFinalScore": 85,
+          "avgQualified": 0.868,
+          "avgWon": 0.711
+        },
+        "worst": {
+          "eventId": "party_ecologistes_alliance",
+          "choiceId": "ecologistes_alliance_national_guarantees",
+          "choiceTag": "CLIVANT",
+          "n": 46,
+          "avgFinalScore": 71.72,
+          "avgQualified": 0.5,
+          "avgWon": 0.413
+        },
+        "optionCount": 3
+      },
+      {
+        "eventId": "scandal_consultant_contract",
+        "spread": 13.25,
+        "best": {
+          "eventId": "scandal_consultant_contract",
+          "choiceId": "consultant_contract_waive",
+          "choiceTag": "TRANSPARENT",
+          "n": 375,
+          "avgFinalScore": 80.43,
+          "avgQualified": 0.765,
+          "avgWon": 0.6
+        },
+        "worst": {
+          "eventId": "scandal_consultant_contract",
+          "choiceId": "consultant_contract_litigate",
+          "choiceTag": "OFFENSIF",
+          "n": 264,
+          "avgFinalScore": 67.18,
+          "avgQualified": 0.489,
+          "avgWon": 0.273
+        },
+        "optionCount": 3
+      },
+      {
+        "eventId": "custom_collective_arbitration",
+        "spread": 12.969999999999999,
+        "best": {
+          "eventId": "custom_collective_arbitration",
+          "choiceId": "custom_collective_members_decide",
+          "choiceTag": "RASSEMBLEUR",
+          "n": 74,
+          "avgFinalScore": 78.76,
+          "avgQualified": 0.676,
+          "avgWon": 0.622
+        },
+        "worst": {
+          "eventId": "custom_collective_arbitration",
+          "choiceId": "custom_collective_split_budget",
+          "choiceTag": "TECHNIQUE",
+          "n": 28,
+          "avgFinalScore": 65.79,
+          "avgQualified": 0.321,
+          "avgWon": 0.25
+        },
+        "optionCount": 2
+      }
+    ],
+    "caveat": "Ces écarts sont corrélationnels : ils comparent les campagnes qui ONT CHOISI chaque option, sans contrôler l'agent ni le parti qui l'ont choisie. Voir counterfactuals.csv pour la mesure causale isolée (même état initial, un seul choix qui diffère)."
+  },
+  "memoryAndWorld": {
+    "runsWithActorMemoryContentShare": 0.859,
+    "runsWithContradictionShare": 0.138,
+    "runsWithAbruptReversalShare": 0.288,
+    "runsWithCandidateReplacementShare": 0.103,
+    "runsWithAllianceShare": 0.542,
+    "runsWithNarrativeThreadShare": 0.731,
+    "opponentActionKindFrequency": [
+      {
+        "id": "strategy",
+        "count": 334018
+      },
+      {
+        "id": "crisis",
+        "count": 16471
+      },
+      {
+        "id": "endorsement",
+        "count": 8917
+      },
+      {
+        "id": "alliance",
+        "count": 6439
+      },
+      {
+        "id": "replacement",
+        "count": 540
+      },
+      {
+        "id": "primary",
+        "count": 80
+      },
+      {
+        "id": "withdrawal",
+        "count": 1
+      }
+    ],
+    "actorMemoryEntriesDistribution": {
+      "mean": 2.034,
+      "median": 2,
+      "stddev": 1.411,
+      "min": 0,
+      "max": 7,
+      "p90": 4,
+      "p95": 5
+    },
+    "opponentActionCountDistribution": {
+      "mean": 69.155,
+      "median": 71,
+      "stddev": 7.186,
+      "min": 48,
+      "max": 80,
+      "p90": 78,
+      "p95": 79
+    }
+  },
+  "ideology": {
+    "byAxis": [
+      {
+        "axis": "economy",
+        "meanAbsMovement": 6.71,
+        "maxAbsMovement": 26.67,
+        "stddevMovement": 7.89,
+        "shareWithMovementOver5": 0.566
+      },
+      {
+        "axis": "society",
+        "meanAbsMovement": 0.3,
+        "maxAbsMovement": 5.01,
+        "stddevMovement": 0.81,
+        "shareWithMovementOver5": 0.001
+      },
+      {
+        "axis": "europe",
+        "meanAbsMovement": 1.8,
+        "maxAbsMovement": 15.06,
+        "stddevMovement": 3.03,
+        "shareWithMovementOver5": 0.113
+      },
+      {
+        "axis": "ecology",
+        "meanAbsMovement": 1.97,
+        "maxAbsMovement": 19.5,
+        "stddevMovement": 2.98,
+        "shareWithMovementOver5": 0.092
+      },
+      {
+        "axis": "authority",
+        "meanAbsMovement": 1.95,
+        "maxAbsMovement": 18.81,
+        "stddevMovement": 2.99,
+        "shareWithMovementOver5": 0.135
+      },
+      {
+        "axis": "immigration",
+        "meanAbsMovement": 0.91,
+        "maxAbsMovement": 7.17,
+        "stddevMovement": 1.87,
+        "shareWithMovementOver5": 0.05
+      }
+    ]
+  },
+  "rareEvents": {
+    "totalRareEventsInCatalog": 18,
+    "occurrences": [
+      {
+        "id": "rare_printer_slogan",
+        "count": 257
+      },
+      {
+        "id": "rare_exceptional_powers",
+        "count": 243
+      },
+      {
+        "id": "rare_hologram_revolt",
+        "count": 235
+      },
+      {
+        "id": "rare_fragmented_congress",
+        "count": 210
+      },
+      {
+        "id": "rare_civil_suspension",
+        "count": 205
+      },
+      {
+        "id": "rare_debate_blackout",
+        "count": 174
+      },
+      {
+        "id": "rare_crown_petition",
+        "count": 93
+      },
+      {
+        "id": "rare_national_union",
+        "count": 55
+      },
+      {
+        "id": "rare_parrot_quote",
+        "count": 50
+      },
+      {
+        "id": "party_horizons_rare",
+        "count": 27
+      },
+      {
+        "id": "party_nouvelle_energie_rare",
+        "count": 27
+      },
+      {
+        "id": "party_ecologistes_rare",
+        "count": 24
+      },
+      {
+        "id": "party_renaissance_rare",
+        "count": 24
+      },
+      {
+        "id": "party_rn_dissidence",
+        "count": 24
+      },
+      {
+        "id": "party_lr_rare",
+        "count": 22
+      },
+      {
+        "id": "party_reconquete_rare",
+        "count": 20
+      },
+      {
+        "id": "party_ps_rare",
+        "count": 16
+      },
+      {
+        "id": "party_lfi_rare",
+        "count": 4
+      }
+    ],
+    "neverReachedInThisSample": []
+  },
+  "repetition": {
+    "repeatedTitlesExact": {
+      "mean": 0,
+      "median": 0,
+      "stddev": 0,
+      "min": 0,
+      "max": 0,
+      "p90": 0,
+      "p95": 0
+    },
+    "repeatedTitlesNormalized": {
+      "mean": 0,
+      "median": 0,
+      "stddev": 0,
+      "min": 0,
+      "max": 0,
+      "p90": 0,
+      "p95": 0
+    },
+    "repeatedNarrativesExact": {
+      "mean": 0,
+      "median": 0,
+      "stddev": 0,
+      "min": 0,
+      "max": 0,
+      "p90": 0,
+      "p95": 0
+    },
+    "repeatedNarrativesNormalized": {
+      "mean": 0,
+      "median": 0,
+      "stddev": 0,
+      "min": 0,
+      "max": 0,
+      "p90": 0,
+      "p95": 0
+    },
+    "runsWithZeroRepeatedTitles": 4320,
+    "runsWithZeroRepeatedNarratives": 4320,
+    "chainJustifiedRepeatsShareOfAllRepeats": 0
+  },
+  "determinismAndValidity": {
+    "invalidRuns": 0,
+    "totalRuns": 5280
+  }
+}

@@ -18,6 +18,7 @@
     "test:e2e": "playwright test",
     "test:simulation": "tsx scripts/simulate.ts",
     "audit:game": "tsx scripts/audit-post/run-all.ts",
+    "audit:smoke": "tsx scripts/audit-post/smoke.ts",
     "data:validate": "tsx scripts/validate-data.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
