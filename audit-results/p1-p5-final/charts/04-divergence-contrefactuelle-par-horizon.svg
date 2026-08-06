@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="272" viewBox="0 0 760 272">
+  <rect width="760" height="272" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Divergence contrefactuelle moyenne selon l'horizon</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 4320 campagnes existantes · commit n/a · 326 branches, 108 groupes, même état initial</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Immédiat (sondage, pts)</text>
+    <rect x="200" y="62" width="15.7" height="28" fill="#9aa5ad" rx="3" />
+    <text x="223.71845730027547" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.243</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">+3 décisions</text>
+    <rect x="200" y="100" width="26.5" height="28" fill="#5a9367" rx="3" />
+    <text x="234.54269972451792" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.410</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">+8 décisions</text>
+    <rect x="200" y="138" width="38.8" height="28" fill="#c9a24b" rx="3" />
+    <text x="246.84297520661158" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.600</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1er tour (fin)</text>
+    <rect x="200" y="176" width="74.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="282.44903581267215" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.150</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Score final /100</text>
+    <rect x="200" y="214" width="470.0" height="28" fill="#a5507a" rx="3" />
+    <text x="678" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">7.260</text>
+</svg>

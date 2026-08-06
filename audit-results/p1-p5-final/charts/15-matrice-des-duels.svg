@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="862" viewBox="0 0 900 862">
+  <rect width="900" height="862" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Matrice des duels — taux de victoire de A face à B (n≥8, 30 duels les plus fréquents)</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">commit cc36407 · source audit-results/duel-matrix.csv (échelle complète, 5280 runs)</text>
+  
+    <text x="190" y="74" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons vs ecologistes</text>
+    <rect x="200" y="62" width="610.0" height="16" fill="#3b6ea5" rx="3" />
+    <text x="818" y="74" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">100.0%</text>
+    <text x="190" y="100" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr vs ecologistes</text>
+    <rect x="200" y="88" width="610.0" height="16" fill="#3b6ea5" rx="3" />
+    <text x="818" y="100" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">100.0%</text>
+    <text x="190" y="126" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr vs lfi</text>
+    <rect x="200" y="114" width="610.0" height="16" fill="#3b6ea5" rx="3" />
+    <text x="818" y="126" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">100.0%</text>
+    <text x="190" y="152" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie vs lfi</text>
+    <rect x="200" y="140" width="610.0" height="16" fill="#3b6ea5" rx="3" />
+    <text x="818" y="152" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">100.0%</text>
+    <text x="190" y="178" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance vs ecologistes</text>
+    <rect x="200" y="166" width="610.0" height="16" fill="#3b6ea5" rx="3" />
+    <text x="818" y="178" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">100.0%</text>
+    <text x="190" y="204" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn vs ecologistes</text>
+    <rect x="200" y="192" width="610.0" height="16" fill="#3b6ea5" rx="3" />
+    <text x="818" y="204" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">100.0%</text>
+    <text x="190" y="230" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons vs rn</text>
+    <rect x="200" y="218" width="598.4" height="16" fill="#3b6ea5" rx="3" />
+    <text x="806.41" y="230" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">98.1%</text>
+    <text x="190" y="256" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons vs lfi</text>
+    <rect x="200" y="244" width="593.5" height="16" fill="#3b6ea5" rx="3" />
+    <text x="801.53" y="256" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">97.3%</text>
+    <text x="190" y="282" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie vs rn</text>
+    <rect x="200" y="270" width="591.1" height="16" fill="#3b6ea5" rx="3" />
+    <text x="799.09" y="282" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">96.9%</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps vs ecologistes</text>
+    <rect x="200" y="296" width="587.4" height="16" fill="#3b6ea5" rx="3" />
+    <text x="795.43" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">96.3%</text>
+    <text x="190" y="334" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance vs lr</text>
+    <rect x="200" y="322" width="572.2" height="16" fill="#3b6ea5" rx="3" />
+    <text x="780.18" y="334" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">93.8%</text>
+    <text x="190" y="360" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps vs rn</text>
+    <rect x="200" y="348" width="561.2" height="16" fill="#3b6ea5" rx="3" />
+    <text x="769.2" y="360" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">92.0%</text>
+    <text x="190" y="386" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance vs lfi</text>
+    <rect x="200" y="374" width="556.3" height="16" fill="#3b6ea5" rx="3" />
+    <text x="764.32" y="386" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">91.2%</text>
+    <text x="190" y="412" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes vs rn</text>
+    <rect x="200" y="400" width="553.3" height="16" fill="#3b6ea5" rx="3" />
+    <text x="761.27" y="412" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">90.7%</text>
+    <text x="190" y="438" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps vs lfi</text>
+    <rect x="200" y="426" width="551.4" height="16" fill="#3b6ea5" rx="3" />
+    <text x="759.44" y="438" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">90.4%</text>
+    <text x="190" y="464" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie vs lr</text>
+    <rect x="200" y="452" width="549.0" height="16" fill="#3b6ea5" rx="3" />
+    <text x="757" y="464" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">90.0%</text>
+    <text x="190" y="490" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance vs rn</text>
+    <rect x="200" y="478" width="547.2" height="16" fill="#3b6ea5" rx="3" />
+    <text x="755.17" y="490" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">89.7%</text>
+    <text x="190" y="516" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie vs horizons</text>
+    <rect x="200" y="504" width="526.4" height="16" fill="#3b6ea5" rx="3" />
+    <text x="734.43" y="516" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">86.3%</text>
+    <text x="190" y="542" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr vs rn</text>
+    <rect x="200" y="530" width="519.7" height="16" fill="#3b6ea5" rx="3" />
+    <text x="727.72" y="542" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">85.2%</text>
+    <text x="190" y="568" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi vs ecologistes</text>
+    <rect x="200" y="556" width="516.1" height="16" fill="#3b6ea5" rx="3" />
+    <text x="724.06" y="568" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">84.6%</text>
+    <text x="190" y="594" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie vs renaissance</text>
+    <rect x="200" y="582" width="516.1" height="16" fill="#3b6ea5" rx="3" />
+    <text x="724.06" y="594" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">84.6%</text>
+    <text x="190" y="620" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance vs ps</text>
+    <rect x="200" y="608" width="510.0" height="16" fill="#3b6ea5" rx="3" />
+    <text x="717.96" y="620" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">83.6%</text>
+    <text x="190" y="646" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons vs lr</text>
+    <rect x="200" y="634" width="500.8" height="16" fill="#3b6ea5" rx="3" />
+    <text x="708.81" y="646" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">82.1%</text>
+    <text x="190" y="672" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes vs horizons</text>
+    <rect x="200" y="660" width="495.9" height="16" fill="#3b6ea5" rx="3" />
+    <text x="703.93" y="672" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">81.3%</text>
+    <text x="190" y="698" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn vs lfi</text>
+    <rect x="200" y="686" width="486.2" height="16" fill="#3b6ea5" rx="3" />
+    <text x="694.1700000000001" y="698" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">79.7%</text>
+    <text x="190" y="724" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons vs ps</text>
+    <rect x="200" y="712" width="485.6" height="16" fill="#3b6ea5" rx="3" />
+    <text x="693.56" y="724" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">79.6%</text>
+    <text x="190" y="750" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes vs lr</text>
+    <rect x="200" y="738" width="466.7" height="16" fill="#3b6ea5" rx="3" />
+    <text x="674.6500000000001" y="750" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">76.5%</text>
+    <text x="190" y="776" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps vs lr</text>
+    <rect x="200" y="764" width="466.7" height="16" fill="#3b6ea5" rx="3" />
+    <text x="674.6500000000001" y="776" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">76.5%</text>
+    <text x="190" y="802" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr vs renaissance</text>
+    <rect x="200" y="790" width="461.8" height="16" fill="#3b6ea5" rx="3" />
+    <text x="669.77" y="802" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">75.7%</text>
+    <text x="190" y="828" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi vs rn</text>
+    <rect x="200" y="816" width="459.9" height="16" fill="#3b6ea5" rx="3" />
+    <text x="667.94" y="828" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">75.4%</text>
+</svg>

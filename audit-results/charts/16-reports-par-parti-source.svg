@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="918" viewBox="0 0 760 918">
+  <rect width="760" height="918" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Part moyenne transférée au finaliste 'gauche' de la paire, par parti source</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 7575 transferts · commit cc36407 · agrégation par parti source (pas de granularité par bloc électoral dans le pipeline — proxy le plus proche disponible)</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes</text>
+    <rect x="200" y="62" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons</text>
+    <rect x="200" y="100" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi</text>
+    <rect x="200" y="138" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr</text>
+    <rect x="200" y="176" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie</text>
+    <rect x="200" y="214" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps</text>
+    <rect x="200" y="252" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete</text>
+    <rect x="200" y="290" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_15</text>
+    <rect x="200" y="328" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_16</text>
+    <rect x="200" y="366" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="422" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_17</text>
+    <rect x="200" y="404" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="422" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="460" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_18</text>
+    <rect x="200" y="442" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="460" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="498" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_19</text>
+    <rect x="200" y="480" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="498" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="536" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_20</text>
+    <rect x="200" y="518" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="536" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="574" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_21</text>
+    <rect x="200" y="556" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="574" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="612" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_22</text>
+    <rect x="200" y="594" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="612" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="650" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete_dissidence_23</text>
+    <rect x="200" y="632" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="650" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="688" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance</text>
+    <rect x="200" y="670" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="688" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="726" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn</text>
+    <rect x="200" y="708" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="726" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="764" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn_dissidence_16</text>
+    <rect x="200" y="746" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="764" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="802" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn_dissidence_19</text>
+    <rect x="200" y="784" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="802" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="840" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn_dissidence_22</text>
+    <rect x="200" y="822" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="840" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+    <text x="190" y="878" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn_dissidence_23</text>
+    <rect x="200" y="860" width="1.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="209" y="878" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0%</text>
+</svg>
