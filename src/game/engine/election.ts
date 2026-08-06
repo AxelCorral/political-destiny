@@ -83,7 +83,37 @@ export function diminishingRejectionPenalty(rejection: number): number {
   return scale * Math.max(0, rejection) ** EXPONENT;
 }
 
-function runoffAppeal(state: GameState, sourcePartyId: string, finalistId: string): number {
+/**
+ * P5 (chantier ciblé, voir P1_P5_FINAL_FIXES.md section 7) : rien dans le
+ * moteur ne pénalisait une position idéologique centrale — une distance
+ * moyenne faible à l'ensemble des autres partis actifs (calculée
+ * géométriquement à partir des positions perçues courantes, jamais codée
+ * par identifiant de parti) donnait un avantage de report mécanique dans
+ * quasiment chaque duel, sans aucune contrepartie. `CENTRALITY_REFERENCE`
+ * est calibré sur la distance moyenne réelle observée dans le catalogue de
+ * partis existants (56 à 87, médiane ≈70) : seuls les partis nettement
+ * en-dessous de cette référence paient un coût, reflétant un déficit
+ * d'enthousiasme/mobilisation pour un profil "acceptable par tous mais
+ * porté par personne en particulier" (§19 du prompt).
+ */
+const CENTRALITY_REFERENCE = 70;
+const CENTRALITY_COEFFICIENT = 0.35;
+
+export function centralityCost(state: GameState, partyId: string): number {
+  const party = state.parties[partyId];
+  if (!party) return 0;
+  const others = Object.values(state.parties).filter((p) => p.active && p.id !== partyId);
+  if (others.length === 0) return 0;
+  const avgDistance =
+    others.reduce(
+      (sum, other) => sum + ideologyDistance(party.perceivedIdeology, other.perceivedIdeology),
+      0,
+    ) / others.length;
+  const deficit = Math.max(0, CENTRALITY_REFERENCE - avgDistance);
+  return deficit * CENTRALITY_COEFFICIENT;
+}
+
+export function runoffAppeal(state: GameState, sourcePartyId: string, finalistId: string): number {
   const source = state.parties[sourcePartyId];
   const finalist = state.parties[finalistId];
   if (!source || !finalist) return 0.01;
@@ -105,9 +135,33 @@ function runoffAppeal(state: GameState, sourcePartyId: string, finalistId: strin
       finalist.hidden.transferability * 0.35 +
       finalist.stats.credibility * 0.12 +
       finalist.stats.mobilization * 0.05 -
-      diminishingRejectionPenalty(finalist.stats.rejection) +
+      diminishingRejectionPenalty(finalist.stats.rejection) -
+      centralityCost(state, finalistId) +
       consistency,
   );
+}
+
+/**
+ * P5 (chantier ciblé) : convertit deux scores d'appel en part de voix
+ * amortie vers 50/50, pour qu'un avantage d'appel — y compris l'avantage de
+ * centralité désormais atténué mais pas supprimé — ne se traduise plus en
+ * quasi-monopole (proche de 100/0) d'un électorat éliminé. `DAMPING`
+ * détermine la fraction de l'écart brut par rapport à 50/50 qui est
+ * conservée ; le reste est ramené vers l'équilibre. Conserve la masse par
+ * construction (`left + right === 1`) et préserve l'ordre (le camp le plus
+ * attractif reste toujours majoritaire).
+ */
+const RUNOFF_SHARE_DAMPING = 0.62;
+
+export function runoffShareSplit(
+  leftAppeal: number,
+  rightAppeal: number,
+): { left: number; right: number } {
+  const total = leftAppeal + rightAppeal;
+  if (total <= 0) return { left: 0.5, right: 0.5 };
+  const rawLeftShare = leftAppeal / total;
+  const dampedLeftShare = clamp(0.5 + (rawLeftShare - 0.5) * RUNOFF_SHARE_DAMPING, 0.05, 0.95);
+  return { left: dampedLeftShare, right: 1 - dampedLeftShare };
 }
 
 export function simulateFirstRound(
@@ -208,20 +262,27 @@ export function simulateSecondRound(
     const rightDistance = ideologyDistance(source.perceivedIdeology, right.perceivedIdeology);
     const closestDistance = Math.min(leftDistance, rightDistance);
     const explicitEndorsement = state.flags[`endorsement:${sourcePartyId}`];
+    // P5 (chantier ciblé) : l'alliance avec l'un des deux finalistes réduit
+    // désormais l'abstention au même titre qu'une consigne explicite (§18 du
+    // prompt) — elle en était absente alors que runoffAppeal() la valorise
+    // déjà côté report.
+    const alliedWithFinalist =
+      source.alliedWith.includes(leftId) || source.alliedWith.includes(rightId);
     const abstentionRate = clamp(
       0.08 +
         closestDistance / 280 +
         (left.stats.rejection + right.stats.rejection) / 1000 -
-        (explicitEndorsement && explicitEndorsement !== "neutral" ? 0.05 : 0),
+        (explicitEndorsement && explicitEndorsement !== "neutral" ? 0.05 : 0) -
+        (alliedWithFinalist ? 0.04 : 0),
       0.06,
       0.46,
     );
     const expressedShare = share * (1 - abstentionRate);
     const leftAppeal = runoffAppeal(state, sourcePartyId, leftId);
     const rightAppeal = runoffAppeal(state, sourcePartyId, rightId);
-    const totalAppeal = leftAppeal + rightAppeal;
-    leftTotal += expressedShare * (leftAppeal / totalAppeal);
-    rightTotal += expressedShare * (rightAppeal / totalAppeal);
+    const split = runoffShareSplit(leftAppeal, rightAppeal);
+    leftTotal += expressedShare * split.left;
+    rightTotal += expressedShare * split.right;
     abstainedTransfers += share * abstentionRate;
   }
 

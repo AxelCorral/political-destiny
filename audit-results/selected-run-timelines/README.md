@@ -4,9 +4,9 @@
 - [`aleatoires__lfi__aleatoire__seed0.md`](./aleatoires__lfi__aleatoire__seed0.md) — lfi/aleatoire, qualifié, score 70
 - [`aleatoires__lfi__aleatoire__seed54.md`](./aleatoires__lfi__aleatoire__seed54.md) — lfi/aleatoire, qualifié, vainqueur, score 80
 - [`aleatoires__ps__aleatoire__seed48.md`](./aleatoires__ps__aleatoire__seed48.md) — ps/aleatoire, éliminé, score 62
-- [`aleatoires__ecologistes__aleatoire__seed42.md`](./aleatoires__ecologistes__aleatoire__seed42.md) — ecologistes/aleatoire, qualifié, vainqueur, score 83
+- [`aleatoires__ecologistes__aleatoire__seed42.md`](./aleatoires__ecologistes__aleatoire__seed42.md) — ecologistes/aleatoire, qualifié, score 76
 - [`aleatoires__renaissance__aleatoire__seed36.md`](./aleatoires__renaissance__aleatoire__seed36.md) — renaissance/aleatoire, qualifié, vainqueur, score 79
-- [`aleatoires__horizons__aleatoire__seed30.md`](./aleatoires__horizons__aleatoire__seed30.md) — horizons/aleatoire, qualifié, vainqueur, score 87
+- [`aleatoires__horizons__aleatoire__seed30.md`](./aleatoires__horizons__aleatoire__seed30.md) — horizons/aleatoire, qualifié, score 80
 - [`aleatoires__lr__aleatoire__seed24.md`](./aleatoires__lr__aleatoire__seed24.md) — lr/aleatoire, éliminé, score 51
 - [`aleatoires__rn__aleatoire__seed18.md`](./aleatoires__rn__aleatoire__seed18.md) — rn/aleatoire, qualifié, vainqueur, score 81
 - [`aleatoires__reconquete__aleatoire__seed12.md`](./aleatoires__reconquete__aleatoire__seed12.md) — reconquete/aleatoire, éliminé, score 44
@@ -16,15 +16,15 @@
 - [`gagnees__lfi__aleatoire__seed1.md`](./gagnees__lfi__aleatoire__seed1.md) — lfi/aleatoire, qualifié, vainqueur, score 76
 - [`gagnees__lfi__aleatoire__seed4.md`](./gagnees__lfi__aleatoire__seed4.md) — lfi/aleatoire, qualifié, vainqueur, score 73
 - [`gagnees__lfi__aleatoire__seed6.md`](./gagnees__lfi__aleatoire__seed6.md) — lfi/aleatoire, qualifié, vainqueur, score 75
-- [`gagnees__lfi__aleatoire__seed7.md`](./gagnees__lfi__aleatoire__seed7.md) — lfi/aleatoire, qualifié, vainqueur, score 78
 - [`gagnees__lfi__aleatoire__seed9.md`](./gagnees__lfi__aleatoire__seed9.md) — lfi/aleatoire, qualifié, vainqueur, score 84
+- [`gagnees__lfi__aleatoire__seed10.md`](./gagnees__lfi__aleatoire__seed10.md) — lfi/aleatoire, qualifié, vainqueur, score 79
 
 ## perdues (5)
 - [`perdues__lfi__aleatoire__seed0.md`](./perdues__lfi__aleatoire__seed0.md) — lfi/aleatoire, qualifié, score 70
 - [`perdues__lfi__aleatoire__seed3.md`](./perdues__lfi__aleatoire__seed3.md) — lfi/aleatoire, qualifié, score 69
 - [`perdues__lfi__aleatoire__seed5.md`](./perdues__lfi__aleatoire__seed5.md) — lfi/aleatoire, qualifié, score 68
+- [`perdues__lfi__aleatoire__seed7.md`](./perdues__lfi__aleatoire__seed7.md) — lfi/aleatoire, qualifié, score 72
 - [`perdues__lfi__aleatoire__seed8.md`](./perdues__lfi__aleatoire__seed8.md) — lfi/aleatoire, qualifié, score 73
-- [`perdues__lfi__aleatoire__seed13.md`](./perdues__lfi__aleatoire__seed13.md) — lfi/aleatoire, qualifié, score 68
 
 ## parti_favori (5)
 - [`parti_favori__rn__aleatoire__seed0.md`](./parti_favori__rn__aleatoire__seed0.md) — rn/aleatoire, qualifié, vainqueur, score 80

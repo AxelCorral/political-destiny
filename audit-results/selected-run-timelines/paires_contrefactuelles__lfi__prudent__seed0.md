@@ -2,7 +2,7 @@
 
 Parti : **lfi** (existing) — Agent : **prudent** — Graine : `post-audit-0` — Méthode : field_first
 Résultat : qualifié, **vainqueur** — score final 82/100 — fin `president`
-Score 1er tour : 16.4 — Score 2nd tour : 54.7 — Progression : 3.4
+Score 1er tour : 16.4 — Score 2nd tour : 55.8 — Progression : 3.4
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 2 souvenirs d'acteurs, 76 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
 Idéologie : mouvement total 19.17 points, axe le plus mobile 14.07 points

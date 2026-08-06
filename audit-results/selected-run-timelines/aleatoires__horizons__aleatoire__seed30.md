@@ -1,10 +1,10 @@
 # horizons · aleatoire · seed 30
 
 Parti : **horizons** (existing) — Agent : **aleatoire** — Graine : `post-audit-30` — Méthode : field_first
-Résultat : qualifié, **vainqueur** — score final 87/100 — fin `president`
-Score 1er tour : 14.2 — Score 2nd tour : 53.3 — Progression : 9.7
+Résultat : qualifié — score final 80/100 — fin `runoff_defeat`
+Score 1er tour : 14.2 — Score 2nd tour : 49.5 — Progression : 9.7
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 73 actions adverses (crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Mémoire/monde : 3 souvenirs d'acteurs, 67 actions adverses (crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
 Idéologie : mouvement total 9.1 points, axe le plus mobile 7.38 points
 
 ## Chronologie
@@ -128,11 +128,3 @@ Idéologie : mouvement total 9.1 points, axe le plus mobile 7.38 points
 **29. Les soutiens arrivent avec leurs conditions** _(between_rounds)_
 - Choix : Réunir tous les soutiens sur scène et annoncer un conseil de coalition après lélection [RASSEMBLEUR]
 - Conséquence : *La photographie élargit la majorité* — Limage de rassemblement domine la soirée et mobilise les électeurs qui veulent battre votre adversaire. Labsence daccord précis permet à chacun de projeter ses attentes et prépare des conflits si vous gagnez.
-
-**30. La première adresse de lÉlysée** _(government)_
-- Choix : Annoncer trois textes, leur calendrier parlementaire et les consultations qui les précéderont [PRÉSIDENTIEL]
-- Conséquence : *Trois textes ouvrent le mandat* — Le calendrier rend les priorités prévisibles et distingue les décisions immédiates des négociations. Certains soutiens ne retrouvent pas leur mesure phare, mais personne ne peut prétendre que tout sera fait en même temps.
-
-**31. Le choix de Matignon** _(government)_
-- Choix : Nommer la responsable fictive du programme et lui confier la négociation de la majorité [LOYAL]
-- Conséquence : *Le programme entre directement à Matignon* — La nomination assure une continuité nette avec la campagne et rassure les militants sur les premières réformes. Les alliés réclament davantage de garanties avant de soutenir le gouvernement.

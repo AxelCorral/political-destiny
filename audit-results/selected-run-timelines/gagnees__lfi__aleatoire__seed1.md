@@ -2,7 +2,7 @@
 
 Parti : **lfi** (existing) — Agent : **aleatoire** — Graine : `post-audit-1` — Méthode : presidential
 Résultat : qualifié, **vainqueur** — score final 76/100 — fin `president`
-Score 1er tour : 13.8 — Score 2nd tour : 55.1 — Progression : 0.8
+Score 1er tour : 13.8 — Score 2nd tour : 53.1 — Progression : 0.8
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 1 souvenirs d'acteurs, 78 actions adverses (alliance|crisis|endorsement|strategy), 2 alliance(s), 0 remplacement(s)
 Idéologie : mouvement total 12.24 points, axe le plus mobile 7.3 points

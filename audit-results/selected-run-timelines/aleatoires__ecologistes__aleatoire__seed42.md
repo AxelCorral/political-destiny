@@ -1,11 +1,11 @@
 # ecologistes · aleatoire · seed 42
 
 Parti : **ecologistes** (existing) — Agent : **aleatoire** — Graine : `post-audit-42` — Méthode : rupture
-Résultat : qualifié, **vainqueur** — score final 83/100 — fin `president`
-Score 1er tour : 13.2 — Score 2nd tour : 51.5 — Progression : 6.7
+Résultat : qualifié — score final 76/100 — fin `runoff_defeat`
+Score 1er tour : 13.2 — Score 2nd tour : 49.9 — Progression : 6.7
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
-Mémoire/monde : 3 souvenirs d'acteurs, 78 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
-Idéologie : mouvement total 27.44 points, axe le plus mobile 9.47 points
+Mémoire/monde : 3 souvenirs d'acteurs, 68 actions adverses (alliance|crisis|endorsement|strategy), 1 alliance(s), 0 remplacement(s)
+Idéologie : mouvement total 26.54 points, axe le plus mobile 9.47 points
 
 ## Chronologie
 
@@ -133,12 +133,3 @@ Idéologie : mouvement total 27.44 points, axe le plus mobile 9.47 points
 **29. Le débat de lentre-deux-tours** _(between_rounds)_
 - Choix : Comparer point par point les votes et alliances de votre adversaire à ses promesses actuelles [OFFENSIF]
 - Conséquence : *Le bilan adverse occupe le duel* — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
-
-**30. Quinze ministres pour une coalition** _(government)_
-- Choix : Attribuer les portefeuilles selon une grille publique de compétences et de conflits dintérêts [TRANSPARENT]
-- Conséquence : *Chaque nomination reçoit ses critères* — La grille explique plusieurs choix inattendus et oblige à écarter un allié insuffisamment préparé. Léquipe gagne en crédibilité, tandis que la coalition perd une récompense attendue.
-
-**31. La première adresse de lÉlysée** _(government)_
-- Choix : Concentrer les cent jours sur le pouvoir dachat et reporter les autres réformes à lautomne [POPULAIRE]
-- Conséquence : *Le pouvoir dachat devient lurgence unique* — La priorité répond à lattente la plus immédiate et rend laction gouvernementale facile à suivre. Les alliés écologistes et institutionnels acceptent mal de voir leurs accords repoussés sans nouvelle date.
-- Déclaration : initial_position

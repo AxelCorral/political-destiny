@@ -2,7 +2,7 @@
 
 Parti : **lfi** (existing) — Agent : **prudent** — Graine : `post-audit-3` — Méthode : digital
 Résultat : qualifié — score final 70/100 — fin `runoff_defeat`
-Score 1er tour : 14.9 — Score 2nd tour : 41.6 — Progression : 1.9
+Score 1er tour : 14.9 — Score 2nd tour : 43.8 — Progression : 1.9
 Répétitions dans cette partie : 0 titres, 0 récits (dont 0 justifiées par une chaîne)
 Mémoire/monde : 3 souvenirs d'acteurs, 71 actions adverses (alliance|crisis|endorsement|replacement|strategy), 1 alliance(s), 1 remplacement(s)
 Idéologie : mouvement total 10.51 points, axe le plus mobile 5.15 points

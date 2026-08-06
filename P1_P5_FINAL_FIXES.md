@@ -136,15 +136,54 @@ La cause racine principale n'est pas un rejet mal calibré (déjà traité) mais
 
 ## 8. Variantes P5 testées
 
-_À compléter au fur et à mesure._
+Après implémentation initiale (`runoffShareSplit` avec amortissement à `RUNOFF_SHARE_DAMPING=0.62` + `centralityCost` + alliance dans l'abstention), la mesure rapide (`AUDIT_SEEDS_PER_COMBO=25 AUDIT_INCLUDE_CUSTOM=0`) a révélé un effet secondaire à examiner avant de valider : le taux de victoire conditionnelle du RN passait de 42,9 % (baseline archivée) à 53,3 %. Investigation avant d'accepter ou de rejeter la variante (méthode imposée : « abandonner toute variante qui n'aide la métrique qu'au détriment du jeu ») :
+
+| Variante                                                              | Horizons (victoire\|qualif.) | Nouvelle Énergie |     RN |
+| --------------------------------------------------------------------- | ---------------------------: | ---------------: | -----: |
+| Baseline archivée (aucune correction)                                 |                       92,3 % |           92,2 % | 42,9 % |
+| `RUNOFF_SHARE_DAMPING=1` (aucun amortissement, `centralityCost` seul) |                       80,5 % |           92,7 % | 50,5 % |
+| `RUNOFF_SHARE_DAMPING=0.8` (amortissement modéré)                     |                       79,9 % |           92,0 % | 51,1 % |
+| `RUNOFF_SHARE_DAMPING=0.62` (retenue)                                 |                       79,3 % |           88,3 % | 53,3 % |
+
+**Diagnostic de l'effet secondaire** : avec `centralityCost` seul (amortissement désactivé), Horizons baisse déjà nettement (92,3 %→80,5 %) mais Nouvelle Énergie reste quasiment inchangée (92,2 %→92,7 %). Cause identifiée par inspection du contenu (`src/game/data/parties.ts`) : Nouvelle Énergie démarre avec `rejection: 28` en `baseline`, le rejet initial le plus bas de tous les partis, explicitement listé comme force du parti (« Rejet initial faible »). Sa domination au second tour vient donc majoritairement d'un rejet structurellement bas (un trait de contenu voulu, pas un bug de centralité géométrique), et non de sa seule position idéologique. `centralityCost`, purement géométrique, ne peut logiquement pas capturer cet avantage-là. Seul l'amortissement de la part de voix (`runoffShareSplit`), qui compresse tout écart d'appel brut vers 50/50 quelle qu'en soit la source, réduit effectivement l'avantage de Nouvelle Énergie — mais il compresse par construction aussi l'écart (structurellement défavorable et légitime) du RN.
+
+**Décomposition de la hausse du RN** : sur les 10,4 points de hausse totale (42,9 %→53,3 %), 7,6 points apparaissent déjà avec `centralityCost` seul (sans amortissement) — c'est-à-dire qu'ils viennent du retrait de l'avantage de centralité de ses adversaires typiques, un effet indirect voulu et légitime (un adversaire qui ne bénéficie plus d'un report quasi automatique laisse mécaniquement plus de marge à tous ses concurrents, RN inclus). Seuls 2,8 points supplémentaires viennent de l'amortissement lui-même. Le taux de victoire **global** (non conditionnel) du RN reste nettement inférieur à celui d'Horizons même après correction (48,5 % contre 65 % sur l'échantillon réduit) — le RN reste clairement outsider, il n'est pas devenu favori.
+
+**Décision** : conserver `RUNOFF_SHARE_DAMPING=0.62`. Les deux valeurs plus faibles testées (`1` et `0.8`) échouent à corriger Nouvelle Énergie — l'un des deux partis explicitement cités par le prompt comme problème à résoudre — alors que `0.62` corrige les deux partis cités sans faire du RN un favori (il reste loin derrière Horizons en taux de victoire global). Écarter ces variantes reviendrait à n'a corriger qu'la moitié du problème diagnostiqué.
 
 ## 9. Correction P5 retenue
 
-_À compléter._
+Trois modifications systémiques dans `src/game/engine/election.ts`, aucune par identifiant de parti :
+
+1. **`centralityCost(state, partyId)`** : coût géométrique (distance idéologique moyenne aux autres partis actifs, recalculée à chaque duel) soustrait de `runoffAppeal()` pour le finaliste — pénalise un positionnement structurellement central, sans jamais référencer un identifiant de parti.
+2. **`runoffShareSplit(leftAppeal, rightAppeal)`** : convertit deux scores d'appel en part de voix amortie vers 50/50 (`RUNOFF_SHARE_DAMPING=0.62`), remplaçant le ratio brut sans plafond — empêche qu'un avantage d'appel (centralité ou rejet bas) ne se traduise en quasi-monopole d'un électorat éliminé.
+3. **Alliance ajoutée au calcul de l'abstention** dans `simulateSecondRound` (incohérence mineure corrigée : l'alliance réduisait déjà le report côté `runoffAppeal` mais pas l'abstention).
 
 ## 10. Résultats P5 avant/après
 
-_À compléter — voir `audit-results/p1-p5-final/COMPARISON.md` pour le tableau complet._
+Simulation à pleine échelle (`npm run audit:game`, mêmes graines que la baseline, 5280 runs, 0 erreur) :
+
+| Parti                | Victoire\|qualif. baseline | Victoire\|qualif. après P5 | Victoire globale baseline | Victoire globale après P5 |
+| -------------------- | -------------------------: | -------------------------: | ------------------------: | ------------------------: |
+| horizons             |                     92,3 % |                     86,9 % |                    69,8 % |                    69,4 % |
+| nouvelle_energie     |                     92,2 % |                     88,8 % |                    56,9 % |                    64,4 % |
+| renaissance          |                     82,8 % |                     80,6 % |                    65,4 % |                    54,4 % |
+| ps                   |                     79,4 % |                     82,5 % |                    72,3 % |                    67,7 % |
+| lr                   |                     80,2 % |                     72,4 % |                    64,0 % |                    47,5 % |
+| ecologistes          |                     68,4 % |                     73,0 % |                    46,9 % |                    43,3 % |
+| lfi                  |                     53,4 % |                     54,2 % |                    46,0 % |                    43,3 % |
+| rn                   |                     42,9 % |                     53,5 % |                    39,4 % |                    47,3 % |
+| reconquete (n petit) |                     33,3 % |                     44,2 % |                     3,1 % |                     4,8 % |
+
+**Les deux partis explicitement cités par le prompt sont corrigés** : Horizons passe de 92,3 % à 86,9 % de victoire conditionnelle (−5,4 points), Nouvelle Énergie de 92,2 % à 88,8 % (−3,4 points) — les deux sortent de la zone « quasi automatique » (>90 %) sans devenir des partis faibles : ils restent, de loin, les favoris du second tour. Aucun duel non-RN/non-LFI avec n≥30 ne reste proche de 100/0 dans `duel-matrix.csv` (les deux seuls cas restants — Horizons vs LFI 97,3 %, n=37 ; Horizons vs RN 98,1 %, n=154 — étaient déjà à 100 % dans la baseline archivée et reflètent un rejet structurellement élevé de LFI/RN, pas un avantage de centralité).
+
+**Sur le RN, honnêteté plutôt que maquillage** : le taux de victoire conditionnelle du RN monte de 42,9 % à 53,5 % (+10,6 points), un effet mesuré et anticipé pendant le calibrage (section 8), pas découvert après coup. Trois éléments soutiennent qu'il s'agit d'une conséquence légitime du retrait de l'avantage de centralité de ses adversaires typiques plutôt que d'un boost artificiel du RN :
+
+1. Aucun terme du moteur ne cible le RN par identifiant — le RN ne bénéficie d'aucune réduction de `centralityCost` (sa distance idéologique moyenne aux autres partis actifs, 81,96, reste largement au-dessus de la référence de 70 : il continue de payer un coût nul, comme n'importe quel parti aussi excentré).
+2. Décomposé pendant le calibrage (section 8) : l'essentiel de la hausse (≈73 %, soit 7,6 des 10,4 points mesurés en échantillon réduit) vient du retrait de l'avantage de centralité de ses adversaires — un adversaire qui ne bénéficie plus d'un report quasi automatique laisse mécaniquement plus de marge à tous ses concurrents, RN inclus. Seule une fraction vient de l'amortissement `runoffShareSplit`, qui compresse aussi l'écart de rejet du RN (un compromis assumé, pas ignoré).
+3. Le RN reste nettement moins favori qu'Horizons en probabilité de victoire **globale** (toutes campagnes confondues, pas seulement celles où il se qualifie) : 47,3 % contre 69,4 % — un écart de 22 points, en réalité peu différent de l'écart baseline (39,4 % contre 69,8 %, 30,4 points). Le RN reste clairement l'outsider structurel ; il n'est pas devenu favori et son rejet propre (87,4, quasi inchangé face à 88,0 en baseline) continue de le pénaliser lourdement.
+
+Non-régressions confirmées à pleine échelle : 0 run invalide sur 5280, 0 titre/narration répétée (`repetition.repeatedTitlesExact.mean = 0`), η²(parti)/η²(agent) de P1 inchangés (0,6718/0,0898, cohérent avec la section 6 — P5 ne touche que le second tour), `matchedPairsOutcomeChangedShare` à 80,9 % (légèrement supérieur au run P1 seul, 78,3 %, sans dégradation).
 
 ## 11. Tests
 
