@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="766" viewBox="0 0 900 766">
+  <rect width="900" height="766" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Souvenirs d'acteurs accumulés en moyenne par partie (proxy de callback)</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 398 parties · commit 12633fc · un flag technique sans callback narratif visible ne compte pas comme mémoire gameplay (lecture qualitative section 41)</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons</text>
+    <rect x="200" y="62" width="610.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="818" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.7</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete</text>
+    <rect x="200" y="100" width="600.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="808.1612903225806" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.7</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn</text>
+    <rect x="200" y="138" width="542.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="750.7688172043011" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.3</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr</text>
+    <rect x="200" y="176" width="424.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="632.7043010752689" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.6</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie</text>
+    <rect x="200" y="214" width="424.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="632.7043010752689" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.6</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">extreme_droite</text>
+    <rect x="200" y="252" width="396.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="604.8279569892472" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.4</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi</text>
+    <rect x="200" y="290" width="369.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="576.9516129032259" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.3</text>
+    <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes</text>
+    <rect x="200" y="328" width="362.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="570.3924731182794" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.2</text>
+    <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance</text>
+    <rect x="200" y="366" width="349.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="557.2741935483871" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.1</text>
+    <text x="190" y="422" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps</text>
+    <rect x="200" y="404" width="342.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="550.7150537634409" y="422" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.1</text>
+    <text x="190" y="460" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">centrist_technocratic</text>
+    <rect x="200" y="442" width="341.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="549.0752688172042" y="460" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.1</text>
+    <text x="190" y="498" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">contradictory_hybrid</text>
+    <rect x="200" y="480" width="314.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="522.8387096774193" y="498" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.9</text>
+    <text x="190" y="536" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">extreme_gauche</text>
+    <rect x="200" y="518" width="300.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="508.0806451612903" y="536" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.8</text>
+    <text x="190" y="574" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">souverainiste</text>
+    <rect x="200" y="556" width="287.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="494.9623655913978" y="574" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.8</text>
+    <text x="190" y="612" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">coherent_conservative</text>
+    <rect x="200" y="594" width="246.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="453.96774193548384" y="612" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.5</text>
+    <text x="190" y="650" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologiste_radical</text>
+    <rect x="200" y="632" width="232.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="440.84946236559136" y="650" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.4</text>
+    <text x="190" y="688" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">coherent_left_green</text>
+    <rect x="200" y="670" width="164.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="371.97849462365593" y="688" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.0</text>
+    <text x="190" y="726" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">libertarien</text>
+    <rect x="200" y="708" width="164.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="371.97849462365593" y="726" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.0</text>
+</svg>

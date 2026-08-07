@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="158" viewBox="0 0 760 158">
+  <rect width="760" height="158" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Recouvrement des événements rencontrés : même parti vs partis différents</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 398 parties · commit 12633fc · indice de Jaccard moyen sur l'ensemble des événements rencontrés par partie</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Même parti (graines différentes)</text>
+    <rect x="200" y="62" width="114.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="322.68" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.244</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partis différents</text>
+    <rect x="200" y="100" width="59.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="267.22" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.126</text>
+</svg>

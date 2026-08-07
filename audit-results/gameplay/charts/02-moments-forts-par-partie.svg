@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="766" viewBox="0 0 900 766">
+  <rect width="900" height="766" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Nombre moyen de moments forts (intensité ≥ 5/6) par partie</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 398 parties · commit 12633fc</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie</text>
+    <rect x="200" y="62" width="610.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="818" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">18.1 moments</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons</text>
+    <rect x="200" y="100" width="603.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="811.2596685082872" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">17.9 moments</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn</text>
+    <rect x="200" y="138" width="603.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="811.2596685082872" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">17.9 moments</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr</text>
+    <rect x="200" y="176" width="586.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="794.4088397790055" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">17.4 moments</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">souverainiste</text>
+    <rect x="200" y="214" width="549.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="757.3370165745856" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">16.3 moments</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps</text>
+    <rect x="200" y="252" width="546.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="753.9668508287292" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">16.2 moments</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">extreme_droite</text>
+    <rect x="200" y="290" width="529.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="737.1160220994475" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.7 moments</text>
+    <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi</text>
+    <rect x="200" y="328" width="522.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="730.3756906077348" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.5 moments</text>
+    <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes</text>
+    <rect x="200" y="366" width="512.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="720.2651933701657" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.2 moments</text>
+    <text x="190" y="422" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance</text>
+    <rect x="200" y="404" width="512.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="720.2651933701657" y="422" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.2 moments</text>
+    <text x="190" y="460" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete</text>
+    <rect x="200" y="442" width="495.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="703.414364640884" y="460" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.7 moments</text>
+    <text x="190" y="498" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologiste_radical</text>
+    <rect x="200" y="480" width="492.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="700.0441988950276" y="498" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.6 moments</text>
+    <text x="190" y="536" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">contradictory_hybrid</text>
+    <rect x="200" y="518" width="475.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="683.1933701657458" y="536" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.1 moments</text>
+    <text x="190" y="574" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">coherent_conservative</text>
+    <rect x="200" y="556" width="471.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="679.8232044198894" y="574" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14.0 moments</text>
+    <text x="190" y="612" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">extreme_gauche</text>
+    <rect x="200" y="594" width="431.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="639.3812154696133" y="612" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">12.8 moments</text>
+    <text x="190" y="650" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">centrist_technocratic</text>
+    <rect x="200" y="632" width="414.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="622.5303867403316" y="650" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">12.3 moments</text>
+    <text x="190" y="688" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">libertarien</text>
+    <rect x="200" y="670" width="414.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="622.5303867403316" y="688" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">12.3 moments</text>
+    <text x="190" y="726" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">coherent_left_green</text>
+    <rect x="200" y="708" width="360.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="568.6077348066299" y="726" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">10.7 moments</text>
+</svg>

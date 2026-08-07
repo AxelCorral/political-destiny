@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+  <rect width="900" height="380" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Score final /100 par catégorie de résultat</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 398 parties · commit 12633fc · moyenne ± écart-type</text>
+  <line x1="60" y1="290" x2="870" y2="290" stroke="#c7d0d8" />
+  <rect x="71.6" y="65.8" width="44.3" height="224.2" fill="#3b6ea5" />
+      <text x="94.7" y="61.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">85.4</text><rect x="117.9" y="275.0" width="44.3" height="15.0" fill="#c9a24b" />
+      <text x="141.0" y="271.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.7</text>
+    <text x="117.9" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 117.9 306.0)">victoire_serree</text><rect x="187.3" y="86.8" width="44.3" height="203.2" fill="#3b6ea5" />
+      <text x="210.4" y="82.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">77.4</text><rect x="233.6" y="275.0" width="44.3" height="15.0" fill="#c9a24b" />
+      <text x="256.7" y="271.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.7</text>
+    <text x="233.6" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 233.6 306.0)">defaite_serree</text><rect x="303.0" y="62.4" width="44.3" height="227.6" fill="#3b6ea5" />
+      <text x="326.1" y="58.4" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">86.7</text><rect x="349.3" y="281.6" width="44.3" height="8.4" fill="#c9a24b" />
+      <text x="372.4" y="277.6" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.2</text>
+    <text x="349.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 349.3 306.0)">remontee_spectaculaire</text><rect x="418.7" y="103.3" width="44.3" height="186.7" fill="#3b6ea5" />
+      <text x="441.9" y="99.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">71.1</text><rect x="465.0" y="276.3" width="44.3" height="13.7" fill="#c9a24b" />
+      <text x="488.1" y="272.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.2</text>
+    <text x="465.0" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 465.0 306.0)">defaite_lourde</text><rect x="534.4" y="139.0" width="44.3" height="151.0" fill="#3b6ea5" />
+      <text x="557.6" y="135.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">57.5</text><rect x="580.7" y="268.7" width="44.3" height="21.3" fill="#c9a24b" />
+      <text x="603.9" y="264.7" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">8.1</text>
+    <text x="580.7" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 580.7 306.0)">elimination_precoce</text><rect x="650.1" y="60.0" width="44.3" height="230.0" fill="#3b6ea5" />
+      <text x="673.3" y="56.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">87.6</text><rect x="696.4" y="280.3" width="44.3" height="9.7" fill="#c9a24b" />
+      <text x="719.6" y="276.3" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.7</text>
+    <text x="696.4" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 696.4 306.0)">victoire_confortable</text><rect x="765.9" y="186.8" width="44.3" height="103.2" fill="#3b6ea5" />
+      <text x="789.0" y="182.8" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">39.3</text><rect x="812.1" y="284.5" width="44.3" height="5.5" fill="#c9a24b" />
+      <text x="835.3" y="280.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.1</text>
+    <text x="812.1" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 812.1 306.0)">effondrement</text>
+  <rect x="60" y="356" width="12" height="12" fill="#3b6ea5" /><text x="78" y="366" font-size="11" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Moyenne</text><rect x="200" y="356" width="12" height="12" fill="#c9a24b" /><text x="218" y="366" font-size="11" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Écart-type</text>
+</svg>

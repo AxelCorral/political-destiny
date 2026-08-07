@@ -1,0 +1,54 @@
+# Index des chronologies qualitatives sélectionnées
+
+50 parties sélectionnées sur un corpus de 398. Chaque fichier contient la chronologie complète (texte réel des événements, options non choisies, conséquence, sondage avant/après, intensité dramatique estimée).
+
+- [`lfi__aleatoire__seed0__victoire_serree.md`](./lfi__aleatoire__seed0__victoire_serree.md) — lfi/aleatoire, victoire_serree, score 75, 2nd tour
+- [`lfi__aleatoire__seed2__defaite_serree.md`](./lfi__aleatoire__seed2__defaite_serree.md) — lfi/aleatoire, defaite_serree, score 72, 2nd tour
+- [`lfi__prudent__seed1__remontee_spectaculaire.md`](./lfi__prudent__seed1__remontee_spectaculaire.md) — lfi/prudent, remontee_spectaculaire, score 86, rare, 2nd tour
+- [`ps__aleatoire__seed0__victoire_serree.md`](./ps__aleatoire__seed0__victoire_serree.md) — ps/aleatoire, victoire_serree, score 91, 2nd tour
+- [`ps__aleatoire__seed1__elimination_precoce.md`](./ps__aleatoire__seed1__elimination_precoce.md) — ps/aleatoire, elimination_precoce, score 53, rare
+- [`ps__aleatoire__seed2__defaite_serree.md`](./ps__aleatoire__seed2__defaite_serree.md) — ps/aleatoire, defaite_serree, score 86, 2nd tour
+- [`ecologistes__aleatoire__seed0__victoire_serree.md`](./ecologistes__aleatoire__seed0__victoire_serree.md) — ecologistes/aleatoire, victoire_serree, score 86, 2nd tour
+- [`ecologistes__aleatoire__seed1__elimination_precoce.md`](./ecologistes__aleatoire__seed1__elimination_precoce.md) — ecologistes/aleatoire, elimination_precoce, score 51
+- [`ecologistes__aleatoire__seed2__defaite_serree.md`](./ecologistes__aleatoire__seed2__defaite_serree.md) — ecologistes/aleatoire, defaite_serree, score 80, 2nd tour
+- [`renaissance__aleatoire__seed0__victoire_serree.md`](./renaissance__aleatoire__seed0__victoire_serree.md) — renaissance/aleatoire, victoire_serree, score 81, rare, 2nd tour
+- [`renaissance__aleatoire__seed1__elimination_precoce.md`](./renaissance__aleatoire__seed1__elimination_precoce.md) — renaissance/aleatoire, elimination_precoce, score 51
+- [`renaissance__aleatoire__seed3__defaite_serree.md`](./renaissance__aleatoire__seed3__defaite_serree.md) — renaissance/aleatoire, defaite_serree, score 68, 2nd tour
+- [`horizons__aleatoire__seed0__defaite_serree.md`](./horizons__aleatoire__seed0__defaite_serree.md) — horizons/aleatoire, defaite_serree, score 82, 2nd tour
+- [`horizons__aleatoire__seed1__victoire_confortable.md`](./horizons__aleatoire__seed1__victoire_confortable.md) — horizons/aleatoire, victoire_confortable, score 90, rare, 2nd tour
+- [`horizons__aleatoire__seed2__elimination_precoce.md`](./horizons__aleatoire__seed2__elimination_precoce.md) — horizons/aleatoire, elimination_precoce, score 65
+- [`lr__aleatoire__seed0__elimination_precoce.md`](./lr__aleatoire__seed0__elimination_precoce.md) — lr/aleatoire, elimination_precoce, score 54
+- [`lr__aleatoire__seed1__victoire_confortable.md`](./lr__aleatoire__seed1__victoire_confortable.md) — lr/aleatoire, victoire_confortable, score 82, rare, 2nd tour
+- [`lr__aleatoire__seed2__defaite_serree.md`](./lr__aleatoire__seed2__defaite_serree.md) — lr/aleatoire, defaite_serree, score 74, 2nd tour
+- [`rn__aleatoire__seed0__defaite_lourde.md`](./rn__aleatoire__seed0__defaite_lourde.md) — rn/aleatoire, defaite_lourde, score 67, 2nd tour
+- [`rn__aleatoire__seed1__victoire_serree.md`](./rn__aleatoire__seed1__victoire_serree.md) — rn/aleatoire, victoire_serree, score 76, 2nd tour
+- [`rn__prudent__seed0__defaite_serree.md`](./rn__prudent__seed0__defaite_serree.md) — rn/prudent, defaite_serree, score 75, 2nd tour
+- [`reconquete__aleatoire__seed0__victoire_serree.md`](./reconquete__aleatoire__seed0__victoire_serree.md) — reconquete/aleatoire, victoire_serree, score 86, 2nd tour
+- [`reconquete__aleatoire__seed1__elimination_precoce.md`](./reconquete__aleatoire__seed1__elimination_precoce.md) — reconquete/aleatoire, elimination_precoce, score 50, rare
+- [`reconquete__risque__seed0__defaite_serree.md`](./reconquete__risque__seed0__defaite_serree.md) — reconquete/risque, defaite_serree, score 84, 2nd tour
+- [`nouvelle_energie__aleatoire__seed0__victoire_serree.md`](./nouvelle_energie__aleatoire__seed0__victoire_serree.md) — nouvelle_energie/aleatoire, victoire_serree, score 90, 2nd tour
+- [`nouvelle_energie__prudent__seed1__victoire_confortable.md`](./nouvelle_energie__prudent__seed1__victoire_confortable.md) — nouvelle_energie/prudent, victoire_confortable, score 91, rare, 2nd tour
+- [`nouvelle_energie__opportuniste_electoral__seed1__elimination_precoce.md`](./nouvelle_energie__opportuniste_electoral__seed1__elimination_precoce.md) — nouvelle_energie/opportuniste_electoral, elimination_precoce, score 62, rare
+- [`coherent_left_green__prudent__seed0__elimination_precoce.md`](./coherent_left_green__prudent__seed0__elimination_precoce.md) — coherent_left_green/prudent, elimination_precoce, score 59
+- [`coherent_left_green__prudent__seed1__elimination_precoce.md`](./coherent_left_green__prudent__seed1__elimination_precoce.md) — coherent_left_green/prudent, elimination_precoce, score 68
+- [`coherent_conservative__prudent__seed0__victoire_serree.md`](./coherent_conservative__prudent__seed0__victoire_serree.md) — coherent_conservative/prudent, victoire_serree, score 87, 2nd tour
+- [`coherent_conservative__prudent__seed1__elimination_precoce.md`](./coherent_conservative__prudent__seed1__elimination_precoce.md) — coherent_conservative/prudent, elimination_precoce, score 61
+- [`contradictory_hybrid__prudent__seed0__defaite_serree.md`](./contradictory_hybrid__prudent__seed0__defaite_serree.md) — contradictory_hybrid/prudent, defaite_serree, score 79, 2nd tour
+- [`contradictory_hybrid__prudent__seed1__remontee_spectaculaire.md`](./contradictory_hybrid__prudent__seed1__remontee_spectaculaire.md) — contradictory_hybrid/prudent, remontee_spectaculaire, score 88, rare, 2nd tour
+- [`centrist_technocratic__prudent__seed0__elimination_precoce.md`](./centrist_technocratic__prudent__seed0__elimination_precoce.md) — centrist_technocratic/prudent, elimination_precoce, score 60
+- [`centrist_technocratic__prudent__seed1__victoire_confortable.md`](./centrist_technocratic__prudent__seed1__victoire_confortable.md) — centrist_technocratic/prudent, victoire_confortable, score 87, 2nd tour
+- [`extreme_gauche__prudent__seed0__victoire_confortable.md`](./extreme_gauche__prudent__seed0__victoire_confortable.md) — extreme_gauche/prudent, victoire_confortable, score 86, rare, 2nd tour
+- [`extreme_gauche__prudent__seed1__remontee_spectaculaire.md`](./extreme_gauche__prudent__seed1__remontee_spectaculaire.md) — extreme_gauche/prudent, remontee_spectaculaire, score 86, 2nd tour
+- [`extreme_droite__prudent__seed0__remontee_spectaculaire.md`](./extreme_droite__prudent__seed0__remontee_spectaculaire.md) — extreme_droite/prudent, remontee_spectaculaire, score 90, rare, 2nd tour
+- [`extreme_droite__prudent__seed1__victoire_serree.md`](./extreme_droite__prudent__seed1__victoire_serree.md) — extreme_droite/prudent, victoire_serree, score 83, rare, 2nd tour
+- [`libertarien__prudent__seed0__elimination_precoce.md`](./libertarien__prudent__seed0__elimination_precoce.md) — libertarien/prudent, elimination_precoce, score 63
+- [`libertarien__prudent__seed1__elimination_precoce.md`](./libertarien__prudent__seed1__elimination_precoce.md) — libertarien/prudent, elimination_precoce, score 67, rare
+- [`ecologiste_radical__prudent__seed0__remontee_spectaculaire.md`](./ecologiste_radical__prudent__seed0__remontee_spectaculaire.md) — ecologiste_radical/prudent, remontee_spectaculaire, score 87, 2nd tour
+- [`ecologiste_radical__prudent__seed1__victoire_serree.md`](./ecologiste_radical__prudent__seed1__victoire_serree.md) — ecologiste_radical/prudent, victoire_serree, score 88, rare, 2nd tour
+- [`souverainiste__prudent__seed0__victoire_serree.md`](./souverainiste__prudent__seed0__victoire_serree.md) — souverainiste/prudent, victoire_serree, score 87, rare, 2nd tour
+- [`souverainiste__prudent__seed1__victoire_serree.md`](./souverainiste__prudent__seed1__victoire_serree.md) — souverainiste/prudent, victoire_serree, score 84, rare, 2nd tour
+- [`lfi__aleatoire__seed1__victoire_serree.md`](./lfi__aleatoire__seed1__victoire_serree.md) — lfi/aleatoire, victoire_serree, score 82, rare, 2nd tour
+- [`horizons__contrarien__seed0__effondrement.md`](./horizons__contrarien__seed0__effondrement.md) — horizons/contrarien, effondrement, score 41
+- [`lfi__prudent__seed2__defaite_lourde.md`](./lfi__prudent__seed2__defaite_lourde.md) — lfi/prudent, defaite_lourde, score 72, 2nd tour
+- [`lfi__risque__seed2__elimination_precoce.md`](./lfi__risque__seed2__elimination_precoce.md) — lfi/risque, elimination_precoce, score 58
+- [`ps__opportuniste_electoral__seed0__victoire_confortable.md`](./ps__opportuniste_electoral__seed0__victoire_confortable.md) — ps/opportuniste_electoral, victoire_confortable, score 88, rare, 2nd tour

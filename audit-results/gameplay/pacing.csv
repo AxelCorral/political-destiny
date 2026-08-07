@@ -1,0 +1,10 @@
+phase,totalDecisions,avgDecisionsPerRun,avgNarrativeLength,avgIntensity,majorOrDecisiveCount,runsReachingPhase
+setup,0,0,0,0,0,0
+pre_campaign,3023,7.6,195.6,3.71,1173,398
+campaign,3074,7.72,188.2,4.04,1592,398
+official_campaign,3057,7.68,196,4.33,1802,398
+first_round,0,0,0,0,0,0
+between_rounds,1410,3.54,191.5,4.98,1118,398
+second_round,0,0,0,0,0,0
+government_epilogue,304,2,192.1,5.15,253,152
+finished,398,1,188,4.39,265,398

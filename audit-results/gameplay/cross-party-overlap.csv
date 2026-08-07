@@ -1,0 +1,3 @@
+grouping,pairsCompared,meanEventJaccard
+same_party,4528,0.244
+cross_party,37377,0.126

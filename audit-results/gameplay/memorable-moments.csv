@@ -1,0 +1,399 @@
+runKey,peakDecisionIndex,peakEventTitle,peakEventCategory,peakIntensity,matchesEngineBestDecision
+lfi:aleatoire:0,25,Le débat de lentre-deux-tours,between_rounds,6,false
+lfi:aleatoire:1,6,Un fichier militant sort du siège,scandal,6,false
+lfi:aleatoire:2,16,Neuf candidats face au climat,debate,6,true
+lfi:aleatoire:3,17,La fronde sociale exige un vote,party,6,false
+lfi:prudent:0,17,Votre voix ne tient plus,rare,6,false
+lfi:prudent:1,6,Un fichier militant sort du siège,scandal,6,false
+lfi:prudent:2,13,Neuf candidats face au climat,debate,6,false
+lfi:prudent:3,18,La fronde sociale exige un vote,party,6,false
+lfi:risque:0,16,Une aciérie annonce sa fermeture,world,6,false
+lfi:risque:1,17,Le duel sur les huit milliards,debate,6,false
+lfi:risque:2,12,Les factures sans pièce ressortent,scandal,6,false
+lfi:risque:3,17,La fronde sociale exige un vote,party,6,false
+lfi:ideologiquement_coherent:0,17,Votre voix ne tient plus,rare,6,false
+lfi:ideologiquement_coherent:1,6,Un fichier militant sort du siège,scandal,6,false
+lfi:ideologiquement_coherent:2,16,La minute qui vous appartient,debate,6,false
+lfi:ideologiquement_coherent:3,18,La fronde sociale exige un vote,party,6,false
+lfi:opportuniste_electoral:0,17,Votre voix ne tient plus,rare,6,false
+lfi:opportuniste_electoral:1,17,La minute qui vous appartient,debate,6,false
+lfi:opportuniste_electoral:2,12,Les factures sans pièce ressortent,scandal,6,false
+lfi:opportuniste_electoral:3,25,LFI doit élargir sans se renier,party,6,false
+lfi:parti_dabord:0,16,Une aciérie annonce sa fermeture,world,6,false
+lfi:parti_dabord:1,6,Un fichier militant sort du siège,scandal,6,false
+lfi:parti_dabord:2,12,Les factures sans pièce ressortent,scandal,6,false
+lfi:parti_dabord:3,25,LFI doit élargir sans se renier,party,6,false
+lfi:mediatique:0,16,Une aciérie annonce sa fermeture,world,6,true
+lfi:mediatique:1,6,Un fichier militant sort du siège,scandal,6,false
+lfi:mediatique:2,12,Les factures sans pièce ressortent,scandal,6,false
+lfi:mediatique:3,18,La fronde sociale exige un vote,party,6,false
+lfi:contrarien:0,16,La fronde sociale exige un vote,party,6,false
+lfi:contrarien:1,17,Trois minutes sur la sécurité,debate,6,false
+lfi:contrarien:2,13,Les factures sans pièce ressortent,scandal,6,false
+lfi:contrarien:3,17,La fronde sociale exige un vote,party,6,false
+ps:aleatoire:0,27,La gauche attend un contrat de second tour,party,6,true
+ps:aleatoire:1,18,Le débat sur les pouvoirs exceptionnels,rare,6,false
+ps:aleatoire:2,17,La grève bloque les transports,world,6,false
+ps:aleatoire:3,23,Neuf candidats face au climat,debate,6,false
+ps:prudent:0,27,La gauche attend un contrat de second tour,party,6,true
+ps:prudent:1,17,Le duel sur les huit milliards,debate,6,false
+ps:prudent:2,16,La minute qui vous appartient,debate,6,false
+ps:prudent:3,24,Une aciérie annonce sa fermeture,world,6,false
+ps:risque:0,10,Les factures sans pièce ressortent,scandal,6,false
+ps:risque:1,17,Le duel sur les huit milliards,debate,6,false
+ps:risque:2,17,La grève bloque les transports,world,6,false
+ps:risque:3,25,La gauche attend un contrat de second tour,party,6,false
+ps:ideologiquement_coherent:0,15,Un fichier militant sort du siège,scandal,6,false
+ps:ideologiquement_coherent:1,24,Neuf candidats face au climat,debate,6,false
+ps:ideologiquement_coherent:2,17,La grève bloque les transports,world,6,false
+ps:ideologiquement_coherent:3,25,La gauche attend un contrat de second tour,party,6,false
+ps:opportuniste_electoral:0,10,Les factures sans pièce ressortent,scandal,6,false
+ps:opportuniste_electoral:1,17,Le duel sur les huit milliards,debate,6,false
+ps:opportuniste_electoral:2,16,La minute qui vous appartient,debate,6,false
+ps:opportuniste_electoral:3,23,Neuf candidats face au climat,debate,6,false
+ps:parti_dabord:0,25,Le débat de lentre-deux-tours,between_rounds,6,false
+ps:parti_dabord:1,18,Le débat sur les pouvoirs exceptionnels,rare,6,false
+ps:parti_dabord:2,16,La minute qui vous appartient,debate,6,false
+ps:parti_dabord:3,24,Une aciérie annonce sa fermeture,world,6,false
+ps:mediatique:0,10,Les factures sans pièce ressortent,scandal,6,false
+ps:mediatique:1,17,Le duel sur les huit milliards,debate,6,false
+ps:mediatique:2,16,La minute qui vous appartient,debate,6,false
+ps:mediatique:3,23,Neuf candidats face au climat,debate,6,false
+ps:contrarien:0,11,Les factures sans pièce ressortent,scandal,6,false
+ps:contrarien:1,18,Le débat sur les pouvoirs exceptionnels,rare,6,false
+ps:contrarien:2,17,La grève bloque les transports,world,6,false
+ps:contrarien:3,23,Neuf candidats face au climat,debate,6,true
+ecologistes:aleatoire:0,27,Le second tour exige une coalition climatique,party,6,false
+ecologistes:aleatoire:1,24,Neuf candidats face au climat,debate,6,false
+ecologistes:aleatoire:2,13,Neuf candidats face au climat,debate,6,false
+ecologistes:aleatoire:3,16,Les factures sans pièce ressortent,scandal,6,false
+ecologistes:prudent:0,25,Le débat de lentre-deux-tours,between_rounds,6,false
+ecologistes:prudent:1,17,La minute qui vous appartient,debate,6,false
+ecologistes:prudent:2,16,La minute qui vous appartient,debate,6,false
+ecologistes:prudent:3,6,Le fauteuil libéré au vingt heures,media,5,false
+ecologistes:risque:0,10,Les factures sans pièce ressortent,scandal,6,false
+ecologistes:risque:1,18,Une coalition de crise est proposée,rare,6,false
+ecologistes:risque:2,13,Neuf candidats face au climat,debate,6,false
+ecologistes:risque:3,17,Le gaz double en une semaine,world,6,false
+ecologistes:ideologiquement_coherent:0,15,Un fichier militant sort du siège,scandal,6,false
+ecologistes:ideologiquement_coherent:1,24,Neuf candidats face au climat,debate,6,false
+ecologistes:ideologiquement_coherent:2,16,La minute qui vous appartient,debate,6,false
+ecologistes:ideologiquement_coherent:3,16,Les factures sans pièce ressortent,scandal,6,false
+ecologistes:opportuniste_electoral:0,10,Les factures sans pièce ressortent,scandal,6,false
+ecologistes:opportuniste_electoral:1,18,Une coalition de crise est proposée,rare,6,false
+ecologistes:opportuniste_electoral:2,13,Neuf candidats face au climat,debate,6,false
+ecologistes:opportuniste_electoral:3,17,Le gaz double en une semaine,world,6,false
+ecologistes:parti_dabord:0,27,Le second tour exige une coalition climatique,party,6,false
+ecologistes:parti_dabord:1,18,Les factures sans pièce ressortent,scandal,6,false
+ecologistes:parti_dabord:2,23,Les factures sans pièce ressortent,scandal,6,false
+ecologistes:parti_dabord:3,17,Le gaz double en une semaine,world,6,false
+ecologistes:mediatique:0,10,Les factures sans pièce ressortent,scandal,6,false
+ecologistes:mediatique:1,18,Une coalition de crise est proposée,rare,6,false
+ecologistes:mediatique:2,13,Neuf candidats face au climat,debate,6,false
+ecologistes:mediatique:3,17,Le gaz double en une semaine,world,6,false
+ecologistes:contrarien:0,11,Les factures sans pièce ressortent,scandal,6,false
+ecologistes:contrarien:1,17,La minute qui vous appartient,debate,6,false
+ecologistes:contrarien:2,13,Neuf candidats face au climat,debate,6,false
+ecologistes:contrarien:3,17,Le gaz double en une semaine,world,6,false
+renaissance:aleatoire:0,12,La réforme des retraites revient,party,6,false
+renaissance:aleatoire:1,17,Le duel sur les huit milliards,debate,6,false
+renaissance:aleatoire:2,11,Horizons propose une candidature commune,party,6,false
+renaissance:aleatoire:3,15,Horizons propose une candidature commune,party,6,false
+renaissance:prudent:0,12,La réforme des retraites revient,party,6,false
+renaissance:prudent:1,17,Le duel sur les huit milliards,debate,6,false
+renaissance:prudent:2,11,Horizons propose une candidature commune,party,6,false
+renaissance:prudent:3,15,Horizons propose une candidature commune,party,6,false
+renaissance:risque:0,13,Un fichier militant sort du siège,scandal,6,false
+renaissance:risque:1,18,Les factures sans pièce ressortent,scandal,6,false
+renaissance:risque:2,11,Horizons propose une candidature commune,party,6,false
+renaissance:risque:3,15,Horizons propose une candidature commune,party,6,false
+renaissance:ideologiquement_coherent:0,9,Les factures sans pièce ressortent,scandal,6,false
+renaissance:ideologiquement_coherent:1,6,La présidence que vous proposez,program,5,false
+renaissance:ideologiquement_coherent:2,11,Horizons propose une candidature commune,party,6,false
+renaissance:ideologiquement_coherent:3,15,Horizons propose une candidature commune,party,6,true
+renaissance:opportuniste_electoral:0,13,Un fichier militant sort du siège,scandal,6,false
+renaissance:opportuniste_electoral:1,14,Neuf candidats face au climat,debate,6,false
+renaissance:opportuniste_electoral:2,11,Horizons propose une candidature commune,party,6,false
+renaissance:opportuniste_electoral:3,15,Horizons propose une candidature commune,party,6,false
+renaissance:parti_dabord:0,12,La réforme des retraites revient,party,6,false
+renaissance:parti_dabord:1,17,Le duel sur les huit milliards,debate,6,false
+renaissance:parti_dabord:2,11,Horizons propose une candidature commune,party,6,false
+renaissance:parti_dabord:3,15,Horizons propose une candidature commune,party,6,false
+renaissance:mediatique:0,13,Un fichier militant sort du siège,scandal,6,false
+renaissance:mediatique:1,18,Les factures sans pièce ressortent,scandal,6,false
+renaissance:mediatique:2,11,Horizons propose une candidature commune,party,6,false
+renaissance:mediatique:3,15,Horizons propose une candidature commune,party,6,false
+renaissance:contrarien:0,13,Un fichier militant sort du siège,scandal,6,false
+renaissance:contrarien:1,17,La minute qui vous appartient,debate,6,false
+renaissance:contrarien:2,11,Horizons propose une candidature commune,party,6,false
+renaissance:contrarien:3,15,Horizons propose une candidature commune,party,6,false
+horizons:aleatoire:0,9,Les factures sans pièce ressortent,scandal,6,false
+horizons:aleatoire:1,19,La minute qui vous appartient,debate,6,false
+horizons:aleatoire:2,20,La minute qui vous appartient,debate,6,false
+horizons:aleatoire:3,17,Le gaz double en une semaine,world,6,false
+horizons:prudent:0,9,Les factures sans pièce ressortent,scandal,6,false
+horizons:prudent:1,19,La minute qui vous appartient,debate,6,false
+horizons:prudent:2,22,Nouvelle Énergie propose un retrait,alliance,6,false
+horizons:prudent:3,20,Neuf candidats face au climat,debate,6,false
+horizons:risque:0,9,Les factures sans pièce ressortent,scandal,6,false
+horizons:risque:1,19,La minute qui vous appartient,debate,6,false
+horizons:risque:2,20,La minute qui vous appartient,debate,6,false
+horizons:risque:3,17,Le gaz double en une semaine,world,6,true
+horizons:ideologiquement_coherent:0,9,Les factures sans pièce ressortent,scandal,6,false
+horizons:ideologiquement_coherent:1,19,La minute qui vous appartient,debate,6,false
+horizons:ideologiquement_coherent:2,20,La minute qui vous appartient,debate,6,false
+horizons:ideologiquement_coherent:3,22,La Garonne sort de son lit,world,6,false
+horizons:opportuniste_electoral:0,9,Les factures sans pièce ressortent,scandal,6,false
+horizons:opportuniste_electoral:1,19,La minute qui vous appartient,debate,6,false
+horizons:opportuniste_electoral:2,16,La minute qui vous appartient,debate,6,false
+horizons:opportuniste_electoral:3,19,Nouvelle Énergie propose un retrait,alliance,6,false
+horizons:parti_dabord:0,9,Les factures sans pièce ressortent,scandal,6,false
+horizons:parti_dabord:1,19,La minute qui vous appartient,debate,6,false
+horizons:parti_dabord:2,16,La minute qui vous appartient,debate,6,false
+horizons:parti_dabord:3,19,Neuf candidats face au climat,debate,6,false
+horizons:mediatique:0,9,Les factures sans pièce ressortent,scandal,6,false
+horizons:mediatique:1,17,Le duel sur les huit milliards,debate,6,false
+horizons:mediatique:2,16,La minute qui vous appartient,debate,6,false
+horizons:mediatique:3,24,Un fichier militant sort du siège,scandal,6,false
+horizons:contrarien:0,10,Les factures sans pièce ressortent,scandal,6,false
+horizons:contrarien:1,17,La minute qui vous appartient,debate,6,false
+horizons:contrarien:2,20,La minute qui vous appartient,debate,6,false
+horizons:contrarien:3,24,Un fichier militant sort du siège,scandal,6,false
+lr:aleatoire:0,5,La présidence que vous proposez,program,5,false
+lr:aleatoire:1,18,Le débat sur les pouvoirs exceptionnels,rare,6,false
+lr:aleatoire:2,26,La droite qualifiée cherche ses reports,party,6,false
+lr:aleatoire:3,23,Le duel sur les huit milliards,debate,6,false
+lr:prudent:0,13,Un fichier militant sort du siège,scandal,6,false
+lr:prudent:1,26,Le débat de lentre-deux-tours,between_rounds,6,false
+lr:prudent:2,26,La droite qualifiée cherche ses reports,party,6,false
+lr:prudent:3,17,Le gaz double en une semaine,world,6,false
+lr:risque:0,21,Nouvelle Énergie propose un retrait,alliance,6,false
+lr:risque:1,26,Le débat de lentre-deux-tours,between_rounds,6,false
+lr:risque:2,26,La droite qualifiée cherche ses reports,party,6,false
+lr:risque:3,17,Le gaz double en une semaine,world,6,false
+lr:ideologiquement_coherent:0,13,Un fichier militant sort du siège,scandal,6,false
+lr:ideologiquement_coherent:1,18,Votre voix ne tient plus,rare,6,false
+lr:ideologiquement_coherent:2,26,La droite qualifiée cherche ses reports,party,6,false
+lr:ideologiquement_coherent:3,17,Le gaz double en une semaine,world,6,false
+lr:opportuniste_electoral:0,25,Le débat de lentre-deux-tours,between_rounds,6,false
+lr:opportuniste_electoral:1,24,Neuf candidats face au climat,debate,6,false
+lr:opportuniste_electoral:2,19,Neuf candidats face au climat,debate,6,false
+lr:opportuniste_electoral:3,26,Les dernières heures autorisées,between_rounds,6,false
+lr:parti_dabord:0,13,Un fichier militant sort du siège,scandal,6,false
+lr:parti_dabord:1,18,Le débat sur les pouvoirs exceptionnels,rare,6,false
+lr:parti_dabord:2,19,Neuf candidats face au climat,debate,6,true
+lr:parti_dabord:3,22,La grève bloque les transports,world,6,false
+lr:mediatique:0,13,Un fichier militant sort du siège,scandal,6,false
+lr:mediatique:1,18,Le débat sur les pouvoirs exceptionnels,rare,6,false
+lr:mediatique:2,19,Neuf candidats face au climat,debate,6,false
+lr:mediatique:3,22,La Garonne sort de son lit,world,6,false
+lr:contrarien:0,21,Votre voix ne tient plus,rare,6,false
+lr:contrarien:1,17,La minute qui vous appartient,debate,6,false
+lr:contrarien:2,20,Les factures sans pièce ressortent,scandal,6,false
+lr:contrarien:3,23,Le duel sur les huit milliards,debate,6,false
+rn:aleatoire:0,23,Neuf candidats face au climat,debate,6,false
+rn:aleatoire:1,11,Les factures sans pièce ressortent,scandal,6,false
+rn:aleatoire:2,18,La préférence nationale rencontre le droit,party,6,false
+rn:aleatoire:3,16,Les factures sans pièce ressortent,scandal,6,false
+rn:prudent:0,9,Les factures sans pièce ressortent,scandal,6,false
+rn:prudent:1,11,Les factures sans pièce ressortent,scandal,6,false
+rn:prudent:2,18,La préférence nationale rencontre le droit,party,6,false
+rn:prudent:3,22,Une aciérie annonce sa fermeture,world,6,false
+rn:risque:0,9,Les factures sans pièce ressortent,scandal,6,false
+rn:risque:1,10,La grève bloque les transports,world,6,false
+rn:risque:2,18,La préférence nationale rencontre le droit,party,6,false
+rn:risque:3,22,Le dernier grand meeting,campaign,6,false
+rn:ideologiquement_coherent:0,9,Les factures sans pièce ressortent,scandal,6,false
+rn:ideologiquement_coherent:1,11,Les factures sans pièce ressortent,scandal,6,false
+rn:ideologiquement_coherent:2,26,Le RN doit élargir sans démobiliser,party,6,false
+rn:ideologiquement_coherent:3,22,La Garonne sort de son lit,world,6,false
+rn:opportuniste_electoral:0,9,Les factures sans pièce ressortent,scandal,6,false
+rn:opportuniste_electoral:1,10,La grève bloque les transports,world,6,false
+rn:opportuniste_electoral:2,23,Le duel sur les huit milliards,debate,6,false
+rn:opportuniste_electoral:3,16,Les factures sans pièce ressortent,scandal,6,false
+rn:parti_dabord:0,9,Les factures sans pièce ressortent,scandal,6,false
+rn:parti_dabord:1,10,La grève bloque les transports,world,6,false
+rn:parti_dabord:2,18,La préférence nationale rencontre le droit,party,6,false
+rn:parti_dabord:3,16,Les factures sans pièce ressortent,scandal,6,false
+rn:mediatique:0,9,Les factures sans pièce ressortent,scandal,6,false
+rn:mediatique:1,10,La Garonne sort de son lit,world,6,false
+rn:mediatique:2,25,Les dernières heures autorisées,between_rounds,6,false
+rn:mediatique:3,16,Les factures sans pièce ressortent,scandal,6,false
+rn:contrarien:0,10,Les factures sans pièce ressortent,scandal,6,false
+rn:contrarien:1,12,Les factures sans pièce ressortent,scandal,6,false
+rn:contrarien:2,18,La préférence nationale rencontre le droit,party,6,false
+rn:contrarien:3,14,Neuf candidats face au climat,debate,6,false
+reconquete:aleatoire:0,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:aleatoire:1,11,Les factures sans pièce ressortent,scandal,6,false
+reconquete:aleatoire:2,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:aleatoire:3,16,Les factures sans pièce ressortent,scandal,6,false
+reconquete:prudent:0,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:prudent:1,11,Les factures sans pièce ressortent,scandal,6,false
+reconquete:prudent:2,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:prudent:3,17,La Garonne sort de son lit,world,6,false
+reconquete:risque:0,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:risque:1,10,La Garonne sort de son lit,world,6,false
+reconquete:risque:2,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:risque:3,17,La Garonne sort de son lit,world,6,false
+reconquete:ideologiquement_coherent:0,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:ideologiquement_coherent:1,11,Les factures sans pièce ressortent,scandal,6,false
+reconquete:ideologiquement_coherent:2,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:ideologiquement_coherent:3,22,Neuf candidats face au climat,debate,6,false
+reconquete:opportuniste_electoral:0,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:opportuniste_electoral:1,10,La Garonne sort de son lit,world,6,false
+reconquete:opportuniste_electoral:2,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:opportuniste_electoral:3,16,Les factures sans pièce ressortent,scandal,6,false
+reconquete:parti_dabord:0,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:parti_dabord:1,10,La Garonne sort de son lit,world,6,false
+reconquete:parti_dabord:2,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:parti_dabord:3,16,Les factures sans pièce ressortent,scandal,6,false
+reconquete:mediatique:0,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:mediatique:1,11,Les factures sans pièce ressortent,scandal,6,false
+reconquete:mediatique:2,9,Les factures sans pièce ressortent,scandal,6,false
+reconquete:mediatique:3,16,Les factures sans pièce ressortent,scandal,6,false
+reconquete:contrarien:0,10,Les factures sans pièce ressortent,scandal,6,false
+reconquete:contrarien:1,16,Neuf groupes rendent la majorité incertaine,rare,6,false
+reconquete:contrarien:2,10,Les factures sans pièce ressortent,scandal,6,false
+reconquete:contrarien:3,22,Neuf candidats face au climat,debate,6,false
+nouvelle_energie:aleatoire:0,9,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:aleatoire:1,17,Le duel sur les huit milliards,debate,6,false
+nouvelle_energie:aleatoire:2,19,Neuf candidats face au climat,debate,6,false
+nouvelle_energie:aleatoire:3,22,Neuf candidats face au climat,debate,6,false
+nouvelle_energie:prudent:0,9,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:prudent:1,17,Le duel sur les huit milliards,debate,6,false
+nouvelle_energie:prudent:2,27,L’outsider doit former une majorité,party,6,false
+nouvelle_energie:prudent:3,24,Le dernier grand meeting,campaign,6,false
+nouvelle_energie:risque:0,9,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:risque:1,17,Le duel sur les huit milliards,debate,6,false
+nouvelle_energie:risque:2,20,Neuf candidats face au climat,debate,6,false
+nouvelle_energie:risque:3,25,L’outsider doit former une majorité,party,6,false
+nouvelle_energie:ideologiquement_coherent:0,9,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:ideologiquement_coherent:1,17,Le duel sur les huit milliards,debate,6,false
+nouvelle_energie:ideologiquement_coherent:2,27,L’outsider doit former une majorité,party,6,false
+nouvelle_energie:ideologiquement_coherent:3,25,Les dernières heures autorisées,between_rounds,6,false
+nouvelle_energie:opportuniste_electoral:0,9,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:opportuniste_electoral:1,17,Le duel sur les huit milliards,debate,6,false
+nouvelle_energie:opportuniste_electoral:2,20,Neuf candidats face au climat,debate,6,false
+nouvelle_energie:opportuniste_electoral:3,22,Neuf candidats face au climat,debate,6,false
+nouvelle_energie:parti_dabord:0,9,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:parti_dabord:1,17,Le duel sur les huit milliards,debate,6,false
+nouvelle_energie:parti_dabord:2,27,L’outsider doit former une majorité,party,6,false
+nouvelle_energie:parti_dabord:3,26,Les dernières heures autorisées,between_rounds,6,false
+nouvelle_energie:mediatique:0,9,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:mediatique:1,17,Le duel sur les huit milliards,debate,6,false
+nouvelle_energie:mediatique:2,20,Neuf candidats face au climat,debate,6,false
+nouvelle_energie:mediatique:3,25,Les dernières heures autorisées,between_rounds,6,false
+nouvelle_energie:contrarien:0,10,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:contrarien:1,12,Les factures sans pièce ressortent,scandal,6,false
+nouvelle_energie:contrarien:2,27,L’outsider doit former une majorité,party,6,false
+nouvelle_energie:contrarien:3,22,Neuf candidats face au climat,debate,6,false
+coherent_left_green:prudent:0,7,Un fichier militant sort du siège,scandal,6,false
+coherent_left_green:prudent:1,16,Neuf candidats face au climat,debate,6,false
+coherent_left_green:prudent:2,14,Neuf candidats face au climat,debate,6,false
+coherent_left_green:aleatoire:0,7,Un fichier militant sort du siège,scandal,6,false
+coherent_left_green:aleatoire:1,19,Le dernier grand meeting,campaign,6,false
+coherent_left_green:aleatoire:2,14,Neuf candidats face au climat,debate,6,false
+coherent_left_green:ideologiquement_coherent:0,7,Un fichier militant sort du siège,scandal,6,false
+coherent_left_green:ideologiquement_coherent:1,19,Le dernier grand meeting,campaign,6,false
+coherent_left_green:ideologiquement_coherent:2,12,Le débat sur les pouvoirs exceptionnels,rare,6,false
+coherent_left_green:risque:0,7,Un fichier militant sort du siège,scandal,6,false
+coherent_left_green:risque:1,19,Le dernier grand meeting,campaign,6,false
+coherent_left_green:risque:2,24,Un fichier militant sort du siège,scandal,6,false
+coherent_conservative:prudent:0,21,La Garonne sort de son lit,world,6,false
+coherent_conservative:prudent:1,15,La Garonne sort de son lit,world,6,false
+coherent_conservative:prudent:2,25,Le débat de lentre-deux-tours,between_rounds,6,false
+coherent_conservative:aleatoire:0,10,Les factures sans pièce ressortent,scandal,6,false
+coherent_conservative:aleatoire:1,14,Le duel sur les huit milliards,debate,6,false
+coherent_conservative:aleatoire:2,19,La Garonne sort de son lit,world,6,false
+coherent_conservative:ideologiquement_coherent:0,21,La Garonne sort de son lit,world,6,false
+coherent_conservative:ideologiquement_coherent:1,15,La Garonne sort de son lit,world,6,false
+coherent_conservative:ideologiquement_coherent:2,19,La Garonne sort de son lit,world,6,false
+coherent_conservative:risque:0,10,Les factures sans pièce ressortent,scandal,6,false
+coherent_conservative:risque:1,8,La Garonne sort de son lit,world,6,false
+coherent_conservative:risque:2,19,La Garonne sort de son lit,world,6,false
+contradictory_hybrid:prudent:0,12,Les factures sans pièce ressortent,scandal,6,false
+contradictory_hybrid:prudent:1,20,Neuf groupes rendent la majorité incertaine,rare,6,false
+contradictory_hybrid:prudent:2,23,La minute qui vous appartient,debate,6,false
+contradictory_hybrid:aleatoire:0,1,Le lancement depuis Saint-Denis,campaign,5,false
+contradictory_hybrid:aleatoire:1,20,Neuf groupes rendent la majorité incertaine,rare,6,false
+contradictory_hybrid:aleatoire:2,23,La minute qui vous appartient,debate,6,false
+contradictory_hybrid:ideologiquement_coherent:0,1,Le lancement depuis Saint-Denis,campaign,5,false
+contradictory_hybrid:ideologiquement_coherent:1,25,Le débat de lentre-deux-tours,between_rounds,6,false
+contradictory_hybrid:ideologiquement_coherent:2,23,La minute qui vous appartient,debate,6,false
+contradictory_hybrid:risque:0,25,Le débat de lentre-deux-tours,between_rounds,6,false
+contradictory_hybrid:risque:1,20,Neuf groupes rendent la majorité incertaine,rare,6,false
+contradictory_hybrid:risque:2,23,La minute qui vous appartient,debate,6,false
+centrist_technocratic:prudent:0,24,Le dernier grand meeting,campaign,6,false
+centrist_technocratic:prudent:1,5,La Garonne sort de son lit,world,6,false
+centrist_technocratic:prudent:2,24,Le dernier grand meeting,campaign,6,false
+centrist_technocratic:aleatoire:0,21,Un fichier militant sort du siège,scandal,6,false
+centrist_technocratic:aleatoire:1,5,La Garonne sort de son lit,world,6,false
+centrist_technocratic:aleatoire:2,24,Le dernier grand meeting,campaign,6,false
+centrist_technocratic:ideologiquement_coherent:0,22,Votre voix ne tient plus,rare,6,false
+centrist_technocratic:ideologiquement_coherent:1,5,La Garonne sort de son lit,world,6,false
+centrist_technocratic:ideologiquement_coherent:2,24,Le dernier grand meeting,campaign,6,false
+centrist_technocratic:risque:0,18,La Garonne sort de son lit,world,6,false
+centrist_technocratic:risque:1,5,La Garonne sort de son lit,world,6,false
+centrist_technocratic:risque:2,22,Un fichier militant sort du siège,scandal,6,false
+extreme_gauche:prudent:0,10,La Garonne sort de son lit,world,6,false
+extreme_gauche:prudent:1,13,Neuf candidats face au climat,debate,6,false
+extreme_gauche:prudent:2,12,Un fichier militant sort du siège,scandal,6,false
+extreme_gauche:aleatoire:0,10,La Garonne sort de son lit,world,6,false
+extreme_gauche:aleatoire:1,15,Neuf candidats face au climat,debate,6,false
+extreme_gauche:aleatoire:2,12,Un fichier militant sort du siège,scandal,6,false
+extreme_gauche:ideologiquement_coherent:0,10,La Garonne sort de son lit,world,6,false
+extreme_gauche:ideologiquement_coherent:1,15,Neuf candidats face au climat,debate,6,false
+extreme_gauche:ideologiquement_coherent:2,12,Un fichier militant sort du siège,scandal,6,false
+extreme_gauche:risque:0,10,La Garonne sort de son lit,world,6,false
+extreme_gauche:risque:1,15,Neuf candidats face au climat,debate,6,false
+extreme_gauche:risque:2,12,Un fichier militant sort du siège,scandal,6,false
+extreme_droite:prudent:0,17,Neuf groupes rendent la majorité incertaine,rare,6,false
+extreme_droite:prudent:1,6,La Garonne sort de son lit,world,6,false
+extreme_droite:prudent:2,11,Les factures sans pièce ressortent,scandal,6,false
+extreme_droite:aleatoire:0,17,Neuf groupes rendent la majorité incertaine,rare,6,false
+extreme_droite:aleatoire:1,6,La Garonne sort de son lit,world,6,false
+extreme_droite:aleatoire:2,11,Les factures sans pièce ressortent,scandal,6,false
+extreme_droite:ideologiquement_coherent:0,17,Neuf groupes rendent la majorité incertaine,rare,6,false
+extreme_droite:ideologiquement_coherent:1,6,La Garonne sort de son lit,world,6,true
+extreme_droite:ideologiquement_coherent:2,11,Les factures sans pièce ressortent,scandal,6,false
+extreme_droite:risque:0,17,Neuf groupes rendent la majorité incertaine,rare,6,false
+extreme_droite:risque:1,6,La Garonne sort de son lit,world,6,false
+extreme_droite:risque:2,10,Les factures sans pièce ressortent,scandal,6,false
+libertarien:prudent:0,2,Trois partis testent votre autonomie,alliance,5,false
+libertarien:prudent:1,22,La minute qui vous appartient,debate,6,false
+libertarien:prudent:2,10,Le débat sur les pouvoirs exceptionnels,rare,6,false
+libertarien:aleatoire:0,22,La Garonne sort de son lit,world,6,false
+libertarien:aleatoire:1,22,La minute qui vous appartient,debate,6,false
+libertarien:aleatoire:2,1,La présidence que vous proposez,program,5,false
+libertarien:ideologiquement_coherent:0,2,Trois partis testent votre autonomie,alliance,5,false
+libertarien:ideologiquement_coherent:1,22,La minute qui vous appartient,debate,6,false
+libertarien:ideologiquement_coherent:2,10,Le débat sur les pouvoirs exceptionnels,rare,6,false
+libertarien:risque:0,2,Trois partis testent votre autonomie,alliance,5,true
+libertarien:risque:1,22,La minute qui vous appartient,debate,6,false
+libertarien:risque:2,10,Le débat sur les pouvoirs exceptionnels,rare,6,false
+ecologiste_radical:prudent:0,16,Un fichier militant sort du siège,scandal,6,false
+ecologiste_radical:prudent:1,7,Un fichier militant sort du siège,scandal,6,false
+ecologiste_radical:prudent:2,22,Neuf candidats face au climat,debate,6,false
+ecologiste_radical:aleatoire:0,16,Un fichier militant sort du siège,scandal,6,false
+ecologiste_radical:aleatoire:1,7,Un fichier militant sort du siège,scandal,6,false
+ecologiste_radical:aleatoire:2,25,Votre jeune parti doit définir son mandat de second tour,between_rounds,6,false
+ecologiste_radical:ideologiquement_coherent:0,16,Un fichier militant sort du siège,scandal,6,false
+ecologiste_radical:ideologiquement_coherent:1,7,Un fichier militant sort du siège,scandal,6,false
+ecologiste_radical:ideologiquement_coherent:2,25,Votre jeune parti doit définir son mandat de second tour,between_rounds,6,false
+ecologiste_radical:risque:0,16,Un fichier militant sort du siège,scandal,6,false
+ecologiste_radical:risque:1,7,Un fichier militant sort du siège,scandal,6,false
+ecologiste_radical:risque:2,2,"L’immigration de travail, un choix économique assumé ou non",program,5,false
+souverainiste:prudent:0,23,Le studio plonge dans le noir,rare,6,false
+souverainiste:prudent:1,11,La Garonne sort de son lit,world,6,false
+souverainiste:prudent:2,3,La Garonne sort de son lit,world,6,false
+souverainiste:aleatoire:0,17,Les factures sans pièce ressortent,scandal,6,false
+souverainiste:aleatoire:1,17,Neuf candidats face au climat,debate,6,false
+souverainiste:aleatoire:2,3,La Garonne sort de son lit,world,6,false
+souverainiste:ideologiquement_coherent:0,14,Neuf candidats face au climat,debate,6,false
+souverainiste:ideologiquement_coherent:1,17,Neuf candidats face au climat,debate,6,false
+souverainiste:ideologiquement_coherent:2,3,La Garonne sort de son lit,world,6,true
+souverainiste:risque:0,14,Neuf candidats face au climat,debate,6,false
+souverainiste:risque:1,17,Neuf candidats face au climat,debate,6,false
+souverainiste:risque:2,3,La Garonne sort de son lit,world,6,false
+ecologistes:contrarien:1055,2,Le lancement depuis Saint-Denis,campaign,5,false
+ps:contrarien:1063,12,Un fichier militant sort du siège,scandal,6,false

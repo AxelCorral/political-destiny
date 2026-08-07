@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="538" viewBox="0 0 760 538">
+  <rect width="760" height="538" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Longueur moyenne du texte de conséquence, par catégorie d'événement</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 398 parties · commit 12633fc · nombre de caractères</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">program</text>
+    <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">209 car.</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">debate</text>
+    <rect x="200" y="100" width="454.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="662.2583732057417" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">202 car.</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">media</text>
+    <rect x="200" y="138" width="449.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="657.7607655502393" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">200 car.</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">scandal</text>
+    <rect x="200" y="176" width="447.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="655.511961722488" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">199 car.</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">internal</text>
+    <rect x="200" y="214" width="445.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="653.2631578947369" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">198 car.</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">world</text>
+    <rect x="200" y="252" width="445.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="653.2631578947369" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">198 car.</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">alliance</text>
+    <rect x="200" y="290" width="436.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="644.2679425837321" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">194 car.</text>
+    <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">between_rounds</text>
+    <rect x="200" y="328" width="436.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="644.2679425837321" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">194 car.</text>
+    <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">government</text>
+    <rect x="200" y="366" width="427.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="635.2727272727273" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">190 car.</text>
+    <text x="190" y="422" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rare</text>
+    <rect x="200" y="404" width="418.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="626.2775119617224" y="422" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">186 car.</text>
+    <text x="190" y="460" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">party</text>
+    <rect x="200" y="442" width="416.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="624.0287081339713" y="460" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">185 car.</text>
+    <text x="190" y="498" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">campaign</text>
+    <rect x="200" y="480" width="377.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="585.799043062201" y="498" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">168 car.</text>
+</svg>

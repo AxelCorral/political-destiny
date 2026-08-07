@@ -10,7 +10,14 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: ["./src/tests/setup.ts"],
-    exclude: ["e2e/**", "node_modules/**", ".next/**", "playwright-report/**", "test-results/**"],
+    exclude: [
+      "e2e/**",
+      "scripts/gameplay-audit/ux/**",
+      "node_modules/**",
+      ".next/**",
+      "playwright-report/**",
+      "test-results/**",
+    ],
     coverage: {
       provider: "v8",
       reporter: ["text", "html"],

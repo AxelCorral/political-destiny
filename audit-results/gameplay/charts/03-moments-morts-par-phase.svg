@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="196" viewBox="0 0 760 196">
+  <rect width="760" height="196" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Séquences de 3+ décisions à faible enjeu (intensité ≤ 2/6), par phase</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 398 parties · commit 12633fc · 27 séquences détectées au total sur le corpus</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">campaign</text>
+    <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">12 séquences</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">pre_campaign</text>
+    <rect x="200" y="100" width="391.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="599.6666666666667" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">10 séquences</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">official_campaign</text>
+    <rect x="200" y="138" width="195.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="403.83333333333337" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5 séquences</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+  <rect width="900" height="380" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Répétition cognitive par catégorie d'événement</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">n = 398 parties · commit 12633fc · part des décisions · nombre de parties avec 3+ décisions consécutives de la même catégorie</text>
+  <line x1="60" y1="290" x2="870" y2="290" stroke="#c7d0d8" />
+  <rect x="66.8" y="268.2" width="25.0" height="21.8" fill="#3b6ea5" />
+      <text x="80.3" y="264.2" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">16.9</text><rect x="93.8" y="279.7" width="25.0" height="10.3" fill="#c9a24b" />
+      <text x="107.3" y="275.7" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">8.0</text>
+    <text x="93.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 93.8 306.0)">campaign</text><rect x="134.3" y="270.6" width="25.0" height="19.4" fill="#3b6ea5" />
+      <text x="147.8" y="266.6" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.0</text><rect x="161.3" y="283.5" width="25.0" height="6.5" fill="#c9a24b" />
+      <text x="174.8" y="279.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.0</text>
+    <text x="161.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 161.3 306.0)">program</text><rect x="201.8" y="275.1" width="25.0" height="14.9" fill="#3b6ea5" />
+      <text x="215.3" y="271.1" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">11.5</text><rect x="228.8" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="242.3" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="228.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 228.8 306.0)">internal</text><rect x="269.3" y="275.5" width="25.0" height="14.5" fill="#3b6ea5" />
+      <text x="282.8" y="271.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">11.2</text><rect x="296.3" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="309.8" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="296.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 296.3 306.0)">media</text><rect x="336.8" y="276.0" width="25.0" height="14.0" fill="#3b6ea5" />
+      <text x="350.3" y="272.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">10.8</text><rect x="363.8" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="377.3" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="363.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 363.8 306.0)">party</text><rect x="404.3" y="276.0" width="25.0" height="14.0" fill="#3b6ea5" />
+      <text x="417.8" y="272.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">10.8</text><rect x="431.3" y="60.0" width="25.0" height="230.0" fill="#c9a24b" />
+      <text x="444.8" y="56.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">178.0</text>
+    <text x="431.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 431.3 306.0)">between_rounds</text><rect x="471.8" y="281.6" width="25.0" height="8.4" fill="#3b6ea5" />
+      <text x="485.3" y="277.6" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">6.5</text><rect x="498.8" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="512.3" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="498.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 498.8 306.0)">debate</text><rect x="539.3" y="282.1" width="25.0" height="7.9" fill="#3b6ea5" />
+      <text x="552.8" y="278.1" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">6.1</text><rect x="566.3" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="579.8" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="566.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 566.3 306.0)">scandal</text><rect x="606.8" y="285.0" width="25.0" height="5.0" fill="#3b6ea5" />
+      <text x="620.3" y="281.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.9</text><rect x="633.8" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="647.3" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="633.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 633.8 306.0)">world</text><rect x="674.3" y="285.6" width="25.0" height="4.4" fill="#3b6ea5" />
+      <text x="687.8" y="281.6" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.4</text><rect x="701.3" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="714.8" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="701.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 701.3 306.0)">alliance</text><rect x="741.8" y="286.5" width="25.0" height="3.5" fill="#3b6ea5" />
+      <text x="755.3" y="282.5" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2.7</text><rect x="768.8" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="782.3" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="768.8" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 768.8 306.0)">government</text><rect x="809.3" y="288.6" width="25.0" height="1.4" fill="#3b6ea5" />
+      <text x="822.8" y="284.6" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">1.1</text><rect x="836.3" y="290.0" width="25.0" height="0.0" fill="#c9a24b" />
+      <text x="849.8" y="286.0" font-size="9" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.0</text>
+    <text x="836.3" y="306.0" font-size="11" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(20 836.3 306.0)">rare</text>
+  <rect x="60" y="356" width="12" height="12" fill="#3b6ea5" /><text x="78" y="366" font-size="11" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Part des décisions (%)</text><rect x="200" y="356" width="12" height="12" fill="#c9a24b" /><text x="218" y="366" font-size="11" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Parties avec séquence 3+</text>
+</svg>

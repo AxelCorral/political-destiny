@@ -1,0 +1,322 @@
+[
+  {
+    "project": "mobile-large",
+    "step": "home-load",
+    "ms": 378
+  },
+  {
+    "project": "mobile-large",
+    "step": "start-campaign",
+    "ms": 976
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 40
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 42
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 33
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 53
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 30
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 51
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 31
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 44
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 24
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 48
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 35
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 47
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 33
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 44
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 43
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 52
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 32
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 52
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 35
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 43
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 33
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 49
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 37
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 48
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 24
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 48
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 37
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 46
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 39
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 47
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 39
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 47
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 37
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 45
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 38
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 31
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 40
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 47
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 37
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 49
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 35
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 50
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 38
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 45
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 37
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 46
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 40
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 47
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 38
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 46
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 40
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 47
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 37
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 44
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 40
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 50
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 39
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 42
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 39
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 45
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-choice",
+    "ms": 41
+  },
+  {
+    "project": "mobile-large",
+    "step": "click-continuer",
+    "ms": 71
+  }
+]
