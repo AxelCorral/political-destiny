@@ -1,0 +1,25 @@
+eventId,title,category,rarity,occurrences,meanIntensity,meanAbsPollDelta,choiceEntropyNormalized,dominantChoiceShare,isChain,isRare,compositeScore,grade,valueBucket
+scandal_treasurer_invoices,Les factures sans pièce ressortent,scandal,common,199,6,1.05,0.875,0.477,true,false,65.8,A,interessant
+scandal_false_resume,Une ligne du CV est fausse,scandal,common,253,3.38,1.14,0.996,0.375,false,false,59.6,A,interessant
+world_rival_leadership_split,La dissidence prend forme chez Reconquête,world,common,42,5,0.87,0.998,0.524,false,false,58.5,A,interessant
+scandal_family_hire,La directrice a recruté son frère,scandal,common,373,5,1.32,0.946,0.421,false,false,58,A,interessant
+scandal_local_expenses,Des notes de frais se mélangent,scandal,common,313,4,0.86,0.977,0.428,false,false,57.6,A,interessant
+scandal_consultant_contract,Le contrat du conseiller est publié,scandal,common,215,5,0.85,0.979,0.433,false,false,57.6,A,interessant
+world_public_service_outage,La plateforme publique tombe en panne,world,common,475,3,0.84,0.977,0.427,false,false,57.5,A,interessant
+world_floods,La Garonne sort de son lit,world,common,401,6,0.69,0.985,0.411,false,false,57.2,A,interessant
+world_industrial_closure,Une aciérie annonce sa fermeture,world,common,141,6,0.67,0.978,0.39,false,false,56.8,A,neutre
+world_european_vote,Le Conseil européen se divise,world,common,80,2.94,0.86,0.959,0.475,false,false,56.7,A,neutre
+world_energy_price_spike,Le gaz double en une semaine,world,common,295,6,0.54,0.974,0.431,false,false,56.1,A,neutre
+world_housing_protest,Les tentes encerclent la préfecture,world,common,102,3,0.44,0.973,0.441,false,false,55.6,A,neutre
+world_national_strike,La grève bloque les transports,world,common,164,6,1.11,0.906,0.5,false,false,55.4,A,neutre
+world_economic_slowdown,La croissance simulée se retourne,world,common,274,5,0.59,0.943,0.5,false,false,54.9,B,neutre
+world_heatwave,Quarante-quatre degrés à Lyon,world,common,135,5,0.63,0.94,0.504,false,false,54.9,B,neutre
+scandal_campaign_data,Un fichier militant sort du siège,scandal,common,230,6,1.01,0.893,0.496,false,false,54.4,B,neutre
+world_international_crisis,Une crise ferme un détroit,world,common,363,5,0.88,0.902,0.512,false,false,54.3,B,neutre
+scandal_audit_conclusion,L’audit clôt le dossier des factures,scandal,common,157,5,0.9,0.622,0.643,true,false,53.7,B,frustrant
+scandal_plagiarized_report,Le rapport reprend huit paragraphes,scandal,common,312,3.33,0.84,0.884,0.538,false,false,53.3,B,neutre
+scandal_supplier_overbilling,L’imprimeur a doublé une ligne,scandal,common,376,4,0.79,0.862,0.593,false,false,52.1,B,frustrant
+world_budget_warning,La Cour des comptes alerte,world,common,132,5,0.63,0.876,0.553,false,false,52.1,B,frustrant
+world_rival_leadership_tension,Tensions internes chez Reconquête,world,common,265,2.62,0.96,0.812,0.615,false,false,50.6,B,frustrant
+scandal_donation_route,Un virement suit un trajet complexe,scandal,uncommon,206,5,0.91,0.805,0.607,false,false,50,B,frustrant
+world_security_attack,Une attaque frappe un lieu public,world,uncommon,1,6,0.73,0,1,false,false,3.3,F,frustrant

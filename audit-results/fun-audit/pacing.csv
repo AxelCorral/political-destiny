@@ -1,0 +1,6 @@
+phase,decisions,meanIntensity,meanAbsPollDelta,rankChangeRate,qualificationFlipRate,rareEventRate,weakCardRate
+pre_campaign,12257,3.785,0.984,0.4646,0.1952,0,0.1509
+campaign,12334,4.129,0.89,0.2868,0.1514,0.0242,0.0948
+official_campaign,12669,4.306,0.973,0.2127,0.1028,0.0193,0.0639
+between_rounds,6040,5.042,0.476,0.0805,0.0333,0.0083,0.0248
+government_epilogue,1526,5.355,1.018,0.0944,0.057,0,0

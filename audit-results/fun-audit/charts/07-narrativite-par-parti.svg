@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="424" viewBox="0 0 760 424">
+  <rect width="760" height="424" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Densité moyenne de signaux « histoire racontable » par campagne</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">Nombre moyen de signaux section 18 présents par partie, par parti (max 13)</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes</text>
+    <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.78</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps</text>
+    <rect x="200" y="100" width="449.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="657.3514644351465" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.57</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">rn</text>
+    <rect x="200" y="138" width="431.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="639.6527196652719" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.39</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi</text>
+    <rect x="200" y="176" width="403.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="611.1380753138075" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.10</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete</text>
+    <rect x="200" y="214" width="392.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="600.3221757322176" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.99</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie</text>
+    <rect x="200" y="252" width="323.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="531.4937238493724" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.29</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr</text>
+    <rect x="200" y="290" width="318.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="526.5774058577406" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.24</text>
+    <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons</text>
+    <rect x="200" y="328" width="315.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="523.6276150627615" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.21</text>
+    <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance</text>
+    <rect x="200" y="366" width="298.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="506.9121338912134" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.04</text>
+</svg>

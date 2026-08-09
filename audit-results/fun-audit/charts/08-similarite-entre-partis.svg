@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1450" viewBox="0 0 900 1450">
+  <rect width="900" height="1450" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Similarité inter-partis (indice de Jaccard des événements rencontrés, par partie jouée)</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">36 paires de partis, graine et profil appariés — plus haut = expériences plus proches</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps / renaissance</text>
+    <rect x="200" y="62" width="610.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="818" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.241</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes / ps</text>
+    <rect x="200" y="100" width="591.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="799.2541528239202" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.233</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons / renaissance</text>
+    <rect x="200" y="138" width="545.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="753.1495016611296" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.215</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons / lr</text>
+    <rect x="200" y="176" width="536.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="744.5365448504983" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.212</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi / ps</text>
+    <rect x="200" y="214" width="524.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="732.8837209302326" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.207</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr / rn</text>
+    <rect x="200" y="252" width="498.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="706.5382059800664" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.197</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons / lfi</text>
+    <rect x="200" y="290" width="496.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="704.5116279069769" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.196</text>
+    <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes / horizons</text>
+    <rect x="200" y="328" width="496.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="704.2583056478405" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.196</text>
+    <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes / renaissance</text>
+    <rect x="200" y="366" width="495.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="703.2450166112957" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.196</text>
+    <text x="190" y="422" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons / rn</text>
+    <rect x="200" y="404" width="493.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="701.7250830564784" y="422" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.195</text>
+    <text x="190" y="460" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons / nouvelle_energie</text>
+    <rect x="200" y="442" width="483.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="691.3388704318937" y="460" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.191</text>
+    <text x="190" y="498" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie / rn</text>
+    <rect x="200" y="480" width="481.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="689.8189368770765" y="498" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.190</text>
+    <text x="190" y="536" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi / renaissance</text>
+    <rect x="200" y="518" width="480.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="688.8056478405316" y="536" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.190</text>
+    <text x="190" y="574" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons / ps</text>
+    <rect x="200" y="556" width="479.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="687.7923588039869" y="574" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.189</text>
+    <text x="190" y="612" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr / renaissance</text>
+    <rect x="200" y="594" width="468.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="676.6461794019933" y="612" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.185</text>
+    <text x="190" y="650" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes / lfi</text>
+    <rect x="200" y="632" width="462.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="670.5664451827242" y="650" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.183</text>
+    <text x="190" y="688" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi / rn</text>
+    <rect x="200" y="670" width="456.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="663.9800664451827" y="688" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.180</text>
+    <text x="190" y="726" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie / renaissance</text>
+    <rect x="200" y="708" width="432.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="640.9277408637874" y="726" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.171</text>
+    <text x="190" y="764" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps / rn</text>
+    <rect x="200" y="746" width="424.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="632.06146179402" y="764" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.167</text>
+    <text x="190" y="802" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr / nouvelle_energie</text>
+    <rect x="200" y="784" width="411.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="619.1420265780731" y="802" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.162</text>
+    <text x="190" y="840" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr / ps</text>
+    <rect x="200" y="822" width="409.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="617.6220930232558" y="840" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.162</text>
+    <text x="190" y="878" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi / nouvelle_energie</text>
+    <rect x="200" y="860" width="401.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="609.2624584717609" y="878" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.158</text>
+    <text x="190" y="916" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">renaissance / rn</text>
+    <rect x="200" y="898" width="398.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="606.7292358803986" y="916" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.157</text>
+    <text x="190" y="954" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie / ps</text>
+    <rect x="200" y="936" width="395.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="603.9426910299003" y="954" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.156</text>
+    <text x="190" y="992" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes / lr</text>
+    <rect x="200" y="974" width="382.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="590.7699335548173" y="992" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.151</text>
+    <text x="190" y="1030" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes / rn</text>
+    <rect x="200" y="1012" width="374.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="582.9169435215947" y="1030" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.148</text>
+    <text x="190" y="1068" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes / nouvelle_energie</text>
+    <rect x="200" y="1050" width="371.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="579.1171096345515" y="1068" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.146</text>
+    <text x="190" y="1106" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi / lr</text>
+    <rect x="200" y="1088" width="370.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="578.1038205980067" y="1106" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.146</text>
+    <text x="190" y="1144" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ecologistes / reconquete</text>
+    <rect x="200" y="1126" width="363.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="571.264119601329" y="1144" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.143</text>
+    <text x="190" y="1182" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete / rn</text>
+    <rect x="200" y="1164" width="361.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="568.984219269103" y="1182" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.142</text>
+    <text x="190" y="1220" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">nouvelle_energie / reconquete</text>
+    <rect x="200" y="1202" width="356.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="564.171096345515" y="1220" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.141</text>
+    <text x="190" y="1258" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">horizons / reconquete</text>
+    <rect x="200" y="1240" width="353.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="561.6378737541529" y="1258" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.140</text>
+    <text x="190" y="1296" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lr / reconquete</text>
+    <rect x="200" y="1278" width="352.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="560.8779069767443" y="1296" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.139</text>
+    <text x="190" y="1334" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">lfi / reconquete</text>
+    <rect x="200" y="1316" width="342.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="550.4916943521595" y="1334" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.135</text>
+    <text x="190" y="1372" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">reconquete / renaissance</text>
+    <rect x="200" y="1354" width="341.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="549.2250830564783" y="1372" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.135</text>
+    <text x="190" y="1410" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">ps / reconquete</text>
+    <rect x="200" y="1392" width="298.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="506.1602990033223" y="1410" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">0.118</text>
+</svg>

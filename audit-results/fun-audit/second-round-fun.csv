@@ -1,0 +1,10 @@
+partyId,n,secondRoundReachedShare,victoryGivenQualifiedShare,meanOwnRejectionAtSecondRound,meanOpponentRejectionAtSecondRound,meanSecondRoundDecisions,meanIntensityFirstRound,meanIntensitySecondRound
+lfi,180,0.772,0.662,66.66,63.8,5.29,3.99,5
+ps,180,0.794,0.748,78.16,64.3,5.26,4.11,5.08
+ecologistes,180,0.656,0.703,44.32,63.97,5.53,4.1,5.01
+renaissance,180,0.633,0.789,64.79,64.41,5.58,4.07,5.09
+horizons,180,0.856,0.883,47.95,77.2,5.17,4.05,5.15
+lr,180,0.467,0.738,66.77,64.73,6.14,4.07,4.92
+rn,180,0.956,0.413,86.33,49.79,5.05,4.14,5.05
+reconquete,180,0.272,0.286,78,60.44,7.67,4.03,4.72
+nouvelle_energie,180,0.733,0.818,37.86,67.46,5.36,4.1,5.17

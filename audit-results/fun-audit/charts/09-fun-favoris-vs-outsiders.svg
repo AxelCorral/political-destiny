@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="480" viewBox="0 0 620 480">
+  <rect width="620" height="480" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Score de fun en fonction de la facilité de qualification</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">Chaque point = un parti. Une corrélation positive nette indiquerait « plus facile = plus amusant »</text>
+  <line x1="60" y1="430" x2="590" y2="430" stroke="#c7d0d8" />
+  <line x1="60" y1="60" x2="60" y2="430" stroke="#c7d0d8" />
+  <text x="325" y="468" font-size="12" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Taux de qualification (favori →)</text>
+  <text x="16" y="245" font-size="12" text-anchor="middle" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif" transform="rotate(-90 16 245)">Score de fun /100</text>
+  <circle cx="417.2" cy="60.0" r="3" fill="#3b6ea5" fill-opacity="0.55" /><circle cx="357.5" cy="144.1" r="3" fill="#3b6ea5" fill-opacity="0.55" /><circle cx="211.1" cy="190.3" r="3" fill="#3b6ea5" fill-opacity="0.55" /><circle cx="339.7" cy="211.4" r="3" fill="#3b6ea5" fill-opacity="0.55" /><circle cx="60.0" cy="217.0" r="3" fill="#3b6ea5" fill-opacity="0.55" /><circle cx="447.4" cy="236.6" r="3" fill="#3b6ea5" fill-opacity="0.55" /><circle cx="464.5" cy="252.0" r="3" fill="#3b6ea5" fill-opacity="0.55" /><circle cx="590.0" cy="296.9" r="3" fill="#3b6ea5" fill-opacity="0.55" /><circle cx="512.5" cy="430.0" r="3" fill="#3b6ea5" fill-opacity="0.55" />
+</svg>

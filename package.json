@@ -20,6 +20,7 @@
     "audit:game": "tsx scripts/audit-post/run-all.ts",
     "audit:smoke": "tsx scripts/audit-post/smoke.ts",
     "audit:gameplay": "tsx scripts/gameplay-audit/run-all.ts",
+    "audit:fun": "tsx scripts/fun-audit/run-all.ts",
     "test:ux-audit": "playwright test --config=playwright.gameplay-audit.config.ts",
     "data:validate": "tsx scripts/validate-data.ts",
     "format": "prettier --write .",

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="310" viewBox="0 0 760 310">
+  <rect width="760" height="310" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Part de contenu réellement nouveau selon le nombre de parties déjà jouées</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">Moyenne des 9 partis existants, profil « référence neutre », graines successives</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°1</text>
+    <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">100 %</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°2</text>
+    <rect x="200" y="100" width="331.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="539.088888888889" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">70 %</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°3</text>
+    <rect x="200" y="138" width="261.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="469.21555555555557" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">56 %</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°5</text>
+    <rect x="200" y="176" width="168.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="376.1555555555555" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">36 %</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°10</text>
+    <rect x="200" y="214" width="42.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="250.0388888888889" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">9 %</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°20</text>
+    <rect x="200" y="252" width="9.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="217.71333333333334" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2 %</text>
+</svg>

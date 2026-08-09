@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="462" viewBox="0 0 760 462">
+  <rect width="760" height="462" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Tension au fil de la campagne</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">Taux de décisions provoquant un changement de rang, par décile de progression</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 0</text>
+    <rect x="200" y="62" width="443.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="651.512213887286" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">49.1 %</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 1</text>
+    <rect x="200" y="100" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">52.0 %</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 2</text>
+    <rect x="200" y="138" width="359.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="566.9863435276014" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">39.7 %</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 3</text>
+    <rect x="200" y="176" width="284.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="492.85670321215616" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">31.5 %</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 4</text>
+    <rect x="200" y="214" width="217.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="425.77841892671665" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">24.1 %</text>
+    <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 5</text>
+    <rect x="200" y="252" width="216.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="424.1511829197923" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">23.9 %</text>
+    <text x="190" y="308" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 6</text>
+    <rect x="200" y="290" width="213.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="421.89113291017503" y="308" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">23.7 %</text>
+    <text x="190" y="346" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 7</text>
+    <rect x="200" y="328" width="76.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="284.11848432390843" y="346" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">8.4 %</text>
+    <text x="190" y="384" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 8</text>
+    <rect x="200" y="366" width="136.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="344.5070205808809" y="384" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">15.1 %</text>
+    <text x="190" y="422" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Décile 9</text>
+    <rect x="200" y="404" width="120.2" height="28" fill="#3b6ea5" rx="3" />
+    <text x="328.2346605116369" y="422" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">13.3 %</text>
+</svg>

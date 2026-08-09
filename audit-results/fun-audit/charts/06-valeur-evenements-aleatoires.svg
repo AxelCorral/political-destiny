@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="196" viewBox="0 0 760 196">
+  <rect width="760" height="196" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Événements des catégories « world »/« scandal » par valeur perçue</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">Classement relatif (tertiles du score composite), section 7</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Intéressant</text>
+    <rect x="200" y="62" width="376.0" height="28" fill="#2f8f5b" rx="3" />
+    <text x="584" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">8 événements</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Neutre</text>
+    <rect x="200" y="100" width="470.0" height="28" fill="#8a94a3" rx="3" />
+    <text x="678" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">10 événements</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Frustrant</text>
+    <rect x="200" y="138" width="282.0" height="28" fill="#b3413a" rx="3" />
+    <text x="490" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">6 événements</text>
+</svg>

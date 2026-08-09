@@ -1,0 +1,10 @@
+partyId,n,meanMemorableSignals,shareWithAtLeast1Signal,shareWithAtLeast2Signals,shareWithAtLeast3Signals,meanActorMemoryEntries,meanAbruptReversals
+lfi,180,4.1,1,0.956,0.861,2.32,0.31
+ps,180,4.57,1,0.989,0.95,2.28,0.43
+ecologistes,180,4.78,1,0.994,0.967,2.36,0.6
+renaissance,180,3.04,0.994,0.933,0.656,2.08,0.42
+horizons,180,3.21,0.983,0.883,0.689,2.19,0.26
+lr,180,3.24,1,0.917,0.722,2.34,0.31
+rn,180,4.39,1,1,0.939,2.78,0.38
+reconquete,180,3.99,1,0.978,0.844,2.21,0.47
+nouvelle_energie,180,3.29,1,0.928,0.722,2.1,0.3

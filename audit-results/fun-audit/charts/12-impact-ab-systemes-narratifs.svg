@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="272" viewBox="0 0 760 272">
+  <rect width="760" height="272" fill="#ffffff" />
+  <text x="20" y="26" font-size="17" font-weight="700" fill="#0d1b2a" style="font-family:Arial,Helvetica,sans-serif">Part des campagnes dont l'issue change quand un système est retiré</text>
+  <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">A/B appariés (même parti/profil/graine), section 26 — qualification et/ou victoire différente</text>
+  
+    <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">B1 no opportunistic randomness</text>
+    <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">51.9 %</text>
+    <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">B2 no rare events</text>
+    <rect x="200" y="100" width="435.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="643.5876685934489" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">48.1 %</text>
+    <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">C no narrative memory</text>
+    <rect x="200" y="138" width="423.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="631.8150289017342" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">46.8 %</text>
+    <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">E no ideology effects</text>
+    <rect x="200" y="176" width="381.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="589.252408477842" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">42.1 %</text>
+    <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">F no delayed consequences</text>
+    <rect x="200" y="214" width="414.8" height="28" fill="#3b6ea5" rx="3" />
+    <text x="622.7591522157998" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">45.8 %</text>
+</svg>
