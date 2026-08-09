@@ -1,0 +1,142 @@
+{
+  "corpus": {
+    "totalRuns": 1890,
+    "existingPartyRuns": 1620,
+    "customPartyRuns": 270,
+    "totalDecisions": 53950,
+    "abExperimentRows": 1296,
+    "distinctEventsEncountered": 228,
+    "catalogSize": 249
+  },
+  "eventGrades": {
+    "A": 126,
+    "B": 87,
+    "S": 11,
+    "C": 3,
+    "F": 1
+  },
+  "memorableMoments": {
+    "meanSignals": 3.85,
+    "shareAtLeast1": 0.998,
+    "shareAtLeast2": 0.953,
+    "shareAtLeast3": 0.817
+  },
+  "randomEventValue": {
+    "interessant": 8,
+    "neutre": 10,
+    "frustrant": 6
+  },
+  "rareEvents": {
+    "total": 12,
+    "exceptionnel": 0,
+    "memorable": 9,
+    "gadget": 0,
+    "trop_frequent": 0,
+    "trop_rare": 3
+  },
+  "abExperiments": [
+    {
+      "variantA": "A_baseline",
+      "variantB": "B1_no_opportunistic_randomness",
+      "pairedN": 216,
+      "meanAbsScoreDiff": 10.86,
+      "shareWithDifferentEventSet": 1,
+      "meanRankVolatilityDiff": 0.004,
+      "meanPollStdevDiff": -0.1,
+      "meanMomentsDiff": 0.28,
+      "outcomeChangedShare": 0.519
+    },
+    {
+      "variantA": "A_baseline",
+      "variantB": "B2_no_rare_events",
+      "pairedN": 216,
+      "meanAbsScoreDiff": 10.4,
+      "shareWithDifferentEventSet": 1,
+      "meanRankVolatilityDiff": -0.007,
+      "meanPollStdevDiff": 0.01,
+      "meanMomentsDiff": 0.3,
+      "outcomeChangedShare": 0.481
+    },
+    {
+      "variantA": "A_baseline",
+      "variantB": "C_no_narrative_memory",
+      "pairedN": 216,
+      "meanAbsScoreDiff": 9.79,
+      "shareWithDifferentEventSet": 1,
+      "meanRankVolatilityDiff": -0.021,
+      "meanPollStdevDiff": 0,
+      "meanMomentsDiff": 0.72,
+      "outcomeChangedShare": 0.468
+    },
+    {
+      "variantA": "A_baseline",
+      "variantB": "E_no_ideology_effects",
+      "pairedN": 216,
+      "meanAbsScoreDiff": 10.29,
+      "shareWithDifferentEventSet": 1,
+      "meanRankVolatilityDiff": -0.031,
+      "meanPollStdevDiff": 0.15,
+      "meanMomentsDiff": 0.81,
+      "outcomeChangedShare": 0.421
+    },
+    {
+      "variantA": "A_baseline",
+      "variantB": "F_no_delayed_consequences",
+      "pairedN": 216,
+      "meanAbsScoreDiff": 8.94,
+      "shareWithDifferentEventSet": 1,
+      "meanRankVolatilityDiff": -0.001,
+      "meanPollStdevDiff": -0.01,
+      "meanMomentsDiff": 0.11,
+      "outcomeChangedShare": 0.458
+    }
+  ],
+  "partySimilarity": {
+    "overallIntraPartyGameJaccard": 0.1705,
+    "overallCrossPartyGameJaccard": 0.1726,
+    "note": "Per-game Jaccard (matched profile+seed), comparable to GAMEPLAY_AUDIT.md's cross-party-overlap.csv (0.126 cross vs 0.244 intra there)."
+  },
+  "partyFunRanking": [
+    {
+      "partyId": "nouvelle_energie",
+      "funScore100": 70.7
+    },
+    {
+      "partyId": "ecologistes",
+      "funScore100": 64.7
+    },
+    {
+      "partyId": "lr",
+      "funScore100": 61.4
+    },
+    {
+      "partyId": "renaissance",
+      "funScore100": 59.9
+    },
+    {
+      "partyId": "reconquete",
+      "funScore100": 59.5
+    },
+    {
+      "partyId": "lfi",
+      "funScore100": 58.1
+    },
+    {
+      "partyId": "ps",
+      "funScore100": 57
+    },
+    {
+      "partyId": "rn",
+      "funScore100": 53.8
+    },
+    {
+      "partyId": "horizons",
+      "funScore100": 44.3
+    }
+  ],
+  "dominantChoiceShare": {
+    "eventsEvaluated": 224,
+    "dominantCount": 4,
+    "dominantSharePct": 1.8
+  }
+}

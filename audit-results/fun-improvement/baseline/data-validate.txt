@@ -1,0 +1,10 @@
+=== data:validate ===
+
+> vers-lelysee@0.1.0 data:validate
+> tsx scripts/validate-data.ts
+
+Données : 9 partis, 41 acteurs fictifs/contextuels, 249 événements, 58 succès.
+Catégories : {"campaign":30,"media":17,"program":20,"debate":11,"internal":20,"alliance":13,"world":14,"scandal":10,"rare":9,"between_rounds":11,"party":90,"government":4}
+Rares ou secrets : 18
+Validation structurelle et éditoriale réussie.
+exit: 0

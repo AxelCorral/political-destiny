@@ -1,0 +1,12 @@
+=== lint ===
+
+> vers-lelysee@0.1.0 lint
+> eslint .
+
+exit: 0
+=== typecheck ===
+
+> vers-lelysee@0.1.0 typecheck
+> tsc --noEmit
+
+exit: 0

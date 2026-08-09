@@ -1,0 +1,57 @@
+[
+  {
+    "variantA": "A_baseline",
+    "variantB": "B1_no_opportunistic_randomness",
+    "pairedN": 216,
+    "meanAbsScoreDiff": 10.86,
+    "shareWithDifferentEventSet": 1,
+    "meanRankVolatilityDiff": 0.004,
+    "meanPollStdevDiff": -0.1,
+    "meanMomentsDiff": 0.28,
+    "outcomeChangedShare": 0.519
+  },
+  {
+    "variantA": "A_baseline",
+    "variantB": "B2_no_rare_events",
+    "pairedN": 216,
+    "meanAbsScoreDiff": 10.4,
+    "shareWithDifferentEventSet": 1,
+    "meanRankVolatilityDiff": -0.007,
+    "meanPollStdevDiff": 0.01,
+    "meanMomentsDiff": 0.3,
+    "outcomeChangedShare": 0.481
+  },
+  {
+    "variantA": "A_baseline",
+    "variantB": "C_no_narrative_memory",
+    "pairedN": 216,
+    "meanAbsScoreDiff": 9.79,
+    "shareWithDifferentEventSet": 1,
+    "meanRankVolatilityDiff": -0.021,
+    "meanPollStdevDiff": 0,
+    "meanMomentsDiff": 0.72,
+    "outcomeChangedShare": 0.468
+  },
+  {
+    "variantA": "A_baseline",
+    "variantB": "E_no_ideology_effects",
+    "pairedN": 216,
+    "meanAbsScoreDiff": 10.29,
+    "shareWithDifferentEventSet": 1,
+    "meanRankVolatilityDiff": -0.031,
+    "meanPollStdevDiff": 0.15,
+    "meanMomentsDiff": 0.81,
+    "outcomeChangedShare": 0.421
+  },
+  {
+    "variantA": "A_baseline",
+    "variantB": "F_no_delayed_consequences",
+    "pairedN": 216,
+    "meanAbsScoreDiff": 8.94,
+    "shareWithDifferentEventSet": 1,
+    "meanRankVolatilityDiff": -0.001,
+    "meanPollStdevDiff": -0.01,
+    "meanMomentsDiff": 0.11,
+    "outcomeChangedShare": 0.458
+  }
+]

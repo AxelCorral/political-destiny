@@ -1,0 +1,11 @@
+partyId,n,shareWithAtLeastOneReversal,shareWithMultipleReversals,shareWithNoReversal,comebackRate,collapseRate
+ALL,1620,0.857,0.729,0.143,0.054,0.007
+lfi,180,0.989,0.783,0.011,0.106,0
+ps,180,0.944,0.822,0.056,0.072,0.044
+ecologistes,180,0.978,0.833,0.022,0.033,0.006
+renaissance,180,0.994,0.822,0.006,0.017,0
+horizons,180,0.783,0.722,0.217,0.039,0.006
+lr,180,1,0.878,0,0.033,0.006
+rn,180,0.7,0.561,0.3,0.039,0.006
+reconquete,180,0.333,0.278,0.667,0.106,0
+nouvelle_energie,180,0.994,0.861,0.006,0.039,0

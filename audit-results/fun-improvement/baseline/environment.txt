@@ -1,0 +1,18 @@
+=== git ===
+37764b5 feat(fun-audit): add fun/replayability audit tooling, report, and audit:fun script
+codex/v2-audit-improvements
+=== node/npm ===
+v24.16.0
+11.13.0
+=== format:check ===
+
+> vers-lelysee@0.1.0 format:check
+> prettier --check .
+
+Checking formatting...
+[[33mwarn[39m] PROMPT_CLAUDE_CODE_AMELIORATION_FUN_POST_AUDIT.md
+[[33mwarn[39m] PROMPT_CLAUDE_CODE_AUDIT_FUN_REJOUABILITE.md
+[[33mwarn[39m] PROMPT_CLAUDE_CODE_AUDIT_GAMEPLAY_FUN.md
+[[33mwarn[39m] scripts/fun-audit/analyze.ts
+[[33mwarn[39m] Code style issues found in 4 files. Run Prettier with --write to fix.
+exit: 1
