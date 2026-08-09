@@ -60,3 +60,47 @@ export function daysBetween(from: string, to: string): number {
   const end = new Date(`${to}T12:00:00Z`).getTime();
   return Math.max(0, Math.ceil((end - start) / 86_400_000));
 }
+
+export interface QualificationGap {
+  /** true when the player currently sits in a qualifying spot (top 2). */
+  qualifying: boolean;
+  /** Percentage-point gap: margin held over 3rd place if qualifying, deficit to 2nd place otherwise. Always >= 0. */
+  points: number;
+  /** Id of the party the gap is measured against (the closest threat, or the closest target). */
+  againstPartyId: string | undefined;
+}
+
+/**
+ * P3 (fun improvement mission — tension du dernier tiers, section 11 du
+ * prompt) : le classement brut ne dit rien sur la distance réelle à la
+ * qualification, ce qui surinterprète les micro-mouvements de sondage en
+ * tout début de partie (AUDIT_FUN_REJOUABILITE.md §6). Cette fonction pure
+ * calcule l'écart avec la frontière de qualification (2 places) plutôt que
+ * de se contenter d'un rang brut — préférée à une refonte du moteur
+ * électoral lui-même, conformément à l'approche recommandée par le prompt.
+ */
+export function computeQualificationGap(
+  results: Record<string, number>,
+  playerPartyId: string,
+): QualificationGap {
+  const ranking = Object.entries(results)
+    .filter(([, value]) => Number.isFinite(value))
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const playerIndex = ranking.findIndex(([id]) => id === playerPartyId);
+  if (playerIndex === -1) return { qualifying: false, points: 0, againstPartyId: undefined };
+  const playerValue = ranking[playerIndex]![1];
+  if (playerIndex < 2) {
+    const chaser = ranking[2];
+    return {
+      qualifying: true,
+      points: chaser ? Math.max(0, Number((playerValue - chaser[1]).toFixed(1))) : playerValue,
+      againstPartyId: chaser?.[0],
+    };
+  }
+  const secondPlace = ranking[1];
+  return {
+    qualifying: false,
+    points: secondPlace ? Math.max(0, Number((secondPlace[1] - playerValue).toFixed(1))) : 0,
+    againstPartyId: secondPlace?.[0],
+  };
+}

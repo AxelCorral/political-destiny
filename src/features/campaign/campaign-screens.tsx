@@ -35,6 +35,7 @@ import type {
 } from "@/game/types";
 import {
   CATEGORY_LABELS,
+  computeQualificationGap,
   daysBetween,
   formatCampaignDate,
   formatPercent,
@@ -360,6 +361,10 @@ export function RaceBulletinScreen() {
       : poll.playerTrend < -0.4
         ? "Votre campagne recule"
         : "Votre socle reste stable";
+  const qualificationGap = computeQualificationGap(poll.results, state.playerPartyId);
+  const chaserParty = qualificationGap.againstPartyId
+    ? state.parties[qualificationGap.againstPartyId]
+    : undefined;
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
@@ -405,6 +410,23 @@ export function RaceBulletinScreen() {
               Rang {poll.playerRank}
             </span>
           </div>
+          <p className="mt-3 text-sm text-[var(--ink-muted)]">
+            {qualificationGap.qualifying ? (
+              <>
+                <span className="font-bold text-[var(--success)]">À portée du second tour</span>
+                {chaserParty
+                  ? ` — avance de ${formatPercent(qualificationGap.points)} sur ${chaserParty.displayName} (3e)`
+                  : null}
+              </>
+            ) : (
+              <>
+                <span className="font-bold text-[var(--red-700)]">Hors zone de qualification</span>
+                {chaserParty
+                  ? ` — ${formatPercent(qualificationGap.points)} vous séparent de ${chaserParty.displayName} (2e)`
+                  : null}
+              </>
+            )}
+          </p>
           <div className="mt-6">
             <PollChart poll={poll} parties={state.parties} />
           </div>
