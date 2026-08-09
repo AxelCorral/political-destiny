@@ -6,8 +6,20 @@ import type {
   VisibleEffect,
 } from "@/game/types";
 
+import {
+  humanizeInternalKey,
+  IDEOLOGY_AXIS_LABELS,
+  PRIMARY_STAT_LABELS,
+  SECONDARY_STAT_LABELS,
+  TRAIT_LABELS,
+  WORLD_STAT_LABELS,
+} from "./internalKeyLabels";
 import { clamp } from "./math";
 import { applyPartySplit } from "./partyDynamics";
+
+function statLabel(stat: string): string {
+  return PRIMARY_STAT_LABELS[stat] ?? SECONDARY_STAT_LABELS[stat] ?? humanizeInternalKey(stat);
+}
 
 /**
  * Below this fraction of a stat's ceiling, positive party_stat effects apply
@@ -45,15 +57,15 @@ function getTargetParty(state: GameState, target?: "player" | string): PartyStat
 function defaultLabel(effect: GameEffect): string {
   switch (effect.kind) {
     case "party_stat":
-      return `${effect.stat} ${effect.delta >= 0 ? "+" : ""}${effect.delta}`;
+      return `${statLabel(effect.stat)} ${effect.delta >= 0 ? "+" : ""}${effect.delta}`;
     case "hidden_stat":
       return "La campagne évolue en profondeur";
     case "trait":
-      return `${effect.trait} ${effect.delta >= 0 ? "+" : ""}${effect.delta}`;
+      return `${TRAIT_LABELS[effect.trait] ?? humanizeInternalKey(effect.trait)} ${effect.delta >= 0 ? "+" : ""}${effect.delta}`;
     case "ideology":
-      return `Position ${effect.axis} ajustée`;
+      return `Positionnement ${IDEOLOGY_AXIS_LABELS[effect.axis] ?? humanizeInternalKey(effect.axis)} ajusté`;
     case "world":
-      return `Contexte ${effect.stat} modifié`;
+      return `Le contexte évolue : ${WORLD_STAT_LABELS[effect.stat] ?? humanizeInternalKey(effect.stat)}`;
     case "bloc_trust":
       return `Confiance d’un électorat ${effect.delta >= 0 ? "renforcée" : "fragilisée"}`;
     case "flag":

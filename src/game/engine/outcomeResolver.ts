@@ -6,6 +6,14 @@ import type {
   WeightedOutcome,
 } from "@/game/types";
 
+import {
+  humanizeInternalKey,
+  IDEOLOGY_AXIS_LABELS,
+  PRIMARY_STAT_LABELS,
+  SECONDARY_STAT_LABELS,
+  TRAIT_LABELS,
+  WORLD_STAT_LABELS,
+} from "./internalKeyLabels";
 import { softmax } from "./math";
 import { random } from "./rng";
 
@@ -75,6 +83,31 @@ function modifierValue(state: GameState, modifier: ProbabilityModifier): number 
   }
 }
 
+/**
+ * P3 (fun improvement mission, section 12) — `modifier.key` is a raw
+ * internal identifier whose shape depends on `source`: for party_stat/
+ * trait/world/ideology it's a camelCase stat/trait/axis key (never
+ * underscored, so a plain `replaceAll("_", " ")` left it untouched — the
+ * second, independent leak site found alongside effectProcessor.ts's
+ * defaultLabel). Routed through the same tables used there; every other
+ * source falls back to humanizeInternalKey's safe camelCase/snake_case
+ * splitter.
+ */
+function humanizeKeyForSource(source: ProbabilityModifier["source"], key: string): string {
+  switch (source) {
+    case "party_stat":
+      return PRIMARY_STAT_LABELS[key] ?? SECONDARY_STAT_LABELS[key] ?? humanizeInternalKey(key);
+    case "trait":
+      return TRAIT_LABELS[key] ?? humanizeInternalKey(key);
+    case "world":
+      return WORLD_STAT_LABELS[key] ?? humanizeInternalKey(key);
+    case "ideology":
+      return IDEOLOGY_AXIS_LABELS[key] ?? humanizeInternalKey(key);
+    default:
+      return humanizeInternalKey(key);
+  }
+}
+
 function modifierLabel(modifier: ProbabilityModifier): string {
   const sourceLabels: Record<ProbabilityModifier["source"], string> = {
     party_stat: "État de campagne",
@@ -90,7 +123,7 @@ function modifierLabel(modifier: ProbabilityModifier): string {
     electorate: "Confiance de l’électorat",
     consistency: "Cohérence de la ligne",
   };
-  const readableKey = modifier.key.replaceAll("_", " ");
+  const readableKey = humanizeKeyForSource(modifier.source, modifier.key);
   return `${sourceLabels[modifier.source]} · ${readableKey}`;
 }
 
