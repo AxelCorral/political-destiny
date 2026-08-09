@@ -150,6 +150,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
           [
             stat("credibility", 3, "Réponse rapide saluée"),
             stat("mediaPresence", 2, "Échange très suivi"),
+            stat("momentum", -2, "Semaine happée par la polémique"),
             relation("player", "rn", -5, "Confrontation ouverte"),
           ],
         ),
@@ -162,9 +163,10 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
         result: outcome(
           "frontrunner_retaliation_ignored",
           "Le silence plutôt que la surenchère",
-          "Le choix évite d’alimenter l’affrontement mais laisse la ligne d’attaque adverse sans réponse directe pendant plusieurs jours. Certains soutiens s’impatientent de ce silence.",
+          "Le choix évite d’alimenter l’affrontement et laisse la semaine de terrain se dérouler sans interruption. Certains soutiens s’impatientent de ce silence tant que la ligne d’attaque reste sans réponse directe.",
           [
-            stat("mobilization", -1, "Attaque non relevée"),
+            stat("credibility", 2, "Sérénité remarquée"),
+            stat("mobilization", 1, "Terrain préservé"),
             bloc("urban_working_class", 1),
             hidden("consistency", 1),
           ],
@@ -197,6 +199,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
           "Le ton léger désamorce une partie de la tension et circule bien sur les réseaux. Une partie de la presse juge le procédé peu sérieux face à des arguments économiques précis.",
           [
             stat("mediaPresence", 3, "Intervention très partagée"),
+            stat("momentum", 2, "Ton qui marque"),
             stat("rejection", 2, "Ton jugé peu sérieux par certains"),
           ],
         ),

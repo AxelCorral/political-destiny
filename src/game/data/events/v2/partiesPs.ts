@@ -491,6 +491,21 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
           relation("player", "renaissance", 2),
         ],
       ),
+      directChoice(
+        "ps_runoff_no_deal",
+        "Refuser tout contrat écrit et gouverner sur le seul programme adopté au premier tour",
+        "long_term_strategy",
+        "LOYAL",
+        "ps_runoff_program_alone",
+        "Le programme du premier tour reste seul engagement",
+        "Aucune concession n’est faite et le socle le plus fidèle salue une cohérence totale. Les partenaires de gauche, sans garantie écrite, mobilisent leurs réseaux nettement moins largement que prévu.",
+        [
+          hidden("consistency", 6),
+          stat("credibility", 3, "Cohérence totale"),
+          hidden("transferability", -3),
+          stat("mobilization", -3, "Alliés sans garanties"),
+        ],
+      ),
     ],
   }),
   partyEvent("ps", {

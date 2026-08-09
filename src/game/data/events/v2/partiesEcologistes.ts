@@ -492,6 +492,21 @@ export const v2EcologistesPartyEvents: GameEventDefinition[] = [
           stat("mobilization", 2, "Soutiens réservés"),
         ],
       ),
+      directChoice(
+        "ecologistes_runoff_solo",
+        "Refuser toute coalition formelle et présenter le programme écologique complet sans concession",
+        "long_term_strategy",
+        "LOYAL",
+        "ecologistes_runoff_uncompromised",
+        "Le programme écologique reste intact",
+        "L’absence de concession rassure les militants les plus attachés à la radicalité du projet. Les partenaires potentiels, sans accord formel, mobilisent nettement moins que ce qu’une coalition aurait permis.",
+        [
+          hidden("consistency", 6),
+          stat("credibility", 2, "Programme intact"),
+          hidden("transferability", -4),
+          stat("mobilization", -4, "Partenaires non mobilisés"),
+        ],
+      ),
     ],
   }),
   partyEvent("ecologistes", {
