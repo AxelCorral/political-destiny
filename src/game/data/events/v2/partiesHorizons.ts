@@ -1,6 +1,15 @@
 import type { GameEventDefinition } from "@/game/types";
 
-import { alliance, bloc, directChoice, hidden, memory, relation, stat } from "../authoring";
+import {
+  alliance,
+  bloc,
+  directChoice,
+  hidden,
+  memory,
+  opponentStrategy,
+  relation,
+  stat,
+} from "../authoring";
 import { partyEvent } from "./partyAuthoring";
 
 export const v2HorizonsPartyEvents: GameEventDefinition[] = [
@@ -520,6 +529,362 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
           stat("credibility", 4, "Élus engagés"),
           stat("rejection", 1, "Appareil d’élus"),
           hidden("consistency", 3),
+        ],
+      ),
+    ],
+  }),
+
+  // --- P1 (fun improvement mission) : arcs A/B/C/D — voir FUN_IMPROVEMENTS_REPORT.md.
+  // Horizons cumulait qualification quasi automatique et victoire quasi
+  // automatique (AUDIT_FUN_REJOUABILITE.md §11) sans vulnérabilité
+  // structurelle ni fourche de trajectoire à enjeu réel. Les six événements
+  // suivants ajoutent une vraie tension d'origine narrative (succession,
+  // image technocratique, cannibalisation du centre) avec des conséquences
+  // différées et des branches mutuellement exclusives (un seul des deux
+  // follow-ups de succession peut être vu par run, jamais les deux).
+  partyEvent("horizons", {
+    id: "party_horizons_founder_challenge",
+    title: "Paul Auriac demande qui décide vraiment",
+    summary:
+      "Cofondateur historique du mouvement, Paul Auriac déclare en interne qu’Agathe Belcourt ne peut pas fixer seule la ligne tant que les figures fondatrices n’ont pas validé le virage présidentiel. La sortie reste privée, mais trois cadres l’ont déjà relayée.",
+    themes: ["institutions"],
+    importance: "major",
+    minDecisionIndex: 7,
+    maxDecisionIndex: 16,
+    entityReferences: [{ entityId: "horizons_auriac", role: "subject" }],
+    editorialSensitivity: "contextual",
+    chain: { id: "horizons_succession", step: 1 },
+    choices: [
+      directChoice(
+        "horizons_founder_break_free",
+        "S’affranchir publiquement et annoncer que la ligne de campagne n’appartient qu’à la candidate",
+        "personal_risk",
+        "RISQUÉ",
+        "horizons_founder_autonomy_declared",
+        "Agathe Belcourt tranche seule",
+        "La déclaration met fin à l’ambiguïté et donne une image de détermination inhabituelle pour le mouvement. Paul Auriac le vit comme une humiliation publique et cesse de couvrir les arbitrages internes.",
+        [
+          stat("momentum", 5, "Autorité affirmée"),
+          stat("mediaPresence", 3, "Rupture commentée"),
+          stat("cohesion", -6, "Fondateur écarté"),
+          hidden("rivalAmbition", 4),
+          memory("horizons_auriac", "humiliation", 7, {
+            targetPartyId: "player",
+            topic: "institutions",
+          }),
+        ],
+        {
+          outcome: {
+            setFlags: { horizons_broke_with_founder: true },
+            followUps: [
+              { eventId: "party_horizons_founder_revenge", afterDecisions: 4, probability: 0.7 },
+            ],
+          },
+        },
+      ),
+      directChoice(
+        "horizons_founder_defer",
+        "Accepter la ligne fixée par les fondateurs et attendre leur feu vert",
+        "internal_discipline",
+        "PRUDENT",
+        "horizons_founder_line_confirmed",
+        "La candidature attend sa validation",
+        "Le geste rassure l’aile historique et évite toute rupture visible. Il confirme aussi, en creux, que la campagne présidentielle reste sous tutelle plutôt que pleinement assumée par sa candidate.",
+        [
+          stat("cohesion", 5, "Ligne des fondateurs suivie"),
+          stat("credibility", 3, "Continuité reconnue"),
+          stat("momentum", -3, "Autonomie reportée"),
+          memory("horizons_auriac", "trust", 5, {
+            targetPartyId: "player",
+            topic: "institutions",
+          }),
+        ],
+        {
+          outcome: {
+            setFlags: { horizons_deferred_to_founder: true },
+            followUps: [
+              { eventId: "party_horizons_founder_blessing", afterDecisions: 4, probability: 0.7 },
+            ],
+          },
+        },
+      ),
+      directChoice(
+        "horizons_founder_role_split",
+        "Proposer à Paul Auriac un rôle de garant du programme, distinct de la direction de campagne",
+        "negotiation",
+        "INSTITUTIONNEL",
+        "horizons_founder_roles_clarified",
+        "Un partage des rôles avant l’escalade",
+        "L’accord évite la confrontation publique en séparant explicitement le programme, gardé par les fondateurs, et la campagne, dirigée par la candidate. La solution retarde la question sans la trancher.",
+        [
+          stat("cohesion", 2, "Rôles clarifiés"),
+          stat("credibility", 2, "Organisation lisible"),
+          hidden("consistency", 2),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_founder_revenge",
+    title: "Le réseau de Paul Auriac s’organise",
+    summary:
+      "Écarté des arbitrages, Paul Auriac réunit discrètement des élus historiques prêts à retarder publiquement leur soutien si la candidate ne leur donne pas de gages avant les déclarations officielles de parrainage.",
+    themes: ["institutions"],
+    importance: "decisive",
+    rarity: "uncommon",
+    minDecisionIndex: 10,
+    entityReferences: [{ entityId: "horizons_auriac", role: "subject" }],
+    editorialSensitivity: "contextual",
+    chain: {
+      id: "horizons_succession",
+      step: 2,
+      followsEventIds: ["party_horizons_founder_challenge"],
+    },
+    eligibility: [{ kind: "flag", key: "horizons_broke_with_founder", equals: true }],
+    choices: [
+      directChoice(
+        "horizons_revenge_negotiate_seat",
+        "Négocier en urgence une vice-présidence du mouvement pour Paul Auriac",
+        "negotiation",
+        "RASSEMBLEUR",
+        "horizons_revenge_seat_granted",
+        "La fronde se referme sur un poste",
+        "Les élus retardataires annoncent leur soutien dès l’accord connu. La candidate évite la crise, mais la scène confirme que les arbitrages internes restent négociables sous pression.",
+        [
+          stat("cohesion", 6, "Fronde apaisée"),
+          stat("credibility", -3, "Concession visible"),
+          hidden("scandalRisk", 2),
+          memory("horizons_auriac", "political_debt", 6, {
+            targetPartyId: "player",
+            topic: "institutions",
+          }),
+        ],
+      ),
+      directChoice(
+        "horizons_revenge_face_it",
+        "Laisser la fronde s’exprimer publiquement et répondre par un discours d’autorité sans contrepartie",
+        "personal_risk",
+        "CLIVANT",
+        "horizons_revenge_authority_speech",
+        "La candidate assume la rupture jusqu’au bout",
+        "Le discours affirme définitivement qui dirige le mouvement et enthousiasme les cadres les plus jeunes. Plusieurs élus historiques retardent effectivement leur soutien, et deux d’entre eux le rendent public.",
+        [
+          stat("momentum", 6, "Autorité assumée"),
+          stat("mediaPresence", 4, "Discours remarqué"),
+          stat("cohesion", -8, "Élus historiques distants"),
+          stat("localStrength", -4, "Soutiens retardés"),
+          hidden("scandalRisk", 3),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_founder_blessing",
+    title: "Paul Auriac loue une candidate loyale à la ligne",
+    summary:
+      "Dans un entretien remarqué, Paul Auriac salue la discipline d’Agathe Belcourt envers la ligne fondatrice du mouvement. L’éloge rassure sur l’unité du parti, mais insiste surtout sur sa fidélité, jamais sur une vision qui lui serait propre.",
+    themes: ["institutions"],
+    importance: "notable",
+    rarity: "uncommon",
+    minDecisionIndex: 10,
+    entityReferences: [{ entityId: "horizons_auriac", role: "subject" }],
+    editorialSensitivity: "none",
+    chain: {
+      id: "horizons_succession",
+      step: 2,
+      followsEventIds: ["party_horizons_founder_challenge"],
+    },
+    eligibility: [{ kind: "flag", key: "horizons_deferred_to_founder", equals: true }],
+    choices: [
+      directChoice(
+        "horizons_blessing_amplify",
+        "Reprendre l’éloge dans la communication officielle comme preuve d’unité",
+        "media_response",
+        "PRUDENT",
+        "horizons_blessing_amplified",
+        "L’unité devient un argument de campagne",
+        "Le parti paraît soudé et rassure les électeurs prudents. Mais l’éloge, centré sur la loyauté plutôt que sur un projet personnel, renforce l’image d’une candidate qui gère un héritage plus qu’elle n’incarne un cap.",
+        [
+          stat("cohesion", 4, "Unité affichée"),
+          stat("credibility", 3, "Continuité saluée"),
+          stat("momentum", -4, "Projet personnel effacé"),
+          hidden("consistency", 3),
+        ],
+        { outcome: { setFlags: { horizons_passion_deficit: true } } },
+      ),
+      directChoice(
+        "horizons_blessing_pivot",
+        "Remercier discrètement puis recentrer aussitôt la communication sur un projet personnel offensif",
+        "media_response",
+        "RISQUÉ",
+        "horizons_blessing_repositioned",
+        "La candidate reprend la main sur son image",
+        "Le recentrage donne un peu plus de relief à sa candidature, sans la présenter comme une rupture avec le mouvement. Paul Auriac note que son éloge a été utilisé puis vite dépassé.",
+        [
+          stat("momentum", 4, "Image recentrée"),
+          stat("mediaPresence", 2, "Repositionnement visible"),
+          stat("rejection", 1, "Reconnaissance jugée courte"),
+          memory("horizons_auriac", "hostility", 3, {
+            targetPartyId: "player",
+            topic: "institutions",
+          }),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_technocrat_backlash",
+    title: "Le sketch du « comité Excel »",
+    summary:
+      "Un programme satirique tourne Horizons en dérision : des cadres imaginaires y arbitrent chaque décision de campagne à coups de tableurs, sans jamais s’émouvoir de rien. Le clip circule bien au-delà de son public habituel.",
+    themes: ["institutions"],
+    importance: "major",
+    minDecisionIndex: 9,
+    entityReferences: [{ entityId: "horizons", role: "subject" }],
+    editorialSensitivity: "none",
+    choices: [
+      directChoice(
+        "horizons_backlash_self_deprecate",
+        "Répondre par l’autodérision dans une vidéo tournée par l’équipe elle-même",
+        "symbolic_action",
+        "POPULAIRE",
+        "horizons_backlash_played_along",
+        "Le mouvement joue le jeu du sketch",
+        "La vidéo est reprise largement et humanise une image jugée froide. Une partie des cadres historiques juge le procédé un peu léger pour une candidature présidentielle.",
+        [
+          stat("mediaPresence", 5, "Autodérision reprise"),
+          stat("popularity", 4, "Image humanisée"),
+          hidden("consistency", -1),
+        ],
+      ),
+      directChoice(
+        "horizons_backlash_passionate_speech",
+        "Prononcer un discours personnel et sans notes sur les raisons profondes de sa candidature",
+        "personal_risk",
+        "RISQUÉ",
+        "horizons_backlash_speech_delivered",
+        "La candidate sort du registre gestionnaire",
+        "Le moment marque, y compris chez des électeurs jusque-là indifférents, et casse un temps l’image de comité d’experts. Certains commentateurs jugent l’exercice trop tardif pour effacer des mois de communication technicienne.",
+        [
+          stat("momentum", 6, "Registre personnel"),
+          stat("popularity", 4, "Moment marquant"),
+          stat("credibility", -2, "Contraste avec la ligne habituelle"),
+        ],
+      ),
+      directChoice(
+        "horizons_backlash_ignore",
+        "Ignorer la moquerie et publier un nouveau chiffrage budgétaire détaillé",
+        "policy_commitment",
+        "TECHNIQUE",
+        "horizons_backlash_technical_answer",
+        "Le sketch reçoit un tableau de plus",
+        "Le chiffrage renforce le sérieux perçu du programme auprès d’un public déjà convaincu. Il ne répond à aucun moment à la critique elle-même, qui continue de circuler sans contradiction directe.",
+        [
+          stat("credibility", 4, "Chiffrage supplémentaire"),
+          stat("momentum", -4, "Critique non désamorcée"),
+        ],
+        { outcome: { setFlags: { horizons_passion_deficit: true } } },
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_passion_test",
+    title: "« Vous nous parlez de compétence. Parlez-nous d’envie. »",
+    summary:
+      "Face à son adversaire de second tour, la modératrice interrompt un développement chiffré d’Agathe Belcourt pour lui demander directement pourquoi elle veut être présidente, pas seulement pourquoi elle serait compétente pour l’être.",
+    themes: ["institutions"],
+    importance: "decisive",
+    phaseWeights: { between_rounds: 1.2 },
+    entityReferences: [{ entityId: "debat_entre_deux_tours", role: "context" }],
+    editorialSensitivity: "none",
+    eligibility: [
+      { kind: "flag", key: "horizons_passion_deficit", equals: true },
+      { kind: "qualified", value: true },
+    ],
+    choices: [
+      directChoice(
+        "horizons_passion_answer_personal",
+        "Répondre par une raison personnelle précise plutôt que par un rappel de compétences",
+        "media_response",
+        "RISQUÉ",
+        "horizons_passion_personal_answer",
+        "Une réponse enfin incarnée",
+        "La réponse surprend par son absence de éléments de langage habituels et change, pour la soirée, la perception du personnage. Une partie de son propre camp juge l’exercice tardif pour un virage aussi tranché.",
+        [
+          stat("momentum", 7, "Réponse incarnée"),
+          stat("popularity", 4, "Moment retenu du débat"),
+          hidden("consistency", -2),
+        ],
+      ),
+      directChoice(
+        "horizons_passion_answer_competence",
+        "Assumer le reproche et défendre la compétence comme la forme la plus sérieuse de conviction",
+        "policy_commitment",
+        "PRÉSIDENTIEL",
+        "horizons_passion_competence_defended",
+        "La compétence revendiquée comme un choix",
+        "La réponse est cohérente avec toute la campagne et rassure les électeurs qui redoutaient déjà l’improvisation. Elle ne répond cependant pas à la question posée, ce que plusieurs éditorialistes relèvent aussitôt après le débat.",
+        [
+          stat("credibility", 5, "Ligne assumée"),
+          stat("rejection", 2, "Question éludée"),
+          hidden("consistency", 3),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_center_poaching",
+    title: "Une figure du bloc central hésite entre deux maisons",
+    summary:
+      "Une élue modérée informellement proche de Renaissance laisse entendre qu’elle pourrait rejoindre Horizons si on l’approchait au bon moment. La démarche, si elle est publique, sera lue comme une tentative d’absorber une partie du bloc central plutôt qu’une simple adhésion.",
+    themes: ["institutions"],
+    importance: "major",
+    minDecisionIndex: 6,
+    excludedParties: ["renaissance"],
+    entityReferences: [{ entityId: "renaissance", role: "subject" }],
+    editorialSensitivity: "contextual",
+    choices: [
+      directChoice(
+        "horizons_poach_direct_offer",
+        "L’approcher directement et lui proposer une place éligible sur une liste alliée",
+        "personal_risk",
+        "OFFENSIF",
+        "horizons_poach_offer_made",
+        "Horizons tente une percée dans le bloc central",
+        "L’élue accepte et Horizons gagne une figure reconnue au-delà de son socle habituel. Renaissance dénonce publiquement une opération de débauchage et durcit sa ligne à l’égard du mouvement.",
+        [
+          stat("localStrength", 5, "Figure ralliée"),
+          stat("awareness", 3, "Percée commentée"),
+          relation("player", "renaissance", -8, "Débauchage dénoncé"),
+          opponentStrategy(
+            "renaissance_candidate",
+            "attack_favorite",
+            "Renaissance réplique à la tentative de débauchage",
+          ),
+        ],
+      ),
+      directChoice(
+        "horizons_poach_wait",
+        "Rester en retrait et attendre une clarification publique de sa part sans la solliciter",
+        "long_term_strategy",
+        "PRUDENT",
+        "horizons_poach_waited",
+        "Le mouvement laisse venir",
+        "La prudence évite tout conflit ouvert avec Renaissance, mais l’élue, non sollicitée, choisit finalement de rester dans l’expectative jusqu’à la fin de la campagne.",
+        [stat("credibility", 1, "Retenue remarquée"), hidden("consistency", 1)],
+      ),
+      directChoice(
+        "horizons_poach_joint_ticket",
+        "Proposer une candidature commune assumée, sans exiger qu’elle quitte formellement Renaissance",
+        "alliance",
+        "RASSEMBLEUR",
+        "horizons_poach_joint_ticket_offered",
+        "Une troisième voie, ambiguë mais moins frontale",
+        "La formule évite la rupture ouverte et donne à l’élue une porte de sortie progressive. Renaissance juge la manœuvre tout aussi hostile qu’une approche directe, mais ne peut la dénoncer aussi facilement.",
+        [
+          stat("mediaPresence", 3, "Positionnement remarqué"),
+          hidden("consistency", -2),
+          relation("player", "renaissance", -3, "Ambiguïté mal perçue"),
         ],
       ),
     ],

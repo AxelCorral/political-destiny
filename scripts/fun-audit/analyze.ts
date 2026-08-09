@@ -267,7 +267,9 @@ async function main() {
       if (b) paired.push({ a, b });
     }
     const scoreDiff = mean(paired.map((p) => Math.abs(num(p.a.finalScore) - num(p.b.finalScore))));
-    const eventSetDiff = mean(paired.map((p) => (p.a.eventIdSetHash === p.b.eventIdSetHash ? 0 : 1)));
+    const eventSetDiff = mean(
+      paired.map((p) => (p.a.eventIdSetHash === p.b.eventIdSetHash ? 0 : 1)),
+    );
     const rankVolDiff = mean(paired.map((p) => num(p.a.rankVolatility) - num(p.b.rankVolatility)));
     const pollStdevDiff = mean(paired.map((p) => num(p.a.pollStdev) - num(p.b.pollStdev)));
     const momentsDiff = mean(

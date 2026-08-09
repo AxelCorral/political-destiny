@@ -272,8 +272,15 @@ const baseParties: PartyDefinition[] = [
       finances: 58,
       mediaPresence: 58,
       governingCredibility: 71,
-      cohesion: 68,
-      rejection: 40,
+      // P1 (fun improvement mission) : rejection et cohesion étaient les deux
+      // plus favorables du jeu simultanément (2e cohésion, 2e plus faible
+      // rejet), ce qui donnait à Horizons un avantage structurel rare — voir
+      // FUN_IMPROVEMENTS_REPORT.md section 3. Rééquilibrage léger : Horizons
+      // reste nettement plus sûr que la moyenne (cohesion encore au-dessus de
+      // PS/LR/Reconquête/Renaissance ; rejection encore sous RN/Reconquête/
+      // Renaissance/LR), mais n'est plus le parti presque sans risque.
+      cohesion: 62,
+      rejection: 46,
       localStrength: 63,
       electedSupport: 61,
       popularity: 57,
