@@ -1,6 +1,16 @@
 import type { GameEventDefinition } from "@/game/types";
 
-import { bloc, directChoice, event, hidden, stat } from "../authoring";
+import {
+  alliance,
+  bloc,
+  directChoice,
+  event,
+  hidden,
+  memory,
+  opponentStrategy,
+  relation,
+  stat,
+} from "../authoring";
 
 const rarePhases = { campaign: 0.65, official_campaign: 1 } as const;
 
@@ -196,6 +206,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     minDecisionIndex: 15,
     entityReferences: [{ entityId: "debat_premier_tour", role: "context" }],
     editorialSensitivity: "none",
+    chain: { id: "rare_blackout_arc", step: 1 },
     choices: [
       directChoice(
         "blackout_agree_rules",
@@ -224,7 +235,14 @@ export const v2RareEvents: GameEventDefinition[] = [
           stat("credibility", -2, "Répétition révélée"),
           stat("mediaPresence", 3, "Coulisses diffusées"),
         ],
-        { outcome: { setFlags: { blackout_rehearsal_leaked: true } } },
+        {
+          outcome: {
+            setFlags: { blackout_rehearsal_leaked: true },
+            followUps: [
+              { eventId: "rare_blackout_leak_resurfaces", afterDecisions: 5, probability: 0.55 },
+            ],
+          },
+        },
       ),
       directChoice(
         "blackout_talk_opponent",
@@ -319,6 +337,7 @@ export const v2RareEvents: GameEventDefinition[] = [
       { entityId: "elysee", role: "context" },
     ],
     editorialSensitivity: "contextual",
+    chain: { id: "rare_exceptional_powers_arc", step: 1 },
     choices: [
       directChoice(
         "exceptional_powers_guardrails",
@@ -341,6 +360,12 @@ export const v2RareEvents: GameEventDefinition[] = [
             text: "Tout recours aux pouvoirs exceptionnels devra être publiquement motivé et étroitement contrôlé",
             stance: -50,
             ideology: { authority: -4 },
+          },
+          outcome: {
+            setFlags: { exceptional_powers_guardrails_promised: true },
+            followUps: [
+              { eventId: "rare_powers_guardrails_tested", afterDecisions: 5, probability: 0.6 },
+            ],
           },
         },
       ),
@@ -365,6 +390,12 @@ export const v2RareEvents: GameEventDefinition[] = [
             text: "L’article 16 sera supprimé lors d’une révision constitutionnelle",
             stance: -75,
             ideology: { authority: -6 },
+          },
+          outcome: {
+            setFlags: { exceptional_powers_abolition_promised: true },
+            followUps: [
+              { eventId: "rare_powers_abolition_tested", afterDecisions: 5, probability: 0.6 },
+            ],
           },
         },
       ),
@@ -398,6 +429,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     phaseWeights: rarePhases,
     entityReferences: [{ entityId: "assemblee_nationale", role: "institution" }],
     editorialSensitivity: "none",
+    chain: { id: "rare_congress_arc", step: 1 },
     choices: [
       directChoice(
         "fragmented_congress_contract",
@@ -412,7 +444,14 @@ export const v2RareEvents: GameEventDefinition[] = [
           stat("credibility", 5, "Conditions de coalition"),
           stat("cohesion", 2, "Socle commun"),
         ],
-        { outcome: { setFlags: { coalition_five_conditions: true } } },
+        {
+          outcome: {
+            setFlags: { coalition_five_conditions: true },
+            followUps: [
+              { eventId: "rare_congress_partners_respond", afterDecisions: 6, probability: 0.65 },
+            ],
+          },
+        },
       ),
       directChoice(
         "fragmented_congress_issue_majorities",
@@ -442,7 +481,14 @@ export const v2RareEvents: GameEventDefinition[] = [
           stat("rejection", 4, "Crise anticipée"),
           hidden("baseSupport", 2),
         ],
-        { outcome: { setFlags: { fragmentation_confrontation: true } } },
+        {
+          outcome: {
+            setFlags: { fragmentation_confrontation: true },
+            followUps: [
+              { eventId: "rare_congress_isolation", afterDecisions: 6, probability: 0.65 },
+            ],
+          },
+        },
       ),
     ],
   }),
@@ -461,6 +507,7 @@ export const v2RareEvents: GameEventDefinition[] = [
       { entityId: "union_europeenne", role: "context" },
     ],
     editorialSensitivity: "contextual",
+    chain: { id: "rare_union_arc", step: 1 },
     choices: [
       directChoice(
         "national_union_join",
@@ -476,7 +523,14 @@ export const v2RareEvents: GameEventDefinition[] = [
           stat("cohesion", -4, "Compromis contestés"),
           stat("rejection", -2, "Capacité de coalition"),
         ],
-        { outcome: { setFlags: { national_union_limited: true } } },
+        {
+          outcome: {
+            setFlags: { national_union_limited: true },
+            followUps: [
+              { eventId: "rare_national_union_expires", afterDecisions: 6, probability: 0.7 },
+            ],
+          },
+        },
       ),
       directChoice(
         "national_union_support_only",
@@ -567,6 +621,303 @@ export const v2RareEvents: GameEventDefinition[] = [
           stat("credibility", -3, "Avis médical ignoré"),
         ],
         { outcome: { setFlags: { voice_lost_on_stage: true } } },
+      ),
+    ],
+  }),
+
+  // --- P2 (fun improvement mission) : chaînes rares — voir
+  // FUN_IMPROVEMENTS_REPORT.md. AUDIT_FUN_REJOUABILITE.md §9 constatait
+  // qu'aucun des 9 événements rare_* génériques n'ouvrait de chaîne
+  // narrative alors que la chaîne est, mesurablement, le meilleur contenu
+  // du jeu (§23). Les follow-ups ci-dessous restent rares par construction
+  // (ils ne peuvent apparaître que via `followUps`, jamais par tirage
+  // pondéré normal, et exigent le flag posé par leur événement rare
+  // d'origine) et ne changent donc pas la fréquence de tirage des
+  // événements rares eux-mêmes (voir rare-event-value.csv après re-audit).
+  event({
+    id: "rare_blackout_leak_resurfaces",
+    title: "La coulisse du blackout ressort",
+    category: "rare",
+    summary:
+      "Un journaliste retrouve l’image de secours montrant votre répétition pendant la panne électrique du débat et prépare un article sur « la spontanéité mise en scène ». Il propose de vous laisser réagir avant publication.",
+    themes: ["institutions"],
+    rarity: "uncommon",
+    importance: "notable",
+    phaseWeights: { official_campaign: 1, between_rounds: 0.6 },
+    oncePerRun: true,
+    entityReferences: [{ entityId: "debat_premier_tour", role: "context" }],
+    editorialSensitivity: "none",
+    chain: { id: "rare_blackout_arc", step: 2, followsEventIds: ["rare_debate_blackout"] },
+    eligibility: [{ kind: "flag", key: "blackout_rehearsal_leaked", equals: true }],
+    choices: [
+      directChoice(
+        "blackout_leak_confirm",
+        "Reconnaître les faits et expliquer pourquoi préparer une conclusion n’a rien d’exceptionnel",
+        "media_response",
+        "TRANSPARENT",
+        "blackout_leak_confirmed",
+        "La confirmation calme l’article avant sa publication",
+        "L’explication est jugée raisonnable par la rédaction, qui publie un article plus factuel que prévu. L’épisode referme la question sans laisser de doute durable sur votre sincérité.",
+        [stat("credibility", 2, "Explication assumée"), hidden("consistency", 2)],
+      ),
+      directChoice(
+        "blackout_leak_deny",
+        "Contester la lecture du journaliste et rappeler que rien d’irrégulier ne s’est produit",
+        "legal_action",
+        "CLIVANT",
+        "blackout_leak_disputed",
+        "La contestation prolonge l’article plutôt qu’elle ne l’arrête",
+        "Le ton défensif intrigue davantage que les faits eux-mêmes et l’article gagne en visibilité. Une partie de la presse y voit une nervosité disproportionnée pour un fait mineur.",
+        [
+          stat("mediaPresence", 3, "Polémique prolongée"),
+          stat("credibility", -3, "Défense jugée nerveuse"),
+        ],
+      ),
+    ],
+  }),
+  event({
+    id: "rare_powers_guardrails_tested",
+    title: "Les garde-fous promis sont pris au mot",
+    category: "rare",
+    summary:
+      "Une association de juristes fictive vous demande de préciser, par écrit, la procédure exacte de consultation du Conseil constitutionnel que vous aviez promise sur les pouvoirs exceptionnels. Un engagement vague deviendrait aussi commode à oublier qu’à rappeler.",
+    themes: ["institutions", "civil_liberties"],
+    rarity: "uncommon",
+    importance: "major",
+    phaseWeights: rarePhases,
+    oncePerRun: true,
+    entityReferences: [{ entityId: "conseil_constitutionnel", role: "institution" }],
+    editorialSensitivity: "contextual",
+    chain: {
+      id: "rare_exceptional_powers_arc",
+      step: 2,
+      followsEventIds: ["rare_exceptional_powers"],
+    },
+    eligibility: [{ kind: "flag", key: "exceptional_powers_guardrails_promised", equals: true }],
+    choices: [
+      directChoice(
+        "powers_guardrails_detail",
+        "Publier la procédure précise, avec délais et voies de recours, comme demandé",
+        "policy_commitment",
+        "TRANSPARENT",
+        "powers_guardrails_detailed",
+        "La promesse devient une procédure vérifiable",
+        "Le document précis renforce la crédibilité de l’engagement initial et sert désormais de référence si le sujet revient. Il expose aussi chaque futur écart à une critique bien plus facile à formuler.",
+        [stat("credibility", 4, "Procédure publiée"), hidden("consistency", 4)],
+      ),
+      directChoice(
+        "powers_guardrails_soften",
+        "Répondre par des principes généraux plutôt que par une procédure engageante",
+        "media_response",
+        "PRUDENT",
+        "powers_guardrails_generalized",
+        "La promesse reste, mais perd en précision",
+        "La réponse évite de s’enfermer dans un texte trop contraignant. Les juristes notent publiquement l’écart entre l’engagement initial et sa version finale, plus prudente.",
+        [
+          stat("credibility", -2, "Engagement affaibli"),
+          hidden("consistency", -3),
+          stat("rejection", 1, "Promesse édulcorée"),
+        ],
+      ),
+    ],
+  }),
+  event({
+    id: "rare_powers_abolition_tested",
+    title: "Un cas concret teste la suppression promise",
+    category: "rare",
+    summary:
+      "Une simulation médiatique de crise sécuritaire grave pousse un éditorialiste à vous demander comment l’État répondrait sans l’article 16 que vous avez promis de supprimer. La question n’appelle pas une nuance, mais une réponse.",
+    themes: ["institutions", "security"],
+    rarity: "uncommon",
+    importance: "major",
+    phaseWeights: rarePhases,
+    oncePerRun: true,
+    entityReferences: [{ entityId: "elysee", role: "context" }],
+    editorialSensitivity: "contextual",
+    chain: {
+      id: "rare_exceptional_powers_arc",
+      step: 2,
+      followsEventIds: ["rare_exceptional_powers"],
+    },
+    eligibility: [{ kind: "flag", key: "exceptional_powers_abolition_promised", equals: true }],
+    choices: [
+      directChoice(
+        "powers_abolition_hold",
+        "Maintenir la suppression et détailler les pouvoirs de crise ordinaires qui resteraient disponibles",
+        "policy_commitment",
+        "CLIVANT",
+        "powers_abolition_held",
+        "La ligne tient, avec un mode d’emploi",
+        "La réponse précise rassure une partie des sceptiques sans renier l’engagement. D’autres jugent que le cas décrit reste hypothétique et n’a pas vraiment été résolu.",
+        [
+          bloc("green_progressives", 3),
+          hidden("consistency", 3),
+          stat("rejection", 1, "Cas jugé théorique"),
+        ],
+      ),
+      directChoice(
+        "powers_abolition_nuance",
+        "Introduire une exception encadrée pour les crises sécuritaires les plus graves",
+        "compromise",
+        "TECHNIQUE",
+        "powers_abolition_nuanced",
+        "La suppression reçoit une exception",
+        "La nuance répond concrètement au scénario posé et rassure sur la capacité de l’État à réagir. Elle expose aussi la promesse initiale à l’accusation d’avoir déjà été révisée avant même l’élection.",
+        [
+          stat("credibility", 2, "Réponse concrète"),
+          hidden("consistency", -5),
+          bloc("green_progressives", -3),
+        ],
+      ),
+    ],
+  }),
+  event({
+    id: "rare_congress_partners_respond",
+    title: "Deux partis répondent aux cinq conditions",
+    category: "rare",
+    summary:
+      "Deux formations de l’Assemblée fragmentée annoncent accepter vos cinq conditions de coalition, sous réserve d’un geste supplémentaire chacune sur un sujet qui leur est propre. Les deux demandes ne sont pas compatibles entre elles.",
+    themes: ["institutions"],
+    rarity: "uncommon",
+    importance: "decisive",
+    phaseWeights: { official_campaign: 0.8, between_rounds: 1 },
+    oncePerRun: true,
+    entityReferences: [{ entityId: "assemblee_nationale", role: "institution" }],
+    editorialSensitivity: "none",
+    chain: { id: "rare_congress_arc", step: 2, followsEventIds: ["rare_fragmented_congress"] },
+    eligibility: [{ kind: "flag", key: "coalition_five_conditions", equals: true }],
+    choices: [
+      directChoice(
+        "congress_partners_pick_one",
+        "Satisfaire la demande du groupe le plus proche idéologiquement et assumer de perdre l’autre",
+        "negotiation",
+        "RASSEMBLEUR",
+        "congress_partners_one_secured",
+        "Une coalition claire plutôt que deux fragiles",
+        "L’accord se resserre autour d’un partenaire cohérent avec vos cinq conditions. Le second groupe retire son offre et le fait savoir publiquement.",
+        [
+          stat("cohesion", 4, "Ligne resserrée"),
+          hidden("transferability", 5),
+          relation("player", "renaissance", 4, "Coalition resserrée"),
+          alliance("renaissance", "add", "Socle des cinq conditions"),
+        ],
+      ),
+      directChoice(
+        "congress_partners_keep_both",
+        "Présenter séparément les deux demandes à l’opinion en tentant de toutes les satisfaire",
+        "compromise",
+        "OPPORTUNISTE",
+        "congress_partners_both_pending",
+        "Deux promesses séparées, une seule majorité espérée",
+        "La double promesse maximise vos options de majorité sur le papier. Chaque camp découvre rapidement l’engagement pris envers l’autre, et les deux y voient une preuve de manque de ligne claire.",
+        [
+          hidden("transferability", 3),
+          stat("credibility", -4, "Double discours perçu"),
+          hidden("consistency", -4),
+        ],
+      ),
+    ],
+  }),
+  event({
+    id: "rare_congress_isolation",
+    title: "Les partis voisins organisent leur propre socle",
+    category: "rare",
+    summary:
+      "Après votre refus de toute coalition, plusieurs partis jusque-là disponibles annoncent discuter entre eux d’un socle de gouvernement qui vous exclut par construction. Rien n’est signé, mais le message est clair.",
+    themes: ["institutions"],
+    rarity: "uncommon",
+    importance: "major",
+    phaseWeights: { official_campaign: 0.8, between_rounds: 1 },
+    oncePerRun: true,
+    entityReferences: [{ entityId: "assemblee_nationale", role: "institution" }],
+    editorialSensitivity: "none",
+    chain: { id: "rare_congress_arc", step: 2, followsEventIds: ["rare_fragmented_congress"] },
+    eligibility: [{ kind: "flag", key: "fragmentation_confrontation", equals: true }],
+    choices: [
+      directChoice(
+        "congress_isolation_reach_out",
+        "Reprendre contact discrètement avec l’un des partis pour éviter un isolement complet",
+        "negotiation",
+        "OPPORTUNISTE",
+        "congress_isolation_reopened",
+        "Un contact discret rouvre une porte",
+        "Le geste, mené sans annonce publique, rouvre une option de majorité sans revenir sur votre posture affichée. Le parti approché exige que la démarche reste confidentielle pour l’instant.",
+        [hidden("transferability", 4), relation("player", "ps", 3, "Contact discret renoué")],
+      ),
+      directChoice(
+        "congress_isolation_double_down",
+        "Assumer publiquement que vous gouvernerez seul ou referez appel aux électeurs",
+        "break",
+        "OFFENSIF",
+        "congress_isolation_confirmed",
+        "L’isolement devient une posture assumée",
+        "La fermeté plaît à votre socle le plus déterminé et clarifie totalement votre position. Les partis qui s’organisaient sans vous accélèrent leurs discussions, confirmant l’exclusion.",
+        [
+          stat("mobilization", 3, "Fermeté assumée"),
+          hidden("transferability", -6),
+          opponentStrategy("ps_candidate", "consolidate_base", "Le PS accélère son propre socle"),
+          memory("ps_candidate", "hostility", 30, {
+            targetPartyId: "player",
+            topic: "institutions",
+          }),
+        ],
+      ),
+    ],
+  }),
+  event({
+    id: "rare_national_union_expires",
+    title: "Les six mois d’union nationale s’achèvent",
+    category: "rare",
+    summary:
+      "L’accord de crise limité que vous aviez rejoint arrive à son terme contractuel. Les partenaires attendent une réponse publique : prolonger l’union, en sortir proprement avec un bilan commun, ou en sortir en dénonçant ses limites.",
+    themes: ["institutions", "economy"],
+    rarity: "uncommon",
+    importance: "decisive",
+    phaseWeights: { official_campaign: 0.7, between_rounds: 1.1 },
+    oncePerRun: true,
+    entityReferences: [{ entityId: "assemblee_nationale", role: "institution" }],
+    editorialSensitivity: "contextual",
+    chain: { id: "rare_union_arc", step: 2, followsEventIds: ["rare_national_union"] },
+    eligibility: [{ kind: "flag", key: "national_union_limited", equals: true }],
+    choices: [
+      directChoice(
+        "union_expires_renew",
+        "Proposer une prolongation de trois mois avec un bilan public détaillé",
+        "negotiation",
+        "INSTITUTIONNEL",
+        "union_expires_renewed",
+        "L’union se prolonge, sous conditions de transparence",
+        "Le bilan public rassure sur la gestion commune et prolonge une coopération qui a évité plusieurs ruptures. Une partie de votre socle électoral juge que la campagne perd en netteté à force de coopération.",
+        [
+          stat("credibility", 4, "Bilan transparent"),
+          hidden("transferability", 5),
+          stat("cohesion", -2, "Ligne diluée"),
+        ],
+      ),
+      directChoice(
+        "union_expires_exit_clean",
+        "Publier un bilan commun signé par tous les partenaires et sortir de l’accord comme prévu",
+        "compromise",
+        "TRANSPARENT",
+        "union_expires_exit_clean",
+        "Une sortie propre, sans rupture",
+        "Le bilan signé documente ce que l’union a permis, sans prolonger un accord devenu encombrant en pleine campagne. Aucun partenaire ne peut accuser l’autre d’avoir rompu unilatéralement.",
+        [stat("credibility", 3, "Sortie documentée"), hidden("consistency", 3)],
+      ),
+      directChoice(
+        "union_expires_exit_loud",
+        "Contester les limites de l’accord et le manque d’ambition des partenaires en sortant publiquement",
+        "media_response",
+        "OFFENSIF",
+        "union_expires_exit_criticized",
+        "La sortie devient une charge contre l’union",
+        "La critique frontale redonne du relief à votre candidature après des mois de coopération peu lisible. Les anciens partenaires répliquent en rappelant publiquement ce que l’accord vous avait aussi apporté.",
+        [
+          stat("momentum", 4, "Rupture nette"),
+          stat("mediaPresence", 3, "Sortie remarquée"),
+          relation("player", "ps", -5, "Rupture publique"),
+          hidden("consistency", -2),
+        ],
       ),
     ],
   }),
