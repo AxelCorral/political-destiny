@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **outsider_performant**
 
-Score final : 83/100 · 1er tour : 15 · 2nd tour : 56.6 · qualifié : true · vainqueur : true · signaux mémorables : 6
+Score final : 84/100 · 1er tour : 15.1 · 2nd tour : 56.6 · qualifié : true · vainqueur : true · signaux mémorables : 6
 
 ## 1. Le siège déborde de bénévoles — _pre_campaign/campaign_
 
@@ -12,7 +12,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 **Le réseau absorbe l’afflux** — Les référents prennent le temps d’expliquer les règles et les outils. La mobilisation progresse moins vite cette semaine, mais l’organisation gagne une capacité durable.
 
-Sondage : 7.5 → 10.8 (rang 8 → 8)
+Sondage : 7.6 → 10.9 (rang 8 → 8)
 
 ## 2. Une minute sur les loyers — _pre_campaign/media_
 
@@ -22,7 +22,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 **Une réponse locale et vérifiable** — Le chiffre de constructions prévues dépasse le format, mais les médias rennais vérifient les terrains cités. La séquence reste peu virale et renforce votre sérieux territorial.
 
-Sondage : 10.8 → 11.1 (rang 8 → 7)
+Sondage : 10.9 → 11.1 (rang 8 → 7)
 
 ## 3. La collecte se bloque — _pre_campaign/campaign_
 
@@ -32,7 +32,7 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 **Les petits dons relancent la caisse** — Les objectifs quotidiens sont atteints quatre jours sur sept. La somme ne couvre pas tout, mais transforme plusieurs donateurs en bénévoles actifs.
 
-Sondage : 11.1 → 11.2 (rang 7 → 7)
+Sondage : 11.1 → 11.3 (rang 7 → 7)
 
 ## 4. Cinq cents bénévoles sans mission — _pre_campaign/internal_
 
@@ -42,7 +42,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 **Cinq cents gilets apparaissent en un week-end** — La visibilité surprend vos concurrents et des milliers de portes sont frappées. Quelques maladresses circulent en vidéo, sans annuler le signal d’une campagne capable de déployer rapidement ses soutiens.
 
-Sondage : 11.2 → 11.6 (rang 7 → 4)
+Sondage : 11.3 → 11.6 (rang 7 → 4)
 
 ## 5. Une ligne du CV est fausse — _pre_campaign/scandal_
 
@@ -52,7 +52,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 **Une petite ligne devient une grande question** — Le responsable continue à travailler et votre équipe technique reste stable. Votre minimisation offre cependant plusieurs jours de débat sur la vérité des biographies plutôt que sur la transition énergétique.
 
-Sondage : 11.6 → 11.2 (rang 4 → 7)
+Sondage : 11.6 → 11.3 (rang 4 → 7)
 
 ## 6. Les tentes encerclent la préfecture — _pre_campaign/world_
 
@@ -62,7 +62,7 @@ Dans un épisode fictif à Marseille, des associations installent des tentes aut
 
 **Les permis deviennent un engagement public** — Le tableau ne reloge personne cette nuit mais permet de mesurer la construction et les blocages fonciers. Les associations acceptent de discuter sans démonter les tentes avant des solutions d’urgence.
 
-Sondage : 11.2 → 11.3 (rang 7 → 4)
+Sondage : 11.3 → 11.4 (rang 7 → 4)
 
 ## 7. La caméra derrière la porte _(CHAÎNE)_ — _pre_campaign/media_
 
@@ -72,7 +72,7 @@ Une équipe documentaire de France 2 demande six semaines d’accès au siège, 
 
 **Une transparence avec des portes identifiées** — Le contrat distingue clairement les espaces filmables. La production conserve son indépendance et l’équipe sait où elle peut parler librement, ce qui limite les scènes spectaculaires mais protège la confiance interne.
 
-Sondage : 11.3 → 11.5 (rang 4 → 4)
+Sondage : 11.4 → 11.6 (rang 4 → 4)
 
 ## 8. Le siège coûte trop cher — _campaign/internal_
 
@@ -82,7 +82,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 **Le siège reste avec un étage partagé** — La solution économise moins qu’un déménagement mais évite toute interruption. L’association choisie attire une attention imprévue sur la compatibilité entre ses activités et votre campagne.
 
-Sondage : 11.5 → 11.4 (rang 4 → 4)
+Sondage : 11.6 → 11.4 (rang 4 → 5)
 
 ## 9. La rénovation thermique doit changer d’échelle — _campaign/party_
 
@@ -92,7 +92,7 @@ Le projet prévoit de rénover les logements les plus énergivores, mais les art
 
 **Les régions pilotent la rénovation** — Le dispositif s’adapte aux bâtiments et aux entreprises locales, tout en renforçant l’implantation territoriale. Les différences de capacité administrative risquent de creuser les écarts entre régions.
 
-Sondage : 11.4 → 11.7 (rang 4 → 3)
+Sondage : 11.4 → 11.8 (rang 5 → 3)
 
 ## 10. La ligne de départ des retraites — _campaign/program_
 
@@ -102,7 +102,7 @@ Votre convention sociale doit arrêter une règle lisible sur les retraites. Les
 
 **Le retour à soixante-deux ans est financé** — La mesure mobilise les salariés opposés au relèvement de l’âge et assume son coût par une recette identifiable. Les entreprises dénoncent la hausse de cotisations, qui devient le principal angle d’attaque économique.
 
-Sondage : 11.7 → 11.9 (rang 3 → 3)
+Sondage : 11.8 → 12 (rang 3 → 2)
 
 ## 11. Une motion réclame un congrès — _campaign/internal_
 
@@ -112,7 +112,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 **Le congrès tranche réellement** — Le débat révèle les fractures mais le vote donne une ligne commune et opposable à tous. Vous cédez une part de contrôle sur le programme en échange d’une cohésion renforcée.
 
-Sondage : 11.9 → 12.3 (rang 3 → 2)
+Sondage : 12 → 12.3 (rang 2 → 2)
 
 ## 12. Une promesse revient au montage _(CHAÎNE)_ — _campaign/media_
 
@@ -122,7 +122,7 @@ Le documentaire confronte votre dernière position à une intervention enregistr
 
 **Le programme retrouve son point fixe** — Le retour rassure les militants attachés au texte adopté, mais expose votre précédent repositionnement comme une erreur. La cohésion remonte pendant que les nouveaux soutiens doutent de la stabilité de votre parole.
 
-Sondage : 12.3 → 13.5 (rang 2 → 1)
+Sondage : 12.3 → 13.6 (rang 2 → 1)
 
 ## 13. Le siège arrive à saturation — _campaign/internal_
 
@@ -132,7 +132,7 @@ Trois responsables salariés et plusieurs bénévoles signalent des journées de
 
 **Le calendrier perd deux étapes et gagne de la fiabilité** — Les équipes locales déçues obtiennent des visioconférences et le siège retrouve un rythme soutenable. Votre présence médiatique recule brièvement, tandis que les erreurs logistiques diminuent.
 
-Sondage : 13.5 → 12.9 (rang 1 → 1)
+Sondage : 13.6 → 12.9 (rang 1 → 1)
 
 ## 14. Des élus ruraux proposent une tournée — _campaign/party_
 
@@ -142,7 +142,7 @@ Des conseillers municipaux écologistes invitent Éloi Vernet dans des territoir
 
 **Le ferroviaire donne un titre national** — L’annonce impose un investissement identifiable et obtient une large couverture. Les élus invités regrettent que les difficultés de santé et de logement aient été réduites à un décor.
 
-Sondage : 12.9 → 13 (rang 1 → 1)
+Sondage : 12.9 → 13.1 (rang 1 → 1)
 
 ## 15. Qui financera les priorités — _campaign/program_
 
@@ -152,7 +152,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 **Le patrimoine devient la ligne de partage** — La recette est lisible et consolide votre électorat social. Les simulations de rendement restent débattues et les adversaires centrent aussitôt leurs critiques sur le risque de départ des capitaux.
 
-Sondage : 13 → 13.1 (rang 1 → 1)
+Sondage : 13.1 → 13.2 (rang 1 → 1)
 
 ## 16. Deux cents maires demandent un contrat — _official_campaign/alliance_
 
@@ -162,7 +162,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 **Les maires obtiennent un calendrier opposable** — Une majorité des signataires rejoint votre comité de soutien et fournit un réseau territorial immédiat. Le contrat limite votre marge budgétaire future et crée des rendez-vous où chaque retard sera visible.
 
-Sondage : 13.1 → 14.6 (rang 1 → 1)
+Sondage : 13.2 → 14.7 (rang 1 → 1)
 
 ## 17. La Garonne sort de son lit — _official_campaign/world_
 
@@ -172,7 +172,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 **La campagne libère l’espace et se retire** — Le local devient un point logistique utile et vos équipes suivent les consignes des autorités sans mise en scène. Vous disparaissez de la couverture pendant la crise, ce qui est précisément cohérent avec la décision.
 
-Sondage : 14.6 → 13.6 (rang 1 → 1)
+Sondage : 14.7 → 13.7 (rang 1 → 1)
 
 ## 18. La minute qui vous appartient — _official_campaign/debate_
 
@@ -182,7 +182,7 @@ Sondage : 14.6 → 13.6 (rang 1 → 1)
 
 **Une minute de contrat gouvernemental** — La conclusion relie la campagne à l’exercice du pouvoir et confirme votre sérieux. Elle ne produit pas la phrase virale espérée, mais donne aux électeurs hésitants une raison ordonnée de vous choisir.
 
-Sondage : 13.6 → 13.9 (rang 1 → 1)
+Sondage : 13.7 → 14 (rang 1 → 1)
 
 ## 19. La présidence que vous proposez — _official_campaign/program_
 
@@ -192,7 +192,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 **La rupture constitutionnelle a sa procédure** — Le calendrier électif et le référendum rendent la proposition moins abstraite et mobilisent les partisans d’une nouvelle République. Les électeurs attachés à la stabilité demandent ce qui gouvernera pendant la transition.
 
-Sondage : 13.9 → 13.2 (rang 1 → 1)
+Sondage : 14 → 13.2 (rang 1 → 1)
 
 ## 20. La CFDT veut des garanties écrites — _official_campaign/alliance_
 
@@ -202,7 +202,7 @@ La CFDT ne donnera pas de consigne de vote, mais propose de qualifier publiqueme
 
 **La méthode sociale reçoit un soutien public** — La CFDT salue la précision de votre engagement sans appeler à voter pour vous. La séquence renforce votre crédibilité auprès des salariés modérés et limite votre capacité à légiférer rapidement sans accord.
 
-Sondage : 13.2 → 12.5 (rang 1 → 2)
+Sondage : 13.2 → 12.6 (rang 1 → 2)
 
 ## 21. Le fauteuil libéré au vingt heures — _official_campaign/media_
 
@@ -212,7 +212,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 **L’allié gagne son propre espace** — L’émission accepte le remplacement. Votre représentant défend bien le projet, mais gagne aussi une autonomie et une notoriété qui pèseront lors des prochains arbitrages de coalition.
 
-Sondage : 12.5 → 13.3 (rang 2 → 1)
+Sondage : 12.6 → 13.4 (rang 2 → 1)
 
 ## 22. Neuf candidats face au climat — _official_campaign/debate_
 
@@ -222,7 +222,7 @@ Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure clim
 
 **Une nouvelle recette évite l’arbitrage** — La contribution mobilise votre base et rend votre réponse différente des autres candidatures. Elle contrevient à la contrainte posée par le débat et ouvre immédiatement une bataille sur les secteurs concernés.
 
-Sondage : 13.3 → 13.4 (rang 1 → 1)
+Sondage : 13.4 → 13.4 (rang 1 → 1)
 
 ## 23. Un rival corrige votre ligne — _official_campaign/internal_
 
@@ -252,7 +252,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 13.6 → 13.6 (rang 1 → 1)
+Sondage : 13.6 → 13.7 (rang 1 → 1)
 
 ## 26. Le second tour exige une coalition climatique — _between_rounds/party_
 
@@ -262,7 +262,7 @@ Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les
 
 **Dix objectifs organisent la coalition** — Les partenaires disposent de garanties précises et les militants de gauche rejoignent la campagne. Le nombre d’engagements négociés alimente les doutes sur la vitesse de décision.
 
-Sondage : 13.6 → 13.8 (rang 1 → 1)
+Sondage : 13.7 → 13.8 (rang 1 → 1)
 
 ## 27. Les dernières heures autorisées — _between_rounds/between_rounds_
 
@@ -272,7 +272,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Cent points de contact avant le silence** — Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.
 
-Sondage : 13.8 → 13.9 (rang 1 → 1)
+Sondage : 13.8 → 14 (rang 1 → 1)
 
 ## 28. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
 
@@ -282,7 +282,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Les soutiens viennent sans contrat** — Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.
 
-Sondage : 13.9 → 14.6 (rang 1 → 1)
+Sondage : 14 → 14.6 (rang 1 → 1)
 
 ## 29. Le débat de lentre-deux-tours — _government_epilogue/between_rounds_
 
@@ -292,7 +292,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le bilan adverse occupe le duel** — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
 
-Sondage : 14.6 → 14.2 (rang 1 → 1)
+Sondage : 14.6 → 14.3 (rang 1 → 1)
 
 ## 30. Quinze ministres pour une coalition — _government_epilogue/government_
 
@@ -302,7 +302,7 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 **Les soutiens deviennent responsabilité ministérielle** — La règle rend le partage compréhensible et stabilise les partenaires avant le premier Conseil des ministres. Elle laisse moins de place aux personnalités indépendantes et à certains territoires.
 
-Sondage : 14.2 → 14.1 (rang 1 → 1)
+Sondage : 14.3 → 14.2 (rang 1 → 1)
 
 ## 31. La première adresse de lÉlysée — _finished/government_
 
@@ -312,4 +312,4 @@ Après les célébrations, votre première parole présidentielle fictive doit h
 
 **Trois textes ouvrent le mandat** — Le calendrier rend les priorités prévisibles et distingue les décisions immédiates des négociations. Certains soutiens ne retrouvent pas leur mesure phare, mais personne ne peut prétendre que tout sera fait en même temps.
 
-Sondage : 14.1 → 14.4 (rang 1 → 1)
+Sondage : 14.2 → 14.5 (rang 1 → 1)

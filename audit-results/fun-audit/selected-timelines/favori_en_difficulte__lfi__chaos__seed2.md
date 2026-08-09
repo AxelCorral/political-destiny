@@ -12,7 +12,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 **Un supplément relie Paris et la Bretagne** — Le document commun conserve les priorités nationales et ajoute trois engagements territoriaux. Le processus demande deux jours, mais il crée une méthode réutilisable dans d’autres régions.
 
-Sondage : 14.1 → 11.6 (rang 1 → 4)
+Sondage : 14.2 → 11.7 (rang 1 → 4)
 
 ## 2. La laïcité à l’épreuve du quotidien — _pre_campaign/program_
 
@@ -22,7 +22,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 **Un cadre étendu à l’enseignement supérieur** — La mesure est saluée comme une clarification par une partie de l’électorat attachée à une laïcité stricte. Des organisations étudiantes et des juristes contestent sa conformité avec la liberté universitaire.
 
-Sondage : 11.6 → 11.7 (rang 4 → 4)
+Sondage : 11.7 → 11.8 (rang 4 → 4)
 
 ## 3. Le fauteuil libéré au vingt heures — _pre_campaign/media_
 
@@ -32,7 +32,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 **L’allié gagne son propre espace** — L’émission accepte le remplacement. Votre représentant défend bien le projet, mais gagne aussi une autonomie et une notoriété qui pèseront lors des prochains arbitrages de coalition.
 
-Sondage : 11.7 → 11.8 (rang 4 → 3)
+Sondage : 11.8 → 11.9 (rang 4 → 2)
 
 ## 4. Le siège déborde de bénévoles — _pre_campaign/campaign_
 
@@ -42,7 +42,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 **Le réseau absorbe l’afflux** — Les référents prennent le temps d’expliquer les règles et les outils. La mobilisation progresse moins vite cette semaine, mais l’organisation gagne une capacité durable.
 
-Sondage : 11.8 → 16.1 (rang 3 → 1)
+Sondage : 11.9 → 16.2 (rang 2 → 1)
 
 ## 5. Le contrat d’intégration, jusqu’où aller — _pre_campaign/program_
 
@@ -52,7 +52,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 **L’intégration comme condition de la nationalité** — La proposition marque une ligne nette et mobilise une partie de votre socle. Des juristes et des associations de défense des droits contestent la conformité du dispositif avec les engagements internationaux existants.
 
-Sondage : 16.1 → 12 (rang 1 → 3)
+Sondage : 16.2 → 12.1 (rang 1 → 2)
 
 ## 6. Le direct des questions citoyennes — _pre_campaign/media_
 
@@ -62,7 +62,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct se termine sur un calendrier** — Les réponses ne règlent pas tous les cas, mais la conclusion donne une date et un financement à l’engagement. Vous quittez le direct à l’heure, avec une séquence exploitable par les équipes de santé.
 
-Sondage : 12 → 12.3 (rang 3 → 2)
+Sondage : 12.1 → 12.4 (rang 2 → 2)
 
 ## 7. Nassim Courbet réclame une ligne plus sociale _(CHAÎNE)_ — _pre_campaign/party_
 
@@ -72,7 +72,7 @@ Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitu
 
 **La fronde perd le micro et gagne un motif** — La campagne conserve son agenda et les porte-parole cessent de se contredire. Les groupes proches de Nassim Courbet parlent dune sanction politique et préparent une assemblée indépendante.
 
-Sondage : 12.3 → 12.3 (rang 2 → 2)
+Sondage : 12.4 → 12.3 (rang 2 → 2)
 
 ## 8. Une ligne du CV est fausse — _pre_campaign/scandal_
 
@@ -82,7 +82,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 **Quarante biographies passent au contrôle** — La vérification ne trouve aucune autre fausse fonction et le responsable présente des excuses avant de revenir. Votre réponse paraît proportionnée, au prix d’une semaine de ralentissement programmatique.
 
-Sondage : 12.3 → 10.8 (rang 2 → 6)
+Sondage : 12.3 → 10.9 (rang 2 → 6)
 
 ## 9. Le slogan divise le siège — _campaign/campaign_
 
@@ -92,7 +92,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 **La campagne garde son nom** — Les affiches restent sobres et aucun slogan ne détourne le programme. Les équipes locales manquent toutefois d’une formule commune pour lancer leurs réunions.
 
-Sondage : 10.8 → 12.4 (rang 6 → 2)
+Sondage : 10.9 → 12.5 (rang 6 → 2)
 
 ## 10. La fronde sociale exige un vote _(CHAÎNE)_ — _campaign/party_
 
@@ -102,7 +102,7 @@ Le réseau de Nassim Courbet demande désormais un vote des adhérents sur la pr
 
 **La fronde devient dissidence** — Nassim Courbet quitte les instances avec plusieurs animateurs et lance un comité autonome. La parole nationale se clarifie au prix dune perte militante durable et dune campagne concurrente dans plusieurs circonscriptions.
 
-Sondage : 12.4 → 12.1 (rang 2 → 3)
+Sondage : 12.5 → 12.1 (rang 2 → 2)
 
 ## 11. Une motion réclame un congrès — _campaign/internal_
 
@@ -112,7 +112,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 **La motion devient une épreuve d’autorité** — Une partie des signataires se range pour ne pas aggraver la crise. Les autres maintiennent le texte, donnent des interviews séparées et installent une fronde qui pourra ressurgir plus tard.
 
-Sondage : 12.1 → 11.8 (rang 3 → 5)
+Sondage : 12.1 → 11.8 (rang 2 → 4)
 
 ## 12. Les affiches manquent dans six villes — _campaign/campaign_
 
@@ -122,7 +122,7 @@ Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus
 
 **Le budget bascule vers les écrans** — Les vidéos locales touchent rapidement les moins de trente ans. Les militants chargés de l’affichage dénoncent cependant une décision prise sans leur avis.
 
-Sondage : 11.8 → 8.6 (rang 5 → 8)
+Sondage : 11.8 → 8.6 (rang 4 → 8)
 
 ## 13. Provoquer le favori en duel — _campaign/debate_
 
@@ -132,7 +132,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 **Le terrain du programme plutôt que du plateau** — Le communiqué évite le risque d’un dérapage en direct et documente vos chiffres. Le camp adverse et une partie de la presse dénoncent une esquive, ce qui alimente le sujet plus longtemps que prévu.
 
-Sondage : 8.6 → 11.5 (rang 8 → 5)
+Sondage : 8.6 → 11.6 (rang 8 → 5)
 
 ## 14. L’atelier industriel de Saint-Nazaire — _campaign/campaign_
 
@@ -142,7 +142,7 @@ Sondage : 8.6 → 11.5 (rang 8 → 5)
 
 **La commande publique ouvre un débat** — Les syndicats applaudissent l’objectif industriel, tandis que les juristes européens demandent des précisions. Votre ligne devient lisible et immédiatement contestée sur sa faisabilité.
 
-Sondage : 11.5 → 11.6 (rang 5 → 5)
+Sondage : 11.6 → 11.6 (rang 5 → 5)
 
 ## 15. La désobéissance européenne doit être définie — _campaign/party_
 
@@ -152,7 +152,7 @@ Le programme de LFI promet de désobéir aux règles européennes incompatibles 
 
 **Le mandat national passe avant la négociation** — La ligne mobilise les souverainistes de gauche et clarifie le calendrier de rupture. Elle inquiète les électeurs attachés à lUnion et réduit les soutiens possibles au second tour.
 
-Sondage : 11.6 → 10.6 (rang 5 → 8)
+Sondage : 11.6 → 10.7 (rang 5 → 8)
 
 ## 16. Les abstentionnistes demandent une preuve — _campaign/party_
 
@@ -162,7 +162,7 @@ Sondage : 11.6 → 10.6 (rang 5 → 8)
 
 **Lurgence mobilise les convaincus et braque les sceptiques** — Le message augmente la participation de votre socle le plus engagé. Les abstentionnistes rencontrés y entendent précisément la pression morale quils refusaient.
 
-Sondage : 10.6 → 9.4 (rang 8 → 8)
+Sondage : 10.7 → 9.5 (rang 8 → 8)
 
 ## 17. Un soutien éditorial encombrant — _official_campaign/media_
 
@@ -172,7 +172,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 **Le soutien devient confrontation** — Le débat attire une audience inhabituelle et vous permet de marquer vos désaccords sans nier le point commun initial. Une partie de votre équipe juge néanmoins que le polémiste a reçu une scène disproportionnée.
 
-Sondage : 9.4 → 10.3 (rang 8 → 8)
+Sondage : 9.5 → 10.4 (rang 8 → 8)
 
 ## 18. Saint-Denis ouvre ses réseaux associatifs — _official_campaign/party_
 
@@ -182,7 +182,7 @@ Des associations de Saint-Denis proposent une semaine de réunions sur les prix,
 
 **Saint-Denis lance une marche nationale** — La mobilisation dépasse la ville et replace le pouvoir dachat dans la campagne. Les associations regrettent que leurs engagements locaux aient été absorbés par une démonstration nationale.
 
-Sondage : 10.3 → 10.2 (rang 8 → 8)
+Sondage : 10.4 → 10.3 (rang 8 → 8)
 
 ## 19. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
 
@@ -192,7 +192,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 **La scène devient forum du logement** — L’artiste ouvre la soirée puis laisse les acteurs du terrain confronter vos propositions. La couverture est moins centrée sur sa notoriété et produit plusieurs engagements locaux crédibles.
 
-Sondage : 10.2 → 10.4 (rang 8 → 8)
+Sondage : 10.3 → 10.4 (rang 8 → 8)
 
 ## 20. La collecte se bloque — _official_campaign/campaign_
 
@@ -212,7 +212,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 **Le direct remplace la salle** — L’intervention atteint davantage de spectateurs que prévu, sans énergie militante. Vos adversaires jugent l’annulation excessive et le débat se déplace sur votre sang-froid.
 
-Sondage : 7.3 → 10.4 (rang 8 → 8)
+Sondage : 7.3 → 10.5 (rang 8 → 8)
 
 ## 22. L’immigration de travail, un choix économique assumé ou non — _official_campaign/program_
 
@@ -222,7 +222,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 **Les métiers en tension trouvent une réponse** — Les fédérations patronales concernées saluent une réponse concrète à leurs alertes répétées. Une partie de votre socle électoral dénonce une politique migratoire dictée par des besoins économiques de court terme.
 
-Sondage : 10.4 → 9.6 (rang 8 → 8)
+Sondage : 10.5 → 9.7 (rang 8 → 8)
 
 ## 23. La pluie emporte la tournée — _official_campaign/campaign_
 
@@ -232,7 +232,7 @@ Des pluies intenses rendent deux routes impraticables et le meeting en plein air
 
 **L’adaptation remplace le meeting** — Le point presse relie l’événement à des investissements précis sans commenter les opérations en cours. La séquence gagne en fond, malgré des accusations de récupération.
 
-Sondage : 9.6 → 9.5 (rang 8 → 8)
+Sondage : 9.7 → 9.5 (rang 8 → 8)
 
 ## 24. Le prochain budget de la santé — _between_rounds/program_
 
@@ -242,7 +242,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 **Les effectifs passent avant la transformation** — Les équipes hospitalières disposent d’un engagement quantifié et mobilisateur. Le recrutement réel et la recette choisie restent à sécuriser, ce qui ouvre deux fronts techniques sans affaiblir la priorité politique.
 
-Sondage : 9.5 → 9.8 (rang 8 → 8)
+Sondage : 9.5 → 9.9 (rang 8 → 8)
 
 ## 25. Votre voix reste décisive — _finished/between_rounds_
 
@@ -252,4 +252,4 @@ Sondage : 9.5 → 9.8 (rang 8 → 8)
 
 **Trois mesures donnent un prix au ralliement** — Le contrat offre à vos électeurs une influence vérifiable et installe votre parti comme partenaire du prochain pouvoir. Vos adversaires parlent de marchandage et votre héritage dépendra du respect de ces mesures.
 
-Sondage : 9.8 → 9.9 (rang 8 → 8)
+Sondage : 9.9 → 9.9 (rang 8 → 8)

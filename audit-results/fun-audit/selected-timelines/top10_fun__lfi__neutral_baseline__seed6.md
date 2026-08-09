@@ -12,7 +12,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 **La participation reçoit des garde-fous** — Le seuil abaissé rend l’outil réellement utilisable et le contrôle préalable rassure sur les libertés fondamentales. La mesure manque du souffle d’une nouvelle République mais élargit votre coalition potentielle.
 
-Sondage : 7.6 → 11.8 (rang 8 → 4)
+Sondage : 7.7 → 11.9 (rang 8 → 4)
 
 ## 2. Six rédactions face au désert médical — _pre_campaign/media_
 
@@ -22,7 +22,7 @@ Sondage : 7.6 → 11.8 (rang 8 → 4)
 
 **L’obligation structure le débat** — La mesure est immédiatement comprise dans les communes touchées, tandis que les représentants des jeunes médecins dénoncent une contrainte injuste. Vous gagnez un marqueur puissant et un conflit durable à arbitrer.
 
-Sondage : 11.8 → 12 (rang 4 → 3)
+Sondage : 11.9 → 12 (rang 4 → 2)
 
 ## 3. La convention citoyenne réclame une réponse — _pre_campaign/campaign_
 
@@ -32,7 +32,7 @@ Une convention locale tirée au sort vous remet douze propositions sur les trans
 
 **Les adhérents obtiennent le dernier mot** — La convention accepte le calendrier, mais refuse de devenir un simple fournisseur d’idées. Les militants gagnent en pouvoir et la décision finale est retardée.
 
-Sondage : 12 → 12 (rang 3 → 3)
+Sondage : 12 → 12.1 (rang 2 → 2)
 
 ## 4. Le car tombe en panne — _pre_campaign/campaign_
 
@@ -42,7 +42,7 @@ Sondage : 12 → 12 (rang 3 → 3)
 
 **Le café offre une conversation inattendue** — Quarante personnes discutent sans pupitre ni musique. La séquence touche par sa simplicité, mais l’équipe qui attendait à destination se sent abandonnée.
 
-Sondage : 12 → 8.1 (rang 3 → 8)
+Sondage : 12.1 → 8.2 (rang 2 → 8)
 
 ## 5. Une minute sur les loyers — _pre_campaign/media_
 
@@ -52,7 +52,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 **Une réponse locale et vérifiable** — Le chiffre de constructions prévues dépasse le format, mais les médias rennais vérifient les terrains cités. La séquence reste peu virale et renforce votre sérieux territorial.
 
-Sondage : 8.1 → 12.2 (rang 8 → 3)
+Sondage : 8.2 → 12.3 (rang 8 → 2)
 
 ## 6. La France à cinquante degrés — _pre_campaign/program_
 
@@ -62,7 +62,7 @@ Sondage : 8.1 → 12.2 (rang 8 → 3)
 
 **Le partage de l’eau devient anticipé** — La règle automatique évite de négocier au cœur de chaque crise et laisse aux bassins une adaptation locale. Les usages agricoles et industriels se préparent déjà à contester les quotas proposés.
 
-Sondage : 12.2 → 12.4 (rang 3 → 2)
+Sondage : 12.3 → 12.5 (rang 2 → 2)
 
 ## 7. Le comité bloque le chapitre sécurité — _pre_campaign/internal_
 
@@ -72,7 +72,7 @@ Le comité du programme se partage exactement en deux sur les pouvoirs de police
 
 **Vingt villes remplacent la décision nationale** — Les deux camps acceptent le test parce quil peut confirmer leur propre hypothèse. Le programme paraît prudent et applicable, sans donner de réponse nationale avant plusieurs années.
 
-Sondage : 12.4 → 12.7 (rang 2 → 2)
+Sondage : 12.5 → 12.8 (rang 2 → 2)
 
 ## 8. L’immigration de travail, un choix économique assumé ou non — _pre_campaign/program_
 
@@ -82,7 +82,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 **Le dialogue social fixe le curseur** — La méthode déplace la décision vers les partenaires sociaux et paraît difficile à instrumentaliser politiquement. Des élus de tous bords regrettent qu’aucun chiffre national ne soit fixé par le pouvoir politique lui-même.
 
-Sondage : 12.7 → 8 (rang 2 → 8)
+Sondage : 12.8 → 8.1 (rang 2 → 8)
 
 ## 9. Les règles de la liste commune — _campaign/internal_
 
@@ -92,7 +92,7 @@ Les courants du parti exigent de connaître la méthode de nomination des respon
 
 **Deux légitimités apprennent à cohabiter** — Le compromis sécurise le contenu et accélère l’organisation matérielle. Il crée aussi une frontière floue lorsqu’une décision de calendrier modifie le message politique.
 
-Sondage : 8 → 13.1 (rang 8 → 1)
+Sondage : 8.1 → 13.2 (rang 8 → 1)
 
 ## 10. Les Écologistes proposent un pacte urbain — _campaign/party_
 
@@ -102,7 +102,7 @@ Les Écologistes proposent à LFI une campagne commune dans six métropoles sur 
 
 **Lécologie populaire reste sous vos couleurs** — La tournée consolide votre ligne sur les factures, les transports et le logement. Les Écologistes dénoncent une concurrence qui fragmente le même électorat urbain.
 
-Sondage : 13.1 → 13.3 (rang 1 → 1)
+Sondage : 13.2 → 13.3 (rang 1 → 1)
 
 ## 11. Le direct des questions citoyennes — _campaign/media_
 
@@ -122,7 +122,7 @@ Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitu
 
 **La fronde perd le micro et gagne un motif** — La campagne conserve son agenda et les porte-parole cessent de se contredire. Les groupes proches de Nassim Courbet parlent dune sanction politique et préparent une assemblée indépendante.
 
-Sondage : 13.6 → 9.9 (rang 1 → 7)
+Sondage : 13.6 → 10 (rang 1 → 7)
 
 ## 13. La porte-parole annonce trop tôt — _campaign/internal_
 
@@ -132,7 +132,7 @@ Une porte-parole fictive présente comme arbitrée une baisse de cotisations enc
 
 **La discipline reprend le micro** — Le responsable du programme corrige précisément le chiffre et verrouille les prises de parole. La sanction paraît disproportionnée à une partie de léquipe et encourage les intervenants restants à ne plus improviser aucune réponse.
 
-Sondage : 9.9 → 13.5 (rang 7 → 1)
+Sondage : 10 → 13.5 (rang 7 → 1)
 
 ## 14. Vingt-quatre heures sans caméra — _campaign/media_
 
@@ -142,7 +142,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 **Une pause lisible dans la campagne** — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
 
-Sondage : 13.5 → 13.5 (rang 1 → 1)
+Sondage : 13.5 → 13.6 (rang 1 → 1)
 
 ## 15. La fronde sociale exige un vote _(CHAÎNE)_ — _campaign/party_
 
@@ -152,7 +152,7 @@ Le réseau de Nassim Courbet demande désormais un vote des adhérents sur la pr
 
 **Une équipe sociale remplace le duel** — La médiation distribue les responsabilités entre trois courants et évite que le conflit se résume à deux personnes. La nouvelle structure est lourde mais remet les équipes sur le terrain.
 
-Sondage : 13.5 → 13.6 (rang 1 → 1)
+Sondage : 13.6 → 13.7 (rang 1 → 1)
 
 ## 16. La directrice a recruté son frère — _official_campaign/scandal_
 
@@ -162,7 +162,7 @@ Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme déve
 
 **Le travail continue derrière un pare-feu** — L’audit confirme que le prix et la livraison sont corrects. La sanction organisationnelle répond au conflit d’intérêts sans casser le projet, même si l’absence de concurrence initiale reste critiquable.
 
-Sondage : 13.6 → 10.7 (rang 1 → 6)
+Sondage : 13.7 → 10.8 (rang 1 → 6)
 
 ## 17. Vie privée et réseaux : la ligne numérique — _official_campaign/program_
 
@@ -172,7 +172,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 **Le contenu ciblé, l’anonymat préservé** — La mesure évite le débat sur l’identification et cible directement les contenus problématiques. Des associations familiales la jugent insuffisante face à l’ampleur de l’exposition des mineurs.
 
-Sondage : 10.7 → 14.1 (rang 6 → 1)
+Sondage : 10.8 → 14.2 (rang 6 → 1)
 
 ## 18. Une contradiction chez le camp centriste — _official_campaign/debate_
 
@@ -182,7 +182,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 **Le choix de ne pas attaquer** — Le débat reste concentré sur votre propre offre programmatique, plus valorisante pour vous. Une partie de la presse spécialisée note après coup que l’occasion n’a pas été saisie.
 
-Sondage : 14.1 → 14.3 (rang 1 → 1)
+Sondage : 14.2 → 14.4 (rang 1 → 1)
 
 ## 19. Le slogan divise le siège — _official_campaign/campaign_
 
@@ -192,7 +192,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 **La campagne garde son nom** — Les affiches restent sobres et aucun slogan ne détourne le programme. Les équipes locales manquent toutefois d’une formule commune pour lancer leurs réunions.
 
-Sondage : 14.3 → 14.3 (rang 1 → 1)
+Sondage : 14.4 → 14.4 (rang 1 → 1)
 
 ## 20. Les tentes encerclent la préfecture — _official_campaign/world_
 
@@ -202,7 +202,7 @@ Dans un épisode fictif à Marseille, des associations installent des tentes aut
 
 **Les permis deviennent un engagement public** — Le tableau ne reloge personne cette nuit mais permet de mesurer la construction et les blocages fonciers. Les associations acceptent de discuter sans démonter les tentes avant des solutions d’urgence.
 
-Sondage : 14.3 → 17.8 (rang 1 → 1)
+Sondage : 14.4 → 17.9 (rang 1 → 1)
 
 ## 21. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
 
@@ -212,7 +212,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 **Une prise de position publique et rare** — Le geste est salué pour son intégrité, y compris par des électeurs peu proches de votre ligne. Le camp socialiste prend acte du soutien inattendu, qui laisse une trace durable dans la relation entre les deux équipes.
 
-Sondage : 17.8 → 14.5 (rang 1 → 1)
+Sondage : 17.9 → 14.5 (rang 1 → 1)
 
 ## 22. Une aciérie annonce sa fermeture — _official_campaign/world_
 
@@ -222,7 +222,7 @@ Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit 
 
 **L’État devient actionnaire de transition** — Le pont financier maintient le site et donne du temps à un projet industriel. Le risque de pertes publiques est réel si aucun repreneur ne s’engage, ce qui transforme le dossier en test de votre doctrine économique.
 
-Sondage : 14.5 → 14.6 (rang 1 → 1)
+Sondage : 14.5 → 14.7 (rang 1 → 1)
 
 ## 23. Deux cents maires demandent un contrat — _official_campaign/alliance_
 
@@ -232,7 +232,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 **Le programme national ne reçoit pas de cosignataire** — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
 
-Sondage : 14.6 → 14.7 (rang 1 → 1)
+Sondage : 14.7 → 14.8 (rang 1 → 1)
 
 ## 24. Contrôles aux frontières : quels moyens — _between_rounds/program_
 
@@ -242,7 +242,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 **Une réponse ciblée et réversible** — La mesure évite la lourdeur d’un contrôle systématique tout en donnant une réponse concrète à l’incident. Certains commentateurs la jugent trop modeste pour peser réellement sur les passages constatés.
 
-Sondage : 14.7 → 14.9 (rang 1 → 1)
+Sondage : 14.8 → 15 (rang 1 → 1)
 
 ## 25. Les reports refusent la mécanique — _between_rounds/between_rounds_
 
@@ -252,7 +252,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Le rejet devient le seul ciment** — La stratégie mobilise rapidement ceux qui craignent le finaliste et augmente aussi la lassitude des électeurs sans enthousiasme. Vous améliorez les reports fragiles au prix dun mandat positif plus faible.
 
-Sondage : 14.9 → 14.9 (rang 1 → 1)
+Sondage : 15 → 15 (rang 1 → 1)
 
 ## 26. La coalition réclame une annexe — _between_rounds/between_rounds_
 
@@ -262,7 +262,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 **Le programme change de forme entre les deux tours** — La coalition se mobilise sans réserve et certains électorats éliminés obtiennent des motifs clairs de report. Vos deux contradictions réapparaissent aussitôt et votre socle doute de la valeur des promesses du premier tour.
 
-Sondage : 14.9 → 14.5 (rang 1 → 1)
+Sondage : 15 → 14.6 (rang 1 → 1)
 
 ## 27. LFI doit élargir sans se renier — _between_rounds/party_
 
@@ -272,7 +272,7 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 **Dix mesures forment une majorité de gauche** — La coalition obtient un programme positif et déploie tous ses réseaux. Plusieurs engagements LFI sont reportés, ce qui fragilise la cohésion tout en améliorant fortement les reports.
 
-Sondage : 14.5 → 14.3 (rang 1 → 1)
+Sondage : 14.6 → 14.3 (rang 1 → 1)
 
 ## 28. Les dernières heures autorisées — _between_rounds/between_rounds_
 
@@ -282,7 +282,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Une promesse fiscale sans lendemain médiatique** — Lannonce attire les électeurs sensibles aux impôts et ne peut être chiffrée publiquement avant la fin de campagne. Le dernier doute porte désormais sur la discipline qui structurait votre programme.
 
-Sondage : 14.3 → 10.9 (rang 1 → 5)
+Sondage : 14.3 → 11 (rang 1 → 4)
 
 ## 29. Le débat de lentre-deux-tours — _government_epilogue/between_rounds_
 
@@ -292,7 +292,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le débat se termine sur la participation** — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
 
-Sondage : 10.9 → 14.1 (rang 5 → 1)
+Sondage : 11 → 14.2 (rang 4 → 1)
 
 ## 30. Quinze ministres pour une coalition — _government_epilogue/government_
 
@@ -302,7 +302,7 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 **Douze membres donnent une image resserrée** — La composition est lisible et réduit les négociations de postes. Les ministres héritent de champs immenses et plusieurs alliés exclus promettent de juger le gouvernement texte par texte.
 
-Sondage : 14.1 → 14.1 (rang 1 → 1)
+Sondage : 14.2 → 14.2 (rang 1 → 1)
 
 ## 31. Deux alliés réclament Bercy — _finished/government_
 
@@ -312,4 +312,4 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 **Deux ministères partagent une frontière sensible** — Chaque allié obtient un portefeuille substantiel et la coalition reste entière. Les compétences se chevauchent dès le premier dossier fiscal, annonçant des arbitrages permanents.
 
-Sondage : 14.1 → 14.2 (rang 1 → 1)
+Sondage : 14.2 → 14.2 (rang 1 → 1)

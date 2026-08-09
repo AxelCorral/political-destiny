@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **aleatoire**
 
-Score final : 66/100 · 1er tour : 14.1 · 2nd tour : 44.3 · qualifié : true · vainqueur : false · signaux mémorables : 5
+Score final : 67/100 · 1er tour : 14.3 · 2nd tour : 45.6 · qualifié : true · vainqueur : false · signaux mémorables : 5
 
 ## 1. Le regroupement familial en question — _pre_campaign/program_
 
@@ -12,7 +12,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 **Le même cadre, appliqué plus vite** — La mesure administrative est difficile à contester sur le fond et rassure les familles en attente. Elle ne répond pas à la demande de fermeté exprimée par une partie de votre électorat.
 
-Sondage : 11.4 → 11.7 (rang 6 → 4)
+Sondage : 11.5 → 11.8 (rang 6 → 4)
 
 ## 2. Les sections refusent le kit national — _pre_campaign/internal_
 
@@ -22,7 +22,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 **La proposition locale devient expérimentation** — Les sections obtiennent une adaptation réelle sans transformer le document en programme parallèle. Le chiffrage retarde l’impression mais renforce la mobilisation et votre implantation en Bretagne.
 
-Sondage : 11.7 → 11.8 (rang 4 → 4)
+Sondage : 11.8 → 11.9 (rang 4 → 4)
 
 ## 3. Les tentes encerclent la préfecture — _pre_campaign/world_
 
@@ -32,7 +32,7 @@ Dans un épisode fictif à Marseille, des associations installent des tentes aut
 
 **Les permis deviennent un engagement public** — Le tableau ne reloge personne cette nuit mais permet de mesurer la construction et les blocages fonciers. Les associations acceptent de discuter sans démonter les tentes avant des solutions d’urgence.
 
-Sondage : 11.8 → 12.1 (rang 4 → 3)
+Sondage : 11.9 → 12.1 (rang 4 → 2)
 
 ## 4. Le slogan divise le siège — _pre_campaign/campaign_
 
@@ -42,7 +42,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 **Le calendrier crédibilise la méthode** — Les cent jours donnent de la matière aux entretiens et rassurent sur votre préparation. Une partie des militants regrette une campagne trop administrative.
 
-Sondage : 12.1 → 12.5 (rang 3 → 2)
+Sondage : 12.1 → 12.6 (rang 2 → 2)
 
 ## 5. Le prochain budget de la santé — _pre_campaign/program_
 
@@ -52,7 +52,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 **La médecine de proximité reçoit un opérateur** — Les collectivités voient comment ouvrir concrètement des équipes là où l’installation libérale ne suffit plus. Les représentants de médecins indépendants contestent le modèle salarié, mais le calendrier est jugé réalisable.
 
-Sondage : 12.5 → 12.7 (rang 2 → 2)
+Sondage : 12.6 → 12.8 (rang 2 → 2)
 
 ## 6. Cinq cents bénévoles sans mission — _pre_campaign/internal_
 
@@ -62,7 +62,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 **Les sections choisissent leurs renforts** — Les territoires les mieux organisés intègrent vite les volontaires et inventent des opérations utiles. Les zones les plus faibles reçoivent moins de soutien, ce qui augmente les écarts d’implantation interne.
 
-Sondage : 12.7 → 12.9 (rang 2 → 1)
+Sondage : 12.8 → 13 (rang 2 → 1)
 
 ## 7. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
 
@@ -72,7 +72,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 **La campagne jeune trouve sa voix** — Les vidéos et réunions touchent des publics absents de vos meetings, tout en respectant les trois engagements communs. Quelques différences de vocabulaire deviennent visibles sans créer de contradiction programmatique.
 
-Sondage : 12.9 → 13.2 (rang 1 → 1)
+Sondage : 13 → 13.2 (rang 1 → 1)
 
 ## 8. Les abstentionnistes demandent une preuve — _pre_campaign/party_
 
@@ -92,7 +92,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 **La priorité européenne avant l’ouverture** — La mesure rassure une partie de l’électorat sur la maîtrise des flux tout en restant dans le cadre européen. Les fédérations patronales des secteurs concernés jugent le délai de mise en œuvre incompatible avec leurs besoins immédiats.
 
-Sondage : 13.3 → 13.2 (rang 1 → 1)
+Sondage : 13.3 → 13.3 (rang 1 → 1)
 
 ## 10. LFI choisit entre mouvement et candidat — _campaign/party_
 
@@ -102,7 +102,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 **Les groupes daction gagnent une marge réelle** — Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.
 
-Sondage : 13.2 → 13.2 (rang 1 → 1)
+Sondage : 13.3 → 13.3 (rang 1 → 1)
 
 ## 11. Saint-Denis ouvre ses réseaux associatifs — _campaign/party_
 
@@ -112,7 +112,7 @@ Des associations de Saint-Denis proposent une semaine de réunions sur les prix,
 
 **Six soirées produisent un contrat local** — Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.
 
-Sondage : 13.2 → 13.3 (rang 1 → 1)
+Sondage : 13.3 → 13.4 (rang 1 → 1)
 
 ## 12. L’imprimeur a doublé une ligne — _campaign/scandal_
 
@@ -122,7 +122,7 @@ Sondage : 13.2 → 13.3 (rang 1 → 1)
 
 **Le fournisseur devient le visage du doublon** — Étienne Marot reconnaît l’erreur et montre le logiciel qui la produite. La transparence convainc sur les faits mais expose un petit fournisseur à une pression nationale jugée excessive.
 
-Sondage : 13.3 → 14.6 (rang 1 → 1)
+Sondage : 13.4 → 14.7 (rang 1 → 1)
 
 ## 13. Provoquer le favori en duel — _campaign/debate_
 
@@ -132,7 +132,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 **Un duel exigeant, accepté sous conditions** — La chaîne valide le format et l’équipe adverse le juge agressif mais ne peut refuser sans paraître fuir le débat. Élise Montclar prépare une riposte médiatique pour les jours suivants.
 
-Sondage : 14.6 → 13.5 (rang 1 → 1)
+Sondage : 14.7 → 13.5 (rang 1 → 1)
 
 ## 14. La note sur le vote utile fuite _(CHAÎNE)_ — _campaign/internal_
 
@@ -142,7 +142,7 @@ Une note interne propose d’attaquer un parti voisin pour capter son électorat
 
 **Le consultant porte seul la fuite** — Léonard Pujol confirme avoir écrit le document, mais produit des courriels montrant que l’équipe en discutait. Son éviction protège temporairement la direction et crée un témoin hostile disposant d’autres informations internes.
 
-Sondage : 13.5 → 13.3 (rang 1 → 1)
+Sondage : 13.5 → 13.4 (rang 1 → 1)
 
 ## 15. La riposte du favori — _campaign/debate_
 
@@ -152,7 +152,7 @@ Sondage : 13.5 → 13.3 (rang 1 → 1)
 
 **La dérision plutôt que la contre-attaque** — Le ton léger désamorce une partie de la tension et circule bien sur les réseaux. Une partie de la presse juge le procédé peu sérieux face à des arguments économiques précis.
 
-Sondage : 13.3 → 13.2 (rang 1 → 1)
+Sondage : 13.4 → 13.3 (rang 1 → 1)
 
 ## 16. L’atelier industriel de Saint-Nazaire — _campaign/campaign_
 
@@ -162,7 +162,7 @@ Sondage : 13.3 → 13.2 (rang 1 → 1)
 
 **Le contrat trouve ses partenaires** — Le représentant régional confirme que le montage existe déjà ailleurs. Les salariés obtiennent une réponse applicable et votre proposition gagne en crédibilité locale.
 
-Sondage : 13.2 → 17.3 (rang 1 → 1)
+Sondage : 13.3 → 17.4 (rang 1 → 1)
 
 ## 17. Le contrat du conseiller est publié — _official_campaign/scandal_
 
@@ -172,7 +172,7 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 **La rémunération revient aux prestations** — Léonard Pujol renonce à la clause contre le paiement du travail déjà documenté. La publication des livrables montre ce que la campagne a acheté et réduit la polémique sans effacer le mauvais choix initial.
 
-Sondage : 17.3 → 13.5 (rang 1 → 1)
+Sondage : 17.4 → 13.7 (rang 1 → 1)
 
 ## 18. Deux équipes se disputent le terrain — _official_campaign/internal_
 
@@ -182,7 +182,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 **La vidéo atteint Lyon sans apaiser les sections** — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
 
-Sondage : 13.5 → 13.6 (rang 1 → 1)
+Sondage : 13.7 → 13.8 (rang 1 → 1)
 
 ## 19. Un fichier militant sort du siège — _official_campaign/scandal_
 
@@ -192,7 +192,7 @@ Un bénévole signale qu’un tableau de contacts a été partagé sur un lien s
 
 **La campagne numérique se met à l’arrêt** — La reconstruction supprime plusieurs accès anciens et rassure les bénévoles sur la sécurité future. Deux jours sans fichiers ni relances réduisent nettement la mobilisation au pire moment.
 
-Sondage : 13.6 → 13.6 (rang 1 → 1)
+Sondage : 13.8 → 13.8 (rang 1 → 1)
 
 ## 20. Un cadre écologiste tenté par un ralliement — _official_campaign/alliance_
 
@@ -202,7 +202,7 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 **Une négociation discrète** — La discrétion protège la cadre concernée et évite une confrontation prématurée avec son mouvement. Rien n’est acquis, et une fuite dans la presse reste possible à tout moment.
 
-Sondage : 13.6 → 18.7 (rang 1 → 1)
+Sondage : 13.8 → 18.8 (rang 1 → 1)
 
 ## 21. Le budget impose trois renoncements — _official_campaign/campaign_
 
@@ -212,7 +212,7 @@ Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous 
 
 **La collecte finance la dernière ligne droite** — Les petits dons dépassent l’objectif et les comptes publiés rassurent. La campagne sauve son calendrier, au prix de trois jours entièrement consacrés à l’argent.
 
-Sondage : 18.7 → 13.6 (rang 1 → 1)
+Sondage : 18.8 → 13.8 (rang 1 → 1)
 
 ## 22. Six rédactions face au désert médical — _official_campaign/media_
 
@@ -222,7 +222,7 @@ Sondage : 18.7 → 13.6 (rang 1 → 1)
 
 **Les territoires obtiennent une méthode** — Les rédactions discutent les critères plutôt que vos intentions. Les élus locaux saluent la visibilité pluriannuelle, même si le dispositif ne promet pas un médecin dans chaque commune.
 
-Sondage : 13.6 → 13.9 (rang 1 → 1)
+Sondage : 13.8 → 14.1 (rang 1 → 1)
 
 ## 23. Une nuit avec les urgences — _official_campaign/campaign_
 
@@ -232,7 +232,7 @@ Sondage : 13.6 → 13.9 (rang 1 → 1)
 
 **Les gardes obtiennent une réponse ciblée** — Le calendrier de recrutement est accueilli avec soulagement, mais les services administratifs contestent le redéploiement. La mesure devient un engagement précis de campagne.
 
-Sondage : 13.9 → 14.1 (rang 1 → 1)
+Sondage : 14.1 → 14.3 (rang 1 → 1)
 
 ## 24. La Garonne sort de son lit — _between_rounds/world_
 
@@ -242,7 +242,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 **Une présence acceptée mais inutile au commandement** — Les autorités vous laissent rencontrer les équipes hors des zones opérationnelles. Votre discrétion évite la gêne, mais le déplacement mobilise tout de même une escorte et suscite un débat sur son utilité.
 
-Sondage : 14.1 → 14.2 (rang 1 → 1)
+Sondage : 14.3 → 14.4 (rang 1 → 1)
 
 ## 25. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
 
@@ -252,7 +252,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Trois soutiens gardent trois identités** — Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.
 
-Sondage : 14.2 → 14.4 (rang 1 → 1)
+Sondage : 14.4 → 14.6 (rang 1 → 1)
 
 ## 26. Les reports refusent la mécanique — _between_rounds/between_rounds_
 
@@ -262,7 +262,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 14.4 → 14.4 (rang 1 → 1)
+Sondage : 14.6 → 14.6 (rang 1 → 1)
 
 ## 27. LFI doit élargir sans se renier — _between_rounds/party_
 
@@ -272,7 +272,7 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 **Dix mesures forment une majorité de gauche** — La coalition obtient un programme positif et déploie tous ses réseaux. Plusieurs engagements LFI sont reportés, ce qui fragilise la cohésion tout en améliorant fortement les reports.
 
-Sondage : 14.4 → 14.3 (rang 1 → 1)
+Sondage : 14.6 → 14.5 (rang 1 → 1)
 
 ## 28. Les dernières heures autorisées — _between_rounds/between_rounds_
 
@@ -282,7 +282,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Une promesse fiscale sans lendemain médiatique** — Lannonce attire les électeurs sensibles aux impôts et ne peut être chiffrée publiquement avant la fin de campagne. Le dernier doute porte désormais sur la discipline qui structurait votre programme.
 
-Sondage : 14.3 → 14.5 (rang 1 → 1)
+Sondage : 14.5 → 14.7 (rang 1 → 1)
 
 ## 29. Le débat de lentre-deux-tours — _finished/between_rounds_
 
@@ -292,4 +292,4 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Deux promesses entrent en collision** — Votre troisième décision utilise une recette déjà affectée à la première. Ladversaire repère la contradiction et transforme un plan détaillé en doute sur votre préparation gouvernementale.
 
-Sondage : 14.5 → 13.8 (rang 1 → 1)
+Sondage : 14.7 → 14 (rang 1 → 1)

@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **favori_en_difficulte**
 
-Score final : 39/100 · 1er tour : 10 · qualifié : false · vainqueur : false · signaux mémorables : 5
+Score final : 51/100 · 1er tour : 12.6 · qualifié : false · vainqueur : false · signaux mémorables : 3
 
 ## 1. Le contrat d’intégration, jusqu’où aller — _pre_campaign/program_
 
@@ -12,7 +12,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 **L’intégration comme condition de la nationalité** — La proposition marque une ligne nette et mobilise une partie de votre socle. Des juristes et des associations de défense des droits contestent la conformité du dispositif avec les engagements internationaux existants.
 
-Sondage : 14.7 → 11.5 (rang 1 → 5)
+Sondage : 14.7 → 11.6 (rang 1 → 5)
 
 ## 2. La photographie du quai vide — _pre_campaign/media_
 
@@ -22,7 +22,7 @@ Sondage : 14.7 → 11.5 (rang 1 → 5)
 
 **Le fond reprend lentement sa place** — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
 
-Sondage : 11.5 → 11.5 (rang 5 → 5)
+Sondage : 11.6 → 11.6 (rang 5 → 5)
 
 ## 3. LFI choisit entre mouvement et candidat — _pre_campaign/party_
 
@@ -32,7 +32,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 **La candidature prend le pas sur le mouvement** — Les interventions deviennent cohérentes et Ariane Valmont gagne en stature nationale. Les groupes daction les plus anciens réduisent leurs initiatives et demandent des garanties pour laprès-présidentielle.
 
-Sondage : 11.5 → 11.6 (rang 5 → 5)
+Sondage : 11.6 → 11.7 (rang 5 → 5)
 
 ## 4. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
 
@@ -42,7 +42,7 @@ Sondage : 11.5 → 11.6 (rang 5 → 5)
 
 **La commande publique ouvre un débat** — Les syndicats applaudissent l’objectif industriel, tandis que les juristes européens demandent des précisions. Votre ligne devient lisible et immédiatement contestée sur sa faisabilité.
 
-Sondage : 11.6 → 8.9 (rang 5 → 8)
+Sondage : 11.7 → 9 (rang 5 → 8)
 
 ## 5. Une aciérie annonce sa fermeture — _pre_campaign/world_
 
@@ -52,7 +52,7 @@ Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit 
 
 **Chaque salarié reçoit une voie de sortie** — La proposition ne promet pas de conserver toute la production, mais refuse que la fermeture se résume à une indemnité. La région et les syndicats acceptent d’ouvrir la négociation.
 
-Sondage : 8.9 → 12 (rang 8 → 3)
+Sondage : 9 → 12.1 (rang 8 → 2)
 
 ## 6. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
 
@@ -62,7 +62,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 **Le budget devient matériel de terrain** — Le porte-à-porte démarre dans plusieurs campus, mais les animateurs les plus créatifs quittent lopération. Vous gagnez une action contrôlable et perdez une partie de la capacité à parler dans les formats des jeunes.
 
-Sondage : 12 → 12 (rang 3 → 4)
+Sondage : 12.1 → 12 (rang 2 → 3)
 
 ## 7. Le PS propose trois engagements communs — _pre_campaign/alliance_
 
@@ -72,7 +72,7 @@ Le Parti socialiste propose à votre campagne une réunion publique sur les sala
 
 **La compétition à gauche se durcit** — Votre socle apprécie une ligne sans compromis et le PS transforme le refus en argument sur votre isolement. Une alliance ultérieure demandera désormais une concession plus importante.
 
-Sondage : 12 → 12 (rang 4 → 4)
+Sondage : 12 → 12 (rang 3 → 3)
 
 ## 8. Les parrainages restent sous le seuil — _pre_campaign/campaign_
 
@@ -82,9 +82,19 @@ Sondage : 12 → 12 (rang 4 → 4)
 
 **L’appel accélère et braque** — Plusieurs élus répondent publiquement, d’autres annulent leur rendez-vous en dénonçant la pression. Le seuil se rapproche, mais votre méthode laissera des traces locales.
 
-Sondage : 12 → 8.5 (rang 4 → 8)
+Sondage : 12 → 10.7 (rang 3 → 8)
 
-## 9. La laïcité à l’épreuve du quotidien — _campaign/program_
+## 9. Les tentes encerclent la préfecture — _campaign/world_
+
+Dans un épisode fictif à Marseille, des associations installent des tentes autour de la préfecture pour demander des solutions d’hébergement et des logements pérennes. La mobilisation reste pacifique et doit durer jusqu’à une réponse écrite.
+
+> **Choix retenu :** Signer avec la ville un objectif annuel de logements sociaux et un tableau public des permis [INSTITUTIONNEL]
+
+**Les permis deviennent un engagement public** — Le tableau ne reloge personne cette nuit mais permet de mesurer la construction et les blocages fonciers. Les associations acceptent de discuter sans démonter les tentes avant des solutions d’urgence.
+
+Sondage : 10.7 → 12.2 (rang 8 → 2)
+
+## 10. La laïcité à l’épreuve du quotidien — _campaign/program_
 
 Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
@@ -92,89 +102,39 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 **Un cadre étendu à l’enseignement supérieur** — La mesure est saluée comme une clarification par une partie de l’électorat attachée à une laïcité stricte. Des organisations étudiantes et des juristes contestent sa conformité avec la liberté universitaire.
 
-Sondage : 8.5 → 12 (rang 8 → 3)
+Sondage : 12.2 → 12.3 (rang 2 → 2)
 
-## 10. Le siège coûte trop cher — _campaign/internal_
+## 11. La Sixième République doit prendre forme — _campaign/party_
 
-Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
+Les militants veulent replacer la Sixième République au cœur de la campagne. Le chapitre actuel promet une constituante sans préciser le mode de scrutin, la durée du processus ni les pouvoirs maintenus pendant la transition.
 
-> **Choix retenu :** Conserver le siège et supprimer une semaine de publicité pour payer le prochain trimestre [PRUDENT]
+> **Choix retenu :** Détailler lélection de la constituante, son mandat de dix-huit mois et le référendum final [INSTITUTIONNEL]
 
-**L’adresse reste, la publicité disparaît** — Léquipe conserve ses habitudes et évite la perturbation matérielle. La baisse de visibilité numérique se fait sentir rapidement et le problème du bail reviendra si la campagne se prolonge.
+**La rupture reçoit un calendrier** — La procédure rend le projet vérifiable et répond aux craintes sur la transition. Elle expose aussi chaque règle à la critique et oblige LFI à expliquer comment gouverner pendant dix-huit mois.
 
-Sondage : 12 → 12.1 (rang 3 → 3)
+Sondage : 12.3 → 12.7 (rang 2 → 1)
 
-## 11. Deux invitations au même horaire — _campaign/campaign_
+## 12. La pluie emporte la tournée — _campaign/campaign_
 
-France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
+Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
 
-> **Choix retenu :** Avancer le déplacement, rejoindre le studio en train et supprimer les répétitions [RISQUÉ]
+> **Choix retenu :** Tenir un point presse à distance sur l’adaptation aux pluies extrêmes [TECHNIQUE]
 
-**Les deux rendez-vous survivent** — Vous tenez les deux engagements avec peu de préparation et une fatigue visible. L’image d’endurance plaît, tandis que plusieurs réponses télévisées manquent de précision.
+**L’adaptation remplace le meeting** — Le point presse relie l’événement à des investissements précis sans commenter les opérations en cours. La séquence gagne en fond, malgré des accusations de récupération.
 
-Sondage : 12.1 → 12 (rang 3 → 4)
+Sondage : 12.7 → 9 (rang 1 → 8)
 
-## 12. Saint-Denis ouvre ses réseaux associatifs — _campaign/party_
+## 13. Un rival corrige votre ligne — _campaign/internal_
 
-Des associations de Saint-Denis proposent une semaine de réunions sur les prix, les services publics et labstention. Elles refusent un meeting classique et veulent que chaque soirée produise un engagement local vérifiable.
+Dans Le Figaro, un responsable fictif de votre parti affirme que votre proposition fiscale n’est pas la position collective. Il ne remet pas votre candidature en cause, mais demande un vote du bureau dès le lendemain.
 
-> **Choix retenu :** Organiser une marche nationale contre la vie chère avec les associations en tête [OFFENSIF]
+> **Choix retenu :** Retirer au responsable son portefeuille économique et maintenir votre proposition sans nouveau vote [CLIVANT]
 
-**Saint-Denis lance une marche nationale** — La mobilisation dépasse la ville et replace le pouvoir dachat dans la campagne. Les associations regrettent que leurs engagements locaux aient été absorbés par une démonstration nationale.
+**Le portefeuille change de mains** — La sanction met fin aux prises de parole contradictoires et accélère la campagne. Plusieurs cadres la vivent comme une humiliation infligée à tout un courant et réduisent leur implication locale.
 
-Sondage : 12 → 11.1 (rang 4 → 6)
+Sondage : 9 → 12.8 (rang 8 → 1)
 
-## 13. Nassim Courbet réclame une ligne plus sociale _(CHAÎNE)_ — _campaign/party_
-
-Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitutions et pas assez de salaires. Il réunit plusieurs groupes daction et demande que la hausse du salaire minimum devienne la priorité unique du mois.
-
-> **Choix retenu :** Refuser la priorité unique et retirer à Nassim Courbet ses interventions nationales [OFFENSIF]
-
-**La fronde perd le micro et gagne un motif** — La campagne conserve son agenda et les porte-parole cessent de se contredire. Les groupes proches de Nassim Courbet parlent dune sanction politique et préparent une assemblée indépendante.
-
-Sondage : 11.1 → 11.9 (rang 6 → 4)
-
-## 14. Vingt-quatre heures sans caméra — _campaign/media_
-
-Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
-
-> **Choix retenu :** Annuler la pause et accepter la première invitation au journal de vingt heures [RISQUÉ]
-
-**La fatigue passe à l’écran** — Votre présence dément les rumeurs, mais deux réponses hésitantes montrent pourquoi la pause avait été proposée. La couverture se concentre sur la forme et l’équipe perd une journée de préparation.
-
-Sondage : 11.9 → 11.7 (rang 4 → 5)
-
-## 15. Le meeting quitte la capitale — _campaign/campaign_
-
-L’équipe hésite entre Lille, Toulouse et Strasbourg pour le prochain grand meeting. Chaque ville correspond à un électorat et à un thème différents, sans budget pour trois déplacements.
-
-> **Choix retenu :** Tenir le meeting à Toulouse et proposer un plan chaleur-logement [TECHNIQUE]
-
-**Toulouse concrétise l’adaptation climatique** — Le plan relie climat, logement et santé avec un calendrier municipal. Les associations saluent la précision, tandis que son coût national reste discuté.
-
-Sondage : 11.7 → 11.8 (rang 5 → 5)
-
-## 16. La fronde sociale exige un vote _(CHAÎNE)_ — _official_campaign/party_
-
-Le réseau de Nassim Courbet demande désormais un vote des adhérents sur la priorité sociale et sur son rôle. Selon vos décisions précédentes, il présente cette consultation comme une clarification ou comme une réparation après humiliation.
-
-> **Choix retenu :** Refuser le vote et exclure Nassim Courbet de toutes les instances de campagne [OFFENSIF]
-
-**La fronde devient dissidence** — Nassim Courbet quitte les instances avec plusieurs animateurs et lance un comité autonome. La parole nationale se clarifie au prix dune perte militante durable et dune campagne concurrente dans plusieurs circonscriptions.
-
-Sondage : 11.8 → 11.9 (rang 5 → 4)
-
-## 17. Une contradiction chez le camp centriste — _official_campaign/debate_
-
-Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
-
-> **Choix retenu :** Poser la question sans citer les archives, en laissant l’adversaire répondre [TECHNIQUE]
-
-**Une question ouverte, sans pièce à conviction** — La question met l’adversaire en difficulté sans donner l’impression d’une embuscade préparée. Elle laisse aussi la porte ouverte à une réponse convaincante qui limiterait l’effet recherché.
-
-Sondage : 11.9 → 11.3 (rang 4 → 6)
-
-## 18. Le car tombe en panne — _official_campaign/campaign_
+## 14. Le car tombe en panne — _campaign/campaign_
 
 À quatre-vingts kilomètres du prochain rendez-vous, le car de campagne s’immobilise. Une gare, une visioconférence et un café associatif offrent trois manières de sauver la journée.
 
@@ -182,19 +142,79 @@ Sondage : 11.9 → 11.3 (rang 4 → 6)
 
 **La réunion tient malgré la distance** — L’équipe locale conduit les échanges pendant que vous répondez à l’écran. Le format fonctionne, sans remplacer la présence attendue par les habitants.
 
-Sondage : 11.3 → 11.2 (rang 6 → 6)
+Sondage : 12.8 → 12.7 (rang 1 → 1)
 
-## 19. La loi migratoire du programme — _official_campaign/program_
+## 15. La périphérie demande un calendrier — _campaign/campaign_
 
-Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
+Dans une commune périurbaine d’Occitanie, les habitants relient carburant, temps de trajet et fermeture des guichets. Ils refusent que le déplacement se termine par une promesse générale.
 
-> **Choix retenu :** Régulariser les travailleurs présents depuis cinq ans dans les métiers durablement en tension [POPULAIRE]
+> **Choix retenu :** Demander un audit communal d’un mois avant de choisir la mesure [PRUDENT]
 
-**Le travail devient le critère de régularisation** — Les employeurs concernés et les associations comprennent immédiatement la règle. Vos adversaires dénoncent un appel d’air et font de cette mesure le test principal de votre crédibilité aux frontières.
+**Le diagnostic paraît déjà connu** — Les élus acceptent de transmettre les données, mais la salle estime avoir décrit le problème depuis des années. Votre prudence protège le budget et coûte politiquement.
 
-Sondage : 11.2 → 10.3 (rang 6 → 7)
+Sondage : 12.7 → 12.6 (rang 1 → 1)
 
-## 20. Une crise ferme un détroit — _official_campaign/world_
+## 16. Le siège arrive à saturation — _official_campaign/internal_
+
+Trois responsables salariés et plusieurs bénévoles signalent des journées de quinze heures. Deux erreurs d’agenda ont déjà été rattrapées. Réduire le rythme protège l’équipe mais oblige à abandonner des déplacements attendus.
+
+> **Choix retenu :** Maintenir l’agenda et verser une prime exceptionnelle à tous les salariés mobilisés [RISQUÉ]
+
+**La prime ne crée pas d’heures de sommeil** — Le geste financier est apprécié et le programme des déplacements reste intact. La fatigue continue pourtant d’augmenter et une nouvelle erreur coûtera plus cher à réparer en fin de campagne.
+
+Sondage : 12.6 → 12.8 (rang 1 → 1)
+
+## 17. La question venue de Mayotte — _official_campaign/debate_
+
+Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
+
+> **Choix retenu :** Estimer le chiffre à partir de vos notes et proposer immédiatement un montant d’investissement [RISQUÉ]
+
+**L’ordre de grandeur est juste** — Votre estimation correspond aux données disponibles et le montant proposé paraît compatible avec les besoins. La prise de risque donne une réponse nette sans prétendre connaître chaque détail territorial.
+
+Sondage : 12.8 → 12.9 (rang 1 → 1)
+
+## 18. Le micro resté ouvert — _official_campaign/media_
+
+Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
+
+> **Choix retenu :** Accuser la chaîne d’avoir diffusé une conversation privée et refuser de commenter le fond [CLIVANT]
+
+**Le droit ne répond pas au malaise** — La protestation sur les conditions d’enregistrement soulève une vraie question professionnelle, sans effacer vos mots. L’équipe comprend votre silence comme un refus de traiter le conflit interne. Le rythme maintenu provoque une nouvelle erreur de coordination.
+
+Sondage : 12.9 → 12.7 (rang 1 → 1)
+
+## 19. Votre voix ne tient plus _(RARE)_ — _official_campaign/rare_
+
+Après plusieurs semaines sans repos, le médecin fictif de la campagne diagnostique une extinction de voix et exige trois jours de silence complet. Aucun problème plus grave n’est identifié, mais deux grands rendez-vous sont déjà annoncés.
+
+> **Choix retenu :** Maintenir le grand meeting et parler malgré lavis médical avec une intervention raccourcie [RISQUÉ]
+
+**La voix disparaît au milieu du discours** — Le public vous soutient lorsque vous devez interrompre la prise de parole, créant une image forte de détermination. La récupération s’allonge et votre préparation au débat suivant est gravement réduite.
+
+Sondage : 12.7 → 12.7 (rang 1 → 1)
+
+## 20. Contrôles aux frontières : quels moyens — _official_campaign/program_
+
+Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
+
+> **Choix retenu :** Financer Frontex et la coopération européenne plutôt que des contrôles nationaux [RASSEMBLEUR]
+
+**La réponse européenne plutôt que nationale** — La cohérence avec votre ligne européenne est nette et rassure vos partenaires du continent. Une partie de votre électorat juge la réponse trop lente face à un incident qui appelait, selon elle, un signal immédiat.
+
+Sondage : 12.7 → 11.9 (rang 1 → 3)
+
+## 21. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
+
+Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
+
+> **Choix retenu :** Demander à la modératrice de restituer précisément votre temps avant de poursuivre [INSTITUTIONNEL]
+
+**Le chronomètre rend la parole** — La production vous accorde quarante secondes supplémentaires et applique la même règle à tous. Votre réponse est entendue, mais certains commentateurs jugent l’appel au règlement excessivement procédurier.
+
+Sondage : 11.9 → 11.8 (rang 3 → 3)
+
+## 22. Une crise ferme un détroit — _official_campaign/world_
 
 Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France na pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.
 
@@ -202,54 +222,34 @@ Dans la géopolitique fictive de la partie, une confrontation entre navires chin
 
 **La souveraineté industrielle remplace la diplomatie** — Le plan parle aux électeurs préoccupés par les dépendances et donne une orientation économique de long terme. Les questions sur votre politique étrangère restent entières, ce qui limite la stature attendue.
 
-Sondage : 10.3 → 9.1 (rang 7 → 8)
+Sondage : 11.8 → 11.8 (rang 3 → 3)
 
-## 21. Le Conseil européen se divise — _official_campaign/world_
+## 23. Une ligne du CV est fausse — _official_campaign/scandal_
 
-Dans le calendrier fictif, un vote du Conseil européen sur un fonds industriel échoue à une voix. L’Allemagne et la Pologne ont défendu des compromis différents. Les candidats français sont interrogés sur la coalition qu’ils auraient construite.
+Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.
 
-> **Choix retenu :** Abandonner le projet européen et créer un fonds industriel exclusivement français [LOYAL]
+> **Choix retenu :** Suspendre le responsable pendant une semaine et faire vérifier toutes les biographies de l’équipe [PRUDENT]
 
-**Le fonds revient au budget français** — La décision offre une maîtrise nationale et un calendrier simple. Elle réduit l’échelle financière, expose les aides au contrôle européen et affaiblit votre discours sur la capacité de coalition.
+**Quarante biographies passent au contrôle** — La vérification ne trouve aucune autre fausse fonction et le responsable présente des excuses avant de revenir. Votre réponse paraît proportionnée, au prix d’une semaine de ralentissement programmatique.
 
-Sondage : 9.1 → 9.8 (rang 8 → 8)
+Sondage : 11.8 → 11.9 (rang 3 → 3)
 
-## 22. Le siège déborde de bénévoles — _official_campaign/campaign_
+## 24. La une vous prête un tournant — _between_rounds/media_
 
-Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
+Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
-> **Choix retenu :** Former cent référents locaux avant de répartir les nouveaux bénévoles [PRUDENT]
+> **Choix retenu :** Assumer la une et annoncer un pacte d’investissement avec la CPME et le Medef [OPPORTUNISTE]
 
-**Le réseau absorbe l’afflux** — Les référents prennent le temps d’expliquer les règles et les outils. La mobilisation progresse moins vite cette semaine, mais l’organisation gagne une capacité durable.
+**Le rapprochement patronal est officialisé** — Les organisations accueillent l’ouverture et proposent des groupes de travail. Vos militants les plus sociaux parlent d’un changement de cap, qui élargit le potentiel électoral tout en fragilisant le socle.
 
-Sondage : 9.8 → 9.7 (rang 8 → 8)
+Sondage : 11.9 → 12 (rang 3 → 3)
 
-## 23. Deux cents maires demandent un contrat — _official_campaign/alliance_
+## 25. Votre voix reste décisive — _finished/between_rounds_
 
-Deux cents maires de communes rurales et périurbaines publient un appel sur les services publics, le logement et les finances locales. Ils soutiendront le candidat qui accepte un calendrier contrôlable plutôt qu’une liste de promesses.
+Éliminé du premier tour, vous pouvez soutenir le finaliste fictif le plus proche, négocier des garanties ou rester indépendant. Vos électeurs ne sont pas une propriété : la manière de donner la consigne comptera autant que son sens.
 
-> **Choix retenu :** Refuser un contrat séparé et renvoyer les mesures territoriales au programme national [PRUDENT]
+> **Choix retenu :** Négocier trois mesures publiques avec un finaliste avant dannoncer votre soutien [OPPORTUNISTE]
 
-**Le programme national ne reçoit pas de cosignataire** — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
+**Trois mesures donnent un prix au ralliement** — Le contrat offre à vos électeurs une influence vérifiable et installe votre parti comme partenaire du prochain pouvoir. Vos adversaires parlent de marchandage et votre héritage dépendra du respect de ces mesures.
 
-Sondage : 9.7 → 9.6 (rang 8 → 8)
-
-## 24. Les abstentionnistes demandent une preuve — _between_rounds/party_
-
-À Marseille, de jeunes abstentionnistes disent partager plusieurs propositions de LFI sans croire que le vote changera leur quotidien. Ils demandent une action avant lélection plutôt quun nouvel appel moral à participer.
-
-> **Choix retenu :** Présenter le scrutin comme la dernière chance dappliquer le programme de rupture [OFFENSIF]
-
-**Lurgence mobilise les convaincus et braque les sceptiques** — Le message augmente la participation de votre socle le plus engagé. Les abstentionnistes rencontrés y entendent précisément la pression morale quils refusaient.
-
-Sondage : 9.6 → 9.8 (rang 8 → 8)
-
-## 25. Votre mandat à la tête du parti — _finished/between_rounds_
-
-Après lélimination, une partie de léquipe vous demande de rester jusquau prochain congrès ; dautres veulent une transition immédiate. Le choix doit tenir compte du score obtenu, des promesses internes et de létat réel du mouvement.
-
-> **Choix retenu :** Rester jusquau congrès, présenter votre bilan et ne pas intervenir dans la succession [INSTITUTIONNEL]
-
-**La succession reçoit une date et une règle** — Vous assurez la continuité matérielle sans désigner dhéritier et chaque courant peut préparer sa candidature. La transition est lente mais réduit le risque dune guerre de palais.
-
-Sondage : 9.8 → 10 (rang 8 → 7)
+Sondage : 12 → 12 (rang 3 → 3)

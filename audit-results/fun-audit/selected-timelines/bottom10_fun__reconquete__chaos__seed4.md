@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **bottom10_fun**
 
-Score final : 58/100 · 1er tour : 10.9 · qualifié : false · vainqueur : false · signaux mémorables : 1
+Score final : 58/100 · 1er tour : 11 · qualifié : false · vainqueur : false · signaux mémorables : 1
 
 ## 1. La France à cinquante degrés — _pre_campaign/program_
 
@@ -12,7 +12,7 @@ Score final : 58/100 · 1er tour : 10.9 · qualifié : false · vainqueur : fals
 
 **L’assurabilité devient une responsabilité partagée** — Les propriétaires exposés accueillent la garantie et les assureurs demandent une tarification plus libre. Le mécanisme traite les pertes après sinistre, sans répondre à lui seul au besoin de prévention.
 
-Sondage : 8.7 → 7.1 (rang 9 → 9)
+Sondage : 8.8 → 7.1 (rang 9 → 9)
 
 ## 2. Le direct des questions citoyennes — _pre_campaign/media_
 
@@ -22,7 +22,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct change votre journée** — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
 
-Sondage : 7.1 → 7.5 (rang 9 → 9)
+Sondage : 7.1 → 7.6 (rang 9 → 9)
 
 ## 3. Le slogan divise le siège — _pre_campaign/campaign_
 
@@ -32,7 +32,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 **La campagne garde son nom** — Les affiches restent sobres et aucun slogan ne détourne le programme. Les équipes locales manquent toutefois d’une formule commune pour lancer leurs réunions.
 
-Sondage : 7.5 → 7.6 (rang 9 → 9)
+Sondage : 7.6 → 7.7 (rang 9 → 9)
 
 ## 4. La Garonne sort de son lit — _pre_campaign/world_
 
@@ -42,7 +42,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 **Une présence acceptée mais inutile au commandement** — Les autorités vous laissent rencontrer les équipes hors des zones opérationnelles. Votre discrétion évite la gêne, mais le déplacement mobilise tout de même une escorte et suscite un débat sur son utilité.
 
-Sondage : 7.6 → 6.5 (rang 9 → 9)
+Sondage : 7.7 → 6.5 (rang 9 → 9)
 
 ## 5. Le référendum migratoire doit être cadré — _pre_campaign/party_
 
@@ -92,7 +92,7 @@ Sondage : 7.3 → 7 (rang 9 → 9)
 
 **Une solution concrète mais partielle** — Deux départements proposent aussitôt d’expérimenter le dispositif. La réponse ne règle pas la pénurie de médecins, mais elle donne à votre déplacement un résultat mesurable et territorial.
 
-Sondage : 7 → 7.5 (rang 9 → 9)
+Sondage : 7 → 7.6 (rang 9 → 9)
 
 ## 10. Cinq cents bénévoles sans mission — _campaign/internal_
 
@@ -102,7 +102,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 **Cinq cents gilets apparaissent en un week-end** — La visibilité surprend vos concurrents et des milliers de portes sont frappées. Quelques maladresses circulent en vidéo, sans annuler le signal d’une campagne capable de déployer rapidement ses soutiens.
 
-Sondage : 7.5 → 7.6 (rang 9 → 9)
+Sondage : 7.6 → 7.7 (rang 9 → 9)
 
 ## 11. Une nuit avec les urgences — _campaign/campaign_
 
@@ -112,7 +112,7 @@ Sondage : 7.5 → 7.6 (rang 9 → 9)
 
 **Les fermetures deviennent vérifiables** — Le tableau de bord donne aux soignants un outil de pression et oblige votre équipe à assumer les écarts régionaux. Les gestionnaires redoutent une lecture trop brute.
 
-Sondage : 7.6 → 7.8 (rang 9 → 9)
+Sondage : 7.7 → 7.8 (rang 9 → 9)
 
 ## 12. Le meeting change de dispositif — _campaign/campaign_
 
@@ -142,7 +142,7 @@ Les militants veulent déplacer le débat public, tandis que l’équipe de Vict
 
 **La qualification devient l’objectif affiché** — Les nouveaux porte-parole rendent la candidature moins dépendante des confrontations identitaires et ouvrent quelques relais locaux. Une partie du socle accuse l’équipe de diluer sa raison d’être.
 
-Sondage : 7.7 → 7.7 (rang 9 → 9)
+Sondage : 7.7 → 7.8 (rang 9 → 9)
 
 ## 15. Le micro resté ouvert — _campaign/media_
 
@@ -152,7 +152,7 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 **Le droit ne répond pas au malaise** — La protestation sur les conditions d’enregistrement soulève une vraie question professionnelle, sans effacer vos mots. L’équipe comprend votre silence comme un refus de traiter le conflit interne.
 
-Sondage : 7.7 → 7.6 (rang 9 → 9)
+Sondage : 7.8 → 7.6 (rang 9 → 9)
 
 ## 16. Le RN offre des désistements limités — _official_campaign/party_
 
@@ -162,7 +162,7 @@ Le RN propose des désistements dans quelques circonscriptions contre un pacte d
 
 **La concurrence devient totale** — Les militants disposent d’un objectif clair et la candidature ne dépend d’aucune négociation. Les moyens financiers se dispersent et la droite nationale multiplie les campagnes concurrentes.
 
-Sondage : 7.6 → 8.1 (rang 9 → 9)
+Sondage : 7.6 → 8.2 (rang 9 → 9)
 
 ## 17. La plateforme publique tombe en panne — _official_campaign/world_
 
@@ -172,7 +172,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 **La démission est demandée avant le diagnostic** — Votre attaque domine les plateaux et mobilise les opposants au pouvoir sortant. La plateforme revient sans que la cause confirme une faute personnelle, ce qui laisse votre exigence sans fondement établi.
 
-Sondage : 8.1 → 7.4 (rang 9 → 9)
+Sondage : 8.2 → 7.5 (rang 9 → 9)
 
 ## 18. La photographie du quai vide — _official_campaign/media_
 
@@ -182,7 +182,7 @@ Sondage : 8.1 → 7.4 (rang 9 → 9)
 
 **Le fond reprend lentement sa place** — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
 
-Sondage : 7.4 → 7.4 (rang 9 → 9)
+Sondage : 7.5 → 7.4 (rang 9 → 9)
 
 ## 19. Provoquer le favori en duel — _official_campaign/debate_
 
@@ -192,7 +192,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 **Le terrain du programme plutôt que du plateau** — Le communiqué évite le risque d’un dérapage en direct et documente vos chiffres. Le camp adverse et une partie de la presse dénoncent une esquive, ce qui alimente le sujet plus longtemps que prévu.
 
-Sondage : 7.4 → 7.3 (rang 9 → 9)
+Sondage : 7.4 → 7.4 (rang 9 → 9)
 
 ## 20. Une minute sur les loyers — _official_campaign/media_
 
@@ -202,7 +202,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 **La garantie tient dans le format** — La proposition est immédiatement comprise et reprise dans les associations étudiantes. Les questions de coût arrivent ensuite, mais vous avez enfin une mesure identifiable sur le logement des jeunes.
 
-Sondage : 7.3 → 11.3 (rang 9 → 5)
+Sondage : 7.4 → 11.4 (rang 9 → 5)
 
 ## 21. Vingt-quatre heures sans caméra — _official_campaign/media_
 
@@ -212,7 +212,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 **La fatigue passe à l’écran** — Votre présence dément les rumeurs, mais deux réponses hésitantes montrent pourquoi la pause avait été proposée. La couverture se concentre sur la forme et l’équipe perd une journée de préparation.
 
-Sondage : 11.3 → 7.4 (rang 5 → 9)
+Sondage : 11.4 → 7.5 (rang 5 → 9)
 
 ## 22. Les affiches manquent dans six villes — _official_campaign/campaign_
 
@@ -222,7 +222,7 @@ Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus
 
 **Le budget bascule vers les écrans** — Les vidéos locales touchent rapidement les moins de trente ans. Les militants chargés de l’affichage dénoncent cependant une décision prise sans leur avis.
 
-Sondage : 7.4 → 7.4 (rang 9 → 9)
+Sondage : 7.5 → 7.4 (rang 9 → 9)
 
 ## 23. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
 
@@ -232,7 +232,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 **La scène devient forum du logement** — L’artiste ouvre la soirée puis laisse les acteurs du terrain confronter vos propositions. La couverture est moins centrée sur sa notoriété et produit plusieurs engagements locaux crédibles.
 
-Sondage : 7.4 → 7.5 (rang 9 → 9)
+Sondage : 7.4 → 7.6 (rang 9 → 9)
 
 ## 24. Deux cents maires demandent un contrat — _between_rounds/alliance_
 
@@ -242,7 +242,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 **Le programme national ne reçoit pas de cosignataire** — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
 
-Sondage : 7.5 → 7.6 (rang 9 → 9)
+Sondage : 7.6 → 7.7 (rang 9 → 9)
 
 ## 25. Votre voix reste décisive — _finished/between_rounds_
 
@@ -252,4 +252,4 @@ Sondage : 7.5 → 7.6 (rang 9 → 9)
 
 **Trois mesures donnent un prix au ralliement** — Le contrat offre à vos électeurs une influence vérifiable et installe votre parti comme partenaire du prochain pouvoir. Vos adversaires parlent de marchandage et votre héritage dépendra du respect de ces mesures.
 
-Sondage : 7.6 → 7.7 (rang 9 → 9)
+Sondage : 7.7 → 7.7 (rang 9 → 9)

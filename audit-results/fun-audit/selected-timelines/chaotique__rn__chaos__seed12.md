@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **chaotique**
 
-Score final : 40/100 · 1er tour : 10.8 · qualifié : false · vainqueur : false · signaux mémorables : 3
+Score final : 40/100 · 1er tour : 10.9 · qualifié : false · vainqueur : false · signaux mémorables : 3
 
 ## 1. L’immigration de travail, un choix économique assumé ou non — _pre_campaign/program_
 
@@ -12,7 +12,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 **Les métiers en tension trouvent une réponse** — Les fédérations patronales concernées saluent une réponse concrète à leurs alertes répétées. Une partie de votre socle électoral dénonce une politique migratoire dictée par des besoins économiques de court terme.
 
-Sondage : 10.8 → 13.5 (rang 7 → 1)
+Sondage : 10.9 → 13.5 (rang 7 → 1)
 
 ## 2. Cinq cents bénévoles sans mission — _pre_campaign/internal_
 
@@ -22,7 +22,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 **Cinq cents gilets apparaissent en un week-end** — La visibilité surprend vos concurrents et des milliers de portes sont frappées. Quelques maladresses circulent en vidéo, sans annuler le signal d’une campagne capable de déployer rapidement ses soutiens.
 
-Sondage : 13.5 → 13.6 (rang 1 → 1)
+Sondage : 13.5 → 13.7 (rang 1 → 1)
 
 ## 3. Le RN arbitre normalisation et mobilisation — _pre_campaign/party_
 
@@ -32,7 +32,7 @@ Le socle attend une campagne offensive sur l’immigration et la sécurité, tan
 
 **Les marqueurs historiques dominent l’ouverture** — Le socle répond présent et la concurrence de Reconquête recule dans les enquêtes internes. Le rejet augmente parmi les électeurs nécessaires à une majorité de second tour.
 
-Sondage : 13.6 → 13.8 (rang 1 → 1)
+Sondage : 13.7 → 13.9 (rang 1 → 1)
 
 ## 4. Deux invitations au même horaire — _pre_campaign/campaign_
 
@@ -42,7 +42,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 **Les deux rendez-vous survivent** — Vous tenez les deux engagements avec peu de préparation et une fatigue visible. L’image d’endurance plaît, tandis que plusieurs réponses télévisées manquent de précision.
 
-Sondage : 13.8 → 15 (rang 1 → 1)
+Sondage : 13.9 → 15.1 (rang 1 → 1)
 
 ## 5. La loi migratoire du programme — _pre_campaign/program_
 
@@ -52,7 +52,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 **Le travail devient le critère de régularisation** — Les employeurs concernés et les associations comprennent immédiatement la règle. Vos adversaires dénoncent un appel d’air et font de cette mesure le test principal de votre crédibilité aux frontières.
 
-Sondage : 15 → 13 (rang 1 → 1)
+Sondage : 15.1 → 13.1 (rang 1 → 1)
 
 ## 6. Le contrôle interne signale trois factures _(CHAÎNE)_ — _pre_campaign/internal_
 
@@ -62,7 +62,7 @@ La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois 
 
 **Les pièces reviennent, une dépense reste floue** — Deux factures sont documentées en quarante-huit heures. La troisième correspond à une prestation orale mal encadrée, qui demeure défendable mais expose la campagne à une question ultérieure.
 
-Sondage : 13 → 12.8 (rang 1 → 1)
+Sondage : 13.1 → 12.9 (rang 1 → 1)
 
 ## 7. Un donateur demande un rendez-vous — _pre_campaign/internal_
 
@@ -72,7 +72,7 @@ Un entrepreneur fictif ayant versé un don dans les limites légales sollicite u
 
 **Une liste ne raconte pas la conversation** — L’entretien vous donne des informations utiles sur l’investissement, sans engagement formel. La publication des thèmes respecte la règle choisie, mais l’absence de compte rendu alimente les interprétations adverses.
 
-Sondage : 12.8 → 12.7 (rang 1 → 1)
+Sondage : 12.9 → 12.8 (rang 1 → 1)
 
 ## 8. Les abstentionnistes demandent une preuve locale — _pre_campaign/party_
 
@@ -82,7 +82,7 @@ Des électeurs populaires favorables au RN disent ne plus croire aux promesses n
 
 **La facture reflète désormais l’éloignement** — Le versement produit un gain rapide et reconnaît le coût des distances. Son ciblage territorial exclut des ménages urbains modestes et complexifie le discours social du parti.
 
-Sondage : 12.7 → 11.7 (rang 1 → 4)
+Sondage : 12.8 → 11.8 (rang 1 → 4)
 
 ## 9. Le regroupement familial en question — _campaign/program_
 
@@ -92,7 +92,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 **Un délai plus long, un signal de fermeté** — La mesure répond à une demande de contrôle exprimée dans vos réunions publiques. Des associations familiales et certains partenaires sociaux dénoncent une séparation prolongée des familles déjà installées.
 
-Sondage : 11.7 → 12.2 (rang 4 → 2)
+Sondage : 11.8 → 12.3 (rang 4 → 1)
 
 ## 10. Le direct des questions citoyennes — _campaign/media_
 
@@ -102,7 +102,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct change votre journée** — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
 
-Sondage : 12.2 → 12.3 (rang 2 → 2)
+Sondage : 12.3 → 12.3 (rang 1 → 1)
 
 ## 11. La préférence nationale rencontre le droit — _campaign/party_
 
@@ -112,7 +112,7 @@ Les juristes du programme avertissent que plusieurs mesures sociales seraient co
 
 **Le conflit juridique devient un référendum** — Le choix mobilise fortement le socle et rend le calendrier institutionnel explicite. Il augmente le rejet et place toute la campagne économique derrière une confrontation constitutionnelle.
 
-Sondage : 12.3 → 12.5 (rang 2 → 2)
+Sondage : 12.3 → 12.6 (rang 1 → 1)
 
 ## 12. Une ligne du CV est fausse — _campaign/scandal_
 
@@ -122,7 +122,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 **Quarante biographies passent au contrôle** — La vérification ne trouve aucune autre fausse fonction et le responsable présente des excuses avant de revenir. Votre réponse paraît proportionnée, au prix d’une semaine de ralentissement programmatique.
 
-Sondage : 12.5 → 10.7 (rang 2 → 8)
+Sondage : 12.6 → 10.8 (rang 1 → 7)
 
 ## 13. Une contradiction chez le camp centriste — _campaign/debate_
 
@@ -132,7 +132,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 **Une question ouverte, sans pièce à conviction** — La question met l’adversaire en difficulté sans donner l’impression d’une embuscade préparée. Elle laisse aussi la porte ouverte à une réponse convaincante qui limiterait l’effet recherché.
 
-Sondage : 10.7 → 12.8 (rang 8 → 1)
+Sondage : 10.8 → 12.9 (rang 7 → 1)
 
 ## 14. Le salaire net au centre — _campaign/program_
 
@@ -142,7 +142,7 @@ L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La confére
 
 **Le net augmente, les services demandent la facture** — La mesure est facile à voir sur une fiche de paie et séduit des salariés du privé. Les agents publics et les associations demandent quelles dépenses courantes absorberont exactement la compensation.
 
-Sondage : 12.8 → 13 (rang 1 → 1)
+Sondage : 12.9 → 13 (rang 1 → 1)
 
 ## 15. Un soutien éditorial encombrant — _campaign/media_
 
@@ -152,7 +152,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 **Le soutien devient confrontation** — Le débat attire une audience inhabituelle et vous permet de marquer vos désaccords sans nier le point commun initial. Une partie de votre équipe juge néanmoins que le polémiste a reçu une scène disproportionnée.
 
-Sondage : 13 → 12.9 (rang 1 → 1)
+Sondage : 13 → 13 (rang 1 → 1)
 
 ## 16. L’atelier industriel de Saint-Nazaire — _campaign/campaign_
 
@@ -162,7 +162,7 @@ Sondage : 13 → 12.9 (rang 1 → 1)
 
 **La commande publique ouvre un débat** — Les syndicats applaudissent l’objectif industriel, tandis que les juristes européens demandent des précisions. Votre ligne devient lisible et immédiatement contestée sur sa faisabilité.
 
-Sondage : 12.9 → 12.7 (rang 1 → 1)
+Sondage : 13 → 12.7 (rang 1 → 1)
 
 ## 17. Le contrat d’intégration, jusqu’où aller — _official_campaign/program_
 
@@ -172,7 +172,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 **Investir avant de contraindre** — Les associations de terrain saluent un choix qui répond à leurs difficultés de moyens constatées depuis des années. Une partie de l’opinion attendait un signal plus ferme sur les obligations des personnes concernées.
 
-Sondage : 12.7 → 12.5 (rang 1 → 1)
+Sondage : 12.7 → 12.6 (rang 1 → 1)
 
 ## 18. Un cadre écologiste tenté par un ralliement — _official_campaign/alliance_
 
@@ -182,7 +182,7 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 **Une invitation publique et risquée** — Le geste médiatise la démarche et met la pression sur le mouvement écologiste. Il expose aussi la cadre concernée à une réaction immédiate de son propre camp, avant même sa décision.
 
-Sondage : 12.5 → 12.5 (rang 1 → 2)
+Sondage : 12.6 → 12.5 (rang 1 → 1)
 
 ## 19. La grève bloque les transports — _official_campaign/world_
 
@@ -192,7 +192,7 @@ Dans la simulation, une grève nationale des transports entre dans sa quatrième
 
 **Votre présence renforce le piquet** — Les grévistes accueillent votre soutien et votre socle social se mobilise. Les usagers bloqués et une partie des classes moyennes considèrent que vous privilégiez la démonstration à la résolution.
 
-Sondage : 12.5 → 11.9 (rang 2 → 4)
+Sondage : 12.5 → 12 (rang 1 → 3)
 
 ## 20. Tensions internes chez Reconquête — _official_campaign/world_
 
@@ -202,7 +202,7 @@ La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie d
 
 **La crise adverse commentée publiquement** — Le commentaire attire l’attention sur les difficultés internes de Reconquête et accentue la pression sur son état-major. Une partie de l’opinion juge le procédé opportuniste plutôt que porteur d’un message de fond.
 
-Sondage : 11.9 → 10.6 (rang 4 → 7)
+Sondage : 12 → 10.9 (rang 3 → 7)
 
 ## 21. Le budget impose trois renoncements — _official_campaign/campaign_
 
@@ -212,7 +212,7 @@ Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous 
 
 **La collecte finance la dernière ligne droite** — Les petits dons dépassent l’objectif et les comptes publiés rassurent. La campagne sauve son calendrier, au prix de trois jours entièrement consacrés à l’argent.
 
-Sondage : 10.6 → 11.2 (rang 7 → 5)
+Sondage : 10.9 → 11.3 (rang 7 → 5)
 
 ## 22. La promesse faite à l’école — _official_campaign/program_
 
@@ -222,7 +222,7 @@ Sondage : 10.6 → 11.2 (rang 7 → 5)
 
 **L’autonomie redessine le service public** — Les chefs d’établissement gagnent une marge d’action attendue et les syndicats craignent des inégalités durables entre territoires. La proposition élargit votre offre au prix d’un conflit idéologique clair.
 
-Sondage : 11.2 → 10.5 (rang 5 → 8)
+Sondage : 11.3 → 10.6 (rang 5 → 8)
 
 ## 23. La dissidence prend forme chez Reconquête — _official_campaign/world_
 
@@ -232,7 +232,7 @@ La crise interne évoquée quelques jours plus tôt débouche sur une rupture ou
 
 **Une porte ouverte à la dissidence naissante** — Le signal d’ouverture est immédiatement relevé par la presse spécialisée. Il fragilise un peu plus le camp Reconquête, déjà affaibli par la rupture qui vient de se confirmer.
 
-Sondage : 10.5 → 9.8 (rang 8 → 8)
+Sondage : 10.6 → 9.9 (rang 8 → 8)
 
 ## 24. La photographie du quai vide — _between_rounds/media_
 
@@ -242,7 +242,7 @@ Sondage : 10.5 → 9.8 (rang 8 → 8)
 
 **Le fond reprend lentement sa place** — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
 
-Sondage : 9.8 → 9.5 (rang 8 → 8)
+Sondage : 9.9 → 9.6 (rang 8 → 8)
 
 ## 25. Votre voix reste décisive — _finished/between_rounds_
 
@@ -252,4 +252,4 @@ Sondage : 9.8 → 9.5 (rang 8 → 8)
 
 **Trois mesures donnent un prix au ralliement** — Le contrat offre à vos électeurs une influence vérifiable et installe votre parti comme partenaire du prochain pouvoir. Vos adversaires parlent de marchandage et votre héritage dépendra du respect de ces mesures.
 
-Sondage : 9.5 → 9.5 (rang 8 → 8)
+Sondage : 9.6 → 9.6 (rang 8 → 8)

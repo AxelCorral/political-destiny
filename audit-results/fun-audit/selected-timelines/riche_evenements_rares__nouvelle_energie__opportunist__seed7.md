@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **riche_evenements_rares**
 
-Score final : 83/100 · 1er tour : 15.8 · 2nd tour : 49.6 · qualifié : true · vainqueur : false · signaux mémorables : 7
+Score final : 84/100 · 1er tour : 12.7 · 2nd tour : 51.3 · qualifié : true · vainqueur : true · signaux mémorables : 7
 
 ## 1. Le slogan divise le siège — _pre_campaign/campaign_
 
@@ -12,7 +12,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 **La rupture reçoit un contenu** — Les trois engagements empêchent le slogan de rester abstrait. Le socle se mobilise, mais les électeurs recherchant la stabilité deviennent plus méfiants.
 
-Sondage : 13.3 → 12.1 (rang 1 → 3)
+Sondage : 13.3 → 12.2 (rang 1 → 2)
 
 ## 2. Horizons propose une plateforme de gestion — _pre_campaign/party_
 
@@ -22,7 +22,7 @@ Horizons propose des groupes de travail communs sur les collectivités et les en
 
 **La concurrence passe par les résultats locaux** — Le comparatif offre à Nouvelle Énergie des preuves concrètes et attire une audience inattendue. Horizons conteste la méthode et mobilise un réseau d’élus bien plus vaste.
 
-Sondage : 12.1 → 12.2 (rang 3 → 3)
+Sondage : 12.2 → 12.2 (rang 2 → 2)
 
 ## 3. Contrôles aux frontières : quels moyens — _pre_campaign/program_
 
@@ -32,7 +32,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 **La réponse européenne plutôt que nationale** — La cohérence avec votre ligne européenne est nette et rassure vos partenaires du continent. Une partie de votre électorat juge la réponse trop lente face à un incident qui appelait, selon elle, un signal immédiat.
 
-Sondage : 12.2 → 12.3 (rang 3 → 3)
+Sondage : 12.2 → 12.4 (rang 2 → 2)
 
 ## 4. Le direct des questions citoyennes — _pre_campaign/media_
 
@@ -42,7 +42,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct change votre journée** — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
 
-Sondage : 12.3 → 12.4 (rang 3 → 3)
+Sondage : 12.4 → 12.4 (rang 2 → 2)
 
 ## 5. La France à cinquante degrés — _pre_campaign/program_
 
@@ -52,7 +52,7 @@ Sondage : 12.3 → 12.4 (rang 3 → 3)
 
 **L’adaptation reçoit un budget durable** — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
 
-Sondage : 12.4 → 13 (rang 3 → 1)
+Sondage : 12.4 → 13 (rang 2 → 1)
 
 ## 6. Les électeurs ignorent encore le mouvement — _pre_campaign/party_
 
@@ -62,7 +62,7 @@ Une enquête qualitative montre que beaucoup d’électeurs confondent Nouvelle 
 
 **Cent petites réunions créent des ambassadeurs** — Chaque participant peut interroger la candidate et repart avec une décision précise à raconter. La méthode coûte du temps et atteint moins de monde qu’une campagne médiatique nationale.
 
-Sondage : 13 → 13.2 (rang 1 → 1)
+Sondage : 13 → 13.3 (rang 1 → 1)
 
 ## 7. Le car tombe en panne — _pre_campaign/campaign_
 
@@ -72,7 +72,7 @@ Sondage : 13 → 13.2 (rang 1 → 1)
 
 **Le café offre une conversation inattendue** — Quarante personnes discutent sans pupitre ni musique. La séquence touche par sa simplicité, mais l’équipe qui attendait à destination se sent abandonnée.
 
-Sondage : 13.2 → 13.4 (rang 1 → 1)
+Sondage : 13.3 → 13.4 (rang 1 → 1)
 
 ## 8. Une crise ferme un détroit — _campaign/world_
 
@@ -102,7 +102,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 **La formation plutôt qu’une nouvelle loi** — La proposition est concrète et administrativement réaliste, ce qui rassure les agents concernés. Elle ne répond pas aux attentes des camps qui espéraient un signal politique plus net, dans un sens ou dans l’autre.
 
-Sondage : 14.1 → 14.3 (rang 1 → 1)
+Sondage : 14.1 → 14.4 (rang 1 → 1)
 
 ## 11. Deux équipes se disputent le terrain — _campaign/internal_
 
@@ -112,7 +112,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 **La vidéo atteint Lyon sans apaiser les sections** — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
 
-Sondage : 14.3 → 14.3 (rang 1 → 1)
+Sondage : 14.4 → 14.4 (rang 1 → 1)
 
 ## 12. Le budget impose trois renoncements — _campaign/campaign_
 
@@ -122,7 +122,7 @@ Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous 
 
 **Les experts internes reprennent la main** — Les contrats cessent et les permanents récupèrent les dossiers. Les économies sont nettes, mais l’équipe devra défendre seule les hypothèses les plus techniques.
 
-Sondage : 14.3 → 16.5 (rang 1 → 1)
+Sondage : 14.4 → 16.6 (rang 1 → 1)
 
 ## 13. La baisse de dépense rencontre l’hôpital — _campaign/party_
 
@@ -132,7 +132,7 @@ Le programme prévoit de réduire la dépense publique, mais les premiers comit�
 
 **Les soins de proximité sortent du plan d’économies** — Les électeurs identifient une priorité protégée et les élus locaux défendent plus facilement le projet. Les économies centrales restent difficiles à garantir sans détail sur les postes concernés.
 
-Sondage : 16.5 → 14.3 (rang 1 → 1)
+Sondage : 16.6 → 14.4 (rang 1 → 1)
 
 ## 14. Le siège arrive à saturation — _campaign/internal_
 
@@ -142,7 +142,7 @@ Trois responsables salariés et plusieurs bénévoles signalent des journées de
 
 **Le calendrier perd deux étapes et gagne de la fiabilité** — Les équipes locales déçues obtiennent des visioconférences et le siège retrouve un rythme soutenable. Votre présence médiatique recule brièvement, tandis que les erreurs logistiques diminuent.
 
-Sondage : 14.3 → 14.4 (rang 1 → 1)
+Sondage : 14.4 → 14.5 (rang 1 → 1)
 
 ## 15. Le permis d’entreprendre doit être défini — _campaign/party_
 
@@ -152,7 +152,7 @@ Le mouvement promet de simplifier la création d’entreprise par un permis uniq
 
 **Le silence administratif autorise provisoirement** — La règle crée une rupture immédiatement identifiable et séduit les entrepreneurs. Elle expose les communes à des activités ouvertes avant certains contrôles et augmente le risque de contentieux.
 
-Sondage : 14.4 → 14.4 (rang 1 → 1)
+Sondage : 14.5 → 14.5 (rang 1 → 1)
 
 ## 16. La pluie emporte la tournée — _official_campaign/campaign_
 
@@ -162,7 +162,7 @@ Des pluies intenses rendent deux routes impraticables et le meeting en plein air
 
 **Les véhicules servent aux distributions** — Les associations coordonnent l’aide sans transformer l’opération en meeting. Votre retrait des images partisanes est remarqué et les équipes perdent une journée de campagne.
 
-Sondage : 14.4 → 14 (rang 1 → 1)
+Sondage : 14.5 → 14.1 (rang 1 → 1)
 
 ## 17. Provoquer le favori en duel — _official_campaign/debate_
 
@@ -172,7 +172,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 **Le terrain du programme plutôt que du plateau** — Le communiqué évite le risque d’un dérapage en direct et documente vos chiffres. Le camp adverse et une partie de la presse dénoncent une esquive, ce qui alimente le sujet plus longtemps que prévu.
 
-Sondage : 14 → 14.4 (rang 1 → 1)
+Sondage : 14.1 → 14.5 (rang 1 → 1)
 
 ## 18. Une apostrophe change le slogan _(RARE)_ — _official_campaign/rare_
 
@@ -182,7 +182,7 @@ Un lot de cinquante mille tracts transforme par erreur « la France en commun »
 
 **La coquille devient objet de collecte** — L’autodérision attire des dons et les mille tracts numérotés disparaissent en une soirée. Le geste amuse sans masquer la correction du slogan officiel.
 
-Sondage : 14.4 → 14.5 (rang 1 → 1)
+Sondage : 14.5 → 14.6 (rang 1 → 1)
 
 ## 19. Une attaque frontale de La France insoumise — _official_campaign/campaign_
 
@@ -192,7 +192,7 @@ Ariane Valmont vous accuse publiquement d’avoir édulcoré vos positions socia
 
 **L’escalade plutôt que la désescalade** — La contre-attaque marque les esprits et mobilise votre camp. Elle ferme aussi la porte à toute discussion ultérieure avec cet électorat, qui se sent visé à son tour.
 
-Sondage : 14.5 → 14.5 (rang 1 → 1)
+Sondage : 14.6 → 14.6 (rang 1 → 1)
 
 ## 20. La PME teste votre réforme — _official_campaign/campaign_
 
@@ -202,7 +202,7 @@ Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réfor
 
 **La vérification suspend le duel** — Les deux parties acceptent le protocole et transmettent leurs hypothèses. Vous gagnez du temps et une expertise, mais laissez vos adversaires définir le récit jusqu’au rapport.
 
-Sondage : 14.5 → 16.8 (rang 1 → 1)
+Sondage : 14.6 → 16.9 (rang 1 → 1)
 
 ## 21. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
 
@@ -212,7 +212,7 @@ Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et t
 
 **La caméra remplace le duel** — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
 
-Sondage : 16.8 → 14.4 (rang 1 → 1)
+Sondage : 16.9 → 14.5 (rang 1 → 1)
 
 ## 22. Le RN invite à une convention commune — _official_campaign/alliance_
 
@@ -222,7 +222,7 @@ Le Rassemblement national propose une convention sur l’immigration, la sécuri
 
 **Un accord électoral sans plateforme unique** — La photographie élargit votre audience dans le bloc national et sécurise certains reports. Elle éloigne les électeurs modérés qui ne distinguent plus clairement votre candidature de celle du RN.
 
-Sondage : 14.4 → 14.4 (rang 1 → 1)
+Sondage : 14.5 → 14.5 (rang 1 → 1)
 
 ## 23. Un perroquet répète votre slogan _(RARE)_ — _official_campaign/rare_
 
@@ -232,7 +232,7 @@ Au marché de Nice, le perroquet d’un commerçant fictif répète distinctemen
 
 **Le clip finance un refuge** — Le propriétaire donne son accord et la vidéo devient la séquence la plus partagée de votre campagne. Le geste solidaire évite l’exploitation gratuite, mais votre annonce économique passe au second plan.
 
-Sondage : 14.4 → 14.4 (rang 1 → 1)
+Sondage : 14.5 → 14.5 (rang 1 → 1)
 
 ## 24. Un cadre écologiste tenté par un ralliement — _between_rounds/alliance_
 
@@ -242,29 +242,9 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 **La coopération plutôt que le débauchage** — La proposition de plateforme commune est bien reçue et évite toute tension personnelle. Elle produit moins d’effet immédiat qu’un ralliement individuel, mais préserve la relation avec le mouvement.
 
-Sondage : 14.4 → 14.5 (rang 1 → 1)
+Sondage : 14.5 → 14.6 (rang 1 → 1)
 
-## 25. L’outsider doit former une majorité — _between_rounds/party_
-
-Qualifiée à la surprise générale, Nora Vaillant manque encore d’élus et d’équipes. Horizons et LR proposent leur soutien contre des garanties de coalition et des responsabilités identifiables.
-
-> **Choix retenu :** Publier une équipe fictive issue de la société civile et demander des soutiens sans accord de postes [PRÉSIDENTIEL]
-
-**Une équipe extérieure prolonge la surprise** — La candidature conserve sa singularité et présente des compétences précises. Sans appareils alliés, plusieurs régions restent peu couvertes et les reports de droite demeurent hésitants.
-
-Sondage : 14.5 → 14.7 (rang 1 → 1)
-
-## 26. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
-
-Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
-
-> **Choix retenu :** Appeler directement les abstentionnistes à choisir entre vos deux projets plutôt qu’entre deux personnes [POPULAIRE]
-
-**Le débat se termine sur la participation** — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
-
-Sondage : 14.7 → 14.8 (rang 1 → 1)
-
-## 27. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 25. Les reports refusent la mécanique — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -272,9 +252,39 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Une garantie donne un motif positif de report** — Les électeurs concernés voient leur priorité dans le contrat et leur participation estimée remonte. La mesure tardive augmente le coût du programme et inquiète ceux qui craignent une coalition sans limite.
 
-Sondage : 14.8 → 14.9 (rang 1 → 1)
+Sondage : 14.6 → 14.7 (rang 1 → 1)
 
-## 28. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 26. L’outsider doit former une majorité — _between_rounds/party_
+
+Qualifiée à la surprise générale, Nora Vaillant manque encore d’élus et d’équipes. Horizons et LR proposent leur soutien contre des garanties de coalition et des responsabilités identifiables.
+
+> **Choix retenu :** Publier une équipe fictive issue de la société civile et demander des soutiens sans accord de postes [PRÉSIDENTIEL]
+
+**Une équipe extérieure prolonge la surprise** — La candidature conserve sa singularité et présente des compétences précises. Sans appareils alliés, plusieurs régions restent peu couvertes et les reports de droite demeurent hésitants.
+
+Sondage : 14.7 → 14.9 (rang 1 → 1)
+
+## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+
+Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
+
+> **Choix retenu :** Appeler directement les abstentionnistes à choisir entre vos deux projets plutôt qu’entre deux personnes [POPULAIRE]
+
+**Le débat se termine sur la participation** — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
+
+Sondage : 14.9 → 15 (rang 1 → 1)
+
+## 28. Les dernières heures autorisées — _between_rounds/between_rounds_
+
+La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
+
+> **Choix retenu :** Enregistrer une adresse courte résumant les trois engagements inchangés depuis le premier tour [PRÉSIDENTIEL]
+
+**Trois engagements ferment la campagne** — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
+
+Sondage : 15 → 14.7 (rang 1 → 1)
+
+## 29. Les soutiens arrivent avec leurs conditions — _government_epilogue/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -282,14 +292,24 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Trois soutiens gardent trois identités** — Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.
 
-Sondage : 14.9 → 12.3 (rang 1 → 2)
+Sondage : 14.7 → 15.5 (rang 1 → 1)
 
-## 29. Deux points davance à cinq jours — _finished/between_rounds_
+## 30. Le choix de Matignon — _government_epilogue/government_
 
-Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
+Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 
-> **Choix retenu :** Diffuser un dossier comparatif offensif sur les contradictions du finaliste [RISQUÉ]
+> **Choix retenu :** Choisir une haute fonctionnaire fictive indépendante et lui demander une équipe resserrée [PRÉSIDENTIEL]
 
-**Le dernier dossier durcit la fin** — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
+**Une indépendante prend la tête du gouvernement** — La compétence administrative et le renouvellement plaisent au-delà de votre camp. Labsence de base politique oblige lÉlysée à conduire lui-même les négociations parlementaires.
 
-Sondage : 12.3 → 15.4 (rang 2 → 1)
+Sondage : 15.5 → 15.5 (rang 1 → 1)
+
+## 31. Quinze ministres pour une coalition — _finished/government_
+
+La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
+
+> **Choix retenu :** Limiter le gouvernement à douze membres et fusionner les portefeuilles les plus proches [OFFENSIF]
+
+**Douze membres donnent une image resserrée** — La composition est lisible et réduit les négociations de postes. Les ministres héritent de champs immenses et plusieurs alliés exclus promettent de juger le gouvernement texte par texte.
+
+Sondage : 15.5 → 15.5 (rang 1 → 1)

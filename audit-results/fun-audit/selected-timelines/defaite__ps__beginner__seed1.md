@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **defaite**
 
-Score final : 83/100 · 1er tour : 14.8 · 2nd tour : 48 · qualifié : true · vainqueur : false · signaux mémorables : 5
+Score final : 83/100 · 1er tour : 14.9 · 2nd tour : 46.5 · qualifié : true · vainqueur : false · signaux mémorables : 6
 
 ## 1. Le prochain budget de la santé — _pre_campaign/program_
 
@@ -12,7 +12,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 **La médecine de proximité reçoit un opérateur** — Les collectivités voient comment ouvrir concrètement des équipes là où l’installation libérale ne suffit plus. Les représentants de médecins indépendants contestent le modèle salarié, mais le calendrier est jugé réalisable.
 
-Sondage : 12.6 → 11.8 (rang 2 → 4)
+Sondage : 12.7 → 11.9 (rang 2 → 4)
 
 ## 2. Les Écologistes proposent un contrat municipal — _pre_campaign/party_
 
@@ -22,7 +22,7 @@ Des maires socialistes et écologistes proposent une campagne commune dans douze
 
 **Les réseaux municipaux entrent en campagne** — Les équipes locales partagent leurs fichiers de bénévoles et organisent des déplacements communs. La concession législative inquiète les sortants socialistes concernés par les futures négociations.
 
-Sondage : 11.8 → 11.9 (rang 4 → 3)
+Sondage : 11.9 → 12 (rang 4 → 2)
 
 ## 3. Le marché sous pression — _pre_campaign/campaign_
 
@@ -32,7 +32,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 **Les factures donnent du poids au déplacement** — Les documents vérifiés remplacent les échanges confus par un cas concret. Le plafonnement séduit les petits commerces, tout en soulevant une question de financement.
 
-Sondage : 11.9 → 12.1 (rang 3 → 3)
+Sondage : 12 → 12.2 (rang 2 → 2)
 
 ## 4. Les agents publics attendent des garanties — _pre_campaign/party_
 
@@ -42,7 +42,7 @@ Des collectifs d’enseignants, de soignants et d’agents territoriaux demanden
 
 **Les salaires publics obtiennent un calendrier** — Les syndicats peuvent vérifier les étapes et les agents publics disposent d’un engagement précis. L’enveloppe réduit la marge disponible pour d’autres mesures sociales de début de mandat.
 
-Sondage : 12.1 → 12.8 (rang 3 → 2)
+Sondage : 12.2 → 12.9 (rang 2 → 2)
 
 ## 5. Le slogan divise le siège — _pre_campaign/campaign_
 
@@ -52,7 +52,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 **Le calendrier crédibilise la méthode** — Les cent jours donnent de la matière aux entretiens et rassurent sur votre préparation. Une partie des militants regrette une campagne trop administrative.
 
-Sondage : 12.8 → 12.9 (rang 2 → 1)
+Sondage : 12.9 → 13 (rang 2 → 1)
 
 ## 6. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
 
@@ -62,7 +62,7 @@ Sondage : 12.8 → 12.9 (rang 2 → 1)
 
 **L’équipe de nuit impose ses priorités** — Les échanges font remonter le coût des transports et les horaires de garde. Vous gagnez la confiance du site, mais aucune annonce nationale ne ressort.
 
-Sondage : 12.9 → 13.1 (rang 1 → 1)
+Sondage : 13 → 13.2 (rang 1 → 1)
 
 ## 7. Une motion réclame un congrès — _pre_campaign/internal_
 
@@ -72,7 +72,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 **Le congrès tranche réellement** — Le débat révèle les fractures mais le vote donne une ligne commune et opposable à tous. Vous cédez une part de contrôle sur le programme en échange d’une cohésion renforcée.
 
-Sondage : 13.1 → 13.4 (rang 1 → 1)
+Sondage : 13.2 → 13.5 (rang 1 → 1)
 
 ## 8. Le rapport reprend huit paragraphes — _pre_campaign/scandal_
 
@@ -82,7 +82,7 @@ Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’
 
 **Les citations reviennent dans le document** — La nouvelle version montre que les données venaient d’un rapport public et que vos propositions restent propres à la campagne. L’erreur éditoriale est reconnue sans prétendre que le fond était inventé.
 
-Sondage : 13.4 → 12.3 (rang 1 → 3)
+Sondage : 13.5 → 12.4 (rang 1 → 2)
 
 ## 9. L’immigration de travail, un choix économique assumé ou non — _campaign/program_
 
@@ -92,7 +92,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 **Le dialogue social fixe le curseur** — La méthode déplace la décision vers les partenaires sociaux et paraît difficile à instrumentaliser politiquement. Des élus de tous bords regrettent qu’aucun chiffre national ne soit fixé par le pouvoir politique lui-même.
 
-Sondage : 12.3 → 13.7 (rang 3 → 1)
+Sondage : 12.4 → 13.8 (rang 2 → 1)
 
 ## 10. Vie privée et réseaux : la ligne numérique — _campaign/program_
 
@@ -102,7 +102,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 **Une autorité dédiée, hors du politique** — Le choix institutionnel rassure sur l’indépendance de la régulation vis-à-vis du pouvoir en place. Certains commentateurs regrettent l’absence de mesure immédiate visible avant la mise en place effective de l’autorité.
 
-Sondage : 13.7 → 13.9 (rang 1 → 1)
+Sondage : 13.8 → 14 (rang 1 → 1)
 
 ## 11. La caméra derrière la porte _(CHAÎNE)_ — _campaign/media_
 
@@ -112,7 +112,7 @@ Une équipe documentaire de France 2 demande six semaines d’accès au siège, 
 
 **Des comptes rendus à la place des coulisses** — La production choisit un autre sujet, tandis que vos synthèses hebdomadaires installent une transparence plus austère. Elles deviennent utiles aux militants sans créer le rendez-vous populaire espéré.
 
-Sondage : 13.9 → 14 (rang 1 → 1)
+Sondage : 14 → 14.1 (rang 1 → 1)
 
 ## 12. Un ancien rival socialiste revient — _campaign/alliance_
 
@@ -122,7 +122,7 @@ Ilyes Marceau, rival fictif de la primaire du PS, propose de rejoindre la campag
 
 **Le rival obtient un domaine de campagne** — Son réseau ouvre plusieurs usines et remobilise des sections qui se tenaient à distance. La feuille de route contient les divergences sans les effacer et Ilyes mémorise la confiance reçue.
 
-Sondage : 14 → 11.8 (rang 1 → 3)
+Sondage : 14.1 → 11.9 (rang 1 → 3)
 
 ## 13. Un soutien éditorial encombrant — _campaign/media_
 
@@ -132,7 +132,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 **Un accord limité, des frontières nettes** — La mise au point évite la rupture théâtrale et empêche le soutien de devenir une alliance implicite. Elle consomme du temps médiatique, mais clarifie votre doctrine sur les libertés publiques.
 
-Sondage : 11.8 → 14.2 (rang 3 → 1)
+Sondage : 11.9 → 14.3 (rang 3 → 1)
 
 ## 14. Vingt-quatre heures sans caméra — _campaign/media_
 
@@ -142,7 +142,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 **Une pause lisible dans la campagne** — Les réunions documentées coupent court aux spéculations. Vous disparaissez brièvement des écrans, récupérez physiquement et revenez avec deux arbitrages mieux préparés.
 
-Sondage : 14.2 → 14.3 (rang 1 → 1)
+Sondage : 14.3 → 14.4 (rang 1 → 1)
 
 ## 15. Une apostrophe change le slogan _(RARE)_ — _campaign/rare_
 
@@ -152,7 +152,7 @@ Un lot de cinquante mille tracts transforme par erreur « la France en commun »
 
 **La coquille devient objet de collecte** — L’autodérision attire des dons et les mille tracts numérotés disparaissent en une soirée. Le geste amuse sans masquer la correction du slogan officiel.
 
-Sondage : 14.3 → 14.4 (rang 1 → 1)
+Sondage : 14.4 → 14.5 (rang 1 → 1)
 
 ## 16. Le regroupement familial en question — _campaign/program_
 
@@ -162,7 +162,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 **Une condition matérielle plutôt qu’un délai** — Le critère matériel paraît objectif et évite une polémique sur la durée de séparation familiale. Des associations dénoncent un obstacle supplémentaire pour les familles aux revenus modestes.
 
-Sondage : 14.4 → 14 (rang 1 → 1)
+Sondage : 14.5 → 14.1 (rang 1 → 1)
 
 ## 17. Le micro resté ouvert — _official_campaign/media_
 
@@ -172,7 +172,7 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 **Les excuses referment la blessure** — Anaïs Vercel accepte les excuses sans nier les problèmes d’organisation. La crise devient l’occasion de redistribuer des responsabilités et l’équipe retient surtout que vous avez reconnu une faute personnelle.
 
-Sondage : 14 → 14.6 (rang 1 → 1)
+Sondage : 14.1 → 14.7 (rang 1 → 1)
 
 ## 18. La question venue de Mayotte — _official_campaign/debate_
 
@@ -182,7 +182,7 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 **Une limite reconnue, une réponse attendue** — L’aveu surprend dans un débat où chacun prétend tout maîtriser. Votre équipe publie le lendemain des données vérifiées et un calendrier, ce qui transforme la lacune en preuve de méthode. Le dossier promis sur Mayotte est publié avec des chiffres vérifiés.
 
-Sondage : 14.6 → 14.9 (rang 1 → 1)
+Sondage : 14.7 → 15 (rang 1 → 1)
 
 ## 19. Deux équipes se disputent le terrain — _official_campaign/internal_
 
@@ -192,7 +192,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 **Les sections reprennent la rue** — Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. Léquipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.
 
-Sondage : 14.9 → 15.1 (rang 1 → 1)
+Sondage : 15 → 15.1 (rang 1 → 1)
 
 ## 20. La directrice a recruté son frère — _official_campaign/scandal_
 
@@ -202,9 +202,9 @@ Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme déve
 
 **Le contrat familial repasse en concurrence** — Le code livré reste utilisable et la nouvelle procédure attribue la suite à une autre entreprise. Anaïs Vercel reconnaît avoir privilégié la vitesse et accepte un retrait temporaire des achats.
 
-Sondage : 15.1 → 16.2 (rang 1 → 1)
+Sondage : 15.1 → 16.3 (rang 1 → 1)
 
-## 21. Neuf groupes rendent la majorité incertaine _(RARE)_ — _official_campaign/rare_
+## 21. Neuf groupes rendent la majorité incertaine _(RARE · CHAÎNE)_ — _official_campaign/rare_
 
 Une projection fictive des législatives ne donne de majorité à aucun bloc et répartit l’Assemblée nationale entre neuf groupes. Les journalistes vous demandent avant la présidentielle avec qui vous accepteriez de gouverner.
 
@@ -212,7 +212,7 @@ Une projection fictive des législatives ne donne de majorité à aucun bloc et 
 
 **Cinq conditions remplacent les noms de partis** — Vous définissez un socle de gouvernement vérifiable sans attribuer des postes avant le vote. Les partenaires potentiels peuvent se positionner et votre capacité de coalition progresse.
 
-Sondage : 16.2 → 15.2 (rang 1 → 1)
+Sondage : 16.3 → 15.3 (rang 1 → 1)
 
 ## 22. Le meeting change de dispositif — _official_campaign/campaign_
 
@@ -222,7 +222,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 **La jauge protège et déçoit** — Le dispositif devient plus simple et plusieurs centaines de sympathisants restent dehors. Les équipes comprennent la décision, mais la mobilisation visible recule.
 
-Sondage : 15.2 → 15.2 (rang 1 → 1)
+Sondage : 15.3 → 15.3 (rang 1 → 1)
 
 ## 23. La porte-parole annonce trop tôt — _official_campaign/internal_
 
@@ -232,7 +232,7 @@ Une porte-parole fictive présente comme arbitrée une baisse de cotisations enc
 
 **Une correction sans sacrifice humain** — La campagne distingue l’erreur individuelle de la décision collective et publie l’état exact de l’arbitrage. La porte-parole reste en fonction, reconnaissante, tandis que la proposition perd son effet de surprise.
 
-Sondage : 15.2 → 15.2 (rang 1 → 1)
+Sondage : 15.3 → 15.4 (rang 1 → 1)
 
 ## 24. Provoquer le favori en duel — _between_rounds/debate_
 
@@ -242,7 +242,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 **Un cadre équilibré, plus consensuel** — Le format coanimé rassure les deux équipes et limite le risque d’un dérapage. Il attire moins d’audience qu’un duel frontal, mais renforce votre image d’acteur institutionnel.
 
-Sondage : 15.2 → 15.4 (rang 1 → 1)
+Sondage : 15.4 → 15.5 (rang 1 → 1)
 
 ## 25. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
 
@@ -252,7 +252,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le débat se termine sur la participation** — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
 
-Sondage : 15.4 → 15.5 (rang 1 → 1)
+Sondage : 15.5 → 15.6 (rang 1 → 1)
 
 ## 26. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
 
@@ -262,29 +262,19 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Les soutiens viennent sans contrat** — Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.
 
-Sondage : 15.5 → 15.7 (rang 1 → 1)
+Sondage : 15.6 → 15.9 (rang 1 → 1)
 
-## 27. La gauche attend un contrat de second tour — _between_rounds/party_
+## 27. Deux partis répondent aux cinq conditions _(CHAÎNE)_ — _between_rounds/rare_
 
-Qualifiée, la candidate socialiste doit obtenir des soutiens à gauche sans perdre les électeurs centristes venus au premier tour. Les partenaires demandent des engagements écrits plutôt qu’une consigne automatique.
+Deux formations de l’Assemblée fragmentée annoncent accepter vos cinq conditions de coalition, sous réserve d’un geste supplémentaire chacune sur un sujet qui leur est propre. Les deux demandes ne sont pas compatibles entre elles.
 
-> **Choix retenu :** Signer avec LFI et les Écologistes un contrat limité à cinq lois prioritaires [RASSEMBLEUR]
+> **Choix retenu :** Satisfaire la demande du groupe le plus proche idéologiquement et assumer de perdre l’autre [RASSEMBLEUR]
 
-**Cinq lois organisent les soutiens de gauche** — Les partenaires peuvent défendre un accord concret sans effacer leurs désaccords. Les électeurs centristes examinent avec inquiétude les volets fiscal et institutionnel du contrat.
+**Une coalition claire plutôt que deux fragiles** — L’accord se resserre autour d’un partenaire cohérent avec vos cinq conditions. Le second groupe retire son offre et le fait savoir publiquement.
 
-Sondage : 15.7 → 15.8 (rang 1 → 1)
+Sondage : 15.9 → 16 (rang 1 → 1)
 
-## 28. Les dernières heures autorisées — _between_rounds/between_rounds_
-
-La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
-
-> **Choix retenu :** Déployer les militants dans cent gares et marchés avec un appel personnalisé à participer [POPULAIRE]
-
-**Cent points de contact avant le silence** — Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.
-
-Sondage : 15.8 → 15.1 (rang 1 → 1)
-
-## 29. Deux points davance à cinq jours — _finished/between_rounds_
+## 28. Deux points davance à cinq jours — _between_rounds/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -292,4 +282,14 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 **Le favori parle déjà à tout le pays** — Ladresse réduit votre rejet et rassure les électeurs modérés sur la stabilité du lendemain. Les militants les plus actifs regrettent un ton qui considère presque la victoire acquise.
 
-Sondage : 15.1 → 16.1 (rang 1 → 1)
+Sondage : 16 → 15.3 (rang 1 → 1)
+
+## 29. La gauche attend un contrat de second tour — _finished/party_
+
+Qualifiée, la candidate socialiste doit obtenir des soutiens à gauche sans perdre les électeurs centristes venus au premier tour. Les partenaires demandent des engagements écrits plutôt qu’une consigne automatique.
+
+> **Choix retenu :** Proposer un gouvernement pluraliste sans modifier le programme adopté au premier tour [PRÉSIDENTIEL]
+
+**Le gouvernement s’ouvre sans nouveau programme** — La candidate conserve une ligne stable et rassure une partie du centre. Les soutiens de gauche restent conditionnels et leurs appareils mobilisent moins fortement qu’espéré.
+
+Sondage : 15.3 → 16.2 (rang 1 → 1)

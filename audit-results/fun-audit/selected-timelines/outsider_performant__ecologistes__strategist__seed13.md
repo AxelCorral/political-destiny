@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **outsider_performant**
 
-Score final : 84/100 · 1er tour : 13.8 · 2nd tour : 56.7 · qualifié : true · vainqueur : true · signaux mémorables : 4
+Score final : 84/100 · 1er tour : 13.9 · 2nd tour : 56.7 · qualifié : true · vainqueur : true · signaux mémorables : 4
 
 ## 1. Ce que l’école doit transmettre — _pre_campaign/program_
 
@@ -12,7 +12,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 **La confiance faite au terrain** — Les équipes pédagogiques saluent une position qui respecte leur expertise. Des parents et des élus locaux regrettent l’absence de cadre national identifiable dans un débat qu’ils jugent structurant.
 
-Sondage : 7 → 10.6 (rang 8 → 8)
+Sondage : 7.1 → 10.7 (rang 8 → 8)
 
 ## 2. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
 
@@ -22,7 +22,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 **La campagne jeune trouve sa voix** — Les vidéos et réunions touchent des publics absents de vos meetings, tout en respectant les trois engagements communs. Quelques différences de vocabulaire deviennent visibles sans créer de contradiction programmatique.
 
-Sondage : 10.6 → 10.8 (rang 8 → 8)
+Sondage : 10.7 → 10.9 (rang 8 → 8)
 
 ## 3. Le PS offre des circonscriptions urbaines — _pre_campaign/party_
 
@@ -32,7 +32,7 @@ Le Parti socialiste propose un accord de campagne dans six métropoles contre un
 
 **L’autonomie devient la règle dans les métropoles** — Les militants disposent d’une campagne clairement écologiste et les listes locales recrutent leurs propres bénévoles. Le PS réplique en contestant l’utilité de la candidature nationale.
 
-Sondage : 10.8 → 11.1 (rang 8 → 7)
+Sondage : 10.9 → 11.2 (rang 8 → 7)
 
 ## 4. Le direct des questions citoyennes — _pre_campaign/media_
 
@@ -42,7 +42,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct se termine sur un calendrier** — Les réponses ne règlent pas tous les cas, mais la conclusion donne une date et un financement à l’engagement. Vous quittez le direct à l’heure, avec une séquence exploitable par les équipes de santé.
 
-Sondage : 11.1 → 9.1 (rang 7 → 8)
+Sondage : 11.2 → 9.1 (rang 7 → 8)
 
 ## 5. Des élus ruraux proposent une tournée — _pre_campaign/party_
 
@@ -52,7 +52,7 @@ Des conseillers municipaux écologistes invitent Éloi Vernet dans des territoir
 
 **Le ferroviaire donne un titre national** — L’annonce impose un investissement identifiable et obtient une large couverture. Les élus invités regrettent que les difficultés de santé et de logement aient été réduites à un décor.
 
-Sondage : 9.1 → 11.7 (rang 8 → 3)
+Sondage : 9.1 → 11.8 (rang 8 → 3)
 
 ## 6. La une vous prête un tournant — _pre_campaign/media_
 
@@ -62,7 +62,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 **Le tournant devient un contrat** — La publication simultanée empêche chaque camp de ne retenir qu’une moitié du projet. Elle ne satisfait pleinement ni les syndicats ni les dirigeants, mais rend la cohérence économique plus difficile à caricaturer.
 
-Sondage : 11.7 → 12.2 (rang 3 → 3)
+Sondage : 11.8 → 12.3 (rang 3 → 2)
 
 ## 7. Le micro resté ouvert — _pre_campaign/media_
 
@@ -72,7 +72,7 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 **Les excuses referment la blessure** — Anaïs Vercel accepte les excuses sans nier les problèmes d’organisation. La crise devient l’occasion de redistribuer des responsabilités et l’équipe retient surtout que vous avez reconnu une faute personnelle.
 
-Sondage : 12.2 → 12.5 (rang 3 → 2)
+Sondage : 12.3 → 12.6 (rang 2 → 2)
 
 ## 8. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
 
@@ -82,7 +82,7 @@ Sondage : 12.2 → 12.5 (rang 3 → 2)
 
 **L’équipe de nuit impose ses priorités** — Les échanges font remonter le coût des transports et les horaires de garde. Vous gagnez la confiance du site, mais aucune annonce nationale ne ressort.
 
-Sondage : 12.5 → 10.1 (rang 2 → 8)
+Sondage : 12.6 → 10.2 (rang 2 → 8)
 
 ## 9. La ligne de départ des retraites — _campaign/program_
 
@@ -92,7 +92,7 @@ Votre convention sociale doit arrêter une règle lisible sur les retraites. Les
 
 **Le retour à soixante-deux ans est financé** — La mesure mobilise les salariés opposés au relèvement de l’âge et assume son coût par une recette identifiable. Les entreprises dénoncent la hausse de cotisations, qui devient le principal angle d’attaque économique.
 
-Sondage : 10.1 → 12.9 (rang 8 → 1)
+Sondage : 10.2 → 13 (rang 8 → 1)
 
 ## 10. Trois villages sans médecin — _campaign/campaign_
 
@@ -102,7 +102,7 @@ Dans le Grand Est, trois maires partagent un cabinet vide et des délais de cons
 
 **La régulation fracture le débat médical** — Les élus applaudissent la contrainte territoriale et plusieurs syndicats de médecins annoncent leur opposition. Votre décision devient nationale avant même son chiffrage.
 
-Sondage : 12.9 → 13 (rang 1 → 1)
+Sondage : 13 → 13 (rang 1 → 1)
 
 ## 11. Une crise ferme un détroit — _campaign/world_
 
@@ -122,7 +122,7 @@ Sondage : 13 → 13.2 (rang 1 → 1)
 
 **La carte des bourses convainc** — Le coût par ville rend la proposition lisible et révèle de grands écarts. Les étudiants saluent la méthode, tandis que votre marge budgétaire se réduit.
 
-Sondage : 13.2 → 14.1 (rang 1 → 1)
+Sondage : 13.2 → 14.2 (rang 1 → 1)
 
 ## 13. Le marché sous pression — _campaign/campaign_
 
@@ -132,7 +132,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 **Les factures donnent du poids au déplacement** — Les documents vérifiés remplacent les échanges confus par un cas concret. Le plafonnement séduit les petits commerces, tout en soulevant une question de financement.
 
-Sondage : 14.1 → 13.7 (rang 1 → 1)
+Sondage : 14.2 → 13.8 (rang 1 → 1)
 
 ## 14. La rénovation thermique doit changer d’échelle — _campaign/party_
 
@@ -142,7 +142,7 @@ Le projet prévoit de rénover les logements les plus énergivores, mais les art
 
 **Les régions pilotent la rénovation** — Le dispositif s’adapte aux bâtiments et aux entreprises locales, tout en renforçant l’implantation territoriale. Les différences de capacité administrative risquent de creuser les écarts entre régions.
 
-Sondage : 13.7 → 13.9 (rang 1 → 1)
+Sondage : 13.8 → 14 (rang 1 → 1)
 
 ## 15. Une contradiction chez le camp centriste — _campaign/debate_
 
@@ -152,7 +152,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 **Le fond plutôt que l’archive** — La proposition de débat de fond est saluée pour sa hauteur de vue et évite tout procès d’intention. Elle prive votre camp d’un angle d’attaque immédiat que certains auraient préféré voir exploité.
 
-Sondage : 13.9 → 14 (rang 1 → 1)
+Sondage : 14 → 14.1 (rang 1 → 1)
 
 ## 16. La France à cinquante degrés — _official_campaign/program_
 
@@ -162,7 +162,7 @@ Sondage : 13.9 → 14 (rang 1 → 1)
 
 **L’adaptation reçoit un budget durable** — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
 
-Sondage : 14 → 15 (rang 1 → 1)
+Sondage : 14.1 → 15.1 (rang 1 → 1)
 
 ## 17. Contrôles aux frontières : quels moyens — _official_campaign/program_
 
@@ -172,7 +172,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 **Une réponse ciblée et réversible** — La mesure évite la lourdeur d’un contrôle systématique tout en donnant une réponse concrète à l’incident. Certains commentateurs la jugent trop modeste pour peser réellement sur les passages constatés.
 
-Sondage : 15 → 14.6 (rang 1 → 1)
+Sondage : 15.1 → 14.7 (rang 1 → 1)
 
 ## 18. La croissance simulée se retourne — _official_campaign/world_
 
@@ -182,7 +182,7 @@ Dans la chronologie fictive de la partie, l’Insee publie un indicateur signala
 
 **La trajectoire ne change pas au premier indicateur** — La stabilité rassure les électeurs préoccupés par les comptes et évite les annonces précipitées. Les salariés menacés de chômage voient surtout une campagne qui attend des données supplémentaires.
 
-Sondage : 14.6 → 14.8 (rang 1 → 1)
+Sondage : 14.7 → 14.9 (rang 1 → 1)
 
 ## 19. L’imprimeur a doublé une ligne — _official_campaign/scandal_
 
@@ -192,7 +192,7 @@ Sondage : 14.6 → 14.8 (rang 1 → 1)
 
 **L’avoir s’accompagne d’un audit** — Les autres devis sont corrects et le doublon apparaît isolé. Le contrôle renforcé protège la suite du contrat sans interrompre l’impression des affiches déjà attendues.
 
-Sondage : 14.8 → 15 (rang 1 → 1)
+Sondage : 14.9 → 15 (rang 1 → 1)
 
 ## 20. Le PS propose trois engagements communs — _official_campaign/alliance_
 
@@ -202,7 +202,7 @@ Le Parti socialiste propose à votre campagne une réunion publique sur les sala
 
 **La compétition à gauche se durcit** — Votre socle apprécie une ligne sans compromis et le PS transforme le refus en argument sur votre isolement. Une alliance ultérieure demandera désormais une concession plus importante.
 
-Sondage : 15 → 12.8 (rang 1 → 1)
+Sondage : 15 → 12.8 (rang 1 → 2)
 
 ## 21. Deux heures sans élément de langage — _official_campaign/media_
 
@@ -212,7 +212,7 @@ France Culture propose un entretien de deux heures sur votre parcours, vos lectu
 
 **L’équipe brille, le candidat s’efface** — Votre responsable maîtrise l’exercice et installe plusieurs propositions dans le débat. Votre absence nourrit cependant l’idée que vous protégez trop votre parole lorsque le format devient imprévisible.
 
-Sondage : 12.8 → 15.4 (rang 1 → 1)
+Sondage : 12.8 → 15.4 (rang 2 → 1)
 
 ## 22. Le prochain budget de la santé — _official_campaign/program_
 
@@ -222,7 +222,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 **Les effectifs passent avant la transformation** — Les équipes hospitalières disposent d’un engagement quantifié et mobilisateur. Le recrutement réel et la recette choisie restent à sécuriser, ce qui ouvre deux fronts techniques sans affaiblir la priorité politique.
 
-Sondage : 15.4 → 15.7 (rang 1 → 1)
+Sondage : 15.4 → 15.8 (rang 1 → 1)
 
 ## 23. Les locataires redoutent les interdictions — _official_campaign/party_
 
@@ -232,7 +232,7 @@ Des associations de locataires craignent que les obligations de rénovation réd
 
 **Un bail vert partage le coût** — Le montage évite une interdiction uniforme et maintient davantage de logements disponibles. Sa complexité administrative réduit son effet immédiat auprès des ménages les plus pressés.
 
-Sondage : 15.7 → 16 (rang 1 → 1)
+Sondage : 15.8 → 16.1 (rang 1 → 1)
 
 ## 24. La minute qui vous appartient — _between_rounds/debate_
 
@@ -242,7 +242,7 @@ Sondage : 15.7 → 16 (rang 1 → 1)
 
 **Une minute de contrat gouvernemental** — La conclusion relie la campagne à l’exercice du pouvoir et confirme votre sérieux. Elle ne produit pas la phrase virale espérée, mais donne aux électeurs hésitants une raison ordonnée de vous choisir.
 
-Sondage : 16 → 16.2 (rang 1 → 1)
+Sondage : 16.1 → 16.3 (rang 1 → 1)
 
 ## 25. Les dernières heures autorisées — _between_rounds/between_rounds_
 
@@ -252,7 +252,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Cent points de contact avant le silence** — Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.
 
-Sondage : 16.2 → 16.4 (rang 1 → 1)
+Sondage : 16.3 → 16.4 (rang 1 → 1)
 
 ## 26. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
 
@@ -262,7 +262,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le bilan adverse occupe le duel** — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
 
-Sondage : 16.4 → 16.6 (rang 1 → 1)
+Sondage : 16.4 → 16.5 (rang 1 → 1)
 
 ## 27. Le second tour exige une coalition climatique — _between_rounds/party_
 
@@ -272,7 +272,7 @@ Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les
 
 **Dix objectifs organisent la coalition** — Les partenaires disposent de garanties précises et les militants de gauche rejoignent la campagne. Le nombre d’engagements négociés alimente les doutes sur la vitesse de décision.
 
-Sondage : 16.6 → 16.7 (rang 1 → 1)
+Sondage : 16.5 → 16.6 (rang 1 → 1)
 
 ## 28. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
 
@@ -282,7 +282,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Les soutiens viennent sans contrat** — Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.
 
-Sondage : 16.7 → 17 (rang 1 → 1)
+Sondage : 16.6 → 16.9 (rang 1 → 1)
 
 ## 29. Les reports refusent la mécanique — _government_epilogue/between_rounds_
 
@@ -292,7 +292,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 17 → 17 (rang 1 → 1)
+Sondage : 16.9 → 16.9 (rang 1 → 1)
 
 ## 30. Quinze ministres pour une coalition — _government_epilogue/government_
 
@@ -302,7 +302,7 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 **Les soutiens deviennent responsabilité ministérielle** — La règle rend le partage compréhensible et stabilise les partenaires avant le premier Conseil des ministres. Elle laisse moins de place aux personnalités indépendantes et à certains territoires.
 
-Sondage : 17 → 16.9 (rang 1 → 1)
+Sondage : 16.9 → 16.8 (rang 1 → 1)
 
 ## 31. Deux alliés réclament Bercy — _finished/government_
 
@@ -312,4 +312,4 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 **Deux ministères partagent une frontière sensible** — Chaque allié obtient un portefeuille substantiel et la coalition reste entière. Les compétences se chevauchent dès le premier dossier fiscal, annonçant des arbitrages permanents.
 
-Sondage : 16.9 → 16.9 (rang 1 → 1)
+Sondage : 16.8 → 16.8 (rang 1 → 1)

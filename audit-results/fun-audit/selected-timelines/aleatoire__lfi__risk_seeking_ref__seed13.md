@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **aleatoire**
 
-Score final : 87/100 · 1er tour : 18.9 · 2nd tour : 61.1 · qualifié : true · vainqueur : true · signaux mémorables : 4
+Score final : 87/100 · 1er tour : 19 · 2nd tour : 61.1 · qualifié : true · vainqueur : true · signaux mémorables : 4
 
 ## 1. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
 
@@ -12,7 +12,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 **Le contenu ciblé, l’anonymat préservé** — La mesure évite le débat sur l’identification et cible directement les contenus problématiques. Des associations familiales la jugent insuffisante face à l’ampleur de l’exposition des mineurs.
 
-Sondage : 12.1 → 11.6 (rang 3 → 5)
+Sondage : 12.1 → 11.7 (rang 2 → 5)
 
 ## 2. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
 
@@ -22,7 +22,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 **La campagne jeune trouve sa voix** — Les vidéos et réunions touchent des publics absents de vos meetings, tout en respectant les trois engagements communs. Quelques différences de vocabulaire deviennent visibles sans créer de contradiction programmatique.
 
-Sondage : 11.6 → 11.8 (rang 5 → 3)
+Sondage : 11.7 → 11.9 (rang 5 → 3)
 
 ## 3. LFI choisit entre mouvement et candidat — _pre_campaign/party_
 
@@ -32,7 +32,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 **Les groupes daction gagnent une marge réelle** — Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.
 
-Sondage : 11.8 → 12 (rang 3 → 3)
+Sondage : 11.9 → 12.1 (rang 3 → 2)
 
 ## 4. Le direct des questions citoyennes — _pre_campaign/media_
 
@@ -42,7 +42,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct change votre journée** — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
 
-Sondage : 12 → 11.9 (rang 3 → 3)
+Sondage : 12.1 → 12 (rang 2 → 2)
 
 ## 5. Les abstentionnistes demandent une preuve — _pre_campaign/party_
 
@@ -52,7 +52,7 @@ Sondage : 12 → 11.9 (rang 3 → 3)
 
 **La participation devient une opération civique** — Les bénévoles vérifient les procédures et touchent des personnes éloignées des campagnes. Labsence de consigne directe renforce la confiance, même si tous les nouveaux inscrits ne choisiront pas LFI.
 
-Sondage : 11.9 → 12.6 (rang 3 → 2)
+Sondage : 12 → 12.7 (rang 2 → 2)
 
 ## 6. Qui financera les priorités — _pre_campaign/program_
 
@@ -62,7 +62,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 **Une recette sûre, une compensation contestée** — Le rendement paraît robuste et la protection des produits essentiels limite l’effet immédiat. Le crédit compensatoire semble complexe et votre campagne doit désormais prouver qu’aucun ménage modeste ne perdra.
 
-Sondage : 12.6 → 12.9 (rang 2 → 1)
+Sondage : 12.7 → 12.9 (rang 2 → 1)
 
 ## 7. Une minute sur les loyers — _pre_campaign/media_
 
@@ -82,7 +82,7 @@ Sondage : 12.9 → 13.2 (rang 1 → 1)
 
 **Le contrat trouve ses partenaires** — Le représentant régional confirme que le montage existe déjà ailleurs. Les salariés obtiennent une réponse applicable et votre proposition gagne en crédibilité locale.
 
-Sondage : 13.2 → 13.5 (rang 1 → 1)
+Sondage : 13.2 → 13.6 (rang 1 → 1)
 
 ## 9. La ligne de départ des retraites — _campaign/program_
 
@@ -92,7 +92,7 @@ Votre convention sociale doit arrêter une règle lisible sur les retraites. Les
 
 **Une continuité assortie d’exceptions** — Le financement paraît plus robuste que les scénarios concurrents et les départs anticipés limitent la dureté du signal. Les syndicats contestent néanmoins le maintien de l’âge et annoncent qu’ils en feront un sujet de campagne.
 
-Sondage : 13.5 → 13.8 (rang 1 → 1)
+Sondage : 13.6 → 13.9 (rang 1 → 1)
 
 ## 10. Une nuit avec les urgences — _campaign/campaign_
 
@@ -102,7 +102,7 @@ Sondage : 13.5 → 13.8 (rang 1 → 1)
 
 **Les gardes obtiennent une réponse ciblée** — Le calendrier de recrutement est accueilli avec soulagement, mais les services administratifs contestent le redéploiement. La mesure devient un engagement précis de campagne.
 
-Sondage : 13.8 → 14.2 (rang 1 → 1)
+Sondage : 13.9 → 14.3 (rang 1 → 1)
 
 ## 11. La plateforme publique tombe en panne — _campaign/world_
 
@@ -112,7 +112,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 **Le numérique reçoit une solution de secours** — La garantie physique parle aux usagers exclus du service et l’audit évite d’inventer la cause de la panne. La mesure suppose de maintenir des capacités coûteuses même lorsque les plateformes fonctionnent.
 
-Sondage : 14.2 → 14.7 (rang 1 → 1)
+Sondage : 14.3 → 14.8 (rang 1 → 1)
 
 ## 12. La convention citoyenne réclame une réponse — _campaign/campaign_
 
@@ -122,7 +122,7 @@ Une convention locale tirée au sort vous remet douze propositions sur les trans
 
 **Trois propositions entrent au programme** — La convention apprécie la réponse détaillée, y compris les refus. Les trois engagements deviennent vérifiables et pourront être rappelés lors de votre prochain déplacement territorial.
 
-Sondage : 14.7 → 15 (rang 1 → 1)
+Sondage : 14.8 → 15.1 (rang 1 → 1)
 
 ## 13. Le marché sous pression — _campaign/campaign_
 
@@ -132,7 +132,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 **Les factures donnent du poids au déplacement** — Les documents vérifiés remplacent les échanges confus par un cas concret. Le plafonnement séduit les petits commerces, tout en soulevant une question de financement.
 
-Sondage : 15 → 15.5 (rang 1 → 1)
+Sondage : 15.1 → 15.6 (rang 1 → 1)
 
 ## 14. La Sixième République doit prendre forme — _campaign/party_
 
@@ -142,7 +142,7 @@ Les militants veulent replacer la Sixième République au cœur de la campagne. 
 
 **La rupture reçoit un calendrier** — La procédure rend le projet vérifiable et répond aux craintes sur la transition. Elle expose aussi chaque règle à la critique et oblige LFI à expliquer comment gouverner pendant dix-huit mois.
 
-Sondage : 15.5 → 15.8 (rang 1 → 1)
+Sondage : 15.6 → 15.9 (rang 1 → 1)
 
 ## 15. Une accusation jugée infondée vise un adversaire — _campaign/campaign_
 
@@ -152,7 +152,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 **Une prise de position publique et rare** — Le geste est salué pour son intégrité, y compris par des électeurs peu proches de votre ligne. Le camp socialiste prend acte du soutien inattendu, qui laisse une trace durable dans la relation entre les deux équipes.
 
-Sondage : 15.8 → 15.9 (rang 1 → 1)
+Sondage : 15.9 → 16 (rang 1 → 1)
 
 ## 16. Les soutiens envahissent le plateau — _official_campaign/debate_
 
@@ -162,7 +162,7 @@ Sondage : 15.8 → 15.9 (rang 1 → 1)
 
 **Le point faible reçoit une suite** — Vos soutiens ne prétendent pas que tout fut réussi et annoncent un travail précis sur le sujet manqué. La dynamique immédiate reste modeste, mais la campagne gagne un mécanisme de correction crédible.
 
-Sondage : 15.9 → 15.8 (rang 1 → 1)
+Sondage : 16 → 15.9 (rang 1 → 1)
 
 ## 17. Douze députés offrent leur expérience — _official_campaign/alliance_
 
@@ -172,7 +172,7 @@ Douze parlementaires de sensibilités proches proposent de soutenir votre candid
 
 **Douze soutiens sans discipline forcée** — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
 
-Sondage : 15.8 → 16.4 (rang 1 → 1)
+Sondage : 15.9 → 16.5 (rang 1 → 1)
 
 ## 18. La croissance simulée se retourne — _official_campaign/world_
 
@@ -182,7 +182,7 @@ Dans la chronologie fictive de la partie, l’Insee publie un indicateur signala
 
 **La trésorerie est liée au maintien de l’emploi** — La mesure soulage rapidement les entreprises sans subventionner les suppressions de postes. Les contrôles nécessaires ralentissent son déploiement et le manque à gagner doit être compensé au budget.
 
-Sondage : 16.4 → 16.8 (rang 1 → 1)
+Sondage : 16.5 → 16.9 (rang 1 → 1)
 
 ## 19. Un fichier militant sort du siège — _official_campaign/scandal_
 
@@ -192,7 +192,7 @@ Un bénévole signale qu’un tableau de contacts a été partagé sur un lien s
 
 **La campagne numérique se met à l’arrêt** — La reconstruction supprime plusieurs accès anciens et rassure les bénévoles sur la sécurité future. Deux jours sans fichiers ni relances réduisent nettement la mobilisation au pire moment.
 
-Sondage : 16.8 → 16.8 (rang 1 → 1)
+Sondage : 16.9 → 16.9 (rang 1 → 1)
 
 ## 20. Le chiffrage de la matinale _(CHAÎNE)_ — _official_campaign/media_
 
@@ -202,7 +202,7 @@ Sur France Inter, la journaliste vous demande le coût annuel de votre mesure fi
 
 **Le chiffre résiste à la vérification** — Votre mémoire tient bon : le montant correspond au dossier technique et l’explication du financement est jugée solide. La séquence renforce une compétence économique jusque-là peu visible.
 
-Sondage : 16.8 → 14.9 (rang 1 → 1)
+Sondage : 16.9 → 15 (rang 1 → 1)
 
 ## 21. Une proposition de pacte de non-agression — _official_campaign/campaign_
 
@@ -212,7 +212,7 @@ Sondage : 16.8 → 14.9 (rang 1 → 1)
 
 **Le contraste maintenu jusqu’au bout** — Le refus marque une différence claire de méthode et mobilise les électeurs qui attendaient un contraste net. Il est aussi commenté comme un signe de tension entre les deux équipes lors d’un événement censé rassembler.
 
-Sondage : 14.9 → 17.2 (rang 1 → 1)
+Sondage : 15 → 17.3 (rang 1 → 1)
 
 ## 22. Le coût passe au crible _(CHAÎNE)_ — _official_campaign/media_
 
@@ -222,7 +222,7 @@ Le Monde confronte votre réponse de matinale au document budgétaire de la camp
 
 **Les calculs deviennent auditables** — Les spécialistes repèrent deux hypothèses discutables mais aucune dissimulation. En donnant accès au modèle, vous transformez une vérification défensive en référence commune pour les prochains débats.
 
-Sondage : 17.2 → 17.2 (rang 1 → 1)
+Sondage : 17.3 → 17.3 (rang 1 → 1)
 
 ## 23. Saint-Denis ouvre ses réseaux associatifs — _official_campaign/party_
 
@@ -232,7 +232,7 @@ Des associations de Saint-Denis proposent une semaine de réunions sur les prix,
 
 **Six soirées produisent un contrat local** — Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.
 
-Sondage : 17.2 → 17.3 (rang 1 → 1)
+Sondage : 17.3 → 17.4 (rang 1 → 1)
 
 ## 24. La laïcité à l’épreuve du quotidien — _between_rounds/program_
 
@@ -242,7 +242,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 **La formation plutôt qu’une nouvelle loi** — La proposition est concrète et administrativement réaliste, ce qui rassure les agents concernés. Elle ne répond pas aux attentes des camps qui espéraient un signal politique plus net, dans un sens ou dans l’autre.
 
-Sondage : 17.3 → 17.5 (rang 1 → 1)
+Sondage : 17.4 → 17.6 (rang 1 → 1)
 
 ## 25. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
 
@@ -252,7 +252,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Trois soutiens gardent trois identités** — Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.
 
-Sondage : 17.5 → 17.6 (rang 1 → 1)
+Sondage : 17.6 → 17.7 (rang 1 → 1)
 
 ## 26. LFI doit élargir sans se renier — _between_rounds/party_
 
@@ -262,7 +262,7 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 **Dix mesures forment une majorité de gauche** — La coalition obtient un programme positif et déploie tous ses réseaux. Plusieurs engagements LFI sont reportés, ce qui fragilise la cohésion tout en améliorant fortement les reports.
 
-Sondage : 17.6 → 17.6 (rang 1 → 1)
+Sondage : 17.7 → 17.7 (rang 1 → 1)
 
 ## 27. Les reports refusent la mécanique — _between_rounds/between_rounds_
 
@@ -272,7 +272,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 17.6 → 17.6 (rang 1 → 1)
+Sondage : 17.7 → 17.7 (rang 1 → 1)
 
 ## 28. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
 
@@ -282,7 +282,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Cinq décisions dessinent un gouvernement** — Vous répondez aux relances sans ajouter de promesse et rendez votre première année prévisible. La maîtrise des arbitrages convainc des électeurs qui hésitaient encore sur votre capacité à gouverner.
 
-Sondage : 17.6 → 21.3 (rang 1 → 1)
+Sondage : 17.7 → 21.4 (rang 1 → 1)
 
 ## 29. La coalition réclame une annexe — _government_epilogue/between_rounds_
 
@@ -292,7 +292,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 **Huit accords et quatre refus composent lannexe** — Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.
 
-Sondage : 21.3 → 17.9 (rang 1 → 1)
+Sondage : 21.4 → 18 (rang 1 → 1)
 
 ## 30. Quinze ministres pour une coalition — _government_epilogue/government_
 
@@ -302,7 +302,7 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 **Les soutiens deviennent responsabilité ministérielle** — La règle rend le partage compréhensible et stabilise les partenaires avant le premier Conseil des ministres. Elle laisse moins de place aux personnalités indépendantes et à certains territoires.
 
-Sondage : 17.9 → 17.8 (rang 1 → 1)
+Sondage : 18 → 17.9 (rang 1 → 1)
 
 ## 31. Deux alliés réclament Bercy — _finished/government_
 
@@ -312,4 +312,4 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 **Une tierce personne prend Bercy** — La nomination évite de récompenser une rivalité et apporte une expertise reconnue dans lunivers du jeu. Les deux alliés se sentent humiliés ensemble et coordonnent leurs exigences au Parlement.
 
-Sondage : 17.8 → 17.6 (rang 1 → 1)
+Sondage : 17.9 → 17.7 (rang 1 → 1)

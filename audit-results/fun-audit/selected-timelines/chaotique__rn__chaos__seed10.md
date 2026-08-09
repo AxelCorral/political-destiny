@@ -12,7 +12,7 @@ L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La confére
 
 **Le net augmente, les services demandent la facture** — La mesure est facile à voir sur une fiche de paie et séduit des salariés du privé. Les agents publics et les associations demandent quelles dépenses courantes absorberont exactement la compensation.
 
-Sondage : 11.9 → 13.4 (rang 2 → 1)
+Sondage : 12 → 13.5 (rang 1 → 1)
 
 ## 2. Une minute sur les loyers — _pre_campaign/media_
 
@@ -22,7 +22,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 **La garantie tient dans le format** — La proposition est immédiatement comprise et reprise dans les associations étudiantes. Les questions de coût arrivent ensuite, mais vous avez enfin une mesure identifiable sur le logement des jeunes.
 
-Sondage : 13.4 → 13.7 (rang 1 → 1)
+Sondage : 13.5 → 13.8 (rang 1 → 1)
 
 ## 3. Deux cents maires demandent un contrat — _pre_campaign/alliance_
 
@@ -32,7 +32,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 **Le programme national ne reçoit pas de cosignataire** — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
 
-Sondage : 13.7 → 13.8 (rang 1 → 1)
+Sondage : 13.8 → 13.9 (rang 1 → 1)
 
 ## 4. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
 
@@ -42,7 +42,7 @@ Sondage : 13.7 → 13.8 (rang 1 → 1)
 
 **La commande publique ouvre un débat** — Les syndicats applaudissent l’objectif industriel, tandis que les juristes européens demandent des précisions. Votre ligne devient lisible et immédiatement contestée sur sa faisabilité.
 
-Sondage : 13.8 → 13.5 (rang 1 → 1)
+Sondage : 13.9 → 13.6 (rang 1 → 1)
 
 ## 5. Une ligne du CV est fausse — _pre_campaign/scandal_
 
@@ -52,7 +52,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 **Quarante biographies passent au contrôle** — La vérification ne trouve aucune autre fausse fonction et le responsable présente des excuses avant de revenir. Votre réponse paraît proportionnée, au prix d’une semaine de ralentissement programmatique.
 
-Sondage : 13.5 → 14.1 (rang 1 → 1)
+Sondage : 13.6 → 14.2 (rang 1 → 1)
 
 ## 6. Le regroupement familial en question — _pre_campaign/program_
 
@@ -62,7 +62,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 **Le même cadre, appliqué plus vite** — La mesure administrative est difficile à contester sur le fond et rassure les familles en attente. Elle ne répond pas à la demande de fermeté exprimée par une partie de votre électorat.
 
-Sondage : 14.1 → 14.3 (rang 1 → 1)
+Sondage : 14.2 → 14.4 (rang 1 → 1)
 
 ## 7. Le gaz double en une semaine — _pre_campaign/world_
 
@@ -72,7 +72,7 @@ Dans l’économie simulée, le prix de gros du gaz double après une rupture d�
 
 **Six mois de prix bloqués** — La mesure est immédiatement lisible et protège chaque ménage contre le choc. Son coût dépend de la durée de la crise et réduit l’incitation à économiser le gaz au moment où les stocks sont tendus.
 
-Sondage : 14.3 → 14.6 (rang 1 → 1)
+Sondage : 14.4 → 14.7 (rang 1 → 1)
 
 ## 8. La préférence nationale rencontre le droit — _pre_campaign/party_
 
@@ -82,7 +82,7 @@ Les juristes du programme avertissent que plusieurs mesures sociales seraient co
 
 **La mesure devient une condition de résidence** — Le dispositif paraît plus robuste juridiquement et conserve une priorité liée à la contribution. Le courant identitaire dénonce l’abandon d’un symbole central de la campagne.
 
-Sondage : 14.6 → 16.3 (rang 1 → 1)
+Sondage : 14.7 → 16.4 (rang 1 → 1)
 
 ## 9. Ce que l’école doit transmettre — _campaign/program_
 
@@ -92,7 +92,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 **Un socle commun évalué** — La proposition rassure les parents inquiets d’un manque de repères communs et donne un cadre national lisible. Les syndicats enseignants contestent l’ajout d’une évaluation qu’ils jugent bureaucratique.
 
-Sondage : 16.3 → 13.6 (rang 1 → 1)
+Sondage : 16.4 → 13.7 (rang 1 → 1)
 
 ## 10. Deux invitations au même horaire — _campaign/campaign_
 
@@ -102,7 +102,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 **Les deux rendez-vous survivent** — Vous tenez les deux engagements avec peu de préparation et une fatigue visible. L’image d’endurance plaît, tandis que plusieurs réponses télévisées manquent de précision.
 
-Sondage : 13.6 → 13.2 (rang 1 → 1)
+Sondage : 13.7 → 13.3 (rang 1 → 1)
 
 ## 11. La collecte se bloque — _campaign/campaign_
 
@@ -112,7 +112,7 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 **Les comptes retrouvent une marge** — La suppression de quatre étapes stabilise la trésorerie et rassure le siège. Les territoires concernés dénoncent une campagne qui les abandonne en premier.
 
-Sondage : 13.2 → 13.1 (rang 1 → 1)
+Sondage : 13.3 → 13.2 (rang 1 → 1)
 
 ## 12. La note sur le vote utile fuite _(CHAÎNE)_ — _campaign/internal_
 
@@ -122,7 +122,7 @@ Une note interne propose d’attaquer un parti voisin pour capter son électorat
 
 **Le consultant porte seul la fuite** — Léonard Pujol confirme avoir écrit le document, mais produit des courriels montrant que l’équipe en discutait. Son éviction protège temporairement la direction et crée un témoin hostile disposant d’autres informations internes.
 
-Sondage : 13.1 → 16.3 (rang 1 → 1)
+Sondage : 13.2 → 16.4 (rang 1 → 1)
 
 ## 13. Louis Ferran refuse la modération _(CHAÎNE)_ — _campaign/party_
 
@@ -132,7 +132,7 @@ Louis Ferran, cadre fictif du RN, juge la stratégie de normalisation trop lente
 
 **L’économie remplace le conflit identitaire** — L’équipe présente une image disciplinée et peut consacrer plusieurs jours au pouvoir d’achat. Les responsables proches de Louis Ferran ralentissent la mobilisation dans leurs départements.
 
-Sondage : 16.3 → 13 (rang 1 → 1)
+Sondage : 16.4 → 13.1 (rang 1 → 1)
 
 ## 14. La grève bloque les transports — _campaign/world_
 
@@ -142,7 +142,7 @@ Dans la simulation, une grève nationale des transports entre dans sa quatrième
 
 **Votre présence renforce le piquet** — Les grévistes accueillent votre soutien et votre socle social se mobilise. Les usagers bloqués et une partie des classes moyennes considèrent que vous privilégiez la démonstration à la résolution.
 
-Sondage : 13 → 12.3 (rang 1 → 2)
+Sondage : 13.1 → 12.4 (rang 1 → 1)
 
 ## 15. Le contrat du conseiller est publié — _campaign/scandal_
 
@@ -152,7 +152,7 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 **La clause attend une médiation** — Le litige gèle la prime et déplace le débat vers le droit des contrats. La campagne évite de payer immédiatement mais prolonge une affaire dont Léonard Pujol commente chaque étape.
 
-Sondage : 12.3 → 12 (rang 2 → 2)
+Sondage : 12.4 → 12.1 (rang 1 → 1)
 
 ## 16. Le courant Ferran teste la discipline _(CHAÎNE)_ — _official_campaign/party_
 
@@ -162,7 +162,7 @@ Après son mandat limité ou son éviction, Louis Ferran réunit ses soutiens et
 
 **La discipline l’emporte sur le courant** — Les interventions publiques deviennent cohérentes et Élise Montclar contrôle son agenda. Plusieurs responsables quittent le dispositif et peuvent transformer leur départ en dissidence autonome.
 
-Sondage : 12 → 14.9 (rang 2 → 1)
+Sondage : 12.1 → 15 (rang 1 → 1)
 
 ## 17. La loi migratoire du programme — _official_campaign/program_
 
@@ -172,7 +172,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 **Le travail devient le critère de régularisation** — Les employeurs concernés et les associations comprennent immédiatement la règle. Vos adversaires dénoncent un appel d’air et font de cette mesure le test principal de votre crédibilité aux frontières.
 
-Sondage : 14.9 → 11.7 (rang 1 → 4)
+Sondage : 15 → 11.8 (rang 1 → 4)
 
 ## 18. Les soutiens envahissent le plateau — _official_campaign/debate_
 
@@ -182,7 +182,7 @@ Sondage : 14.9 → 11.7 (rang 1 → 4)
 
 **Le silence cède les premières heures** — Le refus de proclamer une victoire artificielle plaît aux électeurs lassés du commentaire permanent. Vos concurrents occupent cependant seuls les plateaux et fixent une partie de l’interprétation avant le matin.
 
-Sondage : 11.7 → 11.3 (rang 4 → 6)
+Sondage : 11.8 → 11.4 (rang 4 → 6)
 
 ## 19. Une apostrophe change le slogan _(RARE)_ — _official_campaign/rare_
 
@@ -192,7 +192,7 @@ Un lot de cinquante mille tracts transforme par erreur « la France en commun »
 
 **La faute devient volontaire après coup** — Certains militants adoptent la formule et les réseaux la détournent largement. Votre tentative de réécriture amuse autant qu’elle nourrit le doute sur le sérieux logistique.
 
-Sondage : 11.3 → 11.1 (rang 6 → 6)
+Sondage : 11.4 → 11.2 (rang 6 → 6)
 
 ## 20. Un courant identitaire prépare sa candidature _(RARE · CHAÎNE)_ — _official_campaign/party_
 
@@ -202,7 +202,7 @@ Des cadres fictifs exclus après le conflit interne annoncent un comité concurr
 
 **Deux campagnes se disputent le même socle** — La candidate conserve sa ligne et mobilise les structures nationales contre le comité. La concurrence absorbe du temps, réduit les dons et fragmente les équipes locales.
 
-Sondage : 11.1 → 14.7 (rang 6 → 1)
+Sondage : 11.2 → 14.8 (rang 6 → 1)
 
 ## 21. La Garonne sort de son lit — _official_campaign/world_
 
@@ -212,7 +212,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 **Une présence acceptée mais inutile au commandement** — Les autorités vous laissent rencontrer les équipes hors des zones opérationnelles. Votre discrétion évite la gêne, mais le déplacement mobilise tout de même une escorte et suscite un débat sur son utilité.
 
-Sondage : 14.7 → 9.8 (rang 1 → 7)
+Sondage : 14.8 → 9.9 (rang 1 → 7)
 
 ## 22. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
 
@@ -222,7 +222,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 **Le doute entretenu sans affirmation directe** — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
 
-Sondage : 9.8 → 9.8 (rang 7 → 7)
+Sondage : 9.9 → 9.9 (rang 7 → 7)
 
 ## 23. Deux équipes se disputent le terrain — _official_campaign/internal_
 
@@ -232,7 +232,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 **La vidéo atteint Lyon sans apaiser les sections** — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
 
-Sondage : 9.8 → 9.7 (rang 7 → 7)
+Sondage : 9.9 → 9.8 (rang 7 → 7)
 
 ## 24. Les petites villes ouvrent la campagne — _between_rounds/party_
 
@@ -242,7 +242,7 @@ Des élus locaux proches du RN proposent une tournée des petites villes sur les
 
 **La tournée devient un meeting national** — Le rassemblement reçoit une forte couverture et mobilise le socle régional. Les sujets de santé et de transport disparaissent, décevant les élus qui avaient préparé les visites.
 
-Sondage : 9.7 → 9.8 (rang 7 → 7)
+Sondage : 9.8 → 9.8 (rang 7 → 7)
 
 ## 25. Aucun finaliste ne porte votre ligne — _finished/between_rounds_
 

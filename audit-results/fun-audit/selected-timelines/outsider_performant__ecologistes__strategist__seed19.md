@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **outsider_performant**
 
-Score final : 79/100 · 1er tour : 13.1 · 2nd tour : 59 · qualifié : true · vainqueur : true · signaux mémorables : 5
+Score final : 79/100 · 1er tour : 13.2 · 2nd tour : 59.1 · qualifié : true · vainqueur : true · signaux mémorables : 5
 
 ## 1. Le direct des questions citoyennes — _pre_campaign/media_
 
@@ -12,7 +12,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct se termine sur un calendrier** — Les réponses ne règlent pas tous les cas, mais la conclusion donne une date et un financement à l’engagement. Vous quittez le direct à l’heure, avec une séquence exploitable par les équipes de santé.
 
-Sondage : 7.6 → 10.9 (rang 8 → 8)
+Sondage : 7.7 → 11 (rang 8 → 8)
 
 ## 2. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
 
@@ -22,7 +22,7 @@ Sondage : 7.6 → 10.9 (rang 8 → 8)
 
 **L’équipe de nuit impose ses priorités** — Les échanges font remonter le coût des transports et les horaires de garde. Vous gagnez la confiance du site, mais aucune annonce nationale ne ressort.
 
-Sondage : 10.9 → 11.1 (rang 8 → 7)
+Sondage : 11 → 11.1 (rang 8 → 7)
 
 ## 3. Le siège coûte trop cher — _pre_campaign/internal_
 
@@ -42,7 +42,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 **Une petite ligne devient une grande question** — Le responsable continue à travailler et votre équipe technique reste stable. Votre minimisation offre cependant plusieurs jours de débat sur la vérité des biographies plutôt que sur la transition énergétique.
 
-Sondage : 11.2 → 11.9 (rang 7 → 4)
+Sondage : 11.2 → 12 (rang 7 → 2)
 
 ## 5. La collecte se bloque — _pre_campaign/campaign_
 
@@ -52,7 +52,7 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 **Les petits dons relancent la caisse** — Les objectifs quotidiens sont atteints quatre jours sur sept. La somme ne couvre pas tout, mais transforme plusieurs donateurs en bénévoles actifs.
 
-Sondage : 11.9 → 11 (rang 4 → 7)
+Sondage : 12 → 11.1 (rang 2 → 7)
 
 ## 6. La photographie du quai vide — _pre_campaign/media_
 
@@ -62,7 +62,7 @@ Sondage : 11.9 → 11 (rang 4 → 7)
 
 **Le quai vide devient une affiche** — Votre montage humoristique est massivement partagé et les inscriptions au prochain meeting progressent. Une partie de la presse juge la réponse légère, mais la campagne récupère l’image au lieu de la subir.
 
-Sondage : 11 → 11.1 (rang 7 → 7)
+Sondage : 11.1 → 11.2 (rang 7 → 7)
 
 ## 7. Le slogan divise le siège — _pre_campaign/campaign_
 
@@ -72,7 +72,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 **La rupture reçoit un contenu** — Les trois engagements empêchent le slogan de rester abstrait. Le socle se mobilise, mais les électeurs recherchant la stabilité deviennent plus méfiants.
 
-Sondage : 11.1 → 11.2 (rang 7 → 7)
+Sondage : 11.2 → 11.3 (rang 7 → 7)
 
 ## 8. L’imprimeur a doublé une ligne — _pre_campaign/scandal_
 
@@ -82,7 +82,7 @@ Sondage : 11.1 → 11.2 (rang 7 → 7)
 
 **L’avoir s’accompagne d’un audit** — Les autres devis sont corrects et le doublon apparaît isolé. Le contrôle renforcé protège la suite du contrat sans interrompre l’impression des affiches déjà attendues.
 
-Sondage : 11.2 → 10.6 (rang 7 → 8)
+Sondage : 11.3 → 10.7 (rang 7 → 8)
 
 ## 9. Le PS offre des circonscriptions urbaines — _campaign/party_
 
@@ -92,7 +92,7 @@ Le Parti socialiste propose un accord de campagne dans six métropoles contre un
 
 **L’autonomie devient la règle dans les métropoles** — Les militants disposent d’une campagne clairement écologiste et les listes locales recrutent leurs propres bénévoles. Le PS réplique en contestant l’utilité de la candidature nationale.
 
-Sondage : 10.6 → 11.6 (rang 8 → 5)
+Sondage : 10.7 → 11.6 (rang 8 → 5)
 
 ## 10. La promesse faite à l’école — _campaign/program_
 
@@ -102,7 +102,7 @@ Sondage : 10.6 → 11.6 (rang 8 → 5)
 
 **La revalorisation vient avec une nouvelle mission** — La hausse salariale répond à une attente ancienne, mais le temps supplémentaire est contesté selon les établissements. Le compromis ouvre une négociation sérieuse plutôt qu’une adhésion automatique.
 
-Sondage : 11.6 → 12 (rang 5 → 4)
+Sondage : 11.6 → 12 (rang 5 → 3)
 
 ## 11. Les locataires redoutent les interdictions — _campaign/party_
 
@@ -112,7 +112,7 @@ Des associations de locataires craignent que les obligations de rénovation réd
 
 **Un bail vert partage le coût** — Le montage évite une interdiction uniforme et maintient davantage de logements disponibles. Sa complexité administrative réduit son effet immédiat auprès des ménages les plus pressés.
 
-Sondage : 12 → 12.4 (rang 4 → 2)
+Sondage : 12 → 12.4 (rang 3 → 2)
 
 ## 12. Le contrat d’intégration, jusqu’où aller — _campaign/program_
 
@@ -122,7 +122,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 **Un cadre obligatoire et évalué** — La mesure donne un cadre national lisible et répond à une demande de clarté sur les attentes réciproques. Des associations d’accompagnement alertent sur le risque d’exclusion des personnes les plus fragiles si les tests sont trop exigeants.
 
-Sondage : 12.4 → 12.1 (rang 2 → 3)
+Sondage : 12.4 → 12.2 (rang 2 → 3)
 
 ## 13. Le contrat du conseiller est publié — _campaign/scandal_
 
@@ -132,7 +132,7 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 **La signature est respectée, la clause reste incomprise** — Votre fidélité contractuelle évite un contentieux et mobilise les prestataires autour du résultat. L’électorat découvre cependant une campagne qui traite les voix comme un indicateur de prime privée.
 
-Sondage : 12.1 → 12.8 (rang 3 → 1)
+Sondage : 12.2 → 12.8 (rang 3 → 1)
 
 ## 14. Un rival corrige votre ligne — _campaign/internal_
 
@@ -142,7 +142,7 @@ Dans Le Figaro, un responsable fictif de votre parti affirme que votre propositi
 
 **Le désaccord devient délibération** — Le débat intéresse davantage les militants que le grand public et révèle un conflit politique réel sans attaque personnelle. Votre rival gagne en visibilité mais mémorise le respect accordé à sa position.
 
-Sondage : 12.8 → 12.9 (rang 1 → 1)
+Sondage : 12.8 → 13 (rang 1 → 1)
 
 ## 15. Deux invitations au même horaire — _campaign/campaign_
 
@@ -152,7 +152,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 **Les maires obtiennent votre présence** — La rencontre locale débouche sur trois soutiens et votre porte-parole tient l’entretien. L’absence du candidat limite néanmoins la portée économique nationale.
 
-Sondage : 12.9 → 13 (rang 1 → 1)
+Sondage : 13 → 13.1 (rang 1 → 1)
 
 ## 16. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
 
@@ -162,7 +162,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 **Le concert porte une mesure précise** — Nina Sorel raconte son engagement sans parler au nom de la campagne et attire un public nouveau. Le cadre publié évite la confusion entre soutien artistique et expertise programmatique.
 
-Sondage : 13 → 15 (rang 1 → 1)
+Sondage : 13.1 → 15 (rang 1 → 1)
 
 ## 17. Neuf candidats face au climat — _official_campaign/debate_
 
@@ -252,7 +252,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 **Le programme change de forme entre les deux tours** — La coalition se mobilise sans réserve et certains électorats éliminés obtiennent des motifs clairs de report. Vos deux contradictions réapparaissent aussitôt et votre socle doute de la valeur des promesses du premier tour.
 
-Sondage : 14.5 → 14.2 (rang 1 → 1)
+Sondage : 14.5 → 14.3 (rang 1 → 1)
 
 ## 26. Le second tour exige une coalition climatique — _between_rounds/party_
 
@@ -262,7 +262,7 @@ Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les
 
 **Dix objectifs organisent la coalition** — Les partenaires disposent de garanties précises et les militants de gauche rejoignent la campagne. Le nombre d’engagements négociés alimente les doutes sur la vitesse de décision.
 
-Sondage : 14.2 → 14.2 (rang 1 → 1)
+Sondage : 14.3 → 14.3 (rang 1 → 1)
 
 ## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
 
@@ -272,7 +272,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le bilan adverse occupe le duel** — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
 
-Sondage : 14.2 → 14.3 (rang 1 → 1)
+Sondage : 14.3 → 14.4 (rang 1 → 1)
 
 ## 28. Les dernières heures autorisées — _between_rounds/between_rounds_
 
@@ -282,7 +282,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Cent points de contact avant le silence** — Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.
 
-Sondage : 14.3 → 15.8 (rang 1 → 1)
+Sondage : 14.4 → 15.9 (rang 1 → 1)
 
 ## 29. Les reports refusent la mécanique — _government_epilogue/between_rounds_
 
@@ -292,7 +292,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 15.8 → 14.4 (rang 1 → 1)
+Sondage : 15.9 → 14.5 (rang 1 → 1)
 
 ## 30. Le choix de Matignon — _government_epilogue/government_
 
@@ -302,7 +302,7 @@ Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure 
 
 **Le programme entre directement à Matignon** — La nomination assure une continuité nette avec la campagne et rassure les militants sur les premières réformes. Les alliés réclament davantage de garanties avant de soutenir le gouvernement.
 
-Sondage : 14.4 → 14.5 (rang 1 → 1)
+Sondage : 14.5 → 14.5 (rang 1 → 1)
 
 ## 31. Quinze ministres pour une coalition — _finished/government_
 
@@ -312,4 +312,4 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 **Les soutiens deviennent responsabilité ministérielle** — La règle rend le partage compréhensible et stabilise les partenaires avant le premier Conseil des ministres. Elle laisse moins de place aux personnalités indépendantes et à certains territoires.
 
-Sondage : 14.5 → 14.6 (rang 1 → 1)
+Sondage : 14.5 → 14.7 (rang 1 → 1)

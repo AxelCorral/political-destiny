@@ -52,7 +52,7 @@ La campagne promet un référendum sur la politique migratoire. Les juristes dem
 
 **Le référendum porte sur un texte complet** — La procédure expose clairement les articles proposés et permet une critique juridique précise. Sa complexité réduit la force d’un slogan et révèle plusieurs arbitrages difficiles.
 
-Sondage : 5.2 → 8 (rang 9 → 9)
+Sondage : 5.2 → 8.1 (rang 9 → 9)
 
 ## 6. Le fauteuil libéré au vingt heures — _pre_campaign/media_
 
@@ -62,7 +62,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 **Une lacune sous les projecteurs** — Une question sur les retraites révèle une contradiction entre deux fiches du programme. L’exposition reste précieuse, mais vos adversaires disposent désormais d’un angle simple pour le débat du lendemain.
 
-Sondage : 8 → 7.9 (rang 9 → 9)
+Sondage : 8.1 → 8 (rang 9 → 9)
 
 ## 7. Vingt-quatre heures sans caméra — _pre_campaign/media_
 
@@ -72,7 +72,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 **La fatigue passe à l’écran** — Votre présence dément les rumeurs, mais deux réponses hésitantes montrent pourquoi la pause avait été proposée. La couverture se concentre sur la forme et l’équipe perd une journée de préparation.
 
-Sondage : 7.9 → 7.8 (rang 9 → 9)
+Sondage : 8 → 7.8 (rang 9 → 9)
 
 ## 8. L’atelier industriel de Saint-Nazaire — _campaign/campaign_
 
@@ -82,7 +82,7 @@ Sondage : 7.9 → 7.8 (rang 9 → 9)
 
 **L’équipe de nuit impose ses priorités** — Les échanges font remonter le coût des transports et les horaires de garde. Vous gagnez la confiance du site, mais aucune annonce nationale ne ressort.
 
-Sondage : 7.8 → 7 (rang 9 → 9)
+Sondage : 7.8 → 7.1 (rang 9 → 9)
 
 ## 9. Le direct des questions citoyennes — _campaign/media_
 
@@ -92,7 +92,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct change votre journée** — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
 
-Sondage : 7 → 8.2 (rang 9 → 9)
+Sondage : 7.1 → 8.3 (rang 9 → 9)
 
 ## 10. La périphérie demande un calendrier — _campaign/campaign_
 
@@ -102,7 +102,7 @@ Dans une commune périurbaine d’Occitanie, les habitants relient carburant, te
 
 **La remise répond aux trajets contraints** — Le ciblage évite une aide générale et parle aux actifs présents. Les critères d’accès deviennent aussitôt un sujet national et compliquent la promesse.
 
-Sondage : 8.2 → 8.5 (rang 9 → 9)
+Sondage : 8.3 → 8.6 (rang 9 → 9)
 
 ## 11. La Garonne sort de son lit — _campaign/world_
 
@@ -112,7 +112,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 **Une présence acceptée mais inutile au commandement** — Les autorités vous laissent rencontrer les équipes hors des zones opérationnelles. Votre discrétion évite la gêne, mais le déplacement mobilise tout de même une escorte et suscite un débat sur son utilité.
 
-Sondage : 8.5 → 8.6 (rang 9 → 9)
+Sondage : 8.6 → 8.7 (rang 9 → 9)
 
 ## 12. Le forum étudiant refuse les slogans — _campaign/campaign_
 
@@ -122,7 +122,7 @@ Sondage : 8.5 → 8.6 (rang 9 → 9)
 
 **La garantie répond au premier obstacle** — Les associations reconnaissent une mesure directement utilisable et demandent son financement. Votre équipe obtient un soutien prudent, sans régler la pénurie de logements.
 
-Sondage : 8.6 → 5.4 (rang 9 → 9)
+Sondage : 8.7 → 5.5 (rang 9 → 9)
 
 ## 13. Le marché sous pression — _campaign/campaign_
 
@@ -132,7 +132,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 **Les factures donnent du poids au déplacement** — Les documents vérifiés remplacent les échanges confus par un cas concret. Le plafonnement séduit les petits commerces, tout en soulevant une question de financement.
 
-Sondage : 5.4 → 8.9 (rang 9 → 9)
+Sondage : 5.5 → 8.9 (rang 9 → 9)
 
 ## 14. Les comités numériques cherchent du terrain — _campaign/party_
 
@@ -142,7 +142,7 @@ Les groupes en ligne mobilisent rapidement mais disposent de peu de permanences.
 
 **Les régions deviennent des plateaux numériques** — Les contenus gagnent en diversité géographique et attirent de nouveaux abonnés. Les équipes locales restent dépendantes du passage du studio et structurent peu leur activité autonome.
 
-Sondage : 8.9 → 8.9 (rang 9 → 9)
+Sondage : 8.9 → 9 (rang 9 → 9)
 
 ## 15. Un cadre écologiste tenté par un ralliement — _campaign/alliance_
 
@@ -152,7 +152,7 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 **La coopération plutôt que le débauchage** — La proposition de plateforme commune est bien reçue et évite toute tension personnelle. Elle produit moins d’effet immédiat qu’un ralliement individuel, mais préserve la relation avec le mouvement.
 
-Sondage : 8.9 → 9 (rang 9 → 9)
+Sondage : 9 → 9 (rang 9 → 9)
 
 ## 16. La France à cinquante degrés — _official_campaign/program_
 
@@ -162,7 +162,7 @@ Sondage : 8.9 → 9 (rang 9 → 9)
 
 **L’adaptation reçoit un budget durable** — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
 
-Sondage : 9 → 7.3 (rang 9 → 9)
+Sondage : 9 → 7.4 (rang 9 → 9)
 
 ## 17. Les sections refusent le kit national — _official_campaign/internal_
 
@@ -172,7 +172,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 **La proposition locale devient expérimentation** — Les sections obtiennent une adaptation réelle sans transformer le document en programme parallèle. Le chiffrage retarde l’impression mais renforce la mobilisation et votre implantation en Bretagne.
 
-Sondage : 7.3 → 9.3 (rang 9 → 9)
+Sondage : 7.4 → 9.3 (rang 9 → 9)
 
 ## 18. Une motion réclame un congrès — _official_campaign/internal_
 
@@ -182,7 +182,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 **Le congrès tranche réellement** — Le débat révèle les fractures mais le vote donne une ligne commune et opposable à tous. Vous cédez une part de contrôle sur le programme en échange d’une cohésion renforcée.
 
-Sondage : 9.3 → 9.5 (rang 9 → 9)
+Sondage : 9.3 → 9.6 (rang 9 → 9)
 
 ## 19. Une contradiction chez le camp centriste — _official_campaign/debate_
 
@@ -192,7 +192,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 **Le fond plutôt que l’archive** — La proposition de débat de fond est saluée pour sa hauteur de vue et évite tout procès d’intention. Elle prive votre camp d’un angle d’attaque immédiat que certains auraient préféré voir exploité.
 
-Sondage : 9.5 → 9.7 (rang 9 → 8)
+Sondage : 9.6 → 9.8 (rang 9 → 8)
 
 ## 20. Le meeting change de dispositif — _official_campaign/campaign_
 
@@ -202,7 +202,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 **Le meeting se tient sans incident** — Les contrôles retardent l’ouverture et la salle reste calme. Vous montrez que la campagne peut continuer, sans transformer l’alerte en argument politique.
 
-Sondage : 9.7 → 9.5 (rang 8 → 9)
+Sondage : 9.8 → 9.6 (rang 8 → 9)
 
 ## 21. Le RN offre des désistements limités — _official_campaign/party_
 
@@ -212,7 +212,7 @@ Le RN propose des désistements dans quelques circonscriptions contre un pacte d
 
 **La concurrence devient totale** — Les militants disposent d’un objectif clair et la candidature ne dépend d’aucune négociation. Les moyens financiers se dispersent et la droite nationale multiplie les campagnes concurrentes.
 
-Sondage : 9.5 → 9.9 (rang 9 → 8)
+Sondage : 9.6 → 10 (rang 9 → 8)
 
 ## 22. La minute qui vous appartient — _official_campaign/debate_
 
@@ -222,7 +222,7 @@ Sondage : 9.5 → 9.9 (rang 9 → 8)
 
 **Un visage reste après le débat** — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
 
-Sondage : 9.9 → 10.1 (rang 8 → 8)
+Sondage : 10 → 10.2 (rang 8 → 8)
 
 ## 23. La loi migratoire du programme — _official_campaign/program_
 
@@ -232,7 +232,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 **Le Parlement reçoit un objectif annuel** — La mesure répond à la demande de contrôle et donne un rendez-vous démocratique régulier. Les juristes rappellent que le droit d’asile ne peut être traité comme un quota, ce qui oblige à préciser rapidement le périmètre.
 
-Sondage : 10.1 → 10.2 (rang 8 → 8)
+Sondage : 10.2 → 10.3 (rang 8 → 8)
 
 ## 24. Un fichier militant sort du siège — _between_rounds/scandal_
 
@@ -242,7 +242,7 @@ Un bénévole signale qu’un tableau de contacts a été partagé sur un lien s
 
 **Les personnes apprennent l’incident par la campagne** — La notification arrive avant toute exploitation connue et explique les mesures prises. La campagne subit une forte critique sur sa sécurité, mais respecte une procédure vérifiable et limite le risque futur.
 
-Sondage : 10.2 → 10.3 (rang 8 → 8)
+Sondage : 10.3 → 10.3 (rang 8 → 8)
 
 ## 25. Aucun finaliste ne porte votre ligne — _finished/between_rounds_
 

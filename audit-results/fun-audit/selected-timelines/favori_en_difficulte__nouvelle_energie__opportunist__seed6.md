@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **favori_en_difficulte**
 
-Score final : 68/100 · 1er tour : 13.1 · qualifié : false · vainqueur : false · signaux mémorables : 2
+Score final : 68/100 · 1er tour : 13.3 · qualifié : false · vainqueur : false · signaux mémorables : 2
 
 ## 1. La présidence que vous proposez — _pre_campaign/program_
 
@@ -12,7 +12,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 **La rupture constitutionnelle a sa procédure** — Le calendrier électif et le référendum rendent la proposition moins abstraite et mobilisent les partisans d’une nouvelle République. Les électeurs attachés à la stabilité demandent ce qui gouvernera pendant la transition.
 
-Sondage : 14.4 → 11.7 (rang 1 → 4)
+Sondage : 14.5 → 11.8 (rang 1 → 4)
 
 ## 2. La une vous prête un tournant — _pre_campaign/media_
 
@@ -22,7 +22,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 **Le tournant devient un contrat** — La publication simultanée empêche chaque camp de ne retenir qu’une moitié du projet. Elle ne satisfait pleinement ni les syndicats ni les dirigeants, mais rend la cohérence économique plus difficile à caricaturer.
 
-Sondage : 11.7 → 12.1 (rang 4 → 3)
+Sondage : 11.8 → 12.2 (rang 4 → 2)
 
 ## 3. La PME teste votre réforme — _pre_campaign/campaign_
 
@@ -32,7 +32,7 @@ Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réfor
 
 **La vérification suspend le duel** — Les deux parties acceptent le protocole et transmettent leurs hypothèses. Vous gagnez du temps et une expertise, mais laissez vos adversaires définir le récit jusqu’au rapport.
 
-Sondage : 12.1 → 12.3 (rang 3 → 3)
+Sondage : 12.2 → 12.4 (rang 2 → 2)
 
 ## 4. La table ronde agricole se tend — _pre_campaign/campaign_
 
@@ -42,7 +42,7 @@ Sondage : 12.1 → 12.3 (rang 3 → 3)
 
 **Le revenu devient votre priorité agricole** — Les deux syndicats reconnaissent l’effort sur les contrats, puis divergent sur le contrôle. La mesure gagne en visibilité et doit maintenant être juridiquement précisée.
 
-Sondage : 12.3 → 12.2 (rang 3 → 3)
+Sondage : 12.4 → 12.3 (rang 2 → 2)
 
 ## 5. Le siège coûte trop cher — _pre_campaign/internal_
 
@@ -52,7 +52,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 **Le siège traverse le périphérique** — Le changement provoque trois jours de désordre puis réduit durablement les dépenses fixes. La nouvelle adresse soutient votre récit de proximité et finance des étapes que la campagne aurait annulées.
 
-Sondage : 12.2 → 12.5 (rang 3 → 2)
+Sondage : 12.3 → 12.6 (rang 2 → 2)
 
 ## 6. Le salaire net au centre — _pre_campaign/program_
 
@@ -62,7 +62,7 @@ L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La confére
 
 **La hausse est immédiate, la transition coûteuse** — Les salariés au minimum voient un gain direct et la compensation évite une rupture avec les petites entreprises. Le coût budgétaire des deux premières années fragilise cependant votre cadrage fiscal.
 
-Sondage : 12.5 → 12.8 (rang 2 → 2)
+Sondage : 12.6 → 12.9 (rang 2 → 2)
 
 ## 7. La collecte se bloque — _pre_campaign/campaign_
 
@@ -72,7 +72,7 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 **Le crédit maintient la tournée** — La banque accepte un montant inférieur à votre demande. L’échéancier transparent évite la polémique, mais le remboursement pèsera sur la fin de campagne.
 
-Sondage : 12.8 → 13 (rang 2 → 1)
+Sondage : 12.9 → 13.1 (rang 2 → 1)
 
 ## 8. Un rival corrige votre ligne — _pre_campaign/internal_
 
@@ -82,7 +82,7 @@ Dans Le Figaro, un responsable fictif de votre parti affirme que votre propositi
 
 **Le portefeuille change de mains** — La sanction met fin aux prises de parole contradictoires et accélère la campagne. Plusieurs cadres la vivent comme une humiliation infligée à tout un courant et réduisent leur implication locale.
 
-Sondage : 13 → 11 (rang 1 → 7)
+Sondage : 13.1 → 11.1 (rang 1 → 6)
 
 ## 9. La promesse faite à l’école — _campaign/program_
 
@@ -92,7 +92,7 @@ Sondage : 13 → 11 (rang 1 → 7)
 
 **L’autonomie redessine le service public** — Les chefs d’établissement gagnent une marge d’action attendue et les syndicats craignent des inégalités durables entre territoires. La proposition élargit votre offre au prix d’un conflit idéologique clair.
 
-Sondage : 11 → 12.8 (rang 7 → 2)
+Sondage : 11.1 → 12.9 (rang 6 → 2)
 
 ## 10. Le permis d’entreprendre doit être défini — _campaign/party_
 
@@ -102,7 +102,7 @@ Le mouvement promet de simplifier la création d’entreprise par un permis uniq
 
 **Le silence administratif autorise provisoirement** — La règle crée une rupture immédiatement identifiable et séduit les entrepreneurs. Elle expose les communes à des activités ouvertes avant certains contrôles et augmente le risque de contentieux.
 
-Sondage : 12.8 → 12.8 (rang 2 → 2)
+Sondage : 12.9 → 12.9 (rang 2 → 2)
 
 ## 11. Le fauteuil libéré au vingt heures — _campaign/media_
 
@@ -112,7 +112,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 **Une lacune sous les projecteurs** — Une question sur les retraites révèle une contradiction entre deux fiches du programme. L’exposition reste précieuse, mais vos adversaires disposent désormais d’un angle simple pour le débat du lendemain. La première échéance de l’avance bancaire réduit les moyens disponibles pour la dernière semaine.
 
-Sondage : 12.8 → 12.6 (rang 2 → 2)
+Sondage : 12.9 → 12.7 (rang 2 → 2)
 
 ## 12. Raphaël Ternois pousse à la fusion _(CHAÎNE)_ — _campaign/party_
 
@@ -122,7 +122,7 @@ Raphaël Ternois, cadre fictif de Nouvelle Énergie, estime que la candidature a
 
 **La candidature ne dépend plus de LR** — La clarification permet enfin de demander des soutiens et des dons en son nom. Plusieurs élus proches de Raphaël Ternois arrêtent de recruter et conservent leurs contacts avec LR.
 
-Sondage : 12.6 → 10.4 (rang 2 → 7)
+Sondage : 12.7 → 10.5 (rang 2 → 7)
 
 ## 13. La note sur le vote utile fuite _(CHAÎNE)_ — _campaign/internal_
 
@@ -132,7 +132,7 @@ Une note interne propose d’attaquer un parti voisin pour capter son électorat
 
 **Le calcul interne devient stratégie publique** — La cohérence entre la note et vos actes ferme la polémique morale. Le parti voisin riposte immédiatement et toute alliance future avec lui devient plus coûteuse.
 
-Sondage : 10.4 → 12.7 (rang 7 → 2)
+Sondage : 10.5 → 12.7 (rang 7 → 2)
 
 ## 14. La photographie du quai vide — _campaign/media_
 
@@ -142,7 +142,7 @@ Sondage : 10.4 → 12.7 (rang 7 → 2)
 
 **Le quai vide devient une affiche** — Votre montage humoristique est massivement partagé et les inscriptions au prochain meeting progressent. Une partie de la presse juge la réponse légère, mais la campagne récupère l’image au lieu de la subir.
 
-Sondage : 12.7 → 12.7 (rang 2 → 2)
+Sondage : 12.7 → 12.8 (rang 2 → 2)
 
 ## 15. La négociation de fusion arrive au vote _(CHAÎNE)_ — _campaign/party_
 
@@ -152,7 +152,7 @@ Raphaël Ternois présente les garanties obtenues ou demande de rouvrir les pour
 
 **Deux élections reçoivent deux stratégies** — La candidature conserve sa raison d’être et les élus obtiennent une perspective d’accord. Les adversaires présentent le pacte futur comme la preuve d’une autonomie provisoire.
 
-Sondage : 12.7 → 12.7 (rang 2 → 2)
+Sondage : 12.8 → 12.8 (rang 2 → 2)
 
 ## 16. Les électeurs ignorent encore le mouvement — _campaign/party_
 
@@ -162,7 +162,7 @@ Une enquête qualitative montre que beaucoup d’électeurs confondent Nouvelle 
 
 **Cent petites réunions créent des ambassadeurs** — Chaque participant peut interroger la candidate et repart avec une décision précise à raconter. La méthode coûte du temps et atteint moins de monde qu’une campagne médiatique nationale.
 
-Sondage : 12.7 → 13.9 (rang 2 → 1)
+Sondage : 12.8 → 14 (rang 2 → 1)
 
 ## 17. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
 
@@ -172,7 +172,7 @@ Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et t
 
 **La caméra remplace le duel** — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
 
-Sondage : 13.9 → 13.1 (rang 1 → 2)
+Sondage : 14 → 13.2 (rang 1 → 2)
 
 ## 18. Le contrat du conseiller est publié — _official_campaign/scandal_
 
@@ -182,7 +182,7 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 **La signature est respectée, la clause reste incomprise** — Votre fidélité contractuelle évite un contentieux et mobilise les prestataires autour du résultat. L’électorat découvre cependant une campagne qui traite les voix comme un indicateur de prime privée.
 
-Sondage : 13.1 → 13.3 (rang 2 → 2)
+Sondage : 13.2 → 13.3 (rang 2 → 2)
 
 ## 19. Renaissance offre un pacte de stabilité — _official_campaign/alliance_
 
@@ -192,7 +192,7 @@ Renaissance propose un pacte sur l’Europe, la trajectoire budgétaire et la st
 
 **Le débat remplace le comité de coordination** — Votre autonomie devient visible et le débat européen permet de préciser les divergences. Les reports futurs restent incertains et Renaissance cesse de protéger votre candidature contre les attaques de son propre camp.
 
-Sondage : 13.3 → 13.3 (rang 2 → 2)
+Sondage : 13.3 → 13.4 (rang 2 → 2)
 
 ## 20. Les affiches manquent dans six villes — _official_campaign/campaign_
 
@@ -202,7 +202,7 @@ Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus
 
 **Le budget bascule vers les écrans** — Les vidéos locales touchent rapidement les moins de trente ans. Les militants chargés de l’affichage dénoncent cependant une décision prise sans leur avis.
 
-Sondage : 13.3 → 11.5 (rang 2 → 3)
+Sondage : 13.4 → 11.6 (rang 2 → 3)
 
 ## 21. Des notes de frais se mélangent — _official_campaign/scandal_
 
@@ -212,7 +212,7 @@ Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un d�
 
 **La somme disparaît des comptes, pas des courriels** — La correction juridique est complète et l’équipe locale poursuit son travail. Un courriel interne sur l’avertissement peut toutefois donner l’impression que la campagne a tenté de cacher une faute mineure.
 
-Sondage : 11.5 → 13.3 (rang 3 → 2)
+Sondage : 11.6 → 13.4 (rang 3 → 2)
 
 ## 22. Une crise ferme un détroit — _official_campaign/world_
 
@@ -222,7 +222,7 @@ Dans la géopolitique fictive de la partie, une confrontation entre navires chin
 
 **La réponse française passe par l’Europe** — Votre position évite de choisir un camp militaire et propose un cadre diplomatique crédible. Elle renforce votre stature européenne sans offrir de solution immédiate aux entreprises exposées.
 
-Sondage : 13.3 → 13.6 (rang 2 → 1)
+Sondage : 13.4 → 13.6 (rang 2 → 1)
 
 ## 23. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
 
@@ -232,7 +232,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 **La notoriété reste hors de l’affiche** — Nina Sorel respecte le refus et publie seulement qu’elle a été reçue sur le logement. Vous perdez une audience importante mais préservez une campagne où les soutiens ne remplacent pas les propositions.
 
-Sondage : 13.6 → 13.7 (rang 1 → 1)
+Sondage : 13.6 → 13.8 (rang 1 → 1)
 
 ## 24. Le regroupement familial en question — _between_rounds/program_
 
@@ -242,7 +242,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 **Un délai plus long, un signal de fermeté** — La mesure répond à une demande de contrôle exprimée dans vos réunions publiques. Des associations familiales et certains partenaires sociaux dénoncent une séparation prolongée des familles déjà installées.
 
-Sondage : 13.7 → 13.9 (rang 1 → 1)
+Sondage : 13.8 → 13.9 (rang 1 → 1)
 
 ## 25. Le score ouvre une autre campagne — _finished/between_rounds_
 
@@ -252,4 +252,4 @@ Votre résultat ne permet pas le second tour mais progresse nettement par rappor
 
 **La défaite devient matière à apprendre** — Le mandat de la revue inclut les événements décisifs, les dépenses et les contradictions. Vous retardez les accords électoraux mais construisez un héritage utile au prochain cycle.
 
-Sondage : 13.9 → 14.1 (rang 1 → 1)
+Sondage : 13.9 → 14.2 (rang 1 → 1)

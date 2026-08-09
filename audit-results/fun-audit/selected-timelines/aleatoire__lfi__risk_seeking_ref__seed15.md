@@ -2,7 +2,7 @@
 
 Catégorie de sélection : **aleatoire**
 
-Score final : 84/100 · 1er tour : 18 · 2nd tour : 50.4 · qualifié : true · vainqueur : true · signaux mémorables : 5
+Score final : 84/100 · 1er tour : 18 · 2nd tour : 50.3 · qualifié : true · vainqueur : true · signaux mémorables : 5
 
 ## 1. Le car tombe en panne — _pre_campaign/campaign_
 
@@ -12,7 +12,7 @@ Score final : 84/100 · 1er tour : 18 · 2nd tour : 50.4 · qualifié : true · 
 
 **Le café offre une conversation inattendue** — Quarante personnes discutent sans pupitre ni musique. La séquence touche par sa simplicité, mais l’équipe qui attendait à destination se sent abandonnée.
 
-Sondage : 13.8 → 11.6 (rang 1 → 4)
+Sondage : 13.8 → 11.7 (rang 1 → 4)
 
 ## 2. La photographie du quai vide — _pre_campaign/media_
 
@@ -22,7 +22,7 @@ Sondage : 13.8 → 11.6 (rang 1 → 4)
 
 **Le quai vide devient une affiche** — Votre montage humoristique est massivement partagé et les inscriptions au prochain meeting progressent. Une partie de la presse juge la réponse légère, mais la campagne récupère l’image au lieu de la subir.
 
-Sondage : 11.6 → 11.7 (rang 4 → 4)
+Sondage : 11.7 → 11.8 (rang 4 → 4)
 
 ## 3. Douze députés offrent leur expérience — _pre_campaign/alliance_
 
@@ -32,7 +32,7 @@ Douze parlementaires de sensibilités proches proposent de soutenir votre candid
 
 **Douze soutiens sans discipline forcée** — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
 
-Sondage : 11.7 → 11.8 (rang 4 → 4)
+Sondage : 11.8 → 11.9 (rang 4 → 4)
 
 ## 4. La France à cinquante degrés — _pre_campaign/program_
 
@@ -42,7 +42,7 @@ Sondage : 11.7 → 11.8 (rang 4 → 4)
 
 **L’adaptation reçoit un budget durable** — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
 
-Sondage : 11.8 → 12.1 (rang 4 → 3)
+Sondage : 11.9 → 12.1 (rang 4 → 2)
 
 ## 5. Le slogan divise le siège — _pre_campaign/campaign_
 
@@ -52,7 +52,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 **Le calendrier crédibilise la méthode** — Les cent jours donnent de la matière aux entretiens et rassurent sur votre préparation. Une partie des militants regrette une campagne trop administrative.
 
-Sondage : 12.1 → 12.2 (rang 3 → 3)
+Sondage : 12.1 → 12.3 (rang 2 → 2)
 
 ## 6. Le marché sous pression — _pre_campaign/campaign_
 
@@ -62,7 +62,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 **Les factures donnent du poids au déplacement** — Les documents vérifiés remplacent les échanges confus par un cas concret. Le plafonnement séduit les petits commerces, tout en soulevant une question de financement.
 
-Sondage : 12.2 → 12.4 (rang 3 → 2)
+Sondage : 12.3 → 12.5 (rang 2 → 2)
 
 ## 7. Le comité bloque le chapitre sécurité — _pre_campaign/internal_
 
@@ -72,7 +72,7 @@ Le comité du programme se partage exactement en deux sur les pouvoirs de police
 
 **Les adhérents choisissent le chapitre** — La participation est forte et le résultat donne une légitimité nette au texte retenu. Vous perdez la maîtrise de ce marqueur programmatique mais gagnez des militants capables den défendre la procédure.
 
-Sondage : 12.4 → 12.7 (rang 2 → 2)
+Sondage : 12.5 → 12.7 (rang 2 → 2)
 
 ## 8. La Sixième République doit prendre forme — _campaign/party_
 
@@ -82,7 +82,7 @@ Les militants veulent replacer la Sixième République au cœur de la campagne. 
 
 **La rupture reçoit un calendrier** — La procédure rend le projet vérifiable et répond aux craintes sur la transition. Elle expose aussi chaque règle à la critique et oblige LFI à expliquer comment gouverner pendant dix-huit mois.
 
-Sondage : 12.7 → 14.3 (rang 2 → 1)
+Sondage : 12.7 → 14.4 (rang 2 → 1)
 
 ## 9. LFI choisit entre mouvement et candidat — _campaign/party_
 
@@ -92,7 +92,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 **Les groupes daction gagnent une marge réelle** — Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.
 
-Sondage : 14.3 → 13.2 (rang 1 → 1)
+Sondage : 14.4 → 13.3 (rang 1 → 1)
 
 ## 10. Une contradiction chez le camp centriste — _campaign/debate_
 
@@ -102,7 +102,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 **La contradiction mise en lumière** — L’extrait est aussitôt repris et fragilise la crédibilité adverse sur ce sujet précis. Le procédé, jugé efficace par certains, est perçu comme agressif par d’autres observateurs du débat.
 
-Sondage : 13.2 → 13.4 (rang 1 → 1)
+Sondage : 13.3 → 13.5 (rang 1 → 1)
 
 ## 11. Un cadre écologiste tenté par un ralliement — _campaign/alliance_
 
@@ -112,7 +112,7 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 **Une négociation discrète** — La discrétion protège la cadre concernée et évite une confrontation prématurée avec son mouvement. Rien n’est acquis, et une fuite dans la presse reste possible à tout moment.
 
-Sondage : 13.4 → 13.5 (rang 1 → 1)
+Sondage : 13.5 → 13.6 (rang 1 → 1)
 
 ## 12. Le meeting change de dispositif — _campaign/campaign_
 
@@ -122,7 +122,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 **Le meeting se tient sans incident** — Les contrôles retardent l’ouverture et la salle reste calme. Vous montrez que la campagne peut continuer, sans transformer l’alerte en argument politique.
 
-Sondage : 13.5 → 11.8 (rang 1 → 3)
+Sondage : 13.6 → 11.8 (rang 1 → 2)
 
 ## 13. Le contrat d’intégration, jusqu’où aller — _campaign/program_
 
@@ -132,7 +132,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 **Un cadre obligatoire et évalué** — La mesure donne un cadre national lisible et répond à une demande de clarté sur les attentes réciproques. Des associations d’accompagnement alertent sur le risque d’exclusion des personnes les plus fragiles si les tests sont trop exigeants.
 
-Sondage : 11.8 → 13.8 (rang 3 → 1)
+Sondage : 11.8 → 13.9 (rang 2 → 1)
 
 ## 14. Le contrôle interne signale trois factures _(CHAÎNE)_ — _campaign/internal_
 
@@ -142,7 +142,7 @@ La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois 
 
 **La campagne paie sans compléter le dossier** — Les fournisseurs restent mobilisés et Maud Keravel apprécie la confiance personnelle. L’absence de pièces devient toutefois une vulnérabilité documentée que le dépôt des comptes ne pourra pas résoudre par la loyauté.
 
-Sondage : 13.8 → 13.9 (rang 1 → 1)
+Sondage : 13.9 → 14 (rang 1 → 1)
 
 ## 15. La désobéissance européenne doit être définie — _campaign/party_
 
@@ -152,7 +152,7 @@ Le programme de LFI promet de désobéir aux règles européennes incompatibles 
 
 **Le mandat national passe avant la négociation** — La ligne mobilise les souverainistes de gauche et clarifie le calendrier de rupture. Elle inquiète les électeurs attachés à lUnion et réduit les soutiens possibles au second tour.
 
-Sondage : 13.9 → 13.8 (rang 1 → 1)
+Sondage : 14 → 13.9 (rang 1 → 1)
 
 ## 16. Les Écologistes proposent un pacte urbain — _official_campaign/party_
 
@@ -162,7 +162,7 @@ Les Écologistes proposent à LFI une campagne commune dans six métropoles sur 
 
 **Six villes testent lalliance** — Les campagnes locales mutualisent militants et expertise et donnent des images concrètes de coopération. La trêve européenne contient les attaques sans régler la divergence de fond.
 
-Sondage : 13.8 → 12.2 (rang 1 → 3)
+Sondage : 13.9 → 12.3 (rang 1 → 3)
 
 ## 17. Les factures sans pièce ressortent _(CHAÎNE)_ — _official_campaign/scandal_
 
@@ -172,7 +172,7 @@ Mediapart révèle que trois factures de la campagne ont été payées avec des 
 
 **La trésorerie passe sous contrôle extérieur** — Les documents confirment les prestations tout en montrant des procédures trop légères. Maud Keravel accepte la suspension sans reconnaître de faute et le contrôle indépendant fixe un calendrier de conclusion.
 
-Sondage : 12.2 → 13.9 (rang 3 → 1)
+Sondage : 12.3 → 14 (rang 3 → 1)
 
 ## 18. Le PS propose trois engagements communs — _official_campaign/alliance_
 
@@ -182,7 +182,7 @@ Le Parti socialiste propose à votre campagne une réunion publique sur les sala
 
 **La compétition à gauche se durcit** — Votre socle apprécie une ligne sans compromis et le PS transforme le refus en argument sur votre isolement. Une alliance ultérieure demandera désormais une concession plus importante.
 
-Sondage : 13.9 → 14.2 (rang 1 → 1)
+Sondage : 14 → 14.2 (rang 1 → 1)
 
 ## 19. Les abstentionnistes demandent une preuve — _official_campaign/party_
 
@@ -202,7 +202,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 **La formation plutôt qu’une nouvelle loi** — La proposition est concrète et administrativement réaliste, ce qui rassure les agents concernés. Elle ne répond pas aux attentes des camps qui espéraient un signal politique plus net, dans un sens ou dans l’autre.
 
-Sondage : 14.4 → 12.5 (rang 1 → 3)
+Sondage : 14.4 → 12.6 (rang 1 → 3)
 
 ## 21. L’audit clôt le dossier des factures _(CHAÎNE)_ — _official_campaign/scandal_
 
@@ -212,7 +212,7 @@ L’expert indépendant conclut que les trois prestations ont eu lieu et qu’au
 
 **Six procédures remplacent le soupçon** — Le rapport écarte le récit d’une fraude personnelle et documente les négligences réelles. La campagne adopte chaque correction, ralentit ses paiements et referme le dossier sur des changements vérifiables.
 
-Sondage : 12.5 → 14.9 (rang 3 → 1)
+Sondage : 12.6 → 14.9 (rang 3 → 1)
 
 ## 22. Le budget impose trois renoncements — _official_campaign/campaign_
 
@@ -222,7 +222,7 @@ Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous 
 
 **La collecte finance la dernière ligne droite** — Les petits dons dépassent l’objectif et les comptes publiés rassurent. La campagne sauve son calendrier, au prix de trois jours entièrement consacrés à l’argent.
 
-Sondage : 14.9 → 14.9 (rang 1 → 1)
+Sondage : 14.9 → 15 (rang 1 → 1)
 
 ## 23. La question venue de Mayotte — _official_campaign/debate_
 
@@ -232,7 +232,7 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 **Le chiffre confond deux réseaux** — Vous utilisez une donnée qui concerne l’assainissement plutôt que l’accès à l’eau. La confusion est corrigée en direct et devient un exemple de la faible préparation ultramarine de votre campagne.
 
-Sondage : 14.9 → 14.7 (rang 1 → 1)
+Sondage : 15 → 14.7 (rang 1 → 1)
 
 ## 24. Le micro resté ouvert — _between_rounds/media_
 
@@ -272,7 +272,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 **Huit accords et quatre refus composent lannexe** — Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.
 
-Sondage : 15.1 → 15.3 (rang 1 → 1)
+Sondage : 15.1 → 15.4 (rang 1 → 1)
 
 ## 28. LFI doit élargir sans se renier — _between_rounds/party_
 
@@ -282,7 +282,7 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 **Dix mesures forment une majorité de gauche** — La coalition obtient un programme positif et déploie tous ses réseaux. Plusieurs engagements LFI sont reportés, ce qui fragilise la cohésion tout en améliorant fortement les reports.
 
-Sondage : 15.3 → 17.8 (rang 1 → 1)
+Sondage : 15.4 → 17.8 (rang 1 → 1)
 
 ## 29. Les dernières heures autorisées — _government_epilogue/between_rounds_
 

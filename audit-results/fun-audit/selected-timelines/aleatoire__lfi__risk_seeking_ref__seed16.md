@@ -12,7 +12,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 **Le week-end couvre cent communes** — La vague militante produit des milliers de conversations et plusieurs erreurs de coordination. L’élan est réel, mais les équipes locales réclament désormais des règles communes.
 
-Sondage : 11.2 → 11.8 (rang 6 → 4)
+Sondage : 11.3 → 11.9 (rang 6 → 4)
 
 ## 2. La photographie du quai vide — _pre_campaign/media_
 
@@ -22,7 +22,7 @@ Sondage : 11.2 → 11.8 (rang 6 → 4)
 
 **Le quai vide devient une affiche** — Votre montage humoristique est massivement partagé et les inscriptions au prochain meeting progressent. Une partie de la presse juge la réponse légère, mais la campagne récupère l’image au lieu de la subir.
 
-Sondage : 11.8 → 12 (rang 4 → 3)
+Sondage : 11.9 → 12 (rang 4 → 2)
 
 ## 3. Le déplacement en Guadeloupe engage — _pre_campaign/campaign_
 
@@ -32,7 +32,7 @@ En Guadeloupe, les élus et associations placent l’eau potable, la vie chère 
 
 **L’eau obtient une architecture claire** — Les associations saluent la durée du financement et demandent une majorité locale au conseil. La proposition devient vérifiable et vous engage au-delà de la campagne.
 
-Sondage : 12 → 12.3 (rang 3 → 3)
+Sondage : 12 → 12.3 (rang 2 → 2)
 
 ## 4. Cinq cents bénévoles sans mission — _pre_campaign/internal_
 
@@ -42,7 +42,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 **Les sections choisissent leurs renforts** — Les territoires les mieux organisés intègrent vite les volontaires et inventent des opérations utiles. Les zones les plus faibles reçoivent moins de soutien, ce qui augmente les écarts d’implantation interne.
 
-Sondage : 12.3 → 14.4 (rang 3 → 1)
+Sondage : 12.3 → 14.5 (rang 2 → 1)
 
 ## 5. La directrice a recruté son frère — _pre_campaign/scandal_
 
@@ -52,7 +52,7 @@ Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme déve
 
 **Le contrat familial repasse en concurrence** — Le code livré reste utilisable et la nouvelle procédure attribue la suite à une autre entreprise. Anaïs Vercel reconnaît avoir privilégié la vitesse et accepte un retrait temporaire des achats.
 
-Sondage : 14.4 → 12.7 (rang 1 → 2)
+Sondage : 14.5 → 12.8 (rang 1 → 2)
 
 ## 6. La plateforme publique tombe en panne — _pre_campaign/world_
 
@@ -62,7 +62,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 **Le numérique reçoit une solution de secours** — La garantie physique parle aux usagers exclus du service et l’audit évite d’inventer la cause de la panne. La mesure suppose de maintenir des capacités coûteuses même lorsque les plateformes fonctionnent.
 
-Sondage : 12.7 → 13.2 (rang 2 → 1)
+Sondage : 12.8 → 13.3 (rang 2 → 1)
 
 ## 7. La une vous prête un tournant — _pre_campaign/media_
 
@@ -72,7 +72,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 **Le tournant devient un contrat** — La publication simultanée empêche chaque camp de ne retenir qu’une moitié du projet. Elle ne satisfait pleinement ni les syndicats ni les dirigeants, mais rend la cohérence économique plus difficile à caricaturer.
 
-Sondage : 13.2 → 13.8 (rang 1 → 1)
+Sondage : 13.3 → 13.8 (rang 1 → 1)
 
 ## 8. La croissance simulée se retourne — _pre_campaign/world_
 
@@ -82,7 +82,7 @@ Dans la chronologie fictive de la partie, l’Insee publie un indicateur signala
 
 **La trésorerie est liée au maintien de l’emploi** — La mesure soulage rapidement les entreprises sans subventionner les suppressions de postes. Les contrôles nécessaires ralentissent son déploiement et le manque à gagner doit être compensé au budget.
 
-Sondage : 13.8 → 15 (rang 1 → 1)
+Sondage : 13.8 → 15.1 (rang 1 → 1)
 
 ## 9. Les sections refusent le kit national — _campaign/internal_
 
@@ -92,7 +92,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 **La proposition locale devient expérimentation** — Les sections obtiennent une adaptation réelle sans transformer le document en programme parallèle. Le chiffrage retarde l’impression mais renforce la mobilisation et votre implantation en Bretagne.
 
-Sondage : 15 → 14.6 (rang 1 → 1)
+Sondage : 15.1 → 14.7 (rang 1 → 1)
 
 ## 10. La promesse faite à l’école — _campaign/program_
 
@@ -102,7 +102,7 @@ Sondage : 15 → 14.6 (rang 1 → 1)
 
 **La revalorisation vient avec une nouvelle mission** — La hausse salariale répond à une attente ancienne, mais le temps supplémentaire est contesté selon les établissements. Le compromis ouvre une négociation sérieuse plutôt qu’une adhésion automatique.
 
-Sondage : 14.6 → 15 (rang 1 → 1)
+Sondage : 14.7 → 15.1 (rang 1 → 1)
 
 ## 11. Les abstentionnistes demandent une preuve — _campaign/party_
 
@@ -112,7 +112,7 @@ Sondage : 14.6 → 15 (rang 1 → 1)
 
 **La participation devient une opération civique** — Les bénévoles vérifient les procédures et touchent des personnes éloignées des campagnes. Labsence de consigne directe renforce la confiance, même si tous les nouveaux inscrits ne choisiront pas LFI.
 
-Sondage : 15 → 15.2 (rang 1 → 1)
+Sondage : 15.1 → 15.3 (rang 1 → 1)
 
 ## 12. LFI choisit entre mouvement et candidat — _campaign/party_
 
@@ -122,7 +122,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 **Les groupes daction gagnent une marge réelle** — Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.
 
-Sondage : 15.2 → 16.2 (rang 1 → 1)
+Sondage : 15.3 → 16.3 (rang 1 → 1)
 
 ## 13. Deux cents maires demandent un contrat — _campaign/alliance_
 
@@ -132,7 +132,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 **Les maires obtiennent un calendrier opposable** — Une majorité des signataires rejoint votre comité de soutien et fournit un réseau territorial immédiat. Le contrat limite votre marge budgétaire future et crée des rendez-vous où chaque retard sera visible.
 
-Sondage : 16.2 → 15.4 (rang 1 → 1)
+Sondage : 16.3 → 15.5 (rang 1 → 1)
 
 ## 14. Le budget impose trois renoncements — _campaign/campaign_
 
@@ -142,7 +142,7 @@ Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous 
 
 **La collecte finance la dernière ligne droite** — Les petits dons dépassent l’objectif et les comptes publiés rassurent. La campagne sauve son calendrier, au prix de trois jours entièrement consacrés à l’argent.
 
-Sondage : 15.4 → 15.4 (rang 1 → 1)
+Sondage : 15.5 → 15.5 (rang 1 → 1)
 
 ## 15. La France à cinquante degrés — _campaign/program_
 
@@ -152,7 +152,7 @@ Sondage : 15.4 → 15.4 (rang 1 → 1)
 
 **L’adaptation reçoit un budget durable** — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
 
-Sondage : 15.4 → 15.5 (rang 1 → 1)
+Sondage : 15.5 → 15.6 (rang 1 → 1)
 
 ## 16. Nassim Courbet réclame une ligne plus sociale _(CHAÎNE)_ — _official_campaign/party_
 
@@ -162,7 +162,7 @@ Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitu
 
 **La fronde perd le micro et gagne un motif** — La campagne conserve son agenda et les porte-parole cessent de se contredire. Les groupes proches de Nassim Courbet parlent dune sanction politique et préparent une assemblée indépendante.
 
-Sondage : 15.5 → 17.1 (rang 1 → 1)
+Sondage : 15.6 → 17.1 (rang 1 → 1)
 
 ## 17. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
 
@@ -172,7 +172,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 **Une prise de position publique et rare** — Le geste est salué pour son intégrité, y compris par des électeurs peu proches de votre ligne. Le camp socialiste prend acte du soutien inattendu, qui laisse une trace durable dans la relation entre les deux équipes.
 
-Sondage : 17.1 → 15.6 (rang 1 → 1)
+Sondage : 17.1 → 15.7 (rang 1 → 1)
 
 ## 18. Les Écologistes proposent un pacte urbain — _official_campaign/party_
 
@@ -182,7 +182,7 @@ Les Écologistes proposent à LFI une campagne commune dans six métropoles sur 
 
 **Six villes testent lalliance** — Les campagnes locales mutualisent militants et expertise et donnent des images concrètes de coopération. La trêve européenne contient les attaques sans régler la divergence de fond.
 
-Sondage : 15.6 → 15.7 (rang 1 → 1)
+Sondage : 15.7 → 15.8 (rang 1 → 1)
 
 ## 19. La fronde sociale exige un vote _(CHAÎNE)_ — _official_campaign/party_
 
@@ -192,7 +192,7 @@ Le réseau de Nassim Courbet demande désormais un vote des adhérents sur la pr
 
 **La fronde devient dissidence** — Nassim Courbet quitte les instances avec plusieurs animateurs et lance un comité autonome. La parole nationale se clarifie au prix dune perte militante durable et dune campagne concurrente dans plusieurs circonscriptions.
 
-Sondage : 15.7 → 15.4 (rang 1 → 1)
+Sondage : 15.8 → 15.5 (rang 1 → 1)
 
 ## 20. Neuf candidats face au climat — _official_campaign/debate_
 
@@ -202,7 +202,7 @@ Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure clim
 
 **Le rail gagne ce que l’automobile perd** — Vous êtes le premier à nommer une dépense supprimée et son bénéficiaire de remplacement. Les territoires dépendants de la voiture contestent l’arbitrage, mais le choix donne une cohérence tangible à votre plan climatique.
 
-Sondage : 15.4 → 15.5 (rang 1 → 1)
+Sondage : 15.5 → 15.5 (rang 1 → 1)
 
 ## 21. Six rédactions face au désert médical — _official_campaign/media_
 
@@ -212,7 +212,7 @@ Sondage : 15.4 → 15.5 (rang 1 → 1)
 
 **Les territoires obtiennent une méthode** — Les rédactions discutent les critères plutôt que vos intentions. Les élus locaux saluent la visibilité pluriannuelle, même si le dispositif ne promet pas un médecin dans chaque commune.
 
-Sondage : 15.5 → 15.8 (rang 1 → 1)
+Sondage : 15.5 → 15.9 (rang 1 → 1)
 
 ## 22. Contrôles aux frontières : quels moyens — _official_campaign/program_
 
@@ -222,7 +222,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 **Le contrôle national réaffirmé** — La mesure répond directement à l’incident qui a relancé le débat et rassure une partie de l’opinion. Des partenaires européens et des acteurs économiques transfrontaliers dénoncent un coût logistique et diplomatique important.
 
-Sondage : 15.8 → 16 (rang 1 → 1)
+Sondage : 15.9 → 16.1 (rang 1 → 1)
 
 ## 23. La question venue de Mayotte — _official_campaign/debate_
 
@@ -232,7 +232,7 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 **Le chiffre confond deux réseaux** — Vous utilisez une donnée qui concerne l’assainissement plutôt que l’accès à l’eau. La confusion est corrigée en direct et devient un exemple de la faible préparation ultramarine de votre campagne.
 
-Sondage : 16 → 15.8 (rang 1 → 1)
+Sondage : 16.1 → 15.9 (rang 1 → 1)
 
 ## 24. Le salaire net au centre — _between_rounds/program_
 
@@ -242,7 +242,7 @@ L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La confére
 
 **Les aides deviennent un levier de négociation** — Les syndicats obtiennent un rapport de force concret et les entreprises gardent une marge sectorielle. Le résultat dépendra de dizaines de négociations, ce qui rend le gain salarial moins immédiat mais plus soutenable.
 
-Sondage : 15.8 → 16 (rang 1 → 1)
+Sondage : 15.9 → 16.1 (rang 1 → 1)
 
 ## 25. Deux points davance à cinq jours — _between_rounds/between_rounds_
 
@@ -252,7 +252,7 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 **Le dernier dossier durcit la fin** — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
 
-Sondage : 16 → 16 (rang 1 → 1)
+Sondage : 16.1 → 16.1 (rang 1 → 1)
 
 ## 26. LFI doit élargir sans se renier — _between_rounds/party_
 
@@ -262,7 +262,7 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 **Dix mesures forment une majorité de gauche** — La coalition obtient un programme positif et déploie tous ses réseaux. Plusieurs engagements LFI sont reportés, ce qui fragilise la cohésion tout en améliorant fortement les reports.
 
-Sondage : 16 → 16 (rang 1 → 1)
+Sondage : 16.1 → 16.1 (rang 1 → 1)
 
 ## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
 
@@ -272,7 +272,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Deux promesses entrent en collision** — Votre troisième décision utilise une recette déjà affectée à la première. Ladversaire repère la contradiction et transforme un plan détaillé en doute sur votre préparation gouvernementale.
 
-Sondage : 16 → 15.6 (rang 1 → 1)
+Sondage : 16.1 → 15.7 (rang 1 → 1)
 
 ## 28. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
 
@@ -282,7 +282,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Trois soutiens gardent trois identités** — Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.
 
-Sondage : 15.6 → 15.7 (rang 1 → 1)
+Sondage : 15.7 → 15.7 (rang 1 → 1)
 
 ## 29. Les reports refusent la mécanique — _finished/between_rounds_
 
