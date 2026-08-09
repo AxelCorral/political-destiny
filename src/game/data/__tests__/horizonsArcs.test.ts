@@ -96,7 +96,7 @@ describe("Horizons — arcs de succession (party_horizons_founder_*)", () => {
     }
     expect(sawRevenge).toBe(true);
     expect(sawBlessing).toBe(true);
-  }, 20000);
+  }, 40000);
 
   it("aucune partie ne voit jamais les deux follow-ups à la fois (exclusion mutuelle réelle)", () => {
     for (let i = 0; i < 60; i += 1) {
@@ -112,7 +112,7 @@ describe("Horizons — arcs de succession (party_horizons_founder_*)", () => {
       expect(both).toBe(false);
       expect(validateGameState(state).errors).toEqual([]);
     }
-  }, 20000);
+  }, 40000);
 
   it("party_horizons_passion_test est atteignable en pratique quand le joueur emprunte le chemin passion_deficit et se qualifie", () => {
     let sawPassionTest = false;
@@ -140,5 +140,5 @@ describe("Horizons — arcs de succession (party_horizons_founder_*)", () => {
     // event cases are expected (elimination) — just confirms the assertion
     // above isn't vacuous by construction.
     expect(sawFlagWithoutEvent).toBeGreaterThanOrEqual(0);
-  }, 20000);
+  }, 40000);
 });

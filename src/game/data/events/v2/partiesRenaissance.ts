@@ -534,4 +534,286 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
       ),
     ],
   }),
+
+  // --- P3/P4 (fun improvement mission) : identité de gameplay — voir
+  // PARTY_GAMEPLAY_IDENTITIES.md et FUN_IMPROVEMENTS_REPORT.md. Renaissance
+  // avait le score d'identité le plus bas du jeu (2,5/10,
+  // AUDIT_FUN_REJOUABILITE.md §11) : les événements suivants donnent au
+  // parti sa propre tension mécanique — l'héritage d'un pouvoir déjà
+  // exercé, testé contre les faits plutôt que simplement revendiqué ou
+  // renié — et raccordent un événement rare existant
+  // (party_renaissance_rare) qui posait déjà un flag jamais consommé.
+  partyEvent("renaissance", {
+    id: "party_renaissance_legacy_test",
+    title: "Le bilan face aux chiffres",
+    summary:
+      "Une émission compare, colonne par colonne, les engagements pris par la majorité sortante et ce qui a été réellement livré. Deux colonnes sur cinq affichent un écart net. Maël Dargent doit répondre en direct, sans notes préparées à l’avance.",
+    themes: ["economy", "institutions"],
+    importance: "decisive",
+    minDecisionIndex: 9,
+    maxDecisionIndex: 18,
+    entityReferences: [{ entityId: "renaissance_candidate", role: "subject" }],
+    editorialSensitivity: "none",
+    chain: { id: "renaissance_legacy_arc", step: 1 },
+    choices: [
+      directChoice(
+        "renaissance_legacy_own_gaps",
+        "Reconnaître les deux écarts sans détour et expliquer précisément ce qui a manqué",
+        "media_response",
+        "TRANSPARENT",
+        "renaissance_legacy_gaps_owned",
+        "Le bilan admet ses limites en direct",
+        "L’aveu précis surprend par son absence de langue de bois et coupe court à l’accusation d’arrogance du pouvoir. Une partie des cadres sortants juge que l’exercice fragilise inutilement cinq années de travail.",
+        [
+          stat("credibility", 6, "Écarts reconnus"),
+          stat("rejection", -3, "Sincérité perçue"),
+          stat("cohesion", -3, "Cadres sortants contrariés"),
+          hidden("consistency", 3),
+        ],
+        {
+          outcome: {
+            setFlags: { renaissance_legacy_gaps_owned: true },
+            followUps: [
+              {
+                eventId: "party_renaissance_legacy_credited",
+                afterDecisions: 5,
+                probability: 0.65,
+              },
+            ],
+          },
+        },
+      ),
+      directChoice(
+        "renaissance_legacy_defend_all",
+        "Défendre l’intégralité du bilan et attribuer les deux écarts à un contexte extérieur",
+        "policy_commitment",
+        "PRÉSIDENTIEL",
+        "renaissance_legacy_defended",
+        "Le bilan est défendu sans concession",
+        "La ligne rassure les électeurs qui craignaient un désaveu du travail accompli. Les deux écarts, non reconnus comme tels, reviennent régulièrement dans la bouche des adversaires pendant le reste de la campagne.",
+        [
+          stat("credibility", 3, "Bilan défendu"),
+          stat("cohesion", 4, "Ligne unifiée"),
+          hidden("consistency", -2),
+          stat("rejection", 2, "Défense jugée rigide"),
+        ],
+        {
+          outcome: {
+            setFlags: { renaissance_legacy_defended_fully: true },
+            followUps: [
+              {
+                eventId: "party_renaissance_legacy_confronted",
+                afterDecisions: 5,
+                probability: 0.65,
+              },
+            ],
+          },
+        },
+      ),
+      directChoice(
+        "renaissance_legacy_pivot_future",
+        "Refuser de s’attarder sur le passé et consacrer la réponse au mandat à venir",
+        "long_term_strategy",
+        "OPPORTUNISTE",
+        "renaissance_legacy_future_pivot",
+        "La réponse saute directement au futur",
+        "Le pivot évite d’entrer dans le détail des deux écarts et donne un ton résolument tourné vers l’avenir. Les chroniqueurs notent que la question posée n’a, à aucun moment, reçu de réponse directe.",
+        [
+          stat("mediaPresence", 2, "Ton tourné vers l’avenir"),
+          stat("credibility", -1, "Question éludée"),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("renaissance", {
+    id: "party_renaissance_legacy_confronted",
+    title: "Les deux écarts reviennent en boucle",
+    summary:
+      "Faute d’avoir été reconnus, les deux écarts du bilan sont désormais cités par chaque adversaire comme la preuve d’un déni. Une association de contrôle des politiques publiques propose de les documenter avec vous, en contradictoire, avant qu’un tiers ne le fasse sans vous.",
+    themes: ["economy", "institutions"],
+    importance: "major",
+    rarity: "uncommon",
+    minDecisionIndex: 14,
+    editorialSensitivity: "none",
+    chain: {
+      id: "renaissance_legacy_arc",
+      step: 2,
+      followsEventIds: ["party_renaissance_legacy_test"],
+    },
+    eligibility: [{ kind: "flag", key: "renaissance_legacy_defended_fully", equals: true }],
+    choices: [
+      directChoice(
+        "legacy_confronted_join",
+        "Participer à l’exercice contradictoire et corriger publiquement la position initiale",
+        "compromise",
+        "TRANSPARENT",
+        "legacy_confronted_corrected",
+        "La correction arrive tard, mais elle arrive",
+        "La participation limite les dégâts et permet de documenter enfin les deux écarts avec précision. Le revirement, après une défense totale, alimente une accusation de manque de constance.",
+        [
+          stat("credibility", 3, "Correction documentée"),
+          hidden("consistency", -3),
+          stat("rejection", -1, "Exercice contradictoire salué"),
+        ],
+      ),
+      directChoice(
+        "legacy_confronted_hold",
+        "Refuser l’exercice et maintenir que le bilan ne comporte aucun écart réel",
+        "break",
+        "CLIVANT",
+        "legacy_confronted_denied",
+        "Le déni devient la ligne officielle",
+        "Le refus évite tout aveu tardif mais laisse le sujet entièrement occupé par les adversaires. Le déni, répété, devient lui-même un angle d’attaque distinct des deux écarts d’origine.",
+        [
+          stat("cohesion", 2, "Ligne maintenue"),
+          stat("credibility", -4, "Déni prolongé"),
+          stat("rejection", 3, "Constance jugée aveugle"),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("renaissance", {
+    id: "party_renaissance_legacy_credited",
+    title: "L’aveu initial est mis à l’épreuve du concret",
+    summary:
+      "Après avoir reconnu les deux écarts, Renaissance est désormais attendue sur des engagements précis pour les corriger, avec calendrier et financement. Un aveu sans plan concret ferait apparaître la transparence initiale comme un simple exercice de communication.",
+    themes: ["economy", "institutions"],
+    importance: "major",
+    rarity: "uncommon",
+    minDecisionIndex: 14,
+    editorialSensitivity: "none",
+    chain: {
+      id: "renaissance_legacy_arc",
+      step: 2,
+      followsEventIds: ["party_renaissance_legacy_test"],
+    },
+    eligibility: [{ kind: "flag", key: "renaissance_legacy_gaps_owned", equals: true }],
+    choices: [
+      directChoice(
+        "legacy_credited_plan",
+        "Publier un calendrier chiffré de correction des deux écarts, engagement par engagement",
+        "policy_commitment",
+        "TECHNIQUE",
+        "legacy_credited_plan_published",
+        "L’aveu se transforme en plan vérifiable",
+        "Le calendrier donne un contenu concret à la sincérité déjà reconnue et devient une référence que la presse peut suivre. Chaque retard, désormais mesurable, pourra aussi être reproché plus précisément.",
+        [
+          stat("credibility", 6, "Plan chiffré"),
+          hidden("economicCompetence", 3),
+          hidden("consistency", 3),
+        ],
+      ),
+      directChoice(
+        "legacy_credited_general",
+        "Présenter des engagements généraux sans calendrier précis pour garder de la marge",
+        "media_response",
+        "PRUDENT",
+        "legacy_credited_generalized",
+        "La sincérité reste sans échéance",
+        "La prudence évite un calendrier qui pourrait devenir un boulet, mais elle rapproche la démarche d’une déclaration d’intention. Une partie de la presse qui avait salué l’aveu initial exprime sa déception.",
+        [
+          stat("credibility", -2, "Engagements jugés flous"),
+          stat("rejection", 1, "Sincérité affaiblie"),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("renaissance", {
+    id: "party_renaissance_manifesto_aftermath",
+    title: "Le débat du manifeste laisse des traces",
+    summary:
+      "La convention retransmise avec les anciens ministres signataires a eu lieu. Certains veulent maintenant un rôle formel dans la campagne ; d’autres estiment que le débat a suffi et souhaitent en rester là.",
+    themes: ["institutions"],
+    importance: "major",
+    rarity: "uncommon",
+    minDecisionIndex: 12,
+    entityReferences: [{ entityId: "renaissance_candidate", role: "subject" }],
+    editorialSensitivity: "contextual",
+    chain: {
+      id: "renaissance_manifesto_arc",
+      step: 2,
+      followsEventIds: ["party_renaissance_rare"],
+    },
+    eligibility: [{ kind: "flag", key: "renaissance_manifesto_debated", equals: true }],
+    choices: [
+      directChoice(
+        "manifesto_aftermath_formalize",
+        "Créer un comité consultatif formel pour les signataires les plus constructifs",
+        "alliance",
+        "RASSEMBLEUR",
+        "manifesto_aftermath_committee",
+        "Le débat se prolonge en structure",
+        "Le comité canalise l’énergie du manifeste vers un rôle défini et réduit le risque d’une candidature concurrente. Certains signataires jugent le rôle purement consultatif insuffisant après un débat aussi exposé.",
+        [
+          stat("cohesion", 4, "Signataires canalisés"),
+          hidden("transferability", 3),
+          hidden("rivalAmbition", -2),
+        ],
+      ),
+      directChoice(
+        "manifesto_aftermath_close",
+        "Considérer le débat comme clos et revenir à l’agenda de campagne prévu",
+        "silence",
+        "PRUDENT",
+        "manifesto_aftermath_closed",
+        "La séquence se referme sans suite organisée",
+        "Le retour à l’agenda évite de donner davantage de place à une contestation déjà exposée publiquement. Les signataires les plus déterminés estiment ne pas avoir reçu de réponse et gardent leurs réseaux mobilisés.",
+        [hidden("rivalAmbition", 3), stat("cohesion", -1, "Signataires sans réponse")],
+      ),
+    ],
+  }),
+  partyEvent("renaissance", {
+    id: "party_renaissance_defend_center",
+    title: "Horizons et Nouvelle Énergie visent le même électorat",
+    summary:
+      "Les instituts de sondage confirment que Renaissance perd des électeurs modérés au profit d’Horizons et de Nouvelle Énergie sur exactement les mêmes thèmes de compétence économique et de sérieux budgétaire. La ligne qui a fait la force du mouvement devient aussi son terrain le plus disputé.",
+    themes: ["economy", "institutions"],
+    importance: "major",
+    minDecisionIndex: 10,
+    entityReferences: [
+      { entityId: "horizons", role: "subject" },
+      { entityId: "nouvelle_energie", role: "subject" },
+    ],
+    editorialSensitivity: "none",
+    choices: [
+      directChoice(
+        "defend_center_differentiate",
+        "Augmenter volontairement l’ambition d’une mesure économique pour se distinguer nettement des deux concurrents",
+        "policy_commitment",
+        "CLIVANT",
+        "defend_center_sharpened",
+        "Une ligne plus tranchée redessine la frontière",
+        "La mesure durcie donne un contraste net avec Horizons et Nouvelle Énergie et redonne de la visibilité à la candidature. Une partie de l’électorat central le plus modéré juge le virage plus risqué que nécessaire.",
+        [
+          stat("mediaPresence", 4, "Ligne distincte"),
+          hidden("economicCompetence", 3),
+          stat("rejection", 2, "Virage jugé risqué"),
+        ],
+      ),
+      directChoice(
+        "defend_center_absorb",
+        "Intégrer discrètement dans le programme les mesures les plus reprises par les deux concurrents",
+        "program_shift",
+        "OPPORTUNISTE",
+        "defend_center_absorbed",
+        "Le programme s’élargit sans le dire",
+        "L’intégration réduit l’écart perçu avec Horizons et Nouvelle Énergie sur leurs propres thèmes. Les électeurs les plus attentifs remarquent la ressemblance grandissante et posent la question de la différence réelle.",
+        [
+          hidden("transferability", 3),
+          stat("credibility", -2, "Ressemblance remarquée"),
+          hidden("consistency", -2),
+        ],
+      ),
+      directChoice(
+        "defend_center_ignore",
+        "Maintenir le programme actuel et miser sur l’expérience gouvernementale comme différence suffisante",
+        "long_term_strategy",
+        "PRÉSIDENTIEL",
+        "defend_center_unchanged",
+        "L’expérience seule doit faire la différence",
+        "Le choix évite toute agitation programmatique et mise sur un contraste déjà établi. Les instituts confirment la semaine suivante que la perte d’électeurs modérés se poursuit au même rythme.",
+        [stat("credibility", 1, "Ligne stable"), stat("popularity", -2, "Érosion continue")],
+      ),
+    ],
+  }),
 ];
