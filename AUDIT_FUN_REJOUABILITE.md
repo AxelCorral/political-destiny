@@ -316,10 +316,19 @@ commentaire de code — un seuil absolu sur l'amplitude de sondage produisait un
   `scandal_consultant_contract`, `world_public_service_outage`, `world_floods`.
 - **Neutre (10/24)** : le gros du peloton — impact réel mais modeste (crise industrielle, grève,
   canicule, crise budgétaire...).
-- **Frustrant (6/24)** : `world_national_strike`, `world_economic_slowdown`, `world_heatwave`,
-  `scandal_campaign_data`, `world_international_crisis`, `world_security_attack` (ce dernier n'a été
-  rencontré qu'une seule fois sur 1 620 parties — verdict « frustrant » fragile, basé sur un seul
-  point de données à interpréter avec prudence, pas une accusation ferme).
+- **Frustrant (6/24)** : `scandal_audit_conclusion`, `scandal_supplier_overbilling`,
+  `world_budget_warning`, `world_rival_leadership_tension`, `scandal_donation_route`,
+  `world_security_attack` (ce dernier n'a été rencontré qu'une seule fois sur 1 620 parties —
+  verdict « frustrant » fragile, basé sur un seul point de données à interpréter avec prudence, pas
+  une accusation ferme).
+  > **Correction post-publication (mission d'amélioration du fun) :** cette liste remplace une
+  > première version de ce rapport qui citait par erreur `world_national_strike`,
+  > `world_economic_slowdown`, `world_heatwave`, `scandal_campaign_data` et
+  > `world_international_crisis` — des noms d'événements issus d'un tirage antérieur à la
+  > correction de méthode mentionnée ci-dessus (seuil absolu → tertiles), jamais mis à jour dans la
+  > prose après la correction du calcul. Les compteurs agrégés (8/10/6) étaient corrects ; seuls les
+  > noms cités ne l'étaient pas. Vérifié directement dans
+  > `audit-results/fun-audit/random-event-value.csv`.
 
 **Ratio hasard-intéressant / hasard-neutre-numérique** : environ 1 pour 1,25 (8 intéressants pour 10
 neutres) au sein des catégories les plus « aléatoires » du jeu — un ratio correct sans être
@@ -948,11 +957,14 @@ sans que chaque tirage individuel soit ressenti comme un moment fort. Cause prob
 sélecteur pondéré (`eventSelector.ts`) redistribue tout le poids restant dès qu'une catégorie est
 retirée, ce qui gonfle l'effet mesuré de cascade sans que cela prouve la valeur narrative propre de
 chaque carte. Système concerné : contenu des événements `world`/`scandal` les plus « frustrants »
-identifiés en §8 (`world_national_strike`, `world_economic_slowdown`, `world_heatwave`,
-`scandal_campaign_data`, `world_international_crisis`). Correction recommandée : revue éditoriale
-ciblée de ces 5 événements pour renforcer soit leur enjeu narratif, soit leur lien avec l'historique
-du joueur (cohérent avec la définition de « randomness intéressante » du prompt §7). Difficulté :
-faible à moyenne. Risque : faible.
+identifiés en §8 (`scandal_audit_conclusion`, `scandal_supplier_overbilling`,
+`world_budget_warning`, `world_rival_leadership_tension`, `scandal_donation_route`). Correction
+recommandée : revue éditoriale ciblée de ces 5 événements pour renforcer soit leur enjeu narratif,
+soit leur lien avec l'historique du joueur (cohérent avec la définition de « randomness
+intéressante » du prompt §7). Difficulté : faible à moyenne. Risque : faible.
+**Statut : appliqué** par la mission d'amélioration du fun (voir `FUN_IMPROVEMENTS_REPORT.md`
+section 5) — chacun des 5 événements reçoit désormais un vrai compromis sur son option jusque-là
+dominante plutôt qu'un choix strictement meilleur sur toutes les dimensions.
 
 ### P3 — Amélioration notable
 

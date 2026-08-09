@@ -263,6 +263,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
         [
           stat("finances", 3, "Avoir récupéré"),
           stat("credibility", 3, "Devis audités"),
+          stat("momentum", -2, "Attention absorbée par l’audit"),
           hidden("scandalRisk", -4),
           memory("fictional_supplier", "trust", 1, { targetPartyId: "player" }),
         ],
@@ -398,7 +399,8 @@ export const v2ScandalEvents: GameEventDefinition[] = [
         "La campagne perd une ressource utile mais ne dépend plus de l’explication du donateur. La transmission volontaire crée une trace claire et évite toute conclusion hâtive sur l’origine des fonds.",
         [
           stat("finances", -4, "Don restitué"),
-          stat("credibility", 5, "Dossier transmis"),
+          stat("credibility", 7, "Dossier transmis"),
+          stat("rejection", -2, "Transparence immédiate saluée"),
           hidden("scandalRisk", -6),
         ],
         { outcome: { setFlags: { routed_donation_returned: true } } },
@@ -662,6 +664,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
         [
           stat("credibility", 7, "Audit intégral publié"),
           stat("finances", -2, "Contrôles renforcés"),
+          stat("momentum", -3, "Rythme de campagne ralenti"),
           hidden("scandalRisk", -8),
           hidden("consistency", 3),
         ],
@@ -680,6 +683,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
           hidden("scandalRisk", -3),
           stat("finances", -1, "Corrections ciblées"),
           stat("mediaPresence", 1, "Réserves commentées"),
+          stat("momentum", 2, "Dossier vite refermé"),
         ],
         { outcome: { setFlags: { accounts_audit_partially_implemented: true } } },
       ),

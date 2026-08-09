@@ -875,8 +875,9 @@ export const v2WorldEvents: GameEventDefinition[] = [
         "Les hypothèses sont enfin explicites et permettent une vraie discussion. Leur optimisme laisse votre programme très sensible à un scénario économique moins favorable.",
         [
           stat("credibility", 2, "Hypothèses publiées"),
-          hidden("economicCompetence", 1),
+          hidden("economicCompetence", 3),
           hidden("scandalRisk", -1),
+          stat("mobilization", 2, "Programme intégralement maintenu"),
           stat("rejection", 1, "Prévisions optimistes"),
         ],
       ),

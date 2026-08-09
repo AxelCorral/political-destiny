@@ -462,7 +462,8 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
           "Un ton mesuré sur les difficultés d’autrui",
           "La remarque est saluée pour son ton mesuré, y compris par des commentateurs peu favorables à votre ligne. Elle prive votre camp d’un angle d’attaque que certains auraient souhaité voir exploité.",
           [
-            stat("credibility", 2, "Ton apaisé salué"),
+            stat("credibility", 4, "Ton apaisé salué"),
+            hidden("consistency", 2),
             relation("player", "reconquete", 4, "Retenue remarquée"),
           ],
         ),
