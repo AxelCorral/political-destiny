@@ -816,4 +816,170 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
       ),
     ],
   }),
+
+  // --- Passe ciblée post-fun (TARGETED_GAMEPLAY_PASS_REPORT.md), Phase C.
+  // Diagnostic préalable (scripts/targeted-pass/renaissance-diagnostic.ts) :
+  // l'arc héritage n'apparaît que dans ~21 % des campagnes et ne pèse que
+  // ~7 % des décisions spécifiques au parti — il n'est PAS structurellement
+  // sur-représenté (l'hypothèse de concentration excessive est infirmée par
+  // la mesure, pas supposée). Le renfort porte donc sur la diversité
+  // d'ensemble : deux axes indépendants supplémentaires, dont un qui
+  // consomme enfin le drapeau renaissance_new_cycle posé par
+  // party_renaissance_identity depuis la mission précédente sans jamais
+  // être lu par aucun événement.
+
+  // Axe 1 — renouvellement de génération (ne dépend pas de l'arc héritage).
+  partyEvent("renaissance", {
+    id: "party_renaissance_generation_test",
+    title: "Les nouveaux visages doivent livrer, pas seulement apparaître",
+    summary:
+      "Les élus territoriaux mis en avant au lancement de la campagne ont assuré la photo. Les cadres sortants, eux, attendent de voir s’ils obtiennent une vraie responsabilité ou s’ils restent des figurants soigneusement choisis.",
+    themes: ["institutions"],
+    importance: "major",
+    minDecisionIndex: 13,
+    maxDecisionIndex: 17,
+    editorialSensitivity: "none",
+    chain: { id: "renaissance_generation_arc", step: 1 },
+    eligibility: [{ kind: "flag", key: "renaissance_new_cycle", equals: true }],
+    choices: [
+      directChoice(
+        "renaissance_generation_delegate",
+        "Confier à deux élus territoriaux la responsabilité réelle d’un volet entier du programme",
+        "long_term_strategy",
+        "RASSEMBLEUR",
+        "renaissance_generation_delegated",
+        "Le renouvellement obtient un vrai pouvoir",
+        "La délégation donne un contenu concret au discours de rupture générationnelle et responsabilise des figures jusque-là décoratives. Plusieurs cadres sortants jugent la manœuvre prématurée et resserrent leurs propres réseaux d’influence.",
+        [
+          stat("localStrength", 6, "Responsabilité déléguée"),
+          stat("momentum", 4, "Renouvellement crédibilisé"),
+          stat("cohesion", -4, "Cadres sortants resserrés"),
+          hidden("rivalAmbition", 2),
+        ],
+        {
+          outcome: {
+            setFlags: { renaissance_generation_delivered: true },
+            followUps: [
+              { eventId: "party_renaissance_generation_payoff", afterDecisions: 4, probability: 0.7 },
+            ],
+          },
+        },
+      ),
+      directChoice(
+        "renaissance_generation_keep_advisory",
+        "Garder les décisions centralisées et limiter les nouveaux visages à un rôle consultatif",
+        "internal_discipline",
+        "PRUDENT",
+        "renaissance_generation_advisory_only",
+        "Le renouvellement reste une image",
+        "La prudence évite tout couac de débutant à un moment sensible de la campagne. Le contraste entre le discours de renouvellement et l’absence de responsabilité réelle commence à être relevé par la presse spécialisée.",
+        [
+          stat("credibility", 2, "Aucun couac"),
+          stat("momentum", -3, "Renouvellement jugé cosmétique"),
+          stat("rejection", 1, "Contraste relevé"),
+        ],
+        { outcome: { setFlags: { renaissance_generation_cosmetic: true } } },
+      ),
+    ],
+  }),
+  partyEvent("renaissance", {
+    id: "party_renaissance_generation_payoff",
+    title: "Une figure de la nouvelle génération sort du cadre",
+    summary:
+      "L’un des élus territoriaux auxquels vous avez confié une vraie responsabilité improvise en direct une position plus tranchée que la ligne officielle sur un sujet sensible. L’extrait circule déjà largement.",
+    themes: ["institutions"],
+    importance: "decisive",
+    rarity: "uncommon",
+    minDecisionIndex: 15,
+    editorialSensitivity: "none",
+    chain: {
+      id: "renaissance_generation_arc",
+      step: 2,
+      followsEventIds: ["party_renaissance_generation_test"],
+    },
+    eligibility: [{ kind: "flag", key: "renaissance_generation_delivered", equals: true }],
+    choices: [
+      directChoice(
+        "generation_payoff_back",
+        "Soutenir publiquement la sortie et l’intégrer à la ligne de campagne",
+        "media_response",
+        "RISQUÉ",
+        "generation_payoff_backed",
+        "La candidate assume le dérapage assumé",
+        "Le soutien donne du relief à une candidature encore jugée trop lisse et confirme que le renouvellement pèse vraiment. La ligne officielle, désormais moins prévisible, devient plus difficile à tenir pour le reste de l’équipe.",
+        [
+          stat("momentum", 6, "Renouvellement assumé"),
+          stat("mediaPresence", 4, "Sortie remarquée"),
+          hidden("consistency", -3),
+          stat("cohesion", -2, "Ligne moins prévisible"),
+        ],
+      ),
+      directChoice(
+        "generation_payoff_rein_in",
+        "Reprendre publiquement le contrôle du message et recadrer la sortie de l’élu",
+        "internal_discipline",
+        "PRUDENT",
+        "generation_payoff_reined_in",
+        "Le contrôle du message reprend le dessus",
+        "Le recadrage rassure sur la discipline de la campagne mais dément aussitôt le discours de responsabilité réelle donné aux nouveaux visages. La figure recadrée en tire une leçon dont l’équipe se souviendra.",
+        [
+          stat("cohesion", 3, "Message recentré"),
+          stat("credibility", 2, "Discipline réaffirmée"),
+          stat("momentum", -4, "Renouvellement démenti"),
+        ],
+      ),
+    ],
+  }),
+
+  // Axe 3 — réseau gouvernemental hérité vs autonomie de campagne
+  // (indépendant des axes 1 et 2, ne partage aucun drapeau avec eux).
+  partyEvent("renaissance", {
+    id: "party_renaissance_network_or_autonomy",
+    title: "Faut-il encore s’appuyer sur l’ancien réseau ?",
+    summary:
+      "Les sondages hésitent. Une partie de l’état-major veut mobiliser à plein le réseau national d’élus et de ministres issus du gouvernement sortant pour la logistique et la crédibilité. Une autre veut construire, indépendamment de ce réseau, une organisation de campagne qui doit tout à elle-même.",
+    themes: ["institutions"],
+    importance: "decisive",
+    minDecisionIndex: 12,
+    maxDecisionIndex: 19,
+    entityReferences: [
+      { entityId: "assemblee_nationale", role: "context" },
+      { entityId: "senat", role: "context" },
+    ],
+    editorialSensitivity: "none",
+    choices: [
+      directChoice(
+        "renaissance_network_lean_on",
+        "Mobiliser pleinement le réseau national d’élus et de ministres sortants pour la logistique",
+        "grassroots_mobilization",
+        "INSTITUTIONNEL",
+        "renaissance_network_leaned_on",
+        "Le réseau hérité prend en charge le terrain",
+        "L’organisation gagne en rapidité et en couverture territoriale grâce à un appareil déjà rodé. Le lien avec un gouvernement sortant diversement apprécié colle à chaque déplacement organisé par ce réseau.",
+        [
+          stat("localStrength", 7, "Réseau national mobilisé"),
+          stat("credibility", 3, "Organisation rodée"),
+          stat("rejection", 2, "Lien avec le pouvoir sortant"),
+          hidden("consistency", 1),
+        ],
+        { outcome: { setFlags: { renaissance_leaned_on_network: true } } },
+      ),
+      directChoice(
+        "renaissance_network_build_autonomous",
+        "Construire une organisation de campagne autonome, indépendante du réseau gouvernemental",
+        "long_term_strategy",
+        "RISQUÉ",
+        "renaissance_network_built_autonomous",
+        "Une organisation qui repart de zéro",
+        "L’autonomie donne un signal de rupture avec le gouvernement sortant et attire des bénévoles qui ne voulaient pas rejoindre l’ancien appareil. La construction coûte cher et laisse plusieurs territoires moins couverts que prévu.",
+        [
+          stat("momentum", 5, "Signal de rupture"),
+          stat("mediaPresence", 3, "Organisation nouvelle"),
+          stat("localStrength", -3, "Couverture inégale"),
+          stat("finances", -4, "Construction coûteuse"),
+        ],
+        { outcome: { setFlags: { renaissance_built_autonomy: true } } },
+      ),
+    ],
+  }),
 ];

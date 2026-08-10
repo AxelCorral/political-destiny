@@ -1,0 +1,25 @@
+{
+  "runs": 200,
+  "runsWithLegacyArcShare": 0.18,
+  "legacyShareOfRenaissanceSpecificDecisions": 0.062,
+  "meanFinalScoreWithLegacyArc": 63.2,
+  "meanFinalScoreWithoutLegacyArc": 67,
+  "otherRenaissanceSpecificEventsReached": 15,
+  "otherRenaissanceSpecificEventsSeenAtLeastOnce": 14,
+  "otherEventOccurrenceCounts": {
+    "party_renaissance_runoff": 134,
+    "party_renaissance_electorate": 101,
+    "party_renaissance_program_dilemma": 89,
+    "party_renaissance_identity": 88,
+    "party_renaissance_signature": 87,
+    "party_renaissance_local_asset": 87,
+    "party_renaissance_alliance": 72,
+    "party_renaissance_fronde": 68,
+    "party_renaissance_defend_center": 64,
+    "party_renaissance_crisis_followup": 41,
+    "party_renaissance_network_or_autonomy": 34,
+    "party_renaissance_rare": 2,
+    "party_renaissance_generation_test": 1,
+    "party_renaissance_generation_payoff": 1
+  }
+}
