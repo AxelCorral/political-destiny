@@ -37,6 +37,7 @@ import {
 import { cn } from "@/lib/utils";
 
 import { CampaignDashboard } from "./campaign-dashboard";
+import { campaignPhaseLabel } from "./campaign-phase-label";
 import { resolveConsequenceEmphasis } from "./consequence-emphasis";
 import { EVENT_ICONS as CATEGORY_ICONS, EventDecisionCard } from "./event-decision-card";
 import { useGameStore } from "./gameStore";
@@ -66,6 +67,14 @@ function MainStats({ party }: { party: PartyState }) {
   );
 }
 
+const PHASE_STAGE_ACCENT: Record<string, string> = {
+  "Pré-campagne": "bg-[var(--surface-raised)] text-[var(--ink-muted)]",
+  Campagne: "bg-[var(--surface-raised)] text-[var(--ink-muted)]",
+  "Dernière ligne droite": "bg-amber-50 text-[var(--warning)]",
+  "Entre-deux-tours": "bg-amber-50 text-[var(--warning)]",
+  Gouvernement: "bg-blue-50 text-[var(--blue-700)]",
+};
+
 function CampaignHeader({
   state,
   onDashboard,
@@ -82,17 +91,29 @@ function CampaignHeader({
     100,
     (state.decisionIndex / Math.max(1, state.maxTargetDecisions)) * 100,
   );
+  const phaseLabel = campaignPhaseLabel(state);
+  const isLateStage = phaseLabel === "Dernière ligne droite" || phaseLabel === "Entre-deux-tours";
 
   return (
-    <header className="border-b border-[var(--line)] bg-white/90 backdrop-blur-sm">
+    <header className="bg-white/90 backdrop-blur-sm">
       <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6 lg:px-8">
         <PartyMark visual={party.visual} name={party.displayName} size="small" />
         <div className="min-w-0 flex-1">
           <div className="flex items-center justify-between gap-3">
             <strong className="truncate text-sm">{state.player.displayName}</strong>
-            <span className="shrink-0 text-xs font-black text-[var(--blue-700)]">
-              {state.phase === "government_epilogue" ? "Premiers jours" : `J − ${remaining}`}
-            </span>
+            <div className="flex shrink-0 items-center gap-2">
+              <span
+                className={cn(
+                  "hidden rounded-full px-2 py-0.5 text-[0.6rem] font-black uppercase tracking-[0.08em] sm:inline-block",
+                  PHASE_STAGE_ACCENT[phaseLabel],
+                )}
+              >
+                {phaseLabel}
+              </span>
+              <span className="text-xs font-black text-[var(--blue-700)]">
+                {state.phase === "government_epilogue" ? "Premiers jours" : `J − ${remaining}`}
+              </span>
+            </div>
           </div>
           <div
             className="mt-2 h-1.5 overflow-hidden rounded-full bg-[var(--surface-raised)]"
@@ -103,7 +124,12 @@ function CampaignHeader({
             aria-valuemax={100}
           >
             <div
-              className="h-full rounded-full bg-[var(--blue-600)] transition-[width] duration-500"
+              className={cn(
+                "h-full rounded-full transition-[width] duration-500",
+                isLateStage
+                  ? "bg-[linear-gradient(90deg,var(--blue-600),var(--gold-400))]"
+                  : "bg-[var(--blue-600)]",
+              )}
               style={{ width: `${progress}%` }}
             />
           </div>
@@ -125,6 +151,11 @@ function CampaignHeader({
           <Save aria-hidden="true" className="size-5" />
         </Button>
       </div>
+      <div
+        aria-hidden="true"
+        className="h-[3px] w-full"
+        style={{ backgroundColor: party.visual.primaryColor }}
+      />
     </header>
   );
 }
@@ -150,7 +181,7 @@ export function CampaignEventScreen({
         onDashboard={() => setDashboardOpen(true)}
         onSaveAndQuit={onSaveAndQuit}
       />
-      <div className="mx-auto grid max-w-7xl gap-7 px-4 py-7 sm:px-6 sm:py-10 lg:grid-cols-[minmax(0,1fr)_19rem] lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-7 px-4 py-7 sm:px-6 sm:py-10 lg:grid-cols-[minmax(0,1fr)_19rem] lg:px-8 2xl:max-w-[90rem] 2xl:grid-cols-[minmax(0,1fr)_23rem] 2xl:gap-10">
         <main className="min-w-0">
           <EventDecisionCard
             key={event.id}
@@ -386,7 +417,7 @@ export function RaceBulletinScreen() {
     : undefined;
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 2xl:max-w-[90rem]">
       <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
         <div>
           <p className="text-xs font-black uppercase tracking-[0.18em] text-[var(--blue-600)]">
@@ -582,7 +613,7 @@ export function ElectionNightScreen({ round }: { round: 1 | 2 }) {
 
   return (
     <div className="bg-[var(--navy-950)] py-10 text-white sm:py-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 2xl:max-w-[90rem]">
         <div className="text-center">
           <p className="text-xs font-black uppercase tracking-[0.2em] text-[var(--gold-300)]">
             Soirée électorale fictive · {round === 1 ? "Premier tour" : "Second tour"}
@@ -648,8 +679,13 @@ function ElectionRanking({ result, state }: { result: ElectionRoundResult; state
               key={partyId}
               className={cn(
                 "grid grid-cols-[2rem_2.5rem_1fr_auto] items-center gap-3 rounded-xl p-2",
-                partyId === state.playerPartyId && "bg-blue-50 ring-1 ring-[var(--blue-400)]",
+                partyId === state.playerPartyId && "bg-blue-50 ring-1",
               )}
+              style={
+                partyId === state.playerPartyId
+                  ? ({ "--tw-ring-color": party.visual.primaryColor } as CSSProperties)
+                  : undefined
+              }
             >
               <span className="text-center font-display text-lg font-black">{index + 1}</span>
               <PartyMark visual={party.visual} name={party.displayName} size="small" />

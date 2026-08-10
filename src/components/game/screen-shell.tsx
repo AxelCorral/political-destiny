@@ -18,8 +18,18 @@ export function ScreenShell({
   className?: string;
 }) {
   return (
-    <div className={cn("mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8", className)}>
-      <div className={cn("grid gap-8", aside && "lg:grid-cols-[minmax(0,1fr)_20rem]")}>
+    <div
+      className={cn(
+        "mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 2xl:max-w-[92rem]",
+        className,
+      )}
+    >
+      <div
+        className={cn(
+          "grid gap-8",
+          aside && "lg:grid-cols-[minmax(0,1fr)_20rem] 2xl:grid-cols-[minmax(0,1fr)_24rem]",
+        )}
+      >
         <section className="min-w-0">
           {eyebrow ? (
             <p className="mb-3 text-xs font-black uppercase tracking-[0.17em] text-[var(--blue-600)]">

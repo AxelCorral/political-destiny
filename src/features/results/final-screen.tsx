@@ -109,7 +109,7 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
               : "bg-[radial-gradient(circle_at_80%_15%,rgba(148,163,184,0.14),transparent_30rem),linear-gradient(120deg,transparent_0_62%,rgba(76,131,203,0.16)_62%_63%,transparent_63%)]",
           )}
         />
-        <div className="relative mx-auto grid max-w-7xl items-center gap-9 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-[1fr_auto] lg:px-8">
+        <div className="relative mx-auto grid max-w-7xl items-center gap-9 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-[1fr_auto] lg:px-8 2xl:max-w-[90rem]">
           <div>
             <div className="flex items-center gap-4">
               <PartyMark visual={party.visual} name={party.displayName} size="large" />
@@ -167,7 +167,7 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
         </div>
       </section>
 
-      <main className="mx-auto max-w-7xl space-y-6 px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <main className="mx-auto max-w-7xl space-y-6 px-4 py-8 sm:px-6 sm:py-12 lg:px-8 2xl:max-w-[90rem]">
         <section
           className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4"
           aria-label="Résultats principaux"
