@@ -1,0 +1,33 @@
+{
+  "seedCount": 50,
+  "byAxis": [
+    {
+      "axis": "heritage",
+      "n": 50,
+      "axisContentReachRate": 0.26,
+      "meanFinalScore": 77.1,
+      "qualificationRate": 0.92,
+      "victoryRate": 0.8,
+      "meanDistinctSpecificEventsSeen": 4.94
+    },
+    {
+      "axis": "generation",
+      "n": 50,
+      "axisContentReachRate": 0.02,
+      "meanFinalScore": 75.86,
+      "qualificationRate": 0.9,
+      "victoryRate": 0.76,
+      "meanDistinctSpecificEventsSeen": 4.92
+    },
+    {
+      "axis": "network_autonomy",
+      "n": 50,
+      "axisContentReachRate": 0.22,
+      "meanFinalScore": 77.1,
+      "qualificationRate": 0.92,
+      "victoryRate": 0.8,
+      "meanDistinctSpecificEventsSeen": 4.94
+    }
+  ],
+  "meanTimelineDivergenceJaccard": 0.085
+}

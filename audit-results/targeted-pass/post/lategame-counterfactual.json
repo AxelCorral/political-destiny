@@ -1,0 +1,15 @@
+{
+  "samples": 432,
+  "meanChainShareOfPool": {
+    "before": 0.0576,
+    "after": 0.064
+  },
+  "meanDebateShareOfPool": {
+    "before": 0.1127,
+    "after": 0.1446
+  },
+  "meanDecisiveInternalShareOfPool": {
+    "before": 0.0278,
+    "after": 0.0354
+  }
+}
