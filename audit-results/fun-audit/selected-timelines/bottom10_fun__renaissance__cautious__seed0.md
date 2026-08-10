@@ -4,7 +4,7 @@ Catégorie de sélection : **bottom10_fun**
 
 Score final : 79/100 · 1er tour : 15.6 · 2nd tour : 54.5 · qualifié : true · vainqueur : true · signaux mémorables : 1
 
-## 1. Vingt-quatre heures sans caméra — _pre_campaign/media_
+## 1. Vingt-quatre heures sans caméra  — _pre_campaign/media_
 
 Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
 
@@ -14,7 +14,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 Sondage : 13 → 12.3 (rang 2 → 2)
 
-## 2. Les affiches manquent dans six villes — _pre_campaign/campaign_
+## 2. Les affiches manquent dans six villes  — _pre_campaign/campaign_
 
 Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus d’affiches. Le budget permet soit une impression d’urgence, soit une campagne numérique géolocalisée.
 
@@ -24,7 +24,7 @@ Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus
 
 Sondage : 12.3 → 12.3 (rang 2 → 2)
 
-## 3. Le fonds industriel européen se précise — _pre_campaign/party_
+## 3. Le fonds industriel européen se précise  — _pre_campaign/party_
 
 La campagne veut financer les technologies bas-carbone à l’échelle européenne. Les entreprises demandent un accès rapide, tandis que les partenaires veulent des contreparties sociales et une préférence de production.
 
@@ -34,7 +34,7 @@ La campagne veut financer les technologies bas-carbone à l’échelle européen
 
 Sondage : 12.3 → 12.8 (rang 2 → 2)
 
-## 4. Le siège coûte trop cher — _pre_campaign/internal_
+## 4. Le siège coûte trop cher  — _pre_campaign/internal_
 
 Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
 
@@ -44,7 +44,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 Sondage : 12.8 → 12.1 (rang 2 → 2)
 
-## 5. Horizons propose une candidature commune — _pre_campaign/party_
+## 5. Horizons propose une candidature commune  — _pre_campaign/party_
 
 Horizons offre de retirer sa candidature si un accord fixe le programme économique, la place des élus locaux et la méthode de désignation du Premier ministre. Renaissance doit répondre avant une conférence annoncée.
 
@@ -54,7 +54,7 @@ Horizons offre de retirer sa candidature si un accord fixe le programme économi
 
 Sondage : 12.1 → 13.2 (rang 2 → 1)
 
-## 6. Le regroupement familial en question — _pre_campaign/program_
+## 6. Le regroupement familial en question  — _pre_campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -64,7 +64,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 13.2 → 13.3 (rang 1 → 1)
 
-## 7. Le Conseil européen se divise — _pre_campaign/world_
+## 7. Le Conseil européen se divise  — _pre_campaign/world_
 
 Dans le calendrier fictif, un vote du Conseil européen sur un fonds industriel échoue à une voix. L’Allemagne et la Pologne ont défendu des compromis différents. Les candidats français sont interrogés sur la coalition qu’ils auraient construite.
 
@@ -74,7 +74,7 @@ Dans le calendrier fictif, un vote du Conseil européen sur un fonds industriel 
 
 Sondage : 13.3 → 13.4 (rang 1 → 1)
 
-## 8. Le slogan divise le siège — _pre_campaign/campaign_
+## 8. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -84,7 +84,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 13.4 → 13.4 (rang 1 → 1)
 
-## 9. Le gaz double en une semaine — _campaign/world_
+## 9. Le gaz double en une semaine  — _campaign/world_
 
 Dans l’économie simulée, le prix de gros du gaz double après une rupture d’approvisionnement. La Commission européenne coordonne les stocks et les ménages craignent déjà leur prochaine facture. Votre programme énergétique doit répondre à l’urgence sans renier sa trajectoire.
 
@@ -94,7 +94,7 @@ Dans l’économie simulée, le prix de gros du gaz double après une rupture d�
 
 Sondage : 13.4 → 13.8 (rang 1 → 1)
 
-## 10. Provoquer le favori en duel — _campaign/debate_
+## 10. Provoquer le favori en duel  — _campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -104,7 +104,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 Sondage : 13.8 → 13.8 (rang 1 → 1)
 
-## 11. Le siège arrive à saturation — _campaign/internal_
+## 11. Le siège arrive à saturation  — _campaign/internal_
 
 Trois responsables salariés et plusieurs bénévoles signalent des journées de quinze heures. Deux erreurs d’agenda ont déjà été rattrapées. Réduire le rythme protège l’équipe mais oblige à abandonner des déplacements attendus.
 
@@ -114,7 +114,7 @@ Trois responsables salariés et plusieurs bénévoles signalent des journées de
 
 Sondage : 13.8 → 14 (rang 1 → 1)
 
-## 12. Le meeting change de dispositif — _campaign/campaign_
+## 12. Le meeting change de dispositif  — _campaign/campaign_
 
 La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
 
@@ -124,7 +124,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 Sondage : 14 → 16.1 (rang 1 → 1)
 
-## 13. Les classes moyennes demandent un gain net — _campaign/party_
+## 13. Les classes moyennes demandent un gain net  — _campaign/party_
 
 Des panels d’électeurs comprennent les réformes proposées mais ne voient pas leur effet sur le revenu disponible. L’équipe doit choisir une mesure simple sans abandonner la crédibilité budgétaire.
 
@@ -134,7 +134,7 @@ Des panels d’électeurs comprennent les réformes proposées mais ne voient pa
 
 Sondage : 16.1 → 14.4 (rang 1 → 1)
 
-## 14. La Cour des comptes alerte — _campaign/world_
+## 14. La Cour des comptes alerte  — _campaign/world_
 
 Dans la trajectoire fictive de la partie, la Cour des comptes publie un rapport sur la dégradation du déficit public. Le document ne juge aucun programme présidentiel, mais rend les promesses non financées beaucoup plus difficiles à défendre.
 
@@ -144,7 +144,7 @@ Dans la trajectoire fictive de la partie, la Cour des comptes publie un rapport 
 
 Sondage : 14.4 → 14.6 (rang 1 → 1)
 
-## 15. Le micro resté ouvert — _campaign/media_
+## 15. Le micro resté ouvert  — _campaign/media_
 
 Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
@@ -154,7 +154,7 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 Sondage : 14.6 → 14.5 (rang 1 → 1)
 
-## 16. La réforme des retraites revient — _official_campaign/party_
+## 16. La réforme des retraites revient  — _official_campaign/party_
 
 Les adversaires ramènent chaque entretien à l’âge de départ. Les équipes hésitent entre défendre la réforme, l’aménager pour les carrières longues ou ouvrir une négociation entièrement nouvelle.
 
@@ -164,7 +164,7 @@ Les adversaires ramènent chaque entretien à l’âge de départ. Les équipes 
 
 Sondage : 14.5 → 14.9 (rang 1 → 1)
 
-## 17. La photographie du quai vide — _official_campaign/media_
+## 17. La photographie du quai vide  — _official_campaign/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -174,7 +174,7 @@ Sondage : 14.5 → 14.9 (rang 1 → 1)
 
 Sondage : 14.9 → 14.7 (rang 1 → 1)
 
-## 18. La France vue depuis Bruxelles — _official_campaign/media_
+## 18. La France vue depuis Bruxelles  — _official_campaign/media_
 
 Depuis Bruxelles, un entretien diffusé par franceinfo porte sur votre stratégie au Conseil européen. L’animateur vous demande ce que la France ferait si l’Allemagne et l’Italie refusaient votre réforme budgétaire.
 
@@ -184,7 +184,7 @@ Depuis Bruxelles, un entretien diffusé par franceinfo porte sur votre stratégi
 
 Sondage : 14.7 → 14.9 (rang 1 → 1)
 
-## 19. La PME teste votre réforme — _official_campaign/campaign_
+## 19. La PME teste votre réforme  — _official_campaign/campaign_
 
 Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réforme du travail sur ses comptes. La dirigeante et les représentants du personnel obtiennent des résultats opposés.
 
@@ -194,7 +194,7 @@ Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réfor
 
 Sondage : 14.9 → 15 (rang 1 → 1)
 
-## 20. Tensions internes chez Reconquête — _official_campaign/world_
+## 20. Tensions internes chez Reconquête  — _official_campaign/world_
 
 La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.
 
@@ -204,7 +204,7 @@ La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie d
 
 Sondage : 15 → 14.6 (rang 1 → 1)
 
-## 21. Douze députés offrent leur expérience — _official_campaign/alliance_
+## 21. Douze députés offrent leur expérience  — _official_campaign/alliance_
 
 Douze parlementaires de sensibilités proches proposent de soutenir votre candidature sans quitter leur parti. Ils demandent une conférence hebdomadaire sur les institutions et souhaitent pouvoir signaler publiquement leurs désaccords.
 
@@ -214,7 +214,7 @@ Douze parlementaires de sensibilités proches proposent de soutenir votre candid
 
 Sondage : 14.6 → 15.1 (rang 1 → 1)
 
-## 22. Le mix électrique de 2040 — _official_campaign/program_
+## 22. Le mix électrique de 2040  — _official_campaign/program_
 
 À Strasbourg, votre discours énergétique doit trancher la trajectoire nucléaire et renouvelable jusqu’en 2040. Le réseau, le coût, l’indépendance et la réduction des émissions imposent des délais que les slogans masquent mal.
 
@@ -224,7 +224,7 @@ Sondage : 14.6 → 15.1 (rang 1 → 1)
 
 Sondage : 15.1 → 15.2 (rang 1 → 1)
 
-## 23. Le déplacement en Guadeloupe engage — _official_campaign/campaign_
+## 23. Le déplacement en Guadeloupe engage  — _official_campaign/campaign_
 
 En Guadeloupe, les élus et associations placent l’eau potable, la vie chère et la continuité territoriale avant votre thème national. Ils demandent des compétences, un budget et une date.
 
@@ -234,7 +234,7 @@ En Guadeloupe, les élus et associations placent l’eau potable, la vie chère 
 
 Sondage : 15.2 → 15.3 (rang 1 → 1)
 
-## 24. Les sections refusent le kit national — _between_rounds/internal_
+## 24. Les sections refusent le kit national  — _between_rounds/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -244,7 +244,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 15.3 → 15.3 (rang 1 → 1)
 
-## 25. Le bloc républicain demande des preuves — _between_rounds/party_
+## 25. Le bloc républicain demande des preuves  — _between_rounds/party_
 
 Qualifié, Maël Dargent reçoit des soutiens conditionnels venus du centre, de la gauche et de la droite modérée. Leur électorat veut des engagements démocratiques plutôt qu’un simple appel contre l’adversaire.
 
@@ -254,7 +254,7 @@ Qualifié, Maël Dargent reçoit des soutiens conditionnels venus du centre, de 
 
 Sondage : 15.3 → 15.5 (rang 1 → 1)
 
-## 26. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 26. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -264,7 +264,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 Sondage : 15.5 → 15.6 (rang 1 → 1)
 
-## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 27. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -274,7 +274,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 15.6 → 15.7 (rang 1 → 1)
 
-## 28. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 28. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -284,7 +284,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 Sondage : 15.7 → 14.5 (rang 1 → 1)
 
-## 29. Les dernières heures autorisées — _government_epilogue/between_rounds_
+## 29. Les dernières heures autorisées  — _government_epilogue/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -294,7 +294,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 Sondage : 14.5 → 15.9 (rang 1 → 1)
 
-## 30. La première adresse de lÉlysée — _government_epilogue/government_
+## 30. La première adresse de lÉlysée  — _government_epilogue/government_
 
 Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.
 
@@ -304,7 +304,7 @@ Après les célébrations, votre première parole présidentielle fictive doit h
 
 Sondage : 15.9 → 15.9 (rang 1 → 1)
 
-## 31. Deux alliés réclament Bercy — _finished/government_
+## 31. Deux alliés réclament Bercy  — _finished/government_
 
 Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 

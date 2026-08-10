@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **riche_evenements_rares**
 
-Score final : 46/100 · 1er tour : 11.2 · qualifié : false · vainqueur : false · signaux mémorables : 3
+Score final : 42/100 · 1er tour : 10.4 · qualifié : false · vainqueur : false · signaux mémorables : 4
 
-## 1. La loi migratoire du programme — _pre_campaign/program_
+## 1. La loi migratoire du programme  — _pre_campaign/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -14,7 +14,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 Sondage : 10.4 → 10.8 (rang 8 → 8)
 
-## 2. Le PS offre des circonscriptions urbaines — _pre_campaign/party_
+## 2. Le PS offre des circonscriptions urbaines  — _pre_campaign/party_
 
 Le Parti socialiste propose un accord de campagne dans six métropoles contre un soutien écologique sur les sujets sociaux. Les fédérations rurales craignent que l’écologie territoriale disparaisse de l’échange.
 
@@ -24,7 +24,7 @@ Le Parti socialiste propose un accord de campagne dans six métropoles contre un
 
 Sondage : 10.8 → 10.9 (rang 8 → 8)
 
-## 3. Le marché sous pression — _pre_campaign/campaign_
+## 3. Le marché sous pression  — _pre_campaign/campaign_
 
 Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
 
@@ -34,7 +34,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 Sondage : 10.9 → 11 (rang 8 → 7)
 
-## 4. Les locataires redoutent les interdictions — _pre_campaign/party_
+## 4. Les locataires redoutent les interdictions  — _pre_campaign/party_
 
 Des associations de locataires craignent que les obligations de rénovation réduisent l’offre de logements. Elles demandent qui paiera les travaux et comment empêcher les congés abusifs.
 
@@ -44,7 +44,7 @@ Des associations de locataires craignent que les obligations de rénovation réd
 
 Sondage : 11 → 9 (rang 7 → 8)
 
-## 5. Le slogan divise le siège — _pre_campaign/campaign_
+## 5. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -54,7 +54,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 9 → 11.4 (rang 8 → 6)
 
-## 6. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 6. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -64,7 +64,7 @@ Sondage : 9 → 11.4 (rang 8 → 6)
 
 Sondage : 11.4 → 11.5 (rang 6 → 5)
 
-## 7. Les règles de la liste commune — _pre_campaign/internal_
+## 7. Les règles de la liste commune  — _pre_campaign/internal_
 
 Les courants du parti exigent de connaître la méthode de nomination des responsables de campagne. Une répartition strictement proportionnelle protège l’unité, tandis qu’une équipe resserrée permettrait des décisions plus rapides.
 
@@ -74,7 +74,7 @@ Les courants du parti exigent de connaître la méthode de nomination des respon
 
 Sondage : 11.5 → 11.6 (rang 5 → 5)
 
-## 8. Un fichier militant sort du siège — _pre_campaign/scandal_
+## 8. Un fichier militant sort du siège  — _pre_campaign/scandal_
 
 Un bénévole signale qu’un tableau de contacts a été partagé sur un lien sans mot de passe pendant six heures. Il contient des courriels et des préférences de bénévolat, mais aucune donnée bancaire ni pièce d’identité.
 
@@ -84,7 +84,7 @@ Un bénévole signale qu’un tableau de contacts a été partagé sur un lien s
 
 Sondage : 11.6 → 14.2 (rang 5 → 1)
 
-## 9. Le regroupement familial en question — _campaign/program_
+## 9. Le regroupement familial en question  — _campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -94,7 +94,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 14.2 → 10.6 (rang 1 → 8)
 
-## 10. L’immigration de travail, un choix économique assumé ou non — _campaign/program_
+## 10. L’immigration de travail, un choix économique assumé ou non  — _campaign/program_
 
 Des fédérations patronales de la restauration, du bâtiment et du soin à domicile alertent publiquement sur des postes non pourvus. Le sujet, distinct de l’asile déjà tranché, oblige à préciser votre ligne sur l’immigration de travail.
 
@@ -104,7 +104,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 Sondage : 10.6 → 9.5 (rang 8 → 8)
 
-## 11. La une vous prête un tournant — _campaign/media_
+## 11. La une vous prête un tournant  — _campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -114,7 +114,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 9.5 → 9.5 (rang 8 → 8)
 
-## 12. Deux cents maires demandent un contrat — _campaign/alliance_
+## 12. Deux cents maires demandent un contrat  — _campaign/alliance_
 
 Deux cents maires de communes rurales et périurbaines publient un appel sur les services publics, le logement et les finances locales. Ils soutiendront le candidat qui accepte un calendrier contrôlable plutôt qu’une liste de promesses.
 
@@ -124,7 +124,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 Sondage : 9.5 → 15.4 (rang 8 → 1)
 
-## 13. Un soutien éditorial encombrant — _campaign/media_
+## 13. Un soutien éditorial encombrant  — _campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -134,7 +134,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 15.4 → 9.7 (rang 1 → 8)
 
-## 14. Le micro resté ouvert — _campaign/media_
+## 14. Le micro resté ouvert  — _campaign/media_
 
 Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
@@ -154,7 +154,7 @@ Une projection en direct devait vous faire apparaître simultanément à Toulous
 
 Sondage : 9.7 → 9.6 (rang 8 → 8)
 
-## 16. Le contrat d’intégration, jusqu’où aller — _campaign/program_
+## 16. Le contrat d’intégration, jusqu’où aller  — _campaign/program_
 
 Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
 
@@ -164,7 +164,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 Sondage : 9.6 → 14.9 (rang 8 → 1)
 
-## 17. Le direct des questions citoyennes — _official_campaign/media_
+## 17. Le direct des questions citoyennes  — _official_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -174,7 +174,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 14.9 → 10 (rang 1 → 8)
 
-## 18. La question venue de Mayotte — _official_campaign/debate_
+## 18. La question venue de Mayotte  — _official_campaign/debate_
 
 Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
 
@@ -184,37 +184,37 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 Sondage : 10 → 9.7 (rang 8 → 8)
 
-## 19. Le contrôle interne signale trois factures _(CHAÎNE)_ — _official_campaign/internal_
+## 19. Les sections refusent le kit national  — _official_campaign/internal_
 
-La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois factures sans justificatif complet. Rien ne prouve une irrégularité, mais leur remboursement pourrait être refusé si les pièces manquent au dépôt des comptes.
+Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
-> **Choix retenu :** Demander aux équipes locales de reconstituer les dossiers avant tout signalement extérieur [PRUDENT]
+> **Choix retenu :** Interdire tout tract non validé et envoyer une équipe pour expliquer le programme national [LOYAL]
 
-**Les pièces reviennent, une dépense reste floue** — Deux factures sont documentées en quarante-huit heures. La troisième correspond à une prestation orale mal encadrée, qui demeure défendable mais expose la campagne à une question ultérieure.
+**Le kit national reste la seule parole** — La cohérence des documents est protégée et la proposition non chiffrée disparaît. Plusieurs militants bretons renoncent au porte-à-porte, estimant que le siège les traite comme de simples exécutants.
 
-Sondage : 9.7 → 9.7 (rang 8 → 8)
+Sondage : 9.7 → 9.6 (rang 8 → 8)
 
-## 20. Un virement suit un trajet complexe — _official_campaign/scandal_
+## 20. L’imprimeur a doublé une ligne  — _official_campaign/scandal_
 
-La banque de la campagne demande des précisions sur un don fictif reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.
+Étienne Marot, fournisseur fictif, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.
 
-> **Choix retenu :** Conserver le don sur la foi d’une attestation simple et répondre seulement si la commission interroge [RISQUÉ]
+> **Choix retenu :** Rompre le contrat, demander le remboursement et répartir les commandes entre deux imprimeurs [OFFENSIF]
 
-**L’argent reste disponible, la question aussi** — L’attestation satisfait provisoirement la banque et permet de payer une tournée. Elle ne documente pas les virements intermédiaires, qui restent une faiblesse lors du contrôle final.
+**Le contrat s’arrête avec les presses** — Le remboursement est obtenu et le signal de rigueur est net. Les nouveaux imprimeurs ne peuvent respecter le même calendrier, ce qui retarde l’affichage dans quatre régions.
 
-Sondage : 9.7 → 8.3 (rang 8 → 8)
+Sondage : 9.6 → 8.3 (rang 8 → 8)
 
-## 21. Neuf groupes rendent la majorité incertaine _(RARE · CHAÎNE)_ — _official_campaign/rare_
+## 21. Une apostrophe change le slogan _(RARE)_ — _official_campaign/rare_
 
-Une projection fictive des législatives ne donne de majorité à aucun bloc et répartit l’Assemblée nationale entre neuf groupes. Les journalistes vous demandent avant la présidentielle avec qui vous accepteriez de gouverner.
+Un lot de cinquante mille tracts transforme par erreur « la France en commun » en une formule grammaticalement étrange. Les premières photographies circulent déjà et l’imprimeur fictif propose une réimpression gratuite sous trois jours.
 
-> **Choix retenu :** Refuser toute coalition et annoncer que vous redonnerez la parole aux électeurs en cas de blocage durable [OFFENSIF]
+> **Choix retenu :** Accepter la réimpression gratuite et recycler tous les tracts erronés sans les distribuer [PRUDENT]
 
-**La menace d’une nouvelle élection précède la première** — Votre socle apprécie le refus des compromis de couloir et les électeurs modérés craignent une crise fabriquée. Les partis voisins cessent de vous considérer comme un partenaire disponible.
+**Les tracts repartent au papier** — La campagne perd trois jours de diffusion mais ne transforme pas une coquille en identité durable. Le recyclage documenté limite le gaspillage et le fournisseur assume le coût.
 
-Sondage : 8.3 → 9.7 (rang 8 → 8)
+Sondage : 8.3 → 9.5 (rang 8 → 8)
 
-## 22. Deux invitations au même horaire — _official_campaign/campaign_
+## 22. Deux invitations au même horaire  — _official_campaign/campaign_
 
 France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
@@ -222,29 +222,29 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 **L’entretien national prend le dessus** — Votre argument économique atteint un large public et deux maires refusent la visioconférence. Le choix gagne en exposition ce qu’il perd en confiance territoriale.
 
-Sondage : 9.7 → 9.7 (rang 8 → 8)
+Sondage : 9.5 → 9.5 (rang 8 → 8)
 
-## 23. Les factures sans pièce ressortent _(CHAÎNE)_ — _official_campaign/scandal_
+## 23. Un rival corrige votre ligne  — _official_campaign/internal_
 
-Mediapart révèle que trois factures de la campagne ont été payées avec des justificatifs incomplets. Maud Keravel, trésorière fictive, affirme que les prestations ont bien eu lieu. Aucun organisme public n’a encore conclu à une irrégularité.
+Dans Le Figaro, un responsable fictif de votre parti affirme que votre proposition fiscale n’est pas la position collective. Il ne remet pas votre candidature en cause, mais demande un vote du bureau dès le lendemain.
 
-> **Choix retenu :** Rembourser volontairement les trois dépenses à la campagne et retirer toute demande de remboursement public [PRUDENT]
+> **Choix retenu :** Retirer au responsable son portefeuille économique et maintenir votre proposition sans nouveau vote [CLIVANT]
 
-**La campagne paie le coût de son dossier incomplet** — Le remboursement ne tranche pas la responsabilité, mais supprime le risque que des fonds publics couvrent les dépenses contestées. L’opposition y voit un aveu tandis que les juristes saluent une précaution claire.
+**Le portefeuille change de mains** — La sanction met fin aux prises de parole contradictoires et accélère la campagne. Plusieurs cadres la vivent comme une humiliation infligée à tout un courant et réduisent leur implication locale.
 
-Sondage : 9.7 → 9.7 (rang 8 → 8)
+Sondage : 9.5 → 9.3 (rang 8 → 8)
 
-## 24. Cinq cents bénévoles sans mission — _between_rounds/internal_
+## 24. Une chanteuse veut soutenir la campagne  — _between_rounds/alliance_
 
-Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit heures. Le siège peut les envoyer immédiatement sur le terrain, les former à distance ou les répartir auprès des sections qui manquent déjà d’encadrement.
+Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
-> **Choix retenu :** Former les nouveaux bénévoles pendant deux soirées avant toute prise de contact électorale [PRUDENT]
+> **Choix retenu :** Accepter le concert et publier à l’avance le cadre politique de son intervention [TRANSPARENT]
 
-**Les nouveaux arrivent préparés sur le terrain** — La campagne renonce à deux jours d’élan mais évite les réponses contradictoires et les problèmes de données personnelles. Les bénévoles formés restent davantage engagés au fil des semaines.
+**Le concert porte une mesure précise** — Nina Sorel raconte son engagement sans parler au nom de la campagne et attire un public nouveau. Le cadre publié évite la confusion entre soutien artistique et expertise programmatique.
 
-Sondage : 9.7 → 9.9 (rang 8 → 8)
+Sondage : 9.3 → 9.4 (rang 8 → 8)
 
-## 25. Le score ouvre une autre campagne — _finished/between_rounds_
+## 25. Le score ouvre une autre campagne  — _finished/between_rounds_
 
 Votre résultat ne permet pas le second tour mais progresse nettement par rapport au socle initial. Les cadres veulent préparer les législatives, les militants demandent un bilan et plusieurs élus proposent une fusion avec un parti proche.
 
@@ -252,4 +252,4 @@ Votre résultat ne permet pas le second tour mais progresse nettement par rappor
 
 **La campagne ne démonte pas ses bureaux** — Les bénévoles reçoivent un nouvel objectif avant que la déception ne les disperse. La rapidité préserve le réseau et reporte lanalyse de vos erreurs à une date incertaine.
 
-Sondage : 9.9 → 10 (rang 8 → 8)
+Sondage : 9.4 → 9.5 (rang 8 → 8)

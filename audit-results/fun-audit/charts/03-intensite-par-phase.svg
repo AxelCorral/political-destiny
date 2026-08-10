@@ -4,18 +4,18 @@
   <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">Échelle heuristique 1-6, mêmes principes que scripts/gameplay-audit</text>
   
     <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">pre_campaign</text>
-    <rect x="200" y="62" width="332.5" height="28" fill="#3b6ea5" rx="3" />
-    <text x="540.462602842184" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.78</text>
+    <rect x="200" y="62" width="331.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="539.6408437558334" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3.78</text>
     <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">campaign</text>
-    <rect x="200" y="100" width="363.3" height="28" fill="#3b6ea5" rx="3" />
-    <text x="571.3096484667166" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.13</text>
+    <rect x="200" y="100" width="363.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="571.0502146723912" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.14</text>
     <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">official_campaign</text>
-    <rect x="200" y="138" width="379.6" height="28" fill="#3b6ea5" rx="3" />
-    <text x="587.568062827225" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.32</text>
+    <rect x="200" y="138" width="383.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="590.9662124323315" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">4.37</text>
     <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">between_rounds</text>
-    <rect x="200" y="176" width="441.5" height="28" fill="#3b6ea5" rx="3" />
-    <text x="649.525804038893" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.02</text>
+    <rect x="200" y="176" width="442.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="650.1000560014934" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.04</text>
     <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">government_epilogue</text>
     <rect x="200" y="214" width="470.0" height="28" fill="#3b6ea5" rx="3" />
-    <text x="678" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.35</text>
+    <text x="678" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">5.36</text>
 </svg>

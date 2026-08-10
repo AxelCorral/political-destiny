@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **chaotique**
 
-Score final : 26/100 · 1er tour : 7 · qualifié : false · vainqueur : false · signaux mémorables : 7
+Score final : 26/100 · 1er tour : 6.9 · qualifié : false · vainqueur : false · signaux mémorables : 7
 
-## 1. Le salaire net au centre — _pre_campaign/program_
+## 1. Le salaire net au centre  — _pre_campaign/program_
 
 L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La conférence économique attend votre mécanisme salarial : hausse du minimum légal, négociations de branche, baisse de cotisations ou prime ponctuelle.
 
@@ -14,7 +14,7 @@ L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La confére
 
 Sondage : 12 → 13.5 (rang 1 → 1)
 
-## 2. Une minute sur les loyers — _pre_campaign/media_
+## 2. Une minute sur les loyers  — _pre_campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -24,7 +24,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 13.5 → 13.8 (rang 1 → 1)
 
-## 3. Deux cents maires demandent un contrat — _pre_campaign/alliance_
+## 3. Deux cents maires demandent un contrat  — _pre_campaign/alliance_
 
 Deux cents maires de communes rurales et périurbaines publient un appel sur les services publics, le logement et les finances locales. Ils soutiendront le candidat qui accepte un calendrier contrôlable plutôt qu’une liste de promesses.
 
@@ -34,7 +34,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 Sondage : 13.8 → 13.9 (rang 1 → 1)
 
-## 4. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 4. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -44,7 +44,7 @@ Sondage : 13.8 → 13.9 (rang 1 → 1)
 
 Sondage : 13.9 → 13.6 (rang 1 → 1)
 
-## 5. Une ligne du CV est fausse — _pre_campaign/scandal_
+## 5. Une ligne du CV est fausse  — _pre_campaign/scandal_
 
 Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.
 
@@ -54,7 +54,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 Sondage : 13.6 → 14.2 (rang 1 → 1)
 
-## 6. Le regroupement familial en question — _pre_campaign/program_
+## 6. Le regroupement familial en question  — _pre_campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -64,7 +64,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 14.2 → 14.4 (rang 1 → 1)
 
-## 7. Le gaz double en une semaine — _pre_campaign/world_
+## 7. Le gaz double en une semaine  — _pre_campaign/world_
 
 Dans l’économie simulée, le prix de gros du gaz double après une rupture d’approvisionnement. La Commission européenne coordonne les stocks et les ménages craignent déjà leur prochaine facture. Votre programme énergétique doit répondre à l’urgence sans renier sa trajectoire.
 
@@ -74,7 +74,7 @@ Dans l’économie simulée, le prix de gros du gaz double après une rupture d�
 
 Sondage : 14.4 → 14.7 (rang 1 → 1)
 
-## 8. La préférence nationale rencontre le droit — _pre_campaign/party_
+## 8. La préférence nationale rencontre le droit  — _pre_campaign/party_
 
 Les juristes du programme avertissent que plusieurs mesures sociales seraient contestées au regard de la Constitution et du droit européen. La campagne doit préciser leur champ ou assumer une confrontation institutionnelle.
 
@@ -84,7 +84,7 @@ Les juristes du programme avertissent que plusieurs mesures sociales seraient co
 
 Sondage : 14.7 → 16.4 (rang 1 → 1)
 
-## 9. Ce que l’école doit transmettre — _campaign/program_
+## 9. Ce que l’école doit transmettre  — _campaign/program_
 
 Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
@@ -94,7 +94,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 Sondage : 16.4 → 13.7 (rang 1 → 1)
 
-## 10. Deux invitations au même horaire — _campaign/campaign_
+## 10. Deux invitations au même horaire  — _campaign/campaign_
 
 France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
@@ -104,7 +104,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 Sondage : 13.7 → 13.3 (rang 1 → 1)
 
-## 11. La collecte se bloque — _campaign/campaign_
+## 11. La collecte se bloque  — _campaign/campaign_
 
 Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
 
@@ -134,7 +134,7 @@ Louis Ferran, cadre fictif du RN, juge la stratégie de normalisation trop lente
 
 Sondage : 16.4 → 13.1 (rang 1 → 1)
 
-## 14. La grève bloque les transports — _campaign/world_
+## 14. La grève bloque les transports  — _campaign/world_
 
 Dans la simulation, une grève nationale des transports entre dans sa quatrième journée après l’échec d’une négociation salariale. La CGT et la CFDT portent des revendications distinctes ; les usagers demandent une sortie rapide plutôt qu’un commentaire de campagne.
 
@@ -144,7 +144,7 @@ Dans la simulation, une grève nationale des transports entre dans sa quatrième
 
 Sondage : 13.1 → 12.4 (rang 1 → 1)
 
-## 15. Le contrat du conseiller est publié — _campaign/scandal_
+## 15. Le contrat du conseiller est publié  — _campaign/scandal_
 
 Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une clause prévoit une prime si la campagne dépasse un seuil de voix, mécanisme légal dans l’univers du jeu mais politiquement difficile à défendre.
 
@@ -164,7 +164,7 @@ Après son mandat limité ou son éviction, Louis Ferran réunit ses soutiens et
 
 Sondage : 12.1 → 15 (rang 1 → 1)
 
-## 17. La loi migratoire du programme — _official_campaign/program_
+## 17. La loi migratoire du programme  — _official_campaign/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -174,7 +174,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 Sondage : 15 → 11.8 (rang 1 → 4)
 
-## 18. Les soutiens envahissent le plateau — _official_campaign/debate_
+## 18. Les soutiens envahissent le plateau  — _official_campaign/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -184,15 +184,15 @@ Sondage : 15 → 11.8 (rang 1 → 4)
 
 Sondage : 11.8 → 11.4 (rang 4 → 6)
 
-## 19. Une apostrophe change le slogan _(RARE)_ — _official_campaign/rare_
+## 19. Le Conseil européen se divise  — _official_campaign/world_
 
-Un lot de cinquante mille tracts transforme par erreur « la France en commun » en une formule grammaticalement étrange. Les premières photographies circulent déjà et l’imprimeur fictif propose une réimpression gratuite sous trois jours.
+Dans le calendrier fictif, un vote du Conseil européen sur un fonds industriel échoue à une voix. L’Allemagne et la Pologne ont défendu des compromis différents. Les candidats français sont interrogés sur la coalition qu’ils auraient construite.
 
-> **Choix retenu :** Assumer la formule erronée comme un jeu de mots et distribuer tout le stock [RISQUÉ]
+> **Choix retenu :** Abandonner le projet européen et créer un fonds industriel exclusivement français [LOYAL]
 
-**La faute devient volontaire après coup** — Certains militants adoptent la formule et les réseaux la détournent largement. Votre tentative de réécriture amuse autant qu’elle nourrit le doute sur le sérieux logistique.
+**Le fonds revient au budget français** — La décision offre une maîtrise nationale et un calendrier simple. Elle réduit l’échelle financière, expose les aides au contrôle européen et affaiblit votre discours sur la capacité de coalition.
 
-Sondage : 11.4 → 11.2 (rang 6 → 6)
+Sondage : 11.4 → 10.9 (rang 6 → 7)
 
 ## 20. Un courant identitaire prépare sa candidature _(RARE · CHAÎNE)_ — _official_campaign/party_
 
@@ -202,39 +202,39 @@ Des cadres fictifs exclus après le conflit interne annoncent un comité concurr
 
 **Deux campagnes se disputent le même socle** — La candidate conserve sa ligne et mobilise les structures nationales contre le comité. La concurrence absorbe du temps, réduit les dons et fragmente les équipes locales.
 
-Sondage : 11.2 → 14.8 (rang 6 → 1)
+Sondage : 10.9 → 14.6 (rang 7 → 1)
 
-## 21. La Garonne sort de son lit — _official_campaign/world_
+## 21. Une crise ferme un détroit  — _official_campaign/world_
 
-Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
+Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France na pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.
 
-> **Choix retenu :** Rejoindre immédiatement un centre de coordination sans caméra et suivre les tâches attribuées [RISQUÉ]
+> **Choix retenu :** Demander une déclaration européenne commune sur la liberté de navigation et la désescalade [PRÉSIDENTIEL]
 
-**Une présence acceptée mais inutile au commandement** — Les autorités vous laissent rencontrer les équipes hors des zones opérationnelles. Votre discrétion évite la gêne, mais le déplacement mobilise tout de même une escorte et suscite un débat sur son utilité.
+**La réponse française passe par l’Europe** — Votre position évite de choisir un camp militaire et propose un cadre diplomatique crédible. Elle renforce votre stature européenne sans offrir de solution immédiate aux entreprises exposées.
 
-Sondage : 14.8 → 9.9 (rang 1 → 7)
+Sondage : 14.6 → 9.4 (rang 1 → 8)
 
-## 22. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
+## 22. Une proposition de pacte de non-agression  — _official_campaign/campaign_
 
-Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
+À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Maël Dargent (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.
 
-> **Choix retenu :** Diffuser la rumeur sous forme de question, sans l’affirmer directement [OPPORTUNISTE]
+> **Choix retenu :** Accepter le pacte pour la durée du meeting commun [RASSEMBLEUR]
 
-**Le doute entretenu sans affirmation directe** — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
+**Une trêve limitée et respectée** — L’événement se déroule sans accroc et les deux équipes en sortent sur une image apaisée. Certains soutiens plus offensifs regrettent l’absence de contraste marqué ce jour-là.
 
-Sondage : 9.9 → 9.9 (rang 7 → 7)
+Sondage : 9.4 → 9.5 (rang 8 → 8)
 
-## 23. Deux équipes se disputent le terrain — _official_campaign/internal_
+## 23. Le contrôle interne signale trois factures _(CHAÎNE)_ — _official_campaign/internal_
 
-Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
+La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois factures sans justificatif complet. Rien ne prouve une irrégularité, mais leur remboursement pourrait être refusé si les pièces manquent au dépôt des comptes.
 
-> **Choix retenu :** Maintenir l’opération vidéo et demander à Samira Bellon d’en mesurer elle-même l’audience locale [RISQUÉ]
+> **Choix retenu :** Demander aux équipes locales de reconstituer les dossiers avant tout signalement extérieur [PRUDENT]
 
-**La vidéo atteint Lyon sans apaiser les sections** — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
+**Les pièces reviennent, une dépense reste floue** — Deux factures sont documentées en quarante-huit heures. La troisième correspond à une prestation orale mal encadrée, qui demeure défendable mais expose la campagne à une question ultérieure.
 
-Sondage : 9.9 → 9.8 (rang 7 → 7)
+Sondage : 9.5 → 9.6 (rang 8 → 8)
 
-## 24. Les petites villes ouvrent la campagne — _between_rounds/party_
+## 24. Les petites villes ouvrent la campagne  — _between_rounds/party_
 
 Des élus locaux proches du RN proposent une tournée des petites villes sur les commerces, les transports et la santé. Ils veulent éviter un déplacement limité aux thèmes nationaux habituels.
 
@@ -242,9 +242,9 @@ Des élus locaux proches du RN proposent une tournée des petites villes sur les
 
 **La tournée devient un meeting national** — Le rassemblement reçoit une forte couverture et mobilise le socle régional. Les sujets de santé et de transport disparaissent, décevant les élus qui avaient préparé les visites.
 
-Sondage : 9.8 → 9.8 (rang 7 → 7)
+Sondage : 9.6 → 9.7 (rang 8 → 7)
 
-## 25. Aucun finaliste ne porte votre ligne — _finished/between_rounds_
+## 25. Aucun finaliste ne porte votre ligne  — _finished/between_rounds_
 
 Les deux finalistes fictifs sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre lun dentre eux engage malgré tout votre responsabilité.
 
@@ -252,4 +252,4 @@ Les deux finalistes fictifs sont éloignés de vos positions sur des sujets diff
 
 **Le parti quitte le second tour** — Votre autonomie ne peut être confondue avec un soutien et votre socle le plus méfiant lapprécie. Vous abandonnez toute influence sur les deux semaines où le pays choisit son président.
 
-Sondage : 9.8 → 9.8 (rang 7 → 7)
+Sondage : 9.7 → 9.7 (rang 7 → 7)

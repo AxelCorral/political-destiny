@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **favori_en_difficulte**
 
-Score final : 45/100 · 1er tour : 12.6 · qualifié : false · vainqueur : false · signaux mémorables : 4
+Score final : 34/100 · 1er tour : 10.7 · qualifié : false · vainqueur : false · signaux mémorables : 4
 
-## 1. Les sections refusent le kit national — _pre_campaign/internal_
+## 1. Les sections refusent le kit national  — _pre_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -14,7 +14,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 14.2 → 11.7 (rang 1 → 4)
 
-## 2. La laïcité à l’épreuve du quotidien — _pre_campaign/program_
+## 2. La laïcité à l’épreuve du quotidien  — _pre_campaign/program_
 
 Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
@@ -24,7 +24,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 Sondage : 11.7 → 11.8 (rang 4 → 4)
 
-## 3. Le fauteuil libéré au vingt heures — _pre_campaign/media_
+## 3. Le fauteuil libéré au vingt heures  — _pre_campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -34,7 +34,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 Sondage : 11.8 → 11.9 (rang 4 → 2)
 
-## 4. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 4. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -44,7 +44,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 11.9 → 16.2 (rang 2 → 1)
 
-## 5. Le contrat d’intégration, jusqu’où aller — _pre_campaign/program_
+## 5. Le contrat d’intégration, jusqu’où aller  — _pre_campaign/program_
 
 Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
 
@@ -54,7 +54,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 Sondage : 16.2 → 12.1 (rang 1 → 2)
 
-## 6. Le direct des questions citoyennes — _pre_campaign/media_
+## 6. Le direct des questions citoyennes  — _pre_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -74,7 +74,7 @@ Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitu
 
 Sondage : 12.4 → 12.3 (rang 2 → 2)
 
-## 8. Une ligne du CV est fausse — _pre_campaign/scandal_
+## 8. Une ligne du CV est fausse  — _pre_campaign/scandal_
 
 Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.
 
@@ -84,7 +84,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 Sondage : 12.3 → 10.9 (rang 2 → 6)
 
-## 9. Le slogan divise le siège — _campaign/campaign_
+## 9. Le slogan divise le siège  — _campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -104,7 +104,7 @@ Le réseau de Nassim Courbet demande désormais un vote des adhérents sur la pr
 
 Sondage : 12.5 → 12.1 (rang 2 → 2)
 
-## 11. Une motion réclame un congrès — _campaign/internal_
+## 11. Une motion réclame un congrès  — _campaign/internal_
 
 Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.
 
@@ -114,7 +114,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 Sondage : 12.1 → 11.8 (rang 2 → 4)
 
-## 12. Les affiches manquent dans six villes — _campaign/campaign_
+## 12. Les affiches manquent dans six villes  — _campaign/campaign_
 
 Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus d’affiches. Le budget permet soit une impression d’urgence, soit une campagne numérique géolocalisée.
 
@@ -124,7 +124,7 @@ Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus
 
 Sondage : 11.8 → 8.6 (rang 4 → 8)
 
-## 13. Provoquer le favori en duel — _campaign/debate_
+## 13. Provoquer le favori en duel  — _campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -134,7 +134,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 Sondage : 8.6 → 11.6 (rang 8 → 5)
 
-## 14. L’atelier industriel de Saint-Nazaire — _campaign/campaign_
+## 14. L’atelier industriel de Saint-Nazaire  — _campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -144,7 +144,7 @@ Sondage : 8.6 → 11.6 (rang 8 → 5)
 
 Sondage : 11.6 → 11.6 (rang 5 → 5)
 
-## 15. La désobéissance européenne doit être définie — _campaign/party_
+## 15. La désobéissance européenne doit être définie  — _campaign/party_
 
 Le programme de LFI promet de désobéir aux règles européennes incompatibles avec son mandat. Les juristes du mouvement demandent de publier la liste des textes visés et la méthode de négociation avant quun adversaire ne la définisse à votre place.
 
@@ -154,7 +154,7 @@ Le programme de LFI promet de désobéir aux règles européennes incompatibles 
 
 Sondage : 11.6 → 10.7 (rang 5 → 8)
 
-## 16. Les abstentionnistes demandent une preuve — _campaign/party_
+## 16. Les abstentionnistes demandent une preuve  — _campaign/party_
 
 À Marseille, de jeunes abstentionnistes disent partager plusieurs propositions de LFI sans croire que le vote changera leur quotidien. Ils demandent une action avant lélection plutôt quun nouvel appel moral à participer.
 
@@ -164,7 +164,7 @@ Sondage : 11.6 → 10.7 (rang 5 → 8)
 
 Sondage : 10.7 → 9.5 (rang 8 → 8)
 
-## 17. Un soutien éditorial encombrant — _official_campaign/media_
+## 17. Un soutien éditorial encombrant  — _official_campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -174,7 +174,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 9.5 → 10.4 (rang 8 → 8)
 
-## 18. Saint-Denis ouvre ses réseaux associatifs — _official_campaign/party_
+## 18. Saint-Denis ouvre ses réseaux associatifs  — _official_campaign/party_
 
 Des associations de Saint-Denis proposent une semaine de réunions sur les prix, les services publics et labstention. Elles refusent un meeting classique et veulent que chaque soirée produise un engagement local vérifiable.
 
@@ -184,17 +184,17 @@ Des associations de Saint-Denis proposent une semaine de réunions sur les prix,
 
 Sondage : 10.4 → 10.3 (rang 8 → 8)
 
-## 19. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
+## 19. Deux cents maires demandent un contrat  — _official_campaign/alliance_
 
-Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
+Deux cents maires de communes rurales et périurbaines publient un appel sur les services publics, le logement et les finances locales. Ils soutiendront le candidat qui accepte un calendrier contrôlable plutôt qu’une liste de promesses.
 
-> **Choix retenu :** Transformer le concert en forum sur le logement avec associations, étudiants et élus locaux [POPULAIRE]
+> **Choix retenu :** Refuser un contrat séparé et renvoyer les mesures territoriales au programme national [PRUDENT]
 
-**La scène devient forum du logement** — L’artiste ouvre la soirée puis laisse les acteurs du terrain confronter vos propositions. La couverture est moins centrée sur sa notoriété et produit plusieurs engagements locaux crédibles.
+**Le programme national ne reçoit pas de cosignataire** — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
 
-Sondage : 10.3 → 10.4 (rang 8 → 8)
+Sondage : 10.3 → 10.3 (rang 8 → 8)
 
-## 20. La collecte se bloque — _official_campaign/campaign_
+## 20. La collecte se bloque  — _official_campaign/campaign_
 
 Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
 
@@ -202,49 +202,49 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 **Les comptes retrouvent une marge** — La suppression de quatre étapes stabilise la trésorerie et rassure le siège. Les territoires concernés dénoncent une campagne qui les abandonne en premier.
 
-Sondage : 10.4 → 7.3 (rang 8 → 8)
+Sondage : 10.3 → 7.2 (rang 8 → 8)
 
-## 21. Le meeting change de dispositif — _official_campaign/campaign_
+## 21. Deux invitations au même horaire  — _official_campaign/campaign_
 
-La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
+France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
-> **Choix retenu :** Annuler le public et prononcer le discours depuis le siège en direct [PRUDENT]
+> **Choix retenu :** Avancer le déplacement, rejoindre le studio en train et supprimer les répétitions [RISQUÉ]
 
-**Le direct remplace la salle** — L’intervention atteint davantage de spectateurs que prévu, sans énergie militante. Vos adversaires jugent l’annulation excessive et le débat se déplace sur votre sang-froid.
+**Les deux rendez-vous survivent** — Vous tenez les deux engagements avec peu de préparation et une fatigue visible. L’image d’endurance plaît, tandis que plusieurs réponses télévisées manquent de précision.
 
-Sondage : 7.3 → 10.5 (rang 8 → 8)
+Sondage : 7.2 → 10.3 (rang 8 → 8)
 
-## 22. L’immigration de travail, un choix économique assumé ou non — _official_campaign/program_
+## 22. Contrôles aux frontières : quels moyens  — _official_campaign/program_
 
-Des fédérations patronales de la restauration, du bâtiment et du soin à domicile alertent publiquement sur des postes non pourvus. Le sujet, distinct de l’asile déjà tranché, oblige à préciser votre ligne sur l’immigration de travail.
+Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
 
-> **Choix retenu :** Ouvrir une liste de métiers en tension avec délivrance accélérée de titres de séjour [OPPORTUNISTE]
+> **Choix retenu :** Financer Frontex et la coopération européenne plutôt que des contrôles nationaux [RASSEMBLEUR]
 
-**Les métiers en tension trouvent une réponse** — Les fédérations patronales concernées saluent une réponse concrète à leurs alertes répétées. Une partie de votre socle électoral dénonce une politique migratoire dictée par des besoins économiques de court terme.
+**La réponse européenne plutôt que nationale** — La cohérence avec votre ligne européenne est nette et rassure vos partenaires du continent. Une partie de votre électorat juge la réponse trop lente face à un incident qui appelait, selon elle, un signal immédiat.
 
-Sondage : 10.5 → 9.7 (rang 8 → 8)
+Sondage : 10.3 → 9.6 (rang 8 → 8)
 
-## 23. La pluie emporte la tournée — _official_campaign/campaign_
+## 23. Le dernier grand meeting  — _official_campaign/campaign_
 
-Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
+À quarante-huit heures du silence électoral, votre dernier meeting doit consolider le socle sans fermer la porte aux indécis. Le temps ne permet plus de corriger une promesse nouvelle.
 
-> **Choix retenu :** Tenir un point presse à distance sur l’adaptation aux pluies extrêmes [TECHNIQUE]
+> **Choix retenu :** Annoncer une baisse fiscale nouvelle pour créer un dernier mouvement [RISQUÉ]
 
-**L’adaptation remplace le meeting** — Le point presse relie l’événement à des investissements précis sans commenter les opérations en cours. La séquence gagne en fond, malgré des accusations de récupération.
+**La dernière promesse secoue les comptes** — L’annonce domine la soirée et attire des électeurs sensibles aux impôts. Votre équipe ne dispose d’aucun délai pour chiffrer, ce qui fragilise la cohérence finale.
 
-Sondage : 9.7 → 9.5 (rang 8 → 8)
+Sondage : 9.6 → 9.2 (rang 8 → 8)
 
-## 24. Le prochain budget de la santé — _between_rounds/program_
+## 24. La promesse faite à l’école  — _between_rounds/program_
 
-Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
+À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
-> **Choix retenu :** Financer cinquante mille postes hospitaliers en relevant les recettes affectées à la santé [POPULAIRE]
+> **Choix retenu :** Donner aux établissements un budget et une autonomie de recrutement sous contrôle académique [CLIVANT]
 
-**Les effectifs passent avant la transformation** — Les équipes hospitalières disposent d’un engagement quantifié et mobilisateur. Le recrutement réel et la recette choisie restent à sécuriser, ce qui ouvre deux fronts techniques sans affaiblir la priorité politique.
+**L’autonomie redessine le service public** — Les chefs d’établissement gagnent une marge d’action attendue et les syndicats craignent des inégalités durables entre territoires. La proposition élargit votre offre au prix d’un conflit idéologique clair.
 
-Sondage : 9.5 → 9.9 (rang 8 → 8)
+Sondage : 9.2 → 8 (rang 8 → 8)
 
-## 25. Votre voix reste décisive — _finished/between_rounds_
+## 25. Votre voix reste décisive  — _finished/between_rounds_
 
 Éliminé du premier tour, vous pouvez soutenir le finaliste fictif le plus proche, négocier des garanties ou rester indépendant. Vos électeurs ne sont pas une propriété : la manière de donner la consigne comptera autant que son sens.
 
@@ -252,4 +252,4 @@ Sondage : 9.5 → 9.9 (rang 8 → 8)
 
 **Trois mesures donnent un prix au ralliement** — Le contrat offre à vos électeurs une influence vérifiable et installe votre parti comme partenaire du prochain pouvoir. Vos adversaires parlent de marchandage et votre héritage dépendra du respect de ces mesures.
 
-Sondage : 9.9 → 9.9 (rang 8 → 8)
+Sondage : 8 → 8 (rang 8 → 8)

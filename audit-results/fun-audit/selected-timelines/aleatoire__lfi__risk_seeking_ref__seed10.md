@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **aleatoire**
 
-Score final : 79/100 · 1er tour : 15.9 · 2nd tour : 52.4 · qualifié : true · vainqueur : true · signaux mémorables : 6
+Score final : 78/100 · 1er tour : 15.4 · 2nd tour : 51.8 · qualifié : true · vainqueur : true · signaux mémorables : 6
 
-## 1. Qui financera les priorités — _pre_campaign/program_
+## 1. Qui financera les priorités  — _pre_campaign/program_
 
 Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équipe doit choisir une recette avant la publication du programme : fiscalité du patrimoine, réduction de niches, taxe de consommation ou économies supplémentaires.
 
@@ -14,7 +14,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 Sondage : 12 → 11.8 (rang 2 → 4)
 
-## 2. Une minute sur les loyers — _pre_campaign/media_
+## 2. Une minute sur les loyers  — _pre_campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -24,7 +24,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 11.8 → 12.1 (rang 4 → 2)
 
-## 3. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
+## 3. Les jeunes veulent leur propre campagne  — _pre_campaign/internal_
 
 Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent dêtre réduits à distribuer les tracts nationaux.
 
@@ -34,7 +34,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 Sondage : 12.1 → 12.3 (rang 2 → 2)
 
-## 4. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 4. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -44,7 +44,7 @@ Sondage : 12.1 → 12.3 (rang 2 → 2)
 
 Sondage : 12.3 → 12.7 (rang 2 → 2)
 
-## 5. Le rapport reprend huit paragraphes — _pre_campaign/scandal_
+## 5. Le rapport reprend huit paragraphes  — _pre_campaign/scandal_
 
 Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’un rapport public sans citation. Le contenu source est librement accessible ; le problème porte sur l’attribution et sur la présentation du document comme un travail original.
 
@@ -54,7 +54,7 @@ Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’
 
 Sondage : 12.7 → 12.8 (rang 2 → 2)
 
-## 6. La présidence que vous proposez — _pre_campaign/program_
+## 6. La présidence que vous proposez  — _pre_campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -64,7 +64,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 12.8 → 13.1 (rang 2 → 1)
 
-## 7. La grève bloque les transports — _pre_campaign/world_
+## 7. La grève bloque les transports  — _pre_campaign/world_
 
 Dans la simulation, une grève nationale des transports entre dans sa quatrième journée après l’échec d’une négociation salariale. La CGT et la CFDT portent des revendications distinctes ; les usagers demandent une sortie rapide plutôt qu’un commentaire de campagne.
 
@@ -74,7 +74,7 @@ Dans la simulation, une grève nationale des transports entre dans sa quatrième
 
 Sondage : 13.1 → 13.4 (rang 1 → 1)
 
-## 8. La désobéissance européenne doit être définie — _pre_campaign/party_
+## 8. La désobéissance européenne doit être définie  — _pre_campaign/party_
 
 Le programme de LFI promet de désobéir aux règles européennes incompatibles avec son mandat. Les juristes du mouvement demandent de publier la liste des textes visés et la méthode de négociation avant quun adversaire ne la définisse à votre place.
 
@@ -84,7 +84,7 @@ Le programme de LFI promet de désobéir aux règles européennes incompatibles 
 
 Sondage : 13.4 → 12.7 (rang 1 → 2)
 
-## 9. Ce que l’école doit transmettre — _campaign/program_
+## 9. Ce que l’école doit transmettre  — _campaign/program_
 
 Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
@@ -94,7 +94,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 Sondage : 12.7 → 13.2 (rang 2 → 1)
 
-## 10. Deux invitations au même horaire — _campaign/campaign_
+## 10. Deux invitations au même horaire  — _campaign/campaign_
 
 France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
@@ -104,7 +104,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 Sondage : 13.2 → 13 (rang 1 → 1)
 
-## 11. L’imprimeur a doublé une ligne — _campaign/scandal_
+## 11. L’imprimeur a doublé une ligne  — _campaign/scandal_
 
 Étienne Marot, fournisseur fictif, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.
 
@@ -124,7 +124,7 @@ Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitu
 
 Sondage : 12.9 → 13.5 (rang 1 → 1)
 
-## 13. Le meeting change de dispositif — _campaign/campaign_
+## 13. Le meeting change de dispositif  — _campaign/campaign_
 
 La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
 
@@ -134,7 +134,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 Sondage : 13.5 → 12.8 (rang 1 → 1)
 
-## 14. La une vous prête un tournant — _campaign/media_
+## 14. La une vous prête un tournant  — _campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -154,7 +154,7 @@ Le réseau de Nassim Courbet demande désormais un vote des adhérents sur la pr
 
 Sondage : 13.1 → 12.9 (rang 1 → 1)
 
-## 16. Le meeting quitte la capitale — _official_campaign/campaign_
+## 16. Le meeting quitte la capitale  — _official_campaign/campaign_
 
 L’équipe hésite entre Lille, Toulouse et Strasbourg pour le prochain grand meeting. Chaque ville correspond à un électorat et à un thème différents, sans budget pour trois déplacements.
 
@@ -174,7 +174,7 @@ Lors du débat de premier tour sur France 2, votre adversaire additionne vos nou
 
 Sondage : 16.1 → 13.3 (rang 1 → 1)
 
-## 18. Un soutien éditorial encombrant — _official_campaign/media_
+## 18. Un soutien éditorial encombrant  — _official_campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -184,27 +184,27 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 13.3 → 13.6 (rang 1 → 1)
 
-## 19. La croissance simulée se retourne — _official_campaign/world_
+## 19. La directrice a recruté son frère  — _official_campaign/scandal_
 
-Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
+Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme développeur pour une mission de trois semaines. Le tarif correspond au marché et le travail existe, mais aucun autre candidat n’a été consulté.
 
-> **Choix retenu :** Différer des prélèvements pour les PME qui maintiennent leurs emplois pendant douze mois [TECHNIQUE]
+> **Choix retenu :** Interrompre la mission, payer le travail livré et relancer un appel d’offres documenté [TRANSPARENT]
 
-**La trésorerie est liée au maintien de l’emploi** — La mesure soulage rapidement les entreprises sans subventionner les suppressions de postes. Les contrôles nécessaires ralentissent son déploiement et le manque à gagner doit être compensé au budget.
+**Le contrat familial repasse en concurrence** — Le code livré reste utilisable et la nouvelle procédure attribue la suite à une autre entreprise. Anaïs Vercel reconnaît avoir privilégié la vitesse et accepte un retrait temporaire des achats.
 
-Sondage : 13.6 → 14 (rang 1 → 1)
+Sondage : 13.6 → 13.7 (rang 1 → 1)
 
-## 20. Le micro resté ouvert — _official_campaign/media_
+## 20. Le fauteuil libéré au vingt heures  — _official_campaign/media_
 
-Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
+Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
-> **Choix retenu :** Présenter vos excuses à Anaïs Vercel devant l’équipe et lui confirmer publiquement votre confiance [LOYAL]
+> **Choix retenu :** Accepter sans condition et préparer quatre réponses prioritaires pendant le trajet [RISQUÉ]
 
-**Les excuses referment la blessure** — Anaïs Vercel accepte les excuses sans nier les problèmes d’organisation. La crise devient l’occasion de redistribuer des responsabilités et l’équipe retient surtout que vous avez reconnu une faute personnelle.
+**Le remplacement devient démonstration** — Vous imposez deux propositions et répondez nettement aux relances imprévues. L’audience découvre une candidature plus prête qu’attendu et la dynamique progresse avant le débat économique.
 
-Sondage : 14 → 17.8 (rang 1 → 1)
+Sondage : 13.7 → 17.5 (rang 1 → 1)
 
-## 21. Les abstentionnistes demandent une preuve — _official_campaign/party_
+## 21. Les abstentionnistes demandent une preuve  — _official_campaign/party_
 
 À Marseille, de jeunes abstentionnistes disent partager plusieurs propositions de LFI sans croire que le vote changera leur quotidien. Ils demandent une action avant lélection plutôt quun nouvel appel moral à participer.
 
@@ -212,9 +212,9 @@ Sondage : 14 → 17.8 (rang 1 → 1)
 
 **La participation devient une opération civique** — Les bénévoles vérifient les procédures et touchent des personnes éloignées des campagnes. Labsence de consigne directe renforce la confiance, même si tous les nouveaux inscrits ne choisiront pas LFI.
 
-Sondage : 17.8 → 14.5 (rang 1 → 1)
+Sondage : 17.5 → 14.1 (rang 1 → 1)
 
-## 22. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
+## 22. Une accusation jugée infondée vise un adversaire  — _official_campaign/campaign_
 
 Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
@@ -222,9 +222,9 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 **Une prise de position publique et rare** — Le geste est salué pour son intégrité, y compris par des électeurs peu proches de votre ligne. Le camp socialiste prend acte du soutien inattendu, qui laisse une trace durable dans la relation entre les deux équipes.
 
-Sondage : 14.5 → 14.7 (rang 1 → 1)
+Sondage : 14.1 → 14.2 (rang 1 → 1)
 
-## 23. Une contradiction chez le camp centriste — _official_campaign/debate_
+## 23. Une contradiction chez le camp centriste  — _official_campaign/debate_
 
 Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
@@ -232,19 +232,19 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 **La contradiction mise en lumière** — L’extrait est aussitôt repris et fragilise la crédibilité adverse sur ce sujet précis. Le procédé, jugé efficace par certains, est perçu comme agressif par d’autres observateurs du débat.
 
-Sondage : 14.7 → 14.7 (rang 1 → 1)
+Sondage : 14.2 → 14.2 (rang 1 → 1)
 
-## 24. Le contrat d’intégration, jusqu’où aller — _between_rounds/program_
+## 24. La question venue de Mayotte  — _between_rounds/debate_
 
-Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
+Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
 
-> **Choix retenu :** Imposer un contrat d’intégration obligatoire avec tests de langue et de compétences civiques [INSTITUTIONNEL]
+> **Choix retenu :** Estimer le chiffre à partir de vos notes et proposer immédiatement un montant d’investissement [RISQUÉ]
 
-**Un cadre obligatoire et évalué** — La mesure donne un cadre national lisible et répond à une demande de clarté sur les attentes réciproques. Des associations d’accompagnement alertent sur le risque d’exclusion des personnes les plus fragiles si les tests sont trop exigeants.
+**L’ordre de grandeur est juste** — Votre estimation correspond aux données disponibles et le montant proposé paraît compatible avec les besoins. La prise de risque donne une réponse nette sans prétendre connaître chaque détail territorial.
 
-Sondage : 14.7 → 14.9 (rang 1 → 1)
+Sondage : 14.2 → 14.3 (rang 1 → 1)
 
-## 25. LFI doit élargir sans se renier — _between_rounds/party_
+## 25. LFI doit élargir sans se renier  — _between_rounds/party_
 
 Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.
 
@@ -252,9 +252,9 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 **Dix mesures forment une majorité de gauche** — La coalition obtient un programme positif et déploie tous ses réseaux. Plusieurs engagements LFI sont reportés, ce qui fragilise la cohésion tout en améliorant fortement les reports.
 
-Sondage : 14.9 → 14.8 (rang 1 → 1)
+Sondage : 14.3 → 14.2 (rang 1 → 1)
 
-## 26. La coalition réclame une annexe — _between_rounds/between_rounds_
+## 26. La coalition réclame une annexe  — _between_rounds/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -262,9 +262,9 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 **Huit accords et quatre refus composent lannexe** — Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.
 
-Sondage : 14.8 → 15 (rang 1 → 1)
+Sondage : 14.2 → 14.4 (rang 1 → 1)
 
-## 27. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 27. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -272,9 +272,9 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Une promesse fiscale sans lendemain médiatique** — Lannonce attire les électeurs sensibles aux impôts et ne peut être chiffrée publiquement avant la fin de campagne. Le dernier doute porte désormais sur la discipline qui structurait votre programme.
 
-Sondage : 15 → 14.9 (rang 1 → 1)
+Sondage : 14.4 → 14.4 (rang 1 → 1)
 
-## 28. Deux points davance à cinq jours — _between_rounds/between_rounds_
+## 28. Deux points davance à cinq jours  — _between_rounds/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -282,9 +282,9 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 **Le dernier dossier durcit la fin** — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
 
-Sondage : 14.9 → 19.1 (rang 1 → 1)
+Sondage : 14.4 → 18.5 (rang 1 → 1)
 
-## 29. Le débat de lentre-deux-tours — _government_epilogue/between_rounds_
+## 29. Le débat de lentre-deux-tours  — _government_epilogue/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -292,9 +292,9 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Cinq décisions dessinent un gouvernement** — Vous répondez aux relances sans ajouter de promesse et rendez votre première année prévisible. La maîtrise des arbitrages convainc des électeurs qui hésitaient encore sur votre capacité à gouverner.
 
-Sondage : 19.1 → 15 (rang 1 → 1)
+Sondage : 18.5 → 14.4 (rang 1 → 1)
 
-## 30. La première adresse de lÉlysée — _government_epilogue/government_
+## 30. La première adresse de lÉlysée  — _government_epilogue/government_
 
 Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.
 
@@ -302,9 +302,9 @@ Après les célébrations, votre première parole présidentielle fictive doit h
 
 **Trois textes ouvrent le mandat** — Le calendrier rend les priorités prévisibles et distingue les décisions immédiates des négociations. Certains soutiens ne retrouvent pas leur mesure phare, mais personne ne peut prétendre que tout sera fait en même temps.
 
-Sondage : 15 → 15.1 (rang 1 → 1)
+Sondage : 14.4 → 14.5 (rang 1 → 1)
 
-## 31. Le choix de Matignon — _finished/government_
+## 31. Le choix de Matignon  — _finished/government_
 
 Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 
@@ -312,4 +312,4 @@ Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure 
 
 **Une indépendante prend la tête du gouvernement** — La compétence administrative et le renouvellement plaisent au-delà de votre camp. Labsence de base politique oblige lÉlysée à conduire lui-même les négociations parlementaires.
 
-Sondage : 15.1 → 15.1 (rang 1 → 1)
+Sondage : 14.5 → 14.6 (rang 1 → 1)

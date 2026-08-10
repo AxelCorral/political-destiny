@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **outsider_performant**
 
-Score final : 79/100 · 1er tour : 13.2 · 2nd tour : 59.1 · qualifié : true · vainqueur : true · signaux mémorables : 5
+Score final : 79/100 · 1er tour : 12.8 · 2nd tour : 56.4 · qualifié : true · vainqueur : true · signaux mémorables : 5
 
-## 1. Le direct des questions citoyennes — _pre_campaign/media_
+## 1. Le direct des questions citoyennes  — _pre_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -14,7 +14,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 7.7 → 11 (rang 8 → 8)
 
-## 2. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 2. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -24,7 +24,7 @@ Sondage : 7.7 → 11 (rang 8 → 8)
 
 Sondage : 11 → 11.1 (rang 8 → 7)
 
-## 3. Le siège coûte trop cher — _pre_campaign/internal_
+## 3. Le siège coûte trop cher  — _pre_campaign/internal_
 
 Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
 
@@ -34,7 +34,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 Sondage : 11.1 → 11.2 (rang 7 → 7)
 
-## 4. Une ligne du CV est fausse — _pre_campaign/scandal_
+## 4. Une ligne du CV est fausse  — _pre_campaign/scandal_
 
 Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.
 
@@ -44,7 +44,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 Sondage : 11.2 → 12 (rang 7 → 2)
 
-## 5. La collecte se bloque — _pre_campaign/campaign_
+## 5. La collecte se bloque  — _pre_campaign/campaign_
 
 Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
 
@@ -54,7 +54,7 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 Sondage : 12 → 11.1 (rang 2 → 7)
 
-## 6. La photographie du quai vide — _pre_campaign/media_
+## 6. La photographie du quai vide  — _pre_campaign/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -64,7 +64,7 @@ Sondage : 12 → 11.1 (rang 2 → 7)
 
 Sondage : 11.1 → 11.2 (rang 7 → 7)
 
-## 7. Le slogan divise le siège — _pre_campaign/campaign_
+## 7. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -74,7 +74,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 11.2 → 11.3 (rang 7 → 7)
 
-## 8. L’imprimeur a doublé une ligne — _pre_campaign/scandal_
+## 8. L’imprimeur a doublé une ligne  — _pre_campaign/scandal_
 
 Étienne Marot, fournisseur fictif, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.
 
@@ -84,7 +84,7 @@ Sondage : 11.2 → 11.3 (rang 7 → 7)
 
 Sondage : 11.3 → 10.7 (rang 7 → 8)
 
-## 9. Le PS offre des circonscriptions urbaines — _campaign/party_
+## 9. Le PS offre des circonscriptions urbaines  — _campaign/party_
 
 Le Parti socialiste propose un accord de campagne dans six métropoles contre un soutien écologique sur les sujets sociaux. Les fédérations rurales craignent que l’écologie territoriale disparaisse de l’échange.
 
@@ -94,7 +94,7 @@ Le Parti socialiste propose un accord de campagne dans six métropoles contre un
 
 Sondage : 10.7 → 11.6 (rang 8 → 5)
 
-## 10. La promesse faite à l’école — _campaign/program_
+## 10. La promesse faite à l’école  — _campaign/program_
 
 À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
@@ -104,7 +104,7 @@ Sondage : 10.7 → 11.6 (rang 8 → 5)
 
 Sondage : 11.6 → 12 (rang 5 → 3)
 
-## 11. Les locataires redoutent les interdictions — _campaign/party_
+## 11. Les locataires redoutent les interdictions  — _campaign/party_
 
 Des associations de locataires craignent que les obligations de rénovation réduisent l’offre de logements. Elles demandent qui paiera les travaux et comment empêcher les congés abusifs.
 
@@ -114,7 +114,7 @@ Des associations de locataires craignent que les obligations de rénovation réd
 
 Sondage : 12 → 12.4 (rang 3 → 2)
 
-## 12. Le contrat d’intégration, jusqu’où aller — _campaign/program_
+## 12. Le contrat d’intégration, jusqu’où aller  — _campaign/program_
 
 Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
 
@@ -124,7 +124,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 Sondage : 12.4 → 12.2 (rang 2 → 3)
 
-## 13. Le contrat du conseiller est publié — _campaign/scandal_
+## 13. Le contrat du conseiller est publié  — _campaign/scandal_
 
 Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une clause prévoit une prime si la campagne dépasse un seuil de voix, mécanisme légal dans l’univers du jeu mais politiquement difficile à défendre.
 
@@ -134,7 +134,7 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 Sondage : 12.2 → 12.8 (rang 3 → 1)
 
-## 14. Un rival corrige votre ligne — _campaign/internal_
+## 14. Un rival corrige votre ligne  — _campaign/internal_
 
 Dans Le Figaro, un responsable fictif de votre parti affirme que votre proposition fiscale n’est pas la position collective. Il ne remet pas votre candidature en cause, mais demande un vote du bureau dès le lendemain.
 
@@ -144,7 +144,7 @@ Dans Le Figaro, un responsable fictif de votre parti affirme que votre propositi
 
 Sondage : 12.8 → 13 (rang 1 → 1)
 
-## 15. Deux invitations au même horaire — _campaign/campaign_
+## 15. Deux invitations au même horaire  — _campaign/campaign_
 
 France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
@@ -154,7 +154,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 Sondage : 13 → 13.1 (rang 1 → 1)
 
-## 16. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
+## 16. Une chanteuse veut soutenir la campagne  — _official_campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -164,7 +164,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 Sondage : 13.1 → 15 (rang 1 → 1)
 
-## 17. Neuf candidats face au climat — _official_campaign/debate_
+## 17. Neuf candidats face au climat  — _official_campaign/debate_
 
 Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure climatique abandonnée si elle échoue au contrôle de financement. Les réponses précédentes se ressemblent et votre tour arrive après trois promesses de rénovation.
 
@@ -174,7 +174,7 @@ Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure clim
 
 Sondage : 15 → 13.5 (rang 1 → 1)
 
-## 18. La question de la fin de vie — _official_campaign/program_
+## 18. La question de la fin de vie  — _official_campaign/program_
 
 Une proposition de loi sur la fin de vie revient devant le Parlement pendant la campagne. Les associations de patients, les soignants et les cultes attendent une position claire, et le silence serait lui-même interprété comme un choix.
 
@@ -184,7 +184,7 @@ Une proposition de loi sur la fin de vie revient devant le Parlement pendant la 
 
 Sondage : 13.5 → 13.6 (rang 1 → 1)
 
-## 19. La taxe carbone divise les alliés — _official_campaign/party_
+## 19. La taxe carbone divise les alliés  — _official_campaign/party_
 
 Le chiffrage climatique suppose un prix du carbone plus élevé, mais les partenaires de gauche refusent une mesure payée à la pompe. Il faut modifier la recette ou organiser sa redistribution.
 
@@ -194,7 +194,7 @@ Le chiffrage climatique suppose un prix du carbone plus élevé, mais les parten
 
 Sondage : 13.6 → 13.8 (rang 1 → 1)
 
-## 20. Tensions internes chez Reconquête — _official_campaign/world_
+## 20. Tensions internes chez Reconquête  — _official_campaign/world_
 
 La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.
 
@@ -204,17 +204,17 @@ La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie d
 
 Sondage : 13.8 → 10.4 (rang 1 → 8)
 
-## 21. Une proposition de pacte de non-agression — _official_campaign/campaign_
+## 21. Une accusation jugée infondée vise un adversaire  — _official_campaign/campaign_
 
-À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Maël Dargent (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.
+Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
-> **Choix retenu :** Refuser et maintenir une ligne critique y compris pendant le meeting commun [OFFENSIF]
+> **Choix retenu :** Diffuser la rumeur sous forme de question, sans l’affirmer directement [OPPORTUNISTE]
 
-**Le contraste maintenu jusqu’au bout** — Le refus marque une différence claire de méthode et mobilise les électeurs qui attendaient un contraste net. Il est aussi commenté comme un signe de tension entre les deux équipes lors d’un événement censé rassembler.
+**Le doute entretenu sans affirmation directe** — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
 
-Sondage : 10.4 → 13.8 (rang 8 → 1)
+Sondage : 10.4 → 13.7 (rang 8 → 1)
 
-## 22. Une contradiction chez le camp centriste — _official_campaign/debate_
+## 22. Une contradiction chez le camp centriste  — _official_campaign/debate_
 
 Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
@@ -222,69 +222,29 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 **Le fond plutôt que l’archive** — La proposition de débat de fond est saluée pour sa hauteur de vue et évite tout procès d’intention. Elle prive votre camp d’un angle d’attaque immédiat que certains auraient préféré voir exploité.
 
-Sondage : 13.8 → 13.9 (rang 1 → 1)
+Sondage : 13.7 → 13.8 (rang 1 → 1)
 
-## 23. La convention citoyenne réclame une réponse — _official_campaign/campaign_
+## 23. Le forum étudiant refuse les slogans  — _official_campaign/campaign_
 
-Une convention locale tirée au sort vous remet douze propositions sur les transports et l’accès aux services. Elle demande lesquelles entreront réellement dans votre programme avant de vous recevoir.
+À Rennes, quatre associations étudiantes exigent une mesure sur le logement, une sur les bourses et une réponse sur la sélection. Elles publieront votre intervention intégrale.
 
-> **Choix retenu :** Proposer un vote des adhérents sur les douze propositions avant intégration [INSTITUTIONNEL]
+> **Choix retenu :** Indexer les bourses sur les loyers locaux et publier le coût par ville [TRANSPARENT]
 
-**Les adhérents obtiennent le dernier mot** — La convention accepte le calendrier, mais refuse de devenir un simple fournisseur d’idées. Les militants gagnent en pouvoir et la décision finale est retardée.
+**La carte des bourses convainc** — Le coût par ville rend la proposition lisible et révèle de grands écarts. Les étudiants saluent la méthode, tandis que votre marge budgétaire se réduit.
 
-Sondage : 13.9 → 14 (rang 1 → 1)
+Sondage : 13.8 → 14 (rang 1 → 1)
 
-## 24. Maud Lestang rouvre le débat nucléaire _(CHAÎNE)_ — _between_rounds/party_
+## 24. Les Écologistes arbitrent leur méthode  — _between_rounds/party_
 
-Maya Lestang, députée fictive, veut inscrire une sortie accélérée du nucléaire. Des maires écologistes redoutent qu’un calendrier rigide masque les besoins industriels et la sécurité d’approvisionnement.
+Les groupes régionaux veulent pouvoir adapter les priorités nationales, tandis que l’équipe d’Éloi Vernet demande une campagne présidentielle capable de trancher collectivement en quelques heures.
 
-> **Choix retenu :** Publier avec Maya Lestang un calendrier de fermeture conditionné aux capacités renouvelables installées [TECHNIQUE]
+> **Choix retenu :** Accorder à chaque région un quart du budget et le choix d’une priorité territoriale [RASSEMBLEUR]
 
-**La sortie du nucléaire reçoit des conditions mesurables** — Le texte réunit temporairement les deux camps autour de seuils publics. Les industriels contestent le rythme et Maya Lestang surveillera chaque formulation future sur l’énergie.
+**La campagne adopte une organisation fédérale** — Les équipes locales relient enfin le climat aux transports, à l’agriculture et au logement. La diversité des messages complique cependant la préparation des entretiens nationaux.
 
-Sondage : 14 → 14.5 (rang 1 → 1)
+Sondage : 14 → 14.1 (rang 1 → 1)
 
-## 25. La coalition réclame une annexe — _between_rounds/between_rounds_
-
-Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
-
-> **Choix retenu :** Adopter les douze mesures et présenter le texte comme un nouveau contrat de second tour [OPPORTUNISTE]
-
-**Le programme change de forme entre les deux tours** — La coalition se mobilise sans réserve et certains électorats éliminés obtiennent des motifs clairs de report. Vos deux contradictions réapparaissent aussitôt et votre socle doute de la valeur des promesses du premier tour.
-
-Sondage : 14.5 → 14.3 (rang 1 → 1)
-
-## 26. Le second tour exige une coalition climatique — _between_rounds/party_
-
-Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les soutiens possibles demandent à la fois des garanties sociales, un calendrier industriel et une méthode parlementaire.
-
-> **Choix retenu :** Proposer à toute la gauche un gouvernement de coalition lié par dix objectifs climatiques et sociaux [RASSEMBLEUR]
-
-**Dix objectifs organisent la coalition** — Les partenaires disposent de garanties précises et les militants de gauche rejoignent la campagne. Le nombre d’engagements négociés alimente les doutes sur la vitesse de décision.
-
-Sondage : 14.3 → 14.3 (rang 1 → 1)
-
-## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
-
-Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
-
-> **Choix retenu :** Comparer point par point les votes et alliances de votre adversaire à ses promesses actuelles [OFFENSIF]
-
-**Le bilan adverse occupe le duel** — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
-
-Sondage : 14.3 → 14.4 (rang 1 → 1)
-
-## 28. Les dernières heures autorisées — _between_rounds/between_rounds_
-
-La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
-
-> **Choix retenu :** Déployer les militants dans cent gares et marchés avec un appel personnalisé à participer [POPULAIRE]
-
-**Cent points de contact avant le silence** — Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.
-
-Sondage : 14.4 → 15.9 (rang 1 → 1)
-
-## 29. Les reports refusent la mécanique — _government_epilogue/between_rounds_
+## 25. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -292,9 +252,49 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 15.9 → 14.5 (rang 1 → 1)
+Sondage : 14.1 → 14.2 (rang 1 → 1)
 
-## 30. Le choix de Matignon — _government_epilogue/government_
+## 26. Le second tour exige une coalition climatique  — _between_rounds/party_
+
+Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les soutiens possibles demandent à la fois des garanties sociales, un calendrier industriel et une méthode parlementaire.
+
+> **Choix retenu :** Proposer à toute la gauche un gouvernement de coalition lié par dix objectifs climatiques et sociaux [RASSEMBLEUR]
+
+**Dix objectifs organisent la coalition** — Les partenaires disposent de garanties précises et les militants de gauche rejoignent la campagne. Le nombre d’engagements négociés alimente les doutes sur la vitesse de décision.
+
+Sondage : 14.2 → 14.3 (rang 1 → 1)
+
+## 27. Les dernières heures autorisées  — _between_rounds/between_rounds_
+
+La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
+
+> **Choix retenu :** Déployer les militants dans cent gares et marchés avec un appel personnalisé à participer [POPULAIRE]
+
+**Cent points de contact avant le silence** — Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.
+
+Sondage : 14.3 → 14.4 (rang 1 → 1)
+
+## 28. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
+
+Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
+
+> **Choix retenu :** Comparer point par point les votes et alliances de votre adversaire à ses promesses actuelles [OFFENSIF]
+
+**Le bilan adverse occupe le duel** — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
+
+Sondage : 14.4 → 12.6 (rang 1 → 3)
+
+## 29. Les soutiens arrivent avec leurs conditions  — _government_epilogue/between_rounds_
+
+Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
+
+> **Choix retenu :** Remercier chaque soutien et refuser toute négociation programmatique avant le scrutin [LOYAL]
+
+**Les soutiens viennent sans contrat** — Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.
+
+Sondage : 12.6 → 14.8 (rang 3 → 1)
+
+## 30. Le choix de Matignon  — _government_epilogue/government_
 
 Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 
@@ -302,14 +302,14 @@ Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure 
 
 **Le programme entre directement à Matignon** — La nomination assure une continuité nette avec la campagne et rassure les militants sur les premières réformes. Les alliés réclament davantage de garanties avant de soutenir le gouvernement.
 
-Sondage : 14.5 → 14.5 (rang 1 → 1)
+Sondage : 14.8 → 14.9 (rang 1 → 1)
 
-## 31. Quinze ministres pour une coalition — _finished/government_
+## 31. Deux alliés réclament Bercy  — _finished/government_
 
-La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
+Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 
-> **Choix retenu :** Répartir les ministères proportionnellement aux soutiens du second tour avec exigence de parité [INSTITUTIONNEL]
+> **Choix retenu :** Scinder léconomie et les finances entre les deux alliés avec un arbitrage direct de Matignon [RASSEMBLEUR]
 
-**Les soutiens deviennent responsabilité ministérielle** — La règle rend le partage compréhensible et stabilise les partenaires avant le premier Conseil des ministres. Elle laisse moins de place aux personnalités indépendantes et à certains territoires.
+**Deux ministères partagent une frontière sensible** — Chaque allié obtient un portefeuille substantiel et la coalition reste entière. Les compétences se chevauchent dès le premier dossier fiscal, annonçant des arbitrages permanents.
 
-Sondage : 14.5 → 14.7 (rang 1 → 1)
+Sondage : 14.9 → 15 (rang 1 → 1)

@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **favori_en_difficulte**
 
-Score final : 68/100 · 1er tour : 13.3 · qualifié : false · vainqueur : false · signaux mémorables : 2
+Score final : 67/100 · 1er tour : 12.8 · qualifié : false · vainqueur : false · signaux mémorables : 2
 
-## 1. La présidence que vous proposez — _pre_campaign/program_
+## 1. La présidence que vous proposez  — _pre_campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -14,7 +14,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 14.5 → 11.8 (rang 1 → 4)
 
-## 2. La une vous prête un tournant — _pre_campaign/media_
+## 2. La une vous prête un tournant  — _pre_campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -24,7 +24,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 11.8 → 12.2 (rang 4 → 2)
 
-## 3. La PME teste votre réforme — _pre_campaign/campaign_
+## 3. La PME teste votre réforme  — _pre_campaign/campaign_
 
 Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réforme du travail sur ses comptes. La dirigeante et les représentants du personnel obtiennent des résultats opposés.
 
@@ -34,7 +34,7 @@ Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réfor
 
 Sondage : 12.2 → 12.4 (rang 2 → 2)
 
-## 4. La table ronde agricole se tend — _pre_campaign/campaign_
+## 4. La table ronde agricole se tend  — _pre_campaign/campaign_
 
 À Clermont-Ferrand, la FNSEA et la Confédération paysanne vous interrogent ensemble sur les revenus, l’eau et les normes. Elles refusent un discours qui promettrait tout aux deux modèles.
 
@@ -44,7 +44,7 @@ Sondage : 12.2 → 12.4 (rang 2 → 2)
 
 Sondage : 12.4 → 12.3 (rang 2 → 2)
 
-## 5. Le siège coûte trop cher — _pre_campaign/internal_
+## 5. Le siège coûte trop cher  — _pre_campaign/internal_
 
 Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
 
@@ -54,7 +54,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 Sondage : 12.3 → 12.6 (rang 2 → 2)
 
-## 6. Le salaire net au centre — _pre_campaign/program_
+## 6. Le salaire net au centre  — _pre_campaign/program_
 
 L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La conférence économique attend votre mécanisme salarial : hausse du minimum légal, négociations de branche, baisse de cotisations ou prime ponctuelle.
 
@@ -64,7 +64,7 @@ L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La confére
 
 Sondage : 12.6 → 12.9 (rang 2 → 2)
 
-## 7. La collecte se bloque — _pre_campaign/campaign_
+## 7. La collecte se bloque  — _pre_campaign/campaign_
 
 Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
 
@@ -74,7 +74,7 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 Sondage : 12.9 → 13.1 (rang 2 → 1)
 
-## 8. Un rival corrige votre ligne — _pre_campaign/internal_
+## 8. Un rival corrige votre ligne  — _pre_campaign/internal_
 
 Dans Le Figaro, un responsable fictif de votre parti affirme que votre proposition fiscale n’est pas la position collective. Il ne remet pas votre candidature en cause, mais demande un vote du bureau dès le lendemain.
 
@@ -84,7 +84,7 @@ Dans Le Figaro, un responsable fictif de votre parti affirme que votre propositi
 
 Sondage : 13.1 → 11.1 (rang 1 → 6)
 
-## 9. La promesse faite à l’école — _campaign/program_
+## 9. La promesse faite à l’école  — _campaign/program_
 
 À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
@@ -94,7 +94,7 @@ Sondage : 13.1 → 11.1 (rang 1 → 6)
 
 Sondage : 11.1 → 12.9 (rang 6 → 2)
 
-## 10. Le permis d’entreprendre doit être défini — _campaign/party_
+## 10. Le permis d’entreprendre doit être défini  — _campaign/party_
 
 Le mouvement promet de simplifier la création d’entreprise par un permis unique. Les artisans demandent quelles démarches disparaîtront et comment les règles sociales, sanitaires et environnementales resteront contrôlées.
 
@@ -104,7 +104,7 @@ Le mouvement promet de simplifier la création d’entreprise par un permis uniq
 
 Sondage : 12.9 → 12.9 (rang 2 → 2)
 
-## 11. Le fauteuil libéré au vingt heures — _campaign/media_
+## 11. Le fauteuil libéré au vingt heures  — _campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -134,7 +134,7 @@ Une note interne propose d’attaquer un parti voisin pour capter son électorat
 
 Sondage : 10.5 → 12.7 (rang 7 → 2)
 
-## 14. La photographie du quai vide — _campaign/media_
+## 14. La photographie du quai vide  — _campaign/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -154,7 +154,7 @@ Raphaël Ternois présente les garanties obtenues ou demande de rouvrir les pour
 
 Sondage : 12.8 → 12.8 (rang 2 → 2)
 
-## 16. Les électeurs ignorent encore le mouvement — _campaign/party_
+## 16. Les électeurs ignorent encore le mouvement  — _campaign/party_
 
 Une enquête qualitative montre que beaucoup d’électeurs confondent Nouvelle Énergie avec Horizons ou un collectif économique. La campagne doit expliquer son existence en une décision concrète.
 
@@ -164,7 +164,7 @@ Une enquête qualitative montre que beaucoup d’électeurs confondent Nouvelle 
 
 Sondage : 12.8 → 14 (rang 2 → 1)
 
-## 17. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
+## 17. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
 Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
@@ -174,7 +174,7 @@ Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et t
 
 Sondage : 14 → 13.2 (rang 1 → 2)
 
-## 18. Le contrat du conseiller est publié — _official_campaign/scandal_
+## 18. Le contrat du conseiller est publié  — _official_campaign/scandal_
 
 Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une clause prévoit une prime si la campagne dépasse un seuil de voix, mécanisme légal dans l’univers du jeu mais politiquement difficile à défendre.
 
@@ -184,17 +184,17 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 Sondage : 13.2 → 13.3 (rang 2 → 2)
 
-## 19. Renaissance offre un pacte de stabilité — _official_campaign/alliance_
+## 19. Un donateur demande un rendez-vous  — _official_campaign/internal_
 
-Renaissance propose un pacte sur l’Europe, la trajectoire budgétaire et la stabilité institutionnelle. L’accord n’implique pas de retrait au premier tour, mais prévoit une consigne réciproque au second et un comité de coordination.
+Un entrepreneur fictif ayant versé un don dans les limites légales sollicite une rencontre privée sur votre fiscalité. Le rendez-vous est autorisé, mais son calendrier et sa confidentialité peuvent nourrir un soupçon d’influence.
 
-> **Choix retenu :** Refuser tout pacte avant le vote et proposer seulement un débat public sur l’Europe [LOYAL]
+> **Choix retenu :** Accepter le rendez-vous sans caméra et publier seulement la liste des sujets abordés [RISQUÉ]
 
-**Le débat remplace le comité de coordination** — Votre autonomie devient visible et le débat européen permet de préciser les divergences. Les reports futurs restent incertains et Renaissance cesse de protéger votre candidature contre les attaques de son propre camp.
+**Une liste ne raconte pas la conversation** — L’entretien vous donne des informations utiles sur l’investissement, sans engagement formel. La publication des thèmes respecte la règle choisie, mais l’absence de compte rendu alimente les interprétations adverses.
 
-Sondage : 13.3 → 13.4 (rang 2 → 2)
+Sondage : 13.3 → 13.2 (rang 2 → 2)
 
-## 20. Les affiches manquent dans six villes — _official_campaign/campaign_
+## 20. Les affiches manquent dans six villes  — _official_campaign/campaign_
 
 Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus d’affiches. Le budget permet soit une impression d’urgence, soit une campagne numérique géolocalisée.
 
@@ -202,29 +202,29 @@ Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus
 
 **Le budget bascule vers les écrans** — Les vidéos locales touchent rapidement les moins de trente ans. Les militants chargés de l’affichage dénoncent cependant une décision prise sans leur avis.
 
-Sondage : 13.4 → 11.6 (rang 2 → 3)
+Sondage : 13.2 → 11.4 (rang 2 → 3)
 
-## 21. Des notes de frais se mélangent — _official_campaign/scandal_
+## 21. Une accusation jugée infondée vise un adversaire  — _official_campaign/campaign_
 
-Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un déplacement de campagne et une réunion municipale. La somme est faible, mais la frontière entre les deux activités doit être rétablie avant le dépôt des comptes.
+Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
-> **Choix retenu :** Corriger les comptes sans communiquer et adresser un avertissement interne à Samira Bellon [PRUDENT]
+> **Choix retenu :** Diffuser la rumeur sous forme de question, sans l’affirmer directement [OPPORTUNISTE]
 
-**La somme disparaît des comptes, pas des courriels** — La correction juridique est complète et l’équipe locale poursuit son travail. Un courriel interne sur l’avertissement peut toutefois donner l’impression que la campagne a tenté de cacher une faute mineure.
+**Le doute entretenu sans affirmation directe** — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
 
-Sondage : 11.6 → 13.4 (rang 3 → 2)
+Sondage : 11.4 → 13 (rang 3 → 2)
 
-## 22. Une crise ferme un détroit — _official_campaign/world_
+## 22. Le gaz double en une semaine  — _official_campaign/world_
 
-Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France na pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.
+Dans l’économie simulée, le prix de gros du gaz double après une rupture d’approvisionnement. La Commission européenne coordonne les stocks et les ménages craignent déjà leur prochaine facture. Votre programme énergétique doit répondre à l’urgence sans renier sa trajectoire.
 
-> **Choix retenu :** Demander une déclaration européenne commune sur la liberté de navigation et la désescalade [PRÉSIDENTIEL]
+> **Choix retenu :** Plafonner toutes les factures pendant six mois et financer l’écart par emprunt [POPULAIRE]
 
-**La réponse française passe par l’Europe** — Votre position évite de choisir un camp militaire et propose un cadre diplomatique crédible. Elle renforce votre stature européenne sans offrir de solution immédiate aux entreprises exposées.
+**Six mois de prix bloqués** — La mesure est immédiatement lisible et protège chaque ménage contre le choc. Son coût dépend de la durée de la crise et réduit l’incitation à économiser le gaz au moment où les stocks sont tendus.
 
-Sondage : 13.4 → 13.6 (rang 2 → 1)
+Sondage : 13 → 13.2 (rang 2 → 2)
 
-## 23. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
+## 23. Une chanteuse veut soutenir la campagne  — _official_campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -232,19 +232,19 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 **La notoriété reste hors de l’affiche** — Nina Sorel respecte le refus et publie seulement qu’elle a été reçue sur le logement. Vous perdez une audience importante mais préservez une campagne où les soutiens ne remplacent pas les propositions.
 
-Sondage : 13.6 → 13.8 (rang 1 → 1)
+Sondage : 13.2 → 13.3 (rang 2 → 2)
 
-## 24. Le regroupement familial en question — _between_rounds/program_
+## 24. La minute qui vous appartient  — _between_rounds/debate_
 
-Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
+À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
 
-> **Choix retenu :** Fixer à trois ans le délai de résidence requis avant regroupement familial [CLIVANT]
+> **Choix retenu :** Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
 
-**Un délai plus long, un signal de fermeté** — La mesure répond à une demande de contrôle exprimée dans vos réunions publiques. Des associations familiales et certains partenaires sociaux dénoncent une séparation prolongée des familles déjà installées.
+**Un visage reste après le débat** — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
 
-Sondage : 13.8 → 13.9 (rang 1 → 1)
+Sondage : 13.3 → 13.6 (rang 2 → 1)
 
-## 25. Le score ouvre une autre campagne — _finished/between_rounds_
+## 25. Le score ouvre une autre campagne  — _finished/between_rounds_
 
 Votre résultat ne permet pas le second tour mais progresse nettement par rapport au socle initial. Les cadres veulent préparer les législatives, les militants demandent un bilan et plusieurs élus proposent une fusion avec un parti proche.
 
@@ -252,4 +252,4 @@ Votre résultat ne permet pas le second tour mais progresse nettement par rappor
 
 **La défaite devient matière à apprendre** — Le mandat de la revue inclut les événements décisifs, les dépenses et les contradictions. Vous retardez les accords électoraux mais construisez un héritage utile au prochain cycle.
 
-Sondage : 13.9 → 14.2 (rang 1 → 1)
+Sondage : 13.6 → 13.9 (rang 1 → 1)

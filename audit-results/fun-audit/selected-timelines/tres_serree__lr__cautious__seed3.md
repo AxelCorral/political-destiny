@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **tres_serree**
 
-Score final : 76/100 · 1er tour : 15.5 · 2nd tour : 49 · qualifié : true · vainqueur : false · signaux mémorables : 3
+Score final : 76/100 · 1er tour : 15.7 · 2nd tour : 49.1 · qualifié : true · vainqueur : false · signaux mémorables : 3
 
-## 1. Ce que l’école doit transmettre — _pre_campaign/program_
+## 1. Ce que l’école doit transmettre  — _pre_campaign/program_
 
 Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
@@ -14,7 +14,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 Sondage : 11.7 → 11.2 (rang 4 → 7)
 
-## 2. La promesse faite à l’école — _pre_campaign/program_
+## 2. La promesse faite à l’école  — _pre_campaign/program_
 
 À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
@@ -24,7 +24,7 @@ Sondage : 11.7 → 11.2 (rang 4 → 7)
 
 Sondage : 11.2 → 11.6 (rang 7 → 5)
 
-## 3. Le slogan divise le siège — _pre_campaign/campaign_
+## 3. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -34,7 +34,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 11.6 → 11.9 (rang 5 → 2)
 
-## 4. Le direct des questions citoyennes — _pre_campaign/media_
+## 4. Le direct des questions citoyennes  — _pre_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -44,7 +44,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 11.9 → 12.3 (rang 2 → 2)
 
-## 5. Des notes de frais se mélangent — _pre_campaign/scandal_
+## 5. Des notes de frais se mélangent  — _pre_campaign/scandal_
 
 Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un déplacement de campagne et une réunion municipale. La somme est faible, mais la frontière entre les deux activités doit être rétablie avant le dépôt des comptes.
 
@@ -54,7 +54,7 @@ Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un d�
 
 Sondage : 12.3 → 12.6 (rang 2 → 2)
 
-## 6. La France à cinquante degrés — _pre_campaign/program_
+## 6. La France à cinquante degrés  — _pre_campaign/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -64,7 +64,7 @@ Sondage : 12.3 → 12.6 (rang 2 → 2)
 
 Sondage : 12.6 → 12.9 (rang 2 → 2)
 
-## 7. Les sections refusent le kit national — _pre_campaign/internal_
+## 7. Les sections refusent le kit national  — _pre_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -74,7 +74,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 12.9 → 13 (rang 2 → 1)
 
-## 8. Une chanteuse veut soutenir la campagne — _campaign/alliance_
+## 8. Une chanteuse veut soutenir la campagne  — _campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -84,7 +84,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 Sondage : 13 → 15.8 (rang 1 → 1)
 
-## 9. Les retraités interrogent le financement — _campaign/party_
+## 9. Les retraités interrogent le financement  — _campaign/party_
 
 Les retraités conservateurs apprécient la ligne d’autorité mais s’inquiètent du coût des soins, de la dépendance et de l’épargne. Ils demandent une priorité budgétaire concrète.
 
@@ -94,7 +94,7 @@ Les retraités conservateurs apprécient la ligne d’autorité mais s’inquiè
 
 Sondage : 15.8 → 13.4 (rang 1 → 1)
 
-## 10. La laïcité à l’épreuve du quotidien — _campaign/program_
+## 10. La laïcité à l’épreuve du quotidien  — _campaign/program_
 
 Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
@@ -104,7 +104,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 Sondage : 13.4 → 13.6 (rang 1 → 1)
 
-## 11. Le fauteuil libéré au vingt heures — _campaign/media_
+## 11. Le fauteuil libéré au vingt heures  — _campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -114,7 +114,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 Sondage : 13.6 → 13.7 (rang 1 → 1)
 
-## 12. Trois villages sans médecin — _campaign/campaign_
+## 12. Trois villages sans médecin  — _campaign/campaign_
 
 Dans le Grand Est, trois maires partagent un cabinet vide et des délais de consultation croissants. Ils veulent savoir si vous contraignez l’installation, financez une équipe mobile ou déléguez davantage.
 
@@ -124,7 +124,7 @@ Dans le Grand Est, trois maires partagent un cabinet vide et des délais de cons
 
 Sondage : 13.7 → 13.5 (rang 1 → 1)
 
-## 13. Horizons propose un accord économique — _campaign/party_
+## 13. Horizons propose un accord économique  — _campaign/party_
 
 Horizons offre une plateforme commune sur le travail, les entreprises et les finances publiques. En échange, ses négociateurs demandent à LR d’écarter toute alliance nationale avec le RN.
 
@@ -134,7 +134,7 @@ Horizons offre une plateforme commune sur le travail, les entreprises et les fin
 
 Sondage : 13.5 → 13.8 (rang 1 → 1)
 
-## 14. Les économies menacent les services locaux — _campaign/party_
+## 14. Les économies menacent les services locaux  — _campaign/party_
 
 Le programme prévoit une baisse de dépense, mais les élus LR refusent des fermetures d’écoles, de gendarmeries et de trésoreries. La campagne doit préciser où l’effort sera réellement concentré.
 
@@ -144,7 +144,7 @@ Le programme prévoit une baisse de dépense, mais les élus LR refusent des fer
 
 Sondage : 13.8 → 14.1 (rang 1 → 1)
 
-## 15. Une contradiction chez le camp centriste — _campaign/debate_
+## 15. Une contradiction chez le camp centriste  — _campaign/debate_
 
 Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
@@ -154,7 +154,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 Sondage : 14.1 → 14.1 (rang 1 → 1)
 
-## 16. La Cour des comptes alerte — _official_campaign/world_
+## 16. La Cour des comptes alerte  — _official_campaign/world_
 
 Dans la trajectoire fictive de la partie, la Cour des comptes publie un rapport sur la dégradation du déficit public. Le document ne juge aucun programme présidentiel, mais rend les promesses non financées beaucoup plus difficiles à défendre.
 
@@ -164,7 +164,7 @@ Dans la trajectoire fictive de la partie, la Cour des comptes publie un rapport 
 
 Sondage : 14.1 → 15.1 (rang 1 → 1)
 
-## 17. Une proposition de pacte de non-agression — _official_campaign/campaign_
+## 17. Une proposition de pacte de non-agression  — _official_campaign/campaign_
 
 À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Maël Dargent (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.
 
@@ -174,7 +174,7 @@ Sondage : 14.1 → 15.1 (rang 1 → 1)
 
 Sondage : 15.1 → 14.4 (rang 1 → 1)
 
-## 18. La table ronde agricole se tend — _official_campaign/campaign_
+## 18. La table ronde agricole se tend  — _official_campaign/campaign_
 
 À Clermont-Ferrand, la FNSEA et la Confédération paysanne vous interrogent ensemble sur les revenus, l’eau et les normes. Elles refusent un discours qui promettrait tout aux deux modèles.
 
@@ -184,7 +184,7 @@ Sondage : 15.1 → 14.4 (rang 1 → 1)
 
 Sondage : 14.4 → 14.5 (rang 1 → 1)
 
-## 19. La directrice a recruté son frère — _official_campaign/scandal_
+## 19. La directrice a recruté son frère  — _official_campaign/scandal_
 
 Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme développeur pour une mission de trois semaines. Le tarif correspond au marché et le travail existe, mais aucun autre candidat n’a été consulté.
 
@@ -194,47 +194,47 @@ Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme déve
 
 Sondage : 14.5 → 14.5 (rang 1 → 1)
 
-## 20. Le contrôle interne signale trois factures _(CHAÎNE)_ — _official_campaign/internal_
+## 20. Le siège arrive à saturation  — _official_campaign/internal_
 
-La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois factures sans justificatif complet. Rien ne prouve une irrégularité, mais leur remboursement pourrait être refusé si les pièces manquent au dépôt des comptes.
+Trois responsables salariés et plusieurs bénévoles signalent des journées de quinze heures. Deux erreurs d’agenda ont déjà été rattrapées. Réduire le rythme protège l’équipe mais oblige à abandonner des déplacements attendus.
 
-> **Choix retenu :** Suspendre les paiements concernés et confier les justificatifs à un expert-comptable indépendant [TRANSPARENT]
+> **Choix retenu :** Annuler deux déplacements, instaurer une journée de repos et redistribuer les astreintes [PRUDENT]
 
-**Les paiements attendent le contrôle** — Le gel ralentit deux fournisseurs mais sécurise la trace documentaire. Maud Keravel soutient la décision et l’expert dispose d’un mandat écrit qui permettra de conclure sans pression politique.
+**Le calendrier perd deux étapes et gagne de la fiabilité** — Les équipes locales déçues obtiennent des visioconférences et le siège retrouve un rythme soutenable. Votre présence médiatique recule brièvement, tandis que les erreurs logistiques diminuent.
 
-Sondage : 14.5 → 14.9 (rang 1 → 1)
+Sondage : 14.5 → 15 (rang 1 → 1)
 
-## 21. Une attaque frontale de La France insoumise — _official_campaign/campaign_
+## 21. Provoquer le favori en duel  — _official_campaign/debate_
 
-Ariane Valmont vous accuse publiquement d’avoir édulcoré vos positions sociales pour séduire un électorat plus modéré. L’accusation circule largement avant que vous ayez pu y répondre.
+Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
-> **Choix retenu :** Ne pas répondre publiquement et poursuivre le calendrier de campagne prévu [PRUDENT]
+> **Choix retenu :** Décliner le duel et publier un communiqué comparant les programmes chiffrés [PRUDENT]
 
-**Poursuivre sans réagir** — L’absence de réponse limite la durée de vie de la polémique dans l’agenda médiatique. Une partie de vos soutiens juge le silence gênant face à une accusation aussi directe.
+**Le terrain du programme plutôt que du plateau** — Le communiqué évite le risque d’un dérapage en direct et documente vos chiffres. Le camp adverse et une partie de la presse dénoncent une esquive, ce qui alimente le sujet plus longtemps que prévu.
 
-Sondage : 14.9 → 14.4 (rang 1 → 1)
+Sondage : 15 → 14.5 (rang 1 → 1)
 
-## 22. La pluie emporte la tournée — _official_campaign/campaign_
+## 22. Le car tombe en panne  — _official_campaign/campaign_
 
-Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
+À quatre-vingts kilomètres du prochain rendez-vous, le car de campagne s’immobilise. Une gare, une visioconférence et un café associatif offrent trois manières de sauver la journée.
 
-> **Choix retenu :** Suspendre toute communication jusqu’à la réouverture officielle des routes [PRUDENT]
+> **Choix retenu :** Maintenir la réunion en visioconférence et envoyer votre équipe sur place [PRUDENT]
 
-**Le silence laisse travailler les secours** — Aucun message de campagne ne concurrence les consignes locales. La retenue protège votre image institutionnelle, mais la journée disparaît entièrement du récit national.
+**La réunion tient malgré la distance** — L’équipe locale conduit les échanges pendant que vous répondez à l’écran. Le format fonctionne, sans remplacer la présence attendue par les habitants.
+
+Sondage : 14.5 → 14.4 (rang 1 → 1)
+
+## 23. Tensions internes chez Reconquête  — _official_campaign/world_
+
+La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.
+
+> **Choix retenu :** Ne faire aucun commentaire et laisser le sujet suivre son cours [PRUDENT]
+
+**Aucun commentaire de votre part** — Le silence évite d’apparaître opportuniste sur une difficulté qui ne vous concerne pas directement. Le sujet continue néanmoins d’occuper l’actualité sans votre intervention.
 
 Sondage : 14.4 → 14.4 (rang 1 → 1)
 
-## 23. Les factures sans pièce ressortent _(CHAÎNE)_ — _official_campaign/scandal_
-
-Mediapart révèle que trois factures de la campagne ont été payées avec des justificatifs incomplets. Maud Keravel, trésorière fictive, affirme que les prestations ont bien eu lieu. Aucun organisme public n’a encore conclu à une irrégularité.
-
-> **Choix retenu :** Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusquà conclusion [TRANSPARENT]
-
-**La trésorerie passe sous contrôle extérieur** — Les documents confirment les prestations tout en montrant des procédures trop légères. Maud Keravel accepte la suspension sans reconnaître de faute et le contrôle indépendant fixe un calendrier de conclusion.
-
-Sondage : 14.4 → 14.3 (rang 1 → 1)
-
-## 24. Neuf candidats face au climat — _between_rounds/debate_
+## 24. Neuf candidats face au climat  — _between_rounds/debate_
 
 Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure climatique abandonnée si elle échoue au contrôle de financement. Les réponses précédentes se ressemblent et votre tour arrive après trois promesses de rénovation.
 
@@ -242,9 +242,9 @@ Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure clim
 
 **Une clause de résultat remplace la liste** — Vous refusez de sacrifier une mesure avant l’évaluation et imposez un critère commun. La méthode convainc les électeurs sensibles à l’efficacité, sans fournir le nom précis demandé par le format.
 
-Sondage : 14.3 → 14.4 (rang 1 → 1)
+Sondage : 14.4 → 14.6 (rang 1 → 1)
 
-## 25. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 25. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -252,9 +252,9 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Trois engagements ferment la campagne** — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
 
-Sondage : 14.4 → 14.6 (rang 1 → 1)
+Sondage : 14.6 → 14.7 (rang 1 → 1)
 
-## 26. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 26. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -262,9 +262,9 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Trois soutiens gardent trois identités** — Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.
 
-Sondage : 14.6 → 14.8 (rang 1 → 1)
+Sondage : 14.7 → 14.9 (rang 1 → 1)
 
-## 27. La droite qualifiée cherche ses reports — _between_rounds/party_
+## 27. La droite qualifiée cherche ses reports  — _between_rounds/party_
 
 Qualifié, Bastien Rochefort doit obtenir les voix du centre et d’une partie de la droite nationale. Les deux blocs exigent des signes incompatibles sur l’Europe et les alliances.
 
@@ -272,9 +272,9 @@ Qualifié, Bastien Rochefort doit obtenir les voix du centre et d’une partie d
 
 **Le programme reste la seule base** — Bastien Rochefort préserve son autonomie et évite les concessions contradictoires. Les partis éliminés donnent des consignes minimales et leurs militants restent largement chez eux.
 
-Sondage : 14.8 → 14.8 (rang 1 → 1)
+Sondage : 14.9 → 15 (rang 1 → 1)
 
-## 28. Deux points davance à cinq jours — _between_rounds/between_rounds_
+## 28. Deux points davance à cinq jours  — _between_rounds/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -282,9 +282,9 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 **Lavance devient une bataille de participation** — La campagne réduit son exposition nationale et transforme ses listes de sympathisants en visites réelles. Le socle se mobilise mieux, ce qui protège davantage le résultat que le chiffre brut du sondage.
 
-Sondage : 14.8 → 17.9 (rang 1 → 1)
+Sondage : 15 → 18 (rang 1 → 1)
 
-## 29. Les reports refusent la mécanique — _finished/between_rounds_
+## 29. Les reports refusent la mécanique  — _finished/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -292,4 +292,4 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 17.9 → 15.3 (rang 1 → 1)
+Sondage : 18 → 15.5 (rang 1 → 1)

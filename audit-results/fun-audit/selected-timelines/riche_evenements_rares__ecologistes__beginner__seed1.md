@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **riche_evenements_rares**
 
-Score final : 83/100 · 1er tour : 14.6 · 2nd tour : 50.2 · qualifié : true · vainqueur : true · signaux mémorables : 7
+Score final : 83/100 · 1er tour : 14.7 · 2nd tour : 50.3 · qualifié : true · vainqueur : true · signaux mémorables : 7
 
-## 1. La loi migratoire du programme — _pre_campaign/program_
+## 1. La loi migratoire du programme  — _pre_campaign/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -14,7 +14,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 Sondage : 10.4 → 11 (rang 8 → 7)
 
-## 2. Le PS offre des circonscriptions urbaines — _pre_campaign/party_
+## 2. Le PS offre des circonscriptions urbaines  — _pre_campaign/party_
 
 Le Parti socialiste propose un accord de campagne dans six métropoles contre un soutien écologique sur les sujets sociaux. Les fédérations rurales craignent que l’écologie territoriale disparaisse de l’échange.
 
@@ -24,7 +24,7 @@ Le Parti socialiste propose un accord de campagne dans six métropoles contre un
 
 Sondage : 11 → 11.1 (rang 7 → 7)
 
-## 3. Le marché sous pression — _pre_campaign/campaign_
+## 3. Le marché sous pression  — _pre_campaign/campaign_
 
 Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
 
@@ -34,7 +34,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 Sondage : 11.1 → 11.3 (rang 7 → 6)
 
-## 4. Les locataires redoutent les interdictions — _pre_campaign/party_
+## 4. Les locataires redoutent les interdictions  — _pre_campaign/party_
 
 Des associations de locataires craignent que les obligations de rénovation réduisent l’offre de logements. Elles demandent qui paiera les travaux et comment empêcher les congés abusifs.
 
@@ -44,7 +44,7 @@ Des associations de locataires craignent que les obligations de rénovation réd
 
 Sondage : 11.3 → 9.3 (rang 6 → 8)
 
-## 5. Le slogan divise le siège — _pre_campaign/campaign_
+## 5. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -54,7 +54,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 9.3 → 11.9 (rang 8 → 2)
 
-## 6. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 6. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -64,7 +64,7 @@ Sondage : 9.3 → 11.9 (rang 8 → 2)
 
 Sondage : 11.9 → 12.1 (rang 2 → 2)
 
-## 7. Les règles de la liste commune — _pre_campaign/internal_
+## 7. Les règles de la liste commune  — _pre_campaign/internal_
 
 Les courants du parti exigent de connaître la méthode de nomination des responsables de campagne. Une répartition strictement proportionnelle protège l’unité, tandis qu’une équipe resserrée permettrait des décisions plus rapides.
 
@@ -74,7 +74,7 @@ Les courants du parti exigent de connaître la méthode de nomination des respon
 
 Sondage : 12.1 → 12.1 (rang 2 → 2)
 
-## 8. Un fichier militant sort du siège — _pre_campaign/scandal_
+## 8. Un fichier militant sort du siège  — _pre_campaign/scandal_
 
 Un bénévole signale qu’un tableau de contacts a été partagé sur un lien sans mot de passe pendant six heures. Il contient des courriels et des préférences de bénévolat, mais aucune donnée bancaire ni pièce d’identité.
 
@@ -84,7 +84,7 @@ Un bénévole signale qu’un tableau de contacts a été partagé sur un lien s
 
 Sondage : 12.1 → 14.8 (rang 2 → 1)
 
-## 9. Le regroupement familial en question — _campaign/program_
+## 9. Le regroupement familial en question  — _campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -94,7 +94,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 14.8 → 12.1 (rang 1 → 2)
 
-## 10. Vie privée et réseaux : la ligne numérique — _campaign/program_
+## 10. Vie privée et réseaux : la ligne numérique  — _campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -114,7 +114,7 @@ Une équipe documentaire de France 2 demande six semaines d’accès au siège, 
 
 Sondage : 11.5 → 11.4 (rang 6 → 6)
 
-## 12. Deux cents maires demandent un contrat — _campaign/alliance_
+## 12. Deux cents maires demandent un contrat  — _campaign/alliance_
 
 Deux cents maires de communes rurales et périurbaines publient un appel sur les services publics, le logement et les finances locales. Ils soutiendront le candidat qui accepte un calendrier contrôlable plutôt qu’une liste de promesses.
 
@@ -124,7 +124,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 Sondage : 11.4 → 17.1 (rang 6 → 1)
 
-## 13. Un soutien éditorial encombrant — _campaign/media_
+## 13. Un soutien éditorial encombrant  — _campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -134,7 +134,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 17.1 → 11.6 (rang 1 → 6)
 
-## 14. Vingt-quatre heures sans caméra — _campaign/media_
+## 14. Vingt-quatre heures sans caméra  — _campaign/media_
 
 Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
 
@@ -154,7 +154,7 @@ Une projection en direct devait vous faire apparaître simultanément à Toulous
 
 Sondage : 11.7 → 11.8 (rang 5 → 4)
 
-## 16. L’immigration de travail, un choix économique assumé ou non — _campaign/program_
+## 16. L’immigration de travail, un choix économique assumé ou non  — _campaign/program_
 
 Des fédérations patronales de la restauration, du bâtiment et du soin à domicile alertent publiquement sur des postes non pourvus. Le sujet, distinct de l’asile déjà tranché, oblige à préciser votre ligne sur l’immigration de travail.
 
@@ -164,7 +164,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 Sondage : 11.8 → 17.1 (rang 4 → 1)
 
-## 17. Le micro resté ouvert — _official_campaign/media_
+## 17. Le micro resté ouvert  — _official_campaign/media_
 
 Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
@@ -174,7 +174,7 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 Sondage : 17.1 → 12.1 (rang 1 → 2)
 
-## 18. Neuf candidats face au climat — _official_campaign/debate_
+## 18. Neuf candidats face au climat  — _official_campaign/debate_
 
 Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure climatique abandonnée si elle échoue au contrôle de financement. Les réponses précédentes se ressemblent et votre tour arrive après trois promesses de rénovation.
 
@@ -184,7 +184,7 @@ Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure clim
 
 Sondage : 12.1 → 12.3 (rang 2 → 2)
 
-## 19. Deux équipes se disputent le terrain — _official_campaign/internal_
+## 19. Deux équipes se disputent le terrain  — _official_campaign/internal_
 
 Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
 
@@ -194,7 +194,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 Sondage : 12.3 → 12.5 (rang 2 → 2)
 
-## 20. La directrice a recruté son frère — _official_campaign/scandal_
+## 20. La directrice a recruté son frère  — _official_campaign/scandal_
 
 Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme développeur pour une mission de trois semaines. Le tarif correspond au marché et le travail existe, mais aucun autre candidat n’a été consulté.
 
@@ -214,7 +214,7 @@ Une projection fictive des législatives ne donne de majorité à aucun bloc et 
 
 Sondage : 11.2 → 12.8 (rang 6 → 2)
 
-## 22. Deux invitations au même horaire — _official_campaign/campaign_
+## 22. Deux invitations au même horaire  — _official_campaign/campaign_
 
 France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
@@ -234,17 +234,17 @@ La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois 
 
 Sondage : 12.8 → 12.8 (rang 2 → 2)
 
-## 24. Provoquer le favori en duel — _between_rounds/debate_
+## 24. Douze députés offrent leur expérience  — _between_rounds/alliance_
 
-Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
+Douze parlementaires de sensibilités proches proposent de soutenir votre candidature sans quitter leur parti. Ils demandent une conférence hebdomadaire sur les institutions et souhaitent pouvoir signaler publiquement leurs désaccords.
 
-> **Choix retenu :** Proposer un format neutre coanimé par deux rédactions concurrentes [RASSEMBLEUR]
+> **Choix retenu :** Exiger un soutien sans réserve jusqu’au premier tour en échange d’un rôle programmatique [LOYAL]
 
-**Un cadre équilibré, plus consensuel** — Le format coanimé rassure les deux équipes et limite le risque d’un dérapage. Il attire moins d’audience qu’un duel frontal, mais renforce votre image d’acteur institutionnel.
+**Sept députés acceptent la discipline** — Le groupe se réduit mais parle d’une seule voix et travaille efficacement sur vos réformes. Les cinq refusants expliquent leur départ, donnant une visibilité indésirable aux conditions posées.
 
 Sondage : 12.8 → 13 (rang 2 → 1)
 
-## 25. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 25. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -254,7 +254,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 13 → 13.1 (rang 1 → 1)
 
-## 26. Deux points davance à cinq jours — _between_rounds/between_rounds_
+## 26. Deux points davance à cinq jours  — _between_rounds/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -274,7 +274,7 @@ Deux formations de l’Assemblée fragmentée annoncent accepter vos cinq condit
 
 Sondage : 13.3 → 13.4 (rang 1 → 1)
 
-## 28. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 28. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -284,7 +284,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 Sondage : 13.4 → 12.4 (rang 1 → 3)
 
-## 29. Le second tour exige une coalition climatique — _government_epilogue/party_
+## 29. Le second tour exige une coalition climatique  — _government_epilogue/party_
 
 Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les soutiens possibles demandent à la fois des garanties sociales, un calendrier industriel et une méthode parlementaire.
 
@@ -294,7 +294,7 @@ Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les
 
 Sondage : 12.4 → 13.6 (rang 3 → 1)
 
-## 30. Le choix de Matignon — _government_epilogue/government_
+## 30. Le choix de Matignon  — _government_epilogue/government_
 
 Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 
@@ -304,7 +304,7 @@ Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure 
 
 Sondage : 13.6 → 13.6 (rang 1 → 1)
 
-## 31. La première adresse de lÉlysée — _finished/government_
+## 31. La première adresse de lÉlysée  — _finished/government_
 
 Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.
 

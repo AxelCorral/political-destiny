@@ -7,18 +7,18 @@
     <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
     <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">100 %</text>
     <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°2</text>
-    <rect x="200" y="100" width="336.8" height="28" fill="#3b6ea5" rx="3" />
-    <text x="544.7811111111112" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">72 %</text>
+    <rect x="200" y="100" width="344.7" height="28" fill="#3b6ea5" rx="3" />
+    <text x="552.6666666666666" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">73 %</text>
     <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°3</text>
-    <rect x="200" y="138" width="261.2" height="28" fill="#3b6ea5" rx="3" />
-    <text x="469.2155555555555" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">56 %</text>
+    <rect x="200" y="138" width="261.5" height="28" fill="#3b6ea5" rx="3" />
+    <text x="469.52888888888884" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">56 %</text>
     <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°5</text>
-    <rect x="200" y="176" width="162.7" height="28" fill="#3b6ea5" rx="3" />
-    <text x="370.72444444444443" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">35 %</text>
+    <rect x="200" y="176" width="169.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="377.3566666666667" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">36 %</text>
     <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°10</text>
-    <rect x="200" y="214" width="64.3" height="28" fill="#3b6ea5" rx="3" />
-    <text x="272.28555555555556" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">14 %</text>
+    <rect x="200" y="214" width="55.4" height="28" fill="#3b6ea5" rx="3" />
+    <text x="263.35555555555555" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">12 %</text>
     <text x="190" y="270" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">Partie n°20</text>
-    <rect x="200" y="252" width="11.5" height="28" fill="#3b6ea5" rx="3" />
-    <text x="219.48888888888888" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">2 %</text>
+    <rect x="200" y="252" width="13.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="221.00333333333333" y="270" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">3 %</text>
 </svg>

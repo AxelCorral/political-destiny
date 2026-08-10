@@ -21,7 +21,7 @@
     "partyId": "lfi",
     "profile": "risk_seeking_ref",
     "seedIndex": 12,
-    "funProxy": 16
+    "funProxy": 15.5
   },
   {
     "file": "aleatoire__lfi__risk_seeking_ref__seed13.md",
@@ -53,7 +53,7 @@
     "partyId": "lfi",
     "profile": "risk_seeking_ref",
     "seedIndex": 16,
-    "funProxy": 15.5
+    "funProxy": 12.5
   },
   {
     "file": "aleatoire__lfi__risk_seeking_ref__seed17.md",
@@ -61,7 +61,7 @@
     "partyId": "lfi",
     "profile": "risk_seeking_ref",
     "seedIndex": 17,
-    "funProxy": 20
+    "funProxy": 26
   },
   {
     "file": "aleatoire__lfi__risk_seeking_ref__seed18.md",
@@ -93,7 +93,7 @@
     "partyId": "lr",
     "profile": "cautious",
     "seedIndex": 3,
-    "funProxy": 9
+    "funProxy": 9.5
   },
   {
     "file": "tres_serree__lr__cautious__seed4.md",
@@ -109,7 +109,7 @@
     "partyId": "lr",
     "profile": "cautious",
     "seedIndex": 8,
-    "funProxy": 21
+    "funProxy": 18
   },
   {
     "file": "tres_serree__lfi__beginner__seed0.md",
@@ -117,7 +117,15 @@
     "partyId": "lfi",
     "profile": "beginner",
     "seedIndex": 0,
-    "funProxy": 16.5
+    "funProxy": 17
+  },
+  {
+    "file": "tres_serree__lfi__beginner__seed1.md",
+    "category": "tres_serree",
+    "partyId": "lfi",
+    "profile": "beginner",
+    "seedIndex": 1,
+    "funProxy": 14.5
   },
   {
     "file": "tres_serree__lfi__beginner__seed5.md",
@@ -125,7 +133,7 @@
     "partyId": "lfi",
     "profile": "beginner",
     "seedIndex": 5,
-    "funProxy": 17
+    "funProxy": 17.5
   },
   {
     "file": "tres_serree__lfi__beginner__seed7.md",
@@ -133,7 +141,7 @@
     "partyId": "lfi",
     "profile": "beginner",
     "seedIndex": 7,
-    "funProxy": 24
+    "funProxy": 22.5
   },
   {
     "file": "tres_serree__renaissance__roleplayer__seed12.md",
@@ -141,23 +149,15 @@
     "partyId": "renaissance",
     "profile": "roleplayer",
     "seedIndex": 12,
-    "funProxy": 24.5
+    "funProxy": 25
   },
   {
-    "file": "tres_serree__renaissance__roleplayer__seed15.md",
+    "file": "tres_serree__renaissance__roleplayer__seed13.md",
     "category": "tres_serree",
     "partyId": "renaissance",
     "profile": "roleplayer",
-    "seedIndex": 15,
-    "funProxy": 26
-  },
-  {
-    "file": "tres_serree__renaissance__roleplayer__seed18.md",
-    "category": "tres_serree",
-    "partyId": "renaissance",
-    "profile": "roleplayer",
-    "seedIndex": 18,
-    "funProxy": 7.5
+    "seedIndex": 13,
+    "funProxy": 22.5
   },
   {
     "file": "victoire__renaissance__opportunist__seed10.md",
@@ -165,7 +165,7 @@
     "partyId": "renaissance",
     "profile": "opportunist",
     "seedIndex": 10,
-    "funProxy": 6
+    "funProxy": 9
   },
   {
     "file": "victoire__renaissance__opportunist__seed11.md",
@@ -173,7 +173,15 @@
     "partyId": "renaissance",
     "profile": "opportunist",
     "seedIndex": 11,
-    "funProxy": 19
+    "funProxy": 24
+  },
+  {
+    "file": "victoire__renaissance__opportunist__seed12.md",
+    "category": "victoire",
+    "partyId": "renaissance",
+    "profile": "opportunist",
+    "seedIndex": 12,
+    "funProxy": 25.5
   },
   {
     "file": "victoire__renaissance__opportunist__seed13.md",
@@ -181,15 +189,7 @@
     "partyId": "renaissance",
     "profile": "opportunist",
     "seedIndex": 13,
-    "funProxy": 15.5
-  },
-  {
-    "file": "victoire__renaissance__opportunist__seed14.md",
-    "category": "victoire",
-    "partyId": "renaissance",
-    "profile": "opportunist",
-    "seedIndex": 14,
-    "funProxy": 12
+    "funProxy": 22
   },
   {
     "file": "victoire__renaissance__opportunist__seed15.md",
@@ -197,15 +197,7 @@
     "partyId": "renaissance",
     "profile": "opportunist",
     "seedIndex": 15,
-    "funProxy": 24
-  },
-  {
-    "file": "victoire__renaissance__opportunist__seed16.md",
-    "category": "victoire",
-    "partyId": "renaissance",
-    "profile": "opportunist",
-    "seedIndex": 16,
-    "funProxy": 26
+    "funProxy": 21
   },
   {
     "file": "victoire__renaissance__opportunist__seed18.md",
@@ -213,15 +205,7 @@
     "partyId": "renaissance",
     "profile": "opportunist",
     "seedIndex": 18,
-    "funProxy": 11
-  },
-  {
-    "file": "victoire__renaissance__opportunist__seed19.md",
-    "category": "victoire",
-    "partyId": "renaissance",
-    "profile": "opportunist",
-    "seedIndex": 19,
-    "funProxy": 16
+    "funProxy": 16.5
   },
   {
     "file": "victoire__horizons__chaos__seed10.md",
@@ -229,15 +213,31 @@
     "partyId": "horizons",
     "profile": "chaos",
     "seedIndex": 10,
-    "funProxy": 29.5
+    "funProxy": 12.5
   },
   {
-    "file": "victoire__horizons__chaos__seed14.md",
+    "file": "victoire__horizons__chaos__seed12.md",
     "category": "victoire",
     "partyId": "horizons",
     "profile": "chaos",
-    "seedIndex": 14,
-    "funProxy": 24
+    "seedIndex": 12,
+    "funProxy": 29.5
+  },
+  {
+    "file": "victoire__horizons__chaos__seed15.md",
+    "category": "victoire",
+    "partyId": "horizons",
+    "profile": "chaos",
+    "seedIndex": 15,
+    "funProxy": 13.5
+  },
+  {
+    "file": "victoire__horizons__chaos__seed17.md",
+    "category": "victoire",
+    "partyId": "horizons",
+    "profile": "chaos",
+    "seedIndex": 17,
+    "funProxy": 15
   },
   {
     "file": "defaite__ps__beginner__seed1.md",
@@ -245,7 +245,7 @@
     "partyId": "ps",
     "profile": "beginner",
     "seedIndex": 1,
-    "funProxy": 25.5
+    "funProxy": 17
   },
   {
     "file": "defaite__ps__beginner__seed7.md",
@@ -253,7 +253,7 @@
     "partyId": "ps",
     "profile": "beginner",
     "seedIndex": 7,
-    "funProxy": 16
+    "funProxy": 16.5
   },
   {
     "file": "defaite__renaissance__roleplayer__seed2.md",
@@ -261,23 +261,15 @@
     "partyId": "renaissance",
     "profile": "roleplayer",
     "seedIndex": 2,
-    "funProxy": 9
+    "funProxy": 5
   },
   {
-    "file": "defaite__renaissance__roleplayer__seed4.md",
+    "file": "defaite__renaissance__roleplayer__seed8.md",
     "category": "defaite",
     "partyId": "renaissance",
     "profile": "roleplayer",
-    "seedIndex": 4,
-    "funProxy": 8.5
-  },
-  {
-    "file": "defaite__horizons__roleplayer__seed15.md",
-    "category": "defaite",
-    "partyId": "horizons",
-    "profile": "roleplayer",
-    "seedIndex": 15,
-    "funProxy": 11.5
+    "seedIndex": 8,
+    "funProxy": 13
   },
   {
     "file": "defaite__horizons__roleplayer__seed16.md",
@@ -285,7 +277,7 @@
     "partyId": "horizons",
     "profile": "roleplayer",
     "seedIndex": 16,
-    "funProxy": 17
+    "funProxy": 15
   },
   {
     "file": "defaite__horizons__roleplayer__seed19.md",
@@ -293,15 +285,7 @@
     "partyId": "horizons",
     "profile": "roleplayer",
     "seedIndex": 19,
-    "funProxy": 10
-  },
-  {
-    "file": "defaite__renaissance__narrative__seed11.md",
-    "category": "defaite",
-    "partyId": "renaissance",
-    "profile": "narrative",
-    "seedIndex": 11,
-    "funProxy": 18.5
+    "funProxy": 12
   },
   {
     "file": "defaite__renaissance__narrative__seed13.md",
@@ -309,7 +293,7 @@
     "partyId": "renaissance",
     "profile": "narrative",
     "seedIndex": 13,
-    "funProxy": 13
+    "funProxy": 20
   },
   {
     "file": "defaite__renaissance__narrative__seed14.md",
@@ -317,7 +301,23 @@
     "partyId": "renaissance",
     "profile": "narrative",
     "seedIndex": 14,
-    "funProxy": 6
+    "funProxy": 16.5
+  },
+  {
+    "file": "defaite__renaissance__narrative__seed15.md",
+    "category": "defaite",
+    "partyId": "renaissance",
+    "profile": "narrative",
+    "seedIndex": 15,
+    "funProxy": 21
+  },
+  {
+    "file": "defaite__renaissance__narrative__seed16.md",
+    "category": "defaite",
+    "partyId": "renaissance",
+    "profile": "narrative",
+    "seedIndex": 16,
+    "funProxy": 17
   },
   {
     "file": "outsider_performant__ecologistes__strategist__seed11.md",
@@ -341,7 +341,7 @@
     "partyId": "ecologistes",
     "profile": "strategist",
     "seedIndex": 16,
-    "funProxy": 19
+    "funProxy": 22
   },
   {
     "file": "outsider_performant__ecologistes__strategist__seed19.md",
@@ -349,23 +349,23 @@
     "partyId": "ecologistes",
     "profile": "strategist",
     "seedIndex": 19,
-    "funProxy": 23.5
+    "funProxy": 26.5
   },
   {
-    "file": "outsider_performant__lfi__cautious__seed1.md",
+    "file": "outsider_performant__lfi__cautious__seed5.md",
     "category": "outsider_performant",
     "partyId": "lfi",
     "profile": "cautious",
-    "seedIndex": 1,
-    "funProxy": 27.5
+    "seedIndex": 5,
+    "funProxy": 17.5
   },
   {
-    "file": "favori_en_difficulte__lr__narrative__seed19.md",
+    "file": "favori_en_difficulte__lr__narrative__seed13.md",
     "category": "favori_en_difficulte",
     "partyId": "lr",
     "profile": "narrative",
-    "seedIndex": 19,
-    "funProxy": 22
+    "seedIndex": 13,
+    "funProxy": 16.5
   },
   {
     "file": "favori_en_difficulte__renaissance__narrative__seed19.md",
@@ -373,7 +373,7 @@
     "partyId": "renaissance",
     "profile": "narrative",
     "seedIndex": 19,
-    "funProxy": 16
+    "funProxy": 12.5
   },
   {
     "file": "favori_en_difficulte__nouvelle_energie__opportunist__seed6.md",
@@ -392,28 +392,12 @@
     "funProxy": 18.5
   },
   {
-    "file": "favori_en_difficulte__lfi__chaos__seed8.md",
+    "file": "favori_en_difficulte__renaissance__neutral_baseline__seed19.md",
     "category": "favori_en_difficulte",
-    "partyId": "lfi",
-    "profile": "chaos",
-    "seedIndex": 8,
-    "funProxy": 20
-  },
-  {
-    "file": "riche_evenements_rares__nouvelle_energie__opportunist__seed7.md",
-    "category": "riche_evenements_rares",
-    "partyId": "nouvelle_energie",
-    "profile": "opportunist",
-    "seedIndex": 7,
-    "funProxy": 26.5
-  },
-  {
-    "file": "riche_evenements_rares__ecologistes__beginner__seed1.md",
-    "category": "riche_evenements_rares",
-    "partyId": "ecologistes",
-    "profile": "beginner",
-    "seedIndex": 1,
-    "funProxy": 36.5
+    "partyId": "renaissance",
+    "profile": "neutral_baseline",
+    "seedIndex": 19,
+    "funProxy": 12.5
   },
   {
     "file": "riche_evenements_rares__ecologistes__chaos__seed1.md",
@@ -421,15 +405,7 @@
     "partyId": "ecologistes",
     "profile": "chaos",
     "seedIndex": 1,
-    "funProxy": 23.5
-  },
-  {
-    "file": "riche_evenements_rares__lfi__narrative__seed7.md",
-    "category": "riche_evenements_rares",
-    "partyId": "lfi",
-    "profile": "narrative",
-    "seedIndex": 7,
-    "funProxy": 24
+    "funProxy": 29.5
   },
   {
     "file": "riche_evenements_rares__ecologistes__neutral_baseline__seed1.md",
@@ -437,7 +413,31 @@
     "partyId": "ecologistes",
     "profile": "neutral_baseline",
     "seedIndex": 1,
-    "funProxy": 19.5
+    "funProxy": 22.5
+  },
+  {
+    "file": "riche_evenements_rares__reconquete__cautious__seed1.md",
+    "category": "riche_evenements_rares",
+    "partyId": "reconquete",
+    "profile": "cautious",
+    "seedIndex": 1,
+    "funProxy": 25
+  },
+  {
+    "file": "riche_evenements_rares__renaissance__neutral_baseline__seed13.md",
+    "category": "riche_evenements_rares",
+    "partyId": "renaissance",
+    "profile": "neutral_baseline",
+    "seedIndex": 13,
+    "funProxy": 17
+  },
+  {
+    "file": "riche_evenements_rares__lfi__chaos__seed7.md",
+    "category": "riche_evenements_rares",
+    "partyId": "lfi",
+    "profile": "chaos",
+    "seedIndex": 7,
+    "funProxy": 27.5
   },
   {
     "file": "chaotique__rn__chaos__seed10.md",
@@ -445,7 +445,7 @@
     "partyId": "rn",
     "profile": "chaos",
     "seedIndex": 10,
-    "funProxy": 28.5
+    "funProxy": 26
   },
   {
     "file": "chaotique__rn__chaos__seed11.md",
@@ -461,7 +461,7 @@
     "partyId": "rn",
     "profile": "chaos",
     "seedIndex": 12,
-    "funProxy": 17
+    "funProxy": 22.5
   },
   {
     "file": "chaotique__rn__chaos__seed13.md",
@@ -477,7 +477,7 @@
     "partyId": "rn",
     "profile": "chaos",
     "seedIndex": 14,
-    "funProxy": 14
+    "funProxy": 11
   },
   {
     "file": "top10_fun__lfi__narrative__seed11.md",
@@ -485,23 +485,7 @@
     "partyId": "lfi",
     "profile": "narrative",
     "seedIndex": 11,
-    "funProxy": 40
-  },
-  {
-    "file": "top10_fun__ecologistes__narrative__seed11.md",
-    "category": "top10_fun",
-    "partyId": "ecologistes",
-    "profile": "narrative",
-    "seedIndex": 11,
     "funProxy": 39
-  },
-  {
-    "file": "top10_fun__lfi__chaos__seed11.md",
-    "category": "top10_fun",
-    "partyId": "lfi",
-    "profile": "chaos",
-    "seedIndex": 11,
-    "funProxy": 38
   },
   {
     "file": "top10_fun__lfi__neutral_baseline__seed6.md",
@@ -512,76 +496,76 @@
     "funProxy": 36.5
   },
   {
-    "file": "top10_fun__ecologistes__risk_seeking_ref__seed11.md",
+    "file": "top10_fun__ecologistes__beginner__seed11.md",
     "category": "top10_fun",
     "partyId": "ecologistes",
-    "profile": "risk_seeking_ref",
+    "profile": "beginner",
     "seedIndex": 11,
     "funProxy": 36
   },
   {
-    "file": "top10_fun__nouvelle_energie__risk_seeking_ref__seed9.md",
+    "file": "top10_fun__lfi__neutral_baseline__seed2.md",
     "category": "top10_fun",
-    "partyId": "nouvelle_energie",
-    "profile": "risk_seeking_ref",
-    "seedIndex": 9,
-    "funProxy": 36
+    "partyId": "lfi",
+    "profile": "neutral_baseline",
+    "seedIndex": 2,
+    "funProxy": 35.5
   },
   {
-    "file": "top10_fun__ecologistes__opportunist__seed7.md",
+    "file": "top10_fun__nouvelle_energie__narrative__seed1.md",
     "category": "top10_fun",
-    "partyId": "ecologistes",
-    "profile": "opportunist",
-    "seedIndex": 7,
+    "partyId": "nouvelle_energie",
+    "profile": "narrative",
+    "seedIndex": 1,
+    "funProxy": 35
+  },
+  {
+    "file": "top10_fun__lr__neutral_baseline__seed1.md",
+    "category": "top10_fun",
+    "partyId": "lr",
+    "profile": "neutral_baseline",
+    "seedIndex": 1,
     "funProxy": 34.5
   },
   {
-    "file": "top10_fun__lfi__opportunist__seed10.md",
+    "file": "top10_fun__lfi__narrative__seed8.md",
     "category": "top10_fun",
     "partyId": "lfi",
-    "profile": "opportunist",
-    "seedIndex": 10,
-    "funProxy": 34
-  },
-  {
-    "file": "bottom10_fun__horizons__roleplayer__seed13.md",
-    "category": "bottom10_fun",
-    "partyId": "horizons",
-    "profile": "roleplayer",
-    "seedIndex": 13,
-    "funProxy": -1.5
-  },
-  {
-    "file": "bottom10_fun__horizons__cautious__seed13.md",
-    "category": "bottom10_fun",
-    "partyId": "horizons",
-    "profile": "cautious",
-    "seedIndex": 13,
-    "funProxy": -0.5
-  },
-  {
-    "file": "bottom10_fun__horizons__narrative__seed13.md",
-    "category": "bottom10_fun",
-    "partyId": "horizons",
     "profile": "narrative",
-    "seedIndex": 13,
-    "funProxy": -0.5
+    "seedIndex": 8,
+    "funProxy": 33.5
   },
   {
-    "file": "bottom10_fun__horizons__neutral_baseline__seed13.md",
-    "category": "bottom10_fun",
-    "partyId": "horizons",
-    "profile": "neutral_baseline",
-    "seedIndex": 13,
-    "funProxy": -0.5
+    "file": "top10_fun__ecologistes__risk_seeking_ref__seed19.md",
+    "category": "top10_fun",
+    "partyId": "ecologistes",
+    "profile": "risk_seeking_ref",
+    "seedIndex": 19,
+    "funProxy": 33.5
   },
   {
-    "file": "bottom10_fun__renaissance__cautious__seed0.md",
+    "file": "top10_fun__ps__chaos__seed4.md",
+    "category": "top10_fun",
+    "partyId": "ps",
+    "profile": "chaos",
+    "seedIndex": 4,
+    "funProxy": 33
+  },
+  {
+    "file": "bottom10_fun__renaissance__neutral_baseline__seed0.md",
     "category": "bottom10_fun",
     "partyId": "renaissance",
-    "profile": "cautious",
+    "profile": "neutral_baseline",
     "seedIndex": 0,
-    "funProxy": 0
+    "funProxy": 1
+  },
+  {
+    "file": "bottom10_fun__rn__beginner__seed13.md",
+    "category": "bottom10_fun",
+    "partyId": "rn",
+    "profile": "beginner",
+    "seedIndex": 13,
+    "funProxy": 1
   },
   {
     "file": "bottom10_fun__reconquete__chaos__seed4.md",
@@ -592,20 +576,12 @@
     "funProxy": 1
   },
   {
-    "file": "bottom10_fun__horizons__roleplayer__seed5.md",
+    "file": "bottom10_fun__horizons__roleplayer__seed13.md",
     "category": "bottom10_fun",
     "partyId": "horizons",
     "profile": "roleplayer",
-    "seedIndex": 5,
-    "funProxy": 2
-  },
-  {
-    "file": "bottom10_fun__horizons__opportunist__seed13.md",
-    "category": "bottom10_fun",
-    "partyId": "horizons",
-    "profile": "opportunist",
     "seedIndex": 13,
-    "funProxy": 2
+    "funProxy": 1.5
   },
   {
     "file": "bottom10_fun__reconquete__strategist__seed16.md",
@@ -616,11 +592,43 @@
     "funProxy": 2
   },
   {
-    "file": "bottom10_fun__reconquete__opportunist__seed13.md",
+    "file": "bottom10_fun__ps__roleplayer__seed13.md",
+    "category": "bottom10_fun",
+    "partyId": "ps",
+    "profile": "roleplayer",
+    "seedIndex": 13,
+    "funProxy": 2.5
+  },
+  {
+    "file": "bottom10_fun__renaissance__cautious__seed2.md",
+    "category": "bottom10_fun",
+    "partyId": "renaissance",
+    "profile": "cautious",
+    "seedIndex": 2,
+    "funProxy": 2.5
+  },
+  {
+    "file": "bottom10_fun__renaissance__cautious__seed3.md",
+    "category": "bottom10_fun",
+    "partyId": "renaissance",
+    "profile": "cautious",
+    "seedIndex": 3,
+    "funProxy": 3
+  },
+  {
+    "file": "bottom10_fun__horizons__roleplayer__seed4.md",
+    "category": "bottom10_fun",
+    "partyId": "horizons",
+    "profile": "roleplayer",
+    "seedIndex": 4,
+    "funProxy": 3
+  },
+  {
+    "file": "bottom10_fun__reconquete__cautious__seed16.md",
     "category": "bottom10_fun",
     "partyId": "reconquete",
-    "profile": "opportunist",
-    "seedIndex": 13,
-    "funProxy": 2
+    "profile": "cautious",
+    "seedIndex": 16,
+    "funProxy": 3.5
   }
 ]

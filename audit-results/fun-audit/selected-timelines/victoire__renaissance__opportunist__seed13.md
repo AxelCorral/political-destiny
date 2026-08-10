@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **victoire**
 
-Score final : 78/100 · 1er tour : 14.3 · 2nd tour : 57.1 · qualifié : true · vainqueur : true · signaux mémorables : 3
+Score final : 76/100 · 1er tour : 13.6 · 2nd tour : 51.7 · qualifié : true · vainqueur : true · signaux mémorables : 4
 
-## 1. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 1. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -14,7 +14,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 10.7 → 12.2 (rang 7 → 2)
 
-## 2. Un donateur demande un rendez-vous — _pre_campaign/internal_
+## 2. Un donateur demande un rendez-vous  — _pre_campaign/internal_
 
 Un entrepreneur fictif ayant versé un don dans les limites légales sollicite une rencontre privée sur votre fiscalité. Le rendez-vous est autorisé, mais son calendrier et sa confidentialité peuvent nourrir un soupçon d’influence.
 
@@ -24,7 +24,7 @@ Un entrepreneur fictif ayant versé un don dans les limites légales sollicite u
 
 Sondage : 12.2 → 12.1 (rang 2 → 2)
 
-## 3. Horizons propose une candidature commune — _pre_campaign/party_
+## 3. Horizons propose une candidature commune  — _pre_campaign/party_
 
 Horizons offre de retirer sa candidature si un accord fixe le programme économique, la place des élus locaux et la méthode de désignation du Premier ministre. Renaissance doit répondre avant une conférence annoncée.
 
@@ -34,7 +34,7 @@ Horizons offre de retirer sa candidature si un accord fixe le programme économi
 
 Sondage : 12.1 → 12 (rang 2 → 3)
 
-## 4. Le fauteuil libéré au vingt heures — _pre_campaign/media_
+## 4. Le fauteuil libéré au vingt heures  — _pre_campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -44,7 +44,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 Sondage : 12 → 10.7 (rang 3 → 7)
 
-## 5. Les classes moyennes demandent un gain net — _pre_campaign/party_
+## 5. Les classes moyennes demandent un gain net  — _pre_campaign/party_
 
 Des panels d’électeurs comprennent les réformes proposées mais ne voient pas leur effet sur le revenu disponible. L’équipe doit choisir une mesure simple sans abandonner la crédibilité budgétaire.
 
@@ -54,7 +54,7 @@ Des panels d’électeurs comprennent les réformes proposées mais ne voient pa
 
 Sondage : 10.7 → 12.6 (rang 7 → 2)
 
-## 6. Qui financera les priorités — _pre_campaign/program_
+## 6. Qui financera les priorités  — _pre_campaign/program_
 
 Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équipe doit choisir une recette avant la publication du programme : fiscalité du patrimoine, réduction de niches, taxe de consommation ou économies supplémentaires.
 
@@ -64,7 +64,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 Sondage : 12.6 → 13 (rang 2 → 2)
 
-## 7. Un soutien éditorial encombrant — _pre_campaign/media_
+## 7. Un soutien éditorial encombrant  — _pre_campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -74,7 +74,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 13 → 13 (rang 2 → 2)
 
-## 8. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 8. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -84,7 +84,7 @@ Sondage : 13 → 13 (rang 2 → 2)
 
 Sondage : 13 → 14.9 (rang 2 → 1)
 
-## 9. La une vous prête un tournant — _campaign/media_
+## 9. La une vous prête un tournant  — _campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -94,7 +94,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 14.9 → 13.5 (rang 1 → 1)
 
-## 10. Le meeting change de dispositif — _campaign/campaign_
+## 10. Le meeting change de dispositif  — _campaign/campaign_
 
 La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
 
@@ -114,7 +114,7 @@ Une projection en direct devait vous faire apparaître simultanément à Toulous
 
 Sondage : 13.6 → 13.8 (rang 1 → 1)
 
-## 12. Le déplacement en Guadeloupe engage — _campaign/campaign_
+## 12. Le déplacement en Guadeloupe engage  — _campaign/campaign_
 
 En Guadeloupe, les élus et associations placent l’eau potable, la vie chère et la continuité territoriale avant votre thème national. Ils demandent des compétences, un budget et une date.
 
@@ -124,7 +124,7 @@ En Guadeloupe, les élus et associations placent l’eau potable, la vie chère 
 
 Sondage : 13.8 → 12.8 (rang 1 → 2)
 
-## 13. Le marché sous pression — _campaign/campaign_
+## 13. Le marché sous pression  — _campaign/campaign_
 
 Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
 
@@ -134,37 +134,27 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 Sondage : 12.8 → 14 (rang 2 → 1)
 
-## 14. La réforme des retraites revient — _campaign/party_
+## 14. Des anciens ministres publient leur manifeste _(RARE)_ — _campaign/party_
 
-Les adversaires ramènent chaque entretien à l’âge de départ. Les équipes hésitent entre défendre la réforme, l’aménager pour les carrières longues ou ouvrir une négociation entièrement nouvelle.
+Un groupe de ministres fictifs et d’anciens responsables de la majorité publie un manifeste pour une candidature de continuité. Ils ne citent personne, mais leur calendrier vise directement Maël Dargent.
 
-> **Choix retenu :** Maintenir le cadre et garantir un départ anticipé automatique après quarante-trois années cotisées [TECHNIQUE]
+> **Choix retenu :** Inviter les signataires à défendre leur manifeste lors d’une convention retransmise et conclure le débat [RISQUÉ]
 
-**Les carrières longues obtiennent une règle simple** — L’aménagement répond à une injustice clairement identifiée sans rouvrir tout le financement. Les syndicats demandent encore la prise en compte de la pénibilité et des interruptions.
+**La fracture se règle devant les adhérents** — Le débat rend les divergences compréhensibles et Maël Dargent peut obtenir un mandat net. Une prestation faible transformerait toutefois une contestation diffuse en alternative organisée.
 
-Sondage : 14 → 14.4 (rang 1 → 1)
+Sondage : 14 → 14.1 (rang 1 → 1)
 
-## 15. Une accusation jugée infondée vise un adversaire — _campaign/campaign_
+## 15. L’imprimeur a doublé une ligne  — _campaign/scandal_
 
-Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
+Étienne Marot, fournisseur fictif, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.
 
-> **Choix retenu :** Diffuser la rumeur sous forme de question, sans l’affirmer directement [OPPORTUNISTE]
+> **Choix retenu :** Accepter l’avoir, auditer les trois derniers devis et maintenir le fournisseur sous contrôle renforcé [PRUDENT]
 
-**Le doute entretenu sans affirmation directe** — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
+**L’avoir s’accompagne d’un audit** — Les autres devis sont corrects et le doublon apparaît isolé. Le contrôle renforcé protège la suite du contrat sans interrompre l’impression des affiches déjà attendues.
 
-Sondage : 14.4 → 14.4 (rang 1 → 1)
+Sondage : 14.1 → 14 (rang 1 → 1)
 
-## 16. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
-
-Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
-
-> **Choix retenu :** Cesser de répondre à l’adversaire et expliquer votre mesure directement à la caméra [POPULAIRE]
-
-**La caméra remplace le duel** — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
-
-Sondage : 14.4 → 15.9 (rang 1 → 1)
-
-## 17. Le regroupement familial en question — _official_campaign/program_
+## 16. Le regroupement familial en question  — _official_campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -172,79 +162,89 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 **Un délai plus long, un signal de fermeté** — La mesure répond à une demande de contrôle exprimée dans vos réunions publiques. Des associations familiales et certains partenaires sociaux dénoncent une séparation prolongée des familles déjà installées.
 
-Sondage : 15.9 → 14.8 (rang 1 → 1)
+Sondage : 14 → 15.6 (rang 1 → 1)
 
-## 18. Le gaz double en une semaine — _official_campaign/world_
+## 17. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
-Dans l’économie simulée, le prix de gros du gaz double après une rupture d’approvisionnement. La Commission européenne coordonne les stocks et les ménages craignent déjà leur prochaine facture. Votre programme énergétique doit répondre à l’urgence sans renier sa trajectoire.
+Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
-> **Choix retenu :** Plafonner toutes les factures pendant six mois et financer l’écart par emprunt [POPULAIRE]
+> **Choix retenu :** Cesser de répondre à l’adversaire et expliquer votre mesure directement à la caméra [POPULAIRE]
 
-**Six mois de prix bloqués** — La mesure est immédiatement lisible et protège chaque ménage contre le choc. Son coût dépend de la durée de la crise et réduit l’incitation à économiser le gaz au moment où les stocks sont tendus.
+**La caméra remplace le duel** — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
 
-Sondage : 14.8 → 15.1 (rang 1 → 1)
+Sondage : 15.6 → 14.3 (rang 1 → 1)
 
-## 19. Une ligne du CV est fausse — _official_campaign/scandal_
+## 18. Le débat sur les pouvoirs exceptionnels _(RARE · CHAÎNE)_ — _official_campaign/rare_
 
-Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.
+Une crise institutionnelle fictive pousse plusieurs commentateurs à vous demander si vous utiliseriez l’article 16 de la Constitution. Les conditions juridiques ne sont pas réunies dans la situation présente ; votre réponse doit surtout définir vos garde-fous.
 
-> **Choix retenu :** Maintenir le responsable et qualifier la différence de formulation sans importance pour le programme [LOYAL]
+> **Choix retenu :** Promettre une consultation publique du Conseil constitutionnel et un contrôle parlementaire renforcé [INSTITUTIONNEL]
 
-**Une petite ligne devient une grande question** — Le responsable continue à travailler et votre équipe technique reste stable. Votre minimisation offre cependant plusieurs jours de débat sur la vérité des biographies plutôt que sur la transition énergétique.
+**Les pouvoirs d’exception reçoivent des limites annoncées** — Votre réponse ne prétend pas modifier la Constitution par une promesse, mais fixe la transparence et le contrôle que vous rechercheriez. Elle rassure sur votre rapport au pouvoir sans nier les cas extrêmes.
 
-Sondage : 15.1 → 15 (rang 1 → 1)
+Sondage : 14.3 → 14.6 (rang 1 → 1)
 
-## 20. Douze députés offrent leur expérience — _official_campaign/alliance_
+## 19. La plateforme publique tombe en panne  — _official_campaign/world_
 
-Douze parlementaires de sensibilités proches proposent de soutenir votre candidature sans quitter leur parti. Ils demandent une conférence hebdomadaire sur les institutions et souhaitent pouvoir signaler publiquement leurs désaccords.
+Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
-> **Choix retenu :** Signer une charte de soutien libre avec réunion hebdomadaire et désaccords publiables [INSTITUTIONNEL]
+> **Choix retenu :** Visiter un guichet d’urgence sans caméra et demander aux agents une liste de corrections prioritaires [PRUDENT]
 
-**Douze soutiens sans discipline forcée** — Les parlementaires apportent une expérience législative et une image d’ouverture. Leurs réserves publiques compliquent parfois votre message, mais rendent le soutien plus crédible qu’un ralliement de façade.
+**Les agents écrivent le retour de crise** — La liste distingue les problèmes techniques, les effectifs et les besoins des usagers. Votre discrétion limite la portée immédiate mais produit un document crédible pour la suite du programme.
 
-Sondage : 15 → 18.8 (rang 1 → 1)
+Sondage : 14.6 → 14.8 (rang 1 → 1)
 
-## 21. Le salaire net au centre — _official_campaign/program_
+## 20. Un cadre écologiste tenté par un ralliement  — _official_campaign/alliance_
 
-L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La conférence économique attend votre mécanisme salarial : hausse du minimum légal, négociations de branche, baisse de cotisations ou prime ponctuelle.
+Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’elle serait ouverte à rejoindre une dynamique plus large si votre offre programmatique évolue sur un point précis.
 
-> **Choix retenu :** Augmenter le salaire minimum de huit pour cent et compenser temporairement les petites entreprises [POPULAIRE]
+> **Choix retenu :** Décliner et proposer une plateforme commune sur l’écologie sans débauchage [RASSEMBLEUR]
 
-**La hausse est immédiate, la transition coûteuse** — Les salariés au minimum voient un gain direct et la compensation évite une rupture avec les petites entreprises. Le coût budgétaire des deux premières années fragilise cependant votre cadrage fiscal.
+**La coopération plutôt que le débauchage** — La proposition de plateforme commune est bien reçue et évite toute tension personnelle. Elle produit moins d’effet immédiat qu’un ralliement individuel, mais préserve la relation avec le mouvement.
 
-Sondage : 18.8 → 15.3 (rang 1 → 1)
+Sondage : 14.8 → 18.6 (rang 1 → 1)
 
-## 22. La présidence que vous proposez — _official_campaign/program_
+## 21. Six rédactions face au désert médical  — _official_campaign/media_
 
-Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
+À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
-> **Choix retenu :** Convoquer une assemblée constituante élue et soumettre son texte à référendum [CLIVANT]
+> **Choix retenu :** Conditionner l’installation des nouveaux médecins à plusieurs années dans une zone sous-dotée [CLIVANT]
 
-**La rupture constitutionnelle a sa procédure** — Le calendrier électif et le référendum rendent la proposition moins abstraite et mobilisent les partisans d’une nouvelle République. Les électeurs attachés à la stabilité demandent ce qui gouvernera pendant la transition.
+**L’obligation structure le débat** — La mesure est immédiatement comprise dans les communes touchées, tandis que les représentants des jeunes médecins dénoncent une contrainte injuste. Vous gagnez un marqueur puissant et un conflit durable à arbitrer.
 
-Sondage : 15.3 → 15.4 (rang 1 → 1)
+Sondage : 18.6 → 15.1 (rang 1 → 1)
 
-## 23. Les parlementaires proposent cent permanences — _official_campaign/party_
+## 22. Ce que l’école doit transmettre  — _official_campaign/program_
 
-Des députés et sénateurs du bloc central mettent leurs permanences à disposition de la campagne. Ils souhaitent choisir les thèmes locaux et apparaître sur les supports distribués dans leur circonscription.
+Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
-> **Choix retenu :** Signer avec chaque parlementaire un contrat local limité à deux priorités vérifiables [INSTITUTIONNEL]
+> **Choix retenu :** Introduire un enseignement moral et civique renforcé avec évaluation nationale [INSTITUTIONNEL]
 
-**Cent contrats relient le programme aux territoires** — Les élus ouvrent leurs réseaux et produisent des engagements adaptés sans réécrire tout le programme. Le suivi de deux cents priorités mobilise une équipe nationale entière.
+**Un socle commun évalué** — La proposition rassure les parents inquiets d’un manque de repères communs et donne un cadre national lisible. Les syndicats enseignants contestent l’ajout d’une évaluation qu’ils jugent bureaucratique.
 
-Sondage : 15.4 → 15.5 (rang 1 → 1)
+Sondage : 15.1 → 15.3 (rang 1 → 1)
 
-## 24. Neuf candidats face au climat — _between_rounds/debate_
+## 23. La collecte se bloque  — _official_campaign/campaign_
 
-Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure climatique abandonnée si elle échoue au contrôle de financement. Les réponses précédentes se ressemblent et votre tour arrive après trois promesses de rénovation.
+Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
 
-> **Choix retenu :** Retirer une subvention automobile et transférer les crédits vers les transports régionaux [TRANSPARENT]
+> **Choix retenu :** Demander une avance bancaire et publier le taux ainsi que l’échéancier [TECHNIQUE]
 
-**Le rail gagne ce que l’automobile perd** — Vous êtes le premier à nommer une dépense supprimée et son bénéficiaire de remplacement. Les territoires dépendants de la voiture contestent l’arbitrage, mais le choix donne une cohérence tangible à votre plan climatique.
+**Le crédit maintient la tournée** — La banque accepte un montant inférieur à votre demande. L’échéancier transparent évite la polémique, mais le remboursement pèsera sur la fin de campagne.
 
-Sondage : 15.5 → 15.8 (rang 1 → 1)
+Sondage : 15.3 → 15.3 (rang 1 → 1)
 
-## 25. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 24. Deux équipes se disputent le terrain  — _between_rounds/internal_
+
+Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
+
+> **Choix retenu :** Maintenir l’opération vidéo et demander à Samira Bellon d’en mesurer elle-même l’audience locale [RISQUÉ]
+
+**La vidéo atteint Lyon sans apaiser les sections** — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
+
+Sondage : 15.3 → 15.2 (rang 1 → 1)
+
+## 25. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -252,9 +252,9 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Trois engagements ferment la campagne** — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
 
-Sondage : 15.8 → 16.1 (rang 1 → 1)
+Sondage : 15.2 → 15.4 (rang 1 → 1)
 
-## 26. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 26. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -262,19 +262,19 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le débat se termine sur la participation** — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
 
-Sondage : 16.1 → 16.2 (rang 1 → 1)
+Sondage : 15.4 → 15.5 (rang 1 → 1)
 
-## 27. Le bloc républicain demande des preuves — _between_rounds/party_
+## 27. Le bloc républicain demande des preuves  — _between_rounds/party_
 
 Qualifié, Maël Dargent reçoit des soutiens conditionnels venus du centre, de la gauche et de la droite modérée. Leur électorat veut des engagements démocratiques plutôt qu’un simple appel contre l’adversaire.
 
 > **Choix retenu :** Signer un contrat sur le Parlement, les libertés publiques et l’Europe avec les soutiens du second tour [RASSEMBLEUR]
 
-**Le front de second tour reçoit trois garanties** — Les soutiens peuvent défendre des engagements positifs et leurs réseaux se mobilisent. Plusieurs mesures économiques restent hors de l’accord et continueront d’alimenter le rejet social.
+**Le front de second tour reçoit trois garanties** — Les soutiens peuvent défendre des engagements positifs et leurs réseaux se mobilisent. Plusieurs mesures économiques restent hors de l’accord et continueront d’alimenter le rejet social. La première échéance de l’avance bancaire réduit les moyens disponibles pour la dernière semaine.
 
-Sondage : 16.2 → 16.4 (rang 1 → 1)
+Sondage : 15.5 → 15.7 (rang 1 → 1)
 
-## 28. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 28. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -282,9 +282,9 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Trois soutiens gardent trois identités** — Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.
 
-Sondage : 16.4 → 16.5 (rang 1 → 1)
+Sondage : 15.7 → 15.8 (rang 1 → 1)
 
-## 29. Les reports refusent la mécanique — _government_epilogue/between_rounds_
+## 29. Les reports refusent la mécanique  — _government_epilogue/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -292,9 +292,9 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Une garantie donne un motif positif de report** — Les électeurs concernés voient leur priorité dans le contrat et leur participation estimée remonte. La mesure tardive augmente le coût du programme et inquiète ceux qui craignent une coalition sans limite.
 
-Sondage : 16.5 → 16.7 (rang 1 → 1)
+Sondage : 15.8 → 15.9 (rang 1 → 1)
 
-## 30. Quinze ministres pour une coalition — _government_epilogue/government_
+## 30. Quinze ministres pour une coalition  — _government_epilogue/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 
@@ -302,9 +302,9 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 **Douze membres donnent une image resserrée** — La composition est lisible et réduit les négociations de postes. Les ministres héritent de champs immenses et plusieurs alliés exclus promettent de juger le gouvernement texte par texte.
 
-Sondage : 16.7 → 16.5 (rang 1 → 1)
+Sondage : 15.9 → 15.8 (rang 1 → 1)
 
-## 31. Le choix de Matignon — _finished/government_
+## 31. Le choix de Matignon  — _finished/government_
 
 Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 
@@ -312,4 +312,4 @@ Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure 
 
 **Une indépendante prend la tête du gouvernement** — La compétence administrative et le renouvellement plaisent au-delà de votre camp. Labsence de base politique oblige lÉlysée à conduire lui-même les négociations parlementaires.
 
-Sondage : 16.5 → 16.5 (rang 1 → 1)
+Sondage : 15.8 → 15.8 (rang 1 → 1)

@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **tres_serree**
 
-Score final : 86/100 · 1er tour : 19.7 · 2nd tour : 52.9 · qualifié : true · vainqueur : true · signaux mémorables : 6
+Score final : 87/100 · 1er tour : 20 · 2nd tour : 53 · qualifié : true · vainqueur : true · signaux mémorables : 6
 
-## 1. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
+## 1. Les jeunes veulent leur propre campagne  — _pre_campaign/internal_
 
 Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent dêtre réduits à distribuer les tracts nationaux.
 
@@ -14,7 +14,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 Sondage : 7.6 → 11.8 (rang 8 → 4)
 
-## 2. Le slogan divise le siège — _pre_campaign/campaign_
+## 2. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -24,7 +24,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 11.8 → 12.1 (rang 4 → 2)
 
-## 3. Le siège coûte trop cher — _pre_campaign/internal_
+## 3. Le siège coûte trop cher  — _pre_campaign/internal_
 
 Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
 
@@ -34,7 +34,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 Sondage : 12.1 → 12.1 (rang 2 → 2)
 
-## 4. Cent quartiers en porte-à-porte — _pre_campaign/campaign_
+## 4. Cent quartiers en porte-à-porte  — _pre_campaign/campaign_
 
 Les équipes proposent une opération nationale dans cent quartiers où l’abstention dépasse la moyenne. Elles peuvent écouter sans questionnaire, défendre une mesure ou inscrire de nouveaux relais.
 
@@ -44,7 +44,7 @@ Les équipes proposent une opération nationale dans cent quartiers où l’abst
 
 Sondage : 12.1 → 12.9 (rang 2 → 2)
 
-## 5. Les sections refusent le kit national — _pre_campaign/internal_
+## 5. Les sections refusent le kit national  — _pre_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -54,7 +54,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 12.9 → 12.3 (rang 2 → 2)
 
-## 6. Les règles de la liste commune — _pre_campaign/internal_
+## 6. Les règles de la liste commune  — _pre_campaign/internal_
 
 Les courants du parti exigent de connaître la méthode de nomination des responsables de campagne. Une répartition strictement proportionnelle protège l’unité, tandis qu’une équipe resserrée permettrait des décisions plus rapides.
 
@@ -64,7 +64,7 @@ Les courants du parti exigent de connaître la méthode de nomination des respon
 
 Sondage : 12.3 → 12.4 (rang 2 → 2)
 
-## 7. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 7. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -74,7 +74,7 @@ Sondage : 12.3 → 12.4 (rang 2 → 2)
 
 Sondage : 12.4 → 12.5 (rang 2 → 2)
 
-## 8. Des notes de frais se mélangent — _campaign/scandal_
+## 8. Des notes de frais se mélangent  — _campaign/scandal_
 
 Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un déplacement de campagne et une réunion municipale. La somme est faible, mais la frontière entre les deux activités doit être rétablie avant le dépôt des comptes.
 
@@ -84,7 +84,7 @@ Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un d�
 
 Sondage : 12.5 → 14.8 (rang 2 → 1)
 
-## 9. Le car tombe en panne — _campaign/campaign_
+## 9. Le car tombe en panne  — _campaign/campaign_
 
 À quatre-vingts kilomètres du prochain rendez-vous, le car de campagne s’immobilise. Une gare, une visioconférence et un café associatif offrent trois manières de sauver la journée.
 
@@ -94,7 +94,7 @@ Sondage : 12.5 → 14.8 (rang 2 → 1)
 
 Sondage : 14.8 → 12.8 (rang 1 → 2)
 
-## 10. Une minute sur les loyers — _campaign/media_
+## 10. Une minute sur les loyers  — _campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -104,7 +104,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 12.8 → 13 (rang 2 → 2)
 
-## 11. Le prochain budget de la santé — _campaign/program_
+## 11. Le prochain budget de la santé  — _campaign/program_
 
 Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
 
@@ -114,7 +114,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 Sondage : 13 → 13.3 (rang 2 → 1)
 
-## 12. La désobéissance européenne doit être définie — _campaign/party_
+## 12. La désobéissance européenne doit être définie  — _campaign/party_
 
 Le programme de LFI promet de désobéir aux règles européennes incompatibles avec son mandat. Les juristes du mouvement demandent de publier la liste des textes visés et la méthode de négociation avant quun adversaire ne la définisse à votre place.
 
@@ -124,7 +124,7 @@ Le programme de LFI promet de désobéir aux règles européennes incompatibles 
 
 Sondage : 13.3 → 16 (rang 1 → 1)
 
-## 13. Le siège déborde de bénévoles — _campaign/campaign_
+## 13. Le siège déborde de bénévoles  — _campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -144,7 +144,7 @@ Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitu
 
 Sondage : 13.8 → 14.2 (rang 1 → 1)
 
-## 15. Provoquer le favori en duel — _campaign/debate_
+## 15. Provoquer le favori en duel  — _campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -154,7 +154,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 Sondage : 14.2 → 14.4 (rang 1 → 1)
 
-## 16. Contrôles aux frontières : quels moyens — _official_campaign/program_
+## 16. Contrôles aux frontières : quels moyens  — _official_campaign/program_
 
 Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
 
@@ -164,7 +164,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 Sondage : 14.4 → 18.1 (rang 1 → 1)
 
-## 17. Vingt-quatre heures sans caméra — _official_campaign/media_
+## 17. Vingt-quatre heures sans caméra  — _official_campaign/media_
 
 Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
 
@@ -174,7 +174,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 Sondage : 18.1 → 14.9 (rang 1 → 1)
 
-## 18. L’immigration de travail, un choix économique assumé ou non — _official_campaign/program_
+## 18. L’immigration de travail, un choix économique assumé ou non  — _official_campaign/program_
 
 Des fédérations patronales de la restauration, du bâtiment et du soin à domicile alertent publiquement sur des postes non pourvus. Le sujet, distinct de l’asile déjà tranché, oblige à préciser votre ligne sur l’immigration de travail.
 
@@ -184,15 +184,15 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 Sondage : 14.9 → 15.3 (rang 1 → 1)
 
-## 19. La minute qui vous appartient — _official_campaign/debate_
+## 19. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
-À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
+Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
-> **Choix retenu :** Résumer trois engagements, leur financement et la première décision des cent jours [PRÉSIDENTIEL]
+> **Choix retenu :** Cesser de répondre à l’adversaire et expliquer votre mesure directement à la caméra [POPULAIRE]
 
-**Une minute de contrat gouvernemental** — La conclusion relie la campagne à l’exercice du pouvoir et confirme votre sérieux. Elle ne produit pas la phrase virale espérée, mais donne aux électeurs hésitants une raison ordonnée de vous choisir.
+**La caméra remplace le duel** — Vous rendez la mesure compréhensible sans alimenter la querelle et plusieurs téléspectateurs retiennent le contraste de ton. L’adversaire vous accuse toutefois d’avoir évité sa critique précise.
 
-Sondage : 15.3 → 15.6 (rang 1 → 1)
+Sondage : 15.3 → 15.5 (rang 1 → 1)
 
 ## 20. La fronde sociale exige un vote _(CHAÎNE)_ — _official_campaign/party_
 
@@ -202,9 +202,9 @@ Le réseau de Nassim Courbet demande désormais un vote des adhérents sur la pr
 
 **Deux questions empêchent un plébiscite personnel** — Les adhérents renforcent la priorité sociale et refusent de créer une codirection. Nassim Courbet accepte le résultat, retrouve un rôle thématique et cesse de menacer la campagne.
 
-Sondage : 15.6 → 19.5 (rang 1 → 1)
+Sondage : 15.5 → 19.4 (rang 1 → 1)
 
-## 21. Les tentes encerclent la préfecture — _official_campaign/world_
+## 21. Les tentes encerclent la préfecture  — _official_campaign/world_
 
 Dans un épisode fictif à Marseille, des associations installent des tentes autour de la préfecture pour demander des solutions d’hébergement et des logements pérennes. La mobilisation reste pacifique et doit durer jusqu’à une réponse écrite.
 
@@ -212,9 +212,9 @@ Dans un épisode fictif à Marseille, des associations installent des tentes aut
 
 **Les permis deviennent un engagement public** — Le tableau ne reloge personne cette nuit mais permet de mesurer la construction et les blocages fonciers. Les associations acceptent de discuter sans démonter les tentes avant des solutions d’urgence.
 
-Sondage : 19.5 → 16 (rang 1 → 1)
+Sondage : 19.4 → 15.9 (rang 1 → 1)
 
-## 22. Le micro resté ouvert — _official_campaign/media_
+## 22. Le micro resté ouvert  — _official_campaign/media_
 
 Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
@@ -222,29 +222,29 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 **Les excuses referment la blessure** — Anaïs Vercel accepte les excuses sans nier les problèmes d’organisation. La crise devient l’occasion de redistribuer des responsabilités et l’équipe retient surtout que vous avez reconnu une faute personnelle.
 
-Sondage : 16 → 16.2 (rang 1 → 1)
+Sondage : 15.9 → 16.1 (rang 1 → 1)
 
-## 23. Le fauteuil libéré au vingt heures — _official_campaign/media_
+## 23. Six rédactions face au désert médical  — _official_campaign/media_
 
-Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
+À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
-> **Choix retenu :** Proposer qu’un allié présente votre programme pendant que vous préparez le débat [RASSEMBLEUR]
+> **Choix retenu :** Proposer des contrats territoriaux avec objectifs publics et financement garanti sur cinq ans [INSTITUTIONNEL]
 
-**L’allié gagne son propre espace** — L’émission accepte le remplacement. Votre représentant défend bien le projet, mais gagne aussi une autonomie et une notoriété qui pèseront lors des prochains arbitrages de coalition.
+**Les territoires obtiennent une méthode** — Les rédactions discutent les critères plutôt que vos intentions. Les élus locaux saluent la visibilité pluriannuelle, même si le dispositif ne promet pas un médecin dans chaque commune.
 
-Sondage : 16.2 → 16.3 (rang 1 → 1)
+Sondage : 16.1 → 16.3 (rang 1 → 1)
 
-## 24. Le meeting quitte la capitale — _between_rounds/campaign_
+## 24. La convention citoyenne réclame une réponse  — _between_rounds/campaign_
 
-L’équipe hésite entre Lille, Toulouse et Strasbourg pour le prochain grand meeting. Chaque ville correspond à un électorat et à un thème différents, sans budget pour trois déplacements.
+Une convention locale tirée au sort vous remet douze propositions sur les transports et l’accès aux services. Elle demande lesquelles entreront réellement dans votre programme avant de vous recevoir.
 
-> **Choix retenu :** Tenir le meeting à Lille et détailler le plan de réindustrialisation [POPULAIRE]
+> **Choix retenu :** Accepter trois propositions chiffrées et expliquer le refus des neuf autres [TRANSPARENT]
 
-**Lille replace l’industrie au centre** — Les images d’anciens sites industriels donnent une matière concrète au discours. Le message progresse chez les salariés, moins auprès des électeurs centrés sur les services.
+**Trois propositions entrent au programme** — La convention apprécie la réponse détaillée, y compris les refus. Les trois engagements deviennent vérifiables et pourront être rappelés lors de votre prochain déplacement territorial.
 
-Sondage : 16.3 → 16.5 (rang 1 → 1)
+Sondage : 16.3 → 16.7 (rang 1 → 1)
 
-## 25. Deux points davance à cinq jours — _between_rounds/between_rounds_
+## 25. Deux points davance à cinq jours  — _between_rounds/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -252,9 +252,9 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 **Le favori parle déjà à tout le pays** — Ladresse réduit votre rejet et rassure les électeurs modérés sur la stabilité du lendemain. Les militants les plus actifs regrettent un ton qui considère presque la victoire acquise.
 
-Sondage : 16.5 → 16.7 (rang 1 → 1)
+Sondage : 16.7 → 17 (rang 1 → 1)
 
-## 26. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 26. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -262,9 +262,9 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Les soutiens viennent sans contrat** — Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.
 
-Sondage : 16.7 → 16.9 (rang 1 → 1)
+Sondage : 17 → 17.2 (rang 1 → 1)
 
-## 27. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 27. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -272,9 +272,9 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 16.9 → 16.9 (rang 1 → 1)
+Sondage : 17.2 → 17.2 (rang 1 → 1)
 
-## 28. LFI doit élargir sans se renier — _between_rounds/party_
+## 28. LFI doit élargir sans se renier  — _between_rounds/party_
 
 Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.
 
@@ -282,9 +282,9 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 **Le Parlement devient le garde-fou de la rupture** — Les soutiens de gauche obtiennent une garantie institutionnelle sans réécrire vos mesures sociales. Les reports progressent et le socle accepte mieux une concession portant sur la méthode.
 
-Sondage : 16.9 → 14.1 (rang 1 → 1)
+Sondage : 17.2 → 14.3 (rang 1 → 1)
 
-## 29. La coalition réclame une annexe — _government_epilogue/between_rounds_
+## 29. La coalition réclame une annexe  — _government_epilogue/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -292,9 +292,9 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 **Huit accords et quatre refus composent lannexe** — Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.
 
-Sondage : 14.1 → 17.1 (rang 1 → 1)
+Sondage : 14.3 → 17.3 (rang 1 → 1)
 
-## 30. Deux alliés réclament Bercy — _government_epilogue/government_
+## 30. Deux alliés réclament Bercy  — _government_epilogue/government_
 
 Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 
@@ -302,9 +302,9 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 **Bercy revient à la compétence, le Parlement compense** — Les critères du choix sont défendables et le comité donne une responsabilité réelle au partenaire écarté. Il accepte sans enthousiasme et maintient son soutien au premier budget.
 
-Sondage : 17.1 → 17 (rang 1 → 1)
+Sondage : 17.3 → 17.2 (rang 1 → 1)
 
-## 31. Quinze ministres pour une coalition — _finished/government_
+## 31. Quinze ministres pour une coalition  — _finished/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 
@@ -312,4 +312,4 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 **Chaque nomination reçoit ses critères** — La grille explique plusieurs choix inattendus et oblige à écarter un allié insuffisamment préparé. Léquipe gagne en crédibilité, tandis que la coalition perd une récompense attendue.
 
-Sondage : 17 → 17 (rang 1 → 1)
+Sondage : 17.2 → 17.2 (rang 1 → 1)

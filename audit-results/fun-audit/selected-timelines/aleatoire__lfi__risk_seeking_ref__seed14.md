@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **aleatoire**
 
-Score final : 77/100 · 1er tour : 17.3 · 2nd tour : 49.6 · qualifié : true · vainqueur : false · signaux mémorables : 4
+Score final : 76/100 · 1er tour : 17 · 2nd tour : 49.3 · qualifié : true · vainqueur : false · signaux mémorables : 4
 
-## 1. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 1. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -14,7 +14,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 13 → 11.8 (rang 2 → 4)
 
-## 2. Le prochain budget de la santé — _pre_campaign/program_
+## 2. Le prochain budget de la santé  — _pre_campaign/program_
 
 Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
 
@@ -24,7 +24,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 Sondage : 11.8 → 12.2 (rang 4 → 2)
 
-## 3. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 3. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -34,7 +34,7 @@ Sondage : 11.8 → 12.2 (rang 4 → 2)
 
 Sondage : 12.2 → 12.5 (rang 2 → 2)
 
-## 4. Saint-Denis ouvre ses réseaux associatifs — _pre_campaign/party_
+## 4. Saint-Denis ouvre ses réseaux associatifs  — _pre_campaign/party_
 
 Des associations de Saint-Denis proposent une semaine de réunions sur les prix, les services publics et labstention. Elles refusent un meeting classique et veulent que chaque soirée produise un engagement local vérifiable.
 
@@ -44,7 +44,7 @@ Des associations de Saint-Denis proposent une semaine de réunions sur les prix,
 
 Sondage : 12.5 → 9.6 (rang 2 → 8)
 
-## 5. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 5. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -54,7 +54,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 9.6 → 12.9 (rang 8 → 2)
 
-## 6. Une aciérie annonce sa fermeture — _pre_campaign/world_
+## 6. Une aciérie annonce sa fermeture  — _pre_campaign/world_
 
 Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit cents suppressions d’emplois après la perte d’un contrat européen. La direction cherche un repreneur et les salariés occupent le site sans violence.
 
@@ -64,7 +64,7 @@ Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit 
 
 Sondage : 12.9 → 13.2 (rang 2 → 1)
 
-## 7. Les sections refusent le kit national — _pre_campaign/internal_
+## 7. Les sections refusent le kit national  — _pre_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -74,7 +74,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 13.2 → 13.3 (rang 1 → 1)
 
-## 8. La une vous prête un tournant — _campaign/media_
+## 8. La une vous prête un tournant  — _campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -84,7 +84,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 13.3 → 12.5 (rang 1 → 2)
 
-## 9. La promesse faite après la primaire — _campaign/internal_
+## 9. La promesse faite après la primaire  — _campaign/internal_
 
 Pour obtenir un soutien décisif lors de la primaire fictive, vous aviez promis à un courant la responsabilité du programme social. Ce courant réclame maintenant le poste, alors que léquipe en place a déjà finalisé la moitié du texte.
 
@@ -94,7 +94,7 @@ Pour obtenir un soutien décisif lors de la primaire fictive, vous aviez promis 
 
 Sondage : 12.5 → 13.7 (rang 2 → 1)
 
-## 10. Six rédactions face au désert médical — _campaign/media_
+## 10. Six rédactions face au désert médical  — _campaign/media_
 
 À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
@@ -104,7 +104,7 @@ Sondage : 12.5 → 13.7 (rang 2 → 1)
 
 Sondage : 13.7 → 14 (rang 1 → 1)
 
-## 11. Des notes de frais se mélangent — _campaign/scandal_
+## 11. Des notes de frais se mélangent  — _campaign/scandal_
 
 Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un déplacement de campagne et une réunion municipale. La somme est faible, mais la frontière entre les deux activités doit être rétablie avant le dépôt des comptes.
 
@@ -114,7 +114,7 @@ Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un d�
 
 Sondage : 14 → 14 (rang 1 → 1)
 
-## 12. La plateforme publique tombe en panne — _campaign/world_
+## 12. La plateforme publique tombe en panne  — _campaign/world_
 
 Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
@@ -124,7 +124,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 Sondage : 14 → 12.8 (rang 1 → 2)
 
-## 13. La pluie emporte la tournée — _campaign/campaign_
+## 13. La pluie emporte la tournée  — _campaign/campaign_
 
 Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
 
@@ -134,7 +134,7 @@ Des pluies intenses rendent deux routes impraticables et le meeting en plein air
 
 Sondage : 12.8 → 14.6 (rang 2 → 1)
 
-## 14. Les jeunes veulent leur propre campagne — _campaign/internal_
+## 14. Les jeunes veulent leur propre campagne  — _campaign/internal_
 
 Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent dêtre réduits à distribuer les tracts nationaux.
 
@@ -144,7 +144,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 Sondage : 14.6 → 14.7 (rang 1 → 1)
 
-## 15. La règle européenne à changer — _campaign/program_
+## 15. La règle européenne à changer  — _campaign/program_
 
 Votre chapitre européen doit expliquer ce que la France demandera, ce qu’elle acceptera en échange et ce qu’elle fera en cas de refus. La monnaie, le budget et la souveraineté rendent une position seulement symbolique peu crédible.
 
@@ -154,7 +154,7 @@ Votre chapitre européen doit expliquer ce que la France demandera, ce qu’elle
 
 Sondage : 14.7 → 14.5 (rang 1 → 1)
 
-## 16. L’atelier industriel de Saint-Nazaire — _official_campaign/campaign_
+## 16. L’atelier industriel de Saint-Nazaire  — _official_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -164,7 +164,7 @@ Sondage : 14.7 → 14.5 (rang 1 → 1)
 
 Sondage : 14.5 → 11.1 (rang 1 → 5)
 
-## 17. Vingt-quatre heures sans caméra — _official_campaign/media_
+## 17. Vingt-quatre heures sans caméra  — _official_campaign/media_
 
 Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
 
@@ -174,7 +174,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 Sondage : 11.1 → 14.7 (rang 5 → 1)
 
-## 18. Les soutiens envahissent le plateau — _official_campaign/debate_
+## 18. Les soutiens envahissent le plateau  — _official_campaign/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -184,17 +184,17 @@ Sondage : 11.1 → 14.7 (rang 5 → 1)
 
 Sondage : 14.7 → 15 (rang 1 → 1)
 
-## 19. Deux équipes se disputent le terrain — _official_campaign/internal_
+## 19. Le contrôle interne signale trois factures _(CHAÎNE)_ — _official_campaign/internal_
 
-Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
+La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois factures sans justificatif complet. Rien ne prouve une irrégularité, mais leur remboursement pourrait être refusé si les pièces manquent au dépôt des comptes.
 
-> **Choix retenu :** Maintenir l’opération vidéo et demander à Samira Bellon d’en mesurer elle-même l’audience locale [RISQUÉ]
+> **Choix retenu :** Valider les factures sur la confiance de la trésorière et poursuivre les paiements [LOYAL]
 
-**La vidéo atteint Lyon sans apaiser les sections** — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
+**La campagne paie sans compléter le dossier** — Les fournisseurs restent mobilisés et Maud Keravel apprécie la confiance personnelle. L’absence de pièces devient toutefois une vulnérabilité documentée que le dépôt des comptes ne pourra pas résoudre par la loyauté.
 
-Sondage : 15 → 14.9 (rang 1 → 1)
+Sondage : 15 → 15 (rang 1 → 1)
 
-## 20. LFI choisit entre mouvement et candidat — _official_campaign/party_
+## 20. LFI choisit entre mouvement et candidat  — _official_campaign/party_
 
 Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane Valmont demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.
 
@@ -202,89 +202,49 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 **Les groupes daction gagnent une marge réelle** — Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.
 
-Sondage : 14.9 → 13.2 (rang 1 → 1)
+Sondage : 15 → 13.4 (rang 1 → 1)
 
-## 21. Le salaire net au centre — _official_campaign/program_
+## 21. Le contrat d’intégration, jusqu’où aller  — _official_campaign/program_
 
-L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La conférence économique attend votre mécanisme salarial : hausse du minimum légal, négociations de branche, baisse de cotisations ou prime ponctuelle.
+Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
 
-> **Choix retenu :** Conditionner les allègements de cotisations à des négociations salariales conclues dans chaque branche [INSTITUTIONNEL]
+> **Choix retenu :** Imposer un contrat d’intégration obligatoire avec tests de langue et de compétences civiques [INSTITUTIONNEL]
 
-**Les aides deviennent un levier de négociation** — Les syndicats obtiennent un rapport de force concret et les entreprises gardent une marge sectorielle. Le résultat dépendra de dizaines de négociations, ce qui rend le gain salarial moins immédiat mais plus soutenable.
+**Un cadre obligatoire et évalué** — La mesure donne un cadre national lisible et répond à une demande de clarté sur les attentes réciproques. Des associations d’accompagnement alertent sur le risque d’exclusion des personnes les plus fragiles si les tests sont trop exigeants.
 
-Sondage : 13.2 → 15.2 (rang 1 → 1)
+Sondage : 13.4 → 15.3 (rang 1 → 1)
 
-## 22. Tensions internes chez Reconquête — _official_campaign/world_
+## 22. Les factures sans pièce ressortent _(CHAÎNE)_ — _official_campaign/scandal_
 
-La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.
+Mediapart révèle que trois factures de la campagne ont été payées avec des justificatifs incomplets. Maud Keravel, trésorière fictive, affirme que les prestations ont bien eu lieu. Aucun organisme public n’a encore conclu à une irrégularité.
 
-> **Choix retenu :** Publier une déclaration soulignant l’instabilité du mouvement adverse [OFFENSIF]
+> **Choix retenu :** Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusquà conclusion [TRANSPARENT]
 
-**La crise adverse commentée publiquement** — Le commentaire attire l’attention sur les difficultés internes de Reconquête et accentue la pression sur son état-major. Une partie de l’opinion juge le procédé opportuniste plutôt que porteur d’un message de fond.
+**La trésorerie passe sous contrôle extérieur** — Les documents confirment les prestations tout en montrant des procédures trop légères. Maud Keravel accepte la suspension sans reconnaître de faute et le contrôle indépendant fixe un calendrier de conclusion.
 
-Sondage : 15.2 → 15.2 (rang 1 → 1)
+Sondage : 15.3 → 15.3 (rang 1 → 1)
 
-## 23. Une proposition de pacte de non-agression — _official_campaign/campaign_
+## 23. La question venue de Mayotte  — _official_campaign/debate_
 
-À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Maël Dargent (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.
+Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
 
-> **Choix retenu :** Refuser et maintenir une ligne critique y compris pendant le meeting commun [OFFENSIF]
+> **Choix retenu :** Estimer le chiffre à partir de vos notes et proposer immédiatement un montant d’investissement [RISQUÉ]
 
-**Le contraste maintenu jusqu’au bout** — Le refus marque une différence claire de méthode et mobilise les électeurs qui attendaient un contraste net. Il est aussi commenté comme un signe de tension entre les deux équipes lors d’un événement censé rassembler.
+**Le chiffre confond deux réseaux** — Vous utilisez une donnée qui concerne l’assainissement plutôt que l’accès à l’eau. La confusion est corrigée en direct et devient un exemple de la faible préparation ultramarine de votre campagne.
 
-Sondage : 15.2 → 15.2 (rang 1 → 1)
+Sondage : 15.3 → 15 (rang 1 → 1)
 
-## 24. Une minute sur les loyers — _between_rounds/media_
+## 24. La périphérie demande un calendrier  — _between_rounds/campaign_
 
-franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
+Dans une commune périurbaine d’Occitanie, les habitants relient carburant, temps de trajet et fermeture des guichets. Ils refusent que le déplacement se termine par une promesse générale.
 
-> **Choix retenu :** Détailler un objectif de construction à Rennes et les terrains publics mobilisés [TECHNIQUE]
+> **Choix retenu :** Annoncer une remise carburant limitée aux travailleurs sans transport collectif [POPULAIRE]
 
-**Une réponse locale et vérifiable** — Le chiffre de constructions prévues dépasse le format, mais les médias rennais vérifient les terrains cités. La séquence reste peu virale et renforce votre sérieux territorial.
+**La remise répond aux trajets contraints** — Le ciblage évite une aide générale et parle aux actifs présents. Les critères d’accès deviennent aussitôt un sujet national et compliquent la promesse.
 
-Sondage : 15.2 → 15.4 (rang 1 → 1)
+Sondage : 15 → 15.1 (rang 1 → 1)
 
-## 25. Les dernières heures autorisées — _between_rounds/between_rounds_
-
-La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
-
-> **Choix retenu :** Annoncer une baisse dimpôt nouvelle pour tenter de créer un dernier mouvement [RISQUÉ]
-
-**Une promesse fiscale sans lendemain médiatique** — Lannonce attire les électeurs sensibles aux impôts et ne peut être chiffrée publiquement avant la fin de campagne. Le dernier doute porte désormais sur la discipline qui structurait votre programme.
-
-Sondage : 15.4 → 15.3 (rang 1 → 1)
-
-## 26. La coalition réclame une annexe — _between_rounds/between_rounds_
-
-Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
-
-> **Choix retenu :** Signer les huit mesures compatibles et publier pourquoi les quatre autres sont écartées [TRANSPARENT]
-
-**Huit accords et quatre refus composent lannexe** — Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.
-
-Sondage : 15.3 → 15.5 (rang 1 → 1)
-
-## 27. Les reports refusent la mécanique — _between_rounds/between_rounds_
-
-Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
-
-> **Choix retenu :** Organiser six réunions dirigées par les anciens candidats et répondre sans modifier le programme [INSTITUTIONNEL]
-
-**Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
-
-Sondage : 15.5 → 15.6 (rang 1 → 1)
-
-## 28. LFI doit élargir sans se renier — _between_rounds/party_
-
-Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.
-
-> **Choix retenu :** Négocier un contrat de dix mesures avec le PS et Les Écologistes pour les cent premiers jours [OPPORTUNISTE]
-
-**Dix mesures forment une majorité de gauche** — La coalition obtient un programme positif et déploie tous ses réseaux. Plusieurs engagements LFI sont reportés, ce qui fragilise la cohésion tout en améliorant fortement les reports.
-
-Sondage : 15.6 → 13.7 (rang 1 → 1)
-
-## 29. Deux points davance à cinq jours — _finished/between_rounds_
+## 25. Deux points davance à cinq jours  — _between_rounds/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -292,4 +252,44 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 **Le dernier dossier durcit la fin** — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
 
-Sondage : 13.7 → 15.4 (rang 1 → 1)
+Sondage : 15.1 → 15.1 (rang 1 → 1)
+
+## 26. Les dernières heures autorisées  — _between_rounds/between_rounds_
+
+La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
+
+> **Choix retenu :** Annoncer une baisse dimpôt nouvelle pour tenter de créer un dernier mouvement [RISQUÉ]
+
+**Une promesse fiscale sans lendemain médiatique** — Lannonce attire les électeurs sensibles aux impôts et ne peut être chiffrée publiquement avant la fin de campagne. Le dernier doute porte désormais sur la discipline qui structurait votre programme.
+
+Sondage : 15.1 → 15 (rang 1 → 1)
+
+## 27. Les reports refusent la mécanique  — _between_rounds/between_rounds_
+
+Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
+
+> **Choix retenu :** Organiser six réunions dirigées par les anciens candidats et répondre sans modifier le programme [INSTITUTIONNEL]
+
+**Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
+
+Sondage : 15 → 15 (rang 1 → 1)
+
+## 28. LFI doit élargir sans se renier  — _between_rounds/party_
+
+Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.
+
+> **Choix retenu :** Négocier un contrat de dix mesures avec le PS et Les Écologistes pour les cent premiers jours [OPPORTUNISTE]
+
+**Dix mesures forment une majorité de gauche** — La coalition obtient un programme positif et déploie tous ses réseaux. Plusieurs engagements LFI sont reportés, ce qui fragilise la cohésion tout en améliorant fortement les reports.
+
+Sondage : 15 → 13.2 (rang 1 → 1)
+
+## 29. La coalition réclame une annexe  — _finished/between_rounds_
+
+Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
+
+> **Choix retenu :** Signer les huit mesures compatibles et publier pourquoi les quatre autres sont écartées [TRANSPARENT]
+
+**Huit accords et quatre refus composent lannexe** — Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.
+
+Sondage : 13.2 → 15.1 (rang 1 → 1)

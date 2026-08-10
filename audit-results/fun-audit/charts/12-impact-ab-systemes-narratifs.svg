@@ -4,18 +4,18 @@
   <text x="20" y="44" font-size="12" fill="#5a6b7a" style="font-family:Arial,Helvetica,sans-serif">A/B appariés (même parti/profil/graine), section 26 — qualification et/ou victoire différente</text>
   
     <text x="190" y="80" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">B1 no opportunistic randomness</text>
-    <rect x="200" y="62" width="470.0" height="28" fill="#3b6ea5" rx="3" />
-    <text x="678" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">49.5 %</text>
+    <rect x="200" y="62" width="439.6" height="28" fill="#3b6ea5" rx="3" />
+    <text x="647.6161616161617" y="80" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">46.3 %</text>
     <text x="190" y="118" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">B2 no rare events</text>
-    <rect x="200" y="100" width="466.2" height="28" fill="#3b6ea5" rx="3" />
-    <text x="674.2020202020202" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">49.1 %</text>
+    <rect x="200" y="100" width="470.0" height="28" fill="#3b6ea5" rx="3" />
+    <text x="678" y="118" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">49.5 %</text>
     <text x="190" y="156" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">C no narrative memory</text>
-    <rect x="200" y="138" width="395.9" height="28" fill="#3b6ea5" rx="3" />
-    <text x="603.9393939393939" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">41.7 %</text>
+    <rect x="200" y="138" width="351.3" height="28" fill="#3b6ea5" rx="3" />
+    <text x="559.3131313131314" y="156" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">37.0 %</text>
     <text x="190" y="194" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">E no ideology effects</text>
-    <rect x="200" y="176" width="374.1" height="28" fill="#3b6ea5" rx="3" />
-    <text x="582.1010101010102" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">39.4 %</text>
+    <rect x="200" y="176" width="356.1" height="28" fill="#3b6ea5" rx="3" />
+    <text x="564.060606060606" y="194" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">37.5 %</text>
     <text x="190" y="232" text-anchor="end" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">F no delayed consequences</text>
-    <rect x="200" y="214" width="444.4" height="28" fill="#3b6ea5" rx="3" />
-    <text x="652.3636363636365" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">46.8 %</text>
+    <rect x="200" y="214" width="395.9" height="28" fill="#3b6ea5" rx="3" />
+    <text x="603.9393939393939" y="232" font-size="12" fill="#1c2b3a" style="font-family:Arial,Helvetica,sans-serif">41.7 %</text>
 </svg>

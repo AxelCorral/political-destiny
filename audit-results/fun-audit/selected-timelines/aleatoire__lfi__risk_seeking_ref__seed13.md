@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **aleatoire**
 
-Score final : 87/100 · 1er tour : 19 · 2nd tour : 61.1 · qualifié : true · vainqueur : true · signaux mémorables : 4
+Score final : 88/100 · 1er tour : 19.1 · 2nd tour : 61.2 · qualifié : true · vainqueur : true · signaux mémorables : 4
 
-## 1. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 1. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -14,7 +14,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 12.1 → 11.7 (rang 2 → 5)
 
-## 2. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
+## 2. Les jeunes veulent leur propre campagne  — _pre_campaign/internal_
 
 Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent dêtre réduits à distribuer les tracts nationaux.
 
@@ -24,7 +24,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 Sondage : 11.7 → 11.9 (rang 5 → 3)
 
-## 3. LFI choisit entre mouvement et candidat — _pre_campaign/party_
+## 3. LFI choisit entre mouvement et candidat  — _pre_campaign/party_
 
 Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane Valmont demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.
 
@@ -34,7 +34,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 Sondage : 11.9 → 12.1 (rang 3 → 2)
 
-## 4. Le direct des questions citoyennes — _pre_campaign/media_
+## 4. Le direct des questions citoyennes  — _pre_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -44,7 +44,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 12.1 → 12 (rang 2 → 2)
 
-## 5. Les abstentionnistes demandent une preuve — _pre_campaign/party_
+## 5. Les abstentionnistes demandent une preuve  — _pre_campaign/party_
 
 À Marseille, de jeunes abstentionnistes disent partager plusieurs propositions de LFI sans croire que le vote changera leur quotidien. Ils demandent une action avant lélection plutôt quun nouvel appel moral à participer.
 
@@ -54,7 +54,7 @@ Sondage : 12.1 → 12 (rang 2 → 2)
 
 Sondage : 12 → 12.7 (rang 2 → 2)
 
-## 6. Qui financera les priorités — _pre_campaign/program_
+## 6. Qui financera les priorités  — _pre_campaign/program_
 
 Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équipe doit choisir une recette avant la publication du programme : fiscalité du patrimoine, réduction de niches, taxe de consommation ou économies supplémentaires.
 
@@ -64,7 +64,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 Sondage : 12.7 → 12.9 (rang 2 → 1)
 
-## 7. Une minute sur les loyers — _pre_campaign/media_
+## 7. Une minute sur les loyers  — _pre_campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -74,7 +74,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 12.9 → 13.2 (rang 1 → 1)
 
-## 8. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 8. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -84,7 +84,7 @@ Sondage : 12.9 → 13.2 (rang 1 → 1)
 
 Sondage : 13.2 → 13.6 (rang 1 → 1)
 
-## 9. La ligne de départ des retraites — _campaign/program_
+## 9. La ligne de départ des retraites  — _campaign/program_
 
 Votre convention sociale doit arrêter une règle lisible sur les retraites. Les carrières longues, l’espérance de vie et le financement rendent toute promesse uniforme fragile, mais reporter l’arbitrage laisserait vos adversaires écrire votre position.
 
@@ -94,7 +94,7 @@ Votre convention sociale doit arrêter une règle lisible sur les retraites. Les
 
 Sondage : 13.6 → 13.9 (rang 1 → 1)
 
-## 10. Une nuit avec les urgences — _campaign/campaign_
+## 10. Une nuit avec les urgences  — _campaign/campaign_
 
 À l’hôpital de Dijon, les soignants acceptent votre présence sans caméra dans les services. Au matin, ils demandent quelle décision concrète vous annoncerez et avec quel calendrier.
 
@@ -104,7 +104,7 @@ Sondage : 13.6 → 13.9 (rang 1 → 1)
 
 Sondage : 13.9 → 14.3 (rang 1 → 1)
 
-## 11. La plateforme publique tombe en panne — _campaign/world_
+## 11. La plateforme publique tombe en panne  — _campaign/world_
 
 Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
@@ -114,7 +114,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 Sondage : 14.3 → 14.8 (rang 1 → 1)
 
-## 12. La convention citoyenne réclame une réponse — _campaign/campaign_
+## 12. La convention citoyenne réclame une réponse  — _campaign/campaign_
 
 Une convention locale tirée au sort vous remet douze propositions sur les transports et l’accès aux services. Elle demande lesquelles entreront réellement dans votre programme avant de vous recevoir.
 
@@ -124,7 +124,7 @@ Une convention locale tirée au sort vous remet douze propositions sur les trans
 
 Sondage : 14.8 → 15.1 (rang 1 → 1)
 
-## 13. Le marché sous pression — _campaign/campaign_
+## 13. Le marché sous pression  — _campaign/campaign_
 
 Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
 
@@ -134,7 +134,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 Sondage : 15.1 → 15.6 (rang 1 → 1)
 
-## 14. La Sixième République doit prendre forme — _campaign/party_
+## 14. La Sixième République doit prendre forme  — _campaign/party_
 
 Les militants veulent replacer la Sixième République au cœur de la campagne. Le chapitre actuel promet une constituante sans préciser le mode de scrutin, la durée du processus ni les pouvoirs maintenus pendant la transition.
 
@@ -144,7 +144,7 @@ Les militants veulent replacer la Sixième République au cœur de la campagne. 
 
 Sondage : 15.6 → 15.9 (rang 1 → 1)
 
-## 15. Une accusation jugée infondée vise un adversaire — _campaign/campaign_
+## 15. Une accusation jugée infondée vise un adversaire  — _campaign/campaign_
 
 Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
@@ -154,7 +154,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 Sondage : 15.9 → 16 (rang 1 → 1)
 
-## 16. Les soutiens envahissent le plateau — _official_campaign/debate_
+## 16. Les soutiens envahissent le plateau  — _official_campaign/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -164,7 +164,7 @@ Sondage : 15.9 → 16 (rang 1 → 1)
 
 Sondage : 16 → 15.9 (rang 1 → 1)
 
-## 17. Douze députés offrent leur expérience — _official_campaign/alliance_
+## 17. Douze députés offrent leur expérience  — _official_campaign/alliance_
 
 Douze parlementaires de sensibilités proches proposent de soutenir votre candidature sans quitter leur parti. Ils demandent une conférence hebdomadaire sur les institutions et souhaitent pouvoir signaler publiquement leurs désaccords.
 
@@ -174,7 +174,7 @@ Douze parlementaires de sensibilités proches proposent de soutenir votre candid
 
 Sondage : 15.9 → 16.5 (rang 1 → 1)
 
-## 18. La croissance simulée se retourne — _official_campaign/world_
+## 18. La croissance simulée se retourne  — _official_campaign/world_
 
 Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
 
@@ -184,13 +184,13 @@ Dans la chronologie fictive de la partie, l’Insee publie un indicateur signala
 
 Sondage : 16.5 → 16.9 (rang 1 → 1)
 
-## 19. Un fichier militant sort du siège — _official_campaign/scandal_
+## 19. L’imprimeur a doublé une ligne  — _official_campaign/scandal_
 
-Un bénévole signale qu’un tableau de contacts a été partagé sur un lien sans mot de passe pendant six heures. Il contient des courriels et des préférences de bénévolat, mais aucune donnée bancaire ni pièce d’identité.
+Étienne Marot, fournisseur fictif, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.
 
-> **Choix retenu :** Suspendre tous les outils militants pendant quarante-huit heures et reconstruire les droits d’accès [OFFENSIF]
+> **Choix retenu :** Publier la facture et demander à Étienne Marot d’expliquer publiquement son erreur [RISQUÉ]
 
-**La campagne numérique se met à l’arrêt** — La reconstruction supprime plusieurs accès anciens et rassure les bénévoles sur la sécurité future. Deux jours sans fichiers ni relances réduisent nettement la mobilisation au pire moment.
+**Le fournisseur devient le visage du doublon** — Étienne Marot reconnaît l’erreur et montre le logiciel qui la produite. La transparence convainc sur les faits mais expose un petit fournisseur à une pression nationale jugée excessive.
 
 Sondage : 16.9 → 16.9 (rang 1 → 1)
 
@@ -204,13 +204,13 @@ Sur France Inter, la journaliste vous demande le coût annuel de votre mesure fi
 
 Sondage : 16.9 → 15 (rang 1 → 1)
 
-## 21. Une proposition de pacte de non-agression — _official_campaign/campaign_
+## 21. Une contradiction chez le camp centriste  — _official_campaign/debate_
 
-À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Maël Dargent (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.
+Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
-> **Choix retenu :** Refuser et maintenir une ligne critique y compris pendant le meeting commun [OFFENSIF]
+> **Choix retenu :** Présenter la contradiction en direct avec les deux citations à l’appui [CLIVANT]
 
-**Le contraste maintenu jusqu’au bout** — Le refus marque une différence claire de méthode et mobilise les électeurs qui attendaient un contraste net. Il est aussi commenté comme un signe de tension entre les deux équipes lors d’un événement censé rassembler.
+**La contradiction mise en lumière** — L’extrait est aussitôt repris et fragilise la crédibilité adverse sur ce sujet précis. Le procédé, jugé efficace par certains, est perçu comme agressif par d’autres observateurs du débat.
 
 Sondage : 15 → 17.3 (rang 1 → 1)
 
@@ -222,9 +222,9 @@ Le Monde confronte votre réponse de matinale au document budgétaire de la camp
 
 **Les calculs deviennent auditables** — Les spécialistes repèrent deux hypothèses discutables mais aucune dissimulation. En donnant accès au modèle, vous transformez une vérification défensive en référence commune pour les prochains débats.
 
-Sondage : 17.3 → 17.3 (rang 1 → 1)
+Sondage : 17.3 → 17.4 (rang 1 → 1)
 
-## 23. Saint-Denis ouvre ses réseaux associatifs — _official_campaign/party_
+## 23. Saint-Denis ouvre ses réseaux associatifs  — _official_campaign/party_
 
 Des associations de Saint-Denis proposent une semaine de réunions sur les prix, les services publics et labstention. Elles refusent un meeting classique et veulent que chaque soirée produise un engagement local vérifiable.
 
@@ -232,9 +232,9 @@ Des associations de Saint-Denis proposent une semaine de réunions sur les prix,
 
 **Six soirées produisent un contrat local** — Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.
 
-Sondage : 17.3 → 17.4 (rang 1 → 1)
+Sondage : 17.4 → 17.4 (rang 1 → 1)
 
-## 24. La laïcité à l’épreuve du quotidien — _between_rounds/program_
+## 24. La laïcité à l’épreuve du quotidien  — _between_rounds/program_
 
 Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
@@ -244,7 +244,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 Sondage : 17.4 → 17.6 (rang 1 → 1)
 
-## 25. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 25. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -254,7 +254,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 Sondage : 17.6 → 17.7 (rang 1 → 1)
 
-## 26. LFI doit élargir sans se renier — _between_rounds/party_
+## 26. LFI doit élargir sans se renier  — _between_rounds/party_
 
 Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.
 
@@ -264,7 +264,7 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 Sondage : 17.7 → 17.7 (rang 1 → 1)
 
-## 27. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 27. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -274,7 +274,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 Sondage : 17.7 → 17.7 (rang 1 → 1)
 
-## 28. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 28. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -284,7 +284,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 17.7 → 21.4 (rang 1 → 1)
 
-## 29. La coalition réclame une annexe — _government_epilogue/between_rounds_
+## 29. La coalition réclame une annexe  — _government_epilogue/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -294,7 +294,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 Sondage : 21.4 → 18 (rang 1 → 1)
 
-## 30. Quinze ministres pour une coalition — _government_epilogue/government_
+## 30. Quinze ministres pour une coalition  — _government_epilogue/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 
@@ -304,7 +304,7 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 Sondage : 18 → 17.9 (rang 1 → 1)
 
-## 31. Deux alliés réclament Bercy — _finished/government_
+## 31. Deux alliés réclament Bercy  — _finished/government_
 
 Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 

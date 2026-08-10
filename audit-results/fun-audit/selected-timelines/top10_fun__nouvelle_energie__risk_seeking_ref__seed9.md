@@ -4,7 +4,7 @@ Catégorie de sélection : **top10_fun**
 
 Score final : 87/100 · 1er tour : 15.7 · 2nd tour : 52.8 · qualifié : true · vainqueur : true · signaux mémorables : 6
 
-## 1. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 1. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -14,7 +14,7 @@ Score final : 87/100 · 1er tour : 15.7 · 2nd tour : 52.8 · qualifié : true �
 
 Sondage : 10.1 → 11.8 (rang 8 → 4)
 
-## 2. L’imprimeur a doublé une ligne — _pre_campaign/scandal_
+## 2. L’imprimeur a doublé une ligne  — _pre_campaign/scandal_
 
 Étienne Marot, fournisseur fictif, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.
 
@@ -24,7 +24,7 @@ Sondage : 10.1 → 11.8 (rang 8 → 4)
 
 Sondage : 11.8 → 11.9 (rang 4 → 4)
 
-## 3. Des entrepreneurs prêtent leurs réseaux — _pre_campaign/party_
+## 3. Des entrepreneurs prêtent leurs réseaux  — _pre_campaign/party_
 
 Des dirigeants de petites entreprises proposent salles, contacts et compétences numériques. La campagne doit utiliser cette aide sans donner l’impression qu’un cercle économique remplace les militants et les élus.
 
@@ -34,7 +34,7 @@ Des dirigeants de petites entreprises proposent salles, contacts et compétences
 
 Sondage : 11.9 → 12.2 (rang 4 → 2)
 
-## 4. Le regroupement familial en question — _pre_campaign/program_
+## 4. Le regroupement familial en question  — _pre_campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -44,7 +44,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 12.2 → 11.4 (rang 2 → 6)
 
-## 5. Le fauteuil libéré au vingt heures — _pre_campaign/media_
+## 5. Le fauteuil libéré au vingt heures  — _pre_campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -54,7 +54,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 Sondage : 11.4 → 12.8 (rang 6 → 2)
 
-## 6. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 6. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -64,7 +64,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 12.8 → 13 (rang 2 → 1)
 
-## 7. La promesse faite à l’école — _pre_campaign/program_
+## 7. La promesse faite à l’école  — _pre_campaign/program_
 
 À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
@@ -74,7 +74,7 @@ Sondage : 12.8 → 13 (rang 2 → 1)
 
 Sondage : 13 → 13.4 (rang 1 → 1)
 
-## 8. La directrice a recruté son frère — _campaign/scandal_
+## 8. La directrice a recruté son frère  — _campaign/scandal_
 
 Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme développeur pour une mission de trois semaines. Le tarif correspond au marché et le travail existe, mais aucun autre candidat n’a été consulté.
 
@@ -84,7 +84,7 @@ Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme déve
 
 Sondage : 13.4 → 11.7 (rang 1 → 3)
 
-## 9. La Cour des comptes alerte — _campaign/world_
+## 9. La Cour des comptes alerte  — _campaign/world_
 
 Dans la trajectoire fictive de la partie, la Cour des comptes publie un rapport sur la dégradation du déficit public. Le document ne juge aucun programme présidentiel, mais rend les promesses non financées beaucoup plus difficiles à défendre.
 
@@ -94,7 +94,7 @@ Dans la trajectoire fictive de la partie, la Cour des comptes publie un rapport 
 
 Sondage : 11.7 → 13.8 (rang 3 → 1)
 
-## 10. Le permis d’entreprendre doit être défini — _campaign/party_
+## 10. Le permis d’entreprendre doit être défini  — _campaign/party_
 
 Le mouvement promet de simplifier la création d’entreprise par un permis unique. Les artisans demandent quelles démarches disparaîtront et comment les règles sociales, sanitaires et environnementales resteront contrôlées.
 
@@ -104,7 +104,7 @@ Le mouvement promet de simplifier la création d’entreprise par un permis uniq
 
 Sondage : 13.8 → 13.9 (rang 1 → 1)
 
-## 11. Provoquer le favori en duel — _campaign/debate_
+## 11. Provoquer le favori en duel  — _campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -114,7 +114,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 Sondage : 13.9 → 14 (rang 1 → 1)
 
-## 12. La présidence que vous proposez — _campaign/program_
+## 12. La présidence que vous proposez  — _campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -134,7 +134,7 @@ Raphaël Ternois, cadre fictif de Nouvelle Énergie, estime que la candidature a
 
 Sondage : 14.5 → 14.2 (rang 1 → 1)
 
-## 14. Les électeurs ignorent encore le mouvement — _campaign/party_
+## 14. Les électeurs ignorent encore le mouvement  — _campaign/party_
 
 Une enquête qualitative montre que beaucoup d’électeurs confondent Nouvelle Énergie avec Horizons ou un collectif économique. La campagne doit expliquer son existence en une décision concrète.
 
@@ -144,7 +144,7 @@ Une enquête qualitative montre que beaucoup d’électeurs confondent Nouvelle 
 
 Sondage : 14.2 → 14.3 (rang 1 → 1)
 
-## 15. Une nuit avec les urgences — _campaign/campaign_
+## 15. Une nuit avec les urgences  — _campaign/campaign_
 
 À l’hôpital de Dijon, les soignants acceptent votre présence sans caméra dans les services. Au matin, ils demandent quelle décision concrète vous annoncerez et avec quel calendrier.
 
@@ -154,7 +154,7 @@ Sondage : 14.2 → 14.3 (rang 1 → 1)
 
 Sondage : 14.3 → 14.5 (rang 1 → 1)
 
-## 16. Horizons propose une plateforme de gestion — _official_campaign/party_
+## 16. Horizons propose une plateforme de gestion  — _official_campaign/party_
 
 Horizons propose des groupes de travail communs sur les collectivités et les entreprises, sans retrait de candidature. Nouvelle Énergie peut gagner en crédibilité ou disparaître derrière un partenaire plus connu.
 
@@ -164,7 +164,7 @@ Horizons propose des groupes de travail communs sur les collectivités et les en
 
 Sondage : 14.5 → 11.3 (rang 1 → 5)
 
-## 17. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
+## 17. Une chanteuse veut soutenir la campagne  — _official_campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -184,7 +184,7 @@ Une projection fictive des législatives ne donne de majorité à aucun bloc et 
 
 Sondage : 14.9 → 14.9 (rang 1 → 1)
 
-## 19. Contrôles aux frontières : quels moyens — _official_campaign/program_
+## 19. Contrôles aux frontières : quels moyens  — _official_campaign/program_
 
 Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
 
@@ -194,7 +194,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 Sondage : 14.9 → 14.7 (rang 1 → 1)
 
-## 20. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
+## 20. Une accusation jugée infondée vise un adversaire  — _official_campaign/campaign_
 
 Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
@@ -204,7 +204,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 Sondage : 14.7 → 11.5 (rang 1 → 4)
 
-## 21. La laïcité à l’épreuve du quotidien — _official_campaign/program_
+## 21. La laïcité à l’épreuve du quotidien  — _official_campaign/program_
 
 Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
@@ -214,7 +214,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 Sondage : 11.5 → 14.7 (rang 4 → 1)
 
-## 22. Le meeting quitte la capitale — _official_campaign/campaign_
+## 22. Le meeting quitte la capitale  — _official_campaign/campaign_
 
 L’équipe hésite entre Lille, Toulouse et Strasbourg pour le prochain grand meeting. Chaque ville correspond à un électorat et à un thème différents, sans budget pour trois déplacements.
 
@@ -224,7 +224,7 @@ L’équipe hésite entre Lille, Toulouse et Strasbourg pour le prochain grand m
 
 Sondage : 14.7 → 14.8 (rang 1 → 1)
 
-## 23. La porte-parole annonce trop tôt — _official_campaign/internal_
+## 23. La porte-parole annonce trop tôt  — _official_campaign/internal_
 
 Une porte-parole fictive présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.
 
@@ -234,7 +234,7 @@ Une porte-parole fictive présente comme arbitrée une baisse de cotisations enc
 
 Sondage : 14.8 → 14.7 (rang 1 → 1)
 
-## 24. Les soutiens envahissent le plateau — _between_rounds/debate_
+## 24. Les soutiens envahissent le plateau  — _between_rounds/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -244,7 +244,7 @@ Sondage : 14.8 → 14.7 (rang 1 → 1)
 
 Sondage : 14.7 → 14.8 (rang 1 → 1)
 
-## 25. Deux points davance à cinq jours — _between_rounds/between_rounds_
+## 25. Deux points davance à cinq jours  — _between_rounds/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -264,7 +264,7 @@ Après votre refus de toute coalition, plusieurs partis jusque-là disponibles a
 
 Sondage : 15.1 → 15.1 (rang 1 → 1)
 
-## 27. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 27. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -274,7 +274,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 Sondage : 15.1 → 15.4 (rang 1 → 1)
 
-## 28. La coalition réclame une annexe — _between_rounds/between_rounds_
+## 28. La coalition réclame une annexe  — _between_rounds/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -284,7 +284,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 Sondage : 15.4 → 10.7 (rang 1 → 4)
 
-## 29. L’outsider doit former une majorité — _government_epilogue/party_
+## 29. L’outsider doit former une majorité  — _government_epilogue/party_
 
 Qualifiée à la surprise générale, Nora Vaillant manque encore d’élus et d’équipes. Horizons et LR proposent leur soutien contre des garanties de coalition et des responsabilités identifiables.
 
@@ -294,7 +294,7 @@ Qualifiée à la surprise générale, Nora Vaillant manque encore d’élus et d
 
 Sondage : 10.7 → 15.7 (rang 4 → 1)
 
-## 30. Deux alliés réclament Bercy — _government_epilogue/government_
+## 30. Deux alliés réclament Bercy  — _government_epilogue/government_
 
 Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 
@@ -304,7 +304,7 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 Sondage : 15.7 → 15.4 (rang 1 → 1)
 
-## 31. Quinze ministres pour une coalition — _finished/government_
+## 31. Quinze ministres pour une coalition  — _finished/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 

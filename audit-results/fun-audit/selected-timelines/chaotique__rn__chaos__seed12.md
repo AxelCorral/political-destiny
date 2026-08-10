@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **chaotique**
 
-Score final : 40/100 · 1er tour : 10.9 · qualifié : false · vainqueur : false · signaux mémorables : 3
+Score final : 38/100 · 1er tour : 10.4 · qualifié : false · vainqueur : false · signaux mémorables : 4
 
-## 1. L’immigration de travail, un choix économique assumé ou non — _pre_campaign/program_
+## 1. L’immigration de travail, un choix économique assumé ou non  — _pre_campaign/program_
 
 Des fédérations patronales de la restauration, du bâtiment et du soin à domicile alertent publiquement sur des postes non pourvus. Le sujet, distinct de l’asile déjà tranché, oblige à préciser votre ligne sur l’immigration de travail.
 
@@ -14,7 +14,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 Sondage : 10.9 → 13.5 (rang 7 → 1)
 
-## 2. Cinq cents bénévoles sans mission — _pre_campaign/internal_
+## 2. Cinq cents bénévoles sans mission  — _pre_campaign/internal_
 
 Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit heures. Le siège peut les envoyer immédiatement sur le terrain, les former à distance ou les répartir auprès des sections qui manquent déjà d’encadrement.
 
@@ -24,7 +24,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 Sondage : 13.5 → 13.7 (rang 1 → 1)
 
-## 3. Le RN arbitre normalisation et mobilisation — _pre_campaign/party_
+## 3. Le RN arbitre normalisation et mobilisation  — _pre_campaign/party_
 
 Le socle attend une campagne offensive sur l’immigration et la sécurité, tandis que l’équipe d’Élise Montclar veut convaincre sur le gouvernement et l’économie. L’ordre des priorités devient stratégique.
 
@@ -34,7 +34,7 @@ Le socle attend une campagne offensive sur l’immigration et la sécurité, tan
 
 Sondage : 13.7 → 13.9 (rang 1 → 1)
 
-## 4. Deux invitations au même horaire — _pre_campaign/campaign_
+## 4. Deux invitations au même horaire  — _pre_campaign/campaign_
 
 France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
@@ -44,7 +44,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 Sondage : 13.9 → 15.1 (rang 1 → 1)
 
-## 5. La loi migratoire du programme — _pre_campaign/program_
+## 5. La loi migratoire du programme  — _pre_campaign/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -64,7 +64,7 @@ La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois 
 
 Sondage : 13.1 → 12.9 (rang 1 → 1)
 
-## 7. Un donateur demande un rendez-vous — _pre_campaign/internal_
+## 7. Un donateur demande un rendez-vous  — _pre_campaign/internal_
 
 Un entrepreneur fictif ayant versé un don dans les limites légales sollicite une rencontre privée sur votre fiscalité. Le rendez-vous est autorisé, mais son calendrier et sa confidentialité peuvent nourrir un soupçon d’influence.
 
@@ -74,7 +74,7 @@ Un entrepreneur fictif ayant versé un don dans les limites légales sollicite u
 
 Sondage : 12.9 → 12.8 (rang 1 → 1)
 
-## 8. Les abstentionnistes demandent une preuve locale — _pre_campaign/party_
+## 8. Les abstentionnistes demandent une preuve locale  — _pre_campaign/party_
 
 Des électeurs populaires favorables au RN disent ne plus croire aux promesses nationales. Ils demandent une mesure rapidement visible sur les transports, les soins ou les factures.
 
@@ -84,7 +84,7 @@ Des électeurs populaires favorables au RN disent ne plus croire aux promesses n
 
 Sondage : 12.8 → 11.8 (rang 1 → 4)
 
-## 9. Le regroupement familial en question — _campaign/program_
+## 9. Le regroupement familial en question  — _campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -94,7 +94,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 11.8 → 12.3 (rang 4 → 1)
 
-## 10. Le direct des questions citoyennes — _campaign/media_
+## 10. Le direct des questions citoyennes  — _campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -104,7 +104,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 12.3 → 12.3 (rang 1 → 1)
 
-## 11. La préférence nationale rencontre le droit — _campaign/party_
+## 11. La préférence nationale rencontre le droit  — _campaign/party_
 
 Les juristes du programme avertissent que plusieurs mesures sociales seraient contestées au regard de la Constitution et du droit européen. La campagne doit préciser leur champ ou assumer une confrontation institutionnelle.
 
@@ -114,7 +114,7 @@ Les juristes du programme avertissent que plusieurs mesures sociales seraient co
 
 Sondage : 12.3 → 12.6 (rang 1 → 1)
 
-## 12. Une ligne du CV est fausse — _campaign/scandal_
+## 12. Une ligne du CV est fausse  — _campaign/scandal_
 
 Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.
 
@@ -124,7 +124,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 Sondage : 12.6 → 10.8 (rang 1 → 7)
 
-## 13. Une contradiction chez le camp centriste — _campaign/debate_
+## 13. Une contradiction chez le camp centriste  — _campaign/debate_
 
 Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
@@ -134,7 +134,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 Sondage : 10.8 → 12.9 (rang 7 → 1)
 
-## 14. Le salaire net au centre — _campaign/program_
+## 14. Le salaire net au centre  — _campaign/program_
 
 L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La conférence économique attend votre mécanisme salarial : hausse du minimum légal, négociations de branche, baisse de cotisations ou prime ponctuelle.
 
@@ -144,7 +144,7 @@ L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La confére
 
 Sondage : 12.9 → 13 (rang 1 → 1)
 
-## 15. Un soutien éditorial encombrant — _campaign/media_
+## 15. Un soutien éditorial encombrant  — _campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -154,7 +154,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 13 → 13 (rang 1 → 1)
 
-## 16. L’atelier industriel de Saint-Nazaire — _campaign/campaign_
+## 16. L’atelier industriel de Saint-Nazaire  — _campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -164,7 +164,7 @@ Sondage : 13 → 13 (rang 1 → 1)
 
 Sondage : 13 → 12.7 (rang 1 → 1)
 
-## 17. Le contrat d’intégration, jusqu’où aller — _official_campaign/program_
+## 17. Le contrat d’intégration, jusqu’où aller  — _official_campaign/program_
 
 Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
 
@@ -174,7 +174,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 Sondage : 12.7 → 12.6 (rang 1 → 1)
 
-## 18. Un cadre écologiste tenté par un ralliement — _official_campaign/alliance_
+## 18. Un cadre écologiste tenté par un ralliement  — _official_campaign/alliance_
 
 Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’elle serait ouverte à rejoindre une dynamique plus large si votre offre programmatique évolue sur un point précis.
 
@@ -184,72 +184,72 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 Sondage : 12.6 → 12.5 (rang 1 → 1)
 
-## 19. La grève bloque les transports — _official_campaign/world_
+## 19. La croissance simulée se retourne  — _official_campaign/world_
 
-Dans la simulation, une grève nationale des transports entre dans sa quatrième journée après l’échec d’une négociation salariale. La CGT et la CFDT portent des revendications distinctes ; les usagers demandent une sortie rapide plutôt qu’un commentaire de campagne.
+Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
 
-> **Choix retenu :** Soutenir les revendications salariales et rejoindre le piquet sans demander la reprise du trafic [CLIVANT]
+> **Choix retenu :** Maintenir le programme budgétaire et proposer seulement une clause de réexamen trimestriel [PRUDENT]
 
-**Votre présence renforce le piquet** — Les grévistes accueillent votre soutien et votre socle social se mobilise. Les usagers bloqués et une partie des classes moyennes considèrent que vous privilégiez la démonstration à la résolution.
+**La trajectoire ne change pas au premier indicateur** — La stabilité rassure les électeurs préoccupés par les comptes et évite les annonces précipitées. Les salariés menacés de chômage voient surtout une campagne qui attend des données supplémentaires.
 
-Sondage : 12.5 → 12 (rang 1 → 3)
+Sondage : 12.5 → 12.5 (rang 1 → 2)
 
-## 20. Tensions internes chez Reconquête — _official_campaign/world_
+## 20. Une attaque frontale de La France insoumise  — _official_campaign/campaign_
 
-La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.
+Ariane Valmont vous accuse publiquement d’avoir édulcoré vos positions sociales pour séduire un électorat plus modéré. L’accusation circule largement avant que vous ayez pu y répondre.
 
-> **Choix retenu :** Publier une déclaration soulignant l’instabilité du mouvement adverse [OFFENSIF]
+> **Choix retenu :** Ne pas répondre publiquement et poursuivre le calendrier de campagne prévu [PRUDENT]
 
-**La crise adverse commentée publiquement** — Le commentaire attire l’attention sur les difficultés internes de Reconquête et accentue la pression sur son état-major. Une partie de l’opinion juge le procédé opportuniste plutôt que porteur d’un message de fond.
+**Poursuivre sans réagir** — L’absence de réponse limite la durée de vie de la polémique dans l’agenda médiatique. Une partie de vos soutiens juge le silence gênant face à une accusation aussi directe.
 
-Sondage : 12 → 10.9 (rang 3 → 7)
+Sondage : 12.5 → 11.5 (rang 2 → 5)
 
-## 21. Le budget impose trois renoncements — _official_campaign/campaign_
+## 21. Cent quartiers en porte-à-porte  — _official_campaign/campaign_
 
-Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous les déplacements épuiserait les réserves avant le premier tour. Il faut réduire un poste dès ce soir.
+Les équipes proposent une opération nationale dans cent quartiers où l’abstention dépasse la moyenne. Elles peuvent écouter sans questionnaire, défendre une mesure ou inscrire de nouveaux relais.
 
-> **Choix retenu :** Lancer une collecte publique en publiant le besoin et chaque dépense prévue [RISQUÉ]
+> **Choix retenu :** Mobiliser les volontaires pour vérifier inscriptions et procurations sans démarchage partisan [INSTITUTIONNEL]
 
-**La collecte finance la dernière ligne droite** — Les petits dons dépassent l’objectif et les comptes publiés rassurent. La campagne sauve son calendrier, au prix de trois jours entièrement consacrés à l’argent.
+**L’aide civique élargit la participation** — Les permanences orientent des centaines d’électeurs vers les démarches officielles. Votre logo reste discret, mais les associations locales retiennent le sérieux de l’opération.
 
-Sondage : 10.9 → 11.3 (rang 7 → 5)
+Sondage : 11.5 → 12.5 (rang 5 → 2)
 
-## 22. La promesse faite à l’école — _official_campaign/program_
+## 22. La minute qui vous appartient  — _official_campaign/debate_
 
-À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
+À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
 
-> **Choix retenu :** Donner aux établissements un budget et une autonomie de recrutement sous contrôle académique [CLIVANT]
+> **Choix retenu :** Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
 
-**L’autonomie redessine le service public** — Les chefs d’établissement gagnent une marge d’action attendue et les syndicats craignent des inégalités durables entre territoires. La proposition élargit votre offre au prix d’un conflit idéologique clair.
+**Un visage reste après le débat** — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
 
-Sondage : 11.3 → 10.6 (rang 5 → 8)
+Sondage : 12.5 → 12.6 (rang 2 → 2)
 
-## 23. La dissidence prend forme chez Reconquête — _official_campaign/world_
+## 23. La périphérie demande un calendrier  — _official_campaign/campaign_
 
-La crise interne évoquée quelques jours plus tôt débouche sur une rupture ouverte : une partie de l’état-major de Victor d’Aubrac annonce vouloir présenter une liste concurrente sous ses propres couleurs.
+Dans une commune périurbaine d’Occitanie, les habitants relient carburant, temps de trajet et fermeture des guichets. Ils refusent que le déplacement se termine par une promesse générale.
 
-> **Choix retenu :** Se dire ouvert à dialoguer avec la future liste dissidente [OPPORTUNISTE]
+> **Choix retenu :** Annoncer une remise carburant limitée aux travailleurs sans transport collectif [POPULAIRE]
 
-**Une porte ouverte à la dissidence naissante** — Le signal d’ouverture est immédiatement relevé par la presse spécialisée. Il fragilise un peu plus le camp Reconquête, déjà affaibli par la rupture qui vient de se confirmer.
+**La remise répond aux trajets contraints** — Le ciblage évite une aide générale et parle aux actifs présents. Les critères d’accès deviennent aussitôt un sujet national et compliquent la promesse.
 
-Sondage : 10.6 → 9.9 (rang 8 → 8)
+Sondage : 12.6 → 12.5 (rang 2 → 2)
 
-## 24. La photographie du quai vide — _between_rounds/media_
+## 24. La plateforme publique tombe en panne  — _between_rounds/world_
 
-À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
+Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
-> **Choix retenu :** Ignorer la photographie et publier uniquement les engagements annoncés à Lille [PRUDENT]
+> **Choix retenu :** Accuser le gouvernement d’impréparation et demander la démission du responsable numérique avant l’audit [OFFENSIF]
 
-**Le fond reprend lentement sa place** — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
+**La démission est demandée avant le diagnostic** — Votre attaque domine les plateaux et mobilise les opposants au pouvoir sortant. La plateforme revient sans que la cause confirme une faute personnelle, ce qui laisse votre exigence sans fondement établi.
 
-Sondage : 9.9 → 9.6 (rang 8 → 8)
+Sondage : 12.5 → 12.1 (rang 2 → 3)
 
-## 25. Votre voix reste décisive — _finished/between_rounds_
+## 25. Aucun finaliste ne porte votre ligne  — _finished/between_rounds_
 
-Éliminé du premier tour, vous pouvez soutenir le finaliste fictif le plus proche, négocier des garanties ou rester indépendant. Vos électeurs ne sont pas une propriété : la manière de donner la consigne comptera autant que son sens.
+Les deux finalistes fictifs sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre lun dentre eux engage malgré tout votre responsabilité.
 
-> **Choix retenu :** Négocier trois mesures publiques avec un finaliste avant dannoncer votre soutien [OPPORTUNISTE]
+> **Choix retenu :** Refuser toute consigne et ne participer à aucun débat de lentre-deux-tours [PRUDENT]
 
-**Trois mesures donnent un prix au ralliement** — Le contrat offre à vos électeurs une influence vérifiable et installe votre parti comme partenaire du prochain pouvoir. Vos adversaires parlent de marchandage et votre héritage dépendra du respect de ces mesures.
+**Le parti quitte le second tour** — Votre autonomie ne peut être confondue avec un soutien et votre socle le plus méfiant lapprécie. Vous abandonnez toute influence sur les deux semaines où le pays choisit son président.
 
-Sondage : 9.6 → 9.6 (rang 8 → 8)
+Sondage : 12.1 → 12.1 (rang 3 → 3)

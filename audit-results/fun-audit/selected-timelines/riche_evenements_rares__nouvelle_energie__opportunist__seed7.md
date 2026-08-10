@@ -4,7 +4,7 @@ Catégorie de sélection : **riche_evenements_rares**
 
 Score final : 84/100 · 1er tour : 12.7 · 2nd tour : 51.3 · qualifié : true · vainqueur : true · signaux mémorables : 7
 
-## 1. Le slogan divise le siège — _pre_campaign/campaign_
+## 1. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -14,7 +14,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 13.3 → 12.2 (rang 1 → 2)
 
-## 2. Horizons propose une plateforme de gestion — _pre_campaign/party_
+## 2. Horizons propose une plateforme de gestion  — _pre_campaign/party_
 
 Horizons propose des groupes de travail communs sur les collectivités et les entreprises, sans retrait de candidature. Nouvelle Énergie peut gagner en crédibilité ou disparaître derrière un partenaire plus connu.
 
@@ -24,7 +24,7 @@ Horizons propose des groupes de travail communs sur les collectivités et les en
 
 Sondage : 12.2 → 12.2 (rang 2 → 2)
 
-## 3. Contrôles aux frontières : quels moyens — _pre_campaign/program_
+## 3. Contrôles aux frontières : quels moyens  — _pre_campaign/program_
 
 Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
 
@@ -34,7 +34,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 Sondage : 12.2 → 12.4 (rang 2 → 2)
 
-## 4. Le direct des questions citoyennes — _pre_campaign/media_
+## 4. Le direct des questions citoyennes  — _pre_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -44,7 +44,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 12.4 → 12.4 (rang 2 → 2)
 
-## 5. La France à cinquante degrés — _pre_campaign/program_
+## 5. La France à cinquante degrés  — _pre_campaign/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -54,7 +54,7 @@ Sondage : 12.4 → 12.4 (rang 2 → 2)
 
 Sondage : 12.4 → 13 (rang 2 → 1)
 
-## 6. Les électeurs ignorent encore le mouvement — _pre_campaign/party_
+## 6. Les électeurs ignorent encore le mouvement  — _pre_campaign/party_
 
 Une enquête qualitative montre que beaucoup d’électeurs confondent Nouvelle Énergie avec Horizons ou un collectif économique. La campagne doit expliquer son existence en une décision concrète.
 
@@ -64,7 +64,7 @@ Une enquête qualitative montre que beaucoup d’électeurs confondent Nouvelle 
 
 Sondage : 13 → 13.3 (rang 1 → 1)
 
-## 7. Le car tombe en panne — _pre_campaign/campaign_
+## 7. Le car tombe en panne  — _pre_campaign/campaign_
 
 À quatre-vingts kilomètres du prochain rendez-vous, le car de campagne s’immobilise. Une gare, une visioconférence et un café associatif offrent trois manières de sauver la journée.
 
@@ -74,7 +74,7 @@ Sondage : 13 → 13.3 (rang 1 → 1)
 
 Sondage : 13.3 → 13.4 (rang 1 → 1)
 
-## 8. Une crise ferme un détroit — _campaign/world_
+## 8. Une crise ferme un détroit  — _campaign/world_
 
 Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France na pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.
 
@@ -84,7 +84,7 @@ Dans la géopolitique fictive de la partie, une confrontation entre navires chin
 
 Sondage : 13.4 → 11.1 (rang 1 → 5)
 
-## 9. Trois villages sans médecin — _campaign/campaign_
+## 9. Trois villages sans médecin  — _campaign/campaign_
 
 Dans le Grand Est, trois maires partagent un cabinet vide et des délais de consultation croissants. Ils veulent savoir si vous contraignez l’installation, financez une équipe mobile ou déléguez davantage.
 
@@ -94,7 +94,7 @@ Dans le Grand Est, trois maires partagent un cabinet vide et des délais de cons
 
 Sondage : 11.1 → 14.1 (rang 5 → 1)
 
-## 10. La laïcité à l’épreuve du quotidien — _campaign/program_
+## 10. La laïcité à l’épreuve du quotidien  — _campaign/program_
 
 Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
@@ -104,7 +104,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 Sondage : 14.1 → 14.4 (rang 1 → 1)
 
-## 11. Deux équipes se disputent le terrain — _campaign/internal_
+## 11. Deux équipes se disputent le terrain  — _campaign/internal_
 
 Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
 
@@ -114,7 +114,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 Sondage : 14.4 → 14.4 (rang 1 → 1)
 
-## 12. Le budget impose trois renoncements — _campaign/campaign_
+## 12. Le budget impose trois renoncements  — _campaign/campaign_
 
 Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous les déplacements épuiserait les réserves avant le premier tour. Il faut réduire un poste dès ce soir.
 
@@ -124,7 +124,7 @@ Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous 
 
 Sondage : 14.4 → 16.6 (rang 1 → 1)
 
-## 13. La baisse de dépense rencontre l’hôpital — _campaign/party_
+## 13. La baisse de dépense rencontre l’hôpital  — _campaign/party_
 
 Le programme prévoit de réduire la dépense publique, mais les premiers comités placent l’accès aux soins en tête de leurs préoccupations. Nora Vaillant doit préciser ce qui sera protégé.
 
@@ -134,7 +134,7 @@ Le programme prévoit de réduire la dépense publique, mais les premiers comit�
 
 Sondage : 16.6 → 14.4 (rang 1 → 1)
 
-## 14. Le siège arrive à saturation — _campaign/internal_
+## 14. Le siège arrive à saturation  — _campaign/internal_
 
 Trois responsables salariés et plusieurs bénévoles signalent des journées de quinze heures. Deux erreurs d’agenda ont déjà été rattrapées. Réduire le rythme protège l’équipe mais oblige à abandonner des déplacements attendus.
 
@@ -144,7 +144,7 @@ Trois responsables salariés et plusieurs bénévoles signalent des journées de
 
 Sondage : 14.4 → 14.5 (rang 1 → 1)
 
-## 15. Le permis d’entreprendre doit être défini — _campaign/party_
+## 15. Le permis d’entreprendre doit être défini  — _campaign/party_
 
 Le mouvement promet de simplifier la création d’entreprise par un permis unique. Les artisans demandent quelles démarches disparaîtront et comment les règles sociales, sanitaires et environnementales resteront contrôlées.
 
@@ -154,7 +154,7 @@ Le mouvement promet de simplifier la création d’entreprise par un permis uniq
 
 Sondage : 14.5 → 14.5 (rang 1 → 1)
 
-## 16. La pluie emporte la tournée — _official_campaign/campaign_
+## 16. La pluie emporte la tournée  — _official_campaign/campaign_
 
 Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
 
@@ -164,7 +164,7 @@ Des pluies intenses rendent deux routes impraticables et le meeting en plein air
 
 Sondage : 14.5 → 14.1 (rang 1 → 1)
 
-## 17. Provoquer le favori en duel — _official_campaign/debate_
+## 17. Provoquer le favori en duel  — _official_campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -184,7 +184,7 @@ Un lot de cinquante mille tracts transforme par erreur « la France en commun »
 
 Sondage : 14.5 → 14.6 (rang 1 → 1)
 
-## 19. Une attaque frontale de La France insoumise — _official_campaign/campaign_
+## 19. Une attaque frontale de La France insoumise  — _official_campaign/campaign_
 
 Ariane Valmont vous accuse publiquement d’avoir édulcoré vos positions sociales pour séduire un électorat plus modéré. L’accusation circule largement avant que vous ayez pu y répondre.
 
@@ -194,7 +194,7 @@ Ariane Valmont vous accuse publiquement d’avoir édulcoré vos positions socia
 
 Sondage : 14.6 → 14.6 (rang 1 → 1)
 
-## 20. La PME teste votre réforme — _official_campaign/campaign_
+## 20. La PME teste votre réforme  — _official_campaign/campaign_
 
 Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réforme du travail sur ses comptes. La dirigeante et les représentants du personnel obtiennent des résultats opposés.
 
@@ -204,7 +204,7 @@ Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réfor
 
 Sondage : 14.6 → 16.9 (rang 1 → 1)
 
-## 21. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
+## 21. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
 Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
@@ -214,7 +214,7 @@ Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et t
 
 Sondage : 16.9 → 14.5 (rang 1 → 1)
 
-## 22. Le RN invite à une convention commune — _official_campaign/alliance_
+## 22. Le RN invite à une convention commune  — _official_campaign/alliance_
 
 Le Rassemblement national propose une convention sur l’immigration, la sécurité et le pouvoir d’achat. Les organisateurs veulent une photographie commune et des désistements réciproques après le premier tour.
 
@@ -234,7 +234,7 @@ Au marché de Nice, le perroquet d’un commerçant fictif répète distinctemen
 
 Sondage : 14.5 → 14.5 (rang 1 → 1)
 
-## 24. Un cadre écologiste tenté par un ralliement — _between_rounds/alliance_
+## 24. Un cadre écologiste tenté par un ralliement  — _between_rounds/alliance_
 
 Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’elle serait ouverte à rejoindre une dynamique plus large si votre offre programmatique évolue sur un point précis.
 
@@ -244,7 +244,7 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 Sondage : 14.5 → 14.6 (rang 1 → 1)
 
-## 25. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 25. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -254,7 +254,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 Sondage : 14.6 → 14.7 (rang 1 → 1)
 
-## 26. L’outsider doit former une majorité — _between_rounds/party_
+## 26. L’outsider doit former une majorité  — _between_rounds/party_
 
 Qualifiée à la surprise générale, Nora Vaillant manque encore d’élus et d’équipes. Horizons et LR proposent leur soutien contre des garanties de coalition et des responsabilités identifiables.
 
@@ -264,7 +264,7 @@ Qualifiée à la surprise générale, Nora Vaillant manque encore d’élus et d
 
 Sondage : 14.7 → 14.9 (rang 1 → 1)
 
-## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 27. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -274,7 +274,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 14.9 → 15 (rang 1 → 1)
 
-## 28. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 28. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -284,7 +284,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 Sondage : 15 → 14.7 (rang 1 → 1)
 
-## 29. Les soutiens arrivent avec leurs conditions — _government_epilogue/between_rounds_
+## 29. Les soutiens arrivent avec leurs conditions  — _government_epilogue/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -294,7 +294,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 Sondage : 14.7 → 15.5 (rang 1 → 1)
 
-## 30. Le choix de Matignon — _government_epilogue/government_
+## 30. Le choix de Matignon  — _government_epilogue/government_
 
 Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 
@@ -304,7 +304,7 @@ Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure 
 
 Sondage : 15.5 → 15.5 (rang 1 → 1)
 
-## 31. Quinze ministres pour une coalition — _finished/government_
+## 31. Quinze ministres pour une coalition  — _finished/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 

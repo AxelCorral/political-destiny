@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **favori_en_difficulte**
 
-Score final : 55/100 · 1er tour : 12.6 · qualifié : false · vainqueur : false · signaux mémorables : 3
+Score final : 52/100 · 1er tour : 12.1 · qualifié : false · vainqueur : false · signaux mémorables : 3
 
-## 1. Le fauteuil libéré au vingt heures — _pre_campaign/media_
+## 1. Le fauteuil libéré au vingt heures  — _pre_campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -14,7 +14,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 Sondage : 15.7 → 10.9 (rang 1 → 7)
 
-## 2. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 2. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -24,7 +24,7 @@ Sondage : 15.7 → 10.9 (rang 1 → 7)
 
 Sondage : 10.9 → 10.9 (rang 7 → 7)
 
-## 3. Un donateur demande un rendez-vous — _pre_campaign/internal_
+## 3. Un donateur demande un rendez-vous  — _pre_campaign/internal_
 
 Un entrepreneur fictif ayant versé un don dans les limites légales sollicite une rencontre privée sur votre fiscalité. Le rendez-vous est autorisé, mais son calendrier et sa confidentialité peuvent nourrir un soupçon d’influence.
 
@@ -34,7 +34,7 @@ Un entrepreneur fictif ayant versé un don dans les limites légales sollicite u
 
 Sondage : 10.9 → 11.1 (rang 7 → 7)
 
-## 4. La grève bloque les transports — _pre_campaign/world_
+## 4. La grève bloque les transports  — _pre_campaign/world_
 
 Dans la simulation, une grève nationale des transports entre dans sa quatrième journée après l’échec d’une négociation salariale. La CGT et la CFDT portent des revendications distinctes ; les usagers demandent une sortie rapide plutôt qu’un commentaire de campagne.
 
@@ -44,7 +44,7 @@ Dans la simulation, une grève nationale des transports entre dans sa quatrième
 
 Sondage : 11.1 → 11.2 (rang 7 → 7)
 
-## 5. La collecte se bloque — _pre_campaign/campaign_
+## 5. La collecte se bloque  — _pre_campaign/campaign_
 
 Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
 
@@ -54,7 +54,7 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 Sondage : 11.2 → 11.5 (rang 7 → 5)
 
-## 6. La photographie du quai vide — _pre_campaign/media_
+## 6. La photographie du quai vide  — _pre_campaign/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -64,7 +64,7 @@ Sondage : 11.2 → 11.5 (rang 7 → 5)
 
 Sondage : 11.5 → 11.6 (rang 5 → 5)
 
-## 7. Le slogan divise le siège — _pre_campaign/campaign_
+## 7. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -74,7 +74,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 11.6 → 11.7 (rang 5 → 4)
 
-## 8. Un virement suit un trajet complexe — _pre_campaign/scandal_
+## 8. Un virement suit un trajet complexe  — _pre_campaign/scandal_
 
 La banque de la campagne demande des précisions sur un don fictif reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.
 
@@ -84,7 +84,7 @@ La banque de la campagne demande des précisions sur un don fictif reçu après 
 
 Sondage : 11.7 → 14.1 (rang 4 → 1)
 
-## 9. Horizons propose un accord économique — _campaign/party_
+## 9. Horizons propose un accord économique  — _campaign/party_
 
 Horizons offre une plateforme commune sur le travail, les entreprises et les finances publiques. En échange, ses négociateurs demandent à LR d’écarter toute alliance nationale avec le RN.
 
@@ -94,7 +94,7 @@ Horizons offre une plateforme commune sur le travail, les entreprises et les fin
 
 Sondage : 14.1 → 11.8 (rang 1 → 4)
 
-## 10. La règle européenne à changer — _campaign/program_
+## 10. La règle européenne à changer  — _campaign/program_
 
 Votre chapitre européen doit expliquer ce que la France demandera, ce qu’elle acceptera en échange et ce qu’elle fera en cas de refus. La monnaie, le budget et la souveraineté rendent une position seulement symbolique peu crédible.
 
@@ -104,7 +104,7 @@ Votre chapitre européen doit expliquer ce que la France demandera, ce qu’elle
 
 Sondage : 11.8 → 11.8 (rang 4 → 3)
 
-## 11. Les retraités interrogent le financement — _campaign/party_
+## 11. Les retraités interrogent le financement  — _campaign/party_
 
 Les retraités conservateurs apprécient la ligne d’autorité mais s’inquiètent du coût des soins, de la dépendance et de l’épargne. Ils demandent une priorité budgétaire concrète.
 
@@ -114,7 +114,7 @@ Les retraités conservateurs apprécient la ligne d’autorité mais s’inquiè
 
 Sondage : 11.8 → 12.2 (rang 3 → 3)
 
-## 12. L’adversaire refuse de vous laisser répondre — _campaign/debate_
+## 12. L’adversaire refuse de vous laisser répondre  — _campaign/debate_
 
 Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
@@ -124,7 +124,7 @@ Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et t
 
 Sondage : 12.2 → 12.4 (rang 3 → 2)
 
-## 13. Une proposition de pacte de non-agression — _campaign/campaign_
+## 13. Une proposition de pacte de non-agression  — _campaign/campaign_
 
 À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Maël Dargent (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.
 
@@ -134,7 +134,7 @@ Sondage : 12.2 → 12.4 (rang 3 → 2)
 
 Sondage : 12.4 → 12.5 (rang 2 → 2)
 
-## 14. Deux équipes se disputent le terrain — _campaign/internal_
+## 14. Deux équipes se disputent le terrain  — _campaign/internal_
 
 Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
 
@@ -144,7 +144,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 Sondage : 12.5 → 12.4 (rang 2 → 2)
 
-## 15. La pluie emporte la tournée — _campaign/campaign_
+## 15. La pluie emporte la tournée  — _campaign/campaign_
 
 Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
 
@@ -154,7 +154,7 @@ Des pluies intenses rendent deux routes impraticables et le meeting en plein air
 
 Sondage : 12.4 → 12.4 (rang 2 → 2)
 
-## 16. Provoquer le favori en duel — _official_campaign/debate_
+## 16. Provoquer le favori en duel  — _official_campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -164,7 +164,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 Sondage : 12.4 → 10 (rang 2 → 8)
 
-## 17. Le siège arrive à saturation — _official_campaign/internal_
+## 17. Le siège arrive à saturation  — _official_campaign/internal_
 
 Trois responsables salariés et plusieurs bénévoles signalent des journées de quinze heures. Deux erreurs d’agenda ont déjà été rattrapées. Réduire le rythme protège l’équipe mais oblige à abandonner des déplacements attendus.
 
@@ -174,7 +174,7 @@ Trois responsables salariés et plusieurs bénévoles signalent des journées de
 
 Sondage : 10 → 12.6 (rang 8 → 2)
 
-## 18. La riposte du favori — _official_campaign/debate_
+## 18. La riposte du favori  — _official_campaign/debate_
 
 Élise Montclar consacre son passage télévisé du lendemain à répondre point par point à votre prestation, avec une ligne d’attaque préparée sur votre programme économique.
 
@@ -184,7 +184,7 @@ Sondage : 10 → 12.6 (rang 8 → 2)
 
 Sondage : 12.6 → 12.7 (rang 2 → 2)
 
-## 19. Les économies menacent les services locaux — _official_campaign/party_
+## 19. Les économies menacent les services locaux  — _official_campaign/party_
 
 Le programme prévoit une baisse de dépense, mais les élus LR refusent des fermetures d’écoles, de gendarmeries et de trésoreries. La campagne doit préciser où l’effort sera réellement concentré.
 
@@ -194,7 +194,7 @@ Le programme prévoit une baisse de dépense, mais les élus LR refusent des fer
 
 Sondage : 12.7 → 12.8 (rang 2 → 2)
 
-## 20. Tensions internes chez Reconquête — _official_campaign/world_
+## 20. Tensions internes chez Reconquête  — _official_campaign/world_
 
 La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.
 
@@ -204,7 +204,7 @@ La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie d
 
 Sondage : 12.8 → 11.3 (rang 2 → 4)
 
-## 21. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
+## 21. Une accusation jugée infondée vise un adversaire  — _official_campaign/campaign_
 
 Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
@@ -214,7 +214,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 Sondage : 11.3 → 12.7 (rang 4 → 2)
 
-## 22. Nouvelle Énergie propose un retrait — _official_campaign/alliance_
+## 22. Nouvelle Énergie propose un retrait  — _official_campaign/alliance_
 
 Nouvelle Énergie propose de retirer sa candidature fictive et de vous soutenir si vous reprenez trois mesures de décentralisation. Le mouvement demande aussi une représentation dans l’équipe de second tour.
 
@@ -224,7 +224,7 @@ Nouvelle Énergie propose de retirer sa candidature fictive et de vous soutenir 
 
 Sondage : 12.7 → 14.1 (rang 2 → 3)
 
-## 23. La dissidence prend forme chez Reconquête — _official_campaign/world_
+## 23. La dissidence prend forme chez Reconquête  — _official_campaign/world_
 
 La crise interne évoquée quelques jours plus tôt débouche sur une rupture ouverte : une partie de l’état-major de Victor d’Aubrac annonce vouloir présenter une liste concurrente sous ses propres couleurs.
 
@@ -234,17 +234,17 @@ La crise interne évoquée quelques jours plus tôt débouche sur une rupture ou
 
 Sondage : 14.1 → 13.5 (rang 3 → 3)
 
-## 24. La croissance simulée se retourne — _between_rounds/world_
+## 24. Une ligne du CV est fausse  — _between_rounds/scandal_
 
-Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
+Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.
 
-> **Choix retenu :** Proposer un plan d’investissement ciblé sur le logement, le rail et la rénovation énergétique [POPULAIRE]
+> **Choix retenu :** Maintenir le responsable et qualifier la différence de formulation sans importance pour le programme [LOYAL]
 
-**Trois secteurs reçoivent le plan de relance** — Le ciblage relie l’activité immédiate à des besoins déjà documentés et donne une réponse identifiable au ralentissement. Son financement par emprunt fragilise votre trajectoire budgétaire à moyen terme.
+**Une petite ligne devient une grande question** — Le responsable continue à travailler et votre équipe technique reste stable. Votre minimisation offre cependant plusieurs jours de débat sur la vérité des biographies plutôt que sur la transition énergétique.
 
-Sondage : 13.5 → 13.4 (rang 3 → 2)
+Sondage : 13.5 → 12.9 (rang 3 → 3)
 
-## 25. Aucun finaliste ne porte votre ligne — _finished/between_rounds_
+## 25. Aucun finaliste ne porte votre ligne  — _finished/between_rounds_
 
 Les deux finalistes fictifs sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre lun dentre eux engage malgré tout votre responsabilité.
 
@@ -252,4 +252,4 @@ Les deux finalistes fictifs sont éloignés de vos positions sur des sujets diff
 
 **Un refus devient consigne de barrage** — La hiérarchie de vos désaccords est claire et mobilise ceux qui partagent votre alerte. Le finaliste indirectement soutenu ne peut pas présenter votre geste comme une adhésion programmatique.
 
-Sondage : 13.4 → 13.5 (rang 2 → 2)
+Sondage : 12.9 → 13 (rang 3 → 3)

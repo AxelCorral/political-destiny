@@ -4,7 +4,7 @@ Catégorie de sélection : **victoire**
 
 Score final : 87/100 · 1er tour : 15.8 · 2nd tour : 56.4 · qualifié : true · vainqueur : true · signaux mémorables : 4
 
-## 1. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 1. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -14,7 +14,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 14.8 → 12.3 (rang 1 → 2)
 
-## 2. Le prochain budget de la santé — _pre_campaign/program_
+## 2. Le prochain budget de la santé  — _pre_campaign/program_
 
 Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
 
@@ -24,7 +24,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 Sondage : 12.3 → 12.6 (rang 2 → 2)
 
-## 3. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 3. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -34,7 +34,7 @@ Sondage : 12.3 → 12.6 (rang 2 → 2)
 
 Sondage : 12.6 → 12.7 (rang 2 → 2)
 
-## 4. Les maires offrent une semaine de terrain — _pre_campaign/party_
+## 4. Les maires offrent une semaine de terrain  — _pre_campaign/party_
 
 Vingt maires Horizons proposent d’accueillir la candidate dans leurs services municipaux et leurs entreprises locales. Ils demandent des échanges de travail sans estrade ni discours national préécrit.
 
@@ -44,7 +44,7 @@ Vingt maires Horizons proposent d’accueillir la candidate dans leurs services 
 
 Sondage : 12.7 → 11.1 (rang 2 → 5)
 
-## 5. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 5. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -54,7 +54,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 11.1 → 12.9 (rang 5 → 2)
 
-## 6. Horizons doit sortir de l’attente — _pre_campaign/party_
+## 6. Horizons doit sortir de l’attente  — _pre_campaign/party_
 
 Le réseau d’élus veut une campagne fondée sur la gestion locale, tandis que l’équipe d’Agathe Belcourt réclame une offre présidentielle distincte de Renaissance et des Républicains.
 
@@ -64,7 +64,7 @@ Le réseau d’élus veut une campagne fondée sur la gestion locale, tandis que
 
 Sondage : 12.9 → 12.9 (rang 2 → 2)
 
-## 7. Les sections refusent le kit national — _pre_campaign/internal_
+## 7. Les sections refusent le kit national  — _pre_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -74,7 +74,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 12.9 → 13 (rang 2 → 1)
 
-## 8. La une vous prête un tournant — _campaign/media_
+## 8. La une vous prête un tournant  — _campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -84,7 +84,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 13 → 11.5 (rang 1 → 4)
 
-## 9. Le comité bloque le chapitre sécurité — _campaign/internal_
+## 9. Le comité bloque le chapitre sécurité  — _campaign/internal_
 
 Le comité du programme se partage exactement en deux sur les pouvoirs de police municipale. Sans arbitrage, le chapitre sécurité ne pourra pas être imprimé ; une décision présidentielle risque pourtant de nier six mois de travail collectif.
 
@@ -94,7 +94,7 @@ Le comité du programme se partage exactement en deux sur les pouvoirs de police
 
 Sondage : 11.5 → 13.5 (rang 4 → 1)
 
-## 10. La ligne de départ des retraites — _campaign/program_
+## 10. La ligne de départ des retraites  — _campaign/program_
 
 Votre convention sociale doit arrêter une règle lisible sur les retraites. Les carrières longues, l’espérance de vie et le financement rendent toute promesse uniforme fragile, mais reporter l’arbitrage laisserait vos adversaires écrire votre position.
 
@@ -114,7 +114,7 @@ Une note interne propose d’attaquer un parti voisin pour capter son électorat
 
 Sondage : 13.8 → 13.7 (rang 1 → 1)
 
-## 12. La CFDT veut des garanties écrites — _campaign/alliance_
+## 12. La CFDT veut des garanties écrites  — _campaign/alliance_
 
 La CFDT ne donnera pas de consigne de vote, mais propose de qualifier publiquement votre méthode de dialogue social si vous garantissez une négociation avant toute réforme des retraites et du travail.
 
@@ -124,7 +124,7 @@ La CFDT ne donnera pas de consigne de vote, mais propose de qualifier publiqueme
 
 Sondage : 13.7 → 12.1 (rang 1 → 2)
 
-## 13. Le face-à-face avec les syndicats — _campaign/campaign_
+## 13. Le face-à-face avec les syndicats  — _campaign/campaign_
 
 La CGT, la CFDT et Force ouvrière vous reçoivent séparément le même jour. Toutes demandent votre méthode sur les salaires, mais divergent sur la conférence sociale et la loi.
 
@@ -134,7 +134,7 @@ La CGT, la CFDT et Force ouvrière vous reçoivent séparément le même jour. T
 
 Sondage : 12.1 → 13.7 (rang 2 → 1)
 
-## 14. Le contrat du conseiller est publié — _campaign/scandal_
+## 14. Le contrat du conseiller est publié  — _campaign/scandal_
 
 Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une clause prévoit une prime si la campagne dépasse un seuil de voix, mécanisme légal dans l’univers du jeu mais politiquement difficile à défendre.
 
@@ -144,7 +144,7 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 Sondage : 13.7 → 13.7 (rang 1 → 1)
 
-## 15. Un soutien éditorial encombrant — _campaign/media_
+## 15. Un soutien éditorial encombrant  — _campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -154,7 +154,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 13.7 → 13.6 (rang 1 → 1)
 
-## 16. Le slogan divise le siège — _official_campaign/campaign_
+## 16. Le slogan divise le siège  — _official_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -164,7 +164,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 13.6 → 12.1 (rang 1 → 3)
 
-## 17. Deux heures sans élément de langage — _official_campaign/media_
+## 17. Deux heures sans élément de langage  — _official_campaign/media_
 
 France Culture propose un entretien de deux heures sur votre parcours, vos lectures et trois désaccords internes au programme. Le temps long peut donner de l’épaisseur à la candidature, mais rend toute contradiction facile à isoler ensuite.
 
@@ -174,7 +174,7 @@ France Culture propose un entretien de deux heures sur votre parcours, vos lectu
 
 Sondage : 12.1 → 13.7 (rang 3 → 1)
 
-## 18. Neuf candidats face au climat — _official_campaign/debate_
+## 18. Neuf candidats face au climat  — _official_campaign/debate_
 
 Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure climatique abandonnée si elle échoue au contrôle de financement. Les réponses précédentes se ressemblent et votre tour arrive après trois promesses de rénovation.
 
@@ -184,7 +184,7 @@ Dans le débat réunissant neuf candidatures, chacun doit nommer une mesure clim
 
 Sondage : 13.7 → 13.8 (rang 1 → 1)
 
-## 19. La présidence que vous proposez — _official_campaign/program_
+## 19. La présidence que vous proposez  — _official_campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -194,7 +194,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 13.8 → 13.7 (rang 1 → 1)
 
-## 20. Un cadre écologiste tenté par un ralliement — _official_campaign/alliance_
+## 20. Un cadre écologiste tenté par un ralliement  — _official_campaign/alliance_
 
 Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’elle serait ouverte à rejoindre une dynamique plus large si votre offre programmatique évolue sur un point précis.
 
@@ -204,7 +204,7 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 Sondage : 13.7 → 11.2 (rang 1 → 5)
 
-## 21. Ce que l’école doit transmettre — _official_campaign/program_
+## 21. Ce que l’école doit transmettre  — _official_campaign/program_
 
 Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
@@ -214,7 +214,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 Sondage : 11.2 → 13.4 (rang 5 → 1)
 
-## 22. La croissance simulée se retourne — _official_campaign/world_
+## 22. La croissance simulée se retourne  — _official_campaign/world_
 
 Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
 
@@ -224,7 +224,7 @@ Dans la chronologie fictive de la partie, l’Insee publie un indicateur signala
 
 Sondage : 13.4 → 13.4 (rang 1 → 1)
 
-## 23. Le gaz double en une semaine — _official_campaign/world_
+## 23. Le gaz double en une semaine  — _official_campaign/world_
 
 Dans l’économie simulée, le prix de gros du gaz double après une rupture d’approvisionnement. La Commission européenne coordonne les stocks et les ménages craignent déjà leur prochaine facture. Votre programme énergétique doit répondre à l’urgence sans renier sa trajectoire.
 
@@ -234,7 +234,7 @@ Dans l’économie simulée, le prix de gros du gaz double après une rupture d�
 
 Sondage : 13.4 → 13.6 (rang 1 → 1)
 
-## 24. Trois villages sans médecin — _between_rounds/campaign_
+## 24. Trois villages sans médecin  — _between_rounds/campaign_
 
 Dans le Grand Est, trois maires partagent un cabinet vide et des délais de consultation croissants. Ils veulent savoir si vous contraignez l’installation, financez une équipe mobile ou déléguez davantage.
 
@@ -244,7 +244,7 @@ Dans le Grand Est, trois maires partagent un cabinet vide et des délais de cons
 
 Sondage : 13.6 → 13.6 (rang 1 → 1)
 
-## 25. Deux points davance à cinq jours — _between_rounds/between_rounds_
+## 25. Deux points davance à cinq jours  — _between_rounds/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -254,7 +254,7 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 Sondage : 13.6 → 13.6 (rang 1 → 1)
 
-## 26. Le centre droit négocie son élargissement — _between_rounds/party_
+## 26. Le centre droit négocie son élargissement  — _between_rounds/party_
 
 Qualifiée, Agathe Belcourt doit réunir Renaissance et Les Républicains sans apparaître prisonnière d’un accord d’appareils. Les soutiens réclament des garanties différentes sur l’Europe et les finances.
 
@@ -264,7 +264,7 @@ Qualifiée, Agathe Belcourt doit réunir Renaissance et Les Républicains sans a
 
 Sondage : 13.6 → 13.6 (rang 1 → 1)
 
-## 27. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 27. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -274,7 +274,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 Sondage : 13.6 → 13.8 (rang 1 → 1)
 
-## 28. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 28. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -284,7 +284,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 13.8 → 12.3 (rang 1 → 2)
 
-## 29. La coalition réclame une annexe — _government_epilogue/between_rounds_
+## 29. La coalition réclame une annexe  — _government_epilogue/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -294,7 +294,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 Sondage : 12.3 → 14.1 (rang 2 → 1)
 
-## 30. Deux alliés réclament Bercy — _government_epilogue/government_
+## 30. Deux alliés réclament Bercy  — _government_epilogue/government_
 
 Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 
@@ -304,7 +304,7 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 Sondage : 14.1 → 13.8 (rang 1 → 1)
 
-## 31. Quinze ministres pour une coalition — _finished/government_
+## 31. Quinze ministres pour une coalition  — _finished/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 

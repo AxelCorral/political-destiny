@@ -4,7 +4,7 @@ Catégorie de sélection : **favori_en_difficulte**
 
 Score final : 51/100 · 1er tour : 12.6 · qualifié : false · vainqueur : false · signaux mémorables : 3
 
-## 1. Le contrat d’intégration, jusqu’où aller — _pre_campaign/program_
+## 1. Le contrat d’intégration, jusqu’où aller  — _pre_campaign/program_
 
 Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
 
@@ -14,7 +14,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 Sondage : 14.7 → 11.6 (rang 1 → 5)
 
-## 2. La photographie du quai vide — _pre_campaign/media_
+## 2. La photographie du quai vide  — _pre_campaign/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -24,7 +24,7 @@ Sondage : 14.7 → 11.6 (rang 1 → 5)
 
 Sondage : 11.6 → 11.6 (rang 5 → 5)
 
-## 3. LFI choisit entre mouvement et candidat — _pre_campaign/party_
+## 3. LFI choisit entre mouvement et candidat  — _pre_campaign/party_
 
 Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane Valmont demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.
 
@@ -34,7 +34,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 Sondage : 11.6 → 11.7 (rang 5 → 5)
 
-## 4. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 4. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -44,7 +44,7 @@ Sondage : 11.6 → 11.7 (rang 5 → 5)
 
 Sondage : 11.7 → 9 (rang 5 → 8)
 
-## 5. Une aciérie annonce sa fermeture — _pre_campaign/world_
+## 5. Une aciérie annonce sa fermeture  — _pre_campaign/world_
 
 Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit cents suppressions d’emplois après la perte d’un contrat européen. La direction cherche un repreneur et les salariés occupent le site sans violence.
 
@@ -54,7 +54,7 @@ Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit 
 
 Sondage : 9 → 12.1 (rang 8 → 2)
 
-## 6. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
+## 6. Les jeunes veulent leur propre campagne  — _pre_campaign/internal_
 
 Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent dêtre réduits à distribuer les tracts nationaux.
 
@@ -64,7 +64,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 Sondage : 12.1 → 12 (rang 2 → 3)
 
-## 7. Le PS propose trois engagements communs — _pre_campaign/alliance_
+## 7. Le PS propose trois engagements communs  — _pre_campaign/alliance_
 
 Le Parti socialiste propose à votre campagne une réunion publique sur les salaires, l’écologie et les institutions. Il demande en échange de ne plus être visé par vos appels au vote utile avant la dernière semaine.
 
@@ -74,7 +74,7 @@ Le Parti socialiste propose à votre campagne une réunion publique sur les sala
 
 Sondage : 12 → 12 (rang 3 → 3)
 
-## 8. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 8. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -84,7 +84,7 @@ Sondage : 12 → 12 (rang 3 → 3)
 
 Sondage : 12 → 10.7 (rang 3 → 8)
 
-## 9. Les tentes encerclent la préfecture — _campaign/world_
+## 9. Les tentes encerclent la préfecture  — _campaign/world_
 
 Dans un épisode fictif à Marseille, des associations installent des tentes autour de la préfecture pour demander des solutions d’hébergement et des logements pérennes. La mobilisation reste pacifique et doit durer jusqu’à une réponse écrite.
 
@@ -94,7 +94,7 @@ Dans un épisode fictif à Marseille, des associations installent des tentes aut
 
 Sondage : 10.7 → 12.2 (rang 8 → 2)
 
-## 10. La laïcité à l’épreuve du quotidien — _campaign/program_
+## 10. La laïcité à l’épreuve du quotidien  — _campaign/program_
 
 Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
@@ -104,7 +104,7 @@ Un incident dans un établissement scolaire relance le débat sur l’applicatio
 
 Sondage : 12.2 → 12.3 (rang 2 → 2)
 
-## 11. La Sixième République doit prendre forme — _campaign/party_
+## 11. La Sixième République doit prendre forme  — _campaign/party_
 
 Les militants veulent replacer la Sixième République au cœur de la campagne. Le chapitre actuel promet une constituante sans préciser le mode de scrutin, la durée du processus ni les pouvoirs maintenus pendant la transition.
 
@@ -114,7 +114,7 @@ Les militants veulent replacer la Sixième République au cœur de la campagne. 
 
 Sondage : 12.3 → 12.7 (rang 2 → 1)
 
-## 12. La pluie emporte la tournée — _campaign/campaign_
+## 12. La pluie emporte la tournée  — _campaign/campaign_
 
 Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
 
@@ -124,7 +124,7 @@ Des pluies intenses rendent deux routes impraticables et le meeting en plein air
 
 Sondage : 12.7 → 9 (rang 1 → 8)
 
-## 13. Un rival corrige votre ligne — _campaign/internal_
+## 13. Un rival corrige votre ligne  — _campaign/internal_
 
 Dans Le Figaro, un responsable fictif de votre parti affirme que votre proposition fiscale n’est pas la position collective. Il ne remet pas votre candidature en cause, mais demande un vote du bureau dès le lendemain.
 
@@ -134,7 +134,7 @@ Dans Le Figaro, un responsable fictif de votre parti affirme que votre propositi
 
 Sondage : 9 → 12.8 (rang 8 → 1)
 
-## 14. Le car tombe en panne — _campaign/campaign_
+## 14. Le car tombe en panne  — _campaign/campaign_
 
 À quatre-vingts kilomètres du prochain rendez-vous, le car de campagne s’immobilise. Une gare, une visioconférence et un café associatif offrent trois manières de sauver la journée.
 
@@ -144,7 +144,7 @@ Sondage : 9 → 12.8 (rang 8 → 1)
 
 Sondage : 12.8 → 12.7 (rang 1 → 1)
 
-## 15. La périphérie demande un calendrier — _campaign/campaign_
+## 15. La périphérie demande un calendrier  — _campaign/campaign_
 
 Dans une commune périurbaine d’Occitanie, les habitants relient carburant, temps de trajet et fermeture des guichets. Ils refusent que le déplacement se termine par une promesse générale.
 
@@ -154,7 +154,7 @@ Dans une commune périurbaine d’Occitanie, les habitants relient carburant, te
 
 Sondage : 12.7 → 12.6 (rang 1 → 1)
 
-## 16. Le siège arrive à saturation — _official_campaign/internal_
+## 16. Le siège arrive à saturation  — _official_campaign/internal_
 
 Trois responsables salariés et plusieurs bénévoles signalent des journées de quinze heures. Deux erreurs d’agenda ont déjà été rattrapées. Réduire le rythme protège l’équipe mais oblige à abandonner des déplacements attendus.
 
@@ -164,7 +164,7 @@ Trois responsables salariés et plusieurs bénévoles signalent des journées de
 
 Sondage : 12.6 → 12.8 (rang 1 → 1)
 
-## 17. La question venue de Mayotte — _official_campaign/debate_
+## 17. La question venue de Mayotte  — _official_campaign/debate_
 
 Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
 
@@ -174,7 +174,7 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 Sondage : 12.8 → 12.9 (rang 1 → 1)
 
-## 18. Le micro resté ouvert — _official_campaign/media_
+## 18. Le micro resté ouvert  — _official_campaign/media_
 
 Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
@@ -194,7 +194,7 @@ Après plusieurs semaines sans repos, le médecin fictif de la campagne diagnost
 
 Sondage : 12.7 → 12.7 (rang 1 → 1)
 
-## 20. Contrôles aux frontières : quels moyens — _official_campaign/program_
+## 20. Contrôles aux frontières : quels moyens  — _official_campaign/program_
 
 Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
 
@@ -204,7 +204,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 Sondage : 12.7 → 11.9 (rang 1 → 3)
 
-## 21. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
+## 21. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
 Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
@@ -214,7 +214,7 @@ Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et t
 
 Sondage : 11.9 → 11.8 (rang 3 → 3)
 
-## 22. Une crise ferme un détroit — _official_campaign/world_
+## 22. Une crise ferme un détroit  — _official_campaign/world_
 
 Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France na pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.
 
@@ -224,7 +224,7 @@ Dans la géopolitique fictive de la partie, une confrontation entre navires chin
 
 Sondage : 11.8 → 11.8 (rang 3 → 3)
 
-## 23. Une ligne du CV est fausse — _official_campaign/scandal_
+## 23. Une ligne du CV est fausse  — _official_campaign/scandal_
 
 Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.
 
@@ -234,7 +234,7 @@ Votre responsable fictif de la transition énergétique a indiqué avoir dirigé
 
 Sondage : 11.8 → 11.9 (rang 3 → 3)
 
-## 24. La une vous prête un tournant — _between_rounds/media_
+## 24. La une vous prête un tournant  — _between_rounds/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -244,7 +244,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 11.9 → 12 (rang 3 → 3)
 
-## 25. Votre voix reste décisive — _finished/between_rounds_
+## 25. Votre voix reste décisive  — _finished/between_rounds_
 
 Éliminé du premier tour, vous pouvez soutenir le finaliste fictif le plus proche, négocier des garanties ou rester indépendant. Vos électeurs ne sont pas une propriété : la manière de donner la consigne comptera autant que son sens.
 

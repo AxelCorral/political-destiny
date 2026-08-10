@@ -4,7 +4,7 @@ Catégorie de sélection : **bottom10_fun**
 
 Score final : 60/100 · 1er tour : 11.3 · qualifié : false · vainqueur : false · signaux mémorables : 1
 
-## 1. Ce que l’école doit transmettre — _pre_campaign/program_
+## 1. Ce que l’école doit transmettre  — _pre_campaign/program_
 
 Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
@@ -14,7 +14,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 Sondage : 4.7 → 7 (rang 9 → 9)
 
-## 2. Le siège coûte trop cher — _pre_campaign/internal_
+## 2. Le siège coûte trop cher  — _pre_campaign/internal_
 
 Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
 
@@ -24,7 +24,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 Sondage : 7 → 7.1 (rang 9 → 9)
 
-## 3. Le prochain budget de la santé — _pre_campaign/program_
+## 3. Le prochain budget de la santé  — _pre_campaign/program_
 
 Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
 
@@ -34,7 +34,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 Sondage : 7.1 → 7.5 (rang 9 → 9)
 
-## 4. Reconquête choisit influence ou qualification — _pre_campaign/party_
+## 4. Reconquête choisit influence ou qualification  — _pre_campaign/party_
 
 Les militants veulent déplacer le débat public, tandis que l’équipe de Victor d’Aubrac affirme pouvoir atteindre le second tour. Le choix modifie le ton, les cibles et l’usage des ressources limitées.
 
@@ -44,7 +44,7 @@ Les militants veulent déplacer le débat public, tandis que l’équipe de Vict
 
 Sondage : 7.5 → 5.2 (rang 9 → 9)
 
-## 5. Le référendum migratoire doit être cadré — _pre_campaign/party_
+## 5. Le référendum migratoire doit être cadré  — _pre_campaign/party_
 
 La campagne promet un référendum sur la politique migratoire. Les juristes demandent une question, un fondement constitutionnel et une méthode qui ne transforme pas tout désaccord en crise institutionnelle.
 
@@ -54,7 +54,7 @@ La campagne promet un référendum sur la politique migratoire. Les juristes dem
 
 Sondage : 5.2 → 8.1 (rang 9 → 9)
 
-## 6. Le fauteuil libéré au vingt heures — _pre_campaign/media_
+## 6. Le fauteuil libéré au vingt heures  — _pre_campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -64,7 +64,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 Sondage : 8.1 → 8 (rang 9 → 9)
 
-## 7. Vingt-quatre heures sans caméra — _pre_campaign/media_
+## 7. Vingt-quatre heures sans caméra  — _pre_campaign/media_
 
 Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
 
@@ -74,7 +74,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 Sondage : 8 → 7.8 (rang 9 → 9)
 
-## 8. L’atelier industriel de Saint-Nazaire — _campaign/campaign_
+## 8. L’atelier industriel de Saint-Nazaire  — _campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -84,7 +84,7 @@ Sondage : 8 → 7.8 (rang 9 → 9)
 
 Sondage : 7.8 → 7.1 (rang 9 → 9)
 
-## 9. Le direct des questions citoyennes — _campaign/media_
+## 9. Le direct des questions citoyennes  — _campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -94,7 +94,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 7.1 → 8.3 (rang 9 → 9)
 
-## 10. La périphérie demande un calendrier — _campaign/campaign_
+## 10. La périphérie demande un calendrier  — _campaign/campaign_
 
 Dans une commune périurbaine d’Occitanie, les habitants relient carburant, temps de trajet et fermeture des guichets. Ils refusent que le déplacement se termine par une promesse générale.
 
@@ -104,7 +104,7 @@ Dans une commune périurbaine d’Occitanie, les habitants relient carburant, te
 
 Sondage : 8.3 → 8.6 (rang 9 → 9)
 
-## 11. La Garonne sort de son lit — _campaign/world_
+## 11. La Garonne sort de son lit  — _campaign/world_
 
 Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
 
@@ -114,7 +114,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 Sondage : 8.6 → 8.7 (rang 9 → 9)
 
-## 12. Le forum étudiant refuse les slogans — _campaign/campaign_
+## 12. Le forum étudiant refuse les slogans  — _campaign/campaign_
 
 À Rennes, quatre associations étudiantes exigent une mesure sur le logement, une sur les bourses et une réponse sur la sélection. Elles publieront votre intervention intégrale.
 
@@ -124,7 +124,7 @@ Sondage : 8.6 → 8.7 (rang 9 → 9)
 
 Sondage : 8.7 → 5.5 (rang 9 → 9)
 
-## 13. Le marché sous pression — _campaign/campaign_
+## 13. Le marché sous pression  — _campaign/campaign_
 
 Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
 
@@ -134,7 +134,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 Sondage : 5.5 → 8.9 (rang 9 → 9)
 
-## 14. Les comités numériques cherchent du terrain — _campaign/party_
+## 14. Les comités numériques cherchent du terrain  — _campaign/party_
 
 Les groupes en ligne mobilisent rapidement mais disposent de peu de permanences. Des responsables proposent de convertir leur audience en équipes locales autour de réunions publiques mensuelles.
 
@@ -144,7 +144,7 @@ Les groupes en ligne mobilisent rapidement mais disposent de peu de permanences.
 
 Sondage : 8.9 → 9 (rang 9 → 9)
 
-## 15. Un cadre écologiste tenté par un ralliement — _campaign/alliance_
+## 15. Un cadre écologiste tenté par un ralliement  — _campaign/alliance_
 
 Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’elle serait ouverte à rejoindre une dynamique plus large si votre offre programmatique évolue sur un point précis.
 
@@ -154,7 +154,7 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 Sondage : 9 → 9 (rang 9 → 9)
 
-## 16. La France à cinquante degrés — _official_campaign/program_
+## 16. La France à cinquante degrés  — _official_campaign/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -164,7 +164,7 @@ Sondage : 9 → 9 (rang 9 → 9)
 
 Sondage : 9 → 7.4 (rang 9 → 9)
 
-## 17. Les sections refusent le kit national — _official_campaign/internal_
+## 17. Les sections refusent le kit national  — _official_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -174,7 +174,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 7.4 → 9.3 (rang 9 → 9)
 
-## 18. Une motion réclame un congrès — _official_campaign/internal_
+## 18. Une motion réclame un congrès  — _official_campaign/internal_
 
 Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.
 
@@ -184,7 +184,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 Sondage : 9.3 → 9.6 (rang 9 → 9)
 
-## 19. Une contradiction chez le camp centriste — _official_campaign/debate_
+## 19. Une contradiction chez le camp centriste  — _official_campaign/debate_
 
 Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
@@ -194,7 +194,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 Sondage : 9.6 → 9.8 (rang 9 → 8)
 
-## 20. Le meeting change de dispositif — _official_campaign/campaign_
+## 20. Le meeting change de dispositif  — _official_campaign/campaign_
 
 La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
 
@@ -204,7 +204,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 Sondage : 9.8 → 9.6 (rang 8 → 9)
 
-## 21. Le RN offre des désistements limités — _official_campaign/party_
+## 21. Le RN offre des désistements limités  — _official_campaign/party_
 
 Le RN propose des désistements dans quelques circonscriptions contre un pacte de non-agression présidentielle. Reconquête doit choisir entre influence future, autonomie et recherche d’un vote utile.
 
@@ -214,7 +214,7 @@ Le RN propose des désistements dans quelques circonscriptions contre un pacte d
 
 Sondage : 9.6 → 10 (rang 9 → 8)
 
-## 22. La minute qui vous appartient — _official_campaign/debate_
+## 22. La minute qui vous appartient  — _official_campaign/debate_
 
 À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
 
@@ -224,7 +224,7 @@ Sondage : 9.6 → 10 (rang 9 → 8)
 
 Sondage : 10 → 10.2 (rang 8 → 8)
 
-## 23. La loi migratoire du programme — _official_campaign/program_
+## 23. La loi migratoire du programme  — _official_campaign/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -234,7 +234,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 Sondage : 10.2 → 10.3 (rang 8 → 8)
 
-## 24. Un fichier militant sort du siège — _between_rounds/scandal_
+## 24. Un fichier militant sort du siège  — _between_rounds/scandal_
 
 Un bénévole signale qu’un tableau de contacts a été partagé sur un lien sans mot de passe pendant six heures. Il contient des courriels et des préférences de bénévolat, mais aucune donnée bancaire ni pièce d’identité.
 
@@ -244,7 +244,7 @@ Un bénévole signale qu’un tableau de contacts a été partagé sur un lien s
 
 Sondage : 10.3 → 10.3 (rang 8 → 8)
 
-## 25. Aucun finaliste ne porte votre ligne — _finished/between_rounds_
+## 25. Aucun finaliste ne porte votre ligne  — _finished/between_rounds_
 
 Les deux finalistes fictifs sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre lun dentre eux engage malgré tout votre responsabilité.
 

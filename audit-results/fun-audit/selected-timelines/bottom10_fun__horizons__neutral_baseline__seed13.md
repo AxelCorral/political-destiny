@@ -4,7 +4,7 @@ Catégorie de sélection : **bottom10_fun**
 
 Score final : 89/100 · 1er tour : 15.1 · 2nd tour : 57.3 · qualifié : true · vainqueur : true · signaux mémorables : 0
 
-## 1. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 1. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -14,7 +14,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 11.9 → 12.3 (rang 3 → 2)
 
-## 2. Un donateur demande un rendez-vous — _pre_campaign/internal_
+## 2. Un donateur demande un rendez-vous  — _pre_campaign/internal_
 
 Un entrepreneur fictif ayant versé un don dans les limites légales sollicite une rencontre privée sur votre fiscalité. Le rendez-vous est autorisé, mais son calendrier et sa confidentialité peuvent nourrir un soupçon d’influence.
 
@@ -24,7 +24,7 @@ Un entrepreneur fictif ayant versé un don dans les limites légales sollicite u
 
 Sondage : 12.3 → 12.3 (rang 2 → 2)
 
-## 3. Les Républicains proposent un pacte local — _pre_campaign/party_
+## 3. Les Républicains proposent un pacte local  — _pre_campaign/party_
 
 Des présidents de département LR proposent des comités communs sur les finances locales et la sécurité. Ils refusent toutefois tout soutien présidentiel avant de connaître les rapports de force.
 
@@ -34,7 +34,7 @@ Des présidents de département LR proposent des comités communs sur les financ
 
 Sondage : 12.3 → 12.2 (rang 2 → 2)
 
-## 4. Douze députés offrent leur expérience — _pre_campaign/alliance_
+## 4. Douze députés offrent leur expérience  — _pre_campaign/alliance_
 
 Douze parlementaires de sensibilités proches proposent de soutenir votre candidature sans quitter leur parti. Ils demandent une conférence hebdomadaire sur les institutions et souhaitent pouvoir signaler publiquement leurs désaccords.
 
@@ -44,7 +44,7 @@ Douze parlementaires de sensibilités proches proposent de soutenir votre candid
 
 Sondage : 12.2 → 13.5 (rang 2 → 1)
 
-## 5. Les maires offrent une semaine de terrain — _pre_campaign/party_
+## 5. Les maires offrent une semaine de terrain  — _pre_campaign/party_
 
 Vingt maires Horizons proposent d’accueillir la candidate dans leurs services municipaux et leurs entreprises locales. Ils demandent des échanges de travail sans estrade ni discours national préécrit.
 
@@ -54,7 +54,7 @@ Vingt maires Horizons proposent d’accueillir la candidate dans leurs services 
 
 Sondage : 13.5 → 12.5 (rang 1 → 2)
 
-## 6. La une vous prête un tournant — _pre_campaign/media_
+## 6. La une vous prête un tournant  — _pre_campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -64,7 +64,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 12.5 → 12.8 (rang 2 → 2)
 
-## 7. Le direct des questions citoyennes — _pre_campaign/media_
+## 7. Le direct des questions citoyennes  — _pre_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -74,7 +74,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 12.8 → 13.1 (rang 2 → 1)
 
-## 8. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 8. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -84,7 +84,7 @@ Sondage : 12.8 → 13.1 (rang 2 → 1)
 
 Sondage : 13.1 → 13.1 (rang 1 → 1)
 
-## 9. Qui financera les priorités — _campaign/program_
+## 9. Qui financera les priorités  — _campaign/program_
 
 Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équipe doit choisir une recette avant la publication du programme : fiscalité du patrimoine, réduction de niches, taxe de consommation ou économies supplémentaires.
 
@@ -94,7 +94,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 Sondage : 13.1 → 13.5 (rang 1 → 1)
 
-## 10. Trois villages sans médecin — _campaign/campaign_
+## 10. Trois villages sans médecin  — _campaign/campaign_
 
 Dans le Grand Est, trois maires partagent un cabinet vide et des délais de consultation croissants. Ils veulent savoir si vous contraignez l’installation, financez une équipe mobile ou déléguez davantage.
 
@@ -104,7 +104,7 @@ Dans le Grand Est, trois maires partagent un cabinet vide et des délais de cons
 
 Sondage : 13.5 → 13.8 (rang 1 → 1)
 
-## 11. Horizons doit sortir de l’attente — _campaign/party_
+## 11. Horizons doit sortir de l’attente  — _campaign/party_
 
 Le réseau d’élus veut une campagne fondée sur la gestion locale, tandis que l’équipe d’Agathe Belcourt réclame une offre présidentielle distincte de Renaissance et des Républicains.
 
@@ -114,7 +114,7 @@ Le réseau d’élus veut une campagne fondée sur la gestion locale, tandis que
 
 Sondage : 13.8 → 14.2 (rang 1 → 1)
 
-## 12. Une nuit avec les urgences — _campaign/campaign_
+## 12. Une nuit avec les urgences  — _campaign/campaign_
 
 À l’hôpital de Dijon, les soignants acceptent votre présence sans caméra dans les services. Au matin, ils demandent quelle décision concrète vous annoncerez et avec quel calendrier.
 
@@ -124,7 +124,7 @@ Sondage : 13.8 → 14.2 (rang 1 → 1)
 
 Sondage : 14.2 → 13.8 (rang 1 → 1)
 
-## 13. Le marché sous pression — _campaign/campaign_
+## 13. Le marché sous pression  — _campaign/campaign_
 
 Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
 
@@ -134,7 +134,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 Sondage : 13.8 → 14.4 (rang 1 → 1)
 
-## 14. La règle de dépense rencontre les communes — _campaign/party_
+## 14. La règle de dépense rencontre les communes  — _campaign/party_
 
 Le programme limite la progression de la dépense publique, mais les maires réclament des investissements pour l’eau, les écoles et les transports. La règle nationale doit intégrer leurs projets.
 
@@ -144,7 +144,7 @@ Le programme limite la progression de la dépense publique, mais les maires réc
 
 Sondage : 14.4 → 14.4 (rang 1 → 1)
 
-## 15. Le prochain budget de la santé — _campaign/program_
+## 15. Le prochain budget de la santé  — _campaign/program_
 
 Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
 
@@ -154,7 +154,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 Sondage : 14.4 → 14.5 (rang 1 → 1)
 
-## 16. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
+## 16. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
 Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
@@ -164,7 +164,7 @@ Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et t
 
 Sondage : 14.5 → 13.5 (rang 1 → 1)
 
-## 17. La question de la fin de vie — _official_campaign/program_
+## 17. La question de la fin de vie  — _official_campaign/program_
 
 Une proposition de loi sur la fin de vie revient devant le Parlement pendant la campagne. Les associations de patients, les soignants et les cultes attendent une position claire, et le silence serait lui-même interprété comme un choix.
 
@@ -174,7 +174,7 @@ Une proposition de loi sur la fin de vie revient devant le Parlement pendant la 
 
 Sondage : 13.5 → 14.9 (rang 1 → 1)
 
-## 18. La croissance simulée se retourne — _official_campaign/world_
+## 18. La croissance simulée se retourne  — _official_campaign/world_
 
 Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
 
@@ -184,7 +184,7 @@ Dans la chronologie fictive de la partie, l’Insee publie un indicateur signala
 
 Sondage : 14.9 → 15.2 (rang 1 → 1)
 
-## 19. Un fichier militant sort du siège — _official_campaign/scandal_
+## 19. Un fichier militant sort du siège  — _official_campaign/scandal_
 
 Un bénévole signale qu’un tableau de contacts a été partagé sur un lien sans mot de passe pendant six heures. Il contient des courriels et des préférences de bénévolat, mais aucune donnée bancaire ni pièce d’identité.
 
@@ -194,7 +194,7 @@ Un bénévole signale qu’un tableau de contacts a été partagé sur un lien s
 
 Sondage : 15.2 → 15.2 (rang 1 → 1)
 
-## 20. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
+## 20. Une chanteuse veut soutenir la campagne  — _official_campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -204,7 +204,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 Sondage : 15.2 → 18.7 (rang 1 → 1)
 
-## 21. Deux heures sans élément de langage — _official_campaign/media_
+## 21. Deux heures sans élément de langage  — _official_campaign/media_
 
 France Culture propose un entretien de deux heures sur votre parcours, vos lectures et trois désaccords internes au programme. Le temps long peut donner de l’épaisseur à la candidature, mais rend toute contradiction facile à isoler ensuite.
 
@@ -214,7 +214,7 @@ France Culture propose un entretien de deux heures sur votre parcours, vos lectu
 
 Sondage : 18.7 → 15.3 (rang 1 → 1)
 
-## 22. Le salaire net au centre — _official_campaign/program_
+## 22. Le salaire net au centre  — _official_campaign/program_
 
 L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La conférence économique attend votre mécanisme salarial : hausse du minimum légal, négociations de branche, baisse de cotisations ou prime ponctuelle.
 
@@ -224,7 +224,7 @@ L’inflation ralentit sans effacer les pertes de pouvoir d’achat. La confére
 
 Sondage : 15.3 → 15.5 (rang 1 → 1)
 
-## 23. Le sketch du « comité Excel » — _official_campaign/party_
+## 23. Le sketch du « comité Excel »  — _official_campaign/party_
 
 Un programme satirique tourne Horizons en dérision : des cadres imaginaires y arbitrent chaque décision de campagne à coups de tableurs, sans jamais s’émouvoir de rien. Le clip circule bien au-delà de son public habituel.
 
@@ -234,7 +234,7 @@ Un programme satirique tourne Horizons en dérision : des cadres imaginaires y a
 
 Sondage : 15.5 → 15.9 (rang 1 → 1)
 
-## 24. Contrôles aux frontières : quels moyens — _between_rounds/program_
+## 24. Contrôles aux frontières : quels moyens  — _between_rounds/program_
 
 Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
 
@@ -244,7 +244,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 Sondage : 15.9 → 16.1 (rang 1 → 1)
 
-## 25. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 25. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -254,7 +254,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 Sondage : 16.1 → 16.4 (rang 1 → 1)
 
-## 26. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 26. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -264,7 +264,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 Sondage : 16.4 → 16.5 (rang 1 → 1)
 
-## 27. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 27. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -274,7 +274,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 Sondage : 16.5 → 17.1 (rang 1 → 1)
 
-## 28. Le centre droit négocie son élargissement — _between_rounds/party_
+## 28. Le centre droit négocie son élargissement  — _between_rounds/party_
 
 Qualifiée, Agathe Belcourt doit réunir Renaissance et Les Républicains sans apparaître prisonnière d’un accord d’appareils. Les soutiens réclament des garanties différentes sur l’Europe et les finances.
 
@@ -284,7 +284,7 @@ Qualifiée, Agathe Belcourt doit réunir Renaissance et Les Républicains sans a
 
 Sondage : 17.1 → 13.8 (rang 1 → 1)
 
-## 29. Le débat de lentre-deux-tours — _government_epilogue/between_rounds_
+## 29. Le débat de lentre-deux-tours  — _government_epilogue/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -294,7 +294,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 13.8 → 17.8 (rang 1 → 1)
 
-## 30. Quinze ministres pour une coalition — _government_epilogue/government_
+## 30. Quinze ministres pour une coalition  — _government_epilogue/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 
@@ -304,7 +304,7 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 Sondage : 17.8 → 17.8 (rang 1 → 1)
 
-## 31. Le choix de Matignon — _finished/government_
+## 31. Le choix de Matignon  — _finished/government_
 
 Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 

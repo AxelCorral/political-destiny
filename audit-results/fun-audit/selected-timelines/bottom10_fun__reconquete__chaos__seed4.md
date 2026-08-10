@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **bottom10_fun**
 
-Score final : 58/100 · 1er tour : 11 · qualifié : false · vainqueur : false · signaux mémorables : 1
+Score final : 61/100 · 1er tour : 11.6 · qualifié : false · vainqueur : false · signaux mémorables : 1
 
-## 1. La France à cinquante degrés — _pre_campaign/program_
+## 1. La France à cinquante degrés  — _pre_campaign/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -14,7 +14,7 @@ Score final : 58/100 · 1er tour : 11 · qualifié : false · vainqueur : false 
 
 Sondage : 8.8 → 7.1 (rang 9 → 9)
 
-## 2. Le direct des questions citoyennes — _pre_campaign/media_
+## 2. Le direct des questions citoyennes  — _pre_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -24,7 +24,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 7.1 → 7.6 (rang 9 → 9)
 
-## 3. Le slogan divise le siège — _pre_campaign/campaign_
+## 3. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -34,7 +34,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 7.6 → 7.7 (rang 9 → 9)
 
-## 4. La Garonne sort de son lit — _pre_campaign/world_
+## 4. La Garonne sort de son lit  — _pre_campaign/world_
 
 Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
 
@@ -44,7 +44,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 Sondage : 7.7 → 6.5 (rang 9 → 9)
 
-## 5. Le référendum migratoire doit être cadré — _pre_campaign/party_
+## 5. Le référendum migratoire doit être cadré  — _pre_campaign/party_
 
 La campagne promet un référendum sur la politique migratoire. Les juristes demandent une question, un fondement constitutionnel et une méthode qui ne transforme pas tout désaccord en crise institutionnelle.
 
@@ -54,7 +54,7 @@ La campagne promet un référendum sur la politique migratoire. Les juristes dem
 
 Sondage : 6.5 → 7.6 (rang 9 → 9)
 
-## 6. Une motion réclame un congrès — _pre_campaign/internal_
+## 6. Une motion réclame un congrès  — _pre_campaign/internal_
 
 Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.
 
@@ -64,7 +64,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 Sondage : 7.6 → 7.4 (rang 9 → 9)
 
-## 7. Un virement suit un trajet complexe — _pre_campaign/scandal_
+## 7. Un virement suit un trajet complexe  — _pre_campaign/scandal_
 
 La banque de la campagne demande des précisions sur un don fictif reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.
 
@@ -74,7 +74,7 @@ La banque de la campagne demande des précisions sur un don fictif reçu après 
 
 Sondage : 7.4 → 7.3 (rang 9 → 9)
 
-## 8. Contrôles aux frontières : quels moyens — _campaign/program_
+## 8. Contrôles aux frontières : quels moyens  — _campaign/program_
 
 Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
 
@@ -84,7 +84,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 Sondage : 7.3 → 7 (rang 9 → 9)
 
-## 9. Six rédactions face au désert médical — _campaign/media_
+## 9. Six rédactions face au désert médical  — _campaign/media_
 
 À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
@@ -94,7 +94,7 @@ Sondage : 7.3 → 7 (rang 9 → 9)
 
 Sondage : 7 → 7.6 (rang 9 → 9)
 
-## 10. Cinq cents bénévoles sans mission — _campaign/internal_
+## 10. Cinq cents bénévoles sans mission  — _campaign/internal_
 
 Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit heures. Le siège peut les envoyer immédiatement sur le terrain, les former à distance ou les répartir auprès des sections qui manquent déjà d’encadrement.
 
@@ -104,7 +104,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 Sondage : 7.6 → 7.7 (rang 9 → 9)
 
-## 11. Une nuit avec les urgences — _campaign/campaign_
+## 11. Une nuit avec les urgences  — _campaign/campaign_
 
 À l’hôpital de Dijon, les soignants acceptent votre présence sans caméra dans les services. Au matin, ils demandent quelle décision concrète vous annoncerez et avec quel calendrier.
 
@@ -114,7 +114,7 @@ Sondage : 7.6 → 7.7 (rang 9 → 9)
 
 Sondage : 7.7 → 7.8 (rang 9 → 9)
 
-## 12. Le meeting change de dispositif — _campaign/campaign_
+## 12. Le meeting change de dispositif  — _campaign/campaign_
 
 La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
 
@@ -124,7 +124,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 Sondage : 7.8 → 10.2 (rang 9 → 8)
 
-## 13. La porte-parole annonce trop tôt — _campaign/internal_
+## 13. La porte-parole annonce trop tôt  — _campaign/internal_
 
 Une porte-parole fictive présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.
 
@@ -134,7 +134,7 @@ Une porte-parole fictive présente comme arbitrée une baisse de cotisations enc
 
 Sondage : 10.2 → 7.7 (rang 8 → 9)
 
-## 14. Reconquête choisit influence ou qualification — _campaign/party_
+## 14. Reconquête choisit influence ou qualification  — _campaign/party_
 
 Les militants veulent déplacer le débat public, tandis que l’équipe de Victor d’Aubrac affirme pouvoir atteindre le second tour. Le choix modifie le ton, les cibles et l’usage des ressources limitées.
 
@@ -144,7 +144,7 @@ Les militants veulent déplacer le débat public, tandis que l’équipe de Vict
 
 Sondage : 7.7 → 7.8 (rang 9 → 9)
 
-## 15. Le micro resté ouvert — _campaign/media_
+## 15. Le micro resté ouvert  — _campaign/media_
 
 Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
@@ -154,7 +154,7 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 Sondage : 7.8 → 7.6 (rang 9 → 9)
 
-## 16. Le RN offre des désistements limités — _official_campaign/party_
+## 16. Le RN offre des désistements limités  — _official_campaign/party_
 
 Le RN propose des désistements dans quelques circonscriptions contre un pacte de non-agression présidentielle. Reconquête doit choisir entre influence future, autonomie et recherche d’un vote utile.
 
@@ -164,7 +164,7 @@ Le RN propose des désistements dans quelques circonscriptions contre un pacte d
 
 Sondage : 7.6 → 8.2 (rang 9 → 9)
 
-## 17. La plateforme publique tombe en panne — _official_campaign/world_
+## 17. La plateforme publique tombe en panne  — _official_campaign/world_
 
 Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
@@ -174,7 +174,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 Sondage : 8.2 → 7.5 (rang 9 → 9)
 
-## 18. La photographie du quai vide — _official_campaign/media_
+## 18. La photographie du quai vide  — _official_campaign/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -184,7 +184,7 @@ Sondage : 8.2 → 7.5 (rang 9 → 9)
 
 Sondage : 7.5 → 7.4 (rang 9 → 9)
 
-## 19. Provoquer le favori en duel — _official_campaign/debate_
+## 19. Provoquer le favori en duel  — _official_campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -194,7 +194,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 Sondage : 7.4 → 7.4 (rang 9 → 9)
 
-## 20. Une minute sur les loyers — _official_campaign/media_
+## 20. Une minute sur les loyers  — _official_campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -204,17 +204,17 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 7.4 → 11.4 (rang 9 → 5)
 
-## 21. Vingt-quatre heures sans caméra — _official_campaign/media_
+## 21. La une vous prête un tournant  — _official_campaign/media_
 
-Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
+Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
-> **Choix retenu :** Annuler la pause et accepter la première invitation au journal de vingt heures [RISQUÉ]
+> **Choix retenu :** Convoquer dès le lendemain les syndicats pour négocier les contreparties de l’investissement [INSTITUTIONNEL]
 
-**La fatigue passe à l’écran** — Votre présence dément les rumeurs, mais deux réponses hésitantes montrent pourquoi la pause avait été proposée. La couverture se concentre sur la forme et l’équipe perd une journée de préparation.
+**La une ouvre une négociation sociale** — La CGT et la CFDT acceptent des rencontres séparées. Le processus ralentit votre annonce économique, mais il ancre les contreparties dans une négociation réelle plutôt que dans une formule de riposte.
 
-Sondage : 11.4 → 7.5 (rang 5 → 9)
+Sondage : 11.4 → 7.8 (rang 5 → 9)
 
-## 22. Les affiches manquent dans six villes — _official_campaign/campaign_
+## 22. Les affiches manquent dans six villes  — _official_campaign/campaign_
 
 Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus d’affiches. Le budget permet soit une impression d’urgence, soit une campagne numérique géolocalisée.
 
@@ -222,19 +222,9 @@ Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus
 
 **Le budget bascule vers les écrans** — Les vidéos locales touchent rapidement les moins de trente ans. Les militants chargés de l’affichage dénoncent cependant une décision prise sans leur avis.
 
-Sondage : 7.5 → 7.4 (rang 9 → 9)
+Sondage : 7.8 → 7.8 (rang 9 → 9)
 
-## 23. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
-
-Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
-
-> **Choix retenu :** Transformer le concert en forum sur le logement avec associations, étudiants et élus locaux [POPULAIRE]
-
-**La scène devient forum du logement** — L’artiste ouvre la soirée puis laisse les acteurs du terrain confronter vos propositions. La couverture est moins centrée sur sa notoriété et produit plusieurs engagements locaux crédibles.
-
-Sondage : 7.4 → 7.6 (rang 9 → 9)
-
-## 24. Deux cents maires demandent un contrat — _between_rounds/alliance_
+## 23. Deux cents maires demandent un contrat  — _official_campaign/alliance_
 
 Deux cents maires de communes rurales et périurbaines publient un appel sur les services publics, le logement et les finances locales. Ils soutiendront le candidat qui accepte un calendrier contrôlable plutôt qu’une liste de promesses.
 
@@ -242,9 +232,19 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 **Le programme national ne reçoit pas de cosignataire** — Vous évitez de promettre des crédits hors de votre cadrage et conservez une règle identique pour tous les territoires. Les maires donnent leur soutien à d’autres campagnes capables d’accepter leur méthode.
 
-Sondage : 7.6 → 7.7 (rang 9 → 9)
+Sondage : 7.8 → 7.8 (rang 9 → 9)
 
-## 25. Votre voix reste décisive — _finished/between_rounds_
+## 24. Le comité bloque le chapitre sécurité  — _between_rounds/internal_
+
+Le comité du programme se partage exactement en deux sur les pouvoirs de police municipale. Sans arbitrage, le chapitre sécurité ne pourra pas être imprimé ; une décision présidentielle risque pourtant de nier six mois de travail collectif.
+
+> **Choix retenu :** Proposer une expérimentation dans vingt villes avec évaluation indépendante avant généralisation [TECHNIQUE]
+
+**Vingt villes remplacent la décision nationale** — Les deux camps acceptent le test parce quil peut confirmer leur propre hypothèse. Le programme paraît prudent et applicable, sans donner de réponse nationale avant plusieurs années.
+
+Sondage : 7.8 → 8.2 (rang 9 → 9)
+
+## 25. Votre voix reste décisive  — _finished/between_rounds_
 
 Éliminé du premier tour, vous pouvez soutenir le finaliste fictif le plus proche, négocier des garanties ou rester indépendant. Vos électeurs ne sont pas une propriété : la manière de donner la consigne comptera autant que son sens.
 
@@ -252,4 +252,4 @@ Sondage : 7.6 → 7.7 (rang 9 → 9)
 
 **Trois mesures donnent un prix au ralliement** — Le contrat offre à vos électeurs une influence vérifiable et installe votre parti comme partenaire du prochain pouvoir. Vos adversaires parlent de marchandage et votre héritage dépendra du respect de ces mesures.
 
-Sondage : 7.7 → 7.7 (rang 9 → 9)
+Sondage : 8.2 → 8.3 (rang 9 → 9)

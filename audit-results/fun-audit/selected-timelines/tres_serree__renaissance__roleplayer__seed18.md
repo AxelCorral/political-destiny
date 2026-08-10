@@ -4,7 +4,7 @@ Catégorie de sélection : **tres_serree**
 
 Score final : 85/100 · 1er tour : 19.7 · 2nd tour : 52.6 · qualifié : true · vainqueur : true · signaux mémorables : 3
 
-## 1. L’immigration de travail, un choix économique assumé ou non — _pre_campaign/program_
+## 1. L’immigration de travail, un choix économique assumé ou non  — _pre_campaign/program_
 
 Des fédérations patronales de la restauration, du bâtiment et du soin à domicile alertent publiquement sur des postes non pourvus. Le sujet, distinct de l’asile déjà tranché, oblige à préciser votre ligne sur l’immigration de travail.
 
@@ -14,7 +14,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 Sondage : 16 → 12.2 (rang 1 → 2)
 
-## 2. Deux heures sans élément de langage — _pre_campaign/media_
+## 2. Deux heures sans élément de langage  — _pre_campaign/media_
 
 France Culture propose un entretien de deux heures sur votre parcours, vos lectures et trois désaccords internes au programme. Le temps long peut donner de l’épaisseur à la candidature, mais rend toute contradiction facile à isoler ensuite.
 
@@ -34,7 +34,7 @@ Une équipe documentaire de France 2 demande six semaines d’accès au siège, 
 
 Sondage : 12 → 12.1 (rang 2 → 2)
 
-## 4. Le fonds industriel européen se précise — _pre_campaign/party_
+## 4. Le fonds industriel européen se précise  — _pre_campaign/party_
 
 La campagne veut financer les technologies bas-carbone à l’échelle européenne. Les entreprises demandent un accès rapide, tandis que les partenaires veulent des contreparties sociales et une préférence de production.
 
@@ -44,7 +44,7 @@ La campagne veut financer les technologies bas-carbone à l’échelle européen
 
 Sondage : 12.1 → 12.4 (rang 2 → 2)
 
-## 5. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 5. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -54,7 +54,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 12.4 → 12.7 (rang 2 → 2)
 
-## 6. La plateforme publique tombe en panne — _pre_campaign/world_
+## 6. La plateforme publique tombe en panne  — _pre_campaign/world_
 
 Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
@@ -64,7 +64,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 Sondage : 12.7 → 13 (rang 2 → 1)
 
-## 7. Le déplacement en Guadeloupe engage — _pre_campaign/campaign_
+## 7. Le déplacement en Guadeloupe engage  — _pre_campaign/campaign_
 
 En Guadeloupe, les élus et associations placent l’eau potable, la vie chère et la continuité territoriale avant votre thème national. Ils demandent des compétences, un budget et une date.
 
@@ -74,7 +74,7 @@ En Guadeloupe, les élus et associations placent l’eau potable, la vie chère 
 
 Sondage : 13 → 13.1 (rang 1 → 1)
 
-## 8. Le fauteuil libéré au vingt heures — _campaign/media_
+## 8. Le fauteuil libéré au vingt heures  — _campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -84,7 +84,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 Sondage : 13.1 → 14.6 (rang 1 → 1)
 
-## 9. Renaissance choisit continuité ou rupture — _campaign/party_
+## 9. Renaissance choisit continuité ou rupture  — _campaign/party_
 
 Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’équipe de Maël Dargent réclame une autonomie visible. Le premier discours doit fixer la frontière sans renier les soutiens gouvernementaux.
 
@@ -104,7 +104,7 @@ La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois 
 
 Sondage : 13.2 → 13.3 (rang 1 → 1)
 
-## 11. Des notes de frais se mélangent — _campaign/scandal_
+## 11. Des notes de frais se mélangent  — _campaign/scandal_
 
 Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un déplacement de campagne et une réunion municipale. La somme est faible, mais la frontière entre les deux activités doit être rétablie avant le dépôt des comptes.
 
@@ -114,7 +114,7 @@ Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un d�
 
 Sondage : 13.3 → 13.4 (rang 1 → 1)
 
-## 12. La réforme des retraites revient — _campaign/party_
+## 12. La réforme des retraites revient  — _campaign/party_
 
 Les adversaires ramènent chaque entretien à l’âge de départ. Les équipes hésitent entre défendre la réforme, l’aménager pour les carrières longues ou ouvrir une négociation entièrement nouvelle.
 
@@ -124,7 +124,7 @@ Les adversaires ramènent chaque entretien à l’âge de départ. Les équipes 
 
 Sondage : 13.4 → 14.9 (rang 1 → 1)
 
-## 13. La France à cinquante degrés — _campaign/program_
+## 13. La France à cinquante degrés  — _campaign/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -134,7 +134,7 @@ Sondage : 13.4 → 14.9 (rang 1 → 1)
 
 Sondage : 14.9 → 14.1 (rang 1 → 1)
 
-## 14. La présidence que vous proposez — _campaign/program_
+## 14. La présidence que vous proposez  — _campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -144,7 +144,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 14.1 → 14.4 (rang 1 → 1)
 
-## 15. Une motion réclame un congrès — _campaign/internal_
+## 15. Une motion réclame un congrès  — _campaign/internal_
 
 Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.
 
@@ -154,7 +154,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 Sondage : 14.4 → 14.5 (rang 1 → 1)
 
-## 16. La question de la fin de vie — _official_campaign/program_
+## 16. La question de la fin de vie  — _official_campaign/program_
 
 Une proposition de loi sur la fin de vie revient devant le Parlement pendant la campagne. Les associations de patients, les soignants et les cultes attendent une position claire, et le silence serait lui-même interprété comme un choix.
 
@@ -164,7 +164,7 @@ Une proposition de loi sur la fin de vie revient devant le Parlement pendant la 
 
 Sondage : 14.5 → 14.3 (rang 1 → 1)
 
-## 17. La minute qui vous appartient — _official_campaign/debate_
+## 17. La minute qui vous appartient  — _official_campaign/debate_
 
 À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
 
@@ -174,7 +174,7 @@ Sondage : 14.5 → 14.3 (rang 1 → 1)
 
 Sondage : 14.3 → 15 (rang 1 → 1)
 
-## 18. La une vous prête un tournant — _official_campaign/media_
+## 18. La une vous prête un tournant  — _official_campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -184,7 +184,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 15 → 14.9 (rang 1 → 1)
 
-## 19. La CFDT veut des garanties écrites — _official_campaign/alliance_
+## 19. La CFDT veut des garanties écrites  — _official_campaign/alliance_
 
 La CFDT ne donnera pas de consigne de vote, mais propose de qualifier publiquement votre méthode de dialogue social si vous garantissez une négociation avant toute réforme des retraites et du travail.
 
@@ -194,7 +194,7 @@ La CFDT ne donnera pas de consigne de vote, mais propose de qualifier publiqueme
 
 Sondage : 14.9 → 14.9 (rang 1 → 1)
 
-## 20. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
+## 20. Une chanteuse veut soutenir la campagne  — _official_campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -204,7 +204,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 Sondage : 14.9 → 16.3 (rang 1 → 1)
 
-## 21. Les jeunes veulent leur propre campagne — _official_campaign/internal_
+## 21. Les jeunes veulent leur propre campagne  — _official_campaign/internal_
 
 Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent dêtre réduits à distribuer les tracts nationaux.
 
@@ -214,7 +214,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 Sondage : 16.3 → 15.1 (rang 1 → 1)
 
-## 22. Provoquer le favori en duel — _official_campaign/debate_
+## 22. Provoquer le favori en duel  — _official_campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -224,7 +224,7 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 Sondage : 15.1 → 15.2 (rang 1 → 1)
 
-## 23. Une contradiction chez le camp centriste — _official_campaign/debate_
+## 23. Une contradiction chez le camp centriste  — _official_campaign/debate_
 
 Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
@@ -234,7 +234,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 Sondage : 15.2 → 15.3 (rang 1 → 1)
 
-## 24. La porte-parole annonce trop tôt — _between_rounds/internal_
+## 24. La porte-parole annonce trop tôt  — _between_rounds/internal_
 
 Une porte-parole fictive présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.
 
@@ -244,7 +244,7 @@ Une porte-parole fictive présente comme arbitrée une baisse de cotisations enc
 
 Sondage : 15.3 → 15.5 (rang 1 → 1)
 
-## 25. Le bloc républicain demande des preuves — _between_rounds/party_
+## 25. Le bloc républicain demande des preuves  — _between_rounds/party_
 
 Qualifié, Maël Dargent reçoit des soutiens conditionnels venus du centre, de la gauche et de la droite modérée. Leur électorat veut des engagements démocratiques plutôt qu’un simple appel contre l’adversaire.
 
@@ -254,7 +254,7 @@ Qualifié, Maël Dargent reçoit des soutiens conditionnels venus du centre, de 
 
 Sondage : 15.5 → 15.7 (rang 1 → 1)
 
-## 26. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 26. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -264,7 +264,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 Sondage : 15.7 → 15.6 (rang 1 → 1)
 
-## 27. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 27. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -274,7 +274,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 Sondage : 15.6 → 15.8 (rang 1 → 1)
 
-## 28. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 28. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -284,7 +284,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 15.8 → 18.4 (rang 1 → 1)
 
-## 29. La coalition réclame une annexe — _government_epilogue/between_rounds_
+## 29. La coalition réclame une annexe  — _government_epilogue/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -294,7 +294,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 Sondage : 18.4 → 16 (rang 1 → 1)
 
-## 30. La première adresse de lÉlysée — _government_epilogue/government_
+## 30. La première adresse de lÉlysée  — _government_epilogue/government_
 
 Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.
 
@@ -304,7 +304,7 @@ Après les célébrations, votre première parole présidentielle fictive doit h
 
 Sondage : 16 → 15.9 (rang 1 → 1)
 
-## 31. Le choix de Matignon — _finished/government_
+## 31. Le choix de Matignon  — _finished/government_
 
 Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 

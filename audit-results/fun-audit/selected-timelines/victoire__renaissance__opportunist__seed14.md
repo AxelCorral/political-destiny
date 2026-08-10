@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **victoire**
 
-Score final : 75/100 · 1er tour : 15.7 · 2nd tour : 57.8 · qualifié : true · vainqueur : true · signaux mémorables : 4
+Score final : 71/100 · 1er tour : 14.7 · 2nd tour : 51.8 · qualifié : true · vainqueur : true · signaux mémorables : 5
 
-## 1. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 1. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -14,7 +14,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 8.8 → 12.3 (rang 8 → 2)
 
-## 2. La loi migratoire du programme — _pre_campaign/program_
+## 2. La loi migratoire du programme  — _pre_campaign/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -24,7 +24,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 Sondage : 12.3 → 12.4 (rang 2 → 2)
 
-## 3. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 3. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -34,7 +34,7 @@ Sondage : 12.3 → 12.4 (rang 2 → 2)
 
 Sondage : 12.4 → 12.5 (rang 2 → 2)
 
-## 4. Le fonds industriel européen se précise — _pre_campaign/party_
+## 4. Le fonds industriel européen se précise  — _pre_campaign/party_
 
 La campagne veut financer les technologies bas-carbone à l’échelle européenne. Les entreprises demandent un accès rapide, tandis que les partenaires veulent des contreparties sociales et une préférence de production.
 
@@ -44,7 +44,7 @@ La campagne veut financer les technologies bas-carbone à l’échelle européen
 
 Sondage : 12.5 → 14.4 (rang 2 → 1)
 
-## 5. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 5. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -54,7 +54,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 14.4 → 13.1 (rang 1 → 1)
 
-## 6. Le Conseil européen se divise — _pre_campaign/world_
+## 6. Le Conseil européen se divise  — _pre_campaign/world_
 
 Dans le calendrier fictif, un vote du Conseil européen sur un fonds industriel échoue à une voix. L’Allemagne et la Pologne ont défendu des compromis différents. Les candidats français sont interrogés sur la coalition qu’ils auraient construite.
 
@@ -84,7 +84,7 @@ Une équipe documentaire de France 2 demande six semaines d’accès au siège, 
 
 Sondage : 13.6 → 13.6 (rang 1 → 1)
 
-## 9. La PME teste votre réforme — _campaign/campaign_
+## 9. La PME teste votre réforme  — _campaign/campaign_
 
 Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réforme du travail sur ses comptes. La dirigeante et les représentants du personnel obtiennent des résultats opposés.
 
@@ -104,7 +104,7 @@ Mediapart révèle que trois factures de la campagne ont été payées avec des 
 
 Sondage : 13.5 → 13.6 (rang 1 → 1)
 
-## 11. Horizons et Nouvelle Énergie visent le même électorat — _campaign/party_
+## 11. Horizons et Nouvelle Énergie visent le même électorat  — _campaign/party_
 
 Les instituts de sondage confirment que Renaissance perd des électeurs modérés au profit d’Horizons et de Nouvelle Énergie sur exactement les mêmes thèmes de compétence économique et de sérieux budgétaire. La ligne qui a fait la force du mouvement devient aussi son terrain le plus disputé.
 
@@ -124,15 +124,15 @@ Le documentaire confronte votre dernière position à une intervention enregistr
 
 Sondage : 13.5 → 15.5 (rang 1 → 1)
 
-## 13. Le prochain budget de la santé — _campaign/program_
+## 13. La promesse faite à l’école  — _campaign/program_
 
-Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
+À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
-> **Choix retenu :** Financer cinquante mille postes hospitaliers en relevant les recettes affectées à la santé [POPULAIRE]
+> **Choix retenu :** Donner aux établissements un budget et une autonomie de recrutement sous contrôle académique [CLIVANT]
 
-**Les effectifs passent avant la transformation** — Les équipes hospitalières disposent d’un engagement quantifié et mobilisateur. Le recrutement réel et la recette choisie restent à sécuriser, ce qui ouvre deux fronts techniques sans affaiblir la priorité politique.
+**L’autonomie redessine le service public** — Les chefs d’établissement gagnent une marge d’action attendue et les syndicats craignent des inégalités durables entre territoires. La proposition élargit votre offre au prix d’un conflit idéologique clair.
 
-Sondage : 15.5 → 13.3 (rang 1 → 1)
+Sondage : 15.5 → 13 (rang 1 → 1)
 
 ## 14. L’audit clôt le dossier des factures _(CHAÎNE)_ — _campaign/scandal_
 
@@ -142,19 +142,19 @@ L’expert indépendant conclut que les trois prestations ont eu lieu et qu’au
 
 **Six procédures remplacent le soupçon** — Le rapport écarte le récit d’une fraude personnelle et documente les négligences réelles. La campagne adopte chaque correction, ralentit ses paiements et referme le dossier sur des changements vérifiables.
 
-Sondage : 13.3 → 13.5 (rang 1 → 1)
+Sondage : 13 → 13.1 (rang 1 → 1)
 
-## 15. Les sections refusent le kit national — _campaign/internal_
+## 15. Deux équipes se disputent le terrain  — _campaign/internal_
 
-Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
+Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
 
-> **Choix retenu :** Autoriser le tract breton après chiffrage et intégrer sa proposition comme expérimentation régionale [RASSEMBLEUR]
+> **Choix retenu :** Maintenir l’opération vidéo et demander à Samira Bellon d’en mesurer elle-même l’audience locale [RISQUÉ]
 
-**La proposition locale devient expérimentation** — Les sections obtiennent une adaptation réelle sans transformer le document en programme parallèle. Le chiffrage retarde l’impression mais renforce la mobilisation et votre implantation en Bretagne.
+**La vidéo atteint Lyon sans apaiser les sections** — Le format est largement partagé et Samira Bellon reconnaît son audience. Elle refuse cependant d’être rendue responsable d’une stratégie qu’elle contestait et mémorise cette pression comme une humiliation.
 
-Sondage : 13.5 → 13.7 (rang 1 → 1)
+Sondage : 13.1 → 13 (rang 1 → 1)
 
-## 16. Le car tombe en panne — _official_campaign/campaign_
+## 16. Le car tombe en panne  — _official_campaign/campaign_
 
 À quatre-vingts kilomètres du prochain rendez-vous, le car de campagne s’immobilise. Une gare, une visioconférence et un café associatif offrent trois manières de sauver la journée.
 
@@ -162,9 +162,9 @@ Sondage : 13.5 → 13.7 (rang 1 → 1)
 
 **Le café offre une conversation inattendue** — Quarante personnes discutent sans pupitre ni musique. La séquence touche par sa simplicité, mais l’équipe qui attendait à destination se sent abandonnée.
 
-Sondage : 13.7 → 13 (rang 1 → 1)
+Sondage : 13 → 12.4 (rang 1 → 2)
 
-## 17. Six rédactions face au désert médical — _official_campaign/media_
+## 17. Six rédactions face au désert médical  — _official_campaign/media_
 
 À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
@@ -172,9 +172,9 @@ Sondage : 13.7 → 13 (rang 1 → 1)
 
 **L’obligation structure le débat** — La mesure est immédiatement comprise dans les communes touchées, tandis que les représentants des jeunes médecins dénoncent une contrainte injuste. Vous gagnez un marqueur puissant et un conflit durable à arbitrer.
 
-Sondage : 13 → 14 (rang 1 → 1)
+Sondage : 12.4 → 12.4 (rang 2 → 3)
 
-## 18. Le forum étudiant refuse les slogans — _official_campaign/campaign_
+## 18. Le forum étudiant refuse les slogans  — _official_campaign/campaign_
 
 À Rennes, quatre associations étudiantes exigent une mesure sur le logement, une sur les bourses et une réponse sur la sélection. Elles publieront votre intervention intégrale.
 
@@ -182,9 +182,9 @@ Sondage : 13 → 14 (rang 1 → 1)
 
 **La garantie répond au premier obstacle** — Les associations reconnaissent une mesure directement utilisable et demandent son financement. Votre équipe obtient un soutien prudent, sans régler la pénurie de logements.
 
-Sondage : 14 → 14.2 (rang 1 → 1)
+Sondage : 12.4 → 12.3 (rang 3 → 3)
 
-## 19. Deux heures sans élément de langage — _official_campaign/media_
+## 19. Deux heures sans élément de langage  — _official_campaign/media_
 
 France Culture propose un entretien de deux heures sur votre parcours, vos lectures et trois désaccords internes au programme. Le temps long peut donner de l’épaisseur à la candidature, mais rend toute contradiction facile à isoler ensuite.
 
@@ -192,9 +192,9 @@ France Culture propose un entretien de deux heures sur votre parcours, vos lectu
 
 **Le temps long vous révèle** — Les réponses personnelles restent liées au projet et l’entretien produit plusieurs extraits de fond. Même des adversaires reconnaissent une maîtrise rare des dossiers et une parole moins fabriquée.
 
-Sondage : 14.2 → 14.4 (rang 1 → 1)
+Sondage : 12.3 → 12.5 (rang 3 → 3)
 
-## 20. Provoquer le favori en duel — _official_campaign/debate_
+## 20. Provoquer le favori en duel  — _official_campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -202,9 +202,9 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 **Le terrain du programme plutôt que du plateau** — Le communiqué évite le risque d’un dérapage en direct et documente vos chiffres. Le camp adverse et une partie de la presse dénoncent une esquive, ce qui alimente le sujet plus longtemps que prévu.
 
-Sondage : 14.4 → 14.7 (rang 1 → 1)
+Sondage : 12.5 → 13 (rang 3 → 1)
 
-## 21. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
+## 21. Une accusation jugée infondée vise un adversaire  — _official_campaign/campaign_
 
 Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
@@ -212,9 +212,9 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 **Le doute entretenu sans affirmation directe** — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
 
-Sondage : 14.7 → 14.3 (rang 1 → 1)
+Sondage : 13 → 12.3 (rang 1 → 3)
 
-## 22. Le rapport reprend huit paragraphes — _official_campaign/scandal_
+## 22. Le rapport reprend huit paragraphes  — _official_campaign/scandal_
 
 Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’un rapport public sans citation. Le contenu source est librement accessible ; le problème porte sur l’attribution et sur la présentation du document comme un travail original.
 
@@ -222,9 +222,9 @@ Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’
 
 **Une revue éditoriale commence au siège** — La sanction rassure sur l’exigence documentaire et la revue découvre deux citations mineures à compléter. L’équipe du programme perd du temps et juge que la responsabilité collective a été trop vite individualisée.
 
-Sondage : 14.3 → 14.1 (rang 1 → 1)
+Sondage : 12.3 → 12.2 (rang 3 → 3)
 
-## 23. Le direct des questions citoyennes — _official_campaign/media_
+## 23. Le direct des questions citoyennes  — _official_campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -232,19 +232,19 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 **Le direct change votre journée** — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
 
-Sondage : 14.1 → 14.3 (rang 1 → 1)
+Sondage : 12.2 → 12.4 (rang 3 → 3)
 
-## 24. La question de la fin de vie — _between_rounds/program_
+## 24. La laïcité à l’épreuve du quotidien  — _between_rounds/program_
 
-Une proposition de loi sur la fin de vie revient devant le Parlement pendant la campagne. Les associations de patients, les soignants et les cultes attendent une position claire, et le silence serait lui-même interprété comme un choix.
+Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
-> **Choix retenu :** Autoriser l’aide active à mourir sous conditions médicales strictes [CLIVANT]
+> **Choix retenu :** En rester au cadre actuel et former les agents publics à son application [TECHNIQUE]
 
-**Une liberté nouvelle, encadrée** — Les associations de patients saluent une avancée réclamée depuis des années. Une partie du corps soignant s’inquiète des conditions d’application et des cultes organisent une mobilisation contre le texte.
+**La formation plutôt qu’une nouvelle loi** — La proposition est concrète et administrativement réaliste, ce qui rassure les agents concernés. Elle ne répond pas aux attentes des camps qui espéraient un signal politique plus net, dans un sens ou dans l’autre.
 
-Sondage : 14.3 → 13.5 (rang 1 → 1)
+Sondage : 12.4 → 12.7 (rang 3 → 3)
 
-## 25. Le bloc républicain demande des preuves — _between_rounds/party_
+## 25. Le bloc républicain demande des preuves  — _between_rounds/party_
 
 Qualifié, Maël Dargent reçoit des soutiens conditionnels venus du centre, de la gauche et de la droite modérée. Leur électorat veut des engagements démocratiques plutôt qu’un simple appel contre l’adversaire.
 
@@ -252,9 +252,9 @@ Qualifié, Maël Dargent reçoit des soutiens conditionnels venus du centre, de 
 
 **Le front de second tour reçoit trois garanties** — Les soutiens peuvent défendre des engagements positifs et leurs réseaux se mobilisent. Plusieurs mesures économiques restent hors de l’accord et continueront d’alimenter le rejet social.
 
-Sondage : 13.5 → 13.6 (rang 1 → 1)
+Sondage : 12.7 → 12.9 (rang 3 → 1)
 
-## 26. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 26. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -262,9 +262,9 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Trois soutiens gardent trois identités** — Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.
 
-Sondage : 13.6 → 13.7 (rang 1 → 1)
+Sondage : 12.9 → 13.1 (rang 1 → 1)
 
-## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 27. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -272,9 +272,9 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le débat se termine sur la participation** — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
 
-Sondage : 13.7 → 13.9 (rang 1 → 1)
+Sondage : 13.1 → 13.2 (rang 1 → 1)
 
-## 28. La coalition réclame une annexe — _between_rounds/between_rounds_
+## 28. La coalition réclame une annexe  — _between_rounds/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -282,9 +282,9 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 **Le programme change de forme entre les deux tours** — La coalition se mobilise sans réserve et certains électorats éliminés obtiennent des motifs clairs de report. Vos deux contradictions réapparaissent aussitôt et votre socle doute de la valeur des promesses du premier tour.
 
-Sondage : 13.9 → 16.2 (rang 1 → 1)
+Sondage : 13.2 → 15.3 (rang 1 → 1)
 
-## 29. Les dernières heures autorisées — _government_epilogue/between_rounds_
+## 29. Les dernières heures autorisées  — _government_epilogue/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -292,9 +292,9 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Trois engagements ferment la campagne** — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
 
-Sondage : 16.2 → 13.6 (rang 1 → 1)
+Sondage : 15.3 → 13 (rang 1 → 1)
 
-## 30. Deux alliés réclament Bercy — _government_epilogue/government_
+## 30. Deux alliés réclament Bercy  — _government_epilogue/government_
 
 Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 
@@ -302,9 +302,9 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 **Bercy revient à la compétence, le Parlement compense** — Les critères du choix sont défendables et le comité donne une responsabilité réelle au partenaire écarté. Il accepte sans enthousiasme et maintient son soutien au premier budget.
 
-Sondage : 13.6 → 13.6 (rang 1 → 1)
+Sondage : 13 → 12.9 (rang 1 → 1)
 
-## 31. Quinze ministres pour une coalition — _finished/government_
+## 31. Quinze ministres pour une coalition  — _finished/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 
@@ -312,4 +312,4 @@ La liste fictive doit équilibrer compétences, parité, territoires et partenai
 
 **Douze membres donnent une image resserrée** — La composition est lisible et réduit les négociations de postes. Les ministres héritent de champs immenses et plusieurs alliés exclus promettent de juger le gouvernement texte par texte.
 
-Sondage : 13.6 → 13.7 (rang 1 → 1)
+Sondage : 12.9 → 13.1 (rang 1 → 1)

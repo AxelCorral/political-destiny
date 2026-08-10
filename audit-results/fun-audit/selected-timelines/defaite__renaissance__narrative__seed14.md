@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **defaite**
 
-Score final : 51/100 · 1er tour : 12.1 · qualifié : false · vainqueur : false · signaux mémorables : 1
+Score final : 40/100 · 1er tour : 9.7 · qualifié : false · vainqueur : false · signaux mémorables : 2
 
-## 1. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 1. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -14,7 +14,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 8.8 → 12.3 (rang 8 → 2)
 
-## 2. La loi migratoire du programme — _pre_campaign/program_
+## 2. La loi migratoire du programme  — _pre_campaign/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -24,7 +24,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 Sondage : 12.3 → 12.4 (rang 2 → 2)
 
-## 3. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 3. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -34,7 +34,7 @@ Sondage : 12.3 → 12.4 (rang 2 → 2)
 
 Sondage : 12.4 → 12.4 (rang 2 → 2)
 
-## 4. Le fonds industriel européen se précise — _pre_campaign/party_
+## 4. Le fonds industriel européen se précise  — _pre_campaign/party_
 
 La campagne veut financer les technologies bas-carbone à l’échelle européenne. Les entreprises demandent un accès rapide, tandis que les partenaires veulent des contreparties sociales et une préférence de production.
 
@@ -44,7 +44,7 @@ La campagne veut financer les technologies bas-carbone à l’échelle européen
 
 Sondage : 12.4 → 14.2 (rang 2 → 1)
 
-## 5. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 5. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -54,7 +54,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 14.2 → 12.7 (rang 1 → 2)
 
-## 6. Renaissance choisit continuité ou rupture — _pre_campaign/party_
+## 6. Renaissance choisit continuité ou rupture  — _pre_campaign/party_
 
 Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’équipe de Maël Dargent réclame une autonomie visible. Le premier discours doit fixer la frontière sans renier les soutiens gouvernementaux.
 
@@ -64,7 +64,7 @@ Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’�
 
 Sondage : 12.7 → 12.9 (rang 2 → 1)
 
-## 7. Les sections refusent le kit national — _pre_campaign/internal_
+## 7. Les sections refusent le kit national  — _pre_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -84,7 +84,7 @@ Une équipe documentaire de France 2 demande six semaines d’accès au siège, 
 
 Sondage : 13.1 → 13.2 (rang 1 → 1)
 
-## 9. La promesse faite après la primaire — _campaign/internal_
+## 9. La promesse faite après la primaire  — _campaign/internal_
 
 Pour obtenir un soutien décisif lors de la primaire fictive, vous aviez promis à un courant la responsabilité du programme social. Ce courant réclame maintenant le poste, alors que léquipe en place a déjà finalisé la moitié du texte.
 
@@ -94,7 +94,7 @@ Pour obtenir un soutien décisif lors de la primaire fictive, vous aviez promis 
 
 Sondage : 13.2 → 12.9 (rang 1 → 2)
 
-## 10. La ligne de départ des retraites — _campaign/program_
+## 10. La ligne de départ des retraites  — _campaign/program_
 
 Votre convention sociale doit arrêter une règle lisible sur les retraites. Les carrières longues, l’espérance de vie et le financement rendent toute promesse uniforme fragile, mais reporter l’arbitrage laisserait vos adversaires écrire votre position.
 
@@ -124,7 +124,7 @@ Le documentaire confronte votre dernière position à une intervention enregistr
 
 Sondage : 13.1 → 11.4 (rang 1 → 4)
 
-## 13. Le meeting change de dispositif — _campaign/campaign_
+## 13. Le meeting change de dispositif  — _campaign/campaign_
 
 La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
 
@@ -134,7 +134,47 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 Sondage : 11.4 → 12.6 (rang 4 → 2)
 
-## 14. Les soutiens envahissent le plateau — _campaign/debate_
+## 14. Une motion réclame un congrès  — _campaign/internal_
+
+Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.
+
+> **Choix retenu :** Refuser le congrès jusquau scrutin et demander aux signataires de retirer publiquement leur motion [OFFENSIF]
+
+**La motion devient une épreuve d’autorité** — Une partie des signataires se range pour ne pas aggraver la crise. Les autres maintiennent le texte, donnent des interviews séparées et installent une fronde qui pourra ressurgir plus tard.
+
+Sondage : 12.6 → 12.4 (rang 2 → 2)
+
+## 15. Le fauteuil libéré au vingt heures  — _campaign/media_
+
+Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
+
+> **Choix retenu :** Accepter sans condition et préparer quatre réponses prioritaires pendant le trajet [RISQUÉ]
+
+**Une lacune sous les projecteurs** — Une question sur les retraites révèle une contradiction entre deux fiches du programme. L’exposition reste précieuse, mais vos adversaires disposent désormais d’un angle simple pour le débat du lendemain.
+
+Sondage : 12.4 → 12 (rang 2 → 3)
+
+## 16. Vingt-quatre heures sans caméra  — _official_campaign/media_
+
+Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
+
+> **Choix retenu :** Annuler la pause et accepter la première invitation au journal de vingt heures [RISQUÉ]
+
+**La fatigue passe à l’écran** — Votre présence dément les rumeurs, mais deux réponses hésitantes montrent pourquoi la pause avait été proposée. La couverture se concentre sur la forme et l’équipe perd une journée de préparation.
+
+Sondage : 12 → 12.5 (rang 3 → 2)
+
+## 17. Deux invitations au même horaire  — _official_campaign/campaign_
+
+France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
+
+> **Choix retenu :** Choisir France 2 et proposer une visioconférence privée aux maires le lendemain [PRÉSIDENTIEL]
+
+**L’entretien national prend le dessus** — Votre argument économique atteint un large public et deux maires refusent la visioconférence. Le choix gagne en exposition ce qu’il perd en confiance territoriale.
+
+Sondage : 12.5 → 11.6 (rang 2 → 4)
+
+## 18. Les soutiens envahissent le plateau  — _official_campaign/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -142,19 +182,59 @@ Sondage : 11.4 → 12.6 (rang 4 → 2)
 
 **Trois extraits imposent votre meilleur débat** — La diffusion coordonnée domine les premières heures et nourrit une dynamique favorable. Les analyses du lendemain rappellent la faiblesse territoriale, sans annuler l’avantage de la première impression.
 
-Sondage : 12.6 → 12.6 (rang 2 → 2)
+Sondage : 11.6 → 11.6 (rang 4 → 4)
 
-## 15. Le direct des questions citoyennes — _campaign/media_
+## 19. La minute qui vous appartient  — _official_campaign/debate_
 
-Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
+À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
 
-> **Choix retenu :** Reporter le déplacement suivant et répondre jusqu’à épuiser la file de questions [POPULAIRE]
+> **Choix retenu :** Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
 
-**Le direct change votre journée** — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
+**Un visage reste après le débat** — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
 
-Sondage : 12.6 → 12.9 (rang 2 → 2)
+Sondage : 11.6 → 11.7 (rang 4 → 4)
 
-## 16. La photographie du quai vide — _official_campaign/media_
+## 20. Une accusation jugée infondée vise un adversaire  — _official_campaign/campaign_
+
+Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
+
+> **Choix retenu :** Diffuser la rumeur sous forme de question, sans l’affirmer directement [OPPORTUNISTE]
+
+**Le doute entretenu sans affirmation directe** — Le procédé maintient la rumeur dans le débat public sans engager formellement votre responsabilité. Il est identifié comme tel par plusieurs médias, ce qui abîme votre propre crédibilité plus que celle visée.
+
+Sondage : 11.7 → 13.2 (rang 4 → 2)
+
+## 21. La porte-parole annonce trop tôt  — _official_campaign/internal_
+
+Une porte-parole fictive présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.
+
+> **Choix retenu :** Retirer la porte-parole des médias et charger le responsable du programme de rectifier le montant [OFFENSIF]
+
+**La discipline reprend le micro** — Le responsable du programme corrige précisément le chiffre et verrouille les prises de parole. La sanction paraît disproportionnée à une partie de léquipe et encourage les intervenants restants à ne plus improviser aucune réponse.
+
+Sondage : 13.2 → 11.5 (rang 2 → 6)
+
+## 22. La croissance simulée se retourne  — _official_campaign/world_
+
+Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
+
+> **Choix retenu :** Proposer un plan d’investissement ciblé sur le logement, le rail et la rénovation énergétique [POPULAIRE]
+
+**Trois secteurs reçoivent le plan de relance** — Le ciblage relie l’activité immédiate à des besoins déjà documentés et donne une réponse identifiable au ralentissement. Son financement par emprunt fragilise votre trajectoire budgétaire à moyen terme.
+
+Sondage : 11.5 → 11.6 (rang 6 → 6)
+
+## 23. La plateforme publique tombe en panne  — _official_campaign/world_
+
+Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
+
+> **Choix retenu :** Accuser le gouvernement d’impréparation et demander la démission du responsable numérique avant l’audit [OFFENSIF]
+
+**La démission est demandée avant le diagnostic** — Votre attaque domine les plateaux et mobilise les opposants au pouvoir sortant. La plateforme revient sans que la cause confirme une faute personnelle, ce qui laisse votre exigence sans fondement établi.
+
+Sondage : 11.6 → 11.5 (rang 6 → 6)
+
+## 24. La photographie du quai vide  — _between_rounds/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -162,89 +242,9 @@ Sondage : 12.6 → 12.9 (rang 2 → 2)
 
 **Le quai vide devient une affiche** — Votre montage humoristique est massivement partagé et les inscriptions au prochain meeting progressent. Une partie de la presse juge la réponse légère, mais la campagne récupère l’image au lieu de la subir.
 
-Sondage : 12.9 → 13.3 (rang 2 → 1)
+Sondage : 11.5 → 11.6 (rang 6 → 6)
 
-## 17. Le car tombe en panne — _official_campaign/campaign_
-
-À quatre-vingts kilomètres du prochain rendez-vous, le car de campagne s’immobilise. Une gare, une visioconférence et un café associatif offrent trois manières de sauver la journée.
-
-> **Choix retenu :** Prendre le train avec la presse et maintenir le rendez-vous en retard [POPULAIRE]
-
-**Le retard devient un récit de campagne** — Le trajet ordinaire produit des échanges spontanés et des images sobres. Le rendez-vous commence tard, mais les participants apprécient que vous ne l’ayez pas annulé.
-
-Sondage : 13.3 → 13.3 (rang 1 → 1)
-
-## 18. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
-
-Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
-
-> **Choix retenu :** Transformer le concert en forum sur le logement avec associations, étudiants et élus locaux [POPULAIRE]
-
-**La scène devient forum du logement** — L’artiste ouvre la soirée puis laisse les acteurs du terrain confronter vos propositions. La couverture est moins centrée sur sa notoriété et produit plusieurs engagements locaux crédibles.
-
-Sondage : 13.3 → 13.5 (rang 1 → 1)
-
-## 19. L’immigration de travail, un choix économique assumé ou non — _official_campaign/program_
-
-Des fédérations patronales de la restauration, du bâtiment et du soin à domicile alertent publiquement sur des postes non pourvus. Le sujet, distinct de l’asile déjà tranché, oblige à préciser votre ligne sur l’immigration de travail.
-
-> **Choix retenu :** Réserver les embauches en tension aux résidents européens avant toute ouverture [CLIVANT]
-
-**La priorité européenne avant l’ouverture** — La mesure rassure une partie de l’électorat sur la maîtrise des flux tout en restant dans le cadre européen. Les fédérations patronales des secteurs concernés jugent le délai de mise en œuvre incompatible avec leurs besoins immédiats.
-
-Sondage : 13.5 → 13.7 (rang 1 → 1)
-
-## 20. Tensions internes chez Reconquête — _official_campaign/world_
-
-La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.
-
-> **Choix retenu :** Publier une déclaration soulignant l’instabilité du mouvement adverse [OFFENSIF]
-
-**La crise adverse commentée publiquement** — Le commentaire attire l’attention sur les difficultés internes de Reconquête et accentue la pression sur son état-major. Une partie de l’opinion juge le procédé opportuniste plutôt que porteur d’un message de fond.
-
-Sondage : 13.7 → 14.9 (rang 1 → 1)
-
-## 21. Contrôles aux frontières : quels moyens — _official_campaign/program_
-
-Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
-
-> **Choix retenu :** Imposer des contrôles systématiques aux frontières intérieures de l’espace Schengen [CLIVANT]
-
-**Le contrôle national réaffirmé** — La mesure répond directement à l’incident qui a relancé le débat et rassure une partie de l’opinion. Des partenaires européens et des acteurs économiques transfrontaliers dénoncent un coût logistique et diplomatique important.
-
-Sondage : 14.9 → 13.8 (rang 1 → 1)
-
-## 22. Le rapport reprend huit paragraphes — _official_campaign/scandal_
-
-Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’un rapport public sans citation. Le contenu source est librement accessible ; le problème porte sur l’attribution et sur la présentation du document comme un travail original.
-
-> **Choix retenu :** Maintenir la note et défendre le droit de réutiliser les données d’un rapport public [CLIVANT]
-
-**Le droit d’utilisation ne répond pas à l’attribution** — Votre argument juridique sur les données est exact mais ne traite pas la reprise des formulations. La campagne transforme une correction simple en débat durable sur son honnêteté intellectuelle.
-
-Sondage : 13.8 → 13.6 (rang 1 → 1)
-
-## 23. Une crise ferme un détroit — _official_campaign/world_
-
-Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France na pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.
-
-> **Choix retenu :** Demander une déclaration européenne commune sur la liberté de navigation et la désescalade [PRÉSIDENTIEL]
-
-**La réponse française passe par l’Europe** — Votre position évite de choisir un camp militaire et propose un cadre diplomatique crédible. Elle renforce votre stature européenne sans offrir de solution immédiate aux entreprises exposées.
-
-Sondage : 13.6 → 13.8 (rang 1 → 1)
-
-## 24. La collecte se bloque — _between_rounds/campaign_
-
-Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
-
-> **Choix retenu :** Demander une avance bancaire et publier le taux ainsi que l’échéancier [TECHNIQUE]
-
-**Le crédit maintient la tournée** — La banque accepte un montant inférieur à votre demande. L’échéancier transparent évite la polémique, mais le remboursement pèsera sur la fin de campagne.
-
-Sondage : 13.8 → 14 (rang 1 → 1)
-
-## 25. Le score ouvre une autre campagne — _finished/between_rounds_
+## 25. Le score ouvre une autre campagne  — _finished/between_rounds_
 
 Votre résultat ne permet pas le second tour mais progresse nettement par rapport au socle initial. Les cadres veulent préparer les législatives, les militants demandent un bilan et plusieurs élus proposent une fusion avec un parti proche.
 
@@ -252,4 +252,4 @@ Votre résultat ne permet pas le second tour mais progresse nettement par rappor
 
 **La campagne ne démonte pas ses bureaux** — Les bénévoles reçoivent un nouvel objectif avant que la déception ne les disperse. La rapidité préserve le réseau et reporte lanalyse de vos erreurs à une date incertaine.
 
-Sondage : 14 → 14.1 (rang 1 → 1)
+Sondage : 11.6 → 11.7 (rang 6 → 5)

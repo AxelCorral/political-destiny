@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **bottom10_fun**
 
-Score final : 61/100 · 1er tour : 11.5 · qualifié : false · vainqueur : false · signaux mémorables : 1
+Score final : 62/100 · 1er tour : 11.6 · qualifié : false · vainqueur : false · signaux mémorables : 1
 
-## 1. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 1. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -14,7 +14,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 9.5 → 7.1 (rang 9 → 9)
 
-## 2. La photographie du quai vide — _pre_campaign/media_
+## 2. La photographie du quai vide  — _pre_campaign/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -24,7 +24,7 @@ Sondage : 9.5 → 7.1 (rang 9 → 9)
 
 Sondage : 7.1 → 7.3 (rang 9 → 9)
 
-## 3. La périphérie demande un calendrier — _pre_campaign/campaign_
+## 3. La périphérie demande un calendrier  — _pre_campaign/campaign_
 
 Dans une commune périurbaine d’Occitanie, les habitants relient carburant, temps de trajet et fermeture des guichets. Ils refusent que le déplacement se termine par une promesse générale.
 
@@ -34,7 +34,7 @@ Dans une commune périurbaine d’Occitanie, les habitants relient carburant, te
 
 Sondage : 7.3 → 7.5 (rang 9 → 9)
 
-## 4. Cinq cents bénévoles sans mission — _pre_campaign/internal_
+## 4. Cinq cents bénévoles sans mission  — _pre_campaign/internal_
 
 Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit heures. Le siège peut les envoyer immédiatement sur le terrain, les former à distance ou les répartir auprès des sections qui manquent déjà d’encadrement.
 
@@ -44,7 +44,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 Sondage : 7.5 → 11.1 (rang 9 → 7)
 
-## 5. La une vous prête un tournant — _pre_campaign/media_
+## 5. La une vous prête un tournant  — _pre_campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -54,7 +54,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 11.1 → 8.1 (rang 7 → 9)
 
-## 6. Reconquête choisit influence ou qualification — _pre_campaign/party_
+## 6. Reconquête choisit influence ou qualification  — _pre_campaign/party_
 
 Les militants veulent déplacer le débat public, tandis que l’équipe de Victor d’Aubrac affirme pouvoir atteindre le second tour. Le choix modifie le ton, les cibles et l’usage des ressources limitées.
 
@@ -64,7 +64,7 @@ Les militants veulent déplacer le débat public, tandis que l’équipe de Vict
 
 Sondage : 8.1 → 8.5 (rang 9 → 9)
 
-## 7. Six rédactions face au désert médical — _pre_campaign/media_
+## 7. Six rédactions face au désert médical  — _pre_campaign/media_
 
 À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
@@ -74,7 +74,7 @@ Sondage : 8.1 → 8.5 (rang 9 → 9)
 
 Sondage : 8.5 → 8.7 (rang 9 → 9)
 
-## 8. Le siège coûte trop cher — _campaign/internal_
+## 8. Le siège coûte trop cher  — _campaign/internal_
 
 Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
 
@@ -84,7 +84,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 Sondage : 8.7 → 9.8 (rang 9 → 9)
 
-## 9. Le référendum migratoire doit être cadré — _campaign/party_
+## 9. Le référendum migratoire doit être cadré  — _campaign/party_
 
 La campagne promet un référendum sur la politique migratoire. Les juristes demandent une question, un fondement constitutionnel et une méthode qui ne transforme pas tout désaccord en crise institutionnelle.
 
@@ -94,7 +94,7 @@ La campagne promet un référendum sur la politique migratoire. Les juristes dem
 
 Sondage : 9.8 → 9.2 (rang 9 → 9)
 
-## 10. La promesse faite à l’école — _campaign/program_
+## 10. La promesse faite à l’école  — _campaign/program_
 
 À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
@@ -104,7 +104,7 @@ Sondage : 9.8 → 9.2 (rang 9 → 9)
 
 Sondage : 9.2 → 9.6 (rang 9 → 9)
 
-## 11. Qui financera les priorités — _campaign/program_
+## 11. Qui financera les priorités  — _campaign/program_
 
 Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équipe doit choisir une recette avant la publication du programme : fiscalité du patrimoine, réduction de niches, taxe de consommation ou économies supplémentaires.
 
@@ -114,7 +114,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 Sondage : 9.6 → 9.7 (rang 9 → 9)
 
-## 12. Deux invitations au même horaire — _campaign/campaign_
+## 12. Deux invitations au même horaire  — _campaign/campaign_
 
 France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
@@ -124,7 +124,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 Sondage : 9.7 → 8.9 (rang 9 → 9)
 
-## 13. Le regroupement familial en question — _campaign/program_
+## 13. Le regroupement familial en question  — _campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -134,7 +134,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 8.9 → 9.8 (rang 9 → 9)
 
-## 14. La croissance simulée se retourne — _campaign/world_
+## 14. La croissance simulée se retourne  — _campaign/world_
 
 Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
 
@@ -144,7 +144,7 @@ Dans la chronologie fictive de la partie, l’Insee publie un indicateur signala
 
 Sondage : 9.8 → 9.9 (rang 9 → 9)
 
-## 15. La règle européenne à changer — _campaign/program_
+## 15. La règle européenne à changer  — _campaign/program_
 
 Votre chapitre européen doit expliquer ce que la France demandera, ce qu’elle acceptera en échange et ce qu’elle fera en cas de refus. La monnaie, le budget et la souveraineté rendent une position seulement symbolique peu crédible.
 
@@ -154,7 +154,7 @@ Votre chapitre européen doit expliquer ce que la France demandera, ce qu’elle
 
 Sondage : 9.9 → 9.9 (rang 9 → 9)
 
-## 16. Douze députés offrent leur expérience — _official_campaign/alliance_
+## 16. Douze députés offrent leur expérience  — _official_campaign/alliance_
 
 Douze parlementaires de sensibilités proches proposent de soutenir votre candidature sans quitter leur parti. Ils demandent une conférence hebdomadaire sur les institutions et souhaitent pouvoir signaler publiquement leurs désaccords.
 
@@ -164,7 +164,7 @@ Douze parlementaires de sensibilités proches proposent de soutenir votre candid
 
 Sondage : 9.9 → 7.6 (rang 9 → 9)
 
-## 17. La Garonne sort de son lit — _official_campaign/world_
+## 17. La Garonne sort de son lit  — _official_campaign/world_
 
 Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
 
@@ -174,7 +174,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 Sondage : 7.6 → 10.1 (rang 9 → 9)
 
-## 18. La minute qui vous appartient — _official_campaign/debate_
+## 18. La minute qui vous appartient  — _official_campaign/debate_
 
 À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
 
@@ -184,17 +184,17 @@ Sondage : 7.6 → 10.1 (rang 9 → 9)
 
 Sondage : 10.1 → 10.3 (rang 9 → 8)
 
-## 19. Le duel sur les huit milliards _(CHAÎNE)_ — _official_campaign/debate_
+## 19. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
-Lors du débat de premier tour sur France 2, votre adversaire additionne vos nouvelles dépenses et affirme qu’il manque huit milliards. Vous disposez de quatre-vingt-dix secondes, du tableau budgétaire et d’une promesse que votre propre équipe vient de réviser.
+Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
-> **Choix retenu :** Refuser la bataille comptable et défendre les bénéficiaires concrets de chaque dépense [POPULAIRE]
+> **Choix retenu :** Couper à votre tour et exiger que chacun lise son propre financement à voix haute [OFFENSIF]
 
-**Les bénéficiaires remplacent les colonnes** — Votre réponse redonne un sens social aux montants et mobilise votre socle. Les téléspectateurs qui attendaient un financement restent sans réponse, ce qui fragilise votre crédibilité économique après le débat.
+**Le brouhaha devient épreuve de vérité** — La confrontation est désordonnée mais le défi sur les financements marque les esprits. Votre adversaire refuse l’exercice, ce qui vous offre un extrait favorable sans restaurer la qualité du débat.
 
-Sondage : 10.3 → 10.3 (rang 8 → 8)
+Sondage : 10.3 → 10.4 (rang 8 → 8)
 
-## 20. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
+## 20. Une chanteuse veut soutenir la campagne  — _official_campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -202,19 +202,29 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 **Le concert porte une mesure précise** — Nina Sorel raconte son engagement sans parler au nom de la campagne et attire un public nouveau. Le cadre publié évite la confusion entre soutien artistique et expertise programmatique.
 
-Sondage : 10.3 → 10.2 (rang 8 → 8)
+Sondage : 10.4 → 10.3 (rang 8 → 8)
 
-## 21. Le Conseil européen se divise — _official_campaign/world_
+## 21. La plateforme publique tombe en panne  — _official_campaign/world_
 
-Dans le calendrier fictif, un vote du Conseil européen sur un fonds industriel échoue à une voix. L’Allemagne et la Pologne ont défendu des compromis différents. Les candidats français sont interrogés sur la coalition qu’ils auraient construite.
+Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
-> **Choix retenu :** Abandonner le projet européen et créer un fonds industriel exclusivement français [LOYAL]
+> **Choix retenu :** Accuser le gouvernement d’impréparation et demander la démission du responsable numérique avant l’audit [OFFENSIF]
 
-**Le fonds revient au budget français** — La décision offre une maîtrise nationale et un calendrier simple. Elle réduit l’échelle financière, expose les aides au contrôle européen et affaiblit votre discours sur la capacité de coalition.
+**La démission est demandée avant le diagnostic** — Votre attaque domine les plateaux et mobilise les opposants au pouvoir sortant. La plateforme revient sans que la cause confirme une faute personnelle, ce qui laisse votre exigence sans fondement établi.
 
-Sondage : 10.2 → 10.5 (rang 8 → 7)
+Sondage : 10.3 → 10.4 (rang 8 → 8)
 
-## 22. Les soutiens envahissent le plateau — _official_campaign/debate_
+## 22. Une motion réclame un congrès  — _official_campaign/internal_
+
+Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.
+
+> **Choix retenu :** Convoquer le congrès, limiter son ordre du jour à léconomie et appliquer son vote [INSTITUTIONNEL]
+
+**Le congrès tranche réellement** — Le débat révèle les fractures mais le vote donne une ligne commune et opposable à tous. Vous cédez une part de contrôle sur le programme en échange d’une cohésion renforcée.
+
+Sondage : 10.4 → 10.6 (rang 8 → 7)
+
+## 23. Les soutiens envahissent le plateau  — _official_campaign/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -222,19 +232,9 @@ Sondage : 10.2 → 10.5 (rang 8 → 7)
 
 **La coalition prolonge le débat** — Chaque soutien développe une partie différente du projet et l’équipe paraît prête à gouverner. Les interventions divergent légèrement sur les mesures nouvelles, révélant le coût d’un récit moins centralisé.
 
-Sondage : 10.5 → 10.7 (rang 7 → 7)
+Sondage : 10.6 → 10.8 (rang 7 → 6)
 
-## 23. Les sections refusent le kit national — _official_campaign/internal_
-
-Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
-
-> **Choix retenu :** Autoriser le tract breton après chiffrage et intégrer sa proposition comme expérimentation régionale [RASSEMBLEUR]
-
-**La proposition locale devient expérimentation** — Les sections obtiennent une adaptation réelle sans transformer le document en programme parallèle. Le chiffrage retarde l’impression mais renforce la mobilisation et votre implantation en Bretagne.
-
-Sondage : 10.7 → 10.7 (rang 7 → 6)
-
-## 24. La France à cinquante degrés — _between_rounds/program_
+## 24. La France à cinquante degrés  — _between_rounds/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -242,9 +242,9 @@ Sondage : 10.7 → 10.7 (rang 7 → 6)
 
 **L’adaptation reçoit un budget durable** — Les collectivités peuvent enfin planifier les travaux au-delà d’un exercice budgétaire. Le montant nécessaire est élevé et concurrence plusieurs promesses sociales déjà annoncées.
 
-Sondage : 10.7 → 11 (rang 6 → 5)
+Sondage : 10.8 → 11.1 (rang 6 → 5)
 
-## 25. Le score ouvre une autre campagne — _finished/between_rounds_
+## 25. Le score ouvre une autre campagne  — _finished/between_rounds_
 
 Votre résultat ne permet pas le second tour mais progresse nettement par rapport au socle initial. Les cadres veulent préparer les législatives, les militants demandent un bilan et plusieurs élus proposent une fusion avec un parti proche.
 
@@ -252,4 +252,4 @@ Votre résultat ne permet pas le second tour mais progresse nettement par rappor
 
 **La campagne ne démonte pas ses bureaux** — Les bénévoles reçoivent un nouvel objectif avant que la déception ne les disperse. La rapidité préserve le réseau et reporte lanalyse de vos erreurs à une date incertaine.
 
-Sondage : 11 → 11.1 (rang 5 → 5)
+Sondage : 11.1 → 11.2 (rang 5 → 4)

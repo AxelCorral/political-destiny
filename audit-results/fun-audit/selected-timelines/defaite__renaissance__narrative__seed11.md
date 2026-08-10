@@ -4,7 +4,7 @@ Catégorie de sélection : **defaite**
 
 Score final : 45/100 · 1er tour : 10.3 · qualifié : false · vainqueur : false · signaux mémorables : 2
 
-## 1. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 1. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -14,7 +14,7 @@ Score final : 45/100 · 1er tour : 10.3 · qualifié : false · vainqueur : fals
 
 Sondage : 10.5 → 12.3 (rang 7 → 2)
 
-## 2. Un soutien éditorial encombrant — _pre_campaign/media_
+## 2. Un soutien éditorial encombrant  — _pre_campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -24,7 +24,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 12.3 → 12.3 (rang 2 → 2)
 
-## 3. La France à cinquante degrés — _pre_campaign/program_
+## 3. La France à cinquante degrés  — _pre_campaign/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -44,7 +44,7 @@ Une équipe documentaire de France 2 demande six semaines d’accès au siège, 
 
 Sondage : 12.5 → 8.4 (rang 2 → 8)
 
-## 5. Vingt-quatre heures sans caméra — _pre_campaign/media_
+## 5. Vingt-quatre heures sans caméra  — _pre_campaign/media_
 
 Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
 
@@ -54,7 +54,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 Sondage : 8.4 → 12.3 (rang 8 → 2)
 
-## 6. Le prochain budget de la santé — _pre_campaign/program_
+## 6. Le prochain budget de la santé  — _pre_campaign/program_
 
 Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
 
@@ -64,7 +64,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 Sondage : 12.3 → 12.5 (rang 2 → 2)
 
-## 7. La Garonne sort de son lit — _pre_campaign/world_
+## 7. La Garonne sort de son lit  — _pre_campaign/world_
 
 Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
 
@@ -74,7 +74,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 Sondage : 12.5 → 12.7 (rang 2 → 2)
 
-## 8. La réforme des retraites revient — _pre_campaign/party_
+## 8. La réforme des retraites revient  — _pre_campaign/party_
 
 Les adversaires ramènent chaque entretien à l’âge de départ. Les équipes hésitent entre défendre la réforme, l’aménager pour les carrières longues ou ouvrir une négociation entièrement nouvelle.
 
@@ -84,7 +84,7 @@ Les adversaires ramènent chaque entretien à l’âge de départ. Les équipes 
 
 Sondage : 12.7 → 14.9 (rang 2 → 1)
 
-## 9. Le siège déborde de bénévoles — _campaign/campaign_
+## 9. Le siège déborde de bénévoles  — _campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -94,7 +94,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 14.9 → 13.3 (rang 1 → 1)
 
-## 10. Une accusation jugée infondée vise un adversaire — _campaign/campaign_
+## 10. Une accusation jugée infondée vise un adversaire  — _campaign/campaign_
 
 Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
@@ -104,7 +104,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 Sondage : 13.3 → 13.3 (rang 1 → 1)
 
-## 11. Le rapport reprend huit paragraphes — _campaign/scandal_
+## 11. Le rapport reprend huit paragraphes  — _campaign/scandal_
 
 Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’un rapport public sans citation. Le contenu source est librement accessible ; le problème porte sur l’attribution et sur la présentation du document comme un travail original.
 
@@ -114,7 +114,7 @@ Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’
 
 Sondage : 13.3 → 13 (rang 1 → 2)
 
-## 12. Renaissance choisit continuité ou rupture — _campaign/party_
+## 12. Renaissance choisit continuité ou rupture  — _campaign/party_
 
 Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’équipe de Maël Dargent réclame une autonomie visible. Le premier discours doit fixer la frontière sans renier les soutiens gouvernementaux.
 
@@ -124,7 +124,7 @@ Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’�
 
 Sondage : 13 → 10.6 (rang 2 → 7)
 
-## 13. Deux cents maires demandent un contrat — _campaign/alliance_
+## 13. Deux cents maires demandent un contrat  — _campaign/alliance_
 
 Deux cents maires de communes rurales et périurbaines publient un appel sur les services publics, le logement et les finances locales. Ils soutiendront le candidat qui accepte un calendrier contrôlable plutôt qu’une liste de promesses.
 
@@ -134,7 +134,7 @@ Deux cents maires de communes rurales et périurbaines publient un appel sur les
 
 Sondage : 10.6 → 13.3 (rang 7 → 1)
 
-## 14. Les sections refusent le kit national — _campaign/internal_
+## 14. Les sections refusent le kit national  — _campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -144,7 +144,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 13.3 → 13.5 (rang 1 → 1)
 
-## 15. La PME teste votre réforme — _campaign/campaign_
+## 15. La PME teste votre réforme  — _campaign/campaign_
 
 Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réforme du travail sur ses comptes. La dirigeante et les représentants du personnel obtiennent des résultats opposés.
 
@@ -154,7 +154,7 @@ Une entreprise de quarante salariés à Bordeaux accepte de simuler votre réfor
 
 Sondage : 13.5 → 13.5 (rang 1 → 1)
 
-## 16. La présidence que vous proposez — _official_campaign/program_
+## 16. La présidence que vous proposez  — _official_campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -164,7 +164,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 13.5 → 10.4 (rang 1 → 7)
 
-## 17. Le siège coûte trop cher — _official_campaign/internal_
+## 17. Le siège coûte trop cher  — _official_campaign/internal_
 
 Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
 
@@ -174,7 +174,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 Sondage : 10.4 → 13.6 (rang 7 → 1)
 
-## 18. Deux heures sans élément de langage — _official_campaign/media_
+## 18. Deux heures sans élément de langage  — _official_campaign/media_
 
 France Culture propose un entretien de deux heures sur votre parcours, vos lectures et trois désaccords internes au programme. Le temps long peut donner de l’épaisseur à la candidature, mais rend toute contradiction facile à isoler ensuite.
 
@@ -184,7 +184,7 @@ France Culture propose un entretien de deux heures sur votre parcours, vos lectu
 
 Sondage : 13.6 → 13.4 (rang 1 → 1)
 
-## 19. Provoquer le favori en duel — _official_campaign/debate_
+## 19. Provoquer le favori en duel  — _official_campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -204,7 +204,7 @@ Une note interne propose d’attaquer un parti voisin pour capter son électorat
 
 Sondage : 13.2 → 9.5 (rang 1 → 7)
 
-## 21. Le gaz double en une semaine — _official_campaign/world_
+## 21. Le gaz double en une semaine  — _official_campaign/world_
 
 Dans l’économie simulée, le prix de gros du gaz double après une rupture d’approvisionnement. La Commission européenne coordonne les stocks et les ménages craignent déjà leur prochaine facture. Votre programme énergétique doit répondre à l’urgence sans renier sa trajectoire.
 
@@ -214,7 +214,7 @@ Dans l’économie simulée, le prix de gros du gaz double après une rupture d�
 
 Sondage : 9.5 → 13.3 (rang 7 → 1)
 
-## 22. La plateforme publique tombe en panne — _official_campaign/world_
+## 22. La plateforme publique tombe en panne  — _official_campaign/world_
 
 Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
@@ -224,7 +224,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 Sondage : 13.3 → 13.2 (rang 1 → 1)
 
-## 23. Une chanteuse veut soutenir la campagne — _official_campaign/alliance_
+## 23. Une chanteuse veut soutenir la campagne  — _official_campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -234,7 +234,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 Sondage : 13.2 → 13.3 (rang 1 → 1)
 
-## 24. Une contradiction chez le camp centriste — _between_rounds/debate_
+## 24. Une contradiction chez le camp centriste  — _between_rounds/debate_
 
 Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
@@ -244,7 +244,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 Sondage : 13.3 → 13.4 (rang 1 → 1)
 
-## 25. Aucun finaliste ne porte votre ligne — _finished/between_rounds_
+## 25. Aucun finaliste ne porte votre ligne  — _finished/between_rounds_
 
 Les deux finalistes fictifs sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre lun dentre eux engage malgré tout votre responsabilité.
 

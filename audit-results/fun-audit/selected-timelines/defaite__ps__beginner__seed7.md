@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **defaite**
 
-Score final : 87/100 · 1er tour : 18.5 · 2nd tour : 49.6 · qualifié : true · vainqueur : false · signaux mémorables : 6
+Score final : 85/100 · 1er tour : 18.3 · 2nd tour : 49.4 · qualifié : true · vainqueur : false · signaux mémorables : 6
 
-## 1. Le slogan divise le siège — _pre_campaign/campaign_
+## 1. Le slogan divise le siège  — _pre_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -14,7 +14,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 17.2 → 12.8 (rang 1 → 2)
 
-## 2. Les Écologistes proposent un contrat municipal — _pre_campaign/party_
+## 2. Les Écologistes proposent un contrat municipal  — _pre_campaign/party_
 
 Des maires socialistes et écologistes proposent une campagne commune dans douze métropoles. Ils demandent des investissements ferroviaires garantis et une méthode de désignation partagée pour les législatives.
 
@@ -24,7 +24,7 @@ Des maires socialistes et écologistes proposent une campagne commune dans douze
 
 Sondage : 12.8 → 13 (rang 2 → 1)
 
-## 3. Contrôles aux frontières : quels moyens — _pre_campaign/program_
+## 3. Contrôles aux frontières : quels moyens  — _pre_campaign/program_
 
 Une hausse des passages signalés à une frontière intérieure de l’espace Schengen relance le débat sur les contrôles nationaux, distinct des orientations déjà prises sur l’asile et le regroupement familial.
 
@@ -34,7 +34,7 @@ Une hausse des passages signalés à une frontière intérieure de l’espace Sc
 
 Sondage : 13 → 13.1 (rang 1 → 1)
 
-## 4. Le fauteuil libéré au vingt heures — _pre_campaign/media_
+## 4. Le fauteuil libéré au vingt heures  — _pre_campaign/media_
 
 Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.
 
@@ -44,7 +44,7 @@ Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre
 
 Sondage : 13.1 → 16 (rang 1 → 1)
 
-## 5. La France à cinquante degrés — _pre_campaign/program_
+## 5. La France à cinquante degrés  — _pre_campaign/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -54,7 +54,7 @@ Sondage : 13.1 → 16 (rang 1 → 1)
 
 Sondage : 16 → 13.4 (rang 1 → 1)
 
-## 6. Les agents publics attendent des garanties — _pre_campaign/party_
+## 6. Les agents publics attendent des garanties  — _pre_campaign/party_
 
 Des collectifs d’enseignants, de soignants et d’agents territoriaux demandent des engagements sur les salaires et les effectifs. Ils refusent une nouvelle promesse générale sans calendrier budgétaire.
 
@@ -64,7 +64,7 @@ Des collectifs d’enseignants, de soignants et d’agents territoriaux demanden
 
 Sondage : 13.4 → 13.9 (rang 1 → 1)
 
-## 7. Le car tombe en panne — _pre_campaign/campaign_
+## 7. Le car tombe en panne  — _pre_campaign/campaign_
 
 À quatre-vingts kilomètres du prochain rendez-vous, le car de campagne s’immobilise. Une gare, une visioconférence et un café associatif offrent trois manières de sauver la journée.
 
@@ -74,7 +74,7 @@ Sondage : 13.4 → 13.9 (rang 1 → 1)
 
 Sondage : 13.9 → 14.1 (rang 1 → 1)
 
-## 8. Quarante-quatre degrés à Lyon — _campaign/world_
+## 8. Quarante-quatre degrés à Lyon  — _campaign/world_
 
 Dans la météo fictive de la campagne, une canicule durable atteint Lyon et plusieurs départements voisins. Les écoles ferment laprès-midi, les hôpitaux activent leurs plans de tension et les meetings extérieurs deviennent impraticables.
 
@@ -94,7 +94,7 @@ Une équipe documentaire de France 2 demande six semaines d’accès au siège, 
 
 Sondage : 11.8 → 14.6 (rang 2 → 1)
 
-## 10. Vingt-quatre heures sans caméra — _campaign/media_
+## 10. Vingt-quatre heures sans caméra  — _campaign/media_
 
 Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
 
@@ -104,7 +104,7 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 Sondage : 14.6 → 14.6 (rang 1 → 1)
 
-## 11. La convention citoyenne réclame une réponse — _campaign/campaign_
+## 11. La convention citoyenne réclame une réponse  — _campaign/campaign_
 
 Une convention locale tirée au sort vous remet douze propositions sur les transports et l’accès aux services. Elle demande lesquelles entreront réellement dans votre programme avant de vous recevoir.
 
@@ -114,7 +114,7 @@ Une convention locale tirée au sort vous remet douze propositions sur les trans
 
 Sondage : 14.6 → 14.5 (rang 1 → 1)
 
-## 12. Le contrat d’intégration, jusqu’où aller — _campaign/program_
+## 12. Le contrat d’intégration, jusqu’où aller  — _campaign/program_
 
 Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
 
@@ -124,7 +124,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 Sondage : 14.5 → 14.8 (rang 1 → 1)
 
-## 13. Les maires socialistes ouvrent leurs réseaux — _campaign/party_
+## 13. Les maires socialistes ouvrent leurs réseaux  — _campaign/party_
 
 Plusieurs maires de villes moyennes proposent de coordonner salles, bénévoles et porte-à-porte. Ils souhaitent en échange que la candidate consacre une semaine aux transports, aux urgences et au logement.
 
@@ -134,7 +134,7 @@ Plusieurs maires de villes moyennes proposent de coordonner salles, bénévoles 
 
 Sondage : 14.8 → 14.3 (rang 1 → 1)
 
-## 14. La directrice a recruté son frère — _campaign/scandal_
+## 14. La directrice a recruté son frère  — _campaign/scandal_
 
 Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme développeur pour une mission de trois semaines. Le tarif correspond au marché et le travail existe, mais aucun autre candidat n’a été consulté.
 
@@ -144,7 +144,7 @@ Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme déve
 
 Sondage : 14.3 → 14.2 (rang 1 → 1)
 
-## 15. Le regroupement familial en question — _campaign/program_
+## 15. Le regroupement familial en question  — _campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -154,7 +154,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 14.2 → 14.2 (rang 1 → 1)
 
-## 16. Deux équipes se disputent le terrain — _official_campaign/internal_
+## 16. Deux équipes se disputent le terrain  — _official_campaign/internal_
 
 Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
 
@@ -164,7 +164,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 Sondage : 14.2 → 13 (rang 1 → 1)
 
-## 17. Les soutiens envahissent le plateau — _official_campaign/debate_
+## 17. Les soutiens envahissent le plateau  — _official_campaign/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -184,37 +184,37 @@ Ilyes Marceau, président fictif d’un courant socialiste, menace de déposer s
 
 Sondage : 15 → 15.5 (rang 1 → 1)
 
-## 19. Un soutien éditorial encombrant — _official_campaign/media_
+## 19. Le micro resté ouvert  — _official_campaign/media_
 
-Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
+Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
-> **Choix retenu :** Remercier pour l’accord ponctuel tout en publiant vos désaccords précis avec Gabriel Valès [TRANSPARENT]
+> **Choix retenu :** Présenter vos excuses à Anaïs Vercel devant l’équipe et lui confirmer publiquement votre confiance [LOYAL]
 
-**Un accord limité, des frontières nettes** — La mise au point évite la rupture théâtrale et empêche le soutien de devenir une alliance implicite. Elle consomme du temps médiatique, mais clarifie votre doctrine sur les libertés publiques.
+**Les excuses referment la blessure** — Anaïs Vercel accepte les excuses sans nier les problèmes d’organisation. La crise devient l’occasion de redistribuer des responsabilités et l’équipe retient surtout que vous avez reconnu une faute personnelle.
 
 Sondage : 15.5 → 15.8 (rang 1 → 1)
 
-## 20. Le marché sous pression — _official_campaign/campaign_
+## 20. Le siège déborde de bénévoles  — _official_campaign/campaign_
 
-Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
+Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
-> **Choix retenu :** Convoquer bailleurs et commerçants pour négocier les renouvellements de loyers [RASSEMBLEUR]
+> **Choix retenu :** Confier aux bénévoles une enquête téléphonique sans accès aux données sensibles [TECHNIQUE]
 
-**Une table locale est obtenue** — La mairie accepte d’accueillir la médiation la semaine suivante. Vous ne promettez pas de baisse immédiate, mais la méthode apaise les deux groupes présents.
+**L’enquête révèle trois préoccupations** — Les appels font remonter la santé, les prix alimentaires et l’accès aux transports. Votre équipe gagne des informations utiles sans exposer le fichier électoral.
 
 Sondage : 15.8 → 13.9 (rang 1 → 1)
 
-## 21. Le comité bloque le chapitre sécurité — _official_campaign/internal_
+## 21. Cinq cents bénévoles sans mission  — _official_campaign/internal_
 
-Le comité du programme se partage exactement en deux sur les pouvoirs de police municipale. Sans arbitrage, le chapitre sécurité ne pourra pas être imprimé ; une décision présidentielle risque pourtant de nier six mois de travail collectif.
+Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit heures. Le siège peut les envoyer immédiatement sur le terrain, les former à distance ou les répartir auprès des sections qui manquent déjà d’encadrement.
 
-> **Choix retenu :** Arbitrer en faveur de pouvoirs élargis et publier les garanties de contrôle retenues [PRÉSIDENTIEL]
+> **Choix retenu :** Confier chaque nouvel inscrit à une section locale avec un objectif choisi sur place [RASSEMBLEUR]
 
-**Le candidat tranche avec des garde-fous** — Le chapitre est bouclé et votre position devient identifiable. La moitié opposée accepte les garanties sans approuver le fond, ce qui réduit sa mobilisation sur les sujets de sécurité.
+**Les sections choisissent leurs renforts** — Les territoires les mieux organisés intègrent vite les volontaires et inventent des opérations utiles. Les zones les plus faibles reçoivent moins de soutien, ce qui augmente les écarts d’implantation interne.
 
 Sondage : 13.9 → 16.1 (rang 1 → 1)
 
-## 22. Provoquer le favori en duel — _official_campaign/debate_
+## 22. Provoquer le favori en duel  — _official_campaign/debate_
 
 Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.
 
@@ -224,27 +224,27 @@ Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information 
 
 Sondage : 16.1 → 16.3 (rang 1 → 1)
 
-## 23. La question de la fin de vie — _official_campaign/program_
+## 23. La laïcité à l’épreuve du quotidien  — _official_campaign/program_
 
-Une proposition de loi sur la fin de vie revient devant le Parlement pendant la campagne. Les associations de patients, les soignants et les cultes attendent une position claire, et le silence serait lui-même interprété comme un choix.
+Un incident dans un établissement scolaire relance le débat sur l’application de la laïcité dans les services publics. Votre équipe de campagne doit fixer une doctrine avant que d’autres ne le fassent à votre place dans les médias.
 
-> **Choix retenu :** Maintenir l’interdiction actuelle et renforcer l’accompagnement familial [LOYAL]
+> **Choix retenu :** En rester au cadre actuel et former les agents publics à son application [TECHNIQUE]
 
-**Le cadre actuel, mais mieux accompagné** — La position rassure une partie de l’électorat attachée au cadre existant et les cultes saluent la constance. Les associations de patients dénoncent un refus d’avancer sur une demande ancienne.
+**La formation plutôt qu’une nouvelle loi** — La proposition est concrète et administrativement réaliste, ce qui rassure les agents concernés. Elle ne répond pas aux attentes des camps qui espéraient un signal politique plus net, dans un sens ou dans l’autre.
 
 Sondage : 16.3 → 16.4 (rang 1 → 1)
 
-## 24. Le direct des questions citoyennes — _between_rounds/media_
+## 24. La une vous prête un tournant  — _between_rounds/media_
 
-Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
+Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
-> **Choix retenu :** Reporter le déplacement suivant et répondre jusqu’à épuiser la file de questions [POPULAIRE]
+> **Choix retenu :** Convoquer dès le lendemain les syndicats pour négocier les contreparties de l’investissement [INSTITUTIONNEL]
 
-**Le direct change votre journée** — Deux heures supplémentaires transforment l’émission en forum de santé très suivi. Les soignants apprécient le temps accordé, tandis que l’équipe locale dont la visite est annulée se sent sacrifiée.
+**La une ouvre une négociation sociale** — La CGT et la CFDT acceptent des rencontres séparées. Le processus ralentit votre annonce économique, mais il ancre les contreparties dans une négociation réelle plutôt que dans une formule de riposte.
 
-Sondage : 16.4 → 16.7 (rang 1 → 1)
+Sondage : 16.4 → 16.4 (rang 1 → 1)
 
-## 25. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 25. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -252,9 +252,9 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Cent points de contact avant le silence** — Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.
 
-Sondage : 16.7 → 16.9 (rang 1 → 1)
+Sondage : 16.4 → 16.5 (rang 1 → 1)
 
-## 26. La gauche attend un contrat de second tour — _between_rounds/party_
+## 26. La gauche attend un contrat de second tour  — _between_rounds/party_
 
 Qualifiée, la candidate socialiste doit obtenir des soutiens à gauche sans perdre les électeurs centristes venus au premier tour. Les partenaires demandent des engagements écrits plutôt qu’une consigne automatique.
 
@@ -262,9 +262,9 @@ Qualifiée, la candidate socialiste doit obtenir des soutiens à gauche sans per
 
 **Le gouvernement s’ouvre sans nouveau programme** — La candidate conserve une ligne stable et rassure une partie du centre. Les soutiens de gauche restent conditionnels et leurs appareils mobilisent moins fortement qu’espéré.
 
-Sondage : 16.9 → 16.9 (rang 1 → 1)
+Sondage : 16.5 → 16.6 (rang 1 → 1)
 
-## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 27. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -272,9 +272,9 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **La coalition montre ses coutures** — Les concessions deviennent compréhensibles et les frontières rassurent votre socle. Ladversaire perd largument dune majorité cachée, tandis que certains alliés contestent une limite annoncée sans eux.
 
-Sondage : 16.9 → 17 (rang 1 → 1)
+Sondage : 16.6 → 16.6 (rang 1 → 1)
 
-## 28. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 28. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -282,9 +282,9 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Une garantie donne un motif positif de report** — Les électeurs concernés voient leur priorité dans le contrat et leur participation estimée remonte. La mesure tardive augmente le coût du programme et inquiète ceux qui craignent une coalition sans limite.
 
-Sondage : 17 → 15.1 (rang 1 → 1)
+Sondage : 16.6 → 14.7 (rang 1 → 1)
 
-## 29. Les soutiens arrivent avec leurs conditions — _finished/between_rounds_
+## 29. Les soutiens arrivent avec leurs conditions  — _finished/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -292,4 +292,4 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **Les soutiens viennent sans contrat** — Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.
 
-Sondage : 15.1 → 17.2 (rang 1 → 1)
+Sondage : 14.7 → 16.9 (rang 1 → 1)

@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **chaotique**
 
-Score final : 59/100 · 1er tour : 13.4 · 2nd tour : 38.4 · qualifié : true · vainqueur : false · signaux mémorables : 4
+Score final : 60/100 · 1er tour : 13.6 · 2nd tour : 38.9 · qualifié : true · vainqueur : false · signaux mémorables : 4
 
-## 1. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 1. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -14,7 +14,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 14.5 → 13.4 (rang 1 → 1)
 
-## 2. Le prochain budget de la santé — _pre_campaign/program_
+## 2. Le prochain budget de la santé  — _pre_campaign/program_
 
 Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
 
@@ -24,7 +24,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 Sondage : 13.4 → 13.6 (rang 1 → 1)
 
-## 3. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 3. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -34,7 +34,7 @@ Sondage : 13.4 → 13.6 (rang 1 → 1)
 
 Sondage : 13.6 → 13.8 (rang 1 → 1)
 
-## 4. Les petites villes ouvrent la campagne — _pre_campaign/party_
+## 4. Les petites villes ouvrent la campagne  — _pre_campaign/party_
 
 Des élus locaux proches du RN proposent une tournée des petites villes sur les commerces, les transports et la santé. Ils veulent éviter un déplacement limité aux thèmes nationaux habituels.
 
@@ -44,7 +44,7 @@ Des élus locaux proches du RN proposent une tournée des petites villes sur les
 
 Sondage : 13.8 → 13.7 (rang 1 → 1)
 
-## 5. Vie privée et réseaux : la ligne numérique — _pre_campaign/program_
+## 5. Vie privée et réseaux : la ligne numérique  — _pre_campaign/program_
 
 Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplication des contenus haineux en ligne poussent votre équipe à préciser une doctrine numérique avant un prochain débat télévisé consacré au sujet.
 
@@ -54,7 +54,7 @@ Un rapport sur l’exposition des mineurs aux réseaux sociaux et la multiplicat
 
 Sondage : 13.7 → 14.1 (rang 1 → 1)
 
-## 6. Le RN arbitre normalisation et mobilisation — _pre_campaign/party_
+## 6. Le RN arbitre normalisation et mobilisation  — _pre_campaign/party_
 
 Le socle attend une campagne offensive sur l’immigration et la sécurité, tandis que l’équipe d’Élise Montclar veut convaincre sur le gouvernement et l’économie. L’ordre des priorités devient stratégique.
 
@@ -64,7 +64,7 @@ Le socle attend une campagne offensive sur l’immigration et la sécurité, tan
 
 Sondage : 14.1 → 14.2 (rang 1 → 1)
 
-## 7. Les sections refusent le kit national — _pre_campaign/internal_
+## 7. Les sections refusent le kit national  — _pre_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -74,7 +74,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 14.2 → 14.3 (rang 1 → 1)
 
-## 8. Six rédactions face au désert médical — _campaign/media_
+## 8. Six rédactions face au désert médical  — _campaign/media_
 
 À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
@@ -84,7 +84,7 @@ Sondage : 14.2 → 14.3 (rang 1 → 1)
 
 Sondage : 14.3 → 16 (rang 1 → 1)
 
-## 9. Cinq cents bénévoles sans mission — _campaign/internal_
+## 9. Cinq cents bénévoles sans mission  — _campaign/internal_
 
 Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit heures. Le siège peut les envoyer immédiatement sur le terrain, les former à distance ou les répartir auprès des sections qui manquent déjà d’encadrement.
 
@@ -94,7 +94,7 @@ Après un débat réussi, cinq cents personnes s’inscrivent en quarante-huit h
 
 Sondage : 16 → 14.5 (rang 1 → 1)
 
-## 10. La une vous prête un tournant — _campaign/media_
+## 10. La une vous prête un tournant  — _campaign/media_
 
 Les Échos titrent sur votre supposé « tournant pro-entreprises » après une proposition d’investissement. L’article est nuancé, mais la une suffit à inquiéter une partie des militants et à intéresser des dirigeants de PME.
 
@@ -104,7 +104,7 @@ Les Échos titrent sur votre supposé « tournant pro-entreprises » après une 
 
 Sondage : 14.5 → 14.7 (rang 1 → 1)
 
-## 11. La question venue de Mayotte — _campaign/debate_
+## 11. La question venue de Mayotte  — _campaign/debate_
 
 Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
 
@@ -114,7 +114,7 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 Sondage : 14.7 → 14.6 (rang 1 → 1)
 
-## 12. Deux équipes se disputent le terrain — _campaign/internal_
+## 12. Deux équipes se disputent le terrain  — _campaign/internal_
 
 Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
 
@@ -124,7 +124,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 Sondage : 14.6 → 14.4 (rang 1 → 1)
 
-## 13. Le déplacement en Guadeloupe engage — _campaign/campaign_
+## 13. Le déplacement en Guadeloupe engage  — _campaign/campaign_
 
 En Guadeloupe, les élus et associations placent l’eau potable, la vie chère et la continuité territoriale avant votre thème national. Ils demandent des compétences, un budget et une date.
 
@@ -134,7 +134,7 @@ En Guadeloupe, les élus et associations placent l’eau potable, la vie chère 
 
 Sondage : 14.4 → 14.2 (rang 1 → 1)
 
-## 14. Le regroupement familial en question — _campaign/program_
+## 14. Le regroupement familial en question  — _campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -144,7 +144,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 14.2 → 13.6 (rang 1 → 1)
 
-## 15. Une minute sur les loyers — _campaign/media_
+## 15. Une minute sur les loyers  — _campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -154,7 +154,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 13.6 → 13.4 (rang 1 → 1)
 
-## 16. Un donateur demande un rendez-vous — _official_campaign/internal_
+## 16. Un donateur demande un rendez-vous  — _official_campaign/internal_
 
 Un entrepreneur fictif ayant versé un don dans les limites légales sollicite une rencontre privée sur votre fiscalité. Le rendez-vous est autorisé, mais son calendrier et sa confidentialité peuvent nourrir un soupçon d’influence.
 
@@ -164,7 +164,7 @@ Un entrepreneur fictif ayant versé un don dans les limites légales sollicite u
 
 Sondage : 13.4 → 17.4 (rang 1 → 1)
 
-## 17. Le budget impose trois renoncements — _official_campaign/campaign_
+## 17. Le budget impose trois renoncements  — _official_campaign/campaign_
 
 Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous les déplacements épuiserait les réserves avant le premier tour. Il faut réduire un poste dès ce soir.
 
@@ -174,7 +174,7 @@ Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous 
 
 Sondage : 17.4 → 13.4 (rang 1 → 1)
 
-## 18. Vingt-quatre heures sans caméra — _official_campaign/media_
+## 18. Vingt-quatre heures sans caméra  — _official_campaign/media_
 
 Après neuf déplacements en six jours, Anaïs Vercel propose une journée de travail sans interview. Les rédactions veulent savoir s’il s’agit d’une préparation de fond, d’un problème de santé ou d’un simple repli tactique.
 
@@ -184,25 +184,25 @@ Après neuf déplacements en six jours, Anaïs Vercel propose une journée de tr
 
 Sondage : 13.4 → 13.3 (rang 1 → 2)
 
-## 19. La question de la fin de vie — _official_campaign/program_
+## 19. Ce que l’école doit transmettre  — _official_campaign/program_
 
-Une proposition de loi sur la fin de vie revient devant le Parlement pendant la campagne. Les associations de patients, les soignants et les cultes attendent une position claire, et le silence serait lui-même interprété comme un choix.
+Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
-> **Choix retenu :** Maintenir l’interdiction actuelle et renforcer l’accompagnement familial [LOYAL]
+> **Choix retenu :** Introduire un enseignement moral et civique renforcé avec évaluation nationale [INSTITUTIONNEL]
 
-**Le cadre actuel, mais mieux accompagné** — La position rassure une partie de l’électorat attachée au cadre existant et les cultes saluent la constance. Les associations de patients dénoncent un refus d’avancer sur une demande ancienne.
+**Un socle commun évalué** — La proposition rassure les parents inquiets d’un manque de repères communs et donne un cadre national lisible. Les syndicats enseignants contestent l’ajout d’une évaluation qu’ils jugent bureaucratique.
 
-Sondage : 13.3 → 12.9 (rang 2 → 2)
+Sondage : 13.3 → 13 (rang 2 → 2)
 
-## 20. La Garonne sort de son lit — _official_campaign/world_
+## 20. La grève bloque les transports  — _official_campaign/world_
 
-Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
+Dans la simulation, une grève nationale des transports entre dans sa quatrième journée après l’échec d’une négociation salariale. La CGT et la CFDT portent des revendications distinctes ; les usagers demandent une sortie rapide plutôt qu’un commentaire de campagne.
 
-> **Choix retenu :** Rejoindre immédiatement un centre de coordination sans caméra et suivre les tâches attribuées [RISQUÉ]
+> **Choix retenu :** Demander une médiation indépendante avec suspension des nouvelles mesures pendant quarante-huit heures [INSTITUTIONNEL]
 
-**Une présence acceptée mais inutile au commandement** — Les autorités vous laissent rencontrer les équipes hors des zones opérationnelles. Votre discrétion évite la gêne, mais le déplacement mobilise tout de même une escorte et suscite un débat sur son utilité.
+**Quarante-huit heures pour remettre les parties à table** — Les syndicats acceptent la médiation et le calendrier offre une issue sans prétendre régler le fond. Les voyageurs restent confrontés aux perturbations pendant que vous gagnez une image de méthode.
 
-Sondage : 12.9 → 16.2 (rang 2 → 1)
+Sondage : 13 → 16.3 (rang 2 → 1)
 
 ## 21. Le duel sur les huit milliards _(CHAÎNE)_ — _official_campaign/debate_
 
@@ -212,9 +212,9 @@ Lors du débat de premier tour sur France 2, votre adversaire additionne vos nou
 
 **Les bénéficiaires remplacent les colonnes** — Votre réponse redonne un sens social aux montants et mobilise votre socle. Les téléspectateurs qui attendaient un financement restent sans réponse, ce qui fragilise votre crédibilité économique après le débat.
 
-Sondage : 16.2 → 12.6 (rang 1 → 2)
+Sondage : 16.3 → 12.9 (rang 1 → 2)
 
-## 22. L’adversaire refuse de vous laisser répondre — _official_campaign/debate_
+## 22. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
 Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
@@ -222,19 +222,19 @@ Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et t
 
 **Le chronomètre rend la parole** — La production vous accorde quarante secondes supplémentaires et applique la même règle à tous. Votre réponse est entendue, mais certains commentateurs jugent l’appel au règlement excessivement procédurier.
 
-Sondage : 12.6 → 12.5 (rang 2 → 2)
+Sondage : 12.9 → 12.9 (rang 2 → 2)
 
-## 23. La collecte se bloque — _official_campaign/campaign_
+## 23. Le meeting change de dispositif  — _official_campaign/campaign_
 
-Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
+La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
 
-> **Choix retenu :** Annuler la tournée la plus coûteuse et expliquer chaque économie [PRUDENT]
+> **Choix retenu :** Annuler le public et prononcer le discours depuis le siège en direct [PRUDENT]
 
-**Les comptes retrouvent une marge** — La suppression de quatre étapes stabilise la trésorerie et rassure le siège. Les territoires concernés dénoncent une campagne qui les abandonne en premier.
+**Le direct remplace la salle** — L’intervention atteint davantage de spectateurs que prévu, sans énergie militante. Vos adversaires jugent l’annulation excessive et le débat se déplace sur votre sang-froid.
 
-Sondage : 12.5 → 12.5 (rang 2 → 2)
+Sondage : 12.9 → 12.8 (rang 2 → 2)
 
-## 24. Le rapport reprend huit paragraphes — _between_rounds/scandal_
+## 24. Le rapport reprend huit paragraphes  — _between_rounds/scandal_
 
 Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’un rapport public sans citation. Le contenu source est librement accessible ; le problème porte sur l’attribution et sur la présentation du document comme un travail original.
 
@@ -242,9 +242,9 @@ Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’
 
 **Le droit d’utilisation ne répond pas à l’attribution** — Votre argument juridique sur les données est exact mais ne traite pas la reprise des formulations. La campagne transforme une correction simple en débat durable sur son honnêteté intellectuelle.
 
-Sondage : 12.5 → 12.3 (rang 2 → 3)
+Sondage : 12.8 → 12.5 (rang 2 → 2)
 
-## 25. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 25. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -252,9 +252,9 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Le rejet devient le seul ciment** — La stratégie mobilise rapidement ceux qui craignent le finaliste et augmente aussi la lassitude des électeurs sans enthousiasme. Vous améliorez les reports fragiles au prix dun mandat positif plus faible.
 
-Sondage : 12.3 → 12.2 (rang 3 → 3)
+Sondage : 12.5 → 12.5 (rang 2 → 2)
 
-## 26. Le RN doit élargir sans démobiliser — _between_rounds/party_
+## 26. Le RN doit élargir sans démobiliser  — _between_rounds/party_
 
 Qualifiée, Élise Montclar dispose d’un socle solide mais d’un rejet élevé. Les élus de droite susceptibles de soutenir exigent des garanties gouvernementales et européennes précises.
 
@@ -262,9 +262,9 @@ Qualifiée, Élise Montclar dispose d’un socle solide mais d’un rejet élev�
 
 **La dernière semaine vise les abstentionnistes** — Le message remobilise le socle et peut attirer des électeurs éloignés du vote. Les soutiens de droite se retirent et le rejet augmente parmi les indécis modérés.
 
-Sondage : 12.2 → 12.3 (rang 3 → 2)
+Sondage : 12.5 → 12.5 (rang 2 → 2)
 
-## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 27. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -272,9 +272,9 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le bilan adverse occupe le duel** — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
 
-Sondage : 12.3 → 12.6 (rang 2 → 2)
+Sondage : 12.5 → 12.8 (rang 2 → 2)
 
-## 28. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 28. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -282,9 +282,9 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **La photographie élargit la majorité** — Limage de rassemblement domine la soirée et mobilise les électeurs qui veulent battre votre adversaire. Labsence daccord précis permet à chacun de projeter ses attentes et prépare des conflits si vous gagnez.
 
-Sondage : 12.6 → 13 (rang 2 → 2)
+Sondage : 12.8 → 13.3 (rang 2 → 2)
 
-## 29. Deux points davance à cinq jours — _finished/between_rounds_
+## 29. Deux points davance à cinq jours  — _finished/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -292,4 +292,4 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 **Le dernier dossier durcit la fin** — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
 
-Sondage : 13 → 13.2 (rang 2 → 2)
+Sondage : 13.3 → 13.4 (rang 2 → 1)

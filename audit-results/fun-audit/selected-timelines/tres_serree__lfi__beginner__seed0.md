@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **tres_serree**
 
-Score final : 77/100 · 1er tour : 14.2 · 2nd tour : 51.7 · qualifié : true · vainqueur : true · signaux mémorables : 4
+Score final : 76/100 · 1er tour : 14.1 · 2nd tour : 51.4 · qualifié : true · vainqueur : true · signaux mémorables : 4
 
-## 1. Une minute sur les loyers — _pre_campaign/media_
+## 1. Une minute sur les loyers  — _pre_campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -14,7 +14,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 13.9 → 11.7 (rang 1 → 4)
 
-## 2. Les affiches manquent dans six villes — _pre_campaign/campaign_
+## 2. Les affiches manquent dans six villes  — _pre_campaign/campaign_
 
 Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus d’affiches. Le budget permet soit une impression d’urgence, soit une campagne numérique géolocalisée.
 
@@ -24,7 +24,7 @@ Le prestataire annonce cinq jours de retard et six équipes locales n’ont plus
 
 Sondage : 11.7 → 11.8 (rang 4 → 4)
 
-## 3. Saint-Denis ouvre ses réseaux associatifs — _pre_campaign/party_
+## 3. Saint-Denis ouvre ses réseaux associatifs  — _pre_campaign/party_
 
 Des associations de Saint-Denis proposent une semaine de réunions sur les prix, les services publics et labstention. Elles refusent un meeting classique et veulent que chaque soirée produise un engagement local vérifiable.
 
@@ -34,7 +34,7 @@ Des associations de Saint-Denis proposent une semaine de réunions sur les prix,
 
 Sondage : 11.8 → 12.1 (rang 4 → 2)
 
-## 4. Le siège coûte trop cher — _pre_campaign/internal_
+## 4. Le siège coûte trop cher  — _pre_campaign/internal_
 
 Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées régionales. Un espace moins central est disponible à Saint-Denis ; déménager en campagne économise des fonds mais perturbe l’organisation pendant une semaine.
 
@@ -44,7 +44,7 @@ Le bail du siège parisien absorbera bientôt l’équivalent de deux tournées 
 
 Sondage : 12.1 → 13.6 (rang 2 → 1)
 
-## 5. LFI choisit entre mouvement et candidat — _pre_campaign/party_
+## 5. LFI choisit entre mouvement et candidat  — _pre_campaign/party_
 
 Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane Valmont demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.
 
@@ -54,7 +54,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 Sondage : 13.6 → 12.3 (rang 1 → 2)
 
-## 6. Le regroupement familial en question — _pre_campaign/program_
+## 6. Le regroupement familial en question  — _pre_campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -64,7 +64,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 12.3 → 12.6 (rang 2 → 2)
 
-## 7. La plateforme publique tombe en panne — _pre_campaign/world_
+## 7. La plateforme publique tombe en panne  — _pre_campaign/world_
 
 Dans la simulation, une panne nationale empêche pendant une journée plusieurs démarches administratives en ligne. Aucun vol de données n’est signalé. Les agents ouvrent des guichets d’urgence et demandent des moyens plutôt qu’une accusation prématurée.
 
@@ -74,7 +74,7 @@ Dans la simulation, une panne nationale empêche pendant une journée plusieurs 
 
 Sondage : 12.6 → 13.1 (rang 2 → 1)
 
-## 8. Le déplacement en Guadeloupe engage — _pre_campaign/campaign_
+## 8. Le déplacement en Guadeloupe engage  — _pre_campaign/campaign_
 
 En Guadeloupe, les élus et associations placent l’eau potable, la vie chère et la continuité territoriale avant votre thème national. Ils demandent des compétences, un budget et une date.
 
@@ -84,7 +84,7 @@ En Guadeloupe, les élus et associations placent l’eau potable, la vie chère 
 
 Sondage : 13.1 → 10 (rang 1 → 8)
 
-## 9. Une crise ferme un détroit — _campaign/world_
+## 9. Une crise ferme un détroit  — _campaign/world_
 
 Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France na pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.
 
@@ -94,7 +94,7 @@ Dans la géopolitique fictive de la partie, une confrontation entre navires chin
 
 Sondage : 10 → 13.9 (rang 8 → 1)
 
-## 10. Une chanteuse veut soutenir la campagne — _campaign/alliance_
+## 10. Une chanteuse veut soutenir la campagne  — _campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -114,7 +114,7 @@ Lors du débat de premier tour sur France 2, votre adversaire additionne vos nou
 
 Sondage : 14.2 → 14.2 (rang 1 → 1)
 
-## 12. La périphérie demande un calendrier — _campaign/campaign_
+## 12. La périphérie demande un calendrier  — _campaign/campaign_
 
 Dans une commune périurbaine d’Occitanie, les habitants relient carburant, temps de trajet et fermeture des guichets. Ils refusent que le déplacement se termine par une promesse générale.
 
@@ -124,7 +124,7 @@ Dans une commune périurbaine d’Occitanie, les habitants relient carburant, te
 
 Sondage : 14.2 → 14.1 (rang 1 → 1)
 
-## 13. Les Écologistes proposent un pacte urbain — _campaign/party_
+## 13. Les Écologistes proposent un pacte urbain  — _campaign/party_
 
 Les Écologistes proposent à LFI une campagne commune dans six métropoles sur le logement, le vélo et la rénovation. Ils demandent de suspendre les attaques sur leur stratégie européenne pendant toute lopération.
 
@@ -134,7 +134,7 @@ Les Écologistes proposent à LFI une campagne commune dans six métropoles sur 
 
 Sondage : 14.1 → 14.5 (rang 1 → 1)
 
-## 14. La croissance simulée se retourne — _campaign/world_
+## 14. La croissance simulée se retourne  — _campaign/world_
 
 Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
 
@@ -154,7 +154,7 @@ Sur France Inter, la journaliste vous demande le coût annuel de votre mesure fi
 
 Sondage : 14.3 → 14.5 (rang 1 → 1)
 
-## 16. La Sixième République doit prendre forme — _official_campaign/party_
+## 16. La Sixième République doit prendre forme  — _official_campaign/party_
 
 Les militants veulent replacer la Sixième République au cœur de la campagne. Le chapitre actuel promet une constituante sans préciser le mode de scrutin, la durée du processus ni les pouvoirs maintenus pendant la transition.
 
@@ -174,7 +174,7 @@ Le Monde confronte votre réponse de matinale au document budgétaire de la camp
 
 Sondage : 12.8 → 15.3 (rang 2 → 1)
 
-## 18. La pluie emporte la tournée — _official_campaign/campaign_
+## 18. La pluie emporte la tournée  — _official_campaign/campaign_
 
 Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
 
@@ -184,25 +184,25 @@ Des pluies intenses rendent deux routes impraticables et le meeting en plein air
 
 Sondage : 15.3 → 15.4 (rang 1 → 1)
 
-## 19. Deux invitations au même horaire — _official_campaign/campaign_
+## 19. Le dernier grand meeting  — _official_campaign/campaign_
 
-France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
+À quarante-huit heures du silence électoral, votre dernier meeting doit consolider le socle sans fermer la porte aux indécis. Le temps ne permet plus de corriger une promesse nouvelle.
 
-> **Choix retenu :** Maintenir la rencontre des maires et envoyer votre porte-parole sur France 2 [LOYAL]
+> **Choix retenu :** Récapituler cinq engagements déjà chiffrés et annoncer leur ordre d’exécution [PRÉSIDENTIEL]
 
-**Les maires obtiennent votre présence** — La rencontre locale débouche sur trois soutiens et votre porte-parole tient l’entretien. L’absence du candidat limite néanmoins la portée économique nationale.
+**Le contrat ordonne la campagne** — Les cinq engagements rappellent vos décisions les plus cohérentes et donnent une chronologie. Le meeting rassure les indécis sans provoquer de pic spectaculaire.
 
-Sondage : 15.4 → 15.5 (rang 1 → 1)
+Sondage : 15.4 → 15.7 (rang 1 → 1)
 
-## 20. Un virement suit un trajet complexe — _official_campaign/scandal_
+## 20. Un fichier militant sort du siège  — _official_campaign/scandal_
 
-La banque de la campagne demande des précisions sur un don fictif reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.
+Un bénévole signale qu’un tableau de contacts a été partagé sur un lien sans mot de passe pendant six heures. Il contient des courriels et des préférences de bénévolat, mais aucune donnée bancaire ni pièce d’identité.
 
-> **Choix retenu :** Renvoyer immédiatement le don et transmettre le dossier à la commission des comptes [PRUDENT]
+> **Choix retenu :** Fermer le lien, notifier les personnes et la CNIL, puis publier le périmètre exact de l’exposition [TRANSPARENT]
 
-**Le doute quitte les comptes avec le virement** — La campagne perd une ressource utile mais ne dépend plus de l’explication du donateur. La transmission volontaire crée une trace claire et évite toute conclusion hâtive sur l’origine des fonds.
+**Les personnes apprennent l’incident par la campagne** — La notification arrive avant toute exploitation connue et explique les mesures prises. La campagne subit une forte critique sur sa sécurité, mais respecte une procédure vérifiable et limite le risque futur.
 
-Sondage : 15.5 → 16.4 (rang 1 → 1)
+Sondage : 15.7 → 16.4 (rang 1 → 1)
 
 ## 21. La note sur le vote utile fuite _(CHAÎNE)_ — _official_campaign/internal_
 
@@ -214,37 +214,37 @@ Une note interne propose d’attaquer un parti voisin pour capter son électorat
 
 Sondage : 16.4 → 15.6 (rang 1 → 1)
 
-## 22. La ligne de départ des retraites — _official_campaign/program_
+## 22. Qui financera les priorités  — _official_campaign/program_
 
-Votre convention sociale doit arrêter une règle lisible sur les retraites. Les carrières longues, l’espérance de vie et le financement rendent toute promesse uniforme fragile, mais reporter l’arbitrage laisserait vos adversaires écrire votre position.
+Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équipe doit choisir une recette avant la publication du programme : fiscalité du patrimoine, réduction de niches, taxe de consommation ou économies supplémentaires.
 
-> **Choix retenu :** Convoquer une conférence sociale avec obligation d’équilibre avant toute modification de l’âge [RASSEMBLEUR]
+> **Choix retenu :** Supprimer dix niches fiscales identifiées et publier le rendement attendu de chacune [TECHNIQUE]
 
-**La méthode tient, l’âge reste absent** — Les partenaires sociaux apprécient l’espace de négociation et la règle d’équilibre. Les électeurs qui attendaient un chiffre y voient toutefois un report, que chaque concurrent interprète selon son intérêt.
+**Dix avantages ont désormais dix défenseurs** — La liste crédibilise le financement et permet une vérification précise. Chaque secteur concerné organise cependant sa riposte, transformant un arbitrage technique en dix conflits concrets.
+
+Sondage : 15.6 → 15.6 (rang 1 → 1)
+
+## 23. Le face-à-face avec les syndicats  — _official_campaign/campaign_
+
+La CGT, la CFDT et Force ouvrière vous reçoivent séparément le même jour. Toutes demandent votre méthode sur les salaires, mais divergent sur la conférence sociale et la loi.
+
+> **Choix retenu :** Convoquer une conférence salariale avec accord majoritaire avant toute loi [RASSEMBLEUR]
+
+**La méthode obtient un accord prudent** — Les syndicats acceptent le principe à condition de publier la représentativité et le calendrier. Les employeurs réclament aussitôt une place égale à la table.
 
 Sondage : 15.6 → 15.7 (rang 1 → 1)
 
-## 23. Une nuit avec les urgences — _official_campaign/campaign_
+## 24. Deux cents maires demandent un contrat  — _between_rounds/alliance_
 
-À l’hôpital de Dijon, les soignants acceptent votre présence sans caméra dans les services. Au matin, ils demandent quelle décision concrète vous annoncerez et avec quel calendrier.
+Deux cents maires de communes rurales et périurbaines publient un appel sur les services publics, le logement et les finances locales. Ils soutiendront le candidat qui accepte un calendrier contrôlable plutôt qu’une liste de promesses.
 
-> **Choix retenu :** Publier chaque semaine les lits fermés et convoquer les agences régionales [TRANSPARENT]
+> **Choix retenu :** Signer un contrat de cinq ans avec conférence annuelle et indicateurs publiés par territoire [INSTITUTIONNEL]
 
-**Les fermetures deviennent vérifiables** — Le tableau de bord donne aux soignants un outil de pression et oblige votre équipe à assumer les écarts régionaux. Les gestionnaires redoutent une lecture trop brute.
+**Les maires obtiennent un calendrier opposable** — Une majorité des signataires rejoint votre comité de soutien et fournit un réseau territorial immédiat. Le contrat limite votre marge budgétaire future et crée des rendez-vous où chaque retard sera visible.
 
 Sondage : 15.7 → 15.7 (rang 1 → 1)
 
-## 24. La CFDT veut des garanties écrites — _between_rounds/alliance_
-
-La CFDT ne donnera pas de consigne de vote, mais propose de qualifier publiquement votre méthode de dialogue social si vous garantissez une négociation avant toute réforme des retraites et du travail.
-
-> **Choix retenu :** Signer la garantie de négociation avec calendrier, documents préparatoires et clause de bilan [INSTITUTIONNEL]
-
-**La méthode sociale reçoit un soutien public** — La CFDT salue la précision de votre engagement sans appeler à voter pour vous. La séquence renforce votre crédibilité auprès des salariés modérés et limite votre capacité à légiférer rapidement sans accord.
-
-Sondage : 15.7 → 15.8 (rang 1 → 1)
-
-## 25. LFI doit élargir sans se renier — _between_rounds/party_
+## 25. LFI doit élargir sans se renier  — _between_rounds/party_
 
 Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.
 
@@ -252,9 +252,9 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 **Le Parlement devient le garde-fou de la rupture** — Les soutiens de gauche obtiennent une garantie institutionnelle sans réécrire vos mesures sociales. Les reports progressent et le socle accepte mieux une concession portant sur la méthode.
 
-Sondage : 15.8 → 15.9 (rang 1 → 1)
+Sondage : 15.7 → 15.8 (rang 1 → 1)
 
-## 26. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 26. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -262,9 +262,9 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Les anciens candidats deviennent passeurs** — Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.
 
-Sondage : 15.9 → 16 (rang 1 → 1)
+Sondage : 15.8 → 15.8 (rang 1 → 1)
 
-## 27. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 27. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -272,9 +272,9 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le débat se termine sur la participation** — Vous résumez les conséquences concrètes des deux projets et évitez la morale électorale. L’appel touche les abstentionnistes mobilisables, sans résoudre les questions techniques laissées ouvertes plus tôt.
 
-Sondage : 16 → 16.1 (rang 1 → 1)
+Sondage : 15.8 → 16 (rang 1 → 1)
 
-## 28. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 28. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -282,9 +282,9 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **La photographie élargit la majorité** — Limage de rassemblement domine la soirée et mobilise les électeurs qui veulent battre votre adversaire. Labsence daccord précis permet à chacun de projeter ses attentes et prépare des conflits si vous gagnez.
 
-Sondage : 16.1 → 20.2 (rang 1 → 1)
+Sondage : 16 → 20.1 (rang 1 → 1)
 
-## 29. Les dernières heures autorisées — _government_epilogue/between_rounds_
+## 29. Les dernières heures autorisées  — _government_epilogue/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -292,9 +292,9 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 **Trois engagements ferment la campagne** — La conclusion ne crée aucune controverse et rappelle ce qui a survécu aux alliances et aux débats. Elle renforce la cohérence perçue sans provoquer de dernier mouvement spectaculaire.
 
-Sondage : 20.2 → 16.4 (rang 1 → 1)
+Sondage : 20.1 → 16.3 (rang 1 → 1)
 
-## 30. La première adresse de lÉlysée — _government_epilogue/government_
+## 30. La première adresse de lÉlysée  — _government_epilogue/government_
 
 Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.
 
@@ -302,9 +302,9 @@ Après les célébrations, votre première parole présidentielle fictive doit h
 
 **Le mandat commence par une délibération** — La convention réduit la précipitation et associe des citoyens aux arbitrages réels. Elle retarde les textes attendus par votre socle et donne le sentiment que la campagne na pas suffi à décider.
 
-Sondage : 16.4 → 16.3 (rang 1 → 1)
+Sondage : 16.3 → 16.1 (rang 1 → 1)
 
-## 31. Deux alliés réclament Bercy — _finished/government_
+## 31. Deux alliés réclament Bercy  — _finished/government_
 
 Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 
@@ -312,4 +312,4 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 **Bercy revient à la compétence, le Parlement compense** — Les critères du choix sont défendables et le comité donne une responsabilité réelle au partenaire écarté. Il accepte sans enthousiasme et maintient son soutien au premier budget.
 
-Sondage : 16.3 → 16.4 (rang 1 → 1)
+Sondage : 16.1 → 16.2 (rang 1 → 1)

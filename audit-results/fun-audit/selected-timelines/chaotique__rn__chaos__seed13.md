@@ -2,9 +2,9 @@
 
 Catégorie de sélection : **chaotique**
 
-Score final : 74/100 · 1er tour : 14.8 · 2nd tour : 51.3 · qualifié : true · vainqueur : true · signaux mémorables : 4
+Score final : 74/100 · 1er tour : 14.5 · 2nd tour : 51.2 · qualifié : true · vainqueur : true · signaux mémorables : 4
 
-## 1. Le regroupement familial en question — _pre_campaign/program_
+## 1. Le regroupement familial en question  — _pre_campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -14,7 +14,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 15.4 → 13.4 (rang 1 → 1)
 
-## 2. Une chanteuse veut soutenir la campagne — _pre_campaign/alliance_
+## 2. Une chanteuse veut soutenir la campagne  — _pre_campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -24,7 +24,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 Sondage : 13.4 → 13.6 (rang 1 → 1)
 
-## 3. La présidence que vous proposez — _pre_campaign/program_
+## 3. La présidence que vous proposez  — _pre_campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -34,7 +34,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 13.6 → 13.7 (rang 1 → 1)
 
-## 4. Une aciérie annonce sa fermeture — _pre_campaign/world_
+## 4. Une aciérie annonce sa fermeture  — _pre_campaign/world_
 
 Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit cents suppressions d’emplois après la perte d’un contrat européen. La direction cherche un repreneur et les salariés occupent le site sans violence.
 
@@ -44,7 +44,7 @@ Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit 
 
 Sondage : 13.7 → 15 (rang 1 → 1)
 
-## 5. Les abstentionnistes demandent une preuve locale — _pre_campaign/party_
+## 5. Les abstentionnistes demandent une preuve locale  — _pre_campaign/party_
 
 Des électeurs populaires favorables au RN disent ne plus croire aux promesses nationales. Ils demandent une mesure rapidement visible sur les transports, les soins ou les factures.
 
@@ -54,7 +54,7 @@ Des électeurs populaires favorables au RN disent ne plus croire aux promesses n
 
 Sondage : 15 → 14.2 (rang 1 → 1)
 
-## 6. La ligne de départ des retraites — _pre_campaign/program_
+## 6. La ligne de départ des retraites  — _pre_campaign/program_
 
 Votre convention sociale doit arrêter une règle lisible sur les retraites. Les carrières longues, l’espérance de vie et le financement rendent toute promesse uniforme fragile, mais reporter l’arbitrage laisserait vos adversaires écrire votre position.
 
@@ -64,7 +64,7 @@ Votre convention sociale doit arrêter une règle lisible sur les retraites. Les
 
 Sondage : 14.2 → 14.5 (rang 1 → 1)
 
-## 7. Un soutien éditorial encombrant — _pre_campaign/media_
+## 7. Un soutien éditorial encombrant  — _pre_campaign/media_
 
 Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.
 
@@ -74,7 +74,7 @@ Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue
 
 Sondage : 14.5 → 14.5 (rang 1 → 1)
 
-## 8. L’atelier industriel de Saint-Nazaire — _campaign/campaign_
+## 8. L’atelier industriel de Saint-Nazaire  — _campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -84,7 +84,7 @@ Sondage : 14.5 → 14.5 (rang 1 → 1)
 
 Sondage : 14.5 → 13.3 (rang 1 → 1)
 
-## 9. Le direct des questions citoyennes — _campaign/media_
+## 9. Le direct des questions citoyennes  — _campaign/media_
 
 Votre session en direct dépasse déjà l’heure prévue. Une infirmière demande un engagement précis sur les effectifs hospitaliers, puis des centaines de questions remontent sur le même sujet. La prochaine étape commence dans quarante minutes.
 
@@ -94,7 +94,7 @@ Votre session en direct dépasse déjà l’heure prévue. Une infirmière deman
 
 Sondage : 13.3 → 15 (rang 1 → 1)
 
-## 10. Le déplacement en Guadeloupe engage — _campaign/campaign_
+## 10. Le déplacement en Guadeloupe engage  — _campaign/campaign_
 
 En Guadeloupe, les élus et associations placent l’eau potable, la vie chère et la continuité territoriale avant votre thème national. Ils demandent des compétences, un budget et une date.
 
@@ -104,7 +104,7 @@ En Guadeloupe, les élus et associations placent l’eau potable, la vie chère 
 
 Sondage : 15 → 15 (rang 1 → 1)
 
-## 11. La baisse de TVA doit être ciblée — _campaign/party_
+## 11. La baisse de TVA doit être ciblée  — _campaign/party_
 
 Le RN promet de réduire la TVA sur des produits essentiels, mais le coût et la transmission aux prix font débat. L’équipe doit définir les produits, la durée et le contrôle.
 
@@ -114,7 +114,7 @@ Le RN promet de réduire la TVA sur des produits essentiels, mais le coût et la
 
 Sondage : 15 → 15.1 (rang 1 → 1)
 
-## 12. La table ronde agricole se tend — _campaign/campaign_
+## 12. La table ronde agricole se tend  — _campaign/campaign_
 
 À Clermont-Ferrand, la FNSEA et la Confédération paysanne vous interrogent ensemble sur les revenus, l’eau et les normes. Elles refusent un discours qui promettrait tout aux deux modèles.
 
@@ -124,7 +124,7 @@ Sondage : 15 → 15.1 (rang 1 → 1)
 
 Sondage : 15.1 → 14.9 (rang 1 → 1)
 
-## 13. Le marché sous pression — _campaign/campaign_
+## 13. Le marché sous pression  — _campaign/campaign_
 
 Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
 
@@ -134,7 +134,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 Sondage : 14.9 → 15.3 (rang 1 → 1)
 
-## 14. Reconquête propose un pacte de non-agression — _campaign/party_
+## 14. Reconquête propose un pacte de non-agression  — _campaign/party_
 
 Reconquête propose de cesser les attaques personnelles et de préparer des désistements législatifs. En échange, le parti demande deux engagements identitaires publics avant le premier débat.
 
@@ -144,7 +144,7 @@ Reconquête propose de cesser les attaques personnelles et de préparer des dés
 
 Sondage : 15.3 → 15.4 (rang 1 → 1)
 
-## 15. Une proposition de pacte de non-agression — _campaign/campaign_
+## 15. Une proposition de pacte de non-agression  — _campaign/campaign_
 
 À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Maël Dargent (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.
 
@@ -154,7 +154,7 @@ Sondage : 15.3 → 15.4 (rang 1 → 1)
 
 Sondage : 15.4 → 15.3 (rang 1 → 1)
 
-## 16. La porte-parole annonce trop tôt — _official_campaign/internal_
+## 16. La porte-parole annonce trop tôt  — _official_campaign/internal_
 
 Une porte-parole fictive présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.
 
@@ -164,7 +164,7 @@ Une porte-parole fictive présente comme arbitrée une baisse de cotisations enc
 
 Sondage : 15.3 → 15.7 (rang 1 → 1)
 
-## 17. Les soutiens envahissent le plateau — _official_campaign/debate_
+## 17. Les soutiens envahissent le plateau  — _official_campaign/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -174,7 +174,7 @@ Sondage : 15.3 → 15.7 (rang 1 → 1)
 
 Sondage : 15.7 → 15.5 (rang 1 → 1)
 
-## 18. Un cadre écologiste tenté par un ralliement — _official_campaign/alliance_
+## 18. Un cadre écologiste tenté par un ralliement  — _official_campaign/alliance_
 
 Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’elle serait ouverte à rejoindre une dynamique plus large si votre offre programmatique évolue sur un point précis.
 
@@ -184,7 +184,7 @@ Maya Lestang, cadre du mouvement écologiste, laisse entendre en privé qu’ell
 
 Sondage : 15.5 → 15.5 (rang 1 → 1)
 
-## 19. La Garonne sort de son lit — _official_campaign/world_
+## 19. La Garonne sort de son lit  — _official_campaign/world_
 
 Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
 
@@ -194,15 +194,15 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 Sondage : 15.5 → 15.5 (rang 1 → 1)
 
-## 20. La photographie du quai vide — _official_campaign/media_
+## 20. Une minute sur les loyers  — _official_campaign/media_
 
-À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
+franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
-> **Choix retenu :** Ignorer la photographie et publier uniquement les engagements annoncés à Lille [PRUDENT]
+> **Choix retenu :** Annoncer la garantie publique des loyers étudiants et renvoyer le financement au programme [POPULAIRE]
 
-**Le fond reprend lentement sa place** — L’image anime quelques éditoriaux puis disparaît du flux. Vos mesures régionales sont mieux reprises par la presse locale que par les chaînes nationales, sans gain ni crise durable.
+**La garantie tient dans le format** — La proposition est immédiatement comprise et reprise dans les associations étudiantes. Les questions de coût arrivent ensuite, mais vous avez enfin une mesure identifiable sur le logement des jeunes.
 
-Sondage : 15.5 → 14.7 (rang 1 → 1)
+Sondage : 15.5 → 14.8 (rang 1 → 1)
 
 ## 21. Louis Ferran refuse la modération _(CHAÎNE)_ — _official_campaign/party_
 
@@ -212,27 +212,27 @@ Louis Ferran, cadre fictif du RN, juge la stratégie de normalisation trop lente
 
 **L’économie remplace le conflit identitaire** — L’équipe présente une image disciplinée et peut consacrer plusieurs jours au pouvoir d’achat. Les responsables proches de Louis Ferran ralentissent la mobilisation dans leurs départements.
 
-Sondage : 14.7 → 15.6 (rang 1 → 1)
+Sondage : 14.8 → 15.8 (rang 1 → 1)
 
-## 22. La minute qui vous appartient — _official_campaign/debate_
+## 22. L’adversaire refuse de vous laisser répondre  — _official_campaign/debate_
 
-À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
+Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.
 
-> **Choix retenu :** Raconter la rencontre d’une aide-soignante et relier son quotidien à votre priorité sociale [POPULAIRE]
+> **Choix retenu :** Demander à la modératrice de restituer précisément votre temps avant de poursuivre [INSTITUTIONNEL]
 
-**Un visage reste après le débat** — Le récit est précis, respectueux et ramène plusieurs thèmes à une expérience concrète. Il humanise votre candidature sans détailler les arbitrages, ce qui renforce ladhésion émotionnelle plus que la crédibilité technique.
+**Le chronomètre rend la parole** — La production vous accorde quarante secondes supplémentaires et applique la même règle à tous. Votre réponse est entendue, mais certains commentateurs jugent l’appel au règlement excessivement procédurier.
 
-Sondage : 15.6 → 15.7 (rang 1 → 1)
+Sondage : 15.8 → 15.9 (rang 1 → 1)
 
-## 23. La promesse faite à l’école — _official_campaign/program_
+## 23. La règle européenne à changer  — _official_campaign/program_
 
-À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
+Votre chapitre européen doit expliquer ce que la France demandera, ce qu’elle acceptera en échange et ce qu’elle fera en cas de refus. La monnaie, le budget et la souveraineté rendent une position seulement symbolique peu crédible.
 
-> **Choix retenu :** Donner aux établissements un budget et une autonomie de recrutement sous contrôle académique [CLIVANT]
+> **Choix retenu :** Demander une clause dexception nationale et suspendre les règles contestées en cas de refus [OFFENSIF]
 
-**L’autonomie redessine le service public** — Les chefs d’établissement gagnent une marge d’action attendue et les syndicats craignent des inégalités durables entre territoires. La proposition élargit votre offre au prix d’un conflit idéologique clair.
+**La clause dexception devient un ultimatum** — La position séduit les électeurs attachés à l’autonomie nationale et inquiète les acteurs économiques exposés à l’Union. Vos partenaires potentiels exigent désormais de connaître précisément les règles visées.
 
-Sondage : 15.7 → 15 (rang 1 → 1)
+Sondage : 15.9 → 14.8 (rang 1 → 1)
 
 ## 24. Le courant Ferran teste la discipline _(CHAÎNE)_ — _between_rounds/party_
 
@@ -242,9 +242,9 @@ Après son mandat limité ou son éviction, Louis Ferran réunit ses soutiens et
 
 **La discipline l’emporte sur le courant** — Les interventions publiques deviennent cohérentes et Élise Montclar contrôle son agenda. Plusieurs responsables quittent le dispositif et peuvent transformer leur départ en dissidence autonome.
 
-Sondage : 15 → 14.9 (rang 1 → 1)
+Sondage : 14.8 → 14.5 (rang 1 → 1)
 
-## 25. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 25. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -252,9 +252,9 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 **Le rejet devient le seul ciment** — La stratégie mobilise rapidement ceux qui craignent le finaliste et augmente aussi la lassitude des électeurs sans enthousiasme. Vous améliorez les reports fragiles au prix dun mandat positif plus faible.
 
-Sondage : 14.9 → 14.8 (rang 1 → 1)
+Sondage : 14.5 → 14.5 (rang 1 → 1)
 
-## 26. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 26. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -262,9 +262,9 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 **Le bilan adverse occupe le duel** — Vos exemples sont précis et obligent le finaliste à défendre ses propres contradictions. Vous gagnez la confrontation sans consacrer assez de temps à votre coalition et à ses réserves de voix.
 
-Sondage : 14.8 → 15 (rang 1 → 1)
+Sondage : 14.5 → 14.6 (rang 1 → 1)
 
-## 27. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 27. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -272,9 +272,9 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 **La photographie élargit la majorité** — Limage de rassemblement domine la soirée et mobilise les électeurs qui veulent battre votre adversaire. Labsence daccord précis permet à chacun de projeter ses attentes et prépare des conflits si vous gagnez.
 
-Sondage : 15 → 15.2 (rang 1 → 1)
+Sondage : 14.6 → 14.7 (rang 1 → 1)
 
-## 28. Le RN doit élargir sans démobiliser — _between_rounds/party_
+## 28. Le RN doit élargir sans démobiliser  — _between_rounds/party_
 
 Qualifiée, Élise Montclar dispose d’un socle solide mais d’un rejet élevé. Les élus de droite susceptibles de soutenir exigent des garanties gouvernementales et européennes précises.
 
@@ -282,9 +282,9 @@ Qualifiée, Élise Montclar dispose d’un socle solide mais d’un rejet élev�
 
 **La dernière semaine vise les abstentionnistes** — Le message remobilise le socle et peut attirer des électeurs éloignés du vote. Les soutiens de droite se retirent et le rejet augmente parmi les indécis modérés.
 
-Sondage : 15.2 → 14.4 (rang 1 → 1)
+Sondage : 14.7 → 13.9 (rang 1 → 1)
 
-## 29. Deux points davance à cinq jours — _government_epilogue/between_rounds_
+## 29. Deux points davance à cinq jours  — _government_epilogue/between_rounds_
 
 Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.
 
@@ -292,9 +292,9 @@ Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincer
 
 **Le dernier dossier durcit la fin** — Les documents sont sourcés et mettent votre adversaire sous pression. Leur diffusion remobilise aussi son socle et transforme une avance fragile en duel très polarisé.
 
-Sondage : 14.4 → 15.5 (rang 1 → 1)
+Sondage : 13.9 → 14.8 (rang 1 → 1)
 
-## 30. Deux alliés réclament Bercy — _government_epilogue/government_
+## 30. Deux alliés réclament Bercy  — _government_epilogue/government_
 
 Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.
 
@@ -302,9 +302,9 @@ Deux responsables fictifs ayant soutenu votre second tour revendiquent le minist
 
 **Une tierce personne prend Bercy** — La nomination évite de récompenser une rivalité et apporte une expertise reconnue dans lunivers du jeu. Les deux alliés se sentent humiliés ensemble et coordonnent leurs exigences au Parlement.
 
-Sondage : 15.5 → 15.3 (rang 1 → 1)
+Sondage : 14.8 → 14.5 (rang 1 → 1)
 
-## 31. La première adresse de lÉlysée — _finished/government_
+## 31. La première adresse de lÉlysée  — _finished/government_
 
 Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.
 
@@ -312,4 +312,4 @@ Après les célébrations, votre première parole présidentielle fictive doit h
 
 **Le mandat commence par une délibération** — La convention réduit la précipitation et associe des citoyens aux arbitrages réels. Elle retarde les textes attendus par votre socle et donne le sentiment que la campagne na pas suffi à décider.
 
-Sondage : 15.3 → 15.2 (rang 1 → 1)
+Sondage : 14.5 → 14.4 (rang 1 → 1)

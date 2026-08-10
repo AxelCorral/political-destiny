@@ -4,7 +4,7 @@ Catégorie de sélection : **top10_fun**
 
 Score final : 89/100 · 1er tour : 16.1 · 2nd tour : 55.3 · qualifié : true · vainqueur : true · signaux mémorables : 8
 
-## 1. Les parrainages restent sous le seuil — _pre_campaign/campaign_
+## 1. Les parrainages restent sous le seuil  — _pre_campaign/campaign_
 
 À trois semaines du dépôt, votre équipe compte encore plusieurs dizaines de parrainages manquants. Des maires ruraux acceptent de vous recevoir, mais refusent toute pression publique.
 
@@ -14,7 +14,7 @@ Score final : 89/100 · 1er tour : 16.1 · 2nd tour : 55.3 · qualifié : true �
 
 Sondage : 7.4 → 10.9 (rang 8 → 8)
 
-## 2. Deux heures sans élément de langage — _pre_campaign/media_
+## 2. Deux heures sans élément de langage  — _pre_campaign/media_
 
 France Culture propose un entretien de deux heures sur votre parcours, vos lectures et trois désaccords internes au programme. Le temps long peut donner de l’épaisseur à la candidature, mais rend toute contradiction facile à isoler ensuite.
 
@@ -24,7 +24,7 @@ France Culture propose un entretien de deux heures sur votre parcours, vos lectu
 
 Sondage : 10.9 → 10.7 (rang 8 → 8)
 
-## 3. La présidence que vous proposez — _pre_campaign/program_
+## 3. La présidence que vous proposez  — _pre_campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -34,7 +34,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 10.7 → 10.9 (rang 8 → 8)
 
-## 4. Six rédactions face au désert médical — _pre_campaign/media_
+## 4. Six rédactions face au désert médical  — _pre_campaign/media_
 
 À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
@@ -44,7 +44,7 @@ Sondage : 10.7 → 10.9 (rang 8 → 8)
 
 Sondage : 10.9 → 13 (rang 8 → 2)
 
-## 5. Une minute sur les loyers — _pre_campaign/media_
+## 5. Une minute sur les loyers  — _pre_campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -54,7 +54,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 13 → 11.4 (rang 2 → 6)
 
-## 6. La loi migratoire du programme — _pre_campaign/program_
+## 6. La loi migratoire du programme  — _pre_campaign/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -64,7 +64,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 Sondage : 11.4 → 11.7 (rang 6 → 2)
 
-## 7. La Garonne sort de son lit — _pre_campaign/world_
+## 7. La Garonne sort de son lit  — _pre_campaign/world_
 
 Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
 
@@ -74,7 +74,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 Sondage : 11.7 → 11.8 (rang 2 → 3)
 
-## 8. Des élus ruraux proposent une tournée — _pre_campaign/party_
+## 8. Des élus ruraux proposent une tournée  — _pre_campaign/party_
 
 Des conseillers municipaux écologistes invitent Éloi Vernet dans des territoires où la voiture reste indispensable. Ils veulent parler carburant, lignes ferroviaires et accès aux services plutôt que gestes individuels.
 
@@ -84,7 +84,7 @@ Des conseillers municipaux écologistes invitent Éloi Vernet dans des territoir
 
 Sondage : 11.8 → 8.9 (rang 3 → 8)
 
-## 9. Les règles de la liste commune — _campaign/internal_
+## 9. Les règles de la liste commune  — _campaign/internal_
 
 Les courants du parti exigent de connaître la méthode de nomination des responsables de campagne. Une répartition strictement proportionnelle protège l’unité, tandis qu’une équipe resserrée permettrait des décisions plus rapides.
 
@@ -94,7 +94,7 @@ Les courants du parti exigent de connaître la méthode de nomination des respon
 
 Sondage : 8.9 → 12.2 (rang 8 → 2)
 
-## 10. La question de la fin de vie — _campaign/program_
+## 10. La question de la fin de vie  — _campaign/program_
 
 Une proposition de loi sur la fin de vie revient devant le Parlement pendant la campagne. Les associations de patients, les soignants et les cultes attendent une position claire, et le silence serait lui-même interprété comme un choix.
 
@@ -104,7 +104,7 @@ Une proposition de loi sur la fin de vie revient devant le Parlement pendant la 
 
 Sondage : 12.2 → 12.5 (rang 2 → 2)
 
-## 11. Les Écologistes arbitrent leur méthode — _campaign/party_
+## 11. Les Écologistes arbitrent leur méthode  — _campaign/party_
 
 Les groupes régionaux veulent pouvoir adapter les priorités nationales, tandis que l’équipe d’Éloi Vernet demande une campagne présidentielle capable de trancher collectivement en quelques heures.
 
@@ -124,7 +124,7 @@ Une projection fictive des législatives ne donne de majorité à aucun bloc et 
 
 Sondage : 12.7 → 10.9 (rang 2 → 7)
 
-## 13. La rénovation thermique doit changer d’échelle — _campaign/party_
+## 13. La rénovation thermique doit changer d’échelle  — _campaign/party_
 
 Le projet prévoit de rénover les logements les plus énergivores, mais les artisans, les locataires et les propriétaires attendent un calendrier, une avance de trésorerie et des contrôles clairs.
 
@@ -134,7 +134,7 @@ Le projet prévoit de rénover les logements les plus énergivores, mais les art
 
 Sondage : 10.9 → 13.3 (rang 7 → 1)
 
-## 14. Le contrat du conseiller est publié — _campaign/scandal_
+## 14. Le contrat du conseiller est publié  — _campaign/scandal_
 
 Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une clause prévoit une prime si la campagne dépasse un seuil de voix, mécanisme légal dans l’univers du jeu mais politiquement difficile à défendre.
 
@@ -144,7 +144,7 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 Sondage : 13.3 → 13.5 (rang 1 → 1)
 
-## 15. Le meeting quitte la capitale — _campaign/campaign_
+## 15. Le meeting quitte la capitale  — _campaign/campaign_
 
 L’équipe hésite entre Lille, Toulouse et Strasbourg pour le prochain grand meeting. Chaque ville correspond à un électorat et à un thème différents, sans budget pour trois déplacements.
 
@@ -154,7 +154,7 @@ L’équipe hésite entre Lille, Toulouse et Strasbourg pour le prochain grand m
 
 Sondage : 13.5 → 13.7 (rang 1 → 1)
 
-## 16. Qui financera les priorités — _official_campaign/program_
+## 16. Qui financera les priorités  — _official_campaign/program_
 
 Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équipe doit choisir une recette avant la publication du programme : fiscalité du patrimoine, réduction de niches, taxe de consommation ou économies supplémentaires.
 
@@ -164,7 +164,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 Sondage : 13.7 → 14.4 (rang 1 → 1)
 
-## 17. Les sections refusent le kit national — _official_campaign/internal_
+## 17. Les sections refusent le kit national  — _official_campaign/internal_
 
 Des sections de Bretagne jugent que les tracts nationaux ignorent les transports régionaux et la pêche. Elles ont préparé leur propre document, avec une proposition absente du programme validé.
 
@@ -174,7 +174,7 @@ Des sections de Bretagne jugent que les tracts nationaux ignorent les transports
 
 Sondage : 14.4 → 14.2 (rang 1 → 1)
 
-## 18. La convention citoyenne réclame une réponse — _official_campaign/campaign_
+## 18. La convention citoyenne réclame une réponse  — _official_campaign/campaign_
 
 Une convention locale tirée au sort vous remet douze propositions sur les transports et l’accès aux services. Elle demande lesquelles entreront réellement dans votre programme avant de vous recevoir.
 
@@ -184,7 +184,7 @@ Une convention locale tirée au sort vous remet douze propositions sur les trans
 
 Sondage : 14.2 → 14.5 (rang 1 → 1)
 
-## 19. La minute qui vous appartient — _official_campaign/debate_
+## 19. La minute qui vous appartient  — _official_campaign/debate_
 
 À la fin du grand débat, chaque candidat dispose d’une minute libre. Vos interventions techniques ont rassuré sans créer de moment fort ; votre équipe hésite entre résumer le contrat proposé, raconter une rencontre ou viser directement le vote utile.
 
@@ -194,7 +194,7 @@ Sondage : 14.2 → 14.5 (rang 1 → 1)
 
 Sondage : 14.5 → 14.7 (rang 1 → 1)
 
-## 20. Une motion réclame un congrès — _official_campaign/internal_
+## 20. Une motion réclame un congrès  — _official_campaign/internal_
 
 Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.
 
@@ -204,7 +204,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 Sondage : 14.7 → 17.4 (rang 1 → 1)
 
-## 21. Une accusation jugée infondée vise un adversaire — _official_campaign/campaign_
+## 21. Une accusation jugée infondée vise un adversaire  — _official_campaign/campaign_
 
 Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.
 
@@ -214,7 +214,7 @@ Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule
 
 Sondage : 17.4 → 14.5 (rang 1 → 1)
 
-## 22. La croissance simulée se retourne — _official_campaign/world_
+## 22. La croissance simulée se retourne  — _official_campaign/world_
 
 Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.
 
@@ -224,7 +224,7 @@ Dans la chronologie fictive de la partie, l’Insee publie un indicateur signala
 
 Sondage : 14.5 → 14.8 (rang 1 → 1)
 
-## 23. La porte-parole annonce trop tôt — _official_campaign/internal_
+## 23. La porte-parole annonce trop tôt  — _official_campaign/internal_
 
 Une porte-parole fictive présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.
 
@@ -234,7 +234,7 @@ Une porte-parole fictive présente comme arbitrée une baisse de cotisations enc
 
 Sondage : 14.8 → 14.8 (rang 1 → 1)
 
-## 24. Une chanteuse veut soutenir la campagne — _between_rounds/alliance_
+## 24. Une chanteuse veut soutenir la campagne  — _between_rounds/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -244,7 +244,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 Sondage : 14.8 → 14.8 (rang 1 → 1)
 
-## 25. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 25. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -254,7 +254,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 14.8 → 14.5 (rang 1 → 1)
 
-## 26. Le second tour exige une coalition climatique — _between_rounds/party_
+## 26. Le second tour exige une coalition climatique  — _between_rounds/party_
 
 Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les soutiens possibles demandent à la fois des garanties sociales, un calendrier industriel et une méthode parlementaire.
 
@@ -264,7 +264,7 @@ Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les
 
 Sondage : 14.5 → 14.5 (rang 1 → 1)
 
-## 27. La coalition réclame une annexe — _between_rounds/between_rounds_
+## 27. La coalition réclame une annexe  — _between_rounds/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -274,7 +274,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 Sondage : 14.5 → 14.7 (rang 1 → 1)
 
-## 28. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 28. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -294,7 +294,7 @@ Après votre refus de toute coalition, plusieurs partis jusque-là disponibles a
 
 Sondage : 15.5 → 14.9 (rang 1 → 1)
 
-## 30. Le choix de Matignon — _government_epilogue/government_
+## 30. Le choix de Matignon  — _government_epilogue/government_
 
 Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.
 
@@ -304,7 +304,7 @@ Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure 
 
 Sondage : 14.9 → 14.7 (rang 1 → 1)
 
-## 31. La première adresse de lÉlysée — _finished/government_
+## 31. La première adresse de lÉlysée  — _finished/government_
 
 Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.
 

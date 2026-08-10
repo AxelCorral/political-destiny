@@ -4,7 +4,7 @@ Catégorie de sélection : **outsider_performant**
 
 Score final : 68/100 · 1er tour : 13.6 · 2nd tour : 45 · qualifié : true · vainqueur : false · signaux mémorables : 6
 
-## 1. Le prochain budget de la santé — _pre_campaign/program_
+## 1. Le prochain budget de la santé  — _pre_campaign/program_
 
 Les directeurs d’hôpital et les soignants demandent des moyens immédiats, tandis que votre équipe insiste sur la prévention et la médecine de ville. Le programme ne peut financer toutes les priorités dès la première année.
 
@@ -14,7 +14,7 @@ Les directeurs d’hôpital et les soignants demandent des moyens immédiats, ta
 
 Sondage : 8 → 11.9 (rang 8 → 3)
 
-## 2. LFI choisit entre mouvement et candidat — _pre_campaign/party_
+## 2. LFI choisit entre mouvement et candidat  — _pre_campaign/party_
 
 Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane Valmont demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.
 
@@ -24,7 +24,7 @@ Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane
 
 Sondage : 11.9 → 12.2 (rang 3 → 2)
 
-## 3. Le marché sous pression — _pre_campaign/campaign_
+## 3. Le marché sous pression  — _pre_campaign/campaign_
 
 Sur le marché de Rouen, des commerçants vous montrent leurs factures d’énergie quand un collectif vous interpelle sur les loyers. Les deux groupes réclament une réponse avant votre départ.
 
@@ -34,7 +34,7 @@ Sur le marché de Rouen, des commerçants vous montrent leurs factures d’éner
 
 Sondage : 12.2 → 12.4 (rang 2 → 2)
 
-## 4. Les abstentionnistes demandent une preuve — _pre_campaign/party_
+## 4. Les abstentionnistes demandent une preuve  — _pre_campaign/party_
 
 À Marseille, de jeunes abstentionnistes disent partager plusieurs propositions de LFI sans croire que le vote changera leur quotidien. Ils demandent une action avant lélection plutôt quun nouvel appel moral à participer.
 
@@ -44,7 +44,7 @@ Sondage : 12.2 → 12.4 (rang 2 → 2)
 
 Sondage : 12.4 → 13.6 (rang 2 → 1)
 
-## 5. Le meeting change de dispositif — _pre_campaign/campaign_
+## 5. Le meeting change de dispositif  — _pre_campaign/campaign_
 
 La préfecture recommande de déplacer les files d’entrée après une alerte non ciblée. Le meeting peut être maintenu, réduit ou converti en intervention sans public.
 
@@ -54,7 +54,7 @@ La préfecture recommande de déplacer les files d’entrée après une alerte n
 
 Sondage : 13.6 → 12.8 (rang 1 → 2)
 
-## 6. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 6. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -64,7 +64,7 @@ Sondage : 13.6 → 12.8 (rang 1 → 2)
 
 Sondage : 12.8 → 13.1 (rang 2 → 1)
 
-## 7. Une motion réclame un congrès — _pre_campaign/internal_
+## 7. Une motion réclame un congrès  — _pre_campaign/internal_
 
 Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.
 
@@ -74,7 +74,7 @@ Quarante cadres fictifs demandent un congrès extraordinaire avant le premier to
 
 Sondage : 13.1 → 13.4 (rang 1 → 1)
 
-## 8. Un virement suit un trajet complexe — _pre_campaign/scandal_
+## 8. Un virement suit un trajet complexe  — _pre_campaign/scandal_
 
 La banque de la campagne demande des précisions sur un don fictif reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.
 
@@ -84,7 +84,7 @@ La banque de la campagne demande des précisions sur un don fictif reçu après 
 
 Sondage : 13.4 → 11.5 (rang 1 → 4)
 
-## 9. L’immigration de travail, un choix économique assumé ou non — _campaign/program_
+## 9. L’immigration de travail, un choix économique assumé ou non  — _campaign/program_
 
 Des fédérations patronales de la restauration, du bâtiment et du soin à domicile alertent publiquement sur des postes non pourvus. Le sujet, distinct de l’asile déjà tranché, oblige à préciser votre ligne sur l’immigration de travail.
 
@@ -94,7 +94,7 @@ Des fédérations patronales de la restauration, du bâtiment et du soin à domi
 
 Sondage : 11.5 → 14 (rang 4 → 1)
 
-## 10. Ce que l’école doit transmettre — _campaign/program_
+## 10. Ce que l’école doit transmettre  — _campaign/program_
 
 Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
@@ -104,7 +104,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 Sondage : 14 → 14.2 (rang 1 → 1)
 
-## 11. Six rédactions face au désert médical — _campaign/media_
+## 11. Six rédactions face au désert médical  — _campaign/media_
 
 À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
@@ -114,7 +114,7 @@ Sondage : 14 → 14.2 (rang 1 → 1)
 
 Sondage : 14.2 → 14.5 (rang 1 → 1)
 
-## 12. Une chanteuse veut soutenir la campagne — _campaign/alliance_
+## 12. Une chanteuse veut soutenir la campagne  — _campaign/alliance_
 
 Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.
 
@@ -124,7 +124,7 @@ Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un me
 
 Sondage : 14.5 → 14.9 (rang 1 → 1)
 
-## 13. Une minute sur les loyers — _campaign/media_
+## 13. Une minute sur les loyers  — _campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -134,7 +134,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 14.9 → 14.7 (rang 1 → 1)
 
-## 14. La pluie emporte la tournée — _campaign/campaign_
+## 14. La pluie emporte la tournée  — _campaign/campaign_
 
 Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
 
@@ -154,7 +154,7 @@ Un lot de cinquante mille tracts transforme par erreur « la France en commun »
 
 Sondage : 14.7 → 14.7 (rang 1 → 1)
 
-## 16. Le regroupement familial en question — _campaign/program_
+## 16. Le regroupement familial en question  — _campaign/program_
 
 Une proposition de loi sur les conditions du regroupement familial est déposée au Parlement. Contrairement au débat sur l’asile déjà tranché dans votre programme, ce texte porte spécifiquement sur les familles déjà installées.
 
@@ -164,7 +164,7 @@ Une proposition de loi sur les conditions du regroupement familial est déposée
 
 Sondage : 14.7 → 13.1 (rang 1 → 1)
 
-## 17. Le micro resté ouvert — _official_campaign/media_
+## 17. Le micro resté ouvert  — _official_campaign/media_
 
 Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
@@ -174,7 +174,7 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 Sondage : 13.1 → 14.1 (rang 1 → 1)
 
-## 18. La question venue de Mayotte — _official_campaign/debate_
+## 18. La question venue de Mayotte  — _official_campaign/debate_
 
 Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
 
@@ -184,7 +184,7 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 Sondage : 14.1 → 14.1 (rang 1 → 1)
 
-## 19. Deux équipes se disputent le terrain — _official_campaign/internal_
+## 19. Deux équipes se disputent le terrain  — _official_campaign/internal_
 
 Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.
 
@@ -194,7 +194,7 @@ Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévole
 
 Sondage : 14.1 → 14.3 (rang 1 → 1)
 
-## 20. La directrice a recruté son frère — _official_campaign/scandal_
+## 20. La directrice a recruté son frère  — _official_campaign/scandal_
 
 Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme développeur pour une mission de trois semaines. Le tarif correspond au marché et le travail existe, mais aucun autre candidat n’a été consulté.
 
@@ -214,7 +214,7 @@ Une projection fictive des législatives ne donne de majorité à aucun bloc et 
 
 Sondage : 11.1 → 14.7 (rang 6 → 1)
 
-## 22. La collecte se bloque — _official_campaign/campaign_
+## 22. La collecte se bloque  — _official_campaign/campaign_
 
 Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peut solliciter les petits donateurs, réduire la tournée ou demander une avance bancaire encadrée.
 
@@ -224,7 +224,7 @@ Les dons du mois sont inférieurs d’un tiers au budget prévu. L’équipe peu
 
 Sondage : 14.7 → 14.6 (rang 1 → 1)
 
-## 23. Les tentes encerclent la préfecture — _official_campaign/world_
+## 23. Les tentes encerclent la préfecture  — _official_campaign/world_
 
 Dans un épisode fictif à Marseille, des associations installent des tentes autour de la préfecture pour demander des solutions d’hébergement et des logements pérennes. La mobilisation reste pacifique et doit durer jusqu’à une réponse écrite.
 
@@ -234,7 +234,7 @@ Dans un épisode fictif à Marseille, des associations installent des tentes aut
 
 Sondage : 14.6 → 14.7 (rang 1 → 1)
 
-## 24. La promesse faite à l’école — _between_rounds/program_
+## 24. La promesse faite à l’école  — _between_rounds/program_
 
 À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
@@ -244,7 +244,7 @@ Sondage : 14.6 → 14.7 (rang 1 → 1)
 
 Sondage : 14.7 → 15.1 (rang 1 → 1)
 
-## 25. Les soutiens arrivent avec leurs conditions — _between_rounds/between_rounds_
+## 25. Les soutiens arrivent avec leurs conditions  — _between_rounds/between_rounds_
 
 Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.
 
@@ -254,7 +254,7 @@ Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande u
 
 Sondage : 15.1 → 15.2 (rang 1 → 1)
 
-## 26. LFI doit élargir sans se renier — _between_rounds/party_
+## 26. LFI doit élargir sans se renier  — _between_rounds/party_
 
 Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.
 
@@ -264,7 +264,7 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 Sondage : 15.2 → 15.4 (rang 1 → 1)
 
-## 27. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 27. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -274,7 +274,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 Sondage : 15.4 → 15.4 (rang 1 → 1)
 
-## 28. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 28. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 

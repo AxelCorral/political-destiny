@@ -4,7 +4,7 @@ Catégorie de sélection : **top10_fun**
 
 Score final : 75/100 · 1er tour : 14.6 · 2nd tour : 50.1 · qualifié : true · vainqueur : true · signaux mémorables : 6
 
-## 1. Qui financera les priorités — _pre_campaign/program_
+## 1. Qui financera les priorités  — _pre_campaign/program_
 
 Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équipe doit choisir une recette avant la publication du programme : fiscalité du patrimoine, réduction de niches, taxe de consommation ou économies supplémentaires.
 
@@ -14,7 +14,7 @@ Le cadrage budgétaire laisse huit milliards d’euros à financer. Votre équip
 
 Sondage : 12 → 11.9 (rang 2 → 4)
 
-## 2. Une minute sur les loyers — _pre_campaign/media_
+## 2. Une minute sur les loyers  — _pre_campaign/media_
 
 franceinfo vous propose une vidéo verticale : soixante secondes pour répondre à une étudiante qui ne trouve plus de logement à Rennes. Le format exige une mesure compréhensible, mais votre programme partage l’effort entre l’État, les communes et les bailleurs.
 
@@ -24,7 +24,7 @@ franceinfo vous propose une vidéo verticale : soixante secondes pour répondre 
 
 Sondage : 11.9 → 12.1 (rang 4 → 2)
 
-## 3. Les jeunes veulent leur propre campagne — _pre_campaign/internal_
+## 3. Les jeunes veulent leur propre campagne  — _pre_campaign/internal_
 
 Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent dêtre réduits à distribuer les tracts nationaux.
 
@@ -34,7 +34,7 @@ Le mouvement de jeunesse présente une campagne autonome sur le logement et le c
 
 Sondage : 12.1 → 12.4 (rang 2 → 2)
 
-## 4. L’atelier industriel de Saint-Nazaire — _pre_campaign/campaign_
+## 4. L’atelier industriel de Saint-Nazaire  — _pre_campaign/campaign_
 
 À Saint-Nazaire, les salariés d’un sous-traitant aéronautique vous interrogent sur les commandes publiques, la formation et l’électricité. La direction accepte la visite à condition d’éviter les images de production sensibles.
 
@@ -44,7 +44,7 @@ Sondage : 12.1 → 12.4 (rang 2 → 2)
 
 Sondage : 12.4 → 12.7 (rang 2 → 2)
 
-## 5. Le rapport reprend huit paragraphes — _pre_campaign/scandal_
+## 5. Le rapport reprend huit paragraphes  — _pre_campaign/scandal_
 
 Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’un rapport public sans citation. Le contenu source est librement accessible ; le problème porte sur l’attribution et sur la présentation du document comme un travail original.
 
@@ -54,7 +54,7 @@ Une note de campagne sur la réindustrialisation reproduit huit paragraphes d’
 
 Sondage : 12.7 → 12.6 (rang 2 → 2)
 
-## 6. La présidence que vous proposez — _pre_campaign/program_
+## 6. La présidence que vous proposez  — _pre_campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -64,7 +64,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 12.6 → 12.5 (rang 2 → 2)
 
-## 7. La Garonne sort de son lit — _pre_campaign/world_
+## 7. La Garonne sort de son lit  — _pre_campaign/world_
 
 Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.
 
@@ -74,7 +74,7 @@ Dans un épisode fictif de la campagne, des inondations touchent plusieurs commu
 
 Sondage : 12.5 → 12.5 (rang 2 → 2)
 
-## 8. La désobéissance européenne doit être définie — _pre_campaign/party_
+## 8. La désobéissance européenne doit être définie  — _pre_campaign/party_
 
 Le programme de LFI promet de désobéir aux règles européennes incompatibles avec son mandat. Les juristes du mouvement demandent de publier la liste des textes visés et la méthode de négociation avant quun adversaire ne la définisse à votre place.
 
@@ -84,7 +84,7 @@ Le programme de LFI promet de désobéir aux règles européennes incompatibles 
 
 Sondage : 12.5 → 12 (rang 2 → 2)
 
-## 9. Ce que l’école doit transmettre — _campaign/program_
+## 9. Ce que l’école doit transmettre  — _campaign/program_
 
 Un rapport parlementaire relance le débat sur les enseignements civiques et le cadre de vie scolaire. Les syndicats enseignants, les parents d’élèves et les associations laïques attendent chacun un signal, souvent contradictoire.
 
@@ -94,7 +94,7 @@ Un rapport parlementaire relance le débat sur les enseignements civiques et le 
 
 Sondage : 12 → 12 (rang 2 → 3)
 
-## 10. Le slogan divise le siège — _campaign/campaign_
+## 10. Le slogan divise le siège  — _campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -104,7 +104,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 12 → 11.7 (rang 3 → 4)
 
-## 11. Un fichier militant sort du siège — _campaign/scandal_
+## 11. Un fichier militant sort du siège  — _campaign/scandal_
 
 Un bénévole signale qu’un tableau de contacts a été partagé sur un lien sans mot de passe pendant six heures. Il contient des courriels et des préférences de bénévolat, mais aucune donnée bancaire ni pièce d’identité.
 
@@ -124,7 +124,7 @@ Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitu
 
 Sondage : 11.6 → 12.7 (rang 5 → 2)
 
-## 13. Deux invitations au même horaire — _campaign/campaign_
+## 13. Deux invitations au même horaire  — _campaign/campaign_
 
 France 2 propose un entretien économique à l’heure où vous devez rencontrer des maires ruraux à Limoges. Les deux rendez-vous refusent de changer leur calendrier.
 
@@ -134,7 +134,7 @@ France 2 propose un entretien économique à l’heure où vous devez rencontrer
 
 Sondage : 12.7 → 11.9 (rang 2 → 3)
 
-## 14. Le contrat du conseiller est publié — _campaign/scandal_
+## 14. Le contrat du conseiller est publié  — _campaign/scandal_
 
 Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une clause prévoit une prime si la campagne dépasse un seuil de voix, mécanisme légal dans l’univers du jeu mais politiquement difficile à défendre.
 
@@ -144,7 +144,7 @@ Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une cl
 
 Sondage : 11.9 → 11.9 (rang 3 → 3)
 
-## 15. Les Écologistes proposent un pacte urbain — _campaign/party_
+## 15. Les Écologistes proposent un pacte urbain  — _campaign/party_
 
 Les Écologistes proposent à LFI une campagne commune dans six métropoles sur le logement, le vélo et la rénovation. Ils demandent de suspendre les attaques sur leur stratégie européenne pendant toute lopération.
 
@@ -154,7 +154,7 @@ Les Écologistes proposent à LFI une campagne commune dans six métropoles sur 
 
 Sondage : 11.9 → 11.9 (rang 3 → 3)
 
-## 16. Le budget impose trois renoncements — _official_campaign/campaign_
+## 16. Le budget impose trois renoncements  — _official_campaign/campaign_
 
 Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous les déplacements épuiserait les réserves avant le premier tour. Il faut réduire un poste dès ce soir.
 
@@ -174,7 +174,7 @@ Le réseau de Nassim Courbet demande désormais un vote des adhérents sur la pr
 
 Sondage : 13.4 → 11.8 (rang 1 → 3)
 
-## 18. Les soutiens envahissent le plateau — _official_campaign/debate_
+## 18. Les soutiens envahissent le plateau  — _official_campaign/debate_
 
 À peine le débat terminé, les chaînes demandent à vos soutiens de désigner un vainqueur. Votre performance a été inégale : forte sur l’économie, faible sur un sujet territorial. L’équipe doit choisir le récit de la nuit.
 
@@ -184,7 +184,7 @@ Sondage : 13.4 → 11.8 (rang 1 → 3)
 
 Sondage : 11.8 → 11.8 (rang 3 → 3)
 
-## 19. Une aciérie annonce sa fermeture — _official_campaign/world_
+## 19. Une aciérie annonce sa fermeture  — _official_campaign/world_
 
 Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit cents suppressions d’emplois après la perte d’un contrat européen. La direction cherche un repreneur et les salariés occupent le site sans violence.
 
@@ -194,7 +194,7 @@ Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit 
 
 Sondage : 11.8 → 12 (rang 3 → 3)
 
-## 20. Le dernier grand meeting — _official_campaign/campaign_
+## 20. Le dernier grand meeting  — _official_campaign/campaign_
 
 À quarante-huit heures du silence électoral, votre dernier meeting doit consolider le socle sans fermer la porte aux indécis. Le temps ne permet plus de corriger une promesse nouvelle.
 
@@ -204,7 +204,7 @@ Sondage : 11.8 → 12 (rang 3 → 3)
 
 Sondage : 12 → 12.6 (rang 3 → 2)
 
-## 21. La photographie du quai vide — _official_campaign/media_
+## 21. La photographie du quai vide  — _official_campaign/media_
 
 À la gare de Lille-Flandres, une photographie vous montre seul devant un quai presque vide, quelques secondes avant l’arrivée des militants. L’image circule sans son contexte et devient le symbole commode d’une campagne supposée sans public.
 
@@ -214,7 +214,7 @@ Sondage : 12 → 12.6 (rang 3 → 2)
 
 Sondage : 12.6 → 12.4 (rang 2 → 3)
 
-## 22. La question venue de Mayotte — _official_campaign/debate_
+## 22. La question venue de Mayotte  — _official_campaign/debate_
 
 Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
 
@@ -224,7 +224,7 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 Sondage : 12.4 → 12.7 (rang 3 → 2)
 
-## 23. Un virement suit un trajet complexe — _official_campaign/scandal_
+## 23. Un virement suit un trajet complexe  — _official_campaign/scandal_
 
 La banque de la campagne demande des précisions sur un don fictif reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.
 
@@ -234,7 +234,7 @@ La banque de la campagne demande des précisions sur un don fictif reçu après 
 
 Sondage : 12.7 → 12.7 (rang 2 → 2)
 
-## 24. Le comité bloque le chapitre sécurité — _between_rounds/internal_
+## 24. Le comité bloque le chapitre sécurité  — _between_rounds/internal_
 
 Le comité du programme se partage exactement en deux sur les pouvoirs de police municipale. Sans arbitrage, le chapitre sécurité ne pourra pas être imprimé ; une décision présidentielle risque pourtant de nier six mois de travail collectif.
 
@@ -244,7 +244,7 @@ Le comité du programme se partage exactement en deux sur les pouvoirs de police
 
 Sondage : 12.7 → 13 (rang 2 → 2)
 
-## 25. Les reports refusent la mécanique — _between_rounds/between_rounds_
+## 25. Les reports refusent la mécanique  — _between_rounds/between_rounds_
 
 Votre coalition officielle devrait vous placer devant, mais les enquêtes simulées montrent une abstention élevée chez deux électorats alliés. Leurs dirigeants vous soutiennent ; leurs sympathisants demandent encore une mesure et une reconnaissance.
 
@@ -254,7 +254,7 @@ Votre coalition officielle devrait vous placer devant, mais les enquêtes simul�
 
 Sondage : 13 → 13.1 (rang 2 → 2)
 
-## 26. LFI doit élargir sans se renier — _between_rounds/party_
+## 26. LFI doit élargir sans se renier  — _between_rounds/party_
 
 Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.
 
@@ -264,7 +264,7 @@ Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes q
 
 Sondage : 13.1 → 13 (rang 2 → 2)
 
-## 27. Les dernières heures autorisées — _between_rounds/between_rounds_
+## 27. Les dernières heures autorisées  — _between_rounds/between_rounds_
 
 La campagne officielle prend fin ce soir. Il reste un déplacement possible, une adresse enregistrée ou une opération militante nationale. Toute annonce nouvelle serait impossible à corriger avant le vote.
 
@@ -274,7 +274,7 @@ La campagne officielle prend fin ce soir. Il reste un déplacement possible, une
 
 Sondage : 13 → 13.3 (rang 2 → 1)
 
-## 28. Le débat de lentre-deux-tours — _between_rounds/between_rounds_
+## 28. Le débat de lentre-deux-tours  — _between_rounds/between_rounds_
 
 Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.
 
@@ -284,7 +284,7 @@ Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos con
 
 Sondage : 13.3 → 12 (rang 1 → 3)
 
-## 29. La coalition réclame une annexe — _government_epilogue/between_rounds_
+## 29. La coalition réclame une annexe  — _government_epilogue/between_rounds_
 
 Vos principaux alliés souhaitent joindre au programme une annexe de douze mesures. Huit sont compatibles avec votre ligne, deux sont coûteuses et deux contredisent des déclarations enregistrées pendant le premier tour.
 
@@ -294,7 +294,7 @@ Vos principaux alliés souhaitent joindre au programme une annexe de douze mesur
 
 Sondage : 12 → 13.1 (rang 3 → 2)
 
-## 30. La première adresse de lÉlysée — _government_epilogue/government_
+## 30. La première adresse de lÉlysée  — _government_epilogue/government_
 
 Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.
 
@@ -304,7 +304,7 @@ Après les célébrations, votre première parole présidentielle fictive doit h
 
 Sondage : 13.1 → 13 (rang 2 → 2)
 
-## 31. Quinze ministres pour une coalition — _finished/government_
+## 31. Quinze ministres pour une coalition  — _finished/government_
 
 La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.
 

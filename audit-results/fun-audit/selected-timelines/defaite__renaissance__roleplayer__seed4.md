@@ -4,7 +4,7 @@ Catégorie de sélection : **defaite**
 
 Score final : 61/100 · 1er tour : 14.8 · qualifié : false · vainqueur : false · signaux mémorables : 3
 
-## 1. La question de la fin de vie — _pre_campaign/program_
+## 1. La question de la fin de vie  — _pre_campaign/program_
 
 Une proposition de loi sur la fin de vie revient devant le Parlement pendant la campagne. Les associations de patients, les soignants et les cultes attendent une position claire, et le silence serait lui-même interprété comme un choix.
 
@@ -14,7 +14,7 @@ Une proposition de loi sur la fin de vie revient devant le Parlement pendant la 
 
 Sondage : 11.2 → 12.3 (rang 6 → 2)
 
-## 2. Le siège déborde de bénévoles — _pre_campaign/campaign_
+## 2. Le siège déborde de bénévoles  — _pre_campaign/campaign_
 
 Après une vidéo très partagée, huit cents volontaires proposent leur aide en quarante-huit heures. Le siège ne peut ni les former ni leur confier les fichiers électoraux sans organisation supplémentaire.
 
@@ -24,7 +24,7 @@ Après une vidéo très partagée, huit cents volontaires proposent leur aide en
 
 Sondage : 12.3 → 12.5 (rang 2 → 2)
 
-## 3. Les parlementaires proposent cent permanences — _pre_campaign/party_
+## 3. Les parlementaires proposent cent permanences  — _pre_campaign/party_
 
 Des députés et sénateurs du bloc central mettent leurs permanences à disposition de la campagne. Ils souhaitent choisir les thèmes locaux et apparaître sur les supports distribués dans leur circonscription.
 
@@ -34,7 +34,7 @@ Des députés et sénateurs du bloc central mettent leurs permanences à disposi
 
 Sondage : 12.5 → 12.7 (rang 2 → 2)
 
-## 4. La France à cinquante degrés — _pre_campaign/program_
+## 4. La France à cinquante degrés  — _pre_campaign/program_
 
 À Montpellier, urbanistes, agriculteurs et médecins vous demandent comment adapter le pays aux canicules et aux sécheresses. La prévention exige des dépenses peu visibles avant que la prochaine crise ne les rende indispensables.
 
@@ -44,7 +44,7 @@ Sondage : 12.5 → 12.7 (rang 2 → 2)
 
 Sondage : 12.7 → 12.3 (rang 2 → 2)
 
-## 5. Six rédactions face au désert médical — _pre_campaign/media_
+## 5. Six rédactions face au désert médical  — _pre_campaign/media_
 
 À Clermont-Ferrand, six titres régionaux organisent un entretien commun sur l’accès aux soins. Les journalistes comparent votre objectif national aux fermetures de cabinets dans leurs départements et attendent un mécanisme applicable dès le prochain budget.
 
@@ -54,7 +54,7 @@ Sondage : 12.7 → 12.3 (rang 2 → 2)
 
 Sondage : 12.3 → 13.2 (rang 2 → 1)
 
-## 6. Horizons propose une candidature commune — _pre_campaign/party_
+## 6. Horizons propose une candidature commune  — _pre_campaign/party_
 
 Horizons offre de retirer sa candidature si un accord fixe le programme économique, la place des élus locaux et la méthode de désignation du Premier ministre. Renaissance doit répondre avant une conférence annoncée.
 
@@ -64,7 +64,7 @@ Horizons offre de retirer sa candidature si un accord fixe le programme économi
 
 Sondage : 13.2 → 13.3 (rang 1 → 1)
 
-## 7. La promesse faite à l’école — _pre_campaign/program_
+## 7. La promesse faite à l’école  — _pre_campaign/program_
 
 À Dijon, enseignants, parents et lycéens confrontent votre programme aux classes sans remplaçant et aux écarts de niveau. Les moyens, l’autonomie des établissements et les programmes scolaires appellent des réponses différentes.
 
@@ -74,7 +74,7 @@ Sondage : 13.2 → 13.3 (rang 1 → 1)
 
 Sondage : 13.3 → 13.6 (rang 1 → 1)
 
-## 8. La porte-parole annonce trop tôt — _pre_campaign/internal_
+## 8. La porte-parole annonce trop tôt  — _pre_campaign/internal_
 
 Une porte-parole fictive présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.
 
@@ -84,7 +84,7 @@ Une porte-parole fictive présente comme arbitrée une baisse de cotisations enc
 
 Sondage : 13.6 → 14.7 (rang 1 → 1)
 
-## 9. La présidence que vous proposez — _campaign/program_
+## 9. La présidence que vous proposez  — _campaign/program_
 
 Une conférence à l’Assemblée nationale vous oblige à préciser l’équilibre des pouvoirs. Référendum, proportionnelle, responsabilité présidentielle et rôle du Parlement peuvent se combiner, mais chaque réforme crée ses propres risques institutionnels.
 
@@ -94,7 +94,7 @@ Une conférence à l’Assemblée nationale vous oblige à préciser l’équili
 
 Sondage : 14.7 → 14.2 (rang 1 → 1)
 
-## 10. Les classes moyennes demandent un gain net — _campaign/party_
+## 10. Les classes moyennes demandent un gain net  — _campaign/party_
 
 Des panels d’électeurs comprennent les réformes proposées mais ne voient pas leur effet sur le revenu disponible. L’équipe doit choisir une mesure simple sans abandonner la crédibilité budgétaire.
 
@@ -104,7 +104,7 @@ Des panels d’électeurs comprennent les réformes proposées mais ne voient pa
 
 Sondage : 14.2 → 14.6 (rang 1 → 1)
 
-## 11. Une nuit avec les urgences — _campaign/campaign_
+## 11. Une nuit avec les urgences  — _campaign/campaign_
 
 À l’hôpital de Dijon, les soignants acceptent votre présence sans caméra dans les services. Au matin, ils demandent quelle décision concrète vous annoncerez et avec quel calendrier.
 
@@ -124,7 +124,7 @@ Salomé Varenne, cadre fictive de Renaissance, refuse que la campagne traite le 
 
 Sondage : 14.9 → 14.6 (rang 1 → 1)
 
-## 13. Renaissance choisit continuité ou rupture — _campaign/party_
+## 13. Renaissance choisit continuité ou rupture  — _campaign/party_
 
 Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’équipe de Maël Dargent réclame une autonomie visible. Le premier discours doit fixer la frontière sans renier les soutiens gouvernementaux.
 
@@ -134,7 +134,7 @@ Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’�
 
 Sondage : 14.6 → 15.3 (rang 1 → 1)
 
-## 14. Le contrat d’intégration, jusqu’où aller — _campaign/program_
+## 14. Le contrat d’intégration, jusqu’où aller  — _campaign/program_
 
 Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs d’intégration selon les territoires. Votre équipe doit trancher entre renforcer les obligations existantes ou investir davantage dans l’accompagnement.
 
@@ -144,7 +144,7 @@ Un rapport de la Cour des comptes pointe l’hétérogénéité des dispositifs 
 
 Sondage : 15.3 → 15.5 (rang 1 → 1)
 
-## 15. Le micro resté ouvert — _campaign/media_
+## 15. Le micro resté ouvert  — _campaign/media_
 
 Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.
 
@@ -154,7 +154,7 @@ Après une interview sur France 2, un micro capte votre remarque sèche sur Ana�
 
 Sondage : 15.5 → 15.7 (rang 1 → 1)
 
-## 16. Tensions internes chez Reconquête — _official_campaign/world_
+## 16. Tensions internes chez Reconquête  — _official_campaign/world_
 
 La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.
 
@@ -174,7 +174,7 @@ Le conflit sur l’héritage gouvernemental revient au bureau exécutif. Salomé
 
 Sondage : 16 → 16.1 (rang 1 → 1)
 
-## 18. Une contradiction chez le camp centriste — _official_campaign/debate_
+## 18. Une contradiction chez le camp centriste  — _official_campaign/debate_
 
 Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.
 
@@ -184,7 +184,7 @@ Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, 
 
 Sondage : 16.1 → 16.2 (rang 1 → 1)
 
-## 19. L’imprimeur a doublé une ligne — _official_campaign/scandal_
+## 19. L’imprimeur a doublé une ligne  — _official_campaign/scandal_
 
 Étienne Marot, fournisseur fictif, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.
 
@@ -194,7 +194,7 @@ Sondage : 16.1 → 16.2 (rang 1 → 1)
 
 Sondage : 16.2 → 16.2 (rang 1 → 1)
 
-## 20. La pluie emporte la tournée — _official_campaign/campaign_
+## 20. La pluie emporte la tournée  — _official_campaign/campaign_
 
 Des pluies intenses rendent deux routes impraticables et le meeting en plein air doit être annulé. Les services locaux demandent aux équipes de ne pas gêner les interventions.
 
@@ -204,7 +204,7 @@ Des pluies intenses rendent deux routes impraticables et le meeting en plein air
 
 Sondage : 16.2 → 14.8 (rang 1 → 1)
 
-## 21. La question venue de Mayotte — _official_campaign/debate_
+## 21. La question venue de Mayotte  — _official_campaign/debate_
 
 Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstruction des services publics. La fiche prévue par votre équipe traite surtout d’immigration ; vous connaissez le cadre national, pas les chiffres locaux demandés.
 
@@ -214,7 +214,7 @@ Une habitante de Mayotte vous interroge sur l’accès à l’eau et la reconstr
 
 Sondage : 14.8 → 16.4 (rang 1 → 1)
 
-## 22. Un virement suit un trajet complexe — _official_campaign/scandal_
+## 22. Un virement suit un trajet complexe  — _official_campaign/scandal_
 
 La banque de la campagne demande des précisions sur un don fictif reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.
 
@@ -224,7 +224,7 @@ La banque de la campagne demande des précisions sur un don fictif reçu après 
 
 Sondage : 16.4 → 16.5 (rang 1 → 1)
 
-## 23. Le slogan divise le siège — _official_campaign/campaign_
+## 23. Le slogan divise le siège  — _official_campaign/campaign_
 
 Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l’un promet une rupture nette, l’autre une méthode de gouvernement. Aucun ne convainc tous vos électorats.
 
@@ -234,7 +234,7 @@ Deux slogans testés en groupe qualitatif racontent des campagnes opposées : l
 
 Sondage : 16.5 → 16.6 (rang 1 → 1)
 
-## 24. La loi migratoire du programme — _between_rounds/program_
+## 24. La loi migratoire du programme  — _between_rounds/program_
 
 Le volet migratoire doit articuler contrôle des frontières, droit d’asile, travail et intégration. Une formule vague préserverait l’unité interne, mais laisserait le sujet aux candidats qui proposent déjà des mesures très précises.
 
@@ -244,7 +244,7 @@ Le volet migratoire doit articuler contrôle des frontières, droit d’asile, t
 
 Sondage : 16.6 → 16.7 (rang 1 → 1)
 
-## 25. Votre voix reste décisive — _finished/between_rounds_
+## 25. Votre voix reste décisive  — _finished/between_rounds_
 
 Éliminé du premier tour, vous pouvez soutenir le finaliste fictif le plus proche, négocier des garanties ou rester indépendant. Vos électeurs ne sont pas une propriété : la manière de donner la consigne comptera autant que son sens.
 
