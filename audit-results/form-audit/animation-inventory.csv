@@ -1,0 +1,8 @@
+element,duree,easing,trigger,fonction,prefers_reduced_motion,fichier
+Barre de sondage (PollChart),700ms,ease Tailwind par defaut,mise a jour d'un sondage,fonctionnelle,respecte (classe + regle globale),src/components/game/poll-chart.tsx
+Jauge de statistique (StatGauge),500ms,ease Tailwind par defaut,changement de valeur de stat,fonctionnelle,respecte (classe + regle globale),src/components/game/stat-gauge.tsx
+Barre de progression du calendrier (CampaignHeader),500ms,ease Tailwind par defaut,avancement dans les decisions,fonctionnelle,respecte (regle globale css uniquement),src/features/campaign/campaign-screens.tsx
+Survol bouton primaire,150ms,ease Tailwind par defaut,hover souris (translate-y -0.5),decorative_utile,respecte (motion-reduce:transition-none sur le groupe),src/components/ui/button.tsx
+Selection d'un choix d'evenement,150ms (transition generique),ease Tailwind par defaut,clic sur une option,fonctionnelle (bordure bleue + fade 50% des options non choisies),non explicite mais couvert par la regle globale css,src/features/campaign/event-decision-card.tsx
+Overlay de la modale (Dialog),0ms reel,-,ouverture d'une modale,NUISIBLE (classe morte),sans objet,src/components/ui/dialog.tsx
+Barres de classement des resultats electoraux,0ms (aucune transition declaree),-,affichage des resultats premier/second tour,ABSENTE,sans objet,src/features/campaign/campaign-screens.tsx (ElectionRanking)

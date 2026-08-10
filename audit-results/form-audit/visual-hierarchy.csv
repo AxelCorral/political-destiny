@@ -1,0 +1,11 @@
+ecran,priorite_gameplay_niveau1,element_visuellement_dominant,aligne,probleme
+Carte d'evenement standard,le dilemme (les 3 choix),le titre H1 en majuscules (font-display text-4xl),non,le titre domine visuellement alors que la decision reelle (les choix) est ce qui compte mecaniquement
+Carte de debat,la position a defendre,le titre H1 sur fond navy,oui,le fond navy attire bien l'oeil vers le moment le plus consequent (debat)
+Ecran de consequence,l'ampleur de l'effet sur les stats,le titre de la consequence,non,les pastilles d'effet (positif/negatif) sont plus petites et moins visibles que le titre narratif
+Tableau de bord - Synthese,intentions de vote (le chiffre le plus suivi),grille egale de 6 jauges,non,aucune jauge n'est mise en avant par rapport aux autres malgre une importance mecanique inegale
+Etat de la course (bulletin),l'ecart de qualification,le grand titre "Etat de la course",partiel,l'ecart chiffre est en texte de taille normale sous le titre, pas mis en gros
+Resultats premier tour,qualification ou non du joueur,le titre "Vous etes au second tour"/"3e au premier tour",oui,tres bien aligne, message immediat
+Bilan final,le score global /100,le titre narratif (ex. Strategie sans couronne),partiel,le score est bien visible (jauge circulaire) mais place a droite, seconde apres le titre a gauche en lecture F
+Choix du parti (liste),l'identite du parti (couleur/symbole),le nom du parti en texte noir,partiel,l'emblème colore est plus petit que le bloc de texte alors qu'il porte l'essentiel de la differenciation
+Formation du gouvernement (epilogue),le sommet de la carriere politique,identique a un evenement ordinaire,non,aucun signal hierarchique ne distingue ce moment des evenements routiniers
+Evenement rare,la rarete de l'evenement,le titre (identique en taille a un evenement ordinaire),non,la rarete n'a aucun poids visuel dominant, seule une petite icone Sparkles la signale

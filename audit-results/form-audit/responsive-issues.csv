@@ -1,0 +1,9 @@
+ecran,viewport,probleme,gravite,preuve
+Tableau de bord (onglets),360x800 et 390x844,4e onglet Actualites totalement invisible sans aucun indice de defilement horizontal,P1,screenshots/10-tableau-de-bord__mobile-compact_360x800.png et mobile-moderne_390x844.png
+Carte d'evenement de parti (titre long),390x844,titre party_nouvelle_energie_signature tronque au milieu du mot ENTREPRENDRE,P1,screenshots/BUG-titre-tronque-mobile__party_nouvelle_energie_signature__390x844.png
+Accueil,1920x1080 et 1440x900,large bande de vide cream inutilisee sous le bloc disclaimer,P3,screenshots/01-accueil__desktop-large_1920x1080.png
+Choix du point de depart,1920x1080,meme probleme de vide vertical residuel qu'a l'accueil,P3,screenshots/03-choix-point-depart__desktop-large_1920x1080.png
+Carte d'evenement standard,1920x1080,colonne cream vide d'environ 350px entre la fin de l'aside et le bord droit de la fenetre,P3,screenshots/08-premiere-carte-evenement__desktop-large_1920x1080.png
+Colonne laterale (stats/dashboard),390x844 vs 1920x1080,passe de "a cote" (desktop) a "sous la carte, apres scroll" (mobile) - acces aux chiffres retarde en jeu,P4,playtests/playtest-4-renaissance-mobile-carte.png
+Grille de choix du parti,768x1024 (tablette),passage a 2 colonnes correct mais aucune verification faite sur landscape tablette,P4,screenshots/04-choix-parti__tablette-portrait_768x1024.png
+Navigation principale (Archives/Succes/A propos),390x844,icones seules sans etiquette texte visible (uniquement aria-label),P4,screenshots/01-accueil__mobile-moderne_390x844.png

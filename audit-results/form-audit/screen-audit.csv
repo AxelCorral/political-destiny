@@ -1,0 +1,34 @@
+ecran,parcours_prompt_section7,gabarit_ui,distinct_visuellement,verdict,probleme_principal
+Accueil,1,hero_navy_dedie,oui,TRES_BON,gros vide vertical residuel a 1920px sous le bloc disclaimer
+Disclaimer,2,dialog_radix_flou_arriere_plan,oui,BON,aucun probleme majeur observe
+Choix du point de depart,-,grille_3_cartes_blanches,non,CORRECT,ressemble a une page de plans SaaS malgre le sujet politique
+Choix du parti (liste 9),3,grille_cartes_blanches_uniformes,partiel,CORRECT,carte generique mais emblemes colores compensent partiellement
+Fiche detail parti,-,deux_cartes_forces_fragilites,non,CORRECT,aucun portrait ni illustration du candidat fictif
+Creation de parti (etape identite),4,formulaire_avec_apercu_live,oui,TRES_BON,apercu en temps reel est le meilleur moment interactif de l'onboarding
+Choix methode de campagne,5,5_cartes_icones_distinctes,partiel,BON,bouton Lancer visuellement desactive tant qu'aucun choix n'est fait
+Ecran de lancement de campagne,-,hero_navy_ceremoniel,oui,EXCELLENT,aucun probleme observe
+Premiere carte d'evenement,6,StandardDecisionCard,non,CORRECT,choix A/B/C ressemblent a un questionnaire/formulaire
+Evenement ordinaire (campagne/media/programme),7,StandardDecisionCard,non,CORRECT,indiscernable visuellement d'un evenement majeur
+Consequence ordinaire,8,OutcomeScreen,non,CORRECT,aucune ponderation visuelle selon l'ampleur de l'effet
+Evenement majeur/decisif,9,StandardDecisionCard,non,PROBLEMATIQUE,aucune mise en scene distincte d'un evenement routinier
+Evenement rare,10,StandardDecisionCard + icone Sparkles,non,PROBLEMATIQUE,seule l'icone change; aucun cadre/fond/anim specifique
+Evenement de chaine narrative,11,StandardDecisionCard,non,PROBLEMATIQUE,aucun rappel visuel de l'evenement declencheur
+Follow-up de chaine,12,StandardDecisionCard,non,PROBLEMATIQUE,identique a un evenement independant
+Crise interne (vie interne),13,StandardDecisionCard,non,CORRECT,categorie distincte seulement par le libelle du badge
+Debat / interaction adversaire,14,DebateDecisionCard,oui,TRES_BON,seul gabarit vraiment distinct du jeu hors resultats
+Sondages / bulletin (Etat de la course),15,RaceBulletinScreen dediee,oui,TRES_BON,exploite bien la tension (ecart chiffre au concurrent)
+Situation proche qualification,16,RaceBulletinScreen,oui,BON,texte explicite (a portee/hors zone) mais pas d'alerte visuelle forte
+Pre-premier tour,17,derniere carte avant transition,non,CORRECT,transition immediate sans montee en tension dediee
+Resultats premier tour,18,ElectionNightScreen navy,oui,EXCELLENT,pas d'animation de comptage sur les barres de classement
+Elimination premier tour,19,ElectionNightScreen navy,oui,BON,meme palette qu'une qualification; digne mais peu different
+Entre-deux-tours qualifie,20,transition + StandardDecisionCard,partiel,CORRECT,retour immediat au gabarit ordinaire apres le climax
+Entre-deux-tours elimine,21,bilan direct,oui,BON,coherent avec le traitement digne de la defaite
+Debat final second tour,22,DebateDecisionCard,partiel,CORRECT,meme gabarit qu'un debat de mi-campagne ordinaire
+Resultat presidentiel,23,ElectionNightScreen navy,oui,EXCELLENT,identique structurellement victoire/defaite hors texte
+Victoire,24,FinalScreen hero navy,oui,TRES_BON,aucune difference de traitement vs defaite hormis le texte
+Defaite,25,FinalScreen hero navy,oui,TRES_BON,mise en scene digne confirmee sur 3 playtests
+Gouvernement/epilogue,26,StandardDecisionCard,non,PROBLEMATIQUE,identique a un evenement de mi-campagne malgre son statut de sommet narratif
+Bilan final,27,FinalScreen complet + carte partageable,oui,EXCELLENT,fonction Partager/Telecharger PNG deja presente et bien concue
+Succes/historique,28,grille_badges_glyphes_uniformes,non,CORRECT,aucune hierarchie visuelle rarete/difficulte entre badges
+Tableau de bord (dashboard),-,dialog_4_onglets,partiel,PROBLEMATIQUE,4e onglet tronque sans indice de scroll a 360-390px (bug confirme deja connu)
+Archives (pantheon local),-,meme carte que bilan,oui,BON,coherence visuelle avec le bilan final

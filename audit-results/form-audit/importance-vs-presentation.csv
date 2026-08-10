@@ -1,0 +1,21 @@
+element,importance_mecanique_1a5,importance_visuelle_1a5,ecart,note
+Formation du gouvernement (epilogue de victoire),5,1,4,seul moment ou le joueur devient president; rendu comme un evenement de mi-campagne quelconque
+Evenement rare (12 au catalogue post-audit),4,1,3,rarete mecanique confirmee par simulation (occurrences <5% des runs) mais aucun cadre/animation dedie
+Evenement de chaine narrative (suite conditionnee a un choix passe),4,1,3,identifie par l'audit fonctionnel comme le contenu le plus apprecie; aucun rappel visuel du choix d'origine
+Debat d'entree en second tour,4,2,2,reutilise le gabarit d'un debat ordinaire alors qu'il ouvre la phase finale
+Ampleur d'un effet de consequence (petit vs enorme delta de stat),4,2,2,meme taille de pastille quelle que soit l'ampleur du chiffre reel
+Evenement de parti (identite specifique du mouvement joue),4,2,2,seul le libelle du badge categorie differencie ces evenements des evenements generiques
+Contradiction/revirement ideologique (statementLedger),3,2,1,affiche comme une pastille de couleur dans le journal, jamais dans le fil de jeu principal
+Alliance active avec un autre parti,3,2,1,visible seulement dans l'onglet Programme du tableau de bord, jamais sur la carte d'evenement
+Ecart de qualification (proche du seuil des 12,5%),4,3,1,texte explicite present (RaceBulletinScreen) mais sans alerte visuelle forte (couleur, pulsation)
+Score de bilan final (/100),4,3,1,jauge circulaire proportionnelle deja presente (bon point) mais partagee entre victoire et defaite sans distinction de ton
+Relation degradee avec un adversaire recurrent (rivalite),3,1,2,uniquement textuelle dans le fil d'actualites, aucune fiche de relation ni indicateur persistant
+Acteur fictif recurrent (ex. fondateur de parti, rival),3,1,2,aucune identite visuelle (pas de portrait/silhouette), seulement mentionne par son nom dans le texte
+Debat final (2nd tour),5,3,2,gabarit visuel identique a n'importe quel debat de mi-campagne malgre l'enjeu maximal
+Victoire vs defaite (registre emotionnel oppose),5,3,2,structure et palette rigoureusement identiques, seul le texte differe
+Tension de fin de campagne (derniers jours avant le vote),4,2,2,aucune accélération visuelle du rythme, la carte reste identique jusqu'au dernier jour
+Timer narratif du debat (90 secondes mentionnees dans le texte),2,1,1,purement narratif, aucun compte a rebours ni pression visuelle reelle
+Succes/badge rare vs badge commun,3,1,2,tous les badges partagent le meme style cream+glyphe, aucune hierarchie de rarete visuelle
+Cible tactile des liens de pied de page (mobile),2,1,1,deja identifiee sous 44px par V2_CHANGELOG.md Phase H, non corrigee depuis
+Titre d'evenement de parti long sur mobile,3,1,2,bug de troncature confirme (party_nouvelle_energie_signature) qui rend un texte illisible
+4e onglet du tableau de bord sur mobile (Actualites),3,1,2,invisible sans indice de defilement a 360-390px, bug deja documente par GAMEPLAY_AUDIT.md et toujours present

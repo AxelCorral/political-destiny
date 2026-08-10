@@ -1,0 +1,12 @@
+critere,etat,preuve,note
+prefers-reduced-motion,RESPECTE,globals.css desactive animation/transition-duration a 0.01ms sous la media query + un data-attribute manuel html[data-reduce-motion=true] pour un reglage utilisateur explicite,double implementation (systeme + preference manuelle) au-dela du minimum requis
+Cibles tactiles boutons principaux,CONFORME,Button variant par defaut/large en min-h-11 (44px) ou plus; nav header en min-h-11,conforme a la regle documentee en V2_DECISIONS.md D-009
+Cibles tactiles bouton compact,NON_CONFORME,Button variant="compact" descend a min-h-9 (36px),sous le seuil de 44px que le projet s'impose lui-meme
+Cibles tactiles liens de pied de page,NON_CONFORME,SiteFooter rend des <Link> texte sans min-height/padding renforce,ecart deja documente dans V2_CHANGELOG.md Phase H, toujours present a la lecture du code
+Focus clavier visible,CONFORME,focus-visible:ring-2 present sur Button/Dialog/choix d'evenement/navigation,coherent sur l'ensemble des composants inspectes
+Navigation icones (header),CONFORME (lecteur d'ecran),chaque lien de nav porte aria-label explicite (Archives/Succes/A propos) malgre le texte visuel masque en <sm,accessible au lecteur d'ecran; ambiguite uniquement visuelle pour un utilisateur voyant sur mobile (voir note qualite percue)
+Couleur comme seul signal (effets positifs/negatifs),CONFORME,les pastilles d'effet combinent couleur ET texte (le libelle explique toujours l'effet, pas seulement un badge vert/rouge),aucune information vehiculee par la couleur seule observee
+Contraste texte principal (encre sur fond),PROBABLEMENT_CONFORME,--ink #102139 sur --surface #f8f5ee: contraste tres eleve a l'oeil sur toutes les captures,non mesure avec un outil de contraste automatise dans cette mission (limite assumee, voir methodologie)
+Contraste texte secondaire (--ink-muted sur blanc),A_VERIFIER,--ink-muted #526176 utilise pour de nombreux sous-titres et libelles de stats en petite taille,paraissait lisible sur les captures mais jamais mesure formellement (AA/AAA) dans cette mission
+Alt text / role img des emblemes de partis,CONFORME,PartyMark porte role="img" et aria-label="Embleme abstrait de {nom}",verifie dans le code source
+Structure de titres (h1 unique par ecran),CONFORME,chaque carte d'evenement et chaque ecran de resultat n'affiche qu'un seul h1 identifiable dans les captures de snapshot Playwright,coherent sur l'ensemble des parcours captures

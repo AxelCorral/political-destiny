@@ -1,0 +1,61 @@
+{
+  "mission": "PROMPT_CLAUDE_CODE_AUDIT_FORME_GAME_FEEL.md",
+  "scope": "forme, direction artistique, UI/UX, game feel, animations, hierarchie visuelle, responsive, mise en scene",
+  "excludedFromScope": [
+    "regles du jeu",
+    "equilibrage electoral",
+    "contenu des evenements",
+    "probabilites"
+  ],
+  "baseline": {
+    "branch": "codex/v2-audit-improvements",
+    "commitAtStart": "ff086df7aa92ff6a8edd3c04cdafba6ff335af8c",
+    "node": "v24.16.0",
+    "npm": "11.13.0"
+  },
+  "verificationSuite": {
+    "lint": "pass",
+    "typecheck": "pass",
+    "test": "155/156 pass (1 known pre-existing flaky test under parallel load, unrelated to this mission)",
+    "build": "pass",
+    "e2e": "17/18 executed (1 desktop test fails on a stale deterministic-seed fixture affected by prior balance changes from a previous mission, not by this audit; 6 mobile tests skipped due to serial dependency on the failed one)"
+  },
+  "corpus": {
+    "screenshots": 60,
+    "viewportsCovered": ["360x800", "390x844", "768x1024", "1366x768", "1920x1080"],
+    "playtests": 5,
+    "playtestsRequired": {
+      "desktop": ["Horizons", "Ecologistes", "Reconquete"],
+      "mobile": ["Renaissance", "Nouvelle Energie"]
+    }
+  },
+  "keyFindingsCount": {
+    "screenAudit": 32,
+    "visualHierarchyGaps": 10,
+    "importanceVsPresentationGaps": 19,
+    "responsiveIssues": 8,
+    "designSystemInconsistencies": 7,
+    "accessibilityChecks": 11,
+    "animationsInventoried": 7
+  },
+  "confirmedBugs": [
+    {
+      "id": "dashboard-tab-overflow",
+      "description": "4th dashboard tab (Actualites) invisible without scroll affordance at 360-390px width",
+      "status": "already documented in GAMEPLAY_AUDIT.md section 23, still present, confirmed live with fresh screenshots this session",
+      "severity": "P1"
+    },
+    {
+      "id": "title-clip-mobile",
+      "description": "party_nouvelle_energie_signature title clipped mid-word (ENTREPRENDRE -> ENTREPRENDRI) at 390px",
+      "status": "newly confirmed this session with screenshot evidence, not previously documented in prior audits",
+      "severity": "P1"
+    },
+    {
+      "id": "dead-animate-in-class",
+      "description": "Dialog overlay uses data-[state=open]:animate-in with no tailwindcss-animate plugin installed; verified absent from node_modules and package-lock.json; class produces zero CSS, modal opens with no fade",
+      "status": "newly confirmed this session via source inspection",
+      "severity": "P3"
+    }
+  ]
+}
