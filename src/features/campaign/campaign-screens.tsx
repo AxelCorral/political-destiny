@@ -11,6 +11,7 @@ import {
   TrendingUp,
   Trophy,
 } from "lucide-react";
+import type { CSSProperties } from "react";
 import { useState } from "react";
 
 import { PartyMark } from "@/components/game/party-mark";
@@ -227,8 +228,7 @@ export function OutcomeScreen() {
     <div className="mx-auto flex min-h-[calc(100vh-8rem)] max-w-4xl items-center px-4 py-10 sm:px-6">
       <Card
         className={cn(
-          "w-full overflow-hidden",
-          isElevated && "animate-card-enter",
+          "animate-card-enter w-full overflow-hidden",
           emphasis === "major" && "border-[var(--gold-400)]/50",
         )}
         aria-live="polite"
@@ -596,11 +596,14 @@ function ElectionRanking({ result, state }: { result: ElectionRoundResult; state
                 <span className="block truncate text-sm font-black">{party.displayName}</span>
                 <div className="mt-1.5 h-2 overflow-hidden rounded-full bg-[var(--surface-raised)]">
                   <div
-                    className="h-full rounded-full"
-                    style={{
-                      width: `${(score / maximum) * 100}%`,
-                      backgroundColor: party.visual.primaryColor,
-                    }}
+                    className="animate-bar-grow h-full w-full rounded-full"
+                    style={
+                      {
+                        "--bar-scale": maximum > 0 ? score / maximum : 0,
+                        backgroundColor: party.visual.primaryColor,
+                        animationDelay: `${index * 80}ms`,
+                      } as CSSProperties
+                    }
                   />
                 </div>
               </div>

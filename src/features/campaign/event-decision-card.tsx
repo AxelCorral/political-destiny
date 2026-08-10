@@ -174,10 +174,9 @@ function StandardDecisionCard({
   return (
     <Card
       className={cn(
-        "overflow-hidden",
+        "animate-card-enter overflow-hidden",
         variant === "major" && "border-[var(--blue-400)]/50",
         variant === "rare" && "border-[var(--gold-400)]/60",
-        isElevated && "animate-card-enter",
       )}
     >
       {isElevated ? (
@@ -195,7 +194,7 @@ function StandardDecisionCard({
           ) : null}
           <div className="relative">
             <div className="flex flex-wrap items-center justify-between gap-3">
-              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-black uppercase tracking-[0.14em] text-[var(--gold-300)]">
+              <span className="animate-badge-reveal inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-black uppercase tracking-[0.14em] text-[var(--gold-300)]">
                 <Icon aria-hidden="true" className="size-4" /> {VARIANT_EYEBROW[variant]}
               </span>
               <time className="flex items-center gap-2 text-xs font-bold text-slate-300">
@@ -264,9 +263,9 @@ function DebateDecisionCard({
   };
 
   return (
-    <Card className="overflow-hidden border-[var(--blue-400)]">
+    <Card className="animate-card-enter overflow-hidden border-[var(--blue-400)]">
       <div className="bg-[var(--navy-950)] p-5 text-white sm:p-7">
-        <span className="text-xs font-black uppercase tracking-[0.18em] text-[var(--gold-300)]">
+        <span className="animate-badge-reveal text-xs font-black uppercase tracking-[0.18em] text-[var(--gold-300)]">
           Débat en direct · prise de position
         </span>
         <h1 className="mt-4 break-words font-display text-3xl font-black uppercase sm:text-4xl">
@@ -341,7 +340,7 @@ function GovernmentDecisionCard({
               <PartyMark visual={party.visual} name={party.displayName} size="small" />
             ) : null}
             <div>
-              <span className="block text-xs font-black uppercase tracking-[0.2em] text-[var(--gold-300)]">
+              <span className="animate-badge-reveal block text-xs font-black uppercase tracking-[0.2em] text-[var(--gold-300)]">
                 Vous gouvernez désormais
               </span>
               <time className="mt-0.5 block text-xs text-slate-300">
