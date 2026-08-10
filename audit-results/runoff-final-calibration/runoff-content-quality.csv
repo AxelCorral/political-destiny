@@ -1,0 +1,11 @@
+eventId,eventTitle,eligibleParties,phase,referencedThirdParties,hasOpponentExclusionGuard,coherent,reason
+"party_lfi_runoff","LFI doit élargir sans se renier","lfi","party","ps|ecologistes","true","true","eligibility exclut déjà le cas adversaire"
+"party_ps_runoff","La gauche attend un contrat de second tour","ps","party","lfi|ecologistes|renaissance","true","true","eligibility exclut déjà le cas adversaire"
+"party_ecologistes_runoff","Le second tour exige une coalition climatique","ecologistes","party","ps|lfi","true","true","eligibility exclut déjà le cas adversaire"
+"party_renaissance_runoff","Le bloc républicain demande des preuves","renaissance","party","horizons|ps","true","true","eligibility exclut déjà le cas adversaire"
+"party_horizons_runoff","Le centre droit négocie son élargissement","horizons","party","renaissance|lr","true","true","eligibility exclut déjà le cas adversaire"
+"party_horizons_runoff_continuity","Le bloc central formalise son choix","horizons","party","lr","true","true","eligibility exclut déjà le cas adversaire"
+"party_horizons_runoff_coalition","La coalition élargie se présente unie","horizons","party","lr|renaissance","true","true","eligibility exclut déjà le cas adversaire"
+"party_lr_runoff","La droite qualifiée cherche ses reports","lr","party","horizons|rn","true","true","eligibility exclut déjà le cas adversaire"
+"party_reconquete_runoff","La qualification bouleverse la stratégie","reconquete","party","rn|lr","true","true","eligibility exclut déjà le cas adversaire"
+"party_nouvelle_energie_runoff","L’outsider doit former une majorité","nouvelle_energie","party","horizons|lr","true","true","eligibility exclut déjà le cas adversaire"

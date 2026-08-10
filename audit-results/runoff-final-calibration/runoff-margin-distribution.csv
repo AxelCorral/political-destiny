@@ -1,0 +1,2 @@
+n,mean,median,stdDev,p10,p25,p75,p90,below05pct,below1pct,below2pct,below5pct,above5pct,above10pct,exactTieCount
+15801,9.87,8.8,6.82,1.6,4.2,14.6,19.6,3.08,5.56,11.38,29.06,69.86,44.19,108

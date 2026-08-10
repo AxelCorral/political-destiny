@@ -1,15 +1,19 @@
 import { describe, expect, it } from "vitest";
 
+import { gameContent } from "@/game/data";
 import { testContent } from "@/game/fixtures/testContent";
 
 import {
   centralityCost,
+  dampRetainedGap,
   diminishingRejectionPenalty,
+  ranking,
   runoffShareSplit,
   simulateFirstRound,
   simulateSecondRound,
 } from "../election";
 import { createGame } from "../game";
+import { currentEvent, resolveCurrentChoice } from "../index";
 
 describe("diminishingRejectionPenalty (P5)", () => {
   it("matches the previous linear penalty (rejection * 0.34) exactly at the calibration midpoint", () => {
@@ -221,4 +225,149 @@ describe("élections", () => {
     ).result.results.alpha;
     expect(alphaShare).toBeGreaterThan(betaEndorsementAlphaShare ?? 0);
   });
+
+  it("le second tour ne contient jamais que les deux finalistes (jamais le tiers éliminé)", () => {
+    const initial = createGame(
+      { seed: "finalists-only", mode: "existing_party", partyId: "alpha", methodId: "field" },
+      testContent,
+    );
+    const first = simulateFirstRound(initial, testContent.electorateBlocs).state;
+    first.qualifiedPartyIds = ["alpha", "beta"];
+    if (!first.firstRoundResult) throw new Error("Premier tour absent de la fixture.");
+    first.firstRoundResult.results = { alpha: 40, beta: 35, gamma: 25 };
+    first.firstRoundResult.ranking = ["alpha", "beta", "gamma"];
+
+    const { result } = simulateSecondRound(first, testContent.electorateBlocs);
+    expect(Object.keys(result.results).sort()).toEqual(["alpha", "beta"]);
+    expect(result.results.gamma).toBeUndefined();
+    expect(result.ranking).toEqual(expect.arrayContaining(["alpha", "beta"]));
+    expect(result.ranking).toHaveLength(2);
+  });
+
+  it("la distribution des marges de second tour n'est pas dégénérée (calibration finale §24 : pas de 50/50 systématique, pas d'écart identique à chaque duel)", () => {
+    const margins: number[] = [];
+    for (let seedIndex = 0; seedIndex < 24; seedIndex += 1) {
+      const initial = createGame(
+        { seed: `margin-distribution-${seedIndex}`, mode: "existing_party", partyId: "alpha", methodId: "field" },
+        testContent,
+      );
+      const first = simulateFirstRound(initial, testContent.electorateBlocs).state;
+      if (!first.qualifiedPartyIds || first.qualifiedPartyIds.length !== 2) continue;
+      const { result } = simulateSecondRound(first, testContent.electorateBlocs);
+      const [leftId, rightId] = first.qualifiedPartyIds;
+      const margin = Math.abs((result.results[leftId!] ?? 0) - (result.results[rightId!] ?? 0));
+      margins.push(margin);
+    }
+    expect(margins.length).toBeGreaterThan(10);
+    // Non dégénéré : au moins deux valeurs de marge distinctes sur l'échantillon.
+    expect(new Set(margins.map((m) => m.toFixed(1))).size).toBeGreaterThan(1);
+    // Pas un 50/50 exact systématique.
+    expect(margins.every((m) => m === 0)).toBe(false);
+  });
+
+  it("comportement d'égalité : à score de second tour exactement égal, un vainqueur est désigné de façon déterministe (ordre alphabétique de l'identifiant)", () => {
+    expect(ranking({ alpha: 50, beta: 50 })).toEqual(["alpha", "beta"]);
+    expect(ranking({ beta: 50, alpha: 50 })).toEqual(["alpha", "beta"]);
+    expect(ranking({ zeta: 33.3, alpha: 33.3, mu: 33.4 })).toEqual(["mu", "alpha", "zeta"]);
+  });
+});
+
+describe("dampRetainedGap — calibration finale (RETAINED_GAP_DAMPING)", () => {
+  it("conserve la masse totale (gauche + droite conservées inchangées)", () => {
+    for (const [left, right] of [
+      [30, 20],
+      [10, 40],
+      [25, 25],
+      [0, 15],
+    ]) {
+      const damped = dampRetainedGap(left!, right!);
+      expect(damped.left + damped.right).toBeCloseTo(left! + right!, 8);
+    }
+  });
+
+  it("préserve l'ordre et le signe de l'écart (jamais d'inversion, jamais d'égalité forcée quand l'écart initial est non nul)", () => {
+    const damped = dampRetainedGap(30, 20);
+    expect(damped.left).toBeGreaterThan(damped.right);
+    expect(damped.left).not.toBeCloseTo(damped.right, 2);
+  });
+
+  it("réduit l'écart brut sans jamais l'annuler ni le dépasser (amortissement, pas de plafond arbitraire ni d'égalité forcée)", () => {
+    const rawGap = 30 - 20;
+    const damped = dampRetainedGap(30, 20);
+    const dampedGap = damped.left - damped.right;
+    expect(dampedGap).toBeGreaterThan(0);
+    expect(dampedGap).toBeLessThan(rawGap);
+  });
+
+  it("ne change rien à un écart déjà nul (égalité stricte reste une égalité stricte)", () => {
+    const damped = dampRetainedGap(25, 25);
+    expect(damped.left).toBeCloseTo(25, 8);
+    expect(damped.right).toBeCloseTo(25, 8);
+  });
+});
+
+describe("agence entre-deux-tours — les décisions du joueur peuvent changer l'issue du second tour", () => {
+  // Utilise le contenu de production (pas la fixture minimale) : les effets
+  // des événements réels (party_stat, ideology, etc.) sont d'une amplitude
+  // suffisante pour survivre à l'arrondi à 0,1 pt du résultat officiel et au
+  // bruit du second tour — cf. AUDIT_RUNOFF_FINAL_CALIBRATION.md §11-12 (520
+  // fourches contrefactuelles réelles, 4,1 % de vainqueur changé). La fixture
+  // minimale (testContent) a des deltas trop petits (±1-2 pts) pour que
+  // l'effet dépasse jamais le seuil d'arrondi sur un échantillon réduit.
+  const method = gameContent.methods[0]!.id;
+
+  function playToBetweenRounds(seed: string) {
+    let state = createGame(
+      { seed, mode: "existing_party", partyId: "renaissance", methodId: method },
+      gameContent,
+    );
+    let guard = 0;
+    while (state.phase !== "between_rounds" && state.phase !== "finished" && guard < 60) {
+      const event = currentEvent(state, gameContent.events);
+      if (!event) break;
+      state = resolveCurrentChoice(state, event.choices[0]!.id, gameContent).state;
+      guard += 1;
+    }
+    return state;
+  }
+
+  function playFromForkToEnd(forkState: ReturnType<typeof playToBetweenRounds>, choiceIndex: number) {
+    let state = structuredClone(forkState);
+    let guard = 0;
+    while (state.phase !== "finished" && guard < 60) {
+      const event = currentEvent(state, gameContent.events);
+      if (!event) break;
+      const choice = event.choices[choiceIndex] ?? event.choices[0]!;
+      state = resolveCurrentChoice(state, choice.id, gameContent).state;
+      guard += 1;
+    }
+    return state;
+  }
+
+  it(
+    "à état forké identique (même premier tour, mêmes finalistes), une politique de décision différente sur l'entre-deux-tours peut changer le score du second tour",
+    () => {
+      let divergentTrials = 0;
+      let totalTrials = 0;
+      for (let seedIndex = 0; seedIndex < 20; seedIndex += 1) {
+        const fork = playToBetweenRounds(`agency-fork-${seedIndex}`);
+        if (fork.phase !== "between_rounds") continue;
+        const event = currentEvent(fork, gameContent.events);
+        if (!event || event.choices.length < 2) continue;
+        const branchA = playFromForkToEnd(fork, 0);
+        const branchB = playFromForkToEnd(fork, 1);
+        const scoreA = branchA.secondRoundResult?.results[branchA.playerPartyId];
+        const scoreB = branchB.secondRoundResult?.results[branchB.playerPartyId];
+        if (scoreA === undefined || scoreB === undefined) continue;
+        totalTrials += 1;
+        if (Math.abs(scoreA - scoreB) > 0.01) divergentTrials += 1;
+      }
+      expect(totalTrials).toBeGreaterThan(5);
+      // N'exige pas que CHAQUE choix compte (l'agence n'est jamais absolue),
+      // mais au moins une minorité mesurable de cas doit diverger — sinon le
+      // choix entre-deux-tours serait cosmétique.
+      expect(divergentTrials).toBeGreaterThan(0);
+    },
+    20000,
+  );
 });

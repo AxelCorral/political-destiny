@@ -1,0 +1,10 @@
+partyId,baseSupport,gameInitialScoreMean,gameR1ScoreMean,realWorldRangeLow,realWorldRangeHigh,status
+rn,12.5,15.47,22.65,34,37,nettement bas
+horizons,4.5,13.09,19.50,16,19,plausible
+lfi,13,11.77,18.61,13,16,plausible
+renaissance,14,12.87,18.43,7,18,plausible
+ps,4.5,12.31,20.21,8,12,un peu haut au resultat T1
+lr,6.5,11.00,17.18,7,9,un peu haut au resultat T1
+ecologistes,6.5,9.97,17.07,2,5,nettement haut
+reconquete,5,4.12,8.83,2.5,4,plausible au depart un peu haut au resultat
+nouvelle_energie,4.5,12.29,17.92,,,impossible a conclure (fictif)

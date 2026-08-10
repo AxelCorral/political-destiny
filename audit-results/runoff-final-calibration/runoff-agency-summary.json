@@ -1,0 +1,11 @@
+{
+  "forksReached": 200,
+  "totalRows": 1281,
+  "policiesPerFork": 7,
+  "forksWithWinnerChange": 7,
+  "winnerChangePercent": 3.8,
+  "meanDeltaScore": 0.86,
+  "p90DeltaScore": 1.3,
+  "maxDeltaScore": 2.1,
+  "durationSeconds": 82.3
+}

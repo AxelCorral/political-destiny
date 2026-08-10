@@ -71,6 +71,34 @@ describe("qualité éditoriale V2", () => {
     ).toBe(true);
   });
 
+  it("échoue quand un événement runoff propose une alliance à un tiers sans exclure le cas où il est l’adversaire", () => {
+    const content = structuredClone(testContent);
+    const event = content.events[0]!;
+    event.eligibility = [
+      { kind: "qualified", value: true },
+      { kind: "player_party", partyIds: ["alpha"] },
+    ];
+    event.eligibleParties = ["alpha"];
+    event.choices[0]!.outcomeGroups[0]!.effects = [
+      { kind: "alliance", partyId: "alpha", withPartyId: "beta", action: "add" },
+    ];
+
+    const withoutGuard = validateContentQuality(content);
+    expect(
+      withoutGuard.errors.some(
+        (error) => error.includes(event.id) && error.includes("party_not_opponent"),
+      ),
+    ).toBe(true);
+
+    event.eligibility.push({ kind: "party_not_opponent", partyIds: ["beta"] });
+    const withGuard = validateContentQuality(content);
+    expect(
+      withGuard.errors.some(
+        (error) => error.includes(event.id) && error.includes("party_not_opponent"),
+      ),
+    ).toBe(false);
+  });
+
   it("détecte un succès dont le seuil dépasse une borne du moteur", () => {
     const content = structuredClone(testContent);
     content.achievements[0]!.criteria = {

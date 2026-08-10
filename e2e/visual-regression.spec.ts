@@ -245,7 +245,7 @@ test.describe("visual regression — captures de référence", () => {
       page,
       /Emblème abstrait de La France insoumise/i,
       /Le terrain d.abord/i,
-      "always-first-defeat-lfi-0",
+      "always-first-defeat-lfi-2",
     );
     await advanceUntil(page, /^Rejouer$/i, 90);
     await expect(page.getByRole("button", { name: /^Rejouer$/i })).toBeVisible();

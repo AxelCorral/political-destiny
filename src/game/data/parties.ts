@@ -166,8 +166,12 @@ const baseParties: PartyDefinition[] = [
       authority: -58,
       immigration: -55,
     },
+    // politicalBaselineVersion: 2026-08-calibration-finale | calibrationDate: 2026-08-10
+    // sourceRange: 2-5 % (OpinionWay/Elabe, juillet 2026, cf. REAL_WORLD_CALIBRATION.md)
+    // — ajustement modeste depuis 6,5 (nettement haut par rapport à la fourchette
+    // réelle) sans y coller exactement : voir AUDIT_RUNOFF_FINAL_CALIBRATION.md §9/§18.
     baseline: {
-      baseSupport: 6.5,
+      baseSupport: 5,
       potentialSupport: 20,
       mobilization: 57,
       finances: 41,
@@ -374,8 +378,12 @@ const baseParties: PartyDefinition[] = [
       authority: 82,
       immigration: 92,
     },
+    // politicalBaselineVersion: 2026-08-calibration-finale | calibrationDate: 2026-08-10
+    // sourceRange: 34-37 % (OpinionWay/Elabe/Ifop, juillet 2026, cf. REAL_WORLD_CALIBRATION.md)
+    // — ajustement modeste depuis 12,5 (nettement bas par rapport à la fourchette
+    // réelle) sans y coller exactement : voir AUDIT_RUNOFF_FINAL_CALIBRATION.md §9/§18.
     baseline: {
-      baseSupport: 12.5,
+      baseSupport: 15,
       potentialSupport: 38,
       mobilization: 72,
       finances: 66,

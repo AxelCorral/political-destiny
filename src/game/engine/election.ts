@@ -21,7 +21,7 @@ const REGIONS: RegionId[] = [
   "overseas",
 ];
 
-function ranking(results: Record<string, number>): string[] {
+export function ranking(results: Record<string, number>): string[] {
   return Object.keys(results).sort(
     (left, right) => (results[right] ?? 0) - (results[left] ?? 0) || left.localeCompare(right),
   );
@@ -164,6 +164,50 @@ export function runoffShareSplit(
   return { left: dampedLeftShare, right: 1 - dampedLeftShare };
 }
 
+/**
+ * AUDIT_RUNOFF_FINAL_CALIBRATION.md §5-6/§13 : `RUNOFF_SHARE_DAMPING`
+ * n'amortit que la part *transférée* des électorats éliminés — la part
+ * *conservée* de chaque finaliste (son propre score de premier tour ×
+ * rétention) ne passait par aucun amortissement. Sur 15 567 seconds tours
+ * simulés, ça laissait passer presque intact l'écart de premier tour entre
+ * les deux finalistes — mécaniquement élargi par `DISPERSION_POWER` (mission
+ * précédente) — vers le second tour : un favori du duel avec un score >22 %
+ * et >5 pts d'avance gagnait le second tour 97,7 % du temps, et la
+ * distribution des marges penchait vers les larges victoires plus que la
+ * cible qualitative du prompt (54 % des duels dépassaient 10 points, contre
+ * un objectif de rareté au-delà de 20).
+ *
+ * `RETAINED_GAP_DAMPING` comprime l'écart entre les deux totaux conservés
+ * (pas leur somme, qui reste inchangée — la masse totale de voix conservées
+ * est préservée) d'un facteur nettement plus proche de 1 que le damping des
+ * reports : une voix acquise au premier tour reste structurellement plus
+ * « sûre » qu'une voix négociée après coup, donc moins comprimée, mais reflète
+ * une incertitude réelle (turnout et enthousiasme de dernière minute chez les
+ * propres électeurs d'un finaliste, pas seulement chez les électorats
+ * éliminés). Calibré empiriquement (recherche sur 5 040 reconstructions,
+ * 1,0/0,95/0,9/0,85/0,8/0,75/0,7, voir
+ * `scripts/audit/retained-gap-damping-search.ts` et
+ * `audit-results/runoff-final-calibration/retained-gap-damping-search.csv`) :
+ * 0,75 fait passer la fréquence des marges >20 pts de 5,4 % (non amorti) à
+ * 1,0 % (rare, conforme à la cible) et la fréquence des marges >10 pts de
+ * 45,4 % à 37,4 %, tout en laissant quasi inchangée la fréquence des duels
+ * serrés <4 pts (21,9 % contre 20,5 % non amorti — pas d'égalités forcées).
+ * Reste nettement moins agressif que le damping des reports (1 − 0,75 = 25 %
+ * de l'écart absorbé contre 1 − 0,62 = 38 % côté reports), conformément à
+ * l'intention : une voix conservée est plus sûre qu'une voix transférée.
+ */
+const RETAINED_GAP_DAMPING = 0.75;
+
+export function dampRetainedGap(
+  leftRetained: number,
+  rightRetained: number,
+): { left: number; right: number } {
+  const total = leftRetained + rightRetained;
+  const rawGap = leftRetained - rightRetained;
+  const dampedGap = rawGap * RETAINED_GAP_DAMPING;
+  return { left: (total + dampedGap) / 2, right: (total - dampedGap) / 2 };
+}
+
 export function simulateFirstRound(
   sourceState: GameState,
   blocs: ElectorateBlocDefinition[],
@@ -248,8 +292,12 @@ export function simulateSecondRound(
     0.78,
     0.95,
   );
-  let leftTotal = (firstRoundResults[leftId] ?? 0) * leftRetention;
-  let rightTotal = (firstRoundResults[rightId] ?? 0) * rightRetention;
+  const retainedGap = dampRetainedGap(
+    (firstRoundResults[leftId] ?? 0) * leftRetention,
+    (firstRoundResults[rightId] ?? 0) * rightRetention,
+  );
+  let leftTotal = retainedGap.left;
+  let rightTotal = retainedGap.right;
   let abstainedTransfers =
     (firstRoundResults[leftId] ?? 0) * (1 - leftRetention) +
     (firstRoundResults[rightId] ?? 0) * (1 - rightRetention);

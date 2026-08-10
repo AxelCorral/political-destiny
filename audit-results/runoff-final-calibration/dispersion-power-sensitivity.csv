@@ -1,0 +1,11 @@
+checkpoint,power,runs,meanLeaderScore,stdDev,dominantFavoritePercent,compressed7to16Percent
+initial,1.6,2880,14.35,2.46,0,100
+initial,1.8,2880,14.76,2.69,0,100
+initial,2,2880,15.17,2.9,0,100
+initial,2.2,2880,15.58,3.1,0,95.6
+initial,2.4,2880,15.99,3.29,0,84.4
+r1_result,1.6,2880,17.74,3.82,7.2,32.3
+r1_result,1.8,2880,18.55,4.16,13.6,23.5
+r1_result,2,2880,19.4,4.51,22,17.1
+r1_result,2.2,2880,20.27,4.86,30,13
+r1_result,2.4,2880,21.16,5.21,37,10.1

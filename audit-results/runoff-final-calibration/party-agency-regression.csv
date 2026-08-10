@@ -1,0 +1,6 @@
+metric,etaSquaredPartyBeforeBlocB,etaSquaredPartyAfterBlocB,etaSquaredAgentBeforeBlocB,etaSquaredAgentAfterBlocB
+firstRoundScore,0.4244,0.4065,0.2591,0.2684
+finalScore,0.3172,0.3136,0.3356,0.3383
+progression,0.5027,0.5183,0.2239,0.2179
+progressionNormalized,0.4577,0.4785,0.2314,0.2237
+overperformanceVsNeutral,0.0077,0.0092,0.4234,0.4249

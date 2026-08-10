@@ -255,6 +255,39 @@ function usesGenericTriptych(event: GameEventDefinition): boolean {
   );
 }
 
+/**
+ * AUDIT_RUNOFF_FINAL_CALIBRATION.md §15 : un événement de second tour propre à
+ * un parti (`eligibility` contient `{kind:"qualified", value:true}` et
+ * `eligibleParties` est défini) qui propose mécaniquement une alliance ou une
+ * relation avec un tiers précis (effets `alliance`/`party_relation`, jamais un
+ * texte narratif seul — heuristique texte volontairement évitée) n'a de sens
+ * que si ce tiers n'est pas, dans cette partie, l'adversaire qualifié. Porte
+ * la logique déjà éprouvée dans `scripts/audit/runoff-coherence-audit.ts`
+ * (0 incohérence sur les 13 événements runoff existants) dans le validateur
+ * bloquant, pour que tout futur événement du même type sans garde
+ * `party_not_opponent` échoue la validation au lieu de dépendre d'un audit
+ * manuel ponctuel.
+ */
+function referencedThirdParties(event: GameEventDefinition, partyIds: Set<string>): Set<string> {
+  const referenced = new Set<string>();
+  const scanEffects = (effects: GameEffect[] | undefined) => {
+    for (const effect of effects ?? []) {
+      if (effect.kind === "alliance" && partyIds.has(effect.withPartyId)) {
+        referenced.add(effect.withPartyId);
+      }
+      if (effect.kind === "party_relation") {
+        if (partyIds.has(effect.partyId) && effect.partyId !== "player") referenced.add(effect.partyId);
+        if (partyIds.has(effect.withPartyId) && effect.withPartyId !== "player")
+          referenced.add(effect.withPartyId);
+      }
+    }
+  };
+  for (const choice of event.choices) {
+    for (const group of choice.outcomeGroups) scanEffects(group.effects);
+  }
+  return referenced;
+}
+
 function linkedEventIds(event: GameEventDefinition): string[] {
   return [
     ...(event.incompatibleEventIds ?? []),
@@ -297,8 +330,24 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
   }
 
   const eventIds = new Set(content.events.map((event) => event.id));
+  const contentPartyIds = new Set(content.parties.map((party) => party.id));
   let missingChainTargets = 0;
   for (const event of content.events) {
+    const isRunoffPartyEvent =
+      event.eligibility.some((c) => c.kind === "qualified" && c.value === true) &&
+      (event.eligibleParties?.length ?? 0) > 0;
+    if (isRunoffPartyEvent) {
+      const eligibleParties = event.eligibleParties ?? [];
+      const foreignReferences = [...referencedThirdParties(event, contentPartyIds)].filter(
+        (id) => !eligibleParties.includes(id),
+      );
+      const guarded = event.eligibility.some((c) => c.kind === "party_not_opponent");
+      if (foreignReferences.length > 0 && !guarded) {
+        errors.push(
+          `${event.id}: référence ${foreignReferences.join(", ")} par un effet alliance/party_relation sans condition party_not_opponent excluant le cas où ce tiers est l'adversaire qualifié`,
+        );
+      }
+    }
     for (const choice of event.choices) {
       if (!isConcreteChoice(choice.label))
         errors.push(`${event.id}/${choice.id}: le choix ne décrit pas une action assez concrète`);
