@@ -451,7 +451,14 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     themes: ["institutions", "europe", "fiscality"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
-    eligibility: [{ kind: "qualified", value: true }],
+    // Repli générique pour les campagnes où party_horizons_founder_challenge
+    // n'a jamais été tiré dans le pool pondéré (aucune trajectoire choisie) :
+    // les trois variantes ci-dessous (party_horizons_runoff_continuity/
+    // _rupture/_coalition) couvrent le cas normal où un drapeau est posé.
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "not_flag", key: "horizons_trajectory" },
+    ],
     choices: [
       directChoice(
         "horizons_runoff_coalition_council",
@@ -544,6 +551,14 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
   // follow-ups de succession peut être vu par run, jamais les deux).
   partyEvent("horizons", {
     id: "party_horizons_founder_challenge",
+    // Passe ciblée post-fun : cet événement est désormais le fork qui décide
+    // de toute la trajectoire A/B/C (voir TARGETED_GAMEPLAY_PASS_REPORT.md
+    // §7). Sous poids par défaut (1), il n'était réellement rencontré que
+    // dans ~26 % des campagnes (mesuré), ce qui aurait rendu la quasi-
+    // totalité du système de trajectoires inatteignable en pratique — un
+    // poids plus élevé, pas un déclenchement forcé, corrige la cause
+    // structurelle plutôt que le symptôme.
+    baseWeight: 2.4,
     title: "Paul Auriac demande qui décide vraiment",
     summary:
       "Cofondateur historique du mouvement, Paul Auriac déclare en interne qu’Agathe Belcourt ne peut pas fixer seule la ligne tant que les figures fondatrices n’ont pas validé le virage présidentiel. La sortie reste privée, mais trois cadres l’ont déjà relayée.",
@@ -575,7 +590,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         ],
         {
           outcome: {
-            setFlags: { horizons_broke_with_founder: true },
+            setFlags: { horizons_broke_with_founder: true, horizons_trajectory: "rupture" },
             followUps: [
               { eventId: "party_horizons_founder_revenge", afterDecisions: 4, probability: 0.7 },
             ],
@@ -601,7 +616,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         ],
         {
           outcome: {
-            setFlags: { horizons_deferred_to_founder: true },
+            setFlags: { horizons_deferred_to_founder: true, horizons_trajectory: "continuity" },
             followUps: [
               { eventId: "party_horizons_founder_blessing", afterDecisions: 4, probability: 0.7 },
             ],
@@ -615,12 +630,13 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "INSTITUTIONNEL",
         "horizons_founder_roles_clarified",
         "Un partage des rôles avant l’escalade",
-        "L’accord évite la confrontation publique en séparant explicitement le programme, gardé par les fondateurs, et la campagne, dirigée par la candidate. La solution retarde la question sans la trancher.",
+        "L’accord évite la confrontation publique en séparant explicitement le programme, gardé par les fondateurs, et la campagne, dirigée par la candidate. La solution retarde la question sans la trancher, et pousse Agathe Belcourt à chercher ailleurs des soutiens capables d’élargir sa base sans dépendre des fondateurs.",
         [
           stat("cohesion", 2, "Rôles clarifiés"),
           stat("credibility", 2, "Organisation lisible"),
           hidden("consistency", 2),
         ],
+        { outcome: { setFlags: { horizons_trajectory: "coalition" } } },
       ),
     ],
   }),
@@ -885,6 +901,434 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
           stat("mediaPresence", 3, "Positionnement remarqué"),
           hidden("consistency", -2),
           relation("player", "renaissance", -3, "Ambiguïté mal perçue"),
+        ],
+      ),
+    ],
+  }),
+
+  // --- Passe ciblée post-fun (TARGETED_GAMEPLAY_PASS_REPORT.md) : trois
+  // trajectoires réellement distinctes et mutuellement exclusives, émergeant
+  // du choix déjà existant party_horizons_founder_challenge (jamais un menu
+  // explicite). Le drapeau horizons_trajectory ("continuity" | "rupture" |
+  // "coalition") conditionne l'éligibilité de tout ce qui suit : pool
+  // d'événements, relations, alliances, transferability, et donc directement
+  // runoffAppeal() au second tour. Une seule branche est jamais visible par
+  // campagne — l'exclusion mutuelle vient de la structure des drapeaux, pas
+  // d'un mécanisme ad hoc.
+
+  // Trajectoire A — continuité institutionnelle.
+  partyEvent("horizons", {
+    id: "party_horizons_continuity_elders_dividend",
+    baseWeight: 1.8,
+    title: "Les réseaux d’élus veulent encaisser leur loyauté",
+    summary:
+      "Les élus qui ont soutenu la ligne des fondateurs attendent désormais une contrepartie visible — des responsabilités officielles, une place dans l’organigramme — en échange de leur caution auprès des électorats modérés de LR et de Renaissance.",
+    themes: ["institutions"],
+    importance: "major",
+    minDecisionIndex: 12,
+    maxDecisionIndex: 20,
+    entityReferences: [{ entityId: "horizons_auriac", role: "context" }],
+    editorialSensitivity: "none",
+    eligibility: [{ kind: "flag", key: "horizons_trajectory", equals: "continuity" }],
+    choices: [
+      directChoice(
+        "horizons_continuity_grant_seats",
+        "Attribuer officiellement des responsabilités dans l’organigramme de campagne",
+        "internal_discipline",
+        "INSTITUTIONNEL",
+        "horizons_continuity_seats_granted",
+        "La loyauté trouve sa contrepartie",
+        "Les élus obtiennent une reconnaissance officielle et continuent de vanter la candidature auprès de leurs réseaux LR et Renaissance. La mise en scène très institutionnelle confirme une image de gestion plus que d’élan.",
+        [
+          stat("cohesion", 5, "Reconnaissance officielle"),
+          stat("credibility", 4, "Organigramme stabilisé"),
+          stat("momentum", -3, "Image gestionnaire renforcée"),
+          relation("player", "lr", 6, "Réseaux LR rassurés"),
+          hidden("transferability", 4),
+        ],
+        { outcome: { setFlags: { horizons_continuity_committed: true } } },
+      ),
+      directChoice(
+        "horizons_continuity_redirect_spotlight",
+        "Les remercier publiquement puis recentrer le prochain grand rendez-vous sur la candidate seule",
+        "personal_risk",
+        "RISQUÉ",
+        "horizons_continuity_spotlight_redirected",
+        "La candidate reprend la lumière",
+        "Le recentrage donne un peu de relief personnel à une campagne jusque-là très collective. Plusieurs élus jugent leur travail sous-reconnu et deviennent plus économes de leur soutien actif.",
+        [
+          stat("momentum", 5, "Lumière recentrée"),
+          stat("mediaPresence", 3, "Candidate mise en avant"),
+          stat("cohesion", -4, "Élus moins mobilisés"),
+          relation("player", "lr", -2, "Réseaux jugés sous-utilisés"),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_continuity_late_test",
+    baseWeight: 1.8,
+    title: "« Le choix par défaut du centre »",
+    summary:
+      "Un éditorialiste résume la candidature d’Agathe Belcourt comme le vote du centre qui n’a pas d’autre endroit où aller. La formule circule et met la stratégie de stabilité à l’épreuve à quelques jours du premier tour.",
+    themes: ["institutions"],
+    importance: "major",
+    minDecisionIndex: 19,
+    maxDecisionIndex: 24,
+    editorialSensitivity: "none",
+    eligibility: [{ kind: "flag", key: "horizons_trajectory", equals: "continuity" }],
+    choices: [
+      directChoice(
+        "horizons_continuity_own_the_label",
+        "Assumer frontalement l’étiquette de choix sérieux plutôt que de la fuir",
+        "policy_commitment",
+        "PRUDENT",
+        "horizons_continuity_label_owned",
+        "La stabilité devient un argument assumé",
+        "L’acceptation rassure un électorat qui redoute l’instabilité et confirme la cohérence de toute la campagne. Elle ferme aussi, un peu plus, la porte à toute impression de dynamique dans les derniers jours.",
+        [
+          stat("credibility", 5, "Étiquette assumée"),
+          stat("rejection", -2, "Choix rassurant"),
+          stat("cohesion", 3, "Ligne tenue jusqu’au bout"),
+          stat("momentum", -4, "Aucune surprise recherchée"),
+        ],
+      ),
+      directChoice(
+        "horizons_continuity_late_gambit",
+        "Rompre une fois la routine avec une proposition personnelle non validée par les fondateurs",
+        "personal_risk",
+        "RISQUÉ",
+        "horizons_continuity_gambit_attempted",
+        "Un coup de dé sort la campagne de son sillon",
+        "Le geste surprend et regagne un peu d’attention médiatique à un moment où la dynamique manquait. Il contredit ouvertement des mois de discipline collective et fragilise la cohérence perçue de la ligne.",
+        [
+          stat("momentum", 7, "Sortie de la routine"),
+          stat("mediaPresence", 4, "Coup remarqué"),
+          hidden("consistency", -4),
+          stat("credibility", -2, "Ligne collective déjugée"),
+        ],
+        { outcome: { setFlags: { horizons_continuity_late_gambit: true } } },
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_runoff_continuity",
+    title: "Le bloc central formalise son choix",
+    summary:
+      "Qualifiée, Agathe Belcourt récolte les fruits d’une campagne construite sur la confiance des réseaux LR et Renaissance. Reste à savoir si cette solidité suffira à mobiliser au-delà d’un vote par défaut.",
+    themes: ["institutions", "europe"],
+    importance: "decisive",
+    phaseWeights: { between_rounds: 1.4 },
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "flag", key: "horizons_trajectory", equals: "continuity" },
+    ],
+    choices: [
+      directChoice(
+        "horizons_runoff_continuity_formalize",
+        "Signer publiquement un contrat commun avec LR et Renaissance derrière la candidature",
+        "alliance",
+        "RASSEMBLEUR",
+        "horizons_runoff_continuity_formalized",
+        "Le bloc central se range derrière la stabilité",
+        "Les deux réseaux annoncent leur soutien conjoint et mettent leurs moyens à disposition. La démonstration confirme la solidité de la coalition sans réellement redonner d’élan à une campagne restée prudente jusqu’au bout.",
+        [
+          hidden("transferability", 9),
+          alliance("lr", "add", "Soutien formel de LR"),
+          stat("mobilization", 5, "Réseaux mobilisés"),
+          stat("momentum", -2, "Solidité sans surprise"),
+        ],
+      ),
+      directChoice(
+        "horizons_runoff_continuity_solo_push",
+        "Lancer un dernier coup d’éclat personnel plutôt que de s’appuyer sur les seuls appareils",
+        "personal_risk",
+        "PRÉSIDENTIEL",
+        "horizons_runoff_continuity_solo_pushed",
+        "La candidate tente un sursaut d’image",
+        "Le geste redonne un peu de dynamique médiatique à quelques jours du vote. Les réseaux d’élus, écartés de la mise en scène finale, mobilisent leurs relais avec nettement moins d’enthousiasme que prévu.",
+        [
+          stat("momentum", 6, "Sursaut d’image"),
+          stat("mediaPresence", 4, "Coup d’éclat final"),
+          relation("player", "lr", -4, "Réseaux écartés de la scène finale"),
+          hidden("transferability", 2),
+        ],
+      ),
+    ],
+  }),
+
+  // Trajectoire B — autonomisation / rupture avec le centre.
+  partyEvent("horizons", {
+    id: "party_horizons_rupture_old_guard_distances",
+    baseWeight: 1.8,
+    title: "LR et Renaissance ferment la porte",
+    summary:
+      "Après la rupture publique avec ses fondateurs, Horizons voit ses partenaires naturels prendre leurs distances : plus de coprésence publique, plus de relais discrets. La candidate doit décider comment répondre à cet isolement.",
+    themes: ["institutions"],
+    importance: "major",
+    minDecisionIndex: 12,
+    maxDecisionIndex: 20,
+    editorialSensitivity: "none",
+    eligibility: [{ kind: "flag", key: "horizons_trajectory", equals: "rupture" }],
+    choices: [
+      directChoice(
+        "horizons_rupture_claim_it",
+        "Revendiquer cet isolement comme la preuve d’une candidature enfin libre de tout appareil",
+        "symbolic_action",
+        "CLIVANT",
+        "horizons_rupture_isolation_claimed",
+        "La rupture devient le programme",
+        "La candidature gagne en netteté et attire une attention nouvelle chez des électeurs qui se méfiaient d’un profil trop consensuel. LR et Renaissance répliquent publiquement et le rejet progresse chez leurs propres électorats.",
+        [
+          stat("momentum", 6, "Rupture assumée"),
+          stat("awareness", 4, "Candidature identifiée"),
+          stat("rejection", 3, "Camps traditionnels hostiles"),
+          bloc("young_urban_graduates", 4, "Profil hors appareils remarqué"),
+          relation("player", "lr", -5, "Rupture publiquement assumée"),
+          relation("player", "renaissance", -3, "Rupture publiquement assumée"),
+        ],
+        { outcome: { setFlags: { horizons_rupture_escalated: true } } },
+      ),
+      directChoice(
+        "horizons_rupture_attempt_repair",
+        "Reconnaître publiquement des maladresses passées pour amorcer une réparation coûteuse",
+        "negotiation",
+        "TRANSPARENT",
+        "horizons_rupture_repair_attempted",
+        "Une réparation partielle et coûteuse",
+        "Le geste rouvre un dialogue technique avec les deux partis sans effacer la rupture initiale. Il est lu par une partie de l’opinion comme un reniement, ce qui entame la cohérence de toute la séquence précédente.",
+        [
+          relation("player", "lr", 3, "Dialogue technique rouvert"),
+          relation("player", "renaissance", 2, "Dialogue technique rouvert"),
+          stat("momentum", -3, "Rupture atténuée"),
+          hidden("consistency", -3),
+        ],
+        { outcome: { setFlags: { horizons_rupture_repaired: true } } },
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_rupture_new_courtship",
+    baseWeight: 1.8,
+    title: "Nouvelle Énergie propose un rapprochement inattendu",
+    summary:
+      "Libérée de son image gestionnaire, Horizons attire un intérêt inattendu : le discours économique de Nouvelle Énergie recoupe davantage la ligne de rupture que l’ancienne offre institutionnelle. Un rapprochement que la trajectoire de continuité n’aurait jamais suscité.",
+    themes: ["institutions", "economy"],
+    importance: "major",
+    minDecisionIndex: 18,
+    maxDecisionIndex: 24,
+    excludedParties: ["nouvelle_energie"],
+    entityReferences: [{ entityId: "nouvelle_energie", role: "subject" }],
+    editorialSensitivity: "contextual",
+    eligibility: [{ kind: "flag", key: "horizons_trajectory", equals: "rupture" }],
+    choices: [
+      directChoice(
+        "horizons_rupture_open_talks",
+        "Ouvrir de vraies discussions et proposer un cadre de coopération électorale",
+        "alliance",
+        "RASSEMBLEUR",
+        "horizons_rupture_talks_opened",
+        "Une coalition inattendue prend forme",
+        "L’accord donne à la candidature un allié inédit, cohérent avec son nouveau positionnement économique. Une partie du socle historique d’Horizons juge la fréquentation trop éloignée de sa culture institutionnelle.",
+        [
+          relation("player", "nouvelle_energie", 10, "Rapprochement assumé"),
+          alliance("nouvelle_energie", "add", "Coopération électorale"),
+          hidden("transferability", 4),
+          stat("cohesion", -2, "Socle historique surpris"),
+        ],
+        { outcome: { setFlags: { horizons_rupture_new_ally: true } } },
+      ),
+      directChoice(
+        "horizons_rupture_stay_solo",
+        "Décliner poliment et confirmer que la candidature ne dépend d’aucun partenaire",
+        "long_term_strategy",
+        "PRÉSIDENTIEL",
+        "horizons_rupture_stayed_solo",
+        "La candidature reste seule, par choix",
+        "Le refus confirme la cohérence de la ligne d’indépendance affichée depuis la rupture. Il prive aussi la campagne d’un relais qui aurait pu peser dans les tout derniers jours.",
+        [
+          stat("momentum", 3, "Indépendance confirmée"),
+          stat("credibility", 2, "Cohérence de la ligne"),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_runoff_rupture",
+    title: "Une candidature seule face à ses choix",
+    summary:
+      "Qualifiée sur la base de la rupture, Agathe Belcourt aborde l’entre-deux-tours avec un momentum réel mais des réseaux traditionnels distants. Reste à savoir sur quoi construire les derniers jours de la campagne.",
+    themes: ["institutions"],
+    importance: "decisive",
+    phaseWeights: { between_rounds: 1.4 },
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "flag", key: "horizons_trajectory", equals: "rupture" },
+    ],
+    choices: [
+      directChoice(
+        "horizons_runoff_rupture_go_alone",
+        "Construire l’entre-deux-tours sur la seule dynamique personnelle de la candidate",
+        "personal_risk",
+        "OFFENSIF",
+        "horizons_runoff_rupture_alone",
+        "Le pari du momentum sans réseau",
+        "La candidature mobilise sur son image plus que sur des relais organisés, avec une visibilité forte jusqu’au vote. Sans appareil pour porter le message localement, la mobilisation reste concentrée sur les publics déjà acquis.",
+        [
+          stat("momentum", 8, "Dynamique personnelle"),
+          stat("mediaPresence", 6, "Visibilité maximale"),
+          stat("mobilization", 3, "Publics déjà acquis"),
+        ],
+      ),
+      directChoice(
+        "horizons_runoff_rupture_lean_on_new_ally",
+        "S’appuyer sur les soutiens obtenus hors des appareils traditionnels pour élargir la mobilisation",
+        "alliance",
+        "RASSEMBLEUR",
+        "horizons_runoff_rupture_new_ally_leveraged",
+        "Une coalition différente prend le relais",
+        "Les soutiens gagnés en dehors du bloc central apportent une mobilisation réelle, différente de celle qu’aurait offerte l’ancien socle. Elle reste plus étroite qu’une coalition classique et ne compense pas entièrement la froideur de LR et Renaissance.",
+        [
+          stat("mobilization", 6, "Nouveaux relais actifs"),
+          hidden("transferability", 5),
+          stat("momentum", 3, "Dynamique partagée"),
+        ],
+      ),
+    ],
+  }),
+
+  // Trajectoire C — coalition / élargissement.
+  partyEvent("horizons", {
+    id: "party_horizons_coalition_outreach",
+    baseWeight: 1.8,
+    title: "Élargir sans se diluer",
+    summary:
+      "Le partage des rôles négocié avec les fondateurs a ouvert la porte à des figures modérées au-delà du socle habituel d’Horizons. Chaque ralliement possible vient toutefois avec une exigence programmatique propre.",
+    themes: ["institutions"],
+    importance: "major",
+    minDecisionIndex: 12,
+    maxDecisionIndex: 20,
+    editorialSensitivity: "none",
+    eligibility: [{ kind: "flag", key: "horizons_trajectory", equals: "coalition" }],
+    choices: [
+      directChoice(
+        "horizons_coalition_accept_broad",
+        "Accepter les concessions demandées par LR et Renaissance pour élargir franchement la base",
+        "compromise",
+        "RASSEMBLEUR",
+        "horizons_coalition_broad_accepted",
+        "La coalition s’élargit à un vrai prix",
+        "Le rassemblement gagne en poids et en diversité de soutiens locaux. Les concessions accumulées rendent le programme plus difficile à résumer en une ligne claire, un coût que la campagne devra assumer jusqu’au bout.",
+        [
+          relation("player", "lr", 5, "Concessions actées"),
+          relation("player", "renaissance", 5, "Concessions actées"),
+          bloc("public_services", 3, "Élargissement perçu"),
+          hidden("consistency", -4),
+          stat("momentum", -2, "Programme moins lisible"),
+        ],
+        { outcome: { setFlags: { horizons_coalition_broad: true } } },
+      ),
+      directChoice(
+        "horizons_coalition_stay_narrow",
+        "Limiter l’élargissement à un seul partenaire cohérent plutôt qu’une coalition tous azimuts",
+        "long_term_strategy",
+        "TECHNIQUE",
+        "horizons_coalition_narrow_kept",
+        "Une coalition plus étroite mais plus lisible",
+        "Le choix conserve un programme cohérent et un partenariat clair avec un allié identifié. Il ferme en retour la porte à une partie des soutiens qui espéraient un rassemblement plus large.",
+        [
+          relation("player", "renaissance", 4, "Partenariat ciblé"),
+          stat("credibility", 3, "Ligne cohérente"),
+          stat("cohesion", 3, "Alliance lisible"),
+        ],
+        { outcome: { setFlags: { horizons_coalition_narrow: true } } },
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_coalition_stretch_test",
+    baseWeight: 1.8,
+    title: "La coalition tiraillée par deux exigences incompatibles",
+    summary:
+      "LR réclame un engagement clair de discipline budgétaire ; Renaissance exige en retour un signal fort sur l’intégration européenne. Satisfaire pleinement l’un revient à décevoir ouvertement l’autre.",
+    themes: ["institutions", "fiscality", "europe"],
+    importance: "decisive",
+    minDecisionIndex: 19,
+    maxDecisionIndex: 24,
+    editorialSensitivity: "none",
+    eligibility: [{ kind: "flag", key: "horizons_trajectory", equals: "coalition" }],
+    choices: [
+      directChoice(
+        "horizons_coalition_ambiguous_text",
+        "Écrire un texte volontairement ambigu qui laisse chaque partenaire y lire ses propres garanties",
+        "compromise",
+        "RASSEMBLEUR",
+        "horizons_coalition_ambiguity_chosen",
+        "L’ambiguïté maintient la coalition unie",
+        "Les deux partenaires restent officiellement engagés et la coalition tient jusqu’au premier tour. Plusieurs commentateurs relèvent que le texte ne tranche en réalité aucun des deux sujets.",
+        [
+          stat("cohesion", 3, "Coalition maintenue"),
+          hidden("consistency", -3),
+          stat("credibility", -2, "Ambiguïté remarquée"),
+        ],
+      ),
+      directChoice(
+        "horizons_coalition_pick_renaissance",
+        "Choisir clairement le signal européen porté par Renaissance plutôt que la discipline de LR",
+        "policy_commitment",
+        "CLIVANT",
+        "horizons_coalition_renaissance_chosen",
+        "La coalition se resserre sur un choix net",
+        "La clarté rassure Renaissance et les électeurs europhiles du socle. LR juge l’arbitrage déloyal et réduit sensiblement son engagement pour la suite de la campagne.",
+        [
+          stat("credibility", 4, "Choix assumé"),
+          relation("player", "renaissance", 4, "Signal européen tenu"),
+          relation("player", "lr", -6, "Arbitrage jugé déloyal"),
+        ],
+      ),
+    ],
+  }),
+  partyEvent("horizons", {
+    id: "party_horizons_runoff_coalition",
+    title: "La coalition élargie se présente unie",
+    summary:
+      "Qualifiée avec le soutien de plusieurs partenaires, Agathe Belcourt aborde l’entre-deux-tours avec le potentiel de report le plus large des trois trajectoires possibles — à condition que la coalition tienne jusqu’au bout.",
+    themes: ["institutions", "europe", "fiscality"],
+    importance: "decisive",
+    phaseWeights: { between_rounds: 1.4 },
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "flag", key: "horizons_trajectory", equals: "coalition" },
+    ],
+    choices: [
+      directChoice(
+        "horizons_runoff_coalition_full_display",
+        "Présenter la coalition au complet lors d’un même rendez-vous public avec LR et Renaissance",
+        "alliance",
+        "RASSEMBLEUR",
+        "horizons_runoff_coalition_displayed",
+        "La coalition élargie se présente unie",
+        "Le rassemblement démontre l’ampleur des soutiens réunis et mobilise plusieurs réseaux à la fois. La mise en scène collective laisse une impression de compromis permanent plutôt que d’incarnation personnelle.",
+        [
+          hidden("transferability", 10),
+          alliance("lr", "add", "Soutien formel de LR"),
+          alliance("renaissance", "add", "Soutien formel de Renaissance"),
+          stat("mobilization", 6, "Réseaux réunis"),
+          stat("credibility", -2, "Compromis très visible"),
+        ],
+      ),
+      directChoice(
+        "horizons_runoff_coalition_personal_lead",
+        "Laisser chaque partenaire annoncer séparément son soutien, sans plateforme commune",
+        "long_term_strategy",
+        "PRÉSIDENTIEL",
+        "horizons_runoff_coalition_personal_led",
+        "La candidate garde la main sur son image",
+        "La candidate conserve un profil personnel plus net tout en conservant l’essentiel des soutiens. La mobilisation reste un peu en retrait de ce qu’aurait permis une démonstration collective.",
+        [
+          hidden("transferability", 5),
+          stat("momentum", 4, "Profil personnel préservé"),
+          stat("mobilization", 2, "Mobilisation dispersée"),
         ],
       ),
     ],

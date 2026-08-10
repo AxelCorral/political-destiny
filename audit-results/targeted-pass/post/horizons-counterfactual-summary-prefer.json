@@ -1,0 +1,49 @@
+{
+  "seedCount": 60,
+  "totalRuns": 180,
+  "invalidRuns": 0,
+  "outcomeDivergentSeedsShare": 0.083,
+  "opponentDivergentSeedsShare": 0.1,
+  "meanFirstRoundScoreSpreadPerSeed": 0.357,
+  "byTrajectory": [
+    {
+      "trajectory": "continuity",
+      "n": 60,
+      "qualificationRate": 0.8333333333333334,
+      "victoryRate": 0.7166666666666667,
+      "meanFirstRoundScore": 15.41,
+      "meanTransferability": 57.58,
+      "meanAlliedWithCount": 1.43,
+      "meanBestRelation": 100,
+      "meanWorstRelation": -15.6,
+      "meanFinalScore": 84.92,
+      "trajectoryContentReachRate": 0.2
+    },
+    {
+      "trajectory": "rupture",
+      "n": 60,
+      "qualificationRate": 0.8333333333333334,
+      "victoryRate": 0.7166666666666667,
+      "meanFirstRoundScore": 15.44,
+      "meanTransferability": 57.15,
+      "meanAlliedWithCount": 1.3,
+      "meanBestRelation": 100,
+      "meanWorstRelation": -15.58,
+      "meanFinalScore": 84.73,
+      "trajectoryContentReachRate": 0.2
+    },
+    {
+      "trajectory": "coalition",
+      "n": 60,
+      "qualificationRate": 0.8166666666666667,
+      "victoryRate": 0.7666666666666667,
+      "meanFirstRoundScore": 15.48,
+      "meanTransferability": 57.87,
+      "meanAlliedWithCount": 1.58,
+      "meanBestRelation": 100,
+      "meanWorstRelation": -15.67,
+      "meanFinalScore": 85.33,
+      "trajectoryContentReachRate": 0.18333333333333332
+    }
+  ]
+}
