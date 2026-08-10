@@ -146,11 +146,12 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
         result: outcome(
           "frontrunner_retaliation_countered",
           "Une réponse rapide et documentée",
-          "La contre-attaque limite les dégâts et occupe à nouveau l’espace médiatique. L’échange nourrit un climat de confrontation directe avec le camp RN pour le reste de la semaine.",
+          "La contre-attaque limite les dégâts et occupe à nouveau l’espace médiatique aussi largement que l’attaque initiale. L’échange nourrit un climat de confrontation directe avec le camp RN pour le reste de la semaine, et une partie de l’opinion se lasse d’un duel qui s’éternise.",
           [
             stat("credibility", 3, "Réponse rapide saluée"),
-            stat("mediaPresence", 2, "Échange très suivi"),
-            stat("momentum", -2, "Semaine happée par la polémique"),
+            stat("mediaPresence", 3, "Échange très suivi"),
+            stat("momentum", -3, "Semaine happée par la polémique"),
+            stat("rejection", 1, "Duel qui s’éternise"),
             relation("player", "rn", -5, "Confrontation ouverte"),
           ],
         ),
@@ -163,10 +164,11 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
         result: outcome(
           "frontrunner_retaliation_ignored",
           "Le silence plutôt que la surenchère",
-          "Le choix évite d’alimenter l’affrontement et laisse la semaine de terrain se dérouler sans interruption. Certains soutiens s’impatientent de ce silence tant que la ligne d’attaque reste sans réponse directe.",
+          "Le choix évite d’alimenter l’affrontement et laisse la semaine de terrain se dérouler sans interruption. Certains soutiens s’impatientent de ce silence tant que la ligne d’attaque reste sans réponse directe, mais la désescalade est saluée au-delà de votre seul camp.",
           [
             stat("credibility", 2, "Sérénité remarquée"),
-            stat("mobilization", 1, "Terrain préservé"),
+            stat("mobilization", 2, "Terrain préservé"),
+            stat("rejection", -1, "Désescalade saluée"),
             bloc("urban_working_class", 1),
             hidden("consistency", 1),
           ],
@@ -180,11 +182,13 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
         result: outcome(
           "frontrunner_retaliation_right_of_reply_granted",
           "Une réponse formelle, publiée à égalité",
-          "Le droit de réponse garantit une visibilité comparable à celle de l’attaque initiale. La procédure prend plusieurs jours, pendant lesquels la ligne d’attaque adverse circule sans contestation directe.",
+          "Le droit de réponse garantit une visibilité comparable à celle de l’attaque initiale et rassure un électorat attaché aux formes. La procédure prend plusieurs jours, pendant lesquels la ligne d’attaque adverse circule sans contestation directe.",
           [
             stat("credibility", 2, "Procédure respectée"),
             stat("mediaPresence", 1, "Réponse publiée à égalité"),
-            hidden("consistency", 1),
+            stat("momentum", -1, "Attaque non contestée pendant plusieurs jours"),
+            bloc("executives", 2),
+            hidden("consistency", 2),
           ],
         ),
       }),
@@ -196,10 +200,10 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
         result: outcome(
           "frontrunner_retaliation_derided",
           "La dérision plutôt que la contre-attaque",
-          "Le ton léger désamorce une partie de la tension et circule bien sur les réseaux. Une partie de la presse juge le procédé peu sérieux face à des arguments économiques précis.",
+          "Le ton léger désamorce une partie de la tension et circule bien sur les réseaux, avec un effet de dynamique net. Une partie de la presse juge le procédé peu sérieux face à des arguments économiques précis.",
           [
             stat("mediaPresence", 3, "Intervention très partagée"),
-            stat("momentum", 2, "Ton qui marque"),
+            stat("momentum", 3, "Ton qui marque"),
             stat("rejection", 2, "Ton jugé peu sérieux par certains"),
           ],
         ),

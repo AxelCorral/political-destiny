@@ -1,0 +1,62 @@
+[
+  {
+    "event": "party_horizons_founder_blessing",
+    "runsSampled": 600,
+    "occurrences": 181,
+    "dominantChoice": "horizons_blessing_amplify",
+    "dominantSharePct": 57.5,
+    "ci95": [
+      50.2,
+      64.4
+    ],
+    "allChoices": {
+      "horizons_blessing_amplify": 104,
+      "horizons_blessing_pivot": 77
+    }
+  },
+  {
+    "event": "party_horizons_founder_revenge",
+    "runsSampled": 600,
+    "occurrences": 200,
+    "dominantChoice": "horizons_revenge_face_it",
+    "dominantSharePct": 55,
+    "ci95": [
+      48.1,
+      61.7
+    ],
+    "allChoices": {
+      "horizons_revenge_face_it": 110,
+      "horizons_revenge_negotiate_seat": 90
+    }
+  },
+  {
+    "event": "party_renaissance_legacy_credited",
+    "runsSampled": 600,
+    "occurrences": 89,
+    "dominantChoice": "legacy_credited_general",
+    "dominantSharePct": 64,
+    "ci95": [
+      53.7,
+      73.2
+    ],
+    "allChoices": {
+      "legacy_credited_general": 57,
+      "legacy_credited_plan": 32
+    }
+  },
+  {
+    "event": "rare_blackout_leak_resurfaces",
+    "runsSampled": 603,
+    "occurrences": 6,
+    "dominantChoice": "blackout_leak_confirm",
+    "dominantSharePct": 66.7,
+    "ci95": [
+      30,
+      90.3
+    ],
+    "allChoices": {
+      "blackout_leak_confirm": 4,
+      "blackout_leak_deny": 2
+    }
+  }
+]
