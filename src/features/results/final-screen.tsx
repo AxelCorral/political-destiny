@@ -21,6 +21,7 @@ import { Card } from "@/components/ui/card";
 import { gameContent } from "@/game/data";
 import type { GameState, IdeologyAxis } from "@/game/types";
 import { formatInteger, formatPercent, REGION_LABELS } from "@/lib/game-presentation";
+import { cn } from "@/lib/utils";
 import { ShareResult } from "@/features/sharing/share-result";
 import { useGameStore } from "@/features/campaign/gameStore";
 
@@ -101,15 +102,27 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
       <section className="relative overflow-hidden bg-[var(--navy-950)] text-white">
         <div
           aria-hidden="true"
-          className="absolute inset-0 bg-[radial-gradient(circle_at_80%_15%,rgba(210,173,98,0.18),transparent_30rem),linear-gradient(120deg,transparent_0_62%,rgba(76,131,203,0.17)_62%_63%,transparent_63%)]"
+          className={cn(
+            "absolute inset-0",
+            result.won
+              ? "bg-[radial-gradient(circle_at_80%_15%,rgba(210,173,98,0.34),transparent_26rem),linear-gradient(120deg,transparent_0_62%,rgba(210,173,98,0.16)_62%_63%,transparent_63%)]"
+              : "bg-[radial-gradient(circle_at_80%_15%,rgba(148,163,184,0.14),transparent_30rem),linear-gradient(120deg,transparent_0_62%,rgba(76,131,203,0.16)_62%_63%,transparent_63%)]",
+          )}
         />
         <div className="relative mx-auto grid max-w-7xl items-center gap-9 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-[1fr_auto] lg:px-8">
           <div>
             <div className="flex items-center gap-4">
               <PartyMark visual={party.visual} name={party.displayName} size="large" />
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.18em] text-[var(--gold-300)]">
-                  Fin de campagne · Résultat fictif
+                <p
+                  className={cn(
+                    "animate-badge-reveal text-xs font-black uppercase tracking-[0.18em]",
+                    result.won ? "text-[var(--gold-300)]" : "text-[var(--cream-50)]",
+                  )}
+                >
+                  {result.won
+                    ? "Fin de campagne · Victoire fictive"
+                    : "Fin de campagne · Résultat fictif"}
                 </p>
                 <p className="mt-1 text-sm text-slate-300">
                   {state.player.displayName} · {party.displayName}
@@ -124,15 +137,25 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
             </p>
           </div>
           <div
-            className="grid size-52 shrink-0 place-items-center justify-self-center rounded-full p-4 lg:justify-self-end"
+            className={cn(
+              "grid size-52 shrink-0 place-items-center justify-self-center rounded-full p-4 lg:justify-self-end",
+              result.won ? "animate-score-pop" : "animate-card-enter",
+            )}
             style={{
-              background: `conic-gradient(var(--gold-400) ${result.score}%, rgba(255,255,255,.12) 0)`,
+              background: result.won
+                ? `conic-gradient(var(--gold-400) ${result.score}%, rgba(255,255,255,.12) 0)`
+                : `conic-gradient(var(--blue-400) ${result.score}%, rgba(255,255,255,.12) 0)`,
             }}
             aria-label={`Score global ${result.score} sur 100`}
           >
             <div className="grid size-full place-items-center rounded-full bg-[var(--navy-950)] text-center">
               <div>
-                <span className="font-display text-6xl font-black text-[var(--gold-300)]">
+                <span
+                  className={cn(
+                    "font-display text-6xl font-black",
+                    result.won ? "text-[var(--gold-300)]" : "text-[var(--cream-50)]",
+                  )}
+                >
                   {result.score}
                 </span>
                 <span className="block text-xs font-black uppercase tracking-[0.15em] text-slate-300">
