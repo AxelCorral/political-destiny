@@ -1,7 +1,7 @@
 import type { ElectorateBlocDefinition, GameState, PollSnapshot } from "@/game/types";
 
 import { normalizePercentages, round } from "./math";
-import { nationalLatentSupport } from "./electorate";
+import { isElectorallyActive, nationalLatentSupport } from "./electorate";
 import { randomBetween, randomInt } from "./rng";
 
 const FICTIONAL_INSTITUTES = [
@@ -22,7 +22,7 @@ export function generatePoll(
   let rng = state.rng;
 
   for (const party of Object.values(state.parties)) {
-    if (!party.active) {
+    if (!isElectorallyActive(state, party.id)) {
       noisy[party.id] = 0;
       continue;
     }

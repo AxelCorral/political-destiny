@@ -27,6 +27,14 @@ export function conditionMatches(state: GameState, condition: Condition): boolea
       return condition.partyIds.includes(state.playerPartyId);
     case "qualified":
       return condition.value === Boolean(state.qualifiedPartyIds?.includes(state.playerPartyId));
+    case "party_not_opponent": {
+      // AUDIT_ELECTORAL_COHERENCE.md §6/Annexe B : un événement de second tour
+      // qui propose une alliance ou évoque les électeurs d'un parti tiers
+      // précis n'a de sens que si ce tiers n'est pas, dans cette partie,
+      // l'adversaire réellement qualifié du joueur.
+      const opponent = state.qualifiedPartyIds?.find((id) => id !== state.playerPartyId);
+      return !opponent || !condition.partyIds.includes(opponent);
+    }
     case "game_mode":
       return condition.values.includes(state.mode);
     case "ideology":

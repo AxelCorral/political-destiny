@@ -134,7 +134,7 @@ test.describe("visual regression — captures de référence", () => {
       page,
       /Emblème abstrait de La France insoumise/i,
       /Le terrain d.abord/i,
-      "always-first-rare-lfi-1",
+      "always-first-rare-lfi-3",
     );
     await advanceUntil(page, /Édition spéciale/i, 50);
     await expect(page.getByText("Édition spéciale")).toBeVisible();
@@ -154,7 +154,7 @@ test.describe("visual regression — captures de référence", () => {
       page,
       /Emblème abstrait de La France insoumise/i,
       /Le terrain d.abord/i,
-      "always-first-chain-lfi-3",
+      "always-first-chain-lfi-7",
     );
     await advanceUntil(page, /Retour de dossier/i, 40);
     await expect(page.getByText("Retour de dossier")).toBeVisible();

@@ -458,6 +458,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     eligibility: [
       { kind: "qualified", value: true },
       { kind: "not_flag", key: "horizons_trajectory" },
+      { kind: "party_not_opponent", partyIds: ["renaissance", "lr"] },
     ],
     choices: [
       directChoice(
@@ -1022,6 +1023,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     eligibility: [
       { kind: "qualified", value: true },
       { kind: "flag", key: "horizons_trajectory", equals: "continuity" },
+      { kind: "party_not_opponent", partyIds: ["lr"] },
     ],
     choices: [
       directChoice(
@@ -1299,6 +1301,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     eligibility: [
       { kind: "qualified", value: true },
       { kind: "flag", key: "horizons_trajectory", equals: "coalition" },
+      { kind: "party_not_opponent", partyIds: ["lr", "renaissance"] },
     ],
     choices: [
       directChoice(

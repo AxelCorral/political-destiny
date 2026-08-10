@@ -455,7 +455,10 @@ export const v2NouvelleEnergiePartyEvents: GameEventDefinition[] = [
     themes: ["institutions", "economy"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
-    eligibility: [{ kind: "qualified", value: true }],
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "party_not_opponent", partyIds: ["horizons", "lr"] },
+    ],
     choices: [
       directChoice(
         "nouvelle_energie_runoff_coalition",

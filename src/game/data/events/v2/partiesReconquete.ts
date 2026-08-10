@@ -447,7 +447,10 @@ export const v2ReconquetePartyEvents: GameEventDefinition[] = [
     themes: ["institutions", "economy", "immigration"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
-    eligibility: [{ kind: "qualified", value: true }],
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "party_not_opponent", partyIds: ["rn", "lr"] },
+    ],
     choices: [
       directChoice(
         "reconquete_runoff_right_contract",

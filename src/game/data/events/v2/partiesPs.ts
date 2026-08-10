@@ -458,7 +458,10 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
     themes: ["institutions", "ecology", "public_services"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
-    eligibility: [{ kind: "qualified", value: true }],
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "party_not_opponent", partyIds: ["lfi", "ecologistes", "renaissance"] },
+    ],
     choices: [
       directChoice(
         "ps_runoff_left_contract",

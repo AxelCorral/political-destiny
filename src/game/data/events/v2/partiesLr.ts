@@ -435,7 +435,10 @@ export const v2LrPartyEvents: GameEventDefinition[] = [
     themes: ["institutions", "europe", "security"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
-    eligibility: [{ kind: "qualified", value: true }],
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "party_not_opponent", partyIds: ["horizons", "rn"] },
+    ],
     choices: [
       directChoice(
         "lr_runoff_government_right",

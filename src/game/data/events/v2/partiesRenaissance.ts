@@ -453,7 +453,10 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
     themes: ["institutions", "civil_liberties", "europe"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
-    eligibility: [{ kind: "qualified", value: true }],
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "party_not_opponent", partyIds: ["horizons", "ps"] },
+    ],
     choices: [
       directChoice(
         "renaissance_runoff_democratic_contract",

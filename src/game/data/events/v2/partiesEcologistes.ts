@@ -459,7 +459,10 @@ export const v2EcologistesPartyEvents: GameEventDefinition[] = [
     themes: ["ecology", "economy", "institutions"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
-    eligibility: [{ kind: "qualified", value: true }],
+    eligibility: [
+      { kind: "qualified", value: true },
+      { kind: "party_not_opponent", partyIds: ["ps", "lfi"] },
+    ],
     choices: [
       directChoice(
         "ecologistes_runoff_climate_coalition",

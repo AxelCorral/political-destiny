@@ -8,6 +8,25 @@ import type {
 
 import { clamp, ideologyDistance, normalizePercentages } from "./math";
 
+/**
+ * AUDIT_ELECTORAL_COHERENCE.md §7/§4.1 : `simulateFirstRound` marque les
+ * partis non qualifiés `actor.candidateStatus = "eliminated"` mais ne touche
+ * jamais `party.active` — le seul filtre historiquement utilisé par le calcul
+ * de sondage. Résultat : la barre latérale, le tableau de bord et la carte
+ * « Ma campagne » continuaient d'afficher un pourcentage recalculé comme si
+ * les 9 partis étaient encore en course pendant tout l'entre-deux-tours et le
+ * gouvernement. `party.active` garde son sens plus large ailleurs (retrait,
+ * remplacement de candidat) ; ce garde-fou supplémentaire ne s'applique
+ * qu'au calcul électoral continu.
+ */
+export function isElectorallyActive(state: GameState, partyId: string): boolean {
+  const party = state.parties[partyId];
+  if (!party?.active) return false;
+  const actor = state.actors[party.candidateId];
+  if (!actor) return true;
+  return !["eliminated", "withdrawn", "disqualified"].includes(actor.candidateStatus);
+}
+
 export function partyAppeal(
   party: PartyState,
   bloc: ElectorateBlocDefinition,
@@ -86,6 +105,36 @@ export function initializeElectorate(
   return { latentSupport, turnoutByBloc, undecidedByBloc, trustModifiers };
 }
 
+/**
+ * Audit crédibilité électorale (AUDIT_ELECTORAL_COHERENCE.md §1-3) : la moyenne
+ * pondérée des parts par bloc écrase la dispersion nationale — sur 10 008
+ * campagnes simulées, l'écart-type entre partis restait à 1,8-2,7 points du
+ * début à la fin de la campagne, aucune campagne ne produisait de favori
+ * dominant (>22 % et >5 pts d'avance), et 76 % des résultats de premier tour
+ * plaçaient 8 partis sur 9 dans une bande 7-16 %. La cause : un parti fort
+ * dans certains blocs et faible dans d'autres régresse vers la moyenne
+ * nationale dès qu'on agrège 9 blocs, même quand son avantage idéologique ou
+ * de socle est réel et mesurable bloc par bloc (`diag-appeal-breakdown.ts` :
+ * l'écart-type du terme idéologie/socle par bloc, 5,86, dépassait déjà celui
+ * du terme de compétence de campagne, 4,47 — le problème n'était pas un
+ * terme trop petit, mais l'aplatissement par la moyenne pondérée elle-même).
+ *
+ * DISPERSION_POWER amplifie les écarts nationaux déjà présents après
+ * agrégation, uniformément pour tous les partis (aucun ciblage), sans
+ * changer aucun terme de `partyAppeal` ni la pondération des blocs : élever
+ * les totaux post-agrégation à cette puissance avant la normalisation finale
+ * double l'écart-type national initial mesuré en audit (1,69 → 2,89) tout en
+ * préservant l'ordre des partis et la somme à 100 par construction
+ * (`normalizePercentages`). Conserve l'incertitude voulue du jeu : n'agit
+ * que sur l'écart entre partis, jamais sur le bruit de sondage ni sur le
+ * bruit du scrutin, qui restent inchangés. Calibré par recherche empirique
+ * sur 1,3,1.5,1.8,2,2.5,3 (corpus de validation, voir
+ * ELECTORAL_COHERENCE_FIXES_REPORT.md) ; 2 est la plus petite valeur testée
+ * qui fait apparaître des favoris dominants sans rendre la course fragmentée
+ * minoritaire.
+ */
+const DISPERSION_POWER = 2;
+
 export function nationalLatentSupport(
   state: GameState,
   blocs: ElectorateBlocDefinition[],
@@ -100,13 +149,18 @@ export function nationalLatentSupport(
     const expressedWeight = bloc.weight * turnout * (1 - undecided);
     const supports = state.electorate.latentSupport[bloc.id];
     for (const partyId of Object.keys(totals)) {
-      const party = state.parties[partyId];
-      if (!party?.active) continue;
+      if (!isElectorallyActive(state, partyId)) continue;
       totals[partyId] =
         (totals[partyId] ?? 0) + ((supports?.[partyId] ?? 0) / 100) * expressedWeight;
     }
   }
-  return normalizePercentages(totals, 3);
+  const amplified = Object.fromEntries(
+    Object.entries(totals).map(([partyId, value]) => [
+      partyId,
+      value > 0 ? value ** DISPERSION_POWER : 0,
+    ]),
+  );
+  return normalizePercentages(amplified, 3);
 }
 
 export function recalculateElectorate(

@@ -277,9 +277,9 @@ test("8 · élimination contrôlée au premier tour et bilan final", async ({ pa
     testInfo.project.name === "mobile",
     "Fixture électorale longue exécutée sur Chromium desktop.",
   );
-  await startExistingCampaign(page, "Parti socialiste", "e2e-ps-search-0");
+  await startExistingCampaign(page, "Parti socialiste", "e2e-ps-elim-41");
   const milestones = await playCampaign(page);
-  expect(milestones.firstRound).toMatch(/3e au premier tour/i);
+  expect(milestones.firstRound).toMatch(/5e au premier tour/i);
   await expect(page.getByRole("button", { name: /^Rejouer$/i })).toBeVisible();
 });
 
@@ -288,7 +288,7 @@ test("9 · défaite contrôlée au second tour", async ({ page }, testInfo) => {
     testInfo.project.name === "mobile",
     "Fixture électorale longue exécutée sur Chromium desktop.",
   );
-  await startExistingCampaign(page, "Rassemblement national", "e2e-rn-defeat-1");
+  await startExistingCampaign(page, "Rassemblement national", "e2e-rn-defeat-4");
   const milestones = await playCampaign(page);
   expect(milestones.firstRound).toMatch(/second tour/i);
   expect(milestones.secondRound).toMatch(/verdict des urnes/i);

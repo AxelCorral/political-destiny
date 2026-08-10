@@ -46,7 +46,7 @@ describe("FinalScreen — ton visuel différencié victoire/défaite", () => {
   });
 
   it("la défaite affiche l'eyebrow sobre existant, jamais le libellé de victoire", () => {
-    const state = playToFinish("always-first-defeat-lfi-0", "lfi");
+    const state = playToFinish("always-first-defeat-lfi-37", "lfi");
     expect(state.finalResult?.won).toBe(false);
     useGameStore.getState().restoreGame(state);
 
@@ -57,7 +57,7 @@ describe("FinalScreen — ton visuel différencié victoire/défaite", () => {
   });
 
   it("la défaite conserve le bilan complet (score, métriques, positionnement)", () => {
-    const state = playToFinish("always-first-defeat-lfi-0", "lfi");
+    const state = playToFinish("always-first-defeat-lfi-37", "lfi");
     useGameStore.getState().restoreGame(state);
 
     render(<FinalScreen onReplay={() => undefined} />);

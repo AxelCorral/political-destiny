@@ -426,6 +426,7 @@ export type Condition =
   | { kind: "not_flag"; key: string }
   | { kind: "player_party"; partyIds: string[] }
   | { kind: "qualified"; value: boolean }
+  | { kind: "party_not_opponent"; partyIds: string[] }
   | { kind: "game_mode"; values: GameMode[] }
   | { kind: "ideology"; axis: IdeologyAxis; operator: "gte" | "lte"; value: number }
   | { kind: "ideology_family"; values: IdeologyFamily[] }

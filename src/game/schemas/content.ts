@@ -459,6 +459,7 @@ const conditionSchema = z.discriminatedUnion("kind", [
   z.object({ kind: z.literal("not_flag"), key: z.string() }),
   z.object({ kind: z.literal("player_party"), partyIds: z.array(z.string()).min(1) }),
   z.object({ kind: z.literal("qualified"), value: z.boolean() }),
+  z.object({ kind: z.literal("party_not_opponent"), partyIds: z.array(z.string()).min(1) }),
   z.object({
     kind: z.literal("game_mode"),
     values: z.array(z.enum(["existing_party", "custom_party", "random"])).min(1),
