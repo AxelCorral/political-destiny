@@ -1,0 +1,31 @@
+
+> vers-lelysee@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.10 D:/Project_claude_code/political-destiny
+
+ ❯ src/game/engine/__tests__/game.test.ts (3 tests | 1 failed) 11794ms
+     × termine des campagnes variées sans état invalide 11586ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/game/engine/__tests__/game.test.ts > pipeline complet > termine des campagnes variées sans état invalide
+Error: Test timed out in 10000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/game/engine/__tests__/game.test.ts:76:3
+     74|   // Ce test exécute 120 campagnes complètes. Le timeout est local et …
+     75|   // deux fois sa durée mesurée (~4,7 s sur le poste d’audit), sans ra…
+     76|   it("termine des campagnes variées sans état invalide", () => {
+       |   ^
+     77|     fc.assert(
+     78|       fc.property(fc.string({ minLength: 1, maxLength: 24 }), (seed) =…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 28 passed (29)
+      Tests  1 failed | 155 passed (156)
+   Start at  02:33:20
+   Duration  36.10s (transform 8.93s, setup 19.53s, import 15.43s, tests 111.75s, environment 88.22s)
+

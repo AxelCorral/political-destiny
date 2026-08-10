@@ -1,0 +1,13 @@
+eventId,title,category,rarity,occurrences,meanIntensity,meanAbsPollDelta,choiceEntropyNormalized,dominantChoiceShare,isChain,isRare,compositeScore,grade,frequencyShare,classification,powerClass
+rare_national_union,Une coalition de crise est proposée,rare,legendary,23,6,2.14,0.999,0.522,true,true,79.6,S,0.0142,exceptionnel,calibre
+rare_fragmented_congress,Neuf groupes rendent la majorité incertaine,rare,rare,90,6,0.84,0.926,0.433,true,true,75.2,S,0.0556,exceptionnel,pas_assez_puissant
+rare_debate_blackout,Le studio plonge dans le noir,rare,rare,35,6,0.59,0.964,0.457,true,true,74.6,S,0.0216,exceptionnel,pas_assez_puissant
+rare_exceptional_powers,Le débat sur les pouvoirs exceptionnels,rare,rare,60,6,1.03,0.883,0.533,true,true,74,S,0.037,exceptionnel,calibre
+rare_hologram_revolt,Le double numérique refuse de démarrer,rare,rare,82,5,0.97,0.982,0.39,false,true,66.2,A,0.0506,memorable,pas_assez_puissant
+rare_civil_suspension,Votre voix ne tient plus,rare,rare,52,6,0.88,0.983,0.404,false,true,65.9,A,0.0321,memorable,pas_assez_puissant
+rare_crown_petition,Une pétition monarchiste atteint le million,rare,legendary,23,4.65,1.17,0.941,0.435,false,true,61,A,0.0142,memorable,calibre
+rare_printer_slogan,Une apostrophe change le slogan,rare,rare,90,4.91,0.37,0.839,0.522,false,true,57.3,A,0.0556,memorable,pas_assez_puissant
+rare_parrot_quote,Un perroquet répète votre slogan,rare,legendary,17,4.65,0.39,0.936,0.471,false,true,56,A,0.0105,memorable,pas_assez_puissant
+party_reconquete_rare,Un réseau de cadres propose une fusion,party,rare,9,6,0.2,0.991,0.556,false,true,55.7,A,0.0056,trop_rare,pas_assez_puissant
+party_nouvelle_energie_rare,Un financement participatif dépasse les attentes,party,rare,9,6,0.13,0.991,0.556,false,true,55.4,A,0.0056,trop_rare,pas_assez_puissant
+party_rn_dissidence,Un courant identitaire prépare sa candidature,party,rare,9,6,2.24,0.503,0.889,true,true,54.2,B,0.0056,trop_rare,calibre

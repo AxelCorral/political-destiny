@@ -1,0 +1,90 @@
+branche: codex/v2-audit-improvements
+commit: 6b709edd6050ecfe4c1770931a6fa88d3116a167
+node: v24.16.0
+npm: 11.13.0
+git status:
+ M audit-results/fun-audit/ab-summary.json
+ M audit-results/fun-audit/selected-timelines/INDEX.json
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed10.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed11.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed12.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed13.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed14.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed15.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed16.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed17.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed18.md
+ M audit-results/fun-audit/selected-timelines/aleatoire__lfi__risk_seeking_ref__seed19.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__horizons__cautious__seed13.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__horizons__narrative__seed13.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__horizons__neutral_baseline__seed13.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__horizons__opportunist__seed13.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__horizons__roleplayer__seed13.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__horizons__roleplayer__seed5.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__reconquete__chaos__seed4.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__reconquete__opportunist__seed13.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__reconquete__strategist__seed16.md
+ M audit-results/fun-audit/selected-timelines/bottom10_fun__renaissance__cautious__seed0.md
+ M audit-results/fun-audit/selected-timelines/chaotique__rn__chaos__seed10.md
+ M audit-results/fun-audit/selected-timelines/chaotique__rn__chaos__seed11.md
+ M audit-results/fun-audit/selected-timelines/chaotique__rn__chaos__seed12.md
+ M audit-results/fun-audit/selected-timelines/chaotique__rn__chaos__seed13.md
+ M audit-results/fun-audit/selected-timelines/chaotique__rn__chaos__seed14.md
+ M audit-results/fun-audit/selected-timelines/defaite__horizons__roleplayer__seed15.md
+ M audit-results/fun-audit/selected-timelines/defaite__horizons__roleplayer__seed16.md
+ M audit-results/fun-audit/selected-timelines/defaite__horizons__roleplayer__seed19.md
+ M audit-results/fun-audit/selected-timelines/defaite__ps__beginner__seed1.md
+ M audit-results/fun-audit/selected-timelines/defaite__ps__beginner__seed7.md
+ M audit-results/fun-audit/selected-timelines/defaite__renaissance__narrative__seed11.md
+ M audit-results/fun-audit/selected-timelines/defaite__renaissance__narrative__seed13.md
+ M audit-results/fun-audit/selected-timelines/defaite__renaissance__narrative__seed14.md
+ M audit-results/fun-audit/selected-timelines/defaite__renaissance__roleplayer__seed2.md
+ M audit-results/fun-audit/selected-timelines/defaite__renaissance__roleplayer__seed4.md
+ M audit-results/fun-audit/selected-timelines/favori_en_difficulte__lfi__chaos__seed2.md
+ M audit-results/fun-audit/selected-timelines/favori_en_difficulte__lfi__chaos__seed8.md
+ M audit-results/fun-audit/selected-timelines/favori_en_difficulte__lr__narrative__seed19.md
+ M audit-results/fun-audit/selected-timelines/favori_en_difficulte__nouvelle_energie__opportunist__seed6.md
+ M audit-results/fun-audit/selected-timelines/favori_en_difficulte__renaissance__narrative__seed19.md
+ M audit-results/fun-audit/selected-timelines/outsider_performant__ecologistes__strategist__seed11.md
+ M audit-results/fun-audit/selected-timelines/outsider_performant__ecologistes__strategist__seed13.md
+ M audit-results/fun-audit/selected-timelines/outsider_performant__ecologistes__strategist__seed16.md
+ M audit-results/fun-audit/selected-timelines/outsider_performant__ecologistes__strategist__seed19.md
+ M audit-results/fun-audit/selected-timelines/outsider_performant__lfi__cautious__seed1.md
+ M audit-results/fun-audit/selected-timelines/riche_evenements_rares__ecologistes__beginner__seed1.md
+ M audit-results/fun-audit/selected-timelines/riche_evenements_rares__ecologistes__chaos__seed1.md
+ M audit-results/fun-audit/selected-timelines/riche_evenements_rares__ecologistes__neutral_baseline__seed1.md
+ M audit-results/fun-audit/selected-timelines/riche_evenements_rares__lfi__narrative__seed7.md
+ M audit-results/fun-audit/selected-timelines/riche_evenements_rares__nouvelle_energie__opportunist__seed7.md
+ M audit-results/fun-audit/selected-timelines/top10_fun__ecologistes__narrative__seed11.md
+ M audit-results/fun-audit/selected-timelines/top10_fun__ecologistes__opportunist__seed7.md
+ M audit-results/fun-audit/selected-timelines/top10_fun__ecologistes__risk_seeking_ref__seed11.md
+ M audit-results/fun-audit/selected-timelines/top10_fun__lfi__chaos__seed11.md
+ M audit-results/fun-audit/selected-timelines/top10_fun__lfi__narrative__seed11.md
+ M audit-results/fun-audit/selected-timelines/top10_fun__lfi__neutral_baseline__seed6.md
+ M audit-results/fun-audit/selected-timelines/top10_fun__lfi__opportunist__seed10.md
+ M audit-results/fun-audit/selected-timelines/top10_fun__nouvelle_energie__risk_seeking_ref__seed9.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__lfi__beginner__seed0.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__lfi__beginner__seed5.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__lfi__beginner__seed7.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__lr__cautious__seed1.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__lr__cautious__seed3.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__lr__cautious__seed4.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__lr__cautious__seed8.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__renaissance__roleplayer__seed12.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__renaissance__roleplayer__seed15.md
+ M audit-results/fun-audit/selected-timelines/tres_serree__renaissance__roleplayer__seed18.md
+ M audit-results/fun-audit/selected-timelines/victoire__horizons__chaos__seed10.md
+ M audit-results/fun-audit/selected-timelines/victoire__horizons__chaos__seed14.md
+ M audit-results/fun-audit/selected-timelines/victoire__renaissance__opportunist__seed10.md
+ M audit-results/fun-audit/selected-timelines/victoire__renaissance__opportunist__seed11.md
+ M audit-results/fun-audit/selected-timelines/victoire__renaissance__opportunist__seed13.md
+ M audit-results/fun-audit/selected-timelines/victoire__renaissance__opportunist__seed14.md
+ M audit-results/fun-audit/selected-timelines/victoire__renaissance__opportunist__seed15.md
+ M audit-results/fun-audit/selected-timelines/victoire__renaissance__opportunist__seed16.md
+ M audit-results/fun-audit/selected-timelines/victoire__renaissance__opportunist__seed18.md
+ M audit-results/fun-audit/selected-timelines/victoire__renaissance__opportunist__seed19.md
+ M audit-results/fun-audit/summary.json
+?? MESSAGE_CLAUDE_CODE_EXECUTION_SEQUENTIELLE_2_MISSIONS.md
+?? PROMPT_CLAUDE_CODE_PASSE_CIBLEE_GAMEPLAY_POST_FUN.md
+?? PROMPT_CLAUDE_CODE_REFONTE_FORME_GAME_FEEL_POST_AUDIT.md
+?? audit-results/targeted-pass/

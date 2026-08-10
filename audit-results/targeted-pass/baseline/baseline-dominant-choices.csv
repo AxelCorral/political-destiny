@@ -1,0 +1,237 @@
+eventId,title,occurrences,dominantChoiceShare,isDominant
+party_horizons_founder_blessing,Paul Auriac loue une candidate loyale à la ligne,14,0.929,true
+debate_frontrunner_retaliation,La riposte du favori,64,0.922,true
+party_horizons_founder_revenge,Le réseau de Paul Auriac s’organise,27,0.889,true
+rare_powers_abolition_tested,Un cas concret teste la suppression promise,10,0.8,true
+party_renaissance_signature,Le fonds industriel européen se précise,102,0.784,false
+party_renaissance_runoff,Le bloc républicain demande des preuves,123,0.772,false
+party_ecologistes_electorate,Les locataires redoutent les interdictions,86,0.767,false
+party_ps_signature,La garantie jeunesse doit être financée,79,0.759,false
+party_lr_program_dilemma,Les économies menacent les services locaux,60,0.75,false
+party_reconquete_runoff,La qualification bouleverse la stratégie,51,0.745,false
+party_rn_signature,La baisse de TVA doit être ciblée,81,0.741,false
+campaign_peripheral_town,La périphérie demande un calendrier,158,0.741,false
+party_lr_fronde,Diane Mérande veut négocier à droite,83,0.735,false
+party_rn_fronde,Louis Ferran refuse la modération,79,0.734,false
+internal_local_sections,Les sections refusent le kit national,458,0.734,false
+rare_congress_isolation,Les partis voisins organisent leur propre socle,30,0.733,false
+party_lfi_signature,La Sixième République doit prendre forme,85,0.729,false
+party_nouvelle_energie_program_dilemma,La baisse de dépense rencontre l’hôpital,80,0.725,false
+party_lr_electorate,Les retraités interrogent le financement,94,0.713,false
+campaign_market_walkabout,Le marché sous pression,216,0.713,false
+party_horizons_electorate,Les retraités modérés parlent des soins,89,0.708,false
+program_labor_immigration,"L’immigration de travail, un choix économique assumé ou non",394,0.708,false
+party_reconquete_electorate,Les entrepreneurs attendent une ligne économique,85,0.706,false
+party_reconquete_signature,Le référendum migratoire doit être cadré,95,0.705,false
+media_front_page,La une vous prête un tournant,451,0.703,false
+internal_headquarters_move,Le siège coûte trop cher,284,0.697,false
+party_horizons_fronde,Théo Lagrive réclame un accord central,56,0.696,false
+party_ps_local_asset,Les maires socialistes ouvrent leurs réseaux,69,0.696,false
+party_horizons_program_dilemma,La règle de dépense rencontre les communes,42,0.69,false
+party_horizons_passion_test,« Vous nous parlez de compétence. Parlez-nous d’envie. »,16,0.688,false
+campaign_citizens_convention,La convention citoyenne réclame une réponse,149,0.685,false
+party_renaissance_program_dilemma,La réforme des retraites revient,79,0.684,false
+party_ecologistes_local_asset,Des élus ruraux proposent une tournée,68,0.676,false
+internal_youth_wing,Les jeunes veulent leur propre campagne,216,0.676,false
+media_past_words,Une promesse revient au montage,70,0.671,false
+party_renaissance_fronde,Salomé Varenne défend le bilan,66,0.667,false
+party_horizons_signature,La décentralisation doit devenir concrète,54,0.667,false
+party_lr_runoff,La droite qualifiée cherche ses reports,88,0.659,false
+government_prime_minister,Le choix de Matignon,383,0.658,false
+rare_congress_partners_respond,Deux partis répondent aux cinq conditions,35,0.657,false
+party_nouvelle_energie_local_asset,Des entrepreneurs prêtent leurs réseaux,81,0.654,false
+party_ecologistes_signature,La rénovation thermique doit changer d’échelle,95,0.653,false
+party_horizons_identity,Horizons doit sortir de l’attente,79,0.646,false
+party_ps_fronde,Élise Marceau conteste la synthèse,62,0.645,false
+program_secularism,La laïcité à l’épreuve du quotidien,355,0.645,false
+party_renaissance_electorate,Les classes moyennes demandent un gain net,81,0.642,false
+party_rn_runoff,Le RN doit élargir sans démobiliser,173,0.642,false
+party_lfi_local_asset,Saint-Denis ouvre ses réseaux associatifs,77,0.636,false
+world_rival_leadership_tension,Tensions internes chez Reconquête,236,0.627,false
+party_ps_electorate,Les agents publics attendent des garanties,91,0.626,false
+party_ecologistes_fronde,Maud Lestang rouvre le débat nucléaire,66,0.621,false
+party_ps_program_dilemma,Le bilan gouvernemental divise la convention,79,0.62,false
+rare_powers_guardrails_tested,Les garde-fous promis sont pris au mot,13,0.615,false
+party_nouvelle_energie_signature,Le permis d’entreprendre doit être défini,85,0.612,false
+campaign_non_aggression_overture,Une proposition de pacte de non-agression,245,0.612,false
+party_rn_program_dilemma,La préférence nationale rencontre le droit,77,0.61,false
+scandal_donation_route,Un virement suit un trajet complexe,210,0.61,false
+campaign_poster_shortage,Les affiches manquent dans six villes,314,0.608,false
+party_reconquete_local_asset,Les comités numériques cherchent du terrain,81,0.605,false
+party_lr_local_asset,Les fédérations ouvrent leurs permanences,91,0.604,false
+media_silence_day,Vingt-quatre heures sans caméra,480,0.602,false
+campaign_endorsements_missing,Les parrainages restent sous le seuil,244,0.602,false
+party_renaissance_local_asset,Les parlementaires proposent cent permanences,80,0.6,false
+media_live_stream,Le direct des questions citoyennes,496,0.597,false
+alliance_mayors_appeal,Deux cents maires demandent un contrat,397,0.597,false
+party_rn_crisis_followup,Le courant Ferran teste la discipline,54,0.593,false
+party_rn_electorate,Les abstentionnistes demandent une preuve locale,93,0.591,false
+scandal_supplier_overbilling,L’imprimeur a doublé une ligne,337,0.591,false
+party_reconquete_fronde,Hélène Saint-Cyr refuse l’élargissement,68,0.588,false
+party_horizons_local_asset,Les maires offrent une semaine de terrain,97,0.588,false
+alliance_center_pact,Renaissance offre un pacte de stabilité,58,0.586,false
+party_lr_signature,La sécurité du quotidien exige des moyens,67,0.582,false
+campaign_student_forum,Le forum étudiant refuse les slogans,145,0.579,false
+eliminated_endorse_candidate,Votre voix reste décisive,145,0.579,false
+party_reconquete_identity,Reconquête choisit influence ou qualification,90,0.578,false
+program_climate_adaptation,La France à cinquante degrés,474,0.57,false
+party_ecologistes_program_dilemma,La taxe carbone divise les alliés,74,0.568,false
+party_renaissance_crisis_followup,Les élus du bilan demandent réparation,53,0.566,false
+party_ecologistes_crisis_followup,La ligne énergétique revient au congrès,46,0.565,false
+party_nouvelle_energie_crisis_followup,La négociation de fusion arrive au vote,41,0.561,false
+party_reconquete_program_dilemma,La souveraineté économique cherche ses instruments,68,0.559,false
+party_ps_crisis_followup,La contribution fiscale revient devant le parti,43,0.558,false
+internal_recruitment,Cinq cents bénévoles sans mission,337,0.558,false
+party_nouvelle_energie_fronde,Raphaël Ternois pousse à la fusion,61,0.557,false
+party_ecologistes_alliance,Le PS offre des circonscriptions urbaines,122,0.557,false
+party_horizons_crisis_followup,Le mandat de négociation arrive à échéance,36,0.556,false
+eliminated_personal_future,Votre mandat à la tête du parti,65,0.554,false
+party_rn_identity,Le RN arbitre normalisation et mobilisation,56,0.554,false
+campaign_farmers_roundtable,La table ronde agricole se tend,275,0.553,false
+alliance_strategic_withdrawal,Nouvelle Énergie propose un retrait,58,0.552,false
+campaign_union_meeting,Le face-à-face avec les syndicats,78,0.551,false
+party_reconquete_crisis_followup,Les comités de Saint-Cyr se coordonnent,40,0.55,false
+party_nouvelle_energie_runoff,L’outsider doit former une majorité,137,0.547,false
+party_ps_runoff,La gauche attend un contrat de second tour,141,0.546,false
+world_rival_leadership_split,La dissidence prend forme chez Reconquête,44,0.545,false
+campaign_weather_disaster,La pluie emporte la tournée,277,0.545,false
+party_lfi_alliance,Les Écologistes proposent un pacte urbain,66,0.545,false
+scandal_plagiarized_report,Le rapport reprend huit paragraphes,310,0.545,false
+alliance_poach_rival_cadre,Un cadre écologiste tenté par un ralliement,243,0.539,false
+campaign_volunteer_surge,Le siège déborde de bénévoles,665,0.537,false
+scandal_audit_conclusion,L’audit clôt le dossier des factures,192,0.536,false
+media_unflattering_photo,La photographie du quai vide,536,0.534,false
+rare_exceptional_powers,Le débat sur les pouvoirs exceptionnels,60,0.533,false
+party_horizons_runoff,Le centre droit négocie son élargissement,139,0.532,false
+media_open_microphone,Le micro resté ouvert,346,0.532,false
+media_foreign_interview,La France vue depuis Bruxelles,64,0.531,false
+campaign_defend_unfairly_attacked_rival,Une accusation jugée infondée vise un adversaire,330,0.53,false
+party_lfi_runoff,LFI doit élargir sans se renier,140,0.529,false
+world_budget_warning,La Cour des comptes alerte,148,0.527,false
+campaign_overseas_trip,Le déplacement en Guadeloupe engage,174,0.523,false
+rare_national_union,Une coalition de crise est proposée,23,0.522,false
+rare_printer_slogan,Une apostrophe change le slogan,90,0.522,false
+party_lr_crisis_followup,Les fédérations exigent un vote de ligne,50,0.52,false
+party_ecologistes_runoff,Le second tour exige une coalition climatique,118,0.517,false
+party_nouvelle_energie_electorate,Les électeurs ignorent encore le mouvement,74,0.514,false
+government_first_address,La première adresse de lÉlysée,451,0.514,false
+internal_financial_review,Le contrôle interne signale trois factures,310,0.513,false
+campaign_calendar_conflict,Deux invitations au même horaire,354,0.511,false
+internal_primary_debt,La promesse faite après la primaire,169,0.509,false
+scandal_campaign_data,Un fichier militant sort du siège,220,0.509,false
+world_international_crisis,Une crise ferme un détroit,326,0.509,false
+alliance_left_roundtable,Le PS propose trois engagements communs,71,0.507,false
+campaign_donation_drive,La collecte se bloque,431,0.506,false
+party_ps_alliance,Les Écologistes proposent un contrat municipal,95,0.505,false
+campaign_regional_rally,Le meeting quitte la capitale,205,0.502,false
+world_national_strike,La grève bloque les transports,148,0.5,false
+party_rn_local_asset,Les petites villes ouvrent la campagne,70,0.5,false
+party_reconquete_alliance,Le RN offre des désistements limités,98,0.5,false
+campaign_budget_arbitration,Le budget impose trois renoncements,241,0.498,false
+campaign_slogan_test,Le slogan divise le siège,663,0.495,false
+program_integration_contract,"Le contrat d’intégration, jusqu’où aller",358,0.494,false
+alliance_union_support,La CFDT veut des garanties écrites,61,0.492,false
+media_local_press,Six rédactions face au désert médical,457,0.49,false
+program_health,Le prochain budget de la santé,475,0.488,false
+world_economic_slowdown,La croissance simulée se retourne,314,0.487,false
+party_horizons_founder_challenge,Paul Auriac demande qui décide vraiment,72,0.486,false
+media_fictional_editorial_support,Un soutien éditorial encombrant,430,0.486,false
+party_renaissance_alliance,Horizons propose une candidature commune,101,0.485,false
+program_pensions,La ligne de départ des retraites,262,0.485,false
+party_rn_alliance,Reconquête propose un pacte de non-agression,93,0.484,false
+internal_major_donor,Un donateur demande un rendez-vous,254,0.484,false
+internal_spokesperson_mistake,La porte-parole annonce trop tôt,247,0.478,false
+program_family_reunification,Le regroupement familial en question,360,0.475,false
+media_long_podcast,Deux heures sans élément de langage,240,0.475,false
+alliance_right_convention,Le RN invite à une convention commune,120,0.475,false
+rare_parrot_quote,Un perroquet répète votre slogan,17,0.471,false
+world_heatwave,Quarante-quatre degrés à Lyon,121,0.471,false
+debate_expose_contradiction_centrist,Une contradiction chez le camp centriste,323,0.471,false
+internal_rival_interview,Un rival corrige votre ligne,309,0.469,false
+internal_volunteer_conflict,Deux équipes se disputent le terrain,260,0.469,false
+media_documentary_access,La caméra derrière la porte,139,0.468,false
+party_lr_alliance,Horizons propose un accord économique,111,0.468,false
+campaign_rural_desert,Trois villages sans médecin,186,0.468,false
+party_lfi_electorate,Les abstentionnistes demandent une preuve,103,0.466,false
+program_border_control,Contrôles aux frontières : quels moyens,293,0.464,false
+program_school,La promesse faite à l’école,359,0.462,false
+campaign_rally_security,Le meeting change de dispositif,393,0.461,false
+runoff_vote_transfers,Les reports refusent la mécanique,770,0.46,false
+program_immigration,La loi migratoire du programme,354,0.46,false
+internal_program_committee,Le comité bloque le chapitre sécurité,237,0.46,false
+alliance_udr_autonomy,Un allié du RN revendique sa marque,37,0.459,false
+campaign_door_to_door,Cent quartiers en porte-à-porte,74,0.459,false
+rare_debate_blackout,Le studio plonge dans le noir,35,0.457,false
+program_institutions,La présidence que vous proposez,363,0.457,false
+party_lr_identity,LR fixe ses deux frontières,62,0.452,false
+party_lfi_crisis_followup,La fronde sociale exige un vote,51,0.451,false
+scandal_treasurer_invoices,Les factures sans pièce ressortent,240,0.45,false
+internal_staff_fatigue,Le siège arrive à saturation,222,0.45,false
+program_end_of_life,La question de la fin de vie,378,0.45,false
+alliance_fictional_celebrity,Une chanteuse veut soutenir la campagne,470,0.449,false
+party_lfi_fronde,Nassim Courbet réclame une ligne plus sociale,58,0.448,false
+world_european_vote,Le Conseil européen se divise,87,0.448,false
+campaign_factory_visit,L’atelier industriel de Saint-Nazaire,603,0.448,false
+world_energy_price_spike,Le gaz double en une semaine,264,0.447,false
+scandal_consultant_contract,Le contrat du conseiller est publié,184,0.446,false
+program_wages,Le salaire net au centre,247,0.445,false
+media_fact_check_followup,Le coût passe au crible,45,0.444,false
+party_lfi_program_dilemma,La désobéissance européenne doit être définie,63,0.444,false
+campaign_attacked_by_rival_pole,Une attaque frontale de La France insoumise,282,0.443,false
+party_renaissance_identity,Renaissance choisit continuité ou rupture,70,0.443,false
+debate_challenge_frontrunner,Provoquer le favori en duel,388,0.441,false
+scandal_family_hire,La directrice a recruté son frère,374,0.439,false
+world_housing_protest,Les tentes encerclent la préfecture,96,0.438,false
+party_ps_identity,Le PS doit nommer son projet,87,0.437,false
+world_public_service_outage,La plateforme publique tombe en panne,528,0.436,false
+rare_crown_petition,Une pétition monarchiste atteint le million,23,0.435,false
+rare_fragmented_congress,Neuf groupes rendent la majorité incertaine,90,0.433,false
+internal_congress_motion,Une motion réclame un congrès,335,0.433,false
+program_digital_rights,Vie privée et réseaux : la ligne numérique,361,0.432,false
+campaign_hospital_night,Une nuit avec les urgences,251,0.43,false
+internal_nomination_rules,Les règles de la liste commune,98,0.429,false
+party_horizons_alliance,Les Républicains proposent un pacte local,115,0.426,false
+eliminated_no_instruction,Aucun finaliste ne porte votre ligne,108,0.426,false
+scandal_false_resume,Une ligne du CV est fausse,275,0.422,false
+media_short_video,Une minute sur les loyers,273,0.421,false
+party_ecologistes_identity,Les Écologistes arbitrent leur méthode,57,0.421,false
+debate_post_show_spin,Les soutiens envahissent le plateau,328,0.421,false
+runoff_favorite_pressure,Deux points davance à cinq jours,588,0.42,false
+scandal_local_expenses,Des notes de frais se mélangent,282,0.418,false
+runoff_last_hours,Les dernières heures autorisées,804,0.413,false
+eliminated_future_campaign,Le score ouvre une autre campagne,184,0.408,false
+party_lfi_identity,LFI choisit entre mouvement et candidat,113,0.407,false
+rare_civil_suspension,Votre voix ne tient plus,52,0.404,false
+campaign_bus_breakdown,Le car tombe en panne,318,0.403,false
+runoff_common_program,La coalition réclame une annexe,663,0.403,false
+world_industrial_closure,Une aciérie annonce sa fermeture,147,0.401,false
+party_renaissance_legacy_test,Le bilan face aux chiffres,45,0.4,false
+rare_national_union_expires,Les six mois d’union nationale s’achèvent,10,0.4,false
+runoff_endorsement_wave,Les soutiens arrivent avec leurs conditions,700,0.4,false
+party_renaissance_defend_center,Horizons et Nouvelle Énergie visent le même électorat,30,0.4,false
+party_horizons_center_poaching,Une figure du bloc central hésite entre deux maisons,30,0.4,false
+program_energy,Le mix électrique de 2040,264,0.394,false
+media_economic_morning,Le chiffrage de la matinale,122,0.393,false
+debate_security_round,Trois minutes sur la sécurité,28,0.393,false
+rare_hologram_revolt,Le double numérique refuse de démarrer,82,0.39,false
+world_floods,La Garonne sort de son lit,402,0.388,false
+program_school_values,Ce que l’école doit transmettre,386,0.386,false
+internal_strategy_leak,La note sur le vote utile fuite,209,0.383,false
+party_nouvelle_energie_alliance,Horizons propose une plateforme de gestion,100,0.38,false
+alliance_parliamentary_group,Douze députés offrent leur expérience,393,0.379,false
+party_nouvelle_energie_identity,Nouvelle Énergie doit prouver son utilité,98,0.378,false
+government_balance,Quinze ministres pour une coalition,448,0.377,false
+government_ministry_conflict,Deux alliés réclament Bercy,348,0.376,false
+program_europe,La règle européenne à changer,232,0.375,false
+campaign_small_business,La PME teste votre réforme,161,0.373,false
+party_horizons_technocrat_backlash,Le sketch du « comité Excel »,52,0.365,false
+media_prime_time_invite,Le fauteuil libéré au vingt heures,459,0.364,false
+campaign_final_rally,Le dernier grand meeting,129,0.364,false
+debate_free_conclusion,La minute qui vous appartient,342,0.357,false
+alliance_former_rival,Un ancien rival socialiste revient,48,0.354,false
+debate_unknown_question,La question venue de Mayotte,436,0.353,false
+debate_all_candidates,Neuf candidats face au climat,358,0.349,false
+program_taxation,Qui financera les priorités,303,0.343,false
+debate_duel_interruption,L’adversaire refuse de vous laisser répondre,346,0.329,false
+runoff_final_debate,Le débat de lentre-deux-tours,871,0.325,false
+debate_economy_round,Le duel sur les huit milliards,161,0.323,false
