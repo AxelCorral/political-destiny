@@ -139,6 +139,7 @@ export function CampaignDashboard({
               <StatGauge label="Trésorerie" value={party.stats.finances} format="money" />
               <StatGauge label="Crédibilité" value={party.stats.credibility} />
               <StatGauge label="Cohésion" value={party.stats.cohesion} />
+              <StatGauge label="Rejet" value={party.stats.rejection} polarity="unfavorable" />
             </div>
             <h3 className="mt-6 text-sm font-black uppercase tracking-[0.12em] text-[var(--ink-muted)]">
               Signaux de campagne
@@ -148,7 +149,6 @@ export function CampaignDashboard({
                 ["Adhérents", formatInteger(party.stats.members)],
                 ["Présence média", Math.round(party.stats.mediaPresence)],
                 ["Notoriété", Math.round(party.stats.awareness)],
-                ["Rejet", Math.round(party.stats.rejection)],
                 ["Dynamique", Math.round(party.stats.momentum)],
                 ["Implantation", Math.round(party.stats.localStrength)],
               ].map(([label, value]) => (

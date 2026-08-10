@@ -96,7 +96,11 @@ function CampaignHeader({
           </div>
           <div
             className="mt-2 h-1.5 overflow-hidden rounded-full bg-[var(--surface-raised)]"
+            role="progressbar"
             aria-label={`Progression ${Math.round(progress)} %`}
+            aria-valuenow={Math.round(progress)}
+            aria-valuemin={0}
+            aria-valuemax={100}
           >
             <div
               className="h-full rounded-full bg-[var(--blue-600)] transition-[width] duration-500"

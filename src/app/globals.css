@@ -20,9 +20,11 @@
   --ink-muted: #526176;
   --line: #d8d6d0;
   --success: #237457;
-  --warning: #9b651d;
+  --warning: #855618;
   --focus: #2f73c8;
-  --radius: 1.25rem;
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.25rem;
 }
 
 * {
@@ -157,6 +159,37 @@ textarea {
 
 .animate-score-pop {
   animation: score-pop 620ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+@keyframes overlay-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-overlay-in {
+  animation: overlay-fade-in 200ms ease-out;
+}
+
+/* Tailwind v4 compiles translate-x/y utilities to the standalone CSS
+   `translate` property, so animating `scale` here (also standalone, not
+   `transform: scale()`) never fights the dialog's centering transform. */
+@keyframes dialog-pop-in {
+  from {
+    opacity: 0;
+    scale: 0.96;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.animate-dialog-in {
+  animation: dialog-pop-in 220ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @media (prefers-reduced-motion: reduce) {

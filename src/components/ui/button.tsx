@@ -5,7 +5,7 @@ import type { ButtonHTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border text-sm font-extrabold tracking-[0.01em] transition-[transform,background-color,border-color,box-shadow] duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-45 motion-reduce:transition-none",
+  "inline-flex min-h-11 items-center justify-center gap-2 rounded-[var(--radius-sm)] border text-sm font-extrabold tracking-[0.01em] transition-[transform,background-color,border-color,box-shadow] duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-45 motion-reduce:transition-none",
   {
     variants: {
       variant: {
@@ -19,9 +19,13 @@ const buttonVariants = cva(
           "border-[var(--red-700)] bg-[var(--red-700)] px-5 py-3 text-white hover:bg-[var(--red-800)]",
       },
       size: {
+        // 36px tall by design intent (a denser control among precise-pointer
+        // desktop UI), but forced to the 44px tactile target under a coarse
+        // (touch) pointer so it never falls below the target on mobile.
         default: "min-h-11",
-        compact: "min-h-9 rounded-lg px-3 py-1.5 text-xs",
-        large: "min-h-13 rounded-2xl px-6 py-4 text-base",
+        compact:
+          "min-h-9 rounded-[var(--radius-sm)] px-3 py-1.5 text-xs [@media(pointer:coarse)]:min-h-11",
+        large: "min-h-13 rounded-[var(--radius-md)] px-6 py-4 text-base",
         icon: "size-11 p-0",
       },
     },
