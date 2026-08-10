@@ -1,0 +1,4 @@
+branche: codex/v2-audit-improvements
+commit: 73b41a6d261c394f45fbf035d4e87d26c7d2e058
+node: v24.16.0
+npm: 11.13.0
