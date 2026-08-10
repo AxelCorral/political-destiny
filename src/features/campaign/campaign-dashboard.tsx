@@ -1,7 +1,7 @@
 "use client";
 
 import { BarChart3, BookOpenText, History, Newspaper, Users } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { PollChart } from "@/components/game/poll-chart";
 import { StatGauge } from "@/components/game/stat-gauge";
@@ -27,6 +27,78 @@ const EVOLUTION_LABELS: Partial<Record<StatementEvolution, string>> = {
   abrupt_reversal: "Revirement",
 };
 
+function DashboardTabs({
+  tab,
+  onTabChange,
+}: {
+  tab: DashboardTab;
+  onTabChange: (tab: DashboardTab) => void;
+}) {
+  const scrollerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  const updateScrollAffordance = () => {
+    const el = scrollerRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 2);
+    setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 2);
+  };
+
+  useEffect(() => {
+    updateScrollAffordance();
+    const el = scrollerRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver(updateScrollAffordance);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div className="relative">
+      <div
+        ref={scrollerRef}
+        onScroll={updateScrollAffordance}
+        className="-mx-1 flex gap-1 overflow-x-auto scroll-px-1 px-1 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        role="tablist"
+        aria-label="Rubriques du tableau de bord"
+      >
+        {tabs.map(({ id, label, icon: Icon }) => (
+          <button
+            key={id}
+            type="button"
+            role="tab"
+            aria-selected={tab === id}
+            onClick={() => onTabChange(id)}
+            className={cn(
+              "flex min-h-11 shrink-0 scroll-mx-1 items-center gap-2 rounded-xl px-3 text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)]",
+              tab === id
+                ? "bg-[var(--navy-950)] text-white"
+                : "text-[var(--ink-muted)] hover:bg-[var(--surface-raised)]",
+            )}
+          >
+            <Icon aria-hidden="true" className="size-4" /> {label}
+          </button>
+        ))}
+      </div>
+      <div
+        aria-hidden="true"
+        className={cn(
+          "pointer-events-none absolute inset-y-0 left-0 w-8 bg-[linear-gradient(90deg,var(--paper),transparent)] transition-opacity duration-150",
+          canScrollLeft ? "opacity-100" : "opacity-0",
+        )}
+      />
+      <div
+        aria-hidden="true"
+        className={cn(
+          "pointer-events-none absolute inset-y-0 right-0 w-8 bg-[linear-gradient(270deg,var(--paper),transparent)] transition-opacity duration-150",
+          canScrollRight ? "opacity-100" : "opacity-0",
+        )}
+      />
+    </div>
+  );
+}
+
 export function CampaignDashboard({
   state,
   open,
@@ -49,29 +121,7 @@ export function CampaignDashboard({
       description={`${state.player.displayName} · ${party.displayName}`}
       className="max-w-4xl"
     >
-      <div
-        className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-2"
-        role="tablist"
-        aria-label="Rubriques du tableau de bord"
-      >
-        {tabs.map(({ id, label, icon: Icon }) => (
-          <button
-            key={id}
-            type="button"
-            role="tab"
-            aria-selected={tab === id}
-            onClick={() => setTab(id)}
-            className={cn(
-              "flex min-h-11 shrink-0 items-center gap-2 rounded-xl px-3 text-sm font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)]",
-              tab === id
-                ? "bg-[var(--navy-950)] text-white"
-                : "text-[var(--ink-muted)] hover:bg-[var(--surface-raised)]",
-            )}
-          >
-            <Icon aria-hidden="true" className="size-4" /> {label}
-          </button>
-        ))}
-      </div>
+      <DashboardTabs tab={tab} onTabChange={setTab} />
 
       {tab === "overview" ? (
         <div className="mt-5 grid gap-6 lg:grid-cols-[1fr_1.05fr]">

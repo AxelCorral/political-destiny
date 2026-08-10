@@ -64,7 +64,7 @@ function StandardDecisionCard({
             {formatCampaignDate(date)}
           </time>
         </div>
-        <h1 className="mt-7 font-display text-4xl font-black uppercase leading-[0.98] tracking-tight sm:text-5xl">
+        <h1 className="mt-7 break-words font-display text-4xl font-black uppercase leading-[0.98] tracking-tight sm:text-5xl">
           {event.title}
         </h1>
         <p className="mt-5 max-w-3xl text-base leading-8 text-[var(--ink-muted)] sm:text-lg">
@@ -136,7 +136,7 @@ function DebateDecisionCard({
         <span className="text-xs font-black uppercase tracking-[0.18em] text-[var(--gold-300)]">
           Débat en direct · prise de position
         </span>
-        <h1 className="mt-4 font-display text-3xl font-black uppercase sm:text-4xl">
+        <h1 className="mt-4 break-words font-display text-3xl font-black uppercase sm:text-4xl">
           {event.title}
         </h1>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-300">{event.summary}</p>
