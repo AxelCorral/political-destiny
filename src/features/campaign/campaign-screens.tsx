@@ -36,6 +36,7 @@ import {
 import { cn } from "@/lib/utils";
 
 import { CampaignDashboard } from "./campaign-dashboard";
+import { resolveConsequenceEmphasis } from "./consequence-emphasis";
 import { EVENT_ICONS as CATEGORY_ICONS, EventDecisionCard } from "./event-decision-card";
 import { useGameStore } from "./gameStore";
 
@@ -212,10 +213,26 @@ export function OutcomeScreen() {
   const achievements = achievementIds
     .map((id) => gameContent.achievements.find((achievement) => achievement.id === id))
     .filter((achievement) => achievement !== undefined);
+  const sourceEvent = gameContent.events.find((event) => event.id === record.eventId);
+  const emphasis = resolveConsequenceEmphasis(sourceEvent);
+  const isElevated = emphasis !== "minor";
+  const eyebrowLabel =
+    emphasis === "major"
+      ? "Conséquence majeure"
+      : emphasis === "significant"
+        ? "Conséquence notable"
+        : "Conséquence";
 
   return (
     <div className="mx-auto flex min-h-[calc(100vh-8rem)] max-w-4xl items-center px-4 py-10 sm:px-6">
-      <Card className="w-full overflow-hidden" aria-live="polite">
+      <Card
+        className={cn(
+          "w-full overflow-hidden",
+          isElevated && "animate-card-enter",
+          emphasis === "major" && "border-[var(--gold-400)]/50",
+        )}
+        aria-live="polite"
+      >
         <div className="border-b border-[var(--line)] bg-[var(--surface)] px-5 py-4 text-sm sm:px-8">
           <span className="font-black text-[var(--blue-700)]">
             {CATEGORY_LABELS[record.eventCategory]}
@@ -225,11 +242,28 @@ export function OutcomeScreen() {
           <p className="mt-1 text-xs text-[var(--ink-muted)]">Votre choix : {record.choiceLabel}</p>
         </div>
         <article className="p-6 sm:p-9">
-          <div className="flex size-14 items-center justify-center rounded-2xl bg-[var(--navy-950)] text-[var(--gold-300)]">
-            <CheckCircle2 aria-hidden="true" className="size-7" />
+          <div
+            className={cn(
+              "flex items-center justify-center rounded-2xl bg-[var(--navy-950)] text-[var(--gold-300)]",
+              emphasis === "major"
+                ? "size-16 ring-4 ring-[var(--gold-400)]/40"
+                : emphasis === "significant"
+                  ? "size-16"
+                  : "size-14",
+            )}
+          >
+            <CheckCircle2
+              aria-hidden="true"
+              className={emphasis === "minor" ? "size-7" : "size-8"}
+            />
           </div>
+          {emphasis === "major" ? (
+            <span className="mt-5 inline-flex items-center rounded-full border border-[var(--gold-400)] bg-amber-50 px-3 py-1 text-[0.65rem] font-black uppercase tracking-[0.14em] text-[var(--warning)]">
+              Tournant de campagne
+            </span>
+          ) : null}
           <p className="mt-6 text-xs font-black uppercase tracking-[0.17em] text-[var(--blue-600)]">
-            Conséquence
+            {eyebrowLabel}
           </p>
           <h1 className="mt-2 font-display text-4xl font-black uppercase leading-none sm:text-5xl">
             {outcome.title}
@@ -242,8 +276,10 @@ export function OutcomeScreen() {
               {record.visibleEffects.map((effect, index) => (
                 <li
                   key={`${effect.label}-${index}`}
+                  style={isElevated ? { animationDelay: `${index * 60}ms` } : undefined}
                   className={cn(
                     "rounded-full px-3 py-1.5 text-xs font-black",
+                    isElevated && "animate-pill-reveal",
                     effect.tone === "positive"
                       ? "bg-emerald-50 text-[var(--success)]"
                       : effect.tone === "negative"

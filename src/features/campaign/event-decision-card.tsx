@@ -105,16 +105,23 @@ function ChoiceButtons({
           aria-disabled={Boolean(chosenId)}
           onClick={() => onChoose(choice.id)}
           className={cn(
-            "group flex min-h-16 w-full items-center gap-4 rounded-2xl border border-[var(--line)] bg-white p-4 text-left transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2 sm:p-5",
+            "group flex min-h-16 w-full items-center gap-4 rounded-2xl border border-[var(--line)] bg-white p-4 text-left transition duration-150 motion-reduce:transition-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2 active:scale-[0.99] sm:p-5",
             chosenId
               ? chosenId === choice.id
                 ? "border-[var(--blue-600)] bg-blue-50"
                 : "opacity-50"
-              : "hover:border-[var(--blue-400)] hover:bg-[var(--surface)]",
+              : "hover:-translate-y-0.5 hover:border-[var(--blue-400)] hover:bg-[var(--surface)] hover:shadow-md",
           )}
         >
-          <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-[var(--surface-raised)] font-display text-lg font-black text-[var(--blue-700)]">
-            {String.fromCharCode(65 + index)}
+          <span
+            className={cn(
+              "grid size-7 shrink-0 place-items-center rounded-full border font-display text-xs font-bold transition-colors duration-150",
+              chosenId === choice.id
+                ? "border-[var(--blue-600)] text-[var(--blue-700)]"
+                : "border-[var(--line)] text-[var(--ink-muted)] group-hover:border-[var(--blue-400)] group-hover:text-[var(--blue-700)]",
+            )}
+          >
+            {index + 1}
           </span>
           <span className="min-w-0 flex-1">
             <span className="block font-bold leading-snug">{choice.label}</span>
