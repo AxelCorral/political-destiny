@@ -23,9 +23,7 @@ describe("debate_frontrunner_retaliation — refonte des quatre options", () => 
   it("counter porte désormais un coût de rejet en plus du coût de momentum et de relation", () => {
     const choice = event?.choices.find((c) => c.id === "frontrunner_retaliation_counter");
     const effects = choice?.outcomeGroups[0]?.effects ?? [];
-    const rejectionEffect = effects.find(
-      (e) => e.kind === "party_stat" && e.stat === "rejection",
-    );
+    const rejectionEffect = effects.find((e) => e.kind === "party_stat" && e.stat === "rejection");
     const momentumEffect = effects.find((e) => e.kind === "party_stat" && e.stat === "momentum");
     const relationEffect = effects.find((e) => e.kind === "party_relation");
     expect(rejectionEffect && "delta" in rejectionEffect ? rejectionEffect.delta : 0).toBe(1);
@@ -36,9 +34,7 @@ describe("debate_frontrunner_retaliation — refonte des quatre options", () => 
   it("ignore porte désormais un bénéfice de rejet unique parmi les quatre options", () => {
     const choice = event?.choices.find((c) => c.id === "frontrunner_retaliation_ignore");
     const effects = choice?.outcomeGroups[0]?.effects ?? [];
-    const rejectionEffect = effects.find(
-      (e) => e.kind === "party_stat" && e.stat === "rejection",
-    );
+    const rejectionEffect = effects.find((e) => e.kind === "party_stat" && e.stat === "rejection");
     expect(rejectionEffect && "delta" in rejectionEffect ? rejectionEffect.delta : 0).toBe(-1);
     const otherChoicesHaveRejectionReduction = event?.choices
       .filter((c) => c.id !== "frontrunner_retaliation_ignore")
@@ -79,7 +75,9 @@ describe("debate_frontrunner_retaliation — refonte des quatre options", () => 
     }));
     const counter = negativeCounts.find((c) => c.id === "frontrunner_retaliation_counter");
     const maxOtherNegatives = Math.max(
-      ...negativeCounts.filter((c) => c.id !== "frontrunner_retaliation_counter").map((c) => c.negatives),
+      ...negativeCounts
+        .filter((c) => c.id !== "frontrunner_retaliation_counter")
+        .map((c) => c.negatives),
     );
     expect(counter?.negatives ?? 0).toBeGreaterThanOrEqual(maxOtherNegatives);
   });

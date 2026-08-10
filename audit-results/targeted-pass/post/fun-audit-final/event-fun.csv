@@ -1,0 +1,259 @@
+eventId,title,category,rarity,occurrences,meanIntensity,meanAbsPollDelta,choiceEntropyNormalized,dominantChoiceShare,isChain,isRare,compositeScore,grade
+rare_fragmented_congress,Neuf groupes rendent la majorité incertaine,rare,rare,90,6,0.85,0.909,0.511,true,true,74.4,S
+party_ps_crisis_followup,La contribution fiscale revient devant le parti,party,uncommon,43,5,1.84,0.99,0.558,true,false,74.2,S
+party_renaissance_generation_payoff,Une figure de la nouvelle génération sort du cadre,party,uncommon,2,6,3.89,1,0.5,true,false,73.7,S
+rare_exceptional_powers,Le débat sur les pouvoirs exceptionnels,rare,rare,90,6,0.75,0.895,0.5,true,true,73.4,S
+party_nouvelle_energie_fronde,Raphaël Ternois pousse à la fusion,party,common,62,5,1.63,0.988,0.565,true,false,73.3,S
+party_reconquete_fronde,Hélène Saint-Cyr refuse l’élargissement,party,common,68,5,1.64,0.977,0.588,true,false,72.8,S
+rare_national_union,Une coalition de crise est proposée,rare,legendary,31,6,2.07,0.807,0.484,true,true,72.7,S
+party_lr_crisis_followup,Les fédérations exigent un vote de ligne,party,uncommon,48,5,1.12,0.999,0.521,true,false,71.6,S
+party_renaissance_crisis_followup,Les élus du bilan demandent réparation,party,uncommon,43,5,1.13,0.99,0.558,true,false,71.3,S
+party_nouvelle_energie_crisis_followup,La négociation de fusion arrive au vote,party,uncommon,41,5,1.08,0.989,0.561,true,false,71,S
+media_economic_morning,Le chiffrage de la matinale,media,common,118,5,0.94,0.995,0.381,true,false,70.7,S
+party_ecologistes_crisis_followup,La ligne énergétique revient au congrès,party,uncommon,46,5,0.98,0.988,0.565,true,false,70.5,S
+party_reconquete_crisis_followup,Les comités de Saint-Cyr se coordonnent,party,uncommon,40,5,0.87,0.993,0.55,true,false,70.3,S
+debate_economy_round,Le duel sur les huit milliards,debate,common,167,6,1.06,0.971,0.335,true,false,70.1,S
+internal_strategy_leak,La note sur le vote utile fuite,internal,common,212,5,0.83,0.993,0.387,true,false,70.1,S
+party_lfi_fronde,Nassim Courbet réclame une ligne plus sociale,party,common,59,5,0.93,0.983,0.424,true,false,70.1,S
+rare_debate_blackout,Le studio plonge dans le noir,rare,rare,21,6,0.6,0.942,0.476,true,true,70.1,S
+party_ps_fronde,Élise Marceau conteste la synthèse,party,common,65,5,1.33,0.937,0.646,true,false,69.7,A
+media_documentary_access,La caméra derrière la porte,media,common,145,3.03,0.95,0.962,0.462,true,false,69.3,A
+party_horizons_founder_challenge,Paul Auriac demande qui décide vraiment,party,common,98,5,0.96,0.952,0.49,true,false,68.9,A
+party_horizons_crisis_followup,Le mandat de négociation arrive à échéance,party,uncommon,40,5,0.51,0.993,0.55,true,false,68.8,A
+party_rn_crisis_followup,Le courant Ferran teste la discipline,party,uncommon,52,5,0.63,0.973,0.596,true,false,68.4,A
+party_ecologistes_fronde,Maud Lestang rouvre le débat nucléaire,party,common,61,5,0.67,0.956,0.623,true,false,67.8,A
+party_renaissance_legacy_test,Le bilan face aux chiffres,party,common,32,6,0.78,0.971,0.406,true,false,66.9,A
+rare_hologram_revolt,Le double numérique refuse de démarrer,rare,rare,93,5,1,0.991,0.376,false,true,66.8,A
+party_renaissance_fronde,Salomé Varenne défend le bilan,party,common,52,5,0.56,0.931,0.654,true,false,66.2,A
+media_fact_check_followup,Le coût passe au crible,media,common,49,5,0.32,0.949,0.408,true,false,66.1,A
+rare_national_union_expires,Les six mois d’union nationale s’achèvent,rare,uncommon,13,6,1.42,0.995,0.385,true,false,65.9,A
+party_lfi_crisis_followup,La fronde sociale exige un vote,party,common,53,6,1.27,0.855,0.472,true,false,65.8,A
+alliance_udr_autonomy,Un allié du RN revendique sa marque,alliance,common,33,5,1.19,0.89,0.455,true,false,65.3,A
+scandal_treasurer_invoices,Les factures sans pièce ressortent,scandal,common,253,6,0.87,0.877,0.462,true,false,65.1,A
+party_lr_fronde,Diane Mérande veut négocier à droite,party,common,76,5,1.64,0.79,0.763,true,false,64.4,A
+scandal_audit_conclusion,L’audit clôt le dossier des factures,scandal,common,176,5,0.84,0.862,0.54,true,false,64.3,A
+party_rn_fronde,Louis Ferran refuse la modération,party,common,75,5,1.17,0.817,0.747,true,false,63.6,A
+internal_financial_review,Le contrôle interne signale trois factures,internal,common,337,5,0.41,0.88,0.546,true,false,63.3,A
+party_horizons_fronde,Théo Lagrive réclame un accord central,party,common,65,5,0.44,0.872,0.708,true,false,63.1,A
+rare_crown_petition,Une pétition monarchiste atteint le million,rare,legendary,25,4.6,1.28,0.957,0.48,false,true,62.7,A
+rare_powers_guardrails_tested,Les garde-fous promis sont pris au mot,rare,uncommon,20,5,0.82,0.934,0.65,true,false,62.5,A
+media_past_words,Une promesse revient au montage,media,uncommon,76,5,1.06,0.8,0.658,true,false,62.4,A
+party_lr_signature,La sécurité du quotidien exige des moyens,party,common,67,5,1.82,0.98,0.582,false,false,61.7,A
+alliance_strategic_withdrawal,Nouvelle Énergie propose un retrait,alliance,common,60,6,1.46,1,0.5,false,false,61.1,A
+party_reconquete_program_dilemma,La souveraineté économique cherche ses instruments,party,common,68,5,1.55,0.99,0.559,false,false,61,A
+party_renaissance_legacy_confronted,Les deux écarts reviennent en boucle,party,uncommon,7,5,1.99,0.863,0.714,true,false,60.9,A
+party_renaissance_program_dilemma,La réforme des retraites revient,party,common,70,6,1.81,0.94,0.643,false,false,59.9,A
+rare_blackout_leak_resurfaces,La coulisse du blackout ressort,rare,uncommon,5,5,0.69,0.971,0.6,true,false,59.8,A
+media_prime_time_invite,Le fauteuil libéré au vingt heures,media,common,447,5,1.2,0.994,0.365,false,false,59.7,A
+scandal_false_resume,Une ligne du CV est fausse,scandal,common,274,3.41,1.21,0.989,0.394,false,false,59.5,A
+rare_parrot_quote,Un perroquet répète votre slogan,rare,legendary,24,4.75,0.68,0.946,0.5,false,true,59.4,A
+world_rival_leadership_split,La dissidence prend forme chez Reconquête,world,common,50,5,1.08,0.995,0.54,false,false,59.3,A
+runoff_endorsement_wave,Les soutiens arrivent avec leurs conditions,between_rounds,common,703,5,1.21,0.982,0.391,false,false,59.2,A
+rare_congress_isolation,Les partis voisins organisent leur propre socle,rare,uncommon,29,5,0.98,0.797,0.759,true,false,59.2,A
+media_live_stream,Le direct des questions citoyennes,media,common,492,2.73,1.29,0.97,0.602,false,false,59,A
+party_horizons_signature,La décentralisation doit devenir concrète,party,common,77,5,1.18,0.979,0.584,false,false,59,A
+runoff_favorite_pressure,Deux points davance à cinq jours,between_rounds,common,576,3,1.16,0.979,0.438,false,false,58.9,A
+runoff_common_program,La coalition réclame une annexe,between_rounds,common,676,5,1.08,0.987,0.389,false,false,58.9,A
+scandal_family_hire,La directrice a recruté son frère,scandal,common,355,5,1.35,0.96,0.406,false,false,58.9,A
+party_rn_program_dilemma,La préférence nationale rencontre le droit,party,common,77,6,1.31,0.965,0.61,false,false,58.9,A
+party_nouvelle_energie_signature,Le permis d’entreprendre doit être défini,party,common,85,5,1.34,0.964,0.612,false,false,58.9,A
+world_european_vote,Le Conseil européen se divise,world,common,83,2.94,1.06,0.983,0.41,false,false,58.7,A
+party_ecologistes_program_dilemma,La taxe carbone divise les alliés,party,common,74,5,1.03,0.987,0.568,false,false,58.7,A
+debate_all_candidates,Neuf candidats face au climat,debate,common,427,6,1.09,0.978,0.351,false,false,58.6,A
+party_nouvelle_energie_identity,Nouvelle Énergie doit prouver son utilité,party,common,99,5,0.89,0.997,0.374,false,false,58.6,A
+program_integration_contract,"Le contrat d’intégration, jusqu’où aller",program,common,367,3,1.41,0.947,0.499,false,false,58.5,A
+internal_nomination_rules,Les règles de la liste commune,internal,common,107,3,1.31,0.956,0.43,false,false,58.5,A
+party_horizons_technocrat_backlash,Le sketch du « comité Excel »,party,common,37,5,1.23,0.98,0.432,false,false,58.5,A
+campaign_poster_shortage,Les affiches manquent dans six villes,campaign,common,312,2.39,1.25,0.961,0.615,false,false,58.4,A
+rare_civil_suspension,Votre voix ne tient plus,rare,rare,37,6,0.87,0.834,0.486,false,true,58.4,A
+alliance_parliamentary_group,Douze députés offrent leur expérience,alliance,common,355,3.36,0.86,0.996,0.358,false,false,58.4,A
+runoff_final_debate,Le débat de lentre-deux-tours,between_rounds,common,869,6,0.96,0.984,0.32,false,false,58.3,A
+program_school_values,Ce que l’école doit transmettre,program,common,388,3,0.98,0.983,0.379,false,false,58.3,A
+campaign_bus_breakdown,Le car tombe en panne,campaign,common,340,2.74,0.92,0.989,0.391,false,false,58.3,A
+campaign_budget_arbitration,Le budget impose trois renoncements,campaign,common,241,5,1.2,0.959,0.477,false,false,58.2,A
+rare_printer_slogan,Une apostrophe change le slogan,rare,rare,89,4.9,0.38,0.859,0.506,false,true,58.2,A
+party_ps_program_dilemma,Le bilan gouvernemental divise la convention,party,common,79,5,1.23,0.958,0.62,false,false,58.2,A
+party_nouvelle_energie_local_asset,Des entrepreneurs prêtent leurs réseaux,party,common,78,4,1.52,0.931,0.654,false,false,58.2,A
+party_nouvelle_energie_alliance,Horizons propose une plateforme de gestion,party,common,99,5,0.87,0.991,0.384,false,false,58.2,A
+campaign_final_rally,Le dernier grand meeting,campaign,common,138,6,0.83,0.992,0.384,false,false,58.1,A
+party_renaissance_electorate,Les classes moyennes demandent un gain net,party,common,80,5,1.58,0.922,0.662,false,false,58.1,A
+program_digital_rights,Vie privée et réseaux : la ligne numérique,program,common,387,2.8,1.09,0.965,0.439,false,false,58,A
+runoff_last_hours,Les dernières heures autorisées,between_rounds,common,775,6,0.89,0.984,0.412,false,false,58,A
+scandal_local_expenses,Des notes de frais se mélangent,scandal,common,310,4,0.95,0.979,0.413,false,false,58,A
+media_silence_day,Vingt-quatre heures sans caméra,media,common,490,2.02,1.06,0.963,0.612,false,false,57.8,A
+world_public_service_outage,La plateforme publique tombe en panne,world,common,503,3,0.9,0.976,0.429,false,false,57.7,A
+campaign_rally_security,Le meeting change de dispositif,campaign,common,374,5,1.18,0.95,0.489,false,false,57.7,A
+party_lfi_program_dilemma,La désobéissance européenne doit être définie,party,common,63,5,0.96,0.971,0.444,false,false,57.7,A
+internal_congress_motion,Une motion réclame un congrès,internal,common,390,5,0.95,0.969,0.433,false,false,57.6,A
+program_europe,La règle européenne à changer,program,common,247,5,0.7,0.994,0.36,false,false,57.6,A
+alliance_fictional_celebrity,Une chanteuse veut soutenir la campagne,alliance,common,464,3.64,1.05,0.958,0.431,false,false,57.5,A
+campaign_small_business,La PME teste votre réforme,campaign,common,171,2.03,0.72,0.988,0.392,false,false,57.5,A
+program_border_control,Contrôles aux frontières : quels moyens,program,common,254,2.69,1.09,0.952,0.425,false,false,57.4,A
+campaign_factory_visit,L’atelier industriel de Saint-Nazaire,campaign,common,596,2.09,0.86,0.971,0.445,false,false,57.3,A
+alliance_former_rival,Un ancien rival socialiste revient,alliance,common,50,5,0.58,0.997,0.36,false,false,57.3,A
+party_rn_electorate,Les abstentionnistes demandent une preuve locale,party,common,93,5,0.75,0.981,0.581,false,false,57.3,A
+world_floods,La Garonne sort de son lit,world,common,393,6,0.69,0.985,0.405,false,false,57.2,A
+party_horizons_electorate,Les retraités modérés parlent des soins,party,common,64,5,1.47,0.913,0.672,false,false,57.2,A
+party_renaissance_identity,Renaissance choisit continuité ou rupture,party,common,67,5,1.4,0.917,0.463,false,false,57.1,A
+media_short_video,Une minute sur les loyers,media,common,251,2.66,0.76,0.974,0.446,false,false,57,A
+party_lfi_electorate,Les abstentionnistes demandent une preuve,party,common,105,4,0.8,0.969,0.457,false,false,57,A
+party_ps_electorate,Les agents publics attendent des garanties,party,common,90,5,1.03,0.948,0.633,false,false,57,A
+party_lr_local_asset,Les fédérations ouvrent leurs permanences,party,common,92,4,0.85,0.966,0.609,false,false,57,A
+internal_spokesperson_mistake,La porte-parole annonce trop tôt,internal,common,241,3.74,0.9,0.96,0.477,false,false,56.9,A
+party_renaissance_local_asset,Les parlementaires proposent cent permanences,party,common,86,4,0.98,0.952,0.628,false,false,56.9,A
+scandal_consultant_contract,Le contrat du conseiller est publié,scandal,common,197,5,0.89,0.957,0.467,false,false,56.8,A
+program_energy,Le mix électrique de 2040,program,common,267,5,0.75,0.97,0.393,false,false,56.8,A
+rare_congress_partners_respond,Deux partis répondent aux cinq conditions,rare,uncommon,22,6,1.08,0.773,0.773,true,false,56.8,A
+program_taxation,Qui financera les priorités,program,common,293,5,0.7,0.971,0.355,false,false,56.6,A
+alliance_left_roundtable,Le PS propose trois engagements communs,alliance,common,62,5,0.93,0.951,0.452,false,false,56.6,A
+campaign_rural_desert,Trois villages sans médecin,campaign,common,175,5,0.74,0.967,0.44,false,false,56.6,A
+party_nouvelle_energie_electorate,Les électeurs ignorent encore le mouvement,party,common,76,5,0.38,1,0.513,false,false,56.6,A
+party_lfi_local_asset,Saint-Denis ouvre ses réseaux associatifs,party,common,72,4,0.84,0.954,0.625,false,false,56.5,A
+debate_unknown_question,La question venue de Mayotte,debate,common,465,5,0.78,0.96,0.378,false,false,56.5,A
+world_industrial_closure,Une aciérie annonce sa fermeture,world,common,139,6,0.72,0.965,0.403,false,false,56.5,A
+party_ps_identity,Le PS doit nommer son projet,party,common,86,5,0.52,0.986,0.419,false,false,56.5,A
+party_horizons_rare,Des maires lancent leur propre primaire,party,rare,2,6,0.71,1,0.5,false,true,56.5,A
+campaign_regional_rally,Le meeting quitte la capitale,campaign,common,204,2.25,1.26,0.915,0.485,false,false,56.4,A
+alliance_union_support,La CFDT veut des garanties écrites,alliance,common,46,3.52,0.93,0.944,0.478,false,false,56.4,A
+party_lr_alliance,Horizons propose un accord économique,party,common,114,5,0.81,0.957,0.482,false,false,56.4,A
+party_reconquete_local_asset,Les comités numériques cherchent du terrain,party,common,81,4,0.68,0.968,0.605,false,false,56.4,A
+program_health,Le prochain budget de la santé,program,common,465,5,0.88,0.947,0.495,false,false,56.3,A
+alliance_poach_rival_cadre,Un cadre écologiste tenté par un ralliement,alliance,common,238,3.27,0.78,0.956,0.483,false,false,56.3,A
+internal_rival_interview,Un rival corrige votre ligne,internal,common,302,5,0.91,0.945,0.48,false,false,56.3,A
+world_energy_price_spike,Le gaz double en une semaine,world,common,267,6,0.5,0.979,0.434,false,false,56.2,A
+party_rn_alliance,Reconquête propose un pacte de non-agression,party,common,100,5,0.88,0.944,0.47,false,false,56.2,A
+world_national_strike,La grève bloque les transports,world,common,166,6,1.16,0.917,0.512,false,false,56.1,A
+party_reconquete_signature,Le référendum migratoire doit être cadré,party,common,95,6,1.62,0.875,0.705,false,false,56.1,A
+campaign_weather_disaster,La pluie emporte la tournée,campaign,common,290,2.28,1.1,0.919,0.534,false,false,56,A
+internal_staff_fatigue,Le siège arrive à saturation,internal,common,216,3.71,0.92,0.936,0.505,false,false,56,A
+internal_primary_debt,La promesse faite après la primaire,internal,common,186,3,1.25,0.903,0.505,false,false,55.9,A
+world_economic_slowdown,La croissance simulée se retourne,world,common,314,5,0.73,0.951,0.484,false,false,55.8,A
+program_end_of_life,La question de la fin de vie,program,common,363,5,1.12,0.915,0.435,false,false,55.8,A
+scandal_campaign_data,Un fichier militant sort du siège,scandal,common,230,6,1.1,0.915,0.496,false,false,55.8,A
+world_heatwave,Quarante-quatre degrés à Lyon,world,common,131,5,0.58,0.961,0.466,false,false,55.7,A
+party_ecologistes_signature,La rénovation thermique doit changer d’échelle,party,common,95,5,0.9,0.932,0.653,false,false,55.7,A
+party_reconquete_rare,Un réseau de cadres propose une fusion,party,rare,9,6,0.2,0.991,0.556,false,true,55.7,A
+party_nouvelle_energie_runoff,L’outsider doit former une majorité,party,common,128,6,0.18,0.998,0.523,false,false,55.7,A
+campaign_attacked_by_rival_pole,Une attaque frontale de La France insoumise,campaign,common,223,2.71,0.77,0.942,0.498,false,false,55.6,A
+party_ecologistes_identity,Les Écologistes arbitrent leur méthode,party,common,61,5,0.75,0.944,0.443,false,false,55.6,A
+party_rn_local_asset,Les petites villes ouvrent la campagne,party,common,68,4,0.15,1,0.5,false,false,55.6,A
+world_housing_protest,Les tentes encerclent la préfecture,world,common,106,3,0.47,0.967,0.453,false,false,55.5,A
+campaign_calendar_conflict,Deux invitations au même horaire,campaign,common,326,2.26,0.78,0.938,0.512,false,false,55.5,A
+media_long_podcast,Deux heures sans élément de langage,media,common,235,2.21,0.67,0.949,0.481,false,false,55.5,A
+campaign_slogan_test,Le slogan divise le siège,campaign,common,642,2.01,1.15,0.903,0.492,false,false,55.4,A
+rare_powers_abolition_tested,Un cas concret teste la suppression promise,rare,uncommon,17,5,0.9,0.787,0.765,true,false,55.4,A
+party_renaissance_defend_center,Horizons et Nouvelle Énergie visent le même électorat,party,common,33,5,0.95,0.959,0.455,false,false,55.4,A
+party_nouvelle_energie_rare,Un financement participatif dépasse les attentes,party,rare,9,6,0.13,0.991,0.556,false,true,55.4,A
+eliminated_no_instruction,Aucun finaliste ne porte votre ligne,between_rounds,common,105,2.7,0.09,0.998,0.362,false,false,55.3,A
+campaign_hospital_night,Une nuit avec les urgences,campaign,common,218,5,0.73,0.938,0.417,false,false,55.3,A
+government_ministry_conflict,Deux alliés réclament Bercy,government,common,363,5,0.11,0.995,0.361,false,false,55.3,A
+party_horizons_local_asset,Les maires offrent une semaine de terrain,party,common,91,4,0.5,0.961,0.615,false,false,55.3,A
+party_lfi_identity,LFI choisit entre mouvement et candidat,party,common,113,5,0.58,0.951,0.407,false,false,55.2,A
+runoff_vote_transfers,Les reports refusent la mécanique,between_rounds,common,777,5,0.85,0.926,0.468,false,false,55.2,A
+campaign_volunteer_surge,Le siège déborde de bénévoles,campaign,common,661,2.46,1.2,0.89,0.536,false,false,55.1,A
+party_horizons_alliance,Les Républicains proposent un pacte local,party,common,91,5,0.7,0.938,0.484,false,false,55.1,A
+program_family_reunification,Le regroupement familial en question,program,common,349,5,1.39,0.871,0.467,false,false,55,B
+program_school,La promesse faite à l’école,program,common,352,2.93,0.91,0.916,0.44,false,false,55,B
+party_ecologistes_local_asset,Des élus ruraux proposent une tournée,party,common,67,4,0.93,0.913,0.672,false,false,55,B
+internal_major_donor,Un donateur demande un rendez-vous,internal,common,264,3.01,0.82,0.923,0.458,false,false,55,B
+debate_duel_interruption,L’adversaire refuse de vous laisser répondre,debate,common,375,5,0.76,0.927,0.352,false,false,54.9,B
+campaign_overseas_trip,Le déplacement en Guadeloupe engage,campaign,common,218,5,0.94,0.908,0.532,false,false,54.8,B
+eliminated_future_campaign,Le score ouvre une autre campagne,between_rounds,common,196,2.32,0.13,0.984,0.423,false,false,54.8,B
+party_lfi_alliance,Les Écologistes proposent un pacte urbain,party,common,68,5,0.85,0.915,0.544,false,false,54.7,B
+program_institutions,La présidence que vous proposez,program,common,367,5,0.94,0.906,0.452,false,false,54.7,B
+campaign_door_to_door,Cent quartiers en porte-à-porte,campaign,common,64,2.03,0.7,0.929,0.484,false,false,54.7,B
+party_lr_identity,LR fixe ses deux frontières,party,common,61,5,0.4,0.957,0.426,false,false,54.7,B
+government_balance,Quinze ministres pour une coalition,government,common,449,5,0.1,0.982,0.385,false,false,54.6,B
+party_renaissance_manifesto_aftermath,Le débat du manifeste laisse des traces,party,uncommon,3,5,0.12,0.918,0.667,true,false,54.6,B
+party_horizons_runoff,Le centre droit négocie son élargissement,party,common,66,6,0.37,0.957,0.621,false,false,54.6,B
+party_lr_electorate,Les retraités interrogent le financement,party,common,91,5,1.08,0.89,0.692,false,false,54.6,B
+campaign_donation_drive,La collecte se bloque,campaign,common,447,2.15,0.94,0.899,0.517,false,false,54.4,B
+debate_post_show_spin,Les soutiens envahissent le plateau,debate,common,359,5,0.87,0.905,0.435,false,false,54.3,B
+program_wages,Le salaire net au centre,program,common,250,2.62,0.68,0.921,0.456,false,false,54.3,B
+party_renaissance_alliance,Horizons propose une candidature commune,party,common,108,6,0.73,0.917,0.491,false,false,54.3,B
+media_unflattering_photo,La photographie du quai vide,media,common,540,2.52,0.57,0.928,0.52,false,false,54.2,B
+party_rn_dissidence,Un courant identitaire prépare sa candidature,party,rare,9,6,2.23,0.503,0.889,true,true,54.2,B
+media_local_press,Six rédactions face au désert médical,media,common,445,2.89,0.94,0.892,0.49,false,false,54.1,B
+party_reconquete_identity,Reconquête choisit influence ou qualification,party,common,94,5,1.11,0.878,0.585,false,false,54.1,B
+world_international_crisis,Une crise ferme un détroit,world,common,284,5,0.89,0.895,0.465,false,false,54,B
+party_reconquete_alliance,Le RN offre des désistements limités,party,common,99,5,0.75,0.908,0.505,false,false,54,B
+party_lfi_signature,La Sixième République doit prendre forme,party,common,84,5,1.19,0.863,0.714,false,false,53.8,B
+party_nouvelle_energie_program_dilemma,La baisse de dépense rencontre l’hôpital,party,common,80,5,1.34,0.849,0.725,false,false,53.8,B
+alliance_right_convention,Le RN invite à une convention commune,alliance,common,128,5,0.76,0.901,0.5,false,false,53.7,B
+internal_recruitment,Cinq cents bénévoles sans mission,internal,common,341,3.76,0.92,0.884,0.572,false,false,53.6,B
+party_rn_signature,La baisse de TVA doit être ciblée,party,common,80,5,1.46,0.83,0.738,false,false,53.5,B
+party_rn_runoff,Le RN doit élargir sans démobiliser,party,common,172,6,0.31,0.938,0.645,false,false,53.5,B
+party_lr_runoff,La droite qualifiée cherche ses reports,party,common,94,6,0.43,0.925,0.66,false,false,53.4,B
+debate_expose_contradiction_centrist,Une contradiction chez le camp centriste,debate,common,399,3.23,0.71,0.897,0.489,false,false,53.3,B
+campaign_endorsements_missing,Les parrainages restent sous le seuil,campaign,common,244,5,1.31,0.835,0.602,false,false,53.1,B
+party_renaissance_rare,Des anciens ministres publient leur manifeste,party,rare,8,6,0.03,0.954,0.625,false,true,53.1,B
+media_fictional_editorial_support,Un soutien éditorial encombrant,media,common,440,2.4,0.74,0.886,0.482,false,false,53,B
+alliance_mayors_appeal,Deux cents maires demandent un contrat,alliance,common,412,4,0.85,0.876,0.573,false,false,52.9,B
+scandal_plagiarized_report,Le rapport reprend huit paragraphes,scandal,common,295,3.28,0.93,0.867,0.576,false,false,52.9,B
+party_ps_alliance,Les Écologistes proposent un contrat municipal,party,common,95,5,0.6,0.896,0.505,false,false,52.8,B
+world_budget_warning,La Cour des comptes alerte,world,common,138,5,0.75,0.881,0.514,false,false,52.8,B
+campaign_farmers_roundtable,La table ronde agricole se tend,campaign,common,272,5,0.74,0.881,0.57,false,false,52.8,B
+scandal_supplier_overbilling,L’imprimeur a doublé une ligne,scandal,common,343,4,0.87,0.868,0.586,false,false,52.7,B
+program_immigration,La loi migratoire du programme,program,common,358,5,0.83,0.872,0.475,false,false,52.7,B
+party_ecologistes_alliance,Le PS offre des circonscriptions urbaines,party,common,122,5,0.8,0.876,0.557,false,false,52.7,B
+debate_free_conclusion,La minute qui vous appartient,debate,common,339,6,0.99,0.853,0.41,false,false,52.5,B
+debate_security_round,Trois minutes sur la sécurité,debate,common,23,6,1.41,0.906,0.435,false,false,52.4,B
+internal_program_committee,Le comité bloque le chapitre sécurité,internal,common,223,3.11,0.85,0.861,0.475,false,false,52.3,B
+party_horizons_center_poaching,Une figure du bloc central hésite entre deux maisons,party,common,21,5,0.99,0.953,0.429,false,false,52.2,B
+campaign_union_meeting,Le face-à-face avec les syndicats,campaign,common,98,5,0.77,0.863,0.582,false,false,52.1,B
+campaign_market_walkabout,Le marché sous pression,campaign,common,218,2.01,0.81,0.861,0.716,false,false,52.1,B
+alliance_center_pact,Renaissance offre un pacte de stabilité,alliance,common,77,5,0.69,0.868,0.532,false,false,52,B
+campaign_student_forum,Le forum étudiant refuse les slogans,campaign,common,153,2.61,0.7,0.863,0.601,false,false,51.8,B
+party_ps_signature,La garantie jeunesse doit être financée,party,common,78,5,1.32,0.801,0.756,false,false,51.5,B
+party_ps_local_asset,Les maires socialistes ouvrent leurs réseaux,party,common,69,4,0.38,0.887,0.696,false,false,51.5,B
+government_first_address,La première adresse de lÉlysée,government,common,447,6,0.14,0.908,0.512,false,false,51.4,B
+world_rival_leadership_tension,Tensions internes chez Reconquête,world,common,206,2.63,0.98,0.825,0.631,false,false,51.2,B
+party_horizons_program_dilemma,La règle de dépense rencontre les communes,party,common,42,5,1.34,0.792,0.762,false,false,51.2,B
+debate_challenge_frontrunner,Provoquer le favori en duel,debate,common,434,5,0.75,0.841,0.447,false,false,51,B
+debate_fact_card,La fiche rouge de la rédaction,debate,common,18,5,0.51,0.716,0.667,true,false,50.9,B
+party_reconquete_electorate,Les entrepreneurs attendent une ligne économique,party,common,87,5,0.61,0.85,0.724,false,false,50.8,B
+party_renaissance_signature,Le fonds industriel européen se précise,party,common,86,5,0.73,0.838,0.733,false,false,50.7,B
+party_horizons_coalition_outreach,Élargir sans se diluer,party,common,10,5,0.75,1,0.5,false,false,50.6,B
+party_ecologistes_electorate,Les locataires redoutent les interdictions,party,common,85,5,1.16,0.787,0.765,false,false,50.2,B
+party_lr_program_dilemma,Les économies menacent les services locaux,party,common,60,5,0.88,0.811,0.75,false,false,50.2,B
+party_ps_runoff,La gauche attend un contrat de second tour,party,common,136,6,0.15,0.877,0.529,false,false,50.1,B
+program_labor_immigration,"L’immigration de travail, un choix économique assumé ou non",program,common,400,5,1.36,0.763,0.685,false,false,50,B
+party_horizons_runoff_coalition,La coalition élargie se présente unie,party,common,22,6,0.46,0.946,0.636,false,false,50,B
+program_secularism,La laïcité à l’épreuve du quotidien,program,common,392,5,0.73,0.814,0.633,false,false,49.7,B
+scandal_donation_route,Un virement suit un trajet complexe,scandal,uncommon,197,5,0.62,0.816,0.604,false,false,49.3,B
+party_lfi_runoff,LFI doit élargir sans se renier,party,common,138,6,0.43,0.826,0.522,false,false,49,B
+party_reconquete_runoff,La qualification bouleverse la stratégie,party,common,53,6,0.08,0.86,0.717,false,false,49,B
+program_climate_adaptation,La France à cinquante degrés,program,common,418,5,1.13,0.758,0.572,false,false,48.8,B
+party_ecologistes_runoff,Le second tour exige une coalition climatique,party,common,125,6,0.16,0.846,0.528,false,false,48.8,B
+internal_volunteer_conflict,Deux équipes se disputent le terrain,internal,common,254,4,0.47,0.817,0.496,false,false,48.7,B
+program_pensions,La ligne de départ des retraites,program,common,259,5,0.7,0.788,0.494,false,false,48.4,B
+eliminated_personal_future,Votre mandat à la tête du parti,between_rounds,common,64,2.2,0.14,0.838,0.625,false,false,48.3,B
+campaign_defend_unfairly_attacked_rival,Une accusation jugée infondée vise un adversaire,campaign,common,282,2.96,0.86,0.76,0.528,false,false,47.8,B
+eliminated_endorse_candidate,Votre voix reste décisive,between_rounds,common,146,5,0.07,0.83,0.603,false,false,47.7,B
+party_renaissance_network_or_autonomy,Faut-il encore s’appuyer sur l’ancien réseau ?,party,common,24,6,0.08,0.918,0.667,false,false,47.7,B
+media_open_microphone,Le micro resté ouvert,media,common,328,5,0.82,0.757,0.564,false,false,47.5,B
+media_front_page,La une vous prête un tournant,media,common,432,2.26,0.98,0.74,0.701,false,false,47.4,B
+internal_headquarters_move,Le siège coûte trop cher,internal,common,280,3.69,0.72,0.755,0.693,false,false,47,B
+internal_youth_wing,Les jeunes veulent leur propre campagne,internal,common,193,4,0.69,0.754,0.648,false,false,46.8,B
+party_horizons_passion_test,« Vous nous parlez de compétence. Parlez-nous d’envie. »,party,common,16,6,0.54,0.896,0.688,false,false,46.6,B
+government_prime_minister,Le choix de Matignon,government,common,393,6,0.1,0.802,0.651,false,false,46.5,B
+party_horizons_runoff_rupture,Une candidature seule face à ses choix,party,common,38,6,1.31,0.689,0.816,false,false,46,B
+party_renaissance_runoff,Le bloc républicain demande des preuves,party,common,113,6,0.18,0.778,0.77,false,false,45.8,B
+party_horizons_founder_revenge,Le réseau de Paul Auriac s’organise,party,uncommon,29,6,0.99,0.48,0.897,true,false,44.9,B
+party_rn_identity,Le RN arbitre normalisation et mobilisation,party,common,58,5,0.33,0.745,0.5,false,false,44.9,B
+campaign_non_aggression_overture,Une proposition de pacte de non-agression,campaign,common,228,2.61,0.49,0.716,0.61,false,false,44.3,B
+campaign_peripheral_town,La périphérie demande un calendrier,campaign,common,142,2.73,0.82,0.678,0.718,false,false,43.9,B
+media_foreign_interview,La France vue depuis Bruxelles,media,common,47,2.91,0.6,0.698,0.574,false,false,43.9,B
+internal_local_sections,Les sections refusent le kit national,internal,common,422,3.71,0.71,0.684,0.713,false,false,43.7,B
+party_horizons_identity,Horizons doit sortir de l’attente,party,common,70,5,0.64,0.684,0.643,false,false,43.5,B
+party_horizons_rupture_old_guard_distances,LR et Renaissance ferment la porte,party,common,14,5,1.22,0.75,0.786,false,false,42.3,B
+campaign_citizens_convention,La convention citoyenne réclame une réponse,campaign,common,146,5,0.51,0.641,0.678,false,false,41,B
+world_security_attack,Une attaque frappe un lieu public,world,uncommon,4,6,0.31,0.811,0.75,false,false,38.8,C
+party_horizons_founder_blessing,Paul Auriac loue une candidate loyale à la ligne,party,uncommon,13,4,0.81,0.391,0.923,true,false,36.3,F
+debate_frontrunner_retaliation,La riposte du favori,debate,common,63,4,1.27,0.4,0.921,false,false,33.3,F
+party_horizons_rupture_new_courtship,Nouvelle Énergie propose un rapprochement inattendu,party,common,9,5,0.5,0.503,0.889,false,false,27,C
+party_renaissance_legacy_credited,L’aveu initial est mis à l’épreuve du concret,party,uncommon,3,5,2.03,0,1,true,false,21.2,D
+party_renaissance_generation_test,"Les nouveaux visages doivent livrer, pas seulement apparaître",party,common,6,5,0.02,0,1,true,false,13.6,D
+party_horizons_runoff_continuity,Le bloc central formalise son choix,party,common,16,6,0.59,0,1,false,false,6.4,F
+party_horizons_continuity_elders_dividend,Les réseaux d’élus veulent encaisser leur loyauté,party,common,8,5,0.73,0,1,false,false,5,F
+party_horizons_coalition_stretch_test,La coalition tiraillée par deux exigences incompatibles,party,common,1,6,0.44,0,1,false,false,2.1,F

@@ -103,9 +103,7 @@ const byAxis = axes.map((axis) => {
   return {
     axis,
     n: group.length,
-    axisContentReachRate: Number(
-      mean(group.map((r) => (r.axisEventsSeen > 0 ? 1 : 0))).toFixed(3),
-    ),
+    axisContentReachRate: Number(mean(group.map((r) => (r.axisEventsSeen > 0 ? 1 : 0))).toFixed(3)),
     meanFinalScore: Number(
       mean(group.filter((r) => r.finalScore !== null).map((r) => r.finalScore!)).toFixed(2),
     ),

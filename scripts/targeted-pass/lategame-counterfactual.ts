@@ -44,7 +44,12 @@ for (const partyId of parties) {
   for (let i = 0; i < 8; i += 1) {
     const seed = `lategame-cf-${partyId}-${i}`;
     let state: GameState = createGame(
-      { seed, mode: "existing_party", partyId, methodId: gameContent.methods[i % gameContent.methods.length]!.id },
+      {
+        seed,
+        mode: "existing_party",
+        partyId,
+        methodId: gameContent.methods[i % gameContent.methods.length]!.id,
+      },
       gameContent,
     );
     let guard = 0;
@@ -62,18 +67,19 @@ for (const partyId of parties) {
             const isChain = Boolean(e.chain);
             const isDebate = e.category === "debate";
             const isDecisiveInternal =
-              e.category === "internal" && (e.importance === "decisive" || e.importance === "major");
+              e.category === "internal" &&
+              (e.importance === "decisive" || e.importance === "major");
             if (isChain) {
-              chainShareBefore += (before[idx]! / totalBefore) || 0;
-              chainShareAfter += (after[idx]! / totalAfter) || 0;
+              chainShareBefore += before[idx]! / totalBefore || 0;
+              chainShareAfter += after[idx]! / totalAfter || 0;
             }
             if (isDebate) {
-              debateShareBefore += (before[idx]! / totalBefore) || 0;
-              debateShareAfter += (after[idx]! / totalAfter) || 0;
+              debateShareBefore += before[idx]! / totalBefore || 0;
+              debateShareAfter += after[idx]! / totalAfter || 0;
             }
             if (isDecisiveInternal) {
-              decisiveInternalShareBefore += (before[idx]! / totalBefore) || 0;
-              decisiveInternalShareAfter += (after[idx]! / totalAfter) || 0;
+              decisiveInternalShareBefore += before[idx]! / totalBefore || 0;
+              decisiveInternalShareAfter += after[idx]! / totalAfter || 0;
             }
           });
           samples += 1;

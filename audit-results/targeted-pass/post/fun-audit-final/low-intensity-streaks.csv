@@ -1,0 +1,11 @@
+partyId,n,meanMaxStreak,medianMaxStreak,p90MaxStreak,shareWithStreak3Plus,shareWithStreak5Plus
+ALL,1620,1.21,1,2,0.027,0
+lfi,180,1.15,1,2,0,0
+ps,180,1.27,1,2,0.044,0
+ecologistes,180,1.09,1,2,0.011,0
+renaissance,180,1.17,1,2,0.033,0
+horizons,180,1.16,1,2,0.028,0
+lr,180,1.24,1,2,0.044,0
+rn,180,1.17,1,2,0,0
+reconquete,180,1.34,1,2,0.044,0
+nouvelle_energie,180,1.28,1,2,0.039,0

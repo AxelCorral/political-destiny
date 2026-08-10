@@ -860,7 +860,11 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
           outcome: {
             setFlags: { renaissance_generation_delivered: true },
             followUps: [
-              { eventId: "party_renaissance_generation_payoff", afterDecisions: 4, probability: 0.7 },
+              {
+                eventId: "party_renaissance_generation_payoff",
+                afterDecisions: 4,
+                probability: 0.7,
+              },
             ],
           },
         },

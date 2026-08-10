@@ -232,4 +232,6 @@ const csv = [
   ),
 ].join("\n");
 writeFileSync(path.join(outDir, `horizons-counterfactual-runs${suffix}.csv`), csv);
-console.log(`\nÉcrit : ${outDir}/horizons-counterfactual-summary${suffix}.json et -runs${suffix}.csv`);
+console.log(
+  `\nÉcrit : ${outDir}/horizons-counterfactual-summary${suffix}.json et -runs${suffix}.csv`,
+);
