@@ -516,7 +516,7 @@ export const v2RareEvents: GameEventDefinition[] = [
         "PRÉSIDENTIEL",
         "national_union_limited_agreement",
         "Six mois d’union avec une porte de sortie",
-        "Votre participation rassure sur la continuité de lÉtat et améliore les relations avec plusieurs camps. Elle atténue vos différences de campagne et expose chaque compromis à la critique de votre socle.",
+        "Votre participation rassure sur la continuité de l’État et améliore les relations avec plusieurs camps. Elle atténue vos différences de campagne et expose chaque compromis à la critique de votre socle.",
         [
           stat("credibility", 7, "Responsabilité de crise"),
           hidden("transferability", 7),

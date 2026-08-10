@@ -425,7 +425,7 @@ export const v2AllianceEvents: GameEventDefinition[] = [
         "PRUDENT",
         "former_rival_kept_local",
         "Le retour s’arrête à la fédération",
-        "Ilyes maintient un soutien minimal dans son territoire et constate quil naura pas de place nationale. Le conflit ne devient pas public, mais une occasion de réunifier le parti est perdue.",
+        "Ilyes maintient un soutien minimal dans son territoire et constate qu’il n’aura pas de place nationale. Le conflit ne devient pas public, mais une occasion de réunifier le parti est perdue.",
         [
           stat("localStrength", 1, "Soutien local maintenu"),
           stat("cohesion", -2, "Rival tenu à distance"),

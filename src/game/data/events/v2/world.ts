@@ -276,7 +276,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "attack_security_proposals_later",
-        "Annoncer une intervention sur la sécurité après le premier point officiel et réunir vos experts dici là",
+        "Annoncer une intervention sur la sécurité après le premier point officiel et réunir vos experts d’ici là",
         "long_term_strategy",
         "PRUDENT",
         "attack_response_prepared",
@@ -321,7 +321,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "Une crise ferme un détroit",
     category: "world",
     summary:
-      "Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France na pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.",
+      "Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France n’a pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.",
     themes: ["europe", "economy"],
     importance: "major",
     phaseWeights: worldPhases,
@@ -421,7 +421,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
         "policy_commitment",
         "PRUDENT",
         "energy_spike_targeted_buffer",
-        "Laide protège sans geler tous les prix",
+        "L’aide protège sans geler tous les prix",
         "Le ciblage maintient le signal de sobriété et concentre les fonds sur les factures les plus difficiles. Les classes moyennes juste au-dessus du seuil dénoncent une protection dont elles sont exclues.",
         [
           bloc("young_precarious", 5),
@@ -479,7 +479,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "Quarante-quatre degrés à Lyon",
     category: "world",
     summary:
-      "Dans la météo fictive de la campagne, une canicule durable atteint Lyon et plusieurs départements voisins. Les écoles ferment laprès-midi, les hôpitaux activent leurs plans de tension et les meetings extérieurs deviennent impraticables.",
+      "Dans la météo fictive de la campagne, une canicule durable atteint Lyon et plusieurs départements voisins. Les écoles ferment l’après-midi, les hôpitaux activent leurs plans de tension et les meetings extérieurs deviennent impraticables.",
     themes: ["ecology", "public_services"],
     importance: "major",
     phaseWeights: worldPhases,
@@ -670,7 +670,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
         "long_term_strategy",
         "TECHNIQUE",
         "closure_private_buyer_condition",
-        "Laide attend un projet industriel viable",
+        "L’aide attend un projet industriel viable",
         "Le critère évite de financer une activité sans débouché et attire deux candidats prudents. Les salariés vous reprochent de laisser le temps du marché décider pendant que le site perd ses compétences.",
         [
           bloc("entrepreneurs", 4),

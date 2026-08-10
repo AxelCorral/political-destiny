@@ -76,7 +76,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "congress_hold_vote",
-        "Convoquer le congrès, limiter son ordre du jour à léconomie et appliquer son vote",
+        "Convoquer le congrès, limiter son ordre du jour à l’économie et appliquer son vote",
         "internal_discipline",
         "INSTITUTIONNEL",
         "congress_vote_binding",
@@ -106,7 +106,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "congress_refuse",
-        "Refuser le congrès jusquau scrutin et demander aux signataires de retirer publiquement leur motion",
+        "Refuser le congrès jusqu’au scrutin et demander aux signataires de retirer publiquement leur motion",
         "break",
         "OFFENSIF",
         "congress_motion_refused",
@@ -402,7 +402,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "Deux équipes se disputent le terrain",
     category: "internal",
     summary:
-      "Dans la métropole lyonnaise, léquipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.",
+      "Dans la métropole lyonnaise, l’équipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.",
     themes: ["institutions"],
     phaseWeights: internalPhases,
     minDecisionIndex: 6,
@@ -433,7 +433,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
         "POPULAIRE",
         "volunteer_conflict_field_priority",
         "Les sections reprennent la rue",
-        "Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. Léquipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.",
+        "Les quartiers ciblés reçoivent une visite réelle et Samira Bellon consolide son réseau. L’équipe numérique se sent désavouée et réduit ses propositions pour les semaines suivantes.",
         [
           stat("localStrength", 5, "Porte-à-porte lyonnais"),
           stat("mobilization", 3, "Sections actives"),
@@ -484,7 +484,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "spokesperson_adopt",
-        "Adopter immédiatement la baisse annoncée et demander à léquipe budgétaire de la financer",
+        "Adopter immédiatement la baisse annoncée et demander à l’équipe budgétaire de la financer",
         "program_shift",
         "OPPORTUNISTE",
         "spokesperson_error_becomes_policy",
@@ -505,7 +505,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "spokesperson_removed",
         "La discipline reprend le micro",
-        "Le responsable du programme corrige précisément le chiffre et verrouille les prises de parole. La sanction paraît disproportionnée à une partie de léquipe et encourage les intervenants restants à ne plus improviser aucune réponse.",
+        "Le responsable du programme corrige précisément le chiffre et verrouille les prises de parole. La sanction paraît disproportionnée à une partie de l’équipe et encourage les intervenants restants à ne plus improviser aucune réponse.",
         [
           stat("credibility", 2, "Chiffre rectifié"),
           stat("cohesion", -4, "Sanction contestée"),
@@ -566,7 +566,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "strategy_leak_blame_consultant",
-        "Rompre le contrat de Léonard Pujol et affirmer quil a rédigé la note sans mandat",
+        "Rompre le contrat de Léonard Pujol et affirmer qu’il a rédigé la note sans mandat",
         "exclusion",
         "CLIVANT",
         "strategy_leak_consultant_fired",
@@ -647,14 +647,14 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "La promesse faite après la primaire",
     category: "internal",
     summary:
-      "Pour obtenir un soutien décisif lors de la primaire fictive, vous aviez promis à un courant la responsabilité du programme social. Ce courant réclame maintenant le poste, alors que léquipe en place a déjà finalisé la moitié du texte.",
+      "Pour obtenir un soutien décisif lors de la primaire fictive, vous aviez promis à un courant la responsabilité du programme social. Ce courant réclame maintenant le poste, alors que l’équipe en place a déjà finalisé la moitié du texte.",
     themes: ["institutions", "social_issues"],
     phaseWeights: { pre_campaign: 1, campaign: 0.75, official_campaign: 0.1 },
     maxDecisionIndex: 14,
     choices: [
       directChoice(
         "primary_debt_honor",
-        "Honorer la promesse et organiser une passation publique avec léquipe actuelle",
+        "Honorer la promesse et organiser une passation publique avec l’équipe actuelle",
         "internal_discipline",
         "LOYAL",
         "primary_debt_honored",
@@ -670,7 +670,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "primary_debt_share",
-        "Créer une codirection jusquà la publication du programme et faire arbitrer les désaccords par vote",
+        "Créer une codirection jusqu’à la publication du programme et faire arbitrer les désaccords par vote",
         "compromise",
         "INSTITUTIONNEL",
         "primary_debt_shared",
@@ -690,7 +690,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "primary_debt_broken",
         "La promesse de primaire ne survit pas à la campagne",
-        "Léquipe actuelle conserve son calendrier et son autorité. Le courant lésé cesse de fournir ses relais, documente la promesse initiale et attend le moment où son retrait sera le plus visible.",
+        "L’équipe actuelle conserve son calendrier et son autorité. Le courant lésé cesse de fournir ses relais, documente la promesse initiale et attend le moment où son retrait sera le plus visible.",
         [
           stat("credibility", -4, "Promesse rompue"),
           stat("mobilization", -3, "Courant en retrait"),
@@ -742,7 +742,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
         "TECHNIQUE",
         "program_committee_pilot",
         "Vingt villes remplacent la décision nationale",
-        "Les deux camps acceptent le test parce quil peut confirmer leur propre hypothèse. Le programme paraît prudent et applicable, sans donner de réponse nationale avant plusieurs années.",
+        "Les deux camps acceptent le test parce qu’il peut confirmer leur propre hypothèse. Le programme paraît prudent et applicable, sans donner de réponse nationale avant plusieurs années.",
         [
           stat("cohesion", 4, "Expérimentation commune"),
           stat("localStrength", 3, "Villes pilotes"),
@@ -764,7 +764,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
         "RASSEMBLEUR",
         "program_committee_members_decide",
         "Les adhérents choisissent le chapitre",
-        "La participation est forte et le résultat donne une légitimité nette au texte retenu. Vous perdez la maîtrise de ce marqueur programmatique mais gagnez des militants capables den défendre la procédure.",
+        "La participation est forte et le résultat donne une légitimité nette au texte retenu. Vous perdez la maîtrise de ce marqueur programmatique mais gagnez des militants capables d’en défendre la procédure.",
         [
           stat("mobilization", 4, "Vote des adhérents"),
           stat("cohesion", 5, "Résultat accepté"),
@@ -788,7 +788,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "headquarters_move",
-        "Déménager à Saint-Denis et affecter léconomie réalisée aux déplacements régionaux",
+        "Déménager à Saint-Denis et affecter l’économie réalisée aux déplacements régionaux",
         "long_term_strategy",
         "POPULAIRE",
         "headquarters_saint_denis",
@@ -823,7 +823,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
         "PRUDENT",
         "headquarters_kept",
         "L’adresse reste, la publicité disparaît",
-        "Léquipe conserve ses habitudes et évite la perturbation matérielle. La baisse de visibilité numérique se fait sentir rapidement et le problème du bail reviendra si la campagne se prolonge.",
+        "L’équipe conserve ses habitudes et évite la perturbation matérielle. La baisse de visibilité numérique se fait sentir rapidement et le problème du bail reviendra si la campagne se prolonge.",
         [
           stat("mediaPresence", -3, "Publicité supprimée"),
           stat("finances", -2, "Loyer maintenu"),
@@ -837,7 +837,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "Les jeunes veulent leur propre campagne",
     category: "internal",
     summary:
-      "Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent dêtre réduits à distribuer les tracts nationaux.",
+      "Le mouvement de jeunesse présente une campagne autonome sur le logement et le climat, avec son propre ton et un budget modeste. Les cadres craignent une marque parallèle ; les jeunes refusent d’être réduits à distribuer les tracts nationaux.",
     themes: ["social_issues", "ecology"],
     phaseWeights: internalPhases,
     choices: [
@@ -859,7 +859,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "youth_wing_integrate",
-        "Intégrer leurs responsables à léquipe nationale et produire chaque contenu sous la même identité",
+        "Intégrer leurs responsables à l’équipe nationale et produire chaque contenu sous la même identité",
         "internal_discipline",
         "LOYAL",
         "youth_wing_integrated",
@@ -878,7 +878,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "youth_wing_brand_refused",
         "Le budget devient matériel de terrain",
-        "Le porte-à-porte démarre dans plusieurs campus, mais les animateurs les plus créatifs quittent lopération. Vous gagnez une action contrôlable et perdez une partie de la capacité à parler dans les formats des jeunes.",
+        "Le porte-à-porte démarre dans plusieurs campus, mais les animateurs les plus créatifs quittent l’opération. Vous gagnez une action contrôlable et perdez une partie de la capacité à parler dans les formats des jeunes.",
         [
           stat("mobilization", 2, "Campus couverts"),
           stat("cohesion", -4, "Autonomie refusée"),
@@ -928,7 +928,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
         "legal_action",
         "PRUDENT",
         "major_donor_written_exchange",
-        "Léchange laisse une trace publique",
+        "L’échange laisse une trace publique",
         "Le donateur transmet ses propositions et votre réponse écarte celles qui contredisent le programme. La procédure est sobre, vérifiable et identique à celle offerte aux autres organisations.",
         [
           stat("credibility", 4, "Échange publié"),

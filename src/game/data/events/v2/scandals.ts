@@ -36,7 +36,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "treasurer_invoices_publish",
-        "Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusquà conclusion",
+        "Publier les factures, suspendre Maud Keravel et saisir un expert indépendant jusqu’à conclusion",
         "legal_action",
         "TRANSPARENT",
         "treasurer_invoices_full_disclosure",

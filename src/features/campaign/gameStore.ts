@@ -180,11 +180,22 @@ export const useGameStore = create<GameUiState>((set, get) => ({
     try {
       const resolution = resolveCurrentChoice(before, choiceId, gameContent);
       const after = resolution.state;
+      // The multi-candidate "État de la course" bulletin only makes sense
+      // before the first round is decided: a poll can still be generated
+      // every few decisions during between_rounds/government_epilogue
+      // (state.decisionIndex keeps incrementing across every phase), but by
+      // then the race it describes is already over — showing it there
+      // contradicted whatever milestone screen (qualification, runoff,
+      // government) the player had just seen.
+      const isBeforeFirstRound = ["pre_campaign", "campaign", "official_campaign"].includes(
+        after.phase,
+      );
       let pendingScreen: GameUiState["pendingScreen"];
       if (!before.firstRoundResult && after.firstRoundResult) pendingScreen = "first_round";
       else if (!before.secondRoundResult && after.secondRoundResult) pendingScreen = "second_round";
       else if (after.phase === "finished") pendingScreen = "final";
-      else if (after.pollHistory.length > before.pollHistory.length) pendingScreen = "race";
+      else if (isBeforeFirstRound && after.pollHistory.length > before.pollHistory.length)
+        pendingScreen = "race";
       const previousBadges = new Set(before.achievementsUnlocked);
       const newAchievementIds = after.achievementsUnlocked.filter((id) => !previousBadges.has(id));
       set({

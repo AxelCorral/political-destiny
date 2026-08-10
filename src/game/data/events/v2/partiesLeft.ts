@@ -8,7 +8,7 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_identity",
     title: "LFI choisit entre mouvement et candidat",
     summary:
-      "Les groupes daction veulent conserver leur autonomie tandis que léquipe dAriane Valmont demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.",
+      "Les groupes d'action veulent conserver leur autonomie tandis que l'équipe d'Ariane Valmont demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.",
     themes: ["institutions"],
     importance: "major",
     entityReferences: [
@@ -19,11 +19,11 @@ const lfiEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "lfi_identity_groups",
-        "Donner aux groupes daction un budget local et un droit damendement sur les tracts",
+        "Donner aux groupes d'action un budget local et un droit d'amendement sur les tracts",
         "grassroots_mobilization",
         "RASSEMBLEUR",
         "lfi_identity_local_power",
-        "Les groupes daction gagnent une marge réelle",
+        "Les groupes d'action gagnent une marge réelle",
         "Les militants adaptent rapidement les campagnes aux quartiers et se réengagent dans le porte-à-porte. Des formulations différentes apparaissent selon les villes et exigent une coordination politique plus attentive.",
         [
           stat("mobilization", 6, "Groupes autonomes"),
@@ -35,12 +35,12 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_identity_candidate",
-        "Centraliser la parole autour dAriane Valmont et limiter les tracts aux textes validés",
+        "Centraliser la parole autour d'Ariane Valmont et limiter les tracts aux textes validés",
         "internal_discipline",
         "PRÉSIDENTIEL",
         "lfi_identity_candidate_centered",
         "La candidature prend le pas sur le mouvement",
-        "Les interventions deviennent cohérentes et Ariane Valmont gagne en stature nationale. Les groupes daction les plus anciens réduisent leurs initiatives et demandent des garanties pour laprès-présidentielle.",
+        "Les interventions deviennent cohérentes et Ariane Valmont gagne en stature nationale. Les groupes d'action les plus anciens réduisent leurs initiatives et demandent des garanties pour l'après-présidentielle.",
         [
           stat("credibility", 4, "Parole unifiée"),
           stat("mediaPresence", 3, "Candidate identifiée"),
@@ -56,7 +56,7 @@ const lfiEvents: GameEventDefinition[] = [
         "INSTITUTIONNEL",
         "lfi_identity_dual_mandate",
         "Deux mandats définissent la campagne",
-        "La frontière protège la délibération programmatique et permet à Ariane Valmont de réagir vite aux sondages. Chaque repositionnement électoral devra toutefois prouver quil ne modifie pas le fond.",
+        "La frontière protège la délibération programmatique et permet à Ariane Valmont de réagir vite aux sondages. Chaque repositionnement électoral devra toutefois prouver qu'il ne modifie pas le fond.",
         [
           stat("cohesion", 4, "Mandats séparés"),
           stat("credibility", 3, "Responsabilités lisibles"),
@@ -69,7 +69,7 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_fronde",
     title: "Nassim Courbet réclame une ligne plus sociale",
     summary:
-      "Nassim Courbet, député fictif de LFI, juge que la campagne parle trop dinstitutions et pas assez de salaires. Il réunit plusieurs groupes daction et demande que la hausse du salaire minimum devienne la priorité unique du mois.",
+      "Nassim Courbet, député fictif de LFI, juge que la campagne parle trop d'institutions et pas assez de salaires. Il réunit plusieurs groupes d'action et demande que la hausse du salaire minimum devienne la priorité unique du mois.",
     themes: ["work", "institutions"],
     importance: "major",
     minDecisionIndex: 6,
@@ -83,7 +83,7 @@ const lfiEvents: GameEventDefinition[] = [
         "compromise",
         "POPULAIRE",
         "lfi_fronde_social_turn",
-        "Les salaires prennent tout lagenda",
+        "Les salaires prennent tout l'agenda",
         "Le thème remobilise les quartiers populaires et donne à Nassim Courbet une responsabilité mesurable. Les propositions institutionnelles disparaissent temporairement et le député gagne une autonomie qui pèsera plus tard.",
         [
           bloc("urban_working_class", 6),
@@ -108,7 +108,7 @@ const lfiEvents: GameEventDefinition[] = [
         "RASSEMBLEUR",
         "lfi_fronde_joint_text",
         "Le conflit produit une articulation politique",
-        "Le texte évite de choisir entre social et institutions et donne aux militants des arguments concrets. Nassim Courbet reconnaît larbitrage tout en conservant son réseau et sa capacité de critique.",
+        "Le texte évite de choisir entre social et institutions et donne aux militants des arguments concrets. Nassim Courbet reconnaît l'arbitrage tout en conservant son réseau et sa capacité de critique.",
         [
           stat("cohesion", 5, "Texte commun"),
           bloc("public_services", 3),
@@ -131,7 +131,7 @@ const lfiEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "lfi_fronde_sanction",
         "La fronde perd le micro et gagne un motif",
-        "La campagne conserve son agenda et les porte-parole cessent de se contredire. Les groupes proches de Nassim Courbet parlent dune sanction politique et préparent une assemblée indépendante.",
+        "La campagne conserve son agenda et les porte-parole cessent de se contredire. Les groupes proches de Nassim Courbet parlent d'une sanction politique et préparent une assemblée indépendante.",
         [
           stat("credibility", 2, "Agenda maintenu"),
           stat("cohesion", -6, "Député sanctionné"),
@@ -153,7 +153,7 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_alliance",
     title: "Les Écologistes proposent un pacte urbain",
     summary:
-      "Les Écologistes proposent à LFI une campagne commune dans six métropoles sur le logement, le vélo et la rénovation. Ils demandent de suspendre les attaques sur leur stratégie européenne pendant toute lopération.",
+      "Les Écologistes proposent à LFI une campagne commune dans six métropoles sur le logement, le vélo et la rénovation. Ils demandent de suspendre les attaques sur leur stratégie européenne pendant toute l'opération.",
     themes: ["ecology", "social_issues", "europe"],
     importance: "major",
     minDecisionIndex: 7,
@@ -169,7 +169,7 @@ const lfiEvents: GameEventDefinition[] = [
         "alliance",
         "RASSEMBLEUR",
         "lfi_alliance_green_cities",
-        "Six villes testent lalliance",
+        "Six villes testent l'alliance",
         "Les campagnes locales mutualisent militants et expertise et donnent des images concrètes de coopération. La trêve européenne contient les attaques sans régler la divergence de fond.",
         [
           alliance("ecologistes", "add", "Pacte urbain avec Les Écologistes"),
@@ -181,12 +181,12 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_alliance_three_measures",
-        "Soutenir trois mesures communes sans suspendre le débat sur lEurope",
+        "Soutenir trois mesures communes sans suspendre le débat sur l'Europe",
         "compromise",
         "TRANSPARENT",
         "lfi_alliance_green_measures",
         "Trois mesures survivent au désaccord européen",
-        "La coopération reste programmatique et les deux partis assument leur divergence. Les équipes locales disposent de moins de moyens communs, mais la relation saméliore sans ambiguïté.",
+        "La coopération reste programmatique et les deux partis assument leur divergence. Les équipes locales disposent de moins de moyens communs, mais la relation s'améliore sans ambiguïté.",
         [
           relation("player", "ecologistes", 7),
           bloc("green_progressives", 4),
@@ -196,11 +196,11 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_alliance_refuse_green",
-        "Refuser le pacte et lancer votre propre tournée populaire sur lécologie du quotidien",
+        "Refuser le pacte et lancer votre propre tournée populaire sur l'écologie du quotidien",
         "long_term_strategy",
         "LOYAL",
         "lfi_alliance_green_refused",
-        "Lécologie populaire reste sous vos couleurs",
+        "L'écologie populaire reste sous vos couleurs",
         "La tournée consolide votre ligne sur les factures, les transports et le logement. Les Écologistes dénoncent une concurrence qui fragmente le même électorat urbain.",
         [
           stat("mobilization", 4, "Tournée autonome"),
@@ -221,7 +221,7 @@ const lfiEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "lfi_signature_constituent",
-        "Détailler lélection de la constituante, son mandat de dix-huit mois et le référendum final",
+        "Détailler l'élection de la constituante, son mandat de dix-huit mois et le référendum final",
         "policy_commitment",
         "INSTITUTIONNEL",
         "lfi_signature_constituent_rules",
@@ -272,19 +272,19 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_local_asset",
     title: "Saint-Denis ouvre ses réseaux associatifs",
     summary:
-      "Des associations de Saint-Denis proposent une semaine de réunions sur les prix, les services publics et labstention. Elles refusent un meeting classique et veulent que chaque soirée produise un engagement local vérifiable.",
+      "Des associations de Saint-Denis proposent une semaine de réunions sur les prix, les services publics et l'abstention. Elles refusent un meeting classique et veulent que chaque soirée produise un engagement local vérifiable.",
     themes: ["public_services", "social_issues"],
     entityReferences: [{ entityId: "saint_denis", role: "location" }],
     editorialSensitivity: "none",
     choices: [
       directChoice(
         "lfi_local_commitments",
-        "Tenir six ateliers et signer un tableau dengagements avec les associations participantes",
+        "Tenir six ateliers et signer un tableau d'engagements avec les associations participantes",
         "grassroots_mobilization",
         "POPULAIRE",
         "lfi_local_association_contract",
         "Six soirées produisent un contrat local",
-        "Les associations distinguent ce qui dépend de lÉtat, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.",
+        "Les associations distinguent ce qui dépend de l'État, de la commune et du parti. Le travail mobilise des abstentionnistes et donne à LFI un ancrage moins dépendant du seul meeting.",
         [
           stat("localStrength", 7, "Contrat associatif"),
           bloc("mobilisable_abstainers", 6),
@@ -299,7 +299,7 @@ const lfiEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "lfi_local_national_march",
         "Saint-Denis lance une marche nationale",
-        "La mobilisation dépasse la ville et replace le pouvoir dachat dans la campagne. Les associations regrettent que leurs engagements locaux aient été absorbés par une démonstration nationale.",
+        "La mobilisation dépasse la ville et replace le pouvoir d'achat dans la campagne. Les associations regrettent que leurs engagements locaux aient été absorbés par une démonstration nationale.",
         [
           stat("mobilization", 7, "Marche contre la vie chère"),
           stat("mediaPresence", 5, "Mobilisation nationale"),
@@ -366,7 +366,7 @@ const lfiEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "lfi_crisis_split",
         "La fronde devient dissidence",
-        "Nassim Courbet quitte les instances avec plusieurs animateurs et lance un comité autonome. La parole nationale se clarifie au prix dune perte militante durable et dune campagne concurrente dans plusieurs circonscriptions.",
+        "Nassim Courbet quitte les instances avec plusieurs animateurs et lance un comité autonome. La parole nationale se clarifie au prix d'une perte militante durable et d'une campagne concurrente dans plusieurs circonscriptions.",
         [
           stat("cohesion", -8, "Dissidence ouverte"),
           stat("mobilization", -6, "Animateurs partis"),
@@ -382,19 +382,19 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_electorate",
     title: "Les abstentionnistes demandent une preuve",
     summary:
-      "À Marseille, de jeunes abstentionnistes disent partager plusieurs propositions de LFI sans croire que le vote changera leur quotidien. Ils demandent une action avant lélection plutôt quun nouvel appel moral à participer.",
+      "À Marseille, de jeunes abstentionnistes disent partager plusieurs propositions de LFI sans croire que le vote changera leur quotidien. Ils demandent une action avant l'élection plutôt qu'un nouvel appel moral à participer.",
     themes: ["social_issues", "institutions"],
     entityReferences: [{ entityId: "marseille", role: "location" }],
     editorialSensitivity: "none",
     choices: [
       directChoice(
         "lfi_electorate_legal_clinics",
-        "Financer des permanences associatives sur les droits sociaux sans condition dadhésion",
+        "Financer des permanences associatives sur les droits sociaux sans condition d'adhésion",
         "grassroots_mobilization",
         "POPULAIRE",
         "lfi_electorate_rights_clinics",
         "La campagne rend un service avant le vote",
-        "Les permanences aident des habitants sur des démarches concrètes et établissent une confiance qui ne dépend pas dun meeting. Le parti doit séparer strictement laide associative de la collecte de données électorales.",
+        "Les permanences aident des habitants sur des démarches concrètes et établissent une confiance qui ne dépend pas d'un meeting. Le parti doit séparer strictement l'aide associative de la collecte de données électorales.",
         [
           bloc("mobilisable_abstainers", 7),
           bloc("young_precarious", 5),
@@ -404,27 +404,27 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_electorate_registration",
-        "Mobiliser les groupes daction pour informer sur linscription et les procurations sans consigne de vote",
+        "Mobiliser les groupes d'action pour informer sur l'inscription et les procurations sans consigne de vote",
         "grassroots_mobilization",
         "INSTITUTIONNEL",
         "lfi_electorate_registration_drive",
         "La participation devient une opération civique",
-        "Les bénévoles vérifient les procédures et touchent des personnes éloignées des campagnes. Labsence de consigne directe renforce la confiance, même si tous les nouveaux inscrits ne choisiront pas LFI.",
+        "Les bénévoles vérifient les procédures et touchent des personnes éloignées des campagnes. L'absence de consigne directe renforce la confiance, même si tous les nouveaux inscrits ne choisiront pas LFI.",
         [
           bloc("mobilisable_abstainers", 8),
-          stat("mobilization", 4, "Opération dinscription"),
+          stat("mobilization", 4, "Opération d'inscription"),
           worldTurnout(3),
           stat("credibility", 3, "Démarche non partisane"),
         ],
       ),
       directChoice(
         "lfi_electorate_vote_ultimatum",
-        "Présenter le scrutin comme la dernière chance dappliquer le programme de rupture",
+        "Présenter le scrutin comme la dernière chance d'appliquer le programme de rupture",
         "media_response",
         "OFFENSIF",
         "lfi_electorate_last_chance",
-        "Lurgence mobilise les convaincus et braque les sceptiques",
-        "Le message augmente la participation de votre socle le plus engagé. Les abstentionnistes rencontrés y entendent précisément la pression morale quils refusaient.",
+        "L'urgence mobilise les convaincus et braque les sceptiques",
+        "Le message augmente la participation de votre socle le plus engagé. Les abstentionnistes rencontrés y entendent précisément la pression morale qu'ils refusaient.",
         [
           stat("mobilization", 6, "Dernière chance"),
           hidden("baseSupport", 3),
@@ -438,7 +438,7 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_program_dilemma",
     title: "La désobéissance européenne doit être définie",
     summary:
-      "Le programme de LFI promet de désobéir aux règles européennes incompatibles avec son mandat. Les juristes du mouvement demandent de publier la liste des textes visés et la méthode de négociation avant quun adversaire ne la définisse à votre place.",
+      "Le programme de LFI promet de désobéir aux règles européennes incompatibles avec son mandat. Les juristes du mouvement demandent de publier la liste des textes visés et la méthode de négociation avant qu'un adversaire ne la définisse à votre place.",
     themes: ["europe", "economy"],
     importance: "major",
     choices: [
@@ -449,7 +449,7 @@ const lfiEvents: GameEventDefinition[] = [
         "TRANSPARENT",
         "lfi_program_disobedience_list",
         "La désobéissance reçoit des objets précis",
-        "La liste rassure sur létendue du conflit et rend vos priorités négociables avec des partenaires. Elle expose chaque mesure à un débat juridique et déçoit ceux qui imaginaient une rupture plus générale.",
+        "La liste rassure sur l'étendue du conflit et rend vos priorités négociables avec des partenaires. Elle expose chaque mesure à un débat juridique et déçoit ceux qui imaginaient une rupture plus générale.",
         [
           stat("credibility", 5, "Liste européenne"),
           hidden("consistency", 4),
@@ -468,12 +468,12 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_program_unilateral",
-        "Annoncer que le programme national sappliquera immédiatement, avec négociation européenne ensuite",
+        "Annoncer que le programme national s'appliquera immédiatement, avec négociation européenne ensuite",
         "break",
         "CLIVANT",
         "lfi_program_national_priority",
         "Le mandat national passe avant la négociation",
-        "La ligne mobilise les souverainistes de gauche et clarifie le calendrier de rupture. Elle inquiète les électeurs attachés à lUnion et réduit les soutiens possibles au second tour.",
+        "La ligne mobilise les souverainistes de gauche et clarifie le calendrier de rupture. Elle inquiète les électeurs attachés à l'Union et réduit les soutiens possibles au second tour.",
         [
           stat("mobilization", 6, "Mandat national"),
           hidden("baseSupport", 3),
@@ -485,7 +485,7 @@ const lfiEvents: GameEventDefinition[] = [
           statement: {
             topic: "Europe",
             policyTopic: "europe",
-            text: "Le programme national sappliquera avant toute renégociation européenne",
+            text: "Le programme national s'appliquera avant toute renégociation européenne",
             stance: -75,
             ideology: { europe: -7 },
           },
@@ -493,7 +493,7 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_program_coalition",
-        "Chercher dabord une coalition européenne et conditionner la désobéissance à léchec de cette démarche",
+        "Chercher d'abord une coalition européenne et conditionner la désobéissance à l'échec de cette démarche",
         "negotiation",
         "RASSEMBLEUR",
         "lfi_program_european_coalition",
@@ -521,7 +521,7 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_runoff",
     title: "LFI doit élargir sans se renier",
     summary:
-      "Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur lEurope et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.",
+      "Qualifié au second tour, LFI reçoit des soutiens socialistes et écologistes qui demandent des garanties sur l'Europe et la méthode parlementaire. Votre socle refuse que le programme de rupture soit remplacé par une synthèse tardive.",
     themes: ["europe", "institutions"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -546,12 +546,12 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_runoff_full_program",
-        "Refuser toute modification et demander un ralliement sur lintégralité du programme",
+        "Refuser toute modification et demander un ralliement sur l'intégralité du programme",
         "long_term_strategy",
         "LOYAL",
         "lfi_runoff_no_concession",
         "Le second tour reste celui du programme initial",
-        "La cohérence mobilise très fortement votre base et laisse les électeurs alliés sans garantie nouvelle. Le résultat dépend davantage du rejet de ladversaire que de votre capacité à construire une majorité.",
+        "La cohérence mobilise très fortement votre base et laisse les électeurs alliés sans garantie nouvelle. Le résultat dépend davantage du rejet de l'adversaire que de votre capacité à construire une majorité.",
         [
           stat("mobilization", 7, "Socle mobilisé"),
           hidden("consistency", 6),
@@ -580,9 +580,9 @@ const lfiEvents: GameEventDefinition[] = [
   }),
   partyEvent("lfi", {
     id: "party_lfi_rare",
-    title: "Les groupes daction imposent une primaire éclair",
+    title: "Les groupes d'action imposent une primaire éclair",
     summary:
-      "Dans un événement très rare, une coalition de groupes daction réclame un vote numérique de confiance sur votre candidature après une série de contradictions. La procédure nest prévue par aucun texte interne mais recueille assez de signatures pour ne pas être ignorée.",
+      "Dans un événement très rare, une coalition de groupes d'action réclame un vote numérique de confiance sur votre candidature après une série de contradictions. La procédure n'est prévue par aucun texte interne mais recueille assez de signatures pour ne pas être ignorée.",
     themes: ["institutions"],
     rarity: "rare",
     importance: "decisive",
@@ -612,7 +612,7 @@ const lfiEvents: GameEventDefinition[] = [
         "INSTITUTIONNEL",
         "lfi_rare_positions_decided",
         "Les adhérents arbitrent le fond, pas la personne",
-        "Les trois votes fixent une ligne et réparent une partie de la cohérence. Les organisateurs de la primaire éclair jugent que votre légitimité personnelle na pas été tranchée.",
+        "Les trois votes fixent une ligne et réparent une partie de la cohérence. Les organisateurs de la primaire éclair jugent que votre légitimité personnelle n'a pas été tranchée.",
         [
           hidden("consistency", 7),
           stat("cohesion", 4, "Positions arbitrées"),

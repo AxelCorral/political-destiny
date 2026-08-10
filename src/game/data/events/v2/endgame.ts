@@ -11,7 +11,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Les soutiens arrivent avec leurs conditions",
     category: "between_rounds",
     summary:
-      "Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur lécologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.",
+      "Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur l’écologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.",
     themes: ["institutions", "ecology", "pensions"],
     importance: "major",
     phaseWeights: { between_rounds: 1 },
@@ -24,7 +24,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "PRUDENT",
         "endorsement_wave_guarantees",
         "Trois soutiens gardent trois identités",
-        "Chaque candidat peut expliquer ce quil a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner limpression dune fusion improvisée.",
+        "Chaque candidat peut expliquer ce qu’il a obtenu et vos électeurs voient les limites des concessions. Le processus prend deux jours, mais améliore les reports sans donner l’impression d’une fusion improvisée.",
         [
           hidden("transferability", 7),
           stat("credibility", 4, "Garanties détaillées"),
@@ -35,12 +35,12 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "endorsement_wave_stage",
-        "Réunir tous les soutiens sur scène et annoncer un conseil de coalition après lélection",
+        "Réunir tous les soutiens sur scène et annoncer un conseil de coalition après l’élection",
         "alliance",
         "RASSEMBLEUR",
         "endorsement_wave_coalition_stage",
         "La photographie élargit la majorité",
-        "Limage de rassemblement domine la soirée et mobilise les électeurs qui veulent battre votre adversaire. Labsence daccord précis permet à chacun de projeter ses attentes et prépare des conflits si vous gagnez.",
+        "L’image de rassemblement domine la soirée et mobilise les électeurs qui veulent battre votre adversaire. L’absence d’accord précis permet à chacun de projeter ses attentes et prépare des conflits si vous gagnez.",
         [
           stat("momentum", 5, "Rassemblement de second tour"),
           hidden("transferability", 5),
@@ -56,7 +56,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "LOYAL",
         "endorsement_wave_no_concessions",
         "Les soutiens viennent sans contrat",
-        "Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de ladversaire.",
+        "Votre programme reste intact et votre socle comprend la ligne. Les électeurs des candidats éliminés reçoivent peu de raisons nouvelles de vous rejoindre au-delà du rejet de l’adversaire.",
         [
           stat("cohesion", 4, "Programme intact"),
           hidden("consistency", 4),
@@ -71,7 +71,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Le débat de l’entre-deux-tours",
     category: "between_rounds",
     summary:
-      "Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.",
+      "Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses qu’une hiérarchie claire entre celles déjà faites.",
     themes: ["institutions", "economy"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.35 },
@@ -111,7 +111,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
           outcome(
             "final_debate_plan_tangled",
             "Deux promesses entrent en collision",
-            "Votre troisième décision utilise une recette déjà affectée à la première. Ladversaire repère la contradiction et transforme un plan détaillé en doute sur votre préparation gouvernementale.",
+            "Votre troisième décision utilise une recette déjà affectée à la première. L’adversaire repère la contradiction et transforme un plan détaillé en doute sur votre préparation gouvernementale.",
             [
               stat("credibility", -6, "Financement doublé"),
               stat("momentum", -4, "Contradiction centrale"),
@@ -144,7 +144,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "TRANSPARENT",
         "final_debate_coalition_boundaries",
         "La coalition montre ses coutures",
-        "Les concessions deviennent compréhensibles et les frontières rassurent votre socle. Ladversaire perd largument dune majorité cachée, tandis que certains alliés contestent une limite annoncée sans eux.",
+        "Les concessions deviennent compréhensibles et les frontières rassurent votre socle. L’adversaire perd l’argument d’une majorité cachée, tandis que certains alliés contestent une limite annoncée sans eux.",
         [
           hidden("transferability", 7),
           stat("credibility", 5, "Compromis expliqués"),
@@ -202,7 +202,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "INSTITUTIONNEL",
         "vote_transfers_listening_tour",
         "Les anciens candidats deviennent passeurs",
-        "Les réunions donnent aux soutiens éliminés un rôle actif et permettent dexpliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.",
+        "Les réunions donnent aux soutiens éliminés un rôle actif et permettent d’expliquer les points communs. Les reports progressent par confiance plus que par concession programmatique.",
         [
           hidden("transferability", 6),
           stat("mobilization", 5, "Réunions de coalition"),
@@ -217,7 +217,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "vote_transfers_rejection_campaign",
         "Le rejet devient le seul ciment",
-        "La stratégie mobilise rapidement ceux qui craignent le finaliste et augmente aussi la lassitude des électeurs sans enthousiasme. Vous améliorez les reports fragiles au prix dun mandat positif plus faible.",
+        "La stratégie mobilise rapidement ceux qui craignent le finaliste et augmente aussi la lassitude des électeurs sans enthousiasme. Vous améliorez les reports fragiles au prix d’un mandat positif plus faible.",
         [
           hidden("transferability", 4),
           stat("mobilization", 4, "Vote barrage"),
@@ -229,10 +229,10 @@ export const v2EndgameEvents: GameEventDefinition[] = [
   }),
   event({
     id: "runoff_favorite_pressure",
-    title: "Deux points davance à cinq jours",
+    title: "Deux points d’avance à cinq jours",
     category: "between_rounds",
     summary:
-      "Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge dincertitude. Les soutiens veulent protéger lavance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de ladversaire.",
+      "Un sondage simulé vous place à cinquante-et-un pour cent, dans la marge d’incertitude. Les soutiens veulent protéger l’avance, tandis que les équipes de terrain signalent que la participation de votre socle reste inférieure à celle de l’adversaire.",
     themes: ["institutions"],
     phaseWeights: { between_rounds: 1 },
     eligibility: [...qualified],
@@ -243,7 +243,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "grassroots_mobilization",
         "PRUDENT",
         "favorite_pressure_turnout_drive",
-        "Lavance devient une bataille de participation",
+        "L’avance devient une bataille de participation",
         "La campagne réduit son exposition nationale et transforme ses listes de sympathisants en visites réelles. Le socle se mobilise mieux, ce qui protège davantage le résultat que le chiffre brut du sondage.",
         [
           stat("mobilization", 7, "Porte-à-porte final"),
@@ -259,7 +259,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "PRÉSIDENTIEL",
         "favorite_pressure_national_address",
         "Le favori parle déjà à tout le pays",
-        "Ladresse réduit votre rejet et rassure les électeurs modérés sur la stabilité du lendemain. Les militants les plus actifs regrettent un ton qui considère presque la victoire acquise.",
+        "L’adresse réduit votre rejet et rassure les électeurs modérés sur la stabilité du lendemain. Les militants les plus actifs regrettent un ton qui considère presque la victoire acquise.",
         [
           stat("rejection", -5, "Adresse apaisée"),
           hidden("transferability", 5),
@@ -301,8 +301,8 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "alliance",
         "TRANSPARENT",
         "common_program_eight_measures",
-        "Huit accords et quatre refus composent lannexe",
-        "Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce quils sont motivés, même si deux dentre eux réduisent leur mobilisation.",
+        "Huit accords et quatre refus composent l’annexe",
+        "Le texte donne un contenu au rassemblement sans effacer vos engagements antérieurs. Les alliés acceptent les refus parce qu’ils sont motivés, même si deux d’entre eux réduisent leur mobilisation.",
         [
           hidden("transferability", 7),
           hidden("consistency", 5),
@@ -335,7 +335,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "INSTITUTIONNEL",
         "common_program_governing_method",
         "La coalition partage une méthode, pas un catalogue",
-        "Le texte sur larbitrage, le Parlement et lévaluation rassure sur la stabilité sans acheter des soutiens par des promesses. Les électeurs les plus programmatiques restent peu mobilisés par cet accord procédural.",
+        "Le texte sur l’arbitrage, le Parlement et l’évaluation rassure sur la stabilité sans acheter des soutiens par des promesses. Les électeurs les plus programmatiques restent peu mobilisés par cet accord procédural.",
         [
           stat("credibility", 5, "Méthode de coalition"),
           hidden("transferability", 4),
@@ -378,7 +378,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "POPULAIRE",
         "last_hours_ground_operation",
         "Cent points de contact avant le silence",
-        "Les équipes touchent des milliers délecteurs et repèrent plusieurs zones où la mobilisation restait faible. Lopération fatigue le réseau mais améliore concrètement la participation attendue.",
+        "Les équipes touchent des milliers d’électeurs et repèrent plusieurs zones où la mobilisation restait faible. L’opération fatigue le réseau mais améliore concrètement la participation attendue.",
         [
           stat("mobilization", 8, "Opération nationale"),
           bloc("mobilisable_abstainers", 6),
@@ -388,12 +388,12 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "last_hours_surprise",
-        "Annoncer une baisse dimpôt nouvelle pour tenter de créer un dernier mouvement",
+        "Annoncer une baisse d’impôt nouvelle pour tenter de créer un dernier mouvement",
         "personal_risk",
         "RISQUÉ",
         "last_hours_tax_surprise",
         "Une promesse fiscale sans lendemain médiatique",
-        "Lannonce attire les électeurs sensibles aux impôts et ne peut être chiffrée publiquement avant la fin de campagne. Le dernier doute porte désormais sur la discipline qui structurait votre programme.",
+        "L’annonce attire les électeurs sensibles aux impôts et ne peut être chiffrée publiquement avant la fin de campagne. Le dernier doute porte désormais sur la discipline qui structurait votre programme.",
         [
           stat("momentum", 4, "Surprise fiscale"),
           bloc("middle_class_workers", 3),
@@ -404,7 +404,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
           statement: {
             topic: "fiscalité",
             policyTopic: "fiscality",
-            text: "Une baisse dimpôt supplémentaire sera votée dès le premier budget",
+            text: "Une baisse d’impôt supplémentaire sera votée dès le premier budget",
             stance: 50,
             ideology: { economy: 4 },
           },
@@ -429,7 +429,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "alliance",
         "LOYAL",
         "endorse_candidate_principled",
-        "La consigne sappuie sur trois principes",
+        "La consigne s’appuie sur trois principes",
         "Vous expliquez les convergences et les désaccords sans prétendre parler au nom de chaque électeur. Le soutien est jugé cohérent et préserve votre autonomie pour la suite.",
         [
           hidden("transferability", 5),
@@ -440,7 +440,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "endorse_candidate_contract",
-        "Négocier trois mesures publiques avec un finaliste avant dannoncer votre soutien",
+        "Négocier trois mesures publiques avec un finaliste avant d’annoncer votre soutien",
         "negotiation",
         "OPPORTUNISTE",
         "endorse_candidate_policy_contract",
@@ -476,7 +476,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Aucun finaliste ne porte votre ligne",
     category: "between_rounds",
     summary:
-      "Les deux finalistes fictifs sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre lun dentre eux engage malgré tout votre responsabilité.",
+      "Les deux finalistes fictifs sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre l’un d’entre eux engage malgré tout votre responsabilité.",
     themes: ["institutions", "civil_liberties"],
     phaseWeights: { between_rounds: 1 },
     eligibility: [...eliminated],
@@ -498,7 +498,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "no_instruction_block",
-        "Appeler à battre le finaliste le plus dangereux pour les libertés sans soutenir lautre programme",
+        "Appeler à battre le finaliste le plus dangereux pour les libertés sans soutenir l’autre programme",
         "media_response",
         "CLIVANT",
         "no_instruction_block_candidate",
@@ -514,12 +514,12 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "no_instruction_silence",
-        "Refuser toute consigne et ne participer à aucun débat de lentre-deux-tours",
+        "Refuser toute consigne et ne participer à aucun débat de l’entre-deux-tours",
         "silence",
         "PRUDENT",
         "no_instruction_complete_silence",
         "Le parti quitte le second tour",
-        "Votre autonomie ne peut être confondue avec un soutien et votre socle le plus méfiant lapprécie. Vous abandonnez toute influence sur les deux semaines où le pays choisit son président.",
+        "Votre autonomie ne peut être confondue avec un soutien et votre socle le plus méfiant l’apprécie. Vous abandonnez toute influence sur les deux semaines où le pays choisit son président.",
         [
           stat("cohesion", 2, "Autonomie totale"),
           stat("mediaPresence", -6, "Entre-deux-tours déserté"),
@@ -556,12 +556,12 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "future_campaign_legislative",
-        "Transformer immédiatement léquipe présidentielle en cellule pour les élections législatives",
+        "Transformer immédiatement l’équipe présidentielle en cellule pour les élections législatives",
         "grassroots_mobilization",
         "OFFENSIF",
         "future_campaign_legislative_machine",
         "La campagne ne démonte pas ses bureaux",
-        "Les bénévoles reçoivent un nouvel objectif avant que la déception ne les disperse. La rapidité préserve le réseau et reporte lanalyse de vos erreurs à une date incertaine.",
+        "Les bénévoles reçoivent un nouvel objectif avant que la déception ne les disperse. La rapidité préserve le réseau et reporte l’analyse de vos erreurs à une date incertaine.",
         [
           stat("mobilization", 6, "Réseau maintenu"),
           stat("localStrength", 5, "Candidatures préparées"),
@@ -593,19 +593,19 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Votre mandat à la tête du parti",
     category: "between_rounds",
     summary:
-      "Après lélimination, une partie de léquipe vous demande de rester jusquau prochain congrès ; dautres veulent une transition immédiate. Le choix doit tenir compte du score obtenu, des promesses internes et de létat réel du mouvement.",
+      "Après l’élimination, une partie de l’équipe vous demande de rester jusqu’au prochain congrès ; d’autres veulent une transition immédiate. Le choix doit tenir compte du score obtenu, des promesses internes et de l’état réel du mouvement.",
     themes: ["institutions"],
     phaseWeights: { between_rounds: 1 },
     eligibility: [...eliminated],
     choices: [
       directChoice(
         "personal_future_congress",
-        "Rester jusquau congrès, présenter votre bilan et ne pas intervenir dans la succession",
+        "Rester jusqu’au congrès, présenter votre bilan et ne pas intervenir dans la succession",
         "internal_discipline",
         "INSTITUTIONNEL",
         "personal_future_orderly_congress",
         "La succession reçoit une date et une règle",
-        "Vous assurez la continuité matérielle sans désigner dhéritier et chaque courant peut préparer sa candidature. La transition est lente mais réduit le risque dune guerre de palais.",
+        "Vous assurez la continuité matérielle sans désigner d’héritier et chaque courant peut préparer sa candidature. La transition est lente mais réduit le risque d’une guerre de palais.",
         [
           stat("cohesion", 5, "Congrès ordonné"),
           hidden("cadreLoyalty", 3),
@@ -614,7 +614,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "personal_future_resign",
-        "Annoncer votre démission immédiate et confier lintérim à une direction collégiale",
+        "Annoncer votre démission immédiate et confier l’intérim à une direction collégiale",
         "break",
         "TRANSPARENT",
         "personal_future_immediate_exit",
@@ -650,7 +650,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Le choix de Matignon",
     category: "government",
     summary:
-      "Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit limage du pouvoir sans réseau parlementaire propre.",
+      "Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit l’image du pouvoir sans réseau parlementaire propre.",
     themes: ["institutions"],
     importance: "decisive",
     phaseWeights: { government_epilogue: 1 },
@@ -694,7 +694,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "PRÉSIDENTIEL",
         "prime_minister_independent_expert",
         "Une indépendante prend la tête du gouvernement",
-        "La compétence administrative et le renouvellement plaisent au-delà de votre camp. Labsence de base politique oblige lÉlysée à conduire lui-même les négociations parlementaires.",
+        "La compétence administrative et le renouvellement plaisent au-delà de votre camp. L’absence de base politique oblige l’Élysée à conduire lui-même les négociations parlementaires.",
         [
           stat("credibility", 6, "Compétence administrative"),
           stat("popularity", 3, "Choix inattendu"),
@@ -717,12 +717,12 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "government_balance_competence",
-        "Attribuer les portefeuilles selon une grille publique de compétences et de conflits dintérêts",
+        "Attribuer les portefeuilles selon une grille publique de compétences et de conflits d’intérêts",
         "legal_action",
         "TRANSPARENT",
         "government_balance_public_grid",
         "Chaque nomination reçoit ses critères",
-        "La grille explique plusieurs choix inattendus et oblige à écarter un allié insuffisamment préparé. Léquipe gagne en crédibilité, tandis que la coalition perd une récompense attendue.",
+        "La grille explique plusieurs choix inattendus et oblige à écarter un allié insuffisamment préparé. L’équipe gagne en crédibilité, tandis que la coalition perd une récompense attendue.",
         [
           stat("credibility", 7, "Critères publics"),
           hidden("scandalRisk", -5),
@@ -764,7 +764,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
   }),
   event({
     id: "government_first_address",
-    title: "La première adresse de lÉlysée",
+    title: "La première adresse de l’Élysée",
     category: "government",
     summary:
       "Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.",
@@ -791,14 +791,14 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "first_address_emergency",
-        "Concentrer les cent jours sur le pouvoir dachat et reporter les autres réformes à lautomne",
+        "Concentrer les cent jours sur le pouvoir d’achat et reporter les autres réformes à l’automne",
         "policy_commitment",
         "POPULAIRE",
         "first_address_cost_of_living",
-        "Le pouvoir dachat devient lurgence unique",
-        "La priorité répond à lattente la plus immédiate et rend laction gouvernementale facile à suivre. Les alliés écologistes et institutionnels acceptent mal de voir leurs accords repoussés sans nouvelle date.",
+        "Le pouvoir d’achat devient l’urgence unique",
+        "La priorité répond à l’attente la plus immédiate et rend l’action gouvernementale facile à suivre. Les alliés écologistes et institutionnels acceptent mal de voir leurs accords repoussés sans nouvelle date.",
         [
-          stat("popularity", 6, "Priorité au pouvoir dachat"),
+          stat("popularity", 6, "Priorité au pouvoir d’achat"),
           bloc("middle_class_workers", 5),
           stat("cohesion", -4, "Réformes reportées"),
           hidden("transferability", -2),
@@ -807,7 +807,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
           statement: {
             topic: "économie",
             policyTopic: "economy",
-            text: "Les cent premiers jours seront consacrés au pouvoir dachat avant les autres réformes",
+            text: "Les cent premiers jours seront consacrés au pouvoir d’achat avant les autres réformes",
             stance: -10,
           },
         },
@@ -819,7 +819,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "RASSEMBLEUR",
         "first_address_citizen_convention",
         "Le mandat commence par une délibération",
-        "La convention réduit la précipitation et associe des citoyens aux arbitrages réels. Elle retarde les textes attendus par votre socle et donne le sentiment que la campagne na pas suffi à décider.",
+        "La convention réduit la précipitation et associe des citoyens aux arbitrages réels. Elle retarde les textes attendus par votre socle et donne le sentiment que la campagne n’a pas suffi à décider.",
         [
           stat("credibility", 4, "Méthode délibérative"),
           hidden("transferability", 5),
@@ -835,7 +835,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Deux alliés réclament Bercy",
     category: "government",
     summary:
-      "Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de lÉconomie. Lun apporte des parlementaires, lautre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.",
+      "Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de l’Économie. L’un apporte des parlementaires, l’autre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.",
     themes: ["economy", "institutions"],
     importance: "major",
     phaseWeights: { government_epilogue: 1 },
@@ -844,7 +844,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "ministry_conflict_competence",
-        "Choisir le responsable le plus compétent et offrir à lautre la présidence dun comité parlementaire",
+        "Choisir le responsable le plus compétent et offrir à l’autre la présidence d’un comité parlementaire",
         "negotiation",
         "INSTITUTIONNEL",
         "ministry_conflict_competence_choice",
@@ -858,7 +858,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "ministry_conflict_split",
-        "Scinder léconomie et les finances entre les deux alliés avec un arbitrage direct de Matignon",
+        "Scinder l’économie et les finances entre les deux alliés avec un arbitrage direct de Matignon",
         "compromise",
         "RASSEMBLEUR",
         "ministry_conflict_split_portfolio",
@@ -879,7 +879,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "ministry_conflict_independent",
         "Une tierce personne prend Bercy",
-        "La nomination évite de récompenser une rivalité et apporte une expertise reconnue dans lunivers du jeu. Les deux alliés se sentent humiliés ensemble et coordonnent leurs exigences au Parlement.",
+        "La nomination évite de récompenser une rivalité et apporte une expertise reconnue dans l’univers du jeu. Les deux alliés se sentent humiliés ensemble et coordonnent leurs exigences au Parlement.",
         [
           stat("credibility", 5, "Expertise indépendante"),
           stat("cohesion", -5, "Alliés humiliés"),
