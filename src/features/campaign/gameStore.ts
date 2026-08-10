@@ -24,6 +24,7 @@ export type GameScreen =
   | "outcome"
   | "race"
   | "first_round"
+  | "runoff_intro"
   | "second_round"
   | "final";
 
@@ -58,6 +59,7 @@ interface GameUiState {
   chooseEventOption: (choiceId: string) => void;
   continueAfterOutcome: () => void;
   continueAfterMilestone: () => void;
+  continueFromRunoffIntro: () => void;
   showRace: () => void;
   closeRace: () => void;
   restoreGame: (state: GameState) => void;
@@ -207,9 +209,19 @@ export const useGameStore = create<GameUiState>((set, get) => ({
   },
 
   continueAfterMilestone: () => {
-    const state = get().gameState;
+    const { gameState: state, screen } = get();
+    if (
+      screen === "first_round" &&
+      state?.flags.playerQualified === true &&
+      state.phase !== "finished"
+    ) {
+      set({ screen: "runoff_intro" });
+      return;
+    }
     set({ screen: state?.phase === "finished" ? "final" : "campaign" });
   },
+
+  continueFromRunoffIntro: () => set({ screen: "campaign" }),
 
   showRace: () => set({ screen: "race" }),
   closeRace: () => set({ screen: "campaign" }),

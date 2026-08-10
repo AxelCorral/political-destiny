@@ -68,7 +68,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
   }),
   event({
     id: "runoff_final_debate",
-    title: "Le débat de lentre-deux-tours",
+    title: "Le débat de l’entre-deux-tours",
     category: "between_rounds",
     summary:
       "Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses quune hiérarchie claire entre celles déjà faites.",

@@ -498,6 +498,63 @@ export function RaceBulletinScreen() {
   );
 }
 
+export function RunoffIntroScreen() {
+  const state = useGameStore((store) => store.gameState);
+  const continueFromRunoffIntro = useGameStore((store) => store.continueFromRunoffIntro);
+  if (!state) return null;
+  const player = state.parties[state.playerPartyId];
+  const opponentId = state.qualifiedPartyIds?.find((id) => id !== state.playerPartyId);
+  const opponent = opponentId ? state.parties[opponentId] : undefined;
+  const result = state.firstRoundResult;
+  if (!player || !opponent || !opponentId || !result) return null;
+  const playerScore = result.results[state.playerPartyId] ?? 0;
+  const opponentScore = result.results[opponentId] ?? 0;
+
+  return (
+    <div className="animate-card-enter bg-[var(--navy-950)] py-12 text-white sm:py-20">
+      <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
+        <p className="animate-badge-reveal text-xs font-black uppercase tracking-[0.25em] text-[var(--gold-300)]">
+          Entre-deux-tours · J − 14 · Phase finale
+        </p>
+        <h1 className="mt-4 font-display text-4xl font-black uppercase leading-[0.98] sm:text-6xl">
+          Le duel final commence
+        </h1>
+        <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-slate-300 sm:text-base">
+          Deux semaines de campagne resserrée avant le second tour. Vos choix jusqu’ici ont dessiné
+          ce face-à-face ; ceux qui viennent en décideront l’issue.
+        </p>
+        <div className="mt-10 flex items-center justify-center gap-6 sm:gap-12">
+          <div className="flex flex-col items-center gap-3">
+            <PartyMark visual={player.visual} name={player.displayName} size="large" />
+            <strong className="text-base sm:text-lg">{player.displayName}</strong>
+            <span className="font-display text-2xl font-black tabular-nums text-[var(--gold-300)]">
+              {playerScore.toFixed(1)} %
+            </span>
+          </div>
+          <span className="font-display text-2xl font-black text-slate-500 sm:text-3xl">VS</span>
+          <div className="flex flex-col items-center gap-3">
+            <PartyMark visual={opponent.visual} name={opponent.displayName} size="large" />
+            <strong className="text-base sm:text-lg">{opponent.displayName}</strong>
+            <span className="font-display text-2xl font-black tabular-nums text-slate-300">
+              {opponentScore.toFixed(1)} %
+            </span>
+          </div>
+        </div>
+        <div className="mt-10">
+          <Button
+            size="large"
+            className="bg-[var(--gold-400)] text-[var(--navy-950)] hover:bg-[var(--gold-300)]"
+            onClick={continueFromRunoffIntro}
+          >
+            Entrer dans la dernière ligne droite{" "}
+            <ArrowRight aria-hidden="true" className="size-5" />
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function ElectionNightScreen({ round }: { round: 1 | 2 }) {
   const state = useGameStore((store) => store.gameState);
   const continueAfterMilestone = useGameStore((store) => store.continueAfterMilestone);

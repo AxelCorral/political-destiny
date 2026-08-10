@@ -356,14 +356,14 @@ function GovernmentDecisionCard({
           </p>
         </div>
       </div>
-      <div className="p-5 sm:p-8 lg:p-10">
+      <article className="p-5 sm:p-8 lg:p-10" data-category="government" data-variant="government">
         <fieldset>
           <legend className="text-sm font-black uppercase tracking-[0.12em]">
             Quelle décision prenez-vous ?
           </legend>
           <ChoiceButtons choices={event.choices} chosenId={chosenId} onChoose={handleChoose} />
         </fieldset>
-      </div>
+      </article>
     </Card>
   );
 }

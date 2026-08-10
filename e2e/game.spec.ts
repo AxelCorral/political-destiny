@@ -59,6 +59,12 @@ async function playCampaign(
       continue;
     }
 
+    const runoffIntroMarker = page.getByText(/Entre-deux-tours · J . 14/i);
+    if (await runoffIntroMarker.isVisible().catch(() => false)) {
+      await page.getByRole("button", { name: /Entrer dans la dernière ligne droite/i }).click();
+      continue;
+    }
+
     const secondRoundMarker = page.getByText(/Soirée électorale fictive · Second tour/i);
     if (await secondRoundMarker.isVisible().catch(() => false)) {
       milestones.secondRound = (await page.getByRole("heading", { level: 1 }).textContent()) ?? "";
@@ -68,7 +74,7 @@ async function playCampaign(
       continue;
     }
 
-    const consequence = page.getByText("Conséquence", { exact: true });
+    const consequence = page.getByText(/^Conséquence( notable| majeure)?$/);
     if (await consequence.isVisible().catch(() => false)) {
       await page.getByRole("button", { name: /^Continuer$/i }).click();
       continue;

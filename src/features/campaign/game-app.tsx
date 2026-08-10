@@ -20,6 +20,7 @@ import {
   ElectionNightScreen,
   OutcomeScreen,
   RaceBulletinScreen,
+  RunoffIntroScreen,
 } from "@/features/campaign/campaign-screens";
 import {
   archiveCompletedGame,
@@ -169,6 +170,7 @@ export function GameApp() {
       {screen === "outcome" ? <OutcomeScreen /> : null}
       {screen === "race" ? <RaceBulletinScreen /> : null}
       {screen === "first_round" ? <ElectionNightScreen round={1} /> : null}
+      {screen === "runoff_intro" ? <RunoffIntroScreen /> : null}
       {screen === "second_round" ? <ElectionNightScreen round={2} /> : null}
       {screen === "final" ? <FinalScreen onReplay={replay} /> : null}
     </>
