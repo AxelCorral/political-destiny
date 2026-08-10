@@ -3,20 +3,13 @@
 import {
   ArrowRight,
   BarChart3,
-  BookOpenCheck,
   CheckCircle2,
-  Flag,
-  Gauge,
-  Landmark,
   Menu,
   Newspaper,
   Save,
-  ShieldAlert,
-  Sparkles,
   TrendingDown,
   TrendingUp,
   Trophy,
-  Users,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -43,23 +36,8 @@ import {
 import { cn } from "@/lib/utils";
 
 import { CampaignDashboard } from "./campaign-dashboard";
-import { EventDecisionCard } from "./event-decision-card";
+import { EVENT_ICONS as CATEGORY_ICONS, EventDecisionCard } from "./event-decision-card";
 import { useGameStore } from "./gameStore";
-
-const CATEGORY_ICONS = {
-  campaign: Flag,
-  media: Newspaper,
-  debate: Users,
-  program: BookOpenCheck,
-  internal: Landmark,
-  alliance: Users,
-  world: Gauge,
-  scandal: ShieldAlert,
-  party: Landmark,
-  rare: Sparkles,
-  between_rounds: Trophy,
-  government: Landmark,
-} as const;
 
 function MainStats({ party }: { party: PartyState }) {
   return (
@@ -172,6 +150,7 @@ export function CampaignEventScreen({
             key={event.id}
             event={event}
             date={state.currentDate}
+            state={state}
             onChoose={chooseEventOption}
           />
         </main>
