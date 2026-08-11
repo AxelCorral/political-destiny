@@ -171,7 +171,8 @@ async function main(): Promise<void> {
   const beforeStrategies = Object.fromEntries(
     Object.values(opponentState.actors).map((actor) => [actor.id, actor.strategy]),
   );
-  for (let index = 0; index < 20; index += 1) opponentState = simulateOpponentTurn(opponentState);
+  for (let index = 0; index < 20; index += 1)
+    opponentState = simulateOpponentTurn(opponentState, gameContent.electorateBlocs);
   const afterMemory = memorySignature(opponentState);
   const changedStrategies = Object.values(opponentState.actors).filter(
     (actor) => beforeStrategies[actor.id] !== actor.strategy,
