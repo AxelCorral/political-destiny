@@ -13,7 +13,7 @@ describe("adversaires", () => {
       testContent,
     );
     const playerBefore = structuredClone(state.parties.alpha);
-    const after = simulateOpponentTurn(state);
+    const after = simulateOpponentTurn(state, testContent.electorateBlocs);
     expect(after.parties.alpha).toEqual(playerBefore);
     expect(after.rng.draws).toBeGreaterThan(state.rng.draws);
   });
@@ -24,7 +24,7 @@ describe("adversaires", () => {
       testContent,
     );
     const formerId = state.parties.beta!.candidateId;
-    const result = replaceCandidate(state, "beta");
+    const result = replaceCandidate(state, "beta", testContent.electorateBlocs);
     expect(result.replacement?.identityKind).toBe("fictional");
     expect(result.state.parties.beta?.candidateId).not.toBe(formerId);
     expect(result.state.actors[formerId]?.candidateStatus).toBe("withdrawn");
@@ -59,7 +59,7 @@ describe("adversaires", () => {
       state.parties.beta!.hidden.scandalRisk = 100;
       state.parties.beta!.stats.cohesion = 0;
       state.actors[state.parties.beta!.candidateId]!.legitimacy = 0;
-      observed = simulateOpponentTurn(state).opponentActions.some(
+      observed = simulateOpponentTurn(state, testContent.electorateBlocs).opponentActions.some(
         (action) => action.kind === "replacement" && action.partyId === "beta",
       );
     }
@@ -80,7 +80,7 @@ describe("adversaires", () => {
       );
       state.partyRelations.beta!.gamma = 50;
       state.partyRelations.gamma!.beta = 50;
-      observed = simulateOpponentTurn(state).opponentActions.some(
+      observed = simulateOpponentTurn(state, testContent.electorateBlocs).opponentActions.some(
         (action) => action.kind === "alliance",
       );
     }
@@ -95,7 +95,7 @@ describe("adversaires", () => {
     state.phase = "between_rounds";
     state.qualifiedPartyIds = ["alpha", "gamma"];
 
-    const after = simulateOpponentTurn(state);
+    const after = simulateOpponentTurn(state, testContent.electorateBlocs);
 
     expect(after.flags["endorsement:beta"]).toBeDefined();
     expect(after.actors.beta_candidate?.candidateStatus).toBe("eliminated");
@@ -117,7 +117,7 @@ describe("adversaires", () => {
       state.phase = "official_campaign";
       state.parties.beta!.stats.polling = 0.5;
       state.actors.beta_candidate!.legitimacy = 0;
-      const after = simulateOpponentTurn(state);
+      const after = simulateOpponentTurn(state, testContent.electorateBlocs);
       observed = after.opponentActions.some(
         (action) => action.kind === "withdrawal" && action.partyId === "beta",
       );

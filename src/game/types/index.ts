@@ -241,6 +241,16 @@ export interface PartyDefinition {
     awareness: number;
     momentum: number;
   };
+  /**
+   * PROMPT_CLAUDE_CODE_ANCRAGE_REEL_PSEUDO_REALITE_RECOMPOSITIONS.md §43 : toute
+   * baseline calibrée sur une recherche politique réelle datée porte une version
+   * et une date explicites, pour qu'un futur recalibrage soit traçable plutôt que
+   * de modifier silencieusement des nombres sans laisser de trace de leur origine.
+   * Exemple : "2026-04-v1" / "2026-04-18". Absent pour un contenu qui n'a jamais
+   * été calibré sur une recherche réelle datée (ex. `customParty.ts`).
+   */
+  politicalBaselineVersion?: string;
+  politicalBaselineDate?: string;
   strengths: string[];
   weaknesses: string[];
   program: string[];
@@ -298,9 +308,67 @@ export interface PartyState {
   active: boolean;
   alliedWith: string[];
   program: string[];
+  /**
+   * PROMPT_CLAUDE_CODE_RECOMPOSITIONS_STRATEGIQUES_SOUTIENS_CHOCS.md §6/§31 —
+   * copie en lecture seule de `PartyDefinition.campaignProfile.naturalAllies`/
+   * `directCompetitors` sur l'état runtime, pour que le moteur de désistement
+   * stratégique (`viability.ts`, `strategicWithdrawal.ts`) puisse lire ces
+   * relations structurelles sans faire remonter `GameContent` complet à
+   * travers `simulateOpponentTurn`. Jamais un script par parti : ces listes
+   * sont des données de contenu déjà existantes (`src/game/data/parties.ts`),
+   * pas une nouvelle règle codée en dur.
+   */
+  naturalAllies: string[];
+  directCompetitors: string[];
   electorateAffinity: Record<ElectorateBlocId, number>;
   regionalAffinity: Record<RegionId, number>;
   initialPolling: number;
+}
+
+/**
+ * PROMPT_CLAUDE_CODE_ANCRAGE_REEL_PSEUDO_REALITE_RECOMPOSITIONS.md §6-10 : un
+ * parti ne porte pas, à lui seul, une force électorale intrinsèque — la
+ * candidature réellement retenue (quand elle est incertaine dans la réalité au
+ * 18 avril 2026, cf. `docs/POLITICAL_BASELINE_2026-04.md`) la fait varier. Un
+ * parti sans incertitude réelle documentée porte un seul `CandidateProfile`
+ * avec `isDefault: true` — l'architecture reste générique, mais rien n'oblige à
+ * en créer plusieurs par parti (§8 : « ne jamais créer artificiellement
+ * plusieurs candidats juste pour ajouter du contenu »).
+ */
+export type CandidateProfileResolutionSource =
+  | "player_choice"
+  | "automatic"
+  | "primary"
+  | "internal_vote"
+  | "leadership_crisis"
+  | "external_uncertainty";
+
+export interface CandidateProfile {
+  id: string;
+  partyId: string;
+  /** Renvoie vers un `ActorState` existant — jamais de doublon de personnage. */
+  actorId: string;
+  isDefault: boolean;
+  /**
+   * Comment ce profil se résout pour les PNJ quand plusieurs profils existent
+   * pour un même parti — "external_uncertainty" couvre un cas comme le RN, où
+   * l'issue dépend d'un fait extérieur au parti (une procédure judiciaire),
+   * pas d'un vote interne.
+   */
+  resolutionSource: CandidateProfileResolutionSource;
+  /** Poids relatif utilisé pour la résolution PNJ pondérée par graine. */
+  probabilityWeight: number;
+  baselineModifier: {
+    baseSupportDelta: number;
+    rejectionDelta?: number;
+    mobilizationDelta?: number;
+    transferabilityDelta?: number;
+    cohesionDelta?: number;
+    credibilityDelta?: number;
+  };
+  /** Notes internes uniquement — jamais affichées telles quelles au joueur. */
+  internalSummary: string;
+  sourceMetadata?: SourceMetadata[];
 }
 
 export type ActorRole = "candidate" | "cadre" | "spokesperson" | "ally" | "context";
@@ -734,7 +802,11 @@ export interface OpponentActionRecord {
     | "replacement"
     | "primary"
     | "dissidence"
-    | "rallying";
+    | "rallying"
+    | "negotiation_opened"
+    | "negotiation_failed"
+    | "strategic_withdrawal"
+    | "national_endorsement";
   summary: string;
 }
 
@@ -980,6 +1052,78 @@ export interface CompletedRunSummary {
   decisions: DecisionRecord[];
 }
 
+/**
+ * §0.5 du prompt de mission : couche de données pour les personnalités
+ * étrangères pseudonymisées, séparée du registre `EntityDefinition` (qui ne
+ * couvre que les personnes réelles domestiques, §D-006 de `V2_DECISIONS.md`).
+ * La compatibilité idéologique d'un soutien international est déterminée par
+ * ces champs structurés — jamais codée dans le texte libre d'un événement.
+ */
+export interface WorldFigureProfile {
+  id: string;
+  displayName: string;
+  country: string;
+  office: string;
+  fictional: true;
+  realWorldReferencePeriod: string;
+  economicAxis: number;
+  socialAxis: number;
+  foreignPolicyAxis: number;
+  affinityTags: string[];
+  hostilityTags: string[];
+  allowedNarrativeRoles: string[];
+  sensitiveContentPolicy: "standard" | "no_domestic_scandal_link";
+}
+
+/**
+ * PROMPT_CLAUDE_CODE_RECOMPOSITIONS_STRATEGIQUES_SOUTIENS_CHOCS.md §18-23 —
+ * contrepartie domestique de `WorldFigureProfile` : une figure nationale
+ * pseudonymisée (jamais une personne réelle, jamais le mot « fictif » dans un
+ * texte visible au joueur). `figureKind: "domestic_entity" |
+ * "fictional_prestige_figure"` sur `MajorEndorsementDefinition` référence ces
+ * profils par `id`. Les axes reprennent trois des six `IdeologyAxis` du jeu —
+ * ceux qui différencient le plus les huit archétypes couverts (centre droit
+ * gouvernemental, droite historique, social-démocratie, gauche
+ * intellectuelle, libéralisme entrepreneurial, souverainisme, ancrage local,
+ * écologie de gouvernement) — pas les six, pour rester lisible.
+ * `notorietyLevel` module `credibilityWeight` de l'endorsement associé sans
+ * le dupliquer (§18 : « niveau de notoriété »).
+ */
+export interface NationalFigureProfile {
+  id: string;
+  displayName: string;
+  /** Courant politique en une formule courte, jamais affichée telle quelle au joueur. */
+  politicalCurrent: string;
+  formerOrCurrentRole: string;
+  fictional: true;
+  economicAxis: number;
+  authorityAxis: number;
+  europeAxis: number;
+  notorietyLevel: number;
+  affinityTags: string[];
+  hostilityTags: string[];
+  allowedNarrativeRoles: string[];
+  sensitiveContentPolicy: "standard" | "no_domestic_scandal_link";
+}
+
+/**
+ * §16-18 du prompt de mission : un soutien majeur (national ou international)
+ * n'est éligible qu'en cas de proximité idéologique minimale, et son effet
+ * n'est jamais universellement positif — voir `positiveEffects`/`negativeEffects`.
+ */
+export interface MajorEndorsementDefinition {
+  id: string;
+  figureId: string;
+  figureKind: "world_figure" | "domestic_entity" | "fictional_prestige_figure";
+  figureLabel: string;
+  eligiblePartyIds: string[];
+  requiredAffinityTags: string[];
+  credibilityWeight: number;
+  positiveEffects: GameEffect[];
+  negativeEffects: GameEffect[];
+  internalContext: string;
+}
+
 export interface GameContent {
   contentVersion?: 1 | 2;
   parties: PartyDefinition[];
@@ -990,6 +1134,10 @@ export interface GameContent {
   achievements: AchievementDefinition[];
   endings: EndingDefinition[];
   entities?: EntityDefinition[];
+  candidateProfiles?: CandidateProfile[];
+  worldFigures?: WorldFigureProfile[];
+  nationalFigures?: NationalFigureProfile[];
+  majorEndorsements?: MajorEndorsementDefinition[];
 }
 
 export interface RealPartySnapshot {
@@ -1028,6 +1176,13 @@ export interface NewGameOptions {
   customParty?: PartyDefinition;
   electionDate?: string;
   runInstanceId?: string;
+  /**
+   * §9 du prompt de mission, option A : quand le parti choisi par le joueur
+   * porte plusieurs `CandidateProfile`, le joueur peut choisir explicitement
+   * lequel incarner. Ignoré si le parti n'a qu'un seul profil, ou si l'ID ne
+   * correspond à aucun profil du parti (repli sur le profil par défaut).
+   */
+  candidateProfileId?: string;
 }
 
 export interface ChoiceResolution {

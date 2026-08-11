@@ -46,7 +46,7 @@ export function generatePoll(
     date: state.currentDate,
     decisionIndex: state.decisionIndex,
     instituteLabel:
-      FICTIONAL_INSTITUTES[instituteIndex] ?? FICTIONAL_INSTITUTES[0] ?? "Panel fictif",
+      FICTIONAL_INSTITUTES[instituteIndex] ?? FICTIONAL_INSTITUTES[0] ?? "Panel d’opinion",
     results,
     playerRank: Math.max(1, ranking.indexOf(state.playerPartyId) + 1),
     playerTrend: round(currentPlayerScore - previousPlayerScore, 1),

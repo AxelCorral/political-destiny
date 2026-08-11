@@ -13,6 +13,7 @@ import type {
 
 import { evaluateAchievements } from "./achievements";
 import { advanceCampaignDate, dateAtDaysBefore } from "./calendar";
+import { profilesForParty, resolveCandidateProfile } from "./candidateProfiles";
 import { applyDueEffects, applyEffects, scheduleEffects } from "./effectProcessor";
 import { simulateFirstRound, simulateSecondRound } from "./election";
 import { initializeElectorate, recalculateElectorate } from "./electorate";
@@ -27,7 +28,7 @@ import {
 import { simulateOpponentTurn } from "./opponentSimulation";
 import { resolveWeightedOutcome } from "./outcomeResolver";
 import { generatePoll } from "./polls";
-import { createRngState, deriveStableId } from "./rng";
+import { createRngState, deriveStableId, hashSeed } from "./rng";
 import { scoreGame } from "./scoring";
 import { recordStatement } from "./statements";
 
@@ -73,6 +74,8 @@ function partyStateFromDefinition(definition: PartyDefinition): PartyState {
     active: true,
     alliedWith: [],
     program: [...definition.program],
+    naturalAllies: [...(definition.campaignProfile?.naturalAllies ?? [])],
+    directCompetitors: [...(definition.campaignProfile?.directCompetitors ?? [])],
     electorateAffinity: structuredClone(definition.electorateAffinity),
     regionalAffinity: structuredClone(definition.regionalAffinity),
     initialPolling: definition.baseline.baseSupport,
@@ -128,6 +131,7 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
   const method = content.methods.find((candidate) => candidate.id === options.methodId);
   if (!selectedDefinition) throw new Error(`Parti inconnu « ${options.partyId} ».`);
   if (!method) throw new Error(`Méthode de campagne inconnue « ${options.methodId} ».`);
+  const seed = options.seed.trim() || `campagne-${selectedDefinition.id}`;
 
   const parties = Object.fromEntries(
     definitions.map((definition) => [definition.id, partyStateFromDefinition(definition)]),
@@ -145,6 +149,81 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
     if (party) party.candidateId = candidate.id;
   }
 
+  /**
+   * PROMPT_CLAUDE_CODE_ANCRAGE_REEL_PSEUDO_REALITE_RECOMPOSITIONS.md §6-10 :
+   * pour les partis dont plusieurs `CandidateProfile` existent (incertitude de
+   * candidature réellement documentée), résout le profil retenu — choix
+   * explicite du joueur pour son propre parti, sinon tirage déterministe par
+   * graine pondéré par la probabilité réelle documentée — et applique son
+   * effet sur la base électorale du parti avant tout calcul de sondage. Les
+   * partis sans profil multiple (sept sur neuf) ne sont pas concernés :
+   * comportement inchangé par rapport à avant cette mission.
+   */
+  const resolvedCandidateProfiles: Record<string, string> = {};
+  for (const definition of definitions) {
+    const profiles = profilesForParty(content, definition.id);
+    if (profiles.length === 0) continue;
+    const resolved = resolveCandidateProfile(
+      content,
+      definition.id,
+      seed,
+      options.partyId,
+      options.candidateProfileId,
+    );
+    if (!resolved) continue;
+    resolvedCandidateProfiles[definition.id] = resolved.id;
+    const party = parties[definition.id];
+    const resolvedActor = actors[resolved.actorId];
+    if (!party || !resolvedActor) continue;
+    if (party.candidateId !== resolvedActor.id) {
+      const former = actors[party.candidateId];
+      if (former && former.candidateStatus === "official") former.candidateStatus = "potential";
+    }
+    resolvedActor.candidateStatus = "official";
+    resolvedActor.role = "candidate";
+    party.candidateId = resolvedActor.id;
+    const modifier = resolved.baselineModifier;
+    party.hidden.baseSupport = clamp(party.hidden.baseSupport + modifier.baseSupportDelta);
+    party.stats.polling = clamp(party.stats.polling + modifier.baseSupportDelta);
+    party.initialPolling = clamp(party.initialPolling + modifier.baseSupportDelta);
+    if (modifier.rejectionDelta)
+      party.stats.rejection = clamp(party.stats.rejection + modifier.rejectionDelta);
+    if (modifier.mobilizationDelta)
+      party.stats.mobilization = clamp(party.stats.mobilization + modifier.mobilizationDelta);
+    if (modifier.transferabilityDelta)
+      party.hidden.transferability = clamp(
+        party.hidden.transferability + modifier.transferabilityDelta,
+      );
+    if (modifier.cohesionDelta)
+      party.stats.cohesion = clamp(party.stats.cohesion + modifier.cohesionDelta);
+    if (modifier.credibilityDelta)
+      party.stats.credibility = clamp(party.stats.credibility + modifier.credibilityDelta);
+  }
+
+  /**
+   * PROMPT_CLAUDE_CODE_ANCRAGE_REEL_PSEUDO_REALITE_RECOMPOSITIONS.md §5/§28 :
+   * « petite incertitude au départ, pas de loterie structurelle » — un jitter
+   * nettement plus petit que la variation observée sur le score de sondage
+   * affiché du joueur (`generatePoll`, ±3,8 pts de bruit d'affichage, un
+   * mécanisme distinct qui reste inchangé). Ce jitter-ci porte sur la réalité
+   * électorale sous-jacente de TOUS les partis (pas seulement celui du
+   * joueur), déterministe par graine, borné à ±6 % relatif — cf.
+   * `REALITY_GROUNDING_BASELINE.md` §5 pour le diagnostic ayant motivé ce
+   * choix de magnitude (l'exemple qualitatif du prompt, 15 → 14,2/15,4/16,0,
+   * correspond à un écart relatif de 6-7 %).
+   */
+  for (const definition of definitions) {
+    const party = parties[definition.id];
+    if (!party) continue;
+    const roll = (hashSeed(`${seed}:initial-jitter:${definition.id}`) % 2000) / 1000 - 1; // [-1, 1)
+    const relativeJitter = roll * 0.06;
+    const jittered = clamp(party.hidden.baseSupport * (1 + relativeJitter), 0.1, 100);
+    const delta = jittered - party.hidden.baseSupport;
+    party.hidden.baseSupport = jittered;
+    party.stats.polling = clamp(party.stats.polling + delta);
+    party.initialPolling = clamp(party.initialPolling + delta);
+  }
+
   const selectedParty = parties[options.partyId];
   const selectedActor = selectedParty ? actors[selectedParty.candidateId] : undefined;
   if (!selectedParty || !selectedActor)
@@ -153,7 +232,6 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
     selectedActor.displayName = options.candidateName.trim().slice(0, 60);
 
   const electionDate = options.electionDate ?? GAME_CONFIG.electionDate;
-  const seed = options.seed.trim() || `campagne-${selectedDefinition.id}`;
   const runInstanceId =
     options.runInstanceId?.trim() ||
     deriveStableId(
@@ -211,13 +289,18 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
     parties,
     actors,
     electorate: initializeElectorate(parties, content.electorateBlocs),
+    // Calibré sur docs/POLITICAL_BASELINE_2026-04.md §10 (choc énergétique lié
+    // au conflit Iran/détroit d'Ormuz de fin février 2026, inflation à 1,7 %
+    // en mars 2026, défiance politique historiquement basse mesurée par le
+    // CEVIPOF en janvier 2026) — ajustement modeste depuis les valeurs neutres
+    // précédentes, pas une réplique exacte d'un indice réel.
     world: {
-      economicClimate: 50,
-      socialTension: 46,
-      securityConcern: 45,
+      economicClimate: 43,
+      socialTension: 50,
+      securityConcern: 52,
       climateConcern: 54,
-      incumbentFatigue: 58,
-      turnoutMood: 52,
+      incumbentFatigue: 63,
+      turnoutMood: 50,
       dominantTheme: "economy",
     },
     pollHistory: [],
@@ -238,6 +321,12 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
       initialPopularity: selectedParty.stats.popularity,
       initialLocalStrength: selectedParty.stats.localStrength,
       initialCredibility: selectedParty.stats.credibility,
+      ...Object.fromEntries(
+        Object.entries(resolvedCandidateProfiles).map(([partyId, profileId]) => [
+          `candidateProfile:${partyId}`,
+          profileId,
+        ]),
+      ),
     },
     statementLedger: [],
     policyPositions: {},
@@ -249,6 +338,29 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
     opponentActions: [],
     achievementsUnlocked: [],
   };
+
+  /**
+   * PROMPT_CLAUDE_CODE_ANCRAGE_REEL_PSEUDO_REALITE_RECOMPOSITIONS.md §29
+   * (Phase C) : « historique ; événements de désignation » — trace la
+   * résolution d'un profil de candidature non par défaut comme un événement
+   * réel dans `opponentActions`, pour que la désignation soit visible dans le
+   * même flux narratif que les autres recompositions (retrait, alliance).
+   */
+  for (const [partyId, profileId] of Object.entries(resolvedCandidateProfiles)) {
+    const profile = content.candidateProfiles?.find((candidate) => candidate.id === profileId);
+    if (!profile || profile.isDefault) continue;
+    const party = state.parties[partyId];
+    const resolvedActor = state.actors[profile.actorId];
+    if (!party || !resolvedActor) continue;
+    state.opponentActions.push({
+      decisionIndex: 0,
+      date: state.currentDate,
+      actorId: resolvedActor.id,
+      partyId,
+      kind: "primary",
+      summary: `${party.shortName} : ${resolvedActor.displayName} s’impose comme candidature au terme d’un processus de désignation interne.`,
+    });
+  }
 
   const methodApplied = applyEffects(state, method.effects);
   state = methodApplied.state;
@@ -394,7 +506,7 @@ export function resolveCurrentChoice(
   const due = applyDueEffects(state);
   state = due.state;
   state = evolveMembership(state, resolved.outcome.effects);
-  state = simulateOpponentTurn(state);
+  state = simulateOpponentTurn(state, content.electorateBlocs);
   state = recalculateElectorate(
     state,
     content.electorateBlocs,
