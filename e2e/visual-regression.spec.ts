@@ -134,7 +134,7 @@ test.describe("visual regression — captures de référence", () => {
       page,
       /Emblème abstrait de La France insoumise/i,
       /Le terrain d.abord/i,
-      "always-first-rare-lfi-3",
+      "always-first-rare-lfi-1",
     );
     await advanceUntil(page, /Édition spéciale/i, 50);
     await expect(page.getByText("Édition spéciale")).toBeVisible();
@@ -191,8 +191,8 @@ test.describe("visual regression — captures de référence", () => {
       /Le terrain d.abord/i,
       "always-first-gov-lfi-1",
     );
-    await advanceUntil(page, /Soirée électorale fictive · Premier tour/i, 60);
-    await expect(page.getByText(/Soirée électorale fictive · Premier tour/i)).toBeVisible();
+    await advanceUntil(page, /Soirée électorale · Premier tour/i, 60);
+    await expect(page.getByText(/Soirée électorale · Premier tour/i)).toBeVisible();
     await readyToShoot(page);
     await expect(page).toHaveScreenshot("first-round-result-1366.png", {
       animations: "disabled",
@@ -213,8 +213,8 @@ test.describe("visual regression — captures de référence", () => {
       /Le terrain d.abord/i,
       "always-first-gov-lfi-1",
     );
-    await advanceUntil(page, /Soirée électorale fictive · Second tour/i, 90);
-    await expect(page.getByText(/Soirée électorale fictive · Second tour/i)).toBeVisible();
+    await advanceUntil(page, /Soirée électorale · Second tour/i, 90);
+    await expect(page.getByText(/Soirée électorale · Second tour/i)).toBeVisible();
     await readyToShoot(page);
     await expect(page).toHaveScreenshot("second-round-result-1366.png", {
       animations: "disabled",

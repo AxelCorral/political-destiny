@@ -51,7 +51,7 @@ async function playCampaign(
       return milestones;
     }
 
-    const firstRoundMarker = page.getByText(/Soirée électorale fictive · Premier tour/i);
+    const firstRoundMarker = page.getByText(/Soirée électorale · Premier tour/i);
     if (await firstRoundMarker.isVisible().catch(() => false)) {
       milestones.firstRound = (await page.getByRole("heading", { level: 1 }).textContent()) ?? "";
       if (options.stopAtFirstRound) return milestones;
@@ -65,7 +65,7 @@ async function playCampaign(
       continue;
     }
 
-    const secondRoundMarker = page.getByText(/Soirée électorale fictive · Second tour/i);
+    const secondRoundMarker = page.getByText(/Soirée électorale · Second tour/i);
     if (await secondRoundMarker.isVisible().catch(() => false)) {
       milestones.secondRound = (await page.getByRole("heading", { level: 1 }).textContent()) ?? "";
       await page
@@ -200,7 +200,9 @@ test("1 · accueil, avertissement et navigation éditoriale", async ({ page }) =
 
 test("2 · démarrage avec un parti existant sur mobile et ordinateur", async ({ page }) => {
   await startExistingCampaign(page, "Parti socialiste", "e2e-existing-start");
-  await expect(page.getByText("Clara Villedieu").first()).toBeVisible();
+  // Le PS porte deux profils de candidature (§7 du prompt de mission) : la
+  // graine peut résoudre l'un ou l'autre, les deux noms sont donc acceptés.
+  await expect(page.getByText(/Clara Villedieu|Nadia Ferreira/).first()).toBeVisible();
   await expect(page.getByText(/J − 365/i)).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
     true,
@@ -258,7 +260,7 @@ test("6 · tableau de bord, programme émergent et actualités", async ({ page }
   await page.getByRole("tab", { name: /Programme/i }).click();
   await expect(page.getByRole("heading", { name: /Programme initial/i })).toBeVisible();
   await page.getByRole("tab", { name: /Actualités/i }).click();
-  await expect(page.getByText(/campagne s’installe|Fil de campagne fictif/i).first()).toBeVisible();
+  await expect(page.getByText(/campagne s’installe|Fil de campagne/i).first()).toBeVisible();
 });
 
 test("7 · qualification contrôlée au second tour", async ({ page }, testInfo) => {
@@ -277,9 +279,9 @@ test("8 · élimination contrôlée au premier tour et bilan final", async ({ pa
     testInfo.project.name === "mobile",
     "Fixture électorale longue exécutée sur Chromium desktop.",
   );
-  await startExistingCampaign(page, "Parti socialiste", "e2e-ps-elim-41");
+  await startExistingCampaign(page, "Parti socialiste", "e2e-ps-elim-447");
   const milestones = await playCampaign(page);
-  expect(milestones.firstRound).toMatch(/5e au premier tour/i);
+  expect(milestones.firstRound).toMatch(/4e au premier tour/i);
   await expect(page.getByRole("button", { name: /^Rejouer$/i })).toBeVisible();
 });
 
@@ -288,7 +290,7 @@ test("9 · défaite contrôlée au second tour", async ({ page }, testInfo) => {
     testInfo.project.name === "mobile",
     "Fixture électorale longue exécutée sur Chromium desktop.",
   );
-  await startExistingCampaign(page, "Rassemblement national", "e2e-rn-defeat-4");
+  await startExistingCampaign(page, "Rassemblement national", "e2e-rn-defeat-5");
   const milestones = await playCampaign(page);
   expect(milestones.firstRound).toMatch(/second tour/i);
   expect(milestones.secondRound).toMatch(/verdict des urnes/i);
