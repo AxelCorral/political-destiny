@@ -14,7 +14,7 @@ export function PollChart({
   const maximum = Math.max(25, ranking[0]?.[1] ?? 25);
 
   return (
-    <div className="space-y-3" aria-label={`Sondage fictif ${poll.instituteLabel}`}>
+    <div className="space-y-3" aria-label={`Sondage ${poll.instituteLabel}`}>
       {ranking.map(([partyId, score], index) => {
         const party = parties[partyId];
         if (!party) return null;

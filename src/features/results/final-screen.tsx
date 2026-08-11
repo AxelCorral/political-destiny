@@ -120,9 +120,7 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
                     result.won ? "text-[var(--gold-300)]" : "text-[var(--cream-50)]",
                   )}
                 >
-                  {result.won
-                    ? "Fin de campagne · Victoire fictive"
-                    : "Fin de campagne · Résultat fictif"}
+                  {result.won ? "Fin de campagne · Victoire" : "Fin de campagne · Résultat"}
                 </p>
                 <p className="mt-1 text-sm text-slate-300">
                   {state.player.displayName} · {party.displayName}
@@ -201,7 +199,7 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
           <Card className="p-5 sm:p-7">
             <h2 className="text-2xl font-black">Évolution de la campagne</h2>
             <p className="mt-2 text-sm text-[var(--ink-muted)]">
-              Intentions de vote fictives observées dans les bulletins.
+              Intentions de vote observées dans les bulletins.
             </p>
             <PollTrend state={state} />
           </Card>

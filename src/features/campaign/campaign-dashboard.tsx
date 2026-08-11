@@ -164,7 +164,7 @@ export function CampaignDashboard({
               id="dashboard-poll"
               className="text-sm font-black uppercase tracking-[0.12em] text-[var(--ink-muted)]"
             >
-              Dernier sondage fictif
+              Dernier sondage
             </h3>
             {latestPoll ? (
               <div className="mt-4 rounded-2xl border border-[var(--line)] bg-white p-5">
@@ -298,7 +298,7 @@ export function CampaignDashboard({
       {tab === "news" ? (
         <section className="mt-5">
           <h3 className="flex items-center gap-2 text-sm font-black uppercase tracking-[0.12em] text-[var(--ink-muted)]">
-            <Newspaper aria-hidden="true" className="size-4" /> Fil de campagne fictif
+            <Newspaper aria-hidden="true" className="size-4" /> Fil de campagne
           </h3>
           {state.publicNews.length ? (
             <ol className="mt-4 space-y-3">

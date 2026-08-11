@@ -421,7 +421,7 @@ export function RaceBulletinScreen() {
       <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
         <div>
           <p className="text-xs font-black uppercase tracking-[0.18em] text-[var(--blue-600)]">
-            Bulletin fictif · {formatCampaignDate(poll.date)}
+            Bulletin de campagne · {formatCampaignDate(poll.date)}
           </p>
           <h1 className="mt-3 font-display text-4xl font-black uppercase sm:text-5xl">
             État de la course
@@ -429,6 +429,13 @@ export function RaceBulletinScreen() {
           <p className="mt-3 text-[var(--ink-muted)]">
             Un instantané bruité de la campagne, jamais une vérité électorale.
           </p>
+          {poll.decisionIndex === 0 ? (
+            <p className="mt-2 max-w-2xl text-xs leading-relaxed text-[var(--ink-muted)]">
+              Rapports de force de départ calibrés sur les données publiques disponibles au{" "}
+              <strong className="font-bold text-[var(--ink)]">18 avril 2026</strong>. Ce premier
+              bulletin reste, comme les suivants, une estimation fictive.
+            </p>
+          ) : null}
         </div>
         <div
           className={cn(
@@ -616,7 +623,7 @@ export function ElectionNightScreen({ round }: { round: 1 | 2 }) {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 2xl:max-w-[90rem]">
         <div className="text-center">
           <p className="text-xs font-black uppercase tracking-[0.2em] text-[var(--gold-300)]">
-            Soirée électorale fictive · {round === 1 ? "Premier tour" : "Second tour"}
+            Soirée électorale · {round === 1 ? "Premier tour" : "Second tour"}
           </p>
           <h1 className="mt-4 font-display text-5xl font-black uppercase leading-none sm:text-7xl">
             {title}
@@ -625,8 +632,8 @@ export function ElectionNightScreen({ round }: { round: 1 | 2 }) {
             {formatPercent(playerScore)}
           </p>
           <p className="mx-auto mt-3 max-w-2xl text-slate-300">
-            Participation simulée : {formatPercent(result.turnout)}. Ces résultats sont
-            intégralement fictifs et propres à votre graine.
+            Participation simulée : {formatPercent(result.turnout)}. Ce résultat est propre à
+            votre graine de partie.
           </p>
         </div>
         <div className="mt-10 grid gap-5 lg:grid-cols-[1fr_0.8fr]">

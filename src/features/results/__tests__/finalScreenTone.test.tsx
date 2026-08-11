@@ -41,8 +41,8 @@ describe("FinalScreen — ton visuel différencié victoire/défaite", () => {
 
     render(<FinalScreen onReplay={() => undefined} />);
 
-    expect(screen.getByText("Fin de campagne · Victoire fictive")).toBeInTheDocument();
-    expect(screen.queryByText("Fin de campagne · Résultat fictif")).not.toBeInTheDocument();
+    expect(screen.getByText("Fin de campagne · Victoire")).toBeInTheDocument();
+    expect(screen.queryByText("Fin de campagne · Résultat")).not.toBeInTheDocument();
   });
 
   it("la défaite affiche l'eyebrow sobre existant, jamais le libellé de victoire", () => {
@@ -52,8 +52,8 @@ describe("FinalScreen — ton visuel différencié victoire/défaite", () => {
 
     render(<FinalScreen onReplay={() => undefined} />);
 
-    expect(screen.getByText("Fin de campagne · Résultat fictif")).toBeInTheDocument();
-    expect(screen.queryByText("Fin de campagne · Victoire fictive")).not.toBeInTheDocument();
+    expect(screen.getByText("Fin de campagne · Résultat")).toBeInTheDocument();
+    expect(screen.queryByText("Fin de campagne · Victoire")).not.toBeInTheDocument();
   });
 
   it("la défaite conserve le bilan complet (score, métriques, positionnement)", () => {

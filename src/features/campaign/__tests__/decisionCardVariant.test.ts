@@ -82,7 +82,7 @@ describe("resolveDecisionCardVariant", () => {
 describe("findChainOrigin", () => {
   it("retrouve la décision d'origine réelle d'une chaîne de rare events déjà jouée", () => {
     let state = createGame(
-      { seed: "chain-origin-test", mode: "existing_party", partyId: "ps", methodId: "digital" },
+      { seed: "chain-origin-test-1", mode: "existing_party", partyId: "ps", methodId: "digital" },
       gameContent,
     );
     let guard = 0;

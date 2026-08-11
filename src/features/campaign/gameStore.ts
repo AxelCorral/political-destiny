@@ -35,12 +35,20 @@ interface SetupState {
   customParty?: PartyDefinition;
   candidateName?: string;
   seed?: string;
+  /**
+   * §9 du prompt de mission (option A) — profil de candidature choisi par le
+   * joueur quand le parti sélectionné en porte plusieurs (RN, PS). Réinitialisé
+   * à chaque nouvelle sélection de parti pour éviter qu'un choix résiduel
+   * s'applique à un autre parti.
+   */
+  candidateProfileId?: string;
 }
 
 interface GameUiState {
   screen: GameScreen;
   setup: SetupState;
   partyDetailId?: string;
+  selectedCandidateProfileId?: string;
   gameState?: GameState;
   lastRecord?: DecisionRecord;
   lastOutcome?: WeightedOutcome;
@@ -50,6 +58,7 @@ interface GameUiState {
   goToScreen: (screen: GameScreen) => void;
   selectMode: (mode: GameMode) => void;
   openParty: (partyId: string) => void;
+  chooseCandidateProfile: (candidateProfileId: string) => void;
   confirmParty: (partyId: string) => void;
   confirmCustomParty: (party: PartyDefinition) => void;
   chooseMethod: (methodId: string) => void;
@@ -105,11 +114,19 @@ export const useGameStore = create<GameUiState>((set, get) => ({
     });
   },
 
-  openParty: (partyId) => set({ partyDetailId: partyId, screen: "party_detail" }),
+  openParty: (partyId) =>
+    set({ partyDetailId: partyId, selectedCandidateProfileId: undefined, screen: "party_detail" }),
+
+  chooseCandidateProfile: (candidateProfileId) => set({ selectedCandidateProfileId: candidateProfileId }),
 
   confirmParty: (partyId) =>
     set((state) => ({
-      setup: { ...state.setup, mode: "existing_party", selectedPartyId: partyId },
+      setup: {
+        ...state.setup,
+        mode: "existing_party",
+        selectedPartyId: partyId,
+        candidateProfileId: state.selectedCandidateProfileId,
+      },
       screen: "method",
     })),
 
@@ -154,6 +171,7 @@ export const useGameStore = create<GameUiState>((set, get) => ({
           runInstanceId: freshRunInstanceId(),
           ...(setup.candidateName ? { candidateName: setup.candidateName } : {}),
           ...(setup.customParty ? { customParty: setup.customParty } : {}),
+          ...(setup.candidateProfileId ? { candidateProfileId: setup.candidateProfileId } : {}),
         },
         gameContent,
       );

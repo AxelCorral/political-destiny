@@ -165,7 +165,7 @@ export function PartySelectionScreen() {
                 {party.displayName}
               </strong>
               <span className="mt-1 block text-sm text-[var(--ink-muted)]">
-                {candidate?.displayName ?? "Candidature fictive"}
+                {candidate?.displayName ?? "Candidat à confirmer"}
               </span>
               <div className="mt-5 flex flex-wrap gap-2">
                 {party.strengths.slice(0, 2).map((strength) => (
@@ -185,10 +185,25 @@ export function PartySelectionScreen() {
   );
 }
 
+/**
+ * Descriptions courtes destinées au joueur pour distinguer deux profils de
+ * candidature — jamais le texte de `CandidateProfile.internalSummary`
+ * (réservé à `docs/FICTIONAL_POLITICAL_ARCHETYPES.md`, qui cite les analogues
+ * réels) : ici, uniquement des traits internes à l'univers du jeu.
+ */
+const CANDIDATE_PROFILE_BLURBS: Record<string, string> = {
+  rn_ferran_profile: "Ligne historique du mouvement, ancrage populaire affirmé.",
+  rn_montclar_profile: "Génération plus récente, stratégie de normalisation.",
+  ps_villedieu_profile: "Continuité de l’appareil du parti.",
+  ps_rassemblement_profile: "Figure de rassemblement, hors appareil strict.",
+};
+
 export function PartyDetailScreen() {
   const partyId = useGameStore((state) => state.partyDetailId);
   const confirmParty = useGameStore((state) => state.confirmParty);
   const goToScreen = useGameStore((state) => state.goToScreen);
+  const selectedCandidateProfileId = useGameStore((state) => state.selectedCandidateProfileId);
+  const chooseCandidateProfile = useGameStore((state) => state.chooseCandidateProfile);
   const party = gameContent.parties.find((candidate) => candidate.id === partyId);
 
   if (!party) {
@@ -199,17 +214,27 @@ export function PartyDetailScreen() {
     );
   }
 
-  const candidate = candidateForParty(party.id);
+  const candidateProfiles = (gameContent.candidateProfiles ?? []).filter(
+    (profile) => profile.partyId === party.id,
+  );
+  const defaultProfile =
+    candidateProfiles.find((profile) => profile.isDefault) ?? candidateProfiles[0];
+  const effectiveProfileId = selectedCandidateProfileId ?? defaultProfile?.id;
+  const effectiveProfile = candidateProfiles.find((profile) => profile.id === effectiveProfileId);
+  const candidate = effectiveProfile
+    ? gameContent.actors.find((actor) => actor.id === effectiveProfile.actorId)
+    : candidateForParty(party.id);
+
   return (
     <ScreenShell
       eyebrow="Profil de campagne"
       title={party.displayName}
-      description={`Vous incarnez ${candidate?.displayName ?? "une personnalité fictive"}. Le profil politique sert uniquement à la simulation.`}
+      description={`Vous incarnez ${candidate?.displayName ?? "un candidat à confirmer"}. Le profil politique sert uniquement à la simulation.`}
       aside={
         <Card className="sticky top-24 p-6">
           <PartyMark party={party} size="hero" />
           <p className="mt-5 text-xs font-black uppercase tracking-[0.15em] text-[var(--ink-muted)]">
-            Candidature fictive
+            Candidat pressenti
           </p>
           <p className="mt-1 text-xl font-black">{candidate?.displayName}</p>
           <dl className="mt-6 space-y-3 text-sm">
@@ -235,6 +260,43 @@ export function PartyDetailScreen() {
       <Button variant="ghost" className="mb-5" onClick={() => goToScreen("party_list")}>
         <ArrowLeft aria-hidden="true" className="size-4" /> Tous les partis
       </Button>
+      {candidateProfiles.length > 1 && (
+        <Card className="mb-5 p-6">
+          <h2 className="flex items-center gap-2 text-lg font-black">
+            <Users aria-hidden="true" className="size-5 text-[var(--blue-600)]" /> Candidature
+            incertaine à ce stade
+          </h2>
+          <p className="mt-2 text-sm text-[var(--ink-muted)]">
+            La désignation n’est pas encore tranchée. Choisissez le profil que vous incarnez — ce
+            choix modifie réellement votre point de départ.
+          </p>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            {candidateProfiles.map((profile) => {
+              const actor = gameContent.actors.find((candidateActor) => candidateActor.id === profile.actorId);
+              const selected = effectiveProfileId === profile.id;
+              return (
+                <button
+                  key={profile.id}
+                  type="button"
+                  onClick={() => chooseCandidateProfile(profile.id)}
+                  aria-pressed={selected}
+                  className={cn(
+                    "rounded-xl border p-4 text-left transition",
+                    selected
+                      ? "border-[var(--blue-600)] bg-[var(--surface-raised)]"
+                      : "border-[var(--line)] bg-[var(--paper)] hover:border-[var(--blue-400)]",
+                  )}
+                >
+                  <strong className="block text-base font-black">{actor?.displayName}</strong>
+                  <span className="mt-1 block text-sm text-[var(--ink-muted)]">
+                    {CANDIDATE_PROFILE_BLURBS[profile.id] ?? "Profil de campagne alternatif."}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </Card>
+      )}
       <div className="grid gap-5 md:grid-cols-2">
         <Card className="p-6">
           <h2 className="flex items-center gap-2 text-lg font-black">
@@ -759,9 +821,14 @@ export function MethodSelectionScreen() {
   const error = useGameStore((state) => state.error);
   const selectedParty =
     setup.customParty ?? gameContent.parties.find((party) => party.id === setup.selectedPartyId);
-  const defaultCandidate = setup.selectedPartyId
-    ? candidateForParty(setup.selectedPartyId)?.displayName
-    : undefined;
+  const chosenProfile = (gameContent.candidateProfiles ?? []).find(
+    (profile) => profile.id === setup.candidateProfileId,
+  );
+  const defaultCandidate = chosenProfile
+    ? gameContent.actors.find((actor) => actor.id === chosenProfile.actorId)?.displayName
+    : setup.selectedPartyId
+      ? candidateForParty(setup.selectedPartyId)?.displayName
+      : undefined;
   const isRandom = setup.mode === "random";
 
   return (
@@ -839,7 +906,7 @@ export function MethodSelectionScreen() {
       <Card className="mt-6 grid gap-5 p-5 sm:p-6 lg:grid-cols-[1fr_1fr_auto] lg:items-end">
         {!isRandom ? (
           <label className="text-sm font-bold">
-            Nom de votre candidate ou candidat fictif
+            Nom de votre candidate ou candidat
             <input
               value={setup.candidateName ?? ""}
               placeholder={defaultCandidate ?? "Camille Horizon"}
@@ -852,7 +919,7 @@ export function MethodSelectionScreen() {
           <div>
             <p className="text-sm font-bold">Configuration</p>
             <p className="mt-2 text-sm text-[var(--ink-muted)]">
-              Candidat, parti et méthode fictifs seront révélés au lancement.
+              Candidat, parti et méthode seront révélés au lancement.
             </p>
           </div>
         )}

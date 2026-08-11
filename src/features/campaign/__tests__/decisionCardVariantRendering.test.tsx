@@ -70,7 +70,7 @@ describe("EventDecisionCard — rendu concret par variante", () => {
   it("affiche « Retour de dossier » avec le libellé du choix d'origine pour une suite de chaîne réellement jouée", () => {
     let state: GameState = createGame(
       {
-        seed: "chain-render-test",
+        seed: "chain-render-test-3",
         mode: "existing_party",
         partyId: "lfi",
         methodId: "field_first",
