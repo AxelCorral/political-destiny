@@ -70,7 +70,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
     id: "party_renaissance_fronde",
     title: "Salomé Varenne défend le bilan",
     summary:
-      "Salomé Varenne, cadre fictive de Renaissance, refuse que la campagne traite le quinquennat comme un fardeau. Elle rassemble des élus et demande un discours de continuité économique sans ambiguïté.",
+      "Salomé Varenne, cadre de Renaissance, refuse que la campagne traite le quinquennat comme un fardeau. Elle rassemble des élus et demande un discours de continuité économique sans ambiguïté.",
     themes: ["economy", "institutions"],
     importance: "major",
     minDecisionIndex: 6,
@@ -495,7 +495,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
     id: "party_renaissance_rare",
     title: "Des anciens ministres publient leur manifeste",
     summary:
-      "Un groupe de ministres fictifs et d’anciens responsables de la majorité publie un manifeste pour une candidature de continuité. Ils ne citent personne, mais leur calendrier vise directement Maël Dargent.",
+      "Un groupe de ministres et d’anciens responsables de la majorité publie un manifeste pour une candidature de continuité. Ils ne citent personne, mais leur calendrier vise directement Maël Dargent.",
     themes: ["institutions", "economy"],
     importance: "decisive",
     rarity: "rare",

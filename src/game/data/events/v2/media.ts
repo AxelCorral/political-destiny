@@ -364,7 +364,7 @@ export const v2MediaEvents: GameEventDefinition[] = [
     title: "Un soutien éditorial encombrant",
     category: "media",
     summary:
-      "Gabriel Valès, polémiste fictif engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.",
+      "Gabriel Valès, polémiste engagé dans la campagne de Reconquête, salue publiquement votre proposition sur la liberté d’expression. Son appui offre de l’audience mais permet à vos concurrents de redéfinir votre position par association.",
     themes: ["civil_liberties", "institutions"],
     phaseWeights: mediaPhases,
     entityReferences: [{ entityId: "reconquete_vales", role: "subject" }],
@@ -561,7 +561,7 @@ export const v2MediaEvents: GameEventDefinition[] = [
     title: "Le micro resté ouvert",
     category: "media",
     summary:
-      "Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne fictive : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.",
+      "Après une interview sur France 2, un micro capte votre remarque sèche sur Anaïs Vercel, directrice de campagne : vous dites que son organisation « ne tiendra pas un mois ». L’extrait est authentique et déjà diffusé.",
     themes: ["institutions"],
     importance: "major",
     phaseWeights: mediaPhases,
@@ -692,7 +692,7 @@ export const v2MediaEvents: GameEventDefinition[] = [
     title: "Le fauteuil libéré au vingt heures",
     category: "media",
     summary:
-      "Un adversaire fictif annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.",
+      "Un adversaire annule sa venue au journal de TF1. La rédaction vous offre l’entretien de vingt minutes, sans thème négocié et avec deux heures de préparation. Votre débat économique de demain reste à finaliser.",
     themes: ["economy", "institutions"],
     importance: "major",
     phaseWeights: mediaPhases,

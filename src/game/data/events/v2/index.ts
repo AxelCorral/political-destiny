@@ -5,6 +5,7 @@ import { v2CampaignEvents } from "./campaign";
 import { v2CustomPartyEvents } from "./customParty";
 import { v2DebateEvents } from "./debates";
 import { v2EndgameEvents } from "./endgame";
+import { v2EndorsementEvents } from "./endorsements";
 import { v2InternalEvents } from "./internal";
 import { applyIdeologicalEligibility } from "./ideologyEligibility";
 import { v2MediaEvents } from "./media";
@@ -44,6 +45,7 @@ const authoredV2Events: GameEventDefinition[] = [
   ...v2DebateEvents,
   ...v2InternalEvents,
   ...v2AllianceEvents,
+  ...v2EndorsementEvents,
   ...v2OpponentInteractionEvents,
   ...v2ScandalEvents,
   ...v2WorldEvents,
@@ -61,6 +63,7 @@ export {
   v2CustomPartyEvents,
   v2DebateEvents,
   v2EndgameEvents,
+  v2EndorsementEvents,
   v2InternalEvents,
   v2MediaEvents,
   v2OpponentInteractionEvents,

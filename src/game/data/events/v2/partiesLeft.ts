@@ -69,7 +69,7 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_fronde",
     title: "Nassim Courbet réclame une ligne plus sociale",
     summary:
-      "Nassim Courbet, député fictif de LFI, juge que la campagne parle trop d’institutions et pas assez de salaires. Il réunit plusieurs groupes d’action et demande que la hausse du salaire minimum devienne la priorité unique du mois.",
+      "Nassim Courbet, député de LFI, juge que la campagne parle trop d’institutions et pas assez de salaires. Il réunit plusieurs groupes d’action et demande que la hausse du salaire minimum devienne la priorité unique du mois.",
     themes: ["work", "institutions"],
     importance: "major",
     minDecisionIndex: 6,

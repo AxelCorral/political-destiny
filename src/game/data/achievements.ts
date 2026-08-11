@@ -11,7 +11,7 @@ const achievementCatalog: Omit<AchievementDefinition, "criteria">[] = [
   {
     id: "first_poll",
     title: "Sous la loupe",
-    description: "Recevoir votre premier sondage fictif.",
+    description: "Recevoir votre premier sondage.",
     category: "first_campaigns",
     icon: "◔",
   },
@@ -32,7 +32,7 @@ const achievementCatalog: Omit<AchievementDefinition, "criteria">[] = [
   {
     id: "elysee",
     title: "Locataire de l’Élysée",
-    description: "Remporter l’élection présidentielle fictive.",
+    description: "Remporter l’élection présidentielle.",
     category: "wins",
     icon: "★",
   },
@@ -81,14 +81,14 @@ const achievementCatalog: Omit<AchievementDefinition, "criteria">[] = [
   {
     id: "no_scandal",
     title: "Casier de campagne vierge",
-    description: "Finir sans traverser de scandale fictif.",
+    description: "Finir sans traverser de scandale.",
     category: "communication",
     icon: "◇",
   },
   {
     id: "three_scandals",
     title: "Insubmersible",
-    description: "Surmonter trois scandales fictifs sans perdre toute crédibilité.",
+    description: "Surmonter trois scandales sans perdre toute crédibilité.",
     category: "communication",
     icon: "⚓",
   },
@@ -292,7 +292,7 @@ const achievementCatalog: Omit<AchievementDefinition, "criteria">[] = [
   },
   {
     id: "won_lfi",
-    title: "Sixième République fictive",
+    title: "Sixième République",
     description: "Gagner avec La France insoumise.",
     category: "wins",
     icon: "FI",

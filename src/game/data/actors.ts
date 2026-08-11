@@ -153,6 +153,48 @@ const partyActors = Object.entries(actorSeeds).flatMap(([partyId, seeds]) =>
   seeds.map((seed, index) => createPartyActor(partyId, seed, index)),
 );
 
+/**
+ * PROMPT_CLAUDE_CODE_ANCRAGE_REEL_PSEUDO_REALITE_RECOMPOSITIONS.md §7 — le PS
+ * porte une incertitude de candidature réelle au 18/04/2026 (voir
+ * `docs/POLITICAL_BASELINE_2026-04.md` §3) : ligne de continuité (Clara
+ * Villedieu, déjà présente) vs figure de rassemblement pro-européenne hors
+ * appareil strict, seul profil de cette mission sans acteur préexistant
+ * réutilisable — voir `docs/FICTIONAL_POLITICAL_ARCHETYPES.md` pour la
+ * justification complète du profil. Idéologie décalée vers l'Europe et le
+ * réformisme par rapport à la ligne du parti, jamais indiscernable du bloc
+ * central (économie encore nettement à gauche du centre).
+ */
+const psRassemblement: ActorState = {
+  id: "ps_rassemblement",
+  identityKind: "fictional",
+  displayName: "Nadia Ferreira",
+  partyId: "ps",
+  role: "candidate",
+  ideology: { economy: -35, society: -40, europe: 70, ecology: 50, authority: -25, immigration: -20 },
+  traits: {
+    charisma: 71,
+    mediaSkill: 73,
+    competence: 68,
+    tactics: 60,
+    integrity: 66,
+    endurance: 65,
+    authority: 58,
+    empathy: 63,
+    discipline: 60,
+    coalitionSkill: 70,
+  },
+  legitimacy: 58,
+  ambition: 79,
+  loyalty: 52,
+  mediaSkill: 73,
+  governingCredibility: 60,
+  scandalRisk: 20,
+  active: true,
+  candidateStatus: "potential",
+  strategy: "look_presidential",
+  memory: structuredClone(EMPTY_MEMORY),
+};
+
 const sensitiveFictionalActors: ActorState[] = [
   ["fictional_treasurer", "Maud Keravel", "Trésorière fictive"],
   ["fictional_consultant", "Léonard Pujol", "Consultant fictif"],
@@ -162,7 +204,7 @@ const sensitiveFictionalActors: ActorState[] = [
 ].map(([id, displayName], index) => ({
   id: id ?? `fictional_context_${index}`,
   identityKind: "fictional",
-  displayName: displayName ?? `Personnage fictif ${index + 1}`,
+  displayName: displayName ?? `Personnage secondaire ${index + 1}`,
   partyId: "independent_fictional",
   role: "context",
   ideology: { economy: 0, society: 0, europe: 0, ecology: 0, authority: 0, immigration: 0 },
@@ -179,4 +221,8 @@ const sensitiveFictionalActors: ActorState[] = [
   memory: structuredClone(EMPTY_MEMORY),
 }));
 
-export const actors: ActorState[] = [...partyActors, ...sensitiveFictionalActors];
+export const actors: ActorState[] = [
+  ...partyActors,
+  psRassemblement,
+  ...sensitiveFictionalActors,
+];

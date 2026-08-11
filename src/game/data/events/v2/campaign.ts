@@ -432,7 +432,7 @@ export const v2CampaignEvents: GameEventDefinition[] = [
     title: "Le budget impose trois renoncements",
     category: "campaign",
     summary:
-      "Le trésorier fictif vous présente un déficit prévisionnel : maintenir tous les déplacements épuiserait les réserves avant le premier tour. Il faut réduire un poste dès ce soir.",
+      "Le trésorier vous présente un déficit prévisionnel : maintenir tous les déplacements épuiserait les réserves avant le premier tour. Il faut réduire un poste dès ce soir.",
     themes: ["fiscality"],
     importance: "major",
     phaseWeights: middleCampaign,

@@ -64,8 +64,13 @@ const baseParties: PartyDefinition[] = [
       authority: -54,
       immigration: -38,
     },
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 10,5-14 % (Elabe 28/03/2026, Cluster17 05/12/2025 — candidature
+    // Mélenchon présumée, non déclarée au 18/04/2026), cf. docs/POLITICAL_BASELINE_2026-04.md §2.
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 13,
+      baseSupport: 12,
       potentialSupport: 28,
       mobilization: 76,
       finances: 52,
@@ -117,8 +122,14 @@ const baseParties: PartyDefinition[] = [
       authority: -30,
       immigration: -24,
     },
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 4,5-10,5 % (Elabe 28/03/2026 — incertitude réelle de candidature :
+    // ligne de continuité vs figure de rassemblement, cf. CandidateProfile ps_villedieu_profile
+    // / ps_rassemblement_profile). baseSupport central ; les deux profils divergent autour.
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 4.5,
+      baseSupport: 6,
       potentialSupport: 25,
       mobilization: 59,
       finances: 56,
@@ -166,12 +177,14 @@ const baseParties: PartyDefinition[] = [
       authority: -58,
       immigration: -55,
     },
-    // politicalBaselineVersion: 2026-08-calibration-finale | calibrationDate: 2026-08-10
-    // sourceRange: 2-5 % (OpinionWay/Elabe, juillet 2026, cf. REAL_WORLD_CALIBRATION.md)
-    // — ajustement modeste depuis 6,5 (nettement haut par rapport à la fourchette
-    // réelle) sans y coller exactement : voir AUDIT_RUNOFF_FINAL_CALIBRATION.md §9/§18.
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 4-5 % (Elabe 28/03/2026 — candidature Tondelier réglée en interne
+    // depuis décembre 2025), cf. docs/POLITICAL_BASELINE_2026-04.md §4. Déjà proche de
+    // la fourchette réelle (ajustement antérieur du 2026-08-10, voir AUDIT_RUNOFF_FINAL_CALIBRATION.md).
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 5,
+      baseSupport: 4.5,
       potentialSupport: 20,
       mobilization: 57,
       finances: 41,
@@ -223,8 +236,13 @@ const baseParties: PartyDefinition[] = [
       authority: 20,
       immigration: 12,
     },
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 8-12 % (Elabe 28/03/2026, scénario sans Philippe — candidature
+    // Attal présumée, non déclarée au 18/04/2026), cf. docs/POLITICAL_BASELINE_2026-04.md §5.
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 14,
+      baseSupport: 11.5,
       potentialSupport: 31,
       mobilization: 49,
       finances: 73,
@@ -269,9 +287,18 @@ const baseParties: PartyDefinition[] = [
     isRealOrganization: true,
     visual: { primaryColor: "#36566a", secondaryColor: "#e9e3d2", monogram: "H", symbol: "▱" },
     ideology: { economy: 55, society: 8, europe: 56, ecology: 22, authority: 34, immigration: 23 },
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 20,5-25,5 % (Elabe 25-26/03/2026 pour La Tribune Dimanche — de loin la
+    // personnalité la plus forte hors RN testée sur la période ; confirmé par Odoxa mars 2026
+    // et Ipsos BVA-CESI 8-9/04/2026, cf. docs/POLITICAL_BASELINE_2026-04.md §6). Écart le plus
+    // significatif entre le jeu et la réalité identifié par cette mission (baseSupport 4,5
+    // auparavant) — corrigé substantiellement sans répliquer intégralement la fourchette
+    // réelle (le jeu reste un scénario fictif, jamais un simulateur de sondage en direct).
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 4.5,
-      potentialSupport: 21,
+      baseSupport: 16,
+      potentialSupport: 34,
       mobilization: 46,
       finances: 58,
       mediaPresence: 58,
@@ -325,8 +352,14 @@ const baseParties: PartyDefinition[] = [
       authority: 68,
       immigration: 62,
     },
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 7-10 % (Elabe 28/03/2026 — Retailleau autodéclaré le 12/02/2026,
+    // ratification interne le 19/04/2026, soit le lendemain de la date de début du jeu),
+    // cf. docs/POLITICAL_BASELINE_2026-04.md §7.
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 6.5,
+      baseSupport: 7.5,
       potentialSupport: 27,
       mobilization: 61,
       finances: 64,
@@ -378,13 +411,18 @@ const baseParties: PartyDefinition[] = [
       authority: 82,
       immigration: 92,
     },
-    // politicalBaselineVersion: 2026-08-calibration-finale | calibrationDate: 2026-08-10
-    // sourceRange: 34-37 % (OpinionWay/Elabe/Ifop, juillet 2026, cf. REAL_WORLD_CALIBRATION.md)
-    // — ajustement modeste depuis 12,5 (nettement bas par rapport à la fourchette
-    // réelle) sans y coller exactement : voir AUDIT_RUNOFF_FINAL_CALIBRATION.md §9/§18.
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 31,5-35 % (Elabe 28/03/2026 — deux scénarios réels, Bardella et Le Pen,
+    // verdict d'appel de Marine Le Pen attendu le 7 juillet 2026, non connu au 18/04/2026),
+    // cf. docs/POLITICAL_BASELINE_2026-04.md §0/§1 et CandidateProfile rn_ferran_profile /
+    // rn_montclar_profile. baseSupport central ; ajustement supplémentaire modeste depuis
+    // 15 (calibration du 2026-08-10, AUDIT_RUNOFF_FINAL_CALIBRATION.md) sans répliquer
+    // intégralement la fourchette réelle.
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 15,
-      potentialSupport: 38,
+      baseSupport: 17,
+      potentialSupport: 40,
       mobilization: 72,
       finances: 66,
       mediaPresence: 89,
@@ -435,8 +473,14 @@ const baseParties: PartyDefinition[] = [
       authority: 88,
       immigration: 100,
     },
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 3-5 % (Elabe 28/03/2026 — Zemmour n'avait pas tranché au 18/04/2026,
+    // fracture réelle avec Marion Maréchal soutenant Marine Le Pen plutôt que Zemmour),
+    // cf. docs/POLITICAL_BASELINE_2026-04.md §8.
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 5,
+      baseSupport: 4.5,
       potentialSupport: 17,
       mobilization: 67,
       finances: 49,
@@ -477,8 +521,17 @@ const baseParties: PartyDefinition[] = [
     isRealOrganization: true,
     visual: { primaryColor: "#4a5c5e", secondaryColor: "#e8ddc8", monogram: "NE", symbol: "✧" },
     ideology: { economy: 84, society: 36, europe: 24, ecology: -8, authority: 58, immigration: 48 },
+    // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
+    // sourceRange: 1-3 % (parti réel fondé le 31/03/2026 par David Lisnard, maire de Cannes,
+    // moins de trois semaines avant la date de début du jeu — non mesuré séparément par les
+    // grands instituts au 18/04/2026, fourchette large reflétant l'absence de sondage fiable,
+    // pas une fourchette de confiance serrée), cf. docs/POLITICAL_BASELINE_2026-04.md §9.
+    // Ajustement modeste vers le bas pour refléter ce statut de parti neuf, sans le rendre
+    // injouable (§39 du prompt de mission).
+    politicalBaselineVersion: "2026-04-v1",
+    politicalBaselineDate: "2026-04-18",
     baseline: {
-      baseSupport: 4.5,
+      baseSupport: 3.5,
       potentialSupport: 19,
       mobilization: 48,
       finances: 48,

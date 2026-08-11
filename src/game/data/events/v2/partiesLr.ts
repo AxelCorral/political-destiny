@@ -70,7 +70,7 @@ export const v2LrPartyEvents: GameEventDefinition[] = [
     id: "party_lr_fronde",
     title: "Diane Mérande veut négocier à droite",
     summary:
-      "Diane Mérande, cadre fictive de LR, affirme que plusieurs fédérations souhaitent parler au RN avant le premier tour. Elle demande un mandat officiel limité aux investitures législatives.",
+      "Diane Mérande, cadre de LR, affirme que plusieurs fédérations souhaitent parler au RN avant le premier tour. Elle demande un mandat officiel limité aux investitures législatives.",
     themes: ["institutions", "security"],
     importance: "major",
     minDecisionIndex: 6,
@@ -477,7 +477,7 @@ export const v2LrPartyEvents: GameEventDefinition[] = [
     id: "party_lr_rare",
     title: "Trois fédérations menacent une liste autonome",
     summary:
-      "Trois présidents fictifs de fédération annoncent qu’ils financeront leurs propres supports et candidats si la stratégie nationale reste floue. Leur implantation rend la menace crédible mais encore réversible.",
+      "Trois présidents de fédération annoncent qu’ils financeront leurs propres supports et candidats si la stratégie nationale reste floue. Leur implantation rend la menace crédible mais encore réversible.",
     themes: ["institutions"],
     importance: "decisive",
     rarity: "rare",

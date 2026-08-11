@@ -10,7 +10,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "La croissance simulée se retourne",
     category: "world",
     summary:
-      "Dans la chronologie fictive de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.",
+      "Dans la chronologie de la partie, l’Insee publie un indicateur signalant deux trimestres de stagnation. Les entreprises retardent leurs investissements et les syndicats demandent un plan sur l’emploi avant que la campagne ne se transforme en concours de dépenses.",
     themes: ["economy", "work"],
     importance: "major",
     phaseWeights: worldPhases,
@@ -176,7 +176,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "La Garonne sort de son lit",
     category: "world",
     summary:
-      "Dans un épisode fictif de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.",
+      "Dans un épisode de la campagne, des inondations touchent plusieurs communes de Nouvelle-Aquitaine. Les secours sont engagés et aucun bilan humain n’est encore stabilisé. Votre déplacement prévu à Bordeaux peut être annulé, transformé ou maintenu à distance.",
     themes: ["ecology", "public_services"],
     importance: "decisive",
     phaseWeights: worldPhases,
@@ -249,7 +249,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "Une attaque frappe un lieu public",
     category: "world",
     summary:
-      "Dans ce scénario fictif sensible, une attaque commise par une personne non identifiée fait plusieurs blessés dans un lieu public. L’enquête débute et les autorités demandent aux candidats de ne diffuser aucune information non vérifiée.",
+      "Dans ce scénario sensible, une attaque commise par une personne non identifiée fait plusieurs blessés dans un lieu public. L’enquête débute et les autorités demandent aux candidats de ne diffuser aucune information non vérifiée.",
     themes: ["security", "civil_liberties"],
     importance: "decisive",
     rarity: "uncommon",
@@ -321,7 +321,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "Une crise ferme un détroit",
     category: "world",
     summary:
-      "Dans la géopolitique fictive de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France n’a pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.",
+      "Dans la géopolitique de la partie, une confrontation entre navires chinois et américains ferme temporairement une route commerciale en Asie. La France n’a pas de forces engagées ; les marchés et les partenaires européens attendent néanmoins votre ligne.",
     themes: ["europe", "economy"],
     importance: "major",
     phaseWeights: worldPhases,
@@ -479,7 +479,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "Quarante-quatre degrés à Lyon",
     category: "world",
     summary:
-      "Dans la météo fictive de la campagne, une canicule durable atteint Lyon et plusieurs départements voisins. Les écoles ferment l’après-midi, les hôpitaux activent leurs plans de tension et les meetings extérieurs deviennent impraticables.",
+      "Dans la météo de la campagne, une canicule durable atteint Lyon et plusieurs départements voisins. Les écoles ferment l’après-midi, les hôpitaux activent leurs plans de tension et les meetings extérieurs deviennent impraticables.",
     themes: ["ecology", "public_services"],
     importance: "major",
     phaseWeights: worldPhases,
@@ -613,7 +613,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "Une aciérie annonce sa fermeture",
     category: "world",
     summary:
-      "Dans l’économie fictive de la partie, une aciérie du Grand Est annonce huit cents suppressions d’emplois après la perte d’un contrat européen. La direction cherche un repreneur et les salariés occupent le site sans violence.",
+      "Dans l’économie de la partie, une aciérie du Grand Est annonce huit cents suppressions d’emplois après la perte d’un contrat européen. La direction cherche un repreneur et les salariés occupent le site sans violence.",
     themes: ["economy", "work", "europe"],
     importance: "decisive",
     phaseWeights: worldPhases,
@@ -687,7 +687,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "Les tentes encerclent la préfecture",
     category: "world",
     summary:
-      "Dans un épisode fictif à Marseille, des associations installent des tentes autour de la préfecture pour demander des solutions d’hébergement et des logements pérennes. La mobilisation reste pacifique et doit durer jusqu’à une réponse écrite.",
+      "Dans un épisode à Marseille, des associations installent des tentes autour de la préfecture pour demander des solutions d’hébergement et des logements pérennes. La mobilisation reste pacifique et doit durer jusqu’à une réponse écrite.",
     themes: ["social_issues", "public_services"],
     phaseWeights: worldPhases,
     entityReferences: [
@@ -758,7 +758,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "Le Conseil européen se divise",
     category: "world",
     summary:
-      "Dans le calendrier fictif, un vote du Conseil européen sur un fonds industriel échoue à une voix. L’Allemagne et la Pologne ont défendu des compromis différents. Les candidats français sont interrogés sur la coalition qu’ils auraient construite.",
+      "Dans le calendrier, un vote du Conseil européen sur un fonds industriel échoue à une voix. L’Allemagne et la Pologne ont défendu des compromis différents. Les candidats français sont interrogés sur la coalition qu’ils auraient construite.",
     themes: ["europe", "economy"],
     phaseWeights: worldPhases,
     entityReferences: [
@@ -840,7 +840,7 @@ export const v2WorldEvents: GameEventDefinition[] = [
     title: "La Cour des comptes alerte",
     category: "world",
     summary:
-      "Dans la trajectoire fictive de la partie, la Cour des comptes publie un rapport sur la dégradation du déficit public. Le document ne juge aucun programme présidentiel, mais rend les promesses non financées beaucoup plus difficiles à défendre.",
+      "Dans la trajectoire de la partie, la Cour des comptes publie un rapport sur la dégradation du déficit public. Le document ne juge aucun programme présidentiel, mais rend les promesses non financées beaucoup plus difficiles à défendre.",
     themes: ["fiscality", "economy"],
     importance: "major",
     phaseWeights: worldPhases,

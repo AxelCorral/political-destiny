@@ -71,7 +71,7 @@ export const v2NouvelleEnergiePartyEvents: GameEventDefinition[] = [
     id: "party_nouvelle_energie_fronde",
     title: "Raphaël Ternois pousse à la fusion",
     summary:
-      "Raphaël Ternois, cadre fictif de Nouvelle Énergie, estime que la candidature autonome ne peut pas se qualifier. Il réunit les premiers élus du mouvement autour d’une négociation avec LR.",
+      "Raphaël Ternois, cadre de Nouvelle Énergie, estime que la candidature autonome ne peut pas se qualifier. Il réunit les premiers élus du mouvement autour d’une négociation avec LR.",
     themes: ["institutions", "economy"],
     importance: "major",
     minDecisionIndex: 6,
@@ -479,7 +479,7 @@ export const v2NouvelleEnergiePartyEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "nouvelle_energie_runoff_civic_government",
-        "Publier une équipe fictive issue de la société civile et demander des soutiens sans accord de postes",
+        "Publier une équipe issue de la société civile et demander des soutiens sans accord de postes",
         "personal_risk",
         "PRÉSIDENTIEL",
         "nouvelle_energie_runoff_civic_team",

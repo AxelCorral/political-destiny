@@ -86,7 +86,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
     id: "party_ps_fronde",
     title: "Élise Marceau conteste la synthèse",
     summary:
-      "Ilyes Marceau, président fictif d’un courant socialiste, menace de déposer sa propre plateforme. Il exige un engagement fiscal précis et accuse la direction de différer tous les arbitrages difficiles.",
+      "Ilyes Marceau, président d’un courant socialiste, menace de déposer sa propre plateforme. Il exige un engagement fiscal précis et accuse la direction de différer tous les arbitrages difficiles.",
     themes: ["fiscality", "institutions"],
     importance: "major",
     minDecisionIndex: 6,

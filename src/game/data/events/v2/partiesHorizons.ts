@@ -78,7 +78,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_fronde",
     title: "Théo Lagrive réclame un accord central",
     summary:
-      "Théo Lagrive, cadre fictif d’Horizons, estime qu’une candidature autonome divise inutilement le centre. Il réunit plusieurs élus locaux favorables à une négociation immédiate avec Renaissance.",
+      "Théo Lagrive, cadre d’Horizons, estime qu’une candidature autonome divise inutilement le centre. Il réunit plusieurs élus locaux favorables à une négociation immédiate avec Renaissance, quitte à rouvrir un débat que la direction du mouvement pensait clos.",
     themes: ["institutions"],
     importance: "major",
     minDecisionIndex: 6,
@@ -498,7 +498,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_rare",
     title: "Des maires lancent leur propre primaire",
     summary:
-      "Un collectif de maires fictifs du centre droit annonce une consultation ouverte entre Horizons, Renaissance et LR. Leur réseau logistique est réel, mais aucun appareil national n’a validé le règlement.",
+      "Un collectif de maires du centre droit annonce une consultation ouverte entre Horizons, Renaissance et LR. Leur réseau logistique est réel, mais aucun appareil national n’a validé le règlement.",
     themes: ["institutions"],
     importance: "decisive",
     rarity: "rare",

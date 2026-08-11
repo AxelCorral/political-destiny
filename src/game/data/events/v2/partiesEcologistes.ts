@@ -69,7 +69,7 @@ export const v2EcologistesPartyEvents: GameEventDefinition[] = [
     id: "party_ecologistes_fronde",
     title: "Maud Lestang rouvre le débat nucléaire",
     summary:
-      "Maya Lestang, députée fictive, veut inscrire une sortie accélérée du nucléaire. Des maires écologistes redoutent qu’un calendrier rigide masque les besoins industriels et la sécurité d’approvisionnement.",
+      "Maya Lestang, députée, veut inscrire une sortie accélérée du nucléaire. Des maires écologistes redoutent qu’un calendrier rigide masque les besoins industriels et la sécurité d’approvisionnement.",
     themes: ["ecology", "economy"],
     importance: "major",
     minDecisionIndex: 6,

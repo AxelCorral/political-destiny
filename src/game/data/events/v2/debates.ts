@@ -123,7 +123,7 @@ export const v2DebateEvents: GameEventDefinition[] = [
     title: "Trois minutes sur la sécurité",
     category: "debate",
     summary:
-      "Le débat de premier tour aborde les violences du quotidien. Une maire fictive décrit des agressions autour d’une gare et demande une mesure applicable cet été. Votre programme partage les moyens entre police, justice et prévention.",
+      "Le débat de premier tour aborde les violences du quotidien. Une maire décrit des agressions autour d’une gare et demande une mesure applicable cet été. Votre programme partage les moyens entre police, justice et prévention.",
     themes: ["security", "civil_liberties"],
     importance: "decisive",
     phaseWeights: debatePhases,
@@ -319,7 +319,7 @@ export const v2DebateEvents: GameEventDefinition[] = [
     title: "L’adversaire refuse de vous laisser répondre",
     category: "debate",
     summary:
-      "Pendant un duel économique, votre adversaire fictif vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.",
+      "Pendant un duel économique, votre adversaire vous coupe quatre fois et transforme l’échange en brouhaha. La modératrice intervient sans parvenir à rétablir le temps de parole. Votre prochaine réaction définira le ton de la confrontation.",
     themes: ["economy", "institutions"],
     importance: "major",
     phaseWeights: debatePhases,

@@ -30,7 +30,7 @@ export const v2RnPartyEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "rn_identity_government_team",
-        "Présenter d’abord une équipe économique fictive et un calendrier des cent premiers jours",
+        "Présenter d’abord une équipe économique et un calendrier des cent premiers jours",
         "long_term_strategy",
         "PRÉSIDENTIEL",
         "rn_identity_government_offer",
@@ -84,7 +84,7 @@ export const v2RnPartyEvents: GameEventDefinition[] = [
     id: "party_rn_fronde",
     title: "Louis Ferran refuse la modération",
     summary:
-      "Louis Ferran, cadre fictif du RN, juge la stratégie de normalisation trop lente. Il veut réserver la moitié des meetings aux thèmes identitaires et rassemble plusieurs responsables départementaux.",
+      "Louis Ferran, cadre du RN, juge la stratégie de normalisation trop lente. Il veut réserver la moitié des meetings aux thèmes identitaires et rassemble plusieurs responsables départementaux.",
     themes: ["immigration", "security", "institutions"],
     importance: "major",
     minDecisionIndex: 6,
@@ -470,7 +470,7 @@ export const v2RnPartyEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "rn_runoff_government_guarantees",
-        "Publier une équipe fictive complète et garantir le maintien de la France dans l’Union européenne",
+        "Publier une équipe complète et garantir le maintien de la France dans l’Union européenne",
         "long_term_strategy",
         "PRÉSIDENTIEL",
         "rn_runoff_government_team",
@@ -504,7 +504,7 @@ export const v2RnPartyEvents: GameEventDefinition[] = [
     id: "party_rn_dissidence",
     title: "Un courant identitaire prépare sa candidature",
     summary:
-      "Des cadres fictifs exclus après le conflit interne annoncent un comité concurrent autour de Louis Ferran. Ils disposent de militants mais manquent de financement et d’implantation nationale.",
+      "Des cadres exclus après le conflit interne annoncent un comité concurrent autour de Louis Ferran. Ils disposent de militants mais manquent de financement et d’implantation nationale.",
     themes: ["immigration", "institutions"],
     importance: "decisive",
     rarity: "rare",

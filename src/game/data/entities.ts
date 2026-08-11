@@ -296,7 +296,9 @@ const fictionalCharacters: EntityDefinition[] = actors.map((actor) => ({
   allowedUses: ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
   sensitivity: "sensitive",
   notes:
-    "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+    actor.role === "candidate" || actor.partyId !== "independent_fictional"
+      ? "Personnage créé pour la simulation ; profil politique structurellement cohérent avec un archétype réel documenté dans docs/FICTIONAL_POLITICAL_ARCHETYPES.md (pseudo-réalité, pas un reskin nom pour nom). Aucun contenu sensible ne lui est jamais attribué."
+      : "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
 }));
 
 const fictionalNarrativeFigures: EntityDefinition[] = [

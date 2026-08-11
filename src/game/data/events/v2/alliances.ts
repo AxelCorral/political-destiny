@@ -322,7 +322,7 @@ export const v2AllianceEvents: GameEventDefinition[] = [
     title: "Une chanteuse veut soutenir la campagne",
     category: "alliance",
     summary:
-      "Nina Sorel, artiste fictive à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.",
+      "Nina Sorel, artiste à forte audience, propose de chanter lors d’un meeting consacré à la jeunesse. Elle refuse tout cachet mais souhaite prononcer un discours sur le droit au logement, sujet qu’elle défend publiquement dans l’univers du jeu.",
     themes: ["social_issues"],
     phaseWeights: alliancePhases,
     entityReferences: [{ entityId: "fictional_artist_nina_sorel", role: "subject" }],
@@ -380,7 +380,7 @@ export const v2AllianceEvents: GameEventDefinition[] = [
     title: "Un ancien rival socialiste revient",
     category: "alliance",
     summary:
-      "Ilyes Marceau, rival fictif de la primaire du PS, propose de rejoindre la campagne à condition de piloter les déplacements industriels. Il dispose d’un réseau militant utile et n’a jamais retiré ses critiques sur votre stratégie économique.",
+      "Ilyes Marceau, rival de la primaire du PS, propose de rejoindre la campagne à condition de piloter les déplacements industriels. Il dispose d’un réseau militant utile et n’a jamais retiré ses critiques sur votre stratégie économique.",
     themes: ["economy", "work"],
     importance: "major",
     phaseWeights: alliancePhases,
@@ -501,7 +501,7 @@ export const v2AllianceEvents: GameEventDefinition[] = [
     title: "Un allié du RN revendique sa marque",
     category: "alliance",
     summary:
-      "Louis Ferran, cadre fictif allié au RN, demande que son courant dispose de sa propre affiche et de dix investitures promises après la présidentielle. Il menace sinon de mener une campagne parallèle plus radicale.",
+      "Louis Ferran, cadre allié au RN, demande que son courant dispose de sa propre affiche et de dix investitures promises après la présidentielle. Il menace sinon de mener une campagne parallèle plus radicale.",
     themes: ["immigration", "institutions"],
     importance: "major",
     phaseWeights: alliancePhases,
@@ -569,7 +569,7 @@ export const v2AllianceEvents: GameEventDefinition[] = [
     title: "Nouvelle Énergie propose un retrait",
     category: "alliance",
     summary:
-      "Nouvelle Énergie propose de retirer sa candidature fictive et de vous soutenir si vous reprenez trois mesures de décentralisation. Le mouvement demande aussi une représentation dans l’équipe de second tour.",
+      "Nouvelle Énergie propose de retirer sa candidature et de vous soutenir si vous reprenez trois mesures de décentralisation. Le mouvement demande aussi une représentation dans l’équipe de second tour.",
     themes: ["institutions", "economy"],
     importance: "decisive",
     phaseWeights: { campaign: 0.5, official_campaign: 1 },

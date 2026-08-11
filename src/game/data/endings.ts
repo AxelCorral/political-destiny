@@ -47,7 +47,7 @@ export const endings: EndingDefinition[] = [
     id: "divided_party",
     title: "Parti divisé",
     narrative:
-      "La campagne a révélé plus de fractures qu’elle n’en a refermées. Les cadres fictifs se préparent déjà à disputer l’héritage et la direction.",
+      "La campagne a révélé plus de fractures qu’elle n’en a refermées. Les cadres se préparent déjà à disputer l’héritage et la direction.",
   },
   {
     id: "withdrawn",
@@ -65,7 +65,7 @@ export const endings: EndingDefinition[] = [
     id: "secret_national_union",
     title: "L’union nationale improbable",
     narrative:
-      "Uchronie fictive : une crise institutionnelle conduit des adversaires à former une coalition temporaire. Vous devenez l’un des garants d’un équilibre exceptionnel et précaire.",
+      "Uchronie : une crise institutionnelle conduit des adversaires à former une coalition temporaire. Vous devenez l’un des garants d’un équilibre exceptionnel et précaire.",
     secret: true,
   },
   {
@@ -79,7 +79,7 @@ export const endings: EndingDefinition[] = [
     id: "secret_fragmentation",
     title: "L’archipel des partis",
     narrative:
-      "Uchronie fictive : scissions et dissidences se multiplient jusqu’à rendre toute majorité introuvable. Votre candidature survit dans un paysage entièrement recomposé.",
+      "Uchronie : scissions et dissidences se multiplient jusqu’à rendre toute majorité introuvable. Votre candidature survit dans un paysage entièrement recomposé.",
     secret: true,
   },
   {

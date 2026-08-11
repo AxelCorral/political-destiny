@@ -70,7 +70,7 @@ export const v2ReconquetePartyEvents: GameEventDefinition[] = [
     id: "party_reconquete_fronde",
     title: "Hélène Saint-Cyr refuse l’élargissement",
     summary:
-      "Hélène Saint-Cyr, cadre fictive de Reconquête, juge que l’ouverture économique efface les priorités identitaires. Elle propose une convention concurrente et mobilise les comités numériques les plus actifs.",
+      "Hélène Saint-Cyr, cadre de Reconquête, juge que l’ouverture économique efface les priorités identitaires. Elle propose une convention concurrente et mobilise les comités numériques les plus actifs.",
     themes: ["immigration", "institutions"],
     importance: "major",
     minDecisionIndex: 6,
@@ -489,7 +489,7 @@ export const v2ReconquetePartyEvents: GameEventDefinition[] = [
     id: "party_reconquete_rare",
     title: "Un réseau de cadres propose une fusion",
     summary:
-      "Des cadres fictifs issus de Reconquête et du RN proposent de créer un mouvement commun après la présidentielle. Ils demandent dès maintenant un congrès fondateur et une direction partagée.",
+      "Des cadres issus de Reconquête et du RN proposent de créer un mouvement commun après la présidentielle. Ils demandent dès maintenant un congrès fondateur et une direction partagée.",
     themes: ["institutions"],
     importance: "decisive",
     rarity: "rare",

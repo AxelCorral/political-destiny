@@ -66,7 +66,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "Une motion réclame un congrès",
     category: "internal",
     summary:
-      "Quarante cadres fictifs demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.",
+      "Quarante cadres demandent un congrès extraordinaire avant le premier tour pour clarifier la ligne économique. Le tenir donne une voix aux désaccords ; le refuser évite de transformer la campagne en compétition interne.",
     themes: ["economy", "institutions"],
     importance: "major",
     phaseWeights: internalPhases,
@@ -127,7 +127,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "Un rival corrige votre ligne",
     category: "internal",
     summary:
-      "Dans Le Figaro, un responsable fictif de votre parti affirme que votre proposition fiscale n’est pas la position collective. Il ne remet pas votre candidature en cause, mais demande un vote du bureau dès le lendemain.",
+      "Dans Le Figaro, un responsable de votre parti affirme que votre proposition fiscale n’est pas la position collective. Il ne remet pas votre candidature en cause, mais demande un vote du bureau dès le lendemain.",
     themes: ["fiscality", "institutions"],
     importance: "major",
     phaseWeights: internalPhases,
@@ -310,7 +310,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "Le contrôle interne signale trois factures",
     category: "internal",
     summary:
-      "La revue mensuelle menée par Maud Keravel, trésorière fictive, relève trois factures sans justificatif complet. Rien ne prouve une irrégularité, mais leur remboursement pourrait être refusé si les pièces manquent au dépôt des comptes.",
+      "La revue mensuelle menée par Maud Keravel, trésorière, relève trois factures sans justificatif complet. Rien ne prouve une irrégularité, mais leur remboursement pourrait être refusé si les pièces manquent au dépôt des comptes.",
     themes: ["institutions", "fiscality"],
     importance: "major",
     phaseWeights: internalPhases,
@@ -402,7 +402,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "Deux équipes se disputent le terrain",
     category: "internal",
     summary:
-      "Dans la métropole lyonnaise, l’équipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale fictive, menace de se retirer.",
+      "Dans la métropole lyonnaise, l’équipe numérique veut concentrer les bénévoles sur une opération vidéo tandis que les sections demandent du porte-à-porte. Les échanges internes deviennent personnels et Samira Bellon, élue locale, menace de se retirer.",
     themes: ["institutions"],
     phaseWeights: internalPhases,
     minDecisionIndex: 6,
@@ -462,7 +462,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "La porte-parole annonce trop tôt",
     category: "internal",
     summary:
-      "Une porte-parole fictive présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.",
+      "Une porte-parole présente comme arbitrée une baisse de cotisations encore discutée. Les chaînes reprennent déjà le montant et vos partenaires attendent de savoir si la proposition appartient désormais au programme.",
     themes: ["fiscality", "work"],
     phaseWeights: internalPhases,
     minDecisionIndex: 7,
@@ -535,7 +535,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "strategy_leak_publish",
-        "Publier la note entière, identifier son auteur fictif et confirmer les options finalement écartées",
+        "Publier la note entière, identifier son auteur et confirmer les options finalement écartées",
         "legal_action",
         "TRANSPARENT",
         "strategy_leak_full_note",
@@ -647,7 +647,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "La promesse faite après la primaire",
     category: "internal",
     summary:
-      "Pour obtenir un soutien décisif lors de la primaire fictive, vous aviez promis à un courant la responsabilité du programme social. Ce courant réclame maintenant le poste, alors que l’équipe en place a déjà finalisé la moitié du texte.",
+      "Pour obtenir un soutien décisif lors de la primaire, vous aviez promis à un courant la responsabilité du programme social. Ce courant réclame maintenant le poste, alors que l’équipe en place a déjà finalisé la moitié du texte.",
     themes: ["institutions", "social_issues"],
     phaseWeights: { pre_campaign: 1, campaign: 0.75, official_campaign: 0.1 },
     maxDecisionIndex: 14,
@@ -893,7 +893,7 @@ export const v2InternalEvents: GameEventDefinition[] = [
     title: "Un donateur demande un rendez-vous",
     category: "internal",
     summary:
-      "Un entrepreneur fictif ayant versé un don dans les limites légales sollicite une rencontre privée sur votre fiscalité. Le rendez-vous est autorisé, mais son calendrier et sa confidentialité peuvent nourrir un soupçon d’influence.",
+      "Un entrepreneur ayant versé un don dans les limites légales sollicite une rencontre privée sur votre fiscalité. Le rendez-vous est autorisé, mais son calendrier et sa confidentialité peuvent nourrir un soupçon d’influence.",
     themes: ["fiscality", "institutions"],
     phaseWeights: internalPhases,
     entityReferences: [

@@ -20,7 +20,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     title: "Une apostrophe change le slogan",
     category: "rare",
     summary:
-      "Un lot de cinquante mille tracts transforme par erreur « la France en commun » en une formule grammaticalement étrange. Les premières photographies circulent déjà et l’imprimeur fictif propose une réimpression gratuite sous trois jours.",
+      "Un lot de cinquante mille tracts transforme par erreur « la France en commun » en une formule grammaticalement étrange. Les premières photographies circulent déjà et l’imprimeur propose une réimpression gratuite sous trois jours.",
     themes: ["institutions"],
     rarity: "rare",
     importance: "routine",
@@ -140,7 +140,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     title: "Un perroquet répète votre slogan",
     category: "rare",
     summary:
-      "Au marché de Nice, le perroquet d’un commerçant fictif répète distinctement les quatre derniers mots de votre slogan devant les caméras. La scène est authentique, inoffensive et menace de remplacer entièrement votre annonce sur les commerces.",
+      "Au marché de Nice, le perroquet d’un commerçant répète distinctement les quatre derniers mots de votre slogan devant les caméras. La scène est authentique, inoffensive et menace de remplacer entièrement votre annonce sur les commerces.",
     themes: ["economy"],
     rarity: "legendary",
     importance: "routine",
@@ -327,7 +327,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     title: "Le débat sur les pouvoirs exceptionnels",
     category: "rare",
     summary:
-      "Une crise institutionnelle fictive pousse plusieurs commentateurs à vous demander si vous utiliseriez l’article 16 de la Constitution. Les conditions juridiques ne sont pas réunies dans la situation présente ; votre réponse doit surtout définir vos garde-fous.",
+      "Une crise institutionnelle pousse plusieurs commentateurs à vous demander si vous utiliseriez l’article 16 de la Constitution. Les conditions juridiques ne sont pas réunies dans la situation présente ; votre réponse doit surtout définir vos garde-fous.",
     themes: ["institutions", "civil_liberties"],
     rarity: "rare",
     importance: "decisive",
@@ -422,7 +422,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     title: "Neuf groupes rendent la majorité incertaine",
     category: "rare",
     summary:
-      "Une projection fictive des législatives ne donne de majorité à aucun bloc et répartit l’Assemblée nationale entre neuf groupes. Les journalistes vous demandent avant la présidentielle avec qui vous accepteriez de gouverner.",
+      "Une projection des législatives ne donne de majorité à aucun bloc et répartit l’Assemblée nationale entre neuf groupes. Les journalistes vous demandent avant la présidentielle avec qui vous accepteriez de gouverner.",
     themes: ["institutions"],
     rarity: "rare",
     importance: "decisive",
@@ -497,7 +497,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     title: "Une coalition de crise est proposée",
     category: "rare",
     summary:
-      "Après une combinaison fictive de crise énergétique et de tensions internationales, plusieurs partis proposent un accord limité à six mois sur l’approvisionnement, la défense et le budget. La présidentielle continue et aucun candidat ne renonce.",
+      "Après une combinaison de crise énergétique et de tensions internationales, plusieurs partis proposent un accord limité à six mois sur l’approvisionnement, la défense et le budget. La présidentielle continue et aucun candidat ne renonce.",
     themes: ["europe", "economy", "institutions"],
     rarity: "legendary",
     importance: "decisive",
@@ -568,7 +568,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     title: "Votre voix ne tient plus",
     category: "rare",
     summary:
-      "Après plusieurs semaines sans repos, le médecin fictif de la campagne diagnostique une extinction de voix et exige trois jours de silence complet. Aucun problème plus grave n’est identifié, mais deux grands rendez-vous sont déjà annoncés.",
+      "Après plusieurs semaines sans repos, le médecin de la campagne diagnostique une extinction de voix et exige trois jours de silence complet. Aucun problème plus grave n’est identifié, mais deux grands rendez-vous sont déjà annoncés.",
     themes: ["institutions"],
     rarity: "rare",
     importance: "major",
@@ -680,7 +680,7 @@ export const v2RareEvents: GameEventDefinition[] = [
     title: "Les garde-fous promis sont pris au mot",
     category: "rare",
     summary:
-      "Une association de juristes fictive vous demande de préciser, par écrit, la procédure exacte de consultation du Conseil constitutionnel que vous aviez promise sur les pouvoirs exceptionnels. Un engagement vague deviendrait aussi commode à oublier qu’à rappeler.",
+      "Une association de juristes vous demande de préciser, par écrit, la procédure exacte de consultation du Conseil constitutionnel que vous aviez promise sur les pouvoirs exceptionnels. Un engagement vague deviendrait aussi commode à oublier qu’à rappeler.",
     themes: ["institutions", "civil_liberties"],
     rarity: "uncommon",
     importance: "major",

@@ -10,7 +10,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
     title: "Les factures sans pièce ressortent",
     category: "scandal",
     summary:
-      "Mediapart révèle que trois factures de la campagne ont été payées avec des justificatifs incomplets. Maud Keravel, trésorière fictive, affirme que les prestations ont bien eu lieu. Aucun organisme public n’a encore conclu à une irrégularité.",
+      "Mediapart révèle que trois factures de la campagne ont été payées avec des justificatifs incomplets. Maud Keravel, trésorière, affirme que les prestations ont bien eu lieu. Aucun organisme public n’a encore conclu à une irrégularité.",
     themes: ["institutions", "fiscality"],
     importance: "decisive",
     phaseWeights: scandalPhases,
@@ -106,7 +106,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
     title: "Le contrat du conseiller est publié",
     category: "scandal",
     summary:
-      "Après son départ, Léonard Pujol diffuse son contrat de conseil fictif. Une clause prévoit une prime si la campagne dépasse un seuil de voix, mécanisme légal dans l’univers du jeu mais politiquement difficile à défendre.",
+      "Après son départ, Léonard Pujol diffuse son contrat de conseil. Une clause prévoit une prime si la campagne dépasse un seuil de voix, mécanisme légal dans l’univers du jeu mais politiquement difficile à défendre.",
     themes: ["institutions", "economy"],
     importance: "major",
     phaseWeights: scandalPhases,
@@ -173,7 +173,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
     title: "Des notes de frais se mélangent",
     category: "scandal",
     summary:
-      "Samira Bellon, élue locale fictive, a transmis au parti des frais mêlant un déplacement de campagne et une réunion municipale. La somme est faible, mais la frontière entre les deux activités doit être rétablie avant le dépôt des comptes.",
+      "Samira Bellon, élue locale, a transmis au parti des frais mêlant un déplacement de campagne et une réunion municipale. La somme est faible, mais la frontière entre les deux activités doit être rétablie avant le dépôt des comptes.",
     themes: ["institutions", "fiscality"],
     phaseWeights: scandalPhases,
     entityReferences: [
@@ -241,7 +241,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
     title: "L’imprimeur a doublé une ligne",
     category: "scandal",
     summary:
-      "Étienne Marot, fournisseur fictif, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.",
+      "Étienne Marot, fournisseur, a facturé deux fois le transport d’un lot d’affiches. Il parle d’une erreur automatique et propose un avoir immédiat. Le directeur logistique reconnaît n’avoir contrôlé aucun des trois derniers devis.",
     themes: ["economy", "institutions"],
     phaseWeights: scandalPhases,
     entityReferences: [{ entityId: "fictional_supplier", role: "subject" }],
@@ -373,7 +373,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
     title: "Un virement suit un trajet complexe",
     category: "scandal",
     summary:
-      "La banque de la campagne demande des précisions sur un don fictif reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.",
+      "La banque de la campagne demande des précisions sur un don reçu après deux virements intermédiaires. Le montant respecte le plafond, mais l’origine économique doit être vérifiée avant de pouvoir être conservé.",
     themes: ["fiscality", "institutions"],
     importance: "major",
     rarity: "uncommon",
@@ -412,7 +412,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
         "TECHNIQUE",
         "donation_route_escrow",
         "Le don reste inutilisable sous contrôle",
-        "Les pièces établissent après quelques jours l’identité et les revenus du donateur fictif. Vous pouvez conserver le montant, mais la campagne n’a pas pu le dépenser pendant une période financière tendue.",
+        "Les pièces établissent après quelques jours l’identité et les revenus du donateur. Vous pouvez conserver le montant, mais la campagne n’a pas pu le dépenser pendant une période financière tendue.",
         [
           stat("finances", -1, "Fonds temporairement gelés"),
           stat("credibility", 4, "Origine vérifiée"),
@@ -465,7 +465,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "plagiarized_report_author",
-        "Suspendre la responsable fictive de la note et commander une revue de tous les documents publiés",
+        "Suspendre la responsable de la note et commander une revue de tous les documents publiés",
         "internal_discipline",
         "OFFENSIF",
         "plagiarized_report_review",
@@ -501,7 +501,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
     title: "La directrice a recruté son frère",
     category: "scandal",
     summary:
-      "Anaïs Vercel, directrice de campagne fictive, a recruté son frère comme développeur pour une mission de trois semaines. Le tarif correspond au marché et le travail existe, mais aucun autre candidat n’a été consulté.",
+      "Anaïs Vercel, directrice de campagne, a recruté son frère comme développeur pour une mission de trois semaines. Le tarif correspond au marché et le travail existe, mais aucun autre candidat n’a été consulté.",
     themes: ["institutions", "economy"],
     importance: "major",
     phaseWeights: scandalPhases,
@@ -551,7 +551,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
         "LOYAL",
         "family_hire_defended",
         "La compétence n’efface pas le lien familial",
-        "Les preuves de travail empêchent de parler d’emploi fictif, mais votre refus de modifier la procédure laisse le conflit d’intérêts intact. La loyauté envers Anaïs Vercel devient un coût de crédibilité.",
+        "Les preuves de travail écartent l’accusation d’un poste sans contrepartie réelle, mais votre refus de modifier la procédure laisse le conflit d’intérêts intact. La loyauté envers Anaïs Vercel devient un coût de crédibilité.",
         [
           stat("cohesion", 3, "Directrice soutenue"),
           stat("credibility", -5, "Conflit d’intérêts maintenu"),
@@ -566,7 +566,7 @@ export const v2ScandalEvents: GameEventDefinition[] = [
     title: "Une ligne du CV est fausse",
     category: "scandal",
     summary:
-      "Votre responsable fictif de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.",
+      "Votre responsable de la transition énergétique a indiqué avoir dirigé un programme européen alors qu’il n’en était que coordinateur adjoint. Son expertise technique n’est pas remise en cause, mais la formulation du CV est matériellement fausse.",
     themes: ["ecology", "institutions"],
     phaseWeights: scandalPhases,
     entityReferences: [{ entityId: "fictional_consultant", role: "subject" }],

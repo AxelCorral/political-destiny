@@ -11,7 +11,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Les soutiens arrivent avec leurs conditions",
     category: "between_rounds",
     summary:
-      "Trois candidats fictifs éliminés annoncent leur soutien, mais chacun demande un signal différent sur l’écologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.",
+      "Trois candidats éliminés annoncent leur soutien, mais chacun demande un signal différent sur l’écologie, les retraites ou la décentralisation. Les recevoir ensemble donnerait une majorité visuelle sans résoudre les incompatibilités entre leurs demandes.",
     themes: ["institutions", "ecology", "pensions"],
     importance: "major",
     phaseWeights: { between_rounds: 1 },
@@ -71,7 +71,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Le débat de l’entre-deux-tours",
     category: "between_rounds",
     summary:
-      "Face à votre finaliste fictif, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses qu’une hiérarchie claire entre celles déjà faites.",
+      "Face à votre finaliste, le débat de France 2 et TF1 revient sur vos contradictions de campagne, vos alliances et votre capacité à gouverner. Une audience nationale attend moins de nouvelles promesses qu’une hiérarchie claire entre celles déjà faites.",
     themes: ["institutions", "economy"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.35 },
@@ -417,7 +417,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Votre voix reste décisive",
     category: "between_rounds",
     summary:
-      "Éliminé du premier tour, vous pouvez soutenir le finaliste fictif le plus proche, négocier des garanties ou rester indépendant. Vos électeurs ne sont pas une propriété : la manière de donner la consigne comptera autant que son sens.",
+      "Éliminé du premier tour, vous pouvez soutenir le finaliste le plus proche, négocier des garanties ou rester indépendant. Vos électeurs ne sont pas une propriété : la manière de donner la consigne comptera autant que son sens.",
     themes: ["institutions"],
     importance: "major",
     phaseWeights: { between_rounds: 1 },
@@ -476,7 +476,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Aucun finaliste ne porte votre ligne",
     category: "between_rounds",
     summary:
-      "Les deux finalistes fictifs sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre l’un d’entre eux engage malgré tout votre responsabilité.",
+      "Les deux finalistes sont éloignés de vos positions sur des sujets différents. Refuser de choisir protège votre identité ; fixer des critères ou appeler à battre l’un d’entre eux engage malgré tout votre responsabilité.",
     themes: ["institutions", "civil_liberties"],
     phaseWeights: { between_rounds: 1 },
     eligibility: [...eliminated],
@@ -650,7 +650,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Le choix de Matignon",
     category: "government",
     summary:
-      "Votre victoire fictive ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit l’image du pouvoir sans réseau parlementaire propre.",
+      "Votre victoire ouvre immédiatement la question de Matignon. Une figure de votre parti garantit la ligne, une alliée consolide la majorité et une personnalité indépendante élargit l’image du pouvoir sans réseau parlementaire propre.",
     themes: ["institutions"],
     importance: "decisive",
     phaseWeights: { government_epilogue: 1 },
@@ -659,7 +659,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "prime_minister_party",
-        "Nommer la responsable fictive du programme et lui confier la négociation de la majorité",
+        "Nommer la responsable du programme et lui confier la négociation de la majorité",
         "internal_discipline",
         "LOYAL",
         "prime_minister_program_lead",
@@ -674,7 +674,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "prime_minister_ally",
-        "Nommer une alliée fictive et signer avec elle un contrat de coalition public",
+        "Nommer une alliée et signer avec elle un contrat de coalition public",
         "alliance",
         "RASSEMBLEUR",
         "prime_minister_coalition_ally",
@@ -689,7 +689,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "prime_minister_independent",
-        "Choisir une haute fonctionnaire fictive indépendante et lui demander une équipe resserrée",
+        "Choisir une haute fonctionnaire indépendante et lui demander une équipe resserrée",
         "long_term_strategy",
         "PRÉSIDENTIEL",
         "prime_minister_independent_expert",
@@ -710,7 +710,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Quinze ministres pour une coalition",
     category: "government",
     summary:
-      "La liste fictive doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.",
+      "La liste doit équilibrer compétences, parité, territoires et partenaires en quinze postes. Trois alliés demandent le même ministère économique et plusieurs spécialistes sans mandat électif pourraient renforcer la crédibilité.",
     themes: ["institutions", "economy"],
     importance: "major",
     phaseWeights: { government_epilogue: 1 },
@@ -767,7 +767,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "La première adresse de l’Élysée",
     category: "government",
     summary:
-      "Après les célébrations, votre première parole présidentielle fictive doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.",
+      "Après les célébrations, votre première parole présidentielle doit hiérarchiser le mandat. Les partenaires attendent leurs concessions, votre parti attend sa mesure phare et le pays veut comprendre ce qui changera dès les cent premiers jours.",
     themes: ["institutions"],
     importance: "decisive",
     phaseWeights: { government_epilogue: 1 },
@@ -835,7 +835,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
     title: "Deux alliés réclament Bercy",
     category: "government",
     summary:
-      "Deux responsables fictifs ayant soutenu votre second tour revendiquent le ministère de l’Économie. L’un apporte des parlementaires, l’autre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.",
+      "Deux responsables ayant soutenu votre second tour revendiquent le ministère de l’Économie. L’un apporte des parlementaires, l’autre a rédigé le contrat de coalition. Les nommer ailleurs risque de fragiliser une majorité encore neuve.",
     themes: ["economy", "institutions"],
     importance: "major",
     phaseWeights: { government_epilogue: 1 },
@@ -874,7 +874,7 @@ export const v2EndgameEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "ministry_conflict_third",
-        "Écarter les deux candidatures et nommer une économiste fictive indépendante",
+        "Écarter les deux candidatures et nommer une économiste indépendante",
         "break",
         "OFFENSIF",
         "ministry_conflict_independent",

@@ -17,7 +17,7 @@ export const politicalCurrents: PoliticalCurrentDefinition[] = [
       "Rester alliée au Rassemblement national",
       "Prendre son autonomie",
       "Rejoindre une coalition de droite",
-      "Soutenir un autre candidat fictif",
+      "Soutenir un autre candidat",
     ],
     editorialStatus: "context_only",
   },

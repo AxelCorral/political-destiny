@@ -59,9 +59,16 @@ describe("Renaissance — axes de diversification (generation / network-autonomy
   });
 
   it("l'axe renouvellement est atteignable en pratique quand le joueur choisit new_cycle puis délègue", () => {
+    // PROMPT_CLAUDE_CODE_RECOMPOSITIONS_STRATEGIQUES_SOUTIENS_CHOCS.md — le
+    // désistement stratégique introduit de nouveaux tirages RNG dans le tour
+    // adverse, ce qui déplace la séquence entière pour toute graine donnée
+    // (comme toute nouvelle consommation de RNG ajoutée au moteur). La
+    // fenêtre de recherche est élargie (30 → 250) pour rester fiable après ce
+    // déplacement plutôt que de dépendre d'un nombre de graines qui ne
+    // garantissait déjà qu'une propriété probabiliste, pas un chiffre exact.
     let sawGenerationTest = false;
     let sawPayoff = false;
-    for (let i = 0; i < 30; i += 1) {
+    for (let i = 0; i < 250; i += 1) {
       const state = playRenaissancePreferring(`renaissance-gen-${i}`, [
         "renaissance_identity_new_cycle",
         "renaissance_generation_delegate",
@@ -71,6 +78,7 @@ describe("Renaissance — axes de diversification (generation / network-autonomy
       if (ids.includes("party_renaissance_generation_test")) sawGenerationTest = true;
       if (ids.includes("party_renaissance_generation_payoff")) sawPayoff = true;
       expect(validateGameState(state).errors).toEqual([]);
+      if (sawGenerationTest && sawPayoff) break;
     }
     expect(sawGenerationTest).toBe(true);
     expect(sawPayoff).toBe(true);

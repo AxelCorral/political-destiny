@@ -537,5 +537,128 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
     if (!effectKinds.has(kind)) errors.push(`Type d’effet sans usage dans le contenu : ${kind}`);
   }
 
+  /**
+   * PROMPT_CLAUDE_CODE_ANCRAGE_REEL_PSEUDO_REALITE_RECOMPOSITIONS.md §42 —
+   * règles ajoutées pour cette mission. Le texte "fictif" reprend le même
+   * motif que `scripts/audit/reality-grounding-content-audit.ts` (§0.2/§25),
+   * promu ici en règle bloquante plutôt que ponctuelle.
+   */
+  const fictifPattern = /fictif|fictive|fictionnel|fictionnelle/iu;
+  const scanFictifMention = (eventId: string, field: string, text: string | undefined) => {
+    if (text && fictifPattern.test(text))
+      errors.push(`${eventId}: mention « fictif » dans un texte visible au joueur (${field})`);
+  };
+  for (const event of content.events) {
+    scanFictifMention(event.id, "title", event.title);
+    scanFictifMention(event.id, "summary", event.summary);
+    for (const choice of event.choices) {
+      scanFictifMention(event.id, `${choice.id}.label`, choice.label);
+      scanFictifMention(event.id, `${choice.id}.immediatePublicHint`, choice.immediatePublicHint);
+      for (const outcome of choice.outcomeGroups) {
+        scanFictifMention(event.id, `${choice.id}.${outcome.id}.title`, outcome.title);
+        scanFictifMention(
+          event.id,
+          `${choice.id}.${outcome.id}.publicNarrative`,
+          outcome.publicNarrative,
+        );
+      }
+    }
+  }
+  for (const achievement of content.achievements) {
+    scanFictifMention(achievement.id, "title", achievement.title);
+    scanFictifMention(achievement.id, "description", achievement.description);
+  }
+  for (const ending of content.endings) {
+    scanFictifMention(ending.id, "title", ending.title);
+    scanFictifMention(ending.id, "narrative", ending.narrative);
+  }
+
+  /**
+   * PROMPT_CLAUDE_CODE_RECOMPOSITIONS_STRATEGIQUES_SOUTIENS_CHOCS.md §36 —
+   * validation éditoriale des endorsements, étendue au-delà des deux
+   * contrôles déjà existants (tags/partis non vides) : la figure référencée
+   * doit exister dans le registre correspondant à son `figureKind`, ses
+   * `requiredAffinityTags` doivent recouper les `affinityTags` réels de cette
+   * figure (sinon la compatibilité affichée n'a aucune base structurelle), et
+   * aucun parti éligible ne doit être idéologiquement à l'opposé de la
+   * figure sur l'axe économique sans que `internalContext` documente
+   * explicitement l'exception (seuil volontairement large — 150 sur une
+   * échelle de 200 — pour ne signaler qu'une contradiction franche, pas un
+   * simple désaccord d'axe).
+   */
+  const worldFigureById = new Map((content.worldFigures ?? []).map((figure) => [figure.id, figure]));
+  const nationalFigureById = new Map(
+    (content.nationalFigures ?? []).map((figure) => [figure.id, figure]),
+  );
+  const partyDefinitionById = new Map(content.parties.map((party) => [party.id, party]));
+  for (const endorsement of content.majorEndorsements ?? []) {
+    if (endorsement.requiredAffinityTags.length === 0)
+      errors.push(`${endorsement.id}: endorsement sans affinityTags`);
+    if (endorsement.eligiblePartyIds.length === 0)
+      errors.push(`${endorsement.id}: endorsement sans parti éligible`);
+
+    const figure =
+      endorsement.figureKind === "world_figure"
+        ? worldFigureById.get(endorsement.figureId)
+        : nationalFigureById.get(endorsement.figureId);
+    if (!figure) {
+      errors.push(
+        `${endorsement.id}: figure absente du registre (${endorsement.figureKind}/${endorsement.figureId})`,
+      );
+      continue;
+    }
+    const figureAffinities = new Set(figure.affinityTags);
+    const overlap = endorsement.requiredAffinityTags.some((tag) => figureAffinities.has(tag));
+    if (!overlap) {
+      errors.push(
+        `${endorsement.id}: requiredAffinityTags (${endorsement.requiredAffinityTags.join(", ")}) ne recoupe aucune affinityTag réelle de ${endorsement.figureId}`,
+      );
+    }
+    const figureEconomicAxis =
+      "economicAxis" in figure ? figure.economicAxis : undefined;
+    if (figureEconomicAxis !== undefined) {
+      for (const partyId of endorsement.eligiblePartyIds) {
+        const party = partyDefinitionById.get(partyId);
+        if (!party) continue;
+        const distance = Math.abs(party.ideology.economy - figureEconomicAxis);
+        if (distance > 150 && !endorsement.internalContext.trim()) {
+          errors.push(
+            `${endorsement.id}: parti éligible ${partyId} idéologiquement opposé à ${endorsement.figureId} (écart économique ${distance.toFixed(0)}) sans internalContext documentant l'exception`,
+          );
+        }
+      }
+    }
+  }
+
+  for (const figure of content.nationalFigures ?? []) {
+    if (figure.affinityTags.length === 0)
+      errors.push(`${figure.id}: figure nationale sans affinityTags`);
+    const referencingEndorsements = (content.majorEndorsements ?? []).filter(
+      (endorsement) => endorsement.figureKind !== "world_figure" && endorsement.figureId === figure.id,
+    );
+    if (referencingEndorsements.length === 0)
+      errors.push(`${figure.id}: figure nationale sans endorsement associé`);
+  }
+
+  const actorIds = new Set(content.actors.map((actor) => actor.id));
+  const profilesByParty = new Map<string, number>();
+  for (const profile of content.candidateProfiles ?? []) {
+    if (!partyIds.has(profile.partyId))
+      errors.push(`${profile.id}: candidateProfile référence un parti absent (${profile.partyId})`);
+    if (!actorIds.has(profile.actorId))
+      errors.push(`${profile.id}: candidateProfile référence un acteur absent (${profile.actorId})`);
+    profilesByParty.set(profile.partyId, (profilesByParty.get(profile.partyId) ?? 0) + 1);
+  }
+  for (const [partyId, count] of profilesByParty) {
+    if (count === 1) errors.push(`${partyId}: un seul candidateProfile déclaré (0 ou 2+ attendu)`);
+    const defaults = (content.candidateProfiles ?? []).filter(
+      (profile) => profile.partyId === partyId && profile.isDefault,
+    ).length;
+    if (defaults !== 1)
+      errors.push(
+        `${partyId}: ${defaults} candidateProfile(s) marqués par défaut (exactement 1 attendu)`,
+      );
+  }
+
   return { valid: errors.length === 0, errors, warnings, metrics };
 }
