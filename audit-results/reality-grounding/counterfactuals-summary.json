@@ -1,0 +1,10 @@
+{
+  "totalPairs": 520,
+  "forkDecisionIndex": 16,
+  "leaderChangedPercent": 29.4,
+  "qualifiedSetChangedPercent": 63.7,
+  "playerOutcomeChangedPercent": 27.5,
+  "meanAbsolutePlayerScoreDelta": 2.638,
+  "meanSignedPlayerScoreDelta": 1.01,
+  "durationSeconds": 126.8
+}

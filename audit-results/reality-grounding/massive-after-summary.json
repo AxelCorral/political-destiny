@@ -1,0 +1,22 @@
+{
+  "totalCampaigns": 10080,
+  "seedsPerCombo": 140,
+  "meanR1LeaderScore": 19.57,
+  "meanR1Gap": 4.73,
+  "meanR1StdDev": 4.3,
+  "dominantFavoritePercent": 24.4,
+  "qualificationRatePercent": 75,
+  "victoryRatePercent": 59.04,
+  "withdrawalFrequencyPercent": 22.84,
+  "replacementFrequencyPercent": 10.5,
+  "allianceFrequencyPercent": 76.62,
+  "dissidenceFrequencyPercent": 0.14,
+  "anyRecompositionFrequencyPercent": 83.9,
+  "meanWithdrawalShock": 3.77,
+  "maxWithdrawalShockObserved": 45.79,
+  "rnFerranSharePercent": 34.4,
+  "rnMontclarSharePercent": 65.6,
+  "psVilledieuSharePercent": 54.5,
+  "psRassemblementSharePercent": 45.5,
+  "durationSeconds": 1623.2
+}

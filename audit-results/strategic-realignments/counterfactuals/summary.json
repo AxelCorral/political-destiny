@@ -1,0 +1,27 @@
+{
+  "note": "Résumé consolidé après correction du bug de troncature de opponentActions (voir STRATEGIC_REALIGNMENTS_REPORT.md §10) : A et l'axe de découverte de B ont été rejoués avec le correctif ; C n'était pas affecté (ne dépend pas d'un diff par longueur de opponentActions).",
+  "A_pairs": 500,
+  "A_meanAbsScoreDelta": 7.678,
+  "A_qualificationChangedPercent": 10.0,
+  "A_victoryChangedPercent": 29.2,
+  "A_withdrawnPartyDistribution": {
+    "reconquete": 397,
+    "ecologistes": 101,
+    "lfi": 1,
+    "reconquete_dissidence_15": 1
+  },
+  "B_pairs": 500,
+  "B_meanLfiShare_relationNegative70": 14.52,
+  "B_meanLfiShare_relationNeutral0": 15.18,
+  "B_meanLfiShare_relationPositive70": 16.45,
+  "B_meanPsShare_relationNegative70": 15.54,
+  "B_meanPsShare_relationNeutral0": 15.36,
+  "B_meanPsShare_relationPositive70": 15.16,
+  "B_psHigherShareOfPairsPercent": 66.8,
+  "C_pairs": 500,
+  "C_meanAbsScoreDelta": 0.986,
+  "C_qualificationChangedPercent": 1.2,
+  "durationSeconds_A": 308.1,
+  "durationSeconds_B": 2.1,
+  "durationSeconds_C_originalRun": 1607.3
+}

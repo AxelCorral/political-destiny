@@ -1,0 +1,21 @@
+{
+  "totalCampaigns": 10800,
+  "totalWithdrawals": 2439,
+  "campaignsWithAtLeastOneWithdrawal": 2421,
+  "withdrawalFrequencyPercent": 22.42,
+  "ecologistesWithdrawals": 5,
+  "ecologistesWithdrawalRatePercent": 0.046,
+  "triggerLowPollingOnly": 2267,
+  "triggerLowLegitimacyOnly": 117,
+  "triggerBoth": 54,
+  "triggerNeither": 1,
+  "withdrawalsWithPositiveViability": 2424,
+  "maxNationalShockPoints": 48.67,
+  "meanNationalShockPoints": 7.189,
+  "shocksOver5": 343,
+  "shocksOver10": 300,
+  "shocksOver20": 236,
+  "shocksOver30": 236,
+  "rankFlipsAmongWithdrawals": 98,
+  "durationSeconds": 1211.5
+}

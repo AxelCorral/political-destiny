@@ -1,0 +1,6 @@
+metric,etaSquaredPartyBeforeMission,etaSquaredPartyAfterMission,etaSquaredAgentBeforeMission,etaSquaredAgentAfterMission
+firstRoundScore,0.4065,0.4563,0.2684,0.2539
+finalScore,0.3136,0.2827,0.3383,0.3572
+progression,0.5183,0.4109,0.2179,0.2563
+progressionNormalized,0.4785,0.4407,0.2237,0.2461
+overperformanceVsNeutral,0.0092,0.0024,0.4249,0.4390

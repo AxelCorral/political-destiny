@@ -1,0 +1,6 @@
+testFile,testName,scenario,result,note
+src/features/campaign/__tests__/raceBulletinAfterFirstRound.test.ts,ne déclenche jamais l'écran « race » pendant l'entre-deux-tours ou le gouvernement même quand un sondage est généré,LFI full campaign to government,PASS,pre-existing (fix(ui) RaceBulletinScreen commit) — re-verified unchanged after latest electoral/runoff fixes
+e2e/game.spec.ts,7 · qualification contrôlée au second tour,player qualified,PASS (re-run this session; single-worker rerun after a cold-Next.js-compile flake under 2 parallel workers),full UI flow through election-night screen
+e2e/game.spec.ts,8 · élimination contrôlée au premier tour et bilan final,player eliminated round 1,PASS (re-run this session; same cold-compile flake as test 7),full UI flow to final screen
+e2e/game.spec.ts,9 · défaite contrôlée au second tour,player qualified then loses round 2,PASS (re-run this session),full UI flow through both election nights
+e2e/game.spec.ts,10 · victoire contrôlée épilogue gouvernemental et bilan,player wins,PASS (re-run this session),full UI flow through government epilogue

@@ -1,0 +1,14 @@
+{
+  "totalCampaigns": 5472,
+  "seedsPerCombo": 76,
+  "meanR1LeaderScore": 19.34,
+  "meanR1Gap": 5.07,
+  "meanR1StdDev": 4.289,
+  "dominantFavoritePercent": 23.7,
+  "withdrawalFrequencyPercent": 0.02,
+  "replacementFrequencyPercent": 9.54,
+  "allianceFrequencyPercent": 79,
+  "dissidenceFrequencyPercent": 0.2,
+  "anyRecompositionFrequencyPercent": 81.18,
+  "durationSeconds": 870.8
+}
