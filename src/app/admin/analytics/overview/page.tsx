@@ -3,7 +3,7 @@ import {
   parseDashboardFilters,
   type RawSearchParams,
 } from "@/analytics/server/dashboardFilters";
-import { getOverview } from "@/analytics/server/dashboardQueries";
+import { getOverview, getOverviewSummary } from "@/analytics/server/dashboardQueries";
 import {
   getSupabaseAdminClient,
   isAnalyticsStorageConfigured,
@@ -30,30 +30,71 @@ export default async function OverviewPage({
   }
 
   const supabase = getSupabaseAdminClient()!;
-  const rows = await getOverview(supabase, filters);
-  const totals = rows.reduce(
-    (acc, row) => ({
-      started: acc.started + row.runs_started,
-      completed: acc.completed + row.runs_completed,
-      decisions: acc.decisions + row.decisions_total,
-      users: Math.max(acc.users, row.distinct_anonymous_users),
-    }),
-    { started: 0, completed: 0, decisions: 0, users: 0 },
-  );
+  const [rows, summary] = await Promise.all([
+    getOverview(supabase, filters),
+    getOverviewSummary(supabase, filters),
+  ]);
+  const decisionsTotal = rows.reduce((sum, row) => sum + row.decisions_total, 0);
 
   return (
     <div>
       <DashboardFilterBar pathname="/admin/analytics/overview" filters={filters} />
+      <p className="mb-4 rounded-lg border border-[var(--line)] bg-blue-50 p-3 text-xs font-bold text-[var(--blue-700)]">
+        Statistiques basées uniquement sur les parties pour lesquelles les statistiques anonymes ont
+        été activées.
+      </p>
       <SectionCaution>
         Volumes bruts sur la période filtrée. anonymous_user_id désigne un navigateur, pas une
         personne précise — deux valeurs peuvent correspondre à la même personne sur deux appareils,
         une valeur peut aussi correspondre à plusieurs personnes sur un appareil partagé.
       </SectionCaution>
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-        <KpiCard label="Campagnes commencées" value={totals.started} />
-        <KpiCard label="Campagnes terminées" value={totals.completed} />
-        <KpiCard label="Décisions résolues" value={totals.decisions} />
-        <KpiCard label="Utilisateurs anonymes distincts (jour max)" value={totals.users} />
+        <KpiCard label="Campagnes commencées" value={summary?.runs_started ?? 0} />
+        <KpiCard label="Campagnes terminées" value={summary?.runs_completed ?? 0} />
+        <KpiCard label="Campagnes inactives (stale)" value={summary?.runs_stale ?? 0} />
+        <KpiCard label="Campagnes en cours" value={summary?.runs_ongoing ?? 0} />
+        <KpiCard
+          label="Taux de complétion"
+          value={
+            summary?.completion_rate !== undefined && summary?.completion_rate !== null
+              ? `${(summary.completion_rate * 100).toFixed(0)}%`
+              : "—"
+          }
+        />
+        <KpiCard
+          label="Navigateurs anonymes distincts"
+          value={summary?.distinct_anonymous_users ?? 0}
+        />
+        <KpiCard
+          label="Campagnes / navigateur"
+          value={summary?.runs_per_browser?.toFixed(2) ?? "—"}
+        />
+        <KpiCard
+          label="Durée médiane (min)"
+          value={
+            summary?.median_duration_seconds !== undefined &&
+            summary?.median_duration_seconds !== null
+              ? Math.round(summary.median_duration_seconds / 60)
+              : "—"
+          }
+        />
+        <KpiCard
+          label="Taux de qualification"
+          value={
+            summary?.qualification_rate !== undefined && summary?.qualification_rate !== null
+              ? `${(summary.qualification_rate * 100).toFixed(0)}%`
+              : "—"
+          }
+        />
+        <KpiCard
+          label="Taux de victoire"
+          value={
+            summary?.win_rate !== undefined && summary?.win_rate !== null
+              ? `${(summary.win_rate * 100).toFixed(0)}%`
+              : "—"
+          }
+        />
+        <KpiCard label="Décisions résolues" value={decisionsTotal} />
       </div>
       <div className="mt-6 flex justify-end">
         <a

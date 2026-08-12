@@ -4,6 +4,7 @@ import {
   getSupabaseAdminClient,
   isAnalyticsStorageConfigured,
 } from "@/analytics/server/supabaseAdmin";
+import { gameContent } from "@/game/data";
 
 import { DashboardFilterBar } from "../_components/filter-bar";
 import { EmptyState, SectionCaution } from "../_components/dashboard-ui";
@@ -33,6 +34,12 @@ export default async function VersionsPage({
   const leastExposed = [...exposure]
     .sort((a, b) => a.n_runs_exposed - b.n_runs_exposed)
     .slice(0, 20);
+  // "Never exposed" can only be computed here: the DB only knows what WAS
+  // exposed at least once, never the full catalog of possible events — that
+  // catalog lives in the app (gameContent.events), so the cross-reference
+  // happens in JS, not SQL (see docs/analytics/PRODUCT_ANALYTICS_COVERAGE.md).
+  const exposedEventIds = new Set(exposure.map((row) => row.event_id));
+  const neverExposed = gameContent.events.filter((event) => !exposedEventIds.has(event.id));
 
   return (
     <div>
@@ -90,13 +97,14 @@ export default async function VersionsPage({
         <EmptyState>Aucune donnée sur ces filtres.</EmptyState>
       ) : (
         <div className="overflow-x-auto rounded-xl border border-[var(--line)]">
-          <table className="w-full min-w-[480px] text-left text-sm">
+          <table className="w-full min-w-[560px] text-left text-sm">
             <thead className="bg-[var(--surface-raised)] text-xs uppercase text-[var(--ink-muted)]">
               <tr>
                 <th className="px-3 py-2">Événement</th>
                 <th className="px-3 py-2">Catégorie</th>
                 <th className="px-3 py-2">Runs exposés</th>
                 <th className="px-3 py-2">Expositions totales</th>
+                <th className="px-3 py-2">Rare / Chaîne / Décisif</th>
               </tr>
             </thead>
             <tbody>
@@ -106,10 +114,54 @@ export default async function VersionsPage({
                   <td className="px-3 py-2">{row.event_category}</td>
                   <td className="px-3 py-2">{row.n_runs_exposed}</td>
                   <td className="px-3 py-2">{row.n_total_exposures}</td>
+                  <td className="px-3 py-2 text-xs">
+                    {[row.is_rare && "rare", row.is_chain && "chaîne", row.is_decisive && "décisif"]
+                      .filter(Boolean)
+                      .join(", ") || "—"}
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
+        </div>
+      )}
+
+      <h2 className="mt-8 text-lg font-black">
+        Jamais exposés sur cette période ({neverExposed.length} événement(s) du catalogue)
+      </h2>
+      <SectionCaution>
+        Calculé en comparant le catalogue de contenu actuel (gameContent.events) aux événements
+        réellement exposés — pas un contrôle SQL, puisque le catalogue lui-même vit dans
+        l’application, pas dans la base. Un événement listé ici peut simplement avoir des conditions
+        d’apparition non remplies sur cette période/ces filtres, pas un bug.
+      </SectionCaution>
+      {neverExposed.length === 0 ? (
+        <EmptyState>Tous les événements du catalogue ont été exposés au moins une fois.</EmptyState>
+      ) : (
+        <div className="overflow-x-auto rounded-xl border border-[var(--line)]">
+          <table className="w-full min-w-[420px] text-left text-sm">
+            <thead className="bg-[var(--surface-raised)] text-xs uppercase text-[var(--ink-muted)]">
+              <tr>
+                <th className="px-3 py-2">Événement</th>
+                <th className="px-3 py-2">Catégorie</th>
+                <th className="px-3 py-2">Rareté</th>
+              </tr>
+            </thead>
+            <tbody>
+              {neverExposed.slice(0, 50).map((event) => (
+                <tr key={event.id} className="border-t border-[var(--line)]">
+                  <td className="px-3 py-2 font-mono text-xs">{event.id}</td>
+                  <td className="px-3 py-2">{event.category}</td>
+                  <td className="px-3 py-2">{event.rarity}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {neverExposed.length > 50 ? (
+            <p className="p-3 text-xs text-[var(--ink-muted)]">
+              {neverExposed.length - 50} de plus, non affichés.
+            </p>
+          ) : null}
         </div>
       )}
     </div>

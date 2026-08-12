@@ -35,15 +35,40 @@ export async function getOverview(
   return (data ?? []) as OverviewRow[];
 }
 
+export interface OverviewSummaryRow {
+  runs_started: number;
+  runs_completed: number;
+  runs_stale: number;
+  runs_ongoing: number;
+  completion_rate: number | null;
+  distinct_anonymous_users: number;
+  runs_per_browser: number | null;
+  median_duration_seconds: number | null;
+  qualification_rate: number | null;
+  win_rate: number | null;
+}
+
+export async function getOverviewSummary(
+  supabase: SupabaseClient,
+  filters: DashboardFilters,
+): Promise<OverviewSummaryRow | undefined> {
+  const { data, error } = await supabase.rpc("fn_overview_summary", versionArgs(filters));
+  if (error) throw error;
+  return (data as OverviewSummaryRow[] | null)?.[0];
+}
+
 export interface PartyPerformanceRow {
   party_id: string;
   n_runs: number;
   n_completed: number;
   avg_final_score: number | null;
+  avg_first_round_score: number | null;
+  median_first_round_score: number | null;
   n_qualified: number;
   n_won: number;
   qualification_rate: number | null;
   win_rate: number | null;
+  win_rate_given_qualified: number | null;
 }
 
 export async function getPartyPerformance(
@@ -112,9 +137,11 @@ export async function getReplayBehavior(
 
 export interface RunoffMatchupRow {
   player_party_id: string;
-  second_round_player_rank: number;
+  opponent_party_id: string;
   n_runoffs: number;
   n_won: number;
+  win_rate: number | null;
+  avg_player_score: number | null;
 }
 
 export async function getRunoffMatchups(
@@ -135,6 +162,8 @@ export interface EventChoiceDistributionRow {
   choice_tag: string | null;
   choice_strategy: string | null;
   n_picked: number;
+  n_event_exposures: number;
+  selection_share: number | null;
 }
 
 export async function getEventChoiceDistribution(
@@ -154,9 +183,11 @@ export interface DecisionHealthRow {
   event_id: string;
   event_category: string;
   n_exposures: number;
+  n_resolved: number;
   n_distinct_choices_taken: number;
   avg_internal_roll: number | null;
   stddev_internal_roll: number | null;
+  median_latency_ms: number | null;
 }
 
 export async function getDecisionHealth(
@@ -176,6 +207,9 @@ export interface ContentExposureRow {
   event_category: string;
   n_runs_exposed: number;
   n_total_exposures: number;
+  is_rare: boolean;
+  is_chain: boolean;
+  is_decisive: boolean;
 }
 
 export async function getContentExposure(
@@ -185,6 +219,56 @@ export async function getContentExposure(
   const { data, error } = await supabase.rpc("fn_content_exposure", commonArgs(filters));
   if (error) throw error;
   return (data ?? []) as ContentExposureRow[];
+}
+
+export interface DashboardUsageRow {
+  n_runs_with_open: number;
+  n_total_opens: number;
+  n_runs_total: number;
+  share_runs_with_open: number | null;
+}
+
+export async function getDashboardUsage(
+  supabase: SupabaseClient,
+  filters: DashboardFilters,
+): Promise<DashboardUsageRow | undefined> {
+  const { data, error } = await supabase.rpc("fn_dashboard_usage", commonArgs(filters));
+  if (error) throw error;
+  return (data as DashboardUsageRow[] | null)?.[0];
+}
+
+export interface IngestionHealthRow {
+  n_batches: number;
+  accepted_total: number;
+  rejected_total: number;
+  duplicate_total: number;
+  rejection_rate: number | null;
+  top_rejection_reason_codes: string[] | null;
+  p50_processing_duration_ms: number | null;
+  p95_processing_duration_ms: number | null;
+}
+
+export async function getIngestionHealth(
+  supabase: SupabaseClient,
+  filters: DashboardFilters,
+): Promise<IngestionHealthRow | undefined> {
+  const { data, error } = await supabase.rpc("fn_ingestion_health", commonArgs(filters));
+  if (error) throw error;
+  return (data as IngestionHealthRow[] | null)?.[0];
+}
+
+export interface GameErrorSummaryRow {
+  error_code: string;
+  n_occurrences: number;
+}
+
+export async function getGameErrorSummary(
+  supabase: SupabaseClient,
+  filters: DashboardFilters,
+): Promise<GameErrorSummaryRow[]> {
+  const { data, error } = await supabase.rpc("fn_game_error_summary", commonArgs(filters));
+  if (error) throw error;
+  return (data ?? []) as GameErrorSummaryRow[];
 }
 
 export interface DataQualityRow {

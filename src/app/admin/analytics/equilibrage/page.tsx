@@ -59,9 +59,11 @@ export default async function EquilibragePage({
                 <th className="px-3 py-2">Parti</th>
                 <th className="px-3 py-2">n_runs</th>
                 <th className="px-3 py-2">n_completed</th>
+                <th className="px-3 py-2">Score T1 moyen / médian</th>
                 <th className="px-3 py-2">Score final moyen</th>
                 <th className="px-3 py-2">Taux de qualification</th>
                 <th className="px-3 py-2">Taux de victoire</th>
+                <th className="px-3 py-2">Victoire | qualifié</th>
               </tr>
             </thead>
             <tbody>
@@ -70,6 +72,10 @@ export default async function EquilibragePage({
                   <td className="px-3 py-2 font-bold">{row.party_id}</td>
                   <td className="px-3 py-2">{row.n_runs}</td>
                   <td className="px-3 py-2">{row.n_completed}</td>
+                  <td className="px-3 py-2">
+                    {row.avg_first_round_score?.toFixed(1) ?? "—"} /{" "}
+                    {row.median_first_round_score?.toFixed(1) ?? "—"}
+                  </td>
                   <td className="px-3 py-2">{row.avg_final_score?.toFixed(1) ?? "—"}</td>
                   <td className="px-3 py-2">
                     <SimpleBar
@@ -90,6 +96,11 @@ export default async function EquilibragePage({
                           : `n=${row.n_completed}`
                       }
                     />
+                  </td>
+                  <td className="px-3 py-2">
+                    {row.win_rate_given_qualified !== null
+                      ? `${(row.win_rate_given_qualified * 100).toFixed(0)}% (n=${row.n_qualified})`
+                      : `n=${row.n_qualified}`}
                   </td>
                 </tr>
               ))}
