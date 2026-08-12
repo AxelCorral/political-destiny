@@ -1,3 +1,5 @@
+import { randomUUID } from "node:crypto";
+
 import { NextResponse } from "next/server";
 
 import {
@@ -6,7 +8,7 @@ import {
   type AnalyticsEventEnvelope,
   type AnalyticsEventName,
 } from "@/analytics/events";
-import { ingestEvents } from "@/analytics/server/ingest";
+import { ingestEvents, recordIngestionBatch } from "@/analytics/server/ingest";
 import {
   getSupabaseAdminClient,
   isAnalyticsStorageConfigured,
@@ -33,6 +35,7 @@ interface RejectedEvent {
  * an otherwise-valid batch.
  */
 export async function POST(request: Request): Promise<NextResponse> {
+  const startedAt = Date.now();
   let rawBody: string;
   try {
     rawBody = await request.text();
@@ -100,6 +103,21 @@ export async function POST(request: Request): Promise<NextResponse> {
 
   try {
     const result = await ingestEvents(supabase, accepted);
+    // Awaited (not fire-and-forget): some deployment platforms suspend the
+    // function as soon as the response is returned, which would silently
+    // drop an un-awaited write. recordBatchBestEffort still can never turn
+    // a failure here into an error response — see its own try/catch.
+    await recordBatchBestEffort(supabase, {
+      batchUuid: randomUUID(),
+      acceptedCount: result.accepted,
+      rejectedCount: rejected.length,
+      duplicateCount: result.duplicates,
+      rejectionReasonCodes: [...new Set(rejected.map((item) => item.reason))],
+      processingDurationMs: Date.now() - startedAt,
+      appVersion: accepted[0]?.versions.appVersion,
+      engineVersion: accepted[0]?.versions.engineVersion,
+      contentVersion: accepted[0]?.versions.contentVersion,
+    });
     return NextResponse.json({
       accepted: result.accepted,
       rejected,
@@ -112,5 +130,24 @@ export async function POST(request: Request): Promise<NextResponse> {
       error instanceof Error ? error.message : "unknown error",
     );
     return NextResponse.json({ error: "ingestion_failed" }, { status: 500 });
+  }
+}
+
+/**
+ * Batch-level observability (docs/analytics/DATA_QUALITY.md) is diagnostic,
+ * not a gameplay- or ingestion-critical write — a failure here must never
+ * turn an otherwise-successful ingestion response into an error.
+ */
+async function recordBatchBestEffort(
+  supabase: NonNullable<ReturnType<typeof getSupabaseAdminClient>>,
+  record: Parameters<typeof recordIngestionBatch>[1],
+): Promise<void> {
+  try {
+    await recordIngestionBatch(supabase, record);
+  } catch (error) {
+    console.error(
+      "[analytics] failed to record ingestion batch observability:",
+      error instanceof Error ? error.message : "unknown error",
+    );
   }
 }
