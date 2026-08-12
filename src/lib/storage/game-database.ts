@@ -35,9 +35,18 @@ export interface LocalSettings {
   analyticsConsent: AnalyticsConsentState;
 }
 
+/**
+ * Machine-readable discriminant for `warning` below, so callers (the
+ * game_error analytics event — src/features/campaign/game-app.tsx) never
+ * have to parse a human-facing message string to know which of the two
+ * real failure modes occurred.
+ */
+export type LoadGameWarningCode = "save_corrupted" | "save_version_incompatible";
+
 export interface LoadGameResult {
   state?: GameState;
   warning?: string;
+  warningCode?: LoadGameWarningCode;
   recoveryJson?: string;
 }
 
@@ -232,13 +241,17 @@ export async function loadActiveGame(): Promise<LoadGameResult> {
     return {
       warning:
         "La sauvegarde active était incomplète. Une copie de récupération locale a été conservée.",
+      warningCode: "save_corrupted",
       recoveryJson,
     };
   }
   try {
     return { state: migrateGameState(raw) };
   } catch (error) {
-    return { warning: error instanceof Error ? error.message : "Sauvegarde incompatible." };
+    return {
+      warning: error instanceof Error ? error.message : "Sauvegarde incompatible.",
+      warningCode: "save_version_incompatible",
+    };
   }
 }
 

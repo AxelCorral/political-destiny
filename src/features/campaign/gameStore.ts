@@ -2,6 +2,7 @@
 
 import { create } from "zustand";
 
+import { track } from "@/analytics/client";
 import { gameContent } from "@/game/data";
 import { createGame, resolveCurrentChoice } from "@/game/engine";
 import { hashSeed } from "@/game/engine/rng";
@@ -117,7 +118,8 @@ export const useGameStore = create<GameUiState>((set, get) => ({
   openParty: (partyId) =>
     set({ partyDetailId: partyId, selectedCandidateProfileId: undefined, screen: "party_detail" }),
 
-  chooseCandidateProfile: (candidateProfileId) => set({ selectedCandidateProfileId: candidateProfileId }),
+  chooseCandidateProfile: (candidateProfileId) =>
+    set({ selectedCandidateProfileId: candidateProfileId }),
 
   confirmParty: (partyId) =>
     set((state) => ({
@@ -187,6 +189,11 @@ export const useGameStore = create<GameUiState>((set, get) => ({
       });
     } catch (error) {
       set({ error: error instanceof Error ? error.message : "La campagne n’a pas pu être créée." });
+      track("game_error", undefined, {
+        errorCode: "game_creation_failed",
+        source: "launch_campaign",
+        recoverable: true,
+      });
     }
   },
 
@@ -228,6 +235,13 @@ export const useGameStore = create<GameUiState>((set, get) => ({
     } catch (error) {
       set({
         error: error instanceof Error ? error.message : "Cette décision n’a pas pu être résolue.",
+      });
+      track("game_error", before.runId, {
+        errorCode: "decision_resolution_failed",
+        source: "choose_event_option",
+        phase: before.phase,
+        decisionIndex: before.decisionIndex,
+        recoverable: true,
       });
     }
   },

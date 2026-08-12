@@ -66,12 +66,24 @@ export function GameApp() {
         if (!active) return;
         if (loaded.state) restoreGame(loaded.state);
         if (loaded.warning) setWarning(loaded.warning);
+        if (loaded.warningCode) {
+          track("game_error", undefined, {
+            errorCode: loaded.warningCode,
+            source: "load_active_game",
+            recoverable: true,
+          });
+        }
       })
       .catch(() => {
         if (active) {
           setWarning(
             "Le stockage local n’est pas accessible. Vous pouvez jouer, mais la reprise ne sera pas garantie.",
           );
+          track("game_error", undefined, {
+            errorCode: "local_storage_unavailable",
+            source: "load_active_game",
+            recoverable: true,
+          });
         }
       });
     const settingsLoad = getLocalSettings()
@@ -80,6 +92,11 @@ export function GameApp() {
       })
       .catch(() => {
         if (active) setFictionNoticeSeen(false);
+        track("game_error", undefined, {
+          errorCode: "local_storage_unavailable",
+          source: "load_local_settings",
+          recoverable: true,
+        });
       });
     void Promise.all([gameLoad, settingsLoad]).finally(() => {
       if (active) setReady(true);
@@ -96,6 +113,13 @@ export function GameApp() {
         setWarning(
           "La sauvegarde automatique n’a pas abouti. Votre partie reste jouable dans cet onglet.",
         );
+        track("game_error", gameState.runId, {
+          errorCode: "local_storage_unavailable",
+          source: "autosave",
+          phase: gameState.phase,
+          decisionIndex: gameState.decisionIndex,
+          recoverable: true,
+        });
       });
     }, GAME_CONFIG.autosaveDebounceMs);
     return () => window.clearTimeout(timeout);
@@ -107,6 +131,13 @@ export function GameApp() {
     void archiveCompletedGame(gameState).catch(() => {
       archivedRunIds.current.delete(gameState.runId);
       setWarning("Le résultat n’a pas encore pu être ajouté aux archives locales.");
+      track("game_error", gameState.runId, {
+        errorCode: "local_storage_unavailable",
+        source: "archive_completed_game",
+        phase: gameState.phase,
+        decisionIndex: gameState.decisionIndex,
+        recoverable: true,
+      });
     });
   }, [gameState, ready]);
 
@@ -156,9 +187,26 @@ export function GameApp() {
     }
 
     if (current.decisionHistory.length > previous.decisionHistory.length) {
+      // Poll/popularity/momentum before-after are read straight off the two
+      // GameState snapshots this effect already diffs — never a recomputed
+      // engine formula. Precise as long as exactly one decision separates
+      // `previous`/`current` (the normal case: chooseEventOption resolves
+      // one decision per call); if several land in the same diff, all of
+      // them get the same before/after pair, which is a documented
+      // approximation, not a fabricated value.
+      const beforeStats = previous.parties[current.playerPartyId]?.stats;
+      const afterStats = current.parties[current.playerPartyId]?.stats;
       for (const record of current.decisionHistory.slice(previous.decisionHistory.length)) {
         track("decision_resolved", current.runId, {
-          decisionIndex: record.decisionIndex,
+          // DecisionRecord.decisionIndex is assigned AFTER
+          // state.decisionIndex is incremented (src/game/engine/game.ts) —
+          // it is 1 for the very first decision. decision_viewed/
+          // choice_selected are tracked from the pre-resolution
+          // GameState.decisionIndex (0 for that same first decision), so
+          // -1 here keeps all three events keyed to the same decisionIndex
+          // for a given logical decision — required for the
+          // (run_id, decision_index) merge in analytics_decisions.
+          decisionIndex: record.decisionIndex - 1,
           phase: current.phase,
           eventId: record.eventId,
           eventCategory: record.eventCategory,
@@ -167,6 +215,12 @@ export function GameApp() {
           choiceStrategy: record.choiceStrategy,
           outcomeId: record.outcomeId,
           internalRoll: record.internalRoll,
+          playerPollBefore: beforeStats?.polling ?? 0,
+          playerPollAfter: afterStats?.polling ?? 0,
+          popularityBefore: beforeStats?.popularity ?? 0,
+          popularityAfter: afterStats?.popularity ?? 0,
+          momentumBefore: beforeStats?.momentum ?? 0,
+          momentumAfter: afterStats?.momentum ?? 0,
         });
       }
     }
@@ -175,6 +229,8 @@ export function GameApp() {
       for (const snapshot of current.pollHistory.slice(previous.pollHistory.length)) {
         track("race_snapshot", current.runId, {
           decisionIndex: snapshot.decisionIndex,
+          phase: current.phase,
+          playerScore: snapshot.results[current.playerPartyId] ?? 0,
           playerRank: snapshot.playerRank,
           playerTrend: snapshot.playerTrend,
           resultsCount: Object.keys(snapshot.results).length,
@@ -186,6 +242,7 @@ export function GameApp() {
       const rank = current.firstRoundResult.ranking.indexOf(current.playerPartyId) + 1;
       const qualified = current.flags.playerQualified === true;
       track("first_round_result", current.runId, {
+        score: current.firstRoundResult.results[current.playerPartyId] ?? 0,
         playerRank: rank || current.firstRoundResult.ranking.length + 1,
         qualified,
         turnout: current.firstRoundResult.turnout,
@@ -197,9 +254,13 @@ export function GameApp() {
 
     if (!previous.secondRoundResult && current.secondRoundResult) {
       const rank = current.secondRoundResult.ranking.indexOf(current.playerPartyId) + 1;
+      const opponentPartyId =
+        current.secondRoundResult.ranking.find((id) => id !== current.playerPartyId) ?? "unknown";
       track("second_round_result", current.runId, {
+        score: current.secondRoundResult.results[current.playerPartyId] ?? 0,
         playerRank: rank || current.secondRoundResult.ranking.length + 1,
         won: current.secondRoundResult.ranking[0] === current.playerPartyId,
+        opponentPartyId,
         turnout: current.secondRoundResult.turnout,
       });
       track("milestone_reached", current.runId, { milestone: "entered_second_round" });
@@ -228,6 +289,15 @@ export function GameApp() {
       router.push("/");
     } catch {
       setWarning("La sauvegarde n’a pas abouti : la campagne reste ouverte dans cet onglet.");
+      if (gameState) {
+        track("game_error", gameState.runId, {
+          errorCode: "local_storage_unavailable",
+          source: "save_and_quit",
+          phase: gameState.phase,
+          decisionIndex: gameState.decisionIndex,
+          recoverable: true,
+        });
+      }
     }
   };
 

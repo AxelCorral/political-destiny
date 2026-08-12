@@ -13,12 +13,16 @@ export const analyticsEventTypes = [
   "consent_updated",
   "run_started",
   "run_resumed",
+  "decision_viewed",
+  "choice_selected",
   "decision_resolved",
   "race_snapshot",
   "first_round_result",
   "second_round_result",
   "milestone_reached",
   "run_completed",
+  "player_dashboard_opened",
+  "game_error",
 ] as const;
 
 export type AnalyticsEventName = (typeof analyticsEventTypes)[number];
@@ -31,7 +35,14 @@ export const isoDatetimeSchema = z
 
 export const analyticsVersionsSchema = z.object({
   appVersion: z.string().min(1).max(32),
+  /**
+   * Engine LOGIC version (probabilities, selection weights, scoring
+   * formulas, etc.) — NOT the save-file schema version. See
+   * docs/analytics/VERSIONING_POLICY.md.
+   */
   engineVersion: z.string().min(1).max(32),
+  /** GameState save-file compatibility version (GAME_CONFIG.schemaVersion). */
+  saveSchemaVersion: z.string().min(1).max(32),
   contentVersion: z.string().min(1).max(32),
   analyticsSchemaVersion: z.string().min(1).max(16),
   buildSha: z.string().min(1).max(64),
@@ -66,6 +77,33 @@ export const analyticsPayloadSchemas = {
     decisionIndex: z.number().int().min(0),
     phase: z.string().max(32),
   }),
+  /**
+   * A new decision becomes visible to the player. Deduplicated client-side
+   * by (run_id, decisionIndex, eventId) — see CampaignEventScreen
+   * (src/features/campaign/campaign-screens.tsx) — so a React re-render can
+   * never inflate exposure counts.
+   */
+  decision_viewed: z.object({
+    decisionIndex: z.number().int().min(0),
+    phase: z.string().max(32),
+    eventId: z.string().max(128),
+    eventCategory: z.string().max(32),
+    numberOfAvailableChoices: z.number().int().min(1),
+    flags: z.object({
+      rare: z.boolean(),
+      chain: z.boolean(),
+      decisive: z.boolean(),
+      risky: z.boolean(),
+    }),
+  }),
+  /** Emitted on click, before resolution — the denominator for choice_selected is decision_viewed, never itself. */
+  choice_selected: z.object({
+    decisionIndex: z.number().int().min(0),
+    eventId: z.string().max(128),
+    choiceId: z.string().max(128),
+    choiceTag: z.string().max(64).optional(),
+    choiceStrategy: z.string().max(64).optional(),
+  }),
   decision_resolved: z.object({
     decisionIndex: z.number().int().min(0),
     phase: z.string().max(32),
@@ -76,21 +114,34 @@ export const analyticsPayloadSchemas = {
     choiceStrategy: z.string().max(64).optional(),
     outcomeId: z.string().max(128),
     internalRoll: z.number().min(0).max(1),
+    // Read directly from GameState.parties[playerPartyId].stats immediately
+    // before/after resolveCurrentChoice — never a recomputed engine formula.
+    playerPollBefore: z.number(),
+    playerPollAfter: z.number(),
+    popularityBefore: z.number(),
+    popularityAfter: z.number(),
+    momentumBefore: z.number(),
+    momentumAfter: z.number(),
   }),
   race_snapshot: z.object({
     decisionIndex: z.number().int().min(0),
+    phase: z.string().max(32),
+    playerScore: z.number(),
     playerRank: z.number().int().min(1),
     playerTrend: z.number(),
     resultsCount: z.number().int().min(0),
   }),
   first_round_result: z.object({
+    score: z.number(),
     playerRank: z.number().int().min(1),
     qualified: z.boolean(),
     turnout: z.number().min(0).max(1),
   }),
   second_round_result: z.object({
+    score: z.number(),
     playerRank: z.number().int().min(1),
     won: z.boolean(),
+    opponentPartyId: z.string().max(64),
     turnout: z.number().min(0).max(1),
   }),
   milestone_reached: z.object({
@@ -109,6 +160,30 @@ export const analyticsPayloadSchemas = {
     endingId: z.string().max(128),
     progressionNormalized: z.number(),
     decisionsCount: z.number().int().min(0),
+  }),
+  /** A user-initiated open, not a re-render — see campaign-screens.tsx. */
+  player_dashboard_opened: z.object({
+    phase: z.string().max(32),
+    decisionIndex: z.number().int().min(0),
+  }),
+  /**
+   * Categorized technical errors only — never a raw stack/message/Error
+   * object. errorCode is a closed enum limited to real catch sites
+   * (src/features/campaign/gameStore.ts, game-app.tsx,
+   * src/lib/storage/game-database.ts) — see docs/analytics/EVENT_CATALOG.md.
+   */
+  game_error: z.object({
+    errorCode: z.enum([
+      "local_storage_unavailable",
+      "save_corrupted",
+      "save_version_incompatible",
+      "game_creation_failed",
+      "decision_resolution_failed",
+    ]),
+    source: z.string().max(64),
+    phase: z.string().max(32).optional(),
+    decisionIndex: z.number().int().min(0).optional(),
+    recoverable: z.boolean(),
   }),
 } as const satisfies Record<AnalyticsEventName, z.ZodTypeAny>;
 

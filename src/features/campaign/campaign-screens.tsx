@@ -12,8 +12,9 @@ import {
   Trophy,
 } from "lucide-react";
 import type { CSSProperties } from "react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
+import { track } from "@/analytics/client";
 import { PartyMark } from "@/components/game/party-mark";
 import { PollChart } from "@/components/game/poll-chart";
 import { RegionalMap } from "@/components/game/regional-map";
@@ -39,6 +40,7 @@ import { cn } from "@/lib/utils";
 import { CampaignDashboard } from "./campaign-dashboard";
 import { campaignPhaseLabel } from "./campaign-phase-label";
 import { resolveConsequenceEmphasis } from "./consequence-emphasis";
+import { resolveDecisionCardVariant } from "./decision-card-variant";
 import { EVENT_ICONS as CATEGORY_ICONS, EventDecisionCard } from "./event-decision-card";
 import { useGameStore } from "./gameStore";
 
@@ -168,17 +170,77 @@ export function CampaignEventScreen({
   const state = useGameStore((store) => store.gameState);
   const chooseEventOption = useGameStore((store) => store.chooseEventOption);
   const [dashboardOpen, setDashboardOpen] = useState(false);
-  if (!state) return null;
-  const party = state.parties[state.playerPartyId];
-  const event = gameContent.events.find((candidate) => candidate.id === state.currentEventId);
-  if (!party || !event) return null;
+  const event = state
+    ? gameContent.events.find((candidate) => candidate.id === state.currentEventId)
+    : undefined;
+  const party = state ? state.parties[state.playerPartyId] : undefined;
+
+  // decision_viewed — a new decision becoming visible, deduplicated by
+  // (run_id, decisionIndex, eventId) so a re-render (including React 18
+  // Strict Mode's dev double-invoke) never inflates exposure counts.
+  const viewedDecisionsRef = useRef(new Set<string>());
+  useEffect(() => {
+    if (!state || !event) return;
+    const key = `${state.runId}:${state.decisionIndex}:${event.id}`;
+    if (viewedDecisionsRef.current.has(key)) return;
+    viewedDecisionsRef.current.add(key);
+    const { isChainFollowUp } = resolveDecisionCardVariant(event);
+    track("decision_viewed", state.runId, {
+      decisionIndex: state.decisionIndex,
+      phase: state.phase,
+      eventId: event.id,
+      eventCategory: event.category,
+      numberOfAvailableChoices: event.choices.length,
+      flags: {
+        rare: event.category === "rare",
+        chain: isChainFollowUp,
+        decisive: event.importance === "decisive",
+        risky: event.choices.some((choice) => choice.visibleTag === "RISQUÉ"),
+      },
+    });
+  }, [state, event]);
+
+  // choice_selected — emitted on click, before chooseEventOption resolves
+  // the outcome. Guarded against double-click/remount by decisionIndex, but
+  // chooseEventOption itself always still runs on every click: only the
+  // telemetry call is deduplicated, never the gameplay action.
+  const selectedDecisionsRef = useRef(new Set<string>());
+  const handleChoose = (choiceId: string) => {
+    if (state && event) {
+      const key = `${state.runId}:${state.decisionIndex}`;
+      if (!selectedDecisionsRef.current.has(key)) {
+        selectedDecisionsRef.current.add(key);
+        const choice = event.choices.find((candidate) => candidate.id === choiceId);
+        track("choice_selected", state.runId, {
+          decisionIndex: state.decisionIndex,
+          eventId: event.id,
+          choiceId,
+          choiceTag: choice?.visibleTag,
+          choiceStrategy: choice?.strategy,
+        });
+      }
+    }
+    chooseEventOption(choiceId);
+  };
+
+  const handleOpenDashboard = () => {
+    if (state) {
+      track("player_dashboard_opened", state.runId, {
+        phase: state.phase,
+        decisionIndex: state.decisionIndex,
+      });
+    }
+    setDashboardOpen(true);
+  };
+
+  if (!state || !party || !event) return null;
   const Icon = CATEGORY_ICONS[event.category];
 
   return (
     <div className="min-h-[calc(100vh-8rem)] bg-[var(--surface)]">
       <CampaignHeader
         state={state}
-        onDashboard={() => setDashboardOpen(true)}
+        onDashboard={handleOpenDashboard}
         onSaveAndQuit={onSaveAndQuit}
       />
       <div className="mx-auto grid max-w-7xl gap-7 px-4 py-7 sm:px-6 sm:py-10 lg:grid-cols-[minmax(0,1fr)_19rem] lg:px-8 2xl:max-w-[90rem] 2xl:grid-cols-[minmax(0,1fr)_23rem] 2xl:gap-10">
@@ -188,7 +250,7 @@ export function CampaignEventScreen({
             event={event}
             date={state.currentDate}
             state={state}
-            onChoose={chooseEventOption}
+            onChoose={handleChoose}
           />
         </main>
         <aside className="space-y-4">
@@ -209,11 +271,7 @@ export function CampaignEventScreen({
             <div className="mt-5">
               <MainStats party={party} />
             </div>
-            <Button
-              className="mt-4 w-full"
-              variant="secondary"
-              onClick={() => setDashboardOpen(true)}
-            >
+            <Button className="mt-4 w-full" variant="secondary" onClick={handleOpenDashboard}>
               <BarChart3 aria-hidden="true" className="size-4" /> Tableau de bord
             </Button>
           </Card>
@@ -632,8 +690,8 @@ export function ElectionNightScreen({ round }: { round: 1 | 2 }) {
             {formatPercent(playerScore)}
           </p>
           <p className="mx-auto mt-3 max-w-2xl text-slate-300">
-            Participation simulée : {formatPercent(result.turnout)}. Ce résultat est propre à
-            votre graine de partie.
+            Participation simulée : {formatPercent(result.turnout)}. Ce résultat est propre à votre
+            graine de partie.
           </p>
         </div>
         <div className="mt-10 grid gap-5 lg:grid-cols-[1fr_0.8fr]">
