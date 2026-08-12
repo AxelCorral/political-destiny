@@ -16,7 +16,7 @@ Aucun événement n'est envoyé avant consentement explicite (`docs/analytics/PR
 
 Il n'existe pas d'événement déclaré côté client à la fermeture de l'onglet. Le statut d'une
 campagne (`ongoing` / `completed` / `stale_incomplete`) est **dérivé côté serveur**, au moment de
-la lecture, à partir de `last_event_at` et du seuil `ANALYTICS_STALE_RUN_HOURS` — jamais déclaré
+la lecture, à partir de `last_event_at` et du seuil `ANALYTICS_STALE_RUN_HOURS_DEFAULT` — jamais déclaré
 par le client. Reprendre une campagne après une longue pause émet simplement `run_resumed`, ce qui
 fait immédiatement redevenir son statut `ongoing` au prochain événement. Voir
 `analytics_run_status` dans `supabase/migrations/0002_analytics_views.sql`.

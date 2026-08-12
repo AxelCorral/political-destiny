@@ -46,14 +46,14 @@ valeur calculée à la lecture par la vue `analytics_run_status`
 (`supabase/migrations/0002_analytics_views.sql`), à partir de `last_event_at`, `completed_at` et
 du seuil configurable `stale_run_hours` (table `analytics_settings`, valeur par défaut `48`).
 Une vue SQL ne peut pas lire une variable d'environnement Next.js au moment de la lecture : cette
-table, pas `ANALYTICS_STALE_RUN_HOURS` (`.env.example`), fait foi en pratique. Pour changer le
+table, pas `ANALYTICS_STALE_RUN_HOURS_DEFAULT` (`.env.example`), fait foi en pratique. Pour changer le
 seuil en production, exécuter :
 
 ```sql
 update analytics_settings set value = '<heures>' where key = 'stale_run_hours';
 ```
 
-et mettre à jour `ANALYTICS_STALE_RUN_HOURS` en parallèle, pour que la documentation et la base
+et mettre à jour `ANALYTICS_STALE_RUN_HOURS_DEFAULT` en parallèle, pour que la documentation et la base
 restent alignées.
 
 ## `analytics_decisions` — une ligne par décision résolue

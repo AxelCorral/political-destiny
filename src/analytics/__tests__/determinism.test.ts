@@ -56,6 +56,22 @@ describe("isolation moteur / analytics (test de non-régression déterministe)",
     let stepIndex = 0;
     const withAnalytics = autoplay(seed, (state) => {
       stepIndex += 1;
+      // Exercises every Phase 2 event type in the same loop that drives the
+      // engine, so the determinism assertion below covers the full current
+      // catalog, not just decision_resolved as in Phase 1.
+      track("decision_viewed", state.runId, {
+        decisionIndex: stepIndex,
+        phase: state.phase,
+        eventId: "fixture-event",
+        eventCategory: "campaign",
+        numberOfAvailableChoices: 2,
+        flags: { rare: false, chain: false, decisive: false, risky: false },
+      });
+      track("choice_selected", state.runId, {
+        decisionIndex: stepIndex,
+        eventId: "fixture-event",
+        choiceId: "fixture-choice",
+      });
       track("decision_resolved", state.runId, {
         decisionIndex: stepIndex,
         phase: state.phase,
@@ -64,6 +80,21 @@ describe("isolation moteur / analytics (test de non-régression déterministe)",
         choiceId: "fixture-choice",
         outcomeId: "fixture-outcome",
         internalRoll: 0.5,
+        playerPollBefore: 10,
+        playerPollAfter: 10,
+        popularityBefore: 10,
+        popularityAfter: 10,
+        momentumBefore: 0,
+        momentumAfter: 0,
+      });
+      track("player_dashboard_opened", state.runId, {
+        phase: state.phase,
+        decisionIndex: stepIndex,
+      });
+      track("game_error", state.runId, {
+        errorCode: "decision_resolution_failed",
+        source: "determinism_test",
+        recoverable: true,
       });
     });
 
@@ -85,6 +116,12 @@ describe("isolation moteur / analytics (test de non-régression déterministe)",
       choiceId: "fixture-choice",
       outcomeId: "fixture-outcome",
       internalRoll: 0.5,
+      playerPollBefore: 10,
+      playerPollAfter: 10,
+      popularityBefore: 10,
+      popularityAfter: 10,
+      momentumBefore: 0,
+      momentumAfter: 0,
     });
     expect(JSON.stringify(state.rng)).toBe(rngBefore);
   });

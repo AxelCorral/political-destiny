@@ -24,6 +24,7 @@
     "test:ux-audit": "playwright test --config=playwright.gameplay-audit.config.ts",
     "data:validate": "tsx scripts/validate-data.ts",
     "analytics:seed": "tsx scripts/analytics-seed.ts",
+    "analytics:verify:remote": "tsx scripts/analytics-verify-remote.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "check": "npm run format:check && npm run lint && npm run typecheck && npm run data:validate && npm run test && npm run build"

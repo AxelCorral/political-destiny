@@ -7,7 +7,8 @@ import {
 
 const versions = {
   appVersion: "0.1.0",
-  engineVersion: "2",
+  engineVersion: "1",
+  saveSchemaVersion: "2",
   contentVersion: "2",
   analyticsSchemaVersion: "1",
   buildSha: "test-sha",

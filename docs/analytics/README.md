@@ -145,7 +145,7 @@ npm run test:e2e     # Playwright, y compris les deux suites ci-dessus
 
 Voir `.env.example` pour la liste complète et les placeholders. Résumé :
 `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` (serveur uniquement), `ANALYTICS_ADMIN_PASSWORD`,
-`ANALYTICS_ADMIN_SESSION_SECRET`, `ANALYTICS_STALE_RUN_HOURS` (valeur par défaut documentée, la
+`ANALYTICS_ADMIN_SESSION_SECRET`, `ANALYTICS_STALE_RUN_HOURS_DEFAULT` (valeur par défaut documentée, la
 valeur qui compte réellement à l'exécution vit dans la table `analytics_settings` — voir
 `DATA_DICTIONARY.md`), `NEXT_PUBLIC_ANALYTICS_MODE` (`off` par défaut hors production, `opt-in`
 en production), `NEXT_PUBLIC_BUILD_SHA` (optionnel, renseigné par la plateforme de déploiement).
