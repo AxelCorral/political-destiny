@@ -21,5 +21,16 @@ export default defineConfig({
     url: "http://127.0.0.1:3100",
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
+    env: {
+      // Test-only fixture values for the /admin/analytics E2E suite
+      // (e2e/admin-analytics-auth.spec.ts) — not a real credential, never
+      // used outside this local/CI test server.
+      ANALYTICS_ADMIN_PASSWORD: "e2e-test-password-only",
+      ANALYTICS_ADMIN_SESSION_SECRET: "e2e-test-session-secret-only-not-a-real-secret",
+      // Analytics defaults to "off" outside production (src/analytics/config.ts);
+      // the telemetry E2E suite (e2e/analytics-telemetry.spec.ts) needs the
+      // consent UI and track() actually active to exercise the real flow.
+      NEXT_PUBLIC_ANALYTICS_MODE: "opt-in",
+    },
   },
 });
