@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  BarChart3,
   Database,
   Download,
   FileJson,
@@ -12,6 +13,7 @@ import {
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
+import { getAnalyticsMode, setAnalyticsConsent } from "@/analytics";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Dialog } from "@/components/ui/dialog";
@@ -76,9 +78,24 @@ export function SettingsPageClient() {
     }
   };
 
+  const updateConsent = async (state: "granted" | "denied") => {
+    await setAnalyticsConsent(state);
+    setSettings(await getLocalSettings());
+    setStatus(
+      state === "granted"
+        ? "Statistiques anonymes activées. Vous pouvez les désactiver à tout moment ci-dessous."
+        : "Statistiques anonymes désactivées. Rien n’est envoyé et la file d’attente locale a été vidée.",
+    );
+  };
+
   const erase = async () => {
     await deleteAllLocalData();
-    setSettings({ reducedMotion: false, soundEnabled: false, fictionNoticeSeen: false });
+    setSettings({
+      reducedMotion: false,
+      soundEnabled: false,
+      fictionNoticeSeen: false,
+      analyticsConsent: "unset",
+    });
     document.documentElement.dataset.reduceMotion = "false";
     setConfirmDelete(false);
     setStatus("Toutes les données locales du jeu ont été supprimées.");
@@ -157,6 +174,54 @@ export function SettingsPageClient() {
             </div>
           </div>
         </Card>
+
+        {getAnalyticsMode() !== "off" ? (
+          <Card className="p-5 sm:p-7">
+            <div className="flex items-start gap-4">
+              <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-indigo-50 text-[var(--blue-600)]">
+                <BarChart3 aria-hidden="true" className="size-6" />
+              </span>
+              <div className="flex-1">
+                <h2 className="text-xl font-black">Statistiques anonymes</h2>
+                <p className="mt-2 text-sm leading-relaxed text-[var(--ink-muted)]">
+                  Désactivées par défaut. Si vous les activez, le jeu envoie des événements anonymes
+                  (décisions prises, étapes de campagne, résultats) à un serveur privé pour
+                  améliorer l’équilibrage du jeu — jamais votre nom, votre e-mail ni le texte des
+                  événements. Voir{" "}
+                  <a href="/confidentialite" className="underline">
+                    la page Confidentialité
+                  </a>{" "}
+                  pour le détail. Ce choix n’a aucun effet sur votre accès au jeu.
+                </p>
+                {settings ? (
+                  <div className="mt-5 flex flex-col gap-3 sm:flex-row">
+                    <Button
+                      variant={settings.analyticsConsent === "granted" ? "primary" : "secondary"}
+                      onClick={() => void updateConsent("granted")}
+                    >
+                      Activer les statistiques anonymes
+                    </Button>
+                    <Button
+                      variant={settings.analyticsConsent === "denied" ? "primary" : "secondary"}
+                      onClick={() => void updateConsent("denied")}
+                    >
+                      Garder désactivées
+                    </Button>
+                  </div>
+                ) : null}
+                <p className="mt-3 text-xs text-[var(--ink-muted)]">
+                  État actuel :{" "}
+                  {settings?.analyticsConsent === "granted"
+                    ? "activées"
+                    : settings?.analyticsConsent === "denied"
+                      ? "désactivées"
+                      : "pas encore choisi (rien n’est envoyé)"}
+                  .
+                </p>
+              </div>
+            </div>
+          </Card>
+        ) : null}
 
         <Card className="border-red-200 p-5 sm:p-7">
           <div className="flex items-start gap-4">

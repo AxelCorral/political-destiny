@@ -13,7 +13,7 @@ export default function PrivacyPage() {
     <InfoPage
       eyebrow="Vie privée"
       title="Confidentialité"
-      introduction="La V1 fonctionne sans compte, sans publicité, sans outil d’analytics et sans profil serveur. Vos campagnes appartiennent à votre navigateur."
+      introduction="Le jeu fonctionne sans compte, sans publicité et sans profil serveur. Vos campagnes appartiennent à votre navigateur. Des statistiques anonymes, optionnelles et désactivées par défaut, existent pour améliorer l’équilibrage du jeu — le détail est ci-dessous."
     >
       <section>
         <h2>Données enregistrées</h2>
@@ -22,6 +22,33 @@ export default function PrivacyPage() {
           badges, les fins découvertes, les graines et quelques préférences d’affichage. Ces
           informations décrivent uniquement votre activité dans le jeu. Aucun nom réel, courriel,
           identifiant publicitaire ou donnée de paiement n’est demandé.
+        </p>
+      </section>
+      <section>
+        <h2>Statistiques anonymes (optionnelles)</h2>
+        <p className="mt-3">
+          Le jeu peut envoyer des événements anonymes à un serveur privé — décisions prises, étapes
+          de campagne atteintes, résultat final — pour aider à équilibrer les partis et repérer les
+          événements mal calibrés. Cette fonctionnalité est <strong>désactivée par défaut</strong>{" "}
+          et rien n’est envoyé tant que vous ne l’activez pas explicitement dans la page{" "}
+          <Link href="/parametres">Paramètres</Link>. Vous pouvez la désactiver à tout moment ; la
+          désactiver vide immédiatement la file d’envoi locale. L’accès au jeu n’est jamais
+          conditionné à ce choix.
+        </p>
+        <p className="mt-3">
+          Ce qui est envoyé si vous activez cette option : un identifiant anonyme généré sur votre
+          appareil (pas un compte, pas une empreinte de navigateur), les choix effectués dans le jeu
+          et leurs identifiants techniques, la progression de la campagne (parti, méthode, phases
+          atteintes, score final), et des informations techniques de version du jeu.
+        </p>
+        <p className="mt-3">
+          Ce qui n’est <strong>jamais</strong> envoyé : votre nom, un e-mail, une adresse IP
+          conservée, le texte des événements ou des décisions, une empreinte publicitaire, ou toute
+          donnée permettant d’identifier une personne réelle. Un identifiant anonyme n’est pas
+          l’identité d’une personne précise. Le détail complet (quelles données, quelle
+          conservation, comment les supprimer) est documenté dans le dépôt du projet (
+          <code>docs/analytics/PRIVACY.md</code>) ; cette page ne prétend à aucune certification ni
+          conformité réglementaire particulière.
         </p>
       </section>
       <section>
@@ -53,7 +80,9 @@ export default function PrivacyPage() {
         <p className="mt-3">
           Après une première visite, un service worker peut mettre en cache les ressources publiques
           nécessaires au fonctionnement hors connexion. Ce cache technique ne contient pas votre
-          historique de décisions. Aucune API extérieure n’est requise pour jouer.
+          historique de décisions. Aucune API extérieure n’est requise pour jouer, y compris si les
+          statistiques anonymes décrites ci-dessus sont désactivées : elles ne sont qu’une couche
+          additionnelle, jamais un prérequis.
         </p>
       </section>
     </InfoPage>

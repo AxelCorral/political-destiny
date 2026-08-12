@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
+import { AnalyticsProvider } from "@/components/analytics-provider";
 import { LocalPreferences } from "@/components/local-preferences";
 import { PwaRegistrar } from "@/components/pwa-registrar";
 import { BRANDING } from "@/config/branding";
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className="flex min-h-screen flex-col antialiased">
         <LocalPreferences />
         <PwaRegistrar />
+        <AnalyticsProvider />
         <a
           href="#contenu"
           className="sr-only z-[100] rounded-lg bg-white px-4 py-3 text-[var(--navy-950)] focus:not-sr-only focus:fixed focus:left-3 focus:top-3"

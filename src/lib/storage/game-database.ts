@@ -21,10 +21,18 @@ export interface LocalProfile {
   lastPlayedAt?: string;
 }
 
+export type AnalyticsConsentState = "unset" | "granted" | "denied";
+
 export interface LocalSettings {
   reducedMotion: boolean;
   soundEnabled: boolean;
   fictionNoticeSeen: boolean;
+  /**
+   * Player consent for the anonymous analytics layer (docs/analytics/PRIVACY.md).
+   * Absent from saves created before this field existed — getLocalSettings
+   * merges it in as "unset" so older browsers default to no telemetry sent.
+   */
+  analyticsConsent: AnalyticsConsentState;
 }
 
 export interface LoadGameResult {
@@ -77,6 +85,7 @@ const DEFAULT_SETTINGS: LocalSettings = {
   reducedMotion: false,
   soundEnabled: false,
   fictionNoticeSeen: false,
+  analyticsConsent: "unset",
 };
 
 let databasePromise: Promise<IDBPDatabase<GameDatabase>> | undefined;
@@ -370,7 +379,12 @@ export async function getLocalProfile(): Promise<LocalProfile> {
 export async function getLocalSettings(): Promise<LocalSettings> {
   const db = await database();
   const value = await db.get("settings", "preferences");
-  return value ?? structuredClone(DEFAULT_SETTINGS);
+  // Spread over DEFAULT_SETTINGS (not just `value ?? default`) so settings
+  // saved before a new field existed (e.g. analyticsConsent) still get a
+  // safe default instead of `undefined`.
+  return value
+    ? { ...structuredClone(DEFAULT_SETTINGS), ...value }
+    : structuredClone(DEFAULT_SETTINGS);
 }
 
 export async function saveLocalSettings(settings: LocalSettings): Promise<void> {
@@ -431,6 +445,10 @@ export async function importLocalData(value: unknown): Promise<void> {
         reducedMotion: value.settings.reducedMotion === true,
         soundEnabled: value.settings.soundEnabled === true,
         fictionNoticeSeen: value.settings.fictionNoticeSeen === true,
+        // Deliberately not carried over from the import: analytics consent
+        // is a per-browser decision and must be re-confirmed on this device
+        // rather than silently inherited from another profile's export.
+        analyticsConsent: "unset",
       },
       "preferences",
     );

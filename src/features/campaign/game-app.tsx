@@ -4,7 +4,9 @@ import { AlertTriangle, LoaderCircle } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
+import { track } from "@/analytics/client";
 import { GAME_CONFIG } from "@/config/game";
+import type { GameState } from "@/game/types";
 import { FinalScreen } from "@/features/results/final-screen";
 import { FictionNotice } from "@/features/onboarding/fiction-notice";
 import {
@@ -106,6 +108,118 @@ export function GameApp() {
       archivedRunIds.current.delete(gameState.runId);
       setWarning("Le résultat n’a pas encore pu être ajouté aux archives locales.");
     });
+  }, [gameState, ready]);
+
+  const trackedSetupScreens = useRef(new Set<string>());
+  useEffect(() => {
+    if (!ready) return;
+    const setupScreens = ["mode", "party_list", "party_detail", "custom_party", "method"] as const;
+    if (!(setupScreens as readonly string[]).includes(screen)) return;
+    // Deduped per screen per app mount, not per visit — this is a coarse
+    // "how far did setup get" funnel signal, not a precise click log.
+    if (trackedSetupScreens.current.has(screen)) return;
+    trackedSetupScreens.current.add(screen);
+    track("setup_step_viewed", undefined, {
+      screen: screen as (typeof setupScreens)[number],
+    });
+  }, [screen, ready]);
+
+  // Analytics instrumentation — observes gameState transitions from the
+  // outside; never touches src/game/engine/** or the store's own logic.
+  // track() never throws and never awaits anything on this path, so a
+  // telemetry failure here cannot affect gameplay (see docs/analytics/
+  // ARCHITECTURE_PLAN.md §4). Diffed against the previous render's snapshot
+  // rather than hooked into individual store actions, so this stays a pure
+  // "observer" of state the store already produces.
+  const previousGameStateRef = useRef<GameState | undefined>(undefined);
+  useEffect(() => {
+    if (!ready) return;
+    const previous = previousGameStateRef.current;
+    const current = gameState;
+    previousGameStateRef.current = current;
+    if (!current) return;
+
+    if (!previous || previous.runId !== current.runId) {
+      if (current.decisionIndex === 0 && current.decisionHistory.length === 0) {
+        track("run_started", current.runId, {
+          mode: current.mode,
+          partyId: current.playerPartyId,
+          seed: current.seed,
+        });
+      } else {
+        track("run_resumed", current.runId, {
+          decisionIndex: current.decisionIndex,
+          phase: current.phase,
+        });
+      }
+      return;
+    }
+
+    if (current.decisionHistory.length > previous.decisionHistory.length) {
+      for (const record of current.decisionHistory.slice(previous.decisionHistory.length)) {
+        track("decision_resolved", current.runId, {
+          decisionIndex: record.decisionIndex,
+          phase: current.phase,
+          eventId: record.eventId,
+          eventCategory: record.eventCategory,
+          choiceId: record.choiceId,
+          choiceTag: record.choiceTag,
+          choiceStrategy: record.choiceStrategy,
+          outcomeId: record.outcomeId,
+          internalRoll: record.internalRoll,
+        });
+      }
+    }
+
+    if (current.pollHistory.length > previous.pollHistory.length) {
+      for (const snapshot of current.pollHistory.slice(previous.pollHistory.length)) {
+        track("race_snapshot", current.runId, {
+          decisionIndex: snapshot.decisionIndex,
+          playerRank: snapshot.playerRank,
+          playerTrend: snapshot.playerTrend,
+          resultsCount: Object.keys(snapshot.results).length,
+        });
+      }
+    }
+
+    if (!previous.firstRoundResult && current.firstRoundResult) {
+      const rank = current.firstRoundResult.ranking.indexOf(current.playerPartyId) + 1;
+      const qualified = current.flags.playerQualified === true;
+      track("first_round_result", current.runId, {
+        playerRank: rank || current.firstRoundResult.ranking.length + 1,
+        qualified,
+        turnout: current.firstRoundResult.turnout,
+      });
+      track("milestone_reached", current.runId, {
+        milestone: qualified ? "qualified_first_round" : "eliminated_first_round",
+      });
+    }
+
+    if (!previous.secondRoundResult && current.secondRoundResult) {
+      const rank = current.secondRoundResult.ranking.indexOf(current.playerPartyId) + 1;
+      track("second_round_result", current.runId, {
+        playerRank: rank || current.secondRoundResult.ranking.length + 1,
+        won: current.secondRoundResult.ranking[0] === current.playerPartyId,
+        turnout: current.secondRoundResult.turnout,
+      });
+      track("milestone_reached", current.runId, { milestone: "entered_second_round" });
+    }
+
+    if (previous.phase !== "government_epilogue" && current.phase === "government_epilogue") {
+      track("milestone_reached", current.runId, { milestone: "entered_government" });
+    }
+
+    if (!previous.finalResult && current.finalResult) {
+      track("run_completed", current.runId, {
+        score: current.finalResult.score,
+        won: current.finalResult.won,
+        qualified: current.finalResult.qualified,
+        endingId: current.finalResult.endingId,
+        progressionNormalized: current.finalResult.progressionNormalized,
+        decisionsCount: current.decisionHistory.length,
+      });
+      track("milestone_reached", current.runId, { milestone: "game_finished" });
+    }
   }, [gameState, ready]);
 
   const saveAndQuit = async () => {
