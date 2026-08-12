@@ -23,6 +23,7 @@
     "audit:fun": "tsx scripts/fun-audit/run-all.ts",
     "test:ux-audit": "playwright test --config=playwright.gameplay-audit.config.ts",
     "data:validate": "tsx scripts/validate-data.ts",
+    "analytics:seed": "tsx scripts/analytics-seed.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "check": "npm run format:check && npm run lint && npm run typecheck && npm run data:validate && npm run test && npm run build"
@@ -30,6 +31,7 @@
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.23",
     "@radix-ui/react-slot": "^1.3.3",
+    "@supabase/supabase-js": "^2.112.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "html-to-image": "^1.11.13",
