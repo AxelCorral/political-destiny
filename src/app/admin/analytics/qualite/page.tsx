@@ -11,6 +11,16 @@ import {
 import { EmptyState, KpiCard, SectionCaution } from "../_components/dashboard-ui";
 import { NotConfiguredNotice } from "../_components/not-configured";
 
+// No searchParams-based filters on this tab (unlike the others), so Next.js
+// has no implicit signal to render per-request — without this, the page
+// gets statically prerendered at BUILD time, executing a real Supabase call
+// (with the build machine's credentials/clock) instead of on each admin
+// request, and baking a permanently stale snapshot into the static output.
+// Found via a real Vercel build failure (PGRST303 "JWT issued at future"),
+// never reproducible locally where .env.local happens to be valid at build
+// time too.
+export const dynamic = "force-dynamic";
+
 export default async function QualitePage() {
   if (!isAnalyticsStorageConfigured()) {
     return <NotConfiguredNotice />;
