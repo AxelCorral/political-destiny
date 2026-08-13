@@ -21,8 +21,8 @@ describe("consentement analytics", () => {
     await deleteAllLocalData();
   });
 
-  it("vaut « unset » par défaut, avant tout choix", async () => {
-    expect(await getAnalyticsConsent()).toBe("unset");
+  it("vaut « granted » par défaut, avant tout choix explicite (opt-out)", async () => {
+    expect(await getAnalyticsConsent()).toBe("granted");
   });
 
   it("persiste le choix « granted »", async () => {

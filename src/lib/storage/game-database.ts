@@ -94,7 +94,11 @@ const DEFAULT_SETTINGS: LocalSettings = {
   reducedMotion: false,
   soundEnabled: false,
   fictionNoticeSeen: false,
-  analyticsConsent: "unset",
+  // Opt-out, not opt-in: analytics start automatically on first visit.
+  // Player-visible, reversible at any time from /parametres — see
+  // docs/analytics/PRIVACY.md for the reasoning (CNIL-style first-party
+  // audience-measurement exemption, no cross-site tracking, no PII).
+  analyticsConsent: "granted",
 };
 
 let databasePromise: Promise<IDBPDatabase<GameDatabase>> | undefined;
@@ -459,9 +463,10 @@ export async function importLocalData(value: unknown): Promise<void> {
         soundEnabled: value.settings.soundEnabled === true,
         fictionNoticeSeen: value.settings.fictionNoticeSeen === true,
         // Deliberately not carried over from the import: analytics consent
-        // is a per-browser decision and must be re-confirmed on this device
-        // rather than silently inherited from another profile's export.
-        analyticsConsent: "unset",
+        // is a per-browser decision, not something to silently inherit from
+        // another profile's export — it falls back to this device's own
+        // default (DEFAULT_SETTINGS.analyticsConsent) like any fresh profile.
+        analyticsConsent: DEFAULT_SETTINGS.analyticsConsent,
       },
       "preferences",
     );

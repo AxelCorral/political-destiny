@@ -87,8 +87,9 @@ export function ModeSelectionScreen() {
           </div>
           <h2 className="mt-5 text-lg font-black">Une fiction locale</h2>
           <p className="mt-2 text-sm leading-relaxed text-[var(--ink-muted)]">
-            Aucun compte, aucune API payante et aucune donnée envoyée. Les personnes jouables et les
-            situations sensibles sont fictives.
+            Aucun compte, aucune API payante. Des statistiques de jeu anonymes sont envoyées par
+            défaut (désactivables dans Paramètres). Les personnes jouables et les situations
+            sensibles sont fictives.
           </p>
           <dl className="mt-6 grid grid-cols-2 gap-3 text-sm">
             <div className="rounded-xl bg-[var(--surface)] p-3">

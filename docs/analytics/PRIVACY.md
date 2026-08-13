@@ -8,12 +8,18 @@ production si une conformité formelle est requise.
 
 Le jeu fonctionne intégralement sans la couche analytics. Elle est :
 
-- **désactivée par défaut** en développement (`NEXT_PUBLIC_ANALYTICS_MODE` non défini →
+- **désactivée** en développement (`NEXT_PUBLIC_ANALYTICS_MODE` non défini →
   `getAnalyticsMode()` renvoie `"off"` hors production, voir `src/analytics/config.ts`) ;
-- **opt-in par défaut** en production (`NODE_ENV === "production"` → mode `"opt-in"`), ce qui
-  signifie : le client est actif, mais **rien n'est envoyé tant que le joueur n'a pas cliqué
-  explicitement** sur « Activer les statistiques anonymes » dans Paramètres
-  (`src/features/meta/settings-page.tsx`).
+- **active par défaut, désactivable à tout moment** en production (`NODE_ENV === "production"` →
+  mode `"opt-in"`, dans le sens où la couche client est active). Depuis le choix produit du
+  2026-08-13, `DEFAULT_SETTINGS.analyticsConsent` vaut `"granted"`
+  (`src/lib/storage/game-database.ts`) : un nouveau joueur envoie des statistiques anonymes sans
+  action de sa part, mais peut les désactiver à tout moment dans Paramètres
+  (`src/features/meta/settings-page.tsx`), qui vide alors immédiatement la file d'envoi locale.
+  Modèle « opt-out » de mesure d'audience premier-parti (pas de traçage cross-site, pas de PII,
+  désactivation en un clic, information claire sur `/confidentialite`) — pas une certification
+  de conformité RGPD/ePrivacy, à faire valider par un juriste si une conformité formelle est
+  requise (voir avertissement en tête de ce document).
 
 ## Ce qui est collecté (si et seulement si le consentement est accordé)
 
@@ -34,12 +40,15 @@ d'aucune caractéristique de l'appareil ou du navigateur.
 Géré par `src/analytics/consent.ts`, persisté dans `LocalSettings.analyticsConsent`
 (`"unset" | "granted" | "denied"`, IndexedDB via `src/lib/storage/game-database.ts`) :
 
-- **Avant tout choix (`unset`)** : `track()` retourne immédiatement sans rien mettre en file
-  (`src/analytics/client.ts`) — c'est vérifié par test (`src/analytics/__tests__/client.test.ts`).
+- **Valeur par défaut d'un nouveau profil (`granted`)** : `DEFAULT_SETTINGS.analyticsConsent`
+  dans `game-database.ts` — les événements sont mis en file et envoyés par lots sans action du
+  joueur, réversible à tout moment dans Paramètres. `"unset"` reste une valeur valide du type
+  (état théorique, plus atteint par le flux normal depuis ce choix) : dans ce cas `track()`
+  retourne immédiatement sans rien mettre en file (`src/analytics/client.ts`), comme pour un
+  refus.
 - **Refus (`denied`)** : la file locale déjà accumulée est vidée immédiatement
   (`setAnalyticsConsent` appelle `clearQueue()`), et plus rien n'est mis en file tant que le
   consentement n'est pas de nouveau accordé.
-- **Octroi (`granted`)** : les événements sont mis en file et envoyés par lots.
 - **Retrait après octroi** : identique à un refus — la file est vidée, les envois s'arrêtent
   immédiatement.
 - **Import d'un export JSON** (`Paramètres → Importer un JSON`) : le consentement **n'est jamais

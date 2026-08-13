@@ -24,17 +24,17 @@ describe("client analytics (track/flush)", () => {
     vi.unstubAllEnvs();
   });
 
-  it("n'enregistre rien tant que le consentement n'est pas accordé", async () => {
-    track("session_started", undefined, { entryPath: "/" });
-    await settle();
-    expect(await queueSize()).toBe(0);
-  });
-
-  it("met en file dès que le consentement est accordé", async () => {
-    await setAnalyticsConsent("granted");
+  it("met en file par défaut, sans action explicite (opt-out)", async () => {
     track("session_started", undefined, { entryPath: "/" });
     await settle();
     expect(await queueSize()).toBe(1);
+  });
+
+  it("n'enregistre rien après un refus explicite", async () => {
+    await setAnalyticsConsent("denied");
+    track("session_started", undefined, { entryPath: "/" });
+    await settle();
+    expect(await queueSize()).toBe(0);
   });
 
   it("ne met rien en file quand le mode est « off », même consentement accordé", async () => {
@@ -69,7 +69,8 @@ describe("client analytics (track/flush)", () => {
     expect(remaining[0]!.attempts).toBeGreaterThanOrEqual(1);
   });
 
-  it("flush() ne fait rien tant que le consentement n'est pas accordé", async () => {
+  it("flush() ne fait rien après un refus explicite", async () => {
+    await setAnalyticsConsent("denied");
     vi.stubGlobal("fetch", vi.fn());
     await flush();
     expect(fetch).not.toHaveBeenCalled();

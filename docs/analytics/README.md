@@ -78,8 +78,9 @@ côté lecture (`ongoing` / `completed` / `stale_incomplete`).
 
 ## 9. Confidentialité et consentement
 
-`docs/analytics/PRIVACY.md`. Opt-in en production, désactivé par défaut en dev, aucune
-revendication de conformité légale.
+`docs/analytics/PRIVACY.md`. Actif par défaut en production (opt-out, désactivable à tout moment
+dans Paramètres depuis le 2026-08-13), désactivé en dev, aucune revendication de conformité
+légale.
 
 ## 10. Ingestion
 

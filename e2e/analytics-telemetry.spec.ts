@@ -74,16 +74,22 @@ test.describe("télémétrie de jeu (consentement + non-blocage)", () => {
     expect(body.events.length).toBeGreaterThan(0);
   });
 
-  test("n'envoie rien sans consentement explicite (comportement par défaut)", async ({ page }) => {
-    let sawIngestionRequest = false;
-    page.on("request", (request) => {
-      if (request.url().includes("/api/analytics/events")) sawIngestionRequest = true;
-    });
+  test("envoie des événements sans action explicite (comportement par défaut, opt-out)", async ({
+    page,
+  }) => {
+    const ingestionRequest = page.waitForRequest(
+      (request) => request.url().includes("/api/analytics/events") && request.method() === "POST",
+      { timeout: 15_000 },
+    );
 
     await startCampaignAndResolveOneDecision(page);
-    await page.waitForTimeout(2_000);
+    const consequenceContinue = page.getByRole("button", { name: /^Continuer$/i });
+    if (await consequenceContinue.isVisible().catch(() => false)) await consequenceContinue.click();
 
-    expect(sawIngestionRequest).toBe(false);
+    const request = await ingestionRequest;
+    const body = JSON.parse(request.postData() ?? "{}") as { events: Array<{ eventType: string }> };
+    expect(Array.isArray(body.events)).toBe(true);
+    expect(body.events.length).toBeGreaterThan(0);
   });
 
   test("le jeu reste jouable même si l'ingestion analytics échoue systématiquement", async ({

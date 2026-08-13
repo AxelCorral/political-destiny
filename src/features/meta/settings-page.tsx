@@ -94,7 +94,7 @@ export function SettingsPageClient() {
       reducedMotion: false,
       soundEnabled: false,
       fictionNoticeSeen: false,
-      analyticsConsent: "unset",
+      analyticsConsent: "granted",
     });
     document.documentElement.dataset.reduceMotion = "false";
     setConfirmDelete(false);
@@ -108,7 +108,9 @@ export function SettingsPageClient() {
       </p>
       <h1 className="mt-3 font-display text-5xl font-black uppercase leading-none">Paramètres</h1>
       <p className="mt-4 max-w-2xl text-[var(--ink-muted)]">
-        Réglez l’affichage et gérez vos sauvegardes. Rien n’est envoyé à un serveur.
+        Réglez l’affichage et gérez vos sauvegardes. Vos parties restent sur cet appareil ; des
+        statistiques de jeu anonymes sont envoyées par défaut (voir ci-dessous), désactivables à
+        tout moment.
       </p>
 
       <div className="mt-9 space-y-5">
@@ -184,14 +186,14 @@ export function SettingsPageClient() {
               <div className="flex-1">
                 <h2 className="text-xl font-black">Statistiques anonymes</h2>
                 <p className="mt-2 text-sm leading-relaxed text-[var(--ink-muted)]">
-                  Désactivées par défaut. Si vous les activez, le jeu envoie des événements anonymes
-                  (décisions prises, étapes de campagne, résultats) à un serveur privé pour
-                  améliorer l’équilibrage du jeu — jamais votre nom, votre e-mail ni le texte des
-                  événements. Voir{" "}
+                  Activées par défaut. Le jeu envoie des événements anonymes (décisions prises,
+                  étapes de campagne, résultats) à un serveur privé pour améliorer l’équilibrage du
+                  jeu — jamais votre nom, votre e-mail ni le texte des événements. Voir{" "}
                   <a href="/confidentialite" className="underline">
                     la page Confidentialité
                   </a>{" "}
-                  pour le détail. Ce choix n’a aucun effet sur votre accès au jeu.
+                  pour le détail. Vous pouvez les désactiver ci-dessous à tout moment ; ce choix n’a
+                  aucun effet sur votre accès au jeu.
                 </p>
                 {settings ? (
                   <div className="mt-5 flex flex-col gap-3 sm:flex-row">

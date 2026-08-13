@@ -13,7 +13,7 @@ export default function PrivacyPage() {
     <InfoPage
       eyebrow="Vie privée"
       title="Confidentialité"
-      introduction="Le jeu fonctionne sans compte, sans publicité et sans profil serveur. Vos campagnes appartiennent à votre navigateur. Des statistiques anonymes, optionnelles et désactivées par défaut, existent pour améliorer l’équilibrage du jeu — le détail est ci-dessous."
+      introduction="Le jeu fonctionne sans compte, sans publicité et sans profil serveur. Vos campagnes appartiennent à votre navigateur. Des statistiques anonymes, activées par défaut et désactivables à tout moment, existent pour améliorer l’équilibrage du jeu — le détail est ci-dessous."
     >
       <section>
         <h2>Données enregistrées</h2>
@@ -25,21 +25,24 @@ export default function PrivacyPage() {
         </p>
       </section>
       <section>
-        <h2>Statistiques anonymes (optionnelles)</h2>
+        <h2>Statistiques anonymes (désactivables)</h2>
         <p className="mt-3">
-          Le jeu peut envoyer des événements anonymes à un serveur privé — décisions prises, étapes
-          de campagne atteintes, résultat final — pour aider à équilibrer les partis et repérer les
-          événements mal calibrés. Cette fonctionnalité est <strong>désactivée par défaut</strong>{" "}
-          et rien n’est envoyé tant que vous ne l’activez pas explicitement dans la page{" "}
-          <Link href="/parametres">Paramètres</Link>. Vous pouvez la désactiver à tout moment ; la
-          désactiver vide immédiatement la file d’envoi locale. L’accès au jeu n’est jamais
-          conditionné à ce choix.
+          Le jeu envoie des événements anonymes à un serveur privé — décisions prises, étapes de
+          campagne atteintes, résultat final — pour aider à équilibrer les partis et repérer les
+          événements mal calibrés. Cette fonctionnalité est <strong>activée par défaut</strong>,
+          sans identifier personne : aucune donnée de compte, de contact ou de contenu rédigé par
+          vous n’est collectée, uniquement des événements de jeu techniques (voir le détail
+          ci-dessous). Vous pouvez la désactiver à tout moment dans la page{" "}
+          <Link href="/parametres">Paramètres</Link> ; la désactiver vide immédiatement la file
+          d’envoi locale et arrête tout nouvel envoi. L’accès au jeu n’est jamais conditionné à ce
+          choix.
         </p>
         <p className="mt-3">
-          Ce qui est envoyé si vous activez cette option : un identifiant anonyme généré sur votre
-          appareil (pas un compte, pas une empreinte de navigateur), les choix effectués dans le jeu
-          et leurs identifiants techniques, la progression de la campagne (parti, méthode, phases
-          atteintes, score final), et des informations techniques de version du jeu.
+          Ce qui est envoyé tant que vous ne désactivez pas cette option : un identifiant anonyme
+          généré sur votre appareil (pas un compte, pas une empreinte de navigateur), les choix
+          effectués dans le jeu et leurs identifiants techniques, la progression de la campagne
+          (parti, méthode, phases atteintes, score final), et des informations techniques de
+          version du jeu.
         </p>
         <p className="mt-3">
           Ce qui n’est <strong>jamais</strong> envoyé : votre nom, un e-mail, une adresse IP
