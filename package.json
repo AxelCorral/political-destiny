@@ -25,6 +25,7 @@
     "data:validate": "tsx scripts/validate-data.ts",
     "analytics:seed": "tsx scripts/analytics-seed.ts",
     "analytics:verify:remote": "tsx scripts/analytics-verify-remote.ts",
+    "analytics:verify:security": "tsx scripts/analytics-verify-security.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "check": "npm run format:check && npm run lint && npm run typecheck && npm run data:validate && npm run test && npm run build"
@@ -62,6 +63,7 @@
     "fast-check": "^4.9.0",
     "jsdom": "^30.0.1",
     "prettier": "^3.9.6",
+    "supabase": "^2.114.0",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.7",
     "typescript": "^6.0.3",

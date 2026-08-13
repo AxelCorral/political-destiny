@@ -29,3 +29,13 @@ récent, un identifiant réutilisé délibérément) comptent.
 - Aucun contrôle de complétude globale (« combien d'événements attendus ont réellement été
   reçus ») n'existe : la couche est déclarative côté client (fire-and-forget), il n'y a pas
   d'attente serveur d'un nombre d'événements fixe par run.
+
+## Contrôle distinct : intégrité d'accès (RLS/GRANTs), pas de qualité de données
+
+`npm run analytics:verify:security` (`scripts/analytics-verify-security.ts`) n'est **pas** un
+contrôle de qualité de données — il vérifie que le schéma `public` distant n'expose aucun objet
+analytics à `anon`/`authenticated`. Ajouté après un incident réel (RLS manquant sur
+`analytics_settings`, vues sans `security_invoker`, GRANTs par défaut du projet Supabase — détail
+dans `docs/analytics/REMOTE_SCHEMA_VERIFICATION.md` et `docs/analytics/PRIVACY.md` §Sécurité côté
+serveur). À exécuter après toute migration qui ajoute une table, une vue ou une fonction
+analytics.

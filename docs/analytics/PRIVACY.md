@@ -65,9 +65,20 @@ que l'autre (pas de dark pattern). L'état actuel est toujours affiché en toute
   `POST /api/analytics/events`, validés par schéma Zod strict avant toute écriture.
   `SUPABASE_SERVICE_ROLE_KEY` n'est utilisé que côté serveur (`src/analytics/server/
 supabaseAdmin.ts`), jamais exposé au client — aucune variable `NEXT_PUBLIC_*` ne le contient.
-- RLS activé sur les trois tables analytics, sans policy accordée à `anon`/`authenticated` :
-  seule la clé de service (qui contourne RLS par conception) peut lire/écrire
-  (`supabase/migrations/0001_analytics_core.sql`).
+- RLS activé sur les 5 tables analytics (`analytics_events`, `analytics_runs`,
+  `analytics_decisions`, `analytics_ingestion_batches`, `analytics_settings`), sans policy
+  accordée à `anon`/`authenticated` ; les 11 vues de reporting s'exécutent en
+  `security_invoker = true` (donc soumises au même RLS que l'appelant, pas à celui du
+  propriétaire) ; aucune des 15 fonctions analytics n'accorde `EXECUTE` à
+  `PUBLIC`/`anon`/`authenticated`. Seule la clé de service (qui contourne RLS par conception,
+  `rolbypassrls = true`) peut lire/écrire. **Incident réel corrigé en Phase 3** : jusqu'à
+  `supabase/migrations/0007_analytics_access_hardening.sql`, `analytics_settings` n'avait pas
+  RLS activé, et les 11 vues (propriétaire `postgres`, qui contourne RLS) n'avaient pas
+  `security_invoker=true` — deux défauts qui, combinés aux GRANTs par défaut accordés par le
+  projet Supabase à `anon`/`authenticated` sur tout nouvel objet du schéma `public`, exposaient
+  silencieusement toute la couche de reporting via la clé publishable. Détail complet et tests
+  de vérification dans `docs/analytics/REMOTE_SCHEMA_VERIFICATION.md` §« Row Level Security et
+  exposition anon/authenticated ». Non-régression : `npm run analytics:verify:security`.
 - Le dashboard `/admin/analytics` est protégé par une session admin distincte du joueur
   (`docs/analytics/README.md` §Authentification admin), inaccessible sans mot de passe.
 
