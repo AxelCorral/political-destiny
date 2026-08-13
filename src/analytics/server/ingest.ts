@@ -375,6 +375,61 @@ export async function ingestEvents(
   if (rawInsertError) throw rawInsertError;
   const duplicates = Math.max(0, sorted.length - (insertedCount ?? sorted.length));
 
+  // analytics_decisions.run_id carries a foreign key to analytics_runs, so
+  // the parent run row must exist before any decision referencing it is
+  // inserted. Runs are upserted first for that reason — this ordering isn't
+  // enforced by the in-memory test double (src/analytics/server/__tests__/
+  // fakeSupabase.ts), which is why the previous decisions-before-runs order
+  // only broke against a real Postgres FK constraint (Phase 3 remote
+  // enablement, analytics_decisions_run_id_fkey).
+  const runScopedByRunId = new Map<string, AnalyticsEventEnvelope[]>();
+  for (const event of sorted) {
+    if (!event.runId) continue;
+    const list = runScopedByRunId.get(event.runId) ?? [];
+    list.push(event);
+    runScopedByRunId.set(event.runId, list);
+  }
+
+  let runsTouched = 0;
+  for (const [runId, runEvents] of runScopedByRunId) {
+    const delta = buildRunDelta(runId, runEvents);
+    const { error } = await supabase.rpc("fn_upsert_analytics_run", {
+      p_run_id: delta.runId,
+      p_anonymous_user_id: delta.anonymousUserId,
+      p_session_id: delta.sessionId,
+      p_mode: delta.mode,
+      p_party_id: delta.partyId,
+      p_method_id: delta.methodId,
+      p_candidate_profile_id: delta.candidateProfileId,
+      p_seed: delta.seed,
+      p_started_at: delta.startedAt,
+      p_last_event_at: delta.lastEventAt,
+      p_completed_at: delta.completedAt,
+      p_resumed_count_delta: delta.resumedCountDelta,
+      p_qualified: delta.qualified,
+      p_won: delta.won,
+      p_final_score: delta.finalScore,
+      p_ending_id: delta.endingId,
+      p_first_round_player_rank: delta.firstRoundPlayerRank,
+      p_second_round_player_rank: delta.secondRoundPlayerRank,
+      p_first_round_player_score: delta.firstRoundPlayerScore,
+      p_second_round_player_score: delta.secondRoundPlayerScore,
+      p_runoff_opponent_party_id: delta.runoffOpponentPartyId,
+      p_first_round_turnout: delta.firstRoundTurnout,
+      p_second_round_turnout: delta.secondRoundTurnout,
+      p_app_version: delta.appVersion,
+      p_engine_version: delta.engineVersion,
+      p_save_schema_version: delta.saveSchemaVersion,
+      p_content_version: delta.contentVersion,
+      p_analytics_schema_version: delta.analyticsSchemaVersion,
+      p_build_sha: delta.buildSha,
+      p_experiment_id: delta.experimentId,
+      p_variant_id: delta.variantId,
+    });
+    if (error) throw error;
+    runsTouched += 1;
+  }
+
   const decisionEvents = sorted.filter(
     (event): event is AnalyticsEventEnvelope & { runId: string } =>
       (event.eventType === "decision_viewed" ||
@@ -430,55 +485,10 @@ export async function ingestEvents(
     decisionsTouched += 1;
   }
 
-  const runScopedByRunId = new Map<string, AnalyticsEventEnvelope[]>();
-  for (const event of sorted) {
-    if (!event.runId) continue;
-    const list = runScopedByRunId.get(event.runId) ?? [];
-    list.push(event);
-    runScopedByRunId.set(event.runId, list);
-  }
-
-  let runsTouched = 0;
-  for (const [runId, runEvents] of runScopedByRunId) {
-    const delta = buildRunDelta(runId, runEvents);
-    const { error } = await supabase.rpc("fn_upsert_analytics_run", {
-      p_run_id: delta.runId,
-      p_anonymous_user_id: delta.anonymousUserId,
-      p_session_id: delta.sessionId,
-      p_mode: delta.mode,
-      p_party_id: delta.partyId,
-      p_method_id: delta.methodId,
-      p_candidate_profile_id: delta.candidateProfileId,
-      p_seed: delta.seed,
-      p_started_at: delta.startedAt,
-      p_last_event_at: delta.lastEventAt,
-      p_completed_at: delta.completedAt,
-      p_resumed_count_delta: delta.resumedCountDelta,
-      p_qualified: delta.qualified,
-      p_won: delta.won,
-      p_final_score: delta.finalScore,
-      p_ending_id: delta.endingId,
-      p_first_round_player_rank: delta.firstRoundPlayerRank,
-      p_second_round_player_rank: delta.secondRoundPlayerRank,
-      p_first_round_player_score: delta.firstRoundPlayerScore,
-      p_second_round_player_score: delta.secondRoundPlayerScore,
-      p_runoff_opponent_party_id: delta.runoffOpponentPartyId,
-      p_first_round_turnout: delta.firstRoundTurnout,
-      p_second_round_turnout: delta.secondRoundTurnout,
-      p_app_version: delta.appVersion,
-      p_engine_version: delta.engineVersion,
-      p_save_schema_version: delta.saveSchemaVersion,
-      p_content_version: delta.contentVersion,
-      p_analytics_schema_version: delta.analyticsSchemaVersion,
-      p_build_sha: delta.buildSha,
-      p_experiment_id: delta.experimentId,
-      p_variant_id: delta.variantId,
-    });
-    if (error) throw error;
-
-    // decisions_count stays a derived count(*), never a blindly incremented
-    // counter — recomputed after the decision upserts above so it is
-    // correct even under retries/duplicates.
+  // decisions_count stays a derived count(*), never a blindly incremented
+  // counter — recomputed after the decision upserts above so it is correct
+  // even under retries/duplicates.
+  for (const runId of runScopedByRunId.keys()) {
     const { count: decisionCount, error: countError } = await supabase
       .from("analytics_decisions")
       .select("run_id", { count: "exact", head: true })
@@ -489,8 +499,6 @@ export async function ingestEvents(
       .update({ decisions_count: decisionCount ?? 0 })
       .eq("run_id", runId);
     if (countUpdateError) throw countUpdateError;
-
-    runsTouched += 1;
   }
 
   return { accepted: sorted.length, duplicates, runsTouched, decisionsTouched };
