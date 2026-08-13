@@ -64,9 +64,12 @@ conditionné à ce consentement.
 ## Interface de consentement
 
 Le contrôle vit dans `Paramètres` (`/parametres`), sous la forme de deux boutons neutres
-(« Activer » / « Garder désactivées »), sans bouton pré-sélectionné en faveur de l'activation, sans
-minuterie, sans relance automatique, sans distinction visuelle qui pousserait vers un choix plutôt
-que l'autre (pas de dark pattern). L'état actuel est toujours affiché en toutes lettres.
+(« Activer les statistiques anonymes » / « Désactiver les statistiques anonymes »), sans
+minuterie, sans relance automatique, sans texte incitatif qui pousserait vers un choix plutôt que
+l'autre. Le bouton correspondant à l'état courant est visuellement mis en avant (style « primary »)
+— c'est un simple reflet de l'état réel (`granted` par défaut depuis le 2026-08-13, voir
+« Principe » ci-dessus), pas une incitation à cliquer dessus puisque cet état est déjà actif.
+L'état actuel est en outre toujours affiché en toutes lettres.
 
 ## Sécurité côté serveur
 

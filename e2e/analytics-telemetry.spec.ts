@@ -34,7 +34,10 @@ async function dismissFictionNotice(page: Page) {
 
 async function grantAnalyticsConsent(page: Page) {
   await page.goto("/parametres");
-  await page.getByRole("button", { name: /Activer les statistiques anonymes/i }).click();
+  // Exact match required: "Désactiver les statistiques anonymes" contains
+  // "activer les statistiques anonymes" as a substring, so a loose regex
+  // here ambiguously matches both buttons.
+  await page.getByRole("button", { name: "Activer les statistiques anonymes", exact: true }).click();
   await expect(page.getByText(/Statistiques anonymes activées/i)).toBeVisible();
 }
 

@@ -207,7 +207,7 @@ export function SettingsPageClient() {
                       variant={settings.analyticsConsent === "denied" ? "primary" : "secondary"}
                       onClick={() => void updateConsent("denied")}
                     >
-                      Garder désactivées
+                      Désactiver les statistiques anonymes
                     </Button>
                   </div>
                 ) : null}

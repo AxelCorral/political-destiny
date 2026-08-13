@@ -52,7 +52,7 @@ async function cleanupRun(runId: string): Promise<void> {
 }
 
 test.describe("consentement réel — refus explicite et retrait (Phase 3)", () => {
-  test("un refus explicite ('Garder désactivées') n'envoie rien et ne crée aucune ligne distante", async ({
+  test("un refus explicite ('Désactiver les statistiques anonymes') n'envoie rien et ne crée aucune ligne distante", async ({
     page,
   }) => {
     const seed = `e2e-consent-denied-${Date.now()}`;
@@ -62,7 +62,7 @@ test.describe("consentement réel — refus explicite et retrait (Phase 3)", () 
     });
 
     await page.goto("/parametres");
-    await page.getByRole("button", { name: /Garder désactivées/i }).click();
+    await page.getByRole("button", { name: /Désactiver les statistiques anonymes/i }).click();
     await expect(page.getByText(/Statistiques anonymes désactivées/i)).toBeVisible();
 
     await startCampaign(page, seed);
@@ -86,7 +86,8 @@ test.describe("consentement réel — refus explicite et retrait (Phase 3)", () 
     });
 
     await page.goto("/parametres");
-    await page.getByRole("button", { name: /Activer les statistiques anonymes/i }).click();
+    // Exact match: "Désactiver..." contains "activer..." as a substring.
+    await page.getByRole("button", { name: "Activer les statistiques anonymes", exact: true }).click();
     await expect(page.getByText(/Statistiques anonymes activées/i)).toBeVisible();
 
     await startCampaign(page, seed);
@@ -127,7 +128,7 @@ test.describe("consentement réel — refus explicite et retrait (Phase 3)", () 
     // baseline must be captured AFTER the withdrawal click settles, not
     // before this navigation.
     await page.goto("/parametres");
-    await page.getByRole("button", { name: /Garder désactivées/i }).click();
+    await page.getByRole("button", { name: /Désactiver les statistiques anonymes/i }).click();
     await expect(page.getByText(/Statistiques anonymes désactivées/i)).toBeVisible();
     await page.waitForTimeout(500); // let any already-in-flight flush from the reload settle
     const requestCountBeforeWithdrawal = ingestionRequests.length;
