@@ -1,6 +1,13 @@
 # Checklist de mise en service réelle — Analytics
 
-**Détection effectuée dans cette session** : aucun `.env.local`, aucune variable
+**Mise à jour Phase 3 (2026-08-13)** : cette checklist a été exécutée pour de vrai — projet
+Supabase réel connecté, migrations `0001`–`0007` appliquées, chaîne de collecte validée de bout
+en bout sur PostgreSQL réel (voir `docs/analytics/REMOTE_SCHEMA_VERIFICATION.md` et
+`PHASE3_REMOTE_ENABLEMENT_REPORT.md`). Le texte ci-dessous reste la procédure de référence,
+utile telle quelle pour relier un futur second environnement (preview, staging) — mais l'état
+« aucun projet lié » qu'il décrivait au moment de sa rédaction n'est plus l'état réel du projet.
+
+**Détection effectuée avant la Phase 3** : aucun `.env.local`, aucune variable
 `SUPABASE_URL`/`SUPABASE_SERVICE_ROLE_KEY` dans l'environnement, aucune CLI Supabase installée,
 aucun projet lié (`supabase/config.toml` absent — le dossier `supabase/` de ce dépôt ne contient
 que les migrations, pas un projet lié). **Aucun projet cloud n'a été créé automatiquement** —
