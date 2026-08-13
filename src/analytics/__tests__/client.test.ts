@@ -74,4 +74,42 @@ describe("client analytics (track/flush)", () => {
     await flush();
     expect(fetch).not.toHaveBeenCalled();
   });
+
+  it("flush() renvoie les événements mis en file pendant qu'un flush réseau est déjà en vol", async () => {
+    // Regression test for a real bug found in Phase 3 remote enablement:
+    // against a near-instant/no-op backend, a concurrent flush() call
+    // returning the in-flight promise (instead of re-checking the queue
+    // afterwards) was never observable — the in-flight fetch always
+    // resolved before anything new could be enqueued. Against a real
+    // Supabase round-trip (hundreds of ms), an event tracked while the
+    // first flush is still in flight used to sit unsent until the next
+    // externally-triggered flush (up to the 30s AnalyticsProvider
+    // interval).
+    await setAnalyticsConsent("granted");
+    track("session_started", undefined, { entryPath: "/" });
+    await settle();
+
+    const fetchMock = vi.fn().mockImplementation(
+      () =>
+        new Promise<Response>((resolve) =>
+          setTimeout(() => resolve(new Response(null, { status: 200 })), 100),
+        ),
+    );
+    vi.stubGlobal("fetch", fetchMock);
+
+    const firstFlush = flush();
+    // Enqueue a second event while the first flush's fetch is still
+    // in flight (the mock resolves after 100ms).
+    track("player_dashboard_opened", undefined, { phase: "campaign", decisionIndex: 0 });
+    await settle();
+    // Both events are still queued: the first flush's fetch hasn't resolved
+    // yet (100ms mock delay), so nothing has been removed.
+    expect(await queueSize()).toBe(2);
+
+    const secondFlush = flush(); // must chain, not just return firstFlush
+    await Promise.all([firstFlush, secondFlush]);
+
+    expect(fetchMock.mock.calls.length).toBeGreaterThanOrEqual(2);
+    expect(await queueSize()).toBe(0);
+  });
 });

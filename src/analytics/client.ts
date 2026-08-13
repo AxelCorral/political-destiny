@@ -106,7 +106,18 @@ export async function flush(): Promise<void> {
   if (typeof window === "undefined") return;
   if (getAnalyticsMode() === "off") return;
   if ((await getAnalyticsConsent()) !== "granted") return;
-  if (flushInFlight) return flushInFlight;
+  if (flushInFlight) {
+    // A flush is already running its network round-trip. Don't just return
+    // that promise: anything enqueued after it started (e.g. by a track()
+    // call whose own 250ms scheduleFlush() timer fires while we're still
+    // awaiting the real Supabase round-trip) would otherwise sit unsent
+    // until the next externally-triggered flush — up to the 30s interval
+    // (AnalyticsProvider) with a real backend. Invisible with a near-instant
+    // local/no-op backend, real against actual network latency (Phase 3
+    // remote enablement). Chain instead, so the queue is re-checked once
+    // the in-flight request settles.
+    return flushInFlight.then(() => flush());
+  }
   flushInFlight = doFlush().finally(() => {
     flushInFlight = undefined;
   });
