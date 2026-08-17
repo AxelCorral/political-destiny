@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { BRANDING } from "@/config/branding";
 import { ActiveCampaignCard } from "@/features/campaign/active-campaign-card";
+import { NewCampaignButton } from "@/features/campaign/new-campaign-button";
 
 const promises = [
   { icon: CalendarDays, value: "1 année", label: "de campagne" },
@@ -36,11 +37,12 @@ export default function HomePage() {
               jamais tout contrôler.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Button asChild size="large">
-                <Link href="/jouer">
-                  Lancer une campagne <ArrowRight aria-hidden="true" className="size-5" />
-                </Link>
-              </Button>
+              {/* Intention explicite : ce CTA démarre une campagne. Il ne doit
+                  jamais devenir un alias silencieux de « Reprendre » quand une
+                  sauvegarde existe — la reprise appartient à ActiveCampaignCard. */}
+              <NewCampaignButton asLink size="large">
+                Lancer une campagne <ArrowRight aria-hidden="true" className="size-5" />
+              </NewCampaignButton>
               <Button
                 asChild
                 size="large"

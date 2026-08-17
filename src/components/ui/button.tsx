@@ -1,6 +1,6 @@
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
-import type { ButtonHTMLAttributes } from "react";
+import type { ButtonHTMLAttributes, Ref } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -39,6 +39,12 @@ const buttonVariants = cva(
 export interface ButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariants> {
   asChild?: boolean;
+  /**
+   * React 19 : `ref` est une prop ordinaire des composants fonction, déjà
+   * transmise par le spread ci-dessous ; `ButtonHTMLAttributes` ne la déclare
+   * pas, il faut donc l'ajouter au type pour pouvoir la passer.
+   */
+  ref?: Ref<HTMLButtonElement>;
 }
 
 export function Button({ className, variant, size, asChild, ...props }: ButtonProps) {

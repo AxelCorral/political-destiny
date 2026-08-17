@@ -8,7 +8,9 @@ import { PartyMark } from "@/components/game/party-mark";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import type { GameState } from "@/game/types";
-import { clearActiveGame, loadActiveGame } from "@/lib/storage/game-database";
+import { loadActiveGame } from "@/lib/storage/game-database";
+
+import { NewCampaignButton } from "./new-campaign-button";
 
 export function ActiveCampaignCard() {
   const router = useRouter();
@@ -29,13 +31,6 @@ export function ActiveCampaignCard() {
   if (!state) return null;
   const party = state.parties[state.playerPartyId];
   if (!party) return null;
-
-  const startNew = async () => {
-    if (!window.confirm("Abandonner la sauvegarde active et commencer une nouvelle campagne ?"))
-      return;
-    await clearActiveGame();
-    router.push("/jouer");
-  };
 
   return (
     <section
@@ -63,9 +58,9 @@ export function ActiveCampaignCard() {
             {state.phase === "finished" ? "Voir le bilan" : "Reprendre"}{" "}
             <ArrowRight aria-hidden="true" className="size-4" />
           </Button>
-          <Button variant="ghost" size="compact" onClick={startNew}>
+          <NewCampaignButton variant="ghost" size="compact">
             <RotateCcw aria-hidden="true" className="size-3.5" /> Nouvelle partie
-          </Button>
+          </NewCampaignButton>
         </div>
       </Card>
     </section>

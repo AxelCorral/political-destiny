@@ -8,6 +8,7 @@ import { PartyMark } from "@/components/game/party-mark";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Dialog } from "@/components/ui/dialog";
+import { NewCampaignButton } from "@/features/campaign/new-campaign-button";
 import { gameContent } from "@/game/data";
 import type { CompletedRunSummary, PollSnapshot } from "@/game/types";
 import {
@@ -132,9 +133,12 @@ export function ArchivesPageClient() {
             Terminez une campagne : son score, ses badges et ses décisions marquantes seront
             archivés automatiquement.
           </p>
-          <Button asChild className="mt-6">
-            <Link href="/jouer">Lancer une campagne</Link>
-          </Button>
+          {/* Même libellé que le CTA de l'accueil, donc même intention : démarrer
+              une campagne, jamais reprendre silencieusement la sauvegarde active
+              (le panthéon peut être vide alors qu'une campagne est en cours). */}
+          <NewCampaignButton asLink className="mt-6">
+            Lancer une campagne
+          </NewCampaignButton>
         </Card>
       )}
 
