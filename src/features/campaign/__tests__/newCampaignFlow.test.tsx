@@ -149,3 +149,103 @@ describe("démarrage d’une nouvelle campagne avec une sauvegarde active", () =
     expect(screen.queryByRole("heading", { name: /démarrer une nouvelle campagne/i })).toBeNull();
   });
 });
+
+describe("« Lancer une campagne » avec une sauvegarde active (offerResume)", () => {
+  beforeEach(async () => {
+    push.mockClear();
+    useGameStore.getState().resetGame();
+    await saveActiveGame(newState("offer-resume-fixture"));
+  });
+
+  afterEach(() => cleanup());
+
+  it("propose les trois issues et nomme la campagne concernée", async () => {
+    const user = userEvent.setup();
+    const active = (await loadActiveGame()).state!;
+    render(<NewCampaignButton offerResume>Lancer une campagne</NewCampaignButton>);
+
+    await user.click(screen.getByRole("button", { name: /lancer une campagne/i }));
+
+    const dialog = await screen.findByRole("dialog");
+    expect(
+      await screen.findByRole("heading", { name: /une campagne est déjà en cours/i }),
+    ).toBeVisible();
+    // §8 — le dialogue identifie la sauvegarde, il ne parle pas dans le vide.
+    expect(dialog).toHaveTextContent(active.player.displayName);
+    expect(dialog).toHaveTextContent(active.parties[active.playerPartyId]!.displayName);
+    expect(dialog).toHaveTextContent(/1 décision prise/i);
+    // §2 — les trois actions, et aucune navigation tant que rien n'est choisi.
+    expect(screen.getByRole("button", { name: /^annuler$/i })).toBeVisible();
+    expect(screen.getByRole("button", { name: /^reprendre la campagne$/i })).toBeVisible();
+    expect(screen.getByRole("button", { name: /^démarrer une nouvelle campagne$/i })).toBeVisible();
+    expect(push).not.toHaveBeenCalled();
+  });
+
+  it("« Reprendre la campagne » navigue sans rien effacer ni remettre à zéro", async () => {
+    const user = userEvent.setup();
+    const active = (await loadActiveGame()).state!;
+    useGameStore.getState().restoreGame(active);
+    render(<NewCampaignButton offerResume>Lancer une campagne</NewCampaignButton>);
+
+    await user.click(screen.getByRole("button", { name: /lancer une campagne/i }));
+    await user.click(await screen.findByRole("button", { name: /^reprendre la campagne$/i }));
+
+    await waitFor(() => expect(push).toHaveBeenCalledWith("/jouer"));
+    // Seed, progression et identité de run sont ceux du disque : c'est une
+    // reprise, pas une recréation.
+    const untouched = (await loadActiveGame()).state;
+    expect(untouched?.runId).toBe(active.runId);
+    expect(untouched?.seed).toBe(active.seed);
+    expect(untouched?.decisionIndex).toBe(active.decisionIndex);
+    expect(useGameStore.getState().gameState?.runId).toBe(active.runId);
+  });
+
+  it("« Démarrer une nouvelle campagne » reste destructif et explicite", async () => {
+    const user = userEvent.setup();
+    const active = (await loadActiveGame()).state!;
+    useGameStore.getState().restoreGame(active);
+    render(<NewCampaignButton offerResume>Lancer une campagne</NewCampaignButton>);
+
+    await user.click(screen.getByRole("button", { name: /lancer une campagne/i }));
+    // Le remplacement est annoncé avant le clic, dans le dialogue lui-même.
+    expect(await screen.findByRole("dialog")).toHaveTextContent(
+      /remplace celle-ci et sa progression est définitivement perdue/i,
+    );
+    await user.click(
+      await screen.findByRole("button", { name: /^démarrer une nouvelle campagne$/i }),
+    );
+
+    await waitFor(() => expect(push).toHaveBeenCalledWith("/jouer"));
+    expect((await loadActiveGame()).state).toBeUndefined();
+    expect(useGameStore.getState().gameState).toBeUndefined();
+    expect(useGameStore.getState().screen).toBe("mode");
+  });
+
+  it("« Annuler » ne touche ni la sauvegarde ni la navigation", async () => {
+    const user = userEvent.setup();
+    const active = (await loadActiveGame()).state!;
+    render(<NewCampaignButton offerResume>Lancer une campagne</NewCampaignButton>);
+
+    await user.click(screen.getByRole("button", { name: /lancer une campagne/i }));
+    await user.click(await screen.findByRole("button", { name: /^annuler$/i }));
+
+    await waitFor(() =>
+      expect(screen.queryByRole("heading", { name: /une campagne est déjà en cours/i })).toBeNull(),
+    );
+    expect((await loadActiveGame()).state?.runId).toBe(active.runId);
+    expect(push).not.toHaveBeenCalled();
+  });
+
+  it("sans offerResume, « Nouvelle partie » garde la confirmation destructive à deux issues", async () => {
+    const user = userEvent.setup();
+    render(<NewCampaignButton>Nouvelle partie</NewCampaignButton>);
+
+    await user.click(screen.getByRole("button", { name: /nouvelle partie/i }));
+
+    expect(
+      await screen.findByRole("heading", { name: /démarrer une nouvelle campagne/i }),
+    ).toBeVisible();
+    // §9 — l'intention est déjà tranchée par le libellé : pas de reprise ici.
+    expect(screen.queryByRole("button", { name: /^reprendre la campagne$/i })).toBeNull();
+  });
+});

@@ -113,7 +113,7 @@ test("13 · « Nouvelle partie » et « Lancer une campagne » ne reprennent jam
   expect(second?.seed).toBe("e2e-new-campaign-flow-2");
 
   await page.getByRole("link", { name: /Lancer une campagne/i }).click();
-  const heroConfirmation = page.getByRole("dialog", { name: /Démarrer une nouvelle campagne/i });
+  const heroConfirmation = page.getByRole("dialog", { name: /Une campagne est déjà en cours/i });
   await expect(heroConfirmation).toBeVisible();
   await heroConfirmation.getByRole("button", { name: /^Démarrer une nouvelle campagne$/ }).click();
   await expectSetupFlow(page);
@@ -145,4 +145,58 @@ test("14 · annuler la confirmation laisse la campagne sauvegardée strictement 
   await page.getByRole("button", { name: /^Reprendre$/ }).click();
   await expect(page.getByRole("button", { name: /Ouvrir le tableau de bord/i })).toBeVisible();
   expect(await readActiveSave(page)).toEqual(before);
+});
+
+test("15 · « Lancer une campagne » laisse le choix entre reprendre et recommencer", async ({
+  page,
+}) => {
+  await startExistingCampaign(page, "Parti socialiste", "e2e-new-campaign-choice");
+  await playOneDecision(page);
+  await saveAndQuitToHome(page);
+  const before = await readActiveSave(page);
+  expect(before?.decisionIndex).toBe(1);
+
+  const cta = page.getByRole("link", { name: /Lancer une campagne/i });
+  const choice = page.getByRole("dialog", { name: /Une campagne est déjà en cours/i });
+
+  // Le dialogue identifie la campagne concernée et propose les trois issues.
+  await cta.click();
+  await expect(choice).toBeVisible();
+  await expect(choice).toContainText(/Parti socialiste/i);
+  await expect(choice).toContainText(/1 décision prise/i);
+  await expect(choice.getByRole("button", { name: /^Annuler$/ })).toBeVisible();
+  await expect(choice.getByRole("button", { name: /^Reprendre la campagne$/ })).toBeVisible();
+  await expect(
+    choice.getByRole("button", { name: /^Démarrer une nouvelle campagne$/ }),
+  ).toBeVisible();
+
+  // Annuler : on reste sur l'accueil, la sauvegarde est intacte, le focus revient.
+  await choice.getByRole("button", { name: /^Annuler$/ }).click();
+  await expect(choice).toBeHidden();
+  expect(page.url()).toMatch(/\/$/);
+  expect(await readActiveSave(page)).toEqual(before);
+  await expect(cta).toBeFocused();
+
+  // Reprendre : la campagne existante repart, avec sa progression.
+  await cta.click();
+  await choice.getByRole("button", { name: /^Reprendre la campagne$/ }).click();
+  await expect(page.getByRole("button", { name: /Ouvrir le tableau de bord/i })).toBeVisible();
+  expect(await readActiveSave(page)).toEqual(before);
+  await page.getByRole("button", { name: /Ouvrir le tableau de bord/i }).click();
+  await page.getByRole("tab", { name: /Décisions/i }).click();
+  await expect(page.getByText(/Décision 1/i)).toBeVisible();
+  await page
+    .getByRole("button", { name: /Fermer/i })
+    .first()
+    .click();
+  await saveAndQuitToHome(page);
+
+  // Démarrer une nouvelle campagne : le flux initial, et l'ancienne ne revient pas.
+  await cta.click();
+  await choice.getByRole("button", { name: /^Démarrer une nouvelle campagne$/ }).click();
+  await expectSetupFlow(page);
+  expect(await readActiveSave(page)).toBeUndefined();
+  await page.reload();
+  await expectSetupFlow(page);
+  expect(await readActiveSave(page)).toBeUndefined();
 });

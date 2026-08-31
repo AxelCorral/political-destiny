@@ -133,10 +133,11 @@ export function ArchivesPageClient() {
             Terminez une campagne : son score, ses badges et ses décisions marquantes seront
             archivés automatiquement.
           </p>
-          {/* Même libellé que le CTA de l'accueil, donc même intention : démarrer
-              une campagne, jamais reprendre silencieusement la sauvegarde active
-              (le panthéon peut être vide alors qu'une campagne est en cours). */}
-          <NewCampaignButton asLink className="mt-6">
+          {/* Même libellé que le CTA de l'accueil, donc même intention et même
+              dialogue : démarrer une campagne, jamais reprendre silencieusement
+              la sauvegarde active (le panthéon peut être vide alors qu'une
+              campagne est en cours), mais en laissant le choix de la reprendre. */}
+          <NewCampaignButton asLink offerResume className="mt-6">
             Lancer une campagne
           </NewCampaignButton>
         </Card>

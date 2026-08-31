@@ -39,8 +39,9 @@ export default function HomePage() {
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               {/* Intention explicite : ce CTA démarre une campagne. Il ne doit
                   jamais devenir un alias silencieux de « Reprendre » quand une
-                  sauvegarde existe — la reprise appartient à ActiveCampaignCard. */}
-              <NewCampaignButton asLink size="large">
+                  sauvegarde existe — mais il laisse le choix, car le joueur qui
+                  clique ici ne sait pas forcément qu'une campagne l'attend. */}
+              <NewCampaignButton asLink offerResume size="large">
                 Lancer une campagne <ArrowRight aria-hidden="true" className="size-5" />
               </NewCampaignButton>
               <Button
