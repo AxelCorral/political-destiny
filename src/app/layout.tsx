@@ -10,6 +10,7 @@ import { BRANDING } from "@/config/branding";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://political-destiny.vercel.app"),
   title: {
     default: BRANDING.name,
     template: `%s — ${BRANDING.name}`,
@@ -21,6 +22,15 @@ export const metadata: Metadata = {
     { rel: "icon", url: "/icons/emblem.svg", type: "image/svg+xml" },
     { rel: "apple-touch-icon", url: "/icons/icon-192.svg" },
   ],
+  openGraph: {
+    title: BRANDING.name,
+    description: BRANDING.description,
+    siteName: BRANDING.name,
+    locale: "fr_FR",
+    type: "website",
+    images: [{ url: "/og.png", width: 1280, height: 640, alt: BRANDING.name }],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {
