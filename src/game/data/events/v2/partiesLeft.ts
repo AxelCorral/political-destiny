@@ -8,7 +8,7 @@ const lfiEvents: GameEventDefinition[] = [
     id: "party_lfi_identity",
     title: "LFI choisit entre mouvement et candidat",
     summary:
-      "Les groupes d’action veulent conserver leur autonomie tandis que l’équipe d’Ariane Valmont demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.",
+      "Les groupes d’action veulent conserver leur autonomie tandis que l’équipe de Jean-Luc Mélenchon demande une campagne présidentielle plus centralisée. La méthode choisie déterminera qui peut adapter le message et qui tranche les désaccords.",
     themes: ["institutions"],
     importance: "major",
     entityReferences: [
@@ -35,12 +35,12 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_identity_candidate",
-        "Centraliser la parole autour d’Ariane Valmont et limiter les tracts aux textes validés",
+        "Centraliser la parole autour d’Jean-Luc Mélenchon et limiter les tracts aux textes validés",
         "internal_discipline",
         "PRÉSIDENTIEL",
         "lfi_identity_candidate_centered",
         "La candidature prend le pas sur le mouvement",
-        "Les interventions deviennent cohérentes et Ariane Valmont gagne en stature nationale. Les groupes d’action les plus anciens réduisent leurs initiatives et demandent des garanties pour l’après-présidentielle.",
+        "Les interventions deviennent cohérentes et Jean-Luc Mélenchon gagne en stature nationale. Les groupes d’action les plus anciens réduisent leurs initiatives et demandent des garanties pour l’après-présidentielle.",
         [
           stat("credibility", 4, "Parole unifiée"),
           stat("mediaPresence", 3, "Candidate identifiée"),
@@ -51,12 +51,12 @@ const lfiEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "lfi_identity_dual",
-        "Réserver le programme au mouvement et la stratégie électorale à la candidate",
+        "Réserver le programme au mouvement et la stratégie électorale au candidat",
         "compromise",
         "INSTITUTIONNEL",
         "lfi_identity_dual_mandate",
         "Deux mandats définissent la campagne",
-        "La frontière protège la délibération programmatique et permet à Ariane Valmont de réagir vite aux sondages. Chaque repositionnement électoral devra toutefois prouver qu’il ne modifie pas le fond.",
+        "La frontière protège la délibération programmatique et permet à Jean-Luc Mélenchon de réagir vite aux sondages. Chaque repositionnement électoral devra toutefois prouver qu’il ne modifie pas le fond.",
         [
           stat("cohesion", 4, "Mandats séparés"),
           stat("credibility", 3, "Responsabilités lisibles"),

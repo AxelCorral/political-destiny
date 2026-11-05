@@ -8,7 +8,7 @@ export const v2NouvelleEnergiePartyEvents: GameEventDefinition[] = [
     id: "party_nouvelle_energie_identity",
     title: "Nouvelle Énergie doit prouver son utilité",
     summary:
-      "Le mouvement reste peu connu hors de ses réseaux d’élus et d’entrepreneurs. Nora Vaillant doit choisir entre une candidature de réformes, une force d’alliance ou une campagne territoriale patiente.",
+      "Le mouvement reste peu connu hors de ses réseaux d’élus et d’entrepreneurs. David Lisnard doit choisir entre une candidature de réformes, une force d’alliance ou une campagne territoriale patiente.",
     themes: ["economy", "institutions", "fiscality"],
     importance: "major",
     entityReferences: [
@@ -111,7 +111,7 @@ export const v2NouvelleEnergiePartyEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "nouvelle_energie_fronde_confirm_candidate",
-        "Confirmer publiquement Nora Vaillant et retirer Raphaël Ternois des discussions extérieures",
+        "Confirmer publiquement David Lisnard et retirer Raphaël Ternois des discussions extérieures",
         "internal_discipline",
         "PRÉSIDENTIEL",
         "nouvelle_energie_fronde_autonomy",
@@ -387,7 +387,7 @@ export const v2NouvelleEnergiePartyEvents: GameEventDefinition[] = [
         "POPULAIRE",
         "nouvelle_energie_electorate_small_rooms",
         "Cent petites réunions créent des ambassadeurs",
-        "Chaque participant peut interroger la candidate et repart avec une décision précise à raconter. La méthode coûte du temps et atteint moins de monde qu’une campagne médiatique nationale.",
+        "Chaque participant peut interroger le candidat et repart avec une décision précise à raconter. La méthode coûte du temps et atteint moins de monde qu’une campagne médiatique nationale.",
         [
           stat("mobilization", 7, "Ambassadeurs locaux"),
           stat("localStrength", 6, "Petites réunions"),
@@ -401,7 +401,7 @@ export const v2NouvelleEnergiePartyEvents: GameEventDefinition[] = [
     id: "party_nouvelle_energie_program_dilemma",
     title: "La baisse de dépense rencontre l’hôpital",
     summary:
-      "Le programme prévoit de réduire la dépense publique, mais les premiers comités placent l’accès aux soins en tête de leurs préoccupations. Nora Vaillant doit préciser ce qui sera protégé.",
+      "Le programme prévoit de réduire la dépense publique, mais les premiers comités placent l’accès aux soins en tête de leurs préoccupations. David Lisnard doit préciser ce qui sera protégé.",
     themes: ["fiscality", "public_services"],
     importance: "major",
     choices: [
@@ -451,7 +451,7 @@ export const v2NouvelleEnergiePartyEvents: GameEventDefinition[] = [
     id: "party_nouvelle_energie_runoff",
     title: "L’outsider doit former une majorité",
     summary:
-      "Qualifiée à la surprise générale, Nora Vaillant manque encore d’élus et d’équipes. Horizons et LR proposent leur soutien contre des garanties de coalition et des responsabilités identifiables.",
+      "Qualifié à la surprise générale, David Lisnard manque encore d’élus et d’équipes. Horizons et LR proposent leur soutien contre des garanties de coalition et des responsabilités identifiables.",
     themes: ["institutions", "economy"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },

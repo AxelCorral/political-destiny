@@ -19,8 +19,9 @@ export function daysBetween(start: string, end: string): number {
 }
 
 export function phaseFromDaysRemaining(daysRemaining: number): GamePhase {
-  if (daysRemaining > 240) return "pre_campaign";
-  if (daysRemaining > 120) return "campaign";
+  // V3 : campagne de septembre 2026 à avril 2027 (environ 223 jours).
+  if (daysRemaining > 160) return "pre_campaign";
+  if (daysRemaining > 60) return "campaign";
   if (daysRemaining > 0) return "official_campaign";
   return "first_round";
 }

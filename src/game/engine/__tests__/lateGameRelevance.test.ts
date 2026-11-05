@@ -53,7 +53,7 @@ describe("lateGameRelevanceMultiplier", () => {
 
   it("favorise un débat en fin de campagne", () => {
     const state = baseState();
-    state.decisionIndex = 20;
+    state.decisionIndex = 25;
     const debateWeight = lateGameRelevanceMultiplier(state, routineEvent({ category: "debate" }));
     const campaignWeight = lateGameRelevanceMultiplier(
       state,
@@ -65,7 +65,7 @@ describe("lateGameRelevanceMultiplier", () => {
 
   it("favorise une chaîne narrative active mais pas une chaîne déjà résolue", () => {
     const state = baseState();
-    state.decisionIndex = 20;
+    state.decisionIndex = 25;
     state.narrativeThreads.test_chain = {
       id: "test_chain",
       currentStep: 1,
@@ -83,7 +83,7 @@ describe("lateGameRelevanceMultiplier", () => {
 
   it("favorise une crise interne décisive/majeure mais pas une crise interne notable", () => {
     const state = baseState();
-    state.decisionIndex = 20;
+    state.decisionIndex = 25;
     const decisive = routineEvent({ category: "internal", importance: "decisive" });
     const notable = routineEvent({ category: "internal", importance: "notable" });
     expect(lateGameRelevanceMultiplier(state, decisive)).toBeGreaterThan(
@@ -93,12 +93,12 @@ describe("lateGameRelevanceMultiplier", () => {
 
   it("favorise un événement décisif quand le joueur est à moins de 3 points du seuil de qualification", () => {
     const state = baseState();
-    state.decisionIndex = 20;
+    state.decisionIndex = 25;
     state.pollHistory = [
       {
         id: "poll-1",
         date: state.currentDate,
-        decisionIndex: 19,
+        decisionIndex: 24,
         instituteLabel: "Institut de test",
         results: { alpha: 20, beta: 21, gamma: 19, delta: 15 },
         playerRank: 2,
@@ -114,12 +114,12 @@ describe("lateGameRelevanceMultiplier", () => {
 
   it("n'avantage pas un enjeu de qualification quand l'écart est large (> 3 points)", () => {
     const state = baseState();
-    state.decisionIndex = 20;
+    state.decisionIndex = 25;
     state.pollHistory = [
       {
         id: "poll-1",
         date: state.currentDate,
-        decisionIndex: 19,
+        decisionIndex: 24,
         instituteLabel: "Institut de test",
         results: { alpha: 10, beta: 30, gamma: 25, delta: 15 },
         playerRank: 3,
@@ -132,7 +132,7 @@ describe("lateGameRelevanceMultiplier", () => {
 
   it("reste borné : le cumul de tous les facteurs ne dépasse jamais x4", () => {
     const state = baseState();
-    state.decisionIndex = 20;
+    state.decisionIndex = 25;
     state.narrativeThreads.test_chain = {
       id: "test_chain",
       currentStep: 1,
@@ -145,7 +145,7 @@ describe("lateGameRelevanceMultiplier", () => {
       {
         id: "poll-1",
         date: state.currentDate,
-        decisionIndex: 19,
+        decisionIndex: 24,
         instituteLabel: "Institut de test",
         results: { alpha: 20, beta: 21, gamma: 19, delta: 15 },
         playerRank: 2,

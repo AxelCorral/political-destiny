@@ -146,41 +146,43 @@ export function PartySelectionScreen() {
         <ArrowLeft aria-hidden="true" className="size-4" /> Retour
       </Button>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {gameContent.parties.map((party) => {
-          const candidate = candidateForParty(party.id);
-          return (
-            <button
-              key={party.id}
-              type="button"
-              onClick={() => openParty(party.id)}
-              className="group rounded-[1.25rem] border border-[var(--line)] bg-[var(--paper)] p-5 text-left shadow-[0_12px_35px_rgba(12,30,58,0.07)] transition hover:-translate-y-0.5 hover:border-[var(--blue-400)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2"
-            >
-              <div className="flex items-start justify-between gap-4">
-                <PartyMark party={party} size="large" />
-                <ChevronRight
-                  aria-hidden="true"
-                  className="mt-2 size-5 text-[var(--slate-500)] transition-transform group-hover:translate-x-1"
-                />
-              </div>
-              <strong className="mt-5 block text-lg font-black leading-tight">
-                {party.displayName}
-              </strong>
-              <span className="mt-1 block text-sm text-[var(--ink-muted)]">
-                {candidate?.displayName ?? "Candidat à confirmer"}
-              </span>
-              <div className="mt-5 flex flex-wrap gap-2">
-                {party.strengths.slice(0, 2).map((strength) => (
-                  <span
-                    key={strength}
-                    className="rounded-full bg-[var(--surface-raised)] px-3 py-1 text-[0.68rem] font-bold text-[var(--slate-700)]"
-                  >
-                    {strength}
-                  </span>
-                ))}
-              </div>
-            </button>
-          );
-        })}
+        {gameContent.parties
+          .filter((party) => party.playable !== false)
+          .map((party) => {
+            const candidate = candidateForParty(party.id);
+            return (
+              <button
+                key={party.id}
+                type="button"
+                onClick={() => openParty(party.id)}
+                className="group rounded-[1.25rem] border border-[var(--line)] bg-[var(--paper)] p-5 text-left shadow-[0_12px_35px_rgba(12,30,58,0.07)] transition hover:-translate-y-0.5 hover:border-[var(--blue-400)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--focus)] focus-visible:ring-offset-2"
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <PartyMark party={party} size="large" />
+                  <ChevronRight
+                    aria-hidden="true"
+                    className="mt-2 size-5 text-[var(--slate-500)] transition-transform group-hover:translate-x-1"
+                  />
+                </div>
+                <strong className="mt-5 block text-lg font-black leading-tight">
+                  {party.displayName}
+                </strong>
+                <span className="mt-1 block text-sm text-[var(--ink-muted)]">
+                  {candidate?.displayName ?? "Candidat à confirmer"}
+                </span>
+                <div className="mt-5 flex flex-wrap gap-2">
+                  {party.strengths.slice(0, 2).map((strength) => (
+                    <span
+                      key={strength}
+                      className="rounded-full bg-[var(--surface-raised)] px-3 py-1 text-[0.68rem] font-bold text-[var(--slate-700)]"
+                    >
+                      {strength}
+                    </span>
+                  ))}
+                </div>
+              </button>
+            );
+          })}
       </div>
     </ScreenShell>
   );
@@ -193,10 +195,13 @@ export function PartySelectionScreen() {
  * réels) : ici, uniquement des traits internes à l'univers du jeu.
  */
 const CANDIDATE_PROFILE_BLURBS: Record<string, string> = {
-  rn_ferran_profile: "Ligne historique du mouvement, ancrage populaire affirmé.",
-  rn_montclar_profile: "Génération plus récente, stratégie de normalisation.",
-  ps_villedieu_profile: "Continuité de l’appareil du parti.",
-  ps_rassemblement_profile: "Figure de rassemblement, hors appareil strict.",
+  rn_lepen_profile:
+    "Candidate déclarée, socle fidèle — éligibilité suspendue à la Cour de cassation.",
+  rn_bardella_profile:
+    "Hypothèse d’un renoncement : ligne de normalisation, meilleur report à droite.",
+  ps_glucksmann_profile: "Favori de la primaire : social-démocratie pro-européenne.",
+  ps_faure_profile: "Premier secrétaire : l’appareil et les élus, notoriété plus faible.",
+  ps_royal_profile: "Retour d’une ancienne finaliste : ferveur militante, appareil méfiant.",
 };
 
 export function PartyDetailScreen() {
@@ -273,7 +278,9 @@ export function PartyDetailScreen() {
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             {candidateProfiles.map((profile) => {
-              const actor = gameContent.actors.find((candidateActor) => candidateActor.id === profile.actorId);
+              const actor = gameContent.actors.find(
+                (candidateActor) => candidateActor.id === profile.actorId,
+              );
               const selected = effectiveProfileId === profile.id;
               return (
                 <button

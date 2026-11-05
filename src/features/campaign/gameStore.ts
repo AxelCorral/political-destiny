@@ -154,9 +154,10 @@ export const useGameStore = create<GameUiState>((set, get) => ({
     let partyId = setup.selectedPartyId;
     let methodId = setup.selectedMethodId;
     if (setup.mode === "random") {
-      const partyIndex = hashSeed(`${seed}:party`) % gameContent.parties.length;
+      const playable = gameContent.parties.filter((party) => party.playable !== false);
+      const partyIndex = hashSeed(`${seed}:party`) % playable.length;
       const methodIndex = hashSeed(`${seed}:method`) % gameContent.methods.length;
-      partyId = gameContent.parties[partyIndex]?.id;
+      partyId = playable[partyIndex]?.id;
       methodId = gameContent.methods[methodIndex]?.id;
     }
     if (!setup.mode || !partyId || !methodId) {

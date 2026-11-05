@@ -276,7 +276,8 @@ function referencedThirdParties(event: GameEventDefinition, partyIds: Set<string
         referenced.add(effect.withPartyId);
       }
       if (effect.kind === "party_relation") {
-        if (partyIds.has(effect.partyId) && effect.partyId !== "player") referenced.add(effect.partyId);
+        if (partyIds.has(effect.partyId) && effect.partyId !== "player")
+          referenced.add(effect.partyId);
         if (partyIds.has(effect.withPartyId) && effect.withPartyId !== "player")
           referenced.add(effect.withPartyId);
       }
@@ -586,7 +587,9 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
    * échelle de 200 — pour ne signaler qu'une contradiction franche, pas un
    * simple désaccord d'axe).
    */
-  const worldFigureById = new Map((content.worldFigures ?? []).map((figure) => [figure.id, figure]));
+  const worldFigureById = new Map(
+    (content.worldFigures ?? []).map((figure) => [figure.id, figure]),
+  );
   const nationalFigureById = new Map(
     (content.nationalFigures ?? []).map((figure) => [figure.id, figure]),
   );
@@ -614,8 +617,7 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
         `${endorsement.id}: requiredAffinityTags (${endorsement.requiredAffinityTags.join(", ")}) ne recoupe aucune affinityTag réelle de ${endorsement.figureId}`,
       );
     }
-    const figureEconomicAxis =
-      "economicAxis" in figure ? figure.economicAxis : undefined;
+    const figureEconomicAxis = "economicAxis" in figure ? figure.economicAxis : undefined;
     if (figureEconomicAxis !== undefined) {
       for (const partyId of endorsement.eligiblePartyIds) {
         const party = partyDefinitionById.get(partyId);
@@ -634,7 +636,8 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
     if (figure.affinityTags.length === 0)
       errors.push(`${figure.id}: figure nationale sans affinityTags`);
     const referencingEndorsements = (content.majorEndorsements ?? []).filter(
-      (endorsement) => endorsement.figureKind !== "world_figure" && endorsement.figureId === figure.id,
+      (endorsement) =>
+        endorsement.figureKind !== "world_figure" && endorsement.figureId === figure.id,
     );
     if (referencingEndorsements.length === 0)
       errors.push(`${figure.id}: figure nationale sans endorsement associé`);
@@ -646,7 +649,9 @@ export function validateContentQuality(content: GameContent): ContentQualityRepo
     if (!partyIds.has(profile.partyId))
       errors.push(`${profile.id}: candidateProfile référence un parti absent (${profile.partyId})`);
     if (!actorIds.has(profile.actorId))
-      errors.push(`${profile.id}: candidateProfile référence un acteur absent (${profile.actorId})`);
+      errors.push(
+        `${profile.id}: candidateProfile référence un acteur absent (${profile.actorId})`,
+      );
     profilesByParty.set(profile.partyId, (profilesByParty.get(profile.partyId) ?? 0) + 1);
   }
   for (const [partyId, count] of profilesByParty) {

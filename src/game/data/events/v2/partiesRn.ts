@@ -19,7 +19,7 @@ export const v2RnPartyEvents: GameEventDefinition[] = [
     id: "party_rn_identity",
     title: "Le RN arbitre normalisation et mobilisation",
     summary:
-      "Le socle attend une campagne offensive sur l’immigration et la sécurité, tandis que l’équipe d’Élise Montclar veut convaincre sur le gouvernement et l’économie. L’ordre des priorités devient stratégique.",
+      "Le socle attend une campagne offensive sur l’immigration et la sécurité, tandis que l’équipe de Marine Le Pen veut convaincre sur le gouvernement et l’économie. L’ordre des priorités devient stratégique.",
     themes: ["immigration", "security", "economy"],
     importance: "major",
     entityReferences: [
@@ -329,7 +329,7 @@ export const v2RnPartyEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "rn_crisis_loyalty_purge",
         "La discipline l’emporte sur le courant",
-        "Les interventions publiques deviennent cohérentes et Élise Montclar contrôle son agenda. Plusieurs responsables quittent le dispositif et peuvent transformer leur départ en dissidence autonome.",
+        "Les interventions publiques deviennent cohérentes et Marine Le Pen contrôle son agenda. Plusieurs responsables quittent le dispositif et peuvent transformer leur départ en dissidence autonome.",
         [
           stat("credibility", 6, "Discipline visible"),
           hidden("consistency", 5),
@@ -462,7 +462,7 @@ export const v2RnPartyEvents: GameEventDefinition[] = [
     id: "party_rn_runoff",
     title: "Le RN doit élargir sans démobiliser",
     summary:
-      "Qualifiée, Élise Montclar dispose d’un socle solide mais d’un rejet élevé. Les élus de droite susceptibles de soutenir exigent des garanties gouvernementales et européennes précises.",
+      "Qualifiée, Marine Le Pen dispose d’un socle solide mais d’un rejet élevé. Les élus de droite susceptibles de soutenir exigent des garanties gouvernementales et européennes précises.",
     themes: ["institutions", "europe", "economy"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -526,7 +526,7 @@ export const v2RnPartyEvents: GameEventDefinition[] = [
         "RASSEMBLEUR",
         "rn_dissidence_dissolved",
         "Le comité concurrent se dissout",
-        "La réintégration ramène une partie des militants et évite une candidature concurrente. Élise Montclar doit accepter plusieurs marqueurs identitaires qui compliquent son élargissement.",
+        "La réintégration ramène une partie des militants et évite une candidature concurrente. Marine Le Pen doit accepter plusieurs marqueurs identitaires qui compliquent son élargissement.",
         [
           stat("mobilization", 6, "Militants revenus"),
           stat("cohesion", 4, "Dissidence évitée"),

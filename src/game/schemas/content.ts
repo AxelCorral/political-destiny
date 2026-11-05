@@ -123,6 +123,7 @@ const strategies = [
 
 export const partyDefinitionSchema = z.object({
   id: z.string().regex(/^[a-z0-9_]+$/),
+  playable: z.boolean().optional(),
   displayName: z.string().min(2).max(80),
   shortName: z.string().min(1).max(16),
   aliases: z.array(z.string().min(1).max(80)),

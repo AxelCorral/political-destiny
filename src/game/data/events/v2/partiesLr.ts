@@ -8,7 +8,7 @@ export const v2LrPartyEvents: GameEventDefinition[] = [
     id: "party_lr_identity",
     title: "LR fixe ses deux frontières",
     summary:
-      "Les fédérations demandent une ligne explicite face au bloc central et au RN. Bastien Rochefort doit choisir comment incarner une droite de gouvernement sans perdre son électorat le plus exigeant.",
+      "Les fédérations demandent une ligne explicite face au bloc central et au RN. Bruno Retailleau doit choisir comment incarner une droite de gouvernement sans perdre son électorat le plus exigeant.",
     themes: ["institutions", "security", "economy"],
     importance: "major",
     entityReferences: [
@@ -107,7 +107,7 @@ export const v2LrPartyEvents: GameEventDefinition[] = [
         "internal_discipline",
         "OFFENSIF",
         "lr_fronde_border_enforced",
-        "Bastien Rochefort ferme la négociation",
+        "Bruno Retailleau ferme la négociation",
         "La frontière devient compréhensible et les centristes saluent la décision. Plusieurs présidents de fédération continuent leurs échanges localement et mémorisent l’éviction de leur représentante.",
         [
           stat("credibility", 5, "Frontière affirmée"),
@@ -304,7 +304,7 @@ export const v2LrPartyEvents: GameEventDefinition[] = [
         "TRANSPARENT",
         "lr_crisis_internal_referendum",
         "Les adhérents fixent la frontière",
-        "La participation légitime une règle claire et ramène les fédérations dans le cadre national. Le résultat limite les marges de négociation de Bastien Rochefort pour tout le reste de la campagne.",
+        "La participation légitime une règle claire et ramène les fédérations dans le cadre national. Le résultat limite les marges de négociation de Bruno Retailleau pour tout le reste de la campagne.",
         [
           stat("cohesion", 7, "Règle votée"),
           stat("mobilization", 4, "Adhérents consultés"),
@@ -431,7 +431,7 @@ export const v2LrPartyEvents: GameEventDefinition[] = [
     id: "party_lr_runoff",
     title: "La droite qualifiée cherche ses reports",
     summary:
-      "Qualifié, Bastien Rochefort doit obtenir les voix du centre et d’une partie de la droite nationale. Les deux blocs exigent des signes incompatibles sur l’Europe et les alliances.",
+      "Qualifié, Bruno Retailleau doit obtenir les voix du centre et d’une partie de la droite nationale. Les deux blocs exigent des signes incompatibles sur l’Europe et les alliances.",
     themes: ["institutions", "europe", "security"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -463,7 +463,7 @@ export const v2LrPartyEvents: GameEventDefinition[] = [
         "PRÉSIDENTIEL",
         "lr_runoff_independent_choice",
         "Le programme reste la seule base",
-        "Bastien Rochefort préserve son autonomie et évite les concessions contradictoires. Les partis éliminés donnent des consignes minimales et leurs militants restent largement chez eux.",
+        "Bruno Retailleau préserve son autonomie et évite les concessions contradictoires. Les partis éliminés donnent des consignes minimales et leurs militants restent largement chez eux.",
         [
           stat("credibility", 6, "Ligne inchangée"),
           hidden("consistency", 5),

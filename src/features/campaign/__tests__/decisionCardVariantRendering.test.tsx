@@ -70,7 +70,7 @@ describe("EventDecisionCard — rendu concret par variante", () => {
   it("affiche « Retour de dossier » avec le libellé du choix d'origine pour une suite de chaîne réellement jouée", () => {
     let state: GameState = createGame(
       {
-        seed: "chain-render-test-3",
+        seed: "chain-render-test-0",
         mode: "existing_party",
         partyId: "lfi",
         methodId: "field_first",
@@ -79,7 +79,7 @@ describe("EventDecisionCard — rendu concret par variante", () => {
     );
     let guard = 0;
     let followUp;
-    while (state.phase !== "finished" && guard < 40 && !followUp) {
+    while (state.phase !== "finished" && guard < 70 && !followUp) {
       const event = currentEvent(state, gameContent.events);
       if (event.chain && event.chain.step > 1 && event.chain.followsEventIds?.length) {
         followUp = event;

@@ -23,7 +23,12 @@ describe("RaceBulletinScreen — mention de la baseline du 18 avril 2026", () =>
 
   it("affiche la mention du 18 avril 2026 sur le tout premier bulletin", () => {
     const state: GameState = createGame(
-      { seed: "baseline-date-test", mode: "existing_party", partyId: "ps", methodId: "field_first" },
+      {
+        seed: "baseline-date-test",
+        mode: "existing_party",
+        partyId: "ps",
+        methodId: "field_first",
+      },
       gameContent,
     );
     expect(state.pollHistory).toHaveLength(1);
@@ -38,7 +43,12 @@ describe("RaceBulletinScreen — mention de la baseline du 18 avril 2026", () =>
 
   it("n'affiche plus la mention sur un bulletin ultérieur", () => {
     let state: GameState = createGame(
-      { seed: "baseline-date-test-2", mode: "existing_party", partyId: "ps", methodId: "field_first" },
+      {
+        seed: "baseline-date-test-2",
+        mode: "existing_party",
+        partyId: "ps",
+        methodId: "field_first",
+      },
       gameContent,
     );
     let guard = 0;

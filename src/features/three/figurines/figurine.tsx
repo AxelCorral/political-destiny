@@ -246,7 +246,12 @@ function Face({ spec, r }: { spec: FigurineSpec; r: number }) {
               16,
               PI * 0.05,
               PI * 0.9,
-              PI * (spec.facialHair === "stubble" ? 0.6 : 0.56),
+              PI *
+                (spec.facialHair === "stubble"
+                  ? 0.6
+                  : spec.facialHair === "shortBeard"
+                    ? 0.64
+                    : 0.56),
               PI * 0.3,
             ]}
           />
@@ -271,10 +276,12 @@ function Glasses({ style, r }: { style: "round" | "rect" | "thin"; r: number }) 
     <group>
       {[-1, 1].map((side) =>
         style === "rect" ? (
-          <mesh key={side} position={[side * r * 0.33, y, z]}>
-            <torusGeometry args={[r * 0.16, r * thickness, 6, 4]} />
-            <meshStandardMaterial color={frame} roughness={0.3} />
-          </mesh>
+          <group key={side} position={[side * r * 0.33, y, z]} scale={[1.2, 0.85, 1]}>
+            <mesh rotation={[0, 0, PI / 4]}>
+              <torusGeometry args={[r * 0.15, r * thickness, 6, 4]} />
+              <meshStandardMaterial color={frame} roughness={0.3} />
+            </mesh>
+          </group>
         ) : (
           <mesh key={side} position={[side * r * 0.33, y, z]}>
             <torusGeometry args={[r * 0.15, r * thickness, 8, 24]} />

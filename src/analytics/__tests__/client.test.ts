@@ -90,12 +90,14 @@ describe("client analytics (track/flush)", () => {
     track("session_started", undefined, { entryPath: "/" });
     await settle();
 
-    const fetchMock = vi.fn().mockImplementation(
-      () =>
-        new Promise<Response>((resolve) =>
-          setTimeout(() => resolve(new Response(null, { status: 200 })), 100),
-        ),
-    );
+    const fetchMock = vi
+      .fn()
+      .mockImplementation(
+        () =>
+          new Promise<Response>((resolve) =>
+            setTimeout(() => resolve(new Response(null, { status: 200 })), 100),
+          ),
+      );
     vi.stubGlobal("fetch", fetchMock);
 
     const firstFlush = flush();

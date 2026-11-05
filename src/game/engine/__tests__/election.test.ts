@@ -248,7 +248,12 @@ describe("élections", () => {
     const margins: number[] = [];
     for (let seedIndex = 0; seedIndex < 24; seedIndex += 1) {
       const initial = createGame(
-        { seed: `margin-distribution-${seedIndex}`, mode: "existing_party", partyId: "alpha", methodId: "field" },
+        {
+          seed: `margin-distribution-${seedIndex}`,
+          mode: "existing_party",
+          partyId: "alpha",
+          methodId: "field",
+        },
         testContent,
       );
       const first = simulateFirstRound(initial, testContent.electorateBlocs).state;
@@ -331,7 +336,10 @@ describe("agence entre-deux-tours — les décisions du joueur peuvent changer l
     return state;
   }
 
-  function playFromForkToEnd(forkState: ReturnType<typeof playToBetweenRounds>, choiceIndex: number) {
+  function playFromForkToEnd(
+    forkState: ReturnType<typeof playToBetweenRounds>,
+    choiceIndex: number,
+  ) {
     let state = structuredClone(forkState);
     let guard = 0;
     while (state.phase !== "finished" && guard < 60) {
@@ -344,30 +352,26 @@ describe("agence entre-deux-tours — les décisions du joueur peuvent changer l
     return state;
   }
 
-  it(
-    "à état forké identique (même premier tour, mêmes finalistes), une politique de décision différente sur l'entre-deux-tours peut changer le score du second tour",
-    () => {
-      let divergentTrials = 0;
-      let totalTrials = 0;
-      for (let seedIndex = 0; seedIndex < 20; seedIndex += 1) {
-        const fork = playToBetweenRounds(`agency-fork-${seedIndex}`);
-        if (fork.phase !== "between_rounds") continue;
-        const event = currentEvent(fork, gameContent.events);
-        if (!event || event.choices.length < 2) continue;
-        const branchA = playFromForkToEnd(fork, 0);
-        const branchB = playFromForkToEnd(fork, 1);
-        const scoreA = branchA.secondRoundResult?.results[branchA.playerPartyId];
-        const scoreB = branchB.secondRoundResult?.results[branchB.playerPartyId];
-        if (scoreA === undefined || scoreB === undefined) continue;
-        totalTrials += 1;
-        if (Math.abs(scoreA - scoreB) > 0.01) divergentTrials += 1;
-      }
-      expect(totalTrials).toBeGreaterThan(5);
-      // N'exige pas que CHAQUE choix compte (l'agence n'est jamais absolue),
-      // mais au moins une minorité mesurable de cas doit diverger — sinon le
-      // choix entre-deux-tours serait cosmétique.
-      expect(divergentTrials).toBeGreaterThan(0);
-    },
-    20000,
-  );
+  it("à état forké identique (même premier tour, mêmes finalistes), une politique de décision différente sur l'entre-deux-tours peut changer le score du second tour", () => {
+    let divergentTrials = 0;
+    let totalTrials = 0;
+    for (let seedIndex = 0; seedIndex < 20; seedIndex += 1) {
+      const fork = playToBetweenRounds(`agency-fork-${seedIndex}`);
+      if (fork.phase !== "between_rounds") continue;
+      const event = currentEvent(fork, gameContent.events);
+      if (!event || event.choices.length < 2) continue;
+      const branchA = playFromForkToEnd(fork, 0);
+      const branchB = playFromForkToEnd(fork, 1);
+      const scoreA = branchA.secondRoundResult?.results[branchA.playerPartyId];
+      const scoreB = branchB.secondRoundResult?.results[branchB.playerPartyId];
+      if (scoreA === undefined || scoreB === undefined) continue;
+      totalTrials += 1;
+      if (Math.abs(scoreA - scoreB) > 0.01) divergentTrials += 1;
+    }
+    expect(totalTrials).toBeGreaterThan(5);
+    // N'exige pas que CHAQUE choix compte (l'agence n'est jamais absolue),
+    // mais au moins une minorité mesurable de cas doit diverger — sinon le
+    // choix entre-deux-tours serait cosmétique.
+    expect(divergentTrials).toBeGreaterThan(0);
+  }, 20000);
 });

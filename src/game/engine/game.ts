@@ -13,6 +13,7 @@ import type {
 
 import { evaluateAchievements } from "./achievements";
 import { advanceCampaignDate, dateAtDaysBefore } from "./calendar";
+import { initializeDirector, runCampaignDirector } from "./campaignDirector";
 import { profilesForParty, resolveCandidateProfile } from "./candidateProfiles";
 import { applyDueEffects, applyEffects, scheduleEffects } from "./effectProcessor";
 import { simulateFirstRound, simulateSecondRound } from "./election";
@@ -271,7 +272,7 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
     rng: createRngState(seed),
     mode: options.mode,
     phase: "pre_campaign",
-    currentDate: dateAtDaysBefore(electionDate, 365),
+    currentDate: dateAtDaysBefore(electionDate, GAME_CONFIG.campaignStartDaysBeforeElection),
     electionDate,
     decisionIndex: 0,
     maxTargetDecisions:
@@ -362,6 +363,8 @@ export function createGame(options: NewGameOptions, content: GameContent): GameS
     });
   }
 
+  state = initializeDirector(state, options.tragicEvents !== false);
+
   const methodApplied = applyEffects(state, method.effects);
   state = methodApplied.state;
   for (const [trait, delta] of Object.entries(method.traitEffects)) {
@@ -409,6 +412,14 @@ function finishGame(state: GameState, content: GameContent): GameState {
 
 function advanceElectionFlow(state: GameState, content: GameContent): GameState {
   let next = state;
+  // V3 : primaire perdue et respectée, ou parrainages manqués — la campagne s'arrête.
+  if (
+    next.flags["director:campaignOver"] &&
+    ["pre_campaign", "campaign", "official_campaign"].includes(next.phase)
+  ) {
+    next.flags.eliminated = true;
+    return finishGame(next, content);
+  }
   if (
     ["pre_campaign", "campaign", "official_campaign"].includes(next.phase) &&
     next.decisionIndex >= GAME_CONFIG.targetDecisionsBeforeFirstRound
@@ -507,6 +518,7 @@ export function resolveCurrentChoice(
   state = due.state;
   state = evolveMembership(state, resolved.outcome.effects);
   state = simulateOpponentTurn(state, content.electorateBlocs);
+  state = runCampaignDirector(state, content.electorateBlocs);
   state = recalculateElectorate(
     state,
     content.electorateBlocs,

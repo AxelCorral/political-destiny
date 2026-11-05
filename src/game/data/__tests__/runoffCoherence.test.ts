@@ -15,7 +15,12 @@ import type { GameState } from "@/game/types";
  */
 function stateQualifiedAs(playerPartyId: string, opponentId: string): GameState {
   const state = createGame(
-    { seed: `runoff-coherence-${playerPartyId}-${opponentId}`, mode: "existing_party", partyId: playerPartyId, methodId: "presidential" },
+    {
+      seed: `runoff-coherence-${playerPartyId}-${opponentId}`,
+      mode: "existing_party",
+      partyId: playerPartyId,
+      methodId: "presidential",
+    },
     gameContent,
   );
   state.phase = "between_rounds";
@@ -23,10 +28,25 @@ function stateQualifiedAs(playerPartyId: string, opponentId: string): GameState 
   return state;
 }
 
-const CASES: Array<{ eventId: string; playerPartyId: string; opponentId: string; referencedThird: string }> = [
+const CASES: Array<{
+  eventId: string;
+  playerPartyId: string;
+  opponentId: string;
+  referencedThird: string;
+}> = [
   { eventId: "party_lfi_runoff", playerPartyId: "lfi", opponentId: "ps", referencedThird: "ps" },
-  { eventId: "party_ps_runoff", playerPartyId: "ps", opponentId: "renaissance", referencedThird: "renaissance" },
-  { eventId: "party_horizons_runoff", playerPartyId: "horizons", opponentId: "lr", referencedThird: "lr" },
+  {
+    eventId: "party_ps_runoff",
+    playerPartyId: "ps",
+    opponentId: "renaissance",
+    referencedThird: "renaissance",
+  },
+  {
+    eventId: "party_horizons_runoff",
+    playerPartyId: "horizons",
+    opponentId: "lr",
+    referencedThird: "lr",
+  },
   { eventId: "party_lr_runoff", playerPartyId: "lr", opponentId: "rn", referencedThird: "rn" },
 ];
 

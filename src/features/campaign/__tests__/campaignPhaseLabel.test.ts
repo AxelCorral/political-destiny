@@ -31,8 +31,8 @@ describe("campaignPhaseLabel", () => {
     expect(campaignPhaseLabel(state)).toBe("Campagne");
   });
 
-  it("Dernière ligne droite à partir de 0.72 de progression (targetDecisionsBeforeFirstRound = 24)", () => {
-    const state = baseState({ phase: "campaign", decisionIndex: 18 });
+  it("Dernière ligne droite à partir de 0.72 de progression (targetDecisionsBeforeFirstRound = 30)", () => {
+    const state = baseState({ phase: "campaign", decisionIndex: 22 });
     expect(campaignPhaseLabel(state)).toBe("Dernière ligne droite");
   });
 
@@ -45,7 +45,7 @@ describe("campaignPhaseLabel", () => {
   });
 
   it("ne modifie jamais currentDate/electionDate", () => {
-    const state = baseState({ phase: "campaign", decisionIndex: 20 });
+    const state = baseState({ phase: "campaign", decisionIndex: 25 });
     const before = { currentDate: state.currentDate, electionDate: state.electionDate };
     campaignPhaseLabel(state);
     expect(state.currentDate).toBe(before.currentDate);

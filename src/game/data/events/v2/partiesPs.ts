@@ -131,7 +131,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "ps_fronde_vote_won",
         "La direction gagne le vote mais durcit le conflit",
-        "La majorité est nette et la candidate reprend le contrôle du calendrier. Le courant battu conserve ses élus, ses réseaux et une humiliation désormais mémorisée.",
+        "La majorité est nette et le candidat reprend le contrôle du calendrier. Le courant battu conserve ses élus, ses réseaux et une humiliation désormais mémorisée.",
         [
           stat("credibility", 4, "Autorité confirmée"),
           stat("cohesion", -6, "Vote conflictuel"),
@@ -276,7 +276,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
     id: "party_ps_local_asset",
     title: "Les maires socialistes ouvrent leurs réseaux",
     summary:
-      "Plusieurs maires de villes moyennes proposent de coordonner salles, bénévoles et porte-à-porte. Ils souhaitent en échange que la candidate consacre une semaine aux transports, aux urgences et au logement.",
+      "Plusieurs maires de villes moyennes proposent de coordonner salles, bénévoles et porte-à-porte. Ils souhaitent en échange que le candidat consacre une semaine aux transports, aux urgences et au logement.",
     themes: ["public_services", "institutions"],
     importance: "notable",
     entityReferences: [{ entityId: "association_maires_france", role: "context" }],
@@ -348,7 +348,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
         "internal_discipline",
         "PRÉSIDENTIEL",
         "ps_crisis_candidate_line",
-        "La candidate impose son barème",
+        "Le candidat impose son barème",
         "Le chiffrage offre une ligne immédiatement défendable dans les médias. Ilyes Marceau cesse la contestation publique, mais son courant retire plusieurs responsables de la campagne nationale.",
         [
           stat("credibility", 5, "Barème assumé"),
@@ -414,7 +414,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
     id: "party_ps_program_dilemma",
     title: "Le bilan gouvernemental divise la convention",
     summary:
-      "Une partie du PS veut assumer les réformes menées lorsqu’il gouvernait ; une autre exige un inventaire public. La candidate doit choisir quels succès revendiquer et quelles décisions reconnaître comme erreurs.",
+      "Une partie du PS veut assumer les réformes menées lorsqu’il gouvernait ; une autre exige un inventaire public. Le candidat doit choisir quels succès revendiquer et quelles décisions reconnaître comme erreurs.",
     themes: ["economy", "work", "institutions"],
     importance: "major",
     choices: [
@@ -440,7 +440,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "ps_program_forward",
         "La convention ferme la porte au bilan",
-        "Les propositions occupent l’espace pendant deux jours et la candidate évite les querelles rétrospectives. Les adversaires réutilisent ensuite chaque ancienne réforme sans réponse préparée.",
+        "Les propositions occupent l’espace pendant deux jours et le candidat évite les querelles rétrospectives. Les adversaires réutilisent ensuite chaque ancienne réforme sans réponse préparée.",
         [
           stat("momentum", 5, "Convention tournée vers l’avenir"),
           stat("mobilization", 3, "Programme en avant"),
@@ -454,7 +454,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
     id: "party_ps_runoff",
     title: "La gauche attend un contrat de second tour",
     summary:
-      "Qualifiée, la candidate socialiste doit obtenir des soutiens à gauche sans perdre les électeurs centristes venus au premier tour. Les partenaires demandent des engagements écrits plutôt qu’une consigne automatique.",
+      "Qualifié, le candidat socialiste doit obtenir des soutiens à gauche sans perdre les électeurs centristes venus au premier tour. Les partenaires demandent des engagements écrits plutôt qu’une consigne automatique.",
     themes: ["institutions", "ecology", "public_services"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -486,7 +486,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
         "PRÉSIDENTIEL",
         "ps_runoff_plural_government",
         "Le gouvernement s’ouvre sans nouveau programme",
-        "La candidate conserve une ligne stable et rassure une partie du centre. Les soutiens de gauche restent conditionnels et leurs appareils mobilisent moins fortement qu’espéré.",
+        "Le candidat conserve une ligne stable et rassure une partie du centre. Les soutiens de gauche restent conditionnels et leurs appareils mobilisent moins fortement qu’espéré.",
         [
           stat("credibility", 5, "Ligne maintenue"),
           hidden("transferability", 4),
@@ -551,7 +551,7 @@ export const v2PsPartyEvents: GameEventDefinition[] = [
         "INSTITUTIONNEL",
         "ps_rare_program_convention",
         "Le PS oppose le programme au concours de personnes",
-        "La convention attire des élus et produit plusieurs convergences utilisables après le premier tour. Le collectif citoyen accuse la candidate de protéger son appareil et poursuit son vote.",
+        "La convention attire des élus et produit plusieurs convergences utilisables après le premier tour. Le collectif citoyen accuse le candidat de protéger son appareil et poursuit son vote.",
         [
           stat("credibility", 4, "Convention de fond"),
           stat("cohesion", 4, "Parti préservé"),

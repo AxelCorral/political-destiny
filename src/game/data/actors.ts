@@ -1,6 +1,6 @@
 import type { ActorRole, ActorState, CandidateTraits } from "@/game/types";
 
-import { parties } from "./parties";
+import { MINOR_PARTY_CANDIDATES, parties } from "./parties";
 
 const EMPTY_MEMORY = { successfulActions: [], failedActions: [], rivalries: [], promises: [] };
 
@@ -13,55 +13,55 @@ interface ActorSeed {
 
 const actorSeeds: Record<string, ActorSeed[]> = {
   lfi: [
-    { suffix: "candidate", name: "Ariane Valmont", role: "candidate", profile: "orator" },
+    { suffix: "candidate", name: "Jean-Luc Mélenchon", role: "candidate", profile: "orator" },
     { suffix: "courbet", name: "Nassim Courbet", role: "cadre", profile: "organizer" },
     { suffix: "orsini", name: "Léna Orsini", role: "spokesperson", profile: "orator" },
     { suffix: "perron", name: "Gaël Perron", role: "cadre", profile: "negotiator" },
   ],
   ps: [
-    { suffix: "candidate", name: "Clara Villedieu", role: "candidate", profile: "negotiator" },
+    { suffix: "candidate", name: "Raphaël Glucksmann", role: "candidate", profile: "negotiator" },
     { suffix: "marceau", name: "Ilyes Marceau", role: "cadre", profile: "organizer" },
     { suffix: "briand", name: "Solène Briand", role: "spokesperson", profile: "orator" },
     { suffix: "calvet", name: "Rémi Calvet", role: "cadre", profile: "technocrat" },
   ],
   ecologistes: [
-    { suffix: "candidate", name: "Éloi Vernet", role: "candidate", profile: "organizer" },
+    { suffix: "candidate", name: "Marine Tondelier", role: "candidate", profile: "organizer" },
     { suffix: "lestang", name: "Maya Lestang", role: "cadre", profile: "orator" },
     { suffix: "bellier", name: "Jonas Bellier", role: "spokesperson", profile: "technocrat" },
     { suffix: "sarrazin", name: "Inès Sarrazin", role: "cadre", profile: "negotiator" },
   ],
   renaissance: [
-    { suffix: "candidate", name: "Maël Dargent", role: "candidate", profile: "technocrat" },
+    { suffix: "candidate", name: "Gabriel Attal", role: "candidate", profile: "technocrat" },
     { suffix: "varenne", name: "Salomé Varenne", role: "cadre", profile: "negotiator" },
     { suffix: "corbin", name: "Nils Corbin", role: "spokesperson", profile: "orator" },
     { suffix: "artaud", name: "Jeanne Artaud", role: "cadre", profile: "organizer" },
   ],
   horizons: [
-    { suffix: "candidate", name: "Agathe Belcourt", role: "candidate", profile: "technocrat" },
+    { suffix: "candidate", name: "Édouard Philippe", role: "candidate", profile: "technocrat" },
     { suffix: "lagrive", name: "Théo Lagrive", role: "cadre", profile: "organizer" },
     { suffix: "dorval", name: "Yasmine Dorval", role: "spokesperson", profile: "negotiator" },
     { suffix: "auriac", name: "Paul Auriac", role: "cadre", profile: "orator" },
   ],
   lr: [
-    { suffix: "candidate", name: "Bastien Rochefort", role: "candidate", profile: "organizer" },
+    { suffix: "candidate", name: "Bruno Retailleau", role: "candidate", profile: "organizer" },
     { suffix: "merande", name: "Diane Mérande", role: "cadre", profile: "negotiator" },
     { suffix: "cazals", name: "Thomas Cazals", role: "spokesperson", profile: "orator" },
     { suffix: "lenoir", name: "Hector Lenoir", role: "cadre", profile: "technocrat" },
   ],
   rn: [
-    { suffix: "candidate", name: "Élise Montclar", role: "candidate", profile: "orator" },
+    { suffix: "candidate", name: "Marine Le Pen", role: "candidate", profile: "orator" },
     { suffix: "ferran", name: "Louis Ferran", role: "cadre", profile: "organizer" },
     { suffix: "nerac", name: "Alix Nérac", role: "spokesperson", profile: "negotiator" },
     { suffix: "vauvert", name: "Damien Vauvert", role: "cadre", profile: "technocrat" },
   ],
   reconquete: [
-    { suffix: "candidate", name: "Victor d’Aubrac", role: "candidate", profile: "orator" },
+    { suffix: "candidate", name: "Éric Zemmour", role: "candidate", profile: "orator" },
     { suffix: "saint_cyr", name: "Hélène Saint-Cyr", role: "cadre", profile: "organizer" },
     { suffix: "vales", name: "Gabriel Valès", role: "spokesperson", profile: "orator" },
     { suffix: "mornay", name: "Stan Mornay", role: "cadre", profile: "negotiator" },
   ],
   nouvelle_energie: [
-    { suffix: "candidate", name: "Nora Vaillant", role: "candidate", profile: "technocrat" },
+    { suffix: "candidate", name: "David Lisnard", role: "candidate", profile: "technocrat" },
     { suffix: "ternois", name: "Raphaël Ternois", role: "cadre", profile: "organizer" },
     { suffix: "dorme", name: "Camille d’Orme", role: "spokesperson", profile: "orator" },
     { suffix: "castan", name: "Julia Castan", role: "cadre", profile: "negotiator" },
@@ -126,7 +126,7 @@ function createPartyActor(partyId: string, seed: ActorSeed, index: number): Acto
   const traits = structuredClone(profileTraits[seed.profile]);
   return {
     id: `${partyId}_${seed.suffix}`,
-    identityKind: "fictional",
+    identityKind: isCandidate ? "real_public_figure" : "fictional",
     displayName: seed.name,
     partyId,
     role: seed.role,
@@ -154,46 +154,80 @@ const partyActors = Object.entries(actorSeeds).flatMap(([partyId, seeds]) =>
 );
 
 /**
- * PROMPT_CLAUDE_CODE_ANCRAGE_REEL_PSEUDO_REALITE_RECOMPOSITIONS.md §7 — le PS
- * porte une incertitude de candidature réelle au 18/04/2026 (voir
- * `docs/POLITICAL_BASELINE_2026-04.md` §3) : ligne de continuité (Clara
- * Villedieu, déjà présente) vs figure de rassemblement pro-européenne hors
- * appareil strict, seul profil de cette mission sans acteur préexistant
- * réutilisable — voir `docs/FICTIONAL_POLITICAL_ARCHETYPES.md` pour la
- * justification complète du profil. Idéologie décalée vers l'Europe et le
- * réformisme par rapport à la ligne du parti, jamais indiscernable du bloc
- * central (économie encore nettement à gauche du centre).
+ * V3 — candidatures réelles alternatives (voir docs/POLITICAL_BASELINE_2026-11.md) :
+ * concurrents de la primaire du pôle socialiste, remplaçant RN en cas d'inéligibilité,
+ * dissident LR. Inactifs au départ (`potential`), activés par le directeur de campagne.
  */
-const psRassemblement: ActorState = {
-  id: "ps_rassemblement",
-  identityKind: "fictional",
-  displayName: "Nadia Ferreira",
-  partyId: "ps",
-  role: "candidate",
-  ideology: { economy: -35, society: -40, europe: 70, ecology: 50, authority: -25, immigration: -20 },
-  traits: {
-    charisma: 71,
-    mediaSkill: 73,
-    competence: 68,
-    tactics: 60,
-    integrity: 66,
-    endurance: 65,
-    authority: 58,
-    empathy: 63,
-    discipline: 60,
-    coalitionSkill: 70,
-  },
-  legitimacy: 58,
-  ambition: 79,
-  loyalty: 52,
-  mediaSkill: 73,
-  governingCredibility: 60,
-  scandalRisk: 20,
-  active: true,
-  candidateStatus: "potential",
-  strategy: "look_presidential",
-  memory: structuredClone(EMPTY_MEMORY),
-};
+function alternativeCandidate(
+  id: string,
+  displayName: string,
+  partyId: string,
+  profile: ActorSeed["profile"],
+  ideologyShift: Partial<ActorState["ideology"]>,
+  overrides: Partial<
+    Pick<ActorState, "legitimacy" | "ambition" | "loyalty" | "governingCredibility">
+  > = {},
+): ActorState {
+  const party = parties.find((definition) => definition.id === partyId);
+  if (!party) throw new Error(`Parti absent pour ${displayName}.`);
+  const traits = structuredClone(profileTraits[profile]);
+  return {
+    id,
+    identityKind: "real_public_figure",
+    displayName,
+    partyId,
+    role: "cadre",
+    ideology: { ...party.ideology, ...ideologyShift },
+    traits,
+    legitimacy: overrides.legitimacy ?? 60,
+    ambition: overrides.ambition ?? 78,
+    loyalty: overrides.loyalty ?? 55,
+    mediaSkill: traits.mediaSkill,
+    governingCredibility:
+      overrides.governingCredibility ??
+      Math.round((traits.competence + party.baseline.governingCredibility) / 2),
+    scandalRisk: 15,
+    active: true,
+    candidateStatus: "potential",
+    strategy: "look_presidential",
+    memory: structuredClone(EMPTY_MEMORY),
+  };
+}
+
+const alternativeCandidates: ActorState[] = [
+  alternativeCandidate(
+    "ps_faure",
+    "Olivier Faure",
+    "ps",
+    "negotiator",
+    { europe: 40, economy: -52 },
+    { legitimacy: 64 },
+  ),
+  alternativeCandidate(
+    "ps_royal",
+    "Ségolène Royal",
+    "ps",
+    "orator",
+    { society: -40, ecology: 56 },
+    { legitimacy: 52, loyalty: 40 },
+  ),
+  alternativeCandidate(
+    "rn_bardella",
+    "Jordan Bardella",
+    "rn",
+    "orator",
+    { economy: 12, europe: -40 },
+    { legitimacy: 74, loyalty: 82 },
+  ),
+  alternativeCandidate(
+    "lr_bertrand",
+    "Xavier Bertrand",
+    "lr",
+    "organizer",
+    { society: 10, economy: 18 },
+    { legitimacy: 58, loyalty: 35 },
+  ),
+];
 
 const sensitiveFictionalActors: ActorState[] = [
   ["fictional_treasurer", "Maud Keravel", "Trésorière fictive"],
@@ -221,8 +255,20 @@ const sensitiveFictionalActors: ActorState[] = [
   memory: structuredClone(EMPTY_MEMORY),
 }));
 
+const minorPartyCandidates: ActorState[] = Object.entries(MINOR_PARTY_CANDIDATES).map(
+  ([partyId, candidate]) => ({
+    ...createPartyActor(
+      partyId,
+      { suffix: "candidate", name: candidate.name, role: "candidate", profile: "orator" },
+      0,
+    ),
+    legitimacy: 62,
+  }),
+);
+
 export const actors: ActorState[] = [
   ...partyActors,
-  psRassemblement,
+  ...alternativeCandidates,
+  ...minorPartyCandidates,
   ...sensitiveFictionalActors,
 ];

@@ -90,9 +90,7 @@ describe("Cohérence politique structurelle", () => {
   });
 
   it("Nouvelle Énergie conserve une identité économique libérale (axe économique nettement pro-marché)", () => {
-    const nouvelleEnergie = gameContent.parties.find(
-      (party) => party.id === "nouvelle_energie",
-    )!;
+    const nouvelleEnergie = gameContent.parties.find((party) => party.id === "nouvelle_energie")!;
     expect(nouvelleEnergie.ideology.economy).toBeGreaterThan(50);
   });
 
@@ -100,46 +98,41 @@ describe("Cohérence politique structurelle", () => {
     const candidate = gameContent.actors.find(
       (actor) => actor.partyId === "nouvelle_energie" && actor.role === "candidate",
     )!;
-    expect(candidate.identityKind).toBe("fictional");
+    expect(candidate.identityKind).toBe("real_public_figure");
     // L'ancrage exécutif-local/entrepreneurial se traduit mécaniquement par
     // une discipline et une compétence au moins moyennes-hautes, jamais un
     // profil erratique — verrou faible mais réel contre une dérive future.
     expect(candidate.traits.discipline).toBeGreaterThan(45);
   });
 
-  it(
-    "un candidat retiré (candidateStatus withdrawn/eliminated/disqualified) n'est jamais le candidateId d'un parti actif à l'issue d'une campagne simulée",
-    () => {
-      const realParties = gameContent.parties.filter((party) => party.isRealOrganization);
-      let checked = 0;
-      for (let i = 0; i < 60; i += 1) {
-        const partyId = realParties[i % realParties.length]!.id;
-        const seed = `consistency-withdrawn-${i}`;
-        let state = createGame(
-          { seed, mode: "existing_party", partyId, methodId: "field_first" },
-          gameContent,
-        );
-        let guard = 0;
-        while (state.phase !== "finished" && guard < 80) {
-          const event = currentEvent(state, gameContent.events);
-          state = resolveCurrentChoice(state, event.choices[0]!.id, gameContent).state;
-          guard += 1;
-        }
-        for (const party of Object.values(state.parties)) {
-          if (!party.active) continue;
-          const candidateActor = state.actors[party.candidateId];
-          if (!candidateActor) continue;
-          checked += 1;
-          expect(["withdrawn", "disqualified"]).not.toContain(candidateActor.candidateStatus);
-        }
+  it("un candidat retiré (candidateStatus withdrawn/eliminated/disqualified) n'est jamais le candidateId d'un parti actif à l'issue d'une campagne simulée", () => {
+    const realParties = gameContent.parties.filter((party) => party.isRealOrganization);
+    let checked = 0;
+    for (let i = 0; i < 60; i += 1) {
+      const partyId = realParties[i % realParties.length]!.id;
+      const seed = `consistency-withdrawn-${i}`;
+      let state = createGame(
+        { seed, mode: "existing_party", partyId, methodId: "field_first" },
+        gameContent,
+      );
+      let guard = 0;
+      while (state.phase !== "finished" && guard < 80) {
+        const event = currentEvent(state, gameContent.events);
+        state = resolveCurrentChoice(state, event.choices[0]!.id, gameContent).state;
+        guard += 1;
       }
-      expect(checked).toBeGreaterThan(100);
-    },
-    // PROMPT_CLAUDE_CODE_RECOMPOSITIONS_STRATEGIQUES_SOUTIENS_CHOCS.md — la
-    // négociation stratégique ajoute un calcul de viabilité/fragmentation
-    // réel par parti éligible et par décision ; ce test (60 campagnes de 80
-    // décisions) reste sous 12 s isolé mais peut dépasser 20 s sous la
-    // contention des autres fichiers de test exécutés en parallèle.
-    40000,
-  );
+      for (const party of Object.values(state.parties)) {
+        if (!party.active) continue;
+        const candidateActor = state.actors[party.candidateId];
+        if (!candidateActor) continue;
+        checked += 1;
+        expect(["withdrawn", "disqualified"]).not.toContain(candidateActor.candidateStatus);
+      }
+    }
+    expect(checked).toBeGreaterThan(100);
+  }, // négociation stratégique ajoute un calcul de viabilité/fragmentation // PROMPT_CLAUDE_CODE_RECOMPOSITIONS_STRATEGIQUES_SOUTIENS_CHOCS.md — la
+  // réel par parti éligible et par décision ; ce test (60 campagnes de 80
+  // décisions) reste sous 12 s isolé mais peut dépasser 20 s sous la
+  // contention des autres fichiers de test exécutés en parallèle.
+  40000);
 });

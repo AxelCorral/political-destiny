@@ -8,8 +8,9 @@ import {
   v2PartyEvents,
   v2WorldEvents,
 } from "./v2";
+import { v3DirectorEvents } from "./v3/director";
 
-export const events: GameEventDefinition[] = v2Events;
+export const events: GameEventDefinition[] = [...v2Events, ...v3DirectorEvents];
 
 // Compatibility aliases for tooling that groups the former V1 modules by broad responsibility.
 export const generalEvents = v2CampaignEvents;

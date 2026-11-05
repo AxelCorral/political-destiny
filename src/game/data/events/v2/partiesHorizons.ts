@@ -17,7 +17,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_identity",
     title: "Horizons doit sortir de l’attente",
     summary:
-      "Le réseau d’élus veut une campagne fondée sur la gestion locale, tandis que l’équipe d’Agathe Belcourt réclame une offre présidentielle distincte de Renaissance et des Républicains.",
+      "Le réseau d’élus veut une campagne fondée sur la gestion locale, tandis que l’équipe d’Édouard Philippe réclame une offre présidentielle distincte de Renaissance et des Républicains.",
     themes: ["institutions", "economy"],
     importance: "major",
     entityReferences: [
@@ -48,7 +48,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "internal_discipline",
         "PRÉSIDENTIEL",
         "horizons_identity_presidential_line",
-        "Agathe Belcourt impose trois réformes",
+        "Édouard Philippe impose trois réformes",
         "La candidature devient identifiable dans les médias et se distingue du bloc central. Des élus refusent de défendre une mesure fiscale qu’ils n’ont pas contribué à écrire.",
         [
           stat("awareness", 6, "Trois réformes"),
@@ -119,7 +119,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "horizons_fronde_loyalty_test",
         "L’autonomie devient un test de loyauté",
-        "La ligne publique ne souffre plus d’ambiguïté et Agathe Belcourt reprend le calendrier. Plusieurs élus refusent de signer et maintiennent leurs contacts avec Renaissance.",
+        "La ligne publique ne souffre plus d’ambiguïté et Édouard Philippe reprend le calendrier. Plusieurs élus refusent de signer et maintiennent leurs contacts avec Renaissance.",
         [
           stat("credibility", 5, "Autonomie claire"),
           stat("cohesion", -7, "Élus divisés"),
@@ -252,7 +252,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_local_asset",
     title: "Les maires offrent une semaine de terrain",
     summary:
-      "Vingt maires Horizons proposent d’accueillir la candidate dans leurs services municipaux et leurs entreprises locales. Ils demandent des échanges de travail sans estrade ni discours national préécrit.",
+      "Vingt maires Horizons proposent d’accueillir le candidat dans leurs services municipaux et leurs entreprises locales. Ils demandent des échanges de travail sans estrade ni discours national préécrit.",
     themes: ["public_services", "work"],
     importance: "notable",
     entityReferences: [{ entityId: "association_maires_france", role: "context" }],
@@ -332,7 +332,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "PRÉSIDENTIEL",
         "horizons_crisis_autonomy_with_role",
         "L’autonomie survit avec une porte de sortie",
-        "Agathe Belcourt garde la candidature et offre au courant adverse une responsabilité utile. Les négociateurs acceptent sans enthousiasme et maintiennent leurs relations avec Renaissance.",
+        "Édouard Philippe garde la candidature et offre au courant adverse une responsabilité utile. Les négociateurs acceptent sans enthousiasme et maintiennent leurs relations avec Renaissance.",
         [
           stat("credibility", 5, "Arbitrage assumé"),
           stat("localStrength", 4, "Courant redéployé"),
@@ -447,7 +447,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_runoff",
     title: "Le centre droit négocie son élargissement",
     summary:
-      "Qualifiée, Agathe Belcourt doit réunir Renaissance et Les Républicains sans apparaître prisonnière d’un accord d’appareils. Les soutiens réclament des garanties différentes sur l’Europe et les finances.",
+      "Qualifié, Édouard Philippe doit réunir Renaissance et Les Républicains sans apparaître prisonnier d’un accord d’appareils. Les soutiens réclament des garanties différentes sur l’Europe et les finances.",
     themes: ["institutions", "europe", "fiscality"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -479,12 +479,12 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "horizons_runoff_government_contract",
-        "Publier seule un contrat de gouvernement puis demander des soutiens sans négocier les postes",
+        "Publier seul un contrat de gouvernement puis demander des soutiens sans négocier les postes",
         "long_term_strategy",
         "PRÉSIDENTIEL",
         "horizons_runoff_government_offer",
         "Le contrat précède les soutiens",
-        "Agathe Belcourt préserve son autorité et rassure les électeurs lassés des tractations. Les partis éliminés soutiennent certains chapitres mais prêtent peu de moyens à la campagne.",
+        "Édouard Philippe préserve son autorité et rassure les électeurs lassés des tractations. Les partis éliminés soutiennent certains chapitres mais prêtent peu de moyens à la campagne.",
         [
           stat("credibility", 7, "Contrat de gouvernement"),
           hidden("transferability", 4),
@@ -514,7 +514,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "RISQUÉ",
         "horizons_rare_primary_entered",
         "Horizons mise sa candidature sur le terrain",
-        "L’implantation municipale donne à Agathe Belcourt une chance réelle et une exposition immédiate. Une défaite la priverait du principal argument justifiant son autonomie.",
+        "L’implantation municipale donne à Édouard Philippe une chance réelle et une exposition immédiate. Une défaite le priverait du principal argument justifiant son autonomie.",
         [
           stat("mediaPresence", 7, "Primaire des maires"),
           stat("localStrength", 6, "Réseau mobilisé"),
@@ -562,7 +562,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     baseWeight: 2.4,
     title: "Paul Auriac demande qui décide vraiment",
     summary:
-      "Cofondateur historique du mouvement, Paul Auriac déclare en interne qu’Agathe Belcourt ne peut pas fixer seule la ligne tant que les figures fondatrices n’ont pas validé le virage présidentiel. La sortie reste privée, mais trois cadres l’ont déjà relayée.",
+      "Cofondateur historique du mouvement, Paul Auriac déclare en interne qu’Édouard Philippe ne peut pas fixer seul la ligne tant que les figures fondatrices n’ont pas validé le virage présidentiel. La sortie reste privée, mais trois cadres l’ont déjà relayée.",
     themes: ["institutions"],
     importance: "major",
     minDecisionIndex: 7,
@@ -573,11 +573,11 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "horizons_founder_break_free",
-        "S’affranchir publiquement et annoncer que la ligne de campagne n’appartient qu’à la candidate",
+        "S’affranchir publiquement et annoncer que la ligne de campagne n’appartient qu’au candidat",
         "personal_risk",
         "RISQUÉ",
         "horizons_founder_autonomy_declared",
-        "Agathe Belcourt tranche seule",
+        "Édouard Philippe tranche seul",
         "La déclaration met fin à l’ambiguïté et donne une image de détermination inhabituelle pour le mouvement. Paul Auriac le vit comme une humiliation publique et cesse de couvrir les arbitrages internes.",
         [
           stat("momentum", 5, "Autorité affirmée"),
@@ -631,7 +631,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "INSTITUTIONNEL",
         "horizons_founder_roles_clarified",
         "Un partage des rôles avant l’escalade",
-        "L’accord évite la confrontation publique en séparant explicitement le programme, gardé par les fondateurs, et la campagne, dirigée par la candidate. La solution retarde la question sans la trancher, et pousse Agathe Belcourt à chercher ailleurs des soutiens capables d’élargir sa base sans dépendre des fondateurs.",
+        "L’accord évite la confrontation publique en séparant explicitement le programme, gardé par les fondateurs, et la campagne, dirigée par le candidat. La solution retarde la question sans la trancher, et pousse Édouard Philippe à chercher ailleurs des soutiens capables d’élargir sa base sans dépendre des fondateurs.",
         [
           stat("cohesion", 2, "Rôles clarifiés"),
           stat("credibility", 2, "Organisation lisible"),
@@ -645,7 +645,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_founder_revenge",
     title: "Le réseau de Paul Auriac s’organise",
     summary:
-      "Écarté des arbitrages, Paul Auriac réunit discrètement des élus historiques prêts à retarder publiquement leur soutien si la candidate ne leur donne pas de gages avant les déclarations officielles de parrainage.",
+      "Écarté des arbitrages, Paul Auriac réunit discrètement des élus historiques prêts à retarder publiquement leur soutien si le candidat ne leur donne pas de gages avant les déclarations officielles de parrainage.",
     themes: ["institutions"],
     importance: "decisive",
     rarity: "uncommon",
@@ -666,7 +666,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "RASSEMBLEUR",
         "horizons_revenge_seat_granted",
         "La fronde se referme sur un poste",
-        "Les élus retardataires annoncent leur soutien dès l’accord connu. La candidate évite la crise, mais la scène confirme que les arbitrages internes restent négociables sous pression.",
+        "Les élus retardataires annoncent leur soutien dès l’accord connu. Le candidat évite la crise, mais la scène confirme que les arbitrages internes restent négociables sous pression.",
         [
           stat("cohesion", 6, "Fronde apaisée"),
           stat("credibility", -3, "Concession visible"),
@@ -683,7 +683,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "personal_risk",
         "CLIVANT",
         "horizons_revenge_authority_speech",
-        "La candidate assume la rupture jusqu’au bout",
+        "Le candidat assume la rupture jusqu’au bout",
         "Le discours affirme définitivement qui dirige le mouvement et enthousiasme les cadres les plus jeunes. Plusieurs élus historiques retardent effectivement leur soutien, et deux d’entre eux le rendent public.",
         [
           stat("momentum", 6, "Autorité assumée"),
@@ -697,9 +697,9 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
   }),
   partyEvent("horizons", {
     id: "party_horizons_founder_blessing",
-    title: "Paul Auriac loue une candidate loyale à la ligne",
+    title: "Paul Auriac loue un candidat loyal à la ligne",
     summary:
-      "Dans un entretien remarqué, Paul Auriac salue la discipline d’Agathe Belcourt envers la ligne fondatrice du mouvement. L’éloge rassure sur l’unité du parti, mais insiste surtout sur sa fidélité, jamais sur une vision qui lui serait propre.",
+      "Dans un entretien remarqué, Paul Auriac salue la discipline d’Édouard Philippe envers la ligne fondatrice du mouvement. L’éloge rassure sur l’unité du parti, mais insiste surtout sur sa fidélité, jamais sur une vision qui lui serait propre.",
     themes: ["institutions"],
     importance: "notable",
     rarity: "uncommon",
@@ -720,7 +720,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "PRUDENT",
         "horizons_blessing_amplified",
         "L’unité devient un argument de campagne",
-        "Le parti paraît soudé et rassure les électeurs prudents. Mais l’éloge, centré sur la loyauté plutôt que sur un projet personnel, renforce l’image d’une candidate qui gère un héritage plus qu’elle n’incarne un cap.",
+        "Le parti paraît soudé et rassure les électeurs prudents. Mais l’éloge, centré sur la loyauté plutôt que sur un projet personnel, renforce l’image d’un candidat qui gère un héritage plus qu’elle n’incarne un cap.",
         [
           stat("cohesion", 4, "Unité affichée"),
           stat("credibility", 3, "Continuité saluée"),
@@ -735,7 +735,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "media_response",
         "RISQUÉ",
         "horizons_blessing_repositioned",
-        "La candidate reprend la main sur son image",
+        "Le candidat reprend la main sur son image",
         "Le recentrage donne un peu plus de relief à sa candidature, sans la présenter comme une rupture avec le mouvement. Paul Auriac note que son éloge a été utilisé puis vite dépassé.",
         [
           stat("momentum", 4, "Image recentrée"),
@@ -780,7 +780,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "personal_risk",
         "RISQUÉ",
         "horizons_backlash_speech_delivered",
-        "La candidate sort du registre gestionnaire",
+        "Le candidat sort du registre gestionnaire",
         "Le moment marque, y compris chez des électeurs jusque-là indifférents, et casse un temps l’image de comité d’experts. Certains commentateurs jugent l’exercice trop tardif pour effacer des mois de communication technicienne.",
         [
           stat("momentum", 6, "Registre personnel"),
@@ -808,7 +808,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_passion_test",
     title: "« Vous nous parlez de compétence. Parlez-nous d’envie. »",
     summary:
-      "Face à son adversaire de second tour, la modératrice interrompt un développement chiffré d’Agathe Belcourt pour lui demander directement pourquoi elle veut être présidente, pas seulement pourquoi elle serait compétente pour l’être.",
+      "Face à son adversaire de second tour, la modératrice interrompt un développement chiffré d’Édouard Philippe pour lui demander directement pourquoi il veut être président, pas seulement pourquoi il serait compétent pour l’être.",
     themes: ["institutions"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.2 },
@@ -951,11 +951,11 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "horizons_continuity_redirect_spotlight",
-        "Les remercier publiquement puis recentrer le prochain grand rendez-vous sur la candidate seule",
+        "Les remercier publiquement puis recentrer le prochain grand rendez-vous sur le candidat seul",
         "personal_risk",
         "RISQUÉ",
         "horizons_continuity_spotlight_redirected",
-        "La candidate reprend la lumière",
+        "Le candidat reprend la lumière",
         "Le recentrage donne un peu de relief personnel à une campagne jusque-là très collective. Plusieurs élus jugent leur travail sous-reconnu et deviennent plus économes de leur soutien actif.",
         [
           stat("momentum", 5, "Lumière recentrée"),
@@ -971,7 +971,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     baseWeight: 1.8,
     title: "« Le choix par défaut du centre »",
     summary:
-      "Un éditorialiste résume la candidature d’Agathe Belcourt comme le vote du centre qui n’a pas d’autre endroit où aller. La formule circule et met la stratégie de stabilité à l’épreuve à quelques jours du premier tour.",
+      "Un éditorialiste résume la candidature d’Édouard Philippe comme le vote du centre qui n’a pas d’autre endroit où aller. La formule circule et met la stratégie de stabilité à l’épreuve à quelques jours du premier tour.",
     themes: ["institutions"],
     importance: "major",
     minDecisionIndex: 19,
@@ -1016,7 +1016,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_runoff_continuity",
     title: "Le bloc central formalise son choix",
     summary:
-      "Qualifiée, Agathe Belcourt récolte les fruits d’une campagne construite sur la confiance des réseaux LR et Renaissance. Reste à savoir si cette solidité suffira à mobiliser au-delà d’un vote par défaut.",
+      "Qualifié, Édouard Philippe récolte les fruits d’une campagne construite sur la confiance des réseaux LR et Renaissance. Reste à savoir si cette solidité suffira à mobiliser au-delà d’un vote par défaut.",
     themes: ["institutions", "europe"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -1047,7 +1047,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "personal_risk",
         "PRÉSIDENTIEL",
         "horizons_runoff_continuity_solo_pushed",
-        "La candidate tente un sursaut d’image",
+        "Le candidat tente un sursaut d’image",
         "Le geste redonne un peu de dynamique médiatique à quelques jours du vote. Les réseaux d’élus, écartés de la mise en scène finale, mobilisent leurs relais avec nettement moins d’enthousiasme que prévu.",
         [
           stat("momentum", 6, "Sursaut d’image"),
@@ -1065,7 +1065,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     baseWeight: 1.8,
     title: "LR et Renaissance ferment la porte",
     summary:
-      "Après la rupture publique avec ses fondateurs, Horizons voit ses partenaires naturels prendre leurs distances : plus de coprésence publique, plus de relais discrets. La candidate doit décider comment répondre à cet isolement.",
+      "Après la rupture publique avec ses fondateurs, Horizons voit ses partenaires naturels prendre leurs distances : plus de coprésence publique, plus de relais discrets. Le candidat doit décider comment répondre à cet isolement.",
     themes: ["institutions"],
     importance: "major",
     minDecisionIndex: 12,
@@ -1159,7 +1159,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_runoff_rupture",
     title: "Une candidature seule face à ses choix",
     summary:
-      "Qualifiée sur la base de la rupture, Agathe Belcourt aborde l’entre-deux-tours avec un momentum réel mais des réseaux traditionnels distants. Reste à savoir sur quoi construire les derniers jours de la campagne.",
+      "Qualifié sur la base de la rupture, Édouard Philippe aborde l’entre-deux-tours avec un momentum réel mais des réseaux traditionnels distants. Reste à savoir sur quoi construire les derniers jours de la campagne.",
     themes: ["institutions"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -1170,7 +1170,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     choices: [
       directChoice(
         "horizons_runoff_rupture_go_alone",
-        "Construire l’entre-deux-tours sur la seule dynamique personnelle de la candidate",
+        "Construire l’entre-deux-tours sur la seule dynamique personnelle du candidat",
         "personal_risk",
         "OFFENSIF",
         "horizons_runoff_rupture_alone",
@@ -1294,7 +1294,7 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
     id: "party_horizons_runoff_coalition",
     title: "La coalition élargie se présente unie",
     summary:
-      "Qualifiée avec le soutien de plusieurs partenaires, Agathe Belcourt aborde l’entre-deux-tours avec le potentiel de report le plus large des trois trajectoires possibles — à condition que la coalition tienne jusqu’au bout.",
+      "Qualifié avec le soutien de plusieurs partenaires, Édouard Philippe aborde l’entre-deux-tours avec le potentiel de report le plus large des trois trajectoires possibles — à condition que la coalition tienne jusqu’au bout.",
     themes: ["institutions", "europe", "fiscality"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -1326,8 +1326,8 @@ export const v2HorizonsPartyEvents: GameEventDefinition[] = [
         "long_term_strategy",
         "PRÉSIDENTIEL",
         "horizons_runoff_coalition_personal_led",
-        "La candidate garde la main sur son image",
-        "La candidate conserve un profil personnel plus net tout en conservant l’essentiel des soutiens. La mobilisation reste un peu en retrait de ce qu’aurait permis une démonstration collective.",
+        "Le candidat garde la main sur son image",
+        "Le candidat conserve un profil personnel plus net tout en conservant l’essentiel des soutiens. La mobilisation reste un peu en retrait de ce qu’aurait permis une démonstration collective.",
         [
           hidden("transferability", 5),
           stat("momentum", 4, "Profil personnel préservé"),

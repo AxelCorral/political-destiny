@@ -128,9 +128,9 @@ export function computeBlocFragmentationPressure(
   const partnerAheadMargin = bestPartner ? bestPartner.score - score : 0;
   const combinedReachesQualification = Boolean(
     bestPartner &&
-      score < top2Floor &&
-      bestPartner.score < top2Floor &&
-      score + bestPartner.score >= top2Floor,
+    score < top2Floor &&
+    bestPartner.score < top2Floor &&
+    score + bestPartner.score >= top2Floor,
   );
 
   const pressure = clamp(

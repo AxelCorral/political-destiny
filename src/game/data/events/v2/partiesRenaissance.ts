@@ -8,7 +8,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
     id: "party_renaissance_identity",
     title: "Renaissance choisit continuité ou rupture",
     summary:
-      "Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’équipe de Maël Dargent réclame une autonomie visible. Le premier discours doit fixer la frontière sans renier les soutiens gouvernementaux.",
+      "Les cadres sortants veulent défendre le bilan du bloc central, tandis que l’équipe de Gabriel Attal réclame une autonomie visible. Le premier discours doit fixer la frontière sans renier les soutiens gouvernementaux.",
     themes: ["institutions", "economy"],
     importance: "major",
     entityReferences: [
@@ -56,7 +56,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
         "RASSEMBLEUR",
         "renaissance_identity_central_council",
         "Le bloc central se donne une instance",
-        "La structure évite plusieurs candidatures concurrentes et rassure les élus. Maël Dargent doit désormais négocier chaque déplacement programmatique avec des partenaires qui disposent d’un veto politique.",
+        "La structure évite plusieurs candidatures concurrentes et rassure les élus. Gabriel Attal doit désormais négocier chaque déplacement programmatique avec des partenaires qui disposent d’un veto politique.",
         [
           stat("cohesion", 5, "Conseil de coalition"),
           hidden("transferability", 5),
@@ -112,7 +112,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
         "OFFENSIF",
         "renaissance_fronde_removed",
         "La campagne reprend la maîtrise du bilan",
-        "L’équipe indépendante publie des données utilisables et Maël Dargent gagne en autonomie. Les élus proches de Salomé Varenne suspendent leurs déplacements et attendent une occasion de peser.",
+        "L’équipe indépendante publie des données utilisables et Gabriel Attal gagne en autonomie. Les élus proches de Salomé Varenne suspendent leurs déplacements et attendent une occasion de peser.",
         [
           stat("credibility", 5, "Évaluation indépendante"),
           stat("cohesion", -7, "Cadre écartée"),
@@ -185,7 +185,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
         "CLIVANT",
         "renaissance_alliance_competition",
         "La compétition du centre devient publique",
-        "La clarification distingue le programme de Maël Dargent et remobilise les adhérents. Horizons utilise aussitôt le document pour cibler les électeurs de centre droit.",
+        "La clarification distingue le programme de Gabriel Attal et remobilise les adhérents. Horizons utilise aussitôt le document pour cibler les électeurs de centre droit.",
         [
           stat("mobilization", 4, "Autonomie défendue"),
           stat("credibility", 3, "Différences publiques"),
@@ -449,7 +449,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
     id: "party_renaissance_runoff",
     title: "Le bloc républicain demande des preuves",
     summary:
-      "Qualifié, Maël Dargent reçoit des soutiens conditionnels venus du centre, de la gauche et de la droite modérée. Leur électorat veut des engagements démocratiques plutôt qu’un simple appel contre l’adversaire.",
+      "Qualifié, Gabriel Attal reçoit des soutiens conditionnels venus du centre, de la gauche et de la droite modérée. Leur électorat veut des engagements démocratiques plutôt qu’un simple appel contre l’adversaire.",
     themes: ["institutions", "civil_liberties", "europe"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },
@@ -495,7 +495,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
     id: "party_renaissance_rare",
     title: "Des anciens ministres publient leur manifeste",
     summary:
-      "Un groupe de ministres et d’anciens responsables de la majorité publie un manifeste pour une candidature de continuité. Ils ne citent personne, mais leur calendrier vise directement Maël Dargent.",
+      "Un groupe de ministres et d’anciens responsables de la majorité publie un manifeste pour une candidature de continuité. Ils ne citent personne, mais leur calendrier vise directement Gabriel Attal.",
     themes: ["institutions", "economy"],
     importance: "decisive",
     rarity: "rare",
@@ -511,7 +511,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
         "RISQUÉ",
         "renaissance_rare_public_arbitration",
         "La fracture se règle devant les adhérents",
-        "Le débat rend les divergences compréhensibles et Maël Dargent peut obtenir un mandat net. Une prestation faible transformerait toutefois une contestation diffuse en alternative organisée.",
+        "Le débat rend les divergences compréhensibles et Gabriel Attal peut obtenir un mandat net. Une prestation faible transformerait toutefois une contestation diffuse en alternative organisée.",
         [
           stat("mediaPresence", 7, "Convention retransmise"),
           stat("mobilization", 4, "Débat suivi"),
@@ -550,7 +550,7 @@ export const v2RenaissancePartyEvents: GameEventDefinition[] = [
     id: "party_renaissance_legacy_test",
     title: "Le bilan face aux chiffres",
     summary:
-      "Une émission compare, colonne par colonne, les engagements pris par la majorité sortante et ce qui a été réellement livré. Deux colonnes sur cinq affichent un écart net. Maël Dargent doit répondre en direct, sans notes préparées à l’avance.",
+      "Une émission compare, colonne par colonne, les engagements pris par la majorité sortante et ce qui a été réellement livré. Deux colonnes sur cinq affichent un écart net. Gabriel Attal doit répondre en direct, sans notes préparées à l’avance.",
     themes: ["economy", "institutions"],
     importance: "decisive",
     minDecisionIndex: 9,

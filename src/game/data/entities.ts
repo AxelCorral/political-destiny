@@ -288,18 +288,37 @@ const partyEntities: EntityDefinition[] = parties.map((party) =>
   ),
 );
 
-const fictionalCharacters: EntityDefinition[] = actors.map((actor) => ({
-  id: actor.id,
-  displayName: actor.displayName,
-  category: "fictional_character",
-  reality: "fictional",
-  allowedUses: ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
-  sensitivity: "sensitive",
-  notes:
-    actor.role === "candidate" || actor.partyId !== "independent_fictional"
-      ? "Personnage créé pour la simulation ; profil politique structurellement cohérent avec un archétype réel documenté dans docs/FICTIONAL_POLITICAL_ARCHETYPES.md (pseudo-réalité, pas un reskin nom pour nom). Aucun contenu sensible ne lui est jamais attribué."
-      : "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
-}));
+/** V3 — candidats réels : figures publiques, jamais associées à un contenu sensible. */
+const realCandidates: EntityDefinition[] = actors
+  .filter((actor) => actor.identityKind === "real_public_figure")
+  .map((actor) => ({
+    id: actor.id,
+    displayName: actor.displayName,
+    category: "public_figure" as EntityCategory,
+    reality: "real" as const,
+    allowedUses: [
+      "Candidature déclarée, décisions de campagne simulées, primaires, désistements et scénarios institutionnels sourcés",
+    ],
+    sensitivity: "contextual" as const,
+    verifiedAt: "2026-11-05",
+    notes:
+      "Candidat réel (docs/POLITICAL_BASELINE_2026-11.md). Fiction satirique : aucune citation, accusation, affaire privée ou judiciaire inventée.",
+  }));
+
+const fictionalCharacters: EntityDefinition[] = actors
+  .filter((actor) => actor.identityKind === "fictional")
+  .map((actor) => ({
+    id: actor.id,
+    displayName: actor.displayName,
+    category: "fictional_character",
+    reality: "fictional",
+    allowedUses: ["Péripéties, dialogues et situations sensibles explicitement fictifs"],
+    sensitivity: "sensitive",
+    notes:
+      actor.role === "candidate" || actor.partyId !== "independent_fictional"
+        ? "Personnage créé pour la simulation ; profil politique structurellement cohérent avec un archétype réel documenté dans docs/FICTIONAL_POLITICAL_ARCHETYPES.md (pseudo-réalité, pas un reskin nom pour nom). Aucun contenu sensible ne lui est jamais attribué."
+        : "Personnage secondaire créé pour la simulation ; aucune correspondance avec une personne réelle n’est recherchée.",
+  }));
 
 const fictionalNarrativeFigures: EntityDefinition[] = [
   {
@@ -321,6 +340,7 @@ export const entities: EntityDefinition[] = [
   ...territories,
   ...organizations,
   ...partyEntities,
+  ...realCandidates,
   ...fictionalCharacters,
   ...fictionalNarrativeFigures,
 ];

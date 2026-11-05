@@ -8,7 +8,7 @@ export const v2ReconquetePartyEvents: GameEventDefinition[] = [
     id: "party_reconquete_identity",
     title: "Reconquête choisit influence ou qualification",
     summary:
-      "Les militants veulent déplacer le débat public, tandis que l’équipe de Victor d’Aubrac affirme pouvoir atteindre le second tour. Le choix modifie le ton, les cibles et l’usage des ressources limitées.",
+      "Les militants veulent déplacer le débat public, tandis que l’équipe d’Éric Zemmour affirme pouvoir atteindre le second tour. Le choix modifie le ton, les cibles et l’usage des ressources limitées.",
     themes: ["institutions", "immigration", "security"],
     importance: "major",
     entityReferences: [
@@ -110,7 +110,7 @@ export const v2ReconquetePartyEvents: GameEventDefinition[] = [
         "internal_discipline",
         "OFFENSIF",
         "reconquete_fronde_candidate_control",
-        "Victor d’Aubrac reprend les canaux du parti",
+        "Éric Zemmour reprend les canaux du parti",
         "Le calendrier économique occupe enfin plusieurs jours sans concurrence interne. Les comités proches d’Hélène Saint-Cyr créent leurs propres listes de diffusion et ralentissent la campagne numérique.",
         [
           stat("credibility", 5, "Calendrier économique"),
@@ -305,7 +305,7 @@ export const v2ReconquetePartyEvents: GameEventDefinition[] = [
         "TRANSPARENT",
         "reconquete_crisis_priorities_vote",
         "Les adhérents classent les priorités",
-        "Le résultat donne une légitimité réelle au calendrier et oblige les deux camps à reconnaître des thèmes communs. Victor d’Aubrac perd la liberté de déplacer rapidement l’agenda.",
+        "Le résultat donne une légitimité réelle au calendrier et oblige les deux camps à reconnaître des thèmes communs. Éric Zemmour perd la liberté de déplacer rapidement l’agenda.",
         [
           stat("cohesion", 7, "Priorités votées"),
           stat("mobilization", 5, "Adhérents consultés"),
@@ -443,7 +443,7 @@ export const v2ReconquetePartyEvents: GameEventDefinition[] = [
     id: "party_reconquete_runoff",
     title: "La qualification bouleverse la stratégie",
     summary:
-      "Qualifié contre les attentes, Victor d’Aubrac doit chercher des reports au-delà de son socle. Le RN demande des concessions, tandis que LR exige des garanties de gouvernement.",
+      "Qualifié contre les attentes, Éric Zemmour doit chercher des reports au-delà de son socle. Le RN demande des concessions, tandis que LR exige des garanties de gouvernement.",
     themes: ["institutions", "economy", "immigration"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },

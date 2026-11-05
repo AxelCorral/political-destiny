@@ -218,6 +218,8 @@ export interface SourceMetadata {
 
 export interface PartyDefinition {
   id: string;
+  /** V3 — `false` pour les candidatures secondaires réelles (non jouables). */
+  playable?: boolean;
   displayName: string;
   shortName: string;
   aliases: string[];
@@ -599,7 +601,7 @@ export type GameEffect =
     }
   | {
       kind: "world";
-      stat: Exclude<keyof WorldState, "dominantTheme">;
+      stat: Exclude<keyof WorldState, "dominantTheme" | "salience" | "activeShocks" | "protests">;
       delta: number;
       visibility?: EffectVisibility;
       label?: string;
@@ -1213,6 +1215,8 @@ export interface NewGameOptions {
    * correspond à aucun profil du parti (repli sur le profil par défaut).
    */
   candidateProfileId?: string;
+  /** V3 — `false` exclut attentats et catastrophes meurtrières (paramètre joueur). */
+  tragicEvents?: boolean;
 }
 
 export interface ChoiceResolution {

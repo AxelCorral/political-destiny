@@ -118,10 +118,15 @@ describe("redistributeElectorate", () => {
 
   it("§17 : consigne fort > soutien explicite > retrait neutre, sur le même destinataire", () => {
     const none = freshState();
-    const explicitSupport = redistributeElectorate(freshState(), testContent.electorateBlocs, "gamma", {
-      partnerId: "alpha",
-      strength: "explicit_support",
-    });
+    const explicitSupport = redistributeElectorate(
+      freshState(),
+      testContent.electorateBlocs,
+      "gamma",
+      {
+        partnerId: "alpha",
+        strength: "explicit_support",
+      },
+    );
     const coalitionAgreement = redistributeElectorate(
       freshState(),
       testContent.electorateBlocs,
@@ -162,7 +167,11 @@ describe("redistributeElectorate", () => {
   it("une consigne de coalition réduit la part perdue vers l'indécision par rapport à un retrait neutre", () => {
     const neutralState = freshState();
     const undecidedBefore = { ...neutralState.electorate.undecidedByBloc };
-    const neutralResult = redistributeElectorate(neutralState, testContent.electorateBlocs, "gamma");
+    const neutralResult = redistributeElectorate(
+      neutralState,
+      testContent.electorateBlocs,
+      "gamma",
+    );
     const neutralIncrease = testContent.electorateBlocs.reduce(
       (sum, bloc) =>
         sum +

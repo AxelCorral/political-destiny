@@ -38,7 +38,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
     title: "Provoquer le favori en duel",
     category: "debate",
     summary:
-      "Les sondages placent Élise Montclar (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.",
+      "Les sondages placent Marine Le Pen (RN) en tête. Une chaîne d’information propose d’organiser un face-à-face avec elle avant le premier tour, sous réserve que les deux camps s’accordent sur le format.",
     themes: ["institutions"],
     importance: "major",
     phaseWeights: opponentPhases,
@@ -55,7 +55,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
         result: outcome(
           "challenge_frontrunner_accepted_hard",
           "Un duel exigeant, accepté sous conditions",
-          "La chaîne valide le format et l’équipe adverse le juge agressif mais ne peut refuser sans paraître fuir le débat. Élise Montclar prépare une riposte médiatique pour les jours suivants.",
+          "La chaîne valide le format et l’équipe adverse le juge agressif mais ne peut refuser sans paraître fuir le débat. Marine Le Pen prépare une riposte médiatique pour les jours suivants.",
           [
             stat("mediaPresence", 4, "Duel très attendu"),
             stat("credibility", 2, "Prise de risque assumée"),
@@ -129,7 +129,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
     title: "La riposte du favori",
     category: "debate",
     summary:
-      "Élise Montclar consacre son passage télévisé du lendemain à répondre point par point à votre prestation, avec une ligne d’attaque préparée sur votre programme économique.",
+      "Marine Le Pen consacre son passage télévisé du lendemain à répondre point par point à votre prestation, avec une ligne d’attaque préparée sur votre programme économique.",
     themes: ["institutions"],
     importance: "notable",
     phaseWeights: opponentPhases,
@@ -215,7 +215,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
     title: "Une attaque frontale de La France insoumise",
     category: "campaign",
     summary:
-      "Ariane Valmont vous accuse publiquement d’avoir édulcoré vos positions sociales pour séduire un électorat plus modéré. L’accusation circule largement avant que vous ayez pu y répondre.",
+      "Jean-Luc Mélenchon vous accuse publiquement d’avoir édulcoré vos positions sociales pour séduire un électorat plus modéré. L’accusation circule largement avant que vous ayez pu y répondre.",
     themes: ["work", "public_services"],
     importance: "notable",
     phaseWeights: opponentPhases,
@@ -336,7 +336,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
     title: "Une contradiction chez le camp centriste",
     category: "debate",
     summary:
-      "Une recherche d’archives révèle qu’Agathe Belcourt (Horizons) défendait, deux ans plus tôt, une position inverse à celle qu’elle porte aujourd’hui dans votre débat commun sur les retraites.",
+      "Une recherche d’archives exhume une ancienne note programmatique d’Horizons qui défendait une position inverse à celle que le parti porte aujourd’hui dans votre débat commun sur les retraites.",
     themes: ["pensions"],
     importance: "notable",
     phaseWeights: opponentPhases,
@@ -416,7 +416,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
     title: "Tensions internes chez Reconquête",
     category: "world",
     summary:
-      "La presse rapporte des tensions ouvertes entre Victor d’Aubrac et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.",
+      "La presse rapporte des tensions ouvertes entre Éric Zemmour et une partie de son état-major, sur fond de désaccord stratégique à un mois du premier tour. Votre équipe débat de l’attitude à adopter publiquement.",
     themes: ["institutions"],
     importance: "notable",
     phaseWeights: opponentPhases,
@@ -482,7 +482,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
     title: "La dissidence prend forme chez Reconquête",
     category: "world",
     summary:
-      "La crise interne évoquée quelques jours plus tôt débouche sur une rupture ouverte : une partie de l’état-major de Victor d’Aubrac annonce vouloir présenter une liste concurrente sous ses propres couleurs.",
+      "La crise interne évoquée quelques jours plus tôt débouche sur une rupture ouverte : une partie de l’état-major d’Éric Zemmour annonce vouloir présenter une liste concurrente sous ses propres couleurs.",
     themes: ["institutions"],
     importance: "major",
     phaseWeights: opponentPhases,
@@ -527,7 +527,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
     title: "Une accusation jugée infondée vise un adversaire",
     category: "campaign",
     summary:
-      "Une rumeur non vérifiée sur les comptes de campagne de Clara Villedieu circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.",
+      "Une rumeur non vérifiée sur les comptes d’un prestataire d’une campagne adverse circule en ligne. Vos propres équipes ont vérifié l’information et n’ont trouvé aucun élément la confirmant.",
     themes: ["institutions"],
     importance: "notable",
     phaseWeights: opponentPhases,
@@ -592,7 +592,7 @@ export const v2OpponentInteractionEvents: GameEventDefinition[] = [
     title: "Une proposition de pacte de non-agression",
     category: "campaign",
     summary:
-      "À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Maël Dargent (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.",
+      "À l’approche d’un meeting régional partagé entre plusieurs candidatures, l’équipe de Gabriel Attal (Renaissance) propose discrètement un pacte de non-agression médiatique pour la durée de l’événement commun, afin d’éviter tout incident qui nuirait à l’image de la rencontre.",
     themes: ["institutions"],
     importance: "routine",
     phaseWeights: opponentPhases,

@@ -42,7 +42,8 @@ function resolveConsigneStrength(
   recipientId: string,
   explicitConsigne?: { partnerId: string; strength: ConsigneStrength },
 ): ConsigneStrength {
-  if (explicitConsigne && explicitConsigne.partnerId === recipientId) return explicitConsigne.strength;
+  if (explicitConsigne && explicitConsigne.partnerId === recipientId)
+    return explicitConsigne.strength;
   if (withdrawing.alliedWith.includes(recipientId)) return "coalition_agreement";
   if (state.flags[`endorsement:${withdrawing.id}`] === recipientId) return "explicit_support";
   return "none";

@@ -54,7 +54,6 @@ export interface FigurineSpec {
 const SKIN_LIGHT = "#f2c7a5";
 const SKIN_WARM = "#e8b48d";
 const SKIN_TAN = "#d9a079";
-const SKIN_OLIVE = "#c98f66";
 
 export const figurineSpecs: Record<string, FigurineSpec> = {
   le_pen: {
@@ -205,7 +204,7 @@ export const figurineSpecs: Record<string, FigurineSpec> = {
   zemmour: {
     id: "zemmour",
     label: "Éric Zemmour",
-    skin: SKIN_OLIVE,
+    skin: SKIN_WARM,
     hair: { style: "receding", color: "#2b2420" },
     headWidth: 0.92,
     height: 0.94,
@@ -267,7 +266,7 @@ export const figurineSpecs: Record<string, FigurineSpec> = {
     height: 1.02,
     build: 0.98,
     glasses: "none",
-    facialHair: "stubble",
+    facialHair: "none",
     facialHairColor: "#4a3324",
     brows: "heavy",
     outfit: "sweater",

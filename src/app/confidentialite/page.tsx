@@ -41,8 +41,8 @@ export default function PrivacyPage() {
           Ce qui est envoyé tant que vous ne désactivez pas cette option : un identifiant anonyme
           généré sur votre appareil (pas un compte, pas une empreinte de navigateur), les choix
           effectués dans le jeu et leurs identifiants techniques, la progression de la campagne
-          (parti, méthode, phases atteintes, score final), et des informations techniques de
-          version du jeu.
+          (parti, méthode, phases atteintes, score final), et des informations techniques de version
+          du jeu.
         </p>
         <p className="mt-3">
           Ce qui n’est <strong>jamais</strong> envoyé : votre nom, un e-mail, une adresse IP

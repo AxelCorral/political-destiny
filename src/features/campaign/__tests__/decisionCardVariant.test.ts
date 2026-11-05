@@ -87,7 +87,7 @@ describe("findChainOrigin", () => {
     );
     let guard = 0;
     let followUp: GameEventDefinition | undefined;
-    while (state.phase !== "finished" && guard < 40 && !followUp) {
+    while (state.phase !== "finished" && guard < 70 && !followUp) {
       const event = currentEvent(state, gameContent.events);
       if (event.chain && event.chain.step > 1 && event.chain.followsEventIds?.length) {
         followUp = event;
@@ -98,7 +98,7 @@ describe("findChainOrigin", () => {
     }
     expect(
       followUp,
-      "aucune suite de chaîne atteinte dans les 40 premières décisions",
+      "aucune suite de chaîne atteinte dans les 70 premières décisions",
     ).toBeDefined();
     const origin = findChainOrigin(followUp!, state);
     expect(origin).toBeDefined();

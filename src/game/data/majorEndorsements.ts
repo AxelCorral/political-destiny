@@ -62,9 +62,7 @@ export const majorEndorsements: MajorEndorsementDefinition[] = [
       { kind: "party_stat", stat: "mediaPresence", delta: 4, label: "Présence médiatique +4" },
       { kind: "party_stat", stat: "credibility", delta: 2, label: "Crédibilité +2" },
     ],
-    negativeEffects: [
-      { kind: "party_stat", stat: "rejection", delta: 1.5, label: "Rejet +1,5" },
-    ],
+    negativeEffects: [{ kind: "party_stat", stat: "rejection", delta: 1.5, label: "Rejet +1,5" }],
     internalContext:
       "Soutien de réformisme pragmatique post-Brexit ; renforce la crédibilité internationale sans " +
       "mobiliser fortement, et alimente légèrement la critique d'un alignement atlantiste chez l'aile " +
@@ -231,9 +229,7 @@ export const majorEndorsements: MajorEndorsementDefinition[] = [
       { kind: "party_stat", stat: "localStrength", delta: 4, label: "Implantation locale +4" },
       { kind: "party_stat", stat: "electedSupport", delta: 3, label: "Soutien d'élus +3" },
     ],
-    negativeEffects: [
-      { kind: "party_stat", stat: "awareness", delta: -1, label: "Notoriété -1" },
-    ],
+    negativeEffects: [{ kind: "party_stat", stat: "awareness", delta: -1, label: "Notoriété -1" }],
     internalContext:
       "Solidifie le maillage local et le soutien des élus de terrain ; apporte peu de visibilité " +
       "nationale, faute d'exposition médiatique propre à la figure.",

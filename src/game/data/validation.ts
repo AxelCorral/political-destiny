@@ -161,12 +161,15 @@ export function validateGameContent(content: GameContent): ContentValidationRepo
 
   if (content.achievements.length < 40)
     errors.push(`Seulement ${content.achievements.length} succès (minimum 40)`);
-  for (const party of content.parties) {
+  for (const party of content.parties.filter((definition) => definition.playable !== false)) {
     const candidates = content.actors.filter(
       (actor) => actor.partyId === party.id && actor.role === "candidate",
     );
     const cadres = content.actors.filter(
-      (actor) => actor.partyId === party.id && actor.role !== "candidate",
+      (actor) =>
+        actor.partyId === party.id &&
+        actor.role !== "candidate" &&
+        actor.identityKind === "fictional",
     );
     const specificEvents = content.events.filter((event) =>
       event.eligibleParties?.includes(party.id),

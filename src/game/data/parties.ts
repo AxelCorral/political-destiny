@@ -67,11 +67,11 @@ const baseParties: PartyDefinition[] = [
     // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
     // sourceRange: 10,5-14 % (Elabe 28/03/2026, Cluster17 05/12/2025 — candidature
     // Mélenchon présumée, non déclarée au 18/04/2026), cf. docs/POLITICAL_BASELINE_2026-04.md §2.
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
-      baseSupport: 12,
-      potentialSupport: 28,
+      baseSupport: 18,
+      potentialSupport: 30,
       mobilization: 76,
       finances: 52,
       mediaPresence: 76,
@@ -109,9 +109,9 @@ const baseParties: PartyDefinition[] = [
   },
   {
     id: "ps",
-    displayName: "Parti socialiste",
-    shortName: "PS",
-    aliases: ["Parti Socialiste"],
+    displayName: "PS – Place publique",
+    shortName: "PS-PP",
+    aliases: ["Parti socialiste", "Place publique"],
     isRealOrganization: true,
     visual: { primaryColor: "#8a405d", secondaryColor: "#f1d9df", monogram: "PS", symbol: "✦" },
     ideology: {
@@ -126,10 +126,10 @@ const baseParties: PartyDefinition[] = [
     // sourceRange: 4,5-10,5 % (Elabe 28/03/2026 — incertitude réelle de candidature :
     // ligne de continuité vs figure de rassemblement, cf. CandidateProfile ps_villedieu_profile
     // / ps_rassemblement_profile). baseSupport central ; les deux profils divergent autour.
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
-      baseSupport: 6,
+      baseSupport: 9,
       potentialSupport: 25,
       mobilization: 59,
       finances: 56,
@@ -181,10 +181,10 @@ const baseParties: PartyDefinition[] = [
     // sourceRange: 4-5 % (Elabe 28/03/2026 — candidature Tondelier réglée en interne
     // depuis décembre 2025), cf. docs/POLITICAL_BASELINE_2026-04.md §4. Déjà proche de
     // la fourchette réelle (ajustement antérieur du 2026-08-10, voir AUDIT_RUNOFF_FINAL_CALIBRATION.md).
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
-      baseSupport: 4.5,
+      baseSupport: 3.5,
       potentialSupport: 20,
       mobilization: 57,
       finances: 41,
@@ -239,11 +239,11 @@ const baseParties: PartyDefinition[] = [
     // politicalBaselineVersion: 2026-04-v1 | politicalBaselineDate: 2026-04-18
     // sourceRange: 8-12 % (Elabe 28/03/2026, scénario sans Philippe — candidature
     // Attal présumée, non déclarée au 18/04/2026), cf. docs/POLITICAL_BASELINE_2026-04.md §5.
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
-      baseSupport: 11.5,
-      potentialSupport: 31,
+      baseSupport: 5.5,
+      potentialSupport: 26,
       mobilization: 49,
       finances: 73,
       mediaPresence: 78,
@@ -294,11 +294,11 @@ const baseParties: PartyDefinition[] = [
     // significatif entre le jeu et la réalité identifié par cette mission (baseSupport 4,5
     // auparavant) — corrigé substantiellement sans répliquer intégralement la fourchette
     // réelle (le jeu reste un scénario fictif, jamais un simulateur de sondage en direct).
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
-      baseSupport: 16,
-      potentialSupport: 34,
+      baseSupport: 9.5,
+      potentialSupport: 32,
       mobilization: 46,
       finances: 58,
       mediaPresence: 58,
@@ -356,10 +356,10 @@ const baseParties: PartyDefinition[] = [
     // sourceRange: 7-10 % (Elabe 28/03/2026 — Retailleau autodéclaré le 12/02/2026,
     // ratification interne le 19/04/2026, soit le lendemain de la date de début du jeu),
     // cf. docs/POLITICAL_BASELINE_2026-04.md §7.
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
-      baseSupport: 7.5,
+      baseSupport: 4.5,
       potentialSupport: 27,
       mobilization: 61,
       finances: 64,
@@ -418,17 +418,17 @@ const baseParties: PartyDefinition[] = [
     // rn_montclar_profile. baseSupport central ; ajustement supplémentaire modeste depuis
     // 15 (calibration du 2026-08-10, AUDIT_RUNOFF_FINAL_CALIBRATION.md) sans répliquer
     // intégralement la fourchette réelle.
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
-      baseSupport: 17,
-      potentialSupport: 40,
+      baseSupport: 35,
+      potentialSupport: 46,
       mobilization: 72,
       finances: 66,
       mediaPresence: 89,
       governingCredibility: 57,
       cohesion: 74,
-      rejection: 85,
+      rejection: 66,
       localStrength: 62,
       electedSupport: 73,
       popularity: 60,
@@ -477,8 +477,8 @@ const baseParties: PartyDefinition[] = [
     // sourceRange: 3-5 % (Elabe 28/03/2026 — Zemmour n'avait pas tranché au 18/04/2026,
     // fracture réelle avec Marion Maréchal soutenant Marine Le Pen plutôt que Zemmour),
     // cf. docs/POLITICAL_BASELINE_2026-04.md §8.
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
       baseSupport: 4.5,
       potentialSupport: 17,
@@ -528,10 +528,10 @@ const baseParties: PartyDefinition[] = [
     // pas une fourchette de confiance serrée), cf. docs/POLITICAL_BASELINE_2026-04.md §9.
     // Ajustement modeste vers le bas pour refléter ce statut de parti neuf, sans le rendre
     // injouable (§39 du prompt de mission).
-    politicalBaselineVersion: "2026-04-v1",
-    politicalBaselineDate: "2026-04-18",
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
     baseline: {
-      baseSupport: 3.5,
+      baseSupport: 7,
       potentialSupport: 19,
       mobilization: 48,
       finances: 48,
@@ -892,19 +892,241 @@ const runoffTransferability: Record<(typeof PLAYABLE_PARTY_IDS)[number], number>
   nouvelle_energie: 38,
 };
 
-export const parties: PartyDefinition[] = baseParties.map((party) => {
-  const configured = partyCampaignProfiles[party.id as (typeof PLAYABLE_PARTY_IDS)[number]];
-  if (!configured) return party;
+/**
+ * V3 — candidatures secondaires réelles, non jouables, soumises aux parrainages
+ * (docs/POLITICAL_BASELINE_2026-11.md). Paramètres de gameplay indicatifs, jamais affichés
+ * comme des mesures : ils captent la part de voix que les sondages leur attribuent et
+ * pèsent sur leurs voisins idéologiques.
+ */
+interface MinorPartyInput {
+  id: string;
+  displayName: string;
+  shortName: string;
+  candidate: string;
+  color: string;
+  ideology: PartyDefinition["ideology"];
+  family: IdeologyFamily;
+  baseSupport: number;
+  potentialSupport: number;
+  localStrength: number;
+  electorate: number[];
+  regions: number[];
+  program: string[];
+}
+
+function minorParty(input: MinorPartyInput): PartyDefinition {
   return {
-    ...party,
-    baseline: {
-      ...party.baseline,
-      transferability: runoffTransferability[party.id as (typeof PLAYABLE_PARTY_IDS)[number]],
+    id: input.id,
+    displayName: input.displayName,
+    shortName: input.shortName,
+    aliases: [],
+    isRealOrganization: true,
+    playable: false,
+    visual: {
+      primaryColor: input.color,
+      secondaryColor: "#f1ece4",
+      monogram: input.shortName.slice(0, 2),
+      symbol: "•",
     },
-    ideologyFamily: configured.ideologyFamily,
-    campaignProfile: structuredClone(configured.profile),
+    ideology: input.ideology,
+    ideologyFamily: input.family,
+    politicalBaselineVersion: "2026-11-v3",
+    politicalBaselineDate: "2026-11-05",
+    baseline: {
+      baseSupport: input.baseSupport,
+      potentialSupport: input.potentialSupport,
+      // Notoriété et crédibilité volontairement basses : le modèle d'appel électoral
+      // compresse le socle, ce sont ces statistiques qui maintiennent les petites
+      // candidatures à leur niveau réel (0,5 à 3 %).
+      mobilization: 34,
+      finances: 22,
+      mediaPresence: 26,
+      governingCredibility: 28,
+      cohesion: 44,
+      rejection: 52,
+      transferability: 45,
+      localStrength: input.localStrength,
+      electedSupport: Math.round(input.localStrength * 0.6),
+      popularity: 30,
+      members: 12_000,
+      awareness: 52,
+      momentum: 40,
+    },
+    strengths: ["Candidature identifiée", "Électorat fidèle", "Liberté de ton"],
+    weaknesses: ["Parrainages incertains", "Moyens limités", "Faible exposition médiatique"],
+    program: [...input.program, "Peser sur le débat du premier tour"],
+    electorateAffinity: electorate(...input.electorate),
+    regionalAffinity: regions(...input.regions),
+    nominationModeWeights: { automatic: 5, primary: 1, internalVote: 1, leadershipCrisis: 1 },
+    strategicArchetypes: ["consolidate_base", "media_momentum"],
+    uniqueEventTags: [],
+    careerTitle: input.candidate,
   };
-});
+}
+
+/** Candidat réel de chaque parti secondaire (affichage et figurine). */
+export const MINOR_PARTY_CANDIDATES: Record<string, { name: string; figurineId: string }> = {
+  pcf: { name: "Fabien Roussel", figurineId: "roussel" },
+  debout: { name: "François Ruffin", figurineId: "ruffin" },
+  france_humaniste: { name: "Dominique de Villepin", figurineId: "villepin" },
+  convention: { name: "Bernard Cazeneuve", figurineId: "cazeneuve" },
+  dlf: { name: "Nicolas Dupont-Aignan", figurineId: "dupont_aignan" },
+  lo: { name: "Nathalie Arthaud", figurineId: "arthaud" },
+};
+
+const minorParties: PartyDefinition[] = [
+  minorParty({
+    id: "pcf",
+    displayName: "Parti communiste français",
+    shortName: "PCF",
+    candidate: "Fabien Roussel",
+    color: "#c8102e",
+    ideology: {
+      economy: -70,
+      society: -20,
+      europe: -30,
+      ecology: 20,
+      authority: -5,
+      immigration: -5,
+    },
+    family: "radical_left",
+    baseSupport: 2,
+    potentialSupport: 8,
+    localStrength: 48,
+    electorate: [40, 50, 62, 72, 58, 25, 15, 66, 40, 25, 40, 55],
+    regions: [55, 72, 50, 48, 52, 45, 62, 55],
+    program: ["Augmenter les salaires", "Relancer l’industrie et le nucléaire public"],
+  }),
+  minorParty({
+    id: "debout",
+    displayName: "Debout !",
+    shortName: "DEBOUT",
+    candidate: "François Ruffin",
+    color: "#b5216b",
+    ideology: {
+      economy: -65,
+      society: -35,
+      europe: -30,
+      ecology: 45,
+      authority: -30,
+      immigration: -20,
+    },
+    family: "radical_left",
+    baseSupport: 2.2,
+    potentialSupport: 10,
+    localStrength: 22,
+    electorate: [55, 60, 60, 68, 60, 30, 20, 65, 40, 20, 55, 62],
+    regions: [50, 75, 52, 55, 55, 48, 58, 50],
+    program: ["Réconcilier la gauche avec la France des bourgs", "Protéger le travail"],
+  }),
+  minorParty({
+    id: "france_humaniste",
+    displayName: "La France humaniste",
+    shortName: "FH",
+    candidate: "Dominique de Villepin",
+    color: "#7b5ea7",
+    ideology: {
+      economy: 0,
+      society: -10,
+      europe: 35,
+      ecology: 25,
+      authority: 20,
+      immigration: -15,
+    },
+    family: "liberal_center",
+    baseSupport: 2.4,
+    potentialSupport: 12,
+    localStrength: 15,
+    electorate: [48, 35, 40, 40, 50, 55, 45, 50, 62, 52, 45, 40],
+    regions: [62, 48, 52, 55, 58, 52, 52, 60],
+    program: ["Une diplomatie indépendante", "Rassembler au-delà des camps"],
+  }),
+  minorParty({
+    id: "convention",
+    displayName: "La Convention",
+    shortName: "CONV",
+    candidate: "Bernard Cazeneuve",
+    color: "#d6336c",
+    ideology: {
+      economy: -25,
+      society: -25,
+      europe: 60,
+      ecology: 35,
+      authority: 25,
+      immigration: 0,
+    },
+    family: "social_democrat",
+    baseSupport: 1.5,
+    potentialSupport: 10,
+    localStrength: 25,
+    electorate: [50, 30, 35, 40, 52, 55, 40, 60, 62, 40, 48, 30],
+    regions: [60, 55, 52, 62, 55, 50, 58, 45],
+    program: ["Une gauche de gouvernement républicaine", "Ordre et justice sociale"],
+  }),
+  minorParty({
+    id: "dlf",
+    displayName: "Debout la France",
+    shortName: "DLF",
+    candidate: "Nicolas Dupont-Aignan",
+    color: "#2c4a8a",
+    ideology: {
+      economy: -5,
+      society: 35,
+      europe: -65,
+      ecology: -10,
+      authority: 50,
+      immigration: 55,
+    },
+    family: "sovereigntist_right",
+    baseSupport: 1.4,
+    potentialSupport: 6,
+    localStrength: 20,
+    electorate: [25, 35, 55, 40, 45, 30, 40, 30, 45, 60, 15, 45],
+    regions: [55, 52, 58, 48, 45, 58, 52, 40],
+    program: ["Souveraineté nationale", "Référendums réguliers"],
+  }),
+  minorParty({
+    id: "lo",
+    displayName: "Lutte ouvrière",
+    shortName: "LO",
+    candidate: "Nathalie Arthaud",
+    color: "#b3202a",
+    ideology: {
+      economy: -95,
+      society: -40,
+      europe: -50,
+      ecology: 30,
+      authority: -40,
+      immigration: -45,
+    },
+    family: "radical_left",
+    baseSupport: 0.6,
+    potentialSupport: 3,
+    localStrength: 12,
+    electorate: [35, 55, 50, 65, 40, 10, 5, 50, 25, 10, 35, 50],
+    regions: [55, 58, 50, 48, 50, 48, 52, 52],
+    program: ["Le camp des travailleurs", "Interdire les licenciements"],
+  }),
+];
+
+export const parties: PartyDefinition[] = [
+  ...baseParties.map((party) => {
+    const configured = partyCampaignProfiles[party.id as (typeof PLAYABLE_PARTY_IDS)[number]];
+    if (!configured) return party;
+    return {
+      ...party,
+      baseline: {
+        ...party.baseline,
+        transferability: runoffTransferability[party.id as (typeof PLAYABLE_PARTY_IDS)[number]],
+      },
+      ideologyFamily: configured.ideologyFamily,
+      campaignProfile: structuredClone(configured.profile),
+    };
+  }),
+  ...minorParties,
+];
+
+export const playableParties = parties.filter((party) => party.playable !== false);
 
 export function getPartyDefinition(id: string): PartyDefinition | undefined {
   return parties.find((party) => party.id === id);

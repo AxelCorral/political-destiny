@@ -8,7 +8,7 @@ export const v2EcologistesPartyEvents: GameEventDefinition[] = [
     id: "party_ecologistes_identity",
     title: "Les Écologistes arbitrent leur méthode",
     summary:
-      "Les groupes régionaux veulent pouvoir adapter les priorités nationales, tandis que l’équipe d’Éloi Vernet demande une campagne présidentielle capable de trancher collectivement en quelques heures.",
+      "Les groupes régionaux veulent pouvoir adapter les priorités nationales, tandis que l’équipe de Marine Tondelier demande une campagne présidentielle capable de trancher collectivement en quelques heures.",
     themes: ["institutions", "ecology"],
     importance: "major",
     entityReferences: [
@@ -51,7 +51,7 @@ export const v2EcologistesPartyEvents: GameEventDefinition[] = [
       ),
       directChoice(
         "ecologistes_identity_shared_mandate",
-        "Confier le programme aux fédérations et réserver les arbitrages de calendrier à Éloi Vernet",
+        "Confier le programme aux fédérations et réserver les arbitrages de calendrier à Marine Tondelier",
         "compromise",
         "INSTITUTIONNEL",
         "ecologistes_identity_two_keys",
@@ -257,7 +257,7 @@ export const v2EcologistesPartyEvents: GameEventDefinition[] = [
     id: "party_ecologistes_local_asset",
     title: "Des élus ruraux proposent une tournée",
     summary:
-      "Des conseillers municipaux écologistes invitent Éloi Vernet dans des territoires où la voiture reste indispensable. Ils veulent parler carburant, lignes ferroviaires et accès aux services plutôt que gestes individuels.",
+      "Des conseillers municipaux écologistes invitent Marine Tondelier dans des territoires où la voiture reste indispensable. Ils veulent parler carburant, lignes ferroviaires et accès aux services plutôt que gestes individuels.",
     themes: ["ecology", "public_services", "work"],
     importance: "notable",
     entityReferences: [
@@ -455,7 +455,7 @@ export const v2EcologistesPartyEvents: GameEventDefinition[] = [
     id: "party_ecologistes_runoff",
     title: "Le second tour exige une coalition climatique",
     summary:
-      "Qualifié, Éloi Vernet doit élargir une candidature perçue comme urbaine. Les soutiens possibles demandent à la fois des garanties sociales, un calendrier industriel et une méthode parlementaire.",
+      "Qualifiée, Marine Tondelier doit élargir une candidature perçue comme urbaine. Les soutiens possibles demandent à la fois des garanties sociales, un calendrier industriel et une méthode parlementaire.",
     themes: ["ecology", "economy", "institutions"],
     importance: "decisive",
     phaseWeights: { between_rounds: 1.4 },

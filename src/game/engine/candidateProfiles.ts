@@ -32,13 +32,14 @@ export function resolveCandidateProfile(
   }
 
   const totalWeight = profiles.reduce(
-    (sum, profile) => sum + Math.max(0.01, profile.probabilityWeight),
+    (sum, profile) => sum + Math.max(0, profile.probabilityWeight),
     0,
   );
+  if (totalWeight <= 0) return profiles.find((profile) => profile.isDefault) ?? profiles[0];
   const roll = (hashSeed(`${seed}:candidate-profile:${partyId}`) % 10_000) / 10_000;
   let cursor = 0;
   for (const profile of profiles) {
-    cursor += Math.max(0.01, profile.probabilityWeight) / totalWeight;
+    cursor += Math.max(0, profile.probabilityWeight) / totalWeight;
     if (roll < cursor) return profile;
   }
   return profiles[profiles.length - 1];

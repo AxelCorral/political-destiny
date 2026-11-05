@@ -1,3 +1,4 @@
+import { GAME_CONFIG } from "@/config/game";
 // @vitest-environment node
 //
 // Passe ciblée post-fun (TARGETED_GAMEPLAY_PASS_REPORT.md), Phase G — ce
@@ -114,7 +115,11 @@ describe("pipeline complet", () => {
         const validation = validateGameState(state);
         expect(state.phase).toBe("finished");
         expect(state.decisionIndex).toBeGreaterThanOrEqual(25);
-        expect(state.decisionIndex).toBeLessThanOrEqual(31);
+        expect(state.decisionIndex).toBeLessThanOrEqual(
+          GAME_CONFIG.targetDecisionsBeforeFirstRound +
+            GAME_CONFIG.targetDecisionsBetweenRounds +
+            GAME_CONFIG.targetGovernmentDecisions,
+        );
         expect(validation.errors).toEqual([]);
       }),
       { numRuns: 90 },

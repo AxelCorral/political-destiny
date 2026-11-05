@@ -131,9 +131,7 @@ describe("sidebar — synchronisation du score après le premier tour", () => {
       if (!gs) break;
 
       if (gs.qualifiedPartyIds && eliminatedIds.length === 0) {
-        eliminatedIds = Object.keys(gs.parties).filter(
-          (id) => !gs.qualifiedPartyIds!.includes(id),
-        );
+        eliminatedIds = Object.keys(gs.parties).filter((id) => !gs.qualifiedPartyIds!.includes(id));
       }
       // See the previous test for why the first post-qualification snapshot
       // is excluded: `party.stats.polling` only settles on the next

@@ -8,6 +8,8 @@ import type {
   PartyState,
 } from "@/game/types";
 
+import { MINOR_PARTY_CANDIDATES } from "@/game/data/parties";
+
 import { clamp, ideologyDistance } from "./math";
 import { applyPartySplit } from "./partyDynamics";
 import { redistributeAllianceBoost, redistributeElectorate } from "./redistribution";
@@ -300,8 +302,7 @@ function maybeNegotiateStrategicWithdrawal(
   // d'une campagne complète malgré une fenêtre de plusieurs décisions et
   // plusieurs partis éligibles en parallèle (§11).
   const openChance = clamp(
-    0.006 +
-      Math.max(0, NEGOTIATION_VIABILITY_CEILING - viability.viability) * 0.004,
+    0.006 + Math.max(0, NEGOTIATION_VIABILITY_CEILING - viability.viability) * 0.004,
     0.006,
     0.055,
   );
@@ -403,7 +404,9 @@ function resolveStrategicNegotiation(
   }
 
   const consigneStrength =
-    party.alliedWith.includes(partnerId) || relation >= 60 ? "coalition_agreement" : "explicit_support";
+    party.alliedWith.includes(partnerId) || relation >= 60
+      ? "coalition_agreement"
+      : "explicit_support";
   actor.candidateStatus = "withdrawn";
   actor.active = false;
   party.active = false;
@@ -667,7 +670,13 @@ export function simulateOpponentTurn(
     if (!actor?.active) continue;
     if (handleRunoffEndorsement(state, party, actor, news)) continue;
     if (maybeNegotiateStrategicWithdrawal(state, party, actor, news, blocs)) continue;
-    if (maybeWithdrawAndRally(state, party, actor, news, blocs)) continue;
+    // V3 : les petites candidatures réelles ne se retirent pas d'elles-mêmes — leur
+    // sort se joue aux parrainages (directeur de campagne).
+    if (
+      !(party.id in MINOR_PARTY_CANDIDATES) &&
+      maybeWithdrawAndRally(state, party, actor, news, blocs)
+    )
+      continue;
 
     const previousStrategy = actor.strategy;
     let strategy: OpponentStrategy;
