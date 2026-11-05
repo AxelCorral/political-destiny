@@ -9,7 +9,7 @@ const browser = await chromium.launch({
 const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
 page.setDefaultTimeout(600000);
 const clickText = async (re) => {
-  const el = page.locator("main").getByRole("button", { name: re }).first();
+  const el = page.getByRole("button", { name: re }).first();
   if (await el.isVisible().catch(() => false)) {
     await el.click();
     return true;

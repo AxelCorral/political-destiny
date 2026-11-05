@@ -4,7 +4,7 @@
 présidentielle, construit comme projet de simulation et d'expérimentation data — pas un produit
 commercial fini, pas un prédicteur de l'élection de 2027.
 
-Jeu web mobile-first de campagne présidentielle française fictive. Une partie dure environ 10 à
+Jeu web mobile-first de campagne présidentielle française, en fiction satirique avec les candidats réels de 2027. Une partie dure environ 10 à
 15 minutes et combine décisions narratives, probabilités influencées par les statistiques,
 adversaires autonomes, deux tours électoraux et bilan de carrière.
 
@@ -94,6 +94,13 @@ Les exigences détaillées et l’état d’avancement de la V1 initiale figuren
 historique.
 
 ## État actuel
+
+**V3 (novembre 2026, branche `v2/3d-real-cast`)** : candidats réels de la présidentielle 2027
+en figurines 3D caricaturales, campagne de septembre 2026 à avril 2027 (30 décisions), chocs
+extérieurs, mouvements sociaux, primaires, parrainages et coups de théâtre, scènes 3D (diorama
+de la France, débat, podium, Élysée). Détails : `docs/V3_CHANGELOG.md`.
+
+### Historique V2
 
 Le jeu comprend 9 partis jouables (candidatures ancrées dans une photographie politique réelle du
 18 avril 2026, personnages pseudonymisés) et un mouvement personnalisable, 290 événements, 58
