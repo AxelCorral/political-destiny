@@ -110,6 +110,18 @@ function Lectern({ color, x }: { color: string; x: number }) {
   );
 }
 
+/** Pivot des candidats l'un vers l'autre, en alternance (doit vivre dans le Canvas). */
+function Facing({ side, children }: { side: "left" | "right"; children: React.ReactNode }) {
+  const ref = useRef<Group>(null);
+  useFrame((state) => {
+    if (!ref.current) return;
+    const speaker = Math.floor(state.clock.elapsedTime / 3) % 2;
+    ref.current.rotation.y =
+      side === "left" ? 0.45 + (speaker === 0 ? 0.15 : 0) : -0.45 - (speaker === 1 ? 0.15 : 0);
+  });
+  return <group ref={ref}>{children}</group>;
+}
+
 export function DebateScene({
   left,
   right,
@@ -120,30 +132,22 @@ export function DebateScene({
   label: string;
 }) {
   const still = usePrefersReducedMotion();
-  const speaker = useRef(0);
-  const leftRef = useRef<Group>(null);
-  const rightRef = useRef<Group>(null);
-  useFrame((state) => {
-    // Les candidats se tournent légèrement l'un vers l'autre en alternance.
-    speaker.current = Math.floor(state.clock.elapsedTime / 3) % 2;
-    if (leftRef.current) leftRef.current.rotation.y = 0.45 + (speaker.current === 0 ? 0.15 : 0);
-    if (rightRef.current) rightRef.current.rotation.y = -0.45 - (speaker.current === 1 ? 0.15 : 0);
-  });
   const leftSpeaks = !still;
   return (
     <StageCanvas
       label={label}
       className="h-full w-full"
-      camera={{ position: [0, 2.2, 6], fov: 30 }}
+      camera={{ position: [0, 1.6, 7], fov: 32 }}
+      shadowY={-1.05}
       shadowScale={10}
     >
       <color attach="background" args={["#0e1630"]} />
       {/* Plateau : sol, écran de fond et anneau lumineux */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -1.05, 0]} receiveShadow>
         <circleGeometry args={[4, 48]} />
         <meshStandardMaterial color="#1c2a52" roughness={0.3} metalness={0.2} />
       </mesh>
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]}>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -1.04, 0]}>
         <ringGeometry args={[2.4, 2.5, 64]} />
         <meshStandardMaterial color="#4c83cb" emissive="#4c83cb" emissiveIntensity={0.8} />
       </mesh>
@@ -152,14 +156,20 @@ export function DebateScene({
         <meshStandardMaterial color="#20366e" emissive="#162a5a" emissiveIntensity={0.5} />
       </mesh>
       <pointLight position={[0, 3, 2]} intensity={6} color="#9cc0ff" />
-      <group ref={leftRef} position={[-1.3, 0, 0]}>
-        <Figurine spec={left} pose={leftSpeaks ? "speak" : "idle"} still={still} />
+      <group position={[0, -1.05, 0]}>
+        <group position={[-1.3, 0, 0]}>
+          <Facing side="left">
+            <Figurine spec={left} pose={leftSpeaks ? "speak" : "idle"} still={still} />
+          </Facing>
+        </group>
+        <group position={[1.3, 0, 0]}>
+          <Facing side="right">
+            <Figurine spec={right} pose="idle" phase={1.5} still={still} />
+          </Facing>
+        </group>
+        <Lectern color={left.accent} x={-1.3} />
+        <Lectern color={right.accent} x={1.3} />
       </group>
-      <group ref={rightRef} position={[1.3, 0, 0]}>
-        <Figurine spec={right} pose="idle" phase={1.5} still={still} />
-      </group>
-      <Lectern color={left.accent} x={-1.3} />
-      <Lectern color={right.accent} x={1.3} />
     </StageCanvas>
   );
 }
@@ -242,61 +252,64 @@ export function ElyseeScene({
     <StageCanvas
       label={label}
       className="h-full w-full"
-      camera={{ position: [0, 1.9, 6.8], fov: 32 }}
+      camera={{ position: [0, 1.4, 8.2], fov: 34 }}
+      shadowY={-1.1}
       shadowScale={12}
     >
       <color attach="background" args={[won ? "#f6efe2" : "#dfe3ea"]} />
-      {/* Cour pavée */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
-        <planeGeometry args={[14, 10]} />
-        <meshStandardMaterial color="#d8cdb9" roughness={0.9} />
-      </mesh>
-      {/* Tapis rouge */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.005, 0.8]}>
-        <planeGeometry args={[1, 4]} />
-        <meshStandardMaterial color="#9b1b1f" roughness={0.8} />
-      </mesh>
-      {/* Façade stylisée */}
-      <group position={[0, 0, -1.8]}>
-        <RoundedBox
-          args={[7, 2.4, 0.8]}
-          radius={0.04}
-          position={[0, 1.2, 0]}
-          castShadow
-          receiveShadow
-        >
-          <meshStandardMaterial color="#efe8da" roughness={0.7} />
-        </RoundedBox>
-        <mesh position={[0, 2.55, 0]} castShadow>
-          <boxGeometry args={[7.3, 0.3, 1]} />
-          <meshStandardMaterial color="#6f7d8f" roughness={0.6} />
+      <group position={[0, -1.1, 0]}>
+        {/* Cour pavée */}
+        <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
+          <planeGeometry args={[14, 10]} />
+          <meshStandardMaterial color="#d8cdb9" roughness={0.9} />
         </mesh>
-        {[-1.2, -0.4, 0.4, 1.2].map((x) => (
-          <mesh key={x} position={[x, 1, 0.5]} castShadow>
-            <cylinderGeometry args={[0.1, 0.12, 2, 14]} />
-            <meshStandardMaterial color="#f7f3ea" roughness={0.5} />
-          </mesh>
-        ))}
-        {[-3, -2.2, 2.2, 3].map((x) => (
-          <mesh key={x} position={[x, 1.25, 0.41]}>
-            <planeGeometry args={[0.45, 0.8]} />
-            <meshStandardMaterial color="#5a6b82" roughness={0.3} />
-          </mesh>
-        ))}
-        {/* Drapeau */}
-        <mesh position={[0, 3.2, 0]}>
-          <cylinderGeometry args={[0.02, 0.02, 1.1, 8]} />
-          <meshStandardMaterial color="#888" />
+        {/* Tapis rouge */}
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.005, 0.8]}>
+          <planeGeometry args={[1, 4]} />
+          <meshStandardMaterial color="#9b1b1f" roughness={0.8} />
         </mesh>
-        {["#0055a4", "#ffffff", "#ef4135"].map((color, i) => (
-          <mesh key={color} position={[0.12 + i * 0.16, 3.55, 0]}>
-            <boxGeometry args={[0.16, 0.32, 0.01]} />
-            <meshStandardMaterial color={color} />
+        {/* Façade stylisée */}
+        <group position={[0, 0, -1.8]}>
+          <RoundedBox
+            args={[7, 2.4, 0.8]}
+            radius={0.04}
+            position={[0, 1.2, 0]}
+            castShadow
+            receiveShadow
+          >
+            <meshStandardMaterial color="#efe8da" roughness={0.7} />
+          </RoundedBox>
+          <mesh position={[0, 2.55, 0]} castShadow>
+            <boxGeometry args={[7.3, 0.3, 1]} />
+            <meshStandardMaterial color="#6f7d8f" roughness={0.6} />
           </mesh>
-        ))}
-      </group>
-      <group position={[0, 0, 1.2]}>
-        <Figurine spec={player} pose={won ? "wave" : "slump"} still={still} />
+          {[-1.2, -0.4, 0.4, 1.2].map((x) => (
+            <mesh key={x} position={[x, 1, 0.5]} castShadow>
+              <cylinderGeometry args={[0.1, 0.12, 2, 14]} />
+              <meshStandardMaterial color="#f7f3ea" roughness={0.5} />
+            </mesh>
+          ))}
+          {[-3, -2.2, 2.2, 3].map((x) => (
+            <mesh key={x} position={[x, 1.25, 0.41]}>
+              <planeGeometry args={[0.45, 0.8]} />
+              <meshStandardMaterial color="#5a6b82" roughness={0.3} />
+            </mesh>
+          ))}
+          {/* Drapeau */}
+          <mesh position={[0, 3.2, 0]}>
+            <cylinderGeometry args={[0.02, 0.02, 1.1, 8]} />
+            <meshStandardMaterial color="#888" />
+          </mesh>
+          {["#0055a4", "#ffffff", "#ef4135"].map((color, i) => (
+            <mesh key={color} position={[0.12 + i * 0.16, 3.55, 0]}>
+              <boxGeometry args={[0.16, 0.32, 0.01]} />
+              <meshStandardMaterial color={color} />
+            </mesh>
+          ))}
+        </group>
+        <group position={[0, 0, 1.2]}>
+          <Figurine spec={player} pose={won ? "wave" : "slump"} still={still} />
+        </group>
       </group>
     </StageCanvas>
   );

@@ -130,8 +130,7 @@ describe("Cohérence politique structurelle", () => {
       }
     }
     expect(checked).toBeGreaterThan(100);
-  }, // négociation stratégique ajoute un calcul de viabilité/fragmentation // PROMPT_CLAUDE_CODE_RECOMPOSITIONS_STRATEGIQUES_SOUTIENS_CHOCS.md — la
-  // réel par parti éligible et par décision ; ce test (60 campagnes de 80
+  }, // réel par parti éligible et par décision ; ce test (60 campagnes de 80 // négociation stratégique ajoute un calcul de viabilité/fragmentation // PROMPT_CLAUDE_CODE_RECOMPOSITIONS_STRATEGIQUES_SOUTIENS_CHOCS.md — la
   // décisions) reste sous 12 s isolé mais peut dépasser 20 s sous la
   // contention des autres fichiers de test exécutés en parallèle.
   40000);

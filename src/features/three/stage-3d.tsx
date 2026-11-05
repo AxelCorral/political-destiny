@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { type ComponentProps, type ReactNode, useSyncExternalStore } from "react";
+import { Component, type ComponentProps, type ReactNode, useSyncExternalStore } from "react";
 
 /**
  * Points d'entrée 3D chargés à la demande (client uniquement). Chaque scène est
@@ -36,10 +36,31 @@ function useEnabled() {
   );
 }
 
+/**
+ * Une scène 3D ne doit jamais faire tomber la partie : toute erreur (WebGL indisponible,
+ * contexte perdu, modèle illisible) masque simplement la scène.
+ */
+class SceneBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
+  override state = { failed: false };
+  static getDerivedStateFromError() {
+    return { failed: true };
+  }
+  override componentDidCatch(error: unknown) {
+    console.warn("Scène 3D désactivée après une erreur :", error);
+  }
+  override render() {
+    return this.state.failed ? null : this.props.children;
+  }
+}
+
 function Frame({ className, children }: { className: string; children: ReactNode }) {
   const enabled = useEnabled();
   if (!enabled) return null;
-  return <div className={className}>{children}</div>;
+  return (
+    <SceneBoundary>
+      <div className={className}>{children}</div>
+    </SceneBoundary>
+  );
 }
 
 export function CampaignStage3D(props: ComponentProps<typeof CampaignStageLazy>) {

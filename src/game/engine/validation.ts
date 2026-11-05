@@ -81,7 +81,7 @@ export function validateGameState(state: GameState): StateValidationResult {
     }
   }
 
-  if (state.qualifiedPartyIds?.[0] === state.qualifiedPartyIds?.[1]) {
+  if (state.qualifiedPartyIds && state.qualifiedPartyIds[0] === state.qualifiedPartyIds[1]) {
     errors.push("finalistes identiques");
   }
   if (state.phase === "finished" && !state.finalResult)

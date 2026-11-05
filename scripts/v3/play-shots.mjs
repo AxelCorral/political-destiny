@@ -8,6 +8,8 @@ const browser = await chromium.launch({
 });
 const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
 page.setDefaultTimeout(600000);
+page.on("pageerror", (e) => console.log("PAGEERROR:", String(e.stack ?? e).slice(0, 1200)));
+page.on("console", (m) => { if (m.type() === "error") console.log("CONSOLE:", m.text().slice(0, 600)); });
 const clickText = async (re) => {
   const el = page.getByRole("button", { name: re }).first();
   if (await el.isVisible().catch(() => false)) {
@@ -24,7 +26,7 @@ for (const re of [/J’ai compris/, /Tout aléatoire/, /Lancer la campagne/]) {
   await page.waitForTimeout(3000);
 }
 const shots = { campaign: false, debate: false, podium: false, elysee: false };
-for (let step = 0; step < 120 && !shots.elysee; step++) {
+for (let step = 0; step < 160 && !shots.elysee; step++) {
   const text = await page
     .locator("main, body")
     .first()
@@ -74,6 +76,17 @@ for (let step = 0; step < 120 && !shots.elysee; step++) {
         moved = true;
         break;
       }
+    }
+    if (!moved) {
+      moved = await page.evaluate(() => {
+        const wanted = [/Reprendre la campagne/, /Continuer/, /Entrer/, /Former/, /Découvrir/, /bilan/i, /second tour/i];
+        const buttons = [...document.querySelectorAll("button")].filter((b) => b.offsetParent !== null && !b.disabled);
+        for (const re of wanted) {
+          const hit = buttons.find((b) => re.test(b.textContent ?? ""));
+          if (hit) { hit.scrollIntoView(); hit.click(); return true; }
+        }
+        return false;
+      });
     }
     if (!moved) console.log("bloqué:", text.slice(0, 160).replace(/\s+/g, " "));
   }
