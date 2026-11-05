@@ -24,6 +24,7 @@ import { formatInteger, formatPercent, REGION_LABELS } from "@/lib/game-presenta
 import { cn } from "@/lib/utils";
 import { ShareResult } from "@/features/sharing/share-result";
 import { useGameStore } from "@/features/campaign/gameStore";
+import { ElyseeStage3D } from "@/features/three/stage-3d";
 
 /**
  * Narrative framing for progressionNormalized (P1 — see POST_AUDIT_FIXES.md
@@ -164,6 +165,9 @@ export function FinalScreen({ onReplay }: { onReplay: () => void | Promise<void>
           </div>
         </div>
       </section>
+      <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 lg:px-8 2xl:max-w-[90rem]">
+        <ElyseeStage3D state={state} />
+      </div>
 
       <main className="mx-auto max-w-7xl space-y-6 px-4 py-8 sm:px-6 sm:py-12 lg:px-8 2xl:max-w-[90rem]">
         <section

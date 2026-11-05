@@ -50,6 +50,8 @@ describe("démarrage d’une nouvelle campagne avec une sauvegarde active", () =
       soundEnabled: true,
       fictionNoticeSeen: true,
       analyticsConsent: "denied",
+      scenes3d: true,
+      tragicEvents: true,
     });
     const active = (await loadActiveGame()).state!;
     useGameStore.getState().restoreGame(active);

@@ -2,13 +2,13 @@ import { ArrowRight, BarChart3, CalendarDays, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { BRANDING } from "@/config/branding";
 import { ActiveCampaignCard } from "@/features/campaign/active-campaign-card";
 import { NewCampaignButton } from "@/features/campaign/new-campaign-button";
+import { HomeStage3D } from "@/features/three/stage-3d";
 
 const promises = [
-  { icon: CalendarDays, value: "1 année", label: "de campagne" },
+  { icon: CalendarDays, value: "8 mois", label: "de campagne" },
   { icon: BarChart3, value: "≈ 30", label: "décisions" },
   { icon: ShieldCheck, value: "100 % local", label: "sans compte" },
 ];
@@ -55,19 +55,11 @@ export default function HomePage() {
             </div>
           </div>
 
-          <Card className="relative overflow-hidden border-white/15 bg-white/[0.07] p-5 text-white shadow-2xl backdrop-blur-sm sm:p-7">
-            <div className="absolute right-0 top-0 h-24 w-24 rounded-bl-full bg-[var(--gold-400)]/15" />
-            <p className="text-xs font-black uppercase tracking-[0.17em] text-[var(--gold-300)]">
-              Bulletin de campagne · T − 365
-            </p>
-            <h2 className="mt-5 font-display text-3xl font-black uppercase">
-              Votre destin commence
-            </h2>
-            <p className="mt-3 text-slate-200">
-              Choisissez un mouvement existant, inventez le vôtre ou laissez la graine décider.
-              Chaque histoire est reproductible, jamais écrite d’avance.
-            </p>
-            <div className="mt-7 grid grid-cols-3 gap-2">
+          <div className="relative -mx-4 sm:mx-0">
+            <div className="overflow-hidden rounded-[1.5rem] border border-white/10 bg-[radial-gradient(circle_at_50%_40%,#f6efe2,#d9cbb3)] shadow-2xl">
+              <HomeStage3D />
+            </div>
+            <div className="mt-4 grid grid-cols-3 gap-2">
               {promises.map(({ icon: Icon, value, label }) => (
                 <div key={label} className="rounded-xl border border-white/10 bg-black/15 p-3">
                   <Icon aria-hidden="true" className="mb-3 size-5 text-[var(--gold-300)]" />
@@ -76,7 +68,7 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-          </Card>
+          </div>
         </div>
       </section>
 
@@ -84,9 +76,12 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="rounded-2xl border border-[var(--line)] bg-white/65 p-5 text-sm leading-relaxed text-[var(--ink-muted)] sm:p-6">
-          <strong className="text-[var(--ink)]">Simulation politique fictive.</strong> Les
-          scénarios, probabilités et résultats sont inventés pour le jeu. Le projet est indépendant,
-          sans affiliation avec un parti ou une personnalité, et ne constitue pas une prédiction.
+          <strong className="text-[var(--ink)]">Fiction satirique.</strong> Les candidats sont les
+          personnalités réellement déclarées pour 2027, représentées en figurines caricaturales. Les
+          péripéties, sondages, résultats et scénarios (primaires, désistements, inéligibilité…)
+          sont inventés pour le jeu : aucune citation ni accusation n’est attribuée à une personne
+          réelle. Le projet est indépendant, sans affiliation avec un parti, et ne constitue pas une
+          prédiction.
         </div>
       </section>
     </>

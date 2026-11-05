@@ -33,6 +33,10 @@ export interface LocalSettings {
    * merges it in as "unset" so older browsers default to no telemetry sent.
    */
   analyticsConsent: AnalyticsConsentState;
+  /** V3 — scènes 3D (diorama, débat, podium, Élysée). Désactivables sur les petits appareils. */
+  scenes3d: boolean;
+  /** V3 — attentats et catastrophes meurtrières dans les chocs extérieurs. */
+  tragicEvents: boolean;
 }
 
 /**
@@ -99,6 +103,8 @@ const DEFAULT_SETTINGS: LocalSettings = {
   // docs/analytics/PRIVACY.md for the reasoning (CNIL-style first-party
   // audience-measurement exemption, no cross-site tracking, no PII).
   analyticsConsent: "granted",
+  scenes3d: true,
+  tragicEvents: true,
 };
 
 let databasePromise: Promise<IDBPDatabase<GameDatabase>> | undefined;
@@ -462,6 +468,8 @@ export async function importLocalData(value: unknown): Promise<void> {
         reducedMotion: value.settings.reducedMotion === true,
         soundEnabled: value.settings.soundEnabled === true,
         fictionNoticeSeen: value.settings.fictionNoticeSeen === true,
+        scenes3d: value.settings.scenes3d !== false,
+        tragicEvents: value.settings.tragicEvents !== false,
         // Deliberately not carried over from the import: analytics consent
         // is a per-browser decision, not something to silently inherit from
         // another profile's export — it falls back to this device's own

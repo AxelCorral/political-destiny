@@ -14,6 +14,7 @@ import {
 import type { CSSProperties } from "react";
 import { useEffect, useRef, useState } from "react";
 
+import { CampaignStage3D, DebateStage3D, PodiumStage3D } from "@/features/three/stage-3d";
 import { track } from "@/analytics/client";
 import { PartyMark } from "@/components/game/party-mark";
 import { PollChart } from "@/components/game/poll-chart";
@@ -245,6 +246,11 @@ export function CampaignEventScreen({
       />
       <div className="mx-auto grid max-w-7xl gap-7 px-4 py-7 sm:px-6 sm:py-10 lg:grid-cols-[minmax(0,1fr)_19rem] lg:px-8 2xl:max-w-[90rem] 2xl:grid-cols-[minmax(0,1fr)_23rem] 2xl:gap-10">
         <main className="min-w-0">
+          {event.category === "debate" ? (
+            <DebateStage3D state={state} />
+          ) : (
+            <CampaignStage3D state={state} />
+          )}
           <EventDecisionCard
             key={event.id}
             event={event}
@@ -694,6 +700,7 @@ export function ElectionNightScreen({ round }: { round: 1 | 2 }) {
             graine de partie.
           </p>
         </div>
+        <PodiumStage3D state={state} result={result} />
         <div className="mt-10 grid gap-5 lg:grid-cols-[1fr_0.8fr]">
           <ElectionRanking result={result} state={state} />
           <Card className="p-5 text-[var(--ink)] sm:p-7">

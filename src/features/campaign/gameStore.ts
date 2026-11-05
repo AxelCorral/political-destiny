@@ -175,6 +175,10 @@ export const useGameStore = create<GameUiState>((set, get) => ({
           ...(setup.candidateName ? { candidateName: setup.candidateName } : {}),
           ...(setup.customParty ? { customParty: setup.customParty } : {}),
           ...(setup.candidateProfileId ? { candidateProfileId: setup.candidateProfileId } : {}),
+          // Préférence locale « Événements tragiques », reflétée sur <html> par LocalPreferences.
+          tragicEvents:
+            typeof document === "undefined" ||
+            document.documentElement.dataset.tragicEvents !== "false",
         },
         gameContent,
       );

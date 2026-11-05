@@ -48,7 +48,7 @@ const MODE_OPTIONS: Array<{
     icon: Landmark,
     title: "Un parti existant",
     description: "Prenez la tête d’un des neuf mouvements proposés.",
-    detail: "Identité réelle, candidats et scénarios fictifs",
+    detail: "Candidats réels, campagne de fiction",
   },
   {
     id: "custom_party",

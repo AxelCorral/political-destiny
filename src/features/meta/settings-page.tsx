@@ -48,6 +48,8 @@ export function SettingsPageClient() {
   const updateSettings = async (next: LocalSettings) => {
     setSettings(next);
     document.documentElement.dataset.reduceMotion = String(next.reducedMotion);
+    document.documentElement.dataset.scenes3d = String(next.scenes3d);
+    document.documentElement.dataset.tragicEvents = String(next.tragicEvents);
     await saveLocalSettings(next);
     setStatus("Préférences enregistrées sur cet appareil.");
   };
@@ -95,6 +97,8 @@ export function SettingsPageClient() {
       soundEnabled: false,
       fictionNoticeSeen: false,
       analyticsConsent: "granted",
+      scenes3d: true,
+      tragicEvents: true,
     });
     document.documentElement.dataset.reduceMotion = "false";
     setConfirmDelete(false);
@@ -133,6 +137,42 @@ export function SettingsPageClient() {
                     checked={settings.reducedMotion}
                     onChange={(event) =>
                       void updateSettings({ ...settings, reducedMotion: event.target.checked })
+                    }
+                    className="size-5 accent-[var(--blue-600)]"
+                  />
+                </label>
+              ) : null}
+              {settings ? (
+                <label className="mt-3 flex min-h-12 cursor-pointer items-center justify-between gap-4 rounded-xl border border-[var(--line)] bg-[var(--surface)] px-4">
+                  <span className="text-sm font-bold">
+                    Scènes 3D
+                    <span className="block text-xs font-normal text-[var(--ink-muted)]">
+                      À désactiver sur un appareil lent.
+                    </span>
+                  </span>
+                  <input
+                    type="checkbox"
+                    checked={settings.scenes3d}
+                    onChange={(event) =>
+                      void updateSettings({ ...settings, scenes3d: event.target.checked })
+                    }
+                    className="size-5 accent-[var(--blue-600)]"
+                  />
+                </label>
+              ) : null}
+              {settings ? (
+                <label className="mt-3 flex min-h-12 cursor-pointer items-center justify-between gap-4 rounded-xl border border-[var(--line)] bg-[var(--surface)] px-4">
+                  <span className="text-sm font-bold">
+                    Événements tragiques
+                    <span className="block text-xs font-normal text-[var(--ink-muted)]">
+                      Attentats et catastrophes dans les chocs extérieurs (nouvelles parties).
+                    </span>
+                  </span>
+                  <input
+                    type="checkbox"
+                    checked={settings.tragicEvents}
+                    onChange={(event) =>
+                      void updateSettings({ ...settings, tragicEvents: event.target.checked })
                     }
                     className="size-5 accent-[var(--blue-600)]"
                   />

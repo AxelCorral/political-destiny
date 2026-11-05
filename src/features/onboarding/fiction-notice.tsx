@@ -42,17 +42,19 @@ export function FictionNotice({ initiallySeen }: FictionNoticeProps) {
     >
       <div className="rounded-2xl bg-[var(--navy-950)] p-5 text-white sm:p-6">
         <ShieldCheck aria-hidden="true" className="size-8 text-[var(--gold-300)]" />
-        <p className="mt-4 text-base font-black">Simulation politique fictive.</p>
+        <p className="mt-4 text-base font-black">Fiction satirique.</p>
         <p className="mt-3 text-sm leading-relaxed text-slate-200">
-          Les événements, dialogues, probabilités, classements et résultats de ce jeu sont fictifs.
-          Ils ne constituent ni une prédiction électorale, ni une information officielle, ni un
-          soutien à un parti ou à une personnalité. Les paramètres de gameplay ne sont pas des
-          mesures objectives de valeur politique.
+          Les candidats sont les personnalités réellement déclarées pour 2027, mais la campagne n’a
+          jamais eu lieu : événements, décisions, sondages, primaires, désistements et résultats
+          sont inventés. Aucune citation ni accusation n’est attribuée à une personne réelle. Le jeu
+          ne constitue ni une prédiction électorale, ni une information officielle, ni un soutien à
+          un parti ou à une personnalité. Les paramètres de gameplay ne sont pas des mesures
+          objectives de valeur politique.
         </p>
       </div>
       <p className="mt-4 text-sm leading-relaxed text-[var(--ink-muted)]">
-        Les candidatures jouables sont fictives. Vos parties restent dans le stockage local de cet
-        appareil et peuvent être supprimées depuis les paramètres.
+        Les figurines sont des caricatures volontairement non réalistes. Vos parties restent dans le
+        stockage local de cet appareil et peuvent être supprimées depuis les paramètres.
       </p>
       <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-between">
         <Button asChild variant="ghost">
