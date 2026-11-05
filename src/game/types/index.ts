@@ -475,7 +475,37 @@ export interface WorldState {
   climateConcern: number;
   incumbentFatigue: number;
   turnoutMood: number;
-  dominantTheme: "economy" | "social" | "security" | "ecology" | "europe" | "services";
+  dominantTheme: CampaignTheme;
+  /** V3 — poids de chaque thème dans l'agenda (0-100). Absent des sauvegardes V2. */
+  salience?: Record<CampaignTheme, number>;
+  /** V3 — chocs extérieurs en cours (carburant, attentat, crise…). */
+  activeShocks?: ActiveShock[];
+  /** V3 — mouvements sociaux en cours, qui s'étendent de région en région. */
+  protests?: ProtestMovement[];
+}
+
+export type CampaignTheme = "economy" | "social" | "security" | "ecology" | "europe" | "services";
+
+export interface ActiveShock {
+  id: string;
+  theme: CampaignTheme;
+  /** 0-100 : intensité courante, décroît à chaque décision. */
+  intensity: number;
+  startedAtDecision: number;
+  remainingDecisions: number;
+  tragic: boolean;
+}
+
+export interface ProtestMovement {
+  id: string;
+  label: string;
+  theme: CampaignTheme;
+  regions: RegionId[];
+  intensity: number;
+  startedAtDecision: number;
+  remainingDecisions: number;
+  /** Position déclarée du joueur, si elle existe. */
+  playerStance?: "support" | "oppose" | "mediate" | "ignore";
 }
 
 export interface RngState {

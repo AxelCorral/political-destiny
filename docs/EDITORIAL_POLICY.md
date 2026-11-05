@@ -1,6 +1,25 @@
 # Politique éditoriale de la simulation
 
-Dernière revue : 5 août 2026.
+Dernière revue : 5 novembre 2026 (V3, casting réel).
+
+## Révision V3 — candidats réels, registre satirique
+
+Depuis la V3, les **candidats** à l'élection sont les personnalités réellement déclarées (voir `POLITICAL_BASELINE_2026-11.md`), représentées par des figurines caricaturales non réalistes. Le jeu reste une **fiction satirique** : il met en scène des candidats réels dans une campagne qui n'a pas eu lieu. Cette révision lève l'obligation de pseudonymiser les candidats, mais conserve toutes les interdictions de la section « Situations sensibles ».
+
+Autorisé pour un candidat réel :
+
+- prendre des décisions de campagne fictives (déplacements, alliances, programme, débat) ;
+- gagner ou perdre une primaire simulée, se désister, rallier un autre candidat, échouer aux parrainages — toujours présenté comme une issue de la simulation ;
+- subir un **scénario institutionnel ancré dans une procédure réelle et publique** (par exemple la décision attendue de la Cour de cassation sur l'inéligibilité de Marine Le Pen), formulé comme hypothèse (« Et si… »), avec la source de la procédure ;
+- être représenté en figurine : caricature douce par la coiffure, la tenue, les couleurs et la silhouette, sans moquerie physique, sans référence à la santé.
+
+Toujours interdit pour un candidat réel : crimes, délits, enquêtes ou accusations inventés ; affaires privées, financières ou sexuelles ; maladie ; violences ; toute citation entre guillemets, réelle ou inventée. Les scandales visent uniquement des cadres fictifs de l'entourage.
+
+Les tragédies (attentats, catastrophes) ne nomment ni auteur, ni groupe, ni victime réels, ne décrivent aucun détail violent et peuvent être désactivées dans les paramètres (« Événements tragiques »).
+
+Un avertissement « Fiction satirique » figure sur l'accueil, au lancement de chaque partie et sur le bilan partagé.
+
+Les règles ci-dessous restent en vigueur pour tout le reste (personnalités non candidates, médias, rumeurs, sources), à l'exception du principe qui rendait fictifs les candidats adverses.
 
 ## Principe
 
