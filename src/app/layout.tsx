@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: BRANDING.name,
     locale: "fr_FR",
     type: "website",
-    images: [{ url: "/og.png", width: 1280, height: 640, alt: BRANDING.name }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: BRANDING.name }],
   },
   twitter: { card: "summary_large_image" },
 };
