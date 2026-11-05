@@ -77,7 +77,7 @@ conception s'appuie sur :
 
 Les rapports d'audit (diagnostics, corrections, playtests scriptés, verdicts chiffrés) sont
 conservés dans le dépôt à la racine et dans `audit-results/`, `docs/` pour traçabilité — voir en
-particulier `STRATEGIC_REALIGNMENTS_REPORT.md` pour l'état le plus récent.
+particulier `docs/archive/STRATEGIC_REALIGNMENTS_REPORT.md` pour l'état le plus récent.
 
 ## Développement
 
@@ -90,7 +90,7 @@ résultats ont été pilotés par Axel Corral.
 Le projet se déploie sans backend sur Vercel avec `npm run build`. Le service worker met en cache
 l’interface après la première visite et les sauvegardes restent dans IndexedDB sur l’appareil.
 
-Les exigences détaillées et l’état d’avancement de la V1 initiale figurent dans `TODO.md`, à titre
+Les exigences détaillées et l’état d’avancement de la V1 initiale figurent dans `docs/archive/TODO.md`, à titre
 historique.
 
 ## État actuel
